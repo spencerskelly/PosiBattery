@@ -13,6 +13,7 @@ The vault ships with the tested plugin binaries from the MDSE baseline and has t
 | Templater | ID generation, folder-driven element templates |
 | QuickAdd | Optional fast creation/automation launcher |
 | Table Exporter | Export query tables for reviews and engineering handoffs |
+| Obsidian Git | Git pull/commit/push workflow for collaborative vault synchronization; not required for MDSE semantics |
 
 Core Obsidian `Canvas`, `Properties`, `Bases`, `Graph`, backlinks, and templates are also enabled.
 
@@ -25,3 +26,5 @@ Core Obsidian `Canvas`, `Properties`, `Bases`, `Graph`, backlinks, and templates
 5. Open `00_Home/MDSE Home.md`.
 
 No API key or cloud service is required for the MDSE core experience. QuickAdd online features are disabled.
+
+Obsidian Git is included as a repository synchronization convenience. Its automatic commit/pull/push timers are disabled by default so repository synchronization remains explicit.
