@@ -14,7 +14,8 @@
     "advanced-canvas",
     "table-exporter",
     "templater-obsidian",
-    "quickadd"
+    "quickadd",
+    "obsidian-git"
   ],
   "purpose": "domain-neutral MDSE starter for engineer and AI-assisted early modeling"
 }

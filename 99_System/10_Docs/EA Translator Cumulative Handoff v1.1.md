@@ -2,8 +2,8 @@
 title: EA to MDSE Translator — Cumulative Handoff
 shortTitle: EA → MDSE Translator Handoff
 documentType: Translator Reference
-status: PRIMARY-AMENDMENT-HANDOFF
-authority: Cumulative working reference; incorporates the v1.0 GSE baseline and explicitly approved amendments through 2026-09-04
+status: HISTORICAL-TRANSLATOR-HANDOFF
+authority: Historical cumulative EA translation reference through 2026-09-04; subordinate to the current MDSE ruleset and machine-readable schemas
 version: 1.1
 date: 2026-09-04
 baselineReference: EA_to_MDSE_Translator_Primary_Reference_v1.0_GSE
@@ -39,6 +39,8 @@ adds:
 ---
 
 # EA to MDSE Translator — Cumulative Handoff
+
+> **Current-authority notice:** This document preserves translator decisions and source-model interpretation history through 2026-09-04. For current MDSE modeling semantics, relationship vocabulary, and acceptance rules, `MDSE Modeling Ruleset 1.18`, `MDSE Metamodel`, and `99_System/03_Schemas` are authoritative. Where this handoff conflicts with those current sources, the current ruleset and schemas govern.
 
 > **PURPOSE OF THIS HANDOFF**
 >
