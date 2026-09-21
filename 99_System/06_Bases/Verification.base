@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.folder.startsWith("60_Verification")
+views:
+  - type: table
+    name: Verification Model
+    order: [id, file.name, type, kind, status, verifies, appliesTo, resultOf, outcome]

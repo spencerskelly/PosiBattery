@@ -1,0 +1,700 @@
+{
+  "is_dirty": false,
+  "edge_fields": [
+    {
+      "label": "addressedBy"
+    },
+    {
+      "label": "addresses"
+    },
+    {
+      "label": "affectedBy"
+    },
+    {
+      "label": "affects"
+    },
+    {
+      "label": "applies"
+    },
+    {
+      "label": "appliesTo"
+    },
+    {
+      "label": "behaviorOf"
+    },
+    {
+      "label": "carries"
+    },
+    {
+      "label": "causedBy"
+    },
+    {
+      "label": "causes"
+    },
+    {
+      "label": "connectedBy"
+    },
+    {
+      "label": "connects"
+    },
+    {
+      "label": "contextOf"
+    },
+    {
+      "label": "dependencyOf"
+    },
+    {
+      "label": "dependsOn"
+    },
+    {
+      "label": "derivedBy"
+    },
+    {
+      "label": "derivedFrom"
+    },
+    {
+      "label": "describedBy"
+    },
+    {
+      "label": "describes"
+    },
+    {
+      "label": "designOf"
+    },
+    {
+      "label": "dut"
+    },
+    {
+      "label": "endState"
+    },
+    {
+      "label": "endStateOf"
+    },
+    {
+      "label": "equipmentUsed"
+    },
+    {
+      "label": "evidenceFor"
+    },
+    {
+      "label": "exercisedBy"
+    },
+    {
+      "label": "exercises"
+    },
+    {
+      "label": "finalState"
+    },
+    {
+      "label": "flowsOn"
+    },
+    {
+      "label": "hasBehavior"
+    },
+    {
+      "label": "hasContext"
+    },
+    {
+      "label": "hasDesign"
+    },
+    {
+      "label": "hasEvidence"
+    },
+    {
+      "label": "hasInstance"
+    },
+    {
+      "label": "hasOption"
+    },
+    {
+      "label": "hasPart"
+    },
+    {
+      "label": "hasParticipant"
+    },
+    {
+      "label": "hasResult"
+    },
+    {
+      "label": "hasState"
+    },
+    {
+      "label": "hasStateMachine"
+    },
+    {
+      "label": "hasTransition"
+    },
+    {
+      "label": "initialState"
+    },
+    {
+      "label": "instanceOf"
+    },
+    {
+      "label": "operatingState"
+    },
+    {
+      "label": "operatingStateOf"
+    },
+    {
+      "label": "optionOf"
+    },
+    {
+      "label": "partOf"
+    },
+    {
+      "label": "participatesIn"
+    },
+    {
+      "label": "performedBy"
+    },
+    {
+      "label": "performs"
+    },
+    {
+      "label": "plannedDUTs"
+    },
+    {
+      "label": "providesEnvironment"
+    },
+    {
+      "label": "providesFixture"
+    },
+    {
+      "label": "providesInterfaceEquipment"
+    },
+    {
+      "label": "providesLoad"
+    },
+    {
+      "label": "providesMeter"
+    },
+    {
+      "label": "providesSource"
+    },
+    {
+      "label": "realizedBy"
+    },
+    {
+      "label": "realizes"
+    },
+    {
+      "label": "requiresEnvironment"
+    },
+    {
+      "label": "requiresFixture"
+    },
+    {
+      "label": "requiresInterfaceEquipment"
+    },
+    {
+      "label": "requiresLoad"
+    },
+    {
+      "label": "requiresMeter"
+    },
+    {
+      "label": "requiresSource"
+    },
+    {
+      "label": "resultOf"
+    },
+    {
+      "label": "satisfiedBy"
+    },
+    {
+      "label": "satisfies"
+    },
+    {
+      "label": "scopeRequirements"
+    },
+    {
+      "label": "sequence"
+    },
+    {
+      "label": "source"
+    },
+    {
+      "label": "sourceOf"
+    },
+    {
+      "label": "startState"
+    },
+    {
+      "label": "startStateOf"
+    },
+    {
+      "label": "stateMachineOf"
+    },
+    {
+      "label": "stateOf"
+    },
+    {
+      "label": "subject"
+    },
+    {
+      "label": "subjectOf"
+    },
+    {
+      "label": "subtypeOf"
+    },
+    {
+      "label": "supersededBy"
+    },
+    {
+      "label": "supersedes"
+    },
+    {
+      "label": "supertypeOf"
+    },
+    {
+      "label": "target"
+    },
+    {
+      "label": "targetOf"
+    },
+    {
+      "label": "tracesFrom"
+    },
+    {
+      "label": "tracesTo"
+    },
+    {
+      "label": "transitionOf"
+    },
+    {
+      "label": "trigger"
+    },
+    {
+      "label": "usedByPlan"
+    },
+    {
+      "label": "usesSetup"
+    },
+    {
+      "label": "verifiedBy"
+    },
+    {
+      "label": "verifies"
+    },
+    {
+      "label": "conflictsWith"
+    }
+  ],
+  "edge_field_groups": [
+    {
+      "label": "Generalization & composition",
+      "fields": [
+        "subtypeOf",
+        "supertypeOf",
+        "hasPart",
+        "partOf",
+        "instanceOf",
+        "hasInstance"
+      ]
+    },
+    {
+      "label": "Dependencies & provenance",
+      "fields": [
+        "dependsOn",
+        "dependencyOf",
+        "derivedFrom",
+        "derivedBy",
+        "supersedes",
+        "supersededBy",
+        "describes",
+        "describedBy",
+        "tracesTo",
+        "tracesFrom"
+      ]
+    },
+    {
+      "label": "Architecture & behavior",
+      "fields": [
+        "performs",
+        "performedBy",
+        "hasDesign",
+        "designOf",
+        "hasStateMachine",
+        "stateMachineOf",
+        "hasContext",
+        "contextOf",
+        "hasBehavior",
+        "behaviorOf"
+      ]
+    },
+    {
+      "label": "Requirements",
+      "fields": [
+        "appliesTo",
+        "applies",
+        "satisfies",
+        "satisfiedBy",
+        "verifies",
+        "verifiedBy"
+      ]
+    },
+    {
+      "label": "Use cases",
+      "fields": [
+        "subject",
+        "subjectOf",
+        "hasParticipant",
+        "participatesIn",
+        "realizedBy",
+        "realizes",
+        "optionOf",
+        "hasOption"
+      ]
+    },
+    {
+      "label": "Interfaces & flows",
+      "fields": [
+        "connects",
+        "connectedBy",
+        "carries",
+        "flowsOn",
+        "source",
+        "sourceOf",
+        "target",
+        "targetOf"
+      ]
+    },
+    {
+      "label": "States & transitions",
+      "fields": [
+        "hasState",
+        "stateOf",
+        "hasTransition",
+        "transitionOf",
+        "initialState",
+        "finalState",
+        "trigger"
+      ]
+    },
+    {
+      "label": "Verification",
+      "fields": [
+        "startState",
+        "startStateOf",
+        "endState",
+        "endStateOf",
+        "operatingState",
+        "operatingStateOf",
+        "exercises",
+        "exercisedBy",
+        "usesSetup",
+        "usedByPlan",
+        "resultOf",
+        "hasResult",
+        "hasEvidence",
+        "evidenceFor",
+        "sequence",
+        "plannedDUTs",
+        "scopeRequirements",
+        "dut",
+        "equipmentUsed",
+        "providesSource",
+        "providesLoad",
+        "providesMeter",
+        "providesInterfaceEquipment",
+        "providesEnvironment",
+        "providesFixture",
+        "requiresSource",
+        "requiresLoad",
+        "requiresMeter",
+        "requiresInterfaceEquipment",
+        "requiresEnvironment",
+        "requiresFixture"
+      ]
+    },
+    {
+      "label": "Failure & issues",
+      "fields": [
+        "addresses",
+        "addressedBy",
+        "affects",
+        "affectedBy",
+        "causes",
+        "causedBy"
+      ]
+    }
+  ],
+  "implied_relations": {
+    "transitive": []
+  },
+  "explicit_edge_sources": {
+    "typed_link": {},
+    "list_note": {
+      "default_neighbour_field": "hasPart"
+    },
+    "tag_note": {
+      "default_field": "subtypeOf",
+      "default_sibling_field": ""
+    },
+    "regex_note": {
+      "default_field": "subtypeOf"
+    },
+    "dendron_note": {
+      "enabled": false,
+      "delimiter": ".",
+      "default_field": "subtypeOf",
+      "default_sibling_field": "",
+      "display_trimmed": false
+    },
+    "johnny_decimal_note": {
+      "enabled": false,
+      "delimiter": ".",
+      "default_field": "subtypeOf",
+      "default_sibling_field": ""
+    },
+    "date_note": {
+      "enabled": false,
+      "date_format": "yyyy-MM-dd",
+      "default_field": "hasPart",
+      "stretch_to_existing": false,
+      "week": {
+        "enabled": false,
+        "date_format": "kkkk-'W'WW",
+        "folder": "",
+        "next_field": "hasPart",
+        "up_field": "partOf"
+      },
+      "month": {
+        "enabled": false,
+        "date_format": "yyyy-MM",
+        "folder": "",
+        "next_field": "hasPart",
+        "up_field": "partOf"
+      },
+      "quarter": {
+        "enabled": false,
+        "date_format": "yyyy-'Q'q",
+        "folder": "",
+        "next_field": "hasPart",
+        "up_field": "partOf"
+      },
+      "year": {
+        "enabled": false,
+        "date_format": "yyyy",
+        "folder": "",
+        "next_field": "hasPart",
+        "up_field": "partOf"
+      },
+      "week_start": "sunday"
+    },
+    "traverse_note": {
+      "default_field": "hasPart"
+    },
+    "dataview_note": {
+      "default_field": "hasPart"
+    }
+  },
+  "views": {
+    "page": {
+      "all": {
+        "sticky": false
+      },
+      "trail": {
+        "enabled": true,
+        "format": "grid",
+        "selection": "all",
+        "default_depth": 2,
+        "no_path_message": "",
+        "show_controls": true,
+        "merge_fields": false,
+        "field_group_labels": [],
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        }
+      },
+      "prev_next": {
+        "enabled": false,
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "field_group_labels": {
+          "prev": [],
+          "next": []
+        },
+        "period_rows": {
+          "week": false,
+          "month": false,
+          "quarter": false,
+          "year": false
+        }
+      }
+    },
+    "side": {
+      "matrix": {
+        "collapse": false,
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "custom_sort_fields": false,
+        "custom_sort_field_labels": [],
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "show_attributes": [
+          "field",
+          "source",
+          "implied_kind",
+          "round"
+        ],
+        "field_group_labels": [
+          "Generalization & composition",
+          "Dependencies & provenance",
+          "Architecture & behavior",
+          "Requirements",
+          "Use cases",
+          "Interfaces & flows",
+          "States & transitions",
+          "Verification",
+          "Failure & issues"
+        ],
+        "lock_view": false,
+        "lock_path": ""
+      },
+      "tree": {
+        "collapse": false,
+        "show_attributes": [
+          "field"
+        ],
+        "merge_fields": true,
+        "default_depth": 3,
+        "lock_view": false,
+        "lock_path": "",
+        "field_group_labels": [
+          "Generalization & composition",
+          "Dependencies & provenance",
+          "Architecture & behavior",
+          "Requirements",
+          "Use cases",
+          "Interfaces & flows",
+          "States & transitions",
+          "Verification",
+          "Failure & issues"
+        ],
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "find_root": false,
+        "find_root_field_group_labels": [
+          "Generalization & composition"
+        ]
+      }
+    },
+    "codeblocks": {
+      "show_node_options": {
+        "ext": false,
+        "folder": false,
+        "alias": false
+      }
+    }
+  },
+  "commands": {
+    "rebuild_graph": {
+      "notify": true,
+      "trigger": {
+        "note_save": true,
+        "layout_change": true
+      }
+    },
+    "list_index": {
+      "default_options": {
+        "hierarchy_note": null,
+        "field": null,
+        "depth": [
+          0,
+          3
+        ],
+        "flat": false,
+        "link_kind": "wiki",
+        "indent": "\t",
+        "show_attributes": [],
+        "fields": [],
+        "field_group_labels": [],
+        "edge_sort_id": {
+          "order": 1,
+          "field": "basename"
+        },
+        "show_node_options": {
+          "ext": false,
+          "alias": true,
+          "folder": false
+        }
+      }
+    },
+    "freeze_implied_edges": {
+      "default_options": {
+        "destination": "frontmatter",
+        "included_fields": [],
+        "use_alias": true
+      }
+    },
+    "thread": {
+      "default_options": {
+        "destination": "frontmatter",
+        "target_path_template": "{{source.folder}}/{{attr.field}} {{source.basename}}"
+      }
+    },
+    "create_canvas": {
+      "default_options": {
+        "target_path_template": "{{source.folder}}/{{source.basename}} canvas",
+        "depth": 3,
+        "fields": [],
+        "field_group_labels": [
+          "Generalization & composition",
+          "Dependencies & provenance",
+          "Architecture & behavior",
+          "Requirements",
+          "Use cases",
+          "Interfaces & flows",
+          "States & transitions",
+          "Verification",
+          "Failure & issues"
+        ],
+        "direction": "LR"
+      }
+    },
+    "edge_audit": {
+      "report_path": "99_System/01_Admin/Breadcrumbs Edge Audit.md",
+      "ignore_paths": [
+        "99_System",
+        "98_Examples"
+      ]
+    }
+  },
+  "suggestors": {
+    "edge_field": {
+      "enabled": true,
+      "trigger": "."
+    }
+  },
+  "debug": {
+    "level": "INFO"
+  },
+  "_bc_migrations": {
+    "tree_ups_with_downs_default": true,
+    "tree_find_root_default": true
+  },
+  "self_is_sibling": [],
+  "exclude_folders": [
+    "99_System",
+    "98_Examples"
+  ]
+}

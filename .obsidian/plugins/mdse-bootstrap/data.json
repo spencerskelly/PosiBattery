@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "completedAt": "2026-09-01T18:34:26.243Z",
+  "versions": {
+    "breadcrumbs": "4.21.11",
+    "dataview": "0.5.68",
+    "nodian": "1.4.14",
+    "fileclass": "0.2.15",
+    "advanced-canvas": "7.0.0",
+    "table-exporter": "0.3.0",
+    "templater-obsidian": "2.25.0",
+    "quickadd": "2.23.0"
+  }
+}

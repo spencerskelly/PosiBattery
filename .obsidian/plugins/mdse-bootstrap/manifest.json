@@ -1,0 +1,9 @@
+{
+  "id": "mdse-bootstrap",
+  "name": "MDSE Bootstrap",
+  "version": "0.2.0",
+  "minAppVersion": "1.13.2",
+  "description": "Installs the MDSE plugin stack, reconciles bidirectional model relationships, and keeps Canvas relationship edges visible.",
+  "author": "MDSE Project",
+  "isDesktopOnly": false
+}

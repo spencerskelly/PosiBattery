@@ -1,0 +1,479 @@
+schemaVersion: '1.1'
+date: '2026-09-20'
+basis: MDSE methodology generated 2026-09-09 / ruleset 1.18
+commonProperties:
+- id
+- type
+- status
+- control
+- boundary
+- tags
+- aliases
+- formerIds
+guidance:
+  folder: Class folder identifies the top-level model area only; semantic subfolders are navigation and do not change element type.
+  control: Use controlled, modifiable, contextual, or reference independently from semantic type and boundary.
+  inverseFields: Generated inverse relationship fields are derivative YAML governed by relationships.yaml.
+classes:
+- name: Thing
+  prefix: THG
+  folder: 10_Things
+  kind:
+  - electrical
+  - circuit
+  - mechanical
+  - software
+  - firmware
+  forwardFields:
+  - kind
+  - boundary
+  - productLine
+  - specs
+  - propertyDefinitions
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - instanceOf
+  - performs
+  - hasDesign
+  - hasStateMachine
+  - hasContext
+  - addresses
+- name: Interface
+  prefix: INT
+  folder: 20_Interfaces
+  kind:
+  - electrical & material
+  - data
+  - mechanical
+  - generic physical
+  - environmental
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - connects
+  - carries
+- name: Item Flow
+  prefix: IFLOW
+  folder: 21_Item_Flows
+  kind:
+  - information
+  - energy
+  - material
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - source
+  - target
+- name: Context
+  prefix: CTX
+  folder: 25_Contexts
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+- name: Function
+  prefix: FUNC
+  folder: 30_Functions
+  kind:
+  - system
+  - hardware
+  - software
+  - module
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - hasBehavior
+  - satisfies
+  - addresses
+- name: Functional Flow
+  prefix: FFLOW
+  folder: 31_Functional_Flows
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+- name: State
+  prefix: STATE
+  folder: 35_States
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - hasBehavior
+- name: State Machine
+  prefix: SM
+  folder: 36_State_Machines
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - hasState
+  - hasTransition
+  - initialState
+  - finalState
+- name: Transition
+  prefix: TRANS
+  folder: 37_Transitions
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - source
+  - target
+  - trigger
+- name: Requirement
+  prefix: REQ
+  folder: 40_Requirements
+  kind:
+  - functional
+  - design
+  - standard
+  - stakeholder
+  forwardFields:
+  - kind
+  - markets
+  - designation
+  - contentType
+  - applicabilityStatus
+  - applicabilityComment
+  - stakeholderId
+  - priority
+  - engineeringComment
+  - origin
+  - productManagementComment
+  - salesComment
+  - userStory
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - appliesTo
+- name: Design
+  prefix: DES
+  folder: 41_Designs
+  kind:
+  - characteristic
+  - decision
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - satisfies
+  - addresses
+- name: Use Case
+  prefix: UC
+  folder: 45_Use_Cases
+  kind:
+  - what
+  - where
+  - why
+  - when
+  forwardFields:
+  - kind
+  - markets
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - subject
+  - hasParticipant
+  - realizedBy
+  - optionOf
+  - causes
+- name: Actor
+  prefix: ACT
+  folder: 47_Actors
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+- name: Failure Mode
+  prefix: FM
+  folder: 50_Failure_Modes
+  kind: []
+  forwardFields:
+  - kind
+  - occurrence
+  - severity
+  - detection
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - appliesTo
+  - causes
+- name: Issue
+  prefix: ISS
+  folder: 51_Issues
+  kind:
+  - engineering issue
+  - lifecycle risk
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - affects
+  - causes
+- name: Info
+  prefix: INFO
+  folder: 55_Info
+  kind:
+  - need
+  - objective
+  - concern
+  - decision
+  - assumption
+  - rationale
+  - finding
+  - analysis
+  - trade study
+  - calculation
+  - milestone
+  - lesson learned
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+- name: Step
+  prefix: STEP
+  folder: 60_Verification/01_Steps
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - appliesTo
+  - startState
+  - endState
+  - requiresSource
+  - requiresLoad
+  - requiresMeter
+  - requiresInterfaceEquipment
+  - requiresEnvironment
+  - requiresFixture
+- name: Verification
+  prefix: VER
+  folder: 60_Verification/02_Verifications
+  kind:
+  - test
+  - analysis
+  - inspection
+  - demonstration
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - appliesTo
+  - verifies
+  - startState
+  - endState
+  - operatingState
+  - exercises
+  - requiresSource
+  - requiresLoad
+  - requiresMeter
+  - requiresInterfaceEquipment
+  - requiresEnvironment
+  - requiresFixture
+- name: Procedure
+  prefix: PROC
+  folder: 60_Verification/03_Procedures
+  kind:
+  - test
+  - assembly
+  - configuration
+  - commissioning
+  - calibration
+  - maintenance
+  - repair
+  - decommissioning
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - appliesTo
+  - sequence
+- name: Setup
+  prefix: SETUP
+  folder: 60_Verification/04_Setups
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - providesSource
+  - providesLoad
+  - providesMeter
+  - providesInterfaceEquipment
+  - providesEnvironment
+  - providesFixture
+- name: Plan
+  prefix: PLAN
+  folder: 60_Verification/05_Plans
+  kind: []
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - usesSetup
+  - sequence
+  - plannedDUTs
+  - scopeRequirements
+- name: Result
+  prefix: RES
+  folder: 60_Verification/06_Results
+  kind: []
+  forwardFields:
+  - kind
+  - outcome
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+  - resultOf
+  - hasEvidence
+  - dut
+  - equipmentUsed
+- name: Document
+  prefix: DOC
+  folder: 70_Documents
+  kind:
+  - standard
+  - specification
+  - report
+  - drawing
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo
+- name: Artifact
+  prefix: ART
+  folder: 71_Artifacts
+  kind:
+  - image
+  - document
+  forwardFields:
+  - kind
+  - subtypeOf
+  - hasPart
+  - dependsOn
+  - derivedFrom
+  - supersedes
+  - describes
+  - tracesTo

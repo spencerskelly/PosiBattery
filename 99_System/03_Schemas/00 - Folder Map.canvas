@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "id": "h",
+      "type": "text",
+      "text": "# 03 Schemas\nLocal folder navigation",
+      "x": 0,
+      "y": 0,
+      "width": 520,
+      "height": 110
+    }
+  ],
+  "edges": []
+}

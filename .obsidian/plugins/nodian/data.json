@@ -1,0 +1,230 @@
+{
+  "pairs": [
+    {
+      "fieldA": "subtypeOf",
+      "fieldB": "supertypeOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasPart",
+      "fieldB": "partOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "dependsOn",
+      "fieldB": "dependencyOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "derivedFrom",
+      "fieldB": "derivedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "supersedes",
+      "fieldB": "supersededBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "describes",
+      "fieldB": "describedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "tracesTo",
+      "fieldB": "tracesFrom",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "instanceOf",
+      "fieldB": "hasInstance",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "performs",
+      "fieldB": "performedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasDesign",
+      "fieldB": "designOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasStateMachine",
+      "fieldB": "stateMachineOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasContext",
+      "fieldB": "contextOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasBehavior",
+      "fieldB": "behaviorOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "appliesTo",
+      "fieldB": "applies",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "satisfies",
+      "fieldB": "satisfiedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "verifies",
+      "fieldB": "verifiedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "subject",
+      "fieldB": "subjectOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasParticipant",
+      "fieldB": "participatesIn",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "realizedBy",
+      "fieldB": "realizes",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "optionOf",
+      "fieldB": "hasOption",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "connects",
+      "fieldB": "connectedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "carries",
+      "fieldB": "flowsOn",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "source",
+      "fieldB": "sourceOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "target",
+      "fieldB": "targetOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasState",
+      "fieldB": "stateOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasTransition",
+      "fieldB": "transitionOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "startState",
+      "fieldB": "startStateOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "endState",
+      "fieldB": "endStateOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "operatingState",
+      "fieldB": "operatingStateOf",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "exercises",
+      "fieldB": "exercisedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "addresses",
+      "fieldB": "addressedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "affects",
+      "fieldB": "affectedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "causes",
+      "fieldB": "causedBy",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "usesSetup",
+      "fieldB": "usedByPlan",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "resultOf",
+      "fieldB": "hasResult",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "hasEvidence",
+      "fieldB": "evidenceFor",
+      "tagA": "model",
+      "tagB": "model"
+    },
+    {
+      "fieldA": "conflictsWith",
+      "fieldB": "conflictsWith",
+      "tagA": "model",
+      "tagB": "model"
+    }
+  ],
+  "autoSync": true,
+  "useDisplayName": false,
+  "showRibbonSyncButton": true,
+  "debug": false
+}

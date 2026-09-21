@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.folder == "10_Things"
+views:
+  - type: table
+    name: Folder Contents
+    order: [file.name, id, type, kind, control, status]

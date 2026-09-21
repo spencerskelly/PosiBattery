@@ -1,0 +1,119 @@
+{
+  "data_version": 2,
+  "command_timeout": 5,
+  "templates_folder": "99_System/05_Templates",
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
+  "auto_jump_to_cursor": false,
+  "jump_to_cursor_after_file_name": false,
+  "shell_path": "",
+  "user_scripts_folder": "99_System/08_Scripts/01_Templater",
+  "folder_templates": [
+    {
+      "folder": "10_Things",
+      "template": "99_System/05_Templates/Thing.md"
+    },
+    {
+      "folder": "20_Interfaces",
+      "template": "99_System/05_Templates/Interface.md"
+    },
+    {
+      "folder": "21_Item_Flows",
+      "template": "99_System/05_Templates/Item Flow.md"
+    },
+    {
+      "folder": "25_Contexts",
+      "template": "99_System/05_Templates/Context.md"
+    },
+    {
+      "folder": "30_Functions",
+      "template": "99_System/05_Templates/Function.md"
+    },
+    {
+      "folder": "31_Functional_Flows",
+      "template": "99_System/05_Templates/Functional Flow.md"
+    },
+    {
+      "folder": "35_States",
+      "template": "99_System/05_Templates/State.md"
+    },
+    {
+      "folder": "36_State_Machines",
+      "template": "99_System/05_Templates/State Machine.md"
+    },
+    {
+      "folder": "37_Transitions",
+      "template": "99_System/05_Templates/Transition.md"
+    },
+    {
+      "folder": "40_Requirements",
+      "template": "99_System/05_Templates/Requirement.md"
+    },
+    {
+      "folder": "41_Designs",
+      "template": "99_System/05_Templates/Design.md"
+    },
+    {
+      "folder": "45_Use_Cases",
+      "template": "99_System/05_Templates/Use Case.md"
+    },
+    {
+      "folder": "47_Actors",
+      "template": "99_System/05_Templates/Actor.md"
+    },
+    {
+      "folder": "50_Failure_Modes",
+      "template": "99_System/05_Templates/Failure Mode.md"
+    },
+    {
+      "folder": "51_Issues",
+      "template": "99_System/05_Templates/Issue.md"
+    },
+    {
+      "folder": "55_Info",
+      "template": "99_System/05_Templates/Info.md"
+    },
+    {
+      "folder": "60_Verification/01_Steps",
+      "template": "99_System/05_Templates/Step.md"
+    },
+    {
+      "folder": "60_Verification/02_Verifications",
+      "template": "99_System/05_Templates/Verification.md"
+    },
+    {
+      "folder": "60_Verification/03_Procedures",
+      "template": "99_System/05_Templates/Procedure.md"
+    },
+    {
+      "folder": "60_Verification/04_Setups",
+      "template": "99_System/05_Templates/Setup.md"
+    },
+    {
+      "folder": "60_Verification/05_Plans",
+      "template": "99_System/05_Templates/Plan.md"
+    },
+    {
+      "folder": "60_Verification/06_Results",
+      "template": "99_System/05_Templates/Result.md"
+    },
+    {
+      "folder": "70_Documents",
+      "template": "99_System/05_Templates/Document.md"
+    },
+    {
+      "folder": "71_Artifacts",
+      "template": "99_System/05_Templates/Artifact.md"
+    }
+  ],
+  "file_templates": [],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": [
+    "99_System",
+    "98_Examples"
+  ]
+}

@@ -1,0 +1,8 @@
+filters:
+  and:
+    - id != null
+    - type != null
+views:
+  - type: table
+    name: All Elements
+    order: [id, file.name, type, kind, status]

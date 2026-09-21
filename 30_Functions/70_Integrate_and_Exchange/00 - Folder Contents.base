@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.folder == "30_Functions/70_Integrate_and_Exchange"
+views:
+  - type: table
+    name: Folder Contents
+    order: [file.name, id, type, kind, control, status]
