@@ -1,8 +1,8 @@
 ---
 title: EA to MDSE Translator — Primary Reference
 documentType: Translator Reference
-status: PRIMARY
-authority: Primary reference unless explicitly amended or superseded
+status: HISTORICAL-TRANSLATOR-REFERENCE
+authority: Historical EA translation reference; subordinate to the current MDSE ruleset and machine-readable schemas
 version: 1.0
 date: 2026-09-03
 sourcePackageReviewed: GSE
@@ -13,7 +13,11 @@ amends: []
 
 # EA to MDSE Translator — Primary Reference
 
-> **PRIMARY REFERENCE**
+> **HISTORICAL TRANSLATOR REFERENCE**
+>
+> For current MDSE modeling semantics, relationship vocabulary, and acceptance rules, `MDSE Modeling Ruleset 1.18`, `MDSE Metamodel`, and the machine-readable schemas in `99_System/03_Schemas` are authoritative. Where this historical translator reference conflicts with the current ruleset or schemas, the current ruleset and schemas govern.
+>
+> **Original translator precedence statement:**
 >
 > This document is the authoritative working reference for the EA → MDSE/Obsidian translator unless a later reference document **explicitly states that it amends or supersedes a specific rule in this document**.
 >
