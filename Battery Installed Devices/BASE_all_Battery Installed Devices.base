@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.path.startsWith("Battery Installed Devices/")
+views:
+  - type: table
+    name: All installed-device reference
+    order:
+      - file.name
+      - type
+      - subtype
+      - id
+      - status

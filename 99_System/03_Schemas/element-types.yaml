@@ -1,479 +1,88 @@
-schemaVersion: '1.1'
-date: '2026-09-20'
-basis: MDSE methodology generated 2026-09-09 / ruleset 1.18
-commonProperties:
-- id
-- type
-- status
-- control
-- boundary
-- tags
-- aliases
-- formerIds
-guidance:
-  folder: Class folder identifies the top-level model area only; semantic subfolders are navigation and do not change element type.
-  control: Use controlled, modifiable, contextual, or reference independently from semantic type and boundary.
-  inverseFields: Generated inverse relationship fields are derivative YAML governed by relationships.yaml.
+schemaVersion: '1.17'
+date: '2026-10-02'
+basis: MDSE ruleset 1.23
+commonProperties: [type, subtype, id, uid, status, tags]   # order fixed by W-97
+optionalProperties:
+  - name: abstract
+    value: boolean
+    default: false
+    omitWhenDefault: true
+    meaning: "Reusable definition may organize/generalize a specialization family but cannot itself be selected as the effective definition of an occurrence. Abstractness is not inherited (W-314/W-319)."
+relationshipFields: after governed optional properties (or after tags when none are present), in the order of relationships.yaml; may hold lists (W-126, W-319)
+translatedOnlyProperties: [eaType]   # written by the translator, between status and tags (W-31, W-97)
 classes:
-- name: Thing
-  prefix: THG
-  folder: 10_Things
-  kind:
-  - electrical
-  - circuit
-  - mechanical
-  - software
-  - firmware
-  forwardFields:
-  - kind
-  - boundary
-  - productLine
-  - specs
-  - propertyDefinitions
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - instanceOf
-  - performs
-  - hasDesign
-  - hasStateMachine
-  - hasContext
-  - addresses
-- name: Interface
-  prefix: INT
-  folder: 20_Interfaces
-  kind:
-  - electrical & material
-  - data
-  - mechanical
-  - generic physical
-  - environmental
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - connects
-  - carries
+- name: Object
+  prefix: OBJ
+  subtype: ["electrical", "circuit", "mechanical", "software", "firmware", "part"]
+- name: Port
+  prefix: PORT
+  subtype: ["proxy", "full"]
 - name: Item Flow
   prefix: IFLOW
-  folder: 21_Item_Flows
-  kind:
-  - information
-  - energy
-  - material
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - source
-  - target
-- name: Context
-  prefix: CTX
-  folder: 25_Contexts
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: ["information", "energy", "material"]
 - name: Function
   prefix: FUNC
-  folder: 30_Functions
-  kind:
-  - system
-  - hardware
-  - software
-  - module
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - hasBehavior
-  - satisfies
-  - addresses
+  subtype: []
 - name: Functional Flow
   prefix: FFLOW
-  folder: 31_Functional_Flows
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: []
 - name: State
   prefix: STATE
-  folder: 35_States
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - hasBehavior
+  subtype: []
 - name: State Machine
   prefix: SM
-  folder: 36_State_Machines
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - hasState
-  - hasTransition
-  - initialState
-  - finalState
-- name: Transition
-  prefix: TRANS
-  folder: 37_Transitions
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - source
-  - target
-  - trigger
+  subtype: []
 - name: Requirement
   prefix: REQ
-  folder: 40_Requirements
-  kind:
-  - functional
-  - design
-  - standard
-  - stakeholder
-  forwardFields:
-  - kind
-  - markets
-  - designation
-  - contentType
-  - applicabilityStatus
-  - applicabilityComment
-  - stakeholderId
-  - priority
-  - engineeringComment
-  - origin
-  - productManagementComment
-  - salesComment
-  - userStory
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - appliesTo
+  subtype: ["functional", "design", "standard", "stakeholder", "engineering"]
 - name: Design
   prefix: DES
-  folder: 41_Designs
-  kind:
-  - characteristic
-  - decision
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - satisfies
-  - addresses
+  subtype: []
 - name: Use Case
   prefix: UC
-  folder: 45_Use_Cases
-  kind:
-  - what
-  - where
-  - why
-  - when
-  forwardFields:
-  - kind
-  - markets
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - subject
-  - hasParticipant
-  - realizedBy
-  - optionOf
-  - causes
+  subtype: ["what", "where", "why", "when", "who"]
 - name: Actor
   prefix: ACT
-  folder: 47_Actors
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: []
 - name: Failure Mode
   prefix: FM
-  folder: 50_Failure_Modes
-  kind: []
-  forwardFields:
-  - kind
-  - occurrence
-  - severity
-  - detection
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - appliesTo
-  - causes
+  subtype: []
 - name: Issue
   prefix: ISS
-  folder: 51_Issues
-  kind:
-  - engineering issue
-  - lifecycle risk
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - affects
-  - causes
+  subtype: ["engineering issue", "lifecycle risk"]
 - name: Info
   prefix: INFO
-  folder: 55_Info
-  kind:
-  - need
-  - objective
-  - concern
-  - decision
-  - assumption
-  - rationale
-  - finding
-  - analysis
-  - trade study
-  - calculation
-  - milestone
-  - lesson learned
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: []
 - name: Step
   prefix: STEP
-  folder: 60_Verification/01_Steps
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - appliesTo
-  - startState
-  - endState
-  - requiresSource
-  - requiresLoad
-  - requiresMeter
-  - requiresInterfaceEquipment
-  - requiresEnvironment
-  - requiresFixture
+  subtype: []
 - name: Verification
   prefix: VER
-  folder: 60_Verification/02_Verifications
-  kind:
-  - test
-  - analysis
-  - inspection
-  - demonstration
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - appliesTo
-  - verifies
-  - startState
-  - endState
-  - operatingState
-  - exercises
-  - requiresSource
-  - requiresLoad
-  - requiresMeter
-  - requiresInterfaceEquipment
-  - requiresEnvironment
-  - requiresFixture
+  subtype: ["test", "analysis", "inspection", "demonstration"]
 - name: Procedure
   prefix: PROC
-  folder: 60_Verification/03_Procedures
-  kind:
-  - test
-  - assembly
-  - configuration
-  - commissioning
-  - calibration
-  - maintenance
-  - repair
-  - decommissioning
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - appliesTo
-  - sequence
+  subtype: ["test", "assembly", "configuration", "commissioning", "calibration", "maintenance", "repair", "decommissioning"]
 - name: Setup
   prefix: SETUP
-  folder: 60_Verification/04_Setups
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - providesSource
-  - providesLoad
-  - providesMeter
-  - providesInterfaceEquipment
-  - providesEnvironment
-  - providesFixture
+  subtype: []
 - name: Plan
   prefix: PLAN
-  folder: 60_Verification/05_Plans
-  kind: []
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - usesSetup
-  - sequence
-  - plannedDUTs
-  - scopeRequirements
+  subtype: []
 - name: Result
   prefix: RES
-  folder: 60_Verification/06_Results
-  kind: []
-  forwardFields:
-  - kind
-  - outcome
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
-  - resultOf
-  - hasEvidence
-  - dut
-  - equipmentUsed
+  subtype: []
 - name: Document
   prefix: DOC
-  folder: 70_Documents
-  kind:
-  - standard
-  - specification
-  - report
-  - drawing
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: []
 - name: Artifact
   prefix: ART
-  folder: 71_Artifacts
-  kind:
-  - image
-  - document
-  forwardFields:
-  - kind
-  - subtypeOf
-  - hasPart
-  - dependsOn
-  - derivedFrom
-  - supersedes
-  - describes
-  - tracesTo
+  subtype: []
+- name: modelCheck
+  prefix: MC
+  folder: null   # no folder of its own: translated notes stay in their EA package folders (W-117, W-181)
+  subtype: ["Action", "StateNode", "Change", "Boundary", "Decision", "ActivityPartition", "Trigger", "Synchronization", "Sequence", "ActionPin", "ProxyConnector", "Event", "ActivityParameter", "Package"]
+  note: 'Holding class for EA elements with no approved mapping; the subtype is the EA type (W-100, W-146, W-147). Sorted in stage 2 (Post-Import Task 7). Not meant to be created by hand (W-181).'
+- name: Diagram
+  prefix: DIA
+  folder: 72_Diagrams
+  subtype: ["custom", "logical", "use case", "composite structure", "statechart", "activity", "sequence", "package"]

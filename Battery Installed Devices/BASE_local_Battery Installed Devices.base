@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("Battery Installed Devices")
+views:
+  - type: table
+    name: Local contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - id
+      - status
