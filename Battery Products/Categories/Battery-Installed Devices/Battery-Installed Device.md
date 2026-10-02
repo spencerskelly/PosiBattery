@@ -11,12 +11,12 @@ abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"
 supertypeOf:
-  - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
+  - "[[Battery Monitoring Device]]"
   - "[[Battery Watering System]]"
 describedBy:
-  - "[[Battery Product Landscape]]"
   - "[[Battery Installed Device Market Reference]]"
+  - "[[Battery Product Landscape]]"
 ---
 
 # Battery-Installed Device

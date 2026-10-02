@@ -17,8 +17,8 @@ supertypeOf:
   - "[[PosiCharge BMID 1]]"
   - "[[PosiCharge BMID 3]]"
 describedBy:
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[BMID Competitor Landscape]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
 ---
 

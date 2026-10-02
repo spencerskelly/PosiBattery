@@ -12,8 +12,8 @@ abstract: true
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 supertypeOf:
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Battery Water Level Monitor

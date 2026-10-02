@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Connected Product.md",
+      "x": 0,
+      "y": 420,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "bms",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Management System.md",
+      "x": 520,
+      "y": -40,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "mon",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Monitoring and Identification Device.md",
+      "x": 520,
+      "y": 160,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "conn",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Connector Assembly.md",
+      "x": 520,
+      "y": 360,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "ecs",
+      "type": "file",
+      "file": "Battery Products/Categories/Electrolyte Circulation System.md",
+      "x": 520,
+      "y": 560,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "therm",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Thermal Management Device.md",
+      "x": 520,
+      "y": 760,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "prot",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Protection and Disconnect Unit.md",
+      "x": 520,
+      "y": 960,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "chg",
+      "type": "file",
+      "file": "Battery Products/Categories/Industrial Battery Charger.md",
+      "x": 520,
+      "y": 1160,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "tel",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery Telematics and Connectivity Device.md",
+      "x": 520,
+      "y": 1360,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "inst",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Installed Devices/Battery-Installed Device.md",
+      "x": 520,
+      "y": 1560,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "bmd",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Installed Devices/Battery Monitoring Device.md",
+      "x": 1040,
+      "y": 60,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "idci",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Installed Devices/Battery Identification and Charge Interface Device.md",
+      "x": 1040,
+      "y": 300,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "wlm",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Installed Devices/Battery Water Level Monitor.md",
+      "x": 1560,
+      "y": 60,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "wat",
+      "type": "file",
+      "file": "Battery Products/Categories/Battery-Installed Devices/Battery Watering System.md",
+      "x": 1040,
+      "y": 1560,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "bmid",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/PosiCharge/PosiCharge BMID.md",
+      "x": 1560,
+      "y": 300,
+      "width": 340,
+      "height": 170
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "bms",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e2",
+      "fromNode": "mon",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e3",
+      "fromNode": "conn",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e4",
+      "fromNode": "ecs",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e5",
+      "fromNode": "therm",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e6",
+      "fromNode": "prot",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e7",
+      "fromNode": "chg",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e8",
+      "fromNode": "tel",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e9",
+      "fromNode": "inst",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e10",
+      "fromNode": "bmd",
+      "fromSide": "left",
+      "toNode": "inst",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e11",
+      "fromNode": "bmd",
+      "fromSide": "left",
+      "toNode": "mon",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e12",
+      "fromNode": "idci",
+      "fromSide": "left",
+      "toNode": "inst",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e13",
+      "fromNode": "idci",
+      "fromSide": "left",
+      "toNode": "mon",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e14",
+      "fromNode": "wlm",
+      "fromSide": "left",
+      "toNode": "bmd",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e15",
+      "fromNode": "wat",
+      "fromSide": "left",
+      "toNode": "inst",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e16",
+      "fromNode": "bmid",
+      "fromSide": "left",
+      "toNode": "idci",
+      "toSide": "right",
+      "label": "subtypeOf"
+    }
+  ]
+}

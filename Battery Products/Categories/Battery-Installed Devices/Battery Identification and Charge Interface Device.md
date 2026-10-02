@@ -13,9 +13,9 @@ subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
 supertypeOf:
   - "[[AMETEK Prestolite Power BID]]"
-  - "[[PosiCharge BMID]]"
   - "[[Crown V-Force BMID]]"
   - "[[Fronius TagID]]"
+  - "[[PosiCharge BMID]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
 ---

@@ -13,12 +13,12 @@ subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
 supertypeOf:
   - "[[Battery Water Level Monitor]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys iQ Mini]]"
-  - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[AMETEK Prestolite Power WBID Pro]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[PosiCharge PosiGuard]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
 ---

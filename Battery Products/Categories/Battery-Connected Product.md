@@ -15,11 +15,12 @@ supertypeOf:
   - "[[Battery Protection and Disconnect Unit]]"
   - "[[Battery Telematics and Connectivity Device]]"
   - "[[Battery Thermal Management Device]]"
+  - "[[Battery-Installed Device]]"
   - "[[Electrolyte Circulation System]]"
   - "[[Industrial Battery Charger]]"
-  - "[[Battery-Installed Device]]"
 describedBy:
   - "[[Battery Product Landscape]]"
+  - "[[Landscape Evidence and Modeling Conventions]]"
 ---
 
 # Battery-Connected Product

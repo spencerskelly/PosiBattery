@@ -11,8 +11,8 @@ abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"
 supertypeOf:
-  - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
+  - "[[Battery Monitoring Device]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
