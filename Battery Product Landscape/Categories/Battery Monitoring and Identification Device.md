@@ -10,9 +10,12 @@ tags:
 abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"
+supertypeOf:
+  - "[[Battery Monitoring Device]]"
+  - "[[Battery Identification and Charge Interface Device]]"
 describedBy:
-  - "[[Battery Product Landscape]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Battery Product Landscape]]"
 ---
 
 # Battery Monitoring and Identification Device
@@ -30,7 +33,7 @@ Battery-mounted device that measures battery condition (for example temperature,
 - PosiCharge ProCore Edge supports three charge-start modes (CAN/lithium, BMID, voltage) and communicates with a wireless BMID over Bluetooth; the ProCore manual says a charger charges a battery with a BMID without further configuration and uses default settings without one. Source: PosiCharge ProCore Edge page and ProCore installation manual (T1), retrieved 2026-10-02. <https://www.posicharge.com/procoreedge>
 - Crown sells a V-Force Battery Monitoring Identification Device (part 396525-BTM) with dual charge profiles for opportunity or fast charging, battery-event recording, spill-resistant housing and Bluetooth Class 1. Listed price at retrieval: 583.33 USD. Source: Crown parts shop (T1), retrieved 2026-10-02. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
 - Crown describes an optional BMID module for its FS3/HFM3 chargers that mounts on top of a lead-acid battery, detects low electrolyte, monitors voltage and temperature, and adjusts charge rate. Source: Crown (regional page) (T1), retrieved 2026-10-02. <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
-- **Not verified by this pass:** other products named in the earlier ChatGPT seed branch (EnerSys Wi-iQ and iQ Mini, Philadelphia Scientific eGO!pro and SmartBlinky Pro, AMETEK Prestolite BID and WBID Pro, Energywith BMU). They remain unverified until checked against current vendor pages.
+- **Imported products:** the earlier seed branch products now sit under [[Battery Monitoring Device]] and [[Battery Identification and Charge Interface Device]]. Verification status is on each product note; Energywith and Flow-Rite items remain unverified. Competitor comparison: [[BMID Competitor Landscape]].
 - **Not stated in retrieved sources:** how a Crown BMID connects to a charger (analog, wireless or other). Do not assume it matches PosiCharge.
 
 ## Aliases

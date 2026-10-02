@@ -11,8 +11,8 @@ abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"
 describedBy:
-  - "[[Battery Product Landscape]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Battery Product Landscape]]"
 ---
 
 # Industrial Battery Charger

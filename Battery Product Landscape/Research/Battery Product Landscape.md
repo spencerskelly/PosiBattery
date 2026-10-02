@@ -18,6 +18,7 @@ describes:
   - "[[Battery Protection and Disconnect Unit]]"
   - "[[Industrial Battery Charger]]"
   - "[[Battery Telematics and Connectivity Device]]"
+  - "[[Battery-Installed Device]]"
 ---
 
 # Battery Product Landscape
@@ -35,7 +36,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Categories found (hypotheses until reviewed):** [[Battery Management System]], [[Battery Monitoring and Identification Device]], [[Battery Connector Assembly]], [[Electrolyte Circulation System]], [[Battery Watering System]], [[Battery Thermal Management Device]], [[Battery Protection and Disconnect Unit]], [[Industrial Battery Charger]], [[Battery Telematics and Connectivity Device]]. Root: [[Battery-Connected Product]].
 - **Observed charge-start modes (PosiCharge only):** ID device (BMID), CAN from a lithium BMS, voltage-only default. See [[Industrial Battery Charger]].
 - **Not yet researched:** battery changers and extractors, wash stations, ventilation and hydrogen detection, battery rooms, cooling devices, balancing hardware, on-board chargers, DC-DC converters, lead-acid desulfation or equalization hardware, GSE-specific equipment, and non-industrial applications.
-- **Relationship to the ChatGPT seed branch:** branch `chatgpt/battery-installed-reference-foundation` holds an earlier, narrower set (battery-installed devices only, 11 products). It was built on an older schema overlay and is not merged into main. Its notes have not been merged, copied or modified here. Reconciliation is a user decision.
+- **Relationship to the ChatGPT seed branch:** the 11 products, 5 families and market-reference note from `chatgpt/battery-installed-reference-foundation` were brought into this structure on 2026-10-02, keeping their `uid` values and OBJ ids. The market-reference note moved from INFO-00001 to INFO-00072 to follow the vault rule of highest id plus one; INFO-00001 is recorded under its former ids. The seed branch's navigation files and architecture-alignment note were not carried over. Competitor comparison: [[BMID Competitor Landscape]].
 
 ## Aliases
 

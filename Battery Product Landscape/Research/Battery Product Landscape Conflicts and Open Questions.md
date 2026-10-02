@@ -13,6 +13,10 @@ describes:
   - "[[Battery Connector Assembly]]"
   - "[[Battery Thermal Management Device]]"
   - "[[Industrial Battery Charger]]"
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[EnerSys Wi-iQ]]"
 ---
 
 # Battery Product Landscape Conflicts and Open Questions
@@ -38,6 +42,14 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **Q3 - One product, several families.** Battery Rx is monitor, identifier and telematics. Multiple subtypeOf or one primary family?
 - **Q4 - Schema gaps.** The schema has no first-class type for manufacturer, market, or evidence tier, and `derivedFrom` is Requirement-only. This survey records those as note text. An amendment is a release-owner decision, not made here.
 - **Q5 - Evidence tiers.** Proposed tiers in [[Battery Product Landscape]] need approval or replacement.
+- **C10 - PosiGuard vs BMID classification.** The seed text files PosiGuard under Battery Monitoring Device and the BMID under identification and charge interface. PosiCharge's own PosiConnect app listing calls PosiGuard a 'BMID device'. The user listed PosiGuard separately from BMID 1 and BMID 3. Unresolved. Sources: <https://apps.apple.com/mx/app/posiconnect/id6748969496>; [[PosiCharge PosiGuard]].
+- **C11 - Prestolite WBID charger interaction.** Seed text treats WBID Pro as monitoring only. A 2014 release for the obsolete WBID says charger communication can run over the DC cable and works with Charger Interface Devices. Current WBID Pro page is silent on charger communication. Source: <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>; [[AMETEK Prestolite Power WBID Pro]].
+- **C12 - PosiCharge BMID names do not map to the stated variants.** FAQ, spec sheets, ProCore pages and the app listing use BMID, Smart BMID, Battery Rx, wireless BMID and PosiGuard BMID. The user stated BMID 1 and BMID 3 (with BLE, CAN, international and E-meter). No source ties the public names to BMID 1 or 3. See [[PosiCharge BMID Variants]].
+- **C13 - Wi-iQ CAN is optional.** Seed text says Wi-iQ specifications list CAN. The EnerSys Wi-iQ4 manual describes CAN as an optional module (CANopen or J1939). Both are kept on [[EnerSys Wi-iQ]].
+- **C14 - Seed taxonomy vs category draft.** The seed taxonomy splits Monitoring Device from Identification and Charge Interface Device, both under a locus-based root. The category draft has one Monitoring and Identification category and treats locus as a per-product attribute. Resolved structurally by making both seed families subtypes of both parents; whether that is the right model is open (Q1).
+- **C15 - Seed note dates.** Seed notes say market evidence was checked on 2026-10-02. Where re-checked, some sources are older (SmartBlinky Pro item, 2014 and 2017 Prestolite releases, 2019 and earlier PosiCharge sheets). Product status for those is unclear.
+- **Q6 - BMID 2.** Is there a BMID 2 and, if so, what is it?
+- **Q7 - PosiGuard vs BMID 3.** Is PosiGuard the product name for a BMID generation, or a separate product?
 
 ## Aliases
 
