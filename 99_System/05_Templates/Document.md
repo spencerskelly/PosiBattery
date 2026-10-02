@@ -1,39 +1,18 @@
-<%*
-const kindChoices = ["standard", "specification", "report", "drawing"];
-const kind = await tp.system.suggester(kindChoices, kindChoices);
-const id = await tp.user.next_id(tp, "DOC");
-let elementName = tp.file.title;
-if (/^Untitled/i.test(elementName)) elementName = await tp.system.prompt("Element name");
-await tp.file.rename(`${id} - ${elementName}`);
--%>
 ---
-id: <% id %>
 type: Document
-<%* if (kind) { -%>
-kind: <% kind %>
-<%* } -%>
+subtype: 
+id: <% tp.file.include("[[Snippet - id]]") %>
+uid: <% tp.file.include("[[Snippet - uid]]") %>
 status: Draft
-control:
-formerIds: []
-eaGUID: []
-aliases: []
-tags:
-  - model
-subtypeOf: []
-hasPart: []
-dependsOn: []
-derivedFrom: []
-supersedes: []
-describes: []
-tracesTo: []
+tags: []
 ---
 
-# <% elementName %>
+# <% tp.file.title %>
 
-## Purpose
-
-## Document control
-
-## Summary
+## Definition
 
 ## Notes
+
+## Aliases
+
+## Former ids

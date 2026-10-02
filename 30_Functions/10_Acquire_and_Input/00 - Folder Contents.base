@@ -1,7 +1,0 @@
-filters:
-  and:
-    - file.folder == "30_Functions/10_Acquire_and_Input"
-views:
-  - type: table
-    name: Folder Contents
-    order: [file.name, id, type, kind, control, status]

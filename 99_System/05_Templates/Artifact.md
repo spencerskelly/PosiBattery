@@ -1,39 +1,19 @@
-<%*
-const kindChoices = ["image", "document"];
-const kind = await tp.system.suggester(kindChoices, kindChoices);
-const id = await tp.user.next_id(tp, "ART");
-let elementName = tp.file.title;
-if (/^Untitled/i.test(elementName)) elementName = await tp.system.prompt("Element name");
-await tp.file.rename(`${id} - ${elementName}`);
--%>
 ---
-id: <% id %>
 type: Artifact
-<%* if (kind) { -%>
-kind: <% kind %>
-<%* } -%>
+subtype: 
+id: <% tp.file.include("[[Snippet - id]]") %>
+uid: <% tp.file.include("[[Snippet - uid]]") %>
 status: Draft
-control:
-formerIds: []
-eaGUID: []
-aliases: []
-tags:
-  - model
-subtypeOf: []
-hasPart: []
-dependsOn: []
-derivedFrom: []
-supersedes: []
+tags: []
 describes: []
-tracesTo: []
 ---
 
-# <% elementName %>
+# <% tp.file.title %>
 
-## Description
-
-## Source / provenance
-
-## Usage
+## Definition
 
 ## Notes
+
+## Aliases
+
+## Former ids

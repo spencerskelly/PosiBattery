@@ -1,7 +1,0 @@
-filters:
-  and:
-    - file.folder == "30_Functions/50_Present_and_Publish"
-views:
-  - type: table
-    name: Folder Contents
-    order: [file.name, id, type, kind, control, status]

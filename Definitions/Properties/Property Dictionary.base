@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.folder == "Definitions/Properties"
+views:
+  - type: table
+    name: Property Dictionary
+    order:
+      - file.name
+      - usedOn
+      - required
+      - setBy
+      - canChange

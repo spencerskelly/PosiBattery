@@ -1,49 +1,19 @@
-<%*
-const kindChoices = ["what", "where", "why", "when"];
-const kind = await tp.system.suggester(kindChoices, kindChoices);
-const id = await tp.user.next_id(tp, "UC");
-let elementName = tp.file.title;
-if (/^Untitled/i.test(elementName)) elementName = await tp.system.prompt("Element name");
-await tp.file.rename(`${id} - ${elementName}`);
--%>
 ---
-id: <% id %>
 type: Use Case
-<%* if (kind) { -%>
-kind: <% kind %>
-<%* } -%>
+subtype: what
+id: <% tp.file.include("[[Snippet - id]]") %>
+uid: <% tp.file.include("[[Snippet - uid]]") %>
 status: Draft
-control:
-formerIds: []
-eaGUID: []
-aliases: []
-tags:
-  - model
-markets: []
-subtypeOf: []
-hasPart: []
-dependsOn: []
-derivedFrom: []
-supersedes: []
-describes: []
-tracesTo: []
-subject: []
-hasParticipant: []
-realizedBy: []
-optionOf: []
-causes: []
+tags: []
+participants: []
 ---
 
-# <% elementName %>
+# <% tp.file.title %>
 
-## Intent
-
-## Actor / participant goal
-
-## Preconditions
-
-## Scenario
-
-## Options / exceptions
+## Definition
 
 ## Notes
+
+## Aliases
+
+## Former ids

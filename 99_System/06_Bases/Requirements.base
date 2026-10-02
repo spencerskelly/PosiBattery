@@ -1,8 +1,0 @@
-filters:
-  and:
-    - file.folder.startsWith("40_Requirements")
-    - type == "Requirement"
-views:
-  - type: table
-    name: Requirements
-    order: [id, file.name, kind, status, appliesTo, satisfiedBy, verifiedBy]

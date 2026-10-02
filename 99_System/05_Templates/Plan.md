@@ -1,46 +1,18 @@
-<%*
-const kind = "";
-const id = await tp.user.next_id(tp, "PLAN");
-let elementName = tp.file.title;
-if (/^Untitled/i.test(elementName)) elementName = await tp.system.prompt("Element name");
-await tp.file.rename(`${id} - ${elementName}`);
--%>
 ---
-id: <% id %>
 type: Plan
-<%* if (kind) { -%>
-kind: <% kind %>
-<%* } -%>
+subtype: 
+id: <% tp.file.include("[[Snippet - id]]") %>
+uid: <% tp.file.include("[[Snippet - uid]]") %>
 status: Draft
-control:
-formerIds: []
-eaGUID: []
-aliases: []
-tags:
-  - model
-subtypeOf: []
-hasPart: []
-dependsOn: []
-derivedFrom: []
-supersedes: []
-describes: []
-tracesTo: []
-usesSetup: []
-sequence: []
-plannedDUTs: []
-scopeRequirements: []
+tags: []
 ---
 
-# <% elementName %>
+# <% tp.file.title %>
 
-## Objective
-
-## Scope
-
-## Sequence / campaign
-
-## Resources
-
-## Exit criteria
+## Definition
 
 ## Notes
+
+## Aliases
+
+## Former ids
