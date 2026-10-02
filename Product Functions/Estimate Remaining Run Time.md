@@ -8,8 +8,8 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
-  - "[[HOPPECKE trak collect]]"
   - "[[EnerSys Truck iQ]]"
+  - "[[HOPPECKE trak collect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
 ---
 
@@ -22,8 +22,12 @@ Estimate the working time remaining at the present usage.
 ## Notes
 
 - Stated by vehicle-side or panel devices in retrieved sources.
-- Which products perform this, and on what evidence, is in [[Battery Monitoring Function Map]]. Links are made only where a source states the behavior; no link means unknown, not absent.
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
+- **Sources** (product, evidence level, web page):
+  - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
+  - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>
+  - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
 
 ## Aliases
 

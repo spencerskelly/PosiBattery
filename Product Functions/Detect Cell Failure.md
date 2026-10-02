@@ -20,8 +20,10 @@ Detect a failed cell in the battery.
 ## Notes
 
 - Stated only for Prestolite TruBid in a trade-press source.
-- Which products perform this, and on what evidence, is in [[Battery Monitoring Function Map]]. Links are made only where a source states the behavior; no link means unknown, not absent.
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
+- **Sources** (product, evidence level, web page):
+  - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 
 ## Aliases
 

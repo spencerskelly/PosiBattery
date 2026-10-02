@@ -13,16 +13,16 @@ tags:
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 performs:
-  - "[[Identify Battery to Charger]]"
-  - "[[Measure Battery Temperature]]"
   - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Log Battery Events and Usage]]"
+  - "[[Identify Battery to Charger]]"
   - "[[Configure Device from Mobile App or PC]]"
 hasDesign:
   - "[[Bluetooth Class 1 Interface]]"
-  - "[[Acid-Resistant Sealed Housing]]"
   - "[[Battery-Top Mounting]]"
+  - "[[Acid-Resistant Sealed Housing]]"
 ---
 
 # Crown V-Force BMID
@@ -37,8 +37,18 @@ Crown battery monitoring and identification device for lead-acid forklift batter
 - **Verification 2026-10-02 (verified (vendor shop)):** part 396525-BTM: dual-profile configuration for opportunity or fast charging, records battery events including temperature and charge and discharge cycles, rugged spill-resistant case, Bluetooth Class 1 for connecting to a laptop or tablet; listed at 583.33 USD with 365-day warranty on the retrieval date. Source: Crown parts shop (T1) <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
 - **Verification 2026-10-02 (verified (regional page)):** an optional BMID module for FS3 and HFM3 chargers mounts on top of a lead-acid battery, detects low electrolyte, monitors voltage and temperature, and adjusts charge rate. Source: Crown charger page (Vietnam site) (T1) <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
 - **Not stated in retrieved sources:** how the BMID communicates with the charger (wired, wireless or other), voltage range, lithium support, whether it works with non-Crown chargers. Do not assume it matches PosiCharge behavior.
-- **Functions performed (evidence):** [[Identify Battery to Charger]] (V); [[Measure Battery Temperature]] (V); [[Measure Battery Voltage]] (V); [[Sense Electrolyte Level]] (V); [[Log Battery Events and Usage]] (V); [[Configure Device from Mobile App or PC]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Bluetooth Class 1 Interface]] (V); [[Acid-Resistant Sealed Housing]] (V); [[Battery-Top Mounting]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Voltage]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
+  - [[Measure Battery Temperature]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM> <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
+  - [[Sense Electrolyte Level]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
+  - [[Log Battery Events and Usage]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+  - [[Identify Battery to Charger]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+  - [[Configure Device from Mobile App or PC]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+- **Design characteristics, with citations:**
+  - [[Bluetooth Class 1 Interface]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+  - [[Battery-Top Mounting]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
+  - [[Acid-Resistant Sealed Housing]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+- **Sources used for the mapping above:** Crown parts shop <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>; Crown charger options page (Vietnam site) <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
 
 ## Aliases
 

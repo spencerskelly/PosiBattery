@@ -24,8 +24,14 @@ Give a charger the battery's identity and charge parameters so the charger can c
 ## Notes
 
 - Evidence is from vendor descriptions; the physical or logical means differs and is mostly not stated.
-- Which products perform this, and on what evidence, is in [[Battery Monitoring Function Map]]. Links are made only where a source states the behavior; no link means unknown, not absent.
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
+- **Sources** (product, evidence level, web page):
+  - [[PosiCharge BMID]] (V): <https://www.posicharge.com/faq/>
+  - [[Crown V-Force BMID]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+  - [[AMETEK Prestolite Power BID]] (V): <https://www.prestolitepower.com/products/datadevices/bid>
+  - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
+  - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 
 ## Aliases
 

@@ -36,8 +36,12 @@ Flow-Rite in-valve electrolyte-level sensor for industrial and deep-cycle floode
   - https://www.flow-rite.com/category/application/battery-monitoring/
   - https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf
 - **Verification 2026-10-02:** not re-verified in this pass; claims above are carried from the seed branch as written.
-- **Functions performed (evidence):** [[Sense Electrolyte Level]] (C); [[Indicate Battery Status Locally]] (C). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Capacitive Electrolyte Level Probe]] (C).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Sense Electrolyte Level]] (C): <https://www.flow-rite.com/category/application/battery-monitoring/>
+  - [[Indicate Battery Status Locally]] (C): <https://www.flow-rite.com/category/application/battery-monitoring/>
+- **Design characteristics, with citations:**
+  - [[Capacitive Electrolyte Level Probe]] (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
+- **Sources used for the mapping above:** Seed note (cites the Flow-Rite monitoring page) <https://www.flow-rite.com/category/application/battery-monitoring/>; ETL notice describes the Eagle Eye range; Elite IV membership comes from the seed note <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 
 ## Aliases
 

@@ -20,8 +20,10 @@ Show battery status to the vehicle operator on a vehicle-side display.
 ## Notes
 
 - Performed by vehicle-side devices, which are adjacent to the battery.
-- Which products perform this, and on what evidence, is in [[Battery Monitoring Function Map]]. Links are made only where a source states the behavior; no link means unknown, not absent.
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
+- **Sources** (product, evidence level, web page):
+  - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard> <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 
 ## Aliases
 

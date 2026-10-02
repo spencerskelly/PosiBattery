@@ -14,14 +14,14 @@ subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:
   - "[[Log Battery Events and Usage]]"
-  - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Local LED Indicator]]"
-  - "[[Cloud Portal Integration]]"
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
+  - "[[Cloud Portal Integration]]"
 ---
 
 # Philadelphia Scientific eGO!c
@@ -33,8 +33,17 @@ Philadelphia Scientific connected battery monitor that records every battery cyc
 ## Notes
 
 - The trade feature says eGO!c records every battery cycle and uploads automatically to batterymanagement.net; a second trade source says it takes over 250,000 samples a day into 38 fields and gives 40 alerts, claims that are manufacturer figures. Source: Warehouse News and iPE feature (T4), retrieved 2026-10-02. <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
-- **Functions performed (evidence):** [[Log Battery Events and Usage]] (V); [[Upload Battery Data to Cloud Portal]] (V); [[Alert on Abnormal Condition]] (V); [[Indicate Battery Status Locally]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Local LED Indicator]] (V); [[Cloud Portal Integration]] (V); [[Battery-Top Mounting]] (V); [[Mobile App Interface]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Log Battery Events and Usage]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Alert on Abnormal Condition]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Indicate Battery Status Locally]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Upload Battery Data to Cloud Portal]] (V): <https://warehousenews.co.uk/?p=68147>
+- **Design characteristics, with citations:**
+  - [[Local LED Indicator]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Battery-Top Mounting]] (V): <https://warehousenews.co.uk/?p=68147>
+  - [[Mobile App Interface]] (V): <https://warehousenews.co.uk/?p=68147>
+  - [[Cloud Portal Integration]] (V): <https://warehousenews.co.uk/?p=68147>
+- **Sources used for the mapping above:** iPE feature on eGO!c <https://www.ipesearch.co.uk/iOT-technology-for-batteries>; Warehouse News eGO! feature (undated) <https://warehousenews.co.uk/?p=68147>
 
 ## Aliases
 

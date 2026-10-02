@@ -14,19 +14,19 @@ subtypeOf:
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
-  - "[[Sense Electrolyte Level]]"
   - "[[Measure Battery Temperature]]"
+  - "[[Sense Electrolyte Level]]"
+  - "[[Accumulate Amp-Hours]]"
+  - "[[Estimate State of Charge]]"
+  - "[[Log Battery Events and Usage]]"
+  - "[[Track Equalization]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
-  - "[[Log Battery Events and Usage]]"
-  - "[[Track Equalization]]"
-  - "[[Accumulate Amp-Hours]]"
-  - "[[Estimate State of Charge]]"
 hasDesign:
+  - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
-  - "[[Electrolyte-Immersed Temperature Sensor]]"
 ---
 
 # AMETEK Prestolite Power WBID Pro
@@ -50,8 +50,21 @@ AMETEK Prestolite Power battery-mounted monitoring device that records forklift-
 - **Verification 2026-10-02 (lineage):** the earlier WBID is listed as obsolete, with WBID Pro as direct replacement; the WBID was compatible with IntelliFleet and DataLink software. Source: AMETEK Prestolite Power obsolete-products page (T1) <https://www.prestolitepower.com/products/obsolete-products/wbid>
 - **Verification 2026-10-02 (dated; applies to the obsolete WBID):** a 2014 press release said WBID data communication to the charger can run over the DC cable without special or auxiliary connectors, and that one WBID covers 12-40 cells. Source: AMETEK Prestolite Power press release via Yahoo Finance (2014-11-10) (T2) <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
 - **Open (see conflicts C11):** the text above classifies WBID Pro as monitoring only. The 2014 release suggests WBID also interacts with chargers. Whether WBID Pro does is not stated on the retrieved pages.
-- **Functions performed (evidence):** [[Sense Electrolyte Level]] (V); [[Measure Battery Temperature]] (V); [[Indicate Battery Status Locally]] (V); [[Transmit Battery Data Wirelessly]] (V); [[Upload Battery Data to Cloud Portal]] (V); [[Log Battery Events and Usage]] (V); [[Track Equalization]] (C); [[Accumulate Amp-Hours]] (C); [[Estimate State of Charge]] (C). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[ZigBee 2.4 GHz Interface]] (V); [[Local LED Indicator]] (V); [[Electrolyte-Immersed Temperature Sensor]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Temperature]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Sense Electrolyte Level]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Accumulate Amp-Hours]] (C): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Estimate State of Charge]] (C): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Log Battery Events and Usage]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Track Equalization]] (C): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Indicate Battery Status Locally]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Upload Battery Data to Cloud Portal]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+- **Design characteristics, with citations:**
+  - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[ZigBee 2.4 GHz Interface]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Local LED Indicator]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+- **Sources used for the mapping above:** Prestolite WBID Pro page <https://www.prestolitepower.com/products/datadevices/wbid-pro>; Seed note (cites the WBID Pro page for these) <https://www.prestolitepower.com/products/datadevices/wbid-pro>
 
 ## Aliases
 

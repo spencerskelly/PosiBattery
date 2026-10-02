@@ -14,8 +14,8 @@ subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:
   - "[[Sense Electrolyte Level]]"
-  - "[[Indicate Battery Status Locally]]"
   - "[[Alert on Abnormal Condition]]"
+  - "[[Indicate Battery Status Locally]]"
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
@@ -40,8 +40,16 @@ Philadelphia Scientific battery-installed electrolyte level monitor with visual 
 - Evidence: https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/
 - **Verification 2026-10-02 (partly re-verified (dated source)):** the LED indicator is mounted on the battery cable near the connector, with an audible SmartBEEP alarm and universal voltage and polarity, aimed at fast and opportunity charging where the battery stays in the truck. Source: M H&W magazine product item and award entry (undated, likely older) (T2) <https://www.mhwmag.com/?p=7981>
 - **Refinement vs text above:** the text above describes an electronic probe sensing electrolyte in a cell; the retrieved sources describe the LED and cable placement. The probe was not re-verified.
-- **Functions performed (evidence):** [[Sense Electrolyte Level]] (V); [[Indicate Battery Status Locally]] (V); [[Alert on Abnormal Condition]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Local LED Indicator]] (V); [[Audible Alarm]] (V); [[Cable-Mounted Indicator Placement]] (V); [[Reverse-Polarity Protection]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Sense Electrolyte Level]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Alert on Abnormal Condition]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Indicate Battery Status Locally]] (V): <https://www.mhwmag.com/?p=7981>
+- **Design characteristics, with citations:**
+  - [[Local LED Indicator]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Audible Alarm]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Cable-Mounted Indicator Placement]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Reverse-Polarity Protection]] (V): <https://www.mhwmag.com/?p=7981>
+- **Sources used for the mapping above:** M H&W magazine item (undated, likely older) <https://www.mhwmag.com/?p=7981>
 
 ## Aliases
 

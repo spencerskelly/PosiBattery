@@ -9,9 +9,10 @@ tags:
   - design-characteristic
 designOf:
   - "[[EnerSys Wi-iQ]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[Philadelphia Scientific eGO!core]]"
 ---
 
 # Mobile App Interface
@@ -23,8 +24,14 @@ Phone or tablet app for configuring the device and reading its data.
 ## Notes
 
 - PosiConnect (PosiGuard), E Connect (Wi-iQ), eGO!Tools (eGO! range).
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[PosiCharge PosiGuard]] (V): <https://apps.apple.com/mx/app/posiconnect/id6748969496>
+  - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+  - [[Philadelphia Scientific eGO!core]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
+  - [[Philadelphia Scientific eGO!Mini]] (V): <https://warehousenews.co.uk/?p=68147>
+  - [[Philadelphia Scientific eGO!c]] (V): <https://warehousenews.co.uk/?p=68147>
 
 ## Aliases
 

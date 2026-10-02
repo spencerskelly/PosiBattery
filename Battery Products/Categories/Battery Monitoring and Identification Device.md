@@ -13,12 +13,13 @@ subtypeOf:
 supertypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
   - "[[Battery Monitoring Device]]"
-  - "[[Power Designers PowerTrac DT3]]"
+  - "[[AMETEK Prestolite Power Site Probe]]"
   - "[[Access Control Group CellTrac]]"
   - "[[Access Control Group CellVue]]"
-  - "[[AMETEK Prestolite Power Site Probe]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Power Designers PowerTrac DT3]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

@@ -20,8 +20,10 @@ Display mounted on the vehicle, powered from the truck, showing battery data.
 ## Notes
 
 - Stated for EnerSys Truck iQ.
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
 
 ## Aliases
 

@@ -25,7 +25,9 @@ Access Control Group real-time battery gauge offered alongside CellTrac.
 
 - The same release says the company also offers CellVue, a real-time battery gauge, and claims to be first in the industry to offer such a product (unverified superlative). Source: M H&L archive item (undated) (T2), retrieved 2026-10-02. <https://www.mhlnews.com/archive/celltrac>
 - **Not stated in retrieved sources:** where the gauge is mounted, display type, interface to CellTrac.
-- **Functions performed (evidence):** [[Indicate Battery Status Locally]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Indicate Battery Status Locally]] (V): <https://www.mhlnews.com/archive/celltrac>
+- **Sources used for the mapping above:** M H&L archive item (undated) <https://www.mhlnews.com/archive/celltrac>
 
 ## Aliases
 

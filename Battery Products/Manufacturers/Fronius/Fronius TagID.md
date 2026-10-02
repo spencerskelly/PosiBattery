@@ -30,7 +30,11 @@ Fronius battery-mounted sensor that identifies a lead-acid traction battery to a
 - **Verification 2026-10-02 (verified (2022 launch)):** TagID has a temperature sensor as standard and the charger adjusts charging to battery temperature; TagID+ adds a level sensor for wet batteries, while TagID with temperature sensor is preferred for gel batteries; used with Selectiva 4.0 chargers; the sensor system lets the charger detect a deeply discharged battery and start desulphation, signal when water is needed, and run intelligent equalising charges. Source: Fronius TagID product page and launch press release (T1) <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 - **Related feature:** Fronius lists 'automatic ionic circulation' to prevent acid stratification as a function of the TagID and charger combination. Relationship to [[Electrolyte Circulation System]] is unresolved.
 - **Not stated in retrieved sources:** how TagID communicates with the charger, wireless options, voltage range, whether TagID and TagID+ are separate hardware or one device with options, lithium support.
-- **Functions performed (evidence):** [[Measure Battery Temperature]] (V); [[Sense Electrolyte Level]] (V); [[Report Battery Temperature to Charger]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Temperature]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
+  - [[Sense Electrolyte Level]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
+  - [[Report Battery Temperature to Charger]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
+- **Sources used for the mapping above:** Fronius TagID product page <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 
 ## Aliases
 

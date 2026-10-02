@@ -17,9 +17,9 @@ performs:
   - "[[Measure Battery Current]]"
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
+  - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
-  - "[[Alert on Abnormal Condition]]"
 ---
 
 # Energywith withBMS BMU
@@ -40,7 +40,15 @@ Battery Monitoring Unit installed on forklift lead-acid batteries as the battery
   - https://www.energy-with.com/en/solutions/forklift-battery-monitoring/
   - https://www.energy-with.com/en/strength/technology-development/ev-battery-monitoring/
 - **Verification 2026-10-02:** not re-verified in this pass; claims above are carried from the seed branch as written.
-- **Functions performed (evidence):** [[Measure Battery Voltage]] (C); [[Measure Battery Current]] (C); [[Measure Battery Temperature]] (C); [[Sense Electrolyte Level]] (C); [[Transmit Battery Data Wirelessly]] (C); [[Upload Battery Data to Cloud Portal]] (C); [[Alert on Abnormal Condition]] (C). V = verified this pass, C = carried from seed text, U = user-stated.
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Voltage]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Measure Battery Current]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Measure Battery Temperature]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Sense Electrolyte Level]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Alert on Abnormal Condition]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Transmit Battery Data Wirelessly]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Upload Battery Data to Cloud Portal]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+- **Sources used for the mapping above:** Seed note (cites the Energywith vendor pages) <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 
 ## Aliases
 

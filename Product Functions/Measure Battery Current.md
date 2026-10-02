@@ -8,16 +8,20 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
+  - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
-  - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[PosiCharge PosiGuard]]"
-  - "[[PosiCharge Battery Rx]]"
-  - "[[Power Designers PowerTrac SP+]]"
-  - "[[Power Designers PowerTrac 3]]"
-  - "[[Power Designers PowerTrac DT3]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[Power Designers PowerTrac DT3]]"
+  - "[[Power Designers PowerTrac SP+]]"
+  - "[[Power Designers PowerTrac Monitor]]"
+  - "[[Exide Motion+ EasyMonitor]]"
+  - "[[Advanced Charging Technologies BATTview]]"
 ---
 
 # Measure Battery Current
@@ -29,8 +33,23 @@ Measure current into and out of the battery.
 ## Notes
 
 - Sensing method is a design choice: external shunt, shuntless, Hall effect or split-core. See the design notes.
-- Which products perform this, and on what evidence, is in [[Battery Monitoring Function Map]]. Links are made only where a source states the behavior; no link means unknown, not absent.
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
+- **Sources** (product, evidence level, web page):
+  - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
+  - [[PosiCharge PosiGuard]] (V): <https://posicharge.com/products/posiguard/>
+  - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+  - [[Philadelphia Scientific eGO!pro]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf> <https://www.phlsci.co.uk/ego/ego-pro/>
+  - [[Energywith withBMS BMU]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Power Designers PowerTrac SP+]] (V): <https://www.powerdesignerssibex.com/powertrac-sp/>
+  - [[Power Designers PowerTrac DT3]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
+  - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Power Designers PowerTrac Monitor]] (V): <https://powerdesignerssibex.com/powertrac-monitor/>
+  - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/product/trak-collect-premium/> <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
+  - [[Hyster Battery Tracker]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
+  - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
+  - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
 
 ## Aliases
 

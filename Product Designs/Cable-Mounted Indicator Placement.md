@@ -20,8 +20,10 @@ Indicator placed on the battery cable near the connector so it is visible from a
 ## Notes
 
 - Stated for SmartBlinky Pro.
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.mhwmag.com/?p=7981>
 
 ## Aliases
 

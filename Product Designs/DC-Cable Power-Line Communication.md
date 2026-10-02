@@ -20,8 +20,10 @@ Communication between battery device and charger carried on the DC charging cabl
 ## Notes
 
 - Stated in a 2014 release for the obsolete Prestolite WBID.
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[AMETEK Prestolite Power WBID]] (V): <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
 
 ## Aliases
 

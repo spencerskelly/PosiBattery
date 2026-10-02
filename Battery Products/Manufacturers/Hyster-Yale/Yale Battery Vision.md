@@ -16,14 +16,14 @@ subtypeOf:
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
-  - "[[Estimate State of Charge]]"
-  - "[[Sense Electrolyte Level]]"
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
   - "[[Measure Battery Temperature]]"
+  - "[[Sense Electrolyte Level]]"
+  - "[[Estimate State of Charge]]"
   - "[[Alert on Abnormal Condition]]"
-  - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
@@ -39,8 +39,19 @@ Yale-branded battery management device, described as using PosiCharge technology
 
 - Yale Battery Vision was introduced in July 2016 as a battery management solution using 'Powered by PosiCharge technology': a low-profile cellular device reporting state of charge, water levels, voltage, current and temperature, with email alerts and PosiNET back-office reporting. Source: M H&L New Products (2016-07-20) (T2 (dated)), retrieved 2026-10-02. <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Open (C18):** current market status not checked; same-technology relationship to Hyster Battery Tracker is likely but not stated.
-- **Functions performed (evidence):** [[Estimate State of Charge]] (V); [[Sense Electrolyte Level]] (V); [[Measure Battery Voltage]] (V); [[Measure Battery Current]] (V); [[Measure Battery Temperature]] (V); [[Alert on Abnormal Condition]] (V); [[Upload Battery Data to Cloud Portal]] (V); [[Transmit Battery Data Wirelessly]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Cellular Communication Interface]] (V); [[Cloud Portal Integration]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Voltage]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Measure Battery Current]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Measure Battery Temperature]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Sense Electrolyte Level]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Estimate State of Charge]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Alert on Abnormal Condition]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Upload Battery Data to Cloud Portal]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+- **Design characteristics, with citations:**
+  - [[Cellular Communication Interface]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+- **Sources used for the mapping above:** M H&L New Products (2016-07-20, dated) <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 
 ## Aliases
 

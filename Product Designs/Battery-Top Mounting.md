@@ -8,8 +8,8 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
-  - "[[Crown V-Force BMID]]"
   - "[[AMETEK Prestolite Power TruBid]]"
+  - "[[Crown V-Force BMID]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
 ---
@@ -23,8 +23,13 @@ Device mounted on top of the battery.
 ## Notes
 
 - Stated for Crown BMID, TruBid and the eGO! range.
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[Crown V-Force BMID]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
+  - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+  - [[Philadelphia Scientific eGO!Mini]] (V): <https://warehousenews.co.uk/?p=68147>
+  - [[Philadelphia Scientific eGO!c]] (V): <https://warehousenews.co.uk/?p=68147>
 
 ## Aliases
 

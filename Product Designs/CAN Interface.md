@@ -9,9 +9,9 @@ tags:
   - design-characteristic
 designOf:
   - "[[EnerSys Wi-iQ]]"
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[Inventus Smart Battery Monitor SBM-01]]"
 ---
 
 # CAN Interface
@@ -23,8 +23,13 @@ CAN bus interface for communication with a vehicle or charger.
 ## Notes
 
 - Protocols differ: Wi-iQ4 offers CANopen or J1939; SBM-01 auto-detects 125 kbps to 1 Mbps; others do not state a protocol.
-- Which products use this is in [[Battery Monitoring Design Map]]; links are made only where a source states it. This note records a design characteristic found in products, not a decision by us.
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
+- **Sources** (product, evidence level, web page):
+  - [[PosiCharge BMID 3]] (U): (user statement, no web source)
+  - [[PosiCharge PosiGuard]] (V): <https://posicharge.com/products/posiguard/>
+  - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+  - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
 
 ## Aliases
 

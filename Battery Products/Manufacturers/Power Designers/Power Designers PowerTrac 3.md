@@ -15,14 +15,14 @@ subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 performs:
   - "[[Measure Battery Voltage]]"
-  - "[[Measure Battery Temperature]]"
   - "[[Measure Battery Current]]"
+  - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Log Battery Events and Usage]]"
-  - "[[Transmit Battery Data Wirelessly]]"
   - "[[Track Equalization]]"
   - "[[Identify Battery to Charger]]"
   - "[[Communicate with Charger]]"
+  - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
   - "[[Non-Volatile Event Memory]]"
@@ -39,8 +39,20 @@ Power Designers wireless battery monitoring device with shuntless intercell sens
 - Manufacturer: Power Designers (Power Designers Sibex).
 - The vendor page says PowerTrac 3 tracks voltage, temperature, current and electrolyte level (variable-length probe), stores up to 10,000 events, transfers data wirelessly, uses a shuntless design, uses up to 90 percent less energy than previous models, and reports cycles, equalization status and kWh per event; it communicates with the REVOLUTION charger so the charger can automatically recognize battery voltage (24/36/48 V, footnoted by charger rating) and Ah capacity. Source: Power Designers PowerTrac 3 page (T1), retrieved 2026-10-02. <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 - **Not retrieved:** the specification sheet and installation guides linked from the page (radio band, nominal voltage range, operating temperature). **Competitive relevance:** closest match found to the BMID behavior of identifying a battery to a charger by a charger vendor's own monitor.
-- **Functions performed (evidence):** [[Measure Battery Voltage]] (V); [[Measure Battery Temperature]] (V); [[Measure Battery Current]] (V); [[Sense Electrolyte Level]] (V); [[Log Battery Events and Usage]] (V); [[Transmit Battery Data Wirelessly]] (V); [[Track Equalization]] (V); [[Identify Battery to Charger]] (V); [[Communicate with Charger]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
-- **Design characteristics (evidence):** [[Shuntless Current Sensing]] (V); [[Non-Volatile Event Memory]] (V).
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Voltage]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Measure Battery Current]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Measure Battery Temperature]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Sense Electrolyte Level]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Log Battery Events and Usage]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Track Equalization]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Identify Battery to Charger]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Communicate with Charger]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+- **Design characteristics, with citations:**
+  - [[Shuntless Current Sensing]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Non-Volatile Event Memory]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+- **Sources used for the mapping above:** PowerTrac 3 product page <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 
 ## Aliases
 

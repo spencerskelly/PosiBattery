@@ -27,6 +27,7 @@ First PosiCharge BMID variant as named by the user. No public document identifie
 - **Unknown:** physical form, communication method, chemistry coverage, sensors, years of availability, and which public document names (for example Smart BMID, Battery Rx) correspond to it.
 - No BMID 2 was mentioned. Whether one exists is not established.
 - **Functions and designs:** none stated in any source yet.
+- **Sources:** none beyond the user statement.
 
 ## Aliases
 
