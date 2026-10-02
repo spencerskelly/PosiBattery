@@ -10,6 +10,16 @@ tags:
   - forklift
 subtypeOf:
   - "[[Battery Monitoring Device]]"
+performs:
+  - "[[Indicate Battery Status Locally]]"
+  - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Measure Battery Temperature]]"
+  - "[[Log Battery Events and Usage]]"
+hasDesign:
+  - "[[Bluetooth Low Energy Interface]]"
+  - "[[Local LED Indicator]]"
+  - "[[Cloud Portal Integration]]"
 ---
 
 # EnerSys iQ Mini
@@ -31,6 +41,8 @@ Compact EnerSys battery-mounted monitoring device for battery status and usage m
   - https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf
 - **Verification 2026-10-02 (re-verified):** EnerSys describes iQ Mini as recently launched in November 2024, compatible with TPPL, flooded and VRLA batteries, with colour status indicators on the unit and data uploaded to an online portal; the product page lists forklifts, pallet trucks and floor-care machines, BLE communication, and use with iQ Gateway data transmitters. Source: EnerSys press release and product page (T1) <https://www.enersys.com/en/about-us/news/enersys-to-showcase-advanced-battery-management-at-2024-north-american-issa-show/>
 - **Not stated in retrieved sources:** CAN, charger interaction, battery voltage range. The 12-80 V figure in the text above comes from a 310Q owner document that was not re-opened. The press release emphasises floor-care machines, so the forklift emphasis rests on the product page application list.
+- **Functions performed (evidence):** [[Indicate Battery Status Locally]] (V); [[Transmit Battery Data Wirelessly]] (V); [[Upload Battery Data to Cloud Portal]] (V); [[Measure Battery Temperature]] (C); [[Log Battery Events and Usage]] (C). V = verified this pass, C = carried from seed text, U = user-stated.
+- **Design characteristics (evidence):** [[Bluetooth Low Energy Interface]] (V); [[Local LED Indicator]] (V); [[Cloud Portal Integration]] (V).
 
 ## Aliases
 

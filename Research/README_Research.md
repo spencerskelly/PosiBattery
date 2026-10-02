@@ -9,7 +9,8 @@ Evidence registers, competitor comparisons, conflict logs and working convention
 - the survey scope and method: [[Battery Product Landscape]]
 - conventions for evidence tiers, dating and conflict handling: [[Landscape Evidence and Modeling Conventions]]
 - every unresolved difference between sources or between earlier and later text: [[Battery Product Landscape Conflicts and Open Questions]]
-- focused comparisons: [[BMID Competitor Landscape]], [[PosiCharge BMID Variants]]
+- focused comparisons: [[BMID Competitor Landscape]], [[PosiCharge BMID Variants]], [[Battery Monitoring Function Map]], [[Battery Monitoring Design Map]], [[Battery Monitoring Performance Comparison]]
+- market drivers: [[SLC Airport EGSE BMID Requirement]]
 
 ## Start here
 

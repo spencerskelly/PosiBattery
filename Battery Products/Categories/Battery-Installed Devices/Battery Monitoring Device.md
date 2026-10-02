@@ -18,9 +18,22 @@ supertypeOf:
   - "[[EnerSys iQ Mini]]"
   - "[[Energywith withBMS BMU]]"
   - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[PosiCharge PosiGuard]]"
+  - "[[Power Designers PowerTrac SP+]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Crown Battery Health Monitor]]"
+  - "[[Raymond iBattery]]"
+  - "[[Hyster Battery Tracker]]"
+  - "[[Yale Battery Vision]]"
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power TruBid]]"
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!c]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
+  - "[[Battery Monitoring Function Map]]"
+  - "[[Battery Monitoring Design Map]]"
+  - "[[Battery Monitoring Performance Comparison]]"
 ---
 
 # Battery Monitoring Device

@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "bt",
+      "type": "file",
+      "file": "Product Designs/Bluetooth Interface.md",
+      "x": 1040,
+      "y": 260,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "ble",
+      "type": "file",
+      "file": "Product Designs/Bluetooth Low Energy Interface.md",
+      "x": 520,
+      "y": 100,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "bt1",
+      "type": "file",
+      "file": "Product Designs/Bluetooth Class 1 Interface.md",
+      "x": 520,
+      "y": 420,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "wiiq",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/EnerSys/EnerSys Wi-iQ.md",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "mini",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/EnerSys/EnerSys iQ Mini.md",
+      "x": 0,
+      "y": 200,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "crown",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/Crown/Crown V-Force BMID.md",
+      "x": 0,
+      "y": 400,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "chm",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/Crown/Crown Battery Health Monitor.md",
+      "x": 0,
+      "y": 600,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "guard",
+      "type": "file",
+      "file": "Battery Products/Manufacturers/PosiCharge/PosiCharge PosiGuard.md",
+      "x": 0,
+      "y": 800,
+      "width": 340,
+      "height": 170
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "ble",
+      "fromSide": "left",
+      "toNode": "bt",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e2",
+      "fromNode": "bt1",
+      "fromSide": "left",
+      "toNode": "bt",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e3",
+      "fromNode": "wiiq",
+      "fromSide": "left",
+      "toNode": "ble",
+      "toSide": "right",
+      "label": "hasDesign"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mini",
+      "fromSide": "left",
+      "toNode": "ble",
+      "toSide": "right",
+      "label": "hasDesign"
+    },
+    {
+      "id": "e5",
+      "fromNode": "crown",
+      "fromSide": "left",
+      "toNode": "bt1",
+      "toSide": "right",
+      "label": "hasDesign"
+    },
+    {
+      "id": "e6",
+      "fromNode": "chm",
+      "fromSide": "left",
+      "toNode": "bt",
+      "toSide": "right",
+      "label": "hasDesign"
+    },
+    {
+      "id": "e7",
+      "fromNode": "guard",
+      "fromSide": "left",
+      "toNode": "bt",
+      "toSide": "right",
+      "label": "hasDesign"
+    }
+  ]
+}

@@ -17,6 +17,10 @@ describes:
   - "[[PosiCharge PosiGuard]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[Hyster Battery Tracker]]"
+  - "[[Yale Battery Vision]]"
+  - "[[AMETEK Prestolite Power TruBid]]"
+  - "[[PosiCharge Battery Rx]]"
 ---
 
 # Battery Product Landscape Conflicts and Open Questions
@@ -49,7 +53,14 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C14 - Seed taxonomy vs category draft.** The seed taxonomy splits Monitoring Device from Identification and Charge Interface Device, both under a locus-based root. The category draft has one Monitoring and Identification category and treats locus as a per-product attribute. Resolved structurally by making both seed families subtypes of both parents; whether that is the right model is open (Q1).
 - **C15 - Seed note dates.** Seed notes say market evidence was checked on 2026-10-02. Where re-checked, some sources are older (SmartBlinky Pro item, 2014 and 2017 Prestolite releases, 2019 and earlier PosiCharge sheets). Product status for those is unclear.
 - **Q6 - BMID 2.** Is there a BMID 2 and, if so, what is it?
-- **Q7 - PosiGuard vs BMID 3.** Is PosiGuard the product name for a BMID generation, or a separate product?
+- **Q7 - PosiGuard vs BMID 3.** Resolved in part on 2026-10-02: the user states PosiGuard is the next generation of BMID. Still open: which variant it directly follows.
+- **C10 resolution (2026-10-02):** the user states PosiGuard is the next generation of BMID. PosiGuard is now a subtype of PosiCharge BMID. The original conflict text above is kept.
+- **C16 - Wi-iQ charger link.** The competitor table said no charger interaction was stated for EnerSys Wi-iQ. The Wi-iQ3 brochure lists wireless communication with the EnerSys modular charger. Generation matters: this is Wi-iQ3, not Wi-iQ4. Source: <https://integration.enersys.com/493bb4/globalassets/documents/product-documentation/_misc/wi-iq/emea/wi-iq3-battery-monitoring-device-brochure.pdf>; [[EnerSys Wi-iQ]].
+- **C17 - BMID chemistry coverage.** PosiCharge FAQ and charger pages are lead-acid oriented. The Salt Lake City airport rule requires BMIDs on lithium-ion electric GSE (effective 2020-09-15). The rule uses the generic term and does not name a vendor. See [[SLC Airport EGSE BMID Requirement]]. Whether a PosiCharge BMID works on lithium batteries is not established.
+- **C18 - Powered-by-PosiCharge devices.** Hyster Battery Tracker and Yale Battery Vision are described as 'Powered by PosiCharge technology' with capabilities similar to Battery Rx. Relationship to [[PosiCharge Battery Rx]] and PosiNET is not stated. Sources: [[Hyster Battery Tracker]], [[Yale Battery Vision]].
+- **C19 - TruBid status.** [[AMETEK Prestolite Power TruBid]] appears in trade press but not on the current Prestolite Data Devices page. Market status unclear.
+- **C20 - Seed classification of WBID Pro and Wi-iQ.** Both sit under Battery Monitoring Device only. Retrieved sources show charger communication for the earlier WBID (DC cable, 2014) and Wi-iQ3 (wireless to charger). Not changed; flagged for a decision on dual parentage.
+- **C21 - Locus of PowerTrac DT3 and Site Probe.** Both are study or diagnostic tools, so they are filed under the category, not the installed-device family. The seed scope treats temporary diagnostic equipment as adjacent.
 
 ## Aliases
 

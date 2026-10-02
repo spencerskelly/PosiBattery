@@ -13,6 +13,12 @@ subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 supertypeOf:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
+performs:
+  - "[[Identify Battery to Charger]]"
+  - "[[Report Battery Temperature to Charger]]"
+  - "[[Measure Battery Temperature]]"
+hasDesign:
+  - "[[Non-Volatile Event Memory]]"
 ---
 
 # AMETEK Prestolite Power BID
@@ -32,6 +38,8 @@ AMETEK Prestolite Power Battery Identification Device that provides a compatible
 - **Verification 2026-10-02 (re-verified):** the BID provides the charger with battery ID, battery type, Ah capacity, cell count and start rate, and updates battery temperature throughout the charge so any BID-capable controlled charger can run a temperature-compensated profile. Source: AMETEK Prestolite Power BID page (T1) <https://www.prestolitepower.com/products/datadevices/bid>
 - **Variant:** a BID with Amp Hour Accumulator exists; see [[AMETEK Prestolite Power BID with Ah Accumulator]].
 - **Not stated in retrieved sources:** how temperature is sensed, chemistry coverage, and the physical interface to the charger.
+- **Functions performed (evidence):** [[Identify Battery to Charger]] (V); [[Report Battery Temperature to Charger]] (V); [[Measure Battery Temperature]] (V). V = verified this pass, C = carried from seed text, U = user-stated.
+- **Design characteristics (evidence):** [[Non-Volatile Event Memory]] (V).
 
 ## Aliases
 

@@ -20,4 +20,4 @@ Reusable definitions of products and product classes that connect to batteries: 
 
 ## Related
 
-Evidence, comparisons and open conflicts for these products are in the `Research` folder.
+Evidence, comparisons and open conflicts for these products are in the `Research` folder. Reusable behaviors are in `Product Functions` and design characteristics in `Product Designs`.

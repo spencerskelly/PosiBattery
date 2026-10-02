@@ -12,6 +12,14 @@ tags:
   - telemetry
 subtypeOf:
   - "[[Battery Monitoring Device]]"
+performs:
+  - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Current]]"
+  - "[[Measure Battery Temperature]]"
+  - "[[Sense Electrolyte Level]]"
+  - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Alert on Abnormal Condition]]"
 ---
 
 # Energywith withBMS BMU
@@ -32,6 +40,7 @@ Battery Monitoring Unit installed on forklift lead-acid batteries as the battery
   - https://www.energy-with.com/en/solutions/forklift-battery-monitoring/
   - https://www.energy-with.com/en/strength/technology-development/ev-battery-monitoring/
 - **Verification 2026-10-02:** not re-verified in this pass; claims above are carried from the seed branch as written.
+- **Functions performed (evidence):** [[Measure Battery Voltage]] (C); [[Measure Battery Current]] (C); [[Measure Battery Temperature]] (C); [[Sense Electrolyte Level]] (C); [[Transmit Battery Data Wirelessly]] (C); [[Upload Battery Data to Cloud Portal]] (C); [[Alert on Abnormal Condition]] (C). V = verified this pass, C = carried from seed text, U = user-stated.
 
 ## Aliases
 
