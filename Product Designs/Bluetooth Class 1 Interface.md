@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Bluetooth Interface]]"
+describedBy:
+  - "[[Monitor Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[Crown V-Force BMID]]"
 ---

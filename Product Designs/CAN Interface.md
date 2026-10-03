@@ -7,6 +7,9 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+describedBy:
+  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
+  - "[[Battery Metric - BMS and Communication]]"
 designOf:
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[EnerSys Wi-iQ]]"

@@ -7,9 +7,11 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+describedBy:
+  - "[[Charger Metric - Peak Efficiency]]"
 designOf:
-  - "[[Stryten X-7 Charger]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Silicon-Carbide Power Stage

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Current Measurement]]"
 performedBy:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"

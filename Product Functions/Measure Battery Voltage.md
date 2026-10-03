@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Voltage Measurement]]"
 performedBy:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[Access Control Group CellTrac]]"

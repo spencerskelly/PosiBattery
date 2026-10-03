@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+describedBy:
+  - "[[Charger Metric - Charge Regimes]]"
 performedBy:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"
@@ -16,9 +18,9 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
-  - "[[Stryten X-7 Charger]]"
-  - "[[Stryten X-3 Charger]]"
   - "[[Stryten EHI Charger]]"
+  - "[[Stryten X-3 Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Charge Battery by Opportunity

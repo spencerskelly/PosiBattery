@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+describedBy:
+  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac SP+]]"

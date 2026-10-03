@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+describedBy:
+  - "[[Charger Metric - Modularity]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
@@ -16,8 +18,8 @@ designOf:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
-  - "[[Stryten X-7 Charger]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Modular Power Modules

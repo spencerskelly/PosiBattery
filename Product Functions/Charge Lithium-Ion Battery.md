@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+describedBy:
+  - "[[Charger Metric - Chemistries Supported]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
@@ -20,8 +22,8 @@ performedBy:
   - "[[Lester Summit Series II]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
-  - "[[Stryten X-7 Charger]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Charge Lithium-Ion Battery

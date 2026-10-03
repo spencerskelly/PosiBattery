@@ -43,6 +43,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 5 2026-10-02:** researched what battery makers and truck OEMs offer with their batteries; added Stryten Energy, Midac, Triathlon Battery Solutions, Jungheinrich and Sunlight Group, an offered-with list on every organization note, and the matrix [[Products Offered or Promoted with Industrial Batteries]]. Wi-iQ re-mapped as identifying the battery to EnerSys chargers.
 - **Round 8 2026-10-02:** catalog review; 38 battery lines and four battery families added; charger and battery features mapped; see [[Catalog Review 2026-10-02]] and [[Offerings by Organization]].
 - **Round 9 2026-10-02:** note standard and exemplars, specs added from three documents, Stryten lineup completed, multi-link explanations, decisions Q11 and Q12 recorded. See [[Note Standard (Example)]].
+- **Round 10 2026-10-02:** performance metric dictionary (42 metrics in the Performance Metrics folder) and three comparison matrices; the documents mentioned for this round had not arrived, so no document-based values were added. See [[Monitor Comparison Matrix]], [[Charger Comparison Matrix]], [[Battery Comparison Matrix]].
 
 ## Aliases
 

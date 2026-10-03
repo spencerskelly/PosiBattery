@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"

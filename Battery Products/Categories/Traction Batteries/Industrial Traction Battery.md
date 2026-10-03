@@ -16,6 +16,19 @@ describedBy:
   - "[[Offerings by Organization]]"
   - "[[Catalog Review 2026-10-02]]"
   - "[[Note Standard (Example)]]"
+  - "[[Battery Metric - Chemistry and Plate Construction]]"
+  - "[[Battery Metric - Nominal Voltage]]"
+  - "[[Battery Metric - Capacity]]"
+  - "[[Battery Metric - Watering Interval]]"
+  - "[[Battery Metric - Charge Regimes Supported]]"
+  - "[[Battery Metric - Charge Time]]"
+  - "[[Battery Metric - Cycle Life and Warranty]]"
+  - "[[Battery Metric - BMS and Communication]]"
+  - "[[Battery Metric - Operating Temperature and Heating]]"
+  - "[[Battery Metric - Certifications]]"
+  - "[[Battery Metric - Size and Mass]]"
+  - "[[Battery Metric - Onboard Accessories]]"
+  - "[[Battery Comparison Matrix]]"
 ---
 
 # Industrial Traction Battery

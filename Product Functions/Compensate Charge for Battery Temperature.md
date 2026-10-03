@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+describedBy:
+  - "[[Charger Metric - Temperature Compensation Source]]"
 performedBy:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"

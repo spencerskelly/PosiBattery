@@ -45,6 +45,7 @@ Stated performance and specification values for products where a source gives th
 | [[Inventus Smart Battery Monitor SBM-01]] | 9-60 VDC supply | -30 to 70 C (storage -40 to 80 C) | n/s | n/s | CAN auto baud 125 kbps-1 Mbps | 1.4 W typ.; 5-85% RH; 52 mm panel | data sheet 08/2023 | [1](https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf) |
 | [[AMETEK Prestolite Power WBID]] | 12-40 cell sizes | n/s | n/s | life of battery | ZigBee up to 500 ft; DC-cable comms | obsolete | releases 2014, 2017 | [1](https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html) [2](https://mhlnews.com/new-products/article/22054269/wireless-forklift-battery-monitor-new-products) |
 | [[HOPPECKE trak collect]] | n/s | n/s | n/s | n/s | NFC, Bluetooth, CAN-LIN, battery bus; cloud collector | EN 12895, EN 1175-1, DIN EN IEC 62485-3 | vendor pages | [1](https://www.hoppecke.com/uk/product/trak-collect-premium/) [2](https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/) |
+- **Superseded in part (round 10):** the metric-based [[Monitor Comparison Matrix]] covers the same ground with defined metrics and comparability rules; this note is kept for its earlier source links.
 
 ## Aliases
 

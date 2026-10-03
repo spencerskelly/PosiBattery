@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+describedBy:
+  - "[[Battery Metric - Onboard Accessories]]"
 designOf:
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"

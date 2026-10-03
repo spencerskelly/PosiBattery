@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+describedBy:
+  - "[[Battery Metric - Chemistry and Plate Construction]]"
 designOf:
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
