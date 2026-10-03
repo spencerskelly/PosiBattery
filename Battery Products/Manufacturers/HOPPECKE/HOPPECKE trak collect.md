@@ -36,6 +36,7 @@ madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
   - "[[HOPPECKE trak charger HF premium]]"
+  - "[[HOPPECKE trak uplift iQ Battery]]"
 ---
 
 # HOPPECKE trak collect

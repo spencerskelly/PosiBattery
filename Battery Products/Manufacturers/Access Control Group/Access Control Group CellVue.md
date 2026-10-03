@@ -13,6 +13,8 @@ subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
 performs:
   - "[[Indicate Battery Status Locally]]"
+madeBy:
+  - "[[Access Control Group]]"
 ---
 
 # Access Control Group CellVue

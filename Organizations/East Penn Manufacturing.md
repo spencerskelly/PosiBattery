@@ -18,6 +18,17 @@ describedBy:
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"
+makes:
+  - "[[Deka D-Series Battery]]"
+  - "[[Deka Dominator Battery]]"
+  - "[[Deka FastCharge Battery]]"
+  - "[[Deka HydraSaver Battery]]"
+  - "[[Deka MaintenanceSaver Battery]]"
+  - "[[Deka ChargeMate Battery]]"
+  - "[[Deka PowrMate Battery]]"
+  - "[[Deka Gel-Mate Battery]]"
+  - "[[Deka MaxPowr Battery]]"
+  - "[[Deka Ready Power Lithium Battery]]"
 offers:
   - "[[Deka PowerForce Charger]]"
   - "[[AMETEK Prestolite Power Eclipse II]]"

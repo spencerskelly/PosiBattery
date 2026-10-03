@@ -11,6 +11,12 @@ tags:
   - rebrand
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+performs:
+  - "[[Charge Battery Conventionally]]"
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Charge Battery Fast]]"
+hasDesign:
+  - "[[Modular Power Modules]]"
 offeredBy:
   - "[[Raymond]]"
 rebrandOf:
@@ -31,6 +37,12 @@ Raymond-branded charger whose dealer page describes it as the REVOLUTION series.
 - Raymond's own power systems page lists the Raymond Red Charger among its chargers and says its chargers include automated and wireless chargers, fast and opportunity systems and CEC-certified universal chargers for lead-acid and lithium-ion, with a six-year standard warranty claim. Source: Raymond power systems page (T1), retrieved 2026-10-02. <https://www.raymondcorp.com/products/power-systems>
 - A resale listing shows Raymond-branded chargers with model numbers such as RV08-6kw and RV-10.4-240-36-CEC, and a parts reseller lists Power Designers REVOLUTION chargers as RV08-10KW-48V and RV12-12KW-36V, the same 'RV' prefix scheme. Source: eBay listing and powRparts (T4), retrieved 2026-10-02. <https://powrparts.com/products/power-designers-revolution-series-charger>
 - **Update (round 7):** three further indications (a second Raymond dealer page, the 'RV' model-number scheme, Raymond listing the product itself) strengthen the rebrand inference, which remains an inference: no source states the supply agreement or who builds the Raymond units.
+- **Functions performed, with citations** (V = verified this pass):
+  - [[Charge Battery Conventionally]] (V): <https://www.carolinahandling.com/products/raymond-red-charger>
+  - [[Charge Battery by Opportunity]] (V): <https://www.carolinahandling.com/products/raymond-red-charger>
+  - [[Charge Battery Fast]] (V): <https://www.carolinahandling.com/products/raymond-red-charger>
+- **Design characteristics, with citations:**
+  - [[Modular Power Modules]] (V): <https://www.carolinahandling.com/products/raymond-red-charger>
 
 ## Aliases
 

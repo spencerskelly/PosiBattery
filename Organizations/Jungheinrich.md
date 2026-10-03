@@ -17,6 +17,8 @@ describedBy:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+offers:
+  - "[[Jungheinrich Lithium-Ion Battery]]"
 ---
 
 # Jungheinrich

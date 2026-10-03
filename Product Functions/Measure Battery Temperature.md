@@ -36,6 +36,7 @@ performedBy:
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
+  - "[[Stryten M-Series Li610 Battery]]"
 ---
 
 # Measure Battery Temperature
@@ -78,6 +79,7 @@ Measure battery temperature, either of the electrolyte or of the surroundings.
   - [[Access Control Group CellTrac]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
+  - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
 
 ## Aliases
 

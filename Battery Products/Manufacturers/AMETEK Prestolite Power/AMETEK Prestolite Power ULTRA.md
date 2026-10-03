@@ -11,6 +11,11 @@ tags:
   - status-unclear
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+performs:
+  - "[[Charge Battery Conventionally]]"
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Charge Battery Fast]]"
+  - "[[Compensate Charge for Battery Temperature]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 offeredWith:
@@ -27,6 +32,11 @@ Older AMETEK Prestolite SCR charger family whose opportunity and fast models req
 
 - The 2005 item says ULTRA SCR chargers adjust output to battery temperature and voltage, the ULTRA EXTREME fast charger has a 40 A per 100 Ah start rate, and the opportunity and fast models require a Prestolite BID module to monitor battery temperature from 32 to 158 F. Source: M H&L archive (2005, dated) (T2 (dated)), retrieved 2026-10-02. <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
 - **Status unclear:** 2005 source; not on checked current pages.
+- **Functions performed, with citations** (V = verified this pass):
+  - [[Charge Battery Conventionally]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
+  - [[Charge Battery by Opportunity]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
+  - [[Charge Battery Fast]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
+  - [[Compensate Charge for Battery Temperature]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
 
 ## Aliases
 

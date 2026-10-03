@@ -12,6 +12,9 @@ designOf:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[Deka Ready Power Lithium Battery]]"
+  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
 ---
 
 # CAN Interface
@@ -30,6 +33,9 @@ CAN bus interface for communication with a vehicle or charger.
   - [[PosiCharge PosiGuard]] (V): <https://posicharge.com/products/posiguard/>
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
+  - [[Deka Ready Power Lithium Battery]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
+  - [[Stryten M-Series Li600 Battery]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
+  - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
 
 ## Aliases
 

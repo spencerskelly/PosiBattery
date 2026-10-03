@@ -22,6 +22,7 @@ performedBy:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[HOPPECKE trak uplift iQ Battery]]"
 ---
 
 # Indicate Battery Status Locally
@@ -50,6 +51,7 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Access Control Group CellVue]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
+  - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
 
 ## Aliases
 

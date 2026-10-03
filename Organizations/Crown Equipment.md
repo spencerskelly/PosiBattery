@@ -20,6 +20,8 @@ offers:
   - "[[Crown V-Force BMID]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[Crown V-HFM3 Charger]]"
+  - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[Crown V-Force Lead-Acid Battery]]"
 ---
 
 # Crown Equipment

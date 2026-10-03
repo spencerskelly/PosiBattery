@@ -19,6 +19,13 @@ describedBy:
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"
+makes:
+  - "[[Stryten M-Series T330 Battery]]"
+  - "[[Stryten M-Series T300 Battery]]"
+  - "[[Stryten M-Series F110 Battery]]"
+  - "[[Stryten M-Series AGM210 Battery]]"
+  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Stryten M-Series Li610 Battery]]"
 offers:
   - "[[Stryten X-7 Charger]]"
 distributedBy:

@@ -1,0 +1,48 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00112
+uid: 20261002193402968skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - battery
+  - hibernation
+subtypeOf:
+  - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Estimate State of Charge]]"
+  - "[[Measure Battery Temperature]]"
+  - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Current]]"
+hasDesign:
+  - "[[Hibernation Mode]]"
+madeBy:
+  - "[[Stryten Energy]]"
+offeredWith:
+  - "[[Stryten X-7 Charger]]"
+---
+
+# Stryten M-Series Li610 Battery
+
+## Definition
+
+Stryten LFP battery for Class I forklifts with an onboard display and hibernation mode, launched in April 2026.
+
+## Notes
+
+- Stryten says Li610 shows state of charge, temperature, voltage and current on an onboard display, has automated hibernation, is made in the US, is compatible with X-3 and X-7 chargers, and integrates with inCOMMAND; UL2580 certification is being pursued. Source: Business Wire (2026-04-13) (T2), retrieved 2026-10-02. <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+- **Functions performed, with citations** (V = verified this pass):
+  - [[Estimate State of Charge]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+  - [[Measure Battery Temperature]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+  - [[Measure Battery Voltage]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+  - [[Measure Battery Current]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+- **Design characteristics, with citations:**
+  - [[Hibernation Mode]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+
+## Aliases
+
+- Li610
+
+## Former ids

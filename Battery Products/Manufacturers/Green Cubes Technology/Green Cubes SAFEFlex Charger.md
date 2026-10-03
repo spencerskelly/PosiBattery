@@ -11,8 +11,13 @@ tags:
   - lithium
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+performs:
+  - "[[Charge Lithium-Ion Battery]]"
 madeBy:
   - "[[Green Cubes Technology]]"
+offeredWith:
+  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
 ---
 
 # Green Cubes SAFEFlex Charger
@@ -24,6 +29,8 @@ Green Cubes FBC series chargers for its lithium material handling and GSE batter
 ## Notes
 
 - The listing says the Lithium SAFEFlex FBC series charger operates with material handling and GSE lithium-ion batteries; the company also designs custom OEM chargers with one to eight bays. Source: Energy-Xprt and GlobalSpec listings (T3), retrieved 2026-10-02. <https://www.globalspec.com/FeaturedProducts/Detail/GreenCubesTechnology/Chargers/354867/1>
+- **Functions performed, with citations** (V = verified this pass):
+  - [[Charge Lithium-Ion Battery]] (V): <https://www.globalspec.com/FeaturedProducts/Detail/GreenCubesTechnology/Chargers/354867/1>
 
 ## Aliases
 

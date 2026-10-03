@@ -16,6 +16,8 @@ describedBy:
   - "[[Products Offered or Promoted with Industrial Batteries]]"
 playsRole:
   - "[[Battery Maker]]"
+makes:
+  - "[[Midac PzS Traction Battery]]"
 ---
 
 # Midac

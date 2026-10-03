@@ -21,6 +21,12 @@ makes:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Exide Element HF Charger]]"
   - "[[Exide Motion+ Lithium Charger]]"
+  - "[[Exide MARATHON Battery]]"
+  - "[[Exide TENSOR xGEL Battery]]"
+  - "[[Exide Element VRLA Battery]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Exide Solition Light Traction Battery]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:

@@ -41,6 +41,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 3 2026-10-02:** added citations (a web page per link) to every function and design mapping, 6 more products (Power Designers PowerTrac Monitor, Exide Motion+ EasyMonitor, ACT BATTview, eGO!plus, eGO!core, eGO!gateway), 2 functions and 8 designs, and re-verified seed claims for PosiGuard and eGO!pro.
 - **Round 4 2026-10-02:** started the `Organizations` folder: 11 organization notes and a relationship register for industrial battery makers, truck OEMs and white-label or rebrand evidence. Candidate makers not yet researched are listed in the register.
 - **Round 5 2026-10-02:** researched what battery makers and truck OEMs offer with their batteries; added Stryten Energy, Midac, Triathlon Battery Solutions, Jungheinrich and Sunlight Group, an offered-with list on every organization note, and the matrix [[Products Offered or Promoted with Industrial Batteries]]. Wi-iQ re-mapped as identifying the battery to EnerSys chargers.
+- **Round 8 2026-10-02:** catalog review; 38 battery lines and four battery families added; charger and battery features mapped; see [[Catalog Review 2026-10-02]] and [[Offerings by Organization]].
 
 ## Aliases
 

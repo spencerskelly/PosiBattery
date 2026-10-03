@@ -154,6 +154,80 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | distributedBy | [[Raymond]] | [[Raymond Handling Consultants]] | dealer page sells the Raymond Red Charger | <https://www.raymondhc.com/products/raymond-red-charger> |
 | distributedBy | [[Raymond]] | [[Carolina Handling]] | dealer page sells the Raymond Red Charger | <https://www.carolinahandling.com/products/raymond-red-charger> |
 | distributedBy | [[Advanced Charging Technologies]] | [[Motive Energy]] | dealer page offers ACTintelligent and Battview | <https://www.motiveenergy.com/ibc/chargers/actintelligent-battview/> |
+| playsRole | [[Access Control Group]] | [[Monitor Maker]] | analyst label from the organization note | see the organization note |
+| makes | [[Access Control Group]] | [[Access Control Group CellTrac]] | vendor presents the product as its own | see the product note |
+| makes | [[Access Control Group]] | [[Access Control Group CellVue]] | vendor presents the product as its own | see the product note |
+| playsRole | [[Energywith]] | [[Monitor Maker]] | analyst label from the organization note | see the organization note |
+| makes | [[Energywith]] | [[Energywith withBMS BMU]] | vendor presents the product as its own | see the product note |
+| playsRole | [[Flow-Rite]] | [[Monitor Maker]] | analyst label from the organization note | see the organization note |
+| makes | [[Flow-Rite]] | [[Flow-Rite Maverick Battery Watering System]] | vendor presents the product as its own | see the product note |
+| makes | [[Flow-Rite]] | [[Flow-Rite Eagle Eye Elite IV]] | vendor presents the product as its own | see the product note |
+| makes | [[Flow-Rite]] | [[Flow-Rite Eagle Eye Essential IV]] | vendor presents the product as its own | see the product note |
+| playsRole | [[Inventus Power]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Inventus Power]] | [[Monitor Maker]] | analyst label from the organization note | see the organization note |
+| makes | [[Inventus Power]] | [[Inventus Smart Battery Monitor SBM-01]] | vendor presents the product as its own | see the product note |
+| offers | [[HOPPECKE]] | [[HOPPECKE trak charger HF premium]] | vendor lists the charger; maker not stated | <https://www.hoppecke.com/uk/product/trak-uplift-iq/> |
+| makes | [[EnerSys]] | [[EnerSys NexSys TPPL Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[EnerSys]] | [[EnerSys NexSys iON Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[EnerSys]] | [[EnerSys IRONCLAD Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide MARATHON Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide TENSOR xGEL Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide Element VRLA Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide Sonnenschein Lithium Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide Solition Light Traction Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide GNB Lithium Battery 2.0]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka D-Series Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka Dominator Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka FastCharge Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka HydraSaver Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka MaintenanceSaver Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka ChargeMate Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka PowrMate Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka Gel-Mate Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka MaxPowr Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[East Penn Manufacturing]] | [[Deka Ready Power Lithium Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series T330 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series T300 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series F110 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series AGM210 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series Li600 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten M-Series Li610 Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[HOPPECKE]] | [[HOPPECKE trak uplift air Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[HOPPECKE]] | [[HOPPECKE trak uplift iQ Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[HOPPECKE]] | [[HOPPECKE trak power Lithium Battery]] | vendor presents the product as its own | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-Force Lithium-Ion ESS]] | vendor lists the product; maker not stated | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-Force Lead-Acid Battery]] | vendor lists the product; maker not stated | see the product note |
+| makes | [[Flux Power]] | [[Flux Power LiFT Pack]] | vendor presents the product as its own | see the product note |
+| makes | [[Flux Power]] | [[Flux Power S-Series Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Flux Power]] | [[Flux Power GSE Pack]] | vendor presents the product as its own | see the product note |
+| makes | [[Green Cubes Technology]] | [[Green Cubes SAFEFlex Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Green Cubes Technology]] | [[Green Cubes SAFEFlex PLUS Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Green Cubes Technology]] | [[Green Cubes GSE Lithium Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Midac]] | [[Midac PzS Traction Battery]] | vendor presents the product as its own | see the product note |
+| offers | [[Jungheinrich]] | [[Jungheinrich Lithium-Ion Battery]] | vendor lists the product; maker not stated | see the product note |
+| offeredWith | [[EnerSys NexSys TPPL Battery]] | [[EnerSys NexSys+ Charger]] | guide lists NexSys+ profiles for NexSys TPPL | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
+| offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys NexSys TPPL Battery]] | manual: Wi-iQ4 for flooded and NexSys TPPL | <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf> |
+| offeredWith | [[Exide Element VRLA Battery]] | [[Exide Element HF Charger]] | release unifies Element batteries and HF chargers | <https://www2020.theautochannel.com/news/2007/03/28/041598.html> |
+| offeredWith | [[Exide Solition Light Traction Battery]] | [[Exide Motion+ Lithium Charger]] | BMS controls the charger | <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet> |
+| offeredWith | [[Stryten M-Series Li600 Battery]] | [[Stryten X-7 Charger]] | compatible with X-3 and X-7 | <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain> |
+| offeredWith | [[Stryten M-Series Li610 Battery]] | [[Stryten X-7 Charger]] | compatible with X-3 and X-7 | <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX> |
+| offeredWith | [[Crown V-Force Lithium-Ion ESS]] | [[Crown V-HFM3 Charger]] | ESS includes a V-Force charger | <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html> |
+| offeredWith | [[Crown V-Force Lead-Acid Battery]] | [[Crown V-HFM3 Charger]] | part of the V-Force line of chargers and batteries | <https://news.crown.com/blog/2019/crown-equipment-adds-forklift-power-source-versatility-and-efficiency-to-chargers/> |
+| offeredWith | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE trak collect]] | system is battery plus controller | <https://www.hoppecke.com/uk/product/trak-uplift-iq/> |
+| offeredWith | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE trak charger HF premium]] | chargeable with trak | charger HF premium | <https://www.hoppecke.com/uk/product/trak-uplift-iq/> |
+| offeredWith | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE trak charger HF premium]] | case study lists them together | <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks> |
+| offeredWith | [[Green Cubes SAFEFlex Battery]] | [[Green Cubes SAFEFlex Charger]] | charger designed for MH and GSE lithium batteries | <https://www.globalspec.com/FeaturedProducts/Detail/GreenCubesTechnology/Chargers/354867/1> |
+| offeredWith | [[Green Cubes GSE Lithium Battery]] | [[Green Cubes SAFEFlex Charger]] | charger designed for MH and GSE lithium batteries | <https://www.globalspec.com/FeaturedProducts/Detail/GreenCubesTechnology/Chargers/354867/1> |
+| offeredWith | [[Deka D-Series Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka Dominator Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka FastCharge Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka HydraSaver Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka MaintenanceSaver Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka ChargeMate Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka PowrMate Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka Gel-Mate Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka MaxPowr Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
+| offeredWith | [[Deka Ready Power Lithium Battery]] | [[Deka PowerForce Charger]] | PowerForce is designed for all Deka motive power batteries | <https://www.eastpennmanufacturing.com/?p=6135> |
 
 ## Aliases
 

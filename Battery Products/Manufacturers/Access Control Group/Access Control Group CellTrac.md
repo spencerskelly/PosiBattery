@@ -19,6 +19,8 @@ performs:
   - "[[Alert on Abnormal Condition]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
+madeBy:
+  - "[[Access Control Group]]"
 ---
 
 # Access Control Group CellTrac

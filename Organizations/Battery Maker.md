@@ -19,6 +19,7 @@ rolePlayedBy:
   - "[[Midac]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
+  - "[[Inventus Power]]"
 ---
 
 # Battery Maker

@@ -26,6 +26,9 @@ makes:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys COMpact Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[EnerSys NexSys TPPL Battery]]"
+  - "[[EnerSys NexSys iON Battery]]"
+  - "[[EnerSys IRONCLAD Battery]]"
 distributedBy:
   - "[[Western Materials]]"
 integratesWith:

@@ -10,6 +10,8 @@ tags:
   - charger
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+hasDesign:
+  - "[[Modular Power Modules]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
@@ -25,6 +27,8 @@ EnerSys modular high-frequency charger line for material handling and floor-care
 ## Notes
 
 - The guide describes IMPAQ chargers as having a flexible modular design that automatically maintains peak performance, for material handling equipment and floor cleaning. Source: EnerSys IMPAQ and NexSys+ guide (T1), retrieved 2026-10-02. <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
+- **Design characteristics, with citations:**
+  - [[Modular Power Modules]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
 
 ## Aliases
 

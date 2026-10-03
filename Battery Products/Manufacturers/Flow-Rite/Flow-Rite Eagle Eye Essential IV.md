@@ -18,6 +18,8 @@ hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
   - "[[Local LED Indicator]]"
   - "[[Acid-Resistant Sealed Housing]]"
+madeBy:
+  - "[[Flow-Rite]]"
 ---
 
 # Flow-Rite Eagle Eye Essential IV

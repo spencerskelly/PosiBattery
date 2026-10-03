@@ -20,6 +20,7 @@ performedBy:
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Raymond iBattery]]"
+  - "[[Stryten M-Series Li610 Battery]]"
 ---
 
 # Estimate State of Charge
@@ -46,6 +47,7 @@ Estimate the battery's state of charge from measurements.
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
+  - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
 
 ## Aliases
 

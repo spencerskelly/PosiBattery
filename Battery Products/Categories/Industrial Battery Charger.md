@@ -18,6 +18,7 @@ supertypeOf:
   - "[[ACT Quantum Outdoor]]"
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"
+  - "[[Delta-Q IC650]]"
   - "[[Deka PowerForce Charger]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
@@ -30,17 +31,17 @@ supertypeOf:
   - "[[Fronius Selectiva 4.0]]"
   - "[[Green Cubes SAFEFlex Charger]]"
   - "[[HOPPECKE trak charger HF premium]]"
+  - "[[Lester Summit Series II]]"
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[PosiCharge SVS200]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-7 Charger]]"
-  - "[[Lester Summit Series II]]"
-  - "[[Delta-Q IC650]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
+  - "[[Offerings by Organization]]"
 ---
 
 # Industrial Battery Charger

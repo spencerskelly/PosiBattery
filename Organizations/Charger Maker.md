@@ -11,17 +11,17 @@ rolePlayedBy:
   - "[[AMETEK Prestolite Power]]"
   - "[[Advanced Charging Technologies]]"
   - "[[Aker Wade Power Technologies]]"
+  - "[[Delta-Q Technologies]]"
   - "[[East Penn Manufacturing]]"
   - "[[EnerSys]]"
   - "[[Exide Technologies]]"
   - "[[Fronius International]]"
   - "[[Green Cubes Technology]]"
   - "[[HOPPECKE]]"
+  - "[[Lester Electrical]]"
   - "[[PosiCharge]]"
   - "[[Power Designers]]"
   - "[[Stryten Energy]]"
-  - "[[Lester Electrical]]"
-  - "[[Delta-Q Technologies]]"
 ---
 
 # Charger Maker

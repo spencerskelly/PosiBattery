@@ -23,6 +23,8 @@ performs:
 hasDesign:
   - "[[CAN Interface]]"
   - "[[Panel-Mount Gauge Form Factor]]"
+madeBy:
+  - "[[Inventus Power]]"
 ---
 
 # Inventus Smart Battery Monitor SBM-01

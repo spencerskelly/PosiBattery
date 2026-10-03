@@ -52,6 +52,7 @@ offeredWith:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys COMpact Charger]]"
   - "[[EnerSys Truck iQ]]"
+  - "[[EnerSys NexSys TPPL Battery]]"
 ---
 
 # EnerSys Wi-iQ

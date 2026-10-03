@@ -23,6 +23,7 @@ supertypeOf:
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
+  - "[[Offerings by Organization]]"
 ---
 
 # Battery Monitoring and Identification Device

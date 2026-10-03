@@ -20,6 +20,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Deka HydraSaver Battery]]"
+  - "[[HOPPECKE trak uplift iQ Battery]]"
 ---
 
 # Local LED Indicator
@@ -46,6 +48,8 @@ LED indicator on the device or at the battery showing status.
   - [[Flow-Rite Eagle Eye Essential IV]] (V): <https://mhwmag.com/?p=86116>
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
+  - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
+  - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
 
 ## Aliases
 

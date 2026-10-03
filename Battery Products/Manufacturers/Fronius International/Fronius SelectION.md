@@ -11,6 +11,9 @@ tags:
   - lithium
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+performs:
+  - "[[Charge Lithium-Ion Battery]]"
+  - "[[Charge Under BMS Control]]"
 madeBy:
   - "[[Fronius International]]"
 ---
@@ -25,6 +28,9 @@ Fronius lithium-ion charger family with Plug & Charge.
 
 - Fronius says SelectION is for charging lithium-ion batteries and uses Plug & Charge with no additional settings. Source: Fronius charging solutions page (T1), retrieved 2026-10-02. <https://www.fronius.com/en/battery-charging-technology/product-list>
 - Fronius also describes BatteryLink CAN with automatic baud-rate detection for Li-ion forklift batteries. Source: Fronius (T1), retrieved 2026-10-02. <https://www.fronius.com/en/battery-charging-technology/info-centre/news/lead-acid-lithium-ion>
+- **Functions performed, with citations** (V = verified this pass):
+  - [[Charge Lithium-Ion Battery]] (V): <https://www.fronius.com/en/battery-charging-technology/product-list>
+  - [[Charge Under BMS Control]] (V): <https://www.fronius.com/en/battery-charging-technology/info-centre/news/lead-acid-lithium-ion>
 
 ## Aliases
 

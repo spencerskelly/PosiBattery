@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.inFolder("Battery Products")
+    - type == "Object"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Products by maker
+    order:
+      - file.name
+      - madeBy
+      - offeredBy
+      - subtypeOf
+      - offeredWith
+      - status

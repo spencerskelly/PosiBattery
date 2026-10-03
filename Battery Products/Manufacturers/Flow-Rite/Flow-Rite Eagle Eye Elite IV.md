@@ -17,6 +17,8 @@ performs:
   - "[[Indicate Battery Status Locally]]"
 hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
+madeBy:
+  - "[[Flow-Rite]]"
 ---
 
 # Flow-Rite Eagle Eye Elite IV

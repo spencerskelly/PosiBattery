@@ -12,6 +12,8 @@ tags:
   - watering
 subtypeOf:
   - "[[Battery Watering System]]"
+madeBy:
+  - "[[Flow-Rite]]"
 ---
 
 # Flow-Rite Maverick Battery Watering System

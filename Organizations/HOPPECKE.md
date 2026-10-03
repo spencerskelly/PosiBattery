@@ -20,6 +20,11 @@ playsRole:
   - "[[Monitor Maker]]"
 makes:
   - "[[HOPPECKE trak collect]]"
+  - "[[HOPPECKE trak uplift air Battery]]"
+  - "[[HOPPECKE trak uplift iQ Battery]]"
+  - "[[HOPPECKE trak power Lithium Battery]]"
+offers:
+  - "[[HOPPECKE trak charger HF premium]]"
 partnerOf:
   - "[[ELMAS S.R.L.]]"
 ---

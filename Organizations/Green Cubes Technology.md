@@ -17,6 +17,9 @@ playsRole:
   - "[[Charger Maker]]"
 makes:
   - "[[Green Cubes SAFEFlex Charger]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
 ---
 
 # Green Cubes Technology

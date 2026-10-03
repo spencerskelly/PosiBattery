@@ -18,6 +18,10 @@ rolePlayedBy:
   - "[[Philadelphia Scientific]]"
   - "[[PosiCharge]]"
   - "[[Power Designers]]"
+  - "[[Access Control Group]]"
+  - "[[Energywith]]"
+  - "[[Flow-Rite]]"
+  - "[[Inventus Power]]"
 ---
 
 # Monitor Maker

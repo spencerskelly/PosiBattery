@@ -32,6 +32,8 @@ performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
+  - "[[Exide MARATHON Battery]]"
+  - "[[Deka HydraSaver Battery]]"
 ---
 
 # Sense Electrolyte Level
@@ -70,6 +72,8 @@ Sense whether the electrolyte level in a flooded lead-acid cell is adequate.
   - [[Access Control Group CellTrac]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
+  - [[Exide MARATHON Battery]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+  - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
 
 ## Aliases
 

@@ -20,6 +20,8 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+madeBy:
+  - "[[Energywith]]"
 ---
 
 # Energywith withBMS BMU

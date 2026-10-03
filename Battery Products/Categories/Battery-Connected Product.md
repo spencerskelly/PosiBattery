@@ -22,6 +22,7 @@ describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
+  - "[[Catalog Review 2026-10-02]]"
 ---
 
 # Battery-Connected Product

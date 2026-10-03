@@ -16,6 +16,10 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 playsRole:
   - "[[Battery Maker]]"
+makes:
+  - "[[Flux Power LiFT Pack]]"
+  - "[[Flux Power S-Series Battery]]"
+  - "[[Flux Power GSE Pack]]"
 ---
 
 # Flux Power
