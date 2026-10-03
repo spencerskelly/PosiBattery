@@ -17,6 +17,9 @@ playsRole:
 offers:
   - "[[Raymond iBattery]]"
   - "[[Raymond Red Charger]]"
+distributedBy:
+  - "[[Raymond Handling Consultants]]"
+  - "[[Carolina Handling]]"
 ---
 
 # Raymond

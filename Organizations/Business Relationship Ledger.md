@@ -144,6 +144,16 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Fronius TagID]] | [[Fronius Selectiva 4.0]] | TagID used with Selectiva 4.0 | <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid> |
 | offeredWith | [[PosiCharge BMID]] | [[PosiCharge DVS100]] | BMID listed as a DVS100 feature | <https://www.posicharge.com/dvs100/> |
 | offeredWith | [[PosiCharge BMID]] | [[PosiCharge ProCore Edge]] | charger communicates with wireless BMIDs | <https://www.posicharge.com/procoreedge> |
+| playsRole | [[Lester Electrical]] | [[Charger Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Delta-Q Technologies]] | [[Charger Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Motive Energy]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Raymond Handling Consultants]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Carolina Handling]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| makes | [[Lester Electrical]] | [[Lester Summit Series II]] | vendor presents the product as its own | see the product note |
+| makes | [[Delta-Q Technologies]] | [[Delta-Q IC650]] | vendor presents the product as its own | see the product note |
+| distributedBy | [[Raymond]] | [[Raymond Handling Consultants]] | dealer page sells the Raymond Red Charger | <https://www.raymondhc.com/products/raymond-red-charger> |
+| distributedBy | [[Raymond]] | [[Carolina Handling]] | dealer page sells the Raymond Red Charger | <https://www.carolinahandling.com/products/raymond-red-charger> |
+| distributedBy | [[Advanced Charging Technologies]] | [[Motive Energy]] | dealer page offers ACTintelligent and Battview | <https://www.motiveenergy.com/ibc/chargers/actintelligent-battview/> |
 
 ## Aliases
 

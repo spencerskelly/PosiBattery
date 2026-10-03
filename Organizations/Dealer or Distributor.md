@@ -8,9 +8,12 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[ELMAS S.R.L.]]"
   - "[[Medley Company]]"
   - "[[Western Materials]]"
-  - "[[ELMAS S.R.L.]]"
+  - "[[Motive Energy]]"
+  - "[[Raymond Handling Consultants]]"
+  - "[[Carolina Handling]]"
 ---
 
 # Dealer or Distributor

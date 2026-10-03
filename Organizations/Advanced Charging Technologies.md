@@ -21,6 +21,7 @@ makes:
   - "[[ACT Quantum Outdoor]]"
 distributedBy:
   - "[[East Penn Manufacturing]]"
+  - "[[Motive Energy]]"
 ---
 
 # Advanced Charging Technologies

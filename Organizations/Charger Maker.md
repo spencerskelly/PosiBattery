@@ -8,18 +8,20 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[AMETEK Prestolite Power]]"
   - "[[Advanced Charging Technologies]]"
+  - "[[Aker Wade Power Technologies]]"
   - "[[East Penn Manufacturing]]"
   - "[[EnerSys]]"
   - "[[Exide Technologies]]"
+  - "[[Fronius International]]"
   - "[[Green Cubes Technology]]"
   - "[[HOPPECKE]]"
   - "[[PosiCharge]]"
-  - "[[Stryten Energy]]"
   - "[[Power Designers]]"
-  - "[[AMETEK Prestolite Power]]"
-  - "[[Fronius International]]"
-  - "[[Aker Wade Power Technologies]]"
+  - "[[Stryten Energy]]"
+  - "[[Lester Electrical]]"
+  - "[[Delta-Q Technologies]]"
 ---
 
 # Charger Maker

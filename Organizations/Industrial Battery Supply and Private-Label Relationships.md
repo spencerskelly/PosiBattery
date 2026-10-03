@@ -30,6 +30,8 @@ describes:
   - "[[AMETEK Prestolite Power]]"
   - "[[Crown Battery Manufacturing]]"
   - "[[Fronius International]]"
+  - "[[Lester Electrical]]"
+  - "[[Delta-Q Technologies]]"
 ---
 
 # Industrial Battery Supply and Private-Label Relationships
@@ -65,6 +67,7 @@ Register of documented supply, private-label, rebrand, integration and channel r
 - **Round 5 additions:** (a) Stryten Energy states it is formerly GNB Industrial Power <https://www.stryten.com/?p=207972>, while Exide documents say GNB Industrial Power becomes Exide Technologies <https://exidegroup.com/en/document/tensor-xgel-brochure> (C30). (b) Triathlon Battery Solutions Ltd is described as a Sunlight Group company <https://sunlight-group.com/en/united-kingdom>. (c) Midac says well-known vehicle and device manufacturers are customers but names none <https://automechanika.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/midac-spa.html>. (d) Green Cubes offers a retrofit kit for OneCharge batteries <https://www.globalspec.com/supplier/ProductAnnouncements/GreenCubesTechnology>. (e) Dealers sell Stryten batteries alongside forklifts <https://www.medleycompany.com/stryten-energy/>.
 - **Candidate list update:** Stryten Energy, Midac, Triathlon and Sunlight Group are now researched (see their notes); remaining candidates are unchanged. Offered-with matrix: [[Products Offered or Promoted with Industrial Batteries]].
 - **Round 6 additions:** a Raymond dealer page names the Raymond Red Charger as the Power Designers REVOLUTION series <https://www.carolinahandling.com/products/raymond-red-charger>; Crown Battery's EVOLUTION chargers repeat the REVOLUTION text <https://crownbattery.com/lp-power-line>; East Penn offers AMETEK's chargers and ACT's Quantum chargers <https://www.johnstoneequipment.com/forklifts/batteries-solutions/battery-and-chargers/chargers>. These are the first rebrand candidates found for chargers; both are inferred (C33). Machine-readable links: [[Business Relationship Ledger]].
+- **Round 7 additions:** Delta-Q states it supplies chargers to OEMs of electric vehicles and industrial equipment, which is the private-label supply model, but names no OEM <https://delta-q.com/news/delta-q-introduces-can-bus-functionality-to-the-ic650-charger-for-on-board-integration>. Crown Battery's PowerHouse chargers are its own charger brand <https://www.crownbattery.com/es/power-that-moves-you>. Crown Equipment states it produces batteries and chargers <https://crownltd.career.softgarden.de/jobs/62295224/Regional-Motive-Power-Specialist>. Ledger: [[Business Relationship Ledger]].
 
 ## Aliases
 

@@ -8,17 +8,17 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[Crown Battery Manufacturing]]"
   - "[[East Penn Manufacturing]]"
   - "[[EnerSys]]"
   - "[[Exide Technologies]]"
   - "[[Flux Power]]"
+  - "[[GNB Industrial Power]]"
   - "[[Green Cubes Technology]]"
   - "[[HOPPECKE]]"
   - "[[Midac]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
-  - "[[GNB Industrial Power]]"
-  - "[[Crown Battery Manufacturing]]"
 ---
 
 # Battery Maker

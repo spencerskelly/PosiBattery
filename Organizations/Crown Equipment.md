@@ -41,6 +41,8 @@ Truck maker that sells V-Force-branded lithium and lead-acid batteries and charg
   - Charger options: Battery Monitoring Identification Device, charger stand, remote switch, pogo sticks, tower light kit <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html>
   - Monitoring: Battery Health Monitor with InfoLink fleet management <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
   - Battery management: integrated BMS on V-Force lithium ESS <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
+- A Crown Lift Trucks job posting says Crown produces forklifts, batteries and chargers, and uses vertically integrated processes to design, manufacture and distribute its solutions; it was founded in 1945 with headquarters in Ohio. Source: Crown Lift Trucks careers page (T1 (job posting)), retrieved 2026-10-02. <https://crownltd.career.softgarden.de/jobs/62295224/Regional-Motive-Power-Specialist>
+- **Update:** the 'maker unknown' item for V-Force is partly answered: Crown states it produces batteries and chargers. A manufacturing statement for specific V-Force models or cells was not found.
 
 ## Aliases
 

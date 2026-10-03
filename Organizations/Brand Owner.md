@@ -8,11 +8,11 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[Crown Battery Manufacturing]]"
   - "[[Crown Equipment]]"
   - "[[Hyster-Yale]]"
   - "[[Jungheinrich]]"
   - "[[Raymond]]"
-  - "[[Crown Battery Manufacturing]]"
 ---
 
 # Brand Owner

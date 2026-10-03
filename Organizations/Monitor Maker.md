@@ -8,16 +8,16 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[AMETEK Prestolite Power]]"
   - "[[Advanced Charging Technologies]]"
+  - "[[Aker Wade Power Technologies]]"
   - "[[EnerSys]]"
   - "[[Exide Technologies]]"
+  - "[[Fronius International]]"
   - "[[HOPPECKE]]"
+  - "[[Philadelphia Scientific]]"
   - "[[PosiCharge]]"
   - "[[Power Designers]]"
-  - "[[AMETEK Prestolite Power]]"
-  - "[[Fronius International]]"
-  - "[[Philadelphia Scientific]]"
-  - "[[Aker Wade Power Technologies]]"
 ---
 
 # Monitor Maker

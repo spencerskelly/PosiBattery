@@ -20,8 +20,8 @@ supertypeOf:
   - "[[Industrial Battery Charger]]"
 describedBy:
   - "[[Battery Product Landscape]]"
-  - "[[Landscape Evidence and Modeling Conventions]]"
   - "[[Investigation Backlog]]"
+  - "[[Landscape Evidence and Modeling Conventions]]"
 ---
 
 # Battery-Connected Product

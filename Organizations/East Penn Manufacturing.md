@@ -27,8 +27,8 @@ offers:
 distributedBy:
   - "[[Western Materials]]"
 distributorOf:
-  - "[[Advanced Charging Technologies]]"
   - "[[AMETEK Prestolite Power]]"
+  - "[[Advanced Charging Technologies]]"
 ---
 
 # East Penn Manufacturing
