@@ -13,10 +13,10 @@ subtypeOf:
 dependsOn:
   - "[[Operator Presence Sensing Design]]"
 performedBy:
-  - "[[Textron Smart Sense]]"
-  - "[[Toyota Compartment Sensing System]]"
-  - "[[Raymond iWAREHOUSE Integrated Tether System]]"
   - "[[Raymond Operator Compartment Sensor System]]"
+  - "[[Raymond iWAREHOUSE Integrated Tether System]]"
+  - "[[Toyota Compartment Sensing System]]"
+  - "[[Textron Smart Sense]]"
 ---
 
 # Stop Vehicle When Operator Is Out of Position

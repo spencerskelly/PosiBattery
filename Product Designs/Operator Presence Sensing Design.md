@@ -10,8 +10,8 @@ tags:
 subtypeOf:
   - "[[Vehicle State Sensing Design]]"
 supertypeOf:
-  - "[[Operator Sensing Floor Mat]]"
   - "[[Light-Beam Compartment Sensor]]"
+  - "[[Operator Sensing Floor Mat]]"
 dependencyOf:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 ---

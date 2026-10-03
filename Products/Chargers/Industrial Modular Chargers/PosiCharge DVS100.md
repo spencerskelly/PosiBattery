@@ -34,6 +34,9 @@ PosiCharge dual-port fast charger with BMID, electrolytic thermistor and a dynam
   - [[Equalize Battery on Schedule]] (V): <https://www.posicharge.com/dvs100/>
   - [[Charge Battery Fast]] (V): <https://www.posicharge.com/dvs100/>
   - [[Compensate Charge for Battery Temperature]] (V): <https://www.posicharge.com/faq/>
+- **Public-evidence baseline (added from the vault's baseline note, round 19):**
+- A public installation-manual search result describes 2 × 10 kW, 16–120 V DC output, 200 A maximum output, and 480/600 VAC variants. Source: official PosiCharge page for DVS100, as summarized in the vault's Public Evidence Register (PUB-005, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/product-resources/>
+- **Baseline confidence (DVS100):** Publicly indicated only. **Still needed:** Confirm current product existence with current official page/spec sheet; establish SKU, ratings, certifications, and relationship to DVS150 before relying on these specifications.
 
 ## Aliases
 

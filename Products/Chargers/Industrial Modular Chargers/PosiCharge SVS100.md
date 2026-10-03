@@ -33,6 +33,9 @@ PosiCharge compact outdoor GSE fast and opportunity charger for 24 to 80 V elect
 - **Functions performed, with citations:**
   - [[Charge Battery Fast]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
   - [[Compensate Charge for Battery Temperature]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
+- **Public-evidence baseline (added from the vault's baseline note, round 19):**
+- Single-port outdoor GSE charger. Public content lists 24–80 V batteries, BMID recognition of voltage/state of charge/temperature, automatic start/stop, anti-arcing disconnect, thermal shutdown, high-frequency IGBT conversion, NEMA 3R enclosure, and Euro/Burton connector/cable options. Source: official PosiCharge page for SVS100, as summarized in the vault's Public Evidence Register (PUB-006, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/svs100/>
+- **Baseline confidence (SVS100):** Verified public, with P0 rating conflict. **Still needed:** Resolve whether rated power is 10 kW, 40 kW, or configuration-dependent; obtain current controlled spec sheet, part-number structure, approved eGSE applications, certifications, and accessory/interface list.
 
 ## Aliases
 

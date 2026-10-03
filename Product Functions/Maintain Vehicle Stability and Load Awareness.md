@@ -8,9 +8,9 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Stabilize Truck Dynamically]]"
-  - "[[Restrict Lift When Load Exceeds Limit]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

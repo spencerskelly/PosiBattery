@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[Crown V-HFM3 Wired Remote Control Kit]]"
+  - "[[PosiCharge Three-Color Stack Light]]"
 ---
 
 # Charger Remote Control and Indicator

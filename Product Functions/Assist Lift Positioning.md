@@ -10,11 +10,11 @@ tags:
 subtypeOf:
   - "[[Support Operator View and Positioning]]"
 performedBy:
-  - "[[Toyota Assist]]"
+  - "[[Raymond Under-Fork Camera Option]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
-  - "[[Raymond Under-Fork Camera Option]]"
 ---
 
 # Assist Lift Positioning

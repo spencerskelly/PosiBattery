@@ -29,6 +29,7 @@ Display: Local display type and size.
   - [[Crown V-HFM3 Charger]]: color display and LED indicator lights
   - [[EnerSys IMPAQ Charger]]: LCD screen with programmable menu
   - [[EnerSys NexSys+ Charger]]: 4.3 inch multi-color dashboard
+  - [[Stryten X-3 Charger]]: 4.3 in backlit color graphic display
 - **Source rule:** the product note holds the source citation for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.
 

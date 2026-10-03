@@ -13,6 +13,7 @@ performedBy:
   - "[[Crown V-Force BMID]]"
   - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[PosiCharge PosiConnect]]"
 ---
 
 # Configure Device from Mobile App or PC
@@ -30,6 +31,7 @@ Let a technician configure the device and read its logs from a phone, tablet or 
   - [[PosiCharge PosiGuard]] (V): <https://apps.apple.com/mx/app/posiconnect/id6748969496>
   - [[Crown V-Force BMID]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+  - [[PosiCharge PosiConnect]] (V): <https://posicharge.com/products/posiconnect/>
 
 ## Aliases
 

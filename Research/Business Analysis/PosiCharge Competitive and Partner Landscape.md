@@ -1,10 +1,25 @@
+---
+type: Info
+subtype:
+id: INFO-00230
+uid: 20261003143453025skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - competitive-landscape
+describes:
+  - "[[PosiCharge]]"
+---
+
 # PosiCharge Competitive and Partner Landscape
 
-## Purpose
+## Definition
 
 Classify organizations relative to a specific PosiCharge offer space. This is not a generic company list: every classification must identify the relevant offer, market segment, relationship type, evidence, and confidence.
 
-## Relationship classes
+## Notes
+
+### Relationship classes
 
 | Classification | Use when |
 | --- | --- |
@@ -19,7 +34,7 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 | Adjacent ecosystem participant | Relevant to the customer environment but neither a meaningful substitute nor a current partnership target |
 | Not comparable | No defined overlap, relationship, or strategic relevance has been established |
 
-## Required record fields
+### Required record fields
 
 | Field | Required content |
 | --- | --- |
@@ -33,9 +48,9 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 | Confidence | High, medium, or low, with reason |
 | Open question or next action | Validation needed before changing the classification |
 
-## Initial cohorts to investigate
+### Initial cohorts to investigate
 
-### Battery monitoring and identification
+#### Battery monitoring and identification
 
 - [[Philadelphia Scientific]]
 - [[Advanced Charging Technologies]]
@@ -44,7 +59,7 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 - [[Stryten Energy]]
 - [[HOPPECKE]]
 
-### Industrial charging
+#### Industrial charging
 
 - [[EnerSys]]
 - [[Fronius International]]
@@ -53,21 +68,21 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 - [[GNB Industrial Power]]
 - [[Advanced Charging Technologies]]
 
-### Ampure group / internal portfolio
+#### Ampure group / internal portfolio
 
 Moved out of the external cohorts above on 2026-10-03; kept here so the change is visible.
 
 - [[Power Designers]] — was listed in the monitoring and charging cohorts. Now internal portfolio; its PowerTrac, REVOLUTION and PowerCharge.NET offers are mapped in [[Ampure Industrial Portfolio Overlap and Synergy Map]].
 - [[Ampure Automotive and Aftermarket EVSE]] — contextual capability source; not a cohort member.
 
-### Connected fleet and energy operations
+#### Connected fleet and energy operations
 
 - [[Powerfleet]]
 - [[Adveez]]
 - [[Energywith]]
 - [[Blaxtair]]
 
-### MHE and eGSE channels, integration, and customers
+#### MHE and eGSE channels, integration, and customers
 
 - [[Toyota Material Handling]]
 - [[Crown Equipment]]
@@ -79,13 +94,13 @@ Moved out of the external cohorts above on 2026-10-03; kept here so the change i
 - [[Oshkosh AeroTech]]
 - [[TLD Group]]
 
-## Initial classification policy
+### Initial classification policy
 
 The cohorts above are research candidates, not final classifications. A forklift or eGSE OEM must not be treated as a direct PosiCharge competitor solely because it manufactures vehicles. Assign a competitive relationship only when a directly comparable offer is documented. An Ampure business is never assigned a competitive relationship; see [[Ampure Group Portfolio Context]].
 
 External competitors should, once the overlap map is complete, be compared with the combined Ampure industrial portfolio as well as with PosiCharge alone.
 
-## Evidence workflow
+### Evidence workflow
 
 1. Identify the PosiCharge offer and customer job.
 2. Identify the other organization’s specific offer in the same space.
@@ -93,16 +108,20 @@ External competitors should, once the overlap map is complete, be compared with 
 4. Classify the relationship and confidence.
 5. Record conflicts and missing evidence in [[PosiCharge Opportunity Backlog]] or [[Investigation Backlog]].
 
-## Related information
+### Related information
 
 - [[PosiCharge Business Scope and Portfolio]]
 - [[Ampure Group Portfolio Context]]
 - [[PosiCharge Product Comparison Matrix]]
 - [[PosiCharge Capability Gap Assessment]]
-- [[Organizations/Business Relationship Ledger|Business Relationship Ledger]]
+- [[Business Relationship Ledger|Business Relationship Ledger]]
 - [[BMID Competitor Landscape]]
 
-## Change history
+### Change history
 
 - 2026-10-03 — Added Ampure group / internal portfolio class; moved Power Designers out of external monitoring and charging cohorts (move recorded in place, not deleted). See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created offer-scoped competitor/partner framework. Method: avoid global company labels and compare only directly relevant offers. See [[Research Change and Decision Tracker]].
+
+## Aliases
+
+## Former ids

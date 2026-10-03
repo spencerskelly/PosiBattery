@@ -52,6 +52,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 16 2026-10-03:** GSE: 4 vehicle categories, 15 vehicle families from 8 makers, 3 aircraft-proximity systems plus 2 telematics systems, 3 PosiCharge GSE chargers, 3 functions, 2 designs, conflicts C69 to C72. See [[Ground Support Equipment]].
 - **Round 17 2026-10-03:** accessories sweep (20 accessory notes, 7 organizations), function and design levels (19 general functions, 4 goals, 15 general designs), conflicts C73 to C75, Q16, wishlist URL column now direct files only. See [[Function and Design Levels]].
 - **Round 18 2026-10-03:** Q16 resolved (functions `dependsOn` designs, 28 dependencies in [[Function Design Dependencies]]); naming rule and `check-names.py`; truck OEM accessories: 23 notes for Crown, Toyota, Raymond and Hyster; new function and design classes; conflict C76.
+- **Round 19 2026-10-03:** unformatted analysis notes repaired and filed (see [[Note Reuse Audit]]); 14 new PosiCharge product and accessory notes; conflicts C77 to C79; wishlist links repaired.
 
 ## Aliases
 

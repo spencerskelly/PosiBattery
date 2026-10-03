@@ -1,21 +1,33 @@
 ---
-type: evidence-register
-status: active
-scope: public-primary-and-app-store-evidence
-prepared: 2026-10-03
-reviewer: Director of Engineering
+type: Info
+subtype:
+id: INFO-00235
+uid: 20261003143453030skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - evidence-register
+describes:
+  - "[[PosiCharge]]"
+  - "[[Power Designers]]"
 ---
 
 # PosiCharge and Power Designers Public Evidence Register
 
-## Use rules
+## Definition
+
+Research working note: PosiCharge and Power Designers Public Evidence Register.
+
+## Notes
+
+### Use rules
 
 - This register records the exact evidence basis for the public portfolio baseline.
 - A source supports only the specific claims listed beside it. Do not generalize a family-level claim into model-, option-, certification-, region-, or SKU-level evidence.
 - Public web sources are volatile. Recheck before using a claim externally or making a business/engineering decision.
-- Mark contradictions in [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]]; do not edit them out of the history.
+- Mark contradictions in [[Battery Product Landscape Conflicts and Open Questions]] (conflicts) and [[PosiCharge and Power Designers Evidence Gaps and Conflicts]] (gaps); do not edit them out of the history.
 
-## Evidence classes
+### Evidence classes
 
 | Class | Definition |
 |---|---|
@@ -23,7 +35,7 @@ reviewer: Director of Engineering
 | P2 | Official company press release or official app-store listing |
 | P3 | Public third-party technical/distributor source or indexed manual; useful lead, requires reconciliation |
 
-## Source register
+### Source register
 
 | ID | Class | Source | Accessed | Supported claim(s) | Limits / notes |
 |---|---|---|---|---|---|
@@ -45,7 +57,7 @@ reviewer: Director of Engineering
 | `PUB-016` | P3 | [Alpine Power Systems: SVS100](https://alpinepowersystems.com/products/av-posicharge-svs100) | 2026-10-03 | Third-party listing describes SVS100 as a 10 kW charger. | Useful corroboration for the 10 kW claim but cannot resolve the official-page 40 kW conflict. |
 | `PUB-017` | P3 | [Tech Webasto: SVS100 installation](https://www.techwebasto.com/documentation/heater/documentation-techdocs/charging-systems/installation-charg/posicharge-industrial-charging-install/gse-install/svs-100-install.html) | 2026-10-03 | Historical/public installation evidence that the GSE SVS100 operates with a battery-mounted BMID. | Historical manufacturer-hosted documentation; needs current-generation reconciliation. |
 
-## Evidence acquisition queue
+### Evidence acquisition queue
 
 Prioritize downloading and extracting the official controlled documents named in `PUB-002` before extending technical claims:
 
@@ -56,8 +68,22 @@ Prioritize downloading and extracting the official controlled documents named in
 5. ProCore Edge installation, service, spare-parts, anti-arc, BMID, and software-tool documents.
 6. DVS100 current official page/spec sheet or controlled catalog.
 
-## Related
+- **Queue update (round 19, 2026-10-03):** direct file addresses for items 1 to 5 were found on PosiCharge's own Resources page and are rows on [[Document Wishlist]] (SVS100, DVS300/400, MVS400, MVS800 sheets; High Voltage Power Station product card shared by the AC and DC listings; PosiLink two-pager; Battery Rx sheet; ProCore Edge spec sheet and manuals). Item 6 (DVS100) has no current official page or sheet on the Resources page. The files could not be opened by the research tool (the site blocks automated access), so contents are not yet extracted. Source: <https://posicharge.com/product-resources/>.
 
-- [[Research/PosiCharge and Power Designers Current Portfolio Baseline]]
-- [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]]
-- [[Research/Knowledge Base Next Steps]]
+- [[PosiCharge and Power Designers Current Portfolio Baseline]]
+- [[PosiCharge and Power Designers Evidence Gaps and Conflicts]]
+- [[Knowledge Base Next Steps]]
+
+### Original document properties
+
+Carried over unchanged from the note's earlier frontmatter (the model status is Draft until a person changes it):
+
+  - type: evidence-register
+  - status: active
+  - scope: public-primary-and-app-store-evidence
+  - prepared: 2026-10-03
+  - reviewer: Director of Engineering
+
+## Aliases
+
+## Former ids

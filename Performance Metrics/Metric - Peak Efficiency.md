@@ -35,6 +35,8 @@ Peak Efficiency: Highest AC-to-DC conversion efficiency.
   - [[EnerSys NexSys+ Charger]]: 94% with NexSys iON; '94% or greater' (chart)
   - [[Lester Summit Series II]]: above 91% peak (DOE test, 115 Vac)
   - [[Power Designers REVOLUTION X]]: above 93% (2017) or above 92% (REVOLUTION X page) (C35)
+  - [[Stryten EHY Charger]]: CEC-compliant models above 90 percent
+  - [[Stryten X-3 Charger]]: efficiency 0.94 (brochure, power factor 0.95 max)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 7 product(s) have a value; document-based values to be added as documents are supplied.
 

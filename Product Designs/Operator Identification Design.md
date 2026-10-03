@@ -10,8 +10,8 @@ tags:
 subtypeOf:
   - "[[Vehicle Control Device Design]]"
 supertypeOf:
-  - "[[RFID or PIN Access Reader]]"
   - "[[Fingerprint Reader]]"
+  - "[[RFID or PIN Access Reader]]"
 dependencyOf:
   - "[[Control Operator Access]]"
 ---

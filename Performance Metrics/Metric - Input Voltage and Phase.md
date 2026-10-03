@@ -32,6 +32,8 @@ Input Voltage and Phase: AC input range and phase.
   - [[Lester Summit Series II]]: 100-240 Vac rated; 85-265 Vac operating; single-phase; earlier note: 100-240 Vac
   - [[Power Designers REVOLUTION X]]: 480 V three-phase +/-10% (2017 overview); 208, 240, 480 V (REVOLUTION X page)
   - [[Stryten EHF Charger]]: three-phase, input current at 480 V +/-10% by model (1.8 to 16 A)
+  - [[Stryten EHY Charger]]: single-phase 208/240/480 VAC; three-phase 208/240/480/600 VAC; 60 Hz
+  - [[Stryten X-3 Charger]]: 480 VAC +/-10% three-phase 60 Hz; 4.2 to 41.5 A input
   - [[Stryten X-7 Charger]]: 480 VAC three-phase or 208-240 VAC three-phase
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 4 product(s) have a value; document-based values to be added as documents are supplied.

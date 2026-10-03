@@ -15,14 +15,14 @@ describedBy:
   - "[[Metric - Operator Feedback]]"
   - "[[Metric - Response Action]]"
 performedBy:
+  - "[[Hyster Dynamic Stability System]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
-  - "[[Hyster Dynamic Stability System]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Alert Operator of Hazards

@@ -63,6 +63,9 @@ PosiCharge battery monitor with optional cellular connectivity, described in Pos
 - **Sources used for the mapping above:** Battery Rx sheet (dated) <https://www.posicharge.com/source/PDF/BatteryRx.pdf>; PosiCharge SVS 80/200/300 spec sheet (2019, dated) <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>; PosiCharge Battery Rx page <https://posicharge.com/products/battery-rx/>
 - The current Battery Rx page says it stores cumulative battery data for the life of the battery, tracks warranty compliance, monitors 24/7, offers dashboards at dealer, company, location and site levels, and is compatible with all 24 to 96 V batteries. Source: PosiCharge Battery Rx page (T1), retrieved 2026-10-02. <https://posicharge.com/products/battery-rx/>
 - The Battery Rx sheet says it installs in 20 minutes, is secured to the battery, communicates with the battery chargers, and has an optional cellular connection to the PosiNet back-office system (dated sheet). Source: PosiCharge Battery Rx sheet (T1 (dated)), retrieved 2026-10-02. <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
+- **Public-evidence baseline (added from the vault's baseline note, round 19):**
+- Public product and resource listings represent it as a current advanced battery-management tool for monitoring, recording, and reporting battery health to extend useful life and improve fleet productivity. Source: official PosiCharge page for Battery Rx, as summarized in the vault's Public Evidence Register (PUB-002, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/battery-rx/>
+- **Baseline confidence (Battery Rx):** Verified public—listing/family level. **Still needed:** Obtain current controlled product sheet; resolve hardware/software/service architecture, relationship to PosiGuard, supported chemistry/data acquisition, SKU/lifecycle state, and interfaces.
 
 ## Aliases
 

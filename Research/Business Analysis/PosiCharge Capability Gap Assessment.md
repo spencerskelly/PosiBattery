@@ -1,10 +1,25 @@
+---
+type: Info
+subtype:
+id: INFO-00232
+uid: 20261003143453027skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - gap-assessment
+describes:
+  - "[[PosiCharge]]"
+---
+
 # PosiCharge Capability Gap Assessment
 
-## Purpose
+## Definition
 
 Track verified, candidate, and evidence gaps that affect PosiCharge’s ability to win, integrate, operate, or position its offers in defined market segments. This is an assessment framework, not a product roadmap.
 
-## Gap types
+## Notes
+
+### Gap types
 
 | Gap type | Definition |
 | --- | --- |
@@ -15,7 +30,7 @@ Track verified, candidate, and evidence gaps that affect PosiCharge’s ability 
 | Positioning gap | A supported capability exists but is not clearly differentiated or communicated against alternatives |
 | Evidence gap | Information is insufficient to determine PosiCharge’s position or a comparator’s relevance |
 
-## Assessment fields
+### Assessment fields
 
 | Field | Required content |
 | --- | --- |
@@ -33,7 +48,7 @@ Track verified, candidate, and evidence gaps that affect PosiCharge’s ability 
 | Recommended action | Research, product, partnership, positioning, or no action |
 | Owner and review date | Accountability and reassessment point when assigned |
 
-## Initial evidence-gap priorities
+### Initial evidence-gap priorities
 
 - Normalize PosiCharge product-family records and their supported chemistries, voltage/power ranges, interfaces, environmental ratings, and deployment contexts.
 - Confirm which PosiCharge battery-monitoring/identification capabilities are current products versus legacy, platform, or marketing references.
@@ -41,13 +56,13 @@ Track verified, candidate, and evidence gaps that affect PosiCharge’s ability 
 - Collect comparable evidence for interfaces, charge strategies, data capture, remote management, certifications, service model, and lifecycle support.
 - Validate MHE and eGSE segmentation separately; do not assume an advantage in one transfers to the other.
 
-## Decision rule
+### Decision rule
 
 Do not mark an item as a PosiCharge product gap merely because another organization offers it. Confirm shared customer job, target segment, materiality, and the actual state of the PosiCharge portfolio first.
 
 A PosiCharge-only absence is not an Ampure-group gap. Check [[Power Designers]] and [[Ampure Automotive and Aftermarket EVSE]] before choosing a response path; record what was checked even when nothing was found.
 
-## Related information
+### Related information
 
 - [[PosiCharge Business Scope and Portfolio]]
 - [[Ampure Group Portfolio Context]]
@@ -57,7 +72,11 @@ A PosiCharge-only absence is not an Ampure-group gap. Check [[Power Designers]] 
 - [[PosiCharge Opportunity Backlog]]
 - [[Investigation Backlog]]
 
-## Change history
+### Change history
 
 - 2026-10-03 — Added internal-capability check and response paths (build, reuse, transfer, partner, research). See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created gap-assessment framework. Method: separate portfolio, capability, integration, commercial, positioning, and evidence gaps; preserve hypotheses until validated. See [[Research Change and Decision Tracker]].
+
+## Aliases
+
+## Former ids

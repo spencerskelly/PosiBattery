@@ -22,6 +22,7 @@ describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
   - "[[Document Wishlist]]"
+  - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
@@ -29,7 +30,8 @@ describedBy:
   - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
   - "[[Unidentified Products Review]]"
-  - "[[Function Design Dependencies]]"
+  - "[[Knowledge Base Next Steps]]"
+  - "[[Research Change and Decision Tracker]]"
 ---
 
 # Battery-Connected Product

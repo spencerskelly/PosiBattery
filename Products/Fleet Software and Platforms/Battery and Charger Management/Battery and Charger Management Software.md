@@ -16,6 +16,10 @@ supertypeOf:
   - "[[Philadelphia Scientific iBOS]]"
   - "[[PosiCharge PosiNet]]"
   - "[[Stryten inCOMMAND]]"
+  - "[[PosiCharge PosiConnect]]"
+  - "[[PosiCharge PosiLink]]"
+  - "[[PosiCharge SkyLink]]"
+  - "[[PosiCharge E-Meter]]"
 ---
 
 # Battery and Charger Management Software

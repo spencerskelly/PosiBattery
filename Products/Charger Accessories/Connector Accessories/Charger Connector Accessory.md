@@ -10,6 +10,8 @@ tags:
 abstract: true
 subtypeOf:
   - "[[Charger Accessory]]"
+supertypeOf:
+  - "[[PosiCharge Modular Charge Cables]]"
 ---
 
 # Charger Connector Accessory

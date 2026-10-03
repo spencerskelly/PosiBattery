@@ -43,14 +43,14 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Access Control Group CellTrac]] | [[Access Control Group]] | monitor | 6 | 0 | 0 | none |
 | [[Access Control Group CellVue]] | [[Access Control Group]] | monitor | 1 | 0 | 0 | none |
 | [[ACT ACTview]] | [[Advanced Charging Technologies]] | accessory | 0 | 3 | 0 | none |
-| [[ACT Quantum 2]] | [[Advanced Charging Technologies]] | charger | 8 | 2 | 16 | defined |
-| [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 2 | 18 | defined |
+| [[ACT Quantum 2]] | [[Advanced Charging Technologies]] | charger | 8 | 2 | 17 | defined |
+| [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 2 | 19 | defined |
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
 | [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 12 | 4 | 20 | defined |
 | [[Adveez Asset and Operations Monitoring System]] | [[Adveez]] | accessory | 1 | 0 | 0 | none |
 | [[Anderson SB Connector Series]] | [[Anderson Power Products]] | accessory | 1 | 1 | 1 | partial |
 | [[Blaxtair Pedestrian Detection System]] | [[Blaxtair]] | accessory | 4 | 0 | 3 | defined |
-| [[Charlatte Belt Loaders]] | [[Charlatte Manutention]] | gse | 0 | 0 | 3 | defined |
+| [[Charlatte Belt Loaders]] | [[Charlatte Manutention]] | gse | 0 | 0 | 4 | defined |
 | [[Charlatte CBT350 AC Tow Tractor]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
 | [[Charlatte CPB35E Pushback Tractor]] | [[Charlatte Manutention]] | gse | 0 | 0 | 2 | partial |
 | [[Charlatte T135 Neo 25T]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
@@ -78,7 +78,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown V-HFM3 Charger Stand]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
 | [[Crown V-HFM3 Tower Light Kit]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
 | [[Crown V-HFM3 Wired Remote Control Kit]] | [[Crown Equipment]] | accessory | 0 | 1 | 1 | partial |
-| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 4 | 0 | 23 | defined |
+| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 4 | 0 | 25 | defined |
 | [[Deka ChargeMate Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 2 | partial |
 | [[Deka D-Series Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
 | [[Deka Dominator Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 0 | none |
@@ -99,7 +99,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
 | [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 13 | 2 | 9 | defined |
 | [[EnerSys Truck iQ]] | [[EnerSys]] | monitor | 6 | 1 | 0 | none |
-| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 33 | defined |
+| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 35 | defined |
 | [[EnerSys iQ Mini]] | [[EnerSys]] | monitor | 10 | 0 | 3 | defined |
 | [[Energywith withBMS BMU]] | [[Energywith]] | monitor | 7 | 0 | 0 | none |
 | [[Exide AIR Electrolyte Agitation System]] | [[Exide Technologies]] | accessory | 2 | 1 | 0 | none |
@@ -130,7 +130,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Green Cubes SAFEFlex PLUS Battery]] | [[Green Cubes Technology]] | battery | 0 | 0 | 1 | partial |
 | [[HOPPECKE trak air Electrolyte Circulation]] | [[HOPPECKE]] | accessory | 2 | 1 | 0 | none |
 | [[HOPPECKE trak charger HF premium]] | [[HOPPECKE]] | charger | 1 | 3 | 0 | none |
-| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 20 | 2 | 46 | defined |
+| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 20 | 2 | 49 | defined |
 | [[HOPPECKE trak power Lithium Battery]] | [[HOPPECKE]] | battery | 1 | 0 | 0 | none |
 | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE]] | battery | 1 | 2 | 0 | none |
 | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE]] | battery | 2 | 2 | 0 | none |
@@ -147,7 +147,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 1 | 1 | 0 | none |
 | [[Yale Reliant Portfolio]] | [[Hyster-Yale]] | accessory | 5 | 0 | 0 | none |
 | [[Yale Vision Telemetry]] | [[Hyster-Yale]] | accessory | 1 | 1 | 0 | none |
-| [[Inventus Smart Battery Monitor SBM-01]] | [[Inventus Power]] | monitor | 9 | 0 | 6 | defined |
+| [[Inventus Smart Battery Monitor SBM-01]] | [[Inventus Power]] | monitor | 9 | 0 | 7 | defined |
 | [[Jungheinrich ETV C16 and C20]] | [[Jungheinrich]] | forklift | 0 | 0 | 2 | partial |
 | [[Jungheinrich Lithium-Ion Battery]] | [[Jungheinrich]] | battery | 1 | 0 | 4 | defined |
 | [[Larson Explosion-Proof Blue LED Forklift Light]] | [[Larson Electronics]] | accessory | 0 | 0 | 3 | defined |
@@ -196,14 +196,28 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[PosiCharge BMID 1]] | [[PosiCharge]] | monitor | 0 | 0 | 0 | none |
 | [[PosiCharge BMID 3]] | [[PosiCharge]] | monitor | 2 | 0 | 0 | none |
 | [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 7 | defined |
-| [[PosiCharge DVS100]] | [[PosiCharge]] | charger | 3 | 1 | 5 | defined |
-| [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 3 | defined |
-| [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 1 | partial |
-| [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 0 | 12 | defined |
+| [[PosiCharge Charger Stand Kit and Cable Handler]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
+| [[PosiCharge Cooling Fan Box]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
+| [[PosiCharge DIY Fast Charge Kit]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
+| [[PosiCharge DVS100]] | [[PosiCharge]] | charger | 3 | 1 | 9 | defined |
+| [[PosiCharge DVS150]] | [[PosiCharge]] | charger | 0 | 0 | 8 | defined |
+| [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 10 | defined |
+| [[PosiCharge E-Meter]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
+| [[PosiCharge High Voltage Power Station (AC)]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
+| [[PosiCharge High Voltage Power Station (DC)]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
+| [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 14 | defined |
+| [[PosiCharge Modular Charge Cables]] | [[PosiCharge]] | accessory | 0 | 0 | 3 | defined |
+| [[PosiCharge PosiConnect]] | [[PosiCharge]] | accessory | 1 | 1 | 0 | none |
+| [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 2 | 18 | defined |
+| [[PosiCharge PosiLink]] | [[PosiCharge]] | accessory | 1 | 2 | 0 | none |
 | [[PosiCharge PosiNet]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
-| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 1 | 1 | partial |
-| [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 1 | partial |
+| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 2 | 6 | defined |
+| [[PosiCharge ProCore Solo]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
+| [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 5 | defined |
 | [[PosiCharge SVS200]] | [[PosiCharge]] | charger | 0 | 0 | 3 | defined |
+| [[PosiCharge Single-Point Automatic Battery Watering]] | [[PosiCharge]] | accessory | 1 | 0 | 0 | none |
+| [[PosiCharge SkyLink]] | [[PosiCharge]] | accessory | 1 | 0 | 0 | none |
+| [[PosiCharge Three-Color Stack Light]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
 | [[Power Designers PowerTrac 3]] | [[Power Designers]] | monitor | 13 | 1 | 29 | defined |
 | [[Power Designers PowerTrac DT3]] | [[Power Designers]] | monitor | 15 | 0 | 12 | defined |
 | [[Power Designers PowerTrac Monitor]] | [[Power Designers]] | monitor | 7 | 0 | 0 | none |
@@ -232,7 +246,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[STILL Safety Assist and Curve Speed Control]] | [[STILL]] | accessory | 5 | 0 | 0 | none |
 | [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 5 | 8 | defined |
 | [[Stryten EHI Charger]] | [[Stryten Energy]] | charger | 4 | 0 | 0 | none |
-| [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 1 | partial |
+| [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 13 | defined |
 | [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
 | [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 3 | defined |
 | [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 3 | defined |
@@ -243,8 +257,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
 | [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
 | [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 2 | partial |
-| [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 3 | 4 | defined |
-| [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 3 | 7 | defined |
+| [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 3 | 21 | defined |
+| [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 3 | 9 | defined |
 | [[Stryten inCOMMAND]] | [[Stryten Energy]] | accessory | 0 | 3 | 0 | none |
 | [[TLD Aircraft Safety Docking]] | [[TLD Group]] | accessory | 2 | 0 | 0 | none |
 | [[TLD NBL-E Belt Loader]] | [[TLD Group]] | gse | 0 | 0 | 0 | none |
@@ -279,6 +293,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 16:** table regenerated with GSE vehicles as a kind.
 - **Round 17:** table regenerated.
 - **Round 18:** table regenerated.
+- **Round 19:** table regenerated.
 
 ## Aliases
 

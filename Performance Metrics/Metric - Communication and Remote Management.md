@@ -36,7 +36,8 @@ Communication and Remote Management: Local and cloud interfaces for configuratio
   - [[Lester Summit Series II]]: Bluetooth apps; CANopen and SAE J1939; wake-up signal (cloud only per reseller, C46); earlier note: Bluetooth app; cloud profiles
   - [[PosiCharge ProCore Edge]]: Bluetooth; phone control
   - [[Power Designers REVOLUTION X]]: LCD/keypad; Ethernet optional (dealer page)
-  - [[Stryten X-3 Charger]]: Wi-Fi, Bluetooth, PLC, USB
+  - [[Stryten EHY Charger]]: alphanumeric display and keypad; charge history logger (250 cycles)
+  - [[Stryten X-3 Charger]]: Bluetooth, Wi-Fi, PLC, USB; Stryten Fleet Management software; earlier note: Wi-Fi, Bluetooth, PLC, USB
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 9 product(s) have a value; document-based values to be added as documents are supplied.
 

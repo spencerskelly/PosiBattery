@@ -18,6 +18,7 @@ performedBy:
   - "[[Crown V-HFM3 Charger]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[Lester Summit Series II]]"
+  - "[[PosiCharge SkyLink]]"
 ---
 
 # Manage Chargers Remotely
@@ -37,6 +38,7 @@ Configure, monitor or update chargers from a remote portal or app.
   - [[ACT Quantum Outdoor]] (V): <https://og.mhi.org/media/members/41607/133717591287578074.pdf>
   - [[Fronius Selectiva 4.0]] (V): <https://fronius.com/~/downloads/Perfect%20Charging/Flyer/PC_FLY_Selectiva_4.0_96V-120V_EN_fin-MRM_.pdf>
   - [[Lester Summit Series II]] (V): <https://voltloop.ca/products/summit-series-ii-charger-1050w-24v-36v-48v>
+  - [[PosiCharge SkyLink]] (V): <https://posicharge.com/products/skylink/>
 
 ## Aliases
 

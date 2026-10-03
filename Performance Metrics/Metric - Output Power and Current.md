@@ -37,7 +37,8 @@ Output Power and Current: Rated output power and maximum current.
   - [[PosiCharge SVS200]]: 500 A, 30 kW
   - [[Power Designers REVOLUTION X]]: 3.9-31.2 kW from 1.3 kW modules
   - [[Stryten EHF Charger]]: 24 V: 40-150 A; 36 V: 40-240 A (by model)
-  - [[Stryten X-3 Charger]]: 3-bay 3-9 kW; 6-bay 3-18 kW; 10-bay 21-30 kW
+  - [[Stryten EHY Charger]]: 40 to 240 A
+  - [[Stryten X-3 Charger]]: 3 to 30 kW; 24 V 70-700 A; 48 V 54-543 A; 72/80 V 35-386 A (brochure); earlier note: 3-bay 3-9 kW; 6-bay 3-18 kW; 10-bay 21-30 kW
   - [[Stryten X-7 Charger]]: 2-bay 5-15 kW and 4-bay 5-30 kW (earlier page); up to 30 kW (2026); earlier note: up to 30 kW
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 7 product(s) have a value; document-based values to be added as documents are supplied.

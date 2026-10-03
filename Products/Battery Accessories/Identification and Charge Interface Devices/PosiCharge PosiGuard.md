@@ -35,6 +35,9 @@ hasDesign:
   - "[[LoRa Interface]]"
 madeBy:
   - "[[PosiCharge]]"
+offeredWith:
+  - "[[PosiCharge PosiLink]]"
+  - "[[PosiCharge PosiConnect]]"
 ---
 
 # PosiCharge PosiGuard
@@ -78,6 +81,9 @@ PosiCharge commercial battery data and monitoring device for lead-acid and lithi
 - PosiGuard's current page says it is designed for both lead-acid and lithium batteries, captures data at the source and connects it to PosiLink, monitors current, voltage and electrolyte level, and works with wired, Bluetooth and CAN communication to the charger. Source: PosiCharge PosiGuard page (T1), retrieved 2026-10-02. <https://posicharge.com/products/posiguard/>
 - The same page lists nominal battery voltage 24 to 96 V, operating voltage 18 to 120 V, voltage resolution 30 mV, current resolution 100 mA, operating temperature -25 to 75 C, 4.05 x 1.80 x 1.00 in, IP65 sealed against water and acid, interfaces Serial, CAN, Bluetooth and LoRa, battery-backed clock, 16 MB storage, and UL 583 and EN 1175 safety certifications. Source: PosiCharge PosiGuard page (T1), retrieved 2026-10-02. <https://posicharge.com/products/posiguard/>
 - **Verification 2026-10-02:** the seed text above (24-96 V, 18-120 V, Serial, CAN, Bluetooth, LoRa) is now re-verified on the current vendor page.
+- **Public-evidence baseline (added from the vault's baseline note, round 19):**
+- Battery-edge monitor for lead-acid and lithium batteries that captures battery data and sends it to PosiLink. Public specs list 24–96 V nominal battery voltage; 18–120 V operating range; 30 mV voltage resolution; 100 mA current resolution; serial, CAN, Bluetooth, and LoRa communications; electrolyte-level capability; 16 MB storage; IP65; −25 to 75 °C operating range; UL 583 and EN1175. Source: official PosiCharge page for PosiGuard, as summarized in the vault's Public Evidence Register (PUB-010, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/posiguard/>
+- **Baseline confidence (PosiGuard):** Verified public—product level. **Still needed:** Current SKU/variant/sensor configurations; supported BMS/CAN protocols; LoRa band/gateway requirements; data model/API; cloud/service plan; cybersecurity; firmware/update pathway; connector/wiring diagrams.
 
 ## Aliases
 

@@ -71,8 +71,9 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Power Designers PowerTrac SP+]]: 12-84 V nominal
   - [[Power Designers REVOLUTION X]]: multi-voltage modules; with PowerTrac 24/36/48 recognition
   - [[Stryten EHF Charger]]: 24 V and 36 V models (more in the brochure)
+  - [[Stryten EHY Charger]]: nominal 24, 36, 48, 72, 80 VDC
   - [[Stryten M-Series AGM220 Battery]]: 24 V (four 6 V AGM210)
-  - [[Stryten X-3 Charger]]: 24, 36, 48 V (3-bay to 10-bay)
+  - [[Stryten X-3 Charger]]: 24 V modules; multi-voltage 24/36/48 V; 72/80 V (brochure); earlier note: 24, 36, 48 V (3-bay to 10-bay)
   - [[Stryten X-7 Charger]]: up to 96 V (72-96 V range added)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.

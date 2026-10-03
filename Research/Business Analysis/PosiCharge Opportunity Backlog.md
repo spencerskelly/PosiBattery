@@ -1,14 +1,29 @@
+---
+type: Info
+subtype:
+id: INFO-00233
+uid: 20261003143453028skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - backlog
+describes:
+  - "[[PosiCharge]]"
+---
+
 # PosiCharge Opportunity Backlog
 
-## Purpose
+## Definition
 
 Maintain a prioritized, evidence-linked backlog of research, product, partnership, integration, positioning, and data-quality work for the PosiCharge business. This note is the action layer for unresolved items discovered through the PosiCharge business framework.
 
-## Prioritization method
+## Notes
+
+### Prioritization method
 
 Score each item qualitatively against: customer impact, strategic fit, evidence confidence, urgency, effort, dependency, and reversibility. Keep items as hypotheses until evidence supports a decision.
 
-## Initial backlog
+### Initial backlog
 
 | Priority | Item | Type | Why it matters | Evidence / dependency |
 | --- | --- | --- | --- | --- |
@@ -18,10 +33,10 @@ Score each item qualitatively against: customer impact, strategic fit, evidence 
 | High | Establish offer-scoped partner/competitor classifications | Ecosystem strategy | Avoid treating relevant OEMs, battery makers, dealers, and software providers as globally competitive or noncompetitive | [[PosiCharge Competitive and Partner Landscape]] |
 | Medium | Map PosiCharge interfaces and interoperability claims | Integration research | Identify support boundaries for batteries, connectors, vehicle interfaces, protocols, apps, cloud, and service workflows | [[PosiCharge Capability Gap Assessment]] |
 | Medium | Separate MHE and eGSE decision criteria | Segment research | Prevent invalid transfer of product positioning and gap conclusions across different operating environments | [[PosiCharge Market Segments and Jobs-to-Be-Done]] |
-| Medium | Audit Downloads-to-Source Documents traceability for PosiCharge-relevant materials | Evidence quality | Make comparator and PosiCharge claims reviewable and source-backed | [[Downloads/README_Downloads|Downloads]], [[Source Documents/README_Source Documents|Source Documents]] |
+| Medium | Audit Downloads-to-Source Documents traceability for PosiCharge-relevant materials | Evidence quality | Make comparator and PosiCharge claims reviewable and source-backed | [[README_Downloads\|Downloads]], [[README_Source Documents\|Source Documents]] |
 | Medium | Identify PosiCharge positioning claims that lack comparator evidence | Positioning | Differentiate verified advantages from marketing assertions or untested assumptions | [[PosiCharge Capability Gap Assessment]] |
 
-## Ampure group alignment (added 2026-10-03)
+### Ampure group alignment (added 2026-10-03)
 
 | Priority | Item | Type | Why it matters | Evidence / dependency |
 | --- | --- | --- | --- | --- |
@@ -34,14 +49,14 @@ Score each item qualitatively against: customer impact, strategic fit, evidence 
 | Medium | Assess brand and channel overlap risk | Positioning | Overlapping offers through shared OEMs or dealers can confuse customers or cannibalize | [[Ampure Industrial Portfolio Overlap and Synergy Map]] |
 | Medium | Re-scope [[Charger Comparison Matrix]] and [[Monitor Comparison Matrix]] with Origin and comparison-scope labels | Comparison discipline | Older matrices predate the internal/external rule and list Power Designers as a comparator | [[PosiCharge Product Comparison Matrix]] |
 | Medium | Update conflict C32 (Power Designers names) with the 2025 acquisition evidence | Evidence quality | The acquisition names Power Designers Sibex only; the C32 record has not been updated | [[Battery Product Landscape Conflicts and Open Questions]] |
-| Low | Propose a business-unit relationship for the Business Relationship Vocabulary | Modeling | No link fits 'business unit of'; the EVSE note carries none, and PosiCharge uses provisional subsidiaryOf | [[Organizations/Business Relationship Vocabulary\|Business Relationship Vocabulary]] |
+| Low | Propose a business-unit relationship for the Business Relationship Vocabulary | Modeling | No link fits 'business unit of'; the EVSE note carries none, and PosiCharge uses provisional subsidiaryOf | [[Business Relationship Vocabulary\|Business Relationship Vocabulary]] |
 | Low | Backfill template frontmatter (type, id, uid) on the PosiCharge framework notes, README_Research and this tracker | Vault conformance | Notes added in commit 0e0b952 have no frontmatter, which conflicts with AGENTS.md; left unchanged here to keep this commit scoped | [[Research Change and Decision Tracker]] |
 
-## Intake rule
+### Intake rule
 
 Add an item when it would materially improve a decision, comparison, partner strategy, product direction, or evidence quality. Link it to the relevant scope, segment, source, and decision note.
 
-## Related information
+### Related information
 
 - [[PosiCharge Business Scope and Portfolio]]
 - [[Ampure Group Portfolio Context]]
@@ -52,7 +67,11 @@ Add an item when it would materially improve a decision, comparison, partner str
 - [[Research Change and Decision Tracker]]
 - [[Investigation Backlog]]
 
-## Change history
+### Change history
 
 - 2026-10-03 — Added Ampure group-alignment items, including conflicts and conformance gaps found during the change. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created PosiCharge-specific action backlog. Method: separate decision-enabling research and evidence work from confirmed product-roadmap commitments. See [[Research Change and Decision Tracker]].
+
+## Aliases
+
+## Former ids

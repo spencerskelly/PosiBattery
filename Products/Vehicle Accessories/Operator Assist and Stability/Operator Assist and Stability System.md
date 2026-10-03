@@ -11,21 +11,21 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
-  - "[[Linde Safety Pilot]]"
-  - "[[STILL Safety Assist and Curve Speed Control]]"
-  - "[[Toyota Assist]]"
-  - "[[Toyota System of Active Stability]]"
-  - "[[Yale Reliant Portfolio]]"
   - "[[Crown Capacity Data Monitor]]"
-  - "[[Toyota Acu-Laser]]"
-  - "[[Toyota Auto Height Select]]"
-  - "[[Toyota Load Weight Sensing]]"
-  - "[[Toyota Compartment Sensing System]]"
-  - "[[Raymond iWAREHOUSE Integrated Tether System]]"
+  - "[[Hyster Dynamic Stability System]]"
+  - "[[Linde Safety Pilot]]"
   - "[[Raymond Load Weight Display]]"
   - "[[Raymond Operator Compartment Sensor System]]"
   - "[[Raymond Travel Speed Control]]"
-  - "[[Hyster Dynamic Stability System]]"
+  - "[[Raymond iWAREHOUSE Integrated Tether System]]"
+  - "[[STILL Safety Assist and Curve Speed Control]]"
+  - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Assist]]"
+  - "[[Toyota Auto Height Select]]"
+  - "[[Toyota Compartment Sensing System]]"
+  - "[[Toyota Load Weight Sensing]]"
+  - "[[Toyota System of Active Stability]]"
+  - "[[Yale Reliant Portfolio]]"
 ---
 
 # Operator Assist and Stability System

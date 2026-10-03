@@ -18,6 +18,7 @@ supertypeOf:
   - "[[Midac Aquamatic Watering System]]"
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
+  - "[[PosiCharge Single-Point Automatic Battery Watering]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

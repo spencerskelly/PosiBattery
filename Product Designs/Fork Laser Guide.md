@@ -10,8 +10,8 @@ tags:
 subtypeOf:
   - "[[Vehicle Control Device Design]]"
 designOf:
-  - "[[Toyota Assist]]"
   - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Assist]]"
 ---
 
 # Fork Laser Guide

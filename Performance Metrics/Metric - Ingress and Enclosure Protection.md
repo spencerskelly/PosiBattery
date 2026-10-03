@@ -46,6 +46,8 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[PosiCharge SVS100]]: outdoor fast charge system (Averest item); rating not stated
   - [[Power Designers PowerTrac 3]]: water and acid resistant (no IP code)
   - [[Power Designers PowerTrac DT3]]: water and acid resistant (no IP code)
+  - [[Stryten EHY Charger]]: IP21 standard
+  - [[Stryten X-3 Charger]]: NEMA 1
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.
 

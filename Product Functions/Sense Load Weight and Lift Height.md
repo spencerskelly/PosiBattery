@@ -12,11 +12,11 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle State Sensing Design]]"
 performedBy:
-  - "[[Linde Safety Pilot]]"
-  - "[[Toyota Assist]]"
   - "[[Crown Capacity Data Monitor]]"
-  - "[[Toyota Load Weight Sensing]]"
+  - "[[Linde Safety Pilot]]"
   - "[[Raymond Load Weight Display]]"
+  - "[[Toyota Assist]]"
+  - "[[Toyota Load Weight Sensing]]"
 ---
 
 # Sense Load Weight and Lift Height

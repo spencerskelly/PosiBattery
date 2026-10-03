@@ -18,9 +18,9 @@ performedBy:
   - "[[Linde connect]]"
   - "[[Oshkosh AeroTech iOPS]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Raymond iWAREHOUSE]]"
 ---
 
 # Report Truck Telemetry

@@ -51,6 +51,8 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[Power Designers PowerTrac 3]]: -25 to 60 C (-13 to 140 F) (sheet)
   - [[Power Designers PowerTrac DT3]]: -25 to 60 C
   - [[Power Designers PowerTrac SP+]]: -25 to 60 C
+  - [[Stryten EHY Charger]]: operation -10 to +50 C; storage -20 to +70 C
+  - [[Stryten X-3 Charger]]: 0 to 45 C
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.
 

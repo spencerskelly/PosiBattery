@@ -21,12 +21,12 @@ supertypeOf:
   - "[[Mallaghan Collision Avoidance System]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Raymond In-Aisle Detection System]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Raymond iWAREHOUSE ObjectSense]]"
-  - "[[Raymond iWAREHOUSE Fieldsense]]"
-  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # Proximity and Object Detection System

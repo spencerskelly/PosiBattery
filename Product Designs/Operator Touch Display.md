@@ -14,8 +14,8 @@ describedBy:
 designOf:
   - "[[Crown InfoLink]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
-  - "[[Crown ProximityAssist System]]"
   - "[[Crown Gena Operating System]]"
+  - "[[Crown ProximityAssist System]]"
 ---
 
 # Operator Touch Display

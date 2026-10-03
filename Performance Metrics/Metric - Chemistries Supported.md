@@ -40,7 +40,7 @@ Chemistries Supported: Battery chemistries the charger can charge.
   - [[Lester Summit Series II]]: lead-acid (wet, AGM, gel), lithium
   - [[PosiCharge ProCore Edge]]: sealed, flooded and thin plate lead; lithium
   - [[Power Designers REVOLUTION X]]: lead-acid, lithium-ion and others (vendor overview)
-  - [[Stryten X-3 Charger]]: almost any motive battery including lithium-ion
+  - [[Stryten X-3 Charger]]: most motive power batteries including lithium-ion; earlier note: almost any motive battery including lithium-ion
   - [[Stryten X-7 Charger]]: lithium and other types; AGM planned
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 10 product(s) have a value; document-based values to be added as documents are supplied.

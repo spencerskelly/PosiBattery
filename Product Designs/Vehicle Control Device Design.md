@@ -10,8 +10,8 @@ tags:
 supertypeOf:
   - "[[Active Stability Actuator]]"
   - "[[Fork Laser Guide]]"
-  - "[[Regenerative Braking]]"
   - "[[Operator Identification Design]]"
+  - "[[Regenerative Braking]]"
 ---
 
 # Vehicle Control Device Design

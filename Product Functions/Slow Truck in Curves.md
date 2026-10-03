@@ -12,10 +12,10 @@ subtypeOf:
 describedBy:
   - "[[Metric - Response Action]]"
 performedBy:
+  - "[[Hyster Dynamic Stability System]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
-  - "[[Hyster Dynamic Stability System]]"
 ---
 
 # Slow Truck in Curves

@@ -13,6 +13,7 @@ supertypeOf:
   - "[[Charger Connector Accessory]]"
   - "[[Charger Remote Control and Indicator]]"
   - "[[Charger Stand and Mounting]]"
+  - "[[Charger Thermal Accessory]]"
 ---
 
 # Charger Accessory

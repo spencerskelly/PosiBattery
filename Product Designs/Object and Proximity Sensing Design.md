@@ -9,12 +9,12 @@ tags:
   - design-characteristic
 supertypeOf:
   - "[[LiDAR Object Sensor]]"
+  - "[[Magnetic Field Detection Sensor]]"
   - "[[Pedestrian Detection Camera]]"
   - "[[Proximity Tag System]]"
   - "[[Radar Object Sensor]]"
   - "[[Stereoscopic Vision Sensor]]"
   - "[[Ultrasonic Distance Sensor]]"
-  - "[[Magnetic Field Detection Sensor]]"
 dependencyOf:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Slow and Stop Near Aircraft]]"

@@ -31,6 +31,7 @@ Modularity: Power module architecture and fault tolerance.
   - [[EnerSys IMPAQ Charger]]: modular; automatic fault bypass
   - [[EnerSys NexSys+ Charger]]: HF modular; automatic fault bypass
   - [[Power Designers REVOLUTION X]]: 1.3 kW modules; charger keeps running if a module fails
+  - [[Stryten X-3 Charger]]: 1 to 10 modules in 3, 6 or 10 bay cabinets; field-replaceable
   - [[Stryten X-7 Charger]]: modular; 4-bay 30 kW
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 4 product(s) have a value; document-based values to be added as documents are supplied.

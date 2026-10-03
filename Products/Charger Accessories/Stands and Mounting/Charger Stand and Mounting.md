@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Charger Accessory]]"
 supertypeOf:
   - "[[Crown V-HFM3 Charger Stand]]"
+  - "[[PosiCharge Charger Stand Kit and Cable Handler]]"
 ---
 
 # Charger Stand and Mounting

@@ -199,11 +199,20 @@
    "height": 120
   },
   {
+   "id": "Charger_Thermal_Accessory",
+   "type": "file",
+   "file": "Products/Charger Accessories/Thermal Accessories/Charger Thermal Accessory.md",
+   "x": 1040,
+   "y": 3150,
+   "width": 340,
+   "height": 120
+  },
+  {
    "id": "Industrial_Battery_Charger",
    "type": "file",
    "file": "Products/Chargers/Industrial Battery Charger.md",
    "x": 520,
-   "y": 3150,
+   "y": 3300,
    "width": 340,
    "height": 120
   },
@@ -212,7 +221,7 @@
    "type": "file",
    "file": "Products/Chargers/Industrial Modular Chargers/Industrial Modular Charger.md",
    "x": 1040,
-   "y": 3300,
+   "y": 3450,
    "width": 340,
    "height": 120
   },
@@ -221,7 +230,7 @@
    "type": "file",
    "file": "Products/Chargers/Light-Duty Chargers/Light-Duty Charger.md",
    "x": 1040,
-   "y": 3450,
+   "y": 3600,
    "width": 340,
    "height": 120
   },
@@ -230,7 +239,7 @@
    "type": "file",
    "file": "Products/Chargers/On-board Chargers/On-board Charger.md",
    "x": 1040,
-   "y": 3600,
+   "y": 3750,
    "width": 340,
    "height": 120
   },
@@ -239,7 +248,7 @@
    "type": "file",
    "file": "Products/Chargers/Wireless Chargers/Wireless Charger.md",
    "x": 1040,
-   "y": 3750,
+   "y": 3900,
    "width": 340,
    "height": 120
   },
@@ -248,7 +257,7 @@
    "type": "file",
    "file": "Products/Fleet Software and Platforms/Fleet Software and Platform.md",
    "x": 520,
-   "y": 3900,
+   "y": 4050,
    "width": 340,
    "height": 120
   },
@@ -257,7 +266,7 @@
    "type": "file",
    "file": "Products/Fleet Software and Platforms/Battery and Charger Management/Battery and Charger Management Software.md",
    "x": 1040,
-   "y": 4050,
+   "y": 4200,
    "width": 340,
    "height": 120
   },
@@ -266,7 +275,7 @@
    "type": "file",
    "file": "Products/Fleet Software and Platforms/Truck Telematics/Truck Telematics Software.md",
    "x": 1040,
-   "y": 4200,
+   "y": 4350,
    "width": 340,
    "height": 120
   },
@@ -275,7 +284,7 @@
    "type": "file",
    "file": "Products/Forklifts/Powered Industrial Truck.md",
    "x": 520,
-   "y": 4350,
+   "y": 4500,
    "width": 340,
    "height": 120
   },
@@ -284,7 +293,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class I Electric Rider Trucks/Class I Electric Rider Truck.md",
    "x": 1040,
-   "y": 4500,
+   "y": 4650,
    "width": 340,
    "height": 120
   },
@@ -293,7 +302,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class II Electric Narrow Aisle Trucks/Class II Electric Narrow Aisle Truck.md",
    "x": 1040,
-   "y": 4650,
+   "y": 4800,
    "width": 340,
    "height": 120
   },
@@ -302,7 +311,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class III Electric Hand and Hand-Rider Trucks/Class III Electric Hand or Hand-Rider Truck.md",
    "x": 1040,
-   "y": 4800,
+   "y": 4950,
    "width": 340,
    "height": 120
   },
@@ -311,7 +320,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class IV Internal Combustion Cushion Tire Trucks/Class IV Internal Combustion Cushion Tire Truck.md",
    "x": 1040,
-   "y": 4950,
+   "y": 5100,
    "width": 340,
    "height": 120
   },
@@ -320,7 +329,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class V Internal Combustion Pneumatic Tire Trucks/Class V Internal Combustion Pneumatic Tire Truck.md",
    "x": 1040,
-   "y": 5100,
+   "y": 5250,
    "width": 340,
    "height": 120
   },
@@ -329,7 +338,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class VI Tractors/Class VI Tractor.md",
    "x": 1040,
-   "y": 5250,
+   "y": 5400,
    "width": 340,
    "height": 120
   },
@@ -338,7 +347,7 @@
    "type": "file",
    "file": "Products/Forklifts/Class VII Rough Terrain Forklifts/Class VII Rough Terrain Forklift.md",
    "x": 1040,
-   "y": 5400,
+   "y": 5550,
    "width": 340,
    "height": 120
   },
@@ -347,7 +356,7 @@
    "type": "file",
    "file": "Products/Fuel Cell Power Units/Hydrogen Fuel Cell Units/Fuel Cell Power Unit.md",
    "x": 520,
-   "y": 5550,
+   "y": 5700,
    "width": 340,
    "height": 120
   },
@@ -356,7 +365,7 @@
    "type": "file",
    "file": "Products/Ground Support Equipment/Ground Support Equipment.md",
    "x": 520,
-   "y": 5700,
+   "y": 5850,
    "width": 340,
    "height": 120
   },
@@ -365,7 +374,7 @@
    "type": "file",
    "file": "Products/Ground Support Equipment/Baggage and Tow Tractors/GSE Baggage and Tow Tractor.md",
    "x": 1040,
-   "y": 5850,
+   "y": 6000,
    "width": 340,
    "height": 120
   },
@@ -374,7 +383,7 @@
    "type": "file",
    "file": "Products/Ground Support Equipment/Belt Loaders/GSE Belt Loader.md",
    "x": 1040,
-   "y": 6000,
+   "y": 6150,
    "width": 340,
    "height": 120
   },
@@ -383,7 +392,7 @@
    "type": "file",
    "file": "Products/Ground Support Equipment/Cargo Loaders/GSE Cargo Loader.md",
    "x": 1040,
-   "y": 6150,
+   "y": 6300,
    "width": 340,
    "height": 120
   },
@@ -392,7 +401,7 @@
    "type": "file",
    "file": "Products/Ground Support Equipment/Pushback Tractors/GSE Pushback Tractor.md",
    "x": 1040,
-   "y": 6300,
+   "y": 6450,
    "width": 340,
    "height": 120
   },
@@ -401,7 +410,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Vehicle Accessory.md",
    "x": 520,
-   "y": 6450,
+   "y": 6600,
    "width": 340,
    "height": 120
   },
@@ -410,7 +419,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Access Control/Access Control Device.md",
    "x": 1040,
-   "y": 6600,
+   "y": 6750,
    "width": 340,
    "height": 120
   },
@@ -419,7 +428,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Cameras and Recorders/Vehicle Camera and Recorder.md",
    "x": 1040,
-   "y": 6750,
+   "y": 6900,
    "width": 340,
    "height": 120
   },
@@ -428,7 +437,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Cold Storage Packages/Cold Storage Package.md",
    "x": 1040,
-   "y": 6900,
+   "y": 7050,
    "width": 340,
    "height": 120
   },
@@ -437,7 +446,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Assist and Stability/Operator Assist and Stability System.md",
    "x": 1040,
-   "y": 7050,
+   "y": 7200,
    "width": 340,
    "height": 120
   },
@@ -446,7 +455,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Convenience/Operator Convenience Accessory.md",
    "x": 1040,
-   "y": 7200,
+   "y": 7350,
    "width": 340,
    "height": 120
   },
@@ -455,7 +464,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Displays/Operator Display.md",
    "x": 1040,
-   "y": 7350,
+   "y": 7500,
    "width": 340,
    "height": 120
   },
@@ -464,7 +473,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Power Source Interfaces/Power Source Interface.md",
    "x": 1040,
-   "y": 7500,
+   "y": 7650,
    "width": 340,
    "height": 120
   },
@@ -473,7 +482,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Proximity and Object Detection/Proximity and Object Detection System.md",
    "x": 1040,
-   "y": 7650,
+   "y": 7800,
    "width": 340,
    "height": 120
   },
@@ -482,7 +491,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Warning Lights and Alerts/Warning Light and Alert.md",
    "x": 1040,
-   "y": 7800,
+   "y": 7950,
    "width": 340,
    "height": 120
   }
@@ -869,6 +878,14 @@
    "fromNode": "Cold_Storage_Package",
    "fromSide": "left",
    "toNode": "Vehicle_Accessory",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_Charger_Thermal_Accessory_Charger_Accessory",
+   "fromNode": "Charger_Thermal_Accessory",
+   "fromSide": "left",
+   "toNode": "Charger_Accessory",
    "toSide": "right",
    "label": "subtypeOf"
   }

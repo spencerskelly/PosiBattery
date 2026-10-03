@@ -29,6 +29,7 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[PosiCharge PosiLink]]"
 ---
 
 # Upload Battery Data to Cloud Portal
@@ -59,6 +60,7 @@ Send battery data to a hosted portal for fleet reporting.
   - [[Hyster Battery Tracker]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
+  - [[PosiCharge PosiLink]] (V): <https://posicharge.com/products/posilink/>
 
 ## Aliases
 

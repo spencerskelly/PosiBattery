@@ -23,6 +23,7 @@ madeBy:
   - "[[PosiCharge]]"
 offeredWith:
   - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiLink]]"
 ---
 
 # PosiCharge ProCore Edge
@@ -42,6 +43,9 @@ PosiCharge opportunity charger with automatic modes for CAN/lithium, BMID and vo
 - **Design characteristics, with citations:**
   - [[Multi-Voltage Output]] (V): <https://www.posicharge.com/procoreedge>
   - [[Charger Status LED Bar]] (V): <https://www.posicharge.com/procoreedge>
+- **Public-evidence baseline (added from the vault's baseline note, round 19):**
+- Opportunity charger platform for forklift batteries. Public pages list 24/36/48 V variants at 6–30 kW and 48/72/80/96 V variants at 9–30 kW; 96 V is listed for lithium-ion applications only. Public capabilities include automatic multi-chemistry charging, Bluetooth diagnostics, LED status, modular/scalable power, wall/pole/free-standing installation options, and PosiLink-connected fleet tools. Resource listings reference installation, service, spare-parts, anti-arc, BMID III-B dongle, PilotTerm software-loading, and iOS updater documentation. Source: official PosiCharge page for ProCore Edge, as summarized in the vault's Public Evidence Register (PUB-003, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/procore-edge/>
+- **Baseline confidence (ProCore Edge):** Verified public—family level. **Still needed:** Current SKU/option master; certification and regional configuration matrix; chemistry/BMS/connector/BMID interoperability; active firmware and software versions; installation and service policy.
 
 ## Aliases
 

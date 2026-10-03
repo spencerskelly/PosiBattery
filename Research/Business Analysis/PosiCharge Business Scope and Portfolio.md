@@ -1,14 +1,29 @@
+---
+type: Info
+subtype:
+id: INFO-00228
+uid: 20261003143453023skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - scope
+describes:
+  - "[[PosiCharge]]"
+---
+
 # PosiCharge Business Scope and Portfolio
 
-## Purpose
+## Definition
 
 Define the business boundary used for PosiCharge analysis. This note governs what counts as a relevant market, product comparison, partner relationship, competitor relationship, capability gap, and research priority.
 
-## Business context
+## Notes
+
+### Business context
 
 [[PosiCharge]] is an Ampure product line focused on intelligent energy systems for electric industrial fleets. The analysis scope is industrial motive-power and eGSE charging, battery intelligence, and connected energy/fleet operations—not forklifts or other vehicles as standalone products.
 
-## Ampure group context
+### Ampure group context
 
 PosiCharge is one of three Ampure businesses. Each has a different role in this analysis (full model in [[Ampure Group Portfolio Context]]):
 
@@ -24,7 +39,7 @@ Group rules applied here:
 - Passenger-EV and aftermarket EVSE products are not compared with PosiCharge industrial charging unless the same customer job, industrial context and buying alternative are documented.
 - Before an external capability gap is declared, check whether Power Designers Sibex or the EVSE business already has the capability.
 
-## Target operating contexts
+### Target operating contexts
 
 - Material-handling fleets, including multi-shift and mixed-battery operations.
 - Airport electric ground-support equipment and outdoor charging environments.
@@ -32,7 +47,7 @@ Group rules applied here:
 - Lead-acid, lithium-ion, and mixed-chemistry fleet environments where applicable.
 - Fleet operations that require charger, battery, utilization, safety, maintenance, or energy-use visibility.
 
-## PosiCharge offer spaces
+### PosiCharge offer spaces
 
 | Offer space | PosiCharge role | Comparison unit |
 | --- | --- | --- |
@@ -41,20 +56,20 @@ Group rules applied here:
 | Connected operations platform | Charger/battery data, visibility, alerts, configuration, and management | Charger-management, battery-management, fleet-energy, or comparable operations platform |
 | MHE and eGSE energy operations | Integrated energy workflow for industrial fleets | Energy/charging solution addressing the same fleet segment and job to be done |
 
-## In scope
+### In scope
 
 - PosiCharge products, product families, software, services, and supporting interfaces.
 - Directly substitutable charging, monitoring, identification, battery-management, and energy-operations products.
 - Organizations that can be partners, competitors, or both within a defined offer space.
 - Product capabilities, design approaches, performance metrics, evidence, channel relationships, and unmet customer jobs.
 
-## Out of scope unless connected to an offer space
+### Out of scope unless connected to an offer space
 
 - Forklifts, eGSE vehicles, or other vehicles considered only as vehicles.
 - General EV charging unrelated to industrial fleets, except where technology, channel, or strategy is transferable. Ampure's own EVSE business is handled under the EVSE boundary rule above.
 - Organizations with no relevant product, channel, integration, supplier, customer, or competitive relationship.
 
-## Comparison rules
+### Comparison rules
 
 1. Compare offer to offer: identify the shared customer job, operating context, and buying alternative.
 2. Classify relationship per offer space: do not assign a single global competitor/partner label to an organization.
@@ -64,14 +79,14 @@ Group rules applied here:
 6. Separate a verified portfolio gap from a hypothesis, idea, or roadmap commitment.
 7. Check internal group capability (Power Designers Sibex, then EVSE) before calling an absence an Ampure gap.
 
-## Core PosiCharge records to normalize
+### Core PosiCharge records to normalize
 
 - Intelligent charger families and deployment configurations.
 - Battery-monitoring and identification offers, including Battery Rx, BMID, and PosiGuard where evidence supports the relationship.
 - PosiLink and associated connected-management capabilities.
 - MHE and eGSE-specific charging offerings, including outdoor and airport deployment use cases.
 
-## Related information
+### Related information
 
 - [[PosiCharge]] — organization record.
 - [[Ampure Group Portfolio Context]] — group model, boundaries and response paths.
@@ -84,7 +99,11 @@ Group rules applied here:
 - [[BMID Competitor Landscape]] — existing monitoring-device landscape to reconcile into this scope.
 - [[Investigation Backlog]] — vault-wide unresolved research work.
 
-## Change history
+### Change history
 
 - 2026-10-03 — Added Ampure group context (PosiCharge, Power Designers Sibex, Automotive and Aftermarket EVSE). Method: internal businesses are portfolio, not competitors; EVSE is context unless a shared industrial job is documented. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Established PosiCharge-centered scope. Method: anchor comparisons in shared product space and customer job; classify organizations per offer, not globally. See [[Research Change and Decision Tracker]].
+
+## Aliases
+
+## Former ids

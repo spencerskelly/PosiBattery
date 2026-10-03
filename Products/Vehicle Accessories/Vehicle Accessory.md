@@ -11,13 +11,13 @@ abstract: true
 supertypeOf:
   - "[[Access Control Device]]"
   - "[[Vehicle Camera and Recorder]]"
+  - "[[Cold Storage Package]]"
   - "[[Operator Assist and Stability System]]"
   - "[[Operator Convenience Accessory]]"
   - "[[Operator Display]]"
   - "[[Power Source Interface]]"
   - "[[Proximity and Object Detection System]]"
   - "[[Warning Light and Alert]]"
-  - "[[Cold Storage Package]]"
 ---
 
 # Vehicle Accessory

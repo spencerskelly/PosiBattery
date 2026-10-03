@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
   - "[[Hyster Power Cellect]]"
+  - "[[PosiCharge DIY Fast Charge Kit]]"
 ---
 
 # Power Source Interface

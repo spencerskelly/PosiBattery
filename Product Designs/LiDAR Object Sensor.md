@@ -14,8 +14,8 @@ describedBy:
 designOf:
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
-  - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Raymond In-Aisle Detection System]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
 ---
 
 # LiDAR Object Sensor

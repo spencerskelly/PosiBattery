@@ -9,11 +9,11 @@ tags:
   - product-function
 supertypeOf:
   - "[[Alert on Abnormal Condition]]"
+  - "[[Alert on Low Electrolyte Level]]"
   - "[[Calculate Battery Abuse Cycles]]"
   - "[[Display Battery Status to Operator]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Track Equalization]]"
-  - "[[Alert on Low Electrolyte Level]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

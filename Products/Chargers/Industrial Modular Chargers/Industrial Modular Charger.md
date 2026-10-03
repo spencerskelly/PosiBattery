@@ -43,6 +43,10 @@ supertypeOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
+  - "[[PosiCharge DVS150]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
+  - "[[PosiCharge High Voltage Power Station (DC)]]"
+  - "[[PosiCharge ProCore Solo]]"
 ---
 
 # Industrial Modular Charger

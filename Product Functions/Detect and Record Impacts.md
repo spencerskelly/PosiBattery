@@ -14,10 +14,10 @@ dependsOn:
 performedBy:
   - "[[Linde connect]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
-  - "[[Raymond iWAREHOUSE]]"
 ---
 
 # Detect and Record Impacts

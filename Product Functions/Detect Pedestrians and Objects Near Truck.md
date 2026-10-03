@@ -27,11 +27,11 @@ performedBy:
   - "[[Mallaghan Collision Avoidance System]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Raymond In-Aisle Detection System]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Raymond iWAREHOUSE ObjectSense]]"
-  - "[[Raymond iWAREHOUSE Fieldsense]]"
-  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck

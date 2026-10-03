@@ -27,6 +27,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 - [[ICE and Fuel Cell Feature Gap Review]] and [[SLC Airport EGSE BMID Requirement]] — focused opportunity/requirement analysis.
 - [[CANVAS_Research]] — visual research map.
 - `BASE_all_Research.base` and `BASE_local_Research.base` — research views.
+- `Business Analysis/` — PosiCharge and Ampure business-analysis notes: scope, segments, competitive landscape, comparison cohorts, capability gaps, opportunity backlog, portfolio baseline, public evidence register and evidence gaps.
 
 ## Related areas
 

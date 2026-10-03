@@ -13,16 +13,16 @@ describedBy:
   - "[[Metric - Response Action]]"
   - "[[Metric - Truck Integration]]"
 performedBy:
+  - "[[Raymond Travel Speed Control]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Raymond In-Aisle Detection System]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
-  - "[[Raymond iWAREHOUSE ObjectSense]]"
-  - "[[Raymond In-Aisle Detection System]]"
-  - "[[Raymond Travel Speed Control]]"
 ---
 
 # Limit Truck Speed Automatically

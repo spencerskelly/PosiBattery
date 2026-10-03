@@ -53,9 +53,10 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
   - [[PosiCharge PosiGuard]]: UL 583; EN 1175
   - [[PosiCharge SVS100]]: CEC certification
   - [[Power Designers REVOLUTION X]]: CEC compliant
+  - [[Stryten EHY Charger]]: UL 1564; CSA 22.2 107.2-01; CEC marking
   - [[Stryten M-Series Li600 Battery]]: designed to meet UL2580; certification in process
   - [[Stryten M-Series Li610 Battery]]: UL2580 certification being pursued
-  - [[Stryten X-3 Charger]]: CEC-certified versions available
+  - [[Stryten X-3 Charger]]: CSA certified to UL1564, CSA C22.2, CEC; earlier note: CEC-certified versions available
   - [[Stryten X-7 Charger]]: CEC-certified available
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.

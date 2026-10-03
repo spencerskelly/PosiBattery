@@ -15,6 +15,7 @@ performedBy:
   - "[[Midac Aquamatic Watering System]]"
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
+  - "[[PosiCharge Single-Point Automatic Battery Watering]]"
 ---
 
 # Water Battery Cells
@@ -33,6 +34,7 @@ Refill the cells of a flooded battery with water, by tool or automatically.
   - [[Exide Automatic Watering System and Level Sensor]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[Philadelphia Scientific Stealth Watering System]] (V): <https://og.mhi.org/members/13790>
   - [[Philadelphia Scientific Water Injector System]] (V): <https://og.mhi.org/members/13790>
+  - [[PosiCharge Single-Point Automatic Battery Watering]] (V): <https://posicharge.com/accessories/>
 
 ## Aliases
 

@@ -8,12 +8,12 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Hydraulic Pressure Load Sensor]]"
   - "[[Impact Sensor]]"
   - "[[Operator Presence Sensing Design]]"
-  - "[[Hydraulic Pressure Load Sensor]]"
 dependencyOf:
-  - "[[Sense Load Weight and Lift Height]]"
   - "[[Restrict Lift When Load Exceeds Limit]]"
+  - "[[Sense Load Weight and Lift Height]]"
 ---
 
 # Vehicle State Sensing Design

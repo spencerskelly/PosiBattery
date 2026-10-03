@@ -469,6 +469,23 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | makes | [[Hyster-Yale]] | [[Hyster Dynamic Stability System]] | vendor presents the product as its own | see the product note |
 | offeredWith | [[Crown Gena Operating System]] | [[Crown InfoLink]] | Crown says Gena integrates with InfoLink | <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf> |
 | offeredWith | [[Crown Gena Operating System]] | [[Crown ProximityAssist System]] | ProximityAssist alerts appear on the Gena touch screen | <https://www.ivtinternational.com/?p=22917> |
+| makes | [[PosiCharge]] | [[PosiCharge DVS150]] | vendor presents the product as its own | <https://posicharge.com/products/dvs150/> |
+| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station (AC)]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-ac/> |
+| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station (DC)]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-dc/> |
+| makes | [[PosiCharge]] | [[PosiCharge PosiConnect]] | vendor presents the product as its own | <https://posicharge.com/products/posiconnect/> |
+| makes | [[PosiCharge]] | [[PosiCharge PosiLink]] | vendor presents the product as its own | <https://posicharge.com/products/posilink/> |
+| makes | [[PosiCharge]] | [[PosiCharge SkyLink]] | vendor presents the product as its own | <https://posicharge.com/products/skylink/> |
+| makes | [[PosiCharge]] | [[PosiCharge E-Meter]] | vendor presents the product as its own | <https://posicharge.com/products/e-meter/> |
+| makes | [[PosiCharge]] | [[PosiCharge Modular Charge Cables]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge Charger Stand Kit and Cable Handler]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge Single-Point Automatic Battery Watering]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge DIY Fast Charge Kit]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge Three-Color Stack Light]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge Cooling Fan Box]] | vendor presents the product as its own | <https://posicharge.com/accessories/> |
+| makes | [[PosiCharge]] | [[PosiCharge ProCore Solo]] | vendor presents the product as its own | <https://posicharge.com/product-resources/> |
+| offeredWith | [[PosiCharge PosiGuard]] | [[PosiCharge PosiLink]] | PosiGuard sends battery data to PosiLink (public page) | <https://posicharge.com/products/posiguard/> |
+| offeredWith | [[PosiCharge PosiGuard]] | [[PosiCharge PosiConnect]] | PosiConnect connects to PosiGuard (public pages) | <https://posicharge.com/products/posiconnect/> |
+| offeredWith | [[PosiCharge ProCore Edge]] | [[PosiCharge PosiLink]] | ProCore Edge material identifies PosiLink as the data destination (baseline note) | <https://posicharge.com/products/procore-edge/> |
 
 ## Aliases
 

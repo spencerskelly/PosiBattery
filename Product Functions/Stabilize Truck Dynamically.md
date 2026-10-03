@@ -10,11 +10,11 @@ tags:
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
+  - "[[Hyster Dynamic Stability System]]"
   - "[[Linde Safety Pilot]]"
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Hyster Reaction]]"
-  - "[[Hyster Dynamic Stability System]]"
 ---
 
 # Stabilize Truck Dynamically

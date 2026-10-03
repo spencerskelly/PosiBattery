@@ -1,14 +1,30 @@
+---
+type: Info
+subtype:
+id: INFO-00231
+uid: 20261003143453026skellyspencer
+status: Draft
+tags:
+  - business-analysis
+  - comparison
+  - framework
+describes:
+  - "[[PosiCharge]]"
+---
+
 # PosiCharge Product Comparison Matrix
 
-## Purpose
+## Definition
 
 Provide a disciplined structure for product-to-product comparisons. Use one row per comparable offer family or configuration; do not use this matrix to compare PosiCharge with a company whose relevant product has not been identified.
 
-## Comparison eligibility
+## Notes
+
+### Comparison eligibility
 
 An entry is eligible only when both offers address the same customer job in a materially similar operating context. Examples include an industrial opportunity charger versus another industrial opportunity charger, or a battery monitor/BMID versus another battery-monitoring or identification device.
 
-## Required comparison fields
+### Required comparison fields
 
 | Field | Description |
 | --- | --- |
@@ -28,13 +44,13 @@ An entry is eligible only when both offers address the same customer job in a ma
 | Advantage, gap, or uncertainty | Evidence-backed observation; distinguish unknowns from gaps |
 | Next action | Research, validation, positioning, partner, or product action |
 
-## Internal overlap comparisons
+### Internal overlap comparisons
 
 Comparisons between PosiCharge and [[Power Designers]] offers are allowed, but they are portfolio comparisons, not competitive ones. Record them in [[Ampure Industrial Portfolio Overlap and Synergy Map]] using the same fields, with Origin set to Internal. Automotive and Aftermarket EVSE products are not compared here unless the EVSE boundary in [[Ampure Group Portfolio Context]] is met.
 
-## Comparison cohorts
+### Comparison cohorts
 
-### Intelligent industrial charging
+#### Intelligent industrial charging
 
 Compare PosiCharge charger families only with chargers serving the same voltage, chemistry, duty cycle, environment, and charging strategy where known.
 
@@ -51,7 +67,7 @@ Useful metrics include:
 - [[Metric - Charger Link]]
 - [[Metric - Communication and Remote Management]]
 
-### Battery monitoring and identification
+#### Battery monitoring and identification
 
 Compare monitoring, BMID, BMS-adjacent, and sensing products only when their role in battery identification, charge control, condition monitoring, or fleet data collection overlaps.
 
@@ -67,7 +83,7 @@ Useful metrics include:
 - [[Metric - Wireless Interfaces and Range]]
 - [[Metric - BMS and Communication]]
 
-### Connected operations
+#### Connected operations
 
 Compare software and connected-management offers based on actionable fleet-energy workflow, not merely on the presence of a cloud portal.
 
@@ -80,11 +96,15 @@ Useful metrics include:
 - [[Metric - Truck Integration]]
 - [[Metric - Availability]]
 
-## Relationship to gap assessment
+### Relationship to gap assessment
 
 A comparison result becomes a candidate gap only when the capability is material to the same customer job, supported by evidence, and absent or demonstrably weaker in the relevant PosiCharge offer. Record candidate and verified gaps in [[PosiCharge Capability Gap Assessment]].
 
-## Change history
+### Change history
 
 - 2026-10-03 — Added Origin and Internal capability source fields and an internal-overlap use case; direct external comparison still needs a shared job, context and buying alternative. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created product-to-product comparison protocol. Method: compare shared customer jobs, operating context, and evidence-backed metrics rather than comparing organizations generically. See [[Research Change and Decision Tracker]].
+
+## Aliases
+
+## Former ids
