@@ -23,6 +23,7 @@ supertypeOf:
   - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
   - "[[Linde System Control]]"
+  - "[[Mitsubishi Integrated Presence System]]"
   - "[[Raymond Fork Tilt Leveling]]"
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Load Weight Display]]"
@@ -39,9 +40,8 @@ supertypeOf:
   - "[[Toyota Compartment Sensing System]]"
   - "[[Toyota Load Weight Sensing]]"
   - "[[Toyota System of Active Stability]]"
-  - "[[Yale Reliant Portfolio]]"
-  - "[[Mitsubishi Integrated Presence System]]"
   - "[[UniCarriers Curve Control]]"
+  - "[[Yale Reliant Portfolio]]"
 ---
 
 # Operator Assist and Stability System

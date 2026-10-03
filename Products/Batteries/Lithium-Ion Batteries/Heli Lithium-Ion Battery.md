@@ -11,6 +11,10 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Operate in Cold Storage]]"
+hasDesign:
+  - "[[Integrated Battery Heater]]"
 madeBy:
   - "[[Anhui Heli]]"
 offeredWith:
@@ -27,6 +31,10 @@ Heli lithium-ion forklift batteries, for example 153.6 V 230 Ah on the CPD50, 80
 ## Notes
 
 - Dealers list 153.6 V 230 Ah (CPD50 G2A11LI, 6 hours), 80 V 150 Ah (CPD18-A3LiH4-M, up to 5.5 hours) and 80 V 250 Ah (CPD35-A3LiH4-M), a 48-month warranty on the CPD50 and CPD18 batteries, and automatic heating in low temperatures on G2 trucks. Source: Paleciaki dealer pages and Lifts Today listing (T3), retrieved 2026-10-03. <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html>
+- **Functions performed, with citations:**
+  - [[Operate in Cold Storage]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html>
+- **Design characteristics, with citations:**
+  - [[Integrated Battery Heater]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html>
 
 ## Aliases
 

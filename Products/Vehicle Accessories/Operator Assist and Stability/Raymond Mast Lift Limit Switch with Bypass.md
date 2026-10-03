@@ -12,6 +12,10 @@ tags:
   - truck-oem-option
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
+performs:
+  - "[[Cut Lift at Programmed Height]]"
+hasDesign:
+  - "[[Mast Lift Limit Switch]]"
 madeBy:
   - "[[Raymond]]"
 offeredWith:
@@ -27,6 +31,10 @@ Raymond option that cuts the lift function at a pre-programmed height unless the
 ## Notes
 
 - Raymond's options sheet lists a Mast Lift Limit Switch with Bypass that cuts the lift function once a pre-programmed height is reached; going past the limit needs the bypass switch pressed while the standard lift control is used. Source: Raymond 4000 Series options sell sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+- **Functions performed, with citations:**
+  - [[Cut Lift at Programmed Height]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+- **Design characteristics, with citations:**
+  - [[Mast Lift Limit Switch]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

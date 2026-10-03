@@ -12,6 +12,8 @@ tags:
   - gse
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+performs:
+  - "[[Charge Battery Fast]]"
 madeBy:
   - "[[PosiCharge]]"
 ---
@@ -28,6 +30,8 @@ PosiCharge High Voltage Power Station listed under airport GSE charging (DC); sh
 - **Baseline confidence (High Voltage Power Station—DC):** Verified public—listing level. **Still needed:** Obtain and extract controlled/current spec sheet; define ratings, AC/DC boundary, interfaces, application, certification, option structure, and commercialization status.
 - The product card (Downloads/High-Voltage-Power-Station-Product-Card-1.pdf) calls it a 20 kW DC fast charger for eGSE and EVs, with 30 kW quick charge via CCS1 and NACS; it runs on a PosiCharge DC bus or stand-alone, is backwards compatible with DVS and MVS systems with a required software update, replaces a standard power station without a new utility drop, has a 5 m CCS1 or NACS single-port output and a NEMA 3S enclosure. Source: High Voltage Power Station product card (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/High-Voltage-Power-Station-Product-Card-1.pdf>
 - **Conflicts (round 20):** the card gives 20 kW and 30 kW (C81); the same card is linked for the AC listing (C82).
+- **Functions performed, with citations:**
+  - [[Charge Battery Fast]] (V): <https://posicharge.com/products/high-voltage-power-station-dc/>
 
 ## Aliases
 

@@ -37,6 +37,8 @@ performedBy:
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
+  - "[[PosiCharge DVS150]]"
+  - "[[PosiCharge E-Meter]]"
 ---
 
 # Log Battery Events and Usage
@@ -75,6 +77,8 @@ Record charge, discharge, temperature and fault events with time stamps for late
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[EnerSys iQ Mini]] (V): <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf> (also [[Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)]])
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
+  - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
+  - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
 
 ## Aliases
 

@@ -16,6 +16,8 @@ designOf:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[PosiCharge E-Meter]]"
+  - "[[PosiCharge PosiNet]]"
 ---
 
 # Cellular Communication Interface
@@ -34,6 +36,8 @@ Cellular modem for sending data from the battery device.
   - [[Philadelphia Scientific eGO!gateway]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
   - [[Hyster Battery Tracker]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+  - [[PosiCharge PosiNet]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
 
 ## Aliases
 

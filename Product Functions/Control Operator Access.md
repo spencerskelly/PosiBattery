@@ -19,6 +19,9 @@ performedBy:
   - "[[Powerfleet Forklift Gateway]]"
   - "[[STILL FleetManager]]"
   - "[[STILL Smart Portal]]"
+  - "[[Hangcha XC Series Electric Forklifts]]"
+  - "[[STILL RX 60 Electric Forklift]]"
+  - "[[STILL EXH-SF Low Lift Pallet Truck]]"
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
   - "[[STILL Safety Assist]]"
@@ -45,6 +48,9 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[STILL FleetManager]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
   - [[STILL Smart Portal]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
   - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+  - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/>
+  - [[STILL EXH-SF Low Lift Pallet Truck]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+  - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
 
 ## Aliases
 

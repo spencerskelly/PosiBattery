@@ -18,7 +18,9 @@ rolePlayedBy:
   - "[[KION Group]]"
   - "[[Komatsu]]"
   - "[[Linde Material Handling]]"
+  - "[[Logisnext Europe]]"
   - "[[Mallaghan]]"
+  - "[[Mitsubishi Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Oshkosh AeroTech]]"
   - "[[Raymond]]"
@@ -27,8 +29,6 @@ rolePlayedBy:
   - "[[Textron GSE]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[Mitsubishi Logisnext Americas]]"
-  - "[[Logisnext Europe]]"
 ---
 
 # Truck OEM

@@ -8,7 +8,7 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Vehicle Control Device Design]]"
+  - "[[Vehicle Drive Design]]"
 dependencyOf:
   - "[[Recover Energy by Regeneration]]"
 designOf:

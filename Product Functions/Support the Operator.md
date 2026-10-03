@@ -10,6 +10,7 @@ tags:
 hasChild:
   - "[[Support Operator View and Positioning]]"
   - "[[Reduce Operator Effort]]"
+  - "[[Inform Operator of Truck Condition]]"
 ---
 
 # Support the Operator

@@ -12,6 +12,7 @@ supertypeOf:
   - "[[Breakaway Connector]]"
   - "[[Onboard Charger Mounting]]"
   - "[[Outdoor-Rated Charger Enclosure]]"
+  - "[[Ingress-Protected Drive Components]]"
 ---
 
 # Enclosure and Mounting Design

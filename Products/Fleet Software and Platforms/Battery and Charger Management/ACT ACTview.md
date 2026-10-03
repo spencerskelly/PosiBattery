@@ -11,6 +11,10 @@ tags:
   - battery-charger-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
+performs:
+  - "[[Manage Chargers Remotely]]"
+hasDesign:
+  - "[[Wi-Fi Interface]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredWith:
@@ -28,6 +32,10 @@ ACT cloud analytics and reporting platform for Quantum chargers and Battview mon
 ## Notes
 
 - ACT's sheets describe ACTview as intelligent fleet analytics and reporting with real-time analytics and reports for Quantum and Battview assets, new features by over-the-air updates, and Wi-Fi remote management (sheets are in the repo). Source: ACT Quantum and Battview sheets (T1), retrieved 2026-10-03. <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
+- **Functions performed, with citations:**
+  - [[Manage Chargers Remotely]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
+- **Design characteristics, with citations:**
+  - [[Wi-Fi Interface]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
 
 ## Aliases
 

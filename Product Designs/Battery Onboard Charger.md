@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Battery Integrated Feature Design]]"
+dependencyOf:
+  - "[[Charge Battery from Standard Power Outlet]]"
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:
@@ -16,6 +18,9 @@ designOf:
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
+  - "[[Heli Built-In Lithium Charger]]"
+  - "[[Heli A3 Series Lithium Forklifts]]"
+  - "[[Charlatte Belt Loaders]]"
 ---
 
 # Battery Onboard Charger
@@ -33,6 +38,9 @@ Charger built into the battery or truck-side battery unit.
   - [[Deka PowrMate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka Gel-Mate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Stryten M-Series AGM220 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[Heli A3 Series Lithium Forklifts]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
+  - [[Charlatte Belt Loaders]] (V): <https://www.aviationpros.com/gse/pushbacks-tractors-utility-vehicles/company/10017106/charlatte-of-america>
+  - [[Heli Built-In Lithium Charger]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html>
 
 ## Aliases
 

@@ -35,6 +35,7 @@ performedBy:
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[PosiCharge E-Meter]]"
 ---
 
 # Transmit Battery Data Wirelessly
@@ -70,6 +71,7 @@ Send battery data wirelessly to a gateway, app, truck module or charger.
   - [[Hyster Battery Tracker]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
+  - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
 
 ## Aliases
 

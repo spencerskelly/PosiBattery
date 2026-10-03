@@ -14,6 +14,8 @@ supertypeOf:
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge in Cold Storage]]"
+  - "[[Avoid Battery Changeover During Shifts]]"
+  - "[[Charge Battery from Standard Power Outlet]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

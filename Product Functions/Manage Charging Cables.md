@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Connect Battery Power Path]]"
 performedBy:
   - "[[Crown Cable Management Accessories]]"
+  - "[[PosiCharge Charger Stand Kit and Cable Handler]]"
 ---
 
 # Manage Charging Cables
@@ -25,6 +26,7 @@ Hold, retract or protect cables during charging.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Crown Cable Management Accessories]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[PosiCharge Charger Stand Kit and Cable Handler]] (V): <https://posicharge.com/accessories/>
 
 ## Aliases
 

@@ -10,6 +10,9 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+performs:
+  - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Control Operator Access]]"
 madeBy:
   - "[[STILL]]"
 offeredWith:
@@ -27,6 +30,9 @@ STILL RX 60-25/35 electric counterbalance forklift with optional STILL lithium-i
 ## Notes
 
 - STILL says the RX 60-25/35 (2.5 to 3.5 t) offers optional STILL lithium-ion technology (three shifts without a replacement battery), an optional pre-shift check on the display, Safety Light 4Plus lighting, Curve Speed Control, optional access control, an optional interface to fleet management software such as STILL neXXt fleet, and the Easy Control on-board computer. Source: STILL RX 60 page (dealer copy) (T3), retrieved 2026-10-03. <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+- **Functions performed, with citations:**
+  - [[Enforce Pre-Shift Checklist]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+  - [[Control Operator Access]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
 
 ## Aliases
 

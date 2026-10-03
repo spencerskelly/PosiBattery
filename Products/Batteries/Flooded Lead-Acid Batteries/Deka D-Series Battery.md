@@ -10,6 +10,8 @@ tags:
   - battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+hasDesign:
+  - "[[Individual Plate Formation]]"
 madeBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
@@ -25,6 +27,8 @@ Deka flooded forklift battery for conventional and opportunity charging.
 ## Notes
 
 - A dealer describes the D-Series as designed for conventional and opportunity charging, with the exclusive Individual Plate Formation process in open tanks. Source: Western Materials (T3), retrieved 2026-10-02. <https://www.westmat.com/parts-category/lead-industrial-batteries/>
+- **Design characteristics, with citations:**
+  - [[Individual Plate Formation]] (V): <https://www.westmat.com/parts-category/lead-industrial-batteries/>
 
 ## Aliases
 

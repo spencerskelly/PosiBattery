@@ -10,6 +10,8 @@ tags:
 subtypeOf:
   - "[[Display Device Design]]"
 designOf:
+  - "[[Hangcha A Series Electric Forklifts]]"
+  - "[[Mallaghan SkyBelt]]"
   - "[[Jungheinrich addedVIEW Camera Systems]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Linde MT18 Multifunction Display]]"
@@ -32,6 +34,8 @@ Display mounted on the vehicle, powered from the truck, showing battery data.
   - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
   - [[Linde MT18 Multifunction Display]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
   - [[Jungheinrich addedVIEW Camera Systems]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Hangcha A Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
+  - [[Mallaghan SkyBelt]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
 
 ## Aliases
 

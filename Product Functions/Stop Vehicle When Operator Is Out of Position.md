@@ -13,6 +13,10 @@ subtypeOf:
 dependsOn:
   - "[[Operator Presence Sensing Design]]"
 performedBy:
+  - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
+  - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
+  - "[[Hangcha XC Series Electric Forklifts]]"
+  - "[[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]]"
   - "[[Cat Presence Detection System]]"
   - "[[Heli Operator Presence Sensing System]]"
   - "[[Komatsu Operator Presence Sensing System]]"
@@ -41,6 +45,10 @@ Stop the vehicle if the operator leaves the seat while it is moving or a system 
   - [[Heli Operator Presence Sensing System]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
   - [[Komatsu Operator Presence Sensing System]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
   - [[Mitsubishi Integrated Presence System]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
+  - [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/159.pdf>
+  - [[Doosan Bobcat 7-Series Plus Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
+  - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
+  - [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>
 
 ## Aliases
 

@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
+  - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[Hyster Dynamic Stability System]]"
   - "[[Jungheinrich curveCONTROL]]"
   - "[[Linde Safety Pilot]]"
@@ -35,6 +36,7 @@ Intervene in travel or lift functions to keep the truck from becoming unstable o
   - [[Linde Safety Pilot]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
+  - [[Doosan Bobcat NXE Series Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856190.html>
 
 ## Aliases
 

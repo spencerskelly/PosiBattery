@@ -12,6 +12,7 @@ subtypeOf:
 supertypeOf:
   - "[[Light-Beam Compartment Sensor]]"
   - "[[Operator Sensing Floor Mat]]"
+  - "[[Operator Presence Pedal]]"
 dependencyOf:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 ---

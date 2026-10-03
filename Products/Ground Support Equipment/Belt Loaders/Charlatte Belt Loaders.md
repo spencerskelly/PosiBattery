@@ -11,6 +11,8 @@ tags:
   - gse-vehicle
 subtypeOf:
   - "[[GSE Belt Loader]]"
+hasDesign:
+  - "[[Battery Onboard Charger]]"
 madeBy:
   - "[[Charlatte Manutention]]"
 ---
@@ -24,6 +26,8 @@ Charlatte electric belt loader line (CBL 100E, CBL150, CBL2000 and an 80 V AC lo
 ## Notes
 
 - Charlatte America lists the CBL 100E electric belt loader (48 VDC drive with an onboard charging system, 30 ft) and an AC 80 V full-size electric belt loader with a 25 ft conveyor; an industry profile says the CBL150 and CBL2000 come in fossil-fuel and electric versions. Source: Charlatte America profile and AirlineGeeks (T2), retrieved 2026-10-03. <https://www.aviationpros.com/gse/pushbacks-tractors-utility-vehicles/company/10017106/charlatte-of-america>
+- **Design characteristics, with citations:**
+  - [[Battery Onboard Charger]] (V): <https://www.aviationpros.com/gse/pushbacks-tractors-utility-vehicles/company/10017106/charlatte-of-america>
 
 ## Aliases
 

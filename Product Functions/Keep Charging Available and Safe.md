@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Continue Charging Through Module Fault]]"
   - "[[Detect Foreign and Live Objects]]"
+  - "[[Charge Without Gas Emissions]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

@@ -60,6 +60,16 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Follow Operator Automatically]] | [[Belt-Worn Remote Control]] | analyst inference (necessity) | the operator's signal comes from a worn remote (easyPILOT) |
 | [[Adapt Speed to Load and Lift Height]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | needs the load and height measured |
 | [[Enforce Pre-Shift Checklist]] | [[Display Device Design]] | analyst inference (necessity) | the checklist is shown on a display (keypad or touch) |
+| [[Hold Truck on Slope]] | [[Electric Parking Brake]] | analyst inference (necessity) | only implementation found: electro-magnetic parking brake |
+| [[Change Battery Quickly]] | [[Quick-Change Battery Compartment]] | analyst inference (necessity) | needs a side door, sideways change or roller pack |
+| [[Charge Battery from Standard Power Outlet]] | [[Battery Onboard Charger]] | analyst inference (necessity) | needs a built-in charger |
+| [[Steer with Electric Power Assist]] | [[Electric Power Steering]] | analyst inference (necessity) | is the mechanism |
+| [[Cut Power in an Emergency]] | [[Emergency Cut-Off Switch]] | analyst inference (necessity) | needs a cut-off switch |
+| [[Program Travel, Lift and Tilt Speeds]] | [[Programmable Motor Controller]] | analyst inference (necessity) | needs a programmable controller |
+| [[Display Truck Status to Operator]] | [[Display Device Design]] | analyst inference (necessity) | needs a display |
+| [[Reduce Speed When Seat Belt Is Unfastened]] | [[Seat Belt Interlock]] | analyst inference (necessity) | needs a belt interlock |
+| [[Cut Lift at Programmed Height]] | [[Mast Lift Limit Switch]] | analyst inference (necessity) | needs a limit switch |
+| [[Operate in Wet or Dusty Conditions]] | [[Ingress-Protected Drive Components]] | analyst inference (necessity) | needs sealed drive components |
 
 ## Aliases
 

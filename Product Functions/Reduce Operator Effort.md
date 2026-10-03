@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Follow Operator Automatically]]"
   - "[[Rotate Operator Workstation]]"
+  - "[[Steer with Electric Power Assist]]"
 childOf:
   - "[[Support the Operator]]"
 ---

@@ -16,6 +16,8 @@ describedBy:
   - "[[Metric - Response Action]]"
 performedBy:
   - "[[Hyster Dynamic Stability System]]"
+  - "[[Mitsubishi Integrated Presence System]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Doosan Bobcat Pedestrian Detection Camera]]"
@@ -28,7 +30,6 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Mitsubishi Integrated Presence System]]"
 ---
 
 # Alert Operator of Hazards
@@ -56,6 +57,7 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
   - [[Mitsubishi Integrated Presence System]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
+  - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.ivtinternational.com/?p=22917>
 
 ## Aliases
 

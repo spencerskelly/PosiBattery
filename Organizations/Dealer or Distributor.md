@@ -13,11 +13,11 @@ rolePlayedBy:
   - "[[ELMAS S.R.L.]]"
   - "[[Holt of California]]"
   - "[[Medley Company]]"
+  - "[[Mitsubishi Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
-  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Dealer or Distributor

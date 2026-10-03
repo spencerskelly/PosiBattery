@@ -10,6 +10,10 @@ tags:
   - battery-market-reference
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Communicate with Charger]]"
+hasDesign:
+  - "[[Integrated Battery Management System]]"
 offeredBy:
   - "[[Toyota Material Handling]]"
 offeredWith:
@@ -26,6 +30,10 @@ Toyota lithium-ion battery series in 24, 36 and 48 V for a broad range of Toyota
 
 - TMHNA launched the 5/35 lithium-ion battery series in 24, 36 and 48 V designed to fit a broad range of Toyota forklifts in cold storage, food and beverage and manufacturing, and says Toyota's lithium-ion chargers are fully compatible and communicate directly with the batteries' onboard management system. Source: TMHNA release (T2), retrieved 2026-10-03. <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 - **Unknown:** who makes the cells, packs or chargers; the release does not say.
+- **Functions performed, with citations:**
+  - [[Communicate with Charger]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+- **Design characteristics, with citations:**
+  - [[Integrated Battery Management System]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 
 ## Aliases
 

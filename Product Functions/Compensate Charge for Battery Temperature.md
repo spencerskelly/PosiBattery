@@ -20,12 +20,14 @@ performedBy:
   - "[[Fronius Selectiva 4.0]]"
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS150]]"
   - "[[PosiCharge DVS300 Series]]"
   - "[[PosiCharge SVS100]]"
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Lester Summit Series II]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Stryten inCOMMAND]]"
 ---
 
 # Compensate Charge for Battery Temperature
@@ -53,6 +55,8 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[Stryten X-7 Charger]] (V): <https://stryten.com/?p=173790>
   - [[PosiCharge SVS100]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
   - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
+  - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
+  - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
 
 ## Aliases
 

@@ -16,6 +16,7 @@ designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[PosiCharge DVS150]]"
 ---
 
 # Electrolyte-Immersed Temperature Sensor
@@ -34,6 +35,7 @@ Temperature sensor placed in the cell electrolyte, so it reads electrolyte tempe
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
   - [[AMETEK Prestolite Power WBID Pro]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
   - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+  - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
 
 ## Aliases
 

@@ -12,6 +12,7 @@ subtypeOf:
 designOf:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[ACT ACTview]]"
 ---
 
 # Wi-Fi Interface
@@ -27,6 +28,7 @@ Wi-Fi link for uploading data and sending commands.
 - **Sources** (product, evidence level, web page):
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[Stryten X-3 Charger]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/SE1038-X-3-Product-Brochure_DIGITAL.pdf>
+  - [[ACT ACTview]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
 
 ## Aliases
 

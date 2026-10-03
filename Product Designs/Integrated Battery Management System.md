@@ -23,6 +23,7 @@ designOf:
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
+  - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 ---
 
 # Integrated Battery Management System
@@ -45,6 +46,7 @@ Battery management system built into the battery pack.
   - [[Green Cubes SAFEFlex Battery]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
   - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
   - [[Jungheinrich Lithium-Ion Battery]] (V): <https://warehousenews.co.uk/?p=45557>
+  - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 
 ## Aliases
 

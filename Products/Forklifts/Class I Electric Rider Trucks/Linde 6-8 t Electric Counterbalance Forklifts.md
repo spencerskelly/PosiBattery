@@ -11,6 +11,8 @@ tags:
   - europe
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+performs:
+  - "[[Avoid Battery Changeover During Shifts]]"
 madeBy:
   - "[[Linde Material Handling]]"
 offeredWith:
@@ -27,6 +29,8 @@ Linde high-capacity electric forklifts (6.0, 7.0 and 8.0 t) with 90 V lithium-io
 ## Notes
 
 - Linde says the 6.0, 7.0 and 8.0 t models can be fitted with 90 V lithium-ion batteries up to 120 kWh, removing battery changes on trucks whose battery would weigh nearly 3 tonnes, and offers a lithium-ion battery plus charger as a complete solution. Source: Warehouse News (T2), retrieved 2026-10-03. <https://warehousenews.co.uk/?p=62842>
+- **Functions performed, with citations:**
+  - [[Avoid Battery Changeover During Shifts]] (V): <https://warehousenews.co.uk/?p=62842>
 
 ## Aliases
 

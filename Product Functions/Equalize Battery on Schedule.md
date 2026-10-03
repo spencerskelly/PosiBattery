@@ -18,6 +18,7 @@ performedBy:
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS150]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
@@ -43,6 +44,7 @@ Run equalization charges at an interval or schedule, even when the battery moves
   - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[Power Designers REVOLUTION X]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
+  - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
 
 ## Aliases
 

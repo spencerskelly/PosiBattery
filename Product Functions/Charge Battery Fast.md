@@ -20,6 +20,7 @@ performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge High Voltage Power Station (DC)]]"
   - "[[PosiCharge MVS400 and MVS800]]"
   - "[[PosiCharge SVS100]]"
   - "[[Power Designers REVOLUTION X]]"
@@ -55,6 +56,7 @@ Charge at rates several times conventional charging, at every opportunity, usual
   - [[PosiCharge SVS100]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
   - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
   - [[PosiCharge MVS400 and MVS800]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
+  - [[PosiCharge High Voltage Power Station (DC)]] (V): <https://posicharge.com/products/high-voltage-power-station-dc/>
 
 ## Aliases
 

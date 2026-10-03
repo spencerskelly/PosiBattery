@@ -16,8 +16,8 @@ playsRole:
 makes:
   - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
 parentOf:
-  - "[[Mitsubishi Logisnext Americas]]"
   - "[[Logisnext Europe]]"
+  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Mitsubishi Logisnext

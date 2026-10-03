@@ -12,13 +12,16 @@ subtypeOf:
 describedBy:
   - "[[Metric - Response Action]]"
 performedBy:
+  - "[[Hangcha XC Series Electric Forklifts]]"
+  - "[[Heli G Series Lithium Forklifts]]"
   - "[[Hyster Dynamic Stability System]]"
   - "[[Jungheinrich curveCONTROL]]"
   - "[[STILL Curve Speed Control]]"
   - "[[STILL Safety Assist]]"
+  - "[[STILL Safety Packages]]"
+  - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
-  - "[[UniCarriers Curve Control]]"
 ---
 
 # Slow Truck in Curves
@@ -39,6 +42,10 @@ Reduce speed automatically when cornering.
   - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
   - [[STILL Curve Speed Control]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
   - [[UniCarriers Curve Control]] (V): <https://www.allmachines.com/forklifts/unicarriers-mx2-30l>
+  - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/>
+  - [[Heli G Series Lithium Forklifts]] (V): <https://fltgrupa.pl/en/heli-forklifts/>
+  - [[Heli G Series Lithium Forklifts]] (V): <https://www.liftstoday.com/listing/for-sale/259364865/2026-heli-cpd15-pneumatic-tire-forklifts?print=1>
+  - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
 
 ## Aliases
 

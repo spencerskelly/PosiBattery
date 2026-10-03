@@ -12,6 +12,10 @@ tags:
   - display
 subtypeOf:
   - "[[Operator Display]]"
+performs:
+  - "[[Alert Operator of Hazards]]"
+hasDesign:
+  - "[[Operator Touch Display]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -28,6 +32,10 @@ Crown 7 inch touch display on InfoLink-equipped trucks that shows visual and aud
 
 - Crown says trucks with the InfoLink 7 inch touch display or the Gena operating system's 7 inch touch screen show visual and audible alerts when ProximityAssist detects an object. Source: IVT International and Food Logistics reports (T2), retrieved 2026-10-03. <https://www.ivtinternational.com/?p=22917>
 - **Open:** the Gena operating system screen is a separate named item, not yet modeled.
+- **Functions performed, with citations:**
+  - [[Alert Operator of Hazards]] (V): <https://www.ivtinternational.com/?p=22917>
+- **Design characteristics, with citations:**
+  - [[Operator Touch Display]] (V): <https://www.ivtinternational.com/?p=22917>
 
 ## Aliases
 

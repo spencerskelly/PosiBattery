@@ -11,6 +11,8 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+hasDesign:
+  - "[[Truck Charging Port]]"
 offeredBy:
   - "[[Logisnext Europe]]"
 offeredWith:
@@ -28,6 +30,8 @@ Cat lithium-ion battery option on its electric counterbalance trucks, with an ea
 
 - Cat says both lithium-ion and lead-acid batteries are available on its electric trucks, and an easy charging hatch and socket come as standard with lithium-ion; a Cat page says the Li-ion option enhances truck performance and enables fast charging. Source: Cat Lift Trucks blog and 48 V release (T1), retrieved 2026-10-03. <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
 - **Not stated:** the battery maker (Triathlon USA supplies the UniCarriers lithium option in North America; nothing says it also supplies Cat).
+- **Design characteristics, with citations:**
+  - [[Truck Charging Port]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
 
 ## Aliases
 

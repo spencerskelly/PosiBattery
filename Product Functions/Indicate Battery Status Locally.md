@@ -28,6 +28,8 @@ performedBy:
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown V-HFM3 Tower Light Kit]]"
+  - "[[PosiCharge Three-Color Stack Light]]"
 ---
 
 # Indicate Battery Status Locally
@@ -58,6 +60,8 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Crown V-HFM3 Tower Light Kit]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+  - [[PosiCharge Three-Color Stack Light]] (V): <https://posicharge.com/accessories/>
 
 ## Aliases
 

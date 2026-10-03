@@ -13,6 +13,11 @@ supertypeOf:
   - "[[Gel Electrolyte]]"
   - "[[Thin Plate Pure Lead Plates]]"
   - "[[Tubular Plate Construction]]"
+  - "[[Flexible Bolt-On Intercell Connector]]"
+  - "[[Individual Plate Formation]]"
+  - "[[Heavy-Duty Intercell Connectors]]"
+  - "[[Copper Inserted Posts]]"
+  - "[[Flat Plate Construction]]"
 ---
 
 # Lead-Acid Battery Construction Design

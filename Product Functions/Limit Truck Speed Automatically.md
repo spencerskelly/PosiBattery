@@ -13,6 +13,8 @@ describedBy:
   - "[[Metric - Response Action]]"
   - "[[Metric - Truck Integration]]"
 performedBy:
+  - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
+  - "[[Komatsu FB Series Electric Forklifts]]"
   - "[[Doosan Bobcat Mast Sway Control]]"
   - "[[Raymond Travel Speed Control]]"
   - "[[STILL Safety Assist]]"
@@ -53,6 +55,8 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
   - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[Doosan Bobcat Mast Sway Control]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
+  - [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/159.pdf>
+  - [[Komatsu FB Series Electric Forklifts]] (V): <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
 
 ## Aliases
 

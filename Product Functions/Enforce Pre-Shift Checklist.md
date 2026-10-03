@@ -17,6 +17,7 @@ performedBy:
   - "[[Jungheinrich ISM Online]]"
   - "[[Logisnext Lift Link]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[STILL RX 60 Electric Forklift]]"
 ---
 
 # Enforce Pre-Shift Checklist
@@ -35,6 +36,7 @@ Require the operator to complete a vehicle inspection checklist before the truck
   - [[Powerfleet Forklift Gateway]] (V): <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
   - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+  - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
 
 ## Aliases
 

@@ -14,14 +14,14 @@ rolePlayedBy:
   - "[[Jungheinrich]]"
   - "[[KION Group]]"
   - "[[Linde Material Handling]]"
+  - "[[Logisnext Europe]]"
+  - "[[Mitsubishi Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Raymond]]"
   - "[[STILL]]"
   - "[[Textron GSE]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[Mitsubishi Logisnext Americas]]"
-  - "[[Logisnext Europe]]"
 ---
 
 # Brand Owner

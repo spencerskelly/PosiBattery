@@ -135,6 +135,8 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-108 | Mitsubishi Logisnext: model TCM, Nichiyu, Cat Americas and Europe ranges, the Asia Pacific and Shanghai entities, and Rocla (decide on AGV scope) | <https://logisnext.eu/corporate/history> | Group coverage gaps | TCM electric forklift; Nichiyu forklift | open |
 | IB-109 | Confirm the Cat to Logisnext Europe attribution (C92) and the Americas entity names (C91) with a source from Logisnext | <https://www.logisnextamericas.com/en/logisnext/who-we-are> | Conflicts C91 and C92 | n/a | open |
 | IB-110 | Add HAWKER battery, charger and monitor notes once specification sheets are found (names only from the EnerSys release) | <https://www.enersys.com/en/about-us/news/enersys-and-mitsubishi-logisnext-americas-bring-the--power-of-choice-to-material-handling-operations/> | EnerSys partnership | HAWKER Water Less datasheet | open |
+| IB-111 | Remaining products without a feature link (see the Feature Capture Log): find sources that state their features, starting with the Crown RM, RR, SC and FC series, Linde E series and 1293, Raymond trucks, Jungheinrich ETV and Yale ERC050 | <https://www.crown.com/en-la/forklifts> | Owner request round 25 | <model> features brochure | open |
+| IB-112 | Add the fingertip hydraulic control feature (Cat, Toyota EZ fingertip, Hangcha) when a product note states it; it was left out because no unlinked note's text mentioned it | <https://www.toyotaforklift.com/toyota-assist> | Round 25 | fingertip control forklift | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 

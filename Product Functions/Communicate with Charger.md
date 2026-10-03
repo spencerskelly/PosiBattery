@@ -12,6 +12,7 @@ subtypeOf:
 describedBy:
   - "[[Metric - Charger Link]]"
 performedBy:
+  - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
@@ -22,6 +23,7 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Stryten inCOMMAND]]"
 ---
 
 # Communicate with Charger
@@ -46,6 +48,8 @@ Exchange data with a charger in either direction.
   - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/product/trak-collect-premium/> <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors> <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
+  - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+  - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
 
 ## Aliases
 

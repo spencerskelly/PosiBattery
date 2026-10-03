@@ -10,6 +10,10 @@ tags:
   - battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+hasDesign:
+  - "[[Heavy-Duty Intercell Connectors]]"
+  - "[[Copper Inserted Posts]]"
+  - "[[Dual-Cable and Parallel Charging Configuration]]"
 madeBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
@@ -26,6 +30,10 @@ Deka battery built for fast charge conditions.
 
 - East Penn says FastCharge batteries have heavy-duty intercell connectors, copper inserted posts, and dual cables and connectors, and are built for rigorous fast charging. Source: East Penn forklift products page (T1), retrieved 2026-10-02. <https://www.eastpennmanufacturing.com/forklift-products/>
 - **Conflict-visible (C52):** East Penn's Airline products page gives the heavy-duty intercell connectors, copper inserted posts and dual cables text to MaxPowr, while the forklift products page lists FastCharge with no description and the earlier MaxPowr text (up to 10 percent more amp-hours) came from the Canada page. Which line carries which features is not settled. Sources: <https://www.eastpennmanufacturing.com/?p=5246>; <https://www.eastpennmanufacturing.com/forklift-products/>.
+- **Design characteristics, with citations:**
+  - [[Heavy-Duty Intercell Connectors]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Copper Inserted Posts]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Dual-Cable and Parallel Charging Configuration]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 
 ## Aliases
 

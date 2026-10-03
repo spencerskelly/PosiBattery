@@ -12,12 +12,16 @@ subtypeOf:
 dependsOn:
   - "[[Indicator and Alarm Design]]"
 performedBy:
+  - "[[Hangcha A Series Electric Forklifts]]"
   - "[[STILL Safety Assist]]"
+  - "[[STILL Safety Packages]]"
   - "[[Linde Safety Guard]]"
   - "[[Cat Safety Lighting Options]]"
+  - "[[Larson Explosion-Proof Blue LED Forklift Light]]"
   - "[[Linde BlueSpot]]"
   - "[[Linde Safety Guard Portable Unit]]"
   - "[[Linde Safety Guard Static Unit]]"
+  - "[[Panacea Blue Warning Light]]"
   - "[[Powerfleet Forklift Safety Lights]]"
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
@@ -47,6 +51,10 @@ Warn people on foot that a truck is approaching with lights, sounds or wearable 
   - [[STILL SafetyLight 4Plus]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[STILL Warning Zone Light]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[Cat Safety Lighting Options]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
+  - [[Hangcha A Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
+  - [[Larson Explosion-Proof Blue LED Forklift Light]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[Panacea Blue Warning Light]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
 
 ## Aliases
 

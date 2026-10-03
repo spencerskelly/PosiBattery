@@ -27,6 +27,7 @@ designOf:
   - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown V-HFM3 Tower Light Kit]]"
 ---
 
 # Local LED Indicator
@@ -56,6 +57,7 @@ LED indicator on the device or at the battery showing status.
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
   - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Crown V-HFM3 Tower Light Kit]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 
 ## Aliases
 

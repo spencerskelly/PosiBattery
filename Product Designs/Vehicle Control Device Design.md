@@ -13,7 +13,10 @@ supertypeOf:
   - "[[Electric Mast Thrust Drive]]"
   - "[[Fork Laser Guide]]"
   - "[[Operator Identification Design]]"
-  - "[[Regenerative Braking]]"
+  - "[[Programmable Motor Controller]]"
+  - "[[Emergency Cut-Off Switch]]"
+  - "[[Seat Belt Interlock]]"
+  - "[[Mast Lift Limit Switch]]"
 ---
 
 # Vehicle Control Device Design

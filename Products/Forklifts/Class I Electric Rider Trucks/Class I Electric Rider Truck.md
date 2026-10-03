@@ -29,17 +29,17 @@ supertypeOf:
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Linde Ei Series]]"
+  - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"
+  - "[[Mitsubishi FBC Cushion Tire Electric Forklifts]]"
+  - "[[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]]"
   - "[[Raymond 4000 Series Counterbalanced Trucks]]"
   - "[[STILL RX 60 Electric Forklift]]"
   - "[[Toyota 3-Wheel Electric Forklift]]"
   - "[[Toyota Traigo48]]"
   - "[[UniCarriers MX2 and MXL Series]]"
+  - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[Yale ERC080VHL]]"
-  - "[[Mitsubishi FBC Cushion Tire Electric Forklifts]]"
-  - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"
-  - "[[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]]"
-  - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
 ---
 
 # Class I Electric Rider Truck

@@ -35,6 +35,7 @@ describedBy:
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Unidentified Products Review]]"
+  - "[[Feature Capture Log]]"
 ---
 
 # Battery-Connected Product

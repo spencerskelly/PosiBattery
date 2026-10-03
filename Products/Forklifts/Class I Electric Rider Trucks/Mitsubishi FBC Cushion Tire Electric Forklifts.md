@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+hasDesign:
+  - "[[AC Drive Motor]]"
 madeBy:
   - "[[Mitsubishi Logisnext Americas]]"
 offeredWith:
@@ -25,6 +27,8 @@ Mitsubishi FBC18N and FBC23N to FBC30LN electric cushion tire forklifts with an 
 ## Notes
 
 - Dealer data repeating Mitsubishi's text says the FBC23N-FBC30LN series has an AC motor, a comfortable operator compartment, higher or lower overhead guard options, an Integrated Presence System (IPS) that alerts the operator to hazards with audible and visual indicators, and lithium-ion battery support (no watering, no gas emissions, faster charging); the FBC18N is also offered with lithium-ion. Source: AllMachines listings of Mitsubishi FBC models (T3), retrieved 2026-10-03. <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
+- **Design characteristics, with citations:**
+  - [[AC Drive Motor]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
 
 ## Aliases
 

@@ -14,6 +14,10 @@ tags:
   - truck-oem-option
 subtypeOf:
   - "[[On-board Charger]]"
+performs:
+  - "[[Charge Battery from Standard Power Outlet]]"
+hasDesign:
+  - "[[Battery Onboard Charger]]"
 madeBy:
   - "[[Anhui Heli]]"
 offeredWith:
@@ -29,6 +33,10 @@ Built-in charger on Heli A3 lithium forklifts that charges the battery from a st
 ## Notes
 
 - A Polish dealer says the CPD18-A3LiH4-M and CPD35-A3LiH4-M have a built-in charger for a standard 230 V socket, so they can be used where there is no three-phase supply; an external three-phase charger is an option. Source: Paleciaki dealer pages (T3), retrieved 2026-10-03. <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html>
+- **Functions performed, with citations:**
+  - [[Charge Battery from Standard Power Outlet]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html>
+- **Design characteristics, with citations:**
+  - [[Battery Onboard Charger]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html>
 
 ## Aliases
 

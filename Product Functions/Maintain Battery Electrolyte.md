@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Circulate Electrolyte]]"
   - "[[Water Battery Cells]]"
+  - "[[Eliminate Battery Watering]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

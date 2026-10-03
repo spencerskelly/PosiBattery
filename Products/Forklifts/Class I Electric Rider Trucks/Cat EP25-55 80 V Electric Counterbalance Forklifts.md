@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+hasDesign:
+  - "[[Truck Charging Port]]"
 madeBy:
   - "[[Logisnext Europe]]"
 offeredWith:
@@ -26,6 +28,8 @@ Cat 80 V electric counterbalance forklifts (2.5 to 3.5 t and 4.0 to 5.5 t) with 
 ## Notes
 
 - Cat says the EP40-55(C)N(H) 4.0 to 5.5 t trucks offer lithium-ion and lead-acid batteries (an easy charging hatch and socket are standard with lithium-ion), mirrors, mounts for document holders, computers and scanners, road lights, amber strobes, red or blue warning spots and red lines marking exclusion boundaries, and a raised operator compartment. Source: Cat Lift Trucks blog (T1), retrieved 2026-10-03. <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
+- **Design characteristics, with citations:**
+  - [[Truck Charging Port]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
 
 ## Aliases
 
