@@ -33,6 +33,8 @@ Operator Feedback: How the operator is told: display, audible, visual, traction 
   - [[Jungheinrich zoneCONTROL]]: truck display and operator module
   - [[Linde Safety Guard]]: acoustic and wearable alerts to pedestrians
   - [[Linde Safety Guard Truck Unit]]: LED lights and acoustic signals; hazard direction shown
+  - [[STILL SafetyLight 4Plus]]: blue dot or cone about 5 m ahead; 20,000 hour life
+  - [[STILL Warning Zone Light]]: two side strips; semi-circle behind in the Plus version
   - [[Textron Smart Sense]]: colored indicator lights on the conveyor front and rear: yellow flashing near the aircraft, red at 2 inches, seat or fault
   - [[Toyota SEnS+ Pedestrian and Object Detection]]: visual and audible alerts
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

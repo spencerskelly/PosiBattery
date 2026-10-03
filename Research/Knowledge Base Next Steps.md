@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 23) — Truck makers finished for STILL, Cat, Hangcha, Heli, Doosan Bobcat and Komatsu (Mitsubishi Forklift Trucks and UniCarriers option lists still missing); see [[Coverage Plan]].
 - 2026-10-03 (round 22) — Finished the truck OEM accessory sweep for Linde, Jungheinrich and the Mitsubishi Logisnext group (STILL is partial); owner depth and evidence-tier decisions recorded in [[Coverage Plan]].
 - 2026-10-03 (round 20) — Read the uploaded PosiCharge sheets and OEM documents; resolved or narrowed PC-PUB-001 to 003 (C77 to C79) and raised four new conflicts (C80 to C83); progress on the P0 baseline items is recorded in [[PosiCharge and Power Designers Current Portfolio Baseline]]. The P0 checkboxes above are left for the owner to tick.
 - 2026-10-03 (round 19) — Converted the eleven unformatted analysis notes to model notes, moved the business-analysis notes to `Research/Business Analysis`, moved per-product facts to product notes, moved conflicts PC-PUB-001 to 003 into the central register as C77 to C79, and replaced broken Stryten and PosiCharge wishlist links with direct file addresses. See [[Note Reuse Audit]] and [[Research Change and Decision Tracker]].

@@ -9,9 +9,9 @@ tags:
   - product-function
 supertypeOf:
   - "[[Control Operator Access]]"
+  - "[[Enforce Pre-Shift Checklist]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Report Truck Telemetry]]"
-  - "[[Enforce Pre-Shift Checklist]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

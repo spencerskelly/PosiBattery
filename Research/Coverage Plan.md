@@ -61,14 +61,14 @@ How the catalog decides which makers and products to include, what a finished ca
 | Rank (2025 list, 2024 revenue) | Company as ranked | Vault organization | 2024 revenue | Headquarters stated by a source | Forklift products on file (with subsidiaries and brands) | All product notes on file (with subsidiaries and brands) | Status |
 |---|---|---|---|---|---|---|---|
 | 1 | Toyota Industries Corporation | [[Toyota Industries Corporation]] | not stated in the retrieved text | Japan (Kariya, Aichi; 2024 list) | 6 | 39 | covered |
-| 2 | KION Group | [[KION Group]] | $8.96B | Germany (2019 list) | 4 | 23 | covered |
+| 2 | KION Group | [[KION Group]] | $8.96B | Germany (2019 list) | 6 | 33 | covered |
 | 3 | Jungheinrich | [[Jungheinrich]] | $5.60B | Germany (2019 list) | 1 | 9 | covered |
 | 4 | Crown Equipment Corp. | [[Crown Equipment]] | not stated in the retrieved text | United States (2019 list) | 5 | 22 | covered |
-| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 1 | 3 | covered |
+| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 4 | 9 | covered |
 | 6 | Hyster-Yale | [[Hyster-Yale]] | $4.30B | United States (Cleveland; 2024 list) | 3 | 13 | covered |
-| 7 | Anhui Forklift Group | [[Anhui Heli]] | $2.51B | China (the vault note is titled Anhui Heli; see C84) | 0 | 0 | gap: no forklift note |
-| 8 | Hangcha Group | [[Hangcha Group]] | $2.29B | China (2019 list) | 0 | 0 | gap: no forklift note |
-| also named in other lists | Doosan Industrial Vehicle, Komatsu, Hyundai Heavy Industries | [[Doosan Bobcat]], [[Komatsu]] | - | South Korea (Doosan, 2019 list) | 0 | 0 | gap: no forklift note |
+| 7 | Anhui Forklift Group | [[Anhui Heli]] | $2.51B | China (the vault note is titled Anhui Heli; see C84) | 2 | 6 | covered |
+| 8 | Hangcha Group | [[Hangcha Group]] | $2.29B | China (2019 list) | 2 | 5 | covered |
+| also named in other lists | Doosan Industrial Vehicle, Komatsu, Hyundai Heavy Industries | [[Doosan Bobcat]], [[Komatsu]] | - | South Korea (Doosan, 2019 list) | 3 | 9 | covered |
 
 *Battery makers against the lists above*
 
@@ -92,18 +92,18 @@ How the catalog decides which makers and products to include, what a finished ca
 
 | Product type | Makers with at least one product note | Makers |
 |---|---|---|
-| Batteries | 15 | [[Crown Equipment]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Flux Power]], [[Green Cubes Technology]], [[HOPPECKE]], [[Jungheinrich]], [[Linde Material Handling]], [[Midac]], [[Mitsubishi Logisnext]], [[Raymond]], [[Stryten Energy]], [[Toyota Material Handling]], [[Triathlon USA]] |
-| Chargers | 18 | [[AMETEK Prestolite Power]], [[Advanced Charging Technologies]], [[Crown Battery Manufacturing]], [[Crown Equipment]], [[Delta-Q Technologies]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Fronius International]], [[Green Cubes Technology]], [[HOPPECKE]], [[Lester Electrical]], [[Linde Material Handling]], [[PosiCharge]], [[Power Designers]], [[Raymond]], [[Stryten Energy]], [[Triathlon USA]] |
-| Forklifts | 7 | [[Crown Equipment]], [[Hyster-Yale]], [[Jungheinrich]], [[Linde Material Handling]], [[Mitsubishi Logisnext]], [[Raymond]], [[Toyota Material Handling]] |
+| Batteries | 17 | [[Anhui Heli]], [[Crown Equipment]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Flux Power]], [[Green Cubes Technology]], [[HOPPECKE]], [[Hangcha Group]], [[Jungheinrich]], [[Linde Material Handling]], [[Midac]], [[Mitsubishi Logisnext]], [[Raymond]], [[Stryten Energy]], [[Toyota Material Handling]], [[Triathlon USA]] |
+| Chargers | 19 | [[AMETEK Prestolite Power]], [[Advanced Charging Technologies]], [[Anhui Heli]], [[Crown Battery Manufacturing]], [[Crown Equipment]], [[Delta-Q Technologies]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Fronius International]], [[Green Cubes Technology]], [[HOPPECKE]], [[Lester Electrical]], [[Linde Material Handling]], [[PosiCharge]], [[Power Designers]], [[Raymond]], [[Stryten Energy]], [[Triathlon USA]] |
+| Forklifts | 12 | [[Anhui Heli]], [[Crown Equipment]], [[Doosan Bobcat]], [[Hangcha Group]], [[Hyster-Yale]], [[Jungheinrich]], [[Komatsu]], [[Linde Material Handling]], [[Mitsubishi Logisnext]], [[Raymond]], [[STILL]], [[Toyota Material Handling]] |
 | Battery Accessories | 19 | [[AMETEK Prestolite Power]], [[Access Control Group]], [[Advanced Charging Technologies]], [[Anderson Power Products]], [[Crown Equipment]], [[EnerSys]], [[Energywith]], [[Exide Technologies]], [[Flow-Rite]], [[Fronius International]], [[HOPPECKE]], [[Hyster-Yale]], [[Inventus Power]], [[Midac]], [[Philadelphia Scientific]], [[PosiCharge]], [[Power Designers]], [[Raymond]], [[Sunlight Group]] |
 | Charger Accessories | 2 | [[Crown Equipment]], [[PosiCharge]] |
-| Vehicle Accessories | 18 | [[Blaxtair]], [[Crown Equipment]], [[EnerSys]], [[Holt of California]], [[Hyster-Yale]], [[Larson Electronics]], [[Linde Material Handling]], [[Mallaghan]], [[Oshkosh AeroTech]], [[Panacea Aftermarket Co.]], [[PosiCharge]], [[Powerfleet]], [[Raymond]], [[STILL]], [[TLD Group]], [[TVH]], [[Textron GSE]], [[Toyota Material Handling]] |
-| Fleet Software and Platforms | 13 | [[Advanced Charging Technologies]], [[Adveez]], [[Crown Equipment]], [[Fronius International]], [[Hyster-Yale]], [[Linde Material Handling]], [[Oshkosh AeroTech]], [[Philadelphia Scientific]], [[PosiCharge]], [[Powerfleet]], [[Raymond]], [[Stryten Energy]], [[Toyota Material Handling]] |
+| Vehicle Accessories | 24 | [[Anhui Heli]], [[Blaxtair]], [[Crown Equipment]], [[Doosan Bobcat]], [[EnerSys]], [[Hangcha Group]], [[Holt of California]], [[Hyster-Yale]], [[Jungheinrich]], [[Komatsu]], [[Larson Electronics]], [[Linde Material Handling]], [[Mallaghan]], [[Mitsubishi Logisnext]], [[Oshkosh AeroTech]], [[Panacea Aftermarket Co.]], [[PosiCharge]], [[Powerfleet]], [[Raymond]], [[STILL]], [[TLD Group]], [[TVH]], [[Textron GSE]], [[Toyota Material Handling]] |
+| Fleet Software and Platforms | 20 | [[Advanced Charging Technologies]], [[Adveez]], [[Anhui Heli]], [[Crown Equipment]], [[Doosan Bobcat]], [[Fronius International]], [[Hangcha Group]], [[Hyster-Yale]], [[Jungheinrich]], [[Komatsu]], [[Linde Material Handling]], [[Mitsubishi Logisnext]], [[Oshkosh AeroTech]], [[Philadelphia Scientific]], [[PosiCharge]], [[Powerfleet]], [[Raymond]], [[STILL]], [[Stryten Energy]], [[Toyota Material Handling]] |
 | Fuel Cell Power Units | 2 | [[Nuvera]], [[Plug Power]] |
 | Ground Support Equipment | 6 | [[Charlatte Manutention]], [[Linde Material Handling]], [[Mallaghan]], [[Oshkosh AeroTech]], [[TLD Group]], [[Textron GSE]] |
 
-- **Region recorded:** 35 of 70 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
-- **What the ledger shows:** the vault is strong on North American makers and on the top forklift OEMs' truck-side devices (Toyota, Crown, Raymond, Hyster-Yale, Linde, Jungheinrich, Mitsubishi Logisnext), and has no product notes for the Chinese, Korean and most Japanese forklift makers or for the Asian and Indian battery makers named in the lists; accessory and software coverage is thin for makers outside that group.
+- **Region recorded:** 35 of 71 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
+- **What the ledger shows (round 23):** all eight ranked forklift OEMs and the extra names (Doosan, Komatsu, STILL) now have at least one electric truck note and, for most, truck-side devices; the thin spots are the depth per Asian maker (dealer-level sources, T3), the Asian and Indian battery makers (GS Yuasa, Leoch, Banner, Tianneng, Amara Raja, Godrej) and the region field on organization notes.
 
 ## Aliases
 

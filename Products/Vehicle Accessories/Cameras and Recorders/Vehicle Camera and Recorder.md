@@ -11,12 +11,13 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
+  - "[[Jungheinrich addedVIEW Camera Systems]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[Raymond Vantage Point System]]"
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Twistlock Snapshot Camera System]]"
-  - "[[Jungheinrich addedVIEW Camera Systems]]"
+  - "[[Hangcha Backup Camera Option]]"
 ---
 
 # Vehicle Camera and Recorder

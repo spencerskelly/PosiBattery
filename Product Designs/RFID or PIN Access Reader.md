@@ -11,8 +11,8 @@ subtypeOf:
   - "[[Operator Identification Design]]"
 designOf:
   - "[[Linde connect]]"
-  - "[[Toyota PIN Code Access Pad]]"
   - "[[Logisnext Lift Link]]"
+  - "[[Toyota PIN Code Access Pad]]"
 ---
 
 # RFID or PIN Access Reader

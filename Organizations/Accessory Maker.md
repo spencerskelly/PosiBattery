@@ -10,12 +10,12 @@ tags:
 rolePlayedBy:
   - "[[Adveez]]"
   - "[[Anderson Power Products]]"
+  - "[[Arcure]]"
   - "[[Blaxtair]]"
   - "[[Larson Electronics]]"
   - "[[Panacea Aftermarket Co.]]"
   - "[[Powerfleet]]"
   - "[[TVH]]"
-  - "[[Arcure]]"
 ---
 
 # Accessory Maker

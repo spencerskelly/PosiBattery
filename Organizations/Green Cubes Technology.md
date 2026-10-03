@@ -20,6 +20,8 @@ makes:
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+supplierOf:
+  - "[[Doosan Bobcat]]"
 ---
 
 # Green Cubes Technology

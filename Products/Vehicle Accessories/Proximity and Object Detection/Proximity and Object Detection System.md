@@ -16,7 +16,12 @@ supertypeOf:
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[IRIS 860 Sensor Pack]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
+  - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Motion Detection]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
   - "[[Mallaghan Collision Avoidance System]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
@@ -29,11 +34,7 @@ supertypeOf:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Linde Safety Guard Truck Unit]]"
-  - "[[Linde Safety Guard Zone Marker]]"
-  - "[[Jungheinrich zoneCONTROL]]"
-  - "[[Jungheinrich Pedestrian Detection System]]"
-  - "[[Jungheinrich Reverse Area Warning System]]"
+  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
 ---
 
 # Proximity and Object Detection System

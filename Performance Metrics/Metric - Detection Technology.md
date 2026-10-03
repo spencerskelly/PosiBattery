@@ -32,6 +32,7 @@ Detection Technology: Sensing technology used to detect people or objects near t
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Blaxtair Pedestrian Detection System]]: stereoscopic 3D camera with AI recognition of people
   - [[Crown ProximityAssist System]]: LiDAR (low-mounted)
+  - [[Doosan Bobcat Pedestrian Detection Camera]]: AI-enabled camera processing that tells people from surroundings (trade report)
   - [[Hyster Pedestrian Awareness Camera]]: camera
   - [[Hyster Reaction]]: proximity tags (local or real-time location) plus 2D LiDAR for untagged objects
   - [[IRIS 860 Sensor Pack]]: sensor that recognizes reflective tape on worn safety gear

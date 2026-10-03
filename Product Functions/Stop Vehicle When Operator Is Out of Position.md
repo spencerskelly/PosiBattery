@@ -17,6 +17,9 @@ performedBy:
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
   - "[[Toyota Compartment Sensing System]]"
   - "[[Textron Smart Sense]]"
+  - "[[Cat Presence Detection System]]"
+  - "[[Heli Operator Presence Sensing System]]"
+  - "[[Komatsu Operator Presence Sensing System]]"
 ---
 
 # Stop Vehicle When Operator Is Out of Position
@@ -34,6 +37,9 @@ Stop the vehicle if the operator leaves the seat while it is moving or a system 
   - [[Toyota Compartment Sensing System]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
   - [[Raymond iWAREHOUSE Integrated Tether System]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
   - [[Raymond Operator Compartment Sensor System]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Cat Presence Detection System]] (V): <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
+  - [[Heli Operator Presence Sensing System]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
+  - [[Komatsu Operator Presence Sensing System]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
 
 ## Aliases
 

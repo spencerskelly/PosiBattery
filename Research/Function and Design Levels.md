@@ -85,17 +85,17 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Control Charge Profile]] | 7 | 25 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
 | [[Inform Users of Battery Condition]] | 6 | 29 | [[Local LED Indicator]] (14), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
 | [[Keep Charging Available and Safe]] | 2 | 5 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1), [[Multi-Voltage Output]] (1) |
-| [[Limit Vehicle Motion Automatically]] | 6 | 23 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Stereoscopic Vision Sensor]] (2), [[Floor-Projected Warning Light]] (1), [[Light-Beam Compartment Sensor]] (1) |
+| [[Limit Vehicle Motion Automatically]] | 6 | 28 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Stereoscopic Vision Sensor]] (2), [[Light-Beam Compartment Sensor]] (1), [[Operator Sensing Floor Mat]] (1) |
 | [[Maintain Battery Electrolyte]] | 2 | 9 | [[Forced Electrolyte Circulation]] (3) |
-| [[Maintain Vehicle Stability and Load Awareness]] | 4 | 12 | [[Proximity Tag System]] (2), [[Fork Laser Guide]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1), [[Hydraulic Pressure Load Sensor]] (1) |
-| [[Manage Fleet Use]] | 4 | 20 | [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3), [[RFID or PIN Access Reader]] (3) |
+| [[Maintain Vehicle Stability and Load Awareness]] | 4 | 14 | [[Proximity Tag System]] (2), [[Electric Mast Thrust Drive]] (1), [[Fork Laser Guide]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
+| [[Manage Fleet Use]] | 4 | 28 | [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3), [[RFID or PIN Access Reader]] (3) |
 | [[Protect Battery from Harm]] | 2 | 2 | [[CAN Interface]] (2), [[Hall-Effect Current Sensing]] (1), [[Bluetooth Low Energy Interface]] (1), [[ZigBee 2.4 GHz Interface]] (1), [[Local LED Indicator]] (1) |
 | [[Reduce Operator Effort]] | 2 | 2 | [[Belt-Worn Remote Control]] (1) |
 | [[Sense Battery State]] | 12 | 39 | [[Local LED Indicator]] (13), [[Acid-Resistant Sealed Housing]] (8), [[Cloud Portal Integration]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
-| [[Sense Collision Risk and Events]] | 2 | 32 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Operator Touch Display]] (2) |
+| [[Sense Collision Risk and Events]] | 2 | 34 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Operator Touch Display]] (2) |
 | [[Supply Vehicle Energy Without Charging]] | 4 | 5 | [[Hydrogen Storage Tank]] (2), [[Fuel Cell Hybrid Power Stage]] (2), [[Operator Touch Display]] (1), [[Regenerative Braking]] (1), [[Onboard Fuel Level Gauge]] (1) |
-| [[Support Operator View and Positioning]] | 2 | 10 | [[Fork Laser Guide]] (3), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1), [[Vehicle-Mounted Display]] (1) |
-| [[Warn People of Hazards]] | 3 | 21 | [[Floor-Projected Warning Light]] (4), [[Proximity Tag System]] (4), [[Stereoscopic Vision Sensor]] (3), [[LiDAR Object Sensor]] (3), [[Interactive Warning Vest]] (2) |
+| [[Support Operator View and Positioning]] | 2 | 11 | [[Fork Laser Guide]] (3), [[Vehicle-Mounted Display]] (1), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
+| [[Warn People of Hazards]] | 3 | 25 | [[Floor-Projected Warning Light]] (7), [[Proximity Tag System]] (4), [[Stereoscopic Vision Sensor]] (3), [[LiDAR Object Sensor]] (3), [[Pedestrian Detection Camera]] (2) |
 
 - **Not yet assigned a general parent:** functions none; designs [[Reverse-Polarity Protection]].
 

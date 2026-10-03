@@ -51,7 +51,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Fingerprint Reader]] | [[Panacea Smart Start]] | - | - |
-| [[Floor-Projected Warning Light]] | [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist and Curve Speed Control]], [[Toyota Forklift Lighting Options]] | - | - |
+| [[Floor-Projected Warning Light]] | [[Cat Safety Lighting Options]], [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist]], [[STILL SafetyLight 4Plus]], [[STILL Warning Zone Light]], [[Toyota Forklift Lighting Options]] | - | - |
 | [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Fork Laser Guide]] | [[Raymond Fork-Tip Laser Guide]], [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
@@ -85,7 +85,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown ProximityAssist System]], [[Hyster J1.5-3.0UT(L)]] | - | - |
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
-| [[Pedestrian Detection Camera]] | [[Hyster Pedestrian Awareness Camera]] | - | - |
+| [[Pedestrian Detection Camera]] | [[Doosan Bobcat Pedestrian Detection Camera]], [[Hyster Pedestrian Awareness Camera]] | - | - |
 | [[Proximity Tag System]] | [[Hyster Reaction]], [[Jungheinrich zoneCONTROL]], [[Linde Safety Guard]], [[Linde Safety Guard Truck Unit]], [[Yale Reliant Portfolio]] | - | - |
 | [[RFID or PIN Access Reader]] | [[Linde connect]], [[Logisnext Lift Link]], [[Toyota PIN Code Access Pad]] | - | - |
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |

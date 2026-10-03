@@ -10,10 +10,10 @@ tags:
 subtypeOf:
   - "[[Display Device Design]]"
 designOf:
-  - "[[EnerSys Truck iQ]]"
-  - "[[Blaxtair Pedestrian Detection System]]"
-  - "[[Linde MT18 Multifunction Display]]"
   - "[[Jungheinrich addedVIEW Camera Systems]]"
+  - "[[EnerSys Truck iQ]]"
+  - "[[Linde MT18 Multifunction Display]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
 ---
 
 # Vehicle-Mounted Display

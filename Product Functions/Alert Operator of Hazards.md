@@ -20,13 +20,14 @@ performedBy:
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Linde Safety Guard Truck Unit]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Linde Safety Guard Truck Unit]]"
-  - "[[Jungheinrich zoneCONTROL]]"
-  - "[[Jungheinrich Reverse Area Warning System]]"
+  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
 ---
 
 # Alert Operator of Hazards
@@ -52,6 +53,7 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Linde Safety Guard Truck Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
 
 ## Aliases
 

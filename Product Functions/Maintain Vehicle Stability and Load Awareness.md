@@ -8,10 +8,10 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Damp Mast Oscillation]]"
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Stabilize Truck Dynamically]]"
-  - "[[Damp Mast Oscillation]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

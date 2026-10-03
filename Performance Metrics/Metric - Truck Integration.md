@@ -25,6 +25,7 @@ Truck Integration: How the system is tied to the truck: OEM-integrated to steeri
 - **Comparability rule:** Integration changes false alarms and field-of-view alignment; vendors claim, none tested.
 - **Direction:** deeper integration.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Cat Safety Lighting Options]]: options list on the EP40-55N
   - [[Crown ProximityAssist System]]: engineered per truck model, uses steering and travel inputs
   - [[Hyster Reaction]]: factory option on many electric counterbalanced and warehouse models
   - [[Jungheinrich addedVIEW Camera Systems]]: modular; flexible retrofitting and integration
@@ -32,6 +33,7 @@ Truck Integration: How the system is tied to the truck: OEM-integrated to steeri
   - [[Linde Safety Guard Truck Unit]]: quick plug-and-play retrofit (dealer brochure)
   - [[Linde connect]]: factory-fitted or retrofit on all Linde products; other makes on request (dealer brochure)
   - [[Logisnext Lift Link]]: factory-installed or field retrofit on Cat, Mitsubishi, Jungheinrich, UniCarriers and competitive trucks
+  - [[STILL Safety Assist]]: factory options on STILL trucks; some items retrofit (EasyBelt)
   - [[Toyota Assist]]: suite on new Toyota forklift models
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** no numeric detection ranges are stated for most systems; ask makers or find data sheets.

@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Powered Industrial Truck]]"
 supertypeOf:
   - "[[Raymond 8000 Series Pallet Trucks]]"
+  - "[[STILL EXH-SF Low Lift Pallet Truck]]"
 ---
 
 # Class III Electric Hand or Hand-Rider Truck

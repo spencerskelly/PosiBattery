@@ -14,9 +14,9 @@ describedBy:
 designOf:
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
-  - "[[Linde Safety Guard]]"
-  - "[[Linde Safety Guard Truck Unit]]"
   - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Linde Safety Guard]]"
 ---
 
 # Proximity Tag System

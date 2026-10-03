@@ -12,9 +12,9 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle State Sensing Design]]"
 performedBy:
+  - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
   - "[[Yale Reliant Portfolio]]"
-  - "[[Linde Load Management Advanced]]"
 ---
 
 # Restrict Lift When Load Exceeds Limit

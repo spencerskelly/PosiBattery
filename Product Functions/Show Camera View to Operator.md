@@ -12,12 +12,13 @@ subtypeOf:
 dependsOn:
   - "[[Display Device Design]]"
 performedBy:
+  - "[[Jungheinrich addedVIEW Camera Systems]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[Raymond Vantage Point System]]"
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Assist]]"
-  - "[[Jungheinrich addedVIEW Camera Systems]]"
+  - "[[Hangcha Backup Camera Option]]"
 ---
 
 # Show Camera View to Operator
@@ -37,6 +38,7 @@ Show the operator a camera view of the truck's surroundings.
   - [[Toyota Carriage-Mounted Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Raymond Vantage Point System]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Jungheinrich addedVIEW Camera Systems]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Hangcha Backup Camera Option]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
 
 ## Aliases
 

@@ -13,6 +13,7 @@ describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
   - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
 ---
 
 # Pedestrian Detection Camera
@@ -26,6 +27,7 @@ Camera that identifies pedestrians within a stated range and field of view.
 - Design characteristic found in truck-side products, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[Hyster Pedestrian Awareness Camera]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
+  - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
 
 ## Aliases
 

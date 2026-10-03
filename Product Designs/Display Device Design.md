@@ -15,8 +15,8 @@ supertypeOf:
   - "[[Vehicle-Mounted Display]]"
 dependencyOf:
   - "[[Display Battery Status to Operator]]"
-  - "[[Show Camera View to Operator]]"
   - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Show Camera View to Operator]]"
 ---
 
 # Display Device Design

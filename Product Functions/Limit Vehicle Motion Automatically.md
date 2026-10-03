@@ -8,12 +8,12 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Adapt Speed to Load and Lift Height]]"
   - "[[Limit Truck Speed Automatically]]"
   - "[[Limit Vehicle Motion by Location Zone]]"
   - "[[Slow Truck in Curves]]"
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Stop Vehicle When Operator Is Out of Position]]"
-  - "[[Adapt Speed to Load and Lift Height]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

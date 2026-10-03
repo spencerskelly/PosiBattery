@@ -11,9 +11,10 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
-  - "[[Linde Smartphone Holder]]"
-  - "[[Linde Rotating Operator Workstation]]"
   - "[[Jungheinrich easyPILOT]]"
+  - "[[Linde Rotating Operator Workstation]]"
+  - "[[Linde Smartphone Holder]]"
+  - "[[STILL EasyBelt]]"
 ---
 
 # Operator Convenience Accessory

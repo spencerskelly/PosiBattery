@@ -13,10 +13,10 @@ dependencyOf:
   - "[[Detect and Record Impacts]]"
 designOf:
   - "[[Linde connect]]"
+  - "[[Logisnext Lift Link]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
-  - "[[Logisnext Lift Link]]"
 ---
 
 # Impact Sensor

@@ -32,7 +32,7 @@ Side-by-side comparison of truck-side proximity and operator assist systems by t
 | [[Linde Motion Detection]] | motion detection behind the truck (sensor type not stated) | n/s | n/s | n/s | n/s | n/s | [[Linde Motion Detection]] |
 | [[Linde Safety Guard]] | ultra-wideband tags and wearable vests | location accuracy up to 10 cm (pilot report) | warns pedestrians via vests; defines reduced-speed zones | hardware installed on vehicles or danger points (retrofit-style) | acoustic and wearable alerts to pedestrians | introduced 2018; add-on hardware | [[Linde Safety Guard]] |
 | [[Linde Safety Pilot]] | n/s | n/s | n/s | n/s | n/s | standard in many Linde forklifts | [[Linde Safety Pilot]] |
-| [[STILL Safety Assist and Curve Speed Control]] | n/s | n/s | slow-speed zones; curve speed adjustment | n/s | n/s | n/s | [[STILL Safety Assist and Curve Speed Control]] |
+| [[STILL Safety Assist]] | n/s | n/s | slow-speed zones; curve speed adjustment | n/s | n/s | n/s | [[STILL Safety Assist]] |
 | [[Toyota Assist]] | n/s | n/s | n/s | suite on new Toyota forklift models | n/s | new Toyota forklift models | [[Toyota Assist]] |
 | [[Toyota SEnS+ Pedestrian and Object Detection]] | stereoscopic vision (radar listed separately in the Toyota Assist suite) | n/s | visual and audible alerts; one report adds regenerative-braking movement limiting (C66) | n/s | visual and audible alerts | n/s | [[Toyota SEnS+ Pedestrian and Object Detection]] |
 

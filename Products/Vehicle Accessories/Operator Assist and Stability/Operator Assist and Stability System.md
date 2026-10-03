@@ -13,7 +13,11 @@ subtypeOf:
 supertypeOf:
   - "[[Crown Capacity Data Monitor]]"
   - "[[Hyster Dynamic Stability System]]"
+  - "[[Jungheinrich curveCONTROL]]"
+  - "[[Linde Dynamic Mast Control]]"
+  - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
+  - "[[Linde System Control]]"
   - "[[Raymond Fork Tilt Leveling]]"
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Load Weight Display]]"
@@ -21,7 +25,6 @@ supertypeOf:
   - "[[Raymond Operator Compartment Sensor System]]"
   - "[[Raymond Travel Speed Control]]"
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
-  - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
@@ -29,10 +32,14 @@ supertypeOf:
   - "[[Toyota Load Weight Sensing]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Yale Reliant Portfolio]]"
-  - "[[Linde Load Management Advanced]]"
-  - "[[Linde Dynamic Mast Control]]"
-  - "[[Linde System Control]]"
-  - "[[Jungheinrich curveCONTROL]]"
+  - "[[STILL Safety Assist]]"
+  - "[[STILL Curve Speed Control]]"
+  - "[[STILL Safety Packages]]"
+  - "[[Cat Presence Detection System]]"
+  - "[[Heli Operator Presence Sensing System]]"
+  - "[[Doosan Bobcat Mast Sway Control]]"
+  - "[[Komatsu Operator Presence Sensing System]]"
+  - "[[Komatsu Digital Load Scale]]"
 ---
 
 # Operator Assist and Stability System

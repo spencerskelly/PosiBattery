@@ -31,6 +31,7 @@ Chemistry and Plate Construction: Chemistry and plate type.
   - [[EnerSys NexSys TPPL Battery]]: thin plate pure lead (valve-regulated)
   - [[Exide TENSOR xGEL Battery]]: gel (valve-regulated)
   - [[Green Cubes GSE Lithium Battery]]: lithium iron phosphate
+  - [[Hangcha Lithium Iron Phosphate Battery Pack]]: LiFePO4, square cells
   - [[Stryten M-Series AGM200 Battery]]: AGM (valve-regulated)
   - [[Stryten M-Series F100 Battery]]: flooded; flat plate
   - [[Stryten M-Series F110 Battery]]: flooded; flat plate

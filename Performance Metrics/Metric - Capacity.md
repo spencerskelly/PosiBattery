@@ -27,6 +27,7 @@ Capacity: Rated capacity.
   - [[Deka MaxPowr Battery]]: up to 10% more amp-hours in the same size
   - [[Flux Power GSE Pack]]: 300-600 Ah modular
   - [[Flux Power LiFT Pack]]: 250 Ahe
+  - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells
   - [[Stryten M-Series T330 Battery]]: up to 18% more capacity than conventional flooded
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

@@ -25,6 +25,17 @@ supertypeOf:
   - "[[UniCarriers MX2 and MXL Series]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[Yale ERC080VHL]]"
+  - "[[STILL RX 60 Electric Forklift]]"
+  - "[[Cat EP14-20 Electric Counterbalance Forklifts]]"
+  - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
+  - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
+  - "[[Hangcha XC Series Electric Forklifts]]"
+  - "[[Hangcha A Series Electric Forklifts]]"
+  - "[[Heli G Series Lithium Forklifts]]"
+  - "[[Heli A3 Series Lithium Forklifts]]"
+  - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
+  - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
+  - "[[Komatsu FB Series Electric Forklifts]]"
 ---
 
 # Class I Electric Rider Truck

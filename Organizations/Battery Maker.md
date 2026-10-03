@@ -23,6 +23,7 @@ rolePlayedBy:
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
+  - "[[CATL]]"
 ---
 
 # Battery Maker

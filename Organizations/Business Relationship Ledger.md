@@ -338,7 +338,7 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | makes | [[Linde Material Handling]] | [[Linde BlueSpot]] | vendor presents the product as its own | see the product note |
 | makes | [[Linde Material Handling]] | [[Linde Motion Detection]] | vendor presents the product as its own | see the product note |
 | makes | [[Linde Material Handling]] | [[Linde connect]] | vendor presents the product as its own | see the product note |
-| makes | [[STILL]] | [[STILL Safety Assist and Curve Speed Control]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Safety Assist]] | vendor presents the product as its own | see the product note |
 | makes | [[Plug Power]] | [[Plug Power GenDrive]] | vendor presents the product as its own | see the product note |
 | makes | [[Nuvera]] | [[Nuvera PowerEdge]] | vendor presents the product as its own | see the product note |
 | offers | [[Crown Equipment]] | [[Crown V-HFM3 Wired Remote Control Kit]] | vendor or dealer lists the option; maker not stated | see the product note |
@@ -519,6 +519,64 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | makes | [[Mitsubishi Logisnext]] | [[Logisnext Lift Link]] | vendor presents the product as its own | see the product note |
 | integratesWith | [[Jungheinrich Pedestrian Detection System]] | [[Blaxtair Pedestrian Detection System]] | the Jungheinrich system is built around the Blaxtair camera | <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/> |
 | distributedBy | [[Powerfleet Forklift Gateway]] | [[Mitsubishi Logisnext]] | reseller agreement between Mitsubishi Logisnext Americas and PowerFleet (2021) | <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html> |
+| playsRole | [[CATL]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| supplierOf | [[Green Cubes Technology]] | [[Doosan Bobcat]] | Green Cubes preferred power systems vendor for Doosan Industrial Vehicle America Corporation (undated) | <https://www.supplychain247.com/article/green_cubes_announces_preferred_supplier_agreement_with_doosan> |
+| makes | [[STILL]] | [[STILL RX 60 Electric Forklift]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL EXH-SF Low Lift Pallet Truck]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Cat EP14-20 Electric Counterbalance Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] | vendor presents the product as its own | see the product note |
+| makes | [[Hangcha Group]] | [[Hangcha XC Series Electric Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Hangcha Group]] | [[Hangcha A Series Electric Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Anhui Heli]] | [[Heli G Series Lithium Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Anhui Heli]] | [[Heli A3 Series Lithium Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Doosan Bobcat]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Doosan Bobcat]] | [[Doosan Bobcat NXE Series Electric Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[Komatsu]] | [[Komatsu FB Series Electric Forklifts]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Curve Speed Control]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL SafetyLight 4Plus]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Warning Zone Light]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL FleetManager]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Smart Portal]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL neXXt fleet]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Safety Packages]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL EasyBelt]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Cat Presence Detection System]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Cat Safety Lighting Options]] | vendor presents the product as its own | see the product note |
+| makes | [[Hangcha Group]] | [[Hangcha FIMS]] | vendor presents the product as its own | see the product note |
+| makes | [[Hangcha Group]] | [[Hangcha Backup Camera Option]] | vendor presents the product as its own | see the product note |
+| makes | [[Anhui Heli]] | [[Heli Operator Presence Sensing System]] | vendor presents the product as its own | see the product note |
+| makes | [[Anhui Heli]] | [[Heli Fleet Management System]] | vendor presents the product as its own | see the product note |
+| makes | [[Anhui Heli]] | [[Heli Built-In Lithium Charger]] | vendor presents the product as its own | see the product note |
+| makes | [[Doosan Bobcat]] | [[Doosan Bobcat Pedestrian Detection Camera]] | vendor presents the product as its own | see the product note |
+| makes | [[Doosan Bobcat]] | [[Doosan Bobcat Mast Sway Control]] | vendor presents the product as its own | see the product note |
+| makes | [[Doosan Bobcat]] | [[Doosan Lin-Q]] | vendor presents the product as its own | see the product note |
+| makes | [[Komatsu]] | [[Komatsu KOMTRAX]] | vendor presents the product as its own | see the product note |
+| makes | [[Komatsu]] | [[Komatsu Operator Presence Sensing System]] | vendor presents the product as its own | see the product note |
+| makes | [[Komatsu]] | [[Komatsu Digital Load Scale]] | vendor presents the product as its own | see the product note |
+| makes | [[Hangcha Group]] | [[Hangcha Lithium Iron Phosphate Battery Pack]] | vendor presents the pack as its own; cells from CATL in 2024 and 2025 editions | <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf> |
+| supplierOf | [[CATL]] | [[Hangcha Group]] | CATL named as cell and module source in Hangcha's 2024 and 2025 brochures | <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf> |
+| makes | [[Anhui Heli]] | [[Heli Lithium-Ion Battery]] | vendor presents the battery as part of its trucks (cell maker not stated) | <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html> |
+| offers | [[Mitsubishi Logisnext]] | [[Cat Lithium-Ion Battery Option]] | vendor offers the option; battery maker not stated | <https://www.catlifttruck.com/blog/importance-options-forklift-specification> |
+| offeredWith | [[Hangcha Lithium Iron Phosphate Battery Pack]] | [[Hangcha XC Series Electric Forklifts]] | XC brochures list the pack | <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf> |
+| offeredWith | [[Hangcha Lithium Iron Phosphate Battery Pack]] | [[Hangcha A Series Electric Forklifts]] | A series brochure lists LiFePO4 batteries | <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf> |
+| offeredWith | [[Heli Lithium-Ion Battery]] | [[Heli G Series Lithium Forklifts]] | dealer pages list the battery with the truck | <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html> |
+| offeredWith | [[Heli Lithium-Ion Battery]] | [[Heli A3 Series Lithium Forklifts]] | dealer pages list the battery with the truck | <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html> |
+| offeredWith | [[Heli Built-In Lithium Charger]] | [[Heli A3 Series Lithium Forklifts]] | dealer pages list the built-in charger | <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html> |
+| offeredWith | [[Cat Lithium-Ion Battery Option]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | Cat blog lists the battery choice | <https://www.catlifttruck.com/blog/importance-options-forklift-specification> |
+| offeredWith | [[Cat Lithium-Ion Battery Option]] | [[Cat EP14-20 Electric Counterbalance Forklifts]] | Cat pages list the battery choice | <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks> |
+| offeredWith | [[Hangcha Backup Camera Option]] | [[Hangcha XC Series Electric Forklifts]] | brochure option | <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf> |
+| offeredWith | [[Hangcha FIMS]] | [[Hangcha XC Series Electric Forklifts]] | brochure feature | <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf> |
+| offeredWith | [[Cat Presence Detection System]] | [[Cat EP14-20 Electric Counterbalance Forklifts]] | Cat blog | <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks> |
+| offeredWith | [[Cat Safety Lighting Options]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | Cat blog | <https://www.catlifttruck.com/blog/importance-options-forklift-specification> |
+| offeredWith | [[Doosan Bobcat Mast Sway Control]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]] | catalog entry | <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html> |
+| offeredWith | [[Komatsu KOMTRAX]] | [[Komatsu FB Series Electric Forklifts]] | Komatsu page | <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb> |
+| offeredWith | [[Komatsu Digital Load Scale]] | [[Komatsu FB Series Electric Forklifts]] | dealer data | <https://www.allmachines.com/forklifts/komatsu-fb20au-12> |
+| offeredWith | [[STILL Curve Speed Control]] | [[STILL EXH-SF Low Lift Pallet Truck]] | standard on the truck | <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html> |
+| offeredWith | [[STILL Smart Portal]] | [[STILL EXH-SF Low Lift Pallet Truck]] | truck page | <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html> |
+| offeredWith | [[STILL neXXt fleet]] | [[STILL RX 60 Electric Forklift]] | optional interface | <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/> |
+| offeredWith | [[STILL SafetyLight 4Plus]] | [[STILL RX 60 Electric Forklift]] | option list | <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/> |
+| offeredWith | [[STILL Safety Packages]] | [[STILL RX 60 Electric Forklift]] | safety packages for RX 20 and RX 60 | <https://www.still.co.uk/rx20-safety> |
 
 ## Aliases
 

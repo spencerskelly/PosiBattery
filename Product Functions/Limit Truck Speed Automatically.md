@@ -14,9 +14,9 @@ describedBy:
   - "[[Metric - Truck Integration]]"
 performedBy:
   - "[[Raymond Travel Speed Control]]"
-  - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
   - "[[Linde Safety Guard]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[Raymond In-Aisle Detection System]]"
@@ -24,7 +24,8 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[STILL Safety Assist]]"
+  - "[[Doosan Bobcat Mast Sway Control]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -41,7 +42,7 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
-  - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[STILL Safety Assist]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[TLD Aircraft Safety Docking]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
   - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/?p=30065>
@@ -50,6 +51,8 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Raymond Travel Speed Control]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
   - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
+  - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+  - [[Doosan Bobcat Mast Sway Control]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
 
 ## Aliases
 

@@ -14,9 +14,9 @@ dependsOn:
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
-  - "[[Powerfleet Forklift Gateway]]"
   - "[[Jungheinrich ISM Online]]"
   - "[[Logisnext Lift Link]]"
+  - "[[Powerfleet Forklift Gateway]]"
 ---
 
 # Enforce Pre-Shift Checklist

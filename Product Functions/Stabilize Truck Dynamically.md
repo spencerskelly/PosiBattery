@@ -11,11 +11,11 @@ subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
   - "[[Hyster Dynamic Stability System]]"
+  - "[[Jungheinrich curveCONTROL]]"
   - "[[Linde Safety Pilot]]"
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Hyster Reaction]]"
-  - "[[Jungheinrich curveCONTROL]]"
 ---
 
 # Stabilize Truck Dynamically

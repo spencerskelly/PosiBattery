@@ -13,6 +13,7 @@ dependsOn:
   - "[[Electric Mast Thrust Drive]]"
 performedBy:
   - "[[Linde Dynamic Mast Control]]"
+  - "[[Doosan Bobcat Mast Sway Control]]"
 ---
 
 # Damp Mast Oscillation
@@ -27,6 +28,7 @@ Counter mast swing and deflection at high lift heights so loads can be handled f
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Linde Dynamic Mast Control]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Doosan Bobcat Mast Sway Control]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
 
 ## Aliases
 

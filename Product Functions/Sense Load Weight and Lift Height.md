@@ -13,11 +13,12 @@ dependsOn:
   - "[[Vehicle State Sensing Design]]"
 performedBy:
   - "[[Crown Capacity Data Monitor]]"
+  - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
   - "[[Raymond Load Weight Display]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Load Weight Sensing]]"
-  - "[[Linde Load Management Advanced]]"
+  - "[[Komatsu Digital Load Scale]]"
 ---
 
 # Sense Load Weight and Lift Height
@@ -37,6 +38,7 @@ Measure the load, lift height or tilt so the truck can show limits or assist lif
   - [[Toyota Load Weight Sensing]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
   - [[Raymond Load Weight Display]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Linde Load Management Advanced]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Komatsu Digital Load Scale]] (V): <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
 
 ## Aliases
 

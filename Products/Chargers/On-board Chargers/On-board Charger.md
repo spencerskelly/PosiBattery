@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Industrial Battery Charger]]"
 supertypeOf:
   - "[[EnerSys NexSys COMpact Charger]]"
+  - "[[Heli Built-In Lithium Charger]]"
 ---
 
 # On-board Charger

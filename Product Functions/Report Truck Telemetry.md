@@ -15,14 +15,21 @@ performedBy:
   - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
+  - "[[Jungheinrich ISM Online]]"
   - "[[Linde connect]]"
+  - "[[Logisnext Lift Link]]"
   - "[[Oshkosh AeroTech iOPS]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Jungheinrich ISM Online]]"
-  - "[[Logisnext Lift Link]]"
+  - "[[STILL FleetManager]]"
+  - "[[STILL Smart Portal]]"
+  - "[[STILL neXXt fleet]]"
+  - "[[Hangcha FIMS]]"
+  - "[[Heli Fleet Management System]]"
+  - "[[Doosan Lin-Q]]"
+  - "[[Komatsu KOMTRAX]]"
 ---
 
 # Report Truck Telemetry
@@ -47,6 +54,13 @@ Send truck usage, status and events to a fleet portal.
   - [[Raymond iWAREHOUSE]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Jungheinrich ISM Online]] (V): <https://www.industrial-production.de/wirtschaft---unternehmen/jungheinrich-verbessert-staplermanagement--neue-moeglichkeiten.htm>
   - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
+  - [[STILL FleetManager]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
+  - [[STILL Smart Portal]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+  - [[STILL neXXt fleet]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+  - [[Hangcha FIMS]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
+  - [[Heli Fleet Management System]] (V): <https://fltgrupa.pl/en/heli-forklifts/>
+  - [[Doosan Lin-Q]] (V): <https://logisticsmatters.co.uk/doosan-reveals-lithium-ion-forklift>
+  - [[Komatsu KOMTRAX]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
 
 ## Aliases
 

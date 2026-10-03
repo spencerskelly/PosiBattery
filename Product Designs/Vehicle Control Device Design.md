@@ -9,11 +9,11 @@ tags:
   - design-characteristic
 supertypeOf:
   - "[[Active Stability Actuator]]"
+  - "[[Belt-Worn Remote Control]]"
+  - "[[Electric Mast Thrust Drive]]"
   - "[[Fork Laser Guide]]"
   - "[[Operator Identification Design]]"
   - "[[Regenerative Braking]]"
-  - "[[Electric Mast Thrust Drive]]"
-  - "[[Belt-Worn Remote Control]]"
 ---
 
 # Vehicle Control Device Design

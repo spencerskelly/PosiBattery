@@ -53,6 +53,8 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Green Cubes SAFEFlex Battery]]: 48 V (FBP-1000)
   - [[Green Cubes SAFEFlex PLUS Battery]]: 24, 36, 48, 80 V
   - [[HOPPECKE trak collect]]: supply 17-150 VDC (data sheet); earlier note: supply 17-150 VDC
+  - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 80 V on the XC Mid FB40Li (dealer); other voltages not stated
+  - [[Heli Lithium-Ion Battery]]: 153.6 V; 80 V (dealer pages)
   - [[Inventus Smart Battery Monitor SBM-01]]: 9-60 VDC supply
   - [[Lester Summit Series II]]: 24, 36, 48 V nominal; 36/54/72 V maximum (1425 W sheet); earlier note: 24, 36, 48 V
   - [[Philadelphia Scientific eGO!core]]: 12 V
