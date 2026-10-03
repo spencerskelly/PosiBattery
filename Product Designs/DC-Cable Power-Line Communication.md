@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Wired Interface Design]]"
 designOf:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Object and Proximity Sensing Design]]"
 describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Protect Battery from Harm]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
 ---

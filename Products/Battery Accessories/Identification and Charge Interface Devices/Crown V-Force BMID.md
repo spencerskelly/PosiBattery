@@ -55,6 +55,7 @@ Crown battery monitoring and identification device for lead-acid forklift batter
 - **Sources used for the mapping above:** Crown parts shop <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>; Crown charger options page (Vietnam site) <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>
 - The V-HFM3 brochure lists the BMID as part number 396525-BT, mounting on top of the battery to monitor battery health, control and optimize charging, detect low electrolyte and communicate watering needs, adjusting charge rate on voltage and temperature, with automatic temperature compensation and electrolyte level monitoring during the charge. Source: Crown V-HFM3 brochure (PF20000, 08-18) (T1), retrieved 2026-10-02. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Conflict-visible (C38):** the brochure part number is 396525-BT; the Crown parts shop listing used 396525-BTM. Not established whether these are the same part or a variant.
+- Crown says the optional BMID module mounts on top of a lead-acid battery, records all battery events including temperature and charge and discharge cycles, detects low electrolyte level and communicates the need to water. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>
 
 ## Aliases
 

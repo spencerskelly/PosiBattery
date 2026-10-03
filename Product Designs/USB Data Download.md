@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Wired Interface Design]]"
 designOf:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Power Designers PowerTrac DT3]]"

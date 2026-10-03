@@ -10,8 +10,11 @@ tags:
   - gse
 playsRole:
   - "[[Software Vendor]]"
+  - "[[Accessory Maker]]"
 makes:
   - "[[Adveez Asset and Operations Monitoring System]]"
+powers:
+  - "[[Oshkosh AeroTech iOPS]]"
 ---
 
 # Adveez

@@ -12,8 +12,8 @@ abstract: true
 subtypeOf:
   - "[[Ground Support Equipment]]"
 supertypeOf:
-  - "[[Oshkosh AeroTech Ranger 15E Cargo Loader]]"
   - "[[Oshkosh AeroTech Commander 30i Cargo Loader]]"
+  - "[[Oshkosh AeroTech Ranger 15E Cargo Loader]]"
 ---
 
 # GSE Cargo Loader

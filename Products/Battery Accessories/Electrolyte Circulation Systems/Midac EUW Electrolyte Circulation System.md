@@ -12,6 +12,10 @@ tags:
   - circulation
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
+performs:
+  - "[[Circulate Electrolyte]]"
+hasDesign:
+  - "[[Forced Electrolyte Circulation]]"
 offeredBy:
   - "[[Midac]]"
 offeredWith:
@@ -27,6 +31,10 @@ Optional EUW electrolyte circulation accessory for Midac PzS traction batteries 
 ## Notes
 
 - The same dealer lists an electrolyte circulation system (EUW) as an optional accessory. Source: Batterie Siems dealer page (T3), retrieved 2026-10-03. <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+- **Functions performed, with citations:**
+  - [[Circulate Electrolyte]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+- **Design characteristics, with citations:**
+  - [[Forced Electrolyte Circulation]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 
 ## Aliases
 

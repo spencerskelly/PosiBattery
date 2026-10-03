@@ -7,8 +7,11 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 designOf:
   - "[[EnerSys Truck iQ]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
 ---
 
 # Vehicle-Mounted Display
@@ -24,6 +27,7 @@ Display mounted on the vehicle, powered from the truck, showing battery data.
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
+  - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
 
 ## Aliases
 

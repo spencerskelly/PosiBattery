@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Inform Users of Battery Condition]]"
 performedBy:
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
@@ -23,6 +25,7 @@ performedBy:
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Indicate Battery Status Locally
@@ -52,6 +55,7 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[Access Control Group CellVue]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
+  - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 
 ## Aliases
 

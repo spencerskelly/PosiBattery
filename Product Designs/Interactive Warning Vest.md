@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 designOf:
   - "[[Linde Safety Guard]]"
 ---

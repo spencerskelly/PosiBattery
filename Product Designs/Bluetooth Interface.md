@@ -8,6 +8,8 @@ tags:
   - battery-monitoring
   - design-characteristic
 abstract: true
+subtypeOf:
+  - "[[Wireless Interface Design]]"
 supertypeOf:
   - "[[Bluetooth Class 1 Interface]]"
   - "[[Bluetooth Low Energy Interface]]"

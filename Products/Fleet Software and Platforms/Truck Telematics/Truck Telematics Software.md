@@ -11,13 +11,14 @@ abstract: true
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 supertypeOf:
+  - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
+  - "[[Oshkosh AeroTech iOPS]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Oshkosh AeroTech iOPS]]"
-  - "[[Adveez Asset and Operations Monitoring System]]"
+  - "[[Powerfleet Forklift Gateway]]"
 ---
 
 # Truck Telematics Software

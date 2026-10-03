@@ -10,8 +10,6 @@ tags:
 abstract: true
 subtypeOf:
   - "[[Charger Accessory]]"
-supertypeOf:
-  - "[[Crown V-HFM3 Pogo Stick]]"
 ---
 
 # Charger Connector Accessory

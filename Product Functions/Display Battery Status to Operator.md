@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Inform Users of Battery Condition]]"
 performedBy:
   - "[[EnerSys Truck iQ]]"
 ---

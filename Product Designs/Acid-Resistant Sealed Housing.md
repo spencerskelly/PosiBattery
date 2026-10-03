@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Enclosure and Mounting Design]]"
 describedBy:
   - "[[Metric - Ingress and Enclosure Protection]]"
 designOf:

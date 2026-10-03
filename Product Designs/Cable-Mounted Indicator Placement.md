@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Battery Sensor Mounting Design]]"
 designOf:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---

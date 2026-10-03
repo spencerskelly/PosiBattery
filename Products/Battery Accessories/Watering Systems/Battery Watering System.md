@@ -15,6 +15,9 @@ supertypeOf:
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Flow-Rite Maverick Battery Watering System]]"
   - "[[Midac Aquamatic Watering System]]"
+  - "[[Crown V-Force Single Point Watering System]]"
+  - "[[Philadelphia Scientific Stealth Watering System]]"
+  - "[[Philadelphia Scientific Water Injector System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"

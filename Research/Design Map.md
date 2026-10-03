@@ -29,7 +29,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Acid-Resistant Sealed Housing]] | [[Crown V-Force BMID]], [[EnerSys Wi-iQ]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
-| [[Audible Alarm]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[EnerSys Wi-iQ]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Stryten M-Series AGM220 Battery]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
@@ -48,8 +48,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
-| [[Floor-Projected Warning Light]] | [[Linde BlueSpot]], [[STILL Safety Assist and Curve Speed Control]] | - | - |
-| [[Forced Electrolyte Circulation]] | [[Exide MARATHON Battery]], [[HOPPECKE trak uplift air Battery]] | - | - |
+| [[Floor-Projected Warning Light]] | [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist and Curve Speed Control]] | - | - |
+| [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Fork Laser Guide]] | [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
 | [[Gel Electrolyte]] | [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
@@ -57,7 +57,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Harness Ring-Terminal Mounting]] | [[EnerSys Wi-iQ]] | - | - |
 | [[Hibernation Mode]] | [[Stryten M-Series Li600 Battery]], [[Stryten M-Series Li610 Battery]] | - | - |
 | [[Hydrogen Storage Tank]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
-| [[Impact Sensor]] | [[Linde connect]], [[Toyota MyInsights Telematics]] | - | - |
+| [[Impact Sensor]] | [[Linde connect]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]] | - | - |
 | [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]] | - | - |
@@ -66,7 +66,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[LiDAR Object Sensor]] | [[Crown ProximityAssist System]], [[Hyster Reaction]] | - | - |
 | [[Light-Triggered Data Upload]] | [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[LoRa Interface]] | [[PosiCharge PosiGuard]] | - | - |
-| [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Mid-Battery Voltage Tap]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]] | - | - |
 | [[Mobile App Interface]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!core]], [[PosiCharge PosiGuard]] | - | - |
 | [[Modular Power Modules]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
@@ -88,19 +88,20 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Shuntless Current Sensing]] | [[Access Control Group CellTrac]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac Monitor]] | - | - |
 | [[Silicon-Carbide Power Stage]] | [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Split-Core Current Sensor]] | [[Philadelphia Scientific eGO!pro]] | - | - |
-| [[Stereoscopic Vision Sensor]] | [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
+| [[Stereoscopic Vision Sensor]] | [[Blaxtair Pedestrian Detection System]], [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Tubular Plate Construction]] | [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
-| [[Vehicle-Mounted Display]] | [[EnerSys Truck iQ]] | - | - |
+| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[EnerSys Truck iQ]] | - | - |
 | [[Wi-Fi Interface]] | [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[ZigBee 2.4 GHz Interface]] | [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]] | - | - |
 - **Citations (2026-10-02):** every link in this table has its web page listed on the Function or Design note (section Sources) and on the product note. The table itself repeats no claims beyond product-to-note links.
 - **Round 11:** rebuilt from the citation lines on the product notes (all functions and designs, including charger and battery ones).
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
+- **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 
 ## Aliases
 

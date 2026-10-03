@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 performedBy:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[PosiCharge BMID]]"

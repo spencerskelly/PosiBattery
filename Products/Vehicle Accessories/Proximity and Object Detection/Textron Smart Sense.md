@@ -44,6 +44,7 @@ Textron anti-collision system for TUG belt loaders using ultrasonic sensors that
 - **Design characteristics, with citations:**
   - [[Ultrasonic Distance Sensor]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[Aircraft Proximity Indicator Light]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+- Textron's company insight adds that a red indicator light shows if the conveyor is within 2 inches (5 cm) of an object, the operator leaves the seat, or the system has a fault; a Textron GSE executive says anti-collision technology is only a recommendation within IATA AHM 913, not a regulatory requirement, so not every operator fits it. Source: Airport Industry Review and Ramp Equipment News (Feb-Mar 2023) (T2), retrieved 2026-10-03. <https://airport.h5mag.com/air_dec18/textron_company_insight> <https://ren.mydigitalpublication.co.uk/february-march-2023/page-16>
 
 ## Aliases
 

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Wireless Interface Design]]"
 designOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"

@@ -1,0 +1,46 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00258
+uid: 20261003101711493skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - accessory
+  - battery-accessory
+  - level-sensing
+subtypeOf:
+  - "[[Battery Water Level Monitor]]"
+performs:
+  - "[[Sense Electrolyte Level]]"
+  - "[[Indicate Battery Status Locally]]"
+hasDesign:
+  - "[[Audible Alarm]]"
+  - "[[Local LED Indicator]]"
+offeredBy:
+  - "[[Crown Equipment]]"
+---
+
+# Crown Battery Acid Indicators
+
+## Definition
+
+Crown electrolyte level indicators for lead-acid batteries in standard, smart (LED and sound) and remote versions.
+
+## Notes
+
+- Crown lists battery acid indicators: standard models, smart models that use LED lights and sound to show electrolyte is good or water is needed, and a remote model for batteries that never leave the truck. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Maker not stated** for these indicators; other notes cover Flow-Rite Eagle Eye and Philadelphia Scientific SmartBlinky.
+- **Functions performed, with citations:**
+  - [[Sense Electrolyte Level]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Indicate Battery Status Locally]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Design characteristics, with citations:**
+  - [[Audible Alarm]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Local LED Indicator]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+
+## Aliases
+
+- Crown acid indicator
+
+## Former ids

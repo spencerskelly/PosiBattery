@@ -7,14 +7,17 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Manage Fleet Use]]"
 performedBy:
+  - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
+  - "[[Oshkosh AeroTech iOPS]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Oshkosh AeroTech iOPS]]"
-  - "[[Adveez Asset and Operations Monitoring System]]"
+  - "[[Powerfleet Forklift Gateway]]"
 ---
 
 # Report Truck Telemetry
@@ -35,6 +38,7 @@ Send truck usage, status and events to a fleet portal.
   - [[Crown InfoLink]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Oshkosh AeroTech iOPS]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader>
   - [[Adveez Asset and Operations Monitoring System]] (V): <https://fortbrand.com/gse-products/>
+  - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
 
 ## Aliases
 

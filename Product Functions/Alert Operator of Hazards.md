@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Warn People of Hazards]]"
 describedBy:
   - "[[Metric - Operator Feedback]]"
   - "[[Metric - Response Action]]"
@@ -15,6 +17,7 @@ performedBy:
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
 ---
 
 # Alert Operator of Hazards
@@ -32,6 +35,7 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Hyster Pedestrian Awareness Camera]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
+  - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
 
 ## Aliases
 

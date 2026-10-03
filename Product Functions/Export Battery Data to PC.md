@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Communicate Battery and Vehicle Data]]"
 performedBy:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Power Designers PowerTrac DT3]]"

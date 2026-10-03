@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Control Charge Profile]]"
 performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers REVOLUTION X]]"

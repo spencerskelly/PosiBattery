@@ -16,11 +16,14 @@ supertypeOf:
   - "[[Hyster Reaction]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Textron Smart Sense]]"
-  - "[[TLD Aircraft Safety Docking]]"
-  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Mallaghan Collision Avoidance System]]"
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[TLD Aircraft Safety Docking]]"
+  - "[[Textron Smart Sense]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
+  - "[[IRIS 860 Sensor Pack]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
 ---
 
 # Proximity and Object Detection System

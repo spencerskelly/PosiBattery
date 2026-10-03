@@ -13,8 +13,8 @@ subtypeOf:
   - "[[Ground Support Equipment]]"
 supertypeOf:
   - "[[Charlatte CPB35E Pushback Tractor]]"
-  - "[[TUG ALPHA 1 Pushback]]"
   - "[[Oshkosh AeroTech Pushback B350E and B650E]]"
+  - "[[TUG ALPHA 1 Pushback]]"
 ---
 
 # GSE Pushback Tractor

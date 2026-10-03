@@ -28,6 +28,7 @@ describedBy:
   - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
   - "[[Unidentified Products Review]]"
+  - "[[Function and Design Levels]]"
 ---
 
 # Battery-Connected Product

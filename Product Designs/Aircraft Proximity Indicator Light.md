@@ -8,6 +8,8 @@ tags:
   - truck-design
   - gse
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 designOf:
   - "[[Textron Smart Sense]]"
 ---

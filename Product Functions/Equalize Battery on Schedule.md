@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Control Charge Profile]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

@@ -97,9 +97,23 @@ Review of products and items that already-identified organizations name in sourc
 | [[PosiCharge]] | PosiCharge GSE charger kW and A ratings; DVS and MVS port counts; SVS100 enclosure rating | GSE chargers | <https://og.mhi.org/media/members/16696/131261342052642309.pdf> | sheets give voltage only in the retrieved text | read the sheets |
 | [[Flux Power]] | GSE Pack voltage options and BMS or telematics; other GSE batteries | GSE batteries | <https://eepower.com/news/flux-power-reports-operational-and-financial-results/> | only 72 V 300-600 Ah noted | find data sheets |
 | [[Linde Material Handling]] | Linde P80 tow tractor and other Linde GSE tractors | GSE vehicles | <https://fortbrand.com/gse-products/> | named | find pages |
+| [[Crown Equipment]] | watering carts, deionizers, water quality testers, watering guns, spider injection systems, tender kits, cable retractors, magnetic cable holders, charger cables | battery and charger accessories | <https://www.crown.com/en-ca/batteries-and-chargers/> | named on Crown's accessories page | find parts-shop pages |
+| [[Philadelphia Scientific]] | battery watering guns, watering carts, deionizers; BasicBlinky; Charger-Splitter and Battery Tracker modules | battery accessories | <https://og.mhi.org/members/13790> | named in MHI profile and MODEX listing | find product pages |
+| [[Anderson Power Products]] | SB 50, SB 120, SB 175, SB 350, SB 320 SBE, SB 350 SBX connector ratings and housings | connectors | <https://industrialmonitordirect.com/zh-hans/blogs/knowledgebase/anderson-sb-175-to-sb-350-battery-connector-adapter-guide> | sizes named | get the Anderson SB product guide |
+| [[Midac]] | accessory maker of Aquamatic, EUW and end leads (dealer listing) | battery accessories | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> | maker not stated | ask Midac or the dealer |
+| [[Holt of California]] | IRIS 860 maker and data sheet; other safety products | vehicle accessories | <https://holtlift.com/?p=4466> | maker not stated | find maker |
+| [[Powerfleet]] | machine-learning impact sensor; Forklift Safety Light Standard, Mini, Sideliner and Maxi specifications; Forklift Gateway hardware | vehicle accessories | <https://www.powerfleet.com/?p=30065> | named | find data sheets |
+| [[Blaxtair]] | Blaxtair Connect analytics, recording options, loud-environment alerts, machine slowdown interface | vehicle accessories | <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736> | add-ons named | find data sheet |
+| [[Panacea Aftermarket Co.]] | Smart Start and Cam-DVR specifications | vehicle accessories | <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products> | 2017 item only | find current catalog |
+| [[Larson Electronics]] | blue LED forklift warning spotlight (non-hazardous areas) | vehicle accessories | <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products> | named | find product page |
+| Eastern Lift Truck | back-up camera, blue and red safety lights, cap and cab covers, fork level and fuel level sensors (dealer parts) | vehicle accessories | <https://easternlifttruck.com/blog/increasing-pedestrian-operator-and-equipment-safety-with-aftermarket-parts-from-eastern-lift-truck-co> | dealer products, makers not stated | identify makers |
+| Liftow | battery roller service stands (single, double, triple, with charger shelf), watering guns, deionizer kits, PPE kits, Aqua low-profile watering systems | battery handling accessories | <https://liftow.com/collections/battery-safety?page=2> | dealer listing; makers not stated | identify makers |
+| UK Powertech | PURAFLO water deionizer; component suppliers Frötek, BFS (Batterie Füllungs Systeme), Rema, Abertax Technologies | battery accessories | <https://warehousenews.co.uk/?p=32056> | named | find supplier pages |
+| Power Stow | baggage stowage devices working with belt loaders | GSE accessories | <https://ren.mydigitalpublication.co.uk/february-march-2023/page-16> | named only | find product page |
 - **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
 - **Round 14 additions:** 9 rows for truck-side assist devices and fuel-cell units.
 - **Round 16 additions:** 8 GSE rows.
+- **Round 17 additions:** 13 rows from the accessories sweep.
 
 ## Aliases
 

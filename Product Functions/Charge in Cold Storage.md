@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Charge Battery]]"
 performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"

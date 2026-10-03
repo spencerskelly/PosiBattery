@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Support Operator View and Positioning]]"
 performedBy:
   - "[[Toyota Assist]]"
 ---

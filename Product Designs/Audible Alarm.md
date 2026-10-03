@@ -7,11 +7,14 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Audible Alarm
@@ -30,6 +33,7 @@ Buzzer or beeper that sounds an alert.
   - [[Philadelphia Scientific eGO!pro]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf>
   - [[Philadelphia Scientific eGO!Mini]] (V): <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>
   - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 
 ## Aliases
 

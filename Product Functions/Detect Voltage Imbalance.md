@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"

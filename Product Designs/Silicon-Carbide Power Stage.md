@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+subtypeOf:
+  - "[[Charger Power Stage Design]]"
 describedBy:
   - "[[Metric - Peak Efficiency]]"
 designOf:

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Data Handling Design]]"
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Crown Battery Health Monitor]]"

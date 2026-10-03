@@ -342,7 +342,7 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offers | [[Crown Equipment]] | [[Crown V-HFM3 Wired Remote Control Kit]] | vendor or dealer lists the option; maker not stated | see the product note |
 | offers | [[Crown Equipment]] | [[Crown V-HFM3 Tower Light Kit]] | vendor or dealer lists the option; maker not stated | see the product note |
 | offers | [[Crown Equipment]] | [[Crown V-HFM3 Charger Stand]] | vendor or dealer lists the option; maker not stated | see the product note |
-| offers | [[Crown Equipment]] | [[Crown V-HFM3 Pogo Stick]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Crown Equipment]] | [[Crown Cable Management Accessories]] | vendor or dealer lists the option; maker not stated | see the product note |
 | offers | [[Midac]] | [[Midac Aquamatic Watering System]] | vendor or dealer lists the option; maker not stated | see the product note |
 | offers | [[Midac]] | [[Midac EUW Electrolyte Circulation System]] | vendor or dealer lists the option; maker not stated | see the product note |
 | offers | [[Midac]] | [[Midac End Leads]] | vendor or dealer lists the option; maker not stated | see the product note |
@@ -357,7 +357,7 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Crown V-HFM3 Wired Remote Control Kit]] | [[Crown V-HFM3 Charger]] | brochure option | <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf> |
 | offeredWith | [[Crown V-HFM3 Tower Light Kit]] | [[Crown V-HFM3 Charger]] | brochure option | <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf> |
 | offeredWith | [[Crown V-HFM3 Charger Stand]] | [[Crown V-HFM3 Charger]] | page option | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
-| offeredWith | [[Crown V-HFM3 Pogo Stick]] | [[Crown V-HFM3 Charger]] | page option | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
+| offeredWith | [[Crown Cable Management Accessories]] | [[Crown V-HFM3 Charger]] | page option | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
 | offeredWith | [[Midac Aquamatic Watering System]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
 | offeredWith | [[Midac EUW Electrolyte Circulation System]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
 | offeredWith | [[Midac End Leads]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
@@ -409,6 +409,39 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[PosiCharge BMID]] | [[PosiCharge DVS300 Series]] | sheet lists the BMID as a feature | <https://og.mhi.org/media/members/16696/131261342052642309.pdf> |
 | makes | [[PosiCharge]] | [[PosiCharge MVS400 and MVS800]] | vendor presents the product as its own | see the product note |
 | offeredWith | [[PosiCharge BMID]] | [[PosiCharge MVS400 and MVS800]] | sheet lists the BMID as a feature | <https://og.mhi.org/media/members/16696/131261342583679925.pdf> |
+| playsRole | [[Anderson Power Products]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Blaxtair]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Powerfleet]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Powerfleet]] | [[Software Vendor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Larson Electronics]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[TVH]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Panacea Aftermarket Co.]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Holt of California]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Adveez]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| offers | [[Crown Equipment]] | [[Crown Cable Management Accessories]] | vendor lists the accessories | <https://www.crown.com/en-ca/batteries-and-chargers/> |
+| offeredWith | [[Crown Cable Management Accessories]] | [[Crown V-HFM3 Charger]] | V-HFM3 option list | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
+| offers | [[Crown Equipment]] | [[Crown V-Force Single Point Watering System]] | vendor or dealer lists the product; maker not stated or another company | see the product note |
+| offers | [[Crown Equipment]] | [[Crown Battery Acid Indicators]] | vendor or dealer lists the product; maker not stated or another company | see the product note |
+| offers | [[Crown Equipment]] | [[Crown Battery Cables and Connectors]] | vendor or dealer lists the product; maker not stated or another company | see the product note |
+| makes | [[Anderson Power Products]] | [[Anderson SB Connector Series]] | vendor presents the product as its own | see the product note |
+| makes | [[Philadelphia Scientific]] | [[Philadelphia Scientific Stealth Watering System]] | vendor presents the product as its own | see the product note |
+| makes | [[Philadelphia Scientific]] | [[Philadelphia Scientific Water Injector System]] | vendor presents the product as its own | see the product note |
+| makes | [[Philadelphia Scientific]] | [[Philadelphia Scientific iBOS]] | vendor presents the product as its own | see the product note |
+| makes | [[Blaxtair]] | [[Blaxtair Pedestrian Detection System]] | vendor presents the product as its own | see the product note |
+| offers | [[Holt of California]] | [[IRIS 860 Sensor Pack]] | vendor or dealer lists the product; maker not stated or another company | see the product note |
+| makes | [[Powerfleet]] | [[Powerfleet Forklift Gateway]] | vendor presents the product as its own | see the product note |
+| makes | [[Powerfleet]] | [[Powerfleet Pedestrian Proximity Detection]] | vendor presents the product as its own | see the product note |
+| makes | [[Powerfleet]] | [[Powerfleet Forklift Safety Lights]] | vendor presents the product as its own | see the product note |
+| makes | [[Larson Electronics]] | [[Larson Explosion-Proof Blue LED Forklift Light]] | vendor presents the product as its own | see the product note |
+| offers | [[TVH]] | [[TVH Forklift Arrow Lights]] | vendor or dealer lists the product; maker not stated or another company | see the product note |
+| makes | [[Panacea Aftermarket Co.]] | [[Panacea Blue Warning Light]] | vendor presents the product as its own | see the product note |
+| makes | [[Panacea Aftermarket Co.]] | [[Panacea Cam-DVR with Impact Sensors]] | vendor presents the product as its own | see the product note |
+| makes | [[Panacea Aftermarket Co.]] | [[Panacea Smart Start]] | vendor presents the product as its own | see the product note |
+| integratesWith | [[Crown V-Force Single Point Watering System]] | [[Philadelphia Scientific Stealth Watering System]] | Crown float kits list the Philly Sci Stealth as a water supply | <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-Watering/c/battery_watering> |
+| integratesWith | [[Crown V-Force Single Point Watering System]] | [[Philadelphia Scientific Water Injector System]] | Crown float kits list the Philly Scientific Injector as a water supply | <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-Watering/c/battery_watering> |
+| offeredWith | [[Crown Battery Cables and Connectors]] | [[Anderson SB Connector Series]] | Crown parts shop carries SB connector parts | <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors> |
+| offeredWith | [[Crown Battery Cables and Connectors]] | [[Crown V-HFM3 Charger]] | charger plug and leadhead parts for Crown chargers | <https://www.crown.com/en-ca/batteries-and-chargers/> |
+| poweredBy | [[Oshkosh AeroTech iOPS]] | [[Adveez]] | inferred from the Adveez case study (FAMA data captured on the IOPS platform); wording of the relationship is not stated (C75) | <https://www.casestudies.com/company/adveez/case-study/gse-data-capture-with-jbt> |
 
 ## Aliases
 

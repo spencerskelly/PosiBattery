@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Inform Users of Battery Condition]]"
 performedBy:
   - "[[Access Control Group CellTrac]]"
   - "[[Advanced Charging Technologies BATTview]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+subtypeOf:
+  - "[[Charger Power Stage Design]]"
 designOf:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys+ Charger]]"

@@ -8,6 +8,7 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[Averest]]"
   - "[[Carolina Handling]]"
   - "[[ELMAS S.R.L.]]"
   - "[[Medley Company]]"
@@ -15,7 +16,7 @@ rolePlayedBy:
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
-  - "[[Averest]]"
+  - "[[Holt of California]]"
 ---
 
 # Dealer or Distributor

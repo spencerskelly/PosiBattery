@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
   - "[[Linde Safety Pilot]]"
   - "[[Toyota Assist]]"

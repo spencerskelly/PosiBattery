@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Wireless Interface Design]]"
 designOf:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Stryten X-3 Charger]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Current Sensing Design]]"
 describedBy:
   - "[[Metric - Current Measurement]]"
 designOf:

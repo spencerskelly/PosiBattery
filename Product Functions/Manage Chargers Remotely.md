@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Manage Fleet Use]]"
 describedBy:
   - "[[Metric - Communication and Remote Management]]"
 performedBy:

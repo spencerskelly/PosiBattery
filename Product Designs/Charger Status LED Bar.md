@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+subtypeOf:
+  - "[[Charger Operator Interface Design]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum Outdoor]]"

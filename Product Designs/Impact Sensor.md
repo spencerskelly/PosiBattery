@@ -7,9 +7,13 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Linde connect]]"
   - "[[Toyota MyInsights Telematics]]"
+  - "[[Powerfleet Forklift Gateway]]"
+  - "[[Panacea Cam-DVR with Impact Sensors]]"
 ---
 
 # Impact Sensor
@@ -24,6 +28,8 @@ Sensor that detects a collision or impact on the truck.
 - **Sources** (product, evidence level, web page):
   - [[Linde connect]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Toyota MyInsights Telematics]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
+  - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
+  - [[Panacea Cam-DVR with Impact Sensors]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 
 ## Aliases
 

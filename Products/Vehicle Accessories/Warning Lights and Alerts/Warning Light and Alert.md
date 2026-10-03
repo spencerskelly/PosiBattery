@@ -12,6 +12,10 @@ subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
   - "[[Linde BlueSpot]]"
+  - "[[Powerfleet Forklift Safety Lights]]"
+  - "[[Larson Explosion-Proof Blue LED Forklift Light]]"
+  - "[[TVH Forklift Arrow Lights]]"
+  - "[[Panacea Blue Warning Light]]"
 ---
 
 # Warning Light and Alert

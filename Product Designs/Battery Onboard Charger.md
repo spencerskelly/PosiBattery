@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+subtypeOf:
+  - "[[Battery Integrated Feature Design]]"
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:

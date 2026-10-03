@@ -8,6 +8,8 @@ tags:
   - truck-function
   - gse
   - product-function
+subtypeOf:
+  - "[[Limit Vehicle Motion Automatically]]"
 performedBy:
   - "[[Textron Smart Sense]]"
 ---

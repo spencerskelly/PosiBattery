@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Toyota Assist]]"
 ---

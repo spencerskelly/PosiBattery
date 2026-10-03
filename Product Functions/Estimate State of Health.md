@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 performedBy:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Raymond iBattery]]"

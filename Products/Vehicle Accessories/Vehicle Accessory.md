@@ -15,6 +15,8 @@ supertypeOf:
   - "[[Power Source Interface]]"
   - "[[Proximity and Object Detection System]]"
   - "[[Warning Light and Alert]]"
+  - "[[Vehicle Camera and Recorder]]"
+  - "[[Access Control Device]]"
 ---
 
 # Vehicle Accessory

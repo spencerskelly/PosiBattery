@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Keep Charging Available and Safe]]"
 performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---

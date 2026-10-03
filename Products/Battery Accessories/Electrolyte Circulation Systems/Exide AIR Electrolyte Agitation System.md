@@ -12,6 +12,10 @@ tags:
   - circulation
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
+performs:
+  - "[[Circulate Electrolyte]]"
+hasDesign:
+  - "[[Forced Electrolyte Circulation]]"
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
@@ -27,6 +31,10 @@ Exide forced electrolyte circulation (AIR agitation) offered on MARATHON tractio
 ## Notes
 
 - Exide's overview says MARATHON batteries can be fitted with AIR agitation, a forced electrolyte circulation system (copy of the overview is in the repo). Source: GNB motive power overview (T1), retrieved 2026-10-03. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+- **Functions performed, with citations:**
+  - [[Circulate Electrolyte]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+- **Design characteristics, with citations:**
+  - [[Forced Electrolyte Circulation]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

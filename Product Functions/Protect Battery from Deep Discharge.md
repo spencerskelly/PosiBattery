@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Protect Battery from Harm]]"
 performedBy:
   - "[[Hyster Power Cellect]]"
 ---

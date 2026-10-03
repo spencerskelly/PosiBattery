@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Keep Charging Available and Safe]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[EnerSys Express Charger]]"

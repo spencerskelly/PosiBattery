@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Control Charge Profile]]"
 performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"

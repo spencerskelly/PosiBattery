@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Sense Collision Risk and Events]]"
 describedBy:
   - "[[Metric - Detection Range and Accuracy]]"
   - "[[Metric - Detection Technology]]"
@@ -17,10 +19,13 @@ performedBy:
   - "[[Hyster Reaction]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Textron Smart Sense]]"
-  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Mallaghan Collision Avoidance System]]"
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[Textron Smart Sense]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
+  - "[[IRIS 860 Sensor Pack]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -44,6 +49,9 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[Oshkosh AeroTech Aircraft Proximity Detection]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/ranger-15e-electric-cargo-loader>
   - [[Mallaghan Collision Avoidance System]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
+  - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
+  - [[IRIS 860 Sensor Pack]] (V): <https://holtlift.com/?p=4466>
+  - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/?p=30065>
 
 ## Aliases
 

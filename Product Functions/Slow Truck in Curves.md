@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Limit Vehicle Motion Automatically]]"
 describedBy:
   - "[[Metric - Response Action]]"
 performedBy:

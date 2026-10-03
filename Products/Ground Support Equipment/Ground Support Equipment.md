@@ -12,8 +12,8 @@ abstract: true
 supertypeOf:
   - "[[GSE Baggage and Tow Tractor]]"
   - "[[GSE Belt Loader]]"
-  - "[[GSE Pushback Tractor]]"
   - "[[GSE Cargo Loader]]"
+  - "[[GSE Pushback Tractor]]"
 ---
 
 # Ground Support Equipment
@@ -31,6 +31,7 @@ Reusable family for airport ground support equipment (GSE) vehicles and the devi
 - **Vehicle categories modeled:** [[GSE Baggage and Tow Tractor]], [[GSE Belt Loader]], [[GSE Pushback Tractor]], [[GSE Cargo Loader]]. Not yet modeled: ground power units, air start and air conditioning units, deicers, lavatory service, catering trucks, passenger stairs, container and pallet dollies (see [[Investigation Backlog]]).
 - **Devices and accessories found:** aircraft proximity systems ([[Textron Smart Sense]], [[TLD Aircraft Safety Docking]], [[Oshkosh AeroTech Aircraft Proximity Detection]], [[Mallaghan Collision Avoidance System]]), telematics ([[Oshkosh AeroTech iOPS]], [[Adveez Asset and Operations Monitoring System]]), battery monitors and ID devices ([[PosiCharge BMID]], [[PosiCharge Battery Rx]]), GSE batteries ([[Flux Power GSE Pack]], [[Green Cubes GSE Lithium Battery]]) and chargers ([[PosiCharge SVS100]], [[PosiCharge DVS300 Series]], [[PosiCharge MVS400 and MVS800]], [[ACT Quantum Outdoor]]).
 - **Scope:** electric GSE only for now (same rule as forklifts); gasoline and diesel versions are named for context (for example the Oshkosh AeroTech B80).
+- **Accessory sweep (round 17):** retrofit telematics kits for tugs, belt loaders, GPUs, dollies and service carts (Adveez); Textron's Smart Sense logic and the IATA AHM 913 recommendation (see [[Textron Smart Sense]]); see [[Function and Design Levels]] for how the GSE proximity functions generalize.
 
 ## Aliases
 

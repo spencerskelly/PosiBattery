@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+subtypeOf:
+  - "[[Enclosure and Mounting Design]]"
 designOf:
   - "[[Delta-Q IC650]]"
   - "[[Lester Summit Series II]]"

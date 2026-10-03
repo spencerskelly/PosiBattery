@@ -30,7 +30,10 @@ supertypeOf:
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
   - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
   - "[[PosiCharge ProCore Edge]]"
+  - "[[PosiCharge SVS100]]"
   - "[[PosiCharge SVS200]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
@@ -40,9 +43,6 @@ supertypeOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
-  - "[[PosiCharge SVS100]]"
-  - "[[PosiCharge DVS300 Series]]"
-  - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
 # Industrial Modular Charger

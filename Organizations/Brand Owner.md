@@ -17,9 +17,9 @@ rolePlayedBy:
   - "[[Mitsubishi Logisnext]]"
   - "[[Raymond]]"
   - "[[STILL]]"
+  - "[[Textron GSE]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[Textron GSE]]"
 ---
 
 # Brand Owner

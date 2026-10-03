@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"

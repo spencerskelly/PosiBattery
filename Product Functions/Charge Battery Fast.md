@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Charge Battery]]"
 describedBy:
   - "[[Metric - Charge Regimes]]"
 performedBy:
@@ -17,14 +19,14 @@ performedBy:
   - "[[Deka PowerForce Charger]]"
   - "[[EnerSys Express Charger]]"
   - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
+  - "[[PosiCharge SVS100]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
-  - "[[PosiCharge SVS100]]"
-  - "[[PosiCharge DVS300 Series]]"
-  - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
 # Charge Battery Fast

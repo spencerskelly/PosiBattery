@@ -13,9 +13,9 @@ subtypeOf:
   - "[[Ground Support Equipment]]"
 supertypeOf:
   - "[[Charlatte Belt Loaders]]"
-  - "[[TUG 660 Belt Loader]]"
-  - "[[TLD NBL-E Belt Loader]]"
   - "[[Mallaghan SkyBelt]]"
+  - "[[TLD NBL-E Belt Loader]]"
+  - "[[TUG 660 Belt Loader]]"
 ---
 
 # GSE Belt Loader

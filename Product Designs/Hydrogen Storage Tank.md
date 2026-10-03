@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Fuel Cell Power Design]]"
 designOf:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Supply Vehicle Energy Without Charging]]"
 performedBy:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"

@@ -8,6 +8,8 @@ tags:
   - truck-function
   - gse
   - product-function
+subtypeOf:
+  - "[[Warn People of Hazards]]"
 performedBy:
   - "[[Textron Smart Sense]]"
 ---

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:
@@ -36,6 +38,8 @@ performedBy:
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Exide Automatic Watering System and Level Sensor]]"
+  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Sense Electrolyte Level
@@ -76,6 +80,8 @@ Sense whether the electrolyte level in a flooded lead-acid cell is adequate.
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[Exide MARATHON Battery]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
+  - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Exide Automatic Watering System and Level Sensor]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

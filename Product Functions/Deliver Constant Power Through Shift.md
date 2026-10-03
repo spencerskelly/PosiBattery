@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Supply Vehicle Energy Without Charging]]"
 performedBy:
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Yale ERC080VHL]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+subtypeOf:
+  - "[[Enclosure and Mounting Design]]"
 designOf:
   - "[[Deka PowerForce Charger]]"
 ---

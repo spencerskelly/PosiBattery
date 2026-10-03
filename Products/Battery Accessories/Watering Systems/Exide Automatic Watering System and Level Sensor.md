@@ -12,6 +12,9 @@ tags:
   - watering
 subtypeOf:
   - "[[Battery Watering System]]"
+performs:
+  - "[[Water Battery Cells]]"
+  - "[[Sense Electrolyte Level]]"
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
@@ -27,6 +30,9 @@ Exide electrolyte level sensor and automatic watering system offered for its tra
 ## Notes
 
 - Exide's overview says an electrolyte level sensor and an automatic watering system are available for its motive power batteries. Source: GNB motive power overview (T1), retrieved 2026-10-03. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+- **Functions performed, with citations:**
+  - [[Water Battery Cells]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+  - [[Sense Electrolyte Level]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

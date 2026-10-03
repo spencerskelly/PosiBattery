@@ -9,6 +9,7 @@ tags:
   - business-role
 rolePlayedBy:
   - "[[Adveez]]"
+  - "[[Powerfleet]]"
 ---
 
 # Software Vendor

@@ -8,6 +8,8 @@ tags:
   - truck-design
   - gse
   - design-characteristic
+subtypeOf:
+  - "[[Object and Proximity Sensing Design]]"
 designOf:
   - "[[Textron Smart Sense]]"
 ---

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-function
   - product-function
+subtypeOf:
+  - "[[Limit Vehicle Motion Automatically]]"
 describedBy:
   - "[[Metric - Response Action]]"
   - "[[Metric - Truck Integration]]"
@@ -15,8 +17,9 @@ performedBy:
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
-  - "[[Textron Smart Sense]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[Textron Smart Sense]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -36,6 +39,7 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[TLD Aircraft Safety Docking]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
+  - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/?p=30065>
 
 ## Aliases
 

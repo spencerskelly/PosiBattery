@@ -34,7 +34,10 @@ offers:
   - "[[Crown V-HFM3 Wired Remote Control Kit]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[Crown V-HFM3 Charger Stand]]"
-  - "[[Crown V-HFM3 Pogo Stick]]"
+  - "[[Crown Cable Management Accessories]]"
+  - "[[Crown V-Force Single Point Watering System]]"
+  - "[[Crown Battery Acid Indicators]]"
+  - "[[Crown Battery Cables and Connectors]]"
 ---
 
 # Crown Equipment

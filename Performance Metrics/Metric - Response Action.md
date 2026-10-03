@@ -27,10 +27,13 @@ Response Action: What the system does on detection: alert only, slow the truck, 
 - **Comparability rule:** Alert-only and automatic-slowing systems are not equivalent; operator stays in control in all cases found.
 - **Direction:** automatic limiting is stronger than alert only.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Blaxtair Pedestrian Detection System]]: alerts on a 7 inch display or LED and buzzer; optional machine slowdown
   - [[Crown ProximityAssist System]]: slows the truck automatically; alerts on 7 inch display where fitted
   - [[Hyster Pedestrian Awareness Camera]]: audible, visual and optional traction alerts; voiceover and zone light
   - [[Hyster Reaction]]: limits speed, acceleration and hydraulic functions; visual and audible alerts
+  - [[IRIS 860 Sensor Pack]]: warns the forklift operator (response form not stated)
   - [[Linde Safety Guard]]: warns pedestrians via vests; defines reduced-speed zones
+  - [[Powerfleet Pedestrian Proximity Detection]]: can trigger speed and access control
   - [[STILL Safety Assist and Curve Speed Control]]: slow-speed zones; curve speed adjustment
   - [[Toyota SEnS+ Pedestrian and Object Detection]]: visual and audible alerts; one report adds regenerative-braking movement limiting (C66)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

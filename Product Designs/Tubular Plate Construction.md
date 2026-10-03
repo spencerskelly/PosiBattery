@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+subtypeOf:
+  - "[[Lead-Acid Battery Construction Design]]"
 describedBy:
   - "[[Metric - Chemistry and Plate Construction]]"
 designOf:

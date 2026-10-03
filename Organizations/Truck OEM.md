@@ -9,6 +9,7 @@ tags:
   - business-role
 rolePlayedBy:
   - "[[Anhui Heli]]"
+  - "[[Charlatte Manutention]]"
   - "[[Crown Equipment]]"
   - "[[Doosan Bobcat]]"
   - "[[Hangcha Group]]"
@@ -17,16 +18,15 @@ rolePlayedBy:
   - "[[KION Group]]"
   - "[[Komatsu]]"
   - "[[Linde Material Handling]]"
+  - "[[Mallaghan]]"
   - "[[Mitsubishi Logisnext]]"
+  - "[[Oshkosh AeroTech]]"
   - "[[Raymond]]"
   - "[[STILL]]"
+  - "[[TLD Group]]"
+  - "[[Textron GSE]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[Textron GSE]]"
-  - "[[Charlatte Manutention]]"
-  - "[[Oshkosh AeroTech]]"
-  - "[[TLD Group]]"
-  - "[[Mallaghan]]"
 ---
 
 # Truck OEM

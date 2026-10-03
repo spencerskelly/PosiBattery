@@ -18,6 +18,9 @@ makes:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Philadelphia Scientific Stealth Watering System]]"
+  - "[[Philadelphia Scientific Water Injector System]]"
+  - "[[Philadelphia Scientific iBOS]]"
 ---
 
 # Philadelphia Scientific

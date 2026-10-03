@@ -50,6 +50,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 14 2026-10-03:** truck-side devices modeled (17 functions, 16 designs, 15 products, 6 truck metrics); Q13 and Q14 resolved; ICE and fuel-cell feature gap review; Truck Device Comparison Matrix and Truck Device Feature Map; conflicts C66 to C68.
 - **Round 15 2026-10-03:** product folders regrouped by type then category under `Products`; metric, map and comparison notes de-duplicated; accessory categories and 14 seeded accessory and software notes; Document Wishlist in the owner's column format. See [[Note Reuse Audit]].
 - **Round 16 2026-10-03:** GSE: 4 vehicle categories, 15 vehicle families from 8 makers, 3 aircraft-proximity systems plus 2 telematics systems, 3 PosiCharge GSE chargers, 3 functions, 2 designs, conflicts C69 to C72. See [[Ground Support Equipment]].
+- **Round 17 2026-10-03:** accessories sweep (20 accessory notes, 7 organizations), function and design levels (19 general functions, 4 goals, 15 general designs), conflicts C73 to C75, Q16, wishlist URL column now direct files only. See [[Function and Design Levels]].
 
 ## Aliases
 

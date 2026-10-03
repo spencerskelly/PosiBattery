@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Wireless Interface Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 designOf:

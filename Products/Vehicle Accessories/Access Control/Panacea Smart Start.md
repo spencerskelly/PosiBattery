@@ -1,0 +1,37 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00273
+uid: 20261003101711508skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - truck-device
+  - vehicle-accessory
+  - access-control
+subtypeOf:
+  - "[[Access Control Device]]"
+performs:
+  - "[[Control Operator Access]]"
+madeBy:
+  - "[[Panacea Aftermarket Co.]]"
+---
+
+# Panacea Smart Start
+
+## Definition
+
+Panacea fingerprint starter for forklifts.
+
+## Notes
+
+- DC Velocity lists the Smart Start fingerprint starter among Panacea's forklift safety products. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+- **Functions performed, with citations:**
+  - [[Control Operator Access]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+
+## Aliases
+
+- Smart Start
+
+## Former ids

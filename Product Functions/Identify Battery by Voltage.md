@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+subtypeOf:
+  - "[[Control Charge Profile]]"
 describedBy:
   - "[[Metric - Battery Identification Method]]"
 performedBy:

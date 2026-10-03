@@ -7,6 +7,8 @@ status: Draft
 tags:
   - truck-design
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 describedBy:
   - "[[Metric - Operator Feedback]]"
 designOf:

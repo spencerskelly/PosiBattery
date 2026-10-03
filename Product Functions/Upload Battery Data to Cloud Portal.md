@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Communicate Battery and Vehicle Data]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"

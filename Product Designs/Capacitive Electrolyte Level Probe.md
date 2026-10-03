@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Battery Sensor Element Design]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 designOf:

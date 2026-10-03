@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+subtypeOf:
+  - "[[Sense Battery State]]"
 describedBy:
   - "[[Metric - Current Measurement]]"
 performedBy:

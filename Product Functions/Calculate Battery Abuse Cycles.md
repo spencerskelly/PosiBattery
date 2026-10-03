@@ -7,6 +7,8 @@ status: Draft
 tags:
   - monitor
   - product-function
+subtypeOf:
+  - "[[Inform Users of Battery Condition]]"
 performedBy:
   - "[[EnerSys iQ Mini]]"
 ---

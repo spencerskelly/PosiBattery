@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Battery-Connected Product]]"
 supertypeOf:
   - "[[Midac End Leads]]"
+  - "[[Crown Battery Cables and Connectors]]"
+  - "[[Anderson SB Connector Series]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

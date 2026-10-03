@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+subtypeOf:
+  - "[[Warning and Display Device Design]]"
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:
@@ -24,6 +26,7 @@ designOf:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Local LED Indicator
@@ -52,6 +55,7 @@ LED indicator on the device or at the battery showing status.
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
   - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
+  - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 
 ## Aliases
 
