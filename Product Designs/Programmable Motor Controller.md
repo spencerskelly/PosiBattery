@@ -12,6 +12,7 @@ subtypeOf:
 dependencyOf:
   - "[[Program Travel, Lift and Tilt Speeds]]"
 designOf:
+  - "[[Crown FC 5700 Series]]"
   - "[[Komatsu FB Series Electric Forklifts]]"
 ---
 
@@ -26,6 +27,7 @@ Controller whose travel, lift and tilt speeds can be programmed.
 - Design characteristic found in product descriptions, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[Komatsu FB Series Electric Forklifts]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
+  - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 
 ## Aliases
 

@@ -9,8 +9,6 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Vehicle Drive Design]]"
-dependencyOf:
-  - "[[Hold Truck on Slope]]"
 designOf:
   - "[[Crown RC 5700 Series]]"
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"

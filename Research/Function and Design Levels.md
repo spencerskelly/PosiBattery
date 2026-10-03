@@ -30,9 +30,9 @@ How functions and designs are generalized into levels, which relationships conne
 **Function tree**
 
 - **[[Deliver Energy to Vehicles]]** (goal)
-  - [[Charge Battery]] (general): [[Avoid Battery Changeover During Shifts]], [[Charge Battery Conventionally]], [[Charge Battery Fast]], [[Charge Battery Wirelessly]], [[Charge Battery by Opportunity]], [[Charge Battery from Standard Power Outlet]], [[Charge Lithium-Ion Battery]], [[Charge in Cold Storage]]
+  - [[Charge Battery]] (general): [[Charge Battery Conventionally]], [[Charge Battery Fast]], [[Charge Battery Wirelessly]], [[Charge Battery by Opportunity]], [[Charge Battery from Standard Power Outlet]], [[Charge Lithium-Ion Battery]], [[Charge in Cold Storage]]
   - [[Control Charge Profile]] (general): [[Charge Under BMS Control]], [[Compensate Charge for Battery Temperature]], [[Complete Missed Equalization Automatically]], [[Desulfate Battery During Charge]], [[Diagnose Battery During Charge]], [[Equalize Battery on Schedule]], [[Float Charge Battery]], [[Identify Battery by Voltage]]
-  - [[Keep Charging Available and Safe]] (general): [[Charge Without Gas Emissions]], [[Continue Charging Through Module Fault]], [[Detect Foreign and Live Objects]]
+  - [[Keep Charging Available and Safe]] (general): [[Continue Charging Through Module Fault]], [[Detect Foreign and Live Objects]]
   - [[Supply Vehicle Energy Without Charging]] (general): [[Change Battery Quickly]], [[Deliver Constant Power Through Shift]], [[Recover Energy by Regeneration]], [[Refuel Truck Power Source in Minutes]], [[Report Fuel Cell State to Truck]]
   - [[Connect Battery Power Path]] (general): [[Connect Battery to Charger or Vehicle]], [[Manage Charging Cables]]
 - **[[Keep Equipment Working in Its Environment]]** (goal)
@@ -41,15 +41,16 @@ How functions and designs are generalized into levels, which relationships conne
   - [[Sense Battery State]] (general): [[Accumulate Amp-Hours]], [[Detect Battery Weight]], [[Detect Cell Failure]], [[Detect Voltage Imbalance]], [[Estimate Remaining Run Time]], [[Estimate State of Charge]], [[Estimate State of Health]], [[Measure Battery Current]], [[Measure Battery Temperature]], [[Measure Battery Voltage]], [[Measure Electrolyte Specific Gravity]], [[Sense Electrolyte Level]]
   - [[Inform Users of Battery Condition]] (general): [[Alert on Abnormal Condition]], [[Alert on Low Electrolyte Level]], [[Calculate Battery Abuse Cycles]], [[Display Battery Status to Operator]], [[Indicate Battery Status Locally]], [[Track Equalization]]
   - [[Protect Battery from Harm]] (general): [[Command Vehicle Operating Limits over CAN]], [[Protect Battery from Deep Discharge]]
-  - [[Maintain Battery Electrolyte]] (general): [[Circulate Electrolyte]], [[Eliminate Battery Watering]], [[Water Battery Cells]]
+  - [[Maintain Battery Electrolyte]] (general): [[Circulate Electrolyte]], [[Water Battery Cells]]
 - **[[Manage Fleet Use and Data]]** (goal)
   - [[Communicate Battery and Vehicle Data]] (general): [[Communicate Battery State over CAN]], [[Communicate with Charger]], [[Configure Device from Mobile App or PC]], [[Export Battery Data to PC]], [[Identify Battery to Charger]], [[Log Battery Events and Usage]], [[Report Battery Temperature to Charger]], [[Transmit Battery Data Wirelessly]], [[Upload Battery Data to Cloud Portal]]
   - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Enforce Pre-Shift Checklist]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
 - **[[Protect People and Equipment Near Vehicles]]** (goal)
   - [[Sense Collision Risk and Events]] (general): [[Detect Pedestrians and Objects Near Truck]], [[Detect and Record Impacts]]
-  - [[Limit Vehicle Motion Automatically]] (general): [[Adapt Speed to Load and Lift Height]], [[Cut Power in an Emergency]], [[Hold Truck on Slope]], [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Program Travel, Lift and Tilt Speeds]], [[Reduce Speed When Seat Belt Is Unfastened]], [[Reduce Wheel Slip]], [[Slow Truck in Curves]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
+  - [[Limit Vehicle Speed Automatically]] (general): [[Adapt Speed to Load and Lift Height]], [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Program Travel, Lift and Tilt Speeds]], [[Reduce Speed When Seat Belt Is Unfastened]], [[Slow Truck in Curves]]
   - [[Warn People of Hazards]] (general): [[Alert Operator of Hazards]], [[Indicate Aircraft Proximity to Operator]], [[Warn Pedestrians of Approaching Truck]]
   - [[Maintain Vehicle Stability and Load Awareness]] (general): [[Cushion Fork Lowering]], [[Cut Lift at Programmed Height]], [[Damp Mast Oscillation]], [[Restrict Lift When Load Exceeds Limit]], [[Sense Load Weight and Lift Height]], [[Stabilize Truck Dynamically]]
+  - [[Hold or Stop Vehicle Automatically]] (general): [[Cut Power in an Emergency]], [[Hold Truck on Slope]], [[Reduce Wheel Slip]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
 - **[[Support the Operator]]** (goal)
   - [[Support Operator View and Positioning]] (general): [[Assist Lift Positioning]], [[Show Camera View to Operator]]
   - [[Reduce Operator Effort]] (general): [[Follow Operator Automatically]], [[Rotate Operator Workstation]], [[Steer with Electric Power Assist]]
@@ -84,15 +85,16 @@ How functions and designs are generalized into levels, which relationships conne
 
 | General function | Specific functions | Products (count) | Designs that appear on those products (count of products) |
 |---|---|---|---|
-| [[Charge Battery]] | 8 | 37 | [[Modular Power Modules]] (10), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[Touchscreen Interface]] (3), [[USB Data Download]] (3) |
+| [[Charge Battery]] | 7 | 34 | [[Modular Power Modules]] (10), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[Touchscreen Interface]] (3), [[USB Data Download]] (3) |
 | [[Communicate Battery and Vehicle Data]] | 9 | 41 | [[Local LED Indicator]] (10), [[Cloud Portal Integration]] (8), [[Acid-Resistant Sealed Housing]] (7), [[Cellular Communication Interface]] (6), [[Non-Volatile Event Memory]] (5) |
 | [[Connect Battery Power Path]] | 2 | 5 | none yet |
 | [[Control Charge Profile]] | 8 | 28 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
+| [[Hold or Stop Vehicle Automatically]] | 5 | 16 | [[Electric Parking Brake]] (3), [[Quick-Change Battery Compartment]] (2), [[Programmable Motor Controller]] (1), [[Regenerative Braking]] (1), [[Audible Alarm]] (1) |
 | [[Inform Operator of Truck Condition]] | 2 | 4 | [[Vehicle-Mounted Display]] (3), [[Audible Alarm]] (2), [[AC Drive Motor]] (2), [[Electric Parking Brake]] (1), [[Regenerative Braking]] (1) |
 | [[Inform Users of Battery Condition]] | 6 | 32 | [[Local LED Indicator]] (15), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
-| [[Keep Charging Available and Safe]] | 3 | 9 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Integrated Battery Management System]] (1), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1) |
-| [[Limit Vehicle Motion Automatically]] | 11 | 44 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Electric Parking Brake]] (3), [[Ingress-Protected Drive Components]] (3), [[Floor-Projected Warning Light]] (2) |
-| [[Maintain Battery Electrolyte]] | 3 | 15 | [[Forced Electrolyte Circulation]] (3), [[Integrated Battery Management System]] (1) |
+| [[Keep Charging Available and Safe]] | 2 | 5 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1), [[Multi-Voltage Output]] (1) |
+| [[Limit Vehicle Speed Automatically]] | 6 | 34 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Programmable Motor Controller]] (2), [[Floor-Projected Warning Light]] (2), [[Ingress-Protected Drive Components]] (2) |
+| [[Maintain Battery Electrolyte]] | 2 | 10 | [[Forced Electrolyte Circulation]] (3) |
 | [[Maintain Vehicle Stability and Load Awareness]] | 6 | 20 | [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2), [[Quick-Change Battery Compartment]] (2) |
 | [[Manage Fleet Use]] | 4 | 34 | [[RFID or PIN Access Reader]] (6), [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3) |
 | [[Operate in Harsh Conditions]] | 3 | 14 | [[Ingress-Protected Drive Components]] (4), [[Integrated Battery Heater]] (3), [[Electric Parking Brake]] (2), [[RFID or PIN Access Reader]] (2), [[Regenerative Braking]] (1) |
@@ -100,7 +102,7 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Reduce Operator Effort]] | 3 | 4 | [[Electric Power Steering]] (2), [[AC Drive Motor]] (1), [[Operator Presence Pedal]] (1), [[Belt-Worn Remote Control]] (1) |
 | [[Sense Battery State]] | 12 | 40 | [[Local LED Indicator]] (13), [[Acid-Resistant Sealed Housing]] (8), [[Cloud Portal Integration]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
 | [[Sense Collision Risk and Events]] | 2 | 34 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Operator Touch Display]] (2) |
-| [[Supply Vehicle Energy Without Charging]] | 5 | 11 | [[Quick-Change Battery Compartment]] (4), [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2) |
+| [[Supply Vehicle Energy Without Charging]] | 5 | 10 | [[Quick-Change Battery Compartment]] (4), [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2) |
 | [[Support Operator View and Positioning]] | 2 | 12 | [[Fork Laser Guide]] (3), [[Vehicle-Mounted Display]] (1), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
 | [[Warn People of Hazards]] | 3 | 32 | [[Floor-Projected Warning Light]] (8), [[Proximity Tag System]] (4), [[Audible Alarm]] (3), [[Vehicle-Mounted Display]] (3), [[Stereoscopic Vision Sensor]] (3) |
 

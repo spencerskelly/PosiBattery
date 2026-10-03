@@ -9,8 +9,6 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Vehicle Control Device Design]]"
-dependencyOf:
-  - "[[Damp Mast Oscillation]]"
 designOf:
   - "[[Linde Dynamic Mast Control]]"
 ---

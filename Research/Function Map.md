@@ -33,9 +33,8 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Alert on Abnormal Condition]] | [[Access Control Group CellTrac]], [[Advanced Charging Technologies BATTview]], [[Crown Battery Health Monitor]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Inventus Smart Battery Monitor SBM-01]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]], [[Raymond iBattery]], [[Yale Battery Vision]], [[Yale ERC050-060VGL]] | [[Energywith withBMS BMU]] | - |
 | [[Alert on Low Electrolyte Level]] | [[Crown Battery Acid Indicators]] | - | - |
 | [[Assist Lift Positioning]] | [[Crown RR-RD 5700 Series]], [[Raymond Fork Tilt Leveling]], [[Raymond Fork-Tip Laser Guide]], [[Raymond Vantage Point System]], [[Toyota Acu-Laser]], [[Toyota Assist]], [[Toyota Auto Height Select]], [[Toyota Carriage-Mounted Camera]] | - | - |
-| [[Avoid Battery Changeover During Shifts]] | [[Crown V-Force Lithium-Ion ESS]], [[Linde 6-8 t Electric Counterbalance Forklifts]], [[Triathlon Lithium-Ion Battery for UniCarriers]] | - | - |
 | [[Calculate Battery Abuse Cycles]] | [[EnerSys iQ Mini]] | - | - |
-| [[Change Battery Quickly]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Hangcha A Series Electric Forklifts]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Hangcha XC Series Electric Forklifts]], [[Toyota Traigo48]] | - | - |
+| [[Change Battery Quickly]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Hangcha A Series Electric Forklifts]], [[Hangcha XC Series Electric Forklifts]], [[Toyota Traigo48]] | - | - |
 | [[Charge Battery Conventionally]] | [[AMETEK Prestolite Power Eclipse II]], [[AMETEK Prestolite Power ULTRA]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[Deka PowerForce Charger]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten EHF Charger]], [[Stryten EHY Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Charge Battery Fast]] | [[AMETEK Prestolite Power Eclipse II]], [[AMETEK Prestolite Power ULTRA]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[Deka PowerForce Charger]], [[EnerSys Express Charger]], [[PosiCharge DVS100]], [[PosiCharge DVS300 Series]], [[PosiCharge High Voltage Power Station (DC)]], [[PosiCharge MVS400 and MVS800]], [[PosiCharge SVS100]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Charge Battery Wirelessly]] | [[EnerSys NexSys AIR Wireless Charger]] | - | - |
@@ -43,7 +42,6 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Charge Battery from Standard Power Outlet]] | [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Yale ERC050-060VGL]] | - | - |
 | [[Charge Lithium-Ion Battery]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[Deka PowerForce Charger]], [[Delta-Q IC650]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]], [[Exide Motion+ Lithium Charger]], [[Exide Motion+ Premium Charger]], [[Fronius SelectION]], [[Green Cubes SAFEFlex Charger]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Charge Under BMS Control]] | [[Delta-Q IC650]], [[Exide Motion+ Lithium Charger]], [[Fronius SelectION]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]] | - | - |
-| [[Charge Without Gas Emissions]] | [[Crown V-Force Lithium-Ion ESS]], [[Linde Ei Series]], [[Triathlon Lithium-Ion Battery for UniCarriers]], [[Yale ERC050-060VGL]] | - | - |
 | [[Charge in Cold Storage]] | [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Circulate Electrolyte]] | [[Exide AIR Electrolyte Agitation System]], [[HOPPECKE trak air Electrolyte Circulation]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Command Vehicle Operating Limits over CAN]] | [[EnerSys Wi-iQ]] | - | - |
@@ -70,7 +68,6 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Diagnose Battery During Charge]] | [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Display Battery Status to Operator]] | [[EnerSys Truck iQ]], [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]] | - | - |
 | [[Display Truck Status to Operator]] | [[Crown RC 5700 Series]], [[Hangcha A Series Electric Forklifts]], [[Mallaghan SkyBelt]] | - | - |
-| [[Eliminate Battery Watering]] | [[Crown V-Force Lithium-Ion ESS]], [[Linde Ei Series]], [[Raymond 8250 Lithium-Ion Battery]], [[Stryten M-Series AGM200 Battery]], [[Yale ERC050-060VGL]] | - | - |
 | [[Enforce Pre-Shift Checklist]] | [[Crown InfoLink]], [[Hyster Tracker Telemetry]], [[Jungheinrich ISM Online]], [[Logisnext Lift Link]], [[Powerfleet Forklift Gateway]], [[STILL RX 60 Electric Forklift]] | - | - |
 | [[Equalize Battery on Schedule]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[AMETEK Prestolite Power Eclipse II]], [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]], [[PosiCharge DVS100]], [[PosiCharge DVS150]], [[Power Designers REVOLUTION X]] | - | - |
 | [[Estimate Remaining Run Time]] | [[EnerSys Truck iQ]], [[HOPPECKE trak collect]], [[Inventus Smart Battery Monitor SBM-01]], [[Linde 6-8 t Electric Counterbalance Forklifts]] | - | - |
@@ -126,6 +123,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 

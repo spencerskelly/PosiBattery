@@ -9,7 +9,7 @@ tags:
   - gse
   - product-function
 subtypeOf:
-  - "[[Limit Vehicle Motion Automatically]]"
+  - "[[Hold or Stop Vehicle Automatically]]"
 dependsOn:
   - "[[Operator Presence Sensing Design]]"
 performedBy:

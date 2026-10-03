@@ -29,6 +29,7 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
+  - "[[Metric - Charging Gas Emissions]]"
 ---
 
 # Industrial Traction Battery

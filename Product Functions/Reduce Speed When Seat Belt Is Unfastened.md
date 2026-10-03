@@ -8,7 +8,7 @@ tags:
   - truck-function
   - product-function
 subtypeOf:
-  - "[[Limit Vehicle Motion Automatically]]"
+  - "[[Limit Vehicle Speed Automatically]]"
 dependsOn:
   - "[[Seat Belt Interlock]]"
 performedBy:

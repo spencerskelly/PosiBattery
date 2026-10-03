@@ -8,7 +8,7 @@ tags:
   - truck-function
   - product-function
 subtypeOf:
-  - "[[Limit Vehicle Motion Automatically]]"
+  - "[[Hold or Stop Vehicle Automatically]]"
 dependsOn:
   - "[[Emergency Cut-Off Switch]]"
 performedBy:

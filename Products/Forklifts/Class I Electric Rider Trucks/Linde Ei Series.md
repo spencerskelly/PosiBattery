@@ -11,9 +11,6 @@ tags:
   - europe
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
-performs:
-  - "[[Charge Without Gas Emissions]]"
-  - "[[Eliminate Battery Watering]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -28,8 +25,6 @@ Linde three- and four-wheel electric counterbalance forklifts, 1.4 to 2.0 t, wit
 
 - Linde says the Ei series (Ei14 to Ei20, part of the Linde 12XX generation) has an integrated lithium-ion battery that is maintenance-free, releases no gases during charging so no ventilated charging room is needed, and adds cabin space with 35 percent more legroom. Source: Linde MH news (2026-04-16) (T1), retrieved 2026-10-03. <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 - **Functions performed, with citations:**
-  - [[Charge Without Gas Emissions]] (V): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
-  - [[Eliminate Battery Watering]] (V): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 
 ## Aliases
 

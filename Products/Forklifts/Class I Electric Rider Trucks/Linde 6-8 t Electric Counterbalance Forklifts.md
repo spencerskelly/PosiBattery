@@ -12,7 +12,6 @@ tags:
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:
-  - "[[Avoid Battery Changeover During Shifts]]"
   - "[[Estimate Remaining Run Time]]"
 madeBy:
   - "[[Linde Material Handling]]"
@@ -31,7 +30,6 @@ Linde high-capacity electric forklifts (6.0, 7.0 and 8.0 t) with 90 V lithium-io
 
 - Linde says the 6.0, 7.0 and 8.0 t models can be fitted with 90 V lithium-ion batteries up to 120 kWh, removing battery changes on trucks whose battery would weigh nearly 3 tonnes, and offers a lithium-ion battery plus charger as a complete solution. Source: Warehouse News (T2), retrieved 2026-10-03. <https://warehousenews.co.uk/?p=62842>
 - **Functions performed, with citations:**
-  - [[Avoid Battery Changeover During Shifts]] (V): <https://warehousenews.co.uk/?p=62842>
 - The KION North America catalog says the Linde energy management system on the Series 1279 (E60 to E80) calculates the projected remaining operating time for the operator automatically. Source: KION North America catalog 2023 (in repo) (T1), retrieved 2026-10-03. <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 - **Functions performed, with citations:**
   - [[Estimate Remaining Run Time]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>

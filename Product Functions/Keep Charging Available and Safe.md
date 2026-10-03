@@ -8,7 +8,6 @@ tags:
   - general-function
   - product-function
 supertypeOf:
-  - "[[Charge Without Gas Emissions]]"
   - "[[Continue Charging Through Module Fault]]"
   - "[[Detect Foreign and Live Objects]]"
 childOf:

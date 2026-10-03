@@ -9,8 +9,6 @@ tags:
   - product-function
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
-dependsOn:
-  - "[[Electric Mast Thrust Drive]]"
 performedBy:
   - "[[Doosan Bobcat Mast Sway Control]]"
   - "[[Linde Dynamic Mast Control]]"

@@ -29,12 +29,12 @@ supertypeOf:
   - "[[Heli Lithium-Ion Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Linde 90 V Lithium-Ion Battery]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
   - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
-  - "[[Raymond 8250 Lithium-Ion Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

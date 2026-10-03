@@ -31,7 +31,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
-| [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]] | - | - |
+| [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
@@ -98,7 +98,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
 | [[Pedestrian Detection Camera]] | [[Doosan Bobcat Pedestrian Detection Camera]], [[Hyster Pedestrian Awareness Camera]] | - | - |
-| [[Programmable Motor Controller]] | [[Komatsu FB Series Electric Forklifts]] | - | - |
+| [[Programmable Motor Controller]] | [[Crown FC 5700 Series]], [[Komatsu FB Series Electric Forklifts]] | - | - |
 | [[Proximity Tag System]] | [[Hyster Reaction]], [[Jungheinrich zoneCONTROL]], [[Linde Safety Guard]], [[Linde Safety Guard Truck Unit]], [[Yale Reliant Portfolio]] | - | - |
 | [[Quick-Change Battery Compartment]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Hangcha A Series Electric Forklifts]], [[Hangcha XC Series Electric Forklifts]], [[Toyota Traigo48]] | - | - |
 | [[RFID or PIN Access Reader]] | [[Hangcha XC Series Electric Forklifts]], [[Linde connect]], [[Logisnext Lift Link]], [[Raymond 8000 Series Pallet Trucks]], [[STILL EXH-SF Low Lift Pallet Truck]], [[Toyota PIN Code Access Pad]] | - | - |
@@ -126,6 +126,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 

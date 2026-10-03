@@ -9,8 +9,6 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Enclosure and Mounting Design]]"
-dependencyOf:
-  - "[[Operate in Wet or Dusty Conditions]]"
 designOf:
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[Heli A3 Series Lithium Forklifts]]"

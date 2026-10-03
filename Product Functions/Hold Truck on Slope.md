@@ -8,9 +8,7 @@ tags:
   - truck-function
   - product-function
 subtypeOf:
-  - "[[Limit Vehicle Motion Automatically]]"
-dependsOn:
-  - "[[Electric Parking Brake]]"
+  - "[[Hold or Stop Vehicle Automatically]]"
 performedBy:
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"

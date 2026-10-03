@@ -9,8 +9,6 @@ tags:
   - product-function
 subtypeOf:
   - "[[Operate in Harsh Conditions]]"
-dependsOn:
-  - "[[Ingress-Protected Drive Components]]"
 performedBy:
   - "[[Crown RC 5700 Series]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"

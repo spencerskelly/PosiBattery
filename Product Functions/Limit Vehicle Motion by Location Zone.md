@@ -8,16 +8,16 @@ tags:
   - truck-function
   - product-function
 subtypeOf:
-  - "[[Limit Vehicle Motion Automatically]]"
+  - "[[Limit Vehicle Speed Automatically]]"
 performedBy:
   - "[[Raymond iWAREHOUSE Real-Time Location System]]"
+  - "[[Raymond Zoning and Positioning]]"
   - "[[STILL Safety Assist]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
-  - "[[Raymond Zoning and Positioning]]"
 ---
 
 # Limit Vehicle Motion by Location Zone

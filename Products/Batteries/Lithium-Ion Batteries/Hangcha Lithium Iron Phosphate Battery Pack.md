@@ -12,7 +12,6 @@ tags:
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 performs:
-  - "[[Change Battery Quickly]]"
   - "[[Operate in Cold Storage]]"
 hasDesign:
   - "[[Integrated Battery Heater]]"
@@ -34,10 +33,10 @@ Hangcha LiFePO4 forklift battery packs for the A and XC series, with quick-chang
 - Hangcha says its 2024 and 2025 XC series brochures offer a Li-ion battery with a 6 year or 12,000 hour warranty, cells and modules from CATL exclusively for Hangcha, quickly replaceable roller-type packs and packs with low-temperature electric heating; the A series brochure says square lithium iron phosphate cells and modules are used. Source: Hangcha XC and A series brochures (T1), retrieved 2026-10-03. <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
 - **Dated claim (C88):** the 2026 edition does not repeat the CATL or warranty statements.
 - **Functions performed, with citations:**
-  - [[Change Battery Quickly]] (V): <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
   - [[Operate in Cold Storage]] (V): <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
 - **Design characteristics, with citations:**
   - [[Integrated Battery Heater]] (V): <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
+- **Round 27:** the quick-change feature belongs to the truck system (compartment plus pack); the function link now sits on [[Hangcha XC Series Electric Forklifts]] and [[Hangcha A Series Electric Forklifts]]; this note keeps the roller-type pack and the heater.
 
 ## Aliases
 

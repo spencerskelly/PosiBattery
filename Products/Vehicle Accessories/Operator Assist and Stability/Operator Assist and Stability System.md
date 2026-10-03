@@ -30,6 +30,7 @@ supertypeOf:
   - "[[Raymond Mast Lift Limit Switch with Bypass]]"
   - "[[Raymond Operator Compartment Sensor System]]"
   - "[[Raymond Travel Speed Control]]"
+  - "[[Raymond Zoning and Positioning]]"
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
   - "[[STILL Curve Speed Control]]"
   - "[[STILL Safety Assist]]"
@@ -42,7 +43,6 @@ supertypeOf:
   - "[[Toyota System of Active Stability]]"
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
-  - "[[Raymond Zoning and Positioning]]"
 ---
 
 # Operator Assist and Stability System

@@ -10,8 +10,6 @@ tags:
   - battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
-performs:
-  - "[[Eliminate Battery Watering]]"
 madeBy:
   - "[[Stryten Energy]]"
 ---
@@ -26,7 +24,6 @@ Stryten AGM battery that never needs watering, for light retail and medium wareh
 
 - Stryten's lineup sheet says AGM200 valve-regulated lead-acid batteries never need watering and suit light retail and medium warehouse applications. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - **Functions performed, with citations:**
-  - [[Eliminate Battery Watering]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

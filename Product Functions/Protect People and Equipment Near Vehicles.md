@@ -9,9 +9,10 @@ tags:
   - product-function
 hasChild:
   - "[[Sense Collision Risk and Events]]"
-  - "[[Limit Vehicle Motion Automatically]]"
+  - "[[Limit Vehicle Speed Automatically]]"
   - "[[Warn People of Hazards]]"
   - "[[Maintain Vehicle Stability and Load Awareness]]"
+  - "[[Hold or Stop Vehicle Automatically]]"
 ---
 
 # Protect People and Equipment Near Vehicles

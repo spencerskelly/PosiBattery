@@ -67,7 +67,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown Cable Management Accessories]] | [[Crown Equipment]] | accessory | 1 | 1 | 0 | none |
 | [[Crown Capacity Data Monitor]] | [[Crown Equipment]] | accessory | 1 | 0 | 0 | none |
-| [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 6 | 2 | 1 | partial |
+| [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 7 | 2 | 1 | partial |
 | [[Crown Gena Operating System]] | [[Crown Equipment]] | accessory | 1 | 2 | 2 | partial |
 | [[Crown InfoLink]] | [[Crown Equipment]] | accessory | 5 | 4 | 1 | partial |
 | [[Crown InfoLink 7-inch Touch Display]] | [[Crown Equipment]] | accessory | 2 | 1 | 2 | partial |
@@ -78,7 +78,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown SC Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
 | [[Crown V-Force BMID]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown V-Force Lead-Acid Battery]] | [[Crown Equipment]] | battery | 2 | 1 | 0 | none |
-| [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 4 | 3 | 0 | none |
+| [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 1 | 3 | 0 | none |
 | [[Crown V-Force Single Point Watering System]] | [[Crown Equipment]] | accessory | 1 | 0 | 1 | partial |
 | [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 8 | 24 | defined |
 | [[Crown V-HFM3 Charger Stand]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
@@ -148,7 +148,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Hangcha A Series Electric Forklifts]] | [[Hangcha Group]] | forklift | 8 | 1 | 1 | partial |
 | [[Hangcha Backup Camera Option]] | [[Hangcha Group]] | accessory | 1 | 1 | 0 | none |
 | [[Hangcha FIMS]] | [[Hangcha Group]] | accessory | 1 | 1 | 0 | none |
-| [[Hangcha Lithium Iron Phosphate Battery Pack]] | [[Hangcha Group]] | battery | 3 | 2 | 4 | defined |
+| [[Hangcha Lithium Iron Phosphate Battery Pack]] | [[Hangcha Group]] | battery | 2 | 2 | 3 | defined |
 | [[Hangcha XC Series Electric Forklifts]] | [[Hangcha Group]] | forklift | 10 | 3 | 5 | defined |
 | [[IRIS 860 Sensor Pack]] | [[Holt of California]] | accessory | 1 | 0 | 0 | none |
 | [[Hyster Battery Tracker]] | [[Hyster-Yale]] | monitor | 10 | 0 | 1 | partial |
@@ -159,7 +159,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Hyster Reaction]] | [[Hyster-Yale]] | accessory | 8 | 0 | 0 | none |
 | [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | accessory | 4 | 1 | 0 | none |
 | [[Yale Battery Vision]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
-| [[Yale ERC050-060VGL]] | [[Hyster-Yale]] | forklift | 5 | 1 | 0 | none |
+| [[Yale ERC050-060VGL]] | [[Hyster-Yale]] | forklift | 4 | 1 | 0 | none |
 | [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 1 | 1 | 0 | none |
 | [[Yale Reliant Portfolio]] | [[Hyster-Yale]] | accessory | 5 | 0 | 1 | partial |
 | [[Yale Vision Telemetry]] | [[Hyster-Yale]] | accessory | 1 | 2 | 0 | none |
@@ -180,12 +180,12 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Larson Explosion-Proof Blue LED Forklift Light]] | [[Larson Electronics]] | accessory | 1 | 0 | 3 | defined |
 | [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
 | [[Linde 1293 Series (E20BHP and E25BHP)]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
-| [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 2 | 2 | 3 | defined |
+| [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 1 | 2 | 3 | defined |
 | [[Linde 90 V Lithium-Ion Battery]] | [[Linde Material Handling]] | battery | 0 | 2 | 7 | defined |
 | [[Linde BlueSpot]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Linde Dynamic Mast Control]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Linde E Series Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 4 | 0 | 3 | defined |
-| [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 2 | 0 | 1 | partial |
+| [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Linde Material Handling]] | charger | 0 | 2 | 2 | partial |
 | [[Linde Load Management Advanced]] | [[Linde Material Handling]] | accessory | 3 | 0 | 0 | none |
 | [[Linde MT18 Multifunction Display]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
@@ -281,7 +281,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 2 | 7 | 2 | partial |
 | [[Raymond 7000 Series Reach-Fork Trucks]] | [[Raymond]] | forklift | 2 | 0 | 10 | defined |
 | [[Raymond 8000 Series Pallet Trucks]] | [[Raymond]] | forklift | 3 | 1 | 5 | defined |
-| [[Raymond 8250 Lithium-Ion Battery]] | [[Raymond]] | battery | 1 | 1 | 5 | defined |
+| [[Raymond 8250 Lithium-Ion Battery]] | [[Raymond]] | battery | 0 | 1 | 5 | defined |
 | [[Raymond Energy Essentials Lithium-Ion Battery]] | [[Raymond]] | battery | 0 | 0 | 0 | none |
 | [[Raymond Fork Tilt Leveling]] | [[Raymond]] | accessory | 1 | 1 | 0 | none |
 | [[Raymond Fork-Tip Laser Guide]] | [[Raymond]] | accessory | 2 | 1 | 0 | none |
@@ -314,7 +314,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 5 | 8 | defined |
 | [[Stryten EHI Charger]] | [[Stryten Energy]] | charger | 4 | 0 | 0 | none |
 | [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 13 | defined |
-| [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 1 | 0 | 0 | none |
+| [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
 | [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 3 | defined |
 | [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 3 | defined |
 | [[Stryten M-Series F100 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 0 | none |
@@ -353,7 +353,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Toyota System of Active Stability]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Toyota Traigo48]] | [[Toyota Material Handling]] | forklift | 3 | 0 | 2 | partial |
 | [[Toyota Twistlock Snapshot Camera System]] | [[Toyota Material Handling]] | accessory | 0 | 0 | 0 | none |
-| [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 2 | 3 | 0 | none |
+| [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 0 | 3 | 0 | none |
 | [[Triathlon Lithium-Ion Charger for UniCarriers]] | [[Triathlon USA]] | charger | 0 | 1 | 0 | none |
 - **Update (round 9):** exemplars and the layout are in [[Note Standard (Example)]]; full specs added for [[HOPPECKE trak collect]], [[Crown V-HFM3 Charger]] and the Stryten lineup; spec-gap count now 58.
 - **Round 13:** table regenerated; forklift, software and option products now appear with their own kind.
@@ -367,6 +367,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 

@@ -8,7 +8,6 @@ tags:
   - general-function
   - product-function
 supertypeOf:
-  - "[[Avoid Battery Changeover During Shifts]]"
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery Fast]]"
   - "[[Charge Battery Wirelessly]]"

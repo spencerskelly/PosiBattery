@@ -20,6 +20,7 @@ designOf:
   - "[[Stryten M-Series AGM220 Battery]]"
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Heli A3 Series Lithium Forklifts]]"
+  - "[[Yale ERC050-060VGL]]"
   - "[[Charlatte Belt Loaders]]"
 ---
 
@@ -41,6 +42,7 @@ Charger built into the battery or truck-side battery unit.
   - [[Heli A3 Series Lithium Forklifts]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
   - [[Charlatte Belt Loaders]] (V): <https://www.aviationpros.com/gse/pushbacks-tractors-utility-vehicles/company/10017106/charlatte-of-america>
   - [[Heli Built-In Lithium Charger]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd35-a3lih4-m-li-ion.html>
+  - [[Yale ERC050-060VGL]] (V): <https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf>
 
 ## Aliases
 

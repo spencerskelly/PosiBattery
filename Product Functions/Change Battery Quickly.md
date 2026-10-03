@@ -12,7 +12,6 @@ subtypeOf:
 dependsOn:
   - "[[Quick-Change Battery Compartment]]"
 performedBy:
-  - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
