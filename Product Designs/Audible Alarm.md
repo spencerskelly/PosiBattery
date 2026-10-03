@@ -15,6 +15,7 @@ designOf:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Crown Battery Acid Indicators]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Linde Safety Guard Static Unit]]"
 ---
@@ -38,6 +39,7 @@ Buzzer or beeper that sounds an alert.
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Linde Safety Guard Static Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Hangcha A Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

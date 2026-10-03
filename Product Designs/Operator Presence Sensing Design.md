@@ -11,8 +11,8 @@ subtypeOf:
   - "[[Vehicle State Sensing Design]]"
 supertypeOf:
   - "[[Light-Beam Compartment Sensor]]"
-  - "[[Operator Sensing Floor Mat]]"
   - "[[Operator Presence Pedal]]"
+  - "[[Operator Sensing Floor Mat]]"
 dependencyOf:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 ---

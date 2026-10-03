@@ -24,6 +24,7 @@ describedBy:
   - "[[Coverage Plan]]"
   - "[[Document Wishlist]]"
   - "[[External Context and Provenance]]"
+  - "[[Feature Capture Log]]"
   - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
   - "[[Investigation Backlog]]"
@@ -35,7 +36,6 @@ describedBy:
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Unidentified Products Review]]"
-  - "[[Feature Capture Log]]"
 ---
 
 # Battery-Connected Product

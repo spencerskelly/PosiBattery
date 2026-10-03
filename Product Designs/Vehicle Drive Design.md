@@ -8,10 +8,10 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
-  - "[[Regenerative Braking]]"
+  - "[[AC Drive Motor]]"
   - "[[Electric Parking Brake]]"
   - "[[Electric Power Steering]]"
-  - "[[AC Drive Motor]]"
+  - "[[Regenerative Braking]]"
 ---
 
 # Vehicle Drive Design

@@ -11,6 +11,10 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Avoid Battery Changeover During Shifts]]"
+  - "[[Charge Without Gas Emissions]]"
+  - "[[Eliminate Battery Watering]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 offeredBy:
@@ -32,6 +36,11 @@ Crown V-Force lithium-ion energy storage system (pack, charger and BMS) for Crow
 - Crown says the V-Force ESS includes a UL Listed lithium-ion pack, a V-Force charger and an integrated BMS, sold and supported through Crown's retail network, introduced 2019-03-19. Source: Crown newsroom (T1), retrieved 2026-10-02. <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
+- The FC 5700 brochure says the V-Force Integrated Lithium-Ion System eliminates battery changes, watering and special battery rooms, lets one battery handle one or multiple shifts, charges with zero emissions (no gassing) and supports true opportunity charging with a multi-level safety architecture. Source: Crown FC 5700 brochure (in repo) (T1), retrieved 2026-10-03. <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+- **Functions performed, with citations:**
+  - [[Avoid Battery Changeover During Shifts]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Charge Without Gas Emissions]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Eliminate Battery Watering]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 
 ## Aliases
 

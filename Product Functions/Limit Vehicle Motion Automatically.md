@@ -9,15 +9,16 @@ tags:
   - product-function
 supertypeOf:
   - "[[Adapt Speed to Load and Lift Height]]"
+  - "[[Cut Power in an Emergency]]"
+  - "[[Hold Truck on Slope]]"
   - "[[Limit Truck Speed Automatically]]"
   - "[[Limit Vehicle Motion by Location Zone]]"
+  - "[[Program Travel, Lift and Tilt Speeds]]"
+  - "[[Reduce Speed When Seat Belt Is Unfastened]]"
   - "[[Slow Truck in Curves]]"
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Stop Vehicle When Operator Is Out of Position]]"
-  - "[[Hold Truck on Slope]]"
-  - "[[Cut Power in an Emergency]]"
-  - "[[Program Travel, Lift and Tilt Speeds]]"
-  - "[[Reduce Speed When Seat Belt Is Unfastened]]"
+  - "[[Reduce Wheel Slip]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

@@ -14,7 +14,10 @@ describedBy:
   - "[[Metric - Truck Integration]]"
 performedBy:
   - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Komatsu FB Series Electric Forklifts]]"
+  - "[[Crown RR-RD 5700 Series]]"
   - "[[Doosan Bobcat Mast Sway Control]]"
   - "[[Raymond Travel Speed Control]]"
   - "[[STILL Safety Assist]]"
@@ -57,6 +60,9 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Doosan Bobcat Mast Sway Control]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
   - [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/159.pdf>
   - [[Komatsu FB Series Electric Forklifts]] (V): <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
+  - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Crown RR-RD 5700 Series]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
 
 ## Aliases
 

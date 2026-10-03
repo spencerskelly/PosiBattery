@@ -10,6 +10,8 @@ tags:
 subtypeOf:
   - "[[Protect Battery from Harm]]"
 performedBy:
+  - "[[EnerSys NexSys iON Battery]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Hyster Power Cellect]]"
 ---
 
@@ -25,6 +27,8 @@ Limit or stop truck operation when the battery reaches full discharge to protect
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Hyster Power Cellect]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
 
 ## Aliases
 

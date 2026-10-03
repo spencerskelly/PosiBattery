@@ -17,6 +17,7 @@ performedBy:
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
   - "[[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]]"
+  - "[[Raymond 4000 Series Counterbalanced Trucks]]"
   - "[[Cat Presence Detection System]]"
   - "[[Heli Operator Presence Sensing System]]"
   - "[[Komatsu Operator Presence Sensing System]]"
@@ -49,6 +50,7 @@ Stop the vehicle if the operator leaves the seat while it is moving or a system 
   - [[Doosan Bobcat 7-Series Plus Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
   - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
   - [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>
+  - [[Raymond 4000 Series Counterbalanced Trucks]] (V): <https://www.allmachines.com/forklifts/the-raymond-corporation-4810-c110>
 
 ## Aliases
 

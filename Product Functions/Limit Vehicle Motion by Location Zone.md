@@ -17,6 +17,7 @@ performedBy:
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
+  - "[[Raymond Zoning and Positioning]]"
 ---
 
 # Limit Vehicle Motion by Location Zone
@@ -37,6 +38,7 @@ Reduce speed, acceleration or lift in zones defined by location, such as aisle e
   - [[STILL Safety Assist]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Linde Safety Guard Zone Marker]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Raymond Zoning and Positioning]] (V): <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
 
 ## Aliases
 

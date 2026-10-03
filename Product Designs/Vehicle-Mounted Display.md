@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Display Device Design]]"
 designOf:
+  - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
   - "[[Jungheinrich addedVIEW Camera Systems]]"
@@ -36,6 +37,7 @@ Display mounted on the vehicle, powered from the truck, showing battery data.
   - [[Jungheinrich addedVIEW Camera Systems]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Hangcha A Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
   - [[Mallaghan SkyBelt]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

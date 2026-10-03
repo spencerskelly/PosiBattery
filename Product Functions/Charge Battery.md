@@ -8,14 +8,14 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Avoid Battery Changeover During Shifts]]"
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery Fast]]"
   - "[[Charge Battery Wirelessly]]"
   - "[[Charge Battery by Opportunity]]"
+  - "[[Charge Battery from Standard Power Outlet]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge in Cold Storage]]"
-  - "[[Avoid Battery Changeover During Shifts]]"
-  - "[[Charge Battery from Standard Power Outlet]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

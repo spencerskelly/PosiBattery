@@ -12,6 +12,7 @@ subtypeOf:
 describedBy:
   - "[[Metric - Charger Link]]"
 performedBy:
+  - "[[EnerSys NexSys iON Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge Battery Rx]]"
@@ -50,6 +51,7 @@ Exchange data with a charger in either direction.
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors> <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
   - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
+  - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
 
 ## Aliases
 

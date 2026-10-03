@@ -10,6 +10,8 @@ tags:
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[Hyster Dynamic Stability System]]"
   - "[[Jungheinrich curveCONTROL]]"
@@ -37,6 +39,8 @@ Intervene in travel or lift functions to keep the truck from becoming unstable o
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
   - [[Doosan Bobcat NXE Series Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856190.html>
+  - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

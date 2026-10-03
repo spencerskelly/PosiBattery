@@ -42,6 +42,7 @@ supertypeOf:
   - "[[Toyota System of Active Stability]]"
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Raymond Zoning and Positioning]]"
 ---
 
 # Operator Assist and Stability System

@@ -34,6 +34,7 @@ supertypeOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

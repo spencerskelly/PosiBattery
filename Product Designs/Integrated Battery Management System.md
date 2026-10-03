@@ -16,6 +16,7 @@ describedBy:
 designOf:
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"
+  - "[[EnerSys NexSys iON Battery]]"
   - "[[Exide GNB Lithium Battery 2.0]]"
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Flux Power S-Series Battery]]"
@@ -47,6 +48,7 @@ Battery management system built into the battery pack.
   - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
   - [[Jungheinrich Lithium-Ion Battery]] (V): <https://warehousenews.co.uk/?p=45557>
   - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+  - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
 
 ## Aliases
 

@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Vehicle Drive Design]]"
 designOf:
   - "[[Hangcha A Series Electric Forklifts]]"
+  - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"
   - "[[Mitsubishi FBC Cushion Tire Electric Forklifts]]"
   - "[[Toyota 3-Wheel Electric Forklift]]"
@@ -30,6 +31,7 @@ AC motor driving the truck's traction or hydraulics, noted as maintenance-free o
   - [[Mitsubishi FB 3-Wheel Electric Forklifts]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fb20pnt>
   - [[Mitsubishi FBC Cushion Tire Electric Forklifts]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
   - [[Toyota 3-Wheel Electric Forklift]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
+  - [[Linde E Series Electric Counterbalance Forklifts]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 
 ## Aliases
 

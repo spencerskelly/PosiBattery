@@ -32,6 +32,8 @@ makes:
   - "[[Raymond Fork Tilt Leveling]]"
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Mast Lift Limit Switch with Bypass]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
+  - "[[Raymond Zoning and Positioning]]"
 offers:
   - "[[Raymond iBattery]]"
   - "[[Raymond Red Charger]]"

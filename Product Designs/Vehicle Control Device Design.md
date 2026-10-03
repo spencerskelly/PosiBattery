@@ -11,12 +11,12 @@ supertypeOf:
   - "[[Active Stability Actuator]]"
   - "[[Belt-Worn Remote Control]]"
   - "[[Electric Mast Thrust Drive]]"
+  - "[[Emergency Cut-Off Switch]]"
   - "[[Fork Laser Guide]]"
+  - "[[Mast Lift Limit Switch]]"
   - "[[Operator Identification Design]]"
   - "[[Programmable Motor Controller]]"
-  - "[[Emergency Cut-Off Switch]]"
   - "[[Seat Belt Interlock]]"
-  - "[[Mast Lift Limit Switch]]"
 ---
 
 # Vehicle Control Device Design

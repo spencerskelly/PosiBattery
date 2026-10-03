@@ -9,8 +9,8 @@ tags:
   - product-function
 supertypeOf:
   - "[[Circulate Electrolyte]]"
-  - "[[Water Battery Cells]]"
   - "[[Eliminate Battery Watering]]"
+  - "[[Water Battery Cells]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

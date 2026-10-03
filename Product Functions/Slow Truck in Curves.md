@@ -12,8 +12,11 @@ subtypeOf:
 describedBy:
   - "[[Metric - Response Action]]"
 performedBy:
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
   - "[[Heli G Series Lithium Forklifts]]"
+  - "[[Crown RR-RD 5700 Series]]"
   - "[[Hyster Dynamic Stability System]]"
   - "[[Jungheinrich curveCONTROL]]"
   - "[[STILL Curve Speed Control]]"
@@ -46,6 +49,9 @@ Reduce speed automatically when cornering.
   - [[Heli G Series Lithium Forklifts]] (V): <https://fltgrupa.pl/en/heli-forklifts/>
   - [[Heli G Series Lithium Forklifts]] (V): <https://www.liftstoday.com/listing/for-sale/259364865/2026-heli-cpd15-pneumatic-tire-forklifts?print=1>
   - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
+  - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Crown RR-RD 5700 Series]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
 
 ## Aliases
 

@@ -12,6 +12,7 @@ subtypeOf:
 dependsOn:
   - "[[Indicator and Alarm Design]]"
 performedBy:
+  - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[STILL Safety Assist]]"
   - "[[STILL Safety Packages]]"
@@ -55,6 +56,7 @@ Warn people on foot that a truck is approaching with lights, sounds or wearable 
   - [[Larson Explosion-Proof Blue LED Forklift Light]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[Panacea Blue Warning Light]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

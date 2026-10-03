@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 26) — Sources found for part of the unlinked products; see [[Feature Capture Log]].
 - 2026-10-03 (round 25) — Feature capture for the unlinked products; see [[Feature Capture Log]].
 - 2026-10-03 (round 24) — Mitsubishi Logisnext focus: group, Americas and Europe entities modeled, trucks, options, partnerships and brand coverage recorded; manufacturer sheets still needed ([[Coverage Plan]]).
 - 2026-10-03 (round 23) — Truck makers finished for STILL, Cat, Hangcha, Heli, Doosan Bobcat and Komatsu (Mitsubishi Forklift Trucks and UniCarriers option lists still missing); see [[Coverage Plan]].

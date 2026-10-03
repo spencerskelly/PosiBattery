@@ -59,6 +59,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 23 2026-10-03:** truck makers sweep: STILL, Cat, Hangcha, Heli, Doosan Bobcat, Komatsu (21 accessory notes, 13 truck notes, 3 battery notes, 1 charger, CATL); conflicts C88 to C90; C84 updated.
 - **Round 24 2026-10-03:** Mitsubishi Logisnext focus: group split into three entity notes, 4 truck notes, 5 option notes, EnerSys partnership, brand coverage table in the [[Coverage Plan]]; conflicts C91 to C93.
 - **Round 25 2026-10-03:** feature capture for the unlinked products (50 products linked; 56 of 321 still unlinked); see [[Feature Capture Log]].
+- **Round 26 2026-10-03:** sources found for unlinked products; 48 of 323 still without a feature link ([[Feature Capture Log]]).
 
 ## Aliases
 

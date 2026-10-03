@@ -19,6 +19,8 @@ hasDesign:
   - "[[LiDAR Object Sensor]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond Orderpickers]]"
 ---
 
 # Raymond In-Aisle Detection System

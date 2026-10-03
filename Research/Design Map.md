@@ -26,11 +26,11 @@ Matrix of design characteristics against the products that use them, split by ev
 | Design | Verified this pass | Carried from seed text | User-stated |
 |---|---|---|---|
 | [[900 MHz Industrial Wireless Interface]] | [[Power Designers PowerTrac DT3]] | - | - |
-| [[AC Drive Motor]] | [[Hangcha A Series Electric Forklifts]], [[Mitsubishi FB 3-Wheel Electric Forklifts]], [[Mitsubishi FBC Cushion Tire Electric Forklifts]], [[Toyota 3-Wheel Electric Forklift]] | - | - |
+| [[AC Drive Motor]] | [[Hangcha A Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]], [[Mitsubishi FB 3-Wheel Electric Forklifts]], [[Mitsubishi FBC Cushion Tire Electric Forklifts]], [[Toyota 3-Wheel Electric Forklift]] | - | - |
 | [[Acid-Resistant Sealed Housing]] | [[Crown V-Force BMID]], [[EnerSys Wi-iQ]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
-| [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
@@ -49,7 +49,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
 | [[Dual-Cable and Parallel Charging Configuration]] | [[Deka FastCharge Battery]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Electric Mast Thrust Drive]] | [[Linde Dynamic Mast Control]] | - | - |
-| [[Electric Parking Brake]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Doosan Bobcat NXE Series Electric Forklifts]] | - | - |
+| [[Electric Parking Brake]] | [[Crown RC 5700 Series]], [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Doosan Bobcat NXE Series Electric Forklifts]] | - | - |
 | [[Electric Power Steering]] | [[Mitsubishi FB 3-Wheel Electric Forklifts]], [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge DVS150]] | - | - |
 | [[Emergency Cut-Off Switch]] | [[Hangcha XC Series Electric Forklifts]] | - | - |
@@ -58,7 +58,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Fingerprint Reader]] | [[Panacea Smart Start]] | - | - |
 | [[Flat Plate Construction]] | [[Stryten M-Series F100 Battery]] | - | - |
 | [[Flexible Bolt-On Intercell Connector]] | [[Crown V-Force Lead-Acid Battery]] | - | - |
-| [[Floor-Projected Warning Light]] | [[Cat Safety Lighting Options]], [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist]], [[STILL SafetyLight 4Plus]], [[STILL Warning Zone Light]], [[Toyota Forklift Lighting Options]] | - | - |
+| [[Floor-Projected Warning Light]] | [[Cat Safety Lighting Options]], [[Crown RC 5700 Series]], [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist]], [[STILL SafetyLight 4Plus]], [[STILL Warning Zone Light]], [[Toyota Forklift Lighting Options]] | - | - |
 | [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Fork Laser Guide]] | [[Raymond Fork-Tip Laser Guide]], [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
@@ -72,9 +72,9 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Impact Sensor]] | [[Linde connect]], [[Logisnext Lift Link]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Individual Plate Formation]] | [[Deka D-Series Battery]] | - | - |
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
-| [[Ingress-Protected Drive Components]] | [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]] | - | - |
+| [[Ingress-Protected Drive Components]] | [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Heli G Series Lithium Forklifts]], [[Heli Lithium-Ion Battery]] | - | - |
-| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
+| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
 | [[Integrated LCD Display]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Interactive Warning Vest]] | [[Linde Safety Guard]], [[Linde Safety Guard Portable Unit]] | - | - |
 | [[LiDAR Object Sensor]] | [[Crown ProximityAssist System]], [[Hyster Reaction]], [[Raymond In-Aisle Detection System]], [[Raymond iWAREHOUSE ObjectSense]] | - | - |
@@ -101,10 +101,10 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Programmable Motor Controller]] | [[Komatsu FB Series Electric Forklifts]] | - | - |
 | [[Proximity Tag System]] | [[Hyster Reaction]], [[Jungheinrich zoneCONTROL]], [[Linde Safety Guard]], [[Linde Safety Guard Truck Unit]], [[Yale Reliant Portfolio]] | - | - |
 | [[Quick-Change Battery Compartment]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Hangcha A Series Electric Forklifts]], [[Hangcha XC Series Electric Forklifts]], [[Toyota Traigo48]] | - | - |
-| [[RFID or PIN Access Reader]] | [[Hangcha XC Series Electric Forklifts]], [[Linde connect]], [[Logisnext Lift Link]], [[STILL EXH-SF Low Lift Pallet Truck]], [[Toyota PIN Code Access Pad]] | - | - |
+| [[RFID or PIN Access Reader]] | [[Hangcha XC Series Electric Forklifts]], [[Linde connect]], [[Logisnext Lift Link]], [[Raymond 8000 Series Pallet Trucks]], [[STILL EXH-SF Low Lift Pallet Truck]], [[Toyota PIN Code Access Pad]] | - | - |
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Radar Object Sensor]] | [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
-| [[Regenerative Braking]] | [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
+| [[Regenerative Braking]] | [[Crown RC 5700 Series]], [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Seat Belt Interlock]] | [[STILL EasyBelt]] | - | - |
 | [[Shuntless Current Sensing]] | [[Access Control Group CellTrac]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac Monitor]] | - | - |
@@ -117,7 +117,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Tubular Plate Construction]] | [[Crown V-Force Lead-Acid Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
-| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
+| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
 | [[Wi-Fi Interface]] | [[ACT ACTview]], [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[ZigBee 2.4 GHz Interface]] | [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]] | - | - |
@@ -126,6 +126,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 
 ## Aliases

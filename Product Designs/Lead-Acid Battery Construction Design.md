@@ -8,16 +8,16 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Copper Inserted Posts]]"
   - "[[Extended Watering Interval]]"
+  - "[[Flat Plate Construction]]"
+  - "[[Flexible Bolt-On Intercell Connector]]"
   - "[[Forced Electrolyte Circulation]]"
   - "[[Gel Electrolyte]]"
+  - "[[Heavy-Duty Intercell Connectors]]"
+  - "[[Individual Plate Formation]]"
   - "[[Thin Plate Pure Lead Plates]]"
   - "[[Tubular Plate Construction]]"
-  - "[[Flexible Bolt-On Intercell Connector]]"
-  - "[[Individual Plate Formation]]"
-  - "[[Heavy-Duty Intercell Connectors]]"
-  - "[[Copper Inserted Posts]]"
-  - "[[Flat Plate Construction]]"
 ---
 
 # Lead-Acid Battery Construction Design

@@ -12,6 +12,7 @@ subtypeOf:
 performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
   - "[[EnerSys Truck iQ]]"
 ---
 
@@ -30,6 +31,7 @@ Estimate the working time remaining at the present usage.
   - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
+  - [[Linde 6-8 t Electric Counterbalance Forklifts]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 
 ## Aliases
 

@@ -10,9 +10,9 @@ tags:
 supertypeOf:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Breakaway Connector]]"
+  - "[[Ingress-Protected Drive Components]]"
   - "[[Onboard Charger Mounting]]"
   - "[[Outdoor-Rated Charger Enclosure]]"
-  - "[[Ingress-Protected Drive Components]]"
 ---
 
 # Enclosure and Mounting Design

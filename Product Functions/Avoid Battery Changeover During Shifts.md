@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Charge Battery]]"
 performedBy:
+  - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
 ---
@@ -27,6 +28,7 @@ Run multiple shifts without swapping the battery, relying on fast or opportunity
 - **Sources** (product, evidence level, web page):
   - [[Linde 6-8 t Electric Counterbalance Forklifts]] (V): <https://warehousenews.co.uk/?p=62842>
   - [[Triathlon Lithium-Ion Battery for UniCarriers]] (V): <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions>
+  - [[Crown V-Force Lithium-Ion ESS]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 
 ## Aliases
 

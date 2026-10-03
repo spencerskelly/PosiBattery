@@ -15,6 +15,7 @@ madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
   - "[[Yale ERC080VHL]]"
+  - "[[Yale ERC050-060VGL]]"
 ---
 
 # Yale Vision Telemetry

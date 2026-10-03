@@ -12,6 +12,7 @@ subtypeOf:
 performedBy:
   - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Heli Lithium-Ion Battery]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
   - "[[Heli G Series Lithium Forklifts]]"
@@ -37,6 +38,7 @@ Keep a truck or battery working in cold storage or freezer conditions.
   - [[Heli Lithium-Ion Battery]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html>
   - [[Toyota Cold Conditioning Package]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
   - [[UniCarriers Freezer Option]] (V): <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

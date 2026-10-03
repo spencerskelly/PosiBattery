@@ -8,11 +8,11 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Change Battery Quickly]]"
   - "[[Deliver Constant Power Through Shift]]"
   - "[[Recover Energy by Regeneration]]"
   - "[[Refuel Truck Power Source in Minutes]]"
   - "[[Report Fuel Cell State to Truck]]"
-  - "[[Change Battery Quickly]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

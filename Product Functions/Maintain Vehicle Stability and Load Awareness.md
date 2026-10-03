@@ -8,12 +8,12 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Cushion Fork Lowering]]"
+  - "[[Cut Lift at Programmed Height]]"
   - "[[Damp Mast Oscillation]]"
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Stabilize Truck Dynamically]]"
-  - "[[Cushion Fork Lowering]]"
-  - "[[Cut Lift at Programmed Height]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

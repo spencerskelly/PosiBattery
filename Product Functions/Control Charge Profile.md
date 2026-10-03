@@ -14,8 +14,8 @@ supertypeOf:
   - "[[Desulfate Battery During Charge]]"
   - "[[Diagnose Battery During Charge]]"
   - "[[Equalize Battery on Schedule]]"
-  - "[[Identify Battery by Voltage]]"
   - "[[Float Charge Battery]]"
+  - "[[Identify Battery by Voltage]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

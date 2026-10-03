@@ -19,8 +19,10 @@ performedBy:
   - "[[Powerfleet Forklift Gateway]]"
   - "[[STILL FleetManager]]"
   - "[[STILL Smart Portal]]"
+  - "[[Crown RC 5700 Series]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
   - "[[STILL RX 60 Electric Forklift]]"
+  - "[[Raymond 8000 Series Pallet Trucks]]"
   - "[[STILL EXH-SF Low Lift Pallet Truck]]"
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
@@ -51,6 +53,8 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/>
   - [[STILL EXH-SF Low Lift Pallet Truck]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
   - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+  - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Raymond 8000 Series Pallet Trucks]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 
 ## Aliases
 

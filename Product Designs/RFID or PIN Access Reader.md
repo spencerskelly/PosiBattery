@@ -13,6 +13,7 @@ designOf:
   - "[[Linde connect]]"
   - "[[Logisnext Lift Link]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
+  - "[[Raymond 8000 Series Pallet Trucks]]"
   - "[[STILL EXH-SF Low Lift Pallet Truck]]"
   - "[[Toyota PIN Code Access Pad]]"
 ---
@@ -32,6 +33,7 @@ Reader on the truck for RFID cards or PIN entry.
   - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
   - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/>
   - [[STILL EXH-SF Low Lift Pallet Truck]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+  - [[Raymond 8000 Series Pallet Trucks]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 
 ## Aliases
 

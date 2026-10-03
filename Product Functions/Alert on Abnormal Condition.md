@@ -30,6 +30,7 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Yale ERC050-060VGL]]"
 ---
 
 # Alert on Abnormal Condition
@@ -62,6 +63,7 @@ Raise an alarm or notification when a measured quantity crosses a threshold or a
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[EnerSys iQ Mini]] (V): <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf> (also [[Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)]])
+  - [[Yale ERC050-060VGL]] (V): <https://www.allmachines.com/forklifts/yale-erc060vgl>
 
 ## Aliases
 

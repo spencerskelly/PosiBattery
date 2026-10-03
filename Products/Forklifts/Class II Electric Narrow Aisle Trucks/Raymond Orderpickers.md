@@ -12,6 +12,9 @@ subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond Zoning and Positioning]]"
+  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # Raymond Orderpickers
@@ -23,6 +26,7 @@ Raymond order picker line in 24 V or 36 V configurations.
 ## Notes
 
 - A Raymond dealer says the order picker line comes in 24 V or 36 V configurations, and ProMat 2023 coverage mentions a High Capacity Orderpicker with a 456 in elevated height. Source: Carolina Handling and ProMat report (T3/T2), retrieved 2026-10-03. <https://www.carolinahandling.com/forklifts/reach-forklifts> and <https://www.robotics247.com/article/raymond_shows_off_integrated_intralogistics_systems_promat_2023/Raymond_Corp>
+- At its 2023 launch the High Capacity Orderpicker (456 in elevated height) was offered with lithium-ion batteries, the In-Aisle Detection System and Zoning and Positioning. Source: Plant Engineering product item (T2), retrieved 2026-10-03. <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
 
 ## Aliases
 
