@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+describedBy:
+  - "[[Monitor Metric - Current Measurement]]"
 designOf:
   - "[[Access Control Group CellTrac]]"
   - "[[Power Designers PowerTrac 3]]"

@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Data Storage]]"
 performedBy:
   - "[[AMETEK Prestolite Power Site Probe]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"

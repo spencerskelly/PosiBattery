@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+describedBy:
+  - "[[Charger Metric - Battery Voltage Range]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

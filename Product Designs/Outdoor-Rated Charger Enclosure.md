@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - design-characteristic
+describedBy:
+  - "[[Charger Metric - Enclosure Rating]]"
 designOf:
   - "[[ACT Quantum Outdoor]]"
   - "[[EnerSys NexSys+ Charger]]"

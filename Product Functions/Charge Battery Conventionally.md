@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+describedBy:
+  - "[[Charger Metric - Charge Regimes]]"
 performedBy:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"
@@ -15,9 +17,9 @@ performedBy:
   - "[[Deka PowerForce Charger]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
-  - "[[Stryten X-7 Charger]]"
-  - "[[Stryten EHY Charger]]"
   - "[[Stryten EHF Charger]]"
+  - "[[Stryten EHY Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Charge Battery Conventionally

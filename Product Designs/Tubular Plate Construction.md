@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+describedBy:
+  - "[[Battery Metric - Chemistry and Plate Construction]]"
 designOf:
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T330 Battery]]"

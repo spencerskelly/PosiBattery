@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Wireless Interfaces and Range]]"
 performedBy:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"

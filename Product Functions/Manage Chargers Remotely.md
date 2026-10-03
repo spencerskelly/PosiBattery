@@ -7,6 +7,8 @@ status: Draft
 tags:
   - charger
   - product-function
+describedBy:
+  - "[[Charger Metric - Communication and Remote Management]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

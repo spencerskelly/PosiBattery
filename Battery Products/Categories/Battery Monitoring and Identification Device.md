@@ -24,6 +24,22 @@ describedBy:
   - "[[Offerings by Organization]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
+  - "[[Monitor Metric - Nominal Battery Voltage Range]]"
+  - "[[Monitor Metric - Operating Temperature Range]]"
+  - "[[Monitor Metric - Voltage Measurement]]"
+  - "[[Monitor Metric - Current Measurement]]"
+  - "[[Monitor Metric - Temperature Sensing]]"
+  - "[[Monitor Metric - Electrolyte Level Sensing]]"
+  - "[[Monitor Metric - Data Storage]]"
+  - "[[Monitor Metric - Wireless Interfaces and Range]]"
+  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
+  - "[[Monitor Metric - Charger Link]]"
+  - "[[Monitor Metric - Power Consumption]]"
+  - "[[Monitor Metric - Ingress and Chemical Protection]]"
+  - "[[Monitor Metric - Size and Mass]]"
+  - "[[Monitor Metric - Certifications and Standards]]"
+  - "[[Monitor Metric - Price and Warranty]]"
+  - "[[Monitor Comparison Matrix]]"
 ---
 
 # Battery Monitoring and Identification Device

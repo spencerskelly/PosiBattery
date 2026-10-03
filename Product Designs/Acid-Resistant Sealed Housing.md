@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+describedBy:
+  - "[[Monitor Metric - Ingress and Chemical Protection]]"
 designOf:
   - "[[Crown V-Force BMID]]"
   - "[[EnerSys Wi-iQ]]"

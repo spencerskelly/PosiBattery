@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - design-characteristic
+describedBy:
+  - "[[Monitor Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power WBID]]"

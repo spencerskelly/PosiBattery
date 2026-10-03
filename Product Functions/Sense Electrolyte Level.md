@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Electrolyte Level Sensing]]"
 performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Access Control Group CellTrac]]"

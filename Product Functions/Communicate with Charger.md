@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery-monitoring
   - product-function
+describedBy:
+  - "[[Monitor Metric - Charger Link]]"
 performedBy:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID]]"

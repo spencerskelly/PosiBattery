@@ -7,6 +7,8 @@ status: Draft
 tags:
   - battery
   - design-characteristic
+describedBy:
+  - "[[Battery Metric - Operating Temperature and Heating]]"
 designOf:
   - "[[Green Cubes GSE Lithium Battery]]"
 ---
