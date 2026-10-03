@@ -8,6 +8,7 @@ Companies that make, brand or sell industrial batteries, chargers and battery mo
 
 - one Info note per organization, tagged `organization`, with a working role label (battery maker, truck OEM, charger or monitor maker)
 - [[Industrial Battery Supply and Private-Label Relationships]], the register of relationships with evidence status
+- [[Products Offered or Promoted with Industrial Batteries]], the matrix of chargers, monitors, watering, software and trucks named alongside each maker's batteries
 - nothing here is a governed MDSE type; the vault has no Organization class yet (see Q8 in [[Battery Product Landscape Conflicts and Open Questions]])
 
 ## Start here

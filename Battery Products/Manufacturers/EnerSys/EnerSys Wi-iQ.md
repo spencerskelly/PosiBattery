@@ -12,8 +12,8 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[EnerSys]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -31,6 +31,8 @@ performs:
   - "[[Configure Device from Mobile App or PC]]"
   - "[[Detect Voltage Imbalance]]"
   - "[[Command Vehicle Operating Limits over CAN]]"
+  - "[[Identify Battery to Charger]]"
+  - "[[Report Battery Temperature to Charger]]"
 hasDesign:
   - "[[Hall-Effect Current Sensing]]"
   - "[[Bluetooth Low Energy Interface]]"
@@ -83,6 +85,8 @@ EnerSys commercial battery monitoring device for motive-power batteries.
   - [[Configure Device from Mobile App or PC]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Detect Voltage Imbalance]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Command Vehicle Operating Limits over CAN]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+  - [[Identify Battery to Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
+  - [[Report Battery Temperature to Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
 - **Design characteristics, with citations:**
   - [[Hall-Effect Current Sensing]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Bluetooth Low Energy Interface]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
@@ -100,6 +104,9 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 - The manual says Zigbee connects to the Wi-iQ Report PC software, to chargers (NexSys+ battery charger) and to the Xinx system, BLE connects to the E Connect app and Truck iQ, and an optional CAN module offers CANopen CiA 418 or J1939 to trucks (under OEM protocols) and AGVs, sending usable state of charge, DC bus voltage and current, battery temperature, and lift lock-out and limited-operation triggers. Source: EnerSys Wi-iQ4 owner's manual (T1), retrieved 2026-10-02. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 - The manual says it supports equalization requests (an equal-period setting), an adjustable SoC warning with buzzer, six part numbers (Basic flooded, Basic VRLA, Premium CAN single and dual sensor, 120 V versions), and that it must be installed on the battery side and does not work on the truck side for a power study. Source: EnerSys Wi-iQ4 owner's manual (T1), retrieved 2026-10-02. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 - **Verification 2026-10-02:** the earlier refinement that CAN is an optional module stands, and the earlier competitor-table statement that no charger link was stated is corrected: the Wi-iQ4 manual lists wireless communication with the NexSys+ charger (conflicts C16).
+- The NexSys+ charger guide says all NexSys+ chargers are Wi-iQ enabled to receive battery information including battery type and voltage, and that the charger automatically compensates for temperature when the Wi-iQ device is present; IMPAQ and Express chargers are also described as using a Wi-iQ device. Source: EnerSys IMPAQ and NexSys+ modular charger product guide (T1), retrieved 2026-10-02. <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
+- The NexSys COMpact onboard charger is described as embedding the functionalities of the Wi-iQ battery monitoring device. Source: EnerSys NexSys COMpact brochure (T1), retrieved 2026-10-02. <https://enersys.com/49e7e9/globalassets/documents/product-documentation/_enersys/emea/legacy/chargers/emea-en-imp-nxs-com-0323.pdf>
+- **Upgrade (2026-10-02):** this makes Wi-iQ a BMID-class device in function: it identifies the battery to EnerSys chargers and enables temperature compensation. The earlier classification under Battery Monitoring Device only understates this; see conflicts C20 and the competitor table.
 
 ## Aliases
 

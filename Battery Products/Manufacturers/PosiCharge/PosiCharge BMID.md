@@ -19,10 +19,10 @@ supertypeOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
 describedBy:
+  - "[[PosiCharge]]"
   - "[[BMID Competitor Landscape]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
-  - "[[PosiCharge]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"

@@ -13,8 +13,8 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Exide Technologies]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

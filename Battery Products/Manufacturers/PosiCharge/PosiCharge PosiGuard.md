@@ -14,9 +14,9 @@ tags:
 subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:
+  - "[[PosiCharge]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
-  - "[[PosiCharge]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

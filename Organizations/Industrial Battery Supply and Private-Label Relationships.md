@@ -21,6 +21,11 @@ describes:
   - "[[Raymond]]"
   - "[[PosiCharge]]"
   - "[[Advanced Charging Technologies]]"
+  - "[[Stryten Energy]]"
+  - "[[Midac]]"
+  - "[[Triathlon Battery Solutions]]"
+  - "[[Jungheinrich]]"
+  - "[[Sunlight Group]]"
 ---
 
 # Industrial Battery Supply and Private-Label Relationships
@@ -51,8 +56,10 @@ Register of documented supply, private-label, rebrand, integration and channel r
 | HOPPECKE with ELMAS S.R.L. | exclusive long-term partner | trak | uplift air, trak | collect, trak | charger | 2021-01 | [HOPPECKE](https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks) | documented; partner role not detailed |
 | Dealers carrying more than one maker (Western Materials: EnerSys and Deka) | distributor, not white label | conventional lead-acid batteries | undated | [Western Materials](https://www.westmat.com/parts-category/lead-industrial-batteries/) | distributor listing |
 
-- Candidates named in market lists but not researched (names only; the lists are T4 and some are sold by battery marketers): Stryten Energy, Trojan Battery, Midac, Storage Battery Systems, Fullriver, GB Industrial Battery, Revel Industrial Batteries, C&D Technologies, Clarios, Exide Industries (India), Amara Raja, First National Battery, OneCharge, Triathlon, Sunlight, Vision, BSLBATT, ROYPOW, EVE Energy and Gotion (cell suppliers). Sources: <https://www.prophecymarketinsights.com/market_insight/Global-Motive-Lead-Acid-Battery-1218>; <https://www.foxtronpowersolutions.com/forklift-battery-manufacturers/>; <https://www.copowbattery.com/news/top-10-lithium-forklift-battery-manufacturers-85379607.html>; <https://www.imarcgroup.com/blog/top-lead-acid-battery-companies>.
+- Candidates named in market lists but not researched (names only; the lists are T4 and some are sold by battery marketers): Trojan Battery, Storage Battery Systems, Fullriver, GB Industrial Battery, Revel Industrial Batteries, C&D Technologies, Clarios, Exide Industries (India), Amara Raja, First National Battery, OneCharge, Vision, BSLBATT, ROYPOW, EVE Energy and Gotion (cell suppliers). Sources: <https://www.prophecymarketinsights.com/market_insight/Global-Motive-Lead-Acid-Battery-1218>; <https://www.foxtronpowersolutions.com/forklift-battery-manufacturers/>; <https://www.copowbattery.com/news/top-10-lithium-forklift-battery-manufacturers-85379607.html>; <https://www.imarcgroup.com/blog/top-lead-acid-battery-companies>.
 - **Schema gap (Q8):** this vault has no Organization type and no relationship for supplier or rebrand. Organizations are Info notes tagged `organization`; relationships are table rows here and sentences on the organization notes. A schema change is a release-owner decision.
+- **Round 5 additions:** (a) Stryten Energy states it is formerly GNB Industrial Power <https://www.stryten.com/?p=207972>, while Exide documents say GNB Industrial Power becomes Exide Technologies <https://exidegroup.com/en/document/tensor-xgel-brochure> (C30). (b) Triathlon Battery Solutions Ltd is described as a Sunlight Group company <https://sunlight-group.com/en/united-kingdom>. (c) Midac says well-known vehicle and device manufacturers are customers but names none <https://automechanika.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/midac-spa.html>. (d) Green Cubes offers a retrofit kit for OneCharge batteries <https://www.globalspec.com/supplier/ProductAnnouncements/GreenCubesTechnology>. (e) Dealers sell Stryten batteries alongside forklifts <https://www.medleycompany.com/stryten-energy/>.
+- **Candidate list update:** Stryten Energy, Midac, Triathlon and Sunlight Group are now researched (see their notes); remaining candidates are unchanged. Offered-with matrix: [[Products Offered or Promoted with Industrial Batteries]].
 
 ## Aliases
 

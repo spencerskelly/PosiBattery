@@ -10,6 +10,7 @@ tags:
 performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
+  - "[[EnerSys Wi-iQ]]"
   - "[[Fronius TagID]]"
   - "[[HOPPECKE trak collect]]"
   - "[[PosiCharge BMID]]"
@@ -32,6 +33,7 @@ Give the charger the battery temperature so the charger can adjust its charge.
   - [[AMETEK Prestolite Power BID]] (V): <https://www.prestolitepower.com/products/datadevices/bid>
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
   - [[HOPPECKE trak collect]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
+  - [[EnerSys Wi-iQ]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
 
 ## Aliases
 

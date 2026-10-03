@@ -28,6 +28,8 @@ describes:
   - "[[Crown Equipment]]"
   - "[[East Penn Manufacturing]]"
   - "[[Hyster-Yale]]"
+  - "[[Stryten Energy]]"
+  - "[[Exide Technologies]]"
 ---
 
 # Battery Product Landscape Conflicts and Open Questions
@@ -82,6 +84,9 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C28 - East Penn private-label statement scope.** East Penn says most Transportation-division products are sold private label; that does not describe motive power. Source: <https://www.eastpennmanufacturing.com/divisions/transportation/>; [[East Penn Manufacturing]].
 - **C29 - Hyster-Yale product names.** EnerSys writes Hyster Tracker and Yale Vision; trade press writes Hyster Battery Tracker and Yale Battery Vision. Sources: <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>; <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>; [[Hyster-Yale]].
 - **Q8 - Organization modeling.** Keep organizations as Info notes and relationships as register rows, or amend the schema to add an Organization type and a supplier or rebrand relationship? Context: [[Industrial Battery Supply and Private-Label Relationships]]; schema files <https://github.com/spencerskelly/PosiBattery/blob/main/99_System/03_Schemas/relationships.yaml>.
+- **C30 - GNB Industrial Power naming.** Stryten says it is formerly GNB Industrial Power (2023). Exide's brochures say 'GNB becomes Exide Technologies, a division of Exide Technologies'. The Aker Wade acquisition was announced by Exide. Which successor owns which products by region is not stated. Sources: <https://www.stryten.com/?p=207972>; <https://exidegroup.com/en/document/tensor-xgel-brochure>; <https://eepower.com/news/exide-expands-motive-power-offering-with-aker-wade-acquisition/>; [[Stryten Energy]], [[Exide Technologies]].
+- **C31 - Flux Power series names from a secondary directory.** The series list (X, L48, M36, M24, S, C, GSE) comes from a third-party directory page, not Flux's own site. Source: <https://www.fulfill.com/partners/flux-power>; [[Flux Power]].
+- **C20 update:** EnerSys Wi-iQ is now documented as identifying battery type and voltage to NexSys+ chargers and enabling temperature compensation <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>; the seed classification as monitoring-only is wrong in function. Not yet changed in the taxonomy.
 
 ## Aliases
 
