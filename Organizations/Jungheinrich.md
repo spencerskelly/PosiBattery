@@ -19,6 +19,13 @@ playsRole:
   - "[[Brand Owner]]"
 makes:
   - "[[Jungheinrich ETV C16 and C20]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Jungheinrich addedVIEW Camera Systems]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
+  - "[[Jungheinrich curveCONTROL]]"
+  - "[[Jungheinrich ISM Online]]"
+  - "[[Jungheinrich easyPILOT]]"
 offers:
   - "[[Jungheinrich Lithium-Ion Battery]]"
 distributedBy:

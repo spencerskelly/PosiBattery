@@ -33,8 +33,9 @@ Generated roll-up of what each organization makes or offers (batteries, chargers
 | [[Adveez]] | [[Software Vendor]], [[Accessory Maker]] | - | - | - | - | - | [[Adveez Asset and Operations Monitoring System]] | - | - |
 | [[Aker Wade Power Technologies]] | [[Charger Maker]], [[Monitor Maker]] | - | - | - | - | - | - | - | subsidiaryOf: [[Exide Technologies]] |
 | [[Anderson Power Products]] | [[Accessory Maker]] | - | - | - | - | - | [[Anderson SB Connector Series]] | - | - |
+| [[Arcure]] | [[Accessory Maker]] | - | - | - | - | - | - | - | parentOf: [[Blaxtair]] |
 | [[Averest]] | [[Dealer or Distributor]] | - | - | - | - | - | - | [[PosiCharge]] | - |
-| [[Blaxtair]] | [[Accessory Maker]] | - | - | - | - | - | [[Blaxtair Pedestrian Detection System]] | - | - |
+| [[Blaxtair]] | [[Accessory Maker]] | - | - | - | - | - | [[Blaxtair Pedestrian Detection System]] | - | subsidiaryOf: [[Arcure]] |
 | [[Carolina Handling]] | [[Dealer or Distributor]] | - | - | - | - | - | - | [[Raymond]] | - |
 | [[Charlatte Manutention]] | [[Truck OEM]] | - | - | - | - | [[Charlatte T135 Neo 25T]]<br>[[Charlatte T137-V3]]<br>[[Charlatte CBT350 AC Tow Tractor]]<br>[[Charlatte Belt Loaders]]<br>[[Charlatte CPB35E Pushback Tractor]] | - | - | - |
 | [[Crown Battery Manufacturing]] | [[Battery Maker]], [[Brand Owner]] | - | [[Crown Battery EVOLUTION Series]] (offers) | - | - | - | - | - | - |
@@ -53,15 +54,15 @@ Generated roll-up of what each organization makes or offers (batteries, chargers
 | [[Holt of California]] | [[Dealer or Distributor]] | - | - | - | - | - | [[IRIS 860 Sensor Pack]] (offers) | - | - |
 | [[Hyster-Yale]] | [[Truck OEM]], [[Brand Owner]] | - | - | [[Hyster Battery Tracker]] (offers)<br>[[Yale Battery Vision]] (offers) | [[Hyster J1.5-3.0UT(L)]]<br>[[Yale ERC080VHL]]<br>[[Yale ERC050-060VGL]] | - | [[Hyster Power Cellect]]<br>[[Hyster Tracker Telemetry]]<br>[[Yale Vision Telemetry]]<br>[[Hyster Reaction]]<br>[[Hyster Pedestrian Awareness Camera]]<br>[[Yale Reliant Portfolio]]<br>[[Hyster Dynamic Stability System]] | - | parentOf: [[Nuvera]]; integratesWith: [[EnerSys]] |
 | [[Inventus Power]] | [[Battery Maker]], [[Monitor Maker]] | - | - | [[Inventus Smart Battery Monitor SBM-01]] | - | - | - | - | - |
-| [[Jungheinrich]] | [[Truck OEM]], [[Brand Owner]] | [[Jungheinrich Lithium-Ion Battery]] (offers) | - | - | [[Jungheinrich ETV C16 and C20]] | - | - | [[Mitsubishi Logisnext]] | - |
+| [[Jungheinrich]] | [[Truck OEM]], [[Brand Owner]] | [[Jungheinrich Lithium-Ion Battery]] (offers) | - | - | [[Jungheinrich ETV C16 and C20]] | - | [[Jungheinrich zoneCONTROL]]<br>[[Jungheinrich addedVIEW Camera Systems]]<br>[[Jungheinrich Pedestrian Detection System]]<br>[[Jungheinrich Reverse Area Warning System]]<br>[[Jungheinrich curveCONTROL]]<br>[[Jungheinrich ISM Online]]<br>[[Jungheinrich easyPILOT]] | [[Mitsubishi Logisnext]] | - |
 | [[KION Group]] | [[Truck OEM]], [[Brand Owner]] | - | - | - | - | - | - | - | parentOf: [[Linde Material Handling]], [[STILL]] |
 | [[Larson Electronics]] | [[Accessory Maker]] | - | - | - | - | - | [[Larson Explosion-Proof Blue LED Forklift Light]] | - | - |
 | [[Lester Electrical]] | [[Charger Maker]] | - | [[Lester Summit Series II]] | - | - | - | - | - | - |
-| [[Linde Material Handling]] | [[Truck OEM]], [[Brand Owner]] | [[Linde 90 V Lithium-Ion Battery]] (offers) | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] (offers) | - | [[Linde Ei Series]]<br>[[Linde E Series Electric Counterbalance Forklifts]]<br>[[Linde 1293 Series (E20BHP and E25BHP)]]<br>[[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde P250 Electric Baggage Tractor]] | [[Linde Safety Guard]]<br>[[Linde Safety Pilot]]<br>[[Linde BlueSpot]]<br>[[Linde Motion Detection]]<br>[[Linde connect]]<br>[[Linde Smartphone Holder]] | - | subsidiaryOf: [[KION Group]] |
+| [[Linde Material Handling]] | [[Truck OEM]], [[Brand Owner]] | [[Linde 90 V Lithium-Ion Battery]] (offers) | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] (offers) | - | [[Linde Ei Series]]<br>[[Linde E Series Electric Counterbalance Forklifts]]<br>[[Linde 1293 Series (E20BHP and E25BHP)]]<br>[[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde P250 Electric Baggage Tractor]] | [[Linde Safety Guard]]<br>[[Linde Safety Pilot]]<br>[[Linde BlueSpot]]<br>[[Linde Motion Detection]]<br>[[Linde connect]]<br>[[Linde Smartphone Holder]]<br>[[Linde Safety Guard Truck Unit]]<br>[[Linde Safety Guard Zone Marker]]<br>[[Linde Safety Guard Static Unit]]<br>[[Linde Safety Guard Portable Unit]]<br>[[Linde Load Management Advanced]]<br>[[Linde Dynamic Mast Control]]<br>[[Linde System Control]]<br>[[Linde Rotating Operator Workstation]]<br>[[Linde MT18 Multifunction Display]] | - | subsidiaryOf: [[KION Group]] |
 | [[Mallaghan]] | [[Truck OEM]] | - | - | - | - | [[Mallaghan SkyBelt]] | [[Mallaghan Collision Avoidance System]] | - | - |
 | [[Medley Company]] | [[Dealer or Distributor]] | - | - | - | - | - | - | [[Stryten Energy]] | - |
 | [[Midac]] | [[Battery Maker]] | [[Midac PzS Traction Battery]] | - | - | - | - | [[Midac Aquamatic Watering System]] (offers)<br>[[Midac EUW Electrolyte Circulation System]] (offers)<br>[[Midac End Leads]] (offers) | - | - |
-| [[Mitsubishi Logisnext]] | [[Truck OEM]], [[Brand Owner]], [[Dealer or Distributor]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] (offers) | - | - | [[UniCarriers MX2 and MXL Series]] | - | - | [[Jungheinrich]], [[Triathlon USA]] | - |
+| [[Mitsubishi Logisnext]] | [[Truck OEM]], [[Brand Owner]], [[Dealer or Distributor]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] (offers) | - | - | [[UniCarriers MX2 and MXL Series]] | - | [[Logisnext Lift Link]] | [[Powerfleet Forklift Gateway]], [[Jungheinrich]], [[Triathlon USA]] | - |
 | [[Motive Energy]] | [[Dealer or Distributor]] | - | - | - | - | - | - | [[Advanced Charging Technologies]] | - |
 | [[Nuvera]] | [[Battery Maker]] | - | - | - | - | - | [[Nuvera PowerEdge]] | - | subsidiaryOf: [[Hyster-Yale]] |
 | [[Oshkosh AeroTech]] | [[Truck OEM]] | - | - | - | - | [[Oshkosh AeroTech B80E Electric Baggage Tractor]]<br>[[Oshkosh AeroTech Pushback B350E and B650E]]<br>[[Oshkosh AeroTech Ranger 15E Cargo Loader]]<br>[[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech Aircraft Proximity Detection]]<br>[[Oshkosh AeroTech iOPS]] | - | - |
@@ -91,6 +92,7 @@ Generated roll-up of what each organization makes or offers (batteries, chargers
 - **Round 18:** regenerated after the truck OEM accessories pass.
 - **Round 19:** regenerated with the new PosiCharge products.
 - **Round 20:** regenerated.
+- **Round 22:** regenerated.
 
 ## Aliases
 

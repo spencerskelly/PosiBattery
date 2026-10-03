@@ -24,6 +24,9 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
 ---
 
 # Alert Operator of Hazards
@@ -46,6 +49,9 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Toyota SEnS Pedestrian Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Linde Safety Guard Truck Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 
 ## Aliases
 

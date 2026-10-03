@@ -16,6 +16,7 @@ designOf:
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # Impact Sensor
@@ -32,6 +33,7 @@ Sensor that detects a collision or impact on the truck.
   - [[Toyota MyInsights Telematics]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Panacea Cam-DVR with Impact Sensors]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
 
 ## Aliases
 

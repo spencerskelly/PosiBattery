@@ -12,12 +12,15 @@ subtypeOf:
 dependsOn:
   - "[[Impact Sensor]]"
 performedBy:
+  - "[[Crown InfoLink]]"
+  - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # Detect and Record Impacts
@@ -37,6 +40,9 @@ Detect an impact, record it with time, truck and driver references, and report i
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Panacea Cam-DVR with Impact Sensors]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[Raymond iWAREHOUSE]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
+  - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

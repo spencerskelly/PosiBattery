@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Twistlock Snapshot Camera System]]"
+  - "[[Jungheinrich addedVIEW Camera Systems]]"
 ---
 
 # Vehicle Camera and Recorder

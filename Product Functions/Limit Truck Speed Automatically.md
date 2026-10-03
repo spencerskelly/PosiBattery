@@ -24,6 +24,7 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -48,6 +49,7 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Raymond In-Aisle Detection System]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
   - [[Raymond Travel Speed Control]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
 
 ## Aliases
 

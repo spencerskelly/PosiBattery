@@ -12,10 +12,13 @@ subtypeOf:
 dependsOn:
   - "[[Operator Identification Design]]"
 performedBy:
+  - "[[Crown InfoLink]]"
+  - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # Control Operator Access
@@ -33,6 +36,9 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Panacea Smart Start]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[Toyota PIN Code Access Pad]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
+  - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

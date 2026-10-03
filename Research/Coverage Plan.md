@@ -28,10 +28,24 @@ How the catalog decides which makers and products to include, what a finished ca
 1. **Reference makers.** For each product type, the reference makers are chosen from a cited ranking or list in this note. Forklift OEMs have a credible annual ranking (tier T2). Batteries, chargers, accessories and GSE have no authoritative ranking in what was found, so their reference makers are those named by at least two independent lists, with the lists shown (tier T4 for marketing and report-table lists).
 2. **Top makers covered.** A reference maker counts as covered for a type when it has at least one product note of that type, or a dated entry saying a search found none.
 3. **Sample of the rest.** For each type and each world region (Americas, Europe, Asia-Pacific, Middle East and Africa), add at least three makers outside the reference list, chosen to differ in business model (OEM-integrated, independent, private label) and, for batteries, in chemistry. The selection reason is written on each organization note. This rule is what keeps the sample from being only what English-language web pages show.
-4. **Product finish test.** A product note counts toward coverage when it names its maker or offerer, its category, a source file or page, and at least three values from the category's metric set (or says that the source gives none).
+4. **Product finish test (owner decision, 2026-10-03: the minimum differs by product type; the numbers are proposals).** A product note counts toward coverage when it names its maker or offerer, its category, a source file or page with its tier, and at least the number of values below from the category's metric set (or says the source gives none):
+
+| Product type | Proposed minimum values | Which values |
+|---|---|---|
+| Batteries | 4 | chemistry, nominal voltage range, capacity, cycle life or warranty |
+| Chargers | 5 | voltage range, output power and current, input, efficiency, chemistries or charge regimes (certifications where stated) |
+| Forklifts and other trucks | 3 | class or type, rated capacity, battery type and voltage; plus the truck-side devices offered, linked, since lifting power matters less than devices (owner) |
+| Battery accessories and monitors | 3 | what it measures or does, interfaces, mounting and temperature or enclosure data |
+| Charger accessories | 2 | what it does and which chargers it fits |
+| Vehicle accessories | 3 | detection or function, response, integration and availability (the truck metrics) |
+| Fleet software and platforms | 2 | functions and data interfaces |
+| Fuel cell power units | 3 | power, refuel time, fuel storage |
+| Ground support equipment vehicles | 3 | vehicle type, drive and battery voltage, capacity |
+
 5. **Region.** Each organization note records headquarters and regions served with a source. Product notes record the standards the source names (UL, CE, GB/T and others) through the certifications metric.
 6. **Neutrality.** Every maker is treated alike in the catalog, including PosiCharge and Power Designers: same fields, same evidence rules, no extra depth. Ampure's internal-versus-external classification belongs to the business analysis, not to the catalog.
 7. **Priority.** Document and research priority follows coverage need (reference makers with no product notes first), not the owner's company.
+8. **Evidence tiers (owner decision, 2026-10-03: dealer and trade press count as decision-grade if labelled by tier).** Tiers are the ones in [[Landscape Evidence and Modeling Conventions]]: T1 manufacturer product page, data sheet, manual or vendor app listing; T2 manufacturer press release or trade press quoting the manufacturer; T3 reseller or parts-catalog listing; T4 third-party blog, training material or vendor marketing; T5 patent. Proposed handling: every value carries its tier; a T3 or T4 value never overrides a T1 or T2 value (both stay visible and a conflict is logged); a value that has only T3 or T4 support is marked 'single lower-tier source' in matrices; a comparison matrix shows the tier next to any value below T2.
 
 **Reference evidence**
 
@@ -47,10 +61,10 @@ How the catalog decides which makers and products to include, what a finished ca
 | Rank (2025 list, 2024 revenue) | Company as ranked | Vault organization | 2024 revenue | Headquarters stated by a source | Forklift products on file (with subsidiaries and brands) | All product notes on file (with subsidiaries and brands) | Status |
 |---|---|---|---|---|---|---|---|
 | 1 | Toyota Industries Corporation | [[Toyota Industries Corporation]] | not stated in the retrieved text | Japan (Kariya, Aichi; 2024 list) | 6 | 39 | covered |
-| 2 | KION Group | [[KION Group]] | $8.96B | Germany (2019 list) | 4 | 14 | covered |
-| 3 | Jungheinrich | [[Jungheinrich]] | $5.60B | Germany (2019 list) | 1 | 2 | covered |
+| 2 | KION Group | [[KION Group]] | $8.96B | Germany (2019 list) | 4 | 23 | covered |
+| 3 | Jungheinrich | [[Jungheinrich]] | $5.60B | Germany (2019 list) | 1 | 9 | covered |
 | 4 | Crown Equipment Corp. | [[Crown Equipment]] | not stated in the retrieved text | United States (2019 list) | 5 | 22 | covered |
-| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 1 | 2 | covered |
+| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 1 | 3 | covered |
 | 6 | Hyster-Yale | [[Hyster-Yale]] | $4.30B | United States (Cleveland; 2024 list) | 3 | 13 | covered |
 | 7 | Anhui Forklift Group | [[Anhui Heli]] | $2.51B | China (the vault note is titled Anhui Heli; see C84) | 0 | 0 | gap: no forklift note |
 | 8 | Hangcha Group | [[Hangcha Group]] | $2.29B | China (2019 list) | 0 | 0 | gap: no forklift note |
@@ -88,8 +102,8 @@ How the catalog decides which makers and products to include, what a finished ca
 | Fuel Cell Power Units | 2 | [[Nuvera]], [[Plug Power]] |
 | Ground Support Equipment | 6 | [[Charlatte Manutention]], [[Linde Material Handling]], [[Mallaghan]], [[Oshkosh AeroTech]], [[TLD Group]], [[Textron GSE]] |
 
-- **Region recorded:** 35 of 69 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
-- **What the ledger shows:** the vault is strong on North American makers and on the top three or four forklift OEMs, and has no product notes for the Chinese, Korean and most Japanese forklift makers or for the Asian and Indian battery makers named in the lists; accessory and software coverage is deep for a few makers (Crown, Raymond, Toyota, Hyster-Yale, Linde) and thin elsewhere.
+- **Region recorded:** 35 of 70 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
+- **What the ledger shows:** the vault is strong on North American makers and on the top forklift OEMs' truck-side devices (Toyota, Crown, Raymond, Hyster-Yale, Linde, Jungheinrich, Mitsubishi Logisnext), and has no product notes for the Chinese, Korean and most Japanese forklift makers or for the Asian and Indian battery makers named in the lists; accessory and software coverage is thin for makers outside that group.
 
 ## Aliases
 

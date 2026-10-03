@@ -29,6 +29,11 @@ supertypeOf:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Linde Safety Guard Zone Marker]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
 ---
 
 # Proximity and Object Detection System

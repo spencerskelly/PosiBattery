@@ -21,6 +21,7 @@ supertypeOf:
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
+  - "[[Coverage Plan]]"
   - "[[Document Wishlist]]"
   - "[[External Context and Provenance]]"
   - "[[Function Design Dependencies]]"
@@ -34,7 +35,6 @@ describedBy:
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Unidentified Products Review]]"
-  - "[[Coverage Plan]]"
 ---
 
 # Battery-Connected Product

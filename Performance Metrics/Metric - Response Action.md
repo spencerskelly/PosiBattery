@@ -32,7 +32,11 @@ Response Action: What the system does on detection: alert only, slow the truck, 
   - [[Hyster Pedestrian Awareness Camera]]: audible, visual and optional traction alerts; voiceover and zone light
   - [[Hyster Reaction]]: limits speed, acceleration and hydraulic functions; visual and audible alerts
   - [[IRIS 860 Sensor Pack]]: warns the forklift operator (response form not stated)
+  - [[Jungheinrich Pedestrian Detection System]]: detects pedestrians and applies speed control (2016 report)
+  - [[Jungheinrich Reverse Area Warning System]]: optical and acoustic warning that grows with proximity
+  - [[Jungheinrich zoneCONTROL]]: warns trucks and pedestrians; crawl speed at busy intersections; door control; can force minimum speed
   - [[Linde Safety Guard]]: warns pedestrians via vests; defines reduced-speed zones
+  - [[Linde Safety Guard Zone Marker]]: sets maximum travel speed in defined zones
   - [[Powerfleet Pedestrian Proximity Detection]]: can trigger speed and access control
   - [[STILL Safety Assist and Curve Speed Control]]: slow-speed zones; curve speed adjustment
   - [[Toyota SEnS+ Pedestrian and Object Detection]]: visual and audible alerts; one report adds regenerative-braking movement limiting (C66)

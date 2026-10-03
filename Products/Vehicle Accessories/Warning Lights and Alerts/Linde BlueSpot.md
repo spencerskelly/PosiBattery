@@ -32,6 +32,7 @@ Linde driving path warning lights (Blue Spot, Red Spot, Truck Spot) projecting a
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://logisticsmatters.co.uk/page_513926.asp>
 - **Design characteristics, with citations:**
   - [[Floor-Projected Warning Light]] (V): <https://logisticsmatters.co.uk/page_513926.asp>
+- The brochure says the Blue Spot, Red Spot and Truck Spot (an LED warning symbol) are factory options and retrofits on H14 to H80 (series 391-396), E12 to E80 (series 386-1279) and R10 to R25 reach trucks (series 1120), for noisy sites and easy retrofitting. Source: Linde Rhein-Ruhr safety brochure (T3), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

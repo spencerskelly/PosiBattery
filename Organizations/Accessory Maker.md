@@ -15,6 +15,7 @@ rolePlayedBy:
   - "[[Panacea Aftermarket Co.]]"
   - "[[Powerfleet]]"
   - "[[TVH]]"
+  - "[[Arcure]]"
 ---
 
 # Accessory Maker

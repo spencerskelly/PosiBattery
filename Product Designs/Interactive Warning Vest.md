@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Indicator and Alarm Design]]"
 designOf:
   - "[[Linde Safety Guard]]"
+  - "[[Linde Safety Guard Portable Unit]]"
 ---
 
 # Interactive Warning Vest
@@ -24,6 +25,7 @@ Vest worn by a pedestrian that alerts the wearer to an approaching truck.
 - Design characteristic found in truck-side products, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[Linde Safety Guard Portable Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

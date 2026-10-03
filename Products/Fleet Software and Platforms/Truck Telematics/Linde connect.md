@@ -38,6 +38,7 @@ Linde fleet management system with modules for access control, usage analysis, c
 - **Design characteristics, with citations:**
   - [[RFID or PIN Access Reader]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Impact Sensor]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
+- The Linde dealer brochure says the connect modules (connect:ac PIN or RFID access control, connect:an usage analysis, connect:dt crash detection, operating hours and trouble codes) are available factory-fitted or as a retrofit for all Linde products, and retrofit for other makes on request. Source: Linde Rhein-Ruhr safety brochure (T3), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

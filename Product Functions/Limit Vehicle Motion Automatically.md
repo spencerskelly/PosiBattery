@@ -13,6 +13,7 @@ supertypeOf:
   - "[[Slow Truck in Curves]]"
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Stop Vehicle When Operator Is Out of Position]]"
+  - "[[Adapt Speed to Load and Lift Height]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Crown Gena Operating System]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[EnerSys Truck iQ]]"
+  - "[[Linde MT18 Multifunction Display]]"
 ---
 
 # Operator Display

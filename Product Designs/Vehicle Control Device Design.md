@@ -12,6 +12,8 @@ supertypeOf:
   - "[[Fork Laser Guide]]"
   - "[[Operator Identification Design]]"
   - "[[Regenerative Braking]]"
+  - "[[Electric Mast Thrust Drive]]"
+  - "[[Belt-Worn Remote Control]]"
 ---
 
 # Vehicle Control Device Design

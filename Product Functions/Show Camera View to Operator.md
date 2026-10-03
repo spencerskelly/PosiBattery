@@ -17,6 +17,7 @@ performedBy:
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Assist]]"
+  - "[[Jungheinrich addedVIEW Camera Systems]]"
 ---
 
 # Show Camera View to Operator
@@ -35,6 +36,7 @@ Show the operator a camera view of the truck's surroundings.
   - [[Toyota 360 Operating Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Toyota Carriage-Mounted Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Raymond Vantage Point System]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Jungheinrich addedVIEW Camera Systems]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 
 ## Aliases
 

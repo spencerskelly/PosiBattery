@@ -29,6 +29,10 @@ supertypeOf:
   - "[[Toyota Load Weight Sensing]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Linde Load Management Advanced]]"
+  - "[[Linde Dynamic Mast Control]]"
+  - "[[Linde System Control]]"
+  - "[[Jungheinrich curveCONTROL]]"
 ---
 
 # Operator Assist and Stability System

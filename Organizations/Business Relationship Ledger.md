@@ -498,6 +498,27 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Raymond Fork Tilt Leveling]] | [[Raymond 4000 Series Counterbalanced Trucks]] | options sheet is titled 'Options for the 4000 Series Stand-Up Counterbalanced Trucks' | <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf> |
 | offeredWith | [[Raymond Fork-Tip Laser Guide]] | [[Raymond 4000 Series Counterbalanced Trucks]] | options sheet is titled 'Options for the 4000 Series Stand-Up Counterbalanced Trucks' | <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf> |
 | offeredWith | [[Raymond Mast Lift Limit Switch with Bypass]] | [[Raymond 4000 Series Counterbalanced Trucks]] | options sheet is titled 'Options for the 4000 Series Stand-Up Counterbalanced Trucks' | <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf> |
+| playsRole | [[Arcure]] | [[Accessory Maker]] | analyst label from the organization note | see the organization note |
+| subsidiaryOf | [[Blaxtair]] | [[Arcure]] | one trade page calls Blaxtair a brand from Arcure; brand versus legal-entity status not stated | <https://www.soe.org.uk/resources/safe-operations.html> |
+| makes | [[Linde Material Handling]] | [[Linde Safety Guard Truck Unit]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Safety Guard Zone Marker]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Safety Guard Static Unit]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Safety Guard Portable Unit]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Load Management Advanced]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Dynamic Mast Control]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde System Control]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Rotating Operator Workstation]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde MT18 Multifunction Display]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich zoneCONTROL]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich addedVIEW Camera Systems]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich Pedestrian Detection System]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich Reverse Area Warning System]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich curveCONTROL]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich ISM Online]] | vendor presents the product as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich easyPILOT]] | vendor presents the product as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[Logisnext Lift Link]] | vendor presents the product as its own | see the product note |
+| integratesWith | [[Jungheinrich Pedestrian Detection System]] | [[Blaxtair Pedestrian Detection System]] | the Jungheinrich system is built around the Blaxtair camera | <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/> |
+| distributedBy | [[Powerfleet Forklift Gateway]] | [[Mitsubishi Logisnext]] | reseller agreement between Mitsubishi Logisnext Americas and PowerFleet (2021) | <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html> |
 
 ## Aliases
 

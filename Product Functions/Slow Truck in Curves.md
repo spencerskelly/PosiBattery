@@ -16,6 +16,7 @@ performedBy:
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
+  - "[[Jungheinrich curveCONTROL]]"
 ---
 
 # Slow Truck in Curves
@@ -33,6 +34,7 @@ Reduce speed automatically when cornering.
   - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
 
 ## Aliases
 

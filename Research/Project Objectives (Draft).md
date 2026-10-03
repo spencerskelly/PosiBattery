@@ -27,6 +27,8 @@ Objectives, scope, success measures and open decisions for the vault; three scop
 1. **Purpose:** the vault is a neutral market reference. The catalog drives; the PosiCharge analysis is one use of it.
 2. **Market scope:** global.
 3. **A finished category:** the top makers are covered, plus a sample of the rest.
+4. **Minimum depth:** the minimum number of values for a finished product note differs by product type (numbers proposed in [[Coverage Plan]]).
+5. **Evidence:** dealer and trade press count as decision-grade when labelled by tier (handling rule proposed in [[Coverage Plan]]).
 
 **What follows from the decisions (proposed reading)**
 
@@ -54,8 +56,8 @@ Objectives, scope, success measures and open decisions for the vault; three scop
 
 **Still open**
 
-- Depth: is three metric values per product the right minimum (proposed), and which product types need more?
-- Evidence tiers: which count as decision-grade (manufacturer sheets only, or also dealer and press pages)?
+- Depth: confirm or change the per-type minimums proposed in [[Coverage Plan]].
+- Evidence handling: confirm the proposed rules for lower-tier values (never override T1 or T2; flagged when single-source).
 - Currency: how often must volatile facts (current catalogs, availability) be rechecked?
 - Sample size: is three makers per type and region (proposed) right?
 - Boundary with the analysis: which facts move between the catalog and the analysis, and who reviews them?

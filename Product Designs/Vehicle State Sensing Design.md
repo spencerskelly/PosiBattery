@@ -14,6 +14,7 @@ supertypeOf:
 dependencyOf:
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Sense Load Weight and Lift Height]]"
+  - "[[Adapt Speed to Load and Lift Height]]"
 ---
 
 # Vehicle State Sensing Design

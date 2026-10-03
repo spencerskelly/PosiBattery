@@ -12,7 +12,6 @@ hasChild:
   - "[[Limit Vehicle Motion Automatically]]"
   - "[[Warn People of Hazards]]"
   - "[[Maintain Vehicle Stability and Load Awareness]]"
-  - "[[Support Operator View and Positioning]]"
 ---
 
 # Protect People and Equipment Near Vehicles

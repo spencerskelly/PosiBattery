@@ -21,6 +21,8 @@ supertypeOf:
   - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
+  - "[[Jungheinrich ISM Online]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # Truck Telematics Software

@@ -63,7 +63,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown Capacity Data Monitor]] | [[Crown Equipment]] | accessory | 1 | 0 | 0 | none |
 | [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 1 | partial |
 | [[Crown Gena Operating System]] | [[Crown Equipment]] | accessory | 1 | 2 | 2 | partial |
-| [[Crown InfoLink]] | [[Crown Equipment]] | accessory | 2 | 4 | 1 | partial |
+| [[Crown InfoLink]] | [[Crown Equipment]] | accessory | 5 | 4 | 1 | partial |
 | [[Crown InfoLink 7-inch Touch Display]] | [[Crown Equipment]] | accessory | 0 | 1 | 2 | partial |
 | [[Crown ProximityAssist System]] | [[Crown Equipment]] | accessory | 5 | 2 | 2 | partial |
 | [[Crown RC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 4 | defined |
@@ -141,7 +141,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Hyster Pedestrian Awareness Camera]] | [[Hyster-Yale]] | accessory | 3 | 0 | 2 | partial |
 | [[Hyster Power Cellect]] | [[Hyster-Yale]] | accessory | 3 | 1 | 0 | none |
 | [[Hyster Reaction]] | [[Hyster-Yale]] | accessory | 8 | 0 | 0 | none |
-| [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | accessory | 1 | 1 | 0 | none |
+| [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | accessory | 4 | 1 | 0 | none |
 | [[Yale Battery Vision]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
 | [[Yale ERC050-060VGL]] | [[Hyster-Yale]] | forklift | 0 | 0 | 0 | none |
 | [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 1 | 1 | 0 | none |
@@ -149,21 +149,37 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Yale Vision Telemetry]] | [[Hyster-Yale]] | accessory | 1 | 1 | 0 | none |
 | [[Inventus Smart Battery Monitor SBM-01]] | [[Inventus Power]] | monitor | 9 | 0 | 7 | defined |
 | [[Jungheinrich ETV C16 and C20]] | [[Jungheinrich]] | forklift | 0 | 0 | 2 | partial |
+| [[Jungheinrich ISM Online]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
 | [[Jungheinrich Lithium-Ion Battery]] | [[Jungheinrich]] | battery | 1 | 0 | 4 | defined |
+| [[Jungheinrich Pedestrian Detection System]] | [[Jungheinrich]] | accessory | 3 | 0 | 0 | none |
+| [[Jungheinrich Reverse Area Warning System]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
+| [[Jungheinrich addedVIEW Camera Systems]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
+| [[Jungheinrich curveCONTROL]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
+| [[Jungheinrich easyPILOT]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
+| [[Jungheinrich zoneCONTROL]] | [[Jungheinrich]] | accessory | 4 | 0 | 0 | none |
 | [[Larson Explosion-Proof Blue LED Forklift Light]] | [[Larson Electronics]] | accessory | 0 | 0 | 3 | defined |
 | [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
 | [[Linde 1293 Series (E20BHP and E25BHP)]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 2 | 3 | defined |
 | [[Linde 90 V Lithium-Ion Battery]] | [[Linde Material Handling]] | battery | 0 | 2 | 7 | defined |
 | [[Linde BlueSpot]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
+| [[Linde Dynamic Mast Control]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Linde E Series Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 0 | 2 | partial |
 | [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Linde Material Handling]] | charger | 0 | 2 | 2 | partial |
+| [[Linde Load Management Advanced]] | [[Linde Material Handling]] | accessory | 3 | 0 | 0 | none |
+| [[Linde MT18 Multifunction Display]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Linde Motion Detection]] | [[Linde Material Handling]] | accessory | 1 | 0 | 0 | none |
 | [[Linde P250 Electric Baggage Tractor]] | [[Linde Material Handling]] | gse | 0 | 0 | 0 | none |
+| [[Linde Rotating Operator Workstation]] | [[Linde Material Handling]] | accessory | 1 | 0 | 1 | partial |
 | [[Linde Safety Guard]] | [[Linde Material Handling]] | accessory | 6 | 0 | 0 | none |
+| [[Linde Safety Guard Portable Unit]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
+| [[Linde Safety Guard Static Unit]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
+| [[Linde Safety Guard Truck Unit]] | [[Linde Material Handling]] | accessory | 3 | 0 | 1 | partial |
+| [[Linde Safety Guard Zone Marker]] | [[Linde Material Handling]] | accessory | 1 | 0 | 0 | none |
 | [[Linde Safety Pilot]] | [[Linde Material Handling]] | accessory | 3 | 0 | 0 | none |
 | [[Linde Smartphone Holder]] | [[Linde Material Handling]] | accessory | 0 | 0 | 0 | none |
+| [[Linde System Control]] | [[Linde Material Handling]] | accessory | 1 | 0 | 0 | none |
 | [[Linde connect]] | [[Linde Material Handling]] | accessory | 5 | 0 | 0 | none |
 | [[Mallaghan Collision Avoidance System]] | [[Mallaghan]] | accessory | 1 | 0 | 1 | partial |
 | [[Mallaghan SkyBelt]] | [[Mallaghan]] | gse | 0 | 0 | 0 | none |
@@ -171,6 +187,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Midac EUW Electrolyte Circulation System]] | [[Midac]] | accessory | 2 | 1 | 0 | none |
 | [[Midac End Leads]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 3 | 0 | none |
+| [[Logisnext Lift Link]] | [[Mitsubishi Logisnext]] | accessory | 6 | 0 | 0 | none |
 | [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext]] | forklift | 0 | 1 | 4 | defined |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
 | [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
@@ -223,7 +240,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Power Designers PowerTrac Monitor]] | [[Power Designers]] | monitor | 7 | 0 | 0 | none |
 | [[Power Designers PowerTrac SP+]] | [[Power Designers]] | monitor | 15 | 1 | 4 | defined |
 | [[Power Designers REVOLUTION X]] | [[Power Designers]] | charger | 9 | 2 | 13 | defined |
-| [[Powerfleet Forklift Gateway]] | [[Powerfleet]] | accessory | 4 | 0 | 0 | none |
+| [[Powerfleet Forklift Gateway]] | [[Powerfleet]] | accessory | 5 | 0 | 0 | none |
 | [[Powerfleet Forklift Safety Lights]] | [[Powerfleet]] | accessory | 2 | 0 | 0 | none |
 | [[Powerfleet Pedestrian Proximity Detection]] | [[Powerfleet]] | accessory | 2 | 0 | 0 | none |
 | [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 0 | 7 | 2 | partial |
@@ -300,6 +317,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 18:** table regenerated.
 - **Round 19:** table regenerated.
 - **Round 20:** table regenerated.
+- **Round 22:** table regenerated.
 
 ## Aliases
 

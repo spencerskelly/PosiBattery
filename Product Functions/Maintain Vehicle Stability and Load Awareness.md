@@ -11,6 +11,7 @@ supertypeOf:
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Stabilize Truck Dynamically]]"
+  - "[[Damp Mast Oscillation]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

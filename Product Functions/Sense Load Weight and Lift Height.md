@@ -17,6 +17,7 @@ performedBy:
   - "[[Raymond Load Weight Display]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Load Weight Sensing]]"
+  - "[[Linde Load Management Advanced]]"
 ---
 
 # Sense Load Weight and Lift Height
@@ -35,6 +36,7 @@ Measure the load, lift height or tilt so the truck can show limits or assist lif
   - [[Crown Capacity Data Monitor]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
   - [[Toyota Load Weight Sensing]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
   - [[Raymond Load Weight Display]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Linde Load Management Advanced]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

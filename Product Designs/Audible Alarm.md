@@ -15,6 +15,7 @@ designOf:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Crown Battery Acid Indicators]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Linde Safety Guard Static Unit]]"
 ---
 
 # Audible Alarm
@@ -34,6 +35,7 @@ Buzzer or beeper that sounds an alert.
   - [[Philadelphia Scientific eGO!Mini]] (V): <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>
   - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Linde Safety Guard Static Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

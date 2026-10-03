@@ -15,6 +15,7 @@ performedBy:
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Hyster Reaction]]"
+  - "[[Jungheinrich curveCONTROL]]"
 ---
 
 # Stabilize Truck Dynamically
@@ -33,6 +34,7 @@ Intervene in travel or lift functions to keep the truck from becoming unstable o
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Linde Safety Pilot]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+  - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
 
 ## Aliases
 

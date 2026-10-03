@@ -42,13 +42,15 @@ How functions and designs are generalized into levels, which relationships conne
   - [[Maintain Battery Electrolyte]] (general): [[Circulate Electrolyte]], [[Water Battery Cells]]
 - **[[Manage Fleet Use and Data]]** (goal)
   - [[Communicate Battery and Vehicle Data]] (general): [[Communicate Battery State over CAN]], [[Communicate with Charger]], [[Configure Device from Mobile App or PC]], [[Export Battery Data to PC]], [[Identify Battery to Charger]], [[Log Battery Events and Usage]], [[Report Battery Temperature to Charger]], [[Transmit Battery Data Wirelessly]], [[Upload Battery Data to Cloud Portal]]
-  - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
+  - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Enforce Pre-Shift Checklist]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
 - **[[Protect People and Equipment Near Vehicles]]** (goal)
   - [[Sense Collision Risk and Events]] (general): [[Detect Pedestrians and Objects Near Truck]], [[Detect and Record Impacts]]
-  - [[Limit Vehicle Motion Automatically]] (general): [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Slow Truck in Curves]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
+  - [[Limit Vehicle Motion Automatically]] (general): [[Adapt Speed to Load and Lift Height]], [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Slow Truck in Curves]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
   - [[Warn People of Hazards]] (general): [[Alert Operator of Hazards]], [[Indicate Aircraft Proximity to Operator]], [[Warn Pedestrians of Approaching Truck]]
-  - [[Maintain Vehicle Stability and Load Awareness]] (general): [[Restrict Lift When Load Exceeds Limit]], [[Sense Load Weight and Lift Height]], [[Stabilize Truck Dynamically]]
+  - [[Maintain Vehicle Stability and Load Awareness]] (general): [[Damp Mast Oscillation]], [[Restrict Lift When Load Exceeds Limit]], [[Sense Load Weight and Lift Height]], [[Stabilize Truck Dynamically]]
+- **[[Support the Operator]]** (goal)
   - [[Support Operator View and Positioning]] (general): [[Assist Lift Positioning]], [[Show Camera View to Operator]]
+  - [[Reduce Operator Effort]] (general): [[Follow Operator Automatically]], [[Rotate Operator Workstation]]
 
 **Design classes**
 
@@ -63,7 +65,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Fuel Cell Power Design]]**: [[Fuel Cell Hybrid Power Stage]], [[Hydrogen Storage Tank]], [[Onboard Fuel Level Gauge]]
 - **[[Lead-Acid Battery Construction Design]]**: [[Extended Watering Interval]], [[Forced Electrolyte Circulation]], [[Gel Electrolyte]], [[Thin Plate Pure Lead Plates]], [[Tubular Plate Construction]]
 - **[[Object and Proximity Sensing Design]]**: [[LiDAR Object Sensor]], [[Magnetic Field Detection Sensor]], [[Pedestrian Detection Camera]], [[Proximity Tag System]], [[Radar Object Sensor]], [[Stereoscopic Vision Sensor]], [[Ultrasonic Distance Sensor]]
-- **[[Vehicle Control Device Design]]**: [[Active Stability Actuator]], [[Fork Laser Guide]], [[Regenerative Braking]]
+- **[[Vehicle Control Device Design]]**: [[Active Stability Actuator]], [[Belt-Worn Remote Control]], [[Electric Mast Thrust Drive]], [[Fork Laser Guide]], [[Regenerative Braking]]
   - **[[Operator Identification Design]]**: [[Fingerprint Reader]], [[RFID or PIN Access Reader]]
 - **[[Vehicle State Sensing Design]]**: [[Hydraulic Pressure Load Sensor]], [[Impact Sensor]]
   - **[[Operator Presence Sensing Design]]**: [[Light-Beam Compartment Sensor]], [[Operator Sensing Floor Mat]]
@@ -78,21 +80,22 @@ How functions and designs are generalized into levels, which relationships conne
 | General function | Specific functions | Products (count) | Designs that appear on those products (count of products) |
 |---|---|---|---|
 | [[Charge Battery]] | 6 | 30 | [[Modular Power Modules]] (10), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[Touchscreen Interface]] (3), [[USB Data Download]] (3) |
-| [[Communicate Battery and Vehicle Data]] | 9 | 33 | [[Local LED Indicator]] (10), [[Cloud Portal Integration]] (8), [[Acid-Resistant Sealed Housing]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
+| [[Communicate Battery and Vehicle Data]] | 9 | 35 | [[Local LED Indicator]] (10), [[Cloud Portal Integration]] (8), [[Acid-Resistant Sealed Housing]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
 | [[Connect Battery Power Path]] | 2 | 4 | none yet |
 | [[Control Charge Profile]] | 7 | 25 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
-| [[Inform Users of Battery Condition]] | 6 | 28 | [[Local LED Indicator]] (14), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
+| [[Inform Users of Battery Condition]] | 6 | 29 | [[Local LED Indicator]] (14), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
 | [[Keep Charging Available and Safe]] | 2 | 5 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1), [[Multi-Voltage Output]] (1) |
-| [[Limit Vehicle Motion Automatically]] | 5 | 16 | [[LiDAR Object Sensor]] (4), [[Proximity Tag System]] (3), [[Floor-Projected Warning Light]] (1), [[Operator Touch Display]] (1), [[Interactive Warning Vest]] (1) |
-| [[Maintain Battery Electrolyte]] | 2 | 8 | [[Forced Electrolyte Circulation]] (3) |
-| [[Maintain Vehicle Stability and Load Awareness]] | 3 | 9 | [[Proximity Tag System]] (2), [[Fork Laser Guide]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1), [[Active Stability Actuator]] (1) |
-| [[Manage Fleet Use]] | 3 | 17 | [[Multi-Voltage Output]] (5), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3), [[Impact Sensor]] (3), [[Touchscreen Interface]] (2) |
+| [[Limit Vehicle Motion Automatically]] | 6 | 23 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Stereoscopic Vision Sensor]] (2), [[Floor-Projected Warning Light]] (1), [[Light-Beam Compartment Sensor]] (1) |
+| [[Maintain Battery Electrolyte]] | 2 | 9 | [[Forced Electrolyte Circulation]] (3) |
+| [[Maintain Vehicle Stability and Load Awareness]] | 4 | 12 | [[Proximity Tag System]] (2), [[Fork Laser Guide]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1), [[Hydraulic Pressure Load Sensor]] (1) |
+| [[Manage Fleet Use]] | 4 | 20 | [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3), [[RFID or PIN Access Reader]] (3) |
 | [[Protect Battery from Harm]] | 2 | 2 | [[CAN Interface]] (2), [[Hall-Effect Current Sensing]] (1), [[Bluetooth Low Energy Interface]] (1), [[ZigBee 2.4 GHz Interface]] (1), [[Local LED Indicator]] (1) |
+| [[Reduce Operator Effort]] | 2 | 2 | [[Belt-Worn Remote Control]] (1) |
 | [[Sense Battery State]] | 12 | 39 | [[Local LED Indicator]] (13), [[Acid-Resistant Sealed Housing]] (8), [[Cloud Portal Integration]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
-| [[Sense Collision Risk and Events]] | 2 | 23 | [[Impact Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Proximity Tag System]] (3), [[Stereoscopic Vision Sensor]] (2), [[RFID or PIN Access Reader]] (1) |
+| [[Sense Collision Risk and Events]] | 2 | 32 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Operator Touch Display]] (2) |
 | [[Supply Vehicle Energy Without Charging]] | 4 | 5 | [[Hydrogen Storage Tank]] (2), [[Fuel Cell Hybrid Power Stage]] (2), [[Operator Touch Display]] (1), [[Regenerative Braking]] (1), [[Onboard Fuel Level Gauge]] (1) |
-| [[Support Operator View and Positioning]] | 2 | 7 | [[Fork Laser Guide]] (2), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
-| [[Warn People of Hazards]] | 3 | 15 | [[Floor-Projected Warning Light]] (4), [[LiDAR Object Sensor]] (3), [[Stereoscopic Vision Sensor]] (2), [[Proximity Tag System]] (2), [[Vehicle-Mounted Display]] (1) |
+| [[Support Operator View and Positioning]] | 2 | 10 | [[Fork Laser Guide]] (3), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1), [[Vehicle-Mounted Display]] (1) |
+| [[Warn People of Hazards]] | 3 | 21 | [[Floor-Projected Warning Light]] (4), [[Proximity Tag System]] (4), [[Stereoscopic Vision Sensor]] (3), [[LiDAR Object Sensor]] (3), [[Interactive Warning Vest]] (2) |
 
 - **Not yet assigned a general parent:** functions none; designs [[Reverse-Polarity Protection]].
 

@@ -17,6 +17,8 @@ supertypeOf:
   - "[[Powerfleet Forklift Safety Lights]]"
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
+  - "[[Linde Safety Guard Static Unit]]"
+  - "[[Linde Safety Guard Portable Unit]]"
 ---
 
 # Warning Light and Alert

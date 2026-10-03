@@ -20,6 +20,8 @@ hasDesign:
   - "[[Vehicle-Mounted Display]]"
 madeBy:
   - "[[Blaxtair]]"
+integratesWith:
+  - "[[Jungheinrich Pedestrian Detection System]]"
 ---
 
 # Blaxtair Pedestrian Detection System

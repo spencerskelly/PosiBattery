@@ -55,6 +55,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 19 2026-10-03:** unformatted analysis notes repaired and filed (see [[Note Reuse Audit]]); 14 new PosiCharge product and accessory notes; conflicts C77 to C79; wishlist links repaired.
 - **Round 20 2026-10-03:** uploaded documents read and absorbed; conflicts C66, C77 to C79 resolved or narrowed, C80 to C83 raised; [[External Context and Provenance]] and [[Project Objectives (Draft)]] added.
 - **Round 21 2026-10-03:** owner scope decisions recorded (neutral reference, global, top makers plus a sample); [[Coverage Plan]] with a generated coverage ledger added; [[Project Objectives (Draft)]] revised; conflict C84.
+- **Round 22 2026-10-03:** truck OEM accessory sweep for Linde, Jungheinrich and Mitsubishi Logisnext (17 notes, 5 functions, 2 designs, a new goal and general function, 4 dependencies); per-type minimums and tier handling added to the [[Coverage Plan]]; conflicts C85 to C87.
 
 ## Aliases
 

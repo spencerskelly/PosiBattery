@@ -12,6 +12,7 @@ subtypeOf:
 designOf:
   - "[[Linde connect]]"
   - "[[Toyota PIN Code Access Pad]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # RFID or PIN Access Reader
@@ -26,6 +27,7 @@ Reader on the truck for RFID cards or PIN entry.
 - **Sources** (product, evidence level, web page):
   - [[Linde connect]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Toyota PIN Code Access Pad]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
 
 ## Aliases
 

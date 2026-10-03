@@ -15,11 +15,13 @@ playsRole:
   - "[[Dealer or Distributor]]"
 makes:
   - "[[UniCarriers MX2 and MXL Series]]"
+  - "[[Logisnext Lift Link]]"
 offers:
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
 suppliedBy:
   - "[[Triathlon USA]]"
 distributorOf:
+  - "[[Powerfleet Forklift Gateway]]"
   - "[[Jungheinrich]]"
 ---
 

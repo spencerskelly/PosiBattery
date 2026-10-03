@@ -34,6 +34,10 @@ performedBy:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[Jungheinrich Reverse Area Warning System]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -66,6 +70,10 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
   - [[Toyota SEnS Pedestrian Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
   - [[Toyota Object Detection Radar]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Linde Safety Guard Truck Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
+  - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 
 ## Aliases
 

@@ -30,6 +30,7 @@ Detection Range and Accuracy: Stated detection range, field of view or location 
   - [[Hyster Pedestrian Awareness Camera]]: up to 16 ft; 110 degree field of view
   - [[IRIS 860 Sensor Pack]]: detection zone customizable up to 8 m
   - [[Linde Safety Guard]]: location accuracy up to 10 cm (pilot report)
+  - [[Linde Safety Guard Truck Unit]]: distance measurement accurate to 10 cm (dealer brochure)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** no numeric detection ranges are stated for most systems; ask makers or find data sheets.
 

@@ -1,0 +1,42 @@
+---
+type: Function
+subtype:
+id: FUNC-00093
+uid: 20261003152905094skellyspencer
+status: Draft
+tags:
+  - accessory-function
+  - product-function
+subtypeOf:
+  - "[[Manage Fleet Use]]"
+dependsOn:
+  - "[[Display Device Design]]"
+performedBy:
+  - "[[Crown InfoLink]]"
+  - "[[Hyster Tracker Telemetry]]"
+  - "[[Powerfleet Forklift Gateway]]"
+  - "[[Jungheinrich ISM Online]]"
+  - "[[Logisnext Lift Link]]"
+---
+
+# Enforce Pre-Shift Checklist
+
+## Definition
+
+Require the operator to complete a vehicle inspection checklist before the truck can be used.
+
+## Notes
+
+- Behavior found in product descriptions. Product links only where a source states the behavior.
+- No Requirement is linked (intentional gap).
+- **Sources** (product, evidence level, web page):
+  - [[Jungheinrich ISM Online]] (V): <https://www.industrial-production.de/wirtschaft---unternehmen/jungheinrich-verbessert-staplermanagement--neue-moeglichkeiten.htm>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
+  - [[Powerfleet Forklift Gateway]] (V): <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
+  - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+
+## Aliases
+
+
+## Former ids

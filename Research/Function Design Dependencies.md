@@ -56,6 +56,10 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Transmit Battery Data Wirelessly]] | [[Wireless Interface Design]] | analyst inference (necessity) | needs a radio interface |
 | [[Upload Battery Data to Cloud Portal]] | [[Wireless Interface Design]], [[Cloud Portal Integration]] | analyst inference (necessity) | needs a radio path and a portal |
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | analyst inference (necessity) | needs a radio path to the portal |
+| [[Damp Mast Oscillation]] | [[Electric Mast Thrust Drive]] | analyst inference (necessity) | the only implementation found uses an electric thrust drive |
+| [[Follow Operator Automatically]] | [[Belt-Worn Remote Control]] | analyst inference (necessity) | the operator's signal comes from a worn remote (easyPILOT) |
+| [[Adapt Speed to Load and Lift Height]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | needs the load and height measured |
+| [[Enforce Pre-Shift Checklist]] | [[Display Device Design]] | analyst inference (necessity) | the checklist is shown on a display (keypad or touch) |
 
 ## Aliases
 

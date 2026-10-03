@@ -15,6 +15,8 @@ designOf:
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
+  - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Jungheinrich zoneCONTROL]]"
 ---
 
 # Proximity Tag System
@@ -30,6 +32,8 @@ Tags on trucks, people and infrastructure that let a truck detect truck-to-truck
   - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Linde Safety Guard Truck Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 
 ## Aliases
 

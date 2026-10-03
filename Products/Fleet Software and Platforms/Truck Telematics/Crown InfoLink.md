@@ -11,6 +11,9 @@ subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
   - "[[Report Truck Telemetry]]"
+  - "[[Control Operator Access]]"
+  - "[[Detect and Record Impacts]]"
+  - "[[Enforce Pre-Shift Checklist]]"
 hasDesign:
   - "[[Operator Touch Display]]"
 madeBy:
@@ -36,6 +39,10 @@ Crown wireless fleet and operator management system, paired with on-truck InfoPo
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 - Crown lists InfoLink Operator and Fleet Management System features of access control, visual inspection checklists, impact detection and alerts and equipment lockout; it needs an InfoLink service plan and a 7 inch touch display or Gena screen shows alerts. Source: Crown SP 1500 brochure and ESR page (T1), retrieved 2026-10-03. <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+- **Functions performed, with citations:**
+  - [[Control Operator Access]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Detect and Record Impacts]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Enforce Pre-Shift Checklist]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
 
 ## Aliases
 

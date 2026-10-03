@@ -11,6 +11,9 @@ subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
   - "[[Report Truck Telemetry]]"
+  - "[[Control Operator Access]]"
+  - "[[Detect and Record Impacts]]"
+  - "[[Enforce Pre-Shift Checklist]]"
 madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
@@ -31,6 +34,10 @@ Hyster forklift telemetry for wireless fleet management, compatible with all Hys
   - [[Report Truck Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 - The Hyster solutions brochure (Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf) says Hyster Tracker gives real-time telemetry, usage metrics, OSHA pre-shift checklist, restricting truck access to approved operators, operator training updates and impact detection, lockouts and alerts, with options named 'Battery vision' (monitor battery usage and alert users) and 'Load sensing'. Source: Hyster solutions brochure (read round 20) (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 - **C60 update (round 20):** Hyster's own brochure calls the battery option 'Battery vision', not 'Battery Tracker'; Yale's counterpart is Yale Battery Vision. See [[Hyster Battery Tracker]].
+- **Functions performed, with citations:**
+  - [[Control Operator Access]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+  - [[Detect and Record Impacts]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+  - [[Enforce Pre-Shift Checklist]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

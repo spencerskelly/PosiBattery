@@ -11,7 +11,7 @@ supertypeOf:
   - "[[Assist Lift Positioning]]"
   - "[[Show Camera View to Operator]]"
 childOf:
-  - "[[Protect People and Equipment Near Vehicles]]"
+  - "[[Support the Operator]]"
 ---
 
 # Support Operator View and Positioning

@@ -29,9 +29,10 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Acid-Resistant Sealed Housing]] | [[Crown V-Force BMID]], [[EnerSys Wi-iQ]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
-| [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[EnerSys Wi-iQ]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[EnerSys Wi-iQ]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Stryten M-Series AGM220 Battery]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
+| [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
 | [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]], [[Stryten X-3 Charger]] | - | - |
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
@@ -45,6 +46,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
 | [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
 | [[Dual-Cable and Parallel Charging Configuration]] | [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
+| [[Electric Mast Thrust Drive]] | [[Linde Dynamic Mast Control]] | - | - |
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
@@ -59,12 +61,12 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Hibernation Mode]] | [[Stryten M-Series Li600 Battery]], [[Stryten M-Series Li610 Battery]] | - | - |
 | [[Hydraulic Pressure Load Sensor]] | [[Toyota Load Weight Sensing]] | - | - |
 | [[Hydrogen Storage Tank]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
-| [[Impact Sensor]] | [[Linde connect]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
+| [[Impact Sensor]] | [[Linde connect]], [[Logisnext Lift Link]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]] | - | - |
 | [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]] | - | - |
 | [[Integrated LCD Display]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
-| [[Interactive Warning Vest]] | [[Linde Safety Guard]] | - | - |
+| [[Interactive Warning Vest]] | [[Linde Safety Guard]], [[Linde Safety Guard Portable Unit]] | - | - |
 | [[LiDAR Object Sensor]] | [[Crown ProximityAssist System]], [[Hyster Reaction]], [[Raymond In-Aisle Detection System]], [[Raymond iWAREHOUSE ObjectSense]] | - | - |
 | [[Light-Beam Compartment Sensor]] | [[Toyota Compartment Sensing System]] | - | - |
 | [[Light-Triggered Data Upload]] | [[Philadelphia Scientific eGO!pro]] | - | - |
@@ -84,8 +86,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
 | [[Pedestrian Detection Camera]] | [[Hyster Pedestrian Awareness Camera]] | - | - |
-| [[Proximity Tag System]] | [[Hyster Reaction]], [[Linde Safety Guard]], [[Yale Reliant Portfolio]] | - | - |
-| [[RFID or PIN Access Reader]] | [[Linde connect]], [[Toyota PIN Code Access Pad]] | - | - |
+| [[Proximity Tag System]] | [[Hyster Reaction]], [[Jungheinrich zoneCONTROL]], [[Linde Safety Guard]], [[Linde Safety Guard Truck Unit]], [[Yale Reliant Portfolio]] | - | - |
+| [[RFID or PIN Access Reader]] | [[Linde connect]], [[Logisnext Lift Link]], [[Toyota PIN Code Access Pad]] | - | - |
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Radar Object Sensor]] | [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
@@ -93,13 +95,13 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Shuntless Current Sensing]] | [[Access Control Group CellTrac]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac Monitor]] | - | - |
 | [[Silicon-Carbide Power Stage]] | [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Split-Core Current Sensor]] | [[Philadelphia Scientific eGO!pro]] | - | - |
-| [[Stereoscopic Vision Sensor]] | [[Blaxtair Pedestrian Detection System]], [[Toyota SEnS Pedestrian Detection]], [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
+| [[Stereoscopic Vision Sensor]] | [[Blaxtair Pedestrian Detection System]], [[Jungheinrich Pedestrian Detection System]], [[Toyota SEnS Pedestrian Detection]], [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Tubular Plate Construction]] | [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
-| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[EnerSys Truck iQ]] | - | - |
+| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[EnerSys Truck iQ]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]] | - | - |
 | [[Wi-Fi Interface]] | [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[ZigBee 2.4 GHz Interface]] | [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]] | - | - |

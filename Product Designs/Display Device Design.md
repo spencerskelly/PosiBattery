@@ -16,6 +16,7 @@ supertypeOf:
 dependencyOf:
   - "[[Display Battery Status to Operator]]"
   - "[[Show Camera View to Operator]]"
+  - "[[Enforce Pre-Shift Checklist]]"
 ---
 
 # Display Device Design

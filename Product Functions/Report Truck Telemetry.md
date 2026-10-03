@@ -21,6 +21,8 @@ performedBy:
   - "[[Raymond iWAREHOUSE]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
+  - "[[Jungheinrich ISM Online]]"
+  - "[[Logisnext Lift Link]]"
 ---
 
 # Report Truck Telemetry
@@ -43,6 +45,8 @@ Send truck usage, status and events to a fleet portal.
   - [[Adveez Asset and Operations Monitoring System]] (V): <https://fortbrand.com/gse-products/>
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Raymond iWAREHOUSE]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Jungheinrich ISM Online]] (V): <https://www.industrial-production.de/wirtschaft---unternehmen/jungheinrich-verbessert-staplermanagement--neue-moeglichkeiten.htm>
+  - [[Logisnext Lift Link]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
 
 ## Aliases
 

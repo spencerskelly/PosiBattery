@@ -11,6 +11,7 @@ supertypeOf:
   - "[[Control Operator Access]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Enforce Pre-Shift Checklist]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

@@ -16,10 +16,13 @@ performs:
   - "[[Control Operator Access]]"
   - "[[Detect and Record Impacts]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Enforce Pre-Shift Checklist]]"
 hasDesign:
   - "[[Impact Sensor]]"
 madeBy:
   - "[[Powerfleet]]"
+distributedBy:
+  - "[[Mitsubishi Logisnext]]"
 ---
 
 # Powerfleet Forklift Gateway
@@ -37,6 +40,10 @@ Powerfleet forklift gateway (VAC) that handles driver access control, an impact 
   - [[Report Truck Telemetry]] (V): <https://www.powerfleet.com/?p=30065>
 - **Design characteristics, with citations:**
   - [[Impact Sensor]] (V): <https://www.powerfleet.com/?p=30065>
+- Mitsubishi Logisnext Americas entered a reseller agreement with PowerFleet in 2021; PowerFleet's Enterprise Telematics (VAC4 hardware and impact sensors) was offered as a factory option on Mitsubishi, Cat and Jungheinrich trucks with operator access control, electronic pre-shift checklists, impact sensing and speed monitoring. Source: GlobeNewswire release (2021) (T2), retrieved 2026-10-03. <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
+- **Name (C87):** the vault note says Forklift Gateway (VAC); the 2021 release names the VAC4.
+- **Functions performed, with citations:**
+  - [[Enforce Pre-Shift Checklist]] (V): <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
 
 ## Aliases
 
