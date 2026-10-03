@@ -424,11 +424,20 @@
    "height": 120
   },
   {
+   "id": "Cold_Storage_Package",
+   "type": "file",
+   "file": "Products/Vehicle Accessories/Cold Storage Packages/Cold Storage Package.md",
+   "x": 1040,
+   "y": 6900,
+   "width": 340,
+   "height": 120
+  },
+  {
    "id": "Operator_Assist_and_Stability_System",
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Assist and Stability/Operator Assist and Stability System.md",
    "x": 1040,
-   "y": 6900,
+   "y": 7050,
    "width": 340,
    "height": 120
   },
@@ -437,7 +446,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Convenience/Operator Convenience Accessory.md",
    "x": 1040,
-   "y": 7050,
+   "y": 7200,
    "width": 340,
    "height": 120
   },
@@ -446,7 +455,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Displays/Operator Display.md",
    "x": 1040,
-   "y": 7200,
+   "y": 7350,
    "width": 340,
    "height": 120
   },
@@ -455,7 +464,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Power Source Interfaces/Power Source Interface.md",
    "x": 1040,
-   "y": 7350,
+   "y": 7500,
    "width": 340,
    "height": 120
   },
@@ -464,7 +473,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Proximity and Object Detection/Proximity and Object Detection System.md",
    "x": 1040,
-   "y": 7500,
+   "y": 7650,
    "width": 340,
    "height": 120
   },
@@ -473,7 +482,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Warning Lights and Alerts/Warning Light and Alert.md",
    "x": 1040,
-   "y": 7650,
+   "y": 7800,
    "width": 340,
    "height": 120
   }
@@ -850,6 +859,14 @@
   {
    "id": "e_Access_Control_Device_Vehicle_Accessory",
    "fromNode": "Access_Control_Device",
+   "fromSide": "left",
+   "toNode": "Vehicle_Accessory",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_Cold_Storage_Package_Vehicle_Accessory",
+   "fromNode": "Cold_Storage_Package",
    "fromSide": "left",
    "toNode": "Vehicle_Accessory",
    "toSide": "right",

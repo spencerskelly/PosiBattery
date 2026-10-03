@@ -11,19 +11,22 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
+  - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
+  - "[[IRIS 860 Sensor Pack]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
   - "[[Mallaghan Collision Avoidance System]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Blaxtair Pedestrian Detection System]]"
-  - "[[IRIS 860 Sensor Pack]]"
-  - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # Proximity and Object Detection System

@@ -9,15 +9,20 @@ tags:
   - product-function
 subtypeOf:
   - "[[Warn People of Hazards]]"
+dependsOn:
+  - "[[Warning and Display Device Design]]"
 describedBy:
   - "[[Metric - Operator Feedback]]"
   - "[[Metric - Response Action]]"
 performedBy:
+  - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Blaxtair Pedestrian Detection System]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[Hyster Dynamic Stability System]]"
 ---
 
 # Alert Operator of Hazards
@@ -36,6 +41,9 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
   - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
+  - [[Raymond iWAREHOUSE ObjectSense]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
+  - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+  - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
 
 ## Aliases
 

@@ -9,15 +9,18 @@ tags:
   - product-function
 subtypeOf:
   - "[[Manage Fleet Use]]"
+dependsOn:
+  - "[[Wireless Interface Design]]"
 performedBy:
   - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
   - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Powerfleet Forklift Gateway]]"
+  - "[[Raymond iWAREHOUSE]]"
 ---
 
 # Report Truck Telemetry
@@ -39,6 +42,7 @@ Send truck usage, status and events to a fleet portal.
   - [[Oshkosh AeroTech iOPS]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader>
   - [[Adveez Asset and Operations Monitoring System]] (V): <https://fortbrand.com/gse-products/>
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
+  - [[Raymond iWAREHOUSE]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

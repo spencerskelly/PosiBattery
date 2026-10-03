@@ -19,6 +19,7 @@ offeredWith:
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Crown Battery Health Monitor]]"
+  - "[[Crown Gena Operating System]]"
 ---
 
 # Crown InfoLink
@@ -34,6 +35,7 @@ Crown wireless fleet and operator management system, paired with on-truck InfoPo
   - [[Report Truck Telemetry]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+- Crown lists InfoLink Operator and Fleet Management System features of access control, visual inspection checklists, impact detection and alerts and equipment lockout; it needs an InfoLink service plan and a 7 inch touch display or Gena screen shows alerts. Source: Crown SP 1500 brochure and ESR page (T1), retrieved 2026-10-03. <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
 
 ## Aliases
 

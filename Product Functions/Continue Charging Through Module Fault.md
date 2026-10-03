@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Keep Charging Available and Safe]]"
+dependsOn:
+  - "[[Modular Power Modules]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[EnerSys Express Charger]]"

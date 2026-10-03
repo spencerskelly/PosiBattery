@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[EnerSys Truck iQ]]"
+  - "[[Crown Gena Operating System]]"
 ---
 
 # Operator Display

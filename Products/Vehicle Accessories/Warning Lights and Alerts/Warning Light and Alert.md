@@ -11,11 +11,12 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
-  - "[[Linde BlueSpot]]"
-  - "[[Powerfleet Forklift Safety Lights]]"
   - "[[Larson Explosion-Proof Blue LED Forklift Light]]"
-  - "[[TVH Forklift Arrow Lights]]"
+  - "[[Linde BlueSpot]]"
   - "[[Panacea Blue Warning Light]]"
+  - "[[Powerfleet Forklift Safety Lights]]"
+  - "[[TVH Forklift Arrow Lights]]"
+  - "[[Toyota Forklift Lighting Options]]"
 ---
 
 # Warning Light and Alert

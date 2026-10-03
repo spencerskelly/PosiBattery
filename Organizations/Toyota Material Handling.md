@@ -18,6 +18,16 @@ makes:
   - "[[Toyota Assist]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[Toyota System of Active Stability]]"
+  - "[[Toyota 360 Operating Camera]]"
+  - "[[Toyota Carriage-Mounted Camera]]"
+  - "[[Toyota Twistlock Snapshot Camera System]]"
+  - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Auto Height Select]]"
+  - "[[Toyota Load Weight Sensing]]"
+  - "[[Toyota Compartment Sensing System]]"
+  - "[[Toyota PIN Code Access Pad]]"
+  - "[[Toyota Cold Conditioning Package]]"
+  - "[[Toyota Forklift Lighting Options]]"
 offers:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 subsidiaryOf:

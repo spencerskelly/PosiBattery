@@ -32,6 +32,7 @@ Anderson SB series power connectors (SB 50, 175, 350 and larger) used on forklif
 - Crown's parts shop lists SB contacts and accessories in SB 50, 175, 350, 320 SBE and 350 SBX sizes. Source: Crown parts shop (T1), retrieved 2026-10-03. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>
 - **Functions performed, with citations:**
   - [[Connect Battery to Charger or Vehicle]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>
+- Toyota lists a Battery Connector SB-175 Blue among battery accessories on its Side Entry End Rider. Source: Toyota Side Entry End Rider brochure (T1), retrieved 2026-10-03. <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 
 ## Aliases
 

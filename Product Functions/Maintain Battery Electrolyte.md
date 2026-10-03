@@ -8,8 +8,8 @@ tags:
   - general-function
   - product-function
 supertypeOf:
-  - "[[Water Battery Cells]]"
   - "[[Circulate Electrolyte]]"
+  - "[[Water Battery Cells]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

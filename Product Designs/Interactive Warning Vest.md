@@ -8,7 +8,7 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
 designOf:
   - "[[Linde Safety Guard]]"
 ---

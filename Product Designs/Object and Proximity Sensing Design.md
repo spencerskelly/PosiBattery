@@ -14,6 +14,10 @@ supertypeOf:
   - "[[Radar Object Sensor]]"
   - "[[Stereoscopic Vision Sensor]]"
   - "[[Ultrasonic Distance Sensor]]"
+  - "[[Magnetic Field Detection Sensor]]"
+dependencyOf:
+  - "[[Detect Pedestrians and Objects Near Truck]]"
+  - "[[Slow and Stop Near Aircraft]]"
 ---
 
 # Object and Proximity Sensing Design

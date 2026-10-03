@@ -8,11 +8,12 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
 designOf:
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Linde BlueSpot]]"
   - "[[Powerfleet Forklift Safety Lights]]"
+  - "[[Toyota Forklift Lighting Options]]"
 ---
 
 # Floor-Projected Warning Light
@@ -28,6 +29,7 @@ Lights that project a spot or zone on the floor in the truck's direction of trav
   - [[Linde BlueSpot]] (V): <https://logisticsmatters.co.uk/page_513926.asp>
   - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Powerfleet Forklift Safety Lights]] (V): <https://www.powerfleet.com/?p=30065>
+  - [[Toyota Forklift Lighting Options]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 - A CDC (NIOSH) pilot study retrofitted blue and red lights on three forklifts for four months in a warehouse; all nine operators and pedestrians asked said the lights made the forklifts more conspicuous and improved safety, and the authors call for larger studies to confirm injury or damage reductions. Source: Professional Safety 65(12) via CDC Stacks (T1), retrieved 2026-10-03. <https://stacks.cdc.gov/view/cdc/157031>
 - A forklift dealer describes blue and red LED lights attached to the top of the overhead guard that project a spot on the floor a few yards ahead of the truck, steady or flashing. Source: Eastern Lift Truck blog (T3), retrieved 2026-10-03. <https://easternlifttruck.com/blog/increasing-pedestrian-operator-and-equipment-safety-with-aftermarket-parts-from-eastern-lift-truck-co>
 

@@ -16,6 +16,16 @@ supertypeOf:
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Crown Capacity Data Monitor]]"
+  - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Auto Height Select]]"
+  - "[[Toyota Load Weight Sensing]]"
+  - "[[Toyota Compartment Sensing System]]"
+  - "[[Raymond iWAREHOUSE Integrated Tether System]]"
+  - "[[Raymond Load Weight Display]]"
+  - "[[Raymond Operator Compartment Sensor System]]"
+  - "[[Raymond Travel Speed Control]]"
+  - "[[Hyster Dynamic Stability System]]"
 ---
 
 # Operator Assist and Stability System

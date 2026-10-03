@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Maintain Battery Electrolyte]]"
+dependsOn:
+  - "[[Forced Electrolyte Circulation]]"
 performedBy:
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"

@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Charger Power Stage Design]]"
+dependencyOf:
+  - "[[Continue Charging Through Module Fault]]"
 describedBy:
   - "[[Metric - Modularity]]"
 designOf:

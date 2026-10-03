@@ -9,23 +9,29 @@ tags:
   - product-function
 subtypeOf:
   - "[[Sense Collision Risk and Events]]"
+dependsOn:
+  - "[[Object and Proximity Sensing Design]]"
 describedBy:
   - "[[Metric - Detection Range and Accuracy]]"
   - "[[Metric - Detection Technology]]"
 performedBy:
   - "[[Toyota Assist]]"
+  - "[[Yale Reliant Portfolio]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
+  - "[[IRIS 860 Sensor Pack]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
   - "[[Mallaghan Collision Avoidance System]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Blaxtair Pedestrian Detection System]]"
-  - "[[IRIS 860 Sensor Pack]]"
-  - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -52,6 +58,10 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
   - [[IRIS 860 Sensor Pack]] (V): <https://holtlift.com/?p=4466>
   - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/?p=30065>
+  - [[Raymond iWAREHOUSE ObjectSense]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
+  - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+  - [[Raymond In-Aisle Detection System]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
+  - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 
 ## Aliases
 

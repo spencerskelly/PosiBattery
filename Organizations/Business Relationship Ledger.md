@@ -444,6 +444,31 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Crown Battery Cables and Connectors]] | [[Anderson SB Connector Series]] | Crown parts shop carries SB connector parts | <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors> |
 | offeredWith | [[Crown Battery Cables and Connectors]] | [[Crown V-HFM3 Charger]] | charger plug and leadhead parts for Crown chargers | <https://www.crown.com/en-ca/batteries-and-chargers/> |
 | poweredBy | [[Oshkosh AeroTech iOPS]] | [[Adveez]] | inferred from the Adveez case study (FAMA data captured on the IOPS platform); wording of the relationship is not stated (C75) | <https://www.casestudies.com/company/adveez/case-study/gse-data-capture-with-jbt> |
+| makes | [[Crown Equipment]] | [[Crown Gena Operating System]] | vendor presents the product as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown Capacity Data Monitor]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota 360 Operating Camera]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Carriage-Mounted Camera]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Twistlock Snapshot Camera System]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Acu-Laser]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Auto Height Select]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Load Weight Sensing]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Compartment Sensing System]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota PIN Code Access Pad]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Cold Conditioning Package]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Forklift Lighting Options]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond iWAREHOUSE]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond iWAREHOUSE ObjectSense]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond iWAREHOUSE Fieldsense]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond iWAREHOUSE Real-Time Location System]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond iWAREHOUSE Integrated Tether System]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond In-Aisle Detection System]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond Load Weight Display]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond Operator Compartment Sensor System]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond Travel Speed Control]] | vendor presents the product as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond Under-Fork Camera Option]] | vendor presents the product as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Hyster Dynamic Stability System]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[Crown Gena Operating System]] | [[Crown InfoLink]] | Crown says Gena integrates with InfoLink | <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf> |
+| offeredWith | [[Crown Gena Operating System]] | [[Crown ProximityAssist System]] | ProximityAssist alerts appear on the Gena touch screen | <https://www.ivtinternational.com/?p=22917> |
 
 ## Aliases
 

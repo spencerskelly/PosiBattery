@@ -27,6 +27,17 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>new this round (truck OEM accessories) | Toyota Assist brochure 2025 (SEnS, SAS, Acu-Laser, Auto Height Select, cameras, load weight sensing) | <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf> |  | Toyota truck-side options (C66) | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Toyota Side Entry End Rider comprehensive brochure (option list: PIN pad, cold package, compartment sensor, SB-175 connector) | <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf> |  | Toyota options | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Yale Reliant operator assist systems sheet (MHI) | <https://og.mhi.org/media/members/14259/133294183726805278.pdf> |  | Yale Reliant features, C76 | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Raymond stand-up counterbalanced options sell sheet | <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf> |  | Raymond options (load weight, compartment sensor, speed control, camera) | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Crown SP 1500 order picker brochure (Gena, Zone Select, InfoLink) | <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf> |  | Crown Gena and InfoLink | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Raymond operator assist suite brochure (ObjectSense, Fieldsense, RTLS, Integrated Tether System, IADS) | no direct file found | <https://raymondcorp.com/campaign/in-aisle-detection-system> | Raymond assist modules | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Hyster Reaction and Dynamic Stability System sheets | no direct file found | <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/> | Hyster options | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Linde and STILL assist and accessory catalog (Safety Guard modules, Speed Assist, Load Assist, Curve Assist) | no direct file found | <https://www.linde-mh.com/en/Service/Retrofit-Accessories/> | Linde options | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Jungheinrich assist and safety systems brochure | no direct file found | <https://warehousenews.co.uk/?p=45557> | Jungheinrich options | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Mitsubishi, UniCarriers and Cat lift truck options and operator assist sheets | no direct file found | <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices> | Logisnext brands options | - | R18 |
+| **high priority**<br>new this round (truck OEM accessories) | Crown Work Assist and operator assist solutions brochure | no direct file found | <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html> | Crown Work Assist, ProximityAssist ranges | - | R18 |
 | **high priority**<br>new this round (accessories sweep) | Crown batteries and chargers accessories: watering, cables and connectors, acid indicators, cable management, charger stands (product sheets) | no direct file found | <https://www.crown.com/en-ca/batteries-and-chargers/> | battery and charger accessories | - | R17 |
 | **high priority**<br>new this round (accessories sweep) | Powerfleet material handling telematics, safety lights and pedestrian proximity detection data sheets | no direct file found | <https://www.powerfleet.com/?p=30065> | vehicle accessories | - | R17 |
 | **high priority**<br>new this round (accessories sweep) | Blaxtair pedestrian detection data sheet | no direct file found | <https://blaxtair.com/en?p=14938> | vehicle accessories (range, latency, add-ons) | - | R17 |
@@ -129,6 +140,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 15 2026-10-03:** table rebuilt in the owner's format. Counts: high priority 28, helpful 14, issue 5, in repo 30. Ten files added since round 14 are marked in repo, not yet absorbed.
 - **Round 16 2026-10-03:** 10 GSE requests added at the top of high priority. Counts: high priority 38, helpful 14, issue 5, in repo 30.
 - **Round 17 2026-10-03:** URL column rebuilt (direct files only: 44 rows have one); landing pages removed; five GSE files and the EPRI report marked in repo. Counts: high priority 41, helpful 14, issue 6, in repo 35.
+- **Round 18 2026-10-03:** 5 direct files and 6 page-only requests added for truck OEM accessories. Counts: high priority 52, helpful 14, issue 6, in repo 35. Duplicate copies stay visible until the owner decides (owner Downloads README rule).
 
 ## Aliases
 

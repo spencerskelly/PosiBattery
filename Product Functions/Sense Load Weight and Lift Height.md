@@ -9,9 +9,14 @@ tags:
   - product-function
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
+dependsOn:
+  - "[[Vehicle State Sensing Design]]"
 performedBy:
   - "[[Linde Safety Pilot]]"
   - "[[Toyota Assist]]"
+  - "[[Crown Capacity Data Monitor]]"
+  - "[[Toyota Load Weight Sensing]]"
+  - "[[Raymond Load Weight Display]]"
 ---
 
 # Sense Load Weight and Lift Height
@@ -27,6 +32,9 @@ Measure the load, lift height or tilt so the truck can show limits or assist lif
 - **Sources** (product, evidence level, web page):
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Linde Safety Pilot]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
+  - [[Crown Capacity Data Monitor]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
+  - [[Toyota Load Weight Sensing]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Raymond Load Weight Display]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

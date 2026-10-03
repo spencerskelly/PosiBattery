@@ -11,6 +11,10 @@ subtypeOf:
   - "[[Support Operator View and Positioning]]"
 performedBy:
   - "[[Toyota Assist]]"
+  - "[[Toyota Carriage-Mounted Camera]]"
+  - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Auto Height Select]]"
+  - "[[Raymond Under-Fork Camera Option]]"
 ---
 
 # Assist Lift Positioning
@@ -25,6 +29,10 @@ Help the operator position the forks or load, for example with preset heights or
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
+  - [[Toyota Carriage-Mounted Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
+  - [[Toyota Acu-Laser]] (V): <https://www.toyotaforklift.com/toyota-assist>
+  - [[Toyota Auto Height Select]] (V): <https://www.toyotaforklift.com/toyota-assist>
+  - [[Raymond Under-Fork Camera Option]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

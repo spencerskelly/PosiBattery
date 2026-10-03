@@ -8,11 +8,13 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Vehicle Control Device Design]]"
+  - "[[Vehicle State Sensing Design]]"
+dependencyOf:
+  - "[[Detect and Record Impacts]]"
 designOf:
   - "[[Linde connect]]"
-  - "[[Toyota MyInsights Telematics]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
 ---
 

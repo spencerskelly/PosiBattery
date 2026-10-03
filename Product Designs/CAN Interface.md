@@ -9,6 +9,9 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Wired Interface Design]]"
+dependencyOf:
+  - "[[Command Vehicle Operating Limits over CAN]]"
+  - "[[Communicate Battery State over CAN]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
   - "[[Metric - Wired and Vehicle Interfaces]]"

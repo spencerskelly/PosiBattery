@@ -12,6 +12,7 @@ subtypeOf:
 describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
+  - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
 ---
@@ -28,6 +29,7 @@ Tags on trucks, people and infrastructure that let a truck detect truck-to-truck
 - **Sources** (product, evidence level, web page):
   - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 
 ## Aliases
 

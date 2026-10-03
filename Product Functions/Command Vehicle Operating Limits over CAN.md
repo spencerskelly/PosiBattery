@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Protect Battery from Harm]]"
+dependsOn:
+  - "[[CAN Interface]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
 ---

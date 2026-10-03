@@ -10,9 +10,9 @@ tags:
 subtypeOf:
   - "[[Connect Battery Power Path]]"
 performedBy:
-  - "[[Midac End Leads]]"
-  - "[[Crown Battery Cables and Connectors]]"
   - "[[Anderson SB Connector Series]]"
+  - "[[Crown Battery Cables and Connectors]]"
+  - "[[Midac End Leads]]"
 ---
 
 # Connect Battery to Charger or Vehicle

@@ -91,7 +91,5 @@ ACT battery monitor that exchanges data with ACT Quantum chargers and reports to
 ## Aliases
 
 - BATTview
-- Battview
-
 
 ## Former ids

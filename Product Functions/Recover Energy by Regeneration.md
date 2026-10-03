@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Supply Vehicle Energy Without Charging]]"
+dependsOn:
+  - "[[Regenerative Braking]]"
 performedBy:
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
 ---

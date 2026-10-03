@@ -14,6 +14,8 @@ describedBy:
 designOf:
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
+  - "[[Raymond In-Aisle Detection System]]"
 ---
 
 # LiDAR Object Sensor
@@ -28,6 +30,8 @@ Low-mounted LiDAR sensor that detects objects in the truck's path of travel.
 - **Sources** (product, evidence level, web page):
   - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
+  - [[Raymond iWAREHOUSE ObjectSense]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
+  - [[Raymond In-Aisle Detection System]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
 
 ## Aliases
 

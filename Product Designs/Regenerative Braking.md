@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Vehicle Control Device Design]]"
+dependencyOf:
+  - "[[Recover Energy by Regeneration]]"
 designOf:
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
   - "[[Toyota Assist]]"

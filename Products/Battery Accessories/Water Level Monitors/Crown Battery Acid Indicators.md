@@ -15,6 +15,7 @@ subtypeOf:
 performs:
   - "[[Sense Electrolyte Level]]"
   - "[[Indicate Battery Status Locally]]"
+  - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
   - "[[Audible Alarm]]"
   - "[[Local LED Indicator]]"
@@ -38,6 +39,8 @@ Crown electrolyte level indicators for lead-acid batteries in standard, smart (L
 - **Design characteristics, with citations:**
   - [[Audible Alarm]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Local LED Indicator]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Functions performed, with citations:**
+  - [[Alert on Low Electrolyte Level]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 
 ## Aliases
 

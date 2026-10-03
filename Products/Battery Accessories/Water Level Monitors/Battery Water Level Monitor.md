@@ -12,10 +12,10 @@ abstract: true
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 supertypeOf:
+  - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
-  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Battery Water Level Monitor

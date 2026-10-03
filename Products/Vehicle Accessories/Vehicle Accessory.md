@@ -9,14 +9,15 @@ tags:
   - category-family
 abstract: true
 supertypeOf:
+  - "[[Access Control Device]]"
+  - "[[Vehicle Camera and Recorder]]"
   - "[[Operator Assist and Stability System]]"
   - "[[Operator Convenience Accessory]]"
   - "[[Operator Display]]"
   - "[[Power Source Interface]]"
   - "[[Proximity and Object Detection System]]"
   - "[[Warning Light and Alert]]"
-  - "[[Vehicle Camera and Recorder]]"
-  - "[[Access Control Device]]"
+  - "[[Cold Storage Package]]"
 ---
 
 # Vehicle Accessory

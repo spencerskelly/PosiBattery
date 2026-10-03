@@ -36,6 +36,7 @@ Toyota Smart Environment Sensor+ that detects pedestrians and objects and alerts
   - [[Alert Operator of Hazards]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
 - **Design characteristics, with citations:**
   - [[Stereoscopic Vision Sensor]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
+- Toyota's Assist brochure text (partly cut off) says SEnS can be extended with a 360 camera system, is available on select Toyota models and as a kit that can be retrofitted to select existing models, and contains the phrase 'it limits the movement of the forklift' (subject cut off). Source: Toyota Assist brochure 2025 (T1 (fragment)), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

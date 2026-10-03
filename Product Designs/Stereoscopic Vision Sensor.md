@@ -12,8 +12,8 @@ subtypeOf:
 describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[Blaxtair Pedestrian Detection System]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Stereoscopic Vision Sensor

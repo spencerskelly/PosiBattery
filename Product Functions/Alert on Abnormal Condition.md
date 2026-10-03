@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
+dependsOn:
+  - "[[Warning and Display Device Design]]"
 performedBy:
   - "[[Access Control Group CellTrac]]"
   - "[[Advanced Charging Technologies BATTview]]"

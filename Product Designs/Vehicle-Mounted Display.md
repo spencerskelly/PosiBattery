@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Display Device Design]]"
 designOf:
   - "[[EnerSys Truck iQ]]"
   - "[[Blaxtair Pedestrian Detection System]]"

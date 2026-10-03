@@ -11,12 +11,12 @@ rolePlayedBy:
   - "[[Averest]]"
   - "[[Carolina Handling]]"
   - "[[ELMAS S.R.L.]]"
+  - "[[Holt of California]]"
   - "[[Medley Company]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
-  - "[[Holt of California]]"
 ---
 
 # Dealer or Distributor

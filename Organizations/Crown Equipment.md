@@ -25,6 +25,8 @@ makes:
   - "[[Crown InfoLink]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
+  - "[[Crown Gena Operating System]]"
+  - "[[Crown Capacity Data Monitor]]"
 offers:
   - "[[Crown V-Force BMID]]"
   - "[[Crown Battery Health Monitor]]"

@@ -12,6 +12,13 @@ tags:
   - operator-assist
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
+performs:
+  - "[[Limit Vehicle Motion by Location Zone]]"
+  - "[[Restrict Lift When Load Exceeds Limit]]"
+  - "[[Slow Truck in Curves]]"
+  - "[[Detect Pedestrians and Objects Near Truck]]"
+hasDesign:
+  - "[[Proximity Tag System]]"
 madeBy:
   - "[[Hyster-Yale]]"
 ---
@@ -26,6 +33,16 @@ Yale portfolio of operator assist technologies, which added the pedestrian-aware
 
 - A trade report says Yale Lift Truck Technologies announced the addition of the pedestrian-awareness camera to its Reliant portfolio in the same month Hyster launched it. Source: Automated Warehouse (T2), retrieved 2026-10-03. <https://www.automatedwarehouseonline.com/?p=8847>
 - **Not retrieved:** the other Reliant products and models.
+- Yale says Reliant uses multiple detection technologies (proximity tags through local or real-time location, object detection, geofencing), automatic speed reduction near pedestrians and in pedestrian-only zones, a following-distance rule, speed control and exclusion zones, an operator display with performance alerts, restricting travel and lift if the load exceeds the weight limit and reducing cornering speed; the launch release credits more than 29,000 hours of Hyster-Yale Group R&D. Source: Yale Reliant sheet (MHI) and launch release (T1/T2), retrieved 2026-10-03. <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+- A 2023 product spotlight says Yale Reliant operator assistance is available on 18 Yale lift truck models (dated; model names not in the retrieved text). Source: Inbound Logistics (T2 (dated)), retrieved 2026-10-03. <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+- **Name overlap (C76):** the Reliant launch wording repeats Hyster Reaction's (same three technologies, same tag-based proximity detection); no source calls one a rebrand of the other.
+- **Functions performed, with citations:**
+  - [[Limit Vehicle Motion by Location Zone]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Restrict Lift When Load Exceeds Limit]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Slow Truck in Curves]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Detect Pedestrians and Objects Near Truck]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+- **Design characteristics, with citations:**
+  - [[Proximity Tag System]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 
 ## Aliases
 

@@ -13,9 +13,9 @@ subtypeOf:
 supertypeOf:
   - "[[ACT ACTview]]"
   - "[[Fronius Charge & Connect]]"
+  - "[[Philadelphia Scientific iBOS]]"
   - "[[PosiCharge PosiNet]]"
   - "[[Stryten inCOMMAND]]"
-  - "[[Philadelphia Scientific iBOS]]"
 ---
 
 # Battery and Charger Management Software

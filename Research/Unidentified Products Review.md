@@ -110,10 +110,18 @@ Review of products and items that already-identified organizations name in sourc
 | Liftow | battery roller service stands (single, double, triple, with charger shelf), watering guns, deionizer kits, PPE kits, Aqua low-profile watering systems | battery handling accessories | <https://liftow.com/collections/battery-safety?page=2> | dealer listing; makers not stated | identify makers |
 | UK Powertech | PURAFLO water deionizer; component suppliers Frötek, BFS (Batterie Füllungs Systeme), Rema, Abertax Technologies | battery accessories | <https://warehousenews.co.uk/?p=32056> | named | find supplier pages |
 | Power Stow | baggage stowage devices working with belt loaders | GSE accessories | <https://ren.mydigitalpublication.co.uk/february-march-2023/page-16> | named only | find product page |
+| [[Toyota Material Handling]] | Operator Fan, LED Work Light, cushioned backrest, storage trays, rear assist grip with horn, backup alarms, mirrors, fire extinguisher, multifunction display with self diagnostics, SEnS 360 camera kit, T-Matics/MyInsights options | truck options | <https://www.toyotaforklift.com/resource-library/video-library/forklift-options-accessories> | named | find option catalog |
+| [[Crown Equipment]] | Work Assist components, Zone Select, Access 1 2 3, InfoPoint, integrated safety messages | truck options | <https://www.crown.com/en-br/forklifts/man-up-order-pickers/sp-1500-stockpicker/_jcr_content/mainpar/column_515800334/column1/carousel> | named | find brochures |
+| [[Raymond]] | Zoning and Positioning; Virtual Reality Simulator (training, out of scope); Raymond 8810 telematics option | truck options | <https://raymondcorp.com/campaign/in-aisle-detection-system> | named | find sheets |
+| [[Hyster-Yale]] | Hyster A Series configurability, Hyster operator remote, Reaction models list, Yale Reliant's 18 models | truck options | <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/> | named | find model lists |
+| [[Linde Material Handling]] | Linde Speed Assist, Load Assist, Active Stability Control, Dynamic Mast Control, Steer Control, Curve Assist | truck options | <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html> | named | find brochure |
+| [[Jungheinrich]] | assist systems, collision protection, access control, telematics | truck options | <https://warehousenews.co.uk/?p=45557> | not retrieved | search |
+| [[Mitsubishi Logisnext]] | UniCarriers, Cat and Mitsubishi truck options and operator assist | truck options | <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices> | brands named only | search |
 - **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
 - **Round 14 additions:** 9 rows for truck-side assist devices and fuel-cell units.
 - **Round 16 additions:** 8 GSE rows.
 - **Round 17 additions:** 13 rows from the accessories sweep.
+- **Round 18 additions:** 7 truck OEM rows.
 
 ## Aliases
 

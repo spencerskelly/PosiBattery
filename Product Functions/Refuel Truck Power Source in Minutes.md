@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Supply Vehicle Energy Without Charging]]"
+dependsOn:
+  - "[[Hydrogen Storage Tank]]"
 performedBy:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"

@@ -9,10 +9,13 @@ tags:
   - product-function
 subtypeOf:
   - "[[Manage Fleet Use]]"
+dependsOn:
+  - "[[Operator Identification Design]]"
 performedBy:
   - "[[Linde connect]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Panacea Smart Start]]"
+  - "[[Toyota PIN Code Access Pad]]"
 ---
 
 # Control Operator Access
@@ -29,6 +32,7 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[Linde connect]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Panacea Smart Start]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[Toyota PIN Code Access Pad]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 
 ## Aliases
 

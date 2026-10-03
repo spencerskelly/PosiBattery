@@ -10,6 +10,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Warn People of Hazards]]"
+dependsOn:
+  - "[[Aircraft Proximity Indicator Light]]"
 performedBy:
   - "[[Textron Smart Sense]]"
 ---

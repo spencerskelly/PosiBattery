@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Control Charge Profile]]"
+dependsOn:
+  - "[[Integrated Battery Management System]]"
 performedBy:
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Fronius SelectION]]"

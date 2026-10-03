@@ -16,7 +16,7 @@ performs:
   - "[[Limit Truck Speed Automatically]]"
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Slow and Stop Near Aircraft]]"
-  - "[[Stop Vehicle When Operator Leaves Seat]]"
+  - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Indicate Aircraft Proximity to Operator]]"
 hasDesign:
   - "[[Ultrasonic Distance Sensor]]"
@@ -39,7 +39,7 @@ Textron anti-collision system for TUG belt loaders using ultrasonic sensors that
   - [[Limit Truck Speed Automatically]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[Slow and Stop Near Aircraft]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
-  - [[Stop Vehicle When Operator Leaves Seat]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+  - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
   - [[Indicate Aircraft Proximity to Operator]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
 - **Design characteristics, with citations:**
   - [[Ultrasonic Distance Sensor]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>

@@ -10,6 +10,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Limit Vehicle Motion Automatically]]"
+dependsOn:
+  - "[[Object and Proximity Sensing Design]]"
 performedBy:
   - "[[Textron Smart Sense]]"
 ---

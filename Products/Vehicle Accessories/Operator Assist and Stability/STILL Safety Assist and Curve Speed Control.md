@@ -15,6 +15,7 @@ performs:
   - "[[Limit Truck Speed Automatically]]"
   - "[[Slow Truck in Curves]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Limit Vehicle Motion by Location Zone]]"
 hasDesign:
   - "[[Floor-Projected Warning Light]]"
 madeBy:
@@ -36,6 +37,8 @@ STILL assistance systems that set slow-speed zones, adjust speed in curves and w
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 - **Design characteristics, with citations:**
   - [[Floor-Projected Warning Light]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+- **Functions performed, with citations:**
+  - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 
 ## Aliases
 

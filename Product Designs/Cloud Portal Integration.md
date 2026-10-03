@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Data Handling Design]]"
+dependencyOf:
+  - "[[Upload Battery Data to Cloud Portal]]"
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Crown Battery Health Monitor]]"

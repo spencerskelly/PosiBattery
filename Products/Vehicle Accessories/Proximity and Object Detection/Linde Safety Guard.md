@@ -16,6 +16,7 @@ performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Limit Truck Speed Automatically]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Limit Vehicle Motion by Location Zone]]"
 hasDesign:
   - "[[Proximity Tag System]]"
   - "[[Interactive Warning Vest]]"
@@ -41,6 +42,8 @@ Linde assistance system that detects trucks and pedestrians approaching each oth
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Interactive Warning Vest]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+- **Functions performed, with citations:**
+  - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 
 ## Aliases
 

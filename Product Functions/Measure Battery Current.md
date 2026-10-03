@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
+dependsOn:
+  - "[[Current Sensing Design]]"
 describedBy:
   - "[[Metric - Current Measurement]]"
 performedBy:

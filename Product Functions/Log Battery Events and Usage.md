@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
+dependsOn:
+  - "[[Non-Volatile Event Memory]]"
 describedBy:
   - "[[Metric - Data Storage]]"
 performedBy:

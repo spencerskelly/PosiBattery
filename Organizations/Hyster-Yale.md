@@ -26,6 +26,7 @@ makes:
   - "[[Hyster Reaction]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Hyster Dynamic Stability System]]"
 offers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"

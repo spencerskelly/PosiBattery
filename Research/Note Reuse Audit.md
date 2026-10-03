@@ -20,7 +20,7 @@ Record of where notes covered the same thing, what was merged or renamed, and th
 
 ## Notes
 
-- **Rules (owner, 2026-10-03):** (1) one note per thing: one organization note per owner, one product note per product, one metric note per metric; (2) products link to the owner by relationship, and the owner is never a folder; (3) check titles and aliases before creating a note; (4) when notes are merged, the survivor keeps its id and the retired ids go in Former ids; (5) notes that might be the same but are unproven stay separate and are cross-referenced.
+- **Rules (owner, 2026-10-03):** (1) one note per thing: one organization note per owner, one product note per product, one metric note per metric; (2) products link to the owner by relationship, and the owner is never a folder; (3) check titles and aliases before creating a note; (4) when notes are merged, the survivor keeps its id and the retired ids go in Former ids; (5) notes that might be the same but are unproven stay separate and are cross-referenced; (6) no two notes share a name, and a colliding name gets an identifier after it (brand or application), checked by `99_System/check-names.py`.
 - **Folder rule:** `Products/<Type>/<Category>/` where the type is Batteries, Chargers, Forklifts, Battery Accessories, Charger Accessories, Vehicle Accessories, Fleet Software and Platforms, Fuel Cell Power Units or Ground Support Equipment, and the category folders sit under the type (for example `Products/Batteries/Lithium-Ion Batteries`).
 
 | Area | What overlapped | Decision |
@@ -33,6 +33,7 @@ Record of where notes covered the same thing, what was merged or renamed, and th
 | Organization notes | Round 5 offered-with lists repeated products that now have notes | Relabeled as superseded and kept as written for items not yet modeled; owners link to products by relationship |
 | Kept separate until evidence | Hyster Tracker Telemetry vs Hyster Battery Tracker (C60); Yale Vision Telemetry vs Yale Battery Vision (C60); Triathlon USA vs Triathlon Battery Solutions (C62); eGO!c vs eGO!core (C23); WBID vs WBID Pro; Lester Summit II 650 W vs Delta-Q IC650 (C58) | Not merged because no source says they are the same thing; each pair is cross-referenced in the conflicts register |
 | Boundary kept | Alert on Abnormal Condition (battery) vs Alert Operator of Hazards (truck); Log Battery Events and Usage vs Report Truck Telemetry | Different objects of the behavior; kept separate with the boundary stated in each note |
+- **Round 18:** vault-wide name check added; the vault had no duplicate note names. Eleven Research working notes from the PosiCharge business analysis use a different layout (no model frontmatter or standard headings); they are left as written (owner decision pending).
 
 ## Aliases
 

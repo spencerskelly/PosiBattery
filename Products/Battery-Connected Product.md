@@ -22,13 +22,14 @@ describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
   - "[[Document Wishlist]]"
+  - "[[Function and Design Levels]]"
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
   - "[[Link Audit]]"
   - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
   - "[[Unidentified Products Review]]"
-  - "[[Function and Design Levels]]"
+  - "[[Function Design Dependencies]]"
 ---
 
 # Battery-Connected Product

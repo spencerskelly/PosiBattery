@@ -61,7 +61,5 @@ Raymond battery-resident module that reports battery statistics through the iWar
 ## Aliases
 
 - iBattery
-- iBATTERY
-
 
 ## Former ids

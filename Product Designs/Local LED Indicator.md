@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:
@@ -24,9 +24,9 @@ designOf:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
-  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Local LED Indicator

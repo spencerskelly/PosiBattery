@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
+dependsOn:
+  - "[[Capacitive Electrolyte Level Probe]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:
@@ -35,11 +37,11 @@ performedBy:
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
+  - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
-  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Sense Electrolyte Level

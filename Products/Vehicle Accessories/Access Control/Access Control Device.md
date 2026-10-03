@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
   - "[[Panacea Smart Start]]"
+  - "[[Toyota PIN Code Access Pad]]"
 ---
 
 # Access Control Device

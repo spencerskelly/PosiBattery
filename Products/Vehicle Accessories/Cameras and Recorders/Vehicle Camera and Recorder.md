@@ -12,6 +12,10 @@ subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
   - "[[Panacea Cam-DVR with Impact Sensors]]"
+  - "[[Toyota 360 Operating Camera]]"
+  - "[[Toyota Carriage-Mounted Camera]]"
+  - "[[Toyota Twistlock Snapshot Camera System]]"
+  - "[[Raymond Under-Fork Camera Option]]"
 ---
 
 # Vehicle Camera and Recorder

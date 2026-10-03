@@ -12,6 +12,14 @@ tags:
   - operator-assist
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
+hasPart:
+  - "[[Toyota Acu-Laser]]"
+  - "[[Toyota Auto Height Select]]"
+  - "[[Toyota Load Weight Sensing]]"
+  - "[[Toyota Compartment Sensing System]]"
+  - "[[Toyota 360 Operating Camera]]"
+  - "[[Toyota Carriage-Mounted Camera]]"
+  - "[[Toyota Twistlock Snapshot Camera System]]"
 performs:
   - "[[Assist Lift Positioning]]"
   - "[[Sense Load Weight and Lift Height]]"
@@ -47,6 +55,7 @@ Toyota suite of operator assist features including SEnS+ pedestrian and object d
   - [[Fork Laser Guide]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Radar Object Sensor]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Regenerative Braking]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
+- **Round 18:** components with their own notes: [[Toyota SEnS+ Pedestrian and Object Detection]], [[Toyota System of Active Stability]], [[Toyota Acu-Laser]], [[Toyota Auto Height Select]], [[Toyota Load Weight Sensing]], [[Toyota Compartment Sensing System]], [[Toyota 360 Operating Camera]], [[Toyota Carriage-Mounted Camera]], [[Toyota Twistlock Snapshot Camera System]].
 
 ## Aliases
 

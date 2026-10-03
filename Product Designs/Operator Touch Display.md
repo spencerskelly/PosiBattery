@@ -8,13 +8,14 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Display Device Design]]"
 describedBy:
   - "[[Metric - Operator Feedback]]"
 designOf:
   - "[[Crown InfoLink]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Crown Gena Operating System]]"
 ---
 
 # Operator Touch Display
@@ -30,6 +31,7 @@ Touch display or LCD on the truck showing alerts and data.
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Crown InfoLink]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Hyster J1.5-3.0UT(L)]] (V): <https://www.hyster.com/fr-fr/emea/chariots-elevateurs-electriques-4-roues/j1.5-3.5ut>
+  - [[Crown Gena Operating System]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 
 ## Aliases
 

@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Fuel Cell Power Design]]"
+dependencyOf:
+  - "[[Refuel Truck Power Source in Minutes]]"
 designOf:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"

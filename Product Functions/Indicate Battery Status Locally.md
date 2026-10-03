@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
+dependsOn:
+  - "[[Warning and Display Device Design]]"
 performedBy:
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
@@ -22,10 +24,10 @@ performedBy:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
-  - "[[Crown Battery Acid Indicators]]"
 ---
 
 # Indicate Battery Status Locally

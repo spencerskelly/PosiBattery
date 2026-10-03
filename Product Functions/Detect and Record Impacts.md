@@ -9,12 +9,15 @@ tags:
   - product-function
 subtypeOf:
   - "[[Sense Collision Risk and Events]]"
+dependsOn:
+  - "[[Impact Sensor]]"
 performedBy:
   - "[[Linde connect]]"
-  - "[[Toyota MyInsights Telematics]]"
-  - "[[TLD Aircraft Safety Docking]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
+  - "[[TLD Aircraft Safety Docking]]"
+  - "[[Raymond iWAREHOUSE]]"
 ---
 
 # Detect and Record Impacts
@@ -33,6 +36,7 @@ Detect an impact, record it with time, truck and driver references, and report i
   - [[TLD Aircraft Safety Docking]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
   - [[Powerfleet Forklift Gateway]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Panacea Cam-DVR with Impact Sensors]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[Raymond iWAREHOUSE]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

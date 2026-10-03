@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
+dependsOn:
+  - "[[CAN Interface]]"
 describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 performedBy:

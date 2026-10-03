@@ -9,12 +9,15 @@ tags:
   - product-function
 subtypeOf:
   - "[[Warn People of Hazards]]"
+dependsOn:
+  - "[[Indicator and Alarm Design]]"
 performedBy:
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Linde Safety Guard]]"
   - "[[Linde BlueSpot]]"
   - "[[Powerfleet Forklift Safety Lights]]"
   - "[[TVH Forklift Arrow Lights]]"
+  - "[[Toyota Forklift Lighting Options]]"
 ---
 
 # Warn Pedestrians of Approaching Truck
@@ -33,6 +36,7 @@ Warn people on foot that a truck is approaching with lights, sounds or wearable 
   - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Powerfleet Forklift Safety Lights]] (V): <https://www.powerfleet.com/?p=30065>
   - [[TVH Forklift Arrow Lights]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+  - [[Toyota Forklift Lighting Options]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 
 ## Aliases
 

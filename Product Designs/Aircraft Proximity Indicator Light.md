@@ -9,7 +9,9 @@ tags:
   - gse
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
+dependencyOf:
+  - "[[Indicate Aircraft Proximity to Operator]]"
 designOf:
   - "[[Textron Smart Sense]]"
 ---

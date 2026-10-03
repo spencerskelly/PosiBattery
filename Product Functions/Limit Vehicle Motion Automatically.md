@@ -11,7 +11,8 @@ supertypeOf:
   - "[[Limit Truck Speed Automatically]]"
   - "[[Slow Truck in Curves]]"
   - "[[Slow and Stop Near Aircraft]]"
-  - "[[Stop Vehicle When Operator Leaves Seat]]"
+  - "[[Stop Vehicle When Operator Is Out of Position]]"
+  - "[[Limit Vehicle Motion by Location Zone]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

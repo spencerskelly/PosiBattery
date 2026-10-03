@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
+dependsOn:
+  - "[[Display Device Design]]"
 performedBy:
   - "[[EnerSys Truck iQ]]"
 ---

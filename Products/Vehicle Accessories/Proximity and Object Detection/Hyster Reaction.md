@@ -18,6 +18,7 @@ performs:
   - "[[Slow Truck in Curves]]"
   - "[[Alert Operator of Hazards]]"
   - "[[Stabilize Truck Dynamically]]"
+  - "[[Limit Vehicle Motion by Location Zone]]"
 hasDesign:
   - "[[Proximity Tag System]]"
   - "[[LiDAR Object Sensor]]"
@@ -45,6 +46,9 @@ Hyster operator assist package that limits truck speed, acceleration and hydraul
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
   - [[LiDAR Object Sensor]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
+- **Round 18:** Yale's Reliant text matches this note's technologies; see [[Yale Reliant Portfolio]] and C76.
+- **Functions performed, with citations:**
+  - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
 
 ## Aliases
 

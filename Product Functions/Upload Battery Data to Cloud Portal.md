@@ -9,6 +9,9 @@ tags:
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
+dependsOn:
+  - "[[Wireless Interface Design]]"
+  - "[[Cloud Portal Integration]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"

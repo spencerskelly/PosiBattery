@@ -8,13 +8,13 @@ tags:
   - battery-monitoring
   - design-characteristic
 subtypeOf:
-  - "[[Warning and Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
 designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Crown Battery Acid Indicators]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Audible Alarm

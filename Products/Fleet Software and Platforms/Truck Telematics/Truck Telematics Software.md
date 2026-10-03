@@ -16,9 +16,11 @@ supertypeOf:
   - "[[Hyster Tracker Telemetry]]"
   - "[[Linde connect]]"
   - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Powerfleet Forklift Gateway]]"
+  - "[[Raymond iWAREHOUSE]]"
+  - "[[Raymond iWAREHOUSE Real-Time Location System]]"
 ---
 
 # Truck Telematics Software

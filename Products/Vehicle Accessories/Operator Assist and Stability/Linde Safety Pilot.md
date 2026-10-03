@@ -15,6 +15,7 @@ subtypeOf:
 performs:
   - "[[Stabilize Truck Dynamically]]"
   - "[[Sense Load Weight and Lift Height]]"
+  - "[[Restrict Lift When Load Exceeds Limit]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -32,6 +33,8 @@ Linde driver assistance system that shows load weight, centre of gravity, lift h
 - **Functions performed, with citations:**
   - [[Stabilize Truck Dynamically]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Sense Load Weight and Lift Height]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
+- **Functions performed, with citations:**
+  - [[Restrict Lift When Load Exceeds Limit]] (V): <https://logisticsmatters.co.uk/page_513926.asp>
 
 ## Aliases
 

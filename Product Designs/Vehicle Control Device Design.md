@@ -10,9 +10,8 @@ tags:
 supertypeOf:
   - "[[Active Stability Actuator]]"
   - "[[Fork Laser Guide]]"
-  - "[[Impact Sensor]]"
-  - "[[RFID or PIN Access Reader]]"
   - "[[Regenerative Braking]]"
+  - "[[Operator Identification Design]]"
 ---
 
 # Vehicle Control Device Design

@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Battery Integrated Feature Design]]"
+dependencyOf:
+  - "[[Charge Under BMS Control]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
 designOf:

@@ -31,6 +31,7 @@ The working layout for product and organization notes, with one exemplar for eac
 - **Owner decisions, round 14:** forklifts and other powered trucks use subtype electrical, including internal combustion trucks (they have electrical systems); the survey stays with electric trucks but records features of internal combustion and fuel-cell trucks that electric trucks may lack; truck-side devices matter more than lifting performance.
 - **Re-use and folders (owner, round 15):** follow [[Note Reuse Audit]]: one note per thing, owners as relationships not folders, product folders by type then category under `Products`, merged notes keep retired ids in Former ids.
 - **Generalization (round 17):** follow [[Function and Design Levels]]: general parents have two or more siblings, products link to specific functions and designs only, and each new specific note gets its general parent when created.
+- **Names (owner, round 18):** every note name is unique across the vault, ignoring case; on a collision add an identifier after the name, such as the brand or the application, in parentheses. Aliases follow the same rule. Run `99_System/check-names.py` before committing.
 
 ## Aliases
 

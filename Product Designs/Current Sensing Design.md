@@ -12,6 +12,8 @@ supertypeOf:
   - "[[Hall-Effect Current Sensing]]"
   - "[[Shuntless Current Sensing]]"
   - "[[Split-Core Current Sensor]]"
+dependencyOf:
+  - "[[Measure Battery Current]]"
 ---
 
 # Current Sensing Design

@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
+dependsOn:
+  - "[[Wireless Interface Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 performedBy:

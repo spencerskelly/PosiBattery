@@ -12,10 +12,10 @@ abstract: true
 subtypeOf:
   - "[[Battery-Installed Device]]"
 supertypeOf:
+  - "[[Crown V-Force Single Point Watering System]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Flow-Rite Maverick Battery Watering System]]"
   - "[[Midac Aquamatic Watering System]]"
-  - "[[Crown V-Force Single Point Watering System]]"
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
 describedBy:

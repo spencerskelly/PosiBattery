@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Data Handling Design]]"
+dependencyOf:
+  - "[[Log Battery Events and Usage]]"
 describedBy:
   - "[[Metric - Data Storage]]"
 designOf:

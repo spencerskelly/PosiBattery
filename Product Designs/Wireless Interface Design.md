@@ -17,6 +17,10 @@ supertypeOf:
   - "[[NFC Interface]]"
   - "[[Wi-Fi Interface]]"
   - "[[ZigBee 2.4 GHz Interface]]"
+dependencyOf:
+  - "[[Report Truck Telemetry]]"
+  - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
 ---
 
 # Wireless Interface Design

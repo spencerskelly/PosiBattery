@@ -9,6 +9,8 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Lead-Acid Battery Construction Design]]"
+dependencyOf:
+  - "[[Circulate Electrolyte]]"
 describedBy:
   - "[[Metric - Watering Interval]]"
 designOf:

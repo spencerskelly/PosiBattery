@@ -10,9 +10,9 @@ tags:
   - monitor-maker
   - technology-licensor
 describedBy:
-  - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Ampure Group Portfolio Context]]"
   - "[[Ampure Industrial Portfolio Overlap and Synergy Map]]"
+  - "[[Industrial Battery Supply and Private-Label Relationships]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

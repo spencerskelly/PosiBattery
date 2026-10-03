@@ -8,14 +8,12 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
-  - "[[Aircraft Proximity Indicator Light]]"
-  - "[[Audible Alarm]]"
-  - "[[Floor-Projected Warning Light]]"
-  - "[[Integrated LCD Display]]"
-  - "[[Interactive Warning Vest]]"
-  - "[[Local LED Indicator]]"
-  - "[[Operator Touch Display]]"
-  - "[[Vehicle-Mounted Display]]"
+  - "[[Display Device Design]]"
+  - "[[Indicator and Alarm Design]]"
+dependencyOf:
+  - "[[Alert Operator of Hazards]]"
+  - "[[Alert on Abnormal Condition]]"
+  - "[[Indicate Battery Status Locally]]"
 ---
 
 # Warning and Display Device Design
