@@ -10,9 +10,9 @@ tags:
   - motive-power
   - lead-acid
 describedBy:
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"
@@ -27,6 +27,7 @@ makes:
   - "[[Exide Sonnenschein Lithium Battery]]"
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Exide GNB Lithium Battery 2.0]]"
+  - "[[Exide Motion+ Premium Charger]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:
@@ -53,6 +54,7 @@ Lead-acid battery maker whose GNB Industrial Power division supplies motive-powe
   - Monitoring and software: Motion+ EasyMonitor, Motion+ Fleet, GNB Fleet, GNB Cloud <https://exidegroup.com/en/document/tensor-xgel-brochure>; <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
   - Lithium BMS: Solition Light Traction battery management system <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Name caution (C30):** Exide's documents say GNB Industrial Power becomes Exide Technologies; Stryten says it is formerly GNB Industrial Power <https://www.stryten.com/?p=207972>. See [[Stryten Energy]].
+- **Maker statement (round 12):** Exide says the Motion+ Premium Charger is made in-house with design, development, technology and manufacture controlled by Exide. <https://www.exidegroup.com/en/news/exide-technologies-unveils-new-motion-premium-charger>; <https://www.automotiveworld.com/?p=452187>. See [[Exide Motion+ Premium Charger]].
 
 ## Aliases
 

@@ -32,6 +32,8 @@ hasDesign:
   - "[[Light-Triggered Data Upload]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
+offeredBy:
+  - "[[Sunlight Group]]"
 ---
 
 # Philadelphia Scientific eGO!pro

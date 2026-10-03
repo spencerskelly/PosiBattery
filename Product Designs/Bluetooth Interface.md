@@ -17,6 +17,7 @@ designOf:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Bluetooth Interface
@@ -36,6 +37,7 @@ Bluetooth radio link. Parent family for variants; used directly where a source s
   - [[Philadelphia Scientific eGO!gateway]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
   - [[Crown Battery Health Monitor]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
+  - [[Stryten X-3 Charger]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/SE1038-X-3-Product-Brochure_DIGITAL.pdf>
 
 ## Aliases
 

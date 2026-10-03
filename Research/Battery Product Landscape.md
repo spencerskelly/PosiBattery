@@ -45,6 +45,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 9 2026-10-02:** note standard and exemplars, specs added from three documents, Stryten lineup completed, multi-link explanations, decisions Q11 and Q12 recorded. See [[Note Standard (Example)]].
 - **Round 10 2026-10-02:** performance metric dictionary (42 metrics in the Performance Metrics folder) and three comparison matrices; the documents mentioned for this round had not arrived, so no document-based values were added. See [[Monitor Comparison Matrix]], [[Charger Comparison Matrix]], [[Battery Comparison Matrix]].
 - **Round 11 2026-10-02:** eight datasheets absorbed as Document notes in `Source Documents`; differences from earlier sources logged (C43 to C51); charger and monitor specs, 7 functions and 1 design added; metrics CM16 to CM18 added; [[Document Wishlist]] and [[Unidentified Products Review]] created.
+- **Round 12 2026-10-02:** link audit and rebuilt Document Wishlist (owner flagged four bad links and home-page links); corrections: Deka Dominator is gel (C53), PowerForce is not Deka-only (C54); Stryten brochures give lead-acid battery to charger pairings; Delta-Q IC650, Exide Motion+ Premium Charger and the Sunlight eGO! PRO page added; conflicts C52 to C59. See [[Link Audit]].
 
 ## Aliases
 

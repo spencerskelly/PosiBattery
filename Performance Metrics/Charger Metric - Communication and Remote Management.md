@@ -29,12 +29,14 @@ Communication and Remote Management: Local and cloud interfaces for configuratio
   - [[ACT Quantum 3]]: Wi-Fi to ACTview and Battview; USB-C; remote firmware updates; earlier note: Wi-Fi to ACTview and Battview
   - [[Crown V-HFM3 Charger]]: web interface, Wi-Fi, Ethernet, USB; Charger Network Management System
   - [[Deka PowerForce Charger]]: color touchscreen
-  - [[Delta-Q IC650]]: CAN; CANopen CiA 419
+  - [[Delta-Q IC650]]: CAN bus (optional), Modbus, USB host port; earlier note: CAN; CANopen CiA 419
   - [[EnerSys NexSys+ Charger]]: 4.3 inch dashboard; no remote platform named in the guide
-  - [[Fronius Selectiva 4.0]]: Fronius Charge & Connect
+  - [[Exide Motion+ Premium Charger]]: CAN-board for lithium; optional USB data download
+  - [[Fronius Selectiva 4.0]]: Charge & Connect; USB interface (reseller listing); earlier note: Fronius Charge & Connect
   - [[Lester Summit Series II]]: Bluetooth apps; CANopen and SAE J1939; wake-up signal (cloud only per reseller, C46); earlier note: Bluetooth app; cloud profiles
   - [[PosiCharge ProCore Edge]]: Bluetooth; phone control
   - [[Power Designers REVOLUTION X]]: LCD/keypad; Ethernet optional (dealer page)
+  - [[Stryten X-3 Charger]]: Wi-Fi, Bluetooth, PLC, USB
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 9 product(s) have a value; document-based values to be added as documents are supplied.
 

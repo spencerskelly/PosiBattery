@@ -10,6 +10,7 @@ tags:
 describedBy:
   - "[[Battery Metric - Chemistry and Plate Construction]]"
 designOf:
+  - "[[Deka Dominator Battery]]"
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
   - "[[Exide Element VRLA Battery]]"
@@ -31,6 +32,7 @@ Gelled electrolyte, so no watering.
   - [[Exide Element VRLA Battery]] (V): <https://www2020.theautochannel.com/news/2007/03/28/041598.html>
   - [[Deka PowrMate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka Gel-Mate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Deka Dominator Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 
 ## Aliases
 

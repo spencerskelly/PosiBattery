@@ -21,6 +21,9 @@ supertypeOf:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Power Designers PowerTrac DT3]]"
 describedBy:
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Battery Product Landscape]]"
+  - "[[Monitor Comparison Matrix]]"
   - "[[Offerings by Organization]]"
   - "[[Monitor Metric - Certifications and Standards]]"
   - "[[Monitor Metric - Charger Link]]"
@@ -37,9 +40,6 @@ describedBy:
   - "[[Monitor Metric - Voltage Measurement]]"
   - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
   - "[[Monitor Metric - Wireless Interfaces and Range]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
-  - "[[Battery Product Landscape]]"
-  - "[[Monitor Comparison Matrix]]"
 ---
 
 # Battery Monitoring and Identification Device

@@ -28,6 +28,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 |---|---|---|---|---|---|---|---|---|
 | [[Crown V-Force Lithium-Ion ESS]] | n/s | n/s | n/s | n/s | n/s | n/s | UL Listed pack | [[Crown V-Force Lithium-Ion ESS]] |
 | [[Deka D-Series Battery]] | n/s | n/s | n/s | n/s | conventional and opportunity | n/s | n/s | [[Deka D-Series Battery]] |
+| [[Deka Dominator Battery]] | gel (maintenance-free); corrected from flooded (C53) | n/s | n/s | n/s | n/s | n/s | n/s | [[Deka Dominator Battery]] |
 | [[Deka FastCharge Battery]] | n/s | n/s | n/s | n/s | fast | n/s | n/s | [[Deka FastCharge Battery]] |
 | [[Deka HydraSaver Battery]] | n/s | n/s | n/s | ten weeks | n/s | n/s | n/s | [[Deka HydraSaver Battery]] |
 | [[Deka MaintenanceSaver Battery]] | n/s | n/s | n/s | four times a year | n/s | n/s | n/s | [[Deka MaintenanceSaver Battery]] |
@@ -54,6 +55,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Stryten M-Series T310 Battery]] | flooded; tubular | n/s | n/s | up to 90 days | opportunity | n/s | n/s | [[Stryten M-Series T310 Battery]] |
 | [[Stryten M-Series T330 Battery]] | flooded; round tubular | n/s | up to 18% more capacity than conventional flooded | n/s | opportunity and fast | n/s | n/s | [[Stryten M-Series T330 Battery]] |
 - **Round 11:** rebuilt from the metric notes after the eight datasheets were absorbed; values carry 'earlier note:' where a product already had a different value.
+- **Round 12:** rebuilt after the Stryten, Delta-Q, Fronius and Exide addresses and findings; earlier values kept after 'earlier note:'.
 
 ## Aliases
 

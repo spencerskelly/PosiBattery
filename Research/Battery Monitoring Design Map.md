@@ -31,23 +31,23 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Battery Onboard Charger]] | [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Stryten M-Series AGM220 Battery]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
-| [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]] | - | - |
+| [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]], [[Stryten X-3 Charger]] | - | - |
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
 | [[Breakaway Connector]] | [[Deka PowerForce Charger]] | - | - |
-| [[CAN Interface]] | [[Deka Ready Power Lithium Battery]], [[EnerSys Wi-iQ]], [[Green Cubes GSE Lithium Battery]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]], [[Stryten M-Series Li600 Battery]] | - | [[PosiCharge BMID 3]] |
+| [[CAN Interface]] | [[Deka Ready Power Lithium Battery]], [[EnerSys Wi-iQ]], [[Exide Motion+ Premium Charger]], [[Green Cubes GSE Lithium Battery]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]], [[Stryten M-Series Li600 Battery]] | - | [[PosiCharge BMID 3]] |
 | [[CAN-LIN and Battery Bus Interface]] | [[HOPPECKE trak collect]] | - | - |
 | [[Cable-Mounted Indicator Placement]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Capacitive Electrolyte Level Probe]] | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite Eagle Eye Elite IV]] | - |
 | [[Cellular Communication Interface]] | [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge Battery Rx]], [[Yale Battery Vision]] | - | - |
 | [[Charger Status LED Bar]] | [[ACT Quantum 2]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[PosiCharge ProCore Edge]] | - | - |
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
-| [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]] | - | - |
+| [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
 | [[Dual-Cable and Parallel Charging Configuration]] | [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Forced Electrolyte Circulation]] | [[Exide MARATHON Battery]], [[HOPPECKE trak uplift air Battery]] | - | - |
-| [[Gel Electrolyte]] | [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
+| [[Gel Electrolyte]] | [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
 | [[Hall-Effect Current Sensing]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!pro]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Harness Ring-Terminal Mounting]] | [[EnerSys Wi-iQ]] | - | - |
 | [[Hibernation Mode]] | [[Stryten M-Series Li600 Battery]], [[Stryten M-Series Li610 Battery]] | - | - |
@@ -75,9 +75,9 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Tubular Plate Construction]] | [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
-| [[USB Data Download]] | [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]] | - | - |
+| [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Vehicle-Mounted Display]] | [[EnerSys Truck iQ]] | - | - |
-| [[Wi-Fi Interface]] | [[Advanced Charging Technologies BATTview]] | - | - |
+| [[Wi-Fi Interface]] | [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[ZigBee 2.4 GHz Interface]] | [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]] | - | - |
 - **Citations (2026-10-02):** every link in this table has its web page listed on the Function or Design note (section Sources) and on the product note. The table itself repeats no claims beyond product-to-note links.

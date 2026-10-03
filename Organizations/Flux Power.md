@@ -11,9 +11,9 @@ tags:
   - lithium
   - private-label-documented
 describedBy:
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 playsRole:
   - "[[Battery Maker]]"
 makes:

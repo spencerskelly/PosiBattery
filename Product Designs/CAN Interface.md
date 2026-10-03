@@ -18,6 +18,7 @@ designOf:
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
   - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Exide Motion+ Premium Charger]]"
 ---
 
 # CAN Interface
@@ -39,6 +40,7 @@ CAN bus interface for communication with a vehicle or charger.
   - [[Deka Ready Power Lithium Battery]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
   - [[Stryten M-Series Li600 Battery]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
   - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
+  - [[Exide Motion+ Premium Charger]] (V): <https://www.exidegroup.com/en/news/exide-technologies-unveils-new-motion-premium-charger>
 
 ## Aliases
 

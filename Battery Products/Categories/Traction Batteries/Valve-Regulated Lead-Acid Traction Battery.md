@@ -11,6 +11,7 @@ abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"
 supertypeOf:
+  - "[[Deka Dominator Battery]]"
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
   - "[[EnerSys NexSys TPPL Battery]]"

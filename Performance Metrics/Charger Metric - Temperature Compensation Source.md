@@ -35,6 +35,8 @@ Temperature Compensation Source: What supplies battery temperature for compensat
   - [[Lester Summit Series II]]: battery temperature connector (QD terminal block); earlier note: battery temperature input; sensor optional
   - [[PosiCharge DVS100]]: electrolytic thermistor and BMID
   - [[PosiCharge ProCore Edge]]: BMID
+  - [[Stryten EHI Charger]]: battery temperature as data over power line
+  - [[Stryten X-7 Charger]]: inCOMMAND-linked battery temperature; charger adjusts rate
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 9 product(s) have a value; document-based values to be added as documents are supplied.
 

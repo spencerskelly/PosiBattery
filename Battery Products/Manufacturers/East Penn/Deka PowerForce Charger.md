@@ -62,6 +62,8 @@ East Penn charger designed for Deka motive power batteries, lead and lithium, wi
   - [[Deka Gel-Mate Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
   - [[Deka MaxPowr Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
   - [[Deka Ready Power Lithium Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+- East Penn's PowerForce page calls it the premier charger for all lift truck batteries regardless of the manufacturer, while describing it as designed for optimal use with all Deka brand motive power batteries; it says the charger is fully networked and cloud ready, monitored and controlled remotely with East Penn's fleet management tool, and tested in high dust, high humidity and extreme cold. Source: East Penn PowerForce page (T1), retrieved 2026-10-02. <https://eastpennmanufacturing.com/?p=5666>
+- **Conflict-visible (C54):** 'designed specifically for all Deka motive power batteries' (news item) versus 'for all lift truck batteries regardless of the manufacturer' (product page). The links to Deka lines stay; the charger is not Deka-only.
 
 ## Aliases
 

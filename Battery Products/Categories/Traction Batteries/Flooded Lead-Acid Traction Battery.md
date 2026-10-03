@@ -14,7 +14,6 @@ supertypeOf:
   - "[[Crown V-Force Lead-Acid Battery]]"
   - "[[Deka ChargeMate Battery]]"
   - "[[Deka D-Series Battery]]"
-  - "[[Deka Dominator Battery]]"
   - "[[Deka FastCharge Battery]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[Deka MaintenanceSaver Battery]]"

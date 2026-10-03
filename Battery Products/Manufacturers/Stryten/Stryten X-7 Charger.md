@@ -16,6 +16,7 @@ performs:
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Fast]]"
+  - "[[Compensate Charge for Battery Temperature]]"
 hasDesign:
   - "[[Silicon-Carbide Power Stage]]"
   - "[[Modular Power Modules]]"
@@ -47,6 +48,11 @@ Stryten M-Series modular silicon-carbide charger for lead and lithium forklift b
 - **Related products and how they differ (offeredWith):**
   - [[Stryten M-Series Li600 Battery]]: no difference stated in the sources.
   - [[Stryten M-Series Li610 Battery]]: no difference stated in the sources.
+- An earlier Stryten X-7 page says it comes in 2-bay (5-15 kW) and 4-bay (5-30 kW) cabinets, charges almost any motive battery including lithium-ion, supports user-programmable opportunity and fast charging with auto finish and equalization, and has an advanced 24/36/48 V multi-voltage modular design. Source: Stryten X-7 page (earlier version) (T1), retrieved 2026-10-02. <https://www.stryten.com/motive-power-solutions/m-series-x-7/>
+- Stryten says M-Series chargers communicate with its inCOMMAND software, and if a battery's temperature rises the charger automatically adjusts the charge rate; X-7 is offered in 480 VAC and 208-240 VAC three-phase versions. Source: Stryten article on X-7 chargers (T1), retrieved 2026-10-02. <https://stryten.com/?p=173790>
+- **Conflict-visible (C55):** the earlier page says 24/36/48 V; the 2026 article says the DC range was expanded to 72-96 V. Both are kept as the product's history, not as a disagreement of the same date. Sources: <https://www.stryten.com/motive-power-solutions/m-series-x-7/>; <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>.
+- **Functions performed, with citations (article):**
+  - [[Compensate Charge for Battery Temperature]] (V): <https://stryten.com/?p=173790>
 
 ## Aliases
 

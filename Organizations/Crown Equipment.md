@@ -10,9 +10,9 @@ tags:
   - brand-owner
   - battery-brand
 describedBy:
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"

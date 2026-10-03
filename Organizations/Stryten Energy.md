@@ -13,9 +13,9 @@ tags:
   - charger-maker
   - software-vendor
 describedBy:
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"
@@ -64,6 +64,7 @@ US industrial battery maker, formerly GNB Industrial Power, selling M-Series lea
   - Forklifts and parts: sold through dealers such as Medley <https://www.medleycompany.com/stryten-energy/>
 - The lineup sheet groups chargers by application: X-3, X-7 and EHI for opportunity and fast charging, EHY and EHF for conventional charging, and groups batteries the same way (T330, F110, T310 for opportunity; T300, F100 for conventional); it names no battery-charger pairings except Li600 with X-3 and X-7. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - **To-do:** pairings between lead-acid lines and chargers are left blank until a source names them.
+- **Round 12:** the EHF and EHY brochures name battery-charger pairings for the lead-acid lines (EHF: T300, T310, T330, F100, F110; EHY: T310 profile), which replaces the earlier 'pairings left blank' statement for those lines. <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-Series_ProductBrochure_EHF_SE1060_DIGITAL.pdf>; <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-Series_ProductBrochure_EHY_SE1057_DIGITAL.pdf>.
 
 ## Aliases
 

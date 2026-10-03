@@ -26,6 +26,7 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Exide Motion+ Premium Charger]]"
 ---
 
 # Charge Lithium-Ion Battery
@@ -55,6 +56,7 @@ Charge lithium-ion batteries with a profile suited to them.
   - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[Exide Motion+ Premium Charger]] (V): <https://www.exidegroup.com/en/news/exide-technologies-unveils-new-motion-premium-charger>
 
 ## Aliases
 

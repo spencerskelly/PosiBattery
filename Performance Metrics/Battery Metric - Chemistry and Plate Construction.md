@@ -27,6 +27,7 @@ Chemistry and Plate Construction: Chemistry and plate type.
 - **Comparability rule:** Plate type (flat, round tubular, TPPL) changes cycle behavior; compare within chemistry.
 - **Direction:** n/a.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Deka Dominator Battery]]: gel (maintenance-free); corrected from flooded (C53)
   - [[EnerSys NexSys TPPL Battery]]: thin plate pure lead (valve-regulated)
   - [[Exide TENSOR xGEL Battery]]: gel (valve-regulated)
   - [[Green Cubes GSE Lithium Battery]]: lithium iron phosphate

@@ -14,9 +14,9 @@ subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
 describedBy:
-  - "[[Document - ACT Quantum Charger Sheet (2023)]]"
-  - "[[Document - ACT Quantum 3 Sheet (2024)]]"
   - "[[Document - ACT Battview Sheet (2023)]]"
+  - "[[Document - ACT Quantum 3 Sheet (2024)]]"
+  - "[[Document - ACT Quantum Charger Sheet (2023)]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

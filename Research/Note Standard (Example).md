@@ -27,6 +27,7 @@ The working layout for product and organization notes, with one exemplar for eac
 - **Spec rows:** value as the source states it, units unchanged, 'not stated' where the document is silent, conflicts written beside the row and logged in the conflicts register.
 - **Spec parameter names (added with the metric dictionary):** spec table rows use the metric names in [[README_Performance Metrics]] where one exists, so products compare row for row; new parameters get a metric note first. Existing product tables are aligned as documents are read (to-do).
 - **Documents:** the owner downloads files the fetch tool cannot open and adds them to the chat; if a file is mentioned but absent, the note says so and nothing is invented from it.
+- **Citation rule (round 12):** cite a direct file address or a specific product page, never a company home or landing page; home or landing addresses live only in the Document Wishlist as placeholders. Checked by [[Link Audit]] and the check-links tool.
 
 ## Aliases
 

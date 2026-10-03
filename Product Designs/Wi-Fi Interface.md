@@ -9,6 +9,7 @@ tags:
   - design-characteristic
 designOf:
   - "[[Advanced Charging Technologies BATTview]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Wi-Fi Interface
@@ -23,6 +24,7 @@ Wi-Fi link for uploading data and sending commands.
 - Citations are listed under Sources below. A design characteristic found in products, not a decision by us.
 - **Sources** (product, evidence level, web page):
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
+  - [[Stryten X-3 Charger]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/SE1038-X-3-Product-Brochure_DIGITAL.pdf>
 
 ## Aliases
 

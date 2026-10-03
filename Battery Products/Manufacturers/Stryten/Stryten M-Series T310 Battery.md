@@ -17,6 +17,9 @@ hasDesign:
   - "[[Tubular Plate Construction]]"
 madeBy:
   - "[[Stryten Energy]]"
+offeredWith:
+  - "[[Stryten EHF Charger]]"
+  - "[[Stryten EHY Charger]]"
 ---
 
 # Stryten M-Series T310 Battery
@@ -31,6 +34,7 @@ Stryten tubular flooded battery family with watering cycles of up to 90 days and
 - **Design characteristics, with citations:**
   - [[Extended Watering Interval]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[Tubular Plate Construction]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+- **Related-product note (round 12):** the EHF charger brochure names this battery among its algorithms; other pairings are not named. The earlier 'no charger linked' statement is replaced by this link.
 
 ## Aliases
 

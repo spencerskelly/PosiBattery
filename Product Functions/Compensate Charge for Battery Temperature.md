@@ -21,6 +21,7 @@ performedBy:
   - "[[Lester Summit Series II]]"
   - "[[PosiCharge DVS100]]"
   - "[[Stryten EHI Charger]]"
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Compensate Charge for Battery Temperature
@@ -45,6 +46,7 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[Stryten X-7 Charger]] (V): <https://stryten.com/?p=173790>
 
 ## Aliases
 

@@ -29,12 +29,15 @@ Battery Voltage Range: Battery nominal voltages the charger covers.
   - [[ACT Quantum 3]]: 24-120 V (sheet); earlier note: 24-120 V
   - [[ACT Quantum Outdoor]]: 24-96 V
   - [[Crown V-HFM3 Charger]]: 24, 36, 48, 72, 80, 96 V
+  - [[Delta-Q IC650]]: 24, 36, 48 V
   - [[Fronius Selectiva 4.0]]: 96 V and 120 V models on the flyer; 2-30 kW classes overall
   - [[Lester Summit Series II]]: 24, 36, 48 V nominal; 36/54/72 V maximum (1425 W sheet); earlier note: 24, 36, 48 V
   - [[PosiCharge DVS100]]: 24-80 V
   - [[PosiCharge ProCore Edge]]: 24-96 V
   - [[PosiCharge SVS200]]: 24-96 V
   - [[Power Designers REVOLUTION X]]: multi-voltage modules; with PowerTrac 24/36/48 recognition
+  - [[Stryten EHF Charger]]: 24 V and 36 V models (more in the brochure)
+  - [[Stryten X-3 Charger]]: 24, 36, 48 V (3-bay to 10-bay)
   - [[Stryten X-7 Charger]]: up to 96 V (72-96 V range added)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 11 product(s) have a value; document-based values to be added as documents are supplied.

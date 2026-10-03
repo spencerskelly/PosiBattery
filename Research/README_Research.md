@@ -12,6 +12,7 @@ Evidence registers, competitor comparisons, conflict logs and working convention
 - focused comparisons: [[BMID Competitor Landscape]], [[PosiCharge BMID Variants]], [[Battery Monitoring Function Map]], [[Battery Monitoring Design Map]], [[Battery Monitoring Performance Comparison]]
 - market drivers: [[SLC Airport EGSE BMID Requirement]]
 - directions to follow up from every search: [[Investigation Backlog]]
+- link quality: [[Link Audit]] (which addresses are files, pages or home pages) and [[Document Wishlist]] (documents wanted, with link types)
 
 ## Start here
 

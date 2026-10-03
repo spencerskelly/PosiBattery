@@ -15,6 +15,8 @@ hasDesign:
   - "[[Tubular Plate Construction]]"
 madeBy:
   - "[[Stryten Energy]]"
+offeredWith:
+  - "[[Stryten EHF Charger]]"
 ---
 
 # Stryten M-Series T330 Battery
@@ -45,6 +47,7 @@ Stryten round-tubular flooded battery for opportunity and fast charging, claimin
 - **Design characteristics, with citations:**
   - [[Tubular Plate Construction]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - Stryten says T330 delivers more power in the same size container, with up to 18 percent more capacity versus conventional flooded batteries, designed for opportunity and fast charging, and its round tubular technology gives longer run times than competitive square tube designs. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+- **Related-product note (round 12):** the EHF charger brochure names this battery among its algorithms; other pairings are not named. The earlier 'no charger linked' statement is replaced by this link.
 
 ## Aliases
 

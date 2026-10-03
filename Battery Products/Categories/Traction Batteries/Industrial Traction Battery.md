@@ -13,6 +13,9 @@ supertypeOf:
   - "[[Lithium-Ion Traction Battery]]"
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:
+  - "[[Battery Comparison Matrix]]"
+  - "[[Catalog Review 2026-10-02]]"
+  - "[[Note Standard (Example)]]"
   - "[[Offerings by Organization]]"
   - "[[Battery Metric - BMS and Communication]]"
   - "[[Battery Metric - Capacity]]"
@@ -26,9 +29,6 @@ describedBy:
   - "[[Battery Metric - Operating Temperature and Heating]]"
   - "[[Battery Metric - Size and Mass]]"
   - "[[Battery Metric - Watering Interval]]"
-  - "[[Battery Comparison Matrix]]"
-  - "[[Catalog Review 2026-10-02]]"
-  - "[[Note Standard (Example)]]"
 ---
 
 # Industrial Traction Battery

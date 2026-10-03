@@ -42,10 +42,10 @@ Review of products and items that already-identified organizations name in sourc
 | [[East Penn Manufacturing]] | Battery-to-charger communication device (unnamed) | monitor | <https://www.eastpennmanufacturing.com/wp-content/uploads/Fast-Charge-Flyer-1611.pdf> | possible BID-class device | identify the part |
 | [[East Penn Manufacturing]] | Electrolyte level monitoring and watering systems (unnamed) | accessory | <https://www.eastpennmanufacturing.com/wp-content/uploads/Fast-Charge-Flyer-1611.pdf> | named only generically | identify products |
 | [[East Penn Manufacturing]] | PowerForce model variants and spec sheets | charger | <https://www.eastpennmanufacturing.com/?p=6135> | one note covers the line | get sheets |
-| [[HOPPECKE]] | trak | monitor 4.0 | software/monitor | <https://www.hoppecke.com/uk/product/trak-uplift-iq/> | fleet monitoring partner of trak | collect | find page |
-| [[HOPPECKE]] | trak | systemizer powercube and rapid | battery changing | <https://www.hoppecke.com/uk/product/trak-collect-premium/> | case studies list systemizer rapid | find page |
-| [[HOPPECKE]] | trak | Xchange and trak | ecomizer | service and system | <https://www.hoppecke.com/uk/product/trak-collect-premium/> | case studies list both | find pages |
-| [[HOPPECKE]] | trak | optimizer, Batcom Plus | service, controller | <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks> | named only | find pages |
+| [[HOPPECKE]] | trak \| monitor 4.0 | software/monitor | <https://www.hoppecke.com/uk/product/trak-uplift-iq/> | fleet monitoring partner of trak \| collect | find page |
+| [[HOPPECKE]] | trak \| systemizer powercube and rapid | battery changing | <https://www.hoppecke.com/uk/product/trak-collect-premium/> | case studies list systemizer rapid | find page |
+| [[HOPPECKE]] | trak \| Xchange and trak \| ecomizer | service and system | <https://www.hoppecke.com/uk/product/trak-collect-premium/> | case studies list both | find pages |
+| [[HOPPECKE]] | trak \| optimizer, Batcom Plus | service, controller | <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks> | named only | find pages |
 | [[Stryten Energy]] | inCOMMAND software and Motive Power Battery Finder | software, tool | <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX> | named in the Li610 release | find descriptions |
 | [[Stryten Energy]] | Li610 and Li600 voltage, Ah and size options | battery | <https://www.stryten.com/> | none stated so far | find data sheets |
 | [[Stryten Energy]] | Battery-side device that sends temperature to EHI chargers | monitor | <https://og.mhi.org/media/members/14502/133723547947804003.pdf> | data over power line | identify |

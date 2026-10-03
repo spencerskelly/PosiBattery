@@ -11,8 +11,8 @@ tags:
 subtypeOf:
   - "[[Industrial Battery Charger]]"
 describedBy:
-  - "[[Document - ACT Quantum Charger Sheet (2023)]]"
   - "[[Document - ACT Battview Sheet (2023)]]"
+  - "[[Document - ACT Quantum Charger Sheet (2023)]]"
 performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Manage Chargers Remotely]]"

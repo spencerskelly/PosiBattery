@@ -51,6 +51,7 @@ Side-by-side stated performance of battery monitors on seven metrics, with confl
 | [[Power Designers PowerTrac DT3]] | 24-84 V nominal; operating 18-120 V | -25 to 60 C | Hall; +/-500 A typical; 1 A resolution; bidirectional | 10,000 events | 900 MHz; up to 150 ft (46 m) | n/s | water and acid resistant (no IP code) | [[Power Designers PowerTrac DT3]] |
 | [[Power Designers PowerTrac SP+]] | 12-84 V nominal | -25 to 60 C | external 50 mV shunt; 500 A shunts offered | n/s | n/s | n/s | n/s | [[Power Designers PowerTrac SP+]] |
 - **Round 11:** rebuilt from the metric notes after the eight datasheets were absorbed; values carry 'earlier note:' where a product already had a different value.
+- **Round 12:** rebuilt after the Stryten, Delta-Q, Fronius and Exide addresses and findings; earlier values kept after 'earlier note:'.
 
 ## Aliases
 

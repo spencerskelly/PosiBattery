@@ -21,11 +21,12 @@ supertypeOf:
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
+  - "[[Document Wishlist]]"
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
   - "[[Note Standard (Example)]]"
-  - "[[Document Wishlist]]"
   - "[[Unidentified Products Review]]"
+  - "[[Link Audit]]"
 ---
 
 # Battery-Connected Product

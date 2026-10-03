@@ -37,6 +37,9 @@ Charge Regimes: Conventional, opportunity, fast or lithium regimes supported.
   - [[PosiCharge DVS100]]: fast
   - [[PosiCharge ProCore Edge]]: opportunity
   - [[Power Designers REVOLUTION X]]: conventional (17% start), opportunity (25%), fast (40%)
+  - [[Stryten EHF Charger]]: standard flooded, low-maintenance flooded, low-maintenance VRLA
+  - [[Stryten EHY Charger]]: conventional (flooded)
+  - [[Stryten X-3 Charger]]: standard, opportunity, fast
   - [[Stryten X-7 Charger]]: standard, opportunity, fast
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 7 product(s) have a value; document-based values to be added as documents are supplied.

@@ -14,6 +14,7 @@ designOf:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Stryten EHI Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # DC-Cable Power-Line Communication
@@ -34,6 +35,7 @@ Communication between battery device and charger carried on the DC charging cabl
   - [[AMETEK Prestolite Power BID]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> (also [[Document - ACT Battview Sheet (2023)]])
+  - [[Stryten X-3 Charger]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/SE1038-X-3-Product-Brochure_DIGITAL.pdf>
 
 ## Aliases
 
