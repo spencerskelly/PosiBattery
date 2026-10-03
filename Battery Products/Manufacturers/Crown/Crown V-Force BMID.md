@@ -12,8 +12,6 @@ tags:
   - lead-acid
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
-describedBy:
-  - "[[Crown Equipment]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
@@ -25,6 +23,10 @@ hasDesign:
   - "[[Bluetooth Class 1 Interface]]"
   - "[[Battery-Top Mounting]]"
   - "[[Acid-Resistant Sealed Housing]]"
+offeredBy:
+  - "[[Crown Equipment]]"
+offeredWith:
+  - "[[Crown V-HFM3 Charger]]"
 ---
 
 # Crown V-Force BMID

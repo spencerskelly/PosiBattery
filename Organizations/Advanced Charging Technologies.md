@@ -9,10 +9,18 @@ tags:
   - charger-maker
   - monitor-maker
   - channel-exclusive
-describes:
-  - "[[Advanced Charging Technologies BATTview]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+playsRole:
+  - "[[Charger Maker]]"
+  - "[[Monitor Maker]]"
+makes:
+  - "[[Advanced Charging Technologies BATTview]]"
+  - "[[ACT Quantum 2]]"
+  - "[[ACT Quantum 3]]"
+  - "[[ACT Quantum Outdoor]]"
+distributedBy:
+  - "[[East Penn Manufacturing]]"
 ---
 
 # Advanced Charging Technologies

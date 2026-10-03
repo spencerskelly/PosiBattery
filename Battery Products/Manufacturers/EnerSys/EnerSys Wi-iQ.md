@@ -12,7 +12,6 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[EnerSys]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
@@ -45,6 +44,14 @@ hasDesign:
   - "[[Mobile App Interface]]"
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
+madeBy:
+  - "[[EnerSys]]"
+offeredWith:
+  - "[[EnerSys NexSys+ Charger]]"
+  - "[[EnerSys IMPAQ Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys COMpact Charger]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # EnerSys Wi-iQ

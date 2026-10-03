@@ -29,6 +29,8 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Reverse-Polarity Protection]]"
+madeBy:
+  - "[[Power Designers]]"
 ---
 
 # Power Designers PowerTrac DT3

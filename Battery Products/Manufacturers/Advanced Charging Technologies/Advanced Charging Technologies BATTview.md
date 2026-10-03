@@ -13,8 +13,6 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
-describedBy:
-  - "[[Advanced Charging Technologies]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -28,6 +26,12 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Wi-Fi Interface]]"
+madeBy:
+  - "[[Advanced Charging Technologies]]"
+offeredWith:
+  - "[[ACT Quantum 2]]"
+  - "[[ACT Quantum 3]]"
+  - "[[ACT Quantum Outdoor]]"
 ---
 
 # Advanced Charging Technologies BATTview

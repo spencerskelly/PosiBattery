@@ -20,6 +20,8 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
+madeBy:
+  - "[[Power Designers]]"
 ---
 
 # Power Designers PowerTrac Monitor

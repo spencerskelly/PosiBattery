@@ -29,6 +29,10 @@ hasDesign:
   - "[[Infrared Data Port]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[Reverse-Polarity Protection]]"
+madeBy:
+  - "[[Power Designers]]"
+offeredWith:
+  - "[[Power Designers REVOLUTION X]]"
 ---
 
 # Power Designers PowerTrac SP+

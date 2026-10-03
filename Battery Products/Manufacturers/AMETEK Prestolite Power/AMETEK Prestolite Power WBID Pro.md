@@ -27,6 +27,8 @@ hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # AMETEK Prestolite Power WBID Pro

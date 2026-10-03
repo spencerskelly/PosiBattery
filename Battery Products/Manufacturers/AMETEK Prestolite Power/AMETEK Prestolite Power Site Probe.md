@@ -14,6 +14,8 @@ subtypeOf:
 performs:
   - "[[Accumulate Amp-Hours]]"
   - "[[Log Battery Events and Usage]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # AMETEK Prestolite Power Site Probe

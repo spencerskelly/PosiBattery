@@ -9,12 +9,23 @@ tags:
   - charger-maker
   - monitor-maker
   - technology-licensor
-describes:
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge PosiGuard]]"
-  - "[[PosiCharge Battery Rx]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+playsRole:
+  - "[[Charger Maker]]"
+  - "[[Monitor Maker]]"
+makes:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge BMID 1]]"
+  - "[[PosiCharge BMID 3]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge SVS200]]"
+  - "[[PosiCharge ProCore Edge]]"
+powers:
+  - "[[Hyster Battery Tracker]]"
+  - "[[Yale Battery Vision]]"
 ---
 
 # PosiCharge

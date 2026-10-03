@@ -16,6 +16,10 @@ performs:
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Report Battery Temperature to Charger]]"
+madeBy:
+  - "[[Fronius International]]"
+offeredWith:
+  - "[[Fronius Selectiva 4.0]]"
 ---
 
 # Fronius TagID

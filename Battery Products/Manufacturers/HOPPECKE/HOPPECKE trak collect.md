@@ -12,8 +12,6 @@ tags:
   - europe
 subtypeOf:
   - "[[Battery Monitoring Device]]"
-describedBy:
-  - "[[HOPPECKE]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -34,6 +32,10 @@ hasDesign:
   - "[[Mid-Battery Voltage Tap]]"
   - "[[NFC Interface]]"
   - "[[CAN-LIN and Battery Bus Interface]]"
+madeBy:
+  - "[[HOPPECKE]]"
+offeredWith:
+  - "[[HOPPECKE trak charger HF premium]]"
 ---
 
 # HOPPECKE trak collect

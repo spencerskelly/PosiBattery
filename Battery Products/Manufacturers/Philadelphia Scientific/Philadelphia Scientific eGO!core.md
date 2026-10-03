@@ -19,6 +19,8 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Mobile App Interface]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!core

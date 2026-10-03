@@ -12,8 +12,6 @@ tags:
   - adjacent
 subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
-describedBy:
-  - "[[EnerSys]]"
 performs:
   - "[[Estimate State of Charge]]"
   - "[[Estimate Remaining Run Time]]"
@@ -22,6 +20,10 @@ performs:
 hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Vehicle-Mounted Display]]"
+madeBy:
+  - "[[EnerSys]]"
+offeredWith:
+  - "[[EnerSys Wi-iQ]]"
 ---
 
 # EnerSys Truck iQ

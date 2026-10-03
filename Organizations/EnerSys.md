@@ -10,13 +10,26 @@ tags:
   - motive-power
   - lead-acid
   - lithium
-describes:
-  - "[[EnerSys Wi-iQ]]"
-  - "[[EnerSys iQ Mini]]"
-  - "[[EnerSys Truck iQ]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+  - "[[Monitor Maker]]"
+makes:
+  - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys iQ Mini]]"
+  - "[[EnerSys Truck iQ]]"
+  - "[[EnerSys NexSys+ Charger]]"
+  - "[[EnerSys IMPAQ Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys COMpact Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
+distributedBy:
+  - "[[Western Materials]]"
+integratesWith:
+  - "[[Hyster-Yale]]"
 ---
 
 # EnerSys

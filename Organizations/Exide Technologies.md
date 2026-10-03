@@ -9,12 +9,22 @@ tags:
   - battery-maker
   - motive-power
   - lead-acid
-describes:
-  - "[[Exide Motion+ EasyMonitor]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+  - "[[Monitor Maker]]"
+makes:
+  - "[[Exide Motion+ EasyMonitor]]"
+  - "[[Exide Element HF Charger]]"
+  - "[[Exide Motion+ Lithium Charger]]"
+parentOf:
+  - "[[Aker Wade Power Technologies]]"
+successorOf:
+  - "[[GNB Industrial Power]]"
 ---
 
 # Exide Technologies

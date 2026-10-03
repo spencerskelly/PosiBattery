@@ -26,6 +26,8 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!Mini

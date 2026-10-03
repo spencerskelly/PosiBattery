@@ -26,6 +26,8 @@ hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # AMETEK Prestolite Power TruBid

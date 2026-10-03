@@ -18,6 +18,8 @@ performs:
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
   - "[[Non-Volatile Event Memory]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # AMETEK Prestolite Power BID with Ah Accumulator

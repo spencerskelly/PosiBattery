@@ -12,8 +12,10 @@ tags:
   - private-label-documented
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Battery Maker]]"
 ---
 
 # Flux Power

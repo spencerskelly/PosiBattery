@@ -12,8 +12,6 @@ tags:
   - fleet-management
 subtypeOf:
   - "[[Battery Monitoring Device]]"
-describedBy:
-  - "[[Crown Equipment]]"
 performs:
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
@@ -25,6 +23,8 @@ performs:
 hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Cloud Portal Integration]]"
+offeredBy:
+  - "[[Crown Equipment]]"
 ---
 
 # Crown Battery Health Monitor

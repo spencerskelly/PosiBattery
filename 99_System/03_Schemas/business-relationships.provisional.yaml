@@ -1,0 +1,23 @@
+schemaVersion: '0.1-provisional'
+date: '2026-10-02'
+basis: relationships.yaml 1.35 format; nothing here is governed or read by any tool yet
+status: provisional, to be refined into a standard (see Info note Business Relationship Vocabulary)
+paired:
+- {forward: playsRole, inverse: rolePlayedBy, from: [Info], to: [Info], provisional: true}   # An organization plays a business role.
+- {forward: makes, inverse: madeBy, from: [Info], to: [Object], provisional: true}   # The organization designs or manufactures the product and presents it as its own.
+- {forward: offers, inverse: offeredBy, from: [Info], to: [Object], provisional: true}   # The organization sells or brands the product; the maker may be another company or not stated.
+- {forward: supplierOf, inverse: suppliedBy, from: [Info], to: [Info], provisional: true}   # The organization supplies products to another organization under a stated supply relationship.
+- {forward: distributedBy, inverse: distributorOf, from: [Info], to: [Info], provisional: true}   # The organization's products are sold through the other organization or its dealer network.
+- {forward: subsidiaryOf, inverse: parentOf, from: [Info], to: [Info], provisional: true}   # The organization is owned by the other organization.
+- {forward: successorOf, inverse: predecessorOf, from: [Info], to: [Info], provisional: true}   # The organization continues the business or brand of the other.
+- {forward: privateLabelFor, inverse: privateLabelledBy, from: [Info], to: [Info], provisional: true}   # The maker produces products that the other organization sells under its own brand.
+- {forward: poweredBy, inverse: powers, from: [Object], to: [Info], provisional: true}   # The product states it uses the organization's technology.
+- {forward: rebrandOf, inverse: rebrandedAs, from: [Object], to: [Object], provisional: true}   # The product is the same design as another product sold under a different brand.
+symmetric:
+- {field: partnerOf, between: any, provisional: true}   # Documented partnership between two organizations.
+- {field: integratesWith, between: any, provisional: true}   # Documented integration or compatibility approval between two organizations or products.
+- {field: offeredWith, between: any, provisional: true}   # Two products that a vendor lists or promotes together.
+notes:
+- '''Info'' endpoints that are organizations carry the tag organization; roles carry business-role.'
+- 'Order in frontmatter: after the governed relationship fields, in the order listed here; inverse beside forward.'
+- 'Evidence rule: every link needs a row in Organizations/Business Relationship Ledger.md.'

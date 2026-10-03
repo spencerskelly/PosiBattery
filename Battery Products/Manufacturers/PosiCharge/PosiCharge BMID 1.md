@@ -13,6 +13,8 @@ subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:
   - "[[PosiCharge BMID Variants]]"
+madeBy:
+  - "[[PosiCharge]]"
 ---
 
 # PosiCharge BMID 1

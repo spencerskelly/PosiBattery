@@ -26,6 +26,10 @@ performs:
 hasDesign:
   - "[[Shuntless Current Sensing]]"
   - "[[Non-Volatile Event Memory]]"
+madeBy:
+  - "[[Power Designers]]"
+offeredWith:
+  - "[[Power Designers REVOLUTION X]]"
 ---
 
 # Power Designers PowerTrac 3

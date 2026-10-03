@@ -19,6 +19,11 @@ performs:
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
   - "[[Non-Volatile Event Memory]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
+offeredWith:
+  - "[[AMETEK Prestolite Power Eclipse II]]"
+  - "[[AMETEK Prestolite Power ULTRA]]"
 ---
 
 # AMETEK Prestolite Power BID

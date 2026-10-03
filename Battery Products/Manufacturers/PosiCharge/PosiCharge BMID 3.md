@@ -16,6 +16,8 @@ describedBy:
 hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[CAN Interface]]"
+madeBy:
+  - "[[PosiCharge]]"
 ---
 
 # PosiCharge BMID 3

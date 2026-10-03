@@ -11,6 +11,8 @@ tags:
   - europe
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+parentOf:
+  - "[[Triathlon Battery Solutions]]"
 ---
 
 # Sunlight Group

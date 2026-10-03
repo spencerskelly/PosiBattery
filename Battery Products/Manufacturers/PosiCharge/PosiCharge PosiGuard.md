@@ -14,7 +14,6 @@ tags:
 subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:
-  - "[[PosiCharge]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
 performs:
@@ -34,6 +33,8 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Mobile App Interface]]"
   - "[[LoRa Interface]]"
+madeBy:
+  - "[[PosiCharge]]"
 ---
 
 # PosiCharge PosiGuard

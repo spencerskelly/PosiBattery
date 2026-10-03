@@ -8,11 +8,15 @@ tags:
   - organization
   - truck-oem
   - brand-owner
-describes:
-  - "[[Raymond iBattery]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+playsRole:
+  - "[[Truck OEM]]"
+  - "[[Brand Owner]]"
+offers:
+  - "[[Raymond iBattery]]"
+  - "[[Raymond Red Charger]]"
 ---
 
 # Raymond

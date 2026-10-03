@@ -14,7 +14,6 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[Hyster-Yale]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
@@ -28,6 +27,10 @@ performs:
 hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
+offeredBy:
+  - "[[Hyster-Yale]]"
+poweredBy:
+  - "[[PosiCharge]]"
 ---
 
 # Hyster Battery Tracker

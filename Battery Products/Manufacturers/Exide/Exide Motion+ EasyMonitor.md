@@ -13,7 +13,6 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[Exide Technologies]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
@@ -31,6 +30,8 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
   - "[[Wrap-Around Cell Connector Probe]]"
+madeBy:
+  - "[[Exide Technologies]]"
 ---
 
 # Exide Motion+ EasyMonitor

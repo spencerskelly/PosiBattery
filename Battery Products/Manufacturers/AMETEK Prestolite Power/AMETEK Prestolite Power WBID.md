@@ -22,6 +22,8 @@ performs:
 hasDesign:
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[DC-Cable Power-Line Communication]]"
+madeBy:
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # AMETEK Prestolite Power WBID

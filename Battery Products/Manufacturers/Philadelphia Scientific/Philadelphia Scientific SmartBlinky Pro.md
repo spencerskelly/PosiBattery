@@ -21,6 +21,8 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Reverse-Polarity Protection]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific SmartBlinky Pro

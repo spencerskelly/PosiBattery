@@ -13,8 +13,22 @@ tags:
   - private-label-statement
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+offers:
+  - "[[Deka PowerForce Charger]]"
+  - "[[AMETEK Prestolite Power Eclipse II]]"
+  - "[[ACT Quantum 2]]"
+  - "[[ACT Quantum 3]]"
+  - "[[ACT Quantum Outdoor]]"
+distributedBy:
+  - "[[Western Materials]]"
+distributorOf:
+  - "[[Advanced Charging Technologies]]"
+  - "[[AMETEK Prestolite Power]]"
 ---
 
 # East Penn Manufacturing

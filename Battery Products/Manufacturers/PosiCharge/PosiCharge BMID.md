@@ -19,7 +19,6 @@ supertypeOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
 describedBy:
-  - "[[PosiCharge]]"
   - "[[BMID Competitor Landscape]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
@@ -35,6 +34,11 @@ performs:
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Bluetooth Interface]]"
+madeBy:
+  - "[[PosiCharge]]"
+offeredWith:
+  - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge ProCore Edge]]"
 ---
 
 # PosiCharge BMID

@@ -19,6 +19,8 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
   - "[[Local LED Indicator]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!plus

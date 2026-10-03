@@ -13,7 +13,6 @@ tags:
 subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:
-  - "[[PosiCharge]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
@@ -30,6 +29,8 @@ hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Cloud Portal Integration]]"
+madeBy:
+  - "[[PosiCharge]]"
 ---
 
 # PosiCharge Battery Rx

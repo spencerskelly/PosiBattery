@@ -18,6 +18,8 @@ performs:
 hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Cellular Communication Interface]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!gateway

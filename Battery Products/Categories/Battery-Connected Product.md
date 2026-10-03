@@ -21,6 +21,7 @@ supertypeOf:
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
+  - "[[Investigation Backlog]]"
 ---
 
 # Battery-Connected Product

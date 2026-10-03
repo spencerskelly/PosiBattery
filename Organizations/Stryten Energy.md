@@ -14,8 +14,17 @@ tags:
   - software-vendor
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+offers:
+  - "[[Stryten X-7 Charger]]"
+distributedBy:
+  - "[[Medley Company]]"
+successorOf:
+  - "[[GNB Industrial Power]]"
 ---
 
 # Stryten Energy

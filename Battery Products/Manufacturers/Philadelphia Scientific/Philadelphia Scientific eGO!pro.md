@@ -30,6 +30,8 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Light-Triggered Data Upload]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!pro

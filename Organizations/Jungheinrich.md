@@ -14,6 +14,9 @@ tags:
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+playsRole:
+  - "[[Truck OEM]]"
+  - "[[Brand Owner]]"
 ---
 
 # Jungheinrich

@@ -11,11 +11,17 @@ tags:
   - lead-acid
   - lithium
   - europe
-describes:
-  - "[[HOPPECKE trak collect]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+  - "[[Monitor Maker]]"
+makes:
+  - "[[HOPPECKE trak collect]]"
+partnerOf:
+  - "[[ELMAS S.R.L.]]"
 ---
 
 # HOPPECKE

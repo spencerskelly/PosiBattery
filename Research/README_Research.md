@@ -11,6 +11,7 @@ Evidence registers, competitor comparisons, conflict logs and working convention
 - every unresolved difference between sources or between earlier and later text: [[Battery Product Landscape Conflicts and Open Questions]]
 - focused comparisons: [[BMID Competitor Landscape]], [[PosiCharge BMID Variants]], [[Battery Monitoring Function Map]], [[Battery Monitoring Design Map]], [[Battery Monitoring Performance Comparison]]
 - market drivers: [[SLC Airport EGSE BMID Requirement]]
+- directions to follow up from every search: [[Investigation Backlog]]
 
 ## Start here
 

@@ -9,13 +9,18 @@ tags:
   - truck-oem
   - brand-owner
   - gse
-describes:
-  - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Truck OEM]]"
+  - "[[Brand Owner]]"
+offers:
+  - "[[Hyster Battery Tracker]]"
+  - "[[Yale Battery Vision]]"
+integratesWith:
+  - "[[EnerSys]]"
 ---
 
 # Hyster-Yale

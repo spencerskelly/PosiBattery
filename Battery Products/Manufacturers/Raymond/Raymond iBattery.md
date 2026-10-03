@@ -13,7 +13,6 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
-  - "[[Raymond]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
 performs:
   - "[[Measure Battery Voltage]]"
@@ -28,6 +27,8 @@ performs:
   - "[[Detect Battery Weight]]"
 hasDesign:
   - "[[Cloud Portal Integration]]"
+offeredBy:
+  - "[[Raymond]]"
 ---
 
 # Raymond iBattery

@@ -22,6 +22,8 @@ hasDesign:
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
   - "[[Cloud Portal Integration]]"
+madeBy:
+  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!c

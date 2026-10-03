@@ -12,6 +12,11 @@ tags:
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+playsRole:
+  - "[[Battery Maker]]"
+  - "[[Charger Maker]]"
+makes:
+  - "[[Green Cubes SAFEFlex Charger]]"
 ---
 
 # Green Cubes Technology

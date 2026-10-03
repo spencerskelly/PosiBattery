@@ -9,13 +9,17 @@ tags:
   - truck-oem
   - brand-owner
   - battery-brand
-describes:
-  - "[[Crown V-Force BMID]]"
-  - "[[Crown Battery Health Monitor]]"
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
-  - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Battery Product Landscape Conflicts and Open Questions]]"
+playsRole:
+  - "[[Truck OEM]]"
+  - "[[Brand Owner]]"
+offers:
+  - "[[Crown V-Force BMID]]"
+  - "[[Crown Battery Health Monitor]]"
+  - "[[Crown V-HFM3 Charger]]"
 ---
 
 # Crown Equipment
