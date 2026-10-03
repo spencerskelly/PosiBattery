@@ -8,6 +8,7 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 
 | Classification | Use when |
 | --- | --- |
+| Ampure group / internal portfolio | The organization is an Ampure business ([[Power Designers]], [[Ampure Automotive and Aftermarket EVSE]]). Never an external competitor; overlap is recorded in [[Ampure Industrial Portfolio Overlap and Synergy Map]] |
 | Direct competitor | The organization offers a substitutable product for the same customer job and operating context |
 | Partial competitor | The organization overlaps with one part of the offer or segment but is not a full substitute |
 | Partner | The organization can enable delivery, integration, distribution, service, supply, or customer access without direct overlap in the defined offer |
@@ -37,7 +38,6 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 ### Battery monitoring and identification
 
 - [[Philadelphia Scientific]]
-- [[Power Designers]]
 - [[Advanced Charging Technologies]]
 - [[EnerSys]]
 - [[Crown Battery Manufacturing]]
@@ -50,9 +50,15 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 - [[Fronius International]]
 - [[Lester Electrical]]
 - [[Delta-Q Technologies]]
-- [[Power Designers]]
 - [[GNB Industrial Power]]
 - [[Advanced Charging Technologies]]
+
+### Ampure group / internal portfolio
+
+Moved out of the external cohorts above on 2026-10-03; kept here so the change is visible.
+
+- [[Power Designers]] — was listed in the monitoring and charging cohorts. Now internal portfolio; its PowerTrac, REVOLUTION and PowerCharge.NET offers are mapped in [[Ampure Industrial Portfolio Overlap and Synergy Map]].
+- [[Ampure Automotive and Aftermarket EVSE]] — contextual capability source; not a cohort member.
 
 ### Connected fleet and energy operations
 
@@ -75,7 +81,9 @@ Classify organizations relative to a specific PosiCharge offer space. This is no
 
 ## Initial classification policy
 
-The cohorts above are research candidates, not final classifications. A forklift or eGSE OEM must not be treated as a direct PosiCharge competitor solely because it manufactures vehicles. Assign a competitive relationship only when a directly comparable offer is documented.
+The cohorts above are research candidates, not final classifications. A forklift or eGSE OEM must not be treated as a direct PosiCharge competitor solely because it manufactures vehicles. Assign a competitive relationship only when a directly comparable offer is documented. An Ampure business is never assigned a competitive relationship; see [[Ampure Group Portfolio Context]].
+
+External competitors should, once the overlap map is complete, be compared with the combined Ampure industrial portfolio as well as with PosiCharge alone.
 
 ## Evidence workflow
 
@@ -88,6 +96,7 @@ The cohorts above are research candidates, not final classifications. A forklift
 ## Related information
 
 - [[PosiCharge Business Scope and Portfolio]]
+- [[Ampure Group Portfolio Context]]
 - [[PosiCharge Product Comparison Matrix]]
 - [[PosiCharge Capability Gap Assessment]]
 - [[Organizations/Business Relationship Ledger|Business Relationship Ledger]]
@@ -95,4 +104,5 @@ The cohorts above are research candidates, not final classifications. A forklift
 
 ## Change history
 
+- 2026-10-03 — Added Ampure group / internal portfolio class; moved Power Designers out of external monitoring and charging cohorts (move recorded in place, not deleted). See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created offer-scoped competitor/partner framework. Method: avoid global company labels and compare only directly relevant offers. See [[Research Change and Decision Tracker]].

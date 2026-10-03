@@ -8,6 +8,22 @@ Define the business boundary used for PosiCharge analysis. This note governs wha
 
 [[PosiCharge]] is an Ampure product line focused on intelligent energy systems for electric industrial fleets. The analysis scope is industrial motive-power and eGSE charging, battery intelligence, and connected energy/fleet operations—not forklifts or other vehicles as standalone products.
 
+## Ampure group context
+
+PosiCharge is one of three Ampure businesses. Each has a different role in this analysis (full model in [[Ampure Group Portfolio Context]]):
+
+| Business | Role in analysis |
+| --- | --- |
+| [[PosiCharge]] | Primary improvement focus |
+| [[Power Designers]] (Power Designers Sibex) | Internal industrial portfolio and shared-team capability; overlap is mapped, not treated as competition |
+| [[Ampure Automotive and Aftermarket EVSE]] | Contextual capability source; not a default comparator |
+
+Group rules applied here:
+
+- No Ampure business is classified as an external competitor. Internal overlap goes to [[Ampure Industrial Portfolio Overlap and Synergy Map]].
+- Passenger-EV and aftermarket EVSE products are not compared with PosiCharge industrial charging unless the same customer job, industrial context and buying alternative are documented.
+- Before an external capability gap is declared, check whether Power Designers Sibex or the EVSE business already has the capability.
+
 ## Target operating contexts
 
 - Material-handling fleets, including multi-shift and mixed-battery operations.
@@ -35,7 +51,7 @@ Define the business boundary used for PosiCharge analysis. This note governs wha
 ## Out of scope unless connected to an offer space
 
 - Forklifts, eGSE vehicles, or other vehicles considered only as vehicles.
-- General EV charging unrelated to industrial fleets, except where technology, channel, or strategy is transferable.
+- General EV charging unrelated to industrial fleets, except where technology, channel, or strategy is transferable. Ampure's own EVSE business is handled under the EVSE boundary rule above.
 - Organizations with no relevant product, channel, integration, supplier, customer, or competitive relationship.
 
 ## Comparison rules
@@ -46,6 +62,7 @@ Define the business boundary used for PosiCharge analysis. This note governs wha
 4. Retain evidence, source date, scope, and confidence for every material classification.
 5. Record unresolved or conflicting evidence explicitly; do not silently normalize it.
 6. Separate a verified portfolio gap from a hypothesis, idea, or roadmap commitment.
+7. Check internal group capability (Power Designers Sibex, then EVSE) before calling an absence an Ampure gap.
 
 ## Core PosiCharge records to normalize
 
@@ -57,6 +74,8 @@ Define the business boundary used for PosiCharge analysis. This note governs wha
 ## Related information
 
 - [[PosiCharge]] — organization record.
+- [[Ampure Group Portfolio Context]] — group model, boundaries and response paths.
+- [[Ampure Industrial Portfolio Overlap and Synergy Map]] — PosiCharge and Power Designers Sibex intersections.
 - [[PosiCharge Competitive and Partner Landscape]] — organization/offer relationship classification.
 - [[PosiCharge Product Comparison Matrix]] — direct product-family comparison structure.
 - [[PosiCharge Capability Gap Assessment]] — verified and candidate gaps.
@@ -67,4 +86,5 @@ Define the business boundary used for PosiCharge analysis. This note governs wha
 
 ## Change history
 
+- 2026-10-03 — Added Ampure group context (PosiCharge, Power Designers Sibex, Automotive and Aftermarket EVSE). Method: internal businesses are portfolio, not competitors; EVSE is context unless a shared industrial job is documented. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Established PosiCharge-centered scope. Method: anchor comparisons in shared product space and customer job; classify organizations per offer, not globally. See [[Research Change and Decision Tracker]].

@@ -28,6 +28,8 @@ Track verified, candidate, and evidence gaps that affect PosiCharge’s ability 
 | Status | Hypothesis, candidate, verified, mitigated, or closed |
 | Impact | Customer, revenue, deployment, differentiation, or risk implication |
 | Confidence | High, medium, or low with reason |
+| Internal capability checked | Power Designers Sibex and Automotive and Aftermarket EVSE checked, with result |
+| Response path | Build in PosiCharge, reuse or integrate Power Designers Sibex, transfer or adapt from EVSE, partner externally, or research further (see [[Ampure Group Portfolio Context]]) |
 | Recommended action | Research, product, partnership, positioning, or no action |
 | Owner and review date | Accountability and reassessment point when assigned |
 
@@ -43,9 +45,13 @@ Track verified, candidate, and evidence gaps that affect PosiCharge’s ability 
 
 Do not mark an item as a PosiCharge product gap merely because another organization offers it. Confirm shared customer job, target segment, materiality, and the actual state of the PosiCharge portfolio first.
 
+A PosiCharge-only absence is not an Ampure-group gap. Check [[Power Designers]] and [[Ampure Automotive and Aftermarket EVSE]] before choosing a response path; record what was checked even when nothing was found.
+
 ## Related information
 
 - [[PosiCharge Business Scope and Portfolio]]
+- [[Ampure Group Portfolio Context]]
+- [[Ampure Industrial Portfolio Overlap and Synergy Map]]
 - [[PosiCharge Product Comparison Matrix]]
 - [[PosiCharge Competitive and Partner Landscape]]
 - [[PosiCharge Opportunity Backlog]]
@@ -53,4 +59,5 @@ Do not mark an item as a PosiCharge product gap merely because another organizat
 
 ## Change history
 
+- 2026-10-03 — Added internal-capability check and response paths (build, reuse, transfer, partner, research). See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created gap-assessment framework. Method: separate portfolio, capability, integration, commercial, positioning, and evidence gaps; preserve hypotheses until validated. See [[Research Change and Decision Tracker]].

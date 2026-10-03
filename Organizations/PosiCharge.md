@@ -11,6 +11,8 @@ tags:
   - technology-licensor
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[Ampure Group Portfolio Context]]"
+  - "[[Ampure Industrial Portfolio Overlap and Synergy Map]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"
@@ -29,6 +31,8 @@ makes:
   - "[[PosiCharge MVS400 and MVS800]]"
 distributedBy:
   - "[[Averest]]"
+subsidiaryOf:
+  - "[[Ampure]]"
 powers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -46,6 +50,8 @@ Fast and opportunity charger maker whose BMID and PosiGuard devices, and PosiLin
 - PosiCharge states it supports every battery type from any manufacturer and tests all brands in a dedicated battery lab. Source: PosiCharge page (T1), retrieved 2026-10-02. <https://posicharge.com/why-posicharge/>
 - Hyster-Yale's Battery Tracker and Battery Vision are described as 'Powered by PosiCharge technology'. Source: Trade press (T2), retrieved 2026-10-02. <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Open (C18):** whether the Hyster-Yale devices are PosiCharge-built hardware with Hyster-Yale branding, or Hyster-Yale-built with licensed technology, is not stated.
+- **Ampure group:** PosiCharge is the Ampure brand for industrial charging; PosiLink was introduced 'under the PosiCharge brand'. Source: Ampure press release (T1), 2024-04-01. <https://www.ampure.com/press-releases/ampures-posilink-redefines-efficiency-in-material-handling-fleet-operations> Group siblings are [[Power Designers]] (internal industrial portfolio) and [[Ampure Automotive and Aftermarket EVSE]] (context only). See [[Ampure Group Portfolio Context]].
+- **Ownership wording:** brand, division or legal entity is not settled by one source; 'subsidiaryOf' here means organization unit of Ampure (Business Relationship Vocabulary) and is provisional (C69).
 - **GSE chargers (round 16):** SVS100, DVS300 Series and MVS400 and MVS800 are linked by relationship; the sheets are on MHI's member site and are on the [[Document Wishlist]]. Older sheets in this series say 'a product line of AeroVironment, Inc.' (C69).
 
 ## Aliases

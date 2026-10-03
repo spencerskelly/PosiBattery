@@ -15,6 +15,8 @@ An entry is eligible only when both offers address the same customer job in a ma
 | PosiCharge offer | Named product family, configuration, or platform capability |
 | Comparator offer | Named competing or alternative product family |
 | Organization | Owner, maker, channel, or supplier associated with the comparator |
+| Origin | Internal (Ampure group) or external |
+| Internal capability source | PosiCharge, Power Designers Sibex, Automotive and Aftermarket EVSE, external partner, or none identified |
 | Offer space | Charging, monitoring/identification, connected operations, or MHE/eGSE energy operations |
 | Customer job | The operational outcome being purchased |
 | Target segment | Fleet, chemistry, equipment, environment, or duty cycle |
@@ -25,6 +27,10 @@ An entry is eligible only when both offers address the same customer job in a ma
 | Evidence | Source records supporting the comparison |
 | Advantage, gap, or uncertainty | Evidence-backed observation; distinguish unknowns from gaps |
 | Next action | Research, validation, positioning, partner, or product action |
+
+## Internal overlap comparisons
+
+Comparisons between PosiCharge and [[Power Designers]] offers are allowed, but they are portfolio comparisons, not competitive ones. Record them in [[Ampure Industrial Portfolio Overlap and Synergy Map]] using the same fields, with Origin set to Internal. Automotive and Aftermarket EVSE products are not compared here unless the EVSE boundary in [[Ampure Group Portfolio Context]] is met.
 
 ## Comparison cohorts
 
@@ -80,4 +86,5 @@ A comparison result becomes a candidate gap only when the capability is material
 
 ## Change history
 
+- 2026-10-03 — Added Origin and Internal capability source fields and an internal-overlap use case; direct external comparison still needs a shared job, context and buying alternative. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created product-to-product comparison protocol. Method: compare shared customer jobs, operating context, and evidence-backed metrics rather than comparing organizations generically. See [[Research Change and Decision Tracker]].

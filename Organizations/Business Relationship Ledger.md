@@ -324,6 +324,8 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | playsRole | [[Nuvera]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
 | subsidiaryOf | [[STILL]] | [[KION Group]] | KION story names STILL as a KION brand | <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html> |
 | subsidiaryOf | [[Nuvera]] | [[Hyster-Yale]] | ranking lists Nuvera among Hyster-Yale brands | <https://www.logisticsmgmt.com/article/top_20_lift_truck_suppliers_2024> |
+| subsidiaryOf | [[Power Designers]] | [[Ampure]] | acquisition announcement by Ampure, 2025-09-02 | <https://www.ampure.com/press-releases/transom-capital-backed-ampure-acquires-power-designers-sibex> |
+| subsidiaryOf | [[PosiCharge]] | [[Ampure]] | Ampure presents PosiCharge as its industrial brand; brand versus legal-entity status not stated (C69) | <https://www.ampure.com/press-releases/ampures-posilink-redefines-efficiency-in-material-handling-fleet-operations> |
 | makes | [[Hyster-Yale]] | [[Hyster Reaction]] | vendor presents the product as its own | see the product note |
 | makes | [[Hyster-Yale]] | [[Hyster Pedestrian Awareness Camera]] | vendor presents the product as its own | see the product note |
 | makes | [[Hyster-Yale]] | [[Yale Reliant Portfolio]] | vendor presents the product as its own | see the product note |

@@ -4,6 +4,15 @@
 
 This folder contains synthesized analysis, comparison work, modeling guidance, audits, open questions, and prioritized future investigation. Research notes connect source evidence and catalog records to decision-ready views of the industrial battery and vehicle-technology landscape.
 
+## Start here: PosiCharge and Ampure strategy
+
+- [[Ampure Group Portfolio Context]] — group model: PosiCharge (focus), Power Designers Sibex (internal portfolio), Automotive and Aftermarket EVSE (context).
+- [[PosiCharge Business Scope and Portfolio]] — business boundary and comparison rules.
+- [[Ampure Industrial Portfolio Overlap and Synergy Map]] — PosiCharge and Power Designers Sibex intersections.
+- [[PosiCharge Competitive and Partner Landscape]], [[PosiCharge Product Comparison Matrix]], [[PosiCharge Capability Gap Assessment]], [[PosiCharge Market Segments and Jobs-to-Be-Done]] — analysis framework.
+- [[PosiCharge Opportunity Backlog]] — prioritized work.
+- [[Research Change and Decision Tracker]] — decisions and method changes.
+
 ## Key information
 
 - [[Battery Product Landscape]] — consolidated view of battery-related offerings.
