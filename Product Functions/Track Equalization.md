@@ -9,11 +9,11 @@ tags:
   - product-function
 performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Raymond iBattery]]"
-  - "[[Advanced Charging Technologies BATTview]]"
 ---
 
 # Track Equalization

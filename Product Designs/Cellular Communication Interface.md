@@ -10,8 +10,8 @@ tags:
 designOf:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
-  - "[[PosiCharge Battery Rx]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[PosiCharge Battery Rx]]"
 ---
 
 # Cellular Communication Interface

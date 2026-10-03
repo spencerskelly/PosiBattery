@@ -10,10 +10,12 @@ tags:
 performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Access Control Group CellTrac]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[Crown V-Force BMID]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Fronius TagID]]"
@@ -22,16 +24,14 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!core]]"
+  - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
-  - "[[Exide Motion+ EasyMonitor]]"
-  - "[[Advanced Charging Technologies BATTview]]"
-  - "[[Philadelphia Scientific eGO!plus]]"
-  - "[[Philadelphia Scientific eGO!core]]"
 ---
 
 # Sense Electrolyte Level

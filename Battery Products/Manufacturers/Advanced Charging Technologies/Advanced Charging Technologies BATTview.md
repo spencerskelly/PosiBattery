@@ -13,6 +13,8 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
+describedBy:
+  - "[[Advanced Charging Technologies]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

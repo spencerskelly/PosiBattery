@@ -12,6 +12,8 @@ tags:
   - adjacent
 subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
+describedBy:
+  - "[[EnerSys]]"
 performs:
   - "[[Estimate State of Charge]]"
   - "[[Estimate Remaining Run Time]]"

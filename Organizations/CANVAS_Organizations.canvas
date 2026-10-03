@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "flux",
+      "type": "file",
+      "file": "Organizations/Flux Power.md",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "unn",
+      "type": "text",
+      "text": "Unnamed forklift OEMs (private label, 2019 and 2024)",
+      "x": 520,
+      "y": 0,
+      "width": 340,
+      "height": 120
+    },
+    {
+      "id": "en",
+      "type": "file",
+      "file": "Organizations/EnerSys.md",
+      "x": 0,
+      "y": 300,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "hy",
+      "type": "file",
+      "file": "Organizations/Hyster-Yale.md",
+      "x": 520,
+      "y": 300,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "pc",
+      "type": "file",
+      "file": "Organizations/PosiCharge.md",
+      "x": 1040,
+      "y": 300,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "act",
+      "type": "file",
+      "file": "Organizations/Advanced Charging Technologies.md",
+      "x": 0,
+      "y": 600,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "ep",
+      "type": "file",
+      "file": "Organizations/East Penn Manufacturing.md",
+      "x": 520,
+      "y": 600,
+      "width": 340,
+      "height": 170
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "flux",
+      "fromSide": "right",
+      "toNode": "unn",
+      "toSide": "left",
+      "label": "private label (partner unnamed)"
+    },
+    {
+      "id": "e2",
+      "fromNode": "en",
+      "fromSide": "right",
+      "toNode": "hy",
+      "toSide": "left",
+      "label": "TPPL integration approval"
+    },
+    {
+      "id": "e3",
+      "fromNode": "pc",
+      "fromSide": "left",
+      "toNode": "hy",
+      "toSide": "right",
+      "label": "powered-by technology"
+    },
+    {
+      "id": "e4",
+      "fromNode": "act",
+      "fromSide": "right",
+      "toNode": "ep",
+      "toSide": "left",
+      "label": "sold via Deka dealers"
+    }
+  ]
+}

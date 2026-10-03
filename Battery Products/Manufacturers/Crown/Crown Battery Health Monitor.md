@@ -12,6 +12,8 @@ tags:
   - fleet-management
 subtypeOf:
   - "[[Battery Monitoring Device]]"
+describedBy:
+  - "[[Crown Equipment]]"
 performs:
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"

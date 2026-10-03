@@ -14,9 +14,9 @@ supertypeOf:
 designOf:
   - "[[Crown Battery Health Monitor]]"
   - "[[HOPPECKE trak collect]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[Philadelphia Scientific eGO!gateway]]"
 ---
 
 # Bluetooth Interface

@@ -18,8 +18,8 @@ supertypeOf:
   - "[[Access Control Group CellVue]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
-  - "[[Power Designers PowerTrac DT3]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[Power Designers PowerTrac DT3]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

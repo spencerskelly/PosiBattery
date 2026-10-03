@@ -11,15 +11,15 @@ performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[EnerSys Truck iQ]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[Power Designers PowerTrac DT3]]"
-  - "[[Raymond iBattery]]"
   - "[[Power Designers PowerTrac Monitor]]"
-  - "[[Exide Motion+ EasyMonitor]]"
+  - "[[Raymond iBattery]]"
 ---
 
 # Estimate State of Charge

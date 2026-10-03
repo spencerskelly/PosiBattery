@@ -15,11 +15,11 @@ performedBy:
   - "[[Access Control Group CellTrac]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
-  - "[[Exide Motion+ EasyMonitor]]"
 ---
 
 # Accumulate Amp-Hours

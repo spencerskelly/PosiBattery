@@ -12,6 +12,8 @@ tags:
   - europe
 subtypeOf:
   - "[[Battery Monitoring Device]]"
+describedBy:
+  - "[[HOPPECKE]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

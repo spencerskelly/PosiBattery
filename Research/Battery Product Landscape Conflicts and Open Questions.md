@@ -24,6 +24,10 @@ describes:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Raymond iBattery]]"
+  - "[[Flux Power]]"
+  - "[[Crown Equipment]]"
+  - "[[East Penn Manufacturing]]"
+  - "[[Hyster-Yale]]"
 ---
 
 # Battery Product Landscape Conflicts and Open Questions
@@ -73,6 +77,11 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C13 detail:** CAN is optional on Wi-iQ4 according to its feature list, yet two of six part numbers are sold only as 'Premium CAN' versions. Both statements are in the same manual. Source: <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>.
 - **C15 detail:** dated sources used in this register include the 2014 and 2017 Prestolite releases <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>, the 2010 Raymond release <https://raymondcorp.com/news/2010/ibattery-launch>, the 2016 Yale item <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products> and the 2014 and 2018 PowerTrac sheets <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>.
 - **C20 and C21 detail:** charger communication evidence for the earlier WBID is at <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html> and for Wi-iQ3 at <https://integration.enersys.com/493bb4/globalassets/documents/product-documentation/_misc/wi-iq/emea/wi-iq3-battery-monitoring-device-brochure.pdf>; the seed scope on temporary diagnostic tools is in [[Battery Installed Device Market Reference]].
+- **C26 - Flux Power private-label partners are unnamed.** Two filings or releases say private-label OEM relationships exist; neither names the OEM. A separate presentation names six OEM relationships without saying private label. Do not equate the two lists. Sources: <https://www.sec.gov/Archives/edgar/data/1083743/000165495419003678/flux_8k.htm>; <https://www.businesswire.com/news/home/20240912587367/en>; <https://www.fluxpower.com/hubfs/investors/Flux-Power-Company-Presentation-October-2019.pdf>; [[Flux Power]].
+- **C27 - Crown Equipment and a similarly named battery company.** Supplier lists include 'Crown Battery' alongside makers of forklift batteries; Crown Equipment sells V-Force-branded batteries. Any link between the two is not established. Sources: <https://www.foxtronpowersolutions.com/forklift-battery-manufacturers/>; <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>; [[Crown Equipment]].
+- **C28 - East Penn private-label statement scope.** East Penn says most Transportation-division products are sold private label; that does not describe motive power. Source: <https://www.eastpennmanufacturing.com/divisions/transportation/>; [[East Penn Manufacturing]].
+- **C29 - Hyster-Yale product names.** EnerSys writes Hyster Tracker and Yale Vision; trade press writes Hyster Battery Tracker and Yale Battery Vision. Sources: <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>; <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>; [[Hyster-Yale]].
+- **Q8 - Organization modeling.** Keep organizations as Info notes and relationships as register rows, or amend the schema to add an Organization type and a supplier or rebrand relationship? Context: [[Industrial Battery Supply and Private-Label Relationships]]; schema files <https://github.com/spencerskelly/PosiBattery/blob/main/99_System/03_Schemas/relationships.yaml>.
 
 ## Aliases
 

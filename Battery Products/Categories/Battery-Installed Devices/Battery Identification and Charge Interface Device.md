@@ -15,11 +15,11 @@ supertypeOf:
   - "[[AMETEK Prestolite Power BID]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown V-Force BMID]]"
   - "[[Fronius TagID]]"
   - "[[PosiCharge BMID]]"
   - "[[Power Designers PowerTrac 3]]"
-  - "[[Advanced Charging Technologies BATTview]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
   - "[[Battery Monitoring Design Map]]"

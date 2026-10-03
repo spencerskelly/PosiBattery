@@ -10,6 +10,7 @@ tags:
 performedBy:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[HOPPECKE trak collect]]"
   - "[[PosiCharge BMID]]"
@@ -17,7 +18,6 @@ performedBy:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
-  - "[[Advanced Charging Technologies BATTview]]"
 ---
 
 # Communicate with Charger

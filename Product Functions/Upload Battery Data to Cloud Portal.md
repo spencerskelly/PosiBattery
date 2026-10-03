@@ -9,6 +9,7 @@ tags:
   - product-function
 performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[EnerSys iQ Mini]]"
   - "[[Energywith withBMS BMU]]"
@@ -17,13 +18,12 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
+  - "[[Philadelphia Scientific eGO!core]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
   - "[[Raymond iBattery]]"
-  - "[[Advanced Charging Technologies BATTview]]"
-  - "[[Philadelphia Scientific eGO!core]]"
-  - "[[Philadelphia Scientific eGO!gateway]]"
 ---
 
 # Upload Battery Data to Cloud Portal

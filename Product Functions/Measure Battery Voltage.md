@@ -10,9 +10,11 @@ tags:
 performedBy:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[Access Control Group CellTrac]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown V-Force BMID]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -24,11 +26,9 @@ performedBy:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
+  - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
-  - "[[Power Designers PowerTrac Monitor]]"
-  - "[[Exide Motion+ EasyMonitor]]"
-  - "[[Advanced Charging Technologies BATTview]]"
 ---
 
 # Measure Battery Voltage

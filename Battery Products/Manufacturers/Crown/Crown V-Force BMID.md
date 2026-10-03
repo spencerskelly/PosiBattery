@@ -12,6 +12,8 @@ tags:
   - lead-acid
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
+describedBy:
+  - "[[Crown Equipment]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"

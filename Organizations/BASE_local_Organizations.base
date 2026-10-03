@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.folder == "Organizations"
+views:
+  - type: table
+    name: Local contents
+    order:
+      - file.name
+      - id
+      - status
+      - tags

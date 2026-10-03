@@ -14,6 +14,7 @@ subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Raymond]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"

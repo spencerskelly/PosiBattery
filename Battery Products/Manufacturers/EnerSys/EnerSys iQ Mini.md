@@ -10,6 +10,8 @@ tags:
   - forklift
 subtypeOf:
   - "[[Battery Monitoring Device]]"
+describedBy:
+  - "[[EnerSys]]"
 performs:
   - "[[Measure Battery Temperature]]"
   - "[[Log Battery Events and Usage]]"

@@ -8,8 +8,10 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -18,10 +20,8 @@ performedBy:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
-  - "[[Power Designers PowerTrac SP+]]"
   - "[[Power Designers PowerTrac Monitor]]"
-  - "[[Exide Motion+ EasyMonitor]]"
-  - "[[Advanced Charging Technologies BATTview]]"
+  - "[[Power Designers PowerTrac SP+]]"
 ---
 
 # Measure Battery Current

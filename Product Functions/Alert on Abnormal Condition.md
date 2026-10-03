@@ -9,9 +9,11 @@ tags:
   - product-function
 performedBy:
   - "[[Access Control Group CellTrac]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -23,8 +25,6 @@ performedBy:
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
-  - "[[Exide Motion+ EasyMonitor]]"
-  - "[[Advanced Charging Technologies BATTview]]"
 ---
 
 # Alert on Abnormal Condition

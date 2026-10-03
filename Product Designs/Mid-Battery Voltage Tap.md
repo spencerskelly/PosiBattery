@@ -9,8 +9,8 @@ tags:
   - design-characteristic
 designOf:
   - "[[EnerSys Wi-iQ]]"
-  - "[[HOPPECKE trak collect]]"
   - "[[Exide Motion+ EasyMonitor]]"
+  - "[[HOPPECKE trak collect]]"
 ---
 
 # Mid-Battery Voltage Tap

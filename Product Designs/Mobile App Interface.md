@@ -11,8 +11,8 @@ designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Philadelphia Scientific eGO!core]]"
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Mobile App Interface

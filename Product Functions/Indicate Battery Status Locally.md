@@ -13,15 +13,15 @@ performedBy:
   - "[[Access Control Group CellVue]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys iQ Mini]]"
+  - "[[Exide Motion+ EasyMonitor]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
-  - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[Exide Motion+ EasyMonitor]]"
   - "[[Philadelphia Scientific eGO!plus]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
 ---
 
 # Indicate Battery Status Locally
