@@ -15,6 +15,10 @@ performedBy:
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[Deka PowerForce Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys IMPAQ Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[EnerSys NexSys+ Charger]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
@@ -45,6 +49,10 @@ Top up a battery in short sessions during breaks to keep it within a state-of-ch
   - [[AMETEK Prestolite Power ULTRA]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
   - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[EnerSys IMPAQ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
 
 ## Aliases
 

@@ -13,6 +13,8 @@ performedBy:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"
   - "[[Crown V-HFM3 Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[HOPPECKE trak charger HF premium]]"
@@ -41,6 +43,8 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[Fronius Selectiva 4.0]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
 
 ## Aliases
 

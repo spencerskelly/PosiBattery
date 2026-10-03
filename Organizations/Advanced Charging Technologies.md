@@ -11,6 +11,9 @@ tags:
   - channel-exclusive
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[Document - ACT Quantum Charger Sheet (2023)]]"
+  - "[[Document - ACT Quantum 3 Sheet (2024)]]"
+  - "[[Document - ACT Battview Sheet (2023)]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

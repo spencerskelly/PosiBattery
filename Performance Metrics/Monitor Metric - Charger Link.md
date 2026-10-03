@@ -27,10 +27,10 @@ Charger Link: What the monitor exchanges with a charger: identity, profile, temp
 - **Comparability rule:** List the data items; a charger that identifies by voltage alone has no monitor link.
 - **Direction:** more items is richer.
 - **Values on file (as stated in each product note; n/s means not stated):**
-  - [[AMETEK Prestolite Power BID]]: ID, type, Ah, cell count, start rate; temperature
+  - [[AMETEK Prestolite Power BID]]: ID numbers, voltages, Ah sizes, start rates, construction types; voltage, temperature and Ah usage on demand; earlier note: ID, type, Ah, cell count, start rate; temperature
   - [[AMETEK Prestolite Power TruBid]]: works with charger to end charge; wireless download
   - [[Crown V-Force BMID]]: voltage and temperature; adjusts charge rate; watering needs
-  - [[EnerSys Wi-iQ]]: battery type and voltage to NexSys+; temperature compensation; Zigbee
+  - [[EnerSys Wi-iQ]]: battery type, voltage and capacity to NexSys+ (Express: voltage and capacity); temperature compensation (C50); earlier note: battery type and voltage to NexSys+; temperature compensation; Zigbee
   - [[Fronius TagID]]: temperature to Selectiva 4.0
   - [[HOPPECKE trak collect]]: communicates with charger; temperature-controlled charging
   - [[PosiCharge BMID]]: identity, profile, temperature, charge-event history to PosiCharge chargers

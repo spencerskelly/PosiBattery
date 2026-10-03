@@ -44,6 +44,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 8 2026-10-02:** catalog review; 38 battery lines and four battery families added; charger and battery features mapped; see [[Catalog Review 2026-10-02]] and [[Offerings by Organization]].
 - **Round 9 2026-10-02:** note standard and exemplars, specs added from three documents, Stryten lineup completed, multi-link explanations, decisions Q11 and Q12 recorded. See [[Note Standard (Example)]].
 - **Round 10 2026-10-02:** performance metric dictionary (42 metrics in the Performance Metrics folder) and three comparison matrices; the documents mentioned for this round had not arrived, so no document-based values were added. See [[Monitor Comparison Matrix]], [[Charger Comparison Matrix]], [[Battery Comparison Matrix]].
+- **Round 11 2026-10-02:** eight datasheets absorbed as Document notes in `Source Documents`; differences from earlier sources logged (C43 to C51); charger and monitor specs, 7 functions and 1 design added; metrics CM16 to CM18 added; [[Document Wishlist]] and [[Unidentified Products Review]] created.
 
 ## Aliases
 

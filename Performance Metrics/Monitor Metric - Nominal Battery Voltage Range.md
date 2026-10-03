@@ -36,6 +36,7 @@ Nominal Battery Voltage Range: Battery voltage range the monitor is specified fo
   - [[Philadelphia Scientific eGO!pro]]: 24-80 V (12, 72, 120 V optional)
   - [[PosiCharge Battery Rx]]: 24-96 V (vendor page)
   - [[PosiCharge PosiGuard]]: 24-96 V nominal; operating 18-120 V
+  - [[Power Designers PowerTrac 3]]: 24-84 V nominal; operating 18-120 V (sheet)
   - [[Power Designers PowerTrac DT3]]: 24-84 V nominal; operating 18-120 V
   - [[Power Designers PowerTrac SP+]]: 12-84 V nominal
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.folder == "Source Documents"
+views:
+  - type: table
+    name: Local contents
+    order:
+      - file.name
+      - id
+      - status

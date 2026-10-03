@@ -10,6 +10,7 @@ tags:
 describedBy:
   - "[[Monitor Metric - Data Storage]]"
 performedBy:
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power Site Probe]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power WBID]]"
@@ -68,6 +69,8 @@ Record charge, discharge, temperature and fault events with time stamps for late
   - [[Raymond iBattery]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
+  - [[EnerSys iQ Mini]] (V): <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf> (also [[Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)]])
+  - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
 
 ## Aliases
 

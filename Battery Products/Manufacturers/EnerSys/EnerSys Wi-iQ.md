@@ -13,6 +13,7 @@ subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -48,11 +49,11 @@ madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys NexSys+ Charger]]"
-  - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys COMpact Charger]]"
   - "[[EnerSys Truck iQ]]"
   - "[[EnerSys NexSys TPPL Battery]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # EnerSys Wi-iQ
@@ -86,7 +87,9 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 - **Features (functions and designs, each with its citation):** see the citation lines in the source history below; they link to [[Measure Battery Voltage]], [[Measure Battery Current]], [[Identify Battery to Charger]], [[Report Battery Temperature to Charger]], [[Communicate Battery State over CAN]], [[Command Vehicle Operating Limits over CAN]] and the interface designs.
 - **Related products and how they differ:**
   - [[EnerSys NexSys+ Charger]]: the charger receives battery type and voltage through Wi-iQ and compensates for temperature when Wi-iQ is present; this is the full charger-identification use.
-  - [[EnerSys IMPAQ Charger]] and [[EnerSys Express Charger]]: the guide says units are equipped with a Wi-iQ to provide battery voltage and related data; which data the charger acts on is not stated.
+  - [[EnerSys Express Charger]]: the guide says units are equipped with a Wi-iQ to provide battery voltage and capacity data.
+  - **Correction (C43):** an earlier version of this note also linked [[EnerSys IMPAQ Charger]] on the strength of an ambiguous excerpt. The guide puts the Wi-iQ statement in the Express section, and its chart shows no automatic temperature adjustment via Wi-iQ for IMPAQ. The IMPAQ link was withdrawn.
+  - [[EnerSys NexSys AIR Wireless Charger]]: the guide's chart shows automatic temperature adjustment via Wi-iQ for AIR (added).
   - [[EnerSys NexSys COMpact Charger]]: the charger embeds the Wi-iQ functions, so no separate device is fitted.
   - [[EnerSys Truck iQ]]: truck-mounted display reading Wi-iQ data over BLE; not a charger link.
   - [[EnerSys NexSys TPPL Battery]]: chemistry the TPPL version is built for.
@@ -145,6 +148,7 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 - The NexSys+ charger guide says all NexSys+ chargers are Wi-iQ enabled to receive battery information including battery type and voltage, and that the charger automatically compensates for temperature when the Wi-iQ device is present; IMPAQ and Express chargers are also described as using a Wi-iQ device. Source: EnerSys IMPAQ and NexSys+ modular charger product guide (T1), retrieved 2026-10-02. <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
 - The NexSys COMpact onboard charger is described as embedding the functionalities of the Wi-iQ battery monitoring device. Source: EnerSys NexSys COMpact brochure (T1), retrieved 2026-10-02. <https://enersys.com/49e7e9/globalassets/documents/product-documentation/_enersys/emea/legacy/chargers/emea-en-imp-nxs-com-0323.pdf>
 - **Upgrade (2026-10-02):** this makes Wi-iQ a BMID-class device in function: it identifies the battery to EnerSys chargers and enables temperature compensation. The earlier classification under Battery Monitoring Device only understates this; see conflicts C20 and the competitor table.
+- The charger guide says all NexSys+ chargers are Wi-iQ enabled to provide battery type, voltage and capacity data to the charger, and Express chargers are equipped with a Wi-iQ for battery voltage and capacity data. Source: [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]] (T1, local copy; original <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>), absorbed 2026-10-02.
 
 ## Aliases
 

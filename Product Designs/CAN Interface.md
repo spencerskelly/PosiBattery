@@ -8,8 +8,8 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
   - "[[Battery Metric - BMS and Communication]]"
+  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[EnerSys Wi-iQ]]"

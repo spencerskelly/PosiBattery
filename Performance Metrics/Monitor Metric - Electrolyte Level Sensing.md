@@ -34,7 +34,7 @@ Electrolyte Level Sensing: Method for sensing electrolyte level in flooded cells
   - [[Philadelphia Scientific SmartBlinky Pro]]: electrolyte level indicator
   - [[Philadelphia Scientific eGO!pro]]: electrolyte indicator (flooded version)
   - [[PosiCharge PosiGuard]]: electrolyte level monitoring
-  - [[Power Designers PowerTrac 3]]: electrolyte sensor, variable-length probe
+  - [[Power Designers PowerTrac 3]]: electrolyte sensor with variable-length probe (sheet); earlier note: electrolyte sensor, variable-length probe
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 9 product(s) have a value; document-based values to be added as documents are supplied.
 

@@ -10,6 +10,7 @@ tags:
   - monitor-maker
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

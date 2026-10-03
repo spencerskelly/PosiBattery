@@ -32,6 +32,7 @@ Operating Temperature Range: Ambient range in which the device operates.
   - [[Inventus Smart Battery Monitor SBM-01]]: -30 to 70 C; storage -40 to 80 C
   - [[PosiCharge Battery Rx]]: electrolyte sensor -20 to 165 F (-29 to 74 C)
   - [[PosiCharge PosiGuard]]: -25 to 75 C
+  - [[Power Designers PowerTrac 3]]: -25 to 60 C (-13 to 140 F) (sheet)
   - [[Power Designers PowerTrac DT3]]: -25 to 60 C
   - [[Power Designers PowerTrac SP+]]: -25 to 60 C
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

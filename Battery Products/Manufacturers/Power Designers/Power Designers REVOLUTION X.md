@@ -10,12 +10,16 @@ tags:
   - charger
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+describedBy:
+  - "[[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]]"
 performs:
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Fast]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Identify Battery by Voltage]]"
+  - "[[Complete Missed Equalization Automatically]]"
+  - "[[Equalize Battery on Schedule]]"
 hasDesign:
   - "[[Modular Power Modules]]"
   - "[[Multi-Voltage Output]]"
@@ -54,6 +58,10 @@ Power Designers modular high-frequency charger series for conventional, opportun
   - [[Power Designers PowerTrac 3]]: PowerTrac 3 lets the REVOLUTION recognize battery voltage and Ah capacity.
   - [[Power Designers PowerTrac SP+]]: SP+ connects through an RS-485 PowerCharge interface option.
 - **Rebrands and how they differ:** [[Raymond Red Charger]] (dealer pages use Raymond naming and an 'RV' model scheme) and [[Crown Battery EVOLUTION Series]] (repeats the REVOLUTION text under another name). No source states a difference in hardware or the supply agreement (C33).
+- **Functions performed, with citations (round 11 document):**
+  - [[Complete Missed Equalization Automatically]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
+  - [[Equalize Battery on Schedule]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
+- **Round 11 document:** the PowerTrac 3 sheet says PowerTrac 3 integrates with REVOLUTION through power line communication, enables multi-amp, multi-voltage (24/36/48/72/80 V) charging, recognizes battery voltage and Ah capacity, and enables Smart Equalize that completes missed equalizations. Source: [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]] (T1, local copy; original <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>), absorbed 2026-10-02.
 
 ## Aliases
 

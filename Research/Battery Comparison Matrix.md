@@ -53,6 +53,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Stryten M-Series T300 Battery]] | n/s | n/s | n/s | n/s | conventional; opportunity capable | n/s | n/s | [[Stryten M-Series T300 Battery]] |
 | [[Stryten M-Series T310 Battery]] | flooded; tubular | n/s | n/s | up to 90 days | opportunity | n/s | n/s | [[Stryten M-Series T310 Battery]] |
 | [[Stryten M-Series T330 Battery]] | flooded; round tubular | n/s | up to 18% more capacity than conventional flooded | n/s | opportunity and fast | n/s | n/s | [[Stryten M-Series T330 Battery]] |
+- **Round 11:** rebuilt from the metric notes after the eight datasheets were absorbed; values carry 'earlier note:' where a product already had a different value.
 
 ## Aliases
 

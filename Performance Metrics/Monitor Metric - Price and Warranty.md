@@ -24,6 +24,8 @@ Price and Warranty: Listed price and warranty term.
 - **Comparability rule:** Prices are dated and channel-specific.
 - **Direction:** n/a.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[AMETEK Prestolite Power BID]]: 1-year warranty
+  - [[AMETEK Prestolite Power BID with Ah Accumulator]]: 1-year warranty
   - [[Crown V-Force BMID]]: 583.33 USD; 365-day warranty (parts shop)
   - [[Flow-Rite Eagle Eye Essential IV]]: 2-year warranty
   - [[Philadelphia Scientific eGO!core]]: 2-year warranty

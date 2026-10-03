@@ -10,6 +10,7 @@ tags:
   - usa
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[Document - Lester Summit Series II 1425 W Data Sheet (06-2023)]]"
 playsRole:
   - "[[Charger Maker]]"
 makes:

@@ -30,6 +30,10 @@ Charge Regimes: Conventional, opportunity, fast or lithium regimes supported.
   - [[AMETEK Prestolite Power Eclipse II]]: Eclipse II conventional; Eclipse II Plus opportunity and fast
   - [[Crown V-HFM3 Charger]]: conventional, opportunity, fast, lithium (FS6 fast lead-acid)
   - [[Deka PowerForce Charger]]: fast, opportunity, conventional
+  - [[EnerSys Express Charger]]: flooded fast (Express profile) and opportunity
+  - [[EnerSys IMPAQ Charger]]: standard flooded, opportunity, TPPL standard (chart)
+  - [[EnerSys NexSys AIR Wireless Charger]]: conventional flooded, opportunity, TPPL, iON
+  - [[EnerSys NexSys+ Charger]]: conventional, opportunity, TPPL standard/fast/Bloc, iON, cold storage (chart)
   - [[PosiCharge DVS100]]: fast
   - [[PosiCharge ProCore Edge]]: opportunity
   - [[Power Designers REVOLUTION X]]: conventional (17% start), opportunity (25%), fast (40%)

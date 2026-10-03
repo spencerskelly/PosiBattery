@@ -28,7 +28,8 @@ Battery Identification Method: How the charger identifies the battery: voltage s
   - [[AMETEK Prestolite Power Eclipse II]]: optional BID: capacity, voltage, type
   - [[AMETEK Prestolite Power ULTRA]]: BID required on opportunity and fast models
   - [[Crown V-HFM3 Charger]]: automatic voltage sensing; optional BMID
-  - [[EnerSys NexSys+ Charger]]: Wi-iQ: battery type and voltage
+  - [[EnerSys Express Charger]]: Wi-iQ: voltage and capacity
+  - [[EnerSys NexSys+ Charger]]: Wi-iQ: battery type, voltage and capacity; earlier note: Wi-iQ: battery type and voltage
   - [[Lester Summit Series II]]: automatic voltage detection
   - [[PosiCharge DVS100]]: BMID
   - [[PosiCharge ProCore Edge]]: CAN/Lithium, BMID or Voltage automatic modes

@@ -13,6 +13,8 @@ tags:
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]]"
+  - "[[Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"

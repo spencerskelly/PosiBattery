@@ -128,7 +128,7 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | rebrandOf | [[Raymond Red Charger]] | [[Power Designers REVOLUTION X]] | inferred from dealer page naming and identical text (C33) | <https://www.carolinahandling.com/products/raymond-red-charger> |
 | rebrandOf | [[Crown Battery EVOLUTION Series]] | [[Power Designers REVOLUTION X]] | inferred from identical text (C33) | <https://crownbattery.com/lp-power-line> |
 | offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys NexSys+ Charger]] | guide says NexSys+ chargers are Wi-iQ enabled | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
-| offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys IMPAQ Charger]] | guide: units equipped with Wi-iQ | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
+| offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys IMPAQ Charger]] | WITHDRAWN round 11 (C43): guide ties Wi-iQ to Express, not IMPAQ | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
 | offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys Express Charger]] | guide: units equipped with Wi-iQ | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
 | offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys NexSys COMpact Charger]] | charger embeds Wi-iQ functions | <https://enersys.com/49e7e9/globalassets/documents/product-documentation/_enersys/emea/legacy/chargers/emea-en-imp-nxs-com-0323.pdf> |
 | offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys Truck iQ]] | display reads Wi-iQ data | <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard> |
@@ -239,6 +239,7 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Stryten M-Series AGM210 Battery]] | [[Stryten M-Series AGM220 Battery]] | AGM220 houses four AGM210 batteries | <https://og.mhi.org/media/members/14502/133723547947804003.pdf> |
 | offeredWith | [[Stryten M-Series Li600 Battery]] | [[Stryten X-3 Charger]] | Li600 compatible with X-3 and X-7 | <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain> |
 | offeredWith | [[Stryten M-Series Li610 Battery]] | [[Stryten X-3 Charger]] | Li610 compatible with X-3 and X-7 | <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX> |
+| offeredWith | [[EnerSys Wi-iQ]] | [[EnerSys NexSys AIR Wireless Charger]] | chart: automatic temperature adjustment via Wi-iQ | <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> |
 
 ## Aliases
 

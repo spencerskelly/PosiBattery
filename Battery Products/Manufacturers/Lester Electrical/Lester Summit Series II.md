@@ -12,6 +12,8 @@ tags:
   - lithium
 subtypeOf:
   - "[[Industrial Battery Charger]]"
+describedBy:
+  - "[[Document - Lester Summit Series II 1425 W Data Sheet (06-2023)]]"
 performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge Under BMS Control]]"
@@ -46,6 +48,20 @@ Lester multi-voltage 24, 36 and 48 V charger family (650, 1050 and 1425 W) for l
 - **Design characteristics, with citations:**
   - [[Multi-Voltage Output]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Onboard Charger Mounting]] (V): <https://akkusys.shop/en/accessories/chargers-of-all-types/4199/lester-electrical-summit-series-ii-industrial-charger-650w-for-36/48v-18a/13.5a-without-connector>
+- **Round 11 document (1425 W):** Source: [[Document - Lester Summit Series II 1425 W Data Sheet (06-2023)]] (T1, local copy; original <https://www.rjbatt.com.au/media/somkvf25/summit-series-ii_1425w_v2_data-sheet_060223.pdf>), absorbed 2026-10-02.
+| Parameter | Value as stated |
+|---|---|
+| Models | 48 V/30 A (32310), 36 V/40 A (29610), 24 V/40 A (29510), 24-48 V multi-voltage 40-30 A (30510) |
+| AC input | 100-240 Vac rated; 85-265 Vac operating (below 108 Vac reduced power); 50-60 Hz; single-phase; under 15 A |
+| Efficiency | above 91% peak, DOE test procedure at 115 Vac, AC and DC losses included |
+| DC output | power 1200 W and 1425 W; nominal 24/36/48 Vdc; maximum 36/54/72 Vdc; max current 40/40/30 A; minimum start-up 10 Vdc |
+| Batteries | lead-acid (wet, AGM, gel), lithium, custom |
+| Interfaces | Bluetooth apps for Apple and Android; CANopen and SAE J1939 standard; wake-up signal; lockout single wire; remote LED; battery temperature connector |
+| LEDs | charge complete (green), charge status (yellow), AC present (blue), fault (red) |
+| Environment | IP66, NEMA 4; operating -25 to 60 C; storage -40 to 85 C; natural convection |
+| Mechanical | 13.438 x 8.188 x 4.531 in (341 x 208 x 115 mm); 13.428 lb (6.09 kg) |
+| Safety | UL recognized/listed; cUL/CSA; FCC Part 15; ICES-003; EN; CE; RCM; DOE and CEC efficiency (CEC-approved lab in Lincoln, NE) |
+- **Conflicts (C46):** the sheet lists Bluetooth apps and says nothing of cloud connectivity, which earlier notes took from a reseller; earlier notes said CAN bus (CANopen), the sheet adds SAE J1939. The sheet also invites readers to ask about 'Sigma', a product not yet identified (see [[Unidentified Products Review]]).
 
 ## Aliases
 

@@ -13,6 +13,8 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
+describedBy:
+  - "[[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -23,9 +25,11 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Complete Missed Equalization Automatically]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
   - "[[Non-Volatile Event Memory]]"
+  - "[[DC-Cable Power-Line Communication]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -57,6 +61,30 @@ Power Designers wireless battery monitoring device with shuntless intercell sens
   - [[Shuntless Current Sensing]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[Non-Volatile Event Memory]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 - **Sources used for the mapping above:** PowerTrac 3 product page <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+- **Functions performed, with citations (round 11 document):**
+  - [[Complete Missed Equalization Automatically]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
+- **Design characteristics, with citations (round 11 document):**
+  - [[DC-Cable Power-Line Communication]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
+- **Round 11 document:** Source: [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]] (T1, local copy; original <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>), absorbed 2026-10-02.
+| Parameter | Value as stated |
+|---|---|
+| Models | PT3 |
+| Current monitoring | shuntless intercell sensing or Hall effect sensing |
+| Temperature | external thermistor |
+| Electrolyte level | standard electrolyte sensor with variable-length probe |
+| Nominal and operating voltage | 24 to 84 V nominal; 18 to 120 V operating |
+| Bidirectional current | +/-500 A typical, 1 A resolution |
+| Voltage accuracy | 0.1 V |
+| Operating temperature | -25 to 60 C (-13 to 140 F) |
+| Size | 4.25 x 1.5 x 0.6 in (108 x 38 x 15 mm) |
+| Communication | 900 MHz industrial wireless; up to 150 ft; PLC with REVOLUTION chargers; USB via PowerTrac Link (sold separately) |
+| Data storage | 10,000 events; real-time clock |
+| Power | 1/2 W nominal |
+| Protection | internal fuse and external in-line fuse; reverse polarity |
+| Packaging | water and acid resistant |
+| Multi-voltage with REVOLUTION | 24/36/48/72/80 V capability, footnoted by charger rating (48 V chargers charge 24/36/48 batteries; 36 V chargers 24/36; 80 V chargers 24 to 80 V) |
+- **Smart Equalize with REVOLUTION:** completes any missed equalization during the next charge cycle and continues until finished.
+- **Conflicts (C47):** the product page says shuntless and lists 24/36/48 V; the sheet says shuntless intercell sensing or Hall effect and lists 24/36/48/72/80 V by charger rating. Every number in this sheet's spec table (900 MHz, 150 ft, 10,000 events, 1/2 W, 4.25 x 1.5 x 0.6 in, +/-500 A) matches the 2018 PowerTrac DT3 data sheet, so the two may share a platform or the table may be reused.
 
 ## Aliases
 

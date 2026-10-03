@@ -28,10 +28,11 @@ Temperature Compensation Source: What supplies battery temperature for compensat
   - [[AMETEK Prestolite Power Eclipse II]]: intelligent monitoring; BID
   - [[AMETEK Prestolite Power ULTRA]]: BID, 32-158 F
   - [[Crown V-HFM3 Charger]]: BMID (optional)
-  - [[EnerSys NexSys+ Charger]]: Wi-iQ
+  - [[EnerSys Express Charger]]: Active Temperature/Output Management; Wi-iQ
+  - [[EnerSys NexSys+ Charger]]: Wi-iQ when configured correctly; earlier note: Wi-iQ
   - [[Fronius Selectiva 4.0]]: TagID
   - [[HOPPECKE trak charger HF premium]]: trak | collect
-  - [[Lester Summit Series II]]: battery temperature input; sensor optional
+  - [[Lester Summit Series II]]: battery temperature connector (QD terminal block); earlier note: battery temperature input; sensor optional
   - [[PosiCharge DVS100]]: electrolytic thermistor and BMID
   - [[PosiCharge ProCore Edge]]: BMID
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

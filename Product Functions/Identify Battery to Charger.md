@@ -13,6 +13,7 @@ performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
   - "[[Crown V-Force BMID]]"
+  - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[PosiCharge BMID]]"
   - "[[Power Designers PowerTrac 3]]"
@@ -36,6 +37,7 @@ Give a charger the battery's identity and charge parameters so the charger can c
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
   - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[EnerSys Wi-iQ]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
+  - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
 
 ## Aliases
 

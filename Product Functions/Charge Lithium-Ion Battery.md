@@ -16,6 +16,8 @@ performedBy:
   - "[[Crown V-HFM3 Charger]]"
   - "[[Delta-Q IC650]]"
   - "[[Deka PowerForce Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[EnerSys NexSys+ Charger]]"
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Fronius SelectION]]"
   - "[[Green Cubes SAFEFlex Charger]]"
@@ -51,6 +53,8 @@ Charge lithium-ion batteries with a profile suited to them.
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Delta-Q IC650]] (V): <https://eepower.com/new-industry-products/delta-q-introduces-can-bus-functionality-to-the-ic650-charger/>
   - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
 
 ## Aliases
 

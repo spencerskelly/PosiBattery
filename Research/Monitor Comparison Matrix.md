@@ -26,14 +26,15 @@ Side-by-side stated performance of battery monitors on seven metrics, with confl
 
 | Product | MM01 Nominal Battery Voltage Range | MM02 Operating Temperature Range | MM04 Current Measurement | MM07 Data Storage | MM08 Wireless Interfaces and Range | MM10 Charger Link | MM12 Ingress and Chemical Protection | Authority |
 |---|---|---|---|---|---|---|---|---|
-| [[AMETEK Prestolite Power BID]] | n/s | n/s | n/s | n/s | n/s | ID, type, Ah, cell count, start rate; temperature | n/s | [[AMETEK Prestolite Power BID]] |
+| [[AMETEK Prestolite Power BID]] | n/s | n/s | n/s | non-volatile memory; size n/s | n/s | ID numbers, voltages, Ah sizes, start rates, construction types; voltage, temperature and Ah usage on demand; earlier note: ID, type, Ah, cell count, start rate; temperature | n/s | [[AMETEK Prestolite Power BID]] |
+| [[AMETEK Prestolite Power BID with Ah Accumulator]] | n/s | n/s | samples charge and discharge current over 100 times per second; stores every Ah incl. regeneration | n/s | n/s | n/s | n/s | [[AMETEK Prestolite Power BID with Ah Accumulator]] |
 | [[AMETEK Prestolite Power TruBid]] | n/s | n/s | n/s | n/s | n/s | works with charger to end charge; wireless download | n/s | [[AMETEK Prestolite Power TruBid]] |
 | [[AMETEK Prestolite Power WBID]] | n/s | n/s | n/s | n/s | ZigBee up to 500 ft (152 m) truck-mounted (obsolete) | n/s | n/s | [[AMETEK Prestolite Power WBID]] |
 | [[Access Control Group CellTrac]] | n/s | n/s | no shunt; range n/s | n/s | n/s | n/s | n/s | [[Access Control Group CellTrac]] |
-| [[Advanced Charging Technologies BATTview]] | 12-80 V nominal; operating 12-110 V | -25 to 60 C | resolution +/-1 A minimum | n/s | n/s | n/s | n/s | [[Advanced Charging Technologies BATTview]] |
+| [[Advanced Charging Technologies BATTview]] | 12-80 V nominal; operating 12-110 V | -25 to 60 C | resolution +/-1 A minimum | n/s | Wi-Fi (range n/s) | n/s | sealed, splash proof, UL 94V-5 | [[Advanced Charging Technologies BATTview]] |
 | [[Crown V-Force BMID]] | n/s | n/s | n/s | n/s | Bluetooth Class 1 (range n/s) | voltage and temperature; adjusts charge rate; watering needs | n/s | [[Crown V-Force BMID]] |
-| [[EnerSys Wi-iQ]] | 24-80 V and 96-120 V (nominal and operating) | -20 to 60 C | Hall; +/-1000 A; 1 A resolution; bidirectional | 8,000 events (C42) | Zigbee 2.4 GHz about 10 m; BLE about 5 m | battery type and voltage to NexSys+; temperature compensation; Zigbee | IP65; UL 94V-0; acid resistant | [[EnerSys Wi-iQ]] |
-| [[EnerSys iQ Mini]] | 12-80 V (carried from seed) | n/s | n/s | n/s | n/s | n/s | n/s | [[EnerSys iQ Mini]] |
+| [[EnerSys Wi-iQ]] | 24-80 V and 96-120 V (nominal and operating) | -20 to 60 C | Hall; +/-1000 A; 1 A resolution; bidirectional | 8,000 events (C42) | Zigbee 2.4 GHz about 10 m; BLE about 5 m | battery type, voltage and capacity to NexSys+ (Express: voltage and capacity); temperature compensation (C50); earlier note: battery type and voltage to NexSys+; temperature compensation; Zigbee | IP65; UL 94V-0; acid resistant | [[EnerSys Wi-iQ]] |
+| [[EnerSys iQ Mini]] | 12-80 V (carried from seed) | n/s | n/s | n/s | wireless to iQ Gateway (radio n/s in flyer) | n/s | n/s | [[EnerSys iQ Mini]] |
 | [[Exide Motion+ EasyMonitor]] | 18-120 V | -10 to 60 C | n/s | n/s | n/s | n/s | n/s | [[Exide Motion+ EasyMonitor]] |
 | [[Flow-Rite Eagle Eye Essential IV]] | 4-12 V DC supply | -40 to 185 F (-40 to 85 C) | n/s | n/s | n/s | n/s | n/s | [[Flow-Rite Eagle Eye Essential IV]] |
 | [[Fronius TagID]] | n/s | n/s | n/s | n/s | n/s | temperature to Selectiva 4.0 | n/s | [[Fronius TagID]] |
@@ -46,9 +47,10 @@ Side-by-side stated performance of battery monitors on seven metrics, with confl
 | [[PosiCharge BMID]] | n/s | n/s | n/s | n/s | n/s | identity, profile, temperature, charge-event history to PosiCharge chargers | n/s | [[PosiCharge BMID]] |
 | [[PosiCharge Battery Rx]] | 24-96 V (vendor page) | electrolyte sensor -20 to 165 F (-29 to 74 C) | +/-1000 A range | n/s | n/s | n/s | acid immersion and pressure-wash tolerance | [[PosiCharge Battery Rx]] |
 | [[PosiCharge PosiGuard]] | 24-96 V nominal; operating 18-120 V | -25 to 75 C | resolution 100 mA | 16 MB | Bluetooth; LoRa (range n/s) | n/s | IP65 sealed against water and acid | [[PosiCharge PosiGuard]] |
-| [[Power Designers PowerTrac 3]] | n/s | n/s | shuntless; range n/s | 10,000 events | n/s | voltage and Ah capacity to REVOLUTION | n/s | [[Power Designers PowerTrac 3]] |
+| [[Power Designers PowerTrac 3]] | 24-84 V nominal; operating 18-120 V (sheet) | -25 to 60 C (-13 to 140 F) (sheet) | sheet: shuntless intercell or Hall effect; +/-500 A typical, 1 A resolution (C47); earlier note: shuntless; range n/s | 10,000 events (sheet; equals DT3, C47); earlier note: 10,000 events | 900 MHz industrial wireless; up to 150 ft (sheet; equals DT3, C47) | voltage and Ah capacity to REVOLUTION | water and acid resistant (no IP code) | [[Power Designers PowerTrac 3]] |
 | [[Power Designers PowerTrac DT3]] | 24-84 V nominal; operating 18-120 V | -25 to 60 C | Hall; +/-500 A typical; 1 A resolution; bidirectional | 10,000 events | 900 MHz; up to 150 ft (46 m) | n/s | water and acid resistant (no IP code) | [[Power Designers PowerTrac DT3]] |
 | [[Power Designers PowerTrac SP+]] | 12-84 V nominal | -25 to 60 C | external 50 mV shunt; 500 A shunts offered | n/s | n/s | n/s | n/s | [[Power Designers PowerTrac SP+]] |
+- **Round 11:** rebuilt from the metric notes after the eight datasheets were absorbed; values carry 'earlier note:' where a product already had a different value.
 
 ## Aliases
 

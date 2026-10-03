@@ -10,6 +10,7 @@ tags:
   - monitor-maker
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

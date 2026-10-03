@@ -29,6 +29,7 @@ Voltage Measurement: Range, resolution and accuracy of battery voltage measureme
   - [[EnerSys Wi-iQ]]: overall and half-battery; accuracy 0.1 V
   - [[HOPPECKE trak collect]]: 17-200 V; 10 mV resolution; 0.1% of end value at 25 C; medium voltage 0-200 V
   - [[PosiCharge PosiGuard]]: resolution 30 mV
+  - [[Power Designers PowerTrac 3]]: accuracy 0.1 V (sheet)
   - [[Power Designers PowerTrac DT3]]: accuracy 0.1 V
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 5 product(s) have a value; document-based values to be added as documents are supplied.

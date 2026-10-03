@@ -30,6 +30,7 @@ Power Consumption: Supply power or current.
   - [[Inventus Smart Battery Monitor SBM-01]]: 1.4 W typical
   - [[Philadelphia Scientific eGO!plus]]: 20-24 mA transmitting; 10-13 mA idle (24-80 V)
   - [[Philadelphia Scientific eGO!pro]]: conflict (C22): US 2 W initial Bluetooth, 1.2 W nominal; UK 200-24 mA and 100-13 mA
+  - [[Power Designers PowerTrac 3]]: 1/2 W nominal (sheet)
   - [[Power Designers PowerTrac DT3]]: 0.5 W nominal
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 7 product(s) have a value; document-based values to be added as documents are supplied.

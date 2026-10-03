@@ -29,6 +29,10 @@ Chemistries Supported: Battery chemistries the charger can charge.
   - [[ACT Quantum 3]]: lithium-ion, VRLA, flooded
   - [[Crown V-HFM3 Charger]]: lead-acid and lithium-ion
   - [[Deka PowerForce Charger]]: lead (flooded, gel) and lithium
+  - [[EnerSys Express Charger]]: flooded lead-acid
+  - [[EnerSys IMPAQ Charger]]: flooded, VRLA, AGM and gel, NexSys TPPL
+  - [[EnerSys NexSys AIR Wireless Charger]]: flooded, NexSys TPPL, NexSys iON
+  - [[EnerSys NexSys+ Charger]]: flooded, VRLA, AGM and gel, NexSys TPPL, NexSys iON
   - [[Fronius SelectION]]: lithium-ion
   - [[Fronius Selectiva 4.0]]: lead-acid
   - [[Lester Summit Series II]]: lead-acid (wet, AGM, gel), lithium

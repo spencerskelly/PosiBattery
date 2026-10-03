@@ -24,9 +24,11 @@ Input Voltage and Phase: AC input range and phase.
 - **Comparability rule:** Single versus three phase and regional ranges are not comparable.
 - **Direction:** wider is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[ACT Quantum 2]]: 208/240/380/400/480/600 VAC three-phase
+  - [[ACT Quantum 3]]: 480 VAC three-phase; others coming soon
   - [[Crown V-HFM3 Charger]]: 208-600 V three-phase (by model)
   - [[Fronius Selectiva 4.0]]: 3 x 400 V; 31 A (16 kW) or 54 A (30 kW)
-  - [[Lester Summit Series II]]: 100-240 Vac
+  - [[Lester Summit Series II]]: 100-240 Vac rated; 85-265 Vac operating; single-phase; earlier note: 100-240 Vac
   - [[Power Designers REVOLUTION X]]: 480 V three-phase +/-10% (2017 overview); 208, 240, 480 V (REVOLUTION X page)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 4 product(s) have a value; document-based values to be added as documents are supplied.
