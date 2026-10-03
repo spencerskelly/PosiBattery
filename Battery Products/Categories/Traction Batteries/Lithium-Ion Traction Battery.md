@@ -25,12 +25,12 @@ supertypeOf:
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
+  - "[[Linde 90 V Lithium-Ion Battery]]"
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
-  - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
-  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

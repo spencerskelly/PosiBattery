@@ -11,10 +11,10 @@ rolePlayedBy:
   - "[[Carolina Handling]]"
   - "[[ELMAS S.R.L.]]"
   - "[[Medley Company]]"
+  - "[[Mitsubishi Logisnext]]"
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
-  - "[[Mitsubishi Logisnext]]"
 ---
 
 # Dealer or Distributor

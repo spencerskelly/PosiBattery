@@ -11,20 +11,20 @@ abstract: true
 subtypeOf:
   - "[[Powered Industrial Truck]]"
 supertypeOf:
-  - "[[Toyota 3-Wheel Electric Forklift]]"
-  - "[[Toyota Traigo48]]"
-  - "[[Hyster J1.5-3.0UT(L)]]"
-  - "[[Yale ERC080VHL]]"
-  - "[[Yale ERC050-060VGL]]"
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Crown SC Series]]"
-  - "[[Raymond 4000 Series Counterbalanced Trucks]]"
-  - "[[Linde Ei Series]]"
-  - "[[Linde E Series Electric Counterbalance Forklifts]]"
+  - "[[Hyster J1.5-3.0UT(L)]]"
+  - "[[Yale ERC050-060VGL]]"
+  - "[[Yale ERC080VHL]]"
   - "[[Linde 1293 Series (E20BHP and E25BHP)]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
+  - "[[Linde E Series Electric Counterbalance Forklifts]]"
+  - "[[Linde Ei Series]]"
   - "[[UniCarriers MX2 and MXL Series]]"
+  - "[[Raymond 4000 Series Counterbalanced Trucks]]"
+  - "[[Toyota 3-Wheel Electric Forklift]]"
+  - "[[Toyota Traigo48]]"
 ---
 
 # Class I Electric Rider Truck

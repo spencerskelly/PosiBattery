@@ -6,7 +6,7 @@ The dictionary of performance metrics used to compare monitors, chargers and tra
 
 ## What belongs here
 
-- one note per metric, titled by class: Monitor Metric, Charger Metric, Battery Metric (codes MM01 to MM15, CM01 to CM15, BM01 to BM12)
+- one note per metric, titled by class: Monitor Metric, Charger Metric, Battery Metric (codes MM01 to MM15, CM01 to CM15, BM01 to BM12, TM01 to TM06 for truck-side devices; CM16 to CM18 were added later)
 - each metric links to the Functions and Designs it measures and to the product family it applies to
 - values are copied from the product notes, which hold the source URLs; the comparability rule says what must be true before two values are compared
 

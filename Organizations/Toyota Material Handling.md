@@ -15,6 +15,9 @@ makes:
   - "[[Toyota 3-Wheel Electric Forklift]]"
   - "[[Toyota Traigo48]]"
   - "[[Toyota MyInsights Telematics]]"
+  - "[[Toyota Assist]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota System of Active Stability]]"
 offers:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 subsidiaryOf:

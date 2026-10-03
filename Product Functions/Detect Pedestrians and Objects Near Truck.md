@@ -1,0 +1,45 @@
+---
+type: Function
+subtype:
+id: FUNC-00044
+uid: 20261003090225539skellyspencer
+status: Draft
+tags:
+  - truck-function
+  - product-function
+describedBy:
+  - "[[Truck Metric - Detection Technology]]"
+  - "[[Truck Metric - Detection Range and Accuracy]]"
+performedBy:
+  - "[[Hyster Reaction]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[Crown ProximityAssist System]]"
+  - "[[Toyota Assist]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Linde Safety Guard]]"
+  - "[[Linde Motion Detection]]"
+---
+
+# Detect Pedestrians and Objects Near Truck
+
+## Definition
+
+Detect people, other trucks or objects near or in the path of a truck using on-truck sensors, tags or cameras.
+
+## Notes
+
+- Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
+- No Requirement is linked (intentional gap).
+- **Sources** (product, evidence level, web page):
+  - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
+  - [[Hyster Pedestrian Awareness Camera]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
+  - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
+  - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
+  - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
+  - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[Linde Motion Detection]] (V): <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
+
+## Aliases
+
+
+## Former ids

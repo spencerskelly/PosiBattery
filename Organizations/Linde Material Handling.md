@@ -17,6 +17,11 @@ makes:
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Linde 1293 Series (E20BHP and E25BHP)]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
+  - "[[Linde Safety Guard]]"
+  - "[[Linde Safety Pilot]]"
+  - "[[Linde BlueSpot]]"
+  - "[[Linde Motion Detection]]"
+  - "[[Linde connect]]"
 offers:
   - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"

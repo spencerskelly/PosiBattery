@@ -21,6 +21,8 @@ rolePlayedBy:
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
+  - "[[Plug Power]]"
+  - "[[Nuvera]]"
 ---
 
 # Battery Maker

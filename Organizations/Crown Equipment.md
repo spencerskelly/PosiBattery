@@ -23,6 +23,7 @@ makes:
   - "[[Crown RR-RD 5700 Series]]"
   - "[[Crown RM-RMD 6000 Series]]"
   - "[[Crown InfoLink]]"
+  - "[[Crown ProximityAssist System]]"
 offers:
   - "[[Crown V-Force BMID]]"
   - "[[Crown Battery Health Monitor]]"

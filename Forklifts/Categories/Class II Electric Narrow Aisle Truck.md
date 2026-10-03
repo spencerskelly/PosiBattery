@@ -11,11 +11,11 @@ abstract: true
 subtypeOf:
   - "[[Powered Industrial Truck]]"
 supertypeOf:
-  - "[[Crown RR-RD 5700 Series]]"
   - "[[Crown RM-RMD 6000 Series]]"
+  - "[[Crown RR-RD 5700 Series]]"
+  - "[[Jungheinrich ETV C16 and C20]]"
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
   - "[[Raymond Orderpickers]]"
-  - "[[Jungheinrich ETV C16 and C20]]"
 ---
 
 # Class II Electric Narrow Aisle Truck

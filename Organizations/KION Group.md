@@ -14,6 +14,7 @@ playsRole:
   - "[[Brand Owner]]"
 parentOf:
   - "[[Linde Material Handling]]"
+  - "[[STILL]]"
 ---
 
 # KION Group

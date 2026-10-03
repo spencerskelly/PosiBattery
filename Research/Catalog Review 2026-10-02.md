@@ -49,7 +49,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown Battery EVOLUTION Series]] | [[Crown Battery Manufacturing]] | charger | 5 | 0 | 2 | partial |
 | [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 1 | partial |
-| [[Crown InfoLink]] | [[Crown Equipment]] | software | 0 | 3 | 0 | none |
+| [[Crown InfoLink]] | [[Crown Equipment]] | software | 2 | 3 | 0 | none |
+| [[Crown ProximityAssist System]] | [[Crown Equipment]] | truckdev | 5 | 0 | 0 | none |
 | [[Crown RC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 4 | defined |
 | [[Crown RM-RMD 6000 Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
 | [[Crown RR-RD 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
@@ -110,26 +111,35 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[HOPPECKE trak power Lithium Battery]] | [[HOPPECKE]] | battery | 1 | 0 | 0 | none |
 | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE]] | battery | 1 | 1 | 0 | none |
 | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE]] | battery | 2 | 2 | 0 | none |
-| [[Hyster Battery Tracker]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
-| [[Hyster J1.5-3.0UT(L)]] | [[Hyster-Yale]] | forklift | 0 | 0 | 2 | partial |
-| [[Hyster Power Cellect]] | [[Hyster-Yale]] | option | 2 | 1 | 0 | none |
-| [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | software | 0 | 1 | 0 | none |
+| [[Hyster Battery Tracker]] | [[Hyster-Yale]] | monitor | 10 | 0 | 1 | partial |
+| [[Hyster J1.5-3.0UT(L)]] | [[Hyster-Yale]] | forklift | 2 | 0 | 2 | partial |
+| [[Hyster Pedestrian Awareness Camera]] | [[Hyster-Yale]] | truckdev | 3 | 0 | 2 | partial |
+| [[Hyster Power Cellect]] | [[Hyster-Yale]] | option | 3 | 1 | 0 | none |
+| [[Hyster Reaction]] | [[Hyster-Yale]] | truckdev | 7 | 0 | 0 | none |
+| [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | software | 1 | 1 | 0 | none |
 | [[Yale Battery Vision]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
 | [[Yale ERC050-060VGL]] | [[Hyster-Yale]] | forklift | 0 | 0 | 0 | none |
-| [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 0 | 1 | 0 | none |
-| [[Yale Vision Telemetry]] | [[Hyster-Yale]] | software | 0 | 1 | 0 | none |
+| [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 1 | 1 | 0 | none |
+| [[Yale Reliant Portfolio]] | [[Hyster-Yale]] | truckdev | 0 | 0 | 0 | none |
+| [[Yale Vision Telemetry]] | [[Hyster-Yale]] | software | 1 | 1 | 0 | none |
 | [[Inventus Smart Battery Monitor SBM-01]] | [[Inventus Power]] | monitor | 9 | 0 | 6 | defined |
 | [[Jungheinrich ETV C16 and C20]] | [[Jungheinrich]] | forklift | 0 | 0 | 2 | partial |
-| [[Jungheinrich Lithium-Ion Battery]] | [[Jungheinrich]] | battery | 1 | 0 | 2 | partial |
+| [[Jungheinrich Lithium-Ion Battery]] | [[Jungheinrich]] | battery | 1 | 0 | 4 | defined |
 | [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
 | [[Linde 1293 Series (E20BHP and E25BHP)]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 2 | 3 | defined |
 | [[Linde 90 V Lithium-Ion Battery]] | [[Linde Material Handling]] | battery | 0 | 2 | 7 | defined |
+| [[Linde BlueSpot]] | [[Linde Material Handling]] | truckdev | 2 | 0 | 0 | none |
 | [[Linde E Series Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 0 | 2 | partial |
 | [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Linde Material Handling]] | charger | 0 | 2 | 2 | partial |
+| [[Linde Motion Detection]] | [[Linde Material Handling]] | truckdev | 1 | 0 | 0 | none |
+| [[Linde Safety Guard]] | [[Linde Material Handling]] | truckdev | 5 | 0 | 0 | none |
+| [[Linde Safety Pilot]] | [[Linde Material Handling]] | truckdev | 2 | 0 | 0 | none |
+| [[Linde connect]] | [[Linde Material Handling]] | truckdev | 5 | 0 | 0 | none |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 0 | 0 | none |
 | [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext]] | forklift | 0 | 1 | 4 | defined |
+| [[Nuvera PowerEdge]] | [[Nuvera]] | truckdev | 4 | 0 | 1 | partial |
 | [[Philadelphia Scientific SmartBlinky Pro]] | [[Philadelphia Scientific]] | monitor | 7 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!Mini]] | [[Philadelphia Scientific]] | monitor | 13 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!c]] | [[Philadelphia Scientific]] | monitor | 8 | 0 | 0 | none |
@@ -137,9 +147,10 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Philadelphia Scientific eGO!gateway]] | [[Philadelphia Scientific]] | monitor | 4 | 0 | 2 | partial |
 | [[Philadelphia Scientific eGO!plus]] | [[Philadelphia Scientific]] | monitor | 6 | 0 | 4 | defined |
 | [[Philadelphia Scientific eGO!pro]] | [[Philadelphia Scientific]] | monitor | 15 | 0 | 11 | defined |
+| [[Plug Power GenDrive]] | [[Plug Power]] | truckdev | 6 | 0 | 10 | defined |
 | [[PosiCharge BMID 1]] | [[PosiCharge]] | monitor | 0 | 0 | 0 | none |
 | [[PosiCharge BMID 3]] | [[PosiCharge]] | monitor | 2 | 0 | 0 | none |
-| [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 6 | defined |
+| [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 7 | defined |
 | [[PosiCharge DVS100]] | [[PosiCharge]] | charger | 3 | 1 | 5 | defined |
 | [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 0 | 12 | defined |
 | [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 1 | 1 | partial |
@@ -150,12 +161,13 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Power Designers PowerTrac SP+]] | [[Power Designers]] | monitor | 15 | 1 | 4 | defined |
 | [[Power Designers REVOLUTION X]] | [[Power Designers]] | charger | 9 | 2 | 13 | defined |
 | [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 0 | 0 | 2 | partial |
-| [[Raymond 7000 Series Reach-Fork Trucks]] | [[Raymond]] | forklift | 0 | 0 | 8 | defined |
+| [[Raymond 7000 Series Reach-Fork Trucks]] | [[Raymond]] | forklift | 2 | 0 | 10 | defined |
 | [[Raymond 8000 Series Pallet Trucks]] | [[Raymond]] | forklift | 0 | 0 | 0 | none |
 | [[Raymond Energy Essentials Lithium-Ion Battery]] | [[Raymond]] | battery | 0 | 0 | 0 | none |
 | [[Raymond Orderpickers]] | [[Raymond]] | forklift | 0 | 0 | 3 | defined |
 | [[Raymond Red Charger]] | [[Raymond]] | charger | 4 | 0 | 2 | partial |
 | [[Raymond iBattery]] | [[Raymond]] | monitor | 11 | 0 | 0 | none |
+| [[STILL Safety Assist and Curve Speed Control]] | [[STILL]] | truckdev | 4 | 0 | 0 | none |
 | [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 5 | 8 | defined |
 | [[Stryten EHI Charger]] | [[Stryten Energy]] | charger | 4 | 0 | 0 | none |
 | [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 1 | partial |
@@ -172,13 +184,17 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 2 | 4 | defined |
 | [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 2 | 7 | defined |
 | [[Toyota 3-Wheel Electric Forklift]] | [[Toyota Material Handling]] | forklift | 0 | 2 | 2 | partial |
+| [[Toyota Assist]] | [[Toyota Material Handling]] | truckdev | 8 | 0 | 0 | none |
 | [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Toyota Material Handling]] | battery | 0 | 1 | 1 | partial |
-| [[Toyota MyInsights Telematics]] | [[Toyota Material Handling]] | software | 0 | 1 | 0 | none |
+| [[Toyota MyInsights Telematics]] | [[Toyota Material Handling]] | software | 3 | 1 | 0 | none |
+| [[Toyota SEnS+ Pedestrian and Object Detection]] | [[Toyota Material Handling]] | truckdev | 3 | 0 | 0 | none |
+| [[Toyota System of Active Stability]] | [[Toyota Material Handling]] | truckdev | 2 | 0 | 0 | none |
 | [[Toyota Traigo48]] | [[Toyota Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 0 | 2 | 0 | none |
 | [[Triathlon Lithium-Ion Charger for UniCarriers]] | [[Triathlon USA]] | charger | 0 | 1 | 0 | none |
 - **Update (round 9):** exemplars and the layout are in [[Note Standard (Example)]]; full specs added for [[HOPPECKE trak collect]], [[Crown V-HFM3 Charger]] and the Stryten lineup; spec-gap count now 58.
 - **Round 13:** table regenerated; forklift, software and option products now appear with their own kind.
+- **Round 14:** table regenerated with truck-device products.
 
 ## Aliases
 

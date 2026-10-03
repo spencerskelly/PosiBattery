@@ -1,0 +1,33 @@
+---
+type: Design
+subtype:
+id: DES-00057
+uid: 20261003090225557skellyspencer
+status: Draft
+tags:
+  - truck-design
+  - design-characteristic
+describedBy:
+  - "[[Truck Metric - Detection Technology]]"
+designOf:
+  - "[[Hyster Reaction]]"
+  - "[[Linde Safety Guard]]"
+---
+
+# Proximity Tag System
+
+## Definition
+
+Tags on trucks, people and infrastructure that let a truck detect truck-to-truck, truck-to-pedestrian and truck-to-beacon proximity, by local or real-time location technology (including ultra-wideband).
+
+## Notes
+
+- Design characteristic found in truck-side products, not a decision by us. No Requirement is linked.
+- **Sources** (product, evidence level, web page):
+  - [[Hyster Reaction]] (V): <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
+  - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+
+## Aliases
+
+
+## Former ids

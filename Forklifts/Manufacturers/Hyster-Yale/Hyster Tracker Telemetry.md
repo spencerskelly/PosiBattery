@@ -7,6 +7,8 @@ status: Draft
 tags:
   - software
   - telematics
+performs:
+  - "[[Report Truck Telemetry]]"
 madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
@@ -23,6 +25,8 @@ Hyster forklift telemetry for wireless fleet management, compatible with all Hys
 
 - Hyster's brochure says Hyster Tracker is compatible with all Hyster models and competitive units, and the wireless monitoring base level is standard on all A Series models. Source: Hyster solutions brochure (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 - **Conflict-visible (C60):** earlier notes treated 'Hyster Tracker' as the battery monitor [[Hyster Battery Tracker]] (powered by PosiCharge technology). This brochure describes Hyster Tracker as truck telemetry. They may be separate products with similar names.
+- **Functions performed, with citations:**
+  - [[Report Truck Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

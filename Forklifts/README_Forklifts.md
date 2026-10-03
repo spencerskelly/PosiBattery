@@ -12,7 +12,8 @@ Forklift and powered industrial truck families, grouped by the seven Industrial 
 
 ## Start here
 
-- [[Forklift Offerings Matrix]] (in `Research`)
+- [[Forklift Offerings Matrix]], [[Truck Device Comparison Matrix]], [[Truck Device Feature Map]] and [[ICE and Fuel Cell Feature Gap Review]] (in `Research`)
+- truck-side devices (proximity detection, speed limiting, stability, access, impact, telematics) are Functions and Designs tagged truck-function and truck-design
 - [[Class I Electric Rider Truck]], [[Class II Electric Narrow Aisle Truck]], [[Class III Electric Hand or Hand-Rider Truck]]
 - [[Crown FC 5700 Series]], [[Toyota 3-Wheel Electric Forklift]], [[Linde 6-8 t Electric Counterbalance Forklifts]]
 - [Local contents](./BASE_local_Forklifts.base) and [all contents](./BASE_all_Forklifts.base)

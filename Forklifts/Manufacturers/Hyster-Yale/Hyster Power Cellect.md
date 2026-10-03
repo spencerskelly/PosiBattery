@@ -9,6 +9,7 @@ tags:
   - battery-interface
 performs:
   - "[[Communicate Battery State over CAN]]"
+  - "[[Protect Battery from Deep Discharge]]"
 hasDesign:
   - "[[CAN Interface]]"
 madeBy:
@@ -33,6 +34,8 @@ Hyster optional package that lets an electric truck switch between lead-acid, TP
   - [[Communicate Battery State over CAN]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
 - **Design characteristics, with citations:**
   - [[CAN Interface]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
+- **Functions performed, with citations:**
+  - [[Protect Battery from Deep Discharge]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
 
 ## Aliases
 

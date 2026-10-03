@@ -27,17 +27,20 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | Repo path | Address | Link type | Fills | Priority | Added |
 |---|---|---|---|---|---|---|---|
-| NEW - need | Crown FC 5700 brochure (APAC edition) | - | <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf> | direct file | FC 5700 specs, V-Force and InfoLink options | high | R13 |
-| NEW - need | Crown RC 5700 specification sheet | - | <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf> | direct file | RC 5700 specs, V-Force ready | high | R13 |
-| NEW - need | Hyster solutions brochure (North America) | - | <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf> | direct file | Hyster models, Power Cellect, Tracker (C60) | high | R13 |
-| NEW - need | Toyota lithium-ion 5/35 battery and charger data sheets | - | not found (release only) | none found | Toyota battery voltage, Ah, maker | high | R13 |
-| NEW - need | Triathlon lithium-ion battery and charger for UniCarriers data sheet | - | not found (release only) | none found | UniCarriers lithium option ratings (C62) | high | R13 |
-| NEW - need | Linde 90 V lithium-ion battery and charger data sheets | - | not found (articles only) | none found | Linde battery and charger ratings, maker | high | R13 |
-| NEW - need | KION North America and Baoli product catalog | - | <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf> | direct file (host is an expo site) | Linde and Baoli electric truck series list | medium | R13 |
-| NEW - need | Raymond 7000 Series reach-fork catalog | - | <https://pdf.directindustry.com/pdf/raymond/7000-series-reach-fork-truck-universal-stance/14119-514315.html> | catalog page | 7500 specs, ACR energy claims | medium | R13 |
-| NEW - need | Raymond lift truck literature (production page needed; found address is a test host) | - | <https://test-raymondcorp.raymondcorp.com/information/lift-truck-literature> | page on a test host | 4000, 7000 and 8000 series brochures | medium | R13 |
-| NEW - need | Toyota Traigo48 brochure | - | <https://www.aviationpros.com/ground-support-worldwide/ground-handling/product/55274834/new-toyota-traigo48-electric-forklift-range> | page only (no file found) | Traigo48 specs | medium | R13 |
-| NEW - need | Mitsubishi and Cat electric forklift brochures; UniCarriers MX2 and MXL sheets | - | not found | none found | Logisnext models and lithium option | medium | R13 |
+| NEW - need | Linde safety brochure (German, dealer-hosted): Safety Pilot, Safety Guard modules, Blue Spot, Dynamic Mast Control | - | <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf> | direct file (dealer-hosted) | Linde truck-side device details | high | R14 |
+| NEW - need | Plug Power GenDrive Series 1000 spec sheet | - | <https://plugpower.com/wp-content/uploads/2014/12/GenDrive-Series-1000-Spec-Sheet.pdf> | direct file | fuel cell units, refuel time, cold performance (C67) | high | R14 |
+| NEW - need | Plug Power GenDrive GD2000 spec sheet | - | <https://www.plugpower.com/wp-content/uploads/2018/06/2018_GD2000SpecSheet_F1Digi.pdf> | direct file | refuel time and hydrogen storage (C67) | high | R14 |
+| NEW - need | Hyster Reaction product data and model availability list | - | <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/> | page (no file found) | Reaction models, ranges | high | R14 |
+| NEW - need | Crown ProximityAssist and operator assist solutions brochure | - | not found (article only) | none found | detection range and models | high | R14 |
+| NEW - need | Toyota Assist brochure with SEnS+ range and model availability | - | not found (releases only) | none found | SEnS+ range, response (C66) | high | R14 |
+| NEW - need | Nuvera PowerEdge current product data | - | not found (dated news item only) | none found | fuel cell units | medium | R14 |
+| NEW - need | US DOE hydrogen fueling infrastructure presentation | - | <https://www.energy.gov/sites/prod/files/2014/03/f10/ciotto_infrastructure_for_emerging_markets.pdf> | direct file | fuel cell truck infrastructure context | low | R14 |
+| need | Crown FC 5700 brochure (APAC edition) | - | <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf> | direct file | FC 5700 specs, V-Force and InfoLink options | high | R13 |
+| need | Crown RC 5700 specification sheet | - | <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf> | direct file | RC 5700 specs, V-Force ready | high | R13 |
+| need | Hyster solutions brochure (North America) | - | <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf> | direct file | Hyster models, Power Cellect, Tracker (C60) | high | R13 |
+| need | Toyota lithium-ion 5/35 battery and charger data sheets | - | not found (release only) | none found | Toyota battery voltage, Ah, maker | high | R13 |
+| need | Triathlon lithium-ion battery and charger for UniCarriers data sheet | - | not found (release only) | none found | UniCarriers lithium option ratings (C62) | high | R13 |
+| need | Linde 90 V lithium-ion battery and charger data sheets | - | not found (articles only) | none found | Linde battery and charger ratings, maker | high | R13 |
 | need - direct link found | Fronius Selectiva 4.0 brochure (UL, EN) - replaces the bad flyer link | - | <https://fronius.com/~/downloads/Perfect%20Charging/Brochures/PC_BRO_Selectiva40_UL_EN.pdf> | direct file | Selectiva ratings (kW, V, A, input) | high | R11-R12 |
 | need - direct link found | Stryten EHY charger brochure SE1057 | - | <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-Series_ProductBrochure_EHY_SE1057_DIGITAL.pdf> | direct file | EHY ratings; T310 profile | high | R11-R12 |
 | need - direct link found | Stryten EHF charger brochure SE1060 | - | <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-Series_ProductBrochure_EHF_SE1060_DIGITAL.pdf> | direct file | EHF model table; battery pairings | high | R11-R12 |
@@ -53,6 +56,11 @@ Running list of documents identified as useful, what each would fill, and whethe
 | need | East Penn Deka PowerForce spec sheet | - | not found: the news and product pages are pages, no spec-sheet file found | page only | PowerForce ratings; unnamed battery-to-charger device | high | R11-R12 |
 | need | Crown V-Force BMID and V-Force battery brochures | - | not found: crown.com/en-us/batteries-and-chargers is a landing page | landing page (no file found) | BMID specs; battery ratings | high | R11-R12 |
 | need | Stryten Li600 and Li610 data sheets | - | not found: stryten.com is the home page | home page (no file found) | battery voltage and Ah | high | R11-R12 |
+| need | KION North America and Baoli product catalog | - | <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf> | direct file (host is an expo site) | Linde and Baoli electric truck series list | medium | R13 |
+| need | Raymond 7000 Series reach-fork catalog | - | <https://pdf.directindustry.com/pdf/raymond/7000-series-reach-fork-truck-universal-stance/14119-514315.html> | catalog page | 7500 specs, ACR energy claims | medium | R13 |
+| need | Raymond lift truck literature (production page needed; found address is a test host) | - | <https://test-raymondcorp.raymondcorp.com/information/lift-truck-literature> | page on a test host | 4000, 7000 and 8000 series brochures | medium | R13 |
+| need | Toyota Traigo48 brochure | - | <https://www.aviationpros.com/ground-support-worldwide/ground-handling/product/55274834/new-toyota-traigo48-electric-forklift-range> | page only (no file found) | Traigo48 specs | medium | R13 |
+| need | Mitsubishi and Cat electric forklift brochures; UniCarriers MX2 and MXL sheets | - | not found | none found | Logisnext models and lithium option | medium | R13 |
 | need - direct link found | Delta-Q IC650 data sheet (reseller-hosted) | - | <https://www.simpower.co.nz/wp-content/uploads/2025/02/DQIC650-48_13.5.pdf> | direct file (reseller-hosted) | IC650 ratings | medium | R11-R12 |
 | need - direct link found | Delta-Q IC650 design guide (reseller-hosted) | - | <https://cdn.simpower.co.nz/wp-content/uploads/2025/02/DQIC650-24_27.1_2.pdf> | direct file (reseller-hosted) | IC650 detailed specifications, CAN | medium | R11-R12 |
 | need | HOPPECKE trak / collect data sheet EN (read by fetch) | - | <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf> | direct file | trak collect (C39) | medium | R11-R12 |
@@ -87,6 +95,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 | **HAVE** - in repo, not yet absorbed | Prestolite WBID Pro owner's manual | Downloads/wbid-owners-manual-821.pdf | original address not recorded (owner download) | direct file | WBID Pro setup, options | high | R11-R12 |
 - **Round 12 2026-10-02 (owner flagged bad links and home-page links):** every row now has a link type; four owner-flagged bad links are marked; Fronius, Stryten (three brochures) and Delta-Q have direct file addresses; Exide, PhilSci, Prestolite charger, East Penn, Crown, Flux, Green Cubes and Stryten battery files have no direct address yet. Thirteen files received since round 11 are queued. See [[Link Audit]].
 - **Round 13 2026-10-03:** table reordered as requested; 11 new forklift document requests added at the top. Counts: 11 new, 26 still needed, 21 HAVE.
+- **Round 14 2026-10-03:** 8 new requests at the top; earlier new requests moved into the priority-ordered list; HAVE rows unchanged (21).
 
 ## Aliases
 

@@ -318,6 +318,27 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | distributedBy | [[Jungheinrich]] | [[Mitsubishi Logisnext]] | Jungheinrich exclusively distributed in North America by Mitsubishi Logisnext Americas | <https://www.supplychain247.com/company/jungheinrich> |
 | supplierOf | [[Triathlon USA]] | [[Mitsubishi Logisnext]] | named lithium-ion battery and charger supplier for UniCarriers (factory option); first supplierOf instance with named parties | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> |
 | offers | [[Mitsubishi Logisnext]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] | factory-installed option offered with UniCarriers trucks | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> |
+| playsRole | [[STILL]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[STILL]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Plug Power]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Nuvera]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| subsidiaryOf | [[STILL]] | [[KION Group]] | KION story names STILL as a KION brand | <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html> |
+| subsidiaryOf | [[Nuvera]] | [[Hyster-Yale]] | ranking lists Nuvera among Hyster-Yale brands | <https://www.logisticsmgmt.com/article/top_20_lift_truck_suppliers_2024> |
+| makes | [[Hyster-Yale]] | [[Hyster Reaction]] | vendor presents the product as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Hyster Pedestrian Awareness Camera]] | vendor presents the product as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Yale Reliant Portfolio]] | vendor presents the product as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown ProximityAssist System]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Assist]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota SEnS+ Pedestrian and Object Detection]] | vendor presents the product as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota System of Active Stability]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Safety Guard]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Safety Pilot]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde BlueSpot]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Motion Detection]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde connect]] | vendor presents the product as its own | see the product note |
+| makes | [[STILL]] | [[STILL Safety Assist and Curve Speed Control]] | vendor presents the product as its own | see the product note |
+| makes | [[Plug Power]] | [[Plug Power GenDrive]] | vendor presents the product as its own | see the product note |
+| makes | [[Nuvera]] | [[Nuvera PowerEdge]] | vendor presents the product as its own | see the product note |
 
 ## Aliases
 

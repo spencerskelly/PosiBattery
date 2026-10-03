@@ -7,6 +7,8 @@ status: Draft
 tags:
   - software
   - telematics
+performs:
+  - "[[Report Truck Telemetry]]"
 madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
@@ -23,6 +25,8 @@ Yale real-time fleet monitoring telemetry; wireless monitoring is standard on Se
 
 - Yale says Yale Vision provides real-time fleet monitoring and that wireless monitoring, its level one offering, is standard on all Series N ICE trucks. Source: Yale site (T1), retrieved 2026-10-03. <https://www.yale.com/en-gb/emea/contact/global%20language%20blocks/>
 - **Conflict-visible (C60):** earlier notes treated Yale Vision as the battery monitor [[Yale Battery Vision]]; this page describes truck fleet telemetry.
+- **Functions performed, with citations:**
+  - [[Report Truck Telemetry]] (V): <https://www.yale.com/en-gb/emea/contact/global%20language%20blocks/>
 
 ## Aliases
 

@@ -8,19 +8,20 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[Anhui Heli]]"
   - "[[Crown Equipment]]"
+  - "[[Doosan Bobcat]]"
+  - "[[Hangcha Group]]"
   - "[[Hyster-Yale]]"
   - "[[Jungheinrich]]"
+  - "[[KION Group]]"
+  - "[[Komatsu]]"
+  - "[[Linde Material Handling]]"
+  - "[[Mitsubishi Logisnext]]"
   - "[[Raymond]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[KION Group]]"
-  - "[[Linde Material Handling]]"
-  - "[[Mitsubishi Logisnext]]"
-  - "[[Hangcha Group]]"
-  - "[[Anhui Heli]]"
-  - "[[Doosan Bobcat]]"
-  - "[[Komatsu]]"
+  - "[[STILL]]"
 ---
 
 # Truck OEM

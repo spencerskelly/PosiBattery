@@ -33,6 +33,7 @@ supertypeOf:
   - "[[Green Cubes SAFEFlex Charger]]"
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[Lester Summit Series II]]"
+  - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[PosiCharge SVS200]]"
@@ -43,7 +44,6 @@ supertypeOf:
   - "[[Stryten EHY Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
-  - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"

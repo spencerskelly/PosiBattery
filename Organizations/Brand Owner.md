@@ -12,12 +12,13 @@ rolePlayedBy:
   - "[[Crown Equipment]]"
   - "[[Hyster-Yale]]"
   - "[[Jungheinrich]]"
-  - "[[Raymond]]"
-  - "[[Toyota Industries Corporation]]"
-  - "[[Toyota Material Handling]]"
   - "[[KION Group]]"
   - "[[Linde Material Handling]]"
   - "[[Mitsubishi Logisnext]]"
+  - "[[Raymond]]"
+  - "[[Toyota Industries Corporation]]"
+  - "[[Toyota Material Handling]]"
+  - "[[STILL]]"
 ---
 
 # Brand Owner

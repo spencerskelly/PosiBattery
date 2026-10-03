@@ -23,9 +23,14 @@ makes:
   - "[[Hyster Power Cellect]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Yale Vision Telemetry]]"
+  - "[[Hyster Reaction]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[Yale Reliant Portfolio]]"
 offers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
+parentOf:
+  - "[[Nuvera]]"
 integratesWith:
   - "[[EnerSys]]"
 ---

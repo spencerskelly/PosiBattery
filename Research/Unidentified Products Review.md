@@ -80,7 +80,17 @@ Review of products and items that already-identified organizations name in sourc
 | [[Doosan Bobcat]] | models and options | forklifts | <https://www.supplychain247.com/article/top-20-lift-truck-suppliers-2025> | ranking only | research |
 | [[Komatsu]] | models and options | forklifts | <https://www.logisticsmgmt.com/article/top_20_lift_truck_suppliers_2024> | ranking only | research |
 | [[Raymond]] | Raymond Swing-Reach 9800, sideloaders, tow tractors, 8810 side-entry pallet truck, Raymond Red Charger maker, Energy Essentials maker | forklifts, chargers, batteries | <https://www.robotics247.com/article/raymond_shows_off_integrated_intralogistics_systems_promat_2023/Raymond_Corp> | named | identify makers |
+| [[Raymond]] | truck-side assist features (proximity, speed, access, impact) beyond iWarehouse | assist devices | <https://www.robotics247.com/article/raymond_shows_off_integrated_intralogistics_systems_promat_2023/Raymond_Corp> | not retrieved this round | search Raymond operator assist |
+| [[Jungheinrich]] | assist and safety systems (collision protection, access, telematics) by model | assist devices | <https://warehousenews.co.uk/?p=45557> | not retrieved | search Jungheinrich assist systems |
+| [[Hyster-Yale]] | Reaction model availability list; Yale Reliant other products; Hyster Tracker levels | assist devices | <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/> | model list not retrieved | find model lists |
+| [[Toyota Material Handling]] | Toyota Assist availability by model; T-Matics; I-Site; PIN access option | assist devices | <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech> | models not listed | find model lists |
+| [[Crown Equipment]] | Access 1 2 3, Work Assist, InfoPoint, Gena operating system, TSP turret truck | assist devices | <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf> | named, not described | find Crown operator assist page |
+| [[Linde Material Handling]] | Linde Safety Guard four modules, Speed Assist, Load Assist, Active Stability Control, Dynamic Mast Control, Steer Control | assist devices | <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf> | named | find Linde safety brochure details |
+| [[Plug Power]] | GenDrive GD-series models, GenFuel hydrogen dispensers and storage | fuel cell units | <https://www.plugpower.com/applications/material-handling/> | models not tabulated | get spec sheets |
+| [[Nuvera]] | PowerEdge current models, PowerFlow, PowerTap hydrogen generation | fuel cell units | <https://www.liftandaccess.com/news/hybrid-fuel-cell-forklifts-introduced> | dated item | find current pages |
+| [[KION Group]] | Linde fuel cell trucks; STILL fuel cell options | fuel cell trucks | <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html> | not retrieved | search |
 - **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
+- **Round 14 additions:** 9 rows for truck-side assist devices and fuel-cell units.
 
 ## Aliases
 
