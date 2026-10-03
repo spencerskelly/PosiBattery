@@ -49,7 +49,9 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
   - [[Green Cubes SAFEFlex PLUS Battery]]: UL certified with EE rating
   - [[HOPPECKE trak collect]]: EN 12895; EN 55011; EN 61000-6-2 and -6-3; EN 62485-3; UL 583
   - [[Lester Summit Series II]]: UL recognized/listed; cUL/CSA; FCC Part 15; ICES-003; CE; RCM; DOE and CEC; earlier note: DOE, CEC, NRCan
+  - [[PosiCharge DVS300 Series]]: CEC certification
   - [[PosiCharge PosiGuard]]: UL 583; EN 1175
+  - [[PosiCharge SVS100]]: CEC certification
   - [[Power Designers REVOLUTION X]]: CEC compliant
   - [[Stryten M-Series Li600 Battery]]: designed to meet UL2580; certification in process
   - [[Stryten M-Series Li610 Battery]]: UL2580 certification being pursued

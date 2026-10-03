@@ -9,12 +9,12 @@ tags:
   - category-family
 abstract: true
 supertypeOf:
-  - "[[Proximity and Object Detection System]]"
   - "[[Operator Assist and Stability System]]"
-  - "[[Warning Light and Alert]]"
-  - "[[Power Source Interface]]"
-  - "[[Operator Display]]"
   - "[[Operator Convenience Accessory]]"
+  - "[[Operator Display]]"
+  - "[[Power Source Interface]]"
+  - "[[Proximity and Object Detection System]]"
+  - "[[Warning Light and Alert]]"
 ---
 
 # Vehicle Accessory

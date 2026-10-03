@@ -47,6 +47,12 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 2 | 16 | defined |
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
 | [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 12 | 4 | 20 | defined |
+| [[Adveez Asset and Operations Monitoring System]] | [[Adveez]] | accessory | 1 | 0 | 0 | none |
+| [[Charlatte Belt Loaders]] | [[Charlatte Manutention]] | gse | 0 | 0 | 3 | defined |
+| [[Charlatte CBT350 AC Tow Tractor]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
+| [[Charlatte CPB35E Pushback Tractor]] | [[Charlatte Manutention]] | gse | 0 | 0 | 2 | partial |
+| [[Charlatte T135 Neo 25T]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
+| [[Charlatte T137-V3]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
 | [[Crown Battery EVOLUTION Series]] | [[Crown Battery Manufacturing]] | charger | 5 | 0 | 2 | partial |
 | [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 1 | partial |
@@ -144,16 +150,25 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Linde Material Handling]] | charger | 0 | 2 | 2 | partial |
 | [[Linde Motion Detection]] | [[Linde Material Handling]] | accessory | 1 | 0 | 0 | none |
+| [[Linde P250 Electric Baggage Tractor]] | [[Linde Material Handling]] | gse | 0 | 0 | 0 | none |
 | [[Linde Safety Guard]] | [[Linde Material Handling]] | accessory | 5 | 0 | 0 | none |
 | [[Linde Safety Pilot]] | [[Linde Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Linde Smartphone Holder]] | [[Linde Material Handling]] | accessory | 0 | 0 | 0 | none |
 | [[Linde connect]] | [[Linde Material Handling]] | accessory | 5 | 0 | 0 | none |
+| [[Mallaghan Collision Avoidance System]] | [[Mallaghan]] | accessory | 1 | 0 | 0 | none |
+| [[Mallaghan SkyBelt]] | [[Mallaghan]] | gse | 0 | 0 | 0 | none |
 | [[Midac Aquamatic Watering System]] | [[Midac]] | accessory | 0 | 1 | 0 | none |
 | [[Midac EUW Electrolyte Circulation System]] | [[Midac]] | accessory | 0 | 1 | 0 | none |
 | [[Midac End Leads]] | [[Midac]] | accessory | 0 | 1 | 0 | none |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 3 | 0 | none |
 | [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext]] | forklift | 0 | 1 | 4 | defined |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
+| [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
+| [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 4 | defined |
+| [[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
+| [[Oshkosh AeroTech Pushback B350E and B650E]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
+| [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
+| [[Oshkosh AeroTech iOPS]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
 | [[Philadelphia Scientific SmartBlinky Pro]] | [[Philadelphia Scientific]] | monitor | 7 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!Mini]] | [[Philadelphia Scientific]] | monitor | 13 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!c]] | [[Philadelphia Scientific]] | monitor | 8 | 0 | 0 | none |
@@ -166,8 +181,12 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[PosiCharge BMID 3]] | [[PosiCharge]] | monitor | 2 | 0 | 0 | none |
 | [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 7 | defined |
 | [[PosiCharge DVS100]] | [[PosiCharge]] | charger | 3 | 1 | 5 | defined |
+| [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 3 | defined |
+| [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 1 | partial |
 | [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 0 | 12 | defined |
+| [[PosiCharge PosiNet]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
 | [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 1 | 1 | partial |
+| [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 1 | partial |
 | [[PosiCharge SVS200]] | [[PosiCharge]] | charger | 0 | 0 | 3 | defined |
 | [[Power Designers PowerTrac 3]] | [[Power Designers]] | monitor | 13 | 1 | 29 | defined |
 | [[Power Designers PowerTrac DT3]] | [[Power Designers]] | monitor | 15 | 0 | 12 | defined |
@@ -198,6 +217,12 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 3 | 4 | defined |
 | [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 3 | 7 | defined |
 | [[Stryten inCOMMAND]] | [[Stryten Energy]] | accessory | 0 | 3 | 0 | none |
+| [[TLD Aircraft Safety Docking]] | [[TLD Group]] | accessory | 2 | 0 | 0 | none |
+| [[TLD NBL-E Belt Loader]] | [[TLD Group]] | gse | 0 | 0 | 0 | none |
+| [[TUG 660 Belt Loader]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
+| [[TUG ALPHA 1 Pushback]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
+| [[TUG Endurance Baggage Tractor]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
+| [[Textron Smart Sense]] | [[Textron GSE]] | accessory | 7 | 0 | 6 | defined |
 | [[Toyota 3-Wheel Electric Forklift]] | [[Toyota Material Handling]] | forklift | 0 | 2 | 2 | partial |
 | [[Toyota Assist]] | [[Toyota Material Handling]] | accessory | 8 | 0 | 0 | none |
 | [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Toyota Material Handling]] | battery | 0 | 1 | 1 | partial |
@@ -211,6 +236,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 13:** table regenerated; forklift, software and option products now appear with their own kind.
 - **Round 14:** table regenerated with truck-device products.
 - **Round 15:** table regenerated with accessories as a kind.
+- **Round 16:** table regenerated with GSE vehicles as a kind.
 
 ## Aliases
 

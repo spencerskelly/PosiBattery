@@ -11,8 +11,8 @@ describedBy:
   - "[[Metric - Operator Feedback]]"
 designOf:
   - "[[Crown InfoLink]]"
-  - "[[Crown ProximityAssist System]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
+  - "[[Crown ProximityAssist System]]"
 ---
 
 # Operator Touch Display

@@ -36,6 +36,7 @@ Charge Regimes: Conventional, opportunity, fast or lithium regimes supported.
   - [[EnerSys NexSys+ Charger]]: conventional, opportunity, TPPL standard/fast/Bloc, iON, cold storage (chart)
   - [[PosiCharge DVS100]]: fast
   - [[PosiCharge ProCore Edge]]: opportunity
+  - [[PosiCharge SVS100]]: fast or opportunity
   - [[Power Designers REVOLUTION X]]: conventional (17% start), opportunity (25%), fast (40%)
   - [[Stryten EHF Charger]]: standard flooded, low-maintenance flooded, low-maintenance VRLA
   - [[Stryten EHY Charger]]: conventional (flooded)

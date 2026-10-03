@@ -11,9 +11,10 @@ abstract: true
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 supertypeOf:
-  - "[[Stryten inCOMMAND]]"
   - "[[ACT ACTview]]"
   - "[[Fronius Charge & Connect]]"
+  - "[[Stryten inCOMMAND]]"
+  - "[[PosiCharge PosiNet]]"
 ---
 
 # Battery and Charger Management Software

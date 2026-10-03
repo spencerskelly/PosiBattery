@@ -17,15 +17,15 @@ performedBy:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
+  - "[[Yale Battery Vision]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Alert on Abnormal Condition

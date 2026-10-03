@@ -11,10 +11,12 @@ describedBy:
   - "[[Metric - Response Action]]"
   - "[[Metric - Truck Integration]]"
 performedBy:
+  - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
-  - "[[STILL Safety Assist and Curve Speed Control]]"
+  - "[[Textron Smart Sense]]"
+  - "[[TLD Aircraft Safety Docking]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -32,6 +34,8 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Crown ProximityAssist System]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[STILL Safety Assist and Curve Speed Control]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+  - [[TLD Aircraft Safety Docking]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
 
 ## Aliases
 

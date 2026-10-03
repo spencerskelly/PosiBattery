@@ -43,6 +43,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Philadelphia Scientific eGO!pro]]: IP65
   - [[PosiCharge Battery Rx]]: acid immersion and pressure-wash tolerance
   - [[PosiCharge PosiGuard]]: IP65 sealed against water and acid
+  - [[PosiCharge SVS100]]: outdoor fast charge system (Averest item); rating not stated
   - [[Power Designers PowerTrac 3]]: water and acid resistant (no IP code)
   - [[Power Designers PowerTrac DT3]]: water and acid resistant (no IP code)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

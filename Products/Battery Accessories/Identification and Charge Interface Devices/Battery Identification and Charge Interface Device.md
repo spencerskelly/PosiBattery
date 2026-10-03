@@ -13,18 +13,18 @@ subtypeOf:
   - "[[Battery Monitoring and Identification Device]]"
 supertypeOf:
   - "[[AMETEK Prestolite Power BID]]"
-  - "[[AMETEK Prestolite Power TruBid]]"
-  - "[[AMETEK Prestolite Power WBID]]"
-  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown V-Force BMID]]"
   - "[[Fronius TagID]]"
   - "[[PosiCharge BMID]]"
+  - "[[AMETEK Prestolite Power TruBid]]"
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[Advanced Charging Technologies BATTview]]"
   - "[[Power Designers PowerTrac 3]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
-  - "[[SLC Airport EGSE BMID Requirement]]"
-  - "[[Function Map]]"
   - "[[Design Map]]"
+  - "[[Function Map]]"
+  - "[[SLC Airport EGSE BMID Requirement]]"
 ---
 
 # Battery Identification and Charge Interface Device

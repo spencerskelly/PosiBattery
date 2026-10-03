@@ -10,10 +10,10 @@ tags:
 describedBy:
   - "[[Metric - Temperature Sensing]]"
 designOf:
-  - "[[AMETEK Prestolite Power TruBid]]"
-  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge Battery Rx]]"
+  - "[[AMETEK Prestolite Power TruBid]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
 ---
 
 # Electrolyte-Immersed Temperature Sensor

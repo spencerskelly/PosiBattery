@@ -17,8 +17,8 @@ supertypeOf:
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[Exide Element VRLA Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
-  - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM200 Battery]]"
+  - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
 ---
 

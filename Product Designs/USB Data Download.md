@@ -8,11 +8,11 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
-  - "[[Delta-Q IC650]]"
-  - "[[Exide Motion+ Premium Charger]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[Delta-Q IC650]]"
+  - "[[Exide Motion+ Premium Charger]]"
 ---
 
 # USB Data Download

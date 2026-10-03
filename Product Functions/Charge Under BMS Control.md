@@ -8,11 +8,11 @@ tags:
   - charger
   - product-function
 performedBy:
-  - "[[Delta-Q IC650]]"
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Fronius SelectION]]"
-  - "[[Lester Summit Series II]]"
   - "[[PosiCharge ProCore Edge]]"
+  - "[[Delta-Q IC650]]"
+  - "[[Lester Summit Series II]]"
 ---
 
 # Charge Under BMS Control

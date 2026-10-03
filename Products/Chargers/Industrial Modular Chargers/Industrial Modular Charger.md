@@ -11,11 +11,11 @@ abstract: true
 subtypeOf:
   - "[[Industrial Battery Charger]]"
 supertypeOf:
-  - "[[AMETEK Prestolite Power Eclipse II]]"
-  - "[[AMETEK Prestolite Power ULTRA]]"
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
+  - "[[AMETEK Prestolite Power Eclipse II]]"
+  - "[[AMETEK Prestolite Power ULTRA]]"
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[Deka PowerForce Charger]]"
@@ -40,6 +40,9 @@ supertypeOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
 # Industrial Modular Charger

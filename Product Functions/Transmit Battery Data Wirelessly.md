@@ -10,6 +10,9 @@ tags:
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 performedBy:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power WBID]]"
@@ -19,18 +22,15 @@ performedBy:
   - "[[EnerSys iQ Mini]]"
   - "[[Energywith withBMS BMU]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!core]]"
-  - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge Battery Rx]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Yale Battery Vision]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
 ---
 
 # Transmit Battery Data Wirelessly

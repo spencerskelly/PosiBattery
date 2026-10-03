@@ -12,11 +12,11 @@ subtypeOf:
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
-  - "[[EnerSys Truck iQ]]"
+  - "[[PosiCharge BMID 3]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys iQ Mini]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[PosiCharge BMID 3]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # Bluetooth Low Energy Interface

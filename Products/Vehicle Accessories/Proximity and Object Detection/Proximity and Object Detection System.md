@@ -17,6 +17,10 @@ supertypeOf:
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Textron Smart Sense]]"
+  - "[[TLD Aircraft Safety Docking]]"
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[Mallaghan Collision Avoidance System]]"
 ---
 
 # Proximity and Object Detection System

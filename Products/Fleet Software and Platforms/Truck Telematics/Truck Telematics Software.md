@@ -13,9 +13,11 @@ subtypeOf:
 supertypeOf:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
-  - "[[Yale Vision Telemetry]]"
   - "[[Linde connect]]"
   - "[[Toyota MyInsights Telematics]]"
+  - "[[Yale Vision Telemetry]]"
+  - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Adveez Asset and Operations Monitoring System]]"
 ---
 
 # Truck Telematics Software

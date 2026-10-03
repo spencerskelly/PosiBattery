@@ -14,19 +14,19 @@ performedBy:
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
   - "[[Crown V-HFM3 Charger]]"
-  - "[[Delta-Q IC650]]"
   - "[[Deka PowerForce Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Exide Motion+ Lithium Charger]]"
-  - "[[Exide Motion+ Premium Charger]]"
   - "[[Fronius SelectION]]"
   - "[[Green Cubes SAFEFlex Charger]]"
-  - "[[Lester Summit Series II]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Delta-Q IC650]]"
+  - "[[Exide Motion+ Premium Charger]]"
+  - "[[Lester Summit Series II]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Charge Lithium-Ion Battery

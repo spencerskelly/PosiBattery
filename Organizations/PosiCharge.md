@@ -23,6 +23,12 @@ makes:
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge SVS200]]"
   - "[[PosiCharge ProCore Edge]]"
+  - "[[PosiCharge PosiNet]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
+distributedBy:
+  - "[[Averest]]"
 powers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -40,6 +46,7 @@ Fast and opportunity charger maker whose BMID and PosiGuard devices, and PosiLin
 - PosiCharge states it supports every battery type from any manufacturer and tests all brands in a dedicated battery lab. Source: PosiCharge page (T1), retrieved 2026-10-02. <https://posicharge.com/why-posicharge/>
 - Hyster-Yale's Battery Tracker and Battery Vision are described as 'Powered by PosiCharge technology'. Source: Trade press (T2), retrieved 2026-10-02. <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Open (C18):** whether the Hyster-Yale devices are PosiCharge-built hardware with Hyster-Yale branding, or Hyster-Yale-built with licensed technology, is not stated.
+- **GSE chargers (round 16):** SVS100, DVS300 Series and MVS400 and MVS800 are linked by relationship; the sheets are on MHI's member site and are on the [[Document Wishlist]]. Older sheets in this series say 'a product line of AeroVironment, Inc.' (C69).
 
 ## Aliases
 

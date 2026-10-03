@@ -10,9 +10,9 @@ tags:
 describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 performedBy:
+  - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Hyster Power Cellect]]"
 ---
 

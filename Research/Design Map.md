@@ -28,6 +28,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[900 MHz Industrial Wireless Interface]] | [[Power Designers PowerTrac DT3]] | - | - |
 | [[Acid-Resistant Sealed Housing]] | [[Crown V-Force BMID]], [[EnerSys Wi-iQ]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
+| [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
 | [[Audible Alarm]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Stryten M-Series AGM220 Battery]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
@@ -92,6 +93,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Tubular Plate Construction]] | [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
+| [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
 | [[Vehicle-Mounted Display]] | [[EnerSys Truck iQ]] | - | - |
 | [[Wi-Fi Interface]] | [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |

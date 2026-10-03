@@ -10,9 +10,11 @@ tags:
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
-  - "[[Yale Vision Telemetry]]"
   - "[[Linde connect]]"
   - "[[Toyota MyInsights Telematics]]"
+  - "[[Yale Vision Telemetry]]"
+  - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Adveez Asset and Operations Monitoring System]]"
 ---
 
 # Report Truck Telemetry
@@ -31,6 +33,8 @@ Send truck usage, status and events to a fleet portal.
   - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
   - [[Yale Vision Telemetry]] (V): <https://www.yale.com/en-gb/emea/contact/global%20language%20blocks/>
   - [[Crown InfoLink]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+  - [[Oshkosh AeroTech iOPS]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader>
+  - [[Adveez Asset and Operations Monitoring System]] (V): <https://fortbrand.com/gse-products/>
 
 ## Aliases
 

@@ -27,6 +27,16 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL | Fills | Repo path | Link type | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>new this round (GSE; cover all areas) | PosiCharge SVS100 sheet (MHI member site) | <https://og.mhi.org/media/members/16696/131261341460139117.pdf> | SVS100 GSE charger ratings, BMID | - | direct file | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | PosiCharge DVS 300/330/400 sheet (MHI member site) | <https://og.mhi.org/media/members/16696/131261342052642309.pdf> | DVS GSE charger ratings, ports | - | direct file | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | PosiCharge MVS400 sheet (MHI member site) | <https://og.mhi.org/media/members/16696/131261342583679925.pdf> | MVS400 GSE charger | - | direct file | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | PosiCharge MVS800 sheet (MHI member site) | <https://og.mhi.org/media/members/16696/131261342940149065.pdf> | MVS800 GSE charger | - | direct file | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | EPRI Mobile Electric Airport Ground Support Equipment (download) | <https://restservice.epri.com/publicdownload/000000003002005771/0/Product> | electric GSE types and makers | - | direct file (download) | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | Textron Smart Sense company insight and TUG 660 sheet | <https://airport.h5mag.com/air_dec18/textron_company_insight> | Smart Sense ranges and logic | - | page | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | Oshkosh AeroTech Ranger 15E and Commander 30i product pages and sheets | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/ranger-15e-electric-cargo-loader> | APD sensors, iOPS, lithium-ion specs | - | page (sheets not found) | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | Ground Handling International April 2023 belt loader feature (TLD ASD) | <https://ghi.mydigitalpublication.co.uk/april-2023/page-44> | TLD ASD detail | - | page | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | Fortbrand GSE products listing | <https://fortbrand.com/gse-products/> | Charlatte, Linde, Oshkosh model list | - | page | R16 |
+| **high priority**<br>new this round (GSE; cover all areas) | Mallaghan SkyBelt article and data sheet | <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market> | SkyBelt CAS and Adveez | - | page (sheet not found) | R16 |
 | **high priority**<br>new this round (Q15: accessories are a key focus) | Flow-Rite product catalog: Maverick watering system and Eagle Eye sensors | not found yet | battery accessories (watering, level sensing) | - | none found | R15 |
 | **high priority**<br>new this round (Q15: accessories are a key focus) | Midac accessories catalog: Aquamatic watering, EUW circulation, end leads | not found yet | battery accessories | - | none found | R15 |
 | **high priority**<br>new this round (Q15: accessories are a key focus) | Linde retrofit and accessories brochure | <https://www.linde-mh.com/en/Service/Retrofit-Accessories/> | vehicle accessories (Safety Guard, BlueSpot, Motion Detection, holders, operating hours) | - | page | R15 |
@@ -108,6 +118,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 13 2026-10-03:** table reordered as requested; 11 new forklift document requests added at the top. Counts: 11 new, 26 still needed, 21 HAVE.
 - **Round 14 2026-10-03:** 8 new requests at the top; earlier new requests moved into the priority-ordered list; HAVE rows unchanged (21).
 - **Round 15 2026-10-03:** table rebuilt in the owner's format. Counts: high priority 28, helpful 14, issue 5, in repo 30. Ten files added since round 14 are marked in repo, not yet absorbed.
+- **Round 16 2026-10-03:** 10 GSE requests added at the top of high priority. Counts: high priority 38, helpful 14, issue 5, in repo 30.
 
 ## Aliases
 

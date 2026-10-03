@@ -11,11 +11,11 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
-  - "[[Yale Reliant Portfolio]]"
   - "[[Linde Safety Pilot]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
+  - "[[Yale Reliant Portfolio]]"
 ---
 
 # Operator Assist and Stability System

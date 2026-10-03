@@ -352,11 +352,47 @@
    "height": 120
   },
   {
+   "id": "GSE_Baggage_and_Tow_Tractor",
+   "type": "file",
+   "file": "Products/Ground Support Equipment/Baggage and Tow Tractors/GSE Baggage and Tow Tractor.md",
+   "x": 1040,
+   "y": 5700,
+   "width": 340,
+   "height": 120
+  },
+  {
+   "id": "GSE_Belt_Loader",
+   "type": "file",
+   "file": "Products/Ground Support Equipment/Belt Loaders/GSE Belt Loader.md",
+   "x": 1040,
+   "y": 5850,
+   "width": 340,
+   "height": 120
+  },
+  {
+   "id": "GSE_Cargo_Loader",
+   "type": "file",
+   "file": "Products/Ground Support Equipment/Cargo Loaders/GSE Cargo Loader.md",
+   "x": 1040,
+   "y": 6000,
+   "width": 340,
+   "height": 120
+  },
+  {
+   "id": "GSE_Pushback_Tractor",
+   "type": "file",
+   "file": "Products/Ground Support Equipment/Pushback Tractors/GSE Pushback Tractor.md",
+   "x": 1040,
+   "y": 6150,
+   "width": 340,
+   "height": 120
+  },
+  {
    "id": "Vehicle_Accessory",
    "type": "file",
    "file": "Products/Vehicle Accessories/Vehicle Accessory.md",
    "x": 520,
-   "y": 5700,
+   "y": 6300,
    "width": 340,
    "height": 120
   },
@@ -365,7 +401,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Assist and Stability/Operator Assist and Stability System.md",
    "x": 1040,
-   "y": 5850,
+   "y": 6450,
    "width": 340,
    "height": 120
   },
@@ -374,7 +410,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Convenience/Operator Convenience Accessory.md",
    "x": 1040,
-   "y": 6000,
+   "y": 6600,
    "width": 340,
    "height": 120
   },
@@ -383,7 +419,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Operator Displays/Operator Display.md",
    "x": 1040,
-   "y": 6150,
+   "y": 6750,
    "width": 340,
    "height": 120
   },
@@ -392,7 +428,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Power Source Interfaces/Power Source Interface.md",
    "x": 1040,
-   "y": 6300,
+   "y": 6900,
    "width": 340,
    "height": 120
   },
@@ -401,7 +437,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Proximity and Object Detection/Proximity and Object Detection System.md",
    "x": 1040,
-   "y": 6450,
+   "y": 7050,
    "width": 340,
    "height": 120
   },
@@ -410,7 +446,7 @@
    "type": "file",
    "file": "Products/Vehicle Accessories/Warning Lights and Alerts/Warning Light and Alert.md",
    "x": 1040,
-   "y": 6600,
+   "y": 7200,
    "width": 340,
    "height": 120
   }
@@ -733,6 +769,38 @@
    "fromNode": "Battery_and_Charger_Management_Software",
    "fromSide": "left",
    "toNode": "Fleet_Software_and_Platform",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_GSE_Baggage_and_Tow_Tractor_Ground_Support_Equipment",
+   "fromNode": "GSE_Baggage_and_Tow_Tractor",
+   "fromSide": "left",
+   "toNode": "Ground_Support_Equipment",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_GSE_Belt_Loader_Ground_Support_Equipment",
+   "fromNode": "GSE_Belt_Loader",
+   "fromSide": "left",
+   "toNode": "Ground_Support_Equipment",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_GSE_Pushback_Tractor_Ground_Support_Equipment",
+   "fromNode": "GSE_Pushback_Tractor",
+   "fromSide": "left",
+   "toNode": "Ground_Support_Equipment",
+   "toSide": "right",
+   "label": "subtypeOf"
+  },
+  {
+   "id": "e_GSE_Cargo_Loader_Ground_Support_Equipment",
+   "fromNode": "GSE_Cargo_Loader",
+   "fromSide": "left",
+   "toNode": "Ground_Support_Equipment",
    "toSide": "right",
    "label": "subtypeOf"
   }

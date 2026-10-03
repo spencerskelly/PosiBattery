@@ -8,16 +8,16 @@ tags:
   - charger
   - product-function
 performedBy:
-  - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
+  - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[PosiCharge DVS100]]"
   - "[[Power Designers REVOLUTION X]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Equalize Battery on Schedule

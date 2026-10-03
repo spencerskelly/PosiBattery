@@ -8,6 +8,8 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
@@ -15,15 +17,13 @@ performedBy:
   - "[[Energywith withBMS BMU]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!core]]"
-  - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[PosiCharge Battery Rx]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Raymond iBattery]]"
+  - "[[Yale Battery Vision]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
 ---
 
 # Upload Battery Data to Cloud Portal

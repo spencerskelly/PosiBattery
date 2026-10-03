@@ -13,10 +13,10 @@ performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
   - "[[Crown V-Force BMID]]"
-  - "[[EnerSys NexSys+ Charger]]"
-  - "[[EnerSys Wi-iQ]]"
   - "[[PosiCharge BMID]]"
+  - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
+  - "[[EnerSys NexSys+ Charger]]"
 ---
 
 # Identify Battery to Charger

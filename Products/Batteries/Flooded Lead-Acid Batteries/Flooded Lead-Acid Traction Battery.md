@@ -23,11 +23,11 @@ supertypeOf:
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[Midac PzS Traction Battery]]"
+  - "[[Stryten M-Series F100 Battery]]"
   - "[[Stryten M-Series F110 Battery]]"
   - "[[Stryten M-Series T300 Battery]]"
-  - "[[Stryten M-Series T330 Battery]]"
-  - "[[Stryten M-Series F100 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
+  - "[[Stryten M-Series T330 Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

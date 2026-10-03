@@ -14,14 +14,16 @@ performedBy:
   - "[[AMETEK Prestolite Power ULTRA]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[EnerSys Express Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[HOPPECKE trak charger HF premium]]"
-  - "[[Lester Summit Series II]]"
   - "[[PosiCharge DVS100]]"
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Lester Summit Series II]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
 ---
 
 # Compensate Charge for Battery Temperature
@@ -47,6 +49,8 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[Stryten X-7 Charger]] (V): <https://stryten.com/?p=173790>
+  - [[PosiCharge SVS100]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
+  - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
 
 ## Aliases
 

@@ -8,8 +8,8 @@ tags:
   - truck-design
   - design-characteristic
 designOf:
-  - "[[Linde BlueSpot]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
+  - "[[Linde BlueSpot]]"
 ---
 
 # Floor-Projected Warning Light

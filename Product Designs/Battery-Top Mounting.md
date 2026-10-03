@@ -8,8 +8,8 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
-  - "[[AMETEK Prestolite Power TruBid]]"
   - "[[Crown V-Force BMID]]"
+  - "[[AMETEK Prestolite Power TruBid]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
 ---

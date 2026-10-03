@@ -9,9 +9,9 @@ tags:
   - category-family
 abstract: true
 supertypeOf:
-  - "[[Charger Stand and Mounting]]"
-  - "[[Charger Remote Control and Indicator]]"
   - "[[Charger Connector Accessory]]"
+  - "[[Charger Remote Control and Indicator]]"
+  - "[[Charger Stand and Mounting]]"
 ---
 
 # Charger Accessory

@@ -10,21 +10,21 @@ tags:
 describedBy:
   - "[[Metric - Current Measurement]]"
 performedBy:
+  - "[[Stryten M-Series Li610 Battery]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!pro]]"
-  - "[[PosiCharge Battery Rx]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
-  - "[[Stryten M-Series Li610 Battery]]"
+  - "[[Yale Battery Vision]]"
 ---
 
 # Measure Battery Current

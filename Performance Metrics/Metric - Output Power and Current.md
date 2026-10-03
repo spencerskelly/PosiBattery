@@ -33,6 +33,7 @@ Output Power and Current: Rated output power and maximum current.
   - [[Fronius Selectiva 4.0]]: UL brochure: classes 2, 3, 8, 16, 30 kW; 30 kW at 80 V: 250, 300, 375 A (3 x 400 V 49-54 A); 16 kW at 80 V: 120-210 A; earlier note: 16 kW: 96 V 140/160 A, 120 V 110/140 A; 30 kW: 96 V 250/300 A, 120 V 210/250 A
   - [[Lester Summit Series II]]: 1200 W and 1425 W; 40/40/30 A max (1425 W sheet); earlier note: 650 W (24 V 25 A, 36 V 18 A, 48 V 13.5 A), 1050 W, 1425 W
   - [[PosiCharge DVS100]]: 320 A, 20 kW (200 A and 10 kW per port)
+  - [[PosiCharge DVS300 Series]]: one vehicle up to 500 A, or two vehicles at 250 A each (Airport Technology)
   - [[PosiCharge SVS200]]: 500 A, 30 kW
   - [[Power Designers REVOLUTION X]]: 3.9-31.2 kW from 1.3 kW modules
   - [[Stryten EHF Charger]]: 24 V: 40-150 A; 36 V: 40-240 A (by model)

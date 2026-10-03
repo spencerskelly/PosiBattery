@@ -15,6 +15,7 @@ rolePlayedBy:
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
+  - "[[Averest]]"
 ---
 
 # Dealer or Distributor

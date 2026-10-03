@@ -32,7 +32,10 @@ Battery Identification Method: How the charger identifies the battery: voltage s
   - [[EnerSys NexSys+ Charger]]: Wi-iQ: battery type, voltage and capacity; earlier note: Wi-iQ: battery type and voltage
   - [[Lester Summit Series II]]: automatic voltage detection
   - [[PosiCharge DVS100]]: BMID
+  - [[PosiCharge DVS300 Series]]: BMID
+  - [[PosiCharge MVS400 and MVS800]]: BMID
   - [[PosiCharge ProCore Edge]]: CAN/Lithium, BMID or Voltage automatic modes
+  - [[PosiCharge SVS100]]: BMID
   - [[Power Designers REVOLUTION X]]: PowerTrac recognizes voltage and Ah
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 8 product(s) have a value; document-based values to be added as documents are supplied.

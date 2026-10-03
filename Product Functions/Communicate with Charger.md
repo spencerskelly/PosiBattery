@@ -10,14 +10,14 @@ tags:
 describedBy:
   - "[[Metric - Charger Link]]"
 performedBy:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge Battery Rx]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
 ---

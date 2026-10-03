@@ -11,8 +11,8 @@ performedBy:
   - "[[ACT Quantum 2]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Continue Charging Through Module Fault

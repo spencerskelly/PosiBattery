@@ -372,6 +372,43 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[ACT ACTview]] | [[ACT Quantum 3]] | sheet: ACTview for Quantum assets | <https://og.mhi.org/media/members/41607/133717589840217692.pdf> |
 | offeredWith | [[ACT ACTview]] | [[Advanced Charging Technologies BATTview]] | sheet: ACTview for Battview assets | <https://og.mhi.org/media/members/41607/133717592244521430.pdf> |
 | offeredWith | [[Fronius Charge & Connect]] | [[Fronius Selectiva 4.0]] | flyer: chargers connect to Charge & Connect | <https://fronius.com/~/downloads/Perfect%20Charging/Flyer/PC_FLY_Selectiva_4.0_96V-120V_EN_fin-MRM_.pdf> |
+| playsRole | [[Textron GSE]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Textron GSE]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Charlatte Manutention]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Oshkosh AeroTech]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[TLD Group]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Mallaghan]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Adveez]] | [[Software Vendor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Averest]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| distributedBy | [[PosiCharge]] | [[Averest]] | Averest provides the PosiCharge rapid charging solution | <https://www.aviationpros.com/gse/gse-technology/green-alternative-energy-gse/product/10026886/averest-inc-posicharge-rapid-charges> |
+| makes | [[Charlatte Manutention]] | [[Charlatte T135 Neo 25T]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Charlatte Manutention]] | [[Charlatte T137-V3]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Charlatte Manutention]] | [[Charlatte CBT350 AC Tow Tractor]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Charlatte Manutention]] | [[Charlatte Belt Loaders]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Charlatte Manutention]] | [[Charlatte CPB35E Pushback Tractor]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde P250 Electric Baggage Tractor]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Textron GSE]] | [[TUG 660 Belt Loader]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Textron GSE]] | [[TUG Endurance Baggage Tractor]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Textron GSE]] | [[TUG ALPHA 1 Pushback]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Pushback B350E and B650E]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[TLD Group]] | [[TLD NBL-E Belt Loader]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Mallaghan]] | [[Mallaghan SkyBelt]] | vendor presents the vehicle as its own | see the product note |
+| makes | [[Textron GSE]] | [[Textron Smart Sense]] | vendor presents the product as its own | see the product note |
+| makes | [[TLD Group]] | [[TLD Aircraft Safety Docking]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Aircraft Proximity Detection]] | vendor presents the product as its own | see the product note |
+| makes | [[Mallaghan]] | [[Mallaghan Collision Avoidance System]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech iOPS]] | vendor presents the product as its own | see the product note |
+| makes | [[Adveez]] | [[Adveez Asset and Operations Monitoring System]] | vendor presents the product as its own | see the product note |
+| makes | [[PosiCharge]] | [[PosiCharge PosiNet]] | vendor presents the product as its own | see the product note |
+| makes | [[PosiCharge]] | [[PosiCharge SVS100]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[PosiCharge BMID]] | [[PosiCharge SVS100]] | sheet lists the BMID as a feature | <https://og.mhi.org/media/members/16696/131261341460139117.pdf> |
+| makes | [[PosiCharge]] | [[PosiCharge DVS300 Series]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[PosiCharge BMID]] | [[PosiCharge DVS300 Series]] | sheet lists the BMID as a feature | <https://og.mhi.org/media/members/16696/131261342052642309.pdf> |
+| makes | [[PosiCharge]] | [[PosiCharge MVS400 and MVS800]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[PosiCharge BMID]] | [[PosiCharge MVS400 and MVS800]] | sheet lists the BMID as a feature | <https://og.mhi.org/media/members/16696/131261342583679925.pdf> |
 
 ## Aliases
 

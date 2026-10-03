@@ -8,9 +8,9 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
-  - "[[EnerSys Truck iQ]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # Detect Voltage Imbalance

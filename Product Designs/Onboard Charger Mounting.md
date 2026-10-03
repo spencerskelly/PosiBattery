@@ -9,8 +9,8 @@ tags:
   - design-characteristic
 designOf:
   - "[[Delta-Q IC650]]"
-  - "[[EnerSys NexSys COMpact Charger]]"
   - "[[Lester Summit Series II]]"
+  - "[[EnerSys NexSys COMpact Charger]]"
 ---
 
 # Onboard Charger Mounting

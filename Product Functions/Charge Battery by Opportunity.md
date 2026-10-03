@@ -17,7 +17,6 @@ performedBy:
   - "[[Deka PowerForce Charger]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
@@ -25,6 +24,7 @@ performedBy:
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Charge Battery by Opportunity

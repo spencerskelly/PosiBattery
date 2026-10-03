@@ -8,11 +8,11 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
+  - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!core]]"
-  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Mobile App Interface

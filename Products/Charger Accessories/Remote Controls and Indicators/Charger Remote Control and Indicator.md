@@ -11,8 +11,8 @@ abstract: true
 subtypeOf:
   - "[[Charger Accessory]]"
 supertypeOf:
-  - "[[Crown V-HFM3 Wired Remote Control Kit]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
+  - "[[Crown V-HFM3 Wired Remote Control Kit]]"
 ---
 
 # Charger Remote Control and Indicator

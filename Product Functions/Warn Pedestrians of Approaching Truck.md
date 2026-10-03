@@ -8,9 +8,9 @@ tags:
   - truck-function
   - product-function
 performedBy:
-  - "[[Linde BlueSpot]]"
-  - "[[Linde Safety Guard]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
+  - "[[Linde Safety Guard]]"
+  - "[[Linde BlueSpot]]"
 ---
 
 # Warn Pedestrians of Approaching Truck

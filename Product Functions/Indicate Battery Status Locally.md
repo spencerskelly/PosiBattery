@@ -8,21 +8,21 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
+  - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Access Control Group CellVue]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys iQ Mini]]"
   - "[[Exide Motion+ EasyMonitor]]"
-  - "[[Flow-Rite Eagle Eye Elite IV]]"
-  - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[HOPPECKE trak uplift iQ Battery]]"
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Flow-Rite Eagle Eye Elite IV]]"
+  - "[[Flow-Rite Eagle Eye Essential IV]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Indicate Battery Status Locally

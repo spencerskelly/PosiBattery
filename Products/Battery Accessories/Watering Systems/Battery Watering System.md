@@ -12,9 +12,9 @@ abstract: true
 subtypeOf:
   - "[[Battery-Installed Device]]"
 supertypeOf:
+  - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Flow-Rite Maverick Battery Watering System]]"
   - "[[Midac Aquamatic Watering System]]"
-  - "[[Exide Automatic Watering System and Level Sensor]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

@@ -22,6 +22,11 @@ rolePlayedBy:
   - "[[STILL]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
+  - "[[Textron GSE]]"
+  - "[[Charlatte Manutention]]"
+  - "[[Oshkosh AeroTech]]"
+  - "[[TLD Group]]"
+  - "[[Mallaghan]]"
 ---
 
 # Truck OEM

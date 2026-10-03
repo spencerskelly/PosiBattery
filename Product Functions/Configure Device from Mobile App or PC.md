@@ -9,8 +9,8 @@ tags:
   - product-function
 performedBy:
   - "[[Crown V-Force BMID]]"
-  - "[[EnerSys Wi-iQ]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
 ---
 
 # Configure Device from Mobile App or PC

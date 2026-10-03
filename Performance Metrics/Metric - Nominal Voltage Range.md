@@ -60,8 +60,11 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Philadelphia Scientific eGO!pro]]: 24-80 V (12, 72, 120 V optional)
   - [[PosiCharge Battery Rx]]: 24-96 V (vendor page)
   - [[PosiCharge DVS100]]: 24-80 V
+  - [[PosiCharge DVS300 Series]]: 24-96 V (sheet)
+  - [[PosiCharge MVS400 and MVS800]]: 24-96 V (sheets)
   - [[PosiCharge PosiGuard]]: 24-96 V nominal; operating 18-120 V
   - [[PosiCharge ProCore Edge]]: 24-96 V
+  - [[PosiCharge SVS100]]: 24-80 V (sheet)
   - [[PosiCharge SVS200]]: 24-96 V
   - [[Power Designers PowerTrac 3]]: 24-84 V nominal; operating 18-120 V (sheet)
   - [[Power Designers PowerTrac DT3]]: 24-84 V nominal; operating 18-120 V

@@ -9,8 +9,8 @@ tags:
   - category-family
 abstract: true
 supertypeOf:
-  - "[[Truck Telematics Software]]"
   - "[[Battery and Charger Management Software]]"
+  - "[[Truck Telematics Software]]"
 ---
 
 # Fleet Software and Platform

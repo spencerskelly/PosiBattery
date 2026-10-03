@@ -10,10 +10,10 @@ tags:
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
+  - "[[PosiCharge Battery Rx]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
-  - "[[PosiCharge Battery Rx]]"
 ---
 
 # Cellular Communication Interface

@@ -15,16 +15,16 @@ supertypeOf:
   - "[[Crown RC 5700 Series]]"
   - "[[Crown SC Series]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
-  - "[[Yale ERC050-060VGL]]"
-  - "[[Yale ERC080VHL]]"
   - "[[Linde 1293 Series (E20BHP and E25BHP)]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Linde Ei Series]]"
-  - "[[UniCarriers MX2 and MXL Series]]"
   - "[[Raymond 4000 Series Counterbalanced Trucks]]"
   - "[[Toyota 3-Wheel Electric Forklift]]"
   - "[[Toyota Traigo48]]"
+  - "[[UniCarriers MX2 and MXL Series]]"
+  - "[[Yale ERC050-060VGL]]"
+  - "[[Yale ERC080VHL]]"
 ---
 
 # Class I Electric Rider Truck

@@ -1,0 +1,38 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00245
+uid: 20261003094918664skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - truck-device
+  - gse
+  - proximity
+subtypeOf:
+  - "[[Proximity and Object Detection System]]"
+performs:
+  - "[[Detect Pedestrians and Objects Near Truck]]"
+madeBy:
+  - "[[Oshkosh AeroTech]]"
+---
+
+# Oshkosh AeroTech Aircraft Proximity Detection
+
+## Definition
+
+Optional Oshkosh AeroTech sensors on cargo loaders that help coordinate the aircraft, loader and personnel.
+
+## Notes
+
+- Oshkosh AeroTech lists optional Aircraft Proximity Detection (APD) sensors on the Commander 30i, to protect the aircraft and loader, and on the Ranger 15E, to help coordinate the aircraft, loader and personnel. Source: Oshkosh AeroTech product pages (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader>
+- **Unknown:** sensor type, ranges and whether the loader slows automatically.
+- **Functions performed, with citations:**
+  - [[Detect Pedestrians and Objects Near Truck]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/ranger-15e-electric-cargo-loader>
+
+## Aliases
+
+- APD
+
+## Former ids

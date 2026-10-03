@@ -10,8 +10,8 @@ tags:
 describedBy:
   - "[[Metric - Response Action]]"
 performedBy:
-  - "[[Hyster Reaction]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
+  - "[[Hyster Reaction]]"
 ---
 
 # Slow Truck in Curves

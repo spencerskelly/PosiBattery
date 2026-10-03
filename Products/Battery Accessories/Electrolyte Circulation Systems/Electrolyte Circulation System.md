@@ -11,9 +11,9 @@ abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"
 supertypeOf:
-  - "[[Midac EUW Electrolyte Circulation System]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
+  - "[[Midac EUW Electrolyte Circulation System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

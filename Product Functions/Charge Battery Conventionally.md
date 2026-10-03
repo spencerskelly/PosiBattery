@@ -15,13 +15,13 @@ performedBy:
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[Deka PowerForce Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten EHF Charger]]"
   - "[[Stryten EHY Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Charge Battery Conventionally

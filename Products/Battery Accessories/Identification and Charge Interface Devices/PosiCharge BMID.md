@@ -39,6 +39,9 @@ madeBy:
 offeredWith:
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge ProCore Edge]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
 # PosiCharge BMID

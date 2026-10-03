@@ -9,14 +9,14 @@ tags:
   - family-root
 abstract: true
 supertypeOf:
-  - "[[Battery Connector Assembly]]"
   - "[[Battery Management System]]"
   - "[[Battery Monitoring and Identification Device]]"
+  - "[[Battery-Installed Device]]"
+  - "[[Battery Connector Assembly]]"
+  - "[[Electrolyte Circulation System]]"
   - "[[Battery Protection and Disconnect Unit]]"
   - "[[Battery Telematics and Connectivity Device]]"
   - "[[Battery Thermal Management Device]]"
-  - "[[Battery-Installed Device]]"
-  - "[[Electrolyte Circulation System]]"
   - "[[Industrial Battery Charger]]"
 describedBy:
   - "[[Battery Product Landscape]]"
@@ -25,9 +25,9 @@ describedBy:
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
   - "[[Link Audit]]"
+  - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
   - "[[Unidentified Products Review]]"
-  - "[[Note Reuse Audit]]"
 ---
 
 # Battery-Connected Product

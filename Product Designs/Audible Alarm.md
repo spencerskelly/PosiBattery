@@ -9,9 +9,9 @@ tags:
   - design-characteristic
 designOf:
   - "[[EnerSys Wi-iQ]]"
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Audible Alarm

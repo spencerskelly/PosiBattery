@@ -11,13 +11,16 @@ describedBy:
   - "[[Metric - Detection Range and Accuracy]]"
   - "[[Metric - Detection Technology]]"
 performedBy:
+  - "[[Toyota Assist]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde Safety Guard]]"
-  - "[[Toyota Assist]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Textron Smart Sense]]"
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+  - "[[Mallaghan Collision Avoidance System]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -38,6 +41,9 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
   - [[Linde Motion Detection]] (V): <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
+  - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+  - [[Oshkosh AeroTech Aircraft Proximity Detection]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/ranger-15e-electric-cargo-loader>
+  - [[Mallaghan Collision Avoidance System]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
 
 ## Aliases
 

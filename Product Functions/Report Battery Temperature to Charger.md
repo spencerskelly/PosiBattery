@@ -12,10 +12,10 @@ describedBy:
 performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
-  - "[[EnerSys Wi-iQ]]"
   - "[[Fronius TagID]]"
-  - "[[HOPPECKE trak collect]]"
   - "[[PosiCharge BMID]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[HOPPECKE trak collect]]"
 ---
 
 # Report Battery Temperature to Charger

@@ -8,19 +8,19 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
+  - "[[Stryten M-Series Li610 Battery]]"
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge Battery Rx]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
-  - "[[EnerSys Truck iQ]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge Battery Rx]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Raymond iBattery]]"
-  - "[[Stryten M-Series Li610 Battery]]"
+  - "[[Yale Battery Vision]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # Estimate State of Charge

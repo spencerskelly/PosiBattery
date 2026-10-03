@@ -8,14 +8,14 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
+  - "[[PosiCharge Battery Rx]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[EnerSys iQ Mini]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!c]]"
-  - "[[PosiCharge Battery Rx]]"
   - "[[Raymond iBattery]]"
+  - "[[Yale Battery Vision]]"
 ---
 
 # Cloud Portal Integration

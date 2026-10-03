@@ -12,11 +12,11 @@ supertypeOf:
   - "[[Bluetooth Class 1 Interface]]"
   - "[[Bluetooth Low Energy Interface]]"
 designOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge PosiGuard]]"
   - "[[Stryten X-3 Charger]]"
 ---
 

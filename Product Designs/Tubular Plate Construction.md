@@ -11,8 +11,8 @@ describedBy:
   - "[[Metric - Chemistry and Plate Construction]]"
 designOf:
   - "[[Midac PzS Traction Battery]]"
-  - "[[Stryten M-Series T330 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
+  - "[[Stryten M-Series T330 Battery]]"
 ---
 
 # Tubular Plate Construction

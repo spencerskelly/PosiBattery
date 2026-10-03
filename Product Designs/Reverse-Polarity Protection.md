@@ -8,9 +8,9 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
-  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 ---
 
 # Reverse-Polarity Protection

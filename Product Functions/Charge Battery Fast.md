@@ -22,6 +22,9 @@ performedBy:
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
 # Charge Battery Fast
@@ -47,6 +50,9 @@ Charge at rates several times conventional charging, at every opportunity, usual
   - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[PosiCharge SVS100]] (V): <https://og.mhi.org/media/members/16696/131261341460139117.pdf>
+  - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
+  - [[PosiCharge MVS400 and MVS800]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
 
 ## Aliases
 

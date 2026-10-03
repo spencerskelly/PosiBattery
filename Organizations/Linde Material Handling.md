@@ -23,6 +23,7 @@ makes:
   - "[[Linde Motion Detection]]"
   - "[[Linde connect]]"
   - "[[Linde Smartphone Holder]]"
+  - "[[Linde P250 Electric Baggage Tractor]]"
 offers:
   - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"

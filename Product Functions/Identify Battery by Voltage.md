@@ -12,9 +12,9 @@ describedBy:
 performedBy:
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"
-  - "[[Lester Summit Series II]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
+  - "[[Lester Summit Series II]]"
 ---
 
 # Identify Battery by Voltage

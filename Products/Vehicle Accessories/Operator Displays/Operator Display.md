@@ -11,8 +11,8 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
-  - "[[EnerSys Truck iQ]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # Operator Display

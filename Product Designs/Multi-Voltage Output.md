@@ -15,9 +15,9 @@ designOf:
   - "[[ACT Quantum Outdoor]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[Exide Element HF Charger]]"
-  - "[[Lester Summit Series II]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
+  - "[[Lester Summit Series II]]"
 ---
 
 # Multi-Voltage Output

@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Battery-Installed Device]]"
   - "[[Battery Monitoring and Identification Device]]"
 supertypeOf:
-  - "[[Battery Water Level Monitor]]"
   - "[[AMETEK Prestolite Power Site Probe]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
@@ -27,7 +26,6 @@ supertypeOf:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Yale Battery Vision]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
@@ -39,10 +37,12 @@ supertypeOf:
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
+  - "[[Yale Battery Vision]]"
+  - "[[Battery Water Level Monitor]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
-  - "[[Function Map]]"
   - "[[Design Map]]"
+  - "[[Function Map]]"
 ---
 
 # Battery Monitoring Device

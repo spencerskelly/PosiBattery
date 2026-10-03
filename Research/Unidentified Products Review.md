@@ -89,8 +89,17 @@ Review of products and items that already-identified organizations name in sourc
 | [[Plug Power]] | GenDrive GD-series models, GenFuel hydrogen dispensers and storage | fuel cell units | <https://www.plugpower.com/applications/material-handling/> | models not tabulated | get spec sheets |
 | [[Nuvera]] | PowerEdge current models, PowerFlow, PowerTap hydrogen generation | fuel cell units | <https://www.liftandaccess.com/news/hybrid-fuel-cell-forklifts-introduced> | dated item | find current pages |
 | [[KION Group]] | Linde fuel cell trucks; STILL fuel cell options | fuel cell trucks | <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html> | not retrieved | search |
+| [[Textron GSE]] | TUG MA, MT, MH, M7 and MR tractors; Classic HT; TUG Endurance specs; ground power units, air starts, air conditioning, deicers | GSE vehicles | <https://airlinegeeks.com/2019/07/18/additional-assets-a-look-at-the-competitive-ground-service-equipment-market/> | named, power types not stated | find pages |
+| [[Charlatte Manutention]] | CFB2000 carrier, lavatory service vehicles, maintenance carriers, military vehicles; models' voltages and batteries | GSE vehicles | <https://www.aviationpros.com/gse/pushbacks-tractors-utility-vehicles/company/10017106/charlatte-of-america> | named | find sheets |
+| [[Oshkosh AeroTech]] | B250, B350, B650, B950 (non-electric), Tempest deicer, ULD carrier, Ranger sizes; battery and charger options for B80E and Ranger 15E | GSE vehicles | <https://fortbrand.com/gse-products/> | named | find sheets |
+| [[TLD Group]] | TLD JST, other electric tractors, NBL-E battery options, iBS lithium-ion system details, TLD telematics | GSE vehicles and battery | <https://powerstow.com/wp-content/uploads/2020/05/GHI_Apr2020_Power-Stow.pdf> | extraction garbled | find TLD pages |
+| [[Mallaghan]] | Bendibelt, other GSE | GSE vehicles | <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market> | named | find pages |
+| [[PosiCharge]] | PosiCharge GSE charger kW and A ratings; DVS and MVS port counts; SVS100 enclosure rating | GSE chargers | <https://og.mhi.org/media/members/16696/131261342052642309.pdf> | sheets give voltage only in the retrieved text | read the sheets |
+| [[Flux Power]] | GSE Pack voltage options and BMS or telematics; other GSE batteries | GSE batteries | <https://eepower.com/news/flux-power-reports-operational-and-financial-results/> | only 72 V 300-600 Ah noted | find data sheets |
+| [[Linde Material Handling]] | Linde P80 tow tractor and other Linde GSE tractors | GSE vehicles | <https://fortbrand.com/gse-products/> | named | find pages |
 - **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
 - **Round 14 additions:** 9 rows for truck-side assist devices and fuel-cell units.
+- **Round 16 additions:** 8 GSE rows.
 
 ## Aliases
 

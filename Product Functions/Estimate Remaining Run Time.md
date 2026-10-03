@@ -8,9 +8,9 @@ tags:
   - battery-monitoring
   - product-function
 performedBy:
-  - "[[EnerSys Truck iQ]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[EnerSys Truck iQ]]"
 ---
 
 # Estimate Remaining Run Time

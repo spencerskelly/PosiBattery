@@ -11,13 +11,13 @@ describedBy:
   - "[[Metric - Ingress and Enclosure Protection]]"
 designOf:
   - "[[Crown V-Force BMID]]"
-  - "[[EnerSys Wi-iQ]]"
-  - "[[Flow-Rite Eagle Eye Essential IV]]"
-  - "[[HOPPECKE trak collect]]"
-  - "[[Philadelphia Scientific eGO!pro]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Power Designers PowerTrac DT3]]"
+  - "[[Flow-Rite Eagle Eye Essential IV]]"
 ---
 
 # Acid-Resistant Sealed Housing

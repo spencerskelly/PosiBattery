@@ -10,8 +10,8 @@ tags:
 performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
-  - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 ---
 
 # Charge in Cold Storage

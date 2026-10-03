@@ -10,6 +10,7 @@ tags:
 performedBy:
   - "[[Linde connect]]"
   - "[[Toyota MyInsights Telematics]]"
+  - "[[TLD Aircraft Safety Docking]]"
 ---
 
 # Detect and Record Impacts
@@ -25,6 +26,7 @@ Detect an impact, record it with time, truck and driver references, and report i
 - **Sources** (product, evidence level, web page):
   - [[Linde connect]] (V): <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
   - [[Toyota MyInsights Telematics]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
+  - [[TLD Aircraft Safety Docking]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
 
 ## Aliases
 

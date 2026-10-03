@@ -12,13 +12,13 @@ describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[Deka Ready Power Lithium Battery]]"
-  - "[[EnerSys Wi-iQ]]"
-  - "[[Exide Motion+ Premium Charger]]"
   - "[[Green Cubes GSE Lithium Battery]]"
-  - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Stryten M-Series Li600 Battery]]"
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Exide Motion+ Premium Charger]]"
   - "[[Hyster Power Cellect]]"
 ---
 
