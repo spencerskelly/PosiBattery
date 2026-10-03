@@ -117,6 +117,9 @@ Review of products and items that already-identified organizations name in sourc
 | [[Linde Material Handling]] | Linde Speed Assist, Load Assist, Active Stability Control, Dynamic Mast Control, Steer Control, Curve Assist | truck options | <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html> | named | find brochure |
 | [[Jungheinrich]] | assist systems, collision protection, access control, telematics | truck options | <https://warehousenews.co.uk/?p=45557> | not retrieved | search |
 | [[Mitsubishi Logisnext]] | UniCarriers, Cat and Mitsubishi truck options and operator assist | truck options | <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices> | brands named only | search |
+| [[PosiCharge]] | IC-Meter (named in the PosiLink sheet); DVS330 II; MVS330; DVS330 IP55 sheet; DVS150 and DVS100 current sheets; accessories page items | PosiCharge products | <https://posicharge.com/product-resources/> | names only | find sheets or ask the owner |
+| [[Toyota Material Handling]] | Toyota Object Detection Radar model availability; SEnS kit part numbers and models | truck options | <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf> | brochure gives no model list | find option sheets |
+| [[Raymond]] | Raymond 4000 Series options other than those on the sell sheet; model lists for ObjectSense, Fieldsense and IADS | truck options | <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf> | sheet is 2020 | find current sheets |
 - **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
 - **Round 14 additions:** 9 rows for truck-side assist devices and fuel-cell units.
 - **Round 16 additions:** 8 GSE rows.

@@ -38,6 +38,7 @@ Hyster optional package that lets an electric truck switch between lead-acid, TP
   - [[CAN Interface]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
 - **Functions performed, with citations:**
   - [[Protect Battery from Deep Discharge]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
+- The brochure says Power Cellect lets a truck switch between lead acid, TPPL and lithium-ion battery modes without external accessories, on numerous Hyster electric models. Source: Hyster solutions brochure (read round 20) (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

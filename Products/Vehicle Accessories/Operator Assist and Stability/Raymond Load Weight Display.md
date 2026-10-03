@@ -16,6 +16,8 @@ performs:
   - "[[Sense Load Weight and Lift Height]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond 4000 Series Counterbalanced Trucks]]"
 ---
 
 # Raymond Load Weight Display

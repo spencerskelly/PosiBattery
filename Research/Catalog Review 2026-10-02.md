@@ -78,7 +78,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown V-HFM3 Charger Stand]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
 | [[Crown V-HFM3 Tower Light Kit]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
 | [[Crown V-HFM3 Wired Remote Control Kit]] | [[Crown Equipment]] | accessory | 0 | 1 | 1 | partial |
-| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 4 | 0 | 25 | defined |
+| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 4 | 0 | 32 | defined |
 | [[Deka ChargeMate Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 2 | partial |
 | [[Deka D-Series Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
 | [[Deka Dominator Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 0 | none |
@@ -130,7 +130,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Green Cubes SAFEFlex PLUS Battery]] | [[Green Cubes Technology]] | battery | 0 | 0 | 1 | partial |
 | [[HOPPECKE trak air Electrolyte Circulation]] | [[HOPPECKE]] | accessory | 2 | 1 | 0 | none |
 | [[HOPPECKE trak charger HF premium]] | [[HOPPECKE]] | charger | 1 | 3 | 0 | none |
-| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 20 | 2 | 49 | defined |
+| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 20 | 2 | 62 | defined |
 | [[HOPPECKE trak power Lithium Battery]] | [[HOPPECKE]] | battery | 1 | 0 | 0 | none |
 | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE]] | battery | 1 | 2 | 0 | none |
 | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE]] | battery | 2 | 2 | 0 | none |
@@ -195,25 +195,25 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Plug Power GenDrive]] | [[Plug Power]] | accessory | 6 | 0 | 10 | defined |
 | [[PosiCharge BMID 1]] | [[PosiCharge]] | monitor | 0 | 0 | 0 | none |
 | [[PosiCharge BMID 3]] | [[PosiCharge]] | monitor | 2 | 0 | 0 | none |
-| [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 7 | defined |
+| [[PosiCharge Battery Rx]] | [[PosiCharge]] | monitor | 13 | 0 | 12 | defined |
 | [[PosiCharge Charger Stand Kit and Cable Handler]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
 | [[PosiCharge Cooling Fan Box]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
 | [[PosiCharge DIY Fast Charge Kit]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
 | [[PosiCharge DVS100]] | [[PosiCharge]] | charger | 3 | 1 | 9 | defined |
 | [[PosiCharge DVS150]] | [[PosiCharge]] | charger | 0 | 0 | 8 | defined |
-| [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 10 | defined |
-| [[PosiCharge E-Meter]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
-| [[PosiCharge High Voltage Power Station (AC)]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
-| [[PosiCharge High Voltage Power Station (DC)]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
-| [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 14 | defined |
+| [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 30 | defined |
+| [[PosiCharge E-Meter]] | [[PosiCharge]] | accessory | 0 | 0 | 4 | defined |
+| [[PosiCharge High Voltage Power Station (AC)]] | [[PosiCharge]] | charger | 0 | 0 | 2 | partial |
+| [[PosiCharge High Voltage Power Station (DC)]] | [[PosiCharge]] | charger | 0 | 0 | 5 | defined |
+| [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 39 | defined |
 | [[PosiCharge Modular Charge Cables]] | [[PosiCharge]] | accessory | 0 | 0 | 3 | defined |
 | [[PosiCharge PosiConnect]] | [[PosiCharge]] | accessory | 1 | 1 | 0 | none |
-| [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 2 | 18 | defined |
+| [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 2 | 30 | defined |
 | [[PosiCharge PosiLink]] | [[PosiCharge]] | accessory | 1 | 2 | 0 | none |
 | [[PosiCharge PosiNet]] | [[PosiCharge]] | accessory | 0 | 0 | 0 | none |
-| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 2 | 6 | defined |
-| [[PosiCharge ProCore Solo]] | [[PosiCharge]] | charger | 0 | 0 | 0 | none |
-| [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 5 | defined |
+| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 2 | 20 | defined |
+| [[PosiCharge ProCore Solo]] | [[PosiCharge]] | charger | 0 | 0 | 19 | defined |
+| [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 17 | defined |
 | [[PosiCharge SVS200]] | [[PosiCharge]] | charger | 0 | 0 | 3 | defined |
 | [[PosiCharge Single-Point Automatic Battery Watering]] | [[PosiCharge]] | accessory | 1 | 0 | 0 | none |
 | [[PosiCharge SkyLink]] | [[PosiCharge]] | accessory | 1 | 0 | 0 | none |
@@ -226,17 +226,20 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Powerfleet Forklift Gateway]] | [[Powerfleet]] | accessory | 4 | 0 | 0 | none |
 | [[Powerfleet Forklift Safety Lights]] | [[Powerfleet]] | accessory | 2 | 0 | 0 | none |
 | [[Powerfleet Pedestrian Proximity Detection]] | [[Powerfleet]] | accessory | 2 | 0 | 0 | none |
-| [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 0 | 0 | 2 | partial |
+| [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 0 | 7 | 2 | partial |
 | [[Raymond 7000 Series Reach-Fork Trucks]] | [[Raymond]] | forklift | 2 | 0 | 10 | defined |
 | [[Raymond 8000 Series Pallet Trucks]] | [[Raymond]] | forklift | 0 | 0 | 0 | none |
 | [[Raymond Energy Essentials Lithium-Ion Battery]] | [[Raymond]] | battery | 0 | 0 | 0 | none |
+| [[Raymond Fork Tilt Leveling]] | [[Raymond]] | accessory | 1 | 1 | 0 | none |
+| [[Raymond Fork-Tip Laser Guide]] | [[Raymond]] | accessory | 2 | 1 | 0 | none |
 | [[Raymond In-Aisle Detection System]] | [[Raymond]] | accessory | 3 | 0 | 1 | partial |
-| [[Raymond Load Weight Display]] | [[Raymond]] | accessory | 1 | 0 | 0 | none |
-| [[Raymond Operator Compartment Sensor System]] | [[Raymond]] | accessory | 1 | 0 | 0 | none |
+| [[Raymond Load Weight Display]] | [[Raymond]] | accessory | 1 | 1 | 0 | none |
+| [[Raymond Mast Lift Limit Switch with Bypass]] | [[Raymond]] | accessory | 0 | 1 | 0 | none |
+| [[Raymond Operator Compartment Sensor System]] | [[Raymond]] | accessory | 1 | 1 | 0 | none |
 | [[Raymond Orderpickers]] | [[Raymond]] | forklift | 0 | 0 | 3 | defined |
 | [[Raymond Red Charger]] | [[Raymond]] | charger | 4 | 0 | 2 | partial |
-| [[Raymond Travel Speed Control]] | [[Raymond]] | accessory | 1 | 0 | 0 | none |
-| [[Raymond Under-Fork Camera Option]] | [[Raymond]] | accessory | 2 | 0 | 0 | none |
+| [[Raymond Travel Speed Control]] | [[Raymond]] | accessory | 1 | 1 | 1 | partial |
+| [[Raymond Vantage Point System]] | [[Raymond]] | accessory | 2 | 1 | 0 | none |
 | [[Raymond iBattery]] | [[Raymond]] | monitor | 11 | 0 | 0 | none |
 | [[Raymond iWAREHOUSE]] | [[Raymond]] | accessory | 2 | 0 | 0 | none |
 | [[Raymond iWAREHOUSE Fieldsense]] | [[Raymond]] | accessory | 3 | 0 | 0 | none |
@@ -279,8 +282,10 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Toyota Material Handling]] | battery | 0 | 1 | 1 | partial |
 | [[Toyota Load Weight Sensing]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Toyota MyInsights Telematics]] | [[Toyota Material Handling]] | accessory | 3 | 1 | 0 | none |
+| [[Toyota Object Detection Radar]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Toyota PIN Code Access Pad]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
-| [[Toyota SEnS+ Pedestrian and Object Detection]] | [[Toyota Material Handling]] | accessory | 3 | 0 | 0 | none |
+| [[Toyota SEnS Pedestrian Detection]] | [[Toyota Material Handling]] | accessory | 3 | 0 | 0 | none |
+| [[Toyota SEnS+ Pedestrian and Object Detection]] | [[Toyota Material Handling]] | accessory | 4 | 0 | 0 | none |
 | [[Toyota System of Active Stability]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Toyota Traigo48]] | [[Toyota Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Toyota Twistlock Snapshot Camera System]] | [[Toyota Material Handling]] | accessory | 0 | 0 | 0 | none |
@@ -294,6 +299,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 17:** table regenerated.
 - **Round 18:** table regenerated.
 - **Round 19:** table regenerated.
+- **Round 20:** table regenerated.
 
 ## Aliases
 

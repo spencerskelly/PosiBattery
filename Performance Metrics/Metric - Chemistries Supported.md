@@ -29,7 +29,7 @@ Chemistries Supported: Battery chemistries the charger can charge.
   - [[ACT Quantum 3]]: lithium-ion, VRLA, flooded
   - [[Crown V-HFM3 Charger]]: lead-acid and lithium-ion
   - [[Deka PowerForce Charger]]: lead (flooded, gel) and lithium
-  - [[Delta-Q IC650]]: lead-acid (wet, AGM, gel), lithium
+  - [[Delta-Q IC650]]: lead acid (wet, AGM, gel) and lithium (sheet); earlier note: lead-acid (wet, AGM, gel), lithium
   - [[EnerSys Express Charger]]: flooded lead-acid
   - [[EnerSys IMPAQ Charger]]: flooded, VRLA, AGM and gel, NexSys TPPL
   - [[EnerSys NexSys AIR Wireless Charger]]: flooded, NexSys TPPL, NexSys iON
@@ -38,7 +38,7 @@ Chemistries Supported: Battery chemistries the charger can charge.
   - [[Fronius SelectION]]: lithium-ion
   - [[Fronius Selectiva 4.0]]: lead-acid
   - [[Lester Summit Series II]]: lead-acid (wet, AGM, gel), lithium
-  - [[PosiCharge ProCore Edge]]: sealed, flooded and thin plate lead; lithium
+  - [[PosiCharge ProCore Edge]]: lead acid, Li-ion, Ni-MH, sodium-ion; auto selection (sheet); earlier note: sealed, flooded and thin plate lead; lithium
   - [[Power Designers REVOLUTION X]]: lead-acid, lithium-ion and others (vendor overview)
   - [[Stryten X-3 Charger]]: most motive power batteries including lithium-ion; earlier note: almost any motive battery including lithium-ion
   - [[Stryten X-7 Charger]]: lithium and other types; AGM planned

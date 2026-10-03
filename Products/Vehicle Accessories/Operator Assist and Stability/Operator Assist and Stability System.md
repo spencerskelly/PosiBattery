@@ -26,6 +26,9 @@ supertypeOf:
   - "[[Toyota Load Weight Sensing]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
+  - "[[Raymond Mast Lift Limit Switch with Bypass]]"
 ---
 
 # Operator Assist and Stability System

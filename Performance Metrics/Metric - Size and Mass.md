@@ -42,12 +42,16 @@ Size and Mass: shared metric used for monitors, chargers, batterys.
   - [[Deka PowerForce Charger]]: 14 x 14 x 16 in
   - [[Delta-Q IC650]]: 252 x 186 x 80 mm; 2.4 kg
   - [[EnerSys Wi-iQ]]: 40.07 x 19.5 x 107.97 mm
-  - [[HOPPECKE trak collect]]: base 120 x 52 x 26 mm plus satellite 82 x 50 x 32 mm; 340 g
+  - [[HOPPECKE trak collect]]: 340 g (data sheet); earlier note: base 120 x 52 x 26 mm plus satellite 82 x 50 x 32 mm; 340 g
   - [[Lester Summit Series II]]: 13.438 x 8.188 x 4.531 in (341 x 208 x 115 mm); 13.4 lb (6.09 kg)
   - [[Philadelphia Scientific eGO!core]]: 100 x 30 x 18 mm; 100 g flooded, 80 g VRLA
   - [[Philadelphia Scientific eGO!pro]]: 235 g flooded; 212 g VRLA
-  - [[PosiCharge Battery Rx]]: 7.63 x 2.25 x 1.25 in (194 x 57 x 32 mm)
-  - [[PosiCharge PosiGuard]]: 4.05 x 1.80 x 1.00 in (103 x 46 x 25 mm)
+  - [[PosiCharge Battery Rx]]: 7.63 x 2.25 x 1.25 in (sheet); earlier note: 7.63 x 2.25 x 1.25 in (194 x 57 x 32 mm)
+  - [[PosiCharge DVS300 Series]]: DVS300 905 lb, DVS400 915 lb; 60 x 32.4 x 21.9 in (sheet)
+  - [[PosiCharge MVS400 and MVS800]]: powerserver 915 lb (MVS400) or 1,405 lb (MVS800); powerstation 304 lb, 30 x 30 x 19 in (sheets)
+  - [[PosiCharge PosiGuard]]: 4.05 x 1.80 x 1.00 in (sheet); earlier note: 4.05 x 1.80 x 1.00 in (103 x 46 x 25 mm)
+  - [[PosiCharge ProCore Solo]]: 11.9 x 11.9 x 5.2 in; 25 or 30 lb maximum (sheet)
+  - [[PosiCharge SVS100]]: 388 lb; 39.4 x 22 x 19.3 in (sheet)
   - [[Power Designers PowerTrac 3]]: 4.25 x 1.5 x 0.6 in (108 x 38 x 15 mm)
   - [[Power Designers PowerTrac DT3]]: 4.25 x 1.5 x 0.6 in (108 x 38 x 15 mm)
   - [[Stryten EHF Charger]]: cabinets G1 55 lb and G2 142 lb; EHY2 19.9 x 17.4 x 35.5 in

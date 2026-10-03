@@ -42,7 +42,9 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Lester Summit Series II]]: IP66, NEMA 4 (1425 W sheet); earlier note: IP66 (650 W model, distributor listing)
   - [[Philadelphia Scientific eGO!pro]]: IP65
   - [[PosiCharge Battery Rx]]: acid immersion and pressure-wash tolerance
-  - [[PosiCharge PosiGuard]]: IP65 sealed against water and acid
+  - [[PosiCharge DVS300 Series]]: NEMA 3R (sheet); DVS330 IP55 variant
+  - [[PosiCharge MVS400 and MVS800]]: NEMA 3R (MVS800 sheet)
+  - [[PosiCharge PosiGuard]]: IP65 (sheet); earlier note: IP65 sealed against water and acid
   - [[PosiCharge SVS100]]: outdoor fast charge system (Averest item); rating not stated
   - [[Power Designers PowerTrac 3]]: water and acid resistant (no IP code)
   - [[Power Designers PowerTrac DT3]]: water and acid resistant (no IP code)

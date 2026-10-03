@@ -32,6 +32,8 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota Object Detection Radar]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -62,6 +64,8 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
   - [[Raymond In-Aisle Detection System]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
   - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Toyota SEnS Pedestrian Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Toyota Object Detection Radar]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

@@ -56,6 +56,12 @@ Research working note: PosiCharge and Power Designers Public Evidence Register.
 | `PUB-015` | P2 | [Ampure acquisition release: Power Designers Sibex](https://www.ampure.com/press-releases/transom-capital-backed-ampure-acquires-power-designers-sibex) | 2026-10-03 | 2025 acquisition; adds industrial charging products/electronics manufacturing, additional power configurations, ISO-certified Crystal River manufacturing/final assembly, OEM relationships, predictive analytics, and energy-demand-management software. | Does not enumerate an authoritative current standalone Power Designers product catalog or branding/route-to-market mapping. |
 | `PUB-016` | P3 | [Alpine Power Systems: SVS100](https://alpinepowersystems.com/products/av-posicharge-svs100) | 2026-10-03 | Third-party listing describes SVS100 as a 10 kW charger. | Useful corroboration for the 10 kW claim but cannot resolve the official-page 40 kW conflict. |
 | `PUB-017` | P3 | [Tech Webasto: SVS100 installation](https://www.techwebasto.com/documentation/heater/documentation-techdocs/charging-systems/installation-charg/posicharge-industrial-charging-install/gse-install/svs-100-install.html) | 2026-10-03 | Historical/public installation evidence that the GSE SVS100 operates with a battery-mounted BMID. | Historical manufacturer-hosted documentation; needs current-generation reconciliation. |
+| `PUB-018` | P1 | Current SVS100 spec sheet (file in repo) | 2026-10-03 | 10 kW single-port, table values for rating, input, efficiency, voltage and output | Resolves C77 for the sheet only. |
+| `PUB-019` | P1 | Current DVS 300/400 sheet (file in repo; also pages for DVS330 and DVS330 IP55) | 2026-10-03 | DVS300 30 kW, DVS400 40 kW, 24 to 96 V, 500 A or 2 x 250 A, efficiency, weight, RS232 | Raises C80. |
+| `PUB-020` | P1 | Current MVS400 and MVS800 sheets (files in repo) | 2026-10-03 | Powerserver and powerstation tables; 8 and 16 vehicle claims | Resolves C78, partly C79. |
+| `PUB-021` | P1 | High Voltage Power Station product card (file in repo) | 2026-10-03 | 20 kW DC, 30 kW via CCS1 and NACS, DVS/MVS compatibility, NEMA 3S | Raises C81 and C82. |
+| `PUB-022` | P1 | PosiGuard product card, Battery Rx sheet, PosiLink two-pager, E-Meter sheet (files in repo) | 2026-10-03 | Specifications and feature lists | Raises C83; names IC-Meter. |
+| `PUB-023` | P1 | ProCore Edge spec sheet, ProCore Solo sheet, eGSE catalog (files in repo) | 2026-10-03 | Ratings, chemistries, warranty; DVS330 II and MVS330 names | Installation and service manuals in repo are not yet read. |
 
 ### Evidence acquisition queue
 
@@ -83,6 +89,7 @@ Carried over unchanged from the note's earlier frontmatter (the model status is 
   - scope: public-primary-and-app-store-evidence
   - prepared: 2026-10-03
   - reviewer: Director of Engineering
+- **Round 20 (2026-10-03):** the evidence acquisition queue items 1 to 4 are now files in the repo and were read (SVS100, MVS400 and MVS800, High Voltage Power Station, PosiLink and Battery Rx). Item 5 (ProCore Edge installation, service and anti-arc documents) is partly in the repo, not yet read. Item 6 (DVS100) still has no current official sheet.
 
 ## Aliases
 

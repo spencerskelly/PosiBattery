@@ -14,12 +14,12 @@ supertypeOf:
   - "[[ACT ACTview]]"
   - "[[Fronius Charge & Connect]]"
   - "[[Philadelphia Scientific iBOS]]"
-  - "[[PosiCharge PosiNet]]"
-  - "[[Stryten inCOMMAND]]"
+  - "[[PosiCharge E-Meter]]"
   - "[[PosiCharge PosiConnect]]"
   - "[[PosiCharge PosiLink]]"
+  - "[[PosiCharge PosiNet]]"
   - "[[PosiCharge SkyLink]]"
-  - "[[PosiCharge E-Meter]]"
+  - "[[Stryten inCOMMAND]]"
 ---
 
 # Battery and Charger Management Software

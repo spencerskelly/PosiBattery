@@ -30,6 +30,11 @@ Input Voltage and Phase: AC input range and phase.
   - [[Delta-Q IC650]]: 85-265 VAC (sheet) or 85-270 V (one page) (C57); 45-65 Hz; single-phase
   - [[Fronius Selectiva 4.0]]: 3 x 400 V; 31 A (16 kW) or 54 A (30 kW)
   - [[Lester Summit Series II]]: 100-240 Vac rated; 85-265 Vac operating; single-phase; earlier note: 100-240 Vac
+  - [[PosiCharge DVS300 Series]]: 480/600 VAC 3-phase (sheet)
+  - [[PosiCharge MVS400 and MVS800]]: 480/600 VAC 3-phase (sheets)
+  - [[PosiCharge ProCore Edge]]: 440/480 V, 600 V and 380/400 V versions (sheet)
+  - [[PosiCharge ProCore Solo]]: 120 or 240 VAC single-phase (sheet)
+  - [[PosiCharge SVS100]]: 480 or 600 VAC 3-phase (sheet)
   - [[Power Designers REVOLUTION X]]: 480 V three-phase +/-10% (2017 overview); 208, 240, 480 V (REVOLUTION X page)
   - [[Stryten EHF Charger]]: three-phase, input current at 480 V +/-10% by model (1.8 to 16 A)
   - [[Stryten EHY Charger]]: single-phase 208/240/480 VAC; three-phase 208/240/480/600 VAC; 60 Hz

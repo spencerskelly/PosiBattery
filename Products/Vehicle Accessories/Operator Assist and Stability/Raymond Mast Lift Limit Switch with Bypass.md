@@ -1,0 +1,34 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00317
+uid: 20261003145706703skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - truck-device
+  - vehicle-accessory
+  - truck-oem-option
+subtypeOf:
+  - "[[Operator Assist and Stability System]]"
+madeBy:
+  - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond 4000 Series Counterbalanced Trucks]]"
+---
+
+# Raymond Mast Lift Limit Switch with Bypass
+
+## Definition
+
+Raymond option that cuts the lift function at a pre-programmed height unless the bypass switch is held.
+
+## Notes
+
+- Raymond's options sheet lists a Mast Lift Limit Switch with Bypass that cuts the lift function once a pre-programmed height is reached; going past the limit needs the bypass switch pressed while the standard lift control is used. Source: Raymond 4000 Series options sell sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+
+## Aliases
+
+
+## Former ids

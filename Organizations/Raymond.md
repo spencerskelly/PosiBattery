@@ -28,7 +28,10 @@ makes:
   - "[[Raymond Load Weight Display]]"
   - "[[Raymond Operator Compartment Sensor System]]"
   - "[[Raymond Travel Speed Control]]"
-  - "[[Raymond Under-Fork Camera Option]]"
+  - "[[Raymond Vantage Point System]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
+  - "[[Raymond Mast Lift Limit Switch with Bypass]]"
 offers:
   - "[[Raymond iBattery]]"
   - "[[Raymond Red Charger]]"

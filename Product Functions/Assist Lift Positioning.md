@@ -10,11 +10,13 @@ tags:
 subtypeOf:
   - "[[Support Operator View and Positioning]]"
 performedBy:
-  - "[[Raymond Under-Fork Camera Option]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
+  - "[[Raymond Vantage Point System]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
 ---
 
 # Assist Lift Positioning
@@ -32,7 +34,9 @@ Help the operator position the forks or load, for example with preset heights or
   - [[Toyota Carriage-Mounted Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Toyota Acu-Laser]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Toyota Auto Height Select]] (V): <https://www.toyotaforklift.com/toyota-assist>
-  - [[Raymond Under-Fork Camera Option]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Raymond Vantage Point System]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Raymond Fork Tilt Leveling]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Raymond Fork-Tip Laser Guide]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

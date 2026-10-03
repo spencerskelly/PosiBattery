@@ -20,6 +20,8 @@ hasPart:
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Twistlock Snapshot Camera System]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota Object Detection Radar]]"
 performs:
   - "[[Assist Lift Positioning]]"
   - "[[Sense Load Weight and Lift Height]]"
@@ -56,6 +58,7 @@ Toyota suite of operator assist features including SEnS+ pedestrian and object d
   - [[Radar Object Sensor]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Regenerative Braking]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
 - **Round 18:** components with their own notes: [[Toyota SEnS+ Pedestrian and Object Detection]], [[Toyota System of Active Stability]], [[Toyota Acu-Laser]], [[Toyota Auto Height Select]], [[Toyota Load Weight Sensing]], [[Toyota Compartment Sensing System]], [[Toyota 360 Operating Camera]], [[Toyota Carriage-Mounted Camera]], [[Toyota Twistlock Snapshot Camera System]].
+- The brochure also lists Auto Height Select with up to 25 programmable preset heights, Lift Logic height monitoring, Acu-Laser, a Carriage-Mounted Camera, a Compartment Sensing System using light beams on the Stand Up Rider, a Twistlock Snapshot Camera System and a 360 Operating Camera. Source: Toyota Assist brochure 2025 (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

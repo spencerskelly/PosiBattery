@@ -49,6 +49,7 @@ Hyster operator assist package that limits truck speed, acceleration and hydraul
 - **Round 18:** Yale's Reliant text matches this note's technologies; see [[Yale Reliant Portfolio]] and C76.
 - **Functions performed, with citations:**
   - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
+- The Hyster solutions brochure lists Reaction's four elements as object detection, real-time location sensing, proximity detection and advanced dynamic stability, and says it proactively reduces truck performance when pedestrians, other trucks or objects are close. Source: Hyster solutions brochure (read round 20) (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 
 ## Aliases
 

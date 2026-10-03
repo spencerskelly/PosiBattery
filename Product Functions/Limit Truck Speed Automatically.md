@@ -23,6 +23,7 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -46,6 +47,7 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Raymond iWAREHOUSE ObjectSense]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
   - [[Raymond In-Aisle Detection System]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
   - [[Raymond Travel Speed Control]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

@@ -13,10 +13,10 @@ dependsOn:
   - "[[Display Device Design]]"
 performedBy:
   - "[[Panacea Cam-DVR with Impact Sensors]]"
-  - "[[Raymond Under-Fork Camera Option]]"
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Assist]]"
+  - "[[Raymond Vantage Point System]]"
 ---
 
 # Show Camera View to Operator
@@ -34,7 +34,7 @@ Show the operator a camera view of the truck's surroundings.
   - [[Panacea Cam-DVR with Impact Sensors]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[Toyota 360 Operating Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Toyota Carriage-Mounted Camera]] (V): <https://www.toyotaforklift.com/toyota-assist>
-  - [[Raymond Under-Fork Camera Option]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Raymond Vantage Point System]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

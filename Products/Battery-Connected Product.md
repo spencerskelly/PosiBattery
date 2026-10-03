@@ -25,13 +25,15 @@ describedBy:
   - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
   - "[[Investigation Backlog]]"
+  - "[[Knowledge Base Next Steps]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
   - "[[Link Audit]]"
   - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
-  - "[[Unidentified Products Review]]"
-  - "[[Knowledge Base Next Steps]]"
   - "[[Research Change and Decision Tracker]]"
+  - "[[Unidentified Products Review]]"
+  - "[[External Context and Provenance]]"
+  - "[[Project Objectives (Draft)]]"
 ---
 
 # Battery-Connected Product

@@ -33,10 +33,10 @@ Current Measurement: Method and range of battery current measurement.
   - [[Access Control Group CellTrac]]: no shunt; range n/s
   - [[Advanced Charging Technologies BATTview]]: resolution +/-1 A minimum
   - [[EnerSys Wi-iQ]]: Hall; +/-1000 A; 1 A resolution; bidirectional
-  - [[HOPPECKE trak collect]]: shunt; 500 A permanent; 0 to +/-2100 A; 1% (+/-10 to 2100 A) (C39)
+  - [[HOPPECKE trak collect]]: 500 A permanent by shunt; readings to +/-2,100 A (data sheet); earlier note: shunt; 500 A permanent; 0 to +/-2100 A; 1% (+/-10 to 2100 A) (C39)
   - [[Philadelphia Scientific eGO!pro]]: Hall split-core; bidirectional; range n/s
-  - [[PosiCharge Battery Rx]]: +/-1000 A range
-  - [[PosiCharge PosiGuard]]: resolution 100 mA
+  - [[PosiCharge Battery Rx]]: +/-1,000 A (sheet); earlier note: +/-1000 A range
+  - [[PosiCharge PosiGuard]]: 100 mA resolution (sheet); earlier note: resolution 100 mA
   - [[Power Designers PowerTrac 3]]: sheet: shuntless intercell or Hall effect; +/-500 A typical, 1 A resolution (C47); earlier note: shuntless; range n/s
   - [[Power Designers PowerTrac DT3]]: Hall; +/-500 A typical; 1 A resolution; bidirectional
   - [[Power Designers PowerTrac SP+]]: external 50 mV shunt; 500 A shunts offered

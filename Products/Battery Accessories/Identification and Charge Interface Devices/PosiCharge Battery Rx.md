@@ -66,6 +66,7 @@ PosiCharge battery monitor with optional cellular connectivity, described in Pos
 - **Public-evidence baseline (added from the vault's baseline note, round 19):**
 - Public product and resource listings represent it as a current advanced battery-management tool for monitoring, recording, and reporting battery health to extend useful life and improve fleet productivity. Source: official PosiCharge page for Battery Rx, as summarized in the vault's Public Evidence Register (PUB-002, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/battery-rx/>
 - **Baseline confidence (Battery Rx):** Verified public—listing/family level. **Still needed:** Obtain current controlled product sheet; resolve hardware/software/service architecture, relationship to PosiGuard, supported chemistry/data acquisition, SKU/lifecycle state, and interfaces.
+- The Battery Rx sheet (Downloads/BatteryRX.pdf) calls it a wireless battery health and fleet monitoring system that monitors state of charge, water level, voltage, current and temperature 24/7, stores battery history for the life of the battery, installs in about 20 minutes on 24 to 96 V batteries, is 7.63 x 2.25 x 1.25 in, measures +/-1,000 A, has a temperature sensor range of -20 to 165 F, withstands acid immersion and high-pressure wash, works with BMID, non-BMID and CAN systems, and has optional cellular connectivity and optional PosiLink. Source: Battery Rx sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/BatteryRX.pdf>
 
 ## Aliases
 

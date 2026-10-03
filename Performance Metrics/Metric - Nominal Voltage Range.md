@@ -52,17 +52,17 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Green Cubes GSE Lithium Battery]]: 80 V (FBP-1000)
   - [[Green Cubes SAFEFlex Battery]]: 48 V (FBP-1000)
   - [[Green Cubes SAFEFlex PLUS Battery]]: 24, 36, 48, 80 V
-  - [[HOPPECKE trak collect]]: supply 17-150 VDC
+  - [[HOPPECKE trak collect]]: supply 17-150 VDC (data sheet); earlier note: supply 17-150 VDC
   - [[Inventus Smart Battery Monitor SBM-01]]: 9-60 VDC supply
   - [[Lester Summit Series II]]: 24, 36, 48 V nominal; 36/54/72 V maximum (1425 W sheet); earlier note: 24, 36, 48 V
   - [[Philadelphia Scientific eGO!core]]: 12 V
   - [[Philadelphia Scientific eGO!plus]]: 24-80 V (12, 72, 120 V optional)
   - [[Philadelphia Scientific eGO!pro]]: 24-80 V (12, 72, 120 V optional)
-  - [[PosiCharge Battery Rx]]: 24-96 V (vendor page)
+  - [[PosiCharge Battery Rx]]: 24-96 V (sheet); earlier note: 24-96 V (vendor page)
   - [[PosiCharge DVS100]]: 24-80 V
   - [[PosiCharge DVS300 Series]]: 24-96 V (sheet)
-  - [[PosiCharge MVS400 and MVS800]]: 24-96 V (sheets)
-  - [[PosiCharge PosiGuard]]: 24-96 V nominal; operating 18-120 V
+  - [[PosiCharge MVS400 and MVS800]]: 24-96 V (powerstation, sheets); earlier note: 24-96 V (sheets)
+  - [[PosiCharge PosiGuard]]: 24-96 V nominal (sheet); earlier note: 24-96 V nominal; operating 18-120 V
   - [[PosiCharge ProCore Edge]]: 24-96 V
   - [[PosiCharge SVS100]]: 24-80 V (sheet)
   - [[PosiCharge SVS200]]: 24-96 V

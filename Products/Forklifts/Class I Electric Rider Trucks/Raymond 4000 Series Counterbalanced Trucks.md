@@ -12,6 +12,14 @@ subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond Vantage Point System]]"
+  - "[[Raymond Load Weight Display]]"
+  - "[[Raymond Operator Compartment Sensor System]]"
+  - "[[Raymond Travel Speed Control]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
+  - "[[Raymond Mast Lift Limit Switch with Bypass]]"
 ---
 
 # Raymond 4000 Series Counterbalanced Trucks

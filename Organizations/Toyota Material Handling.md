@@ -28,6 +28,8 @@ makes:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[Toyota Cold Conditioning Package]]"
   - "[[Toyota Forklift Lighting Options]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota Object Detection Radar]]"
 offers:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 subsidiaryOf:

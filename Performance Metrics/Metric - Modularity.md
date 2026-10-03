@@ -30,6 +30,7 @@ Modularity: Power module architecture and fault tolerance.
   - [[Crown V-HFM3 Charger]]: FS3 one to three modules; FS4 and FS6 two to six
   - [[EnerSys IMPAQ Charger]]: modular; automatic fault bypass
   - [[EnerSys NexSys+ Charger]]: HF modular; automatic fault bypass
+  - [[PosiCharge ProCore Edge]]: only three replaceable parts (sheet)
   - [[Power Designers REVOLUTION X]]: 1.3 kW modules; charger keeps running if a module fails
   - [[Stryten X-3 Charger]]: 1 to 10 modules in 3, 6 or 10 bay cabinets; field-replaceable
   - [[Stryten X-7 Charger]]: modular; 4-bay 30 kW

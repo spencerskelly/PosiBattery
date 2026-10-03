@@ -105,6 +105,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 20) — Read the uploaded PosiCharge sheets and OEM documents; resolved or narrowed PC-PUB-001 to 003 (C77 to C79) and raised four new conflicts (C80 to C83); progress on the P0 baseline items is recorded in [[PosiCharge and Power Designers Current Portfolio Baseline]]. The P0 checkboxes above are left for the owner to tick.
 - 2026-10-03 (round 19) — Converted the eleven unformatted analysis notes to model notes, moved the business-analysis notes to `Research/Business Analysis`, moved per-product facts to product notes, moved conflicts PC-PUB-001 to 003 into the central register as C77 to C79, and replaced broken Stryten and PosiCharge wishlist links with direct file addresses. See [[Note Reuse Audit]] and [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created a public-evidence baseline, evidence register, and gaps/conflicts register for current PosiCharge and Power Designers product/capability research. The work includes P0 records for SVS100 rating conflict, MVS800 vehicle-count conflict, MVS component-rating ambiguity, Power Designers portfolio enumeration, current product/SKU master reconciliation, and connected-product architecture clarification. See [[PosiCharge and Power Designers Current Portfolio Baseline]], [[PosiCharge and Power Designers Public Evidence Register]], and [[PosiCharge and Power Designers Evidence Gaps and Conflicts]].
 
@@ -117,6 +118,7 @@ Carried over unchanged from the note's earlier frontmatter (the model status is 
   - created: 2026-10-03
   - last-reviewed: 2026-10-03
   - purpose: Persistent, prioritized next-step list for expanding the PosiBattery knowledge base. Add newly identified work here unless it belongs in a more specific existing backlog; preserve conflicts rather than silently deleting them.
+- **Project definition (round 20):** objectives and scope questions are drafted in [[Project Objectives (Draft)]]; the owner's answers should reorder the P0 list above.
 
 ## Aliases
 

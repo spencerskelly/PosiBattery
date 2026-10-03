@@ -14,6 +14,7 @@ subtypeOf:
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Alert Operator of Hazards]]"
+  - "[[Limit Truck Speed Automatically]]"
 hasDesign:
   - "[[Stereoscopic Vision Sensor]]"
 madeBy:
@@ -37,6 +38,10 @@ Toyota Smart Environment Sensor+ that detects pedestrians and objects and alerts
 - **Design characteristics, with citations:**
   - [[Stereoscopic Vision Sensor]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
 - Toyota's Assist brochure text (partly cut off) says SEnS can be extended with a 360 camera system, is available on select Toyota models and as a kit that can be retrofitted to select existing models, and contains the phrase 'it limits the movement of the forklift' (subject cut off). Source: Toyota Assist brochure 2025 (T1 (fragment)), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- The 2025 Toyota Assist brochure (in repo) says SEnS+ detects pedestrians or objects behind the forklift and limits the movement of the forklift by automatically slowing it, uses dynamic zoning (the detection range grows with forklift speed, and in reverse while turning the zone tracks the steer direction), and is available on select Toyota models. Source: Toyota Assist brochure 2025 (read round 20) (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- **C66 resolved (round 20):** the brochure states that SEnS+ itself slows the truck; plain SEnS only alerts (see [[Toyota SEnS Pedestrian Detection]]). The earlier reports that described alerts only were describing SEnS.
+- **Functions performed, with citations:**
+  - [[Limit Truck Speed Automatically]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

@@ -34,9 +34,13 @@ Conflicts now live in the single vault register, [[Battery Product Landscape Con
 
 | Owner id | Register id | Priority | Short description | Status |
 |---|---|---|---|---|
-| `PC-PUB-001` | C77 | P0 | SVS100 power rating conflict | Open |
-| `PC-PUB-002` | C78 | P0 | MVS800 vehicle-count/topology conflict | Open |
-| `PC-PUB-003` | C79 | P0 | MVS400/MVS800 component-rating ambiguity | Open |
+| `PC-PUB-001` | C77 | P0 | SVS100 power rating conflict | Resolved for the current sheet (10 kW); web page not rechecked (round 20) |
+| `PC-PUB-002` | C78 | P0 | MVS800 vehicle-count/topology conflict | Resolved by the sheets: MVS800 16, MVS400 8 (round 20) |
+| `PC-PUB-003` | C79 | P0 | MVS400/MVS800 component-rating ambiguity | Partly resolved: powerserver and powerstation are separate components; combination rule not stated (round 20) |
+| `PC-PUB-004` | C80 | P1 | DVS400 input current equals DVS300 | Open |
+| `PC-PUB-005` | C81 | P1 | High Voltage Power Station 20 kW versus 30 kW | Open |
+| `PC-PUB-006` | C82 | P1 | High Voltage Power Station (AC) listing links a DC card | Open |
+| `PC-PUB-007` | C83 | P1 | PosiGuard operating voltage 18-20 V versus 18-120 V | Open |
 
 Full text, evidence retained, risk and resolution evidence needed are in the register entries. Resolution protocol below still applies.
 
@@ -96,6 +100,7 @@ Carried over unchanged from the note's earlier frontmatter (the model status is 
   - prepared: 2026-10-03
   - reviewer: Director of Engineering
   - rule: Preserve conflicting evidence and document resolution; do not silently overwrite or delete it.
+- **Round 20 (2026-10-03):** the owner uploaded the current PosiCharge sheets; resolutions and four new conflicts (PC-PUB-004 to 007, register C80 to C83) are recorded above and in the central register. Extraction was by AI; reviewer sign-off is still needed.
 
 ## Aliases
 

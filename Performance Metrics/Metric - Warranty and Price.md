@@ -39,6 +39,7 @@ Warranty and Price: shared metric used for monitors, chargers.
   - [[Philadelphia Scientific eGO!core]]: 2-year warranty
   - [[Philadelphia Scientific eGO!plus]]: 2-year warranty
   - [[Philadelphia Scientific eGO!pro]]: 2-year warranty
+  - [[PosiCharge ProCore Edge]]: 5 year warranty (sheet)
   - [[Raymond Red Charger]]: six-year standard warranty claim for Raymond chargers
   - [[Stryten X-3 Charger]]: 3 year limited
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

@@ -11,11 +11,11 @@ tags:
 describedBy:
   - "[[Ampure Group Portfolio Context]]"
   - "[[Ampure Industrial Portfolio Overlap and Synergy Map]]"
+  - "[[PosiCharge and Power Designers Current Portfolio Baseline]]"
+  - "[[PosiCharge and Power Designers Evidence Gaps and Conflicts]]"
+  - "[[PosiCharge and Power Designers Public Evidence Register]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]]"
-  - "[[PosiCharge and Power Designers Current Portfolio Baseline]]"
-  - "[[PosiCharge and Power Designers Public Evidence Register]]"
-  - "[[PosiCharge and Power Designers Evidence Gaps and Conflicts]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

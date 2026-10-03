@@ -23,6 +23,7 @@ performedBy:
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
 ---
 
 # Alert Operator of Hazards
@@ -44,6 +45,7 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Raymond iWAREHOUSE ObjectSense]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
   - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
   - [[Hyster Dynamic Stability System]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+  - [[Toyota SEnS Pedestrian Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

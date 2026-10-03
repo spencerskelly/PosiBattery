@@ -32,6 +32,8 @@ PosiCharge cloud platform that receives battery and fleet data, charging activit
 - **Baseline confidence (PosiLink):** Verified public—family level. **Still needed:** Retrieve current product/spec documentation; define product/service boundary, subscription/commercial model, hosting, retention, API/integration, user roles, alerts, cyber/privacy posture, and relation to SkyLink.
 - **Functions performed, with citations:**
   - [[Upload Battery Data to Cloud Portal]] (V): <https://posicharge.com/products/posilink/>
+- The PosiLink two-page sheet (Downloads/Posilink-2-Pager.pdf) calls it a fleet intelligence and battery management platform: plan and design with site data (including E-Meter and IC-Meter data), real-time alerts, lifecycle insights, usage tracked against recommended practices for warranty compliance, exceptions-based reporting, role-specific dashboards and asset drilldowns; energy management (facility power limits, time-of-use and scheduled charging) and integrated simulation tools are marked coming soon. Source: PosiLink sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/Posilink-2-Pager.pdf>
+- **New name (round 20):** the sheet names an IC-Meter; it has no note or sheet yet (see [[Unidentified Products Review]]).
 
 ## Aliases
 

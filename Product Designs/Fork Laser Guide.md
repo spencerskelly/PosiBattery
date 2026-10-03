@@ -12,6 +12,7 @@ subtypeOf:
 designOf:
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
 ---
 
 # Fork Laser Guide
@@ -26,6 +27,7 @@ Laser aid for positioning the forks.
 - **Sources** (product, evidence level, web page):
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Toyota Acu-Laser]] (V): <https://www.toyotaforklift.com/toyota-assist>
+  - [[Raymond Fork-Tip Laser Guide]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 
 ## Aliases
 

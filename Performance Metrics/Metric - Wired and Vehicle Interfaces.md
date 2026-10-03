@@ -31,9 +31,9 @@ Wired and Vehicle Interfaces: CAN, serial or proprietary bus interfaces.
   - [[AMETEK Prestolite Power BID]]: power line communication over standard charging cables; no special wiring
   - [[Advanced Charging Technologies BATTview]]: PLC optional
   - [[EnerSys Wi-iQ]]: CAN optional: CANopen CiA 418 or J1939
-  - [[HOPPECKE trak collect]]: HOPPECKE Battery Bus 60 baud (CAN-LIN per news, C39)
+  - [[HOPPECKE trak collect]]: HOPPECKE battery bus 60 baud (data sheet); earlier note: HOPPECKE Battery Bus 60 baud (CAN-LIN per news, C39)
   - [[Inventus Smart Battery Monitor SBM-01]]: CAN, auto baud 125 kbps to 1 Mbps
-  - [[PosiCharge PosiGuard]]: Serial; CAN
+  - [[PosiCharge PosiGuard]]: serial, CAN (sheet); earlier note: Serial; CAN
   - [[Power Designers PowerTrac 3]]: PLC with REVOLUTION chargers; USB via PowerTrac Link
   - [[Power Designers PowerTrac SP+]]: IR port; RS-232 and RS-485 options
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

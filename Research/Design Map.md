@@ -51,7 +51,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Fingerprint Reader]] | [[Panacea Smart Start]] | - | - |
 | [[Floor-Projected Warning Light]] | [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist and Curve Speed Control]], [[Toyota Forklift Lighting Options]] | - | - |
 | [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
-| [[Fork Laser Guide]] | [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
+| [[Fork Laser Guide]] | [[Raymond Fork-Tip Laser Guide]], [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
 | [[Gel Electrolyte]] | [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
 | [[Hall-Effect Current Sensing]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!pro]], [[Power Designers PowerTrac DT3]] | - | - |
@@ -87,13 +87,13 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Proximity Tag System]] | [[Hyster Reaction]], [[Linde Safety Guard]], [[Yale Reliant Portfolio]] | - | - |
 | [[RFID or PIN Access Reader]] | [[Linde connect]], [[Toyota PIN Code Access Pad]] | - | - |
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
-| [[Radar Object Sensor]] | [[Toyota Assist]] | - | - |
+| [[Radar Object Sensor]] | [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Shuntless Current Sensing]] | [[Access Control Group CellTrac]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac Monitor]] | - | - |
 | [[Silicon-Carbide Power Stage]] | [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Split-Core Current Sensor]] | [[Philadelphia Scientific eGO!pro]] | - | - |
-| [[Stereoscopic Vision Sensor]] | [[Blaxtair Pedestrian Detection System]], [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
+| [[Stereoscopic Vision Sensor]] | [[Blaxtair Pedestrian Detection System]], [[Toyota SEnS Pedestrian Detection]], [[Toyota SEnS+ Pedestrian and Object Detection]] | - | - |
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Tubular Plate Construction]] | [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |

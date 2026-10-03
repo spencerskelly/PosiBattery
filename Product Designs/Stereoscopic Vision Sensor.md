@@ -14,6 +14,7 @@ describedBy:
 designOf:
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
 ---
 
 # Stereoscopic Vision Sensor
@@ -28,6 +29,7 @@ Stereoscopic vision that tells pedestrians from objects.
 - **Sources** (product, evidence level, web page):
   - [[Toyota SEnS+ Pedestrian and Object Detection]] (V): <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
   - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
+  - [[Toyota SEnS Pedestrian Detection]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

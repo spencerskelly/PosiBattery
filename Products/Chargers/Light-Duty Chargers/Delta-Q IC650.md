@@ -44,6 +44,7 @@ Delta-Q industrial charger with CAN bus (CANopen, CiA 419) for on-board or off-b
 - **Conflict-visible (C57, C58):** the AC range is 85-265 VAC in the data sheet and listings but 85-270 V on one product page. Lester's Summit Series II 650 W sheet matches the IC650 on power (650 W), voltages (24, 36, 48 V), 18 A and 13.5 A currents, AC range and IP66, but differs on 24 V current (25 A versus 27.1 A) and size (287 x 183 x 93 mm versus 252 x 186 x 80 mm). Whether the two are related is not established; see [[Lester Summit Series II]].
 - **Design characteristics, with citations (data sheet):**
   - [[USB Data Download]] (V): <https://www.simpower.co.nz/wp-content/uploads/2025/02/DQIC650-48_13.5.pdf>
+- The Delta-Q IC650 sheet (Downloads/DQIC650-48_13.5.pdf) lists 24 V at 27 A, 36 V at 18 A and 48 V at 13.5 A, 650 W, lead acid (wet, AGM, gel) and lithium, on- and off-board versions, optional CAN, USB host port, for scissor lifts, lift trucks, floor care machines and golf cars. Source: Delta-Q IC650 sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.simpower.co.nz/>
 
 ## Aliases
 

@@ -157,6 +157,10 @@ Carried over unchanged from the note's earlier frontmatter (the model status is 
   - reviewer: Director of Engineering
   - confidence-policy: Preserve uncertainty and conflicts; do not infer unverified product, SKU, compatibility, certification, or availability claims.
 
+### Evidence update, round 20 (2026-10-03)
+
+Current official sheets were read for: SVS100 (10 kW confirmed in the sheet), DVS300/400 (with DVS330 and DVS330 IP55 pages), MVS400, MVS800 (16 vehicles), High Voltage Power Station (a DC card; see C81 and C82), PosiGuard, Battery Rx, PosiLink, E-Meter, ProCore Edge, ProCore Solo and the eGSE catalog. Confidence for those families moves from listing level to sheet level; model, option and certification claims still need the installation manuals and controlled records. New names that need evidence: IC-Meter, DVS330 II, MVS330. DVS100 is still not on the Resources page. Reviewer sign-off: not recorded (AI extraction; owner review needed). Details are on the product notes.
+
 ## Aliases
 
 ## Former ids

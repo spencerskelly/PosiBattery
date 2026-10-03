@@ -27,6 +27,8 @@ supertypeOf:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota Object Detection Radar]]"
 ---
 
 # Proximity and Object Detection System
