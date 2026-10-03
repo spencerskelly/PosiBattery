@@ -31,9 +31,9 @@ performedBy:
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Textron Smart Sense]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota Object Detection Radar]]"
+  - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck

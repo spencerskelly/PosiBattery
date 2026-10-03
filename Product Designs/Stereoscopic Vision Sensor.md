@@ -13,8 +13,8 @@ describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
   - "[[Blaxtair Pedestrian Detection System]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Stereoscopic Vision Sensor

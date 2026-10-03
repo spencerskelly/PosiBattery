@@ -10,13 +10,13 @@ tags:
 subtypeOf:
   - "[[Support Operator View and Positioning]]"
 performedBy:
+  - "[[Raymond Vantage Point System]]"
   - "[[Toyota Carriage-Mounted Camera]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
-  - "[[Raymond Vantage Point System]]"
-  - "[[Raymond Fork Tilt Leveling]]"
-  - "[[Raymond Fork-Tip Laser Guide]]"
 ---
 
 # Assist Lift Positioning

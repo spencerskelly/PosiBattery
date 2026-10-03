@@ -22,8 +22,8 @@ performedBy:
   - "[[Hyster Reaction]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
-  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
+  - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 
 # Alert Operator of Hazards

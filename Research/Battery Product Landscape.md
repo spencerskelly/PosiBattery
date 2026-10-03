@@ -54,6 +54,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 18 2026-10-03:** Q16 resolved (functions `dependsOn` designs, 28 dependencies in [[Function Design Dependencies]]); naming rule and `check-names.py`; truck OEM accessories: 23 notes for Crown, Toyota, Raymond and Hyster; new function and design classes; conflict C76.
 - **Round 19 2026-10-03:** unformatted analysis notes repaired and filed (see [[Note Reuse Audit]]); 14 new PosiCharge product and accessory notes; conflicts C77 to C79; wishlist links repaired.
 - **Round 20 2026-10-03:** uploaded documents read and absorbed; conflicts C66, C77 to C79 resolved or narrowed, C80 to C83 raised; [[External Context and Provenance]] and [[Project Objectives (Draft)]] added.
+- **Round 21 2026-10-03:** owner scope decisions recorded (neutral reference, global, top makers plus a sample); [[Coverage Plan]] with a generated coverage ledger added; [[Project Objectives (Draft)]] revised; conflict C84.
 
 ## Aliases
 

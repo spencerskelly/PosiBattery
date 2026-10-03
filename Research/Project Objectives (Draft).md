@@ -16,39 +16,59 @@ describes:
 
 ## Definition
 
-Proposed objectives, scope, success measures and open decisions for the vault, drafted from decisions already made; not approved until the owner confirms.
+Objectives, scope, success measures and open decisions for the vault; three scope decisions are recorded as owner decisions and the rest is proposed.
 
 ## Notes
 
-- **Status:** proposal written by the AI from the owner's decisions in these sessions and from the notes the owner added. Nothing here is the owner's stated objective unless marked 'owner decision'. Each item needs a confirm, change or reject.
-- **What the work has actually been serving (observed, not assumed):** (1) a market reference of battery-adjacent equipment (batteries, chargers, trucks, GSE) and the devices and accessories added to them, with each fact tied to a source (owner: accessories are a key focus, Q15); (2) a model of functions and designs, generalized by level and linked by dependency (owner decision, Q16); (3) a PosiCharge-centered business analysis inside the Ampure group, built by the owner outside the AI sessions ([[External Context and Provenance]]).
-- **Tension to resolve (challenge):** (1) and (2) are market-wide and neutral; (3) is company-specific and decision-oriented. If the vault tries to serve both equally, the catalog grows without a stopping rule and the analysis has no firm evidence base. The first decision is which one drives: the analysis as the purpose with the catalog as its evidence, or the catalog as the purpose with the analysis as one use of it.
+- **Status:** still a draft. The owner answered three scope questions on 2026-10-03; those answers are recorded below as owner decisions. Everything marked 'proposed' is the AI's reading and still needs a confirm, change or reject.
 
-**Proposed objectives**
+**Owner decisions (2026-10-03)**
 
-1. **Decision support (proposed):** give PosiCharge product, engineering and strategy decisions a sourced picture of what comparable products and accessories do, how they connect, and where PosiCharge's offer has gaps or overlaps (feeds [[PosiCharge Capability Gap Assessment]] and [[PosiCharge Opportunity Backlog]]).
-2. **Coverage (proposed):** a complete, current catalog of devices added to batteries, chargers, trucks and GSE for the makers and applications in scope, with a stated stopping rule per category (for example every named product from the top makers, then sample the long tail).
-3. **Comparable structure (proposed):** functions and designs generalized so that products from different makers can be compared on what they do and what they depend on, not on brand names ([[Function and Design Levels]], [[Function Design Dependencies]]).
-4. **Evidence quality (owner decision, from the first instruction):** every claim has a source and an evidence tier; conflicts stay visible; stale or unverified items are flagged ([[Battery Product Landscape Conflicts and Open Questions]], [[Document Wishlist]]).
-5. **Maintainability (owner decisions):** one note per thing, owners as relationships, unique names, checks that run before each commit ([[Note Reuse Audit]]).
+1. **Purpose:** the vault is a neutral market reference. The catalog drives; the PosiCharge analysis is one use of it.
+2. **Market scope:** global.
+3. **A finished category:** the top makers are covered, plus a sample of the rest.
 
-**Scope questions that define the project (open)**
+**What follows from the decisions (proposed reading)**
 
-- Primary purpose and audience: who reads the vault, and what decision does it change?
-- Market scope: North America only, or global (the sources so far mix North America, Europe and Asia-Pacific pages)?
-- Vehicle scope: electric trucks and GSE only (owner decision for now, Q13), or ICE and fuel-cell as comparators; attachments (side shifters, clamps) in or out?
-- Depth: how many products and how deep per product (ratings, interfaces, certifications) before a category counts as done?
-- Evidence rules: which tiers count as decision-grade (manufacturer sheets only, or also dealer and press pages)?
+- The business analysis in `Research/Business Analysis` stays, but as a consumer of the catalog: its claims about the market should cite catalog notes, and it does not set catalog priorities. Rules in [[Coverage Plan]].
+- The catalog treats all organizations alike, including PosiCharge and Power Designers; Ampure's internal-versus-external rule applies only inside the analysis.
+- Global scope needs a region on every organization, the standards each product meets (UL, CE, GB/T), and a plan for sources in other languages.
+- 'Top makers plus a sample' becomes testable only if 'top' and 'sample' are defined; [[Coverage Plan]] proposes definitions and a generated coverage ledger.
+
+**Objectives (revised)**
+
+1. **Neutral market reference (owner decision):** a sourced catalog of batteries, chargers, trucks and GSE and of the devices, accessories and software added to them, worldwide.
+2. **Coverage (owner decision, rules proposed):** top makers per product type and region covered, plus a sample of the rest, measured by the ledger in [[Coverage Plan]].
+3. **Comparable structure (proposed):** functions and designs generalized by level and linked by dependency so products compare on what they do and what they need ([[Function and Design Levels]], [[Function Design Dependencies]]).
+4. **Evidence quality (owner decision from the first instruction):** every claim has a source and an evidence tier; conflicts stay visible ([[Battery Product Landscape Conflicts and Open Questions]], [[Document Wishlist]]).
+5. **Maintainability (owner decisions):** one note per thing, owners as relationships, unique names, checks before each commit ([[Note Reuse Audit]]).
+6. **Supporting analysis (proposed):** the PosiCharge business analysis reads from the catalog ([[PosiCharge Business Scope and Portfolio]]); it is not an objective of the catalog itself.
+
+**Challenges raised by the decisions**
+
+- **Existing imbalance.** Recent rounds went deepest on PosiCharge (about 30 files and 14 product notes in two rounds). That is out of line with a neutral reference; priority should now follow the coverage ledger.
+- **No authoritative ranking outside forklift OEMs.** The battery lists are marketing and report tables (T4), they disagree, and two of them mix up companies with similar names (C84). 'Top' for batteries, chargers, accessories and GSE has to be defined by a stated rule, not found.
+- **Global coverage is limited by sources.** Most documents so far are North American or European. Chinese, Korean, Japanese and Indian makers publish in other languages and often not as downloadable sheets; the plan needs a language and access rule.
+- **'A sample of the rest' can hide bias.** Without a rule for choosing the sample, it drifts to whatever is easy to find. Proposed: a quota per type and region with the reason written on each note.
+- **Region and certification matter more at global scope** (for example UL versus CE versus GB/T charger rules) and the vault records neither consistently ([[Coverage Plan]], rule 5).
+
+**Still open**
+
+- Depth: is three metric values per product the right minimum (proposed), and which product types need more?
+- Evidence tiers: which count as decision-grade (manufacturer sheets only, or also dealer and press pages)?
 - Currency: how often must volatile facts (current catalogs, availability) be rechecked?
-- Boundaries with the business analysis: which facts move between the market catalog and the PosiCharge analysis, and who reviews them?
+- Sample size: is three makers per type and region (proposed) right?
+- Boundary with the analysis: which facts move between the catalog and the analysis, and who reviews them?
+- Vehicle scope: electric trucks and GSE only for now (owner decision Q13); are attachments (side shifters, clamps) in scope?
 
-**Proposed success measures (examples to confirm or replace)**
+**Proposed success measures**
 
-- Each in-scope category has a written stopping rule and a coverage count against it.
-- Every product note names its source file or page and its evidence tier; no unsourced spec values.
-- Open P0 conflicts older than a set period have a disposition.
-- A person can answer a stated set of decision questions from the vault without reading source documents (to be listed by the owner).
-- The checks (model validator, name check) pass at every commit.
+- Each reference maker for a type is covered or has a dated no-product entry (ledger in [[Coverage Plan]]).
+- Every product note names its source file or page and evidence tier; no unsourced spec values.
+- Each type has at least the proposed sample of makers per world region.
+- P0 conflicts older than a set period have a disposition.
+- A person can answer a stated list of questions from the vault without reading source documents (the owner lists them).
+- The model validator and the name check pass at every commit.
 
 ## Aliases
 

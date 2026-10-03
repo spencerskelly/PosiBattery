@@ -14,7 +14,10 @@ supertypeOf:
   - "[[Crown Capacity Data Monitor]]"
   - "[[Hyster Dynamic Stability System]]"
   - "[[Linde Safety Pilot]]"
+  - "[[Raymond Fork Tilt Leveling]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Load Weight Display]]"
+  - "[[Raymond Mast Lift Limit Switch with Bypass]]"
   - "[[Raymond Operator Compartment Sensor System]]"
   - "[[Raymond Travel Speed Control]]"
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
@@ -26,9 +29,6 @@ supertypeOf:
   - "[[Toyota Load Weight Sensing]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Yale Reliant Portfolio]]"
-  - "[[Raymond Fork Tilt Leveling]]"
-  - "[[Raymond Fork-Tip Laser Guide]]"
-  - "[[Raymond Mast Lift Limit Switch with Bypass]]"
 ---
 
 # Operator Assist and Stability System

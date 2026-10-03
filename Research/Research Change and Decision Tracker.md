@@ -29,6 +29,7 @@ Each entry should state: date, change, reason/method, affected notes, evidence o
 
 | Date | Change | Method / decision | Affected information | Follow-up |
 | --- | --- | --- | --- | --- |
+| 2026-10-03 | Project scope decided (owner) | Neutral market reference drives and the analysis is one use of it; global scope; a category is finished when the top makers are covered plus a sample of the rest | [[Project Objectives (Draft)]], [[Coverage Plan]] | Owner to confirm the proposed rules and numbers |
 | 2026-10-03 | Uploaded PosiCharge, Toyota, Yale, Raymond, Hyster, HOPPECKE and Delta-Q documents read and absorbed | Facts moved to product notes with the file named; conflicts C66, C77, C78, C79, C39 updated in place (originals kept); C80 to C83 raised; Toyota SEnS split from SEnS+ | [[Battery Product Landscape Conflicts and Open Questions]], [[PosiCharge SVS100]], [[Toyota SEnS Pedestrian Detection]] | Owner review of the extractions; read the installation manuals |
 | 2026-10-03 | Project objectives drafted for owner decision | Draft written from decisions already made in this work; nothing is confirmed until the owner answers the open questions | [[Project Objectives (Draft)]] | Owner to confirm or change |
 | 2026-10-03 | External context documented | Everything added to the vault outside the AI sessions is listed with its basis and handling | [[External Context and Provenance]] | Owner to correct any attribution |

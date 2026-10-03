@@ -22,6 +22,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Operating rules
 
+- **Owner scope decision (round 21, 2026-10-03):** the vault is a neutral market reference (the catalog drives, the analysis is one use), the scope is global, and a category is finished when the top makers are covered plus a sample of the rest. Items below that serve only the PosiCharge analysis are consumers of the catalog and should be ordered after catalog coverage work; the owner decides the new order. See [[Project Objectives (Draft)]] and [[Coverage Plan]].
 - **Relation to the Investigation Backlog (round 19):** this note orders the work; [[Investigation Backlog]] lists the individual work items with their search leads. Cite backlog ids (IB-nnn) here instead of copying items.
 - This is the repository-wide working list for knowledge-base expansion actions identified during reviews and research.
 - Keep each action outcome-oriented, evidence-aware, and linked to the affected notes or artifacts.

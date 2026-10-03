@@ -22,6 +22,7 @@ describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
   - "[[Document Wishlist]]"
+  - "[[External Context and Provenance]]"
   - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
   - "[[Investigation Backlog]]"
@@ -30,10 +31,10 @@ describedBy:
   - "[[Link Audit]]"
   - "[[Note Reuse Audit]]"
   - "[[Note Standard (Example)]]"
+  - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Unidentified Products Review]]"
-  - "[[External Context and Provenance]]"
-  - "[[Project Objectives (Draft)]]"
+  - "[[Coverage Plan]]"
 ---
 
 # Battery-Connected Product
