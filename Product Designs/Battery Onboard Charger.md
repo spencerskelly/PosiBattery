@@ -9,8 +9,9 @@ tags:
   - design-characteristic
 designOf:
   - "[[Deka ChargeMate Battery]]"
-  - "[[Deka PowrMate Battery]]"
   - "[[Deka Gel-Mate Battery]]"
+  - "[[Deka PowrMate Battery]]"
+  - "[[Stryten M-Series AGM220 Battery]]"
 ---
 
 # Battery Onboard Charger
@@ -27,6 +28,7 @@ Charger built into the battery or truck-side battery unit.
   - [[Deka ChargeMate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka PowrMate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka Gel-Mate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Stryten M-Series AGM220 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

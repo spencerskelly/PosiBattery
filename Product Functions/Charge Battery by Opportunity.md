@@ -17,6 +17,8 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
+  - "[[Stryten EHI Charger]]"
 ---
 
 # Charge Battery by Opportunity
@@ -39,6 +41,8 @@ Top up a battery in short sessions during breaks to keep it within a state-of-ch
   - [[Crown Battery EVOLUTION Series]] (V): <https://crownbattery.com/lp-power-line>
   - [[AMETEK Prestolite Power Eclipse II]] (V): <https://www.fleetowner.com/equipment/news/updated-industrial-battery-charger-1115>
   - [[AMETEK Prestolite Power ULTRA]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
+  - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

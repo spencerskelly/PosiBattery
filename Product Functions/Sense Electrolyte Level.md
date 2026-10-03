@@ -13,8 +13,10 @@ performedBy:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[Crown V-Force BMID]]"
+  - "[[Deka HydraSaver Battery]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Energywith withBMS BMU]]"
+  - "[[Exide MARATHON Battery]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
@@ -32,8 +34,6 @@ performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
-  - "[[Exide MARATHON Battery]]"
-  - "[[Deka HydraSaver Battery]]"
 ---
 
 # Sense Electrolyte Level

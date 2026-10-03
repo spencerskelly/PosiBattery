@@ -18,11 +18,12 @@ madeBy:
 
 ## Definition
 
-Stryten flooded premium battery for everyday use.
+Stryten premium flooded battery for everyday conventional use that is also opportunity-charge capable.
 
 ## Notes
 
 - Stryten's lineup sheet describes T300 as premium, cost-efficient, durable and ideal for everyday use. Source: Stryten lineup sheet (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+- Stryten says T300 is more durable and dependable than traditional flat-plate designs, ideal for everyday conventional use and opportunity-charge capable. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

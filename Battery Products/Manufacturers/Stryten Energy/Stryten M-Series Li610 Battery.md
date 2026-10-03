@@ -22,6 +22,7 @@ madeBy:
   - "[[Stryten Energy]]"
 offeredWith:
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Stryten M-Series Li610 Battery
@@ -40,6 +41,9 @@ Stryten LFP battery for Class I forklifts with an onboard display and hibernatio
   - [[Measure Battery Current]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
 - **Design characteristics, with citations:**
   - [[Hibernation Mode]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+- **Related products and how they differ (offeredWith):**
+  - [[Stryten X-7 Charger]]: no difference stated in the sources.
+  - [[Stryten X-3 Charger]]: no difference stated in the sources.
 
 ## Aliases
 

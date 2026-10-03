@@ -8,13 +8,13 @@ tags:
   - battery-monitoring
   - design-characteristic
 designOf:
+  - "[[Deka Ready Power Lithium Battery]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[Deka Ready Power Lithium Battery]]"
   - "[[Stryten M-Series Li600 Battery]]"
-  - "[[Green Cubes GSE Lithium Battery]]"
 ---
 
 # CAN Interface

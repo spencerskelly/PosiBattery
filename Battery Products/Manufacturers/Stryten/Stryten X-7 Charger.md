@@ -44,6 +44,9 @@ Stryten M-Series modular silicon-carbide charger for lead and lithium forklift b
 - **Design characteristics, with citations:**
   - [[Silicon-Carbide Power Stage]] (V): <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>
   - [[Modular Power Modules]] (V): <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>
+- **Related products and how they differ (offeredWith):**
+  - [[Stryten M-Series Li600 Battery]]: no difference stated in the sources.
+  - [[Stryten M-Series Li610 Battery]]: no difference stated in the sources.
 
 ## Aliases
 

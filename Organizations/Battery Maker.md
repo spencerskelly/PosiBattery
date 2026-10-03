@@ -16,10 +16,10 @@ rolePlayedBy:
   - "[[GNB Industrial Power]]"
   - "[[Green Cubes Technology]]"
   - "[[HOPPECKE]]"
+  - "[[Inventus Power]]"
   - "[[Midac]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
-  - "[[Inventus Power]]"
 ---
 
 # Battery Maker

@@ -1,0 +1,34 @@
+---
+type: Info
+subtype:
+id: INFO-00128
+uid: 20261002194458538skellyspencer
+status: Draft
+tags:
+  - standard
+  - example
+  - conventions
+describes:
+  - "[[Battery-Connected Product]]"
+  - "[[Industrial Traction Battery]]"
+---
+
+# Note Standard (Example)
+
+## Definition
+
+The working layout for product and organization notes, with one exemplar for each kind, so later notes follow the same pattern.
+
+## Notes
+
+- **Layout inside Notes (no extra headings; bold-labeled bullets and one table):** Identity; Specifications as stated (table with parameter and value, source named below it); Features (functions and designs, each with its citation line); Related products and how they differ; Differences and conflicts; Gaps and to-do; then 'Source history' holding earlier bullets unchanged.
+- **Exemplars:** monitor [[EnerSys Wi-iQ]]; charger [[Crown V-HFM3 Charger]]; battery [[Stryten M-Series T330 Battery]]; organization [[EnerSys]]; also a full data-sheet example, [[HOPPECKE trak collect]].
+- **Rules decided with the owner:** (1) Battery Objects have subtype electrical: electrical means anything electricity passes through. (2) A product may link to several products; when it does, the body says how the linked products differ, and if no difference is known the note says so. (3) If related products are not found yet, the link stays blank (listed under gaps and to-do). (4) Light-duty chargers stay in scope and are on the to-do list. (5) A fact needs a URL; a user statement is marked as such. (6) Documents that cannot be fetched are listed in the backlog with links for the owner to download.
+- **Spec rows:** value as the source states it, units unchanged, 'not stated' where the document is silent, conflicts written beside the row and logged in the conflicts register.
+
+## Aliases
+
+- Product note example
+- Note layout example
+
+## Former ids

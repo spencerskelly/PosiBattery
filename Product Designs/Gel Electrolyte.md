@@ -8,10 +8,10 @@ tags:
   - battery
   - design-characteristic
 designOf:
-  - "[[Exide TENSOR xGEL Battery]]"
-  - "[[Exide Element VRLA Battery]]"
-  - "[[Deka PowrMate Battery]]"
   - "[[Deka Gel-Mate Battery]]"
+  - "[[Deka PowrMate Battery]]"
+  - "[[Exide Element VRLA Battery]]"
+  - "[[Exide TENSOR xGEL Battery]]"
 ---
 
 # Gel Electrolyte

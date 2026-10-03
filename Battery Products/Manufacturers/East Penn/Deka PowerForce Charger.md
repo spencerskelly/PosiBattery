@@ -51,6 +51,17 @@ East Penn charger designed for Deka motive power batteries, lead and lithium, wi
 - **Design characteristics, with citations:**
   - [[Touchscreen Interface]] (V): <https://www.eastpennmanufacturing.com/?p=6135>
   - [[Breakaway Connector]] (V): <https://www.eastpennmanufacturing.com/?p=6135>
+- **Related products and how they differ (offeredWith):**
+  - [[Deka D-Series Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka Dominator Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka FastCharge Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka HydraSaver Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka MaintenanceSaver Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka ChargeMate Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka PowrMate Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka Gel-Mate Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka MaxPowr Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
+  - [[Deka Ready Power Lithium Battery]]: Deka PowerForce is designed for all Deka motive power batteries; on-board-charger lines (ChargeMate, PowrMate, Gel-Mate) may not use a separate charger (C36).
 
 ## Aliases
 

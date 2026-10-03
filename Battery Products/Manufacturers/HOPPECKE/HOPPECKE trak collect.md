@@ -32,6 +32,8 @@ hasDesign:
   - "[[Mid-Battery Voltage Tap]]"
   - "[[NFC Interface]]"
   - "[[CAN-LIN and Battery Bus Interface]]"
+  - "[[Bluetooth Low Energy Interface]]"
+  - "[[Acid-Resistant Sealed Housing]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
@@ -76,6 +78,32 @@ HOPPECKE battery controller permanently affixed to lead-acid traction batteries 
 - **Sources used for the mapping above:** HOPPECKE trak | collect premium page <https://www.hoppecke.com/uk/product/trak-collect-premium/>; HOPPECKE news: trak | collect and digital age <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>; HOPPECKE news: improved battery management <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>; Warehouse News on trak | collect Advanced (undated) <https://warehousenews.co.uk/?p=103814>; HOPPECKE trak | uplift iQ page <https://www.hoppecke.com/uk/product/trak-uplift-iq/>; HOPPECKE case study on temperature-controlled charging <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - HOPPECKE says up to five communication interfaces are available (NFC, Bluetooth, CAN-LIN and battery bus), that it measures battery voltage, medium voltage, charging and discharging current, temperature and electrolyte level, can be attached or retrofitted to all lead-acid batteries, and saves processed data on the battery. Source: HOPPECKE news on trak | collect (T1), retrieved 2026-10-02. <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
 - HOPPECKE says trak | collect highlights incorrect treatment such as deep discharge or temperature warning, and that remaining driving time data helps OEMs optimize drive mode. Source: HOPPECKE news on improved battery management (T1), retrieved 2026-10-02. <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>
+- The trak | collect technical data sheet (status 2024-07-31) gives the electrical, mechanical, measurement, data, interface, environmental and standards data summarized below. Source: HOPPECKE trak | collect data sheet (T1), retrieved 2026-10-02. <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
+| Parameter | Value as stated |
+|---|---|
+| Supply voltage | 17 to 150 VDC (200 V pulse for 10 s) |
+| Current consumption | 7.5 mA at 150 V to 70 mA at 17 V |
+| Switch-off | over-voltage above 203 V; under-voltage below 16 V |
+| Current measuring range | max 500 A permanent, shunt measuring (battery current 0 to +/-2100 A, see conflict) |
+| Battery voltage | 17 to 200 VDC, 10 mV resolution, 0.1% at 25 C plus 0.004%/K |
+| Battery medium voltage | 0 to 200 VDC, 10 mV resolution |
+| Current accuracy | 1% (+/-10 to 2100 A), 5% (+/-2 to 10 A), 20% (+/-0.5 to 2 A), plus 0.02%/K |
+| Temperature | -30 to 100 C, 0.1 K resolution |
+| Electrolyte level | UB 11.3 V, trigger current 55 uA, max 100 uA |
+| Processor and memory | DSP 40 MHz; 8 MB (4 MB ring buffer); stores I, U, temperature at 10 s default; ring buffer 30 days |
+| Real-time clock | +/-2 s per day, 30-day buffer |
+| Interfaces | NFC (1 kB, 16 mm), Bluetooth 4.0 Low Energy / 2.0, HOPPECKE Battery Bus (60 baud, 12 V level) |
+| Environment | use and storage -30 to 80 C; sulfuric acid 60% at 50 C; IP 69K |
+| Mechanical | base 120 x 52 x 26 mm; satellite 82 x 50 x 32 mm; 340 g; cable 25 to 95 mm2 |
+| Standards | EN 12895, EN 60721-3-3, EN 55022, EN 55011, EN 61000-6-2 and -6-3, EN 60068-2-6, -2-27 and -2-31, EN 62485-3, UL 583 |
+- **Conflict-visible (C39):** the data sheet gives 'max 500 A permanent' as the current measuring range and '0 to +/-2100 A' as the battery current measuring value; the two describe permanent versus peak or end value but the sheet does not say so. An earlier HOPPECKE news item lists up to five interfaces including CAN-LIN; the data sheet lists NFC, Bluetooth and the Battery Bus only.
+- **Design links added from the data sheet:** [[Bluetooth Low Energy Interface]], [[NFC Interface]], [[Acid-Resistant Sealed Housing]] (IP 69K, acid resistance).
+- **Design characteristics, with citations (data sheet):**
+  - [[Bluetooth Low Energy Interface]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
+  - [[Acid-Resistant Sealed Housing]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
+- **Related products and how they differ (offeredWith):**
+  - [[HOPPECKE trak charger HF premium]]: no difference stated in the sources.
+  - [[HOPPECKE trak uplift iQ Battery]]: no difference stated in the sources.
 
 ## Aliases
 

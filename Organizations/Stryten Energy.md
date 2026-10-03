@@ -26,6 +26,14 @@ makes:
   - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"
+  - "[[Stryten M-Series T310 Battery]]"
+  - "[[Stryten M-Series F100 Battery]]"
+  - "[[Stryten M-Series AGM200 Battery]]"
+  - "[[Stryten M-Series AGM220 Battery]]"
+  - "[[Stryten X-3 Charger]]"
+  - "[[Stryten EHI Charger]]"
+  - "[[Stryten EHY Charger]]"
+  - "[[Stryten EHF Charger]]"
 offers:
   - "[[Stryten X-7 Charger]]"
 distributedBy:
@@ -54,6 +62,8 @@ US industrial battery maker, formerly GNB Industrial Power, selling M-Series lea
   - Battery-side monitoring: onboard display on Li610; remote monitoring and CANbus on Li600 <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
   - Selection tool: Motive Power Battery Finder (named in the MODEX 2026 release) <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
   - Forklifts and parts: sold through dealers such as Medley <https://www.medleycompany.com/stryten-energy/>
+- The lineup sheet groups chargers by application: X-3, X-7 and EHI for opportunity and fast charging, EHY and EHF for conventional charging, and groups batteries the same way (T330, F110, T310 for opportunity; T300, F100 for conventional); it names no battery-charger pairings except Li600 with X-3 and X-7. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+- **To-do:** pairings between lead-acid lines and chargers are left blank until a source names them.
 
 ## Aliases
 

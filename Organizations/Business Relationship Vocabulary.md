@@ -41,6 +41,7 @@ Provisional relationship fields for connecting organizations, roles and products
 | privateLabelFor / privateLabelledBy | org -> org | none; contract-like relation between actors | none |
 | poweredBy / powers | Object -> org | none; technology or platform provider | dependsOn |
 | rebrandOf / rebrandedAs | Object -> Object | Specialization of a Product under another brand | copyOf (same class, any to any) |
+- **Multiple links (owner decision 2026-10-02):** a note may hold several links of the same kind. The body then says how the linked products differ; if none is known it says so. Where related products are not yet found, the field stays blank.
 
 ## Aliases
 

@@ -34,6 +34,9 @@ HOPPECKE flooded battery sold with trak | collect and a Smart Charging algorithm
   - [[Indicate Battery Status Locally]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
+- **Related products and how they differ (offeredWith):**
+  - [[HOPPECKE trak collect]]: no difference stated in the sources.
+  - [[HOPPECKE trak charger HF premium]]: no difference stated in the sources.
 
 ## Aliases
 

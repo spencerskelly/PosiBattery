@@ -38,10 +38,14 @@ supertypeOf:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
+  - "[[Stryten EHI Charger]]"
+  - "[[Stryten EHY Charger]]"
+  - "[[Stryten EHF Charger]]"
 describedBy:
+  - "[[Offerings by Organization]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
-  - "[[Offerings by Organization]]"
 ---
 
 # Industrial Battery Charger

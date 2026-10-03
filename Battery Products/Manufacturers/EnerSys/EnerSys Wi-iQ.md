@@ -63,6 +63,36 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 
 ## Notes
 
+- **Identity:** battery-harness monitoring device made by [[EnerSys]]; installed family [[Battery Monitoring Device]]; also performs battery identification and temperature reporting to EnerSys chargers, so it behaves like a BMID-class device. Generation covered: Wi-iQ4 (2025 manual); the earlier Wi-iQ3 is described in a brochure.
+- **Specifications (as stated in the Wi-iQ4 owner's manual):**
+| Parameter | Value as stated |
+|---|---|
+| Nominal and operating voltage | 24 to 80 VDC and 96 to 120 VDC (two configurations) |
+| Operating temperature | -20 to 60 C (4 to 140 F) |
+| Current measurement | Hall effect, bidirectional up to +/-1000 A, 1 A resolution; solid-core sensor for cables up to 4/0 |
+| Voltage measurement | overall and half-battery voltage; accuracy 0.1 V |
+| Temperature sensing | external thermistor |
+| Electrolyte level | with electrolyte sensor (flooded version) |
+| Wireless | Zigbee 2.4 GHz (legacy protocol) and Bluetooth BLE; range up to 10 m (Zigbee), 5 m (BLE) |
+| CAN (optional) | CANopen CiA 418 or J1939; to trucks (OEM protocols) and AGVs |
+| Data | real-time clock; event log; memory 'more than 8,000 events' (features) or 'up to 8,000 records' (spec table) |
+| Power | 1 W; over-voltage and reverse-polarity protection |
+| Enclosure | IP65, UL 94V-0, pollution level 3, water and acid resistant |
+| Size | 40.07 x 19.5 x 107.97 mm |
+| Compliance | 2014/35/EU, BS EN 61010-1, BS EN 12895, 2014/30/EU, 2011/65/EU, 2014/53/EU, ETSI EN 300 328 |
+| Chemistries | flooded lead-acid; NexSys TPPL; Gel and VRLA in Basic VRLA version |
+| Part numbers | Wi-iQ4 120V SGL GL0017459-0002; 120V DBL GL0017459-0007; Basic flooded 6LA20743-E0E; Basic VRLA 6LA20743-E3E; Wi-iQ4F 6LA20743-E1E; Wi-iQ4DUALF 6LA20743-E2E; electrolyte sensor 6LA20761 |
+- **Spec source:** [EnerSys Wi-iQ4 owner manual (EMEA, 2025 revision)](https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf). Conflict-visible (C42): memory is 'more than 8,000 events' in the features list and 'up to 8,000 event log records' in the specification table.
+- **Features (functions and designs, each with its citation):** see the citation lines in the source history below; they link to [[Measure Battery Voltage]], [[Measure Battery Current]], [[Identify Battery to Charger]], [[Report Battery Temperature to Charger]], [[Communicate Battery State over CAN]], [[Command Vehicle Operating Limits over CAN]] and the interface designs.
+- **Related products and how they differ:**
+  - [[EnerSys NexSys+ Charger]]: the charger receives battery type and voltage through Wi-iQ and compensates for temperature when Wi-iQ is present; this is the full charger-identification use.
+  - [[EnerSys IMPAQ Charger]] and [[EnerSys Express Charger]]: the guide says units are equipped with a Wi-iQ to provide battery voltage and related data; which data the charger acts on is not stated.
+  - [[EnerSys NexSys COMpact Charger]]: the charger embeds the Wi-iQ functions, so no separate device is fitted.
+  - [[EnerSys Truck iQ]]: truck-mounted display reading Wi-iQ data over BLE; not a charger link.
+  - [[EnerSys NexSys TPPL Battery]]: chemistry the TPPL version is built for.
+  - Wi-iQ3 versus Wi-iQ4: the Wi-iQ3 brochure describes wireless communication with the modular charger; the Wi-iQ4 manual adds BLE, CAN, an LCD and a buzzer and calls Zigbee the legacy protocol.
+- **Gaps and to-do:** price; Xinx and Wi-iQ Report software details; charger-side data model (what exactly the NexSys+ reads); US-region manual if different from EMEA; relation to the iQ Mini beyond the shared family.
+- **Source history (earlier bullets kept as written):**
 - Manufacturer: EnerSys
 - Market evidence checked: 2026-10-02
 - Installation locus: battery-mounted; EnerSys literature describes the device as fitted to a main DC cable on the battery.

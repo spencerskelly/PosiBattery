@@ -19,6 +19,7 @@ madeBy:
   - "[[Stryten Energy]]"
 offeredWith:
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Stryten M-Series Li600 Battery
@@ -33,6 +34,9 @@ Stryten LFP battery for Class I, II and III trucks with CANbus, remote monitorin
 - **Design characteristics, with citations:**
   - [[CAN Interface]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
   - [[Hibernation Mode]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
+- **Related products and how they differ (offeredWith):**
+  - [[Stryten X-7 Charger]]: no difference stated in the sources.
+  - [[Stryten X-3 Charger]]: no difference stated in the sources.
 
 ## Aliases
 

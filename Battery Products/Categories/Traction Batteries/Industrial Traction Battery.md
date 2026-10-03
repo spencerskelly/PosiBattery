@@ -10,11 +10,12 @@ tags:
 abstract: true
 supertypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
-  - "[[Valve-Regulated Lead-Acid Traction Battery]]"
   - "[[Lithium-Ion Traction Battery]]"
+  - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:
   - "[[Offerings by Organization]]"
   - "[[Catalog Review 2026-10-02]]"
+  - "[[Note Standard (Example)]]"
 ---
 
 # Industrial Traction Battery
@@ -25,7 +26,7 @@ Reusable family for industrial traction batteries that power forklifts, pallet t
 
 ## Notes
 
-- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical because the schema has no electrochemical or assembly kind (Q12).
+- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical (owner decision 2026-10-02: electrical means anything electricity passes through).
 
 ## Aliases
 

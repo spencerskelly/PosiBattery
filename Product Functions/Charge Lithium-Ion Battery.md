@@ -21,6 +21,7 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Charge Lithium-Ion Battery
@@ -47,6 +48,7 @@ Charge lithium-ion batteries with a profile suited to them.
   - [[Green Cubes SAFEFlex Charger]] (V): <https://www.globalspec.com/FeaturedProducts/Detail/GreenCubesTechnology/Chargers/354867/1>
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Delta-Q IC650]] (V): <https://eepower.com/new-industry-products/delta-q-introduces-can-bus-functionality-to-the-ic650-charger/>
+  - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

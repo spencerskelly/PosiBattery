@@ -11,22 +11,22 @@ abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"
 supertypeOf:
-  - "[[EnerSys NexSys iON Battery]]"
-  - "[[Exide Sonnenschein Lithium Battery]]"
-  - "[[Exide Solition Light Traction Battery]]"
-  - "[[Exide GNB Lithium Battery 2.0]]"
-  - "[[Deka Ready Power Lithium Battery]]"
-  - "[[Stryten M-Series Li600 Battery]]"
-  - "[[Stryten M-Series Li610 Battery]]"
-  - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[Deka Ready Power Lithium Battery]]"
+  - "[[EnerSys NexSys iON Battery]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
+  - "[[Exide Solition Light Traction Battery]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Flux Power GSE Pack]]"
   - "[[Flux Power LiFT Pack]]"
   - "[[Flux Power S-Series Battery]]"
-  - "[[Flux Power GSE Pack]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
-  - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
+  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Stryten M-Series Li610 Battery]]"
 ---
 
 # Lithium-Ion Traction Battery
@@ -37,7 +37,7 @@ Lithium-ion traction battery, in this survey mostly lithium iron phosphate, with
 
 ## Notes
 
-- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical because the schema has no electrochemical or assembly kind (Q12).
+- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical (owner decision 2026-10-02: electrical means anything electricity passes through).
 
 ## Aliases
 

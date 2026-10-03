@@ -16,6 +16,8 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten EHY Charger]]"
+  - "[[Stryten EHF Charger]]"
 ---
 
 # Charge Battery Conventionally
@@ -37,6 +39,8 @@ Recharge a battery over a full shift break or overnight at a tapering rate, typi
   - [[Crown Battery EVOLUTION Series]] (V): <https://crownbattery.com/lp-power-line>
   - [[AMETEK Prestolite Power Eclipse II]] (V): <https://www.fleetowner.com/equipment/news/updated-industrial-battery-charger-1115>
   - [[AMETEK Prestolite Power ULTRA]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
+  - [[Stryten EHY Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[Stryten EHF Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

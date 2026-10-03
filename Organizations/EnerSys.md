@@ -43,6 +43,15 @@ Industrial battery and charger maker whose motive-power brands include Hawker, N
 
 ## Notes
 
+- **Identity:** industrial battery, charger and monitoring maker; roles [[Battery Maker]], [[Charger Maker]], [[Monitor Maker]]; brands include Hawker, NexSys, IRONCLAD, General Battery, Fiamm Motive Power, Oldham and Express (secondary source).
+- **Makes, by kind (links are the authoritative list):**
+  - Batteries: [[EnerSys NexSys TPPL Battery]], [[EnerSys NexSys iON Battery]], [[EnerSys IRONCLAD Battery]]
+  - Chargers: [[EnerSys NexSys+ Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys Express Charger]], [[EnerSys NexSys COMpact Charger]], [[EnerSys NexSys AIR Wireless Charger]]
+  - Monitors and displays: [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[EnerSys Truck iQ]]
+- **How the products fit together:** the Wi-iQ monitor feeds battery type, voltage and temperature to the NexSys+ chargers; the COMpact charger embeds Wi-iQ functions; Truck iQ shows Wi-iQ data on the truck. Details and differences are on [[EnerSys Wi-iQ]].
+- **Channels and partners:** distributed by [[Western Materials]] (dealer listing); integrates with [[Hyster-Yale]] (NexSys TPPL approved with Power Cellect and Power Key; not white label).
+- **Gaps and to-do:** battery lines not yet modeled (Express, NexSys TPPL Bloc), software (Xinx, LifeNetwork iQ, E Connect), charger ratings, battery specs, OEM supply relationships (none found).
+- **Source history (earlier bullets kept as written):**
 - **Role (working label, not a governed property):** battery maker and monitor maker.
 - EnerSys motive-power batteries are marketed principally under the Hawker, NexSys, IRONCLAD, General Battery, Fiamm Motive Power, Oldham and Express brands. Source: Wikipedia (T4), retrieved 2026-10-02. <https://en.wikipedia.org/wiki/EnerSys>
 - EnerSys's forklift page lists flooded lead-acid, TPPL and lithium-ion batteries, NexSys TPPL, NexSys iON, IRONCLAD, Express and TPPL Bloc lines, and the Xinx and Wi-iQ reporting systems. Source: EnerSys forklift and pallet truck page (T1), retrieved 2026-10-02. <https://www.enersys.com/en/industries/logistics-warehousing/forklifts-pallet-trucks/>

@@ -25,7 +25,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **After:** 0 products without a maker or offerer; 38 battery product notes under four chemistry families; 5 chargers without function or design links; 7 chargers without offered-with links; 53 products with no numeric spec. This number rose because the 38 new battery notes mostly record features and names; their specs are listed as a backlog item.
 - **Fixes made:** four missing organizations added (Access Control Group, Energywith, Flow-Rite, Inventus Power) and linked to their products; 38 battery lines added with chemistry families; 10 charger functions and 17 charger and battery designs added and mapped with a URL per link; battery-charger-monitor offered-with links added; [[Offerings by Organization]] generated.
 - **Chargers still without an offered-with link (7):** [[Crown Battery EVOLUTION Series]], [[Delta-Q IC650]], [[EnerSys NexSys AIR Wireless Charger]], [[Fronius SelectION]], [[Lester Summit Series II]], [[PosiCharge SVS200]], [[Raymond Red Charger]]. Their sources name no companion battery or monitor.
-- **Spec gaps (no numeric spec found in the note):** [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power Site Probe]], [[AMETEK Prestolite Power TruBid]], [[Access Control Group CellTrac]], [[Access Control Group CellVue]], [[Crown Battery Health Monitor]], [[Crown V-Force BMID]], [[Crown V-Force Lead-Acid Battery]], [[Crown V-Force Lithium-Ion ESS]], [[Delta-Q IC650]], [[Deka D-Series Battery]], [[Deka Dominator Battery]], [[Deka FastCharge Battery]], [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Deka Ready Power Lithium Battery]], [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys IRONCLAD Battery]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys COMpact Charger]], [[EnerSys NexSys TPPL Battery]], [[EnerSys NexSys iON Battery]], [[EnerSys NexSys+ Charger]], [[EnerSys Truck iQ]], [[Energywith withBMS BMU]], [[Exide Element HF Charger]], [[Exide Element VRLA Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Motion+ Lithium Charger]], [[Exide Solition Light Traction Battery]], [[Exide Sonnenschein Lithium Battery]], [[Exide TENSOR xGEL Battery]], [[Flow-Rite Maverick Battery Watering System]], [[Flux Power S-Series Battery]], [[Fronius SelectION]], [[Fronius TagID]], [[Green Cubes SAFEFlex Charger]], [[HOPPECKE trak charger HF premium]], [[HOPPECKE trak power Lithium Battery]], [[HOPPECKE trak uplift air Battery]], [[HOPPECKE trak uplift iQ Battery]], [[Hyster Battery Tracker]], [[Yale Battery Vision]], [[Midac PzS Traction Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Power Designers PowerTrac Monitor]], [[Raymond iBattery]], [[Stryten M-Series F110 Battery]], [[Stryten M-Series T300 Battery]], [[Stryten M-Series T330 Battery]]. Most gaps are products where only trade-press or a product page was retrieved; data sheets exist for several and are listed in [[Investigation Backlog]].
+- **Spec gaps (no numeric spec found in the note):** [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power Site Probe]], [[AMETEK Prestolite Power TruBid]], [[Access Control Group CellTrac]], [[Access Control Group CellVue]], [[Crown Battery Health Monitor]], [[Crown V-Force BMID]], [[Crown V-Force Lead-Acid Battery]], [[Crown V-Force Lithium-Ion ESS]], [[Delta-Q IC650]], [[Deka D-Series Battery]], [[Deka Dominator Battery]], [[Deka FastCharge Battery]], [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Deka Ready Power Lithium Battery]], [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys IRONCLAD Battery]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys COMpact Charger]], [[EnerSys NexSys TPPL Battery]], [[EnerSys NexSys iON Battery]], [[EnerSys NexSys+ Charger]], [[EnerSys Truck iQ]], [[Energywith withBMS BMU]], [[Exide Element HF Charger]], [[Exide Element VRLA Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Motion+ Lithium Charger]], [[Exide Solition Light Traction Battery]], [[Exide Sonnenschein Lithium Battery]], [[Exide TENSOR xGEL Battery]], [[Flow-Rite Maverick Battery Watering System]], [[Flux Power S-Series Battery]], [[Fronius SelectION]], [[Fronius TagID]], [[Green Cubes SAFEFlex Charger]], [[HOPPECKE trak charger HF premium]], [[HOPPECKE trak power Lithium Battery]], [[HOPPECKE trak uplift air Battery]], [[HOPPECKE trak uplift iQ Battery]], [[Hyster Battery Tracker]], [[Yale Battery Vision]], [[Midac PzS Traction Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Power Designers PowerTrac Monitor]], [[Raymond iBattery]], [[Stryten EHF Charger]], [[Stryten EHI Charger]], [[Stryten EHY Charger]], [[Stryten M-Series AGM200 Battery]], [[Stryten M-Series F100 Battery]], [[Stryten M-Series F110 Battery]], [[Stryten M-Series T300 Battery]], [[Stryten X-3 Charger]]. Documents for the owner to download are listed in [[Investigation Backlog]].
 - **Features:** monitor features are the Function and Design notes from earlier rounds; charger and battery features were added this round. Features that are only prose (for example Deka 'battery to charger communication devices', Exide AIR agitation specifics) are noted on the product or organization note.
 - **Schema gaps:** batteries use Object subtype electrical although no kind fits an electrochemical assembly (Q12); organizations are Info notes (Q8, Q9). Light-duty chargers (Lester, Delta-Q) were kept as comparison points pending Q11.
 - **Connection rule checked:** every non-abstract product has a maker or offerer; every product has a chemistry or category parent; every link has its inverse; every function and design link has a cited URL; every business link is in [[Business Relationship Ledger]].
@@ -45,13 +45,13 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[ACT Quantum 2]] | [[Advanced Charging Technologies]] | charger | 7 | 1 | 3 | defined |
 | [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 3 | defined |
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
-| [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 11 | 3 | 5 | defined |
+| [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 11 | 3 | 10 | defined |
 | [[Crown Battery EVOLUTION Series]] | [[Crown Battery Manufacturing]] | charger | 5 | 0 | 2 | partial |
 | [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 0 | 0 | none |
 | [[Crown V-Force BMID]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown V-Force Lead-Acid Battery]] | [[Crown Equipment]] | battery | 0 | 1 | 0 | none |
 | [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 1 | 1 | 0 | none |
-| [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 3 | 4 | defined |
+| [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 3 | 24 | defined |
 | [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 3 | 0 | 0 | none |
 | [[Deka ChargeMate Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 2 | partial |
 | [[Deka D-Series Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
@@ -73,7 +73,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
 | [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 3 | 2 | 0 | none |
 | [[EnerSys Truck iQ]] | [[EnerSys]] | monitor | 6 | 1 | 0 | none |
-| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 15 | defined |
+| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 33 | defined |
 | [[EnerSys iQ Mini]] | [[EnerSys]] | monitor | 8 | 0 | 2 | partial |
 | [[Energywith withBMS BMU]] | [[Energywith]] | monitor | 7 | 0 | 0 | none |
 | [[Exide Element HF Charger]] | [[Exide Technologies]] | charger | 1 | 1 | 0 | none |
@@ -99,7 +99,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Green Cubes SAFEFlex Charger]] | [[Green Cubes Technology]] | charger | 1 | 2 | 0 | none |
 | [[Green Cubes SAFEFlex PLUS Battery]] | [[Green Cubes Technology]] | battery | 0 | 0 | 1 | partial |
 | [[HOPPECKE trak charger HF premium]] | [[HOPPECKE]] | charger | 1 | 3 | 0 | none |
-| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 18 | 2 | 4 | defined |
+| [[HOPPECKE trak collect]] | [[HOPPECKE]] | monitor | 20 | 2 | 46 | defined |
 | [[HOPPECKE trak power Lithium Battery]] | [[HOPPECKE]] | battery | 1 | 0 | 0 | none |
 | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE]] | battery | 1 | 1 | 0 | none |
 | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE]] | battery | 2 | 2 | 0 | none |
@@ -130,13 +130,22 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Power Designers REVOLUTION X]] | [[Power Designers]] | charger | 7 | 2 | 12 | defined |
 | [[Raymond Red Charger]] | [[Raymond]] | charger | 4 | 0 | 2 | partial |
 | [[Raymond iBattery]] | [[Raymond]] | monitor | 11 | 0 | 0 | none |
-| [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 1 | partial |
+| [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 0 | 0 | none |
+| [[Stryten EHI Charger]] | [[Stryten Energy]] | charger | 4 | 0 | 0 | none |
+| [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 0 | 0 | none |
+| [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
+| [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 3 | defined |
+| [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 3 | defined |
+| [[Stryten M-Series F100 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
 | [[Stryten M-Series F110 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
-| [[Stryten M-Series Li600 Battery]] | [[Stryten Energy]] | battery | 2 | 1 | 1 | partial |
-| [[Stryten M-Series Li610 Battery]] | [[Stryten Energy]] | battery | 5 | 1 | 1 | partial |
+| [[Stryten M-Series Li600 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
+| [[Stryten M-Series Li610 Battery]] | [[Stryten Energy]] | battery | 5 | 2 | 1 | partial |
 | [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
-| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 0 | 0 | none |
+| [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 0 | 1 | partial |
+| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 0 | 2 | partial |
+| [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 5 | 2 | 0 | none |
 | [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 6 | 2 | 2 | partial |
+- **Update (round 9):** exemplars and the layout are in [[Note Standard (Example)]]; full specs added for [[HOPPECKE trak collect]], [[Crown V-HFM3 Charger]] and the Stryten lineup; spec-gap count now 58.
 
 ## Aliases
 

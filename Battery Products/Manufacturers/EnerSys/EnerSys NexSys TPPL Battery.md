@@ -32,6 +32,9 @@ EnerSys thin plate pure lead battery line, described as virtually maintenance-fr
 - EnerSys's forklift page lists NexSys TPPL and NexSys TPPL Bloc batteries. Source: EnerSys forklift page (T1), retrieved 2026-10-02. <https://www.enersys.com/en/industries/logistics-warehousing/forklifts-pallet-trucks/>
 - **Design characteristics, with citations:**
   - [[Thin Plate Pure Lead Plates]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+- **Related products and how they differ (offeredWith):**
+  - [[EnerSys NexSys+ Charger]]: profiles exist for NexSys TPPL; the iON profile is truncated in the retrieved text.
+  - [[EnerSys Wi-iQ]]: no difference stated in the sources.
 
 ## Aliases
 

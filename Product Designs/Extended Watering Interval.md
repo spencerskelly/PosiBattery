@@ -8,9 +8,10 @@ tags:
   - battery
   - design-characteristic
 designOf:
-  - "[[Exide MARATHON Battery]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[Deka MaintenanceSaver Battery]]"
+  - "[[Exide MARATHON Battery]]"
+  - "[[Stryten M-Series T310 Battery]]"
 ---
 
 # Extended Watering Interval
@@ -27,6 +28,7 @@ Battery design that lengthens the interval between water refills.
   - [[Exide MARATHON Battery]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
   - [[Deka MaintenanceSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=240>
+  - [[Stryten M-Series T310 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

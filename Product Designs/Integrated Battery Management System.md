@@ -8,14 +8,14 @@ tags:
   - battery
   - design-characteristic
 designOf:
-  - "[[Exide Solition Light Traction Battery]]"
-  - "[[Exide GNB Lithium Battery 2.0]]"
-  - "[[Deka Ready Power Lithium Battery]]"
-  - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[Deka Ready Power Lithium Battery]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
+  - "[[Exide Solition Light Traction Battery]]"
   - "[[Flux Power S-Series Battery]]"
-  - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
 ---
 

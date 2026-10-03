@@ -9,6 +9,7 @@ tags:
   - design-characteristic
 designOf:
   - "[[AMETEK Prestolite Power WBID]]"
+  - "[[Stryten EHI Charger]]"
 ---
 
 # DC-Cable Power-Line Communication
@@ -24,6 +25,7 @@ Communication between battery device and charger carried on the DC charging cabl
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[AMETEK Prestolite Power WBID]] (V): <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
+  - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

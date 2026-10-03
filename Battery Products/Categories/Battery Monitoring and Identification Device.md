@@ -21,9 +21,9 @@ supertypeOf:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Power Designers PowerTrac DT3]]"
 describedBy:
+  - "[[Offerings by Organization]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"
-  - "[[Offerings by Organization]]"
 ---
 
 # Battery Monitoring and Identification Device

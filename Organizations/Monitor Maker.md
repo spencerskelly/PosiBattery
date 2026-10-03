@@ -9,19 +9,19 @@ tags:
   - business-role
 rolePlayedBy:
   - "[[AMETEK Prestolite Power]]"
+  - "[[Access Control Group]]"
   - "[[Advanced Charging Technologies]]"
   - "[[Aker Wade Power Technologies]]"
   - "[[EnerSys]]"
+  - "[[Energywith]]"
   - "[[Exide Technologies]]"
+  - "[[Flow-Rite]]"
   - "[[Fronius International]]"
   - "[[HOPPECKE]]"
+  - "[[Inventus Power]]"
   - "[[Philadelphia Scientific]]"
   - "[[PosiCharge]]"
   - "[[Power Designers]]"
-  - "[[Access Control Group]]"
-  - "[[Energywith]]"
-  - "[[Flow-Rite]]"
-  - "[[Inventus Power]]"
 ---
 
 # Monitor Maker

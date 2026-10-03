@@ -17,6 +17,7 @@ designOf:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Modular Power Modules
@@ -39,6 +40,7 @@ Charger built from parallel power modules so output scales and a failed module d
   - [[Power Designers REVOLUTION X]] (V): <https://www.carolinahandling.com/-/media/dealers/carolina-handling/literature/battery-chargers/ch-rev-series_overview_01-2017.pdf>
   - [[Raymond Red Charger]] (V): <https://www.carolinahandling.com/products/raymond-red-charger>
   - [[Crown Battery EVOLUTION Series]] (V): <https://crownbattery.com/lp-power-line>
+  - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

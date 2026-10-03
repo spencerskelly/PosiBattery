@@ -50,6 +50,10 @@ Power Designers modular high-frequency charger series for conventional, opportun
 - **Design characteristics, with citations:**
   - [[Modular Power Modules]] (V): <https://www.carolinahandling.com/-/media/dealers/carolina-handling/literature/battery-chargers/ch-rev-series_overview_01-2017.pdf>
   - [[Multi-Voltage Output]] (V): <https://www.carolinahandling.com/-/media/dealers/carolina-handling/literature/battery-chargers/ch-rev-series_overview_01-2017.pdf>
+- **Related products and how they differ (offeredWith):**
+  - [[Power Designers PowerTrac 3]]: PowerTrac 3 lets the REVOLUTION recognize battery voltage and Ah capacity.
+  - [[Power Designers PowerTrac SP+]]: SP+ connects through an RS-485 PowerCharge interface option.
+- **Rebrands and how they differ:** [[Raymond Red Charger]] (dealer pages use Raymond naming and an 'RV' model scheme) and [[Crown Battery EVOLUTION Series]] (repeats the REVOLUTION text under another name). No source states a difference in hardware or the supply agreement (C33).
 
 ## Aliases
 

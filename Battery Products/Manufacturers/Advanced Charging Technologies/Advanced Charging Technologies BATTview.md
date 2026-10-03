@@ -61,6 +61,10 @@ ACT battery monitor that exchanges data with ACT Quantum chargers and reports to
 - **Design characteristics, with citations:**
   - [[Wi-Fi Interface]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
 - **Sources used for the mapping above:** ACT Battview spec sheet (MHI member site) <https://og.mhi.org/media/members/41607/133717592244521430.pdf>; DC Velocity on BATTview-Quantum integration <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors>; Airside International on ACT GSE charger and BATTview <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
+- **Related products and how they differ (offeredWith):**
+  - [[ACT Quantum 2]]: all three Quantum chargers appear with Battview on their sheets; they differ in voltage range, efficiency and enclosure.
+  - [[ACT Quantum 3]]: Quantum 3 covers 24 to 120 V and over 96.4 percent peak efficiency versus 24 to 96 V and over 94 percent.
+  - [[ACT Quantum Outdoor]]: outdoor model with a NEMA 3R enclosure, also sold as Quantum GSE.
 
 ## Aliases
 

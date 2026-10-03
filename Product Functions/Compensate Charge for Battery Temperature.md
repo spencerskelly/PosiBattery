@@ -16,6 +16,7 @@ performedBy:
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[Lester Summit Series II]]"
   - "[[PosiCharge DVS100]]"
+  - "[[Stryten EHI Charger]]"
 ---
 
 # Compensate Charge for Battery Temperature
@@ -37,6 +38,7 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[AMETEK Prestolite Power ULTRA]] (V): <https://www.mhlnews.com/archive/ultra-industrial-battery-chargers>
   - [[Fronius Selectiva 4.0]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
+  - [[Stryten EHI Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

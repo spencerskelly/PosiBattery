@@ -9,6 +9,7 @@ tags:
   - design-characteristic
 designOf:
   - "[[Stryten X-7 Charger]]"
+  - "[[Stryten X-3 Charger]]"
 ---
 
 # Silicon-Carbide Power Stage
@@ -23,6 +24,7 @@ Power electronics built on silicon-carbide devices for efficiency.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Stryten X-7 Charger]] (V): <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>
+  - [[Stryten X-3 Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

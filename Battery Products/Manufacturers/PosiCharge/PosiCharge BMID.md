@@ -74,6 +74,9 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
 - **Sources used for the mapping above:** PosiCharge FAQ <https://www.posicharge.com/faq/>; PosiCharge ground support equipment page <https://www.posicharge.com/airport-ground-support-equipment/>; PosiCharge ProCore Edge page (wireless BMID) <https://www.posicharge.com/procoreedge>
 - PosiCharge's GSE charger page lists as a key feature that the Smart Battery Monitor and Identification Device (BMID) instantly recognizes voltage, state of charge and temperature. Source: PosiCharge ground support equipment page (T1), retrieved 2026-10-02. <https://www.posicharge.com/airport-ground-support-equipment/>
 - PosiCharge's ProCore Edge page says the charger has CAN/Lithium, BMID and Voltage automatic modes, and communicates with wireless BMIDs through Bluetooth. Source: PosiCharge ProCore Edge page (T1), retrieved 2026-10-02. <https://www.posicharge.com/procoreedge>
+- **Related products and how they differ (offeredWith):**
+  - [[PosiCharge DVS100]]: the DVS100 page lists the BMID as a feature of the charger (with an electrolytic thermistor).
+  - [[PosiCharge ProCore Edge]]: ProCore Edge communicates with wireless BMIDs over Bluetooth and has a BMID automatic mode, so the BMID here is the wireless variant.
 
 ## Aliases
 

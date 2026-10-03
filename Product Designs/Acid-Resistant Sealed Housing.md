@@ -11,6 +11,7 @@ designOf:
   - "[[Crown V-Force BMID]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
+  - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
@@ -36,6 +37,7 @@ Housing designed to resist acid, spills, water or pressure washing.
   - [[Philadelphia Scientific eGO!pro]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
   - [[Flow-Rite Eagle Eye Essential IV]] (V): <https://mhwmag.com/?p=86116>
   - [[Power Designers PowerTrac DT3]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
+  - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
 
 ## Aliases
 

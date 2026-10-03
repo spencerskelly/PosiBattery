@@ -37,6 +37,9 @@ EnerSys programmable modular high-frequency charger for mixed lead and lithium f
 - **Design characteristics, with citations:**
   - [[Modular Power Modules]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
   - [[Outdoor-Rated Charger Enclosure]] (V): <https://enersys.com/496812/globalassets/documents/product-documentation/_enersys/apac/apac-en-pg-0423.pdf>
+- **Related products and how they differ (offeredWith):**
+  - [[EnerSys Wi-iQ]]: no difference stated in the sources.
+  - [[EnerSys NexSys TPPL Battery]]: profiles exist for NexSys TPPL; the iON profile is truncated in the retrieved text.
 
 ## Aliases
 

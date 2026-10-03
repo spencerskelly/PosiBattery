@@ -50,6 +50,9 @@ AMETEK Prestolite Power Battery Identification Device that provides a compatible
 - **Design characteristics, with citations:**
   - [[Non-Volatile Event Memory]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
 - **Sources used for the mapping above:** Prestolite BID page <https://www.prestolitepower.com/products/datadevices/bid>; Prestolite BID with Ah Accumulator data sheet (Aug 2018, dated) <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
+- **Related products and how they differ (offeredWith):**
+  - [[AMETEK Prestolite Power Eclipse II]]: on the Eclipse II the BID is optional and holds capacity, voltage and battery type.
+  - [[AMETEK Prestolite Power ULTRA]]: on the ULTRA opportunity and fast models a BID is required to monitor battery temperature.
 
 ## Aliases
 

@@ -11,22 +11,24 @@ abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"
 supertypeOf:
-  - "[[EnerSys IRONCLAD Battery]]"
-  - "[[Exide MARATHON Battery]]"
+  - "[[Crown V-Force Lead-Acid Battery]]"
+  - "[[Deka ChargeMate Battery]]"
   - "[[Deka D-Series Battery]]"
   - "[[Deka Dominator Battery]]"
   - "[[Deka FastCharge Battery]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[Deka MaintenanceSaver Battery]]"
-  - "[[Deka ChargeMate Battery]]"
   - "[[Deka MaxPowr Battery]]"
-  - "[[Stryten M-Series T330 Battery]]"
-  - "[[Stryten M-Series T300 Battery]]"
-  - "[[Stryten M-Series F110 Battery]]"
+  - "[[EnerSys IRONCLAD Battery]]"
+  - "[[Exide MARATHON Battery]]"
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
-  - "[[Crown V-Force Lead-Acid Battery]]"
   - "[[Midac PzS Traction Battery]]"
+  - "[[Stryten M-Series F110 Battery]]"
+  - "[[Stryten M-Series T300 Battery]]"
+  - "[[Stryten M-Series T330 Battery]]"
+  - "[[Stryten M-Series T310 Battery]]"
+  - "[[Stryten M-Series F100 Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery
@@ -37,7 +39,7 @@ Vented traction battery with liquid electrolyte that needs periodic watering.
 
 ## Notes
 
-- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical because the schema has no electrochemical or assembly kind (Q12).
+- Abstract family for organizing traction batteries; the sub-types are chemistry-based. Battery Objects use subtype electrical (owner decision 2026-10-02: electrical means anything electricity passes through).
 
 ## Aliases
 

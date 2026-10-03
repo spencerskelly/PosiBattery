@@ -8,8 +8,9 @@ tags:
   - battery
   - design-characteristic
 designOf:
-  - "[[Stryten M-Series T330 Battery]]"
   - "[[Midac PzS Traction Battery]]"
+  - "[[Stryten M-Series T330 Battery]]"
+  - "[[Stryten M-Series T310 Battery]]"
 ---
 
 # Tubular Plate Construction
@@ -25,6 +26,7 @@ Tubular positive plates.
 - **Sources** (product, evidence level, web page):
   - [[Stryten M-Series T330 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[Midac PzS Traction Battery]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+  - [[Stryten M-Series T310 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 
