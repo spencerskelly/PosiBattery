@@ -1,21 +1,29 @@
 # Performance Metrics
 
-## What is here
+## Purpose
 
-The dictionary of performance metrics used to compare monitors, chargers and traction batteries: one Info note per metric, with its unit, definition, comparability rule, direction, and the values on file for each product.
+This folder defines the reusable comparison dimensions used to evaluate products, designs, and market offerings. The notes describe what each metric means, how it can be characterized, and where it applies; they are not product-specific measurements by themselves.
 
-## What belongs here
+## Key metric groups
 
-- one note per metric, titled by class: Monitor Metric, Charger Metric, Battery Metric (codes MM01 to MM15, CM01 to CM15, BM01 to BM12, TM01 to TM06 for truck-side devices; CM16 to CM18 were added later)
-- each metric links to the Functions and Designs it measures and to the product family it applies to
-- values are copied from the product notes, which hold the source URLs; the comparability rule says what must be true before two values are compared
+- **Battery and charging:** [[Metric - Capacity]], [[Metric - Nominal Voltage Range]], [[Metric - Chemistries Supported]], [[Metric - Charge Time]], [[Metric - Charge Regimes]], [[Metric - Charge Regimes Supported]], [[Metric - Cycle Life and Warranty]], and [[Metric - Full-Cycle Efficiency]].
+- **Electrical and mechanical:** [[Metric - Output Power and Current]], [[Metric - Input Voltage and Phase]], [[Metric - Size and Mass]], [[Metric - Ingress and Enclosure Protection]], and [[Metric - Operating Temperature Range]].
+- **Monitoring and sensing:** [[Metric - Voltage Measurement]], [[Metric - Current Measurement]], [[Metric - Temperature Sensing]], [[Metric - Electrolyte Level Sensing]], [[Metric - Detection Technology]], and [[Metric - Detection Range and Accuracy]].
+- **Connectivity and integration:** [[Metric - BMS and Communication]], [[Metric - Communication and Remote Management]], [[Metric - Charger Link]], [[Metric - Wired and Vehicle Interfaces]], and [[Metric - Wireless Interfaces and Range]].
+- **Commercial and lifecycle:** [[Metric - Availability]], [[Metric - Certifications and Standards]], and [[Metric - Warranty and Price]].
 
-## Start here
+## Navigation
 
-- [[Monitor Comparison Matrix]], [[Charger Comparison Matrix]], [[Battery Comparison Matrix]] (in `Research`)
-- [[Metric - Current Measurement]], [[Metric - Peak Efficiency]], [[Metric - Watering Interval]] as examples
-- [Local contents](./BASE_local_Performance%20Metrics.base) and [all contents](./BASE_all_Performance%20Metrics.base)
+- `BASE_all_Performance Metrics.base` — view across all metric notes.
+- `BASE_local_Performance Metrics.base` — locally scoped metric view.
 
-## Related
+## Related areas
 
-Product notes are in `Products`; behaviors in `Product Functions`; characteristics in `Product Designs`; the layout rule is in [[Note Standard (Example)]].
+- [[../Products/README_Products|Products]] — entities being compared.
+- [[../Product Functions/README_Product Functions|Product Functions]] — capabilities that motivate metric selection.
+- [[../Product Designs/README_Product Designs|Product Designs]] — implementation choices that affect metric outcomes.
+- [[../Research/README_Research|Research]] — matrices and analyses that apply these metrics.
+
+## Maintenance
+
+Create a metric note when a comparison dimension is reusable across more than one product or technology family. Keep metric definitions distinct from evidence, results, and product claims, which belong in source, product, or research records.

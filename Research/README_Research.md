@@ -1,23 +1,31 @@
 # Research
 
-## What is here
+## Purpose
 
-Evidence registers, competitor comparisons, conflict logs and working conventions for the battery product survey. Notes here are Info notes that describe the products in `Products`.
+This folder contains synthesized analysis, comparison work, modeling guidance, audits, open questions, and prioritized future investigation. Research notes connect source evidence and catalog records to decision-ready views of the industrial battery and vehicle-technology landscape.
 
-## What belongs here
+## Key information
 
-- the survey scope and method: [[Battery Product Landscape]]
-- conventions for evidence tiers, dating and conflict handling: [[Landscape Evidence and Modeling Conventions]]
-- every unresolved difference between sources or between earlier and later text: [[Battery Product Landscape Conflicts and Open Questions]]
-- focused comparisons: [[BMID Competitor Landscape]], [[PosiCharge BMID Variants]], [[Function Map]], [[Design Map]], [[Monitor Comparison Matrix]]
-- market drivers: [[SLC Airport EGSE BMID Requirement]]
-- directions to follow up from every search: [[Investigation Backlog]]
-- link quality: [[Link Audit]] (which addresses are files, pages or home pages) and [[Document Wishlist]] (documents wanted, with link types)
+- [[Battery Product Landscape]] — consolidated view of battery-related offerings.
+- [[Battery Product Landscape Conflicts and Open Questions]] — unresolved or conflicting product-landscape evidence.
+- [[Catalog Review 2026-10-02]] — catalog review findings.
+- [[Battery Comparison Matrix]], [[Charger Comparison Matrix]], [[Monitor Comparison Matrix]], [[Truck Device Comparison Matrix]], and [[Forklift Offerings Matrix]] — comparative analyses.
+- [[BMID Competitor Landscape]] and [[Battery Installed Device Market Reference]] — battery-monitoring and installed-device market analysis.
+- [[Function Map]], [[Design Map]], and [[Function and Design Levels]] — relationships between functions, designs, and modeling levels.
+- [[Landscape Evidence and Modeling Conventions]] — evidence and modeling rules used in landscape work.
+- [[Investigation Backlog]] and [[Document Wishlist]] — future evidence-gathering and research work.
+- [[Link Audit]], [[Note Reuse Audit]], and [[Unidentified Products Review]] — quality and coverage reviews.
+- [[ICE and Fuel Cell Feature Gap Review]] and [[SLC Airport EGSE BMID Requirement]] — focused opportunity/requirement analysis.
+- [[CANVAS_Research]] — visual research map.
+- `BASE_all_Research.base` and `BASE_local_Research.base` — research views.
 
-## Start here
+## Related areas
 
-Read the conflicts note first, then the competitor landscape. New findings that contradict an existing note are added beside the original text and logged as a numbered conflict.
+- [[../Downloads/README_Downloads|Downloads]] — acquired raw material awaiting or supporting review.
+- [[../Source Documents/README_Source Documents|Source Documents]] — curated primary-source records.
+- [[../Organizations/README_Organizations|Organizations]] and [[../Products/README_Products|Products]] — entity and offering records used by research.
+- [[../Product Functions/README_Product Functions|Product Functions]], [[../Product Designs/README_Product Designs|Product Designs]], and [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — reusable analytical dimensions.
 
-## Related
+## Maintenance
 
-Product definitions are in `Products`. Local contents: [BASE_local](./BASE_local_Research.base); all contents: [BASE_all](./BASE_all_Research.base); map: [[CANVAS_Research]].
+Separate evidence from interpretation. Record conflicts and unknowns in named research notes or the investigation backlog; do not silently collapse contradictory claims. Update matrices when definitions, source evidence, or comparable product data changes.

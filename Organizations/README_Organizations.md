@@ -1,27 +1,32 @@
 # Organizations
 
-## What is here
+## Purpose
 
-Companies that make, brand or sell industrial batteries, chargers and battery monitors, and the documented relationships between them, including private-label, powered-by and integration arrangements.
+This folder contains organization records and market-role concepts for companies that make, sell, distribute, integrate, operate, or otherwise influence industrial batteries, chargers, monitoring products, forklifts, fuel-cell systems, ground-support equipment, and fleet technology.
 
-## What belongs here
+## Contents
 
-- one Info note per organization, tagged `organization`, with a working role label (battery maker, truck OEM, charger or monitor maker)
-- [[Industrial Battery Supply and Private-Label Relationships]], the register of relationships with evidence status
-- [[Business Relationship Vocabulary]] and [[Business Relationship Ledger]]: provisional YAML relationships (makes, offers, partnerOf, offeredWith and others) and the source behind every link
-- [[Offerings by Organization]] (generated roll-up of what each organization offers) and [BASE_offerings](./BASE_offerings.base) (products by maker)
-- [[Forklift Offerings Matrix]]: truck makers, their model families and what is sold with them
-- role notes ([[Battery Maker]], [[Truck OEM]], [[Charger Maker]], [[Monitor Maker]], [[Brand Owner]], [[Dealer or Distributor]])
-- [[Products Offered or Promoted with Industrial Batteries]], the matrix of chargers, monitors, watering, software and trucks named alongside each maker's batteries
-- nothing here is a governed MDSE type; the vault has no Organization class yet (see Q8 in [[Battery Product Landscape Conflicts and Open Questions]])
+- Individual organization notes, including battery makers, charger makers, truck OEMs, distributors, software vendors, and accessory makers.
+- Role/type notes such as [[Battery Maker]], [[Charger Maker]], [[Truck OEM]], [[Dealer or Distributor]], [[Monitor Maker]], and [[Software Vendor]].
+- Evidence-backed relationship records and offering indexes.
 
-## Start here
+## Key information
 
-- [[Industrial Battery Supply and Private-Label Relationships]]
-- [[Flux Power]] for the only explicit private-label relationships found
-- [[EnerSys]], [[Hyster-Yale]], [[PosiCharge]]
-- [Local contents](./BASE_local_Organizations.base) and [all contents](./BASE_all_Organizations.base); map: [[CANVAS_Organizations]]
+- [[Business Relationship Ledger]] — detailed relationship evidence and claims.
+- [[Business Relationship Vocabulary]] — terms used for organization-to-organization relationships.
+- [[Offerings by Organization]] — organization-centric offering index.
+- [[Products Offered or Promoted with Industrial Batteries]] — product/organization relationship index.
+- [[Industrial Battery Supply and Private-Label Relationships]] — supply-chain and private-label analysis.
+- [[CANVAS_Organizations]] — visual organization map.
+- `BASE_all_Organizations.base` and `BASE_local_Organizations.base` — organization views.
 
-## Related
+## Related areas
 
-Products made by these organizations are in `Products`; evidence and conflicts are in `Research`.
+- [[../Products/README_Products|Products]] — offerings and product categories.
+- [[../Source Documents/README_Source Documents|Source Documents]] — primary documents supporting organization claims.
+- [[../Research/README_Research|Research]] — competitor landscapes, catalog review, and unresolved relationship questions.
+- [[../Definitions/README_Definitions|Definitions]] — common relationship vocabulary and property semantics.
+
+## Maintenance
+
+Add a new organization note when evidence supports a durable entity record. Record uncertain, conflicting, or provisional relationships explicitly in the relevant ledger or research note; do not silently resolve or remove conflicts.

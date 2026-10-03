@@ -1,29 +1,37 @@
 # Products
 
-## What is here
+## Purpose
 
-Every product note, grouped by product type and then by category. Who makes, offers, distributes or supplies a product is a relationship on the product note, never a folder; each organization has one note in `Organizations`.
+This folder is the catalog of product categories, product-family concepts, and individual market offerings relevant to industrial motive power, charging, battery intelligence, fleet technology, material handling, and airport ground-support equipment.
 
-## Folder layout
+## Product domains
 
-`Products/<Type>/<Category>/<product note>`. To see all lithium batteries open `Batteries/Lithium-Ion Batteries`; all class III trucks `Forklifts/Class III Electric Hand and Hand-Rider Trucks`; all operator displays `Vehicle Accessories/Operator Displays`; all belt loaders `Ground Support Equipment/Belt Loaders`.
+- [[Batteries/Industrial Traction Battery|Batteries]] — flooded lead-acid, valve-regulated lead-acid, and lithium-ion product families.
+- [[Battery Accessories/Battery-Installed Device|Battery Accessories]] — monitoring and identification, BMS, connectors, watering, thermal management, protection, and telematics.
+- [[Chargers/Industrial Battery Charger|Chargers]] — industrial modular, light-duty, onboard, and wireless charging.
+- [[Charger Accessories/Charger Accessory|Charger Accessories]] — cable management, connector accessories, controls/indicators, and mounting.
+- [[Fleet Software and Platforms/Fleet Software and Platform|Fleet Software and Platforms]] — battery/charger management and truck telematics.
+- [[Forklifts/Powered Industrial Truck|Forklifts]] — powered industrial trucks across Classes I–VII.
+- [[Fuel Cell Power Units/Hydrogen Fuel Cell Units|Fuel Cell Power Units]] — hydrogen fuel-cell power systems.
+- [[Ground Support Equipment/Ground Support Equipment|Ground Support Equipment]] — baggage/tow tractors, belt loaders, cargo loaders, and pushback tractors.
+- [[Vehicle Accessories/Vehicle Accessory|Vehicle Accessories]] — access control, cameras, operator assistance, displays, power interfaces, detection, and warnings.
 
-- **Batteries**: [[Industrial Traction Battery]], [[Flooded Lead-Acid Traction Battery]] (`Flooded Lead-Acid Batteries`), [[Lithium-Ion Traction Battery]] (`Lithium-Ion Batteries`), [[Valve-Regulated Lead-Acid Traction Battery]] (`Valve-Regulated Lead-Acid Batteries`)
-- **Fuel Cell Power Units**: [[Fuel Cell Power Unit]]
-- **Chargers**: [[Industrial Battery Charger]], [[Industrial Modular Charger]] (`Industrial Modular Chargers`), [[Light-Duty Charger]] (`Light-Duty Chargers`), [[On-board Charger]] (`On-board Chargers`), [[Wireless Charger]] (`Wireless Chargers`)
-- **Forklifts**: [[Powered Industrial Truck]], [[Class I Electric Rider Truck]] (`Class I Electric Rider Trucks`), [[Class II Electric Narrow Aisle Truck]] (`Class II Electric Narrow Aisle Trucks`), [[Class III Electric Hand or Hand-Rider Truck]] (`Class III Electric Hand and Hand-Rider Trucks`), [[Class IV Internal Combustion Cushion Tire Truck]] (`Class IV Internal Combustion Cushion Tire Trucks`), [[Class V Internal Combustion Pneumatic Tire Truck]] (`Class V Internal Combustion Pneumatic Tire Trucks`), [[Class VI Tractor]] (`Class VI Tractors`), [[Class VII Rough Terrain Forklift]] (`Class VII Rough Terrain Forklifts`)
-- **Battery Accessories**: [[Battery Monitoring and Identification Device]], [[Battery-Installed Device]], [[Battery Management System]] (`Battery Management Systems`), [[Battery Connector Assembly]] (`Connector Assemblies`), [[Electrolyte Circulation System]] (`Electrolyte Circulation Systems`), [[Battery Identification and Charge Interface Device]] (`Identification and Charge Interface Devices`), [[Battery Monitoring Device]] (`Monitoring Devices`), [[Battery Protection and Disconnect Unit]] (`Protection and Disconnect Units`), [[Battery Telematics and Connectivity Device]] (`Telematics and Connectivity Devices`), [[Battery Thermal Management Device]] (`Thermal Management Devices`), [[Battery Water Level Monitor]] (`Water Level Monitors`), [[Battery Watering System]] (`Watering Systems`)
-- **Charger Accessories**: [[Charger Accessory]], [[Cable Management Accessory]] (`Cable Management`), [[Charger Connector Accessory]] (`Connector Accessories`), [[Charger Remote Control and Indicator]] (`Remote Controls and Indicators`), [[Charger Stand and Mounting]] (`Stands and Mounting`)
-- **Vehicle Accessories**: [[Vehicle Accessory]], [[Access Control Device]] (`Access Control`), [[Vehicle Camera and Recorder]] (`Cameras and Recorders`), [[Operator Assist and Stability System]] (`Operator Assist and Stability`), [[Operator Convenience Accessory]] (`Operator Convenience`), [[Operator Display]] (`Operator Displays`), [[Power Source Interface]] (`Power Source Interfaces`), [[Proximity and Object Detection System]] (`Proximity and Object Detection`), [[Warning Light and Alert]] (`Warning Lights and Alerts`)
-- **Fleet Software and Platforms**: [[Fleet Software and Platform]], [[Battery and Charger Management Software]] (`Battery and Charger Management`), [[Truck Telematics Software]] (`Truck Telematics`)
-- **Ground Support Equipment**: [[Ground Support Equipment]], [[GSE Baggage and Tow Tractor]] (`Baggage and Tow Tractors`), [[GSE Belt Loader]] (`Belt Loaders`), [[GSE Cargo Loader]] (`Cargo Loaders`), [[GSE Pushback Tractor]] (`Pushback Tractors`)
+## Key information
 
-## Start here
+- [[Battery-Connected Product]] — cross-cutting concept for products that connect to or interact with batteries.
+- [[CANVAS_Products]] — visual product taxonomy and relationships.
+- `BASE_all_Products.base` — view across all product records.
+- `BASE_local_Products.base` — locally scoped product view.
 
-- [[Battery-Connected Product]] (root of the taxonomy), [[Industrial Traction Battery]], [[Industrial Battery Charger]], [[Powered Industrial Truck]], [[Battery-Installed Device]], [[Charger Accessory]], [[Vehicle Accessory]], [[Fleet Software and Platform]], [[Ground Support Equipment]]
-- [Local contents](./BASE_local_Products.base) and [all contents](./BASE_all_Products.base); canvas [[CANVAS_Products.canvas]]
-- Rules: [[Note Reuse Audit]] and [[Function and Design Levels]]
+## Related areas
 
-## Related
+- [[../Organizations/README_Organizations|Organizations]] — the companies that make, sell, distribute, or promote offerings.
+- [[../Source Documents/README_Source Documents|Source Documents]] — primary evidence for product claims.
+- [[../Product Functions/README_Product Functions|Product Functions]] — capabilities products perform.
+- [[../Product Designs/README_Product Designs|Product Designs]] — technical approaches embodied by products.
+- [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — comparable product attributes.
+- [[../Research/README_Research|Research]] — matrices, landscapes, and product-catalog synthesis.
 
-Owners are in `Organizations`; behaviors in `Product Functions`; characteristics in `Product Designs`; metrics in `Performance Metrics`; evidence and conflicts in `Research`.
+## Maintenance
+
+Add a product record at the most specific supported category level. Preserve manufacturer evidence and link the record to its organization, source documents, relevant functions/designs, and applicable metrics.
