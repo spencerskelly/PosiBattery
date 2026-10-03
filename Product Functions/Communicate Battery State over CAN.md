@@ -13,6 +13,7 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[Hyster Power Cellect]]"
 ---
 
 # Communicate Battery State over CAN
@@ -30,6 +31,7 @@ Provide battery state to other equipment over a CAN network.
   - [[PosiCharge PosiGuard]] (V): <https://posicharge.com/products/posiguard/>
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf> <https://integration.enersys.com/493bb4/globalassets/documents/product-documentation/_misc/wi-iq/emea/wi-iq3-battery-monitoring-device-brochure.pdf>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
+  - [[Hyster Power Cellect]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
 
 ## Aliases
 

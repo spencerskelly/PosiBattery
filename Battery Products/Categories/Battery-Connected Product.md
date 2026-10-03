@@ -24,9 +24,9 @@ describedBy:
   - "[[Document Wishlist]]"
   - "[[Investigation Backlog]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
+  - "[[Link Audit]]"
   - "[[Note Standard (Example)]]"
   - "[[Unidentified Products Review]]"
-  - "[[Link Audit]]"
 ---
 
 # Battery-Connected Product

@@ -17,8 +17,12 @@ describedBy:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+makes:
+  - "[[Jungheinrich ETV C16 and C20]]"
 offers:
   - "[[Jungheinrich Lithium-Ion Battery]]"
+distributedBy:
+  - "[[Mitsubishi Logisnext]]"
 ---
 
 # Jungheinrich
@@ -38,6 +42,7 @@ Truck maker that describes its lithium-ion battery, charging device and vehicle 
   - Charger: charging device developed with the lithium-ion battery <https://warehousenews.co.uk/?p=45557>
   - Battery management: integrated BMS <https://warehousenews.co.uk/?p=45557>
   - Accessory: electrolyte level sensor <https://www.jungheinrich-shop.si/en/spare-parts-and-accessories/battery-accessories/electrolyte-level-sensor--51233095>
+- **Forklift models (round 13):** see [[Forklift Offerings Matrix]] and the model notes linked by `makes` on this note.
 
 ## Aliases
 

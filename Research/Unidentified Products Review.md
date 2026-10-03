@@ -69,6 +69,18 @@ Review of products and items that already-identified organizations name in sourc
 | [[Philadelphia Scientific]] | BasicBlinky, Blinky Pro, eGO!cloudlink, eGO!receiver, eGO!tools app, iBOS | monitors, gateways, software | <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/> | named | find pages |
 | [[Delta-Q Technologies]] | Other charger families | chargers | <https://delta-q.com/news/delta-q-introduces-can-bus-functionality-to-the-ic650-charger-for-on-board-integration> | only IC650 noted | survey range |
 | [[Inventus Power]] | Other lithium battery lines beyond S/M-48V60-TRX | batteries | <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf> | only the monitor noted | survey range |
+| [[Toyota Material Handling]] | Core Electric, Large Electric, reach trucks, order pickers, I-Site, T-Matics | forklift models, software | <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift> | named on Toyota pages | find model pages |
+| [[KION Group]] | STILL models, Baoli models, Linde connect telematics, Linde fuel cell trucks | forklifts, software | <https://www.mheda.org/news/kion-north-america-launches-new-electric-forklift-the-linde-series-1293/> | named | research |
+| [[Hyster-Yale]] | Hyster A Series, other J models, Yale Power Key, Hyster Power Match, Nuvera fuel cells, Reaction awareness | forklifts, programs | <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf> | named in brochure | research |
+| [[Crown Equipment]] | SP order pickers, WAV, pallet trucks (PE, WJ, WT), GPC, MPC, SH walkie reach stackers, ESR sit-down reach, IC cushion and pneumatic trucks | forklifts | <https://www.crown.com/en-la/forklifts> | named on the range page | find sheets |
+| [[Mitsubishi Logisnext]] | Mitsubishi and Cat electric models, Rocla AGVs, Rocrich AGV JV with Jungheinrich | forklifts, AGVs | <https://www.supplychain247.com/company/jungheinrich> | named | research |
+| [[Jungheinrich]] | EFG, ETV and other series; Jungheinrich lithium-ion systems and chargers by model | forklifts | <https://warehousenews.co.uk/?p=45557> | only ETV C16 and C20 modeled | find Jungheinrich pages |
+| [[Hangcha Group]] | models and options | forklifts | <https://www.supplychain247.com/article/top-20-lift-truck-suppliers-2025> | ranking only | research |
+| [[Anhui Heli]] | models and options | forklifts | <https://gminsights.com/industry-analysis/lift-trucks-market/market-share> | named only | research |
+| [[Doosan Bobcat]] | models and options | forklifts | <https://www.supplychain247.com/article/top-20-lift-truck-suppliers-2025> | ranking only | research |
+| [[Komatsu]] | models and options | forklifts | <https://www.logisticsmgmt.com/article/top_20_lift_truck_suppliers_2024> | ranking only | research |
+| [[Raymond]] | Raymond Swing-Reach 9800, sideloaders, tow tractors, 8810 side-entry pallet truck, Raymond Red Charger maker, Energy Essentials maker | forklifts, chargers, batteries | <https://www.robotics247.com/article/raymond_shows_off_integrated_intralogistics_systems_promat_2023/Raymond_Corp> | named | identify makers |
+- **Round 13 additions:** 11 rows for forklift makers and families named but not modeled.
 
 ## Aliases
 

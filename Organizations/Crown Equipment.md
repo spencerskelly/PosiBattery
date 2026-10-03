@@ -16,6 +16,13 @@ describedBy:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+makes:
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RC 5700 Series]]"
+  - "[[Crown SC Series]]"
+  - "[[Crown RR-RD 5700 Series]]"
+  - "[[Crown RM-RMD 6000 Series]]"
+  - "[[Crown InfoLink]]"
 offers:
   - "[[Crown V-Force BMID]]"
   - "[[Crown Battery Health Monitor]]"
@@ -45,6 +52,7 @@ Truck maker that sells V-Force-branded lithium and lead-acid batteries and charg
   - Battery management: integrated BMS on V-Force lithium ESS <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
 - A Crown Lift Trucks job posting says Crown produces forklifts, batteries and chargers, and uses vertically integrated processes to design, manufacture and distribute its solutions; it was founded in 1945 with headquarters in Ohio. Source: Crown Lift Trucks careers page (T1 (job posting)), retrieved 2026-10-02. <https://crownltd.career.softgarden.de/jobs/62295224/Regional-Motive-Power-Specialist>
 - **Update:** the 'maker unknown' item for V-Force is partly answered: Crown states it produces batteries and chargers. A manufacturing statement for specific V-Force models or cells was not found.
+- **Forklift models (round 13):** see [[Forklift Offerings Matrix]] and the model notes linked by `makes` on this note.
 
 ## Aliases
 

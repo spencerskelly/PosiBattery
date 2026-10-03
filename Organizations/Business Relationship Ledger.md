@@ -249,6 +249,75 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offers | [[Sunlight Group]] | [[Philadelphia Scientific eGO!pro]] | Sunlight site lists the eGO PRO; relationship to Philadelphia Scientific not stated (C56) | <https://sunlight-group.com/en/north-america/energy-management/ego-pro> |
 | makes | [[Exide Technologies]] | [[Exide Motion+ Premium Charger]] | vendor states the charger was made in-house (design, development, technology, manufacture) | <https://www.exidegroup.com/en/news/exide-technologies-unveils-new-motion-premium-charger> <https://www.automotiveworld.com/?p=452187> |
 | offeredWith | [[Exide Motion+ Premium Charger]] | [[Exide Solition Light Traction Battery]] | charging curves matched to Exide's lithium light traction batteries | <https://www.exidegroup.com/en/news/exide-technologies-unveils-new-motion-premium-charger> |
+| playsRole | [[Toyota Industries Corporation]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Toyota Industries Corporation]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Toyota Material Handling]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Toyota Material Handling]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[KION Group]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[KION Group]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Linde Material Handling]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Linde Material Handling]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Mitsubishi Logisnext]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Mitsubishi Logisnext]] | [[Brand Owner]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Mitsubishi Logisnext]] | [[Dealer or Distributor]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Triathlon USA]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Triathlon USA]] | [[Charger Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Hangcha Group]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Anhui Heli]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Doosan Bobcat]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Komatsu]] | [[Truck OEM]] | analyst label from the organization note | see the organization note |
+| makes | [[Toyota Material Handling]] | [[Toyota 3-Wheel Electric Forklift]] | vendor presents the truck as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota Traigo48]] | vendor presents the truck as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Hyster J1.5-3.0UT(L)]] | vendor presents the truck as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Yale ERC080VHL]] | vendor presents the truck as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Yale ERC050-060VGL]] | vendor presents the truck as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown FC 5700 Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown RC 5700 Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown SC Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown RR-RD 5700 Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown RM-RMD 6000 Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond 7000 Series Reach-Fork Trucks]] | vendor presents the truck as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond 4000 Series Counterbalanced Trucks]] | vendor presents the truck as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond 8000 Series Pallet Trucks]] | vendor presents the truck as its own | see the product note |
+| makes | [[Raymond]] | [[Raymond Orderpickers]] | vendor presents the truck as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Ei Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde E Series Electric Counterbalance Forklifts]] | vendor presents the truck as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde 1293 Series (E20BHP and E25BHP)]] | vendor presents the truck as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde 6-8 t Electric Counterbalance Forklifts]] | vendor presents the truck as its own | see the product note |
+| makes | [[Mitsubishi Logisnext]] | [[UniCarriers MX2 and MXL Series]] | vendor presents the truck as its own | see the product note |
+| makes | [[Jungheinrich]] | [[Jungheinrich ETV C16 and C20]] | vendor presents the truck as its own | see the product note |
+| makes | [[Toyota Material Handling]] | [[Toyota MyInsights Telematics]] | vendor presents the product as its own | see the product note |
+| offers | [[Toyota Material Handling]] | [[Toyota Lithium-Ion 5-35 Battery Series]] | vendor lists the product; maker not stated | see the product note |
+| makes | [[Hyster-Yale]] | [[Hyster Power Cellect]] | vendor presents the product as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Hyster Tracker Telemetry]] | vendor presents the product as its own | see the product note |
+| makes | [[Hyster-Yale]] | [[Yale Vision Telemetry]] | vendor presents the product as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown InfoLink]] | vendor presents the product as its own | see the product note |
+| offers | [[Linde Material Handling]] | [[Linde 90 V Lithium-Ion Battery]] | vendor lists the product; maker not stated | see the product note |
+| offers | [[Linde Material Handling]] | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | vendor lists the product; maker not stated | see the product note |
+| makes | [[Triathlon USA]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] | vendor presents the product as its own | see the product note |
+| makes | [[Triathlon USA]] | [[Triathlon Lithium-Ion Charger for UniCarriers]] | vendor presents the product as its own | see the product note |
+| offers | [[Raymond]] | [[Raymond Energy Essentials Lithium-Ion Battery]] | vendor lists the product; maker not stated | see the product note |
+| offeredWith | [[Crown FC 5700 Series]] | [[Crown V-Force Lithium-Ion ESS]] | brochure offers the V-Force Integrated Lithium-Ion System on the FC 5700 | <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf> |
+| offeredWith | [[Crown RC 5700 Series]] | [[Crown V-Force Lithium-Ion ESS]] | sheet marks the RC 5700 V-Force lithium-ion ready | <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf> |
+| offeredWith | [[Crown FC 5700 Series]] | [[Crown InfoLink]] | brochure lists InfoLink | <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf> |
+| offeredWith | [[Crown RC 5700 Series]] | [[Crown InfoLink]] | sheet marks the RC 5700 InfoLink ready | <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf> |
+| offeredWith | [[Crown Battery Health Monitor]] | [[Crown InfoLink]] | monitor pairs with the truck's InfoLink module | <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products> |
+| offeredWith | [[Toyota 3-Wheel Electric Forklift]] | [[Toyota MyInsights Telematics]] | pre-installed | <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift> |
+| offeredWith | [[Toyota 3-Wheel Electric Forklift]] | [[Toyota Lithium-Ion 5-35 Battery Series]] | optional lithium-ion battery; series designed to fit Toyota forklifts | <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift> |
+| offeredWith | [[Yale ERC080VHL]] | [[Yale Vision Telemetry]] | page lists Yale Vision telemetry | <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/> |
+| offeredWith | [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde 90 V Lithium-Ion Battery]] | 90 V lithium-ion up to 120 kWh | <https://warehousenews.co.uk/?p=62842> |
+| offeredWith | [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | battery plus charger complete solution | <https://warehousenews.co.uk/?p=62842> |
+| offeredWith | [[Linde 90 V Lithium-Ion Battery]] | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | batteries compatible with 9, 17 and 30 kW chargers | <https://www.logisticsbusiness.com/materials-handling-warehousing/forklift-technology/linde-material-handling-expands-lithium-ion-portfolio/> |
+| offeredWith | [[UniCarriers MX2 and MXL Series]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] | MXL available with a Triathlon lithium battery (MX2 not named) | <https://www.supplychain247.com/article/unicarriers_and_rocla_reveal_5_forklifts> |
+| offeredWith | [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon Lithium-Ion Charger for UniCarriers]] | battery and charger solutions launched together | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> |
+| offeredWith | [[Hyster Power Cellect]] | [[Hyster Tracker Telemetry]] | battery data shown when Tracker is added | <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom> |
+| integratesWith | [[Hyster Power Cellect]] | [[EnerSys NexSys TPPL Battery]] | EnerSys states Hyster-Yale approved NexSys TPPL integration (not white label) | <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/> |
+| subsidiaryOf | [[Raymond]] | [[Toyota Industries Corporation]] | ranking lists Toyota and Raymond as Toyota Industries brands | <https://www.supplychain247.com/article/top_20_lift_truck_suppliers_2024> |
+| subsidiaryOf | [[Toyota Material Handling]] | [[Toyota Industries Corporation]] | ranking lists Toyota and Raymond as Toyota Industries brands | <https://www.supplychain247.com/article/top_20_lift_truck_suppliers_2024> |
+| subsidiaryOf | [[Linde Material Handling]] | [[KION Group]] | KION North America names Linde as a KION brand company | <https://www.mheda.org/news/kion-north-america-launches-new-electric-forklift-the-linde-series-1293/> |
+| distributedBy | [[Jungheinrich]] | [[Mitsubishi Logisnext]] | Jungheinrich exclusively distributed in North America by Mitsubishi Logisnext Americas | <https://www.supplychain247.com/company/jungheinrich> |
+| supplierOf | [[Triathlon USA]] | [[Mitsubishi Logisnext]] | named lithium-ion battery and charger supplier for UniCarriers (factory option); first supplierOf instance with named parties | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> |
+| offers | [[Mitsubishi Logisnext]] | [[Triathlon Lithium-Ion Battery for UniCarriers]] | factory-installed option offered with UniCarriers trucks | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> |
 
 ## Aliases
 

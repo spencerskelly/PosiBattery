@@ -17,6 +17,8 @@ offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
   - "[[Crown V-HFM3 Charger]]"
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RC 5700 Series]]"
 ---
 
 # Crown V-Force Lithium-Ion ESS

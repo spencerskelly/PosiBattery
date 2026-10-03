@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("Forklifts")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All notes
+    order:
+      - file.name
+      - madeBy
+      - offeredBy
+      - subtypeOf
+      - status

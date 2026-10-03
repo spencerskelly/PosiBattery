@@ -25,6 +25,8 @@ hasDesign:
   - "[[Cloud Portal Integration]]"
 offeredBy:
   - "[[Crown Equipment]]"
+offeredWith:
+  - "[[Crown InfoLink]]"
 ---
 
 # Crown Battery Health Monitor

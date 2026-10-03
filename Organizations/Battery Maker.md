@@ -20,6 +20,7 @@ rolePlayedBy:
   - "[[Midac]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
+  - "[[Triathlon USA]]"
 ---
 
 # Battery Maker

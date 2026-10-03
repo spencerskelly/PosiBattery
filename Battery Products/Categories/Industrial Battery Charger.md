@@ -27,6 +27,7 @@ supertypeOf:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Exide Element HF Charger]]"
   - "[[Exide Motion+ Lithium Charger]]"
+  - "[[Exide Motion+ Premium Charger]]"
   - "[[Fronius SelectION]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[Green Cubes SAFEFlex Charger]]"
@@ -42,7 +43,8 @@ supertypeOf:
   - "[[Stryten EHY Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
-  - "[[Exide Motion+ Premium Charger]]"
+  - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
+  - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

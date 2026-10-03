@@ -15,6 +15,8 @@ hasDesign:
   - "[[Thin Plate Pure Lead Plates]]"
 madeBy:
   - "[[EnerSys]]"
+integratesWith:
+  - "[[Hyster Power Cellect]]"
 offeredWith:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys Wi-iQ]]"

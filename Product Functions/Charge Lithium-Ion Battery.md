@@ -19,6 +19,7 @@ performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Exide Motion+ Lithium Charger]]"
+  - "[[Exide Motion+ Premium Charger]]"
   - "[[Fronius SelectION]]"
   - "[[Green Cubes SAFEFlex Charger]]"
   - "[[Lester Summit Series II]]"
@@ -26,7 +27,6 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
-  - "[[Exide Motion+ Premium Charger]]"
 ---
 
 # Charge Lithium-Ion Battery

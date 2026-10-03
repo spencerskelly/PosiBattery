@@ -32,8 +32,8 @@ Review of organization and product notes for what is offered and by whom, featur
 
 | Product | Maker or offerer | Kind | Functions and designs linked | Offered-with links | Spec values in note | Spec status |
 |---|---|---|---|---|---|---|
-| [[AMETEK Prestolite Power BID]] | [[AMETEK Prestolite Power]] | monitor | 4 | 2 | 0 | none |
-| [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power]] | monitor | 5 | 0 | 1 | partial |
+| [[AMETEK Prestolite Power BID]] | [[AMETEK Prestolite Power]] | monitor | 5 | 2 | 2 | partial |
+| [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power]] | monitor | 7 | 0 | 2 | partial |
 | [[AMETEK Prestolite Power Eclipse II]] | [[AMETEK Prestolite Power]] | charger | 5 | 1 | 2 | partial |
 | [[AMETEK Prestolite Power Site Probe]] | [[AMETEK Prestolite Power]] | monitor | 2 | 0 | 0 | none |
 | [[AMETEK Prestolite Power TruBid]] | [[AMETEK Prestolite Power]] | monitor | 9 | 0 | 0 | none |
@@ -42,21 +42,27 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[AMETEK Prestolite Power WBID Pro]] | [[AMETEK Prestolite Power]] | monitor | 12 | 0 | 1 | partial |
 | [[Access Control Group CellTrac]] | [[Access Control Group]] | monitor | 6 | 0 | 0 | none |
 | [[Access Control Group CellVue]] | [[Access Control Group]] | monitor | 1 | 0 | 0 | none |
-| [[ACT Quantum 2]] | [[Advanced Charging Technologies]] | charger | 7 | 1 | 3 | defined |
-| [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 3 | defined |
+| [[ACT Quantum 2]] | [[Advanced Charging Technologies]] | charger | 8 | 1 | 16 | defined |
+| [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 16 | defined |
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
-| [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 11 | 3 | 10 | defined |
+| [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 12 | 3 | 20 | defined |
 | [[Crown Battery EVOLUTION Series]] | [[Crown Battery Manufacturing]] | charger | 5 | 0 | 2 | partial |
-| [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 0 | 0 | none |
+| [[Crown Battery Health Monitor]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
+| [[Crown FC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 1 | partial |
+| [[Crown InfoLink]] | [[Crown Equipment]] | software | 0 | 3 | 0 | none |
+| [[Crown RC 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 2 | 4 | defined |
+| [[Crown RM-RMD 6000 Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
+| [[Crown RR-RD 5700 Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
+| [[Crown SC Series]] | [[Crown Equipment]] | forklift | 0 | 0 | 0 | none |
 | [[Crown V-Force BMID]] | [[Crown Equipment]] | monitor | 9 | 1 | 0 | none |
 | [[Crown V-Force Lead-Acid Battery]] | [[Crown Equipment]] | battery | 0 | 1 | 0 | none |
-| [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 1 | 1 | 0 | none |
+| [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 1 | 3 | 0 | none |
 | [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 3 | 24 | defined |
-| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 3 | 0 | 0 | none |
+| [[Delta-Q IC650]] | [[Delta-Q Technologies]] | charger | 4 | 0 | 23 | defined |
 | [[Deka ChargeMate Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 2 | partial |
 | [[Deka D-Series Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
-| [[Deka Dominator Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
-| [[Deka FastCharge Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 0 | none |
+| [[Deka Dominator Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 0 | none |
+| [[Deka FastCharge Battery]] | [[East Penn Manufacturing]] | battery | 0 | 1 | 1 | partial |
 | [[Deka Gel-Mate Battery]] | [[East Penn Manufacturing]] | battery | 2 | 1 | 2 | partial |
 | [[Deka HydraSaver Battery]] | [[East Penn Manufacturing]] | battery | 3 | 1 | 0 | none |
 | [[Deka MaintenanceSaver Battery]] | [[East Penn Manufacturing]] | battery | 1 | 1 | 0 | none |
@@ -64,17 +70,17 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Deka PowerForce Charger]] | [[East Penn Manufacturing]] | charger | 6 | 10 | 2 | partial |
 | [[Deka PowrMate Battery]] | [[East Penn Manufacturing]] | battery | 2 | 1 | 2 | partial |
 | [[Deka Ready Power Lithium Battery]] | [[East Penn Manufacturing]] | battery | 2 | 1 | 0 | none |
-| [[EnerSys Express Charger]] | [[EnerSys]] | charger | 0 | 1 | 0 | none |
-| [[EnerSys IMPAQ Charger]] | [[EnerSys]] | charger | 1 | 1 | 0 | none |
+| [[EnerSys Express Charger]] | [[EnerSys]] | charger | 9 | 1 | 0 | none |
+| [[EnerSys IMPAQ Charger]] | [[EnerSys]] | charger | 6 | 0 | 1 | partial |
 | [[EnerSys IRONCLAD Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
-| [[EnerSys NexSys AIR Wireless Charger]] | [[EnerSys]] | charger | 1 | 0 | 0 | none |
+| [[EnerSys NexSys AIR Wireless Charger]] | [[EnerSys]] | charger | 9 | 1 | 1 | partial |
 | [[EnerSys NexSys COMpact Charger]] | [[EnerSys]] | charger | 1 | 1 | 0 | none |
 | [[EnerSys NexSys TPPL Battery]] | [[EnerSys]] | battery | 1 | 2 | 0 | none |
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
-| [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 3 | 2 | 0 | none |
+| [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 13 | 2 | 8 | defined |
 | [[EnerSys Truck iQ]] | [[EnerSys]] | monitor | 6 | 1 | 0 | none |
 | [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 33 | defined |
-| [[EnerSys iQ Mini]] | [[EnerSys]] | monitor | 8 | 0 | 2 | partial |
+| [[EnerSys iQ Mini]] | [[EnerSys]] | monitor | 10 | 0 | 3 | defined |
 | [[Energywith withBMS BMU]] | [[Energywith]] | monitor | 7 | 0 | 0 | none |
 | [[Exide Element HF Charger]] | [[Exide Technologies]] | charger | 1 | 1 | 0 | none |
 | [[Exide Element VRLA Battery]] | [[Exide Technologies]] | battery | 1 | 1 | 0 | none |
@@ -82,7 +88,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Exide MARATHON Battery]] | [[Exide Technologies]] | battery | 3 | 0 | 2 | partial |
 | [[Exide Motion+ EasyMonitor]] | [[Exide Technologies]] | monitor | 14 | 0 | 4 | defined |
 | [[Exide Motion+ Lithium Charger]] | [[Exide Technologies]] | charger | 2 | 1 | 0 | none |
-| [[Exide Solition Light Traction Battery]] | [[Exide Technologies]] | battery | 1 | 1 | 0 | none |
+| [[Exide Motion+ Premium Charger]] | [[Exide Technologies]] | charger | 3 | 1 | 0 | none |
+| [[Exide Solition Light Traction Battery]] | [[Exide Technologies]] | battery | 1 | 2 | 0 | none |
 | [[Exide Sonnenschein Lithium Battery]] | [[Exide Technologies]] | battery | 0 | 0 | 0 | none |
 | [[Exide TENSOR xGEL Battery]] | [[Exide Technologies]] | battery | 1 | 0 | 0 | none |
 | [[Flow-Rite Eagle Eye Elite IV]] | [[Flow-Rite]] | monitor | 3 | 0 | 1 | partial |
@@ -104,11 +111,25 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[HOPPECKE trak uplift air Battery]] | [[HOPPECKE]] | battery | 1 | 1 | 0 | none |
 | [[HOPPECKE trak uplift iQ Battery]] | [[HOPPECKE]] | battery | 2 | 2 | 0 | none |
 | [[Hyster Battery Tracker]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
+| [[Hyster J1.5-3.0UT(L)]] | [[Hyster-Yale]] | forklift | 0 | 0 | 2 | partial |
+| [[Hyster Power Cellect]] | [[Hyster-Yale]] | option | 2 | 1 | 0 | none |
+| [[Hyster Tracker Telemetry]] | [[Hyster-Yale]] | software | 0 | 1 | 0 | none |
 | [[Yale Battery Vision]] | [[Hyster-Yale]] | monitor | 10 | 0 | 0 | none |
+| [[Yale ERC050-060VGL]] | [[Hyster-Yale]] | forklift | 0 | 0 | 0 | none |
+| [[Yale ERC080VHL]] | [[Hyster-Yale]] | forklift | 0 | 1 | 0 | none |
+| [[Yale Vision Telemetry]] | [[Hyster-Yale]] | software | 0 | 1 | 0 | none |
 | [[Inventus Smart Battery Monitor SBM-01]] | [[Inventus Power]] | monitor | 9 | 0 | 6 | defined |
+| [[Jungheinrich ETV C16 and C20]] | [[Jungheinrich]] | forklift | 0 | 0 | 2 | partial |
 | [[Jungheinrich Lithium-Ion Battery]] | [[Jungheinrich]] | battery | 1 | 0 | 2 | partial |
-| [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 8 | defined |
+| [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
+| [[Linde 1293 Series (E20BHP and E25BHP)]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
+| [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 2 | 3 | defined |
+| [[Linde 90 V Lithium-Ion Battery]] | [[Linde Material Handling]] | battery | 0 | 2 | 7 | defined |
+| [[Linde E Series Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 0 | 0 | 2 | partial |
+| [[Linde Ei Series]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
+| [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Linde Material Handling]] | charger | 0 | 2 | 2 | partial |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 0 | 0 | none |
+| [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext]] | forklift | 0 | 1 | 4 | defined |
 | [[Philadelphia Scientific SmartBlinky Pro]] | [[Philadelphia Scientific]] | monitor | 7 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!Mini]] | [[Philadelphia Scientific]] | monitor | 13 | 0 | 0 | none |
 | [[Philadelphia Scientific eGO!c]] | [[Philadelphia Scientific]] | monitor | 8 | 0 | 0 | none |
@@ -123,29 +144,41 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 0 | 12 | defined |
 | [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 1 | 1 | partial |
 | [[PosiCharge SVS200]] | [[PosiCharge]] | charger | 0 | 0 | 3 | defined |
-| [[Power Designers PowerTrac 3]] | [[Power Designers]] | monitor | 11 | 1 | 3 | defined |
+| [[Power Designers PowerTrac 3]] | [[Power Designers]] | monitor | 13 | 1 | 29 | defined |
 | [[Power Designers PowerTrac DT3]] | [[Power Designers]] | monitor | 15 | 0 | 12 | defined |
 | [[Power Designers PowerTrac Monitor]] | [[Power Designers]] | monitor | 7 | 0 | 0 | none |
 | [[Power Designers PowerTrac SP+]] | [[Power Designers]] | monitor | 15 | 1 | 4 | defined |
-| [[Power Designers REVOLUTION X]] | [[Power Designers]] | charger | 7 | 2 | 12 | defined |
+| [[Power Designers REVOLUTION X]] | [[Power Designers]] | charger | 9 | 2 | 13 | defined |
+| [[Raymond 4000 Series Counterbalanced Trucks]] | [[Raymond]] | forklift | 0 | 0 | 2 | partial |
+| [[Raymond 7000 Series Reach-Fork Trucks]] | [[Raymond]] | forklift | 0 | 0 | 8 | defined |
+| [[Raymond 8000 Series Pallet Trucks]] | [[Raymond]] | forklift | 0 | 0 | 0 | none |
+| [[Raymond Energy Essentials Lithium-Ion Battery]] | [[Raymond]] | battery | 0 | 0 | 0 | none |
+| [[Raymond Orderpickers]] | [[Raymond]] | forklift | 0 | 0 | 3 | defined |
 | [[Raymond Red Charger]] | [[Raymond]] | charger | 4 | 0 | 2 | partial |
 | [[Raymond iBattery]] | [[Raymond]] | monitor | 11 | 0 | 0 | none |
-| [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 0 | 0 | none |
+| [[Stryten EHF Charger]] | [[Stryten Energy]] | charger | 1 | 5 | 8 | defined |
 | [[Stryten EHI Charger]] | [[Stryten Energy]] | charger | 4 | 0 | 0 | none |
-| [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 0 | 0 | none |
+| [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 1 | partial |
 | [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
 | [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 3 | defined |
 | [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 3 | defined |
-| [[Stryten M-Series F100 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
-| [[Stryten M-Series F110 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
+| [[Stryten M-Series F100 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
+| [[Stryten M-Series F110 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
 | [[Stryten M-Series Li600 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
 | [[Stryten M-Series Li610 Battery]] | [[Stryten Energy]] | battery | 5 | 2 | 1 | partial |
-| [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
-| [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 0 | 1 | partial |
-| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 0 | 2 | partial |
-| [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 5 | 2 | 0 | none |
-| [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 6 | 2 | 2 | partial |
+| [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
+| [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
+| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 2 | partial |
+| [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 2 | 4 | defined |
+| [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 2 | 7 | defined |
+| [[Toyota 3-Wheel Electric Forklift]] | [[Toyota Material Handling]] | forklift | 0 | 2 | 2 | partial |
+| [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Toyota Material Handling]] | battery | 0 | 1 | 1 | partial |
+| [[Toyota MyInsights Telematics]] | [[Toyota Material Handling]] | software | 0 | 1 | 0 | none |
+| [[Toyota Traigo48]] | [[Toyota Material Handling]] | forklift | 0 | 0 | 1 | partial |
+| [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 0 | 2 | 0 | none |
+| [[Triathlon Lithium-Ion Charger for UniCarriers]] | [[Triathlon USA]] | charger | 0 | 1 | 0 | none |
 - **Update (round 9):** exemplars and the layout are in [[Note Standard (Example)]]; full specs added for [[HOPPECKE trak collect]], [[Crown V-HFM3 Charger]] and the Stryten lineup; spec-gap count now 58.
+- **Round 13:** table regenerated; forklift, software and option products now appear with their own kind.
 
 ## Aliases
 

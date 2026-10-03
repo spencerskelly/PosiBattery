@@ -22,6 +22,7 @@ rolePlayedBy:
   - "[[PosiCharge]]"
   - "[[Power Designers]]"
   - "[[Stryten Energy]]"
+  - "[[Triathlon USA]]"
 ---
 
 # Charger Maker

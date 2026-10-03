@@ -16,6 +16,13 @@ describedBy:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+makes:
+  - "[[Hyster J1.5-3.0UT(L)]]"
+  - "[[Yale ERC080VHL]]"
+  - "[[Yale ERC050-060VGL]]"
+  - "[[Hyster Power Cellect]]"
+  - "[[Hyster Tracker Telemetry]]"
+  - "[[Yale Vision Telemetry]]"
 offers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -38,6 +45,7 @@ Truck maker (Hyster and Yale brands) that sells battery-monitoring devices descr
 - **Offered or promoted with its batteries (each item with its web page):**
   - Trucks: Hyster and Yale lift trucks with Hyster Power Cellect and Yale Power Key battery integration <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
   - Monitoring and telemetry: Hyster Battery Tracker, Yale Battery Vision (powered by PosiCharge technology) <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
+- **Forklift models (round 13):** see [[Forklift Offerings Matrix]] and the model notes linked by `makes` on this note.
 
 ## Aliases
 
