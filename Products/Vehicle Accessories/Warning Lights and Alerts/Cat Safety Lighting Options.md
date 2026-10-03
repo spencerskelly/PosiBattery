@@ -17,7 +17,7 @@ performs:
 hasDesign:
   - "[[Floor-Projected Warning Light]]"
 madeBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Logisnext Europe]]"
 offeredWith:
   - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
 ---

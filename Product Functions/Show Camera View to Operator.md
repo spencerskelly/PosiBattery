@@ -12,13 +12,13 @@ subtypeOf:
 dependsOn:
   - "[[Display Device Design]]"
 performedBy:
+  - "[[Hangcha Backup Camera Option]]"
   - "[[Jungheinrich addedVIEW Camera Systems]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[Raymond Vantage Point System]]"
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Assist]]"
-  - "[[Hangcha Backup Camera Option]]"
 ---
 
 # Show Camera View to Operator

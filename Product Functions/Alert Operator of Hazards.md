@@ -18,6 +18,7 @@ performedBy:
   - "[[Hyster Dynamic Stability System]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[Jungheinrich Reverse Area Warning System]]"
@@ -27,7 +28,7 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
+  - "[[Mitsubishi Integrated Presence System]]"
 ---
 
 # Alert Operator of Hazards
@@ -54,6 +55,7 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
+  - [[Mitsubishi Integrated Presence System]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
 
 ## Aliases
 

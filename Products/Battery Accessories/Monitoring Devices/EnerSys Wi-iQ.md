@@ -149,6 +149,7 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 - The NexSys COMpact onboard charger is described as embedding the functionalities of the Wi-iQ battery monitoring device. Source: EnerSys NexSys COMpact brochure (T1), retrieved 2026-10-02. <https://enersys.com/49e7e9/globalassets/documents/product-documentation/_enersys/emea/legacy/chargers/emea-en-imp-nxs-com-0323.pdf>
 - **Upgrade (2026-10-02):** this makes Wi-iQ a BMID-class device in function: it identifies the battery to EnerSys chargers and enables temperature compensation. The earlier classification under Battery Monitoring Device only understates this; see conflicts C20 and the competitor table.
 - The charger guide says all NexSys+ chargers are Wi-iQ enabled to provide battery type, voltage and capacity data to the charger, and Express chargers are equipped with a Wi-iQ for battery voltage and capacity data. Source: [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]] (T1, local copy; original <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>), absorbed 2026-10-02.
+- Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

@@ -201,6 +201,11 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Linde Smartphone Holder]] | [[Linde Material Handling]] | accessory | 0 | 0 | 0 | none |
 | [[Linde System Control]] | [[Linde Material Handling]] | accessory | 1 | 0 | 0 | none |
 | [[Linde connect]] | [[Linde Material Handling]] | accessory | 5 | 0 | 0 | none |
+| [[Cat EP14-20 Electric Counterbalance Forklifts]] | [[Logisnext Europe]] | forklift | 0 | 2 | 4 | defined |
+| [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | [[Logisnext Europe]] | forklift | 0 | 2 | 1 | partial |
+| [[Cat Lithium-Ion Battery Option]] | [[Logisnext Europe]] | battery | 0 | 2 | 1 | partial |
+| [[Cat Presence Detection System]] | [[Logisnext Europe]] | accessory | 1 | 1 | 1 | partial |
+| [[Cat Safety Lighting Options]] | [[Logisnext Europe]] | accessory | 2 | 1 | 0 | none |
 | [[Mallaghan Collision Avoidance System]] | [[Mallaghan]] | accessory | 1 | 0 | 1 | partial |
 | [[Mallaghan SkyBelt]] | [[Mallaghan]] | gse | 0 | 0 | 0 | none |
 | [[Midac Aquamatic Watering System]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
@@ -208,13 +213,17 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Midac End Leads]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 3 | 0 | none |
 | [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] | [[Mitsubishi Logisnext]] | forklift | 0 | 0 | 0 | none |
-| [[Cat EP14-20 Electric Counterbalance Forklifts]] | [[Mitsubishi Logisnext]] | forklift | 0 | 2 | 4 | defined |
-| [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | [[Mitsubishi Logisnext]] | forklift | 0 | 2 | 1 | partial |
-| [[Cat Lithium-Ion Battery Option]] | [[Mitsubishi Logisnext]] | battery | 0 | 2 | 1 | partial |
-| [[Cat Presence Detection System]] | [[Mitsubishi Logisnext]] | accessory | 1 | 1 | 1 | partial |
-| [[Cat Safety Lighting Options]] | [[Mitsubishi Logisnext]] | accessory | 2 | 1 | 0 | none |
-| [[Logisnext Lift Link]] | [[Mitsubishi Logisnext]] | accessory | 6 | 0 | 0 | none |
-| [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext]] | forklift | 0 | 1 | 4 | defined |
+| [[Logisnext Lift Link]] | [[Mitsubishi Logisnext Americas]] | accessory | 6 | 1 | 0 | none |
+| [[Mitsubishi FB 3-Wheel Electric Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 1 | 0 | none |
+| [[Mitsubishi FBC Cushion Tire Electric Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 1 | 0 | none |
+| [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 0 | 0 | none |
+| [[Mitsubishi Integrated Presence System]] | [[Mitsubishi Logisnext Americas]] | accessory | 1 | 2 | 0 | none |
+| [[UniCarriers Curve Control]] | [[Mitsubishi Logisnext Americas]] | accessory | 1 | 1 | 0 | none |
+| [[UniCarriers Freezer Option]] | [[Mitsubishi Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
+| [[UniCarriers In-Cab Accessories]] | [[Mitsubishi Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
+| [[UniCarriers Lighting Packages]] | [[Mitsubishi Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
+| [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 3 | 6 | defined |
+| [[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 4 | 2 | partial |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
 | [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
 | [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 4 | defined |
@@ -342,7 +351,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Toyota System of Active Stability]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
 | [[Toyota Traigo48]] | [[Toyota Material Handling]] | forklift | 0 | 0 | 2 | partial |
 | [[Toyota Twistlock Snapshot Camera System]] | [[Toyota Material Handling]] | accessory | 0 | 0 | 0 | none |
-| [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 0 | 2 | 0 | none |
+| [[Triathlon Lithium-Ion Battery for UniCarriers]] | [[Triathlon USA]] | battery | 0 | 3 | 0 | none |
 | [[Triathlon Lithium-Ion Charger for UniCarriers]] | [[Triathlon USA]] | charger | 0 | 1 | 0 | none |
 - **Update (round 9):** exemplars and the layout are in [[Note Standard (Example)]]; full specs added for [[HOPPECKE trak collect]], [[Crown V-HFM3 Charger]] and the Stryten lineup; spec-gap count now 58.
 - **Round 13:** table regenerated; forklift, software and option products now appear with their own kind.
@@ -355,6 +364,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 20:** table regenerated.
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
+- **Round 24:** table regenerated.
 
 ## Aliases
 

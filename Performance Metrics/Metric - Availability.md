@@ -32,8 +32,10 @@ Availability: Which trucks offer the system and whether it is standard or option
   - [[Linde Load Management Advanced]]: factory on L14-L20 AP high-lift pallet trucks (series 1173)
   - [[Linde Safety Guard]]: introduced 2018; add-on hardware
   - [[Linde Safety Pilot]]: new trucks only: E12-E50 and H14-H80 (dealer brochure); earlier note: standard in many Linde forklifts
+  - [[Mitsubishi Integrated Presence System]]: listed on FBC and FB series electric models (dealer data)
   - [[STILL Curve Speed Control]]: standard on the EXH-SF 16C/20C; available on various trucks
   - [[Toyota Assist]]: new Toyota forklift models
+  - [[UniCarriers Curve Control]]: MX2 series (dealer data)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** no numeric detection ranges are stated for most systems; ask makers or find data sheets.
 

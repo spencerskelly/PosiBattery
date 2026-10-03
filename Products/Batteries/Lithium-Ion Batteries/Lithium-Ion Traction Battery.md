@@ -11,6 +11,7 @@ abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"
 supertypeOf:
+  - "[[Cat Lithium-Ion Battery Option]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[EnerSys NexSys iON Battery]]"
@@ -24,6 +25,8 @@ supertypeOf:
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
+  - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
+  - "[[Heli Lithium-Ion Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
@@ -31,9 +34,6 @@ supertypeOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
-  - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
-  - "[[Heli Lithium-Ion Battery]]"
-  - "[[Cat Lithium-Ion Battery Option]]"
 ---
 
 # Lithium-Ion Traction Battery

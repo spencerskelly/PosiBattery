@@ -16,7 +16,7 @@ makes:
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
 supplierOf:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Triathlon USA

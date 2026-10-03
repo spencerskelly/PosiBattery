@@ -52,6 +52,7 @@ EnerSys modular high-frequency charger line for material handling and floor-care
 | Ideal applications (chart) | light to heavy material handling, cold storage, floor care and ground support equipment (manual), other equipment such as scissor lifts |
 | Ratings | not given (n/s) |
 - **Correction (C43):** an earlier link between this charger and the Wi-iQ monitor was withdrawn; the chart shows no Wi-iQ temperature adjustment for IMPAQ.
+- Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

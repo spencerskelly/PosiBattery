@@ -27,6 +27,11 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>new this round (Mitsubishi Logisnext focus) | Logisnext Americas Mitsubishi FBC, FB and FBCS brochures and options sheets | no direct file found | <https://www.logisnextamericas.com/en/logisnext/who-we-are> | Mitsubishi Forklift Trucks models and options (currently dealer data, T3) | - | R24 |
+| **high priority**<br>new this round (Mitsubishi Logisnext focus) | UniCarriers SCX N2, MX2, MXL and Nomad brochures | no direct file found | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> | UniCarriers models and options | - | R24 |
+| **high priority**<br>new this round (Mitsubishi Logisnext focus) | Logisnext Energy Solutions brochure (lithium-ion forklifts, chargers, Promatch program) | no direct file found | <https://www.logisnextamericas.com/es-co/logisnext/solutions/energy-solutions> | Logisnext energy offer | - | R24 |
+| **high priority**<br>new this round (Mitsubishi Logisnext focus) | Logisnext Europe Mitsubishi Forklift Trucks, Cat and TCM brochures | no direct file found | <https://logisnext.eu/corporate/history> | European range and options | - | R24 |
+| **high priority**<br>new this round (Mitsubishi Logisnext focus) | Mitsubishi Logisnext Co. (Japan) integrated report or product catalog (TCM, Nichiyu, Mitsubishi domestic range) | no direct file found | <https://www.logisnext.com/en/> | Japan and group-level facts | - | R24 |
 | **high priority**<br>new this round (truck makers); address from search results, not opened | Hangcha XC series 1.5-3.5 t brochure (2026 edition) | <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf> |  | Hangcha XC options, LiFePO4, FIMS (C88) | - | R23 |
 | **high priority**<br>new this round (truck makers); address from search results, not opened | Hangcha XC series 2.0-3.5 t brochure (2025 edition, mentions CATL) | <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf> |  | Hangcha XC; CATL statement (C88) | - | R23 |
 | **high priority**<br>new this round (truck makers); address from search results, not opened | Hangcha XC series 1.5-3.5 t brochure (2024 edition, mentions CATL) | <https://hcforklift.com/upload/files/09-XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf> |  | Hangcha XC; CATL statement (C88) | - | R23 |
@@ -197,6 +202,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Priority rule (round 21):** rows are prioritized by catalog coverage need, not by the owner's company; reference makers with no product notes come first ([[Coverage Plan]]). PosiCharge rows keep their current status but no longer outrank equivalent rows for other makers.
 - **Round 22 2026-10-03:** the Linde dealer brochure and the KION North America catalog were read; three truck OEM rows updated; a Lift Link sheet address (found by search, not opened) and two new rows added. Counts: high priority 45, helpful 30, issue 12, in repo 60.
 - **Round 23 2026-10-03:** 7 direct file addresses for Hangcha and Cat found in search results (not opened) and 4 page-only rows for Heli, Doosan, Komatsu and STILL. Counts: high priority 56, helpful 30, issue 12, in repo 60.
+- **Round 24 2026-10-03:** 5 page-only rows added for the Mitsubishi Logisnext group; no direct file was found for any Mitsubishi, UniCarriers or Cat sheet. Counts: high priority 61, helpful 30, issue 12, in repo 60.
 
 ## Aliases
 

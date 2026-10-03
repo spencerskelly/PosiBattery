@@ -13,7 +13,9 @@ describedBy:
   - "[[Metric - Response Action]]"
   - "[[Metric - Truck Integration]]"
 performedBy:
+  - "[[Doosan Bobcat Mast Sway Control]]"
   - "[[Raymond Travel Speed Control]]"
+  - "[[STILL Safety Assist]]"
   - "[[Crown ProximityAssist System]]"
   - "[[Hyster Reaction]]"
   - "[[Jungheinrich Pedestrian Detection System]]"
@@ -24,8 +26,6 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[STILL Safety Assist]]"
-  - "[[Doosan Bobcat Mast Sway Control]]"
 ---
 
 # Limit Truck Speed Automatically

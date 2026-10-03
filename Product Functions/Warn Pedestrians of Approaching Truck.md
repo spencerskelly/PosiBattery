@@ -12,17 +12,17 @@ subtypeOf:
 dependsOn:
   - "[[Indicator and Alarm Design]]"
 performedBy:
+  - "[[STILL Safety Assist]]"
   - "[[Linde Safety Guard]]"
+  - "[[Cat Safety Lighting Options]]"
   - "[[Linde BlueSpot]]"
   - "[[Linde Safety Guard Portable Unit]]"
   - "[[Linde Safety Guard Static Unit]]"
   - "[[Powerfleet Forklift Safety Lights]]"
-  - "[[TVH Forklift Arrow Lights]]"
-  - "[[Toyota Forklift Lighting Options]]"
-  - "[[STILL Safety Assist]]"
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
-  - "[[Cat Safety Lighting Options]]"
+  - "[[TVH Forklift Arrow Lights]]"
+  - "[[Toyota Forklift Lighting Options]]"
 ---
 
 # Warn Pedestrians of Approaching Truck

@@ -11,17 +11,18 @@ abstract: true
 subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
+  - "[[Cat Safety Lighting Options]]"
   - "[[Larson Explosion-Proof Blue LED Forklift Light]]"
   - "[[Linde BlueSpot]]"
   - "[[Linde Safety Guard Portable Unit]]"
   - "[[Linde Safety Guard Static Unit]]"
   - "[[Panacea Blue Warning Light]]"
   - "[[Powerfleet Forklift Safety Lights]]"
-  - "[[TVH Forklift Arrow Lights]]"
-  - "[[Toyota Forklift Lighting Options]]"
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
-  - "[[Cat Safety Lighting Options]]"
+  - "[[TVH Forklift Arrow Lights]]"
+  - "[[Toyota Forklift Lighting Options]]"
+  - "[[UniCarriers Lighting Packages]]"
 ---
 
 # Warning Light and Alert

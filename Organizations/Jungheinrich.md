@@ -29,7 +29,7 @@ makes:
 offers:
   - "[[Jungheinrich Lithium-Ion Battery]]"
 distributedBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Jungheinrich

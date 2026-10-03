@@ -12,8 +12,8 @@ subtypeOf:
 dependsOn:
   - "[[Electric Mast Thrust Drive]]"
 performedBy:
-  - "[[Linde Dynamic Mast Control]]"
   - "[[Doosan Bobcat Mast Sway Control]]"
+  - "[[Linde Dynamic Mast Control]]"
 ---
 
 # Damp Mast Oscillation

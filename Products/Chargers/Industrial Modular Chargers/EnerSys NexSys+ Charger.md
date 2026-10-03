@@ -78,6 +78,7 @@ EnerSys programmable modular high-frequency charger for mixed lead and lithium f
 | Module fault | automatic bypass; keeps charging at reduced power |
 | Ratings (kW, A, V) | not given in this guide (still n/s) |
 - **Conflict-visible (C50):** earlier notes said Wi-iQ supplies battery type and voltage; the guide adds capacity. The earlier APAC guide said IP-54 only; the AMER guide says NEMA 3R / IP54 (a refinement, not a contradiction).
+- Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

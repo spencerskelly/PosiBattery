@@ -33,6 +33,8 @@ makes:
   - "[[EnerSys IRONCLAD Battery]]"
 distributedBy:
   - "[[Western Materials]]"
+partnerOf:
+  - "[[Mitsubishi Logisnext Americas]]"
 integratesWith:
   - "[[Hyster-Yale]]"
 ---
@@ -65,6 +67,7 @@ Industrial battery and charger maker whose motive-power brands include Hawker, N
   - Software and programs: E Connect app, Xinx, Wi-iQ Report, battery monitoring programs and fleet management <https://enersys.com/4a4c3f/globalassets/documents/product-documentation/_enersys/emea/emea-mp-product-guide-0423.pdf>
   - Battery lines with maintenance features: NexSys iON lithium, PzS vented with extended watering <https://enersys.com/4a4c3f/globalassets/documents/product-documentation/_enersys/emea/emea-mp-product-guide-0423.pdf>
   - Truck integration: NexSys TPPL approved with Hyster Power Cellect and Yale Power Key <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+- In May 2025 EnerSys partnered with Mitsubishi Logisnext Americas through the Logisnext Promatch parts program: NexSys TPPL batteries, NexSys+, Express and IMPAQ chargers, Wi-iQ monitoring devices and IRONCLAD (Loadhog, Superhog, Deserthog, Express) lead-acid batteries, plus HAWKER Energy-Plus, Powerline, Water Less and FLEX TPPL batteries, LIFEPLUS MOD3, PTO MOD3 and LIFESPEED MOD3 chargers and BATTERY BOSS WC monitors, for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks; EnerSys cites more than 400 technicians at 75 service locations. Source: Logisnext Americas release and Lift and Access (T1/T2), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

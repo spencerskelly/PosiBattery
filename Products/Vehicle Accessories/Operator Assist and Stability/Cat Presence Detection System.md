@@ -15,7 +15,7 @@ subtypeOf:
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 madeBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Logisnext Europe]]"
 offeredWith:
   - "[[Cat EP14-20 Electric Counterbalance Forklifts]]"
 ---

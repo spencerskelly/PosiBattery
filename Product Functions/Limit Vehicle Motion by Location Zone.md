@@ -11,12 +11,12 @@ subtypeOf:
   - "[[Limit Vehicle Motion Automatically]]"
 performedBy:
   - "[[Raymond iWAREHOUSE Real-Time Location System]]"
+  - "[[STILL Safety Assist]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
-  - "[[STILL Safety Assist]]"
 ---
 
 # Limit Vehicle Motion by Location Zone

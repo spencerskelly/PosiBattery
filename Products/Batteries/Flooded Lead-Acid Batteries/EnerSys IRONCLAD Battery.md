@@ -24,6 +24,7 @@ EnerSys flooded lead-acid forklift battery line.
 
 - EnerSys's forklift page lists IRONCLAD batteries, and a dealer lists IRONCLAD WorkHog and Loadhog variants. Source: EnerSys forklift page and Western Materials (T1/T3), retrieved 2026-10-02. <https://www.enersys.com/en/industries/logistics-warehousing/forklifts-pallet-trucks/>
 - **Also:** dealer listing <https://www.westmat.com/parts-category/lead-industrial-batteries/>.
+- Listed in the Logisnext Promatch parts program (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

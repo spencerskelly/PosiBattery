@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Linde Rotating Operator Workstation]]"
   - "[[Linde Smartphone Holder]]"
   - "[[STILL EasyBelt]]"
+  - "[[UniCarriers In-Cab Accessories]]"
 ---
 
 # Operator Convenience Accessory

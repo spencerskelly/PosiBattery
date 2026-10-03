@@ -19,6 +19,7 @@ performedBy:
   - "[[Yale Reliant Portfolio]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Hyster Reaction]]"
   - "[[IRIS 860 Sensor Pack]]"
@@ -38,7 +39,6 @@ performedBy:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Doosan Bobcat Pedestrian Detection Camera]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck

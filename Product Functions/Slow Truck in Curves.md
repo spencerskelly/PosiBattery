@@ -14,10 +14,11 @@ describedBy:
 performedBy:
   - "[[Hyster Dynamic Stability System]]"
   - "[[Jungheinrich curveCONTROL]]"
+  - "[[STILL Curve Speed Control]]"
+  - "[[STILL Safety Assist]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
-  - "[[STILL Safety Assist]]"
-  - "[[STILL Curve Speed Control]]"
+  - "[[UniCarriers Curve Control]]"
 ---
 
 # Slow Truck in Curves
@@ -37,6 +38,7 @@ Reduce speed automatically when cornering.
   - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
   - [[Jungheinrich curveCONTROL]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
   - [[STILL Curve Speed Control]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
+  - [[UniCarriers Curve Control]] (V): <https://www.allmachines.com/forklifts/unicarriers-mx2-30l>
 
 ## Aliases
 

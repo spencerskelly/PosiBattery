@@ -37,6 +37,7 @@ EnerSys thin plate pure lead battery line, described as virtually maintenance-fr
 - **Related products and how they differ (offeredWith):**
   - [[EnerSys NexSys+ Charger]]: profiles exist for NexSys TPPL; the iON profile is truncated in the retrieved text.
   - [[EnerSys Wi-iQ]]: no difference stated in the sources.
+- Listed in the Logisnext Promatch parts program (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
 ## Aliases
 

@@ -32,7 +32,7 @@ Truck Integration: How the system is tied to the truck: OEM-integrated to steeri
   - [[Linde Safety Guard]]: hardware installed on vehicles or danger points (retrofit-style)
   - [[Linde Safety Guard Truck Unit]]: quick plug-and-play retrofit (dealer brochure)
   - [[Linde connect]]: factory-fitted or retrofit on all Linde products; other makes on request (dealer brochure)
-  - [[Logisnext Lift Link]]: factory-installed or field retrofit on Cat, Mitsubishi, Jungheinrich, UniCarriers and competitive trucks
+  - [[Logisnext Lift Link]]: offered across UniCarriers forklifts; factory or retrofit; earlier note: factory-installed or field retrofit on Cat, Mitsubishi, Jungheinrich, UniCarriers and competitive trucks
   - [[STILL Safety Assist]]: factory options on STILL trucks; some items retrofit (EasyBelt)
   - [[Toyota Assist]]: suite on new Toyota forklift models
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

@@ -18,10 +18,10 @@ performedBy:
   - "[[Logisnext Lift Link]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Raymond iWAREHOUSE]]"
+  - "[[STILL Smart Portal]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
-  - "[[STILL Smart Portal]]"
 ---
 
 # Detect and Record Impacts

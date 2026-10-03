@@ -8,6 +8,7 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[CATL]]"
   - "[[Crown Battery Manufacturing]]"
   - "[[East Penn Manufacturing]]"
   - "[[EnerSys]]"
@@ -23,7 +24,6 @@ rolePlayedBy:
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
-  - "[[CATL]]"
 ---
 
 # Battery Maker

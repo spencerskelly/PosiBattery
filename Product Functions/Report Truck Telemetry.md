@@ -14,22 +14,22 @@ dependsOn:
 performedBy:
   - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
+  - "[[Doosan Lin-Q]]"
+  - "[[Hangcha FIMS]]"
+  - "[[Heli Fleet Management System]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Jungheinrich ISM Online]]"
+  - "[[Komatsu KOMTRAX]]"
   - "[[Linde connect]]"
   - "[[Logisnext Lift Link]]"
   - "[[Oshkosh AeroTech iOPS]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Raymond iWAREHOUSE]]"
-  - "[[Toyota MyInsights Telematics]]"
-  - "[[Yale Vision Telemetry]]"
   - "[[STILL FleetManager]]"
   - "[[STILL Smart Portal]]"
   - "[[STILL neXXt fleet]]"
-  - "[[Hangcha FIMS]]"
-  - "[[Heli Fleet Management System]]"
-  - "[[Doosan Lin-Q]]"
-  - "[[Komatsu KOMTRAX]]"
+  - "[[Toyota MyInsights Telematics]]"
+  - "[[Yale Vision Telemetry]]"
 ---
 
 # Report Truck Telemetry

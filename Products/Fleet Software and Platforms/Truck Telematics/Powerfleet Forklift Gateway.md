@@ -22,7 +22,7 @@ hasDesign:
 madeBy:
   - "[[Powerfleet]]"
 distributedBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Powerfleet Forklift Gateway

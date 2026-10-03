@@ -42,6 +42,7 @@ Detection Technology: Sensing technology used to detect people or objects near t
   - [[Linde Motion Detection]]: motion detection behind the truck (sensor type not stated)
   - [[Linde Safety Guard]]: ultra-wideband tags and wearable vests
   - [[Linde Safety Guard Truck Unit]]: distance measurement with worn Portable Units and Zone Markers (dealer brochure)
+  - [[Mitsubishi Integrated Presence System]]: computer-based feedback system (sensing method not stated)
   - [[Powerfleet Pedestrian Proximity Detection]]: detects without special apparel or wearable tags (technology not stated)
   - [[Toyota SEnS+ Pedestrian and Object Detection]]: stereoscopic vision (radar listed separately in the Toyota Assist suite)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.

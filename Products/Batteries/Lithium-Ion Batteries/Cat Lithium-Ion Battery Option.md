@@ -12,7 +12,7 @@ tags:
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 offeredBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Logisnext Europe]]"
 offeredWith:
   - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
   - "[[Cat EP14-20 Electric Counterbalance Forklifts]]"

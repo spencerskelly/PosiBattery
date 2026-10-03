@@ -17,6 +17,7 @@ rolePlayedBy:
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
+  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Dealer or Distributor

@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Vehicle Accessory]]"
 supertypeOf:
   - "[[Toyota Cold Conditioning Package]]"
+  - "[[UniCarriers Freezer Option]]"
 ---
 
 # Cold Storage Package

@@ -13,12 +13,12 @@ dependsOn:
   - "[[Vehicle State Sensing Design]]"
 performedBy:
   - "[[Crown Capacity Data Monitor]]"
+  - "[[Komatsu Digital Load Scale]]"
   - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
   - "[[Raymond Load Weight Display]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Load Weight Sensing]]"
-  - "[[Komatsu Digital Load Scale]]"
 ---
 
 # Sense Load Weight and Lift Height

@@ -12,8 +12,8 @@ subtypeOf:
 describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
-  - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Doosan Bobcat Pedestrian Detection Camera]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
 ---
 
 # Pedestrian Detection Camera

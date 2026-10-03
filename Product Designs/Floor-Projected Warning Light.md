@@ -10,13 +10,13 @@ tags:
 subtypeOf:
   - "[[Indicator and Alarm Design]]"
 designOf:
+  - "[[STILL Safety Assist]]"
+  - "[[Cat Safety Lighting Options]]"
   - "[[Linde BlueSpot]]"
   - "[[Powerfleet Forklift Safety Lights]]"
-  - "[[Toyota Forklift Lighting Options]]"
-  - "[[STILL Safety Assist]]"
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
-  - "[[Cat Safety Lighting Options]]"
+  - "[[Toyota Forklift Lighting Options]]"
 ---
 
 # Floor-Projected Warning Light

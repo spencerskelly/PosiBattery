@@ -11,7 +11,7 @@ tags:
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 madeBy:
-  - "[[Mitsubishi Logisnext]]"
+  - "[[Logisnext Europe]]"
 offeredWith:
   - "[[Cat Lithium-Ion Battery Option]]"
   - "[[Cat Safety Lighting Options]]"
