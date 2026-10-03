@@ -41,4 +41,5 @@ Japanese truck group, fifth in the 2024 ranking, selling Mitsubishi, Cat, UniCar
 - Mitsubishi Logisnext Americas
 - MLA
 
+
 ## Former ids

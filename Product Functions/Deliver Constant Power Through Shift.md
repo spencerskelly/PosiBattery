@@ -10,8 +10,8 @@ tags:
 performedBy:
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Yale ERC080VHL]]"
-  - "[[Plug Power GenDrive]]"
   - "[[Nuvera PowerEdge]]"
+  - "[[Plug Power GenDrive]]"
 ---
 
 # Deliver Constant Power Through Shift

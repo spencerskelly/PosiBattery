@@ -19,9 +19,9 @@ rolePlayedBy:
   - "[[Linde Material Handling]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Raymond]]"
+  - "[[STILL]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
-  - "[[STILL]]"
 ---
 
 # Truck OEM

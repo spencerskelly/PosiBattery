@@ -22,6 +22,7 @@ makes:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
+  - "[[ACT ACTview]]"
 distributedBy:
   - "[[East Penn Manufacturing]]"
   - "[[Motive Energy]]"
@@ -43,5 +44,6 @@ Charger and battery-monitor maker (Quantum, BATTview, ACTview) sold through the 
 ## Aliases
 
 - ACT
+
 
 ## Former ids

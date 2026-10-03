@@ -31,7 +31,7 @@ Accumulate amp-hours of charge and discharge, per event and over the battery's l
 ## Notes
 
 - Some products report kWh instead; a product that reports only kWh is not mapped here.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/products/datadevices> <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>

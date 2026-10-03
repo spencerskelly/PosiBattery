@@ -24,12 +24,17 @@ makes:
   - "[[Crown RM-RMD 6000 Series]]"
   - "[[Crown InfoLink]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 offers:
   - "[[Crown V-Force BMID]]"
   - "[[Crown Battery Health Monitor]]"
   - "[[Crown V-HFM3 Charger]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Crown V-Force Lead-Acid Battery]]"
+  - "[[Crown V-HFM3 Wired Remote Control Kit]]"
+  - "[[Crown V-HFM3 Tower Light Kit]]"
+  - "[[Crown V-HFM3 Charger Stand]]"
+  - "[[Crown V-HFM3 Pogo Stick]]"
 ---
 
 # Crown Equipment
@@ -45,7 +50,7 @@ Truck maker that sells V-Force-branded lithium and lead-acid batteries and charg
 - Crown's October 2020 expansion added V-Force flat-plate and tubular lead-acid batteries, with Crown describing a single source for trucks, chargers and batteries. Source: Batteries International (T2), retrieved 2026-10-02. <https://www.batteriesinternational.com/?p=15261>
 - **Unknown, do not infer:** who manufactures the V-Force cells, packs or lead-acid batteries. Crown says 'its own V-Force branded solutions'; that wording does not say Crown manufactures them. Flux Power lists Crown among OEM relationships (self-reported, nature unstated).
 - **Name caution:** a separate US company called Crown Battery appears in supplier lists <https://www.foxtronpowersolutions.com/forklift-battery-manufacturers/>. Any link to Crown Equipment is not established and is not assumed.
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Trucks: electric forklift line that V-Force batteries are fitted to <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-now-offers-line-of-lithium-ion-powered-forklifts.html>
   - Chargers: V-Force V-HFM3 and V-HFB series, usable for lead-acid and lithium <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-now-offers-line-of-lithium-ion-powered-forklifts.html>
   - Charger options: Battery Monitoring Identification Device, charger stand, remote switch, pogo sticks, tower light kit <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html>
@@ -59,5 +64,6 @@ Truck maker that sells V-Force-branded lithium and lead-acid batteries and charg
 
 - Crown
 - V-Force
+
 
 ## Former ids

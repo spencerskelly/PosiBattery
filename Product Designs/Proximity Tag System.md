@@ -8,7 +8,7 @@ tags:
   - truck-design
   - design-characteristic
 describedBy:
-  - "[[Truck Metric - Detection Technology]]"
+  - "[[Metric - Detection Technology]]"
 designOf:
   - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"

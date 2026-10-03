@@ -19,4 +19,4 @@ One Document note per manufacturer document that has been absorbed, linking the 
 
 ## Related
 
-Products are in `Battery Products`; conflicts and open questions are in `Research`.
+Products are in `Products`; conflicts and open questions are in `Research`.

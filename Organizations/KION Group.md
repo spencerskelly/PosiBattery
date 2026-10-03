@@ -34,4 +34,5 @@ German truck group, second in the 2024 ranking, whose brands include Linde Mater
 
 - KION
 
+
 ## Former ids

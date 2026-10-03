@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - Chemistry and Plate Construction]]"
+  - "[[Metric - Chemistry and Plate Construction]]"
 designOf:
   - "[[Deka Dominator Battery]]"
   - "[[Deka Gel-Mate Battery]]"

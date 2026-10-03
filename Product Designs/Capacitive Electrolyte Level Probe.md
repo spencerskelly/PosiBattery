@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Electrolyte Level Sensing]]"
+  - "[[Metric - Electrolyte Level Sensing]]"
 designOf:
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
@@ -23,7 +23,7 @@ Electrolyte level sensing by capacitance, so no current flows through the probe 
 ## Notes
 
 - Flow-Rite states this as patented; the probe is plastic or alloy depending on model.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Flow-Rite Eagle Eye Elite IV]] (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>

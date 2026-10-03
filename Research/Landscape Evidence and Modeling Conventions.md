@@ -32,4 +32,5 @@ Working conventions for researching and recording battery-connected products: ho
 
 - Landscape research conventions
 
+
 ## Former ids

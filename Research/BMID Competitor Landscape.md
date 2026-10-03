@@ -46,7 +46,7 @@ Working comparison of battery-installed identification and monitoring products a
 | Hyster Battery Tracker / Yale Battery Vision | Hyster-Yale | stays with battery | none stated | cellular | n/s | SOC, water, voltage, current, temperature | n/s | trade press; powered by PosiCharge | [1](https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage) [2](https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products) |
 | Access Control Group CellTrac | Access Control Group | n/s | none stated | n/s | n/s | voltage, Ah, temperature, water level | n/s | undated; status unclear | [1](https://www.mhlnews.com/archive/celltrac) |
 
-- **Previously listed as candidates, now modeled:** [[HOPPECKE trak collect]] and [[Hyster Battery Tracker]] (an OEM channel for PosiCharge technology, conflicts C18). Wider function and design comparison: [[Battery Monitoring Function Map]], [[Battery Monitoring Design Map]], [[Battery Monitoring Performance Comparison]].
+- **Previously listed as candidates, now modeled:** [[HOPPECKE trak collect]] and [[Hyster Battery Tracker]] (an OEM channel for PosiCharge technology, conflicts C18). Wider function and design comparison: [[Function Map]], [[Design Map]], [[Monitor Comparison Matrix]].
 - **Lithium side not covered:** products that identify or interface lithium batteries (BMS-to-charger CAN) are in [[Battery Management System]]. Whether a BMID-class device competes with a BMS for lithium customers is open.
 - **Not covered (superseded by the refresh line below):** Zivan, Delta-Q, Lester, Jungheinrich, Linde, Toyota device-level products, Asian vendors, and general-purpose battery monitors (marine, RV, solar). Japanese BTRC-R100 and BTRC-Z100 lead-acid monitors appear in a catalog with no maker identified <https://www.ipros.com/en/cg3/Battery%20performance%20monitoring%20system/>.
 - **Refresh 2026-10-02:** table rebuilt with 17 rows. Wi-iQ charger link corrected (C16); PowerTrac, TruBid, HOPPECKE and others added. The earlier version said no charger interaction was stated for Wi-iQ.
@@ -56,5 +56,6 @@ Working comparison of battery-installed identification and monitoring products a
 ## Aliases
 
 - BMID competitors
+
 
 ## Former ids

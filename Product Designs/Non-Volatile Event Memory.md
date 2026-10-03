@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Data Storage]]"
+  - "[[Metric - Data Storage]]"
 designOf:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
@@ -26,7 +26,7 @@ Non-volatile memory that keeps logged data without power.
 ## Notes
 
 - Capacity is stated only for PowerTrac DT3 and PowerTrac 3 (10,000 events).
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[AMETEK Prestolite Power BID]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>

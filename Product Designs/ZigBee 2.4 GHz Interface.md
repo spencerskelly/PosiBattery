@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Wireless Interfaces and Range]]"
+  - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power WBID]]"
@@ -24,7 +24,7 @@ ZigBee radio link in the 2.4 GHz band.
 ## Notes
 
 - Stated for Wi-iQ4, WBID Pro and WBID.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[AMETEK Prestolite Power WBID Pro]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>

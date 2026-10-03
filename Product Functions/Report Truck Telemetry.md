@@ -11,8 +11,8 @@ performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Yale Vision Telemetry]]"
-  - "[[Toyota MyInsights Telematics]]"
   - "[[Linde connect]]"
+  - "[[Toyota MyInsights Telematics]]"
 ---
 
 # Report Truck Telemetry

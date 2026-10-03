@@ -35,7 +35,7 @@ Send battery data to a hosted portal for fleet reporting.
 ## Notes
 
 - Path may be cellular, gateway or truck-based; see [[Cloud Portal Integration]].
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf> <https://posicharge.com/products/battery-rx/>

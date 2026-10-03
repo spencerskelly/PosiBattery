@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Electrolyte Level Sensing]]"
+  - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Access Control Group CellTrac]]"
@@ -47,7 +47,7 @@ Sense whether the electrolyte level in a flooded lead-acid cell is adequate.
 ## Notes
 
 - Level sensing differs from level indication; the indicating behavior is [[Indicate Battery Status Locally]].
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>

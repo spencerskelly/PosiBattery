@@ -22,7 +22,7 @@ Side-by-side comparison of truck-side proximity and operator assist systems by t
 
 - **Why this matrix:** the owner asked to weigh devices on the truck (proximity detection, speed limiting, stability, access, impact detection) above raw lifting performance. Values are as stated by each maker; none is a tested figure.
 - **Reading:** the systems differ most in sensing technology (tags and LiDAR, LiDAR only, stereoscopic vision, UWB, camera) and in response (alert only versus automatic slowing). No numeric range is stated for most; blanks stay blank.
-- Metric definitions: [[Truck Metric - Detection Technology]], [[Truck Metric - Detection Range and Accuracy]], [[Truck Metric - Response Action]], [[Truck Metric - Truck Integration]], [[Truck Metric - Operator Feedback]], [[Truck Metric - Availability]].
+- Metric definitions: [[Metric - Detection Technology]], [[Metric - Detection Range and Accuracy]], [[Metric - Response Action]], [[Metric - Truck Integration]], [[Metric - Operator Feedback]], [[Metric - Availability]].
 
 | Product | TM01 Detection Technology | TM02 Detection Range and Accuracy | TM03 Response Action | TM04 Truck Integration | TM05 Operator Feedback | TM06 Availability | Authority |
 |---|---|---|---|---|---|---|---|

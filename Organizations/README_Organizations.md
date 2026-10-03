@@ -24,4 +24,4 @@ Companies that make, brand or sell industrial batteries, chargers and battery mo
 
 ## Related
 
-Products made by these organizations are in `Battery Products`; evidence and conflicts are in `Research`.
+Products made by these organizations are in `Products`; evidence and conflicts are in `Research`.

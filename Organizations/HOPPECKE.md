@@ -23,6 +23,7 @@ makes:
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
+  - "[[HOPPECKE trak air Electrolyte Circulation]]"
 offers:
   - "[[HOPPECKE trak charger HF premium]]"
 partnerOf:
@@ -42,7 +43,7 @@ German industrial battery maker whose trak brand covers lead-acid and lithium tr
 - A HOPPECKE case study names ELMAS S.R.L. as its exclusive and long-term partner for a forklift battery deployment with trak | uplift air, trak | collect and trak | charger HF premium. Source: HOPPECKE case study (T1), retrieved 2026-10-02. <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - A market listing describes HOPPECKE as one of the largest privately owned European industrial battery manufacturers. Source: IMARC list (T4), retrieved 2026-10-02. <https://www.imarcgroup.com/blog/top-lead-acid-battery-companies>
 - **Not found:** private-label supply to a named truck OEM.
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Battery lines: trak | uplift, trak | uplift air, trak | uplift iQ, trak | power lithium-ion <https://www.hoppecke.com/uk/product/trak-uplift-iq/>; <https://hoppecke.com/en-us/applications/trak>
   - Electrolyte circulation: trak | air <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - Controller and monitoring: trak | collect, trak | monitor 4.0 <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
@@ -53,5 +54,6 @@ German industrial battery maker whose trak brand covers lead-acid and lithium tr
 ## Aliases
 
 - Hoppecke
+
 
 ## Former ids

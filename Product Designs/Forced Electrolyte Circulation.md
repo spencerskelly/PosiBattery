@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - Watering Interval]]"
+  - "[[Metric - Watering Interval]]"
 designOf:
   - "[[Exide MARATHON Battery]]"
   - "[[HOPPECKE trak uplift air Battery]]"

@@ -8,11 +8,11 @@ tags:
   - truck-function
   - product-function
 describedBy:
-  - "[[Truck Metric - Response Action]]"
-  - "[[Truck Metric - Truck Integration]]"
+  - "[[Metric - Response Action]]"
+  - "[[Metric - Truck Integration]]"
 performedBy:
-  - "[[Hyster Reaction]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Hyster Reaction]]"
   - "[[Linde Safety Guard]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
 ---

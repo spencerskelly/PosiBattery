@@ -55,7 +55,7 @@ Family-owned US battery maker whose Deka motive-power lines cover lead-acid and 
 - East Penn's Transportation division page says most of that division's products are sold on a private label basis, including through major auto parts retailers. Source: East Penn transportation page (T1), retrieved 2026-10-02. <https://www.eastpennmanufacturing.com/divisions/transportation/>
 - Advanced Charging Technologies says its chargers and BATTview monitors are sold and serviced exclusively through the Deka (East Penn) battery dealer network. Source: MMH company profile for ACT (T2), retrieved 2026-10-02. <https://www.mmh.com/company/advanced_charging_technologies>
 - **Scope caution:** the private-label statement is for the Transportation division (starting, lighting and ignition and similar). It is not evidence of private-label motive-power batteries.
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Charger: Deka PowerForce (lead and lithium, about 95 percent efficient, integrated breakaway connector, color touchscreen) <https://www.eastpennmanufacturing.com/?p=6135>
   - Batteries with on-board chargers: ChargeMate (flooded), PowrMate (gel), Gel-Mate <https://www.eastpennmanufacturing.com/forklift-products/>
   - Water-level indication: HydraSaver with LED water level indicator and flip-top vent caps <https://www.eastpennmanufacturing.com/?p=5238>
@@ -68,5 +68,6 @@ Family-owned US battery maker whose Deka motive-power lines cover lead-acid and 
 
 - Deka
 - East Penn
+
 
 ## Former ids

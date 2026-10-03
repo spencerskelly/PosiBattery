@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Current Measurement]]"
+  - "[[Metric - Current Measurement]]"
 designOf:
   - "[[Access Control Group CellTrac]]"
   - "[[Power Designers PowerTrac 3]]"
@@ -24,7 +24,7 @@ Current or Ah sensing without a shunt in the battery circuit.
 ## Notes
 
 - PowerTrac 3 calls its approach shuntless intercell sensing; CellTrac says it needs no shunt. Whether the two methods are the same is not stated.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>

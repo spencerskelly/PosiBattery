@@ -8,8 +8,8 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - BMS and Communication]]"
-  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
+  - "[[Metric - BMS and Communication]]"
+  - "[[Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[EnerSys Wi-iQ]]"
@@ -31,7 +31,7 @@ CAN bus interface for communication with a vehicle or charger.
 ## Notes
 
 - Protocols differ: Wi-iQ4 offers CANopen or J1939; SBM-01 auto-detects 125 kbps to 1 Mbps; others do not state a protocol.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID 3]] (U): (user statement, no web source)

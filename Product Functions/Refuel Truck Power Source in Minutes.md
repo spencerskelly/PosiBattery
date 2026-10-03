@@ -8,8 +8,8 @@ tags:
   - truck-function
   - product-function
 performedBy:
-  - "[[Plug Power GenDrive]]"
   - "[[Nuvera PowerEdge]]"
+  - "[[Plug Power GenDrive]]"
 ---
 
 # Refuel Truck Power Source in Minutes

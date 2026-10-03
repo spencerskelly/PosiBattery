@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - Operating Temperature and Heating]]"
+  - "[[Metric - Operating Temperature Range]]"
 designOf:
   - "[[Green Cubes GSE Lithium Battery]]"
 ---

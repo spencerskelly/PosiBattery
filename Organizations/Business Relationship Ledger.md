@@ -339,9 +339,43 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | makes | [[STILL]] | [[STILL Safety Assist and Curve Speed Control]] | vendor presents the product as its own | see the product note |
 | makes | [[Plug Power]] | [[Plug Power GenDrive]] | vendor presents the product as its own | see the product note |
 | makes | [[Nuvera]] | [[Nuvera PowerEdge]] | vendor presents the product as its own | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-HFM3 Wired Remote Control Kit]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-HFM3 Tower Light Kit]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-HFM3 Charger Stand]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Crown Equipment]] | [[Crown V-HFM3 Pogo Stick]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Midac]] | [[Midac Aquamatic Watering System]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Midac]] | [[Midac EUW Electrolyte Circulation System]] | vendor or dealer lists the option; maker not stated | see the product note |
+| offers | [[Midac]] | [[Midac End Leads]] | vendor or dealer lists the option; maker not stated | see the product note |
+| makes | [[Exide Technologies]] | [[Exide AIR Electrolyte Agitation System]] | vendor presents the product as its own | see the product note |
+| makes | [[Exide Technologies]] | [[Exide Automatic Watering System and Level Sensor]] | vendor presents the product as its own | see the product note |
+| makes | [[HOPPECKE]] | [[HOPPECKE trak air Electrolyte Circulation]] | vendor presents the product as its own | see the product note |
+| makes | [[Linde Material Handling]] | [[Linde Smartphone Holder]] | vendor presents the product as its own | see the product note |
+| makes | [[Crown Equipment]] | [[Crown InfoLink 7-inch Touch Display]] | vendor presents the product as its own | see the product note |
+| makes | [[Stryten Energy]] | [[Stryten inCOMMAND]] | vendor presents the product as its own | see the product note |
+| makes | [[Advanced Charging Technologies]] | [[ACT ACTview]] | vendor presents the product as its own | see the product note |
+| makes | [[Fronius International]] | [[Fronius Charge & Connect]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[Crown V-HFM3 Wired Remote Control Kit]] | [[Crown V-HFM3 Charger]] | brochure option | <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf> |
+| offeredWith | [[Crown V-HFM3 Tower Light Kit]] | [[Crown V-HFM3 Charger]] | brochure option | <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf> |
+| offeredWith | [[Crown V-HFM3 Charger Stand]] | [[Crown V-HFM3 Charger]] | page option | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
+| offeredWith | [[Crown V-HFM3 Pogo Stick]] | [[Crown V-HFM3 Charger]] | page option | <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html> |
+| offeredWith | [[Midac Aquamatic Watering System]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
+| offeredWith | [[Midac EUW Electrolyte Circulation System]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
+| offeredWith | [[Midac End Leads]] | [[Midac PzS Traction Battery]] | dealer lists as optional accessory | <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140> |
+| offeredWith | [[Exide AIR Electrolyte Agitation System]] | [[Exide MARATHON Battery]] | overview: MARATHON can be fitted with AIR | <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf> |
+| offeredWith | [[Exide Automatic Watering System and Level Sensor]] | [[Exide MARATHON Battery]] | overview lists availability | <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf> |
+| offeredWith | [[HOPPECKE trak air Electrolyte Circulation]] | [[HOPPECKE trak uplift air Battery]] | case study | <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks> |
+| offeredWith | [[Crown InfoLink 7-inch Touch Display]] | [[Crown ProximityAssist System]] | display shows ProximityAssist alerts | <https://www.ivtinternational.com/?p=22917> |
+| offeredWith | [[Stryten inCOMMAND]] | [[Stryten X-7 Charger]] | chargers communicate with inCOMMAND | <https://stryten.com/?p=173790> |
+| offeredWith | [[Stryten inCOMMAND]] | [[Stryten X-3 Charger]] | M-Series chargers communicate with inCOMMAND | <https://stryten.com/?p=173790> |
+| offeredWith | [[Stryten inCOMMAND]] | [[Stryten M-Series Li610 Battery]] | Li610 integrates with inCOMMAND | <https://stryten.com/?p=173790> |
+| offeredWith | [[ACT ACTview]] | [[ACT Quantum 2]] | sheet: ACTview for Quantum assets | <https://og.mhi.org/media/members/41607/133717591610794845.pdf> |
+| offeredWith | [[ACT ACTview]] | [[ACT Quantum 3]] | sheet: ACTview for Quantum assets | <https://og.mhi.org/media/members/41607/133717589840217692.pdf> |
+| offeredWith | [[ACT ACTview]] | [[Advanced Charging Technologies BATTview]] | sheet: ACTview for Battview assets | <https://og.mhi.org/media/members/41607/133717592244521430.pdf> |
+| offeredWith | [[Fronius Charge & Connect]] | [[Fronius Selectiva 4.0]] | flyer: chargers connect to Charge & Connect | <https://fronius.com/~/downloads/Perfect%20Charging/Flyer/PC_FLY_Selectiva_4.0_96V-120V_EN_fin-MRM_.pdf> |
 
 ## Aliases
 
 - Relationship ledger
+
 
 ## Former ids

@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Data Storage]]"
+  - "[[Metric - Data Storage]]"
 performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power Site Probe]]"
@@ -43,8 +43,8 @@ Record charge, discharge, temperature and fault events with time stamps for late
 
 ## Notes
 
-- Storage size is a performance measure; see [[Battery Monitoring Performance Comparison]].
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Storage size is a performance measure; see [[Monitor Comparison Matrix]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/faq/>

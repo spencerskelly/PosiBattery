@@ -100,5 +100,6 @@ Do not infer missing specifications from similar products. If an installation lo
 - Battery-mounted device market reference
 - Battery accessory market reference
 
+
 ## Former ids
 - INFO-00001

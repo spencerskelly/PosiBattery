@@ -1,0 +1,34 @@
+---
+type: Object
+subtype: electrical
+id: OBJ-00216
+uid: 20261003093855185skellyspencer
+status: Draft
+tags:
+  - battery-market-reference
+  - commercial-product
+  - accessory
+  - battery-accessory
+  - circulation
+subtypeOf:
+  - "[[Electrolyte Circulation System]]"
+madeBy:
+  - "[[Exide Technologies]]"
+offeredWith:
+  - "[[Exide MARATHON Battery]]"
+---
+
+# Exide AIR Electrolyte Agitation System
+
+## Definition
+
+Exide forced electrolyte circulation (AIR agitation) offered on MARATHON traction batteries.
+
+## Notes
+
+- Exide's overview says MARATHON batteries can be fitted with AIR agitation, a forced electrolyte circulation system (copy of the overview is in the repo). Source: GNB motive power overview (T1), retrieved 2026-10-03. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+
+## Aliases
+
+
+## Former ids

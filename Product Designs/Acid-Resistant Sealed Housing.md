@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Ingress and Chemical Protection]]"
+  - "[[Metric - Ingress and Enclosure Protection]]"
 designOf:
   - "[[Crown V-Force BMID]]"
   - "[[EnerSys Wi-iQ]]"
@@ -29,7 +29,7 @@ Housing designed to resist acid, spills, water or pressure washing.
 ## Notes
 
 - Claims differ in strength and are not tested ratings unless a standard is named.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>

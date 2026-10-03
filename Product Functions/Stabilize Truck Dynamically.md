@@ -9,9 +9,9 @@ tags:
   - product-function
 performedBy:
   - "[[Hyster Reaction]]"
+  - "[[Linde Safety Pilot]]"
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
-  - "[[Linde Safety Pilot]]"
 ---
 
 # Stabilize Truck Dynamically

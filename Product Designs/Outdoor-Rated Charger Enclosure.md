@@ -8,7 +8,7 @@ tags:
   - charger
   - design-characteristic
 describedBy:
-  - "[[Charger Metric - Enclosure Rating]]"
+  - "[[Metric - Ingress and Enclosure Protection]]"
 designOf:
   - "[[ACT Quantum Outdoor]]"
   - "[[EnerSys NexSys+ Charger]]"

@@ -42,7 +42,7 @@ Truck maker with the iBattery monitoring module, whose Raymond Storage Concepts 
 - Raymond's iBattery module reports battery statistics through its iWarehouse system. Source: Raymond release (2010) (T1 (dated)), retrieved 2026-10-02. <https://raymondcorp.com/news/2010/ibattery-launch>
 - A Raymond Storage Concepts brochure lists lead-acid and thin plate pure lead batteries, chargers, battery handling systems and a battery management system for forklift fleets. Source: RSC Energy Solutions brochure (2025) (T1), retrieved 2026-10-02. <https://rsc.stockpress.co/l/edd944618b078dbd/RSC-Energy-Solutions-Brochure-dig.pdf>
 - **Unknown, do not infer:** who manufactures the batteries Raymond sells. Flux Power lists Raymond among OEM relationships (self-reported, nature unstated).
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Trucks and software: Raymond forklifts with iWarehouse fleet system <https://raymondcorp.com/news/2010/ibattery-launch>
   - Monitoring: iBattery module <https://raymondcorp.com/news/2010/ibattery-launch>
   - Via Raymond Storage Concepts: lead-acid and thin plate pure lead batteries, chargers, battery handling systems, a BMS, and power-study data logging <https://rsc.stockpress.co/l/edd944618b078dbd/RSC-Energy-Solutions-Brochure-dig.pdf>
@@ -55,5 +55,6 @@ Truck maker with the iBattery monitoring module, whose Raymond Storage Concepts 
 - Raymond Corporation
 - Raymond Storage Concepts
 - RSC
+
 
 ## Former ids

@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - Onboard Accessories]]"
+  - "[[Metric - Onboard Accessories]]"
 designOf:
   - "[[Deka ChargeMate Battery]]"
   - "[[Deka Gel-Mate Battery]]"

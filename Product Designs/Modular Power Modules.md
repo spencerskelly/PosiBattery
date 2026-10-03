@@ -8,7 +8,7 @@ tags:
   - charger
   - design-characteristic
 describedBy:
-  - "[[Charger Metric - Modularity]]"
+  - "[[Metric - Modularity]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

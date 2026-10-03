@@ -8,8 +8,8 @@ tags:
   - truck-design
   - design-characteristic
 designOf:
-  - "[[Toyota MyInsights Telematics]]"
   - "[[Linde connect]]"
+  - "[[Toyota MyInsights Telematics]]"
 ---
 
 # Impact Sensor

@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Voltage Measurement]]"
+  - "[[Metric - Voltage Measurement]]"
 performedBy:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[Access Control Group CellTrac]]"
@@ -43,7 +43,7 @@ Measure the battery's overall terminal voltage (some products also measure half-
 ## Notes
 
 - Accuracy and resolution differ by product; only PowerTrac DT3 states a figure (0.1 V accuracy).
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/airport-ground-support-equipment/>

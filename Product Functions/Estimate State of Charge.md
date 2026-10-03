@@ -32,7 +32,7 @@ Estimate the battery's state of charge from measurements.
 ## Notes
 
 - Estimation method is not stated by any retrieved source.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/airport-ground-support-equipment/>

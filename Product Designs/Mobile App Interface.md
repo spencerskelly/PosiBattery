@@ -24,7 +24,7 @@ Phone or tablet app for configuring the device and reading its data.
 ## Notes
 
 - PosiConnect (PosiGuard), E Connect (Wi-iQ), eGO!Tools (eGO! range).
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge PosiGuard]] (V): <https://apps.apple.com/mx/app/posiconnect/id6748969496>

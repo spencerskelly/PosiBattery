@@ -8,12 +8,12 @@ tags:
   - truck-function
   - product-function
 describedBy:
-  - "[[Truck Metric - Response Action]]"
-  - "[[Truck Metric - Operator Feedback]]"
+  - "[[Metric - Operator Feedback]]"
+  - "[[Metric - Response Action]]"
 performedBy:
-  - "[[Hyster Reaction]]"
-  - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[Hyster Reaction]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
 ---
 

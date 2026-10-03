@@ -29,7 +29,7 @@ Bluetooth radio link. Parent family for variants; used directly where a source s
 ## Notes
 
 - Variants: [[Bluetooth Low Energy Interface]], [[Bluetooth Class 1 Interface]].
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/procoreedge>

@@ -37,7 +37,7 @@ US lithium-ion forklift and ground support battery maker that discloses private-
 - Flux says it sells primarily to lift equipment OEMs, their dealers and battery distributors. Source: Flux Power Q3 FY2019 results exhibit (T1 (SEC filing)), retrieved 2026-10-02. <https://www.sec.gov/Archives/edgar/data/1083743/000165495419005804/flux_ex991.htm>
 - A fiscal-2020 call transcript says Flux secured supply relationships with more forklift OEMs, such as Clark Material Handling. Source: Earnings call transcript (secondary host) (T4), retrieved 2026-10-02. <https://www.roic.ai/quote/FLUX/transcripts/2020-year/4-quarter>
 - **Unknown, do not infer:** which OEM is the 2019 or 2024 private-label partner. The named OEMs above are sales relationships, not identified white-label customers.
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Battery packs for forklifts, AGVs and GSE: LiFT Pack, X, L48, M36, M24, S, C series and GSE packs (series names from a secondary directory) <https://www.fulfill.com/partners/flux-power>
   - Telematics and cloud: SkyBMS and SkyEMS <https://www.businesswire.com/news/home/20240220147836/en>; <https://ir.fluxpower.com/_assets/_6ee31b4372667c9c77eea9fe7aace472/fluxpower/db/2216/20970/pdf/FLUX+Profile+-+August+2026.pdf>
   - Accessories named in an early release: stand-alone battery management, stackable chargers, programming software and display systems <https://ir.fluxpower.com/news-events/press-releases/detail/78/flux-power-introduces-new-line-of-advanced-lithium-battery>
@@ -46,5 +46,6 @@ US lithium-ion forklift and ground support battery maker that discloses private-
 ## Aliases
 
 - Flux Power Holdings
+
 
 ## Former ids

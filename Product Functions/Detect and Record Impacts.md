@@ -8,8 +8,8 @@ tags:
   - truck-function
   - product-function
 performedBy:
-  - "[[Toyota MyInsights Telematics]]"
   - "[[Linde connect]]"
+  - "[[Toyota MyInsights Telematics]]"
 ---
 
 # Detect and Record Impacts

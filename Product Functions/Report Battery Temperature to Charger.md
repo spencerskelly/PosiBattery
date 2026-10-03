@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Charger Link]]"
+  - "[[Metric - Charger Link]]"
 performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
@@ -27,7 +27,7 @@ Give the charger the battery temperature so the charger can adjust its charge.
 ## Notes
 
 - Often implemented together with [[Identify Battery to Charger]] but stated separately by some vendors.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/faq/>

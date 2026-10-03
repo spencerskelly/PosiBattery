@@ -13,9 +13,9 @@ The dictionary of performance metrics used to compare monitors, chargers and tra
 ## Start here
 
 - [[Monitor Comparison Matrix]], [[Charger Comparison Matrix]], [[Battery Comparison Matrix]] (in `Research`)
-- [[Monitor Metric - Current Measurement]], [[Charger Metric - Peak Efficiency]], [[Battery Metric - Watering Interval]] as examples
+- [[Metric - Current Measurement]], [[Metric - Peak Efficiency]], [[Metric - Watering Interval]] as examples
 - [Local contents](./BASE_local_Performance%20Metrics.base) and [all contents](./BASE_all_Performance%20Metrics.base)
 
 ## Related
 
-Product notes are in `Battery Products`; behaviors in `Product Functions`; characteristics in `Product Designs`; the layout rule is in [[Note Standard (Example)]].
+Product notes are in `Products`; behaviors in `Product Functions`; characteristics in `Product Designs`; the layout rule is in [[Note Standard (Example)]].

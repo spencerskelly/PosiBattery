@@ -8,7 +8,7 @@ tags:
   - charger
   - design-characteristic
 describedBy:
-  - "[[Charger Metric - Battery Voltage Range]]"
+  - "[[Metric - Nominal Voltage Range]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

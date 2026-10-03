@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Temperature Sensing]]"
+  - "[[Metric - Temperature Sensing]]"
 designOf:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
@@ -25,7 +25,7 @@ Temperature sensor placed in the cell electrolyte, so it reads electrolyte tempe
 ## Notes
 
 - Stated for PosiCharge BMID, Battery Rx, Prestolite TruBid and WBID Pro. Whether other products immerse the sensor is not stated.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/faq/>

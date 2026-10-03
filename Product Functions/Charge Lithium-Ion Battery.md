@@ -8,7 +8,7 @@ tags:
   - charger
   - product-function
 describedBy:
-  - "[[Charger Metric - Chemistries Supported]]"
+  - "[[Metric - Chemistries Supported]]"
 performedBy:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

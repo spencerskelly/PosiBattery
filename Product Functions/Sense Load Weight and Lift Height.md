@@ -8,8 +8,8 @@ tags:
   - truck-function
   - product-function
 performedBy:
-  - "[[Toyota Assist]]"
   - "[[Linde Safety Pilot]]"
+  - "[[Toyota Assist]]"
 ---
 
 # Sense Load Weight and Lift Height

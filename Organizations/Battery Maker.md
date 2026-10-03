@@ -18,11 +18,11 @@ rolePlayedBy:
   - "[[HOPPECKE]]"
   - "[[Inventus Power]]"
   - "[[Midac]]"
+  - "[[Nuvera]]"
+  - "[[Plug Power]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
-  - "[[Plug Power]]"
-  - "[[Nuvera]]"
 ---
 
 # Battery Maker

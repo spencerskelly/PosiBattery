@@ -21,7 +21,7 @@ Side-by-side stated performance of chargers on seven metrics, with conflicts and
 ## Notes
 
 - Values are copied from the metric notes; each metric's comparability rule applies. n/s = not stated in any retrieved source. Only products with at least one value in these columns are listed.
-- Metric definitions: [[Charger Metric - Battery Voltage Range]], [[Charger Metric - Output Power and Current]], [[Charger Metric - Peak Efficiency]], [[Charger Metric - Charge Regimes]], [[Charger Metric - Chemistries Supported]], [[Charger Metric - Battery Identification Method]], [[Charger Metric - Communication and Remote Management]].
+- Metric definitions: [[Metric - Nominal Voltage Range]], [[Metric - Output Power and Current]], [[Metric - Peak Efficiency]], [[Metric - Charge Regimes]], [[Metric - Chemistries Supported]], [[Metric - Battery Identification Method]], [[Metric - Communication and Remote Management]].
 - This matrix is a reading aid. Fix a product note first, then its metric value.
 
 | Product | CM01 Battery Voltage Range | CM02 Output Power and Current | CM04 Peak Efficiency | CM06 Charge Regimes | CM07 Chemistries Supported | CM08 Battery Identification Method | CM10 Communication and Remote Management | Authority |

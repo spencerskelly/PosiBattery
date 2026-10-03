@@ -34,6 +34,7 @@ makes:
   - "[[Stryten EHI Charger]]"
   - "[[Stryten EHY Charger]]"
   - "[[Stryten EHF Charger]]"
+  - "[[Stryten inCOMMAND]]"
 offers:
   - "[[Stryten X-7 Charger]]"
 distributedBy:
@@ -56,7 +57,7 @@ US industrial battery maker, formerly GNB Industrial Power, selling M-Series lea
 - Stryten launched the M-Series Li610 LFP battery on 2026-04-13 with an onboard display of state of charge, temperature, voltage and current, compatibility with X-3 and X-7 chargers, and integration into the inCOMMAND platform. Source: Business Wire (T2), retrieved 2026-10-02. <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
 - A dealer, Medley, sells Stryten batteries alongside forklifts and genuine forklift parts and accessories. Source: Medley Company page (T3), retrieved 2026-10-02. <https://www.medleycompany.com/stryten-energy/>
 - **Name caution (C30):** Exide's own documents also say GNB Industrial Power became Exide Technologies. Which company holds the GNB heritage in which region, and who owns the Aker Wade chargers now, is not established here.
-- **Offered or promoted with its batteries (each item with its web page):**
+- **Earlier offered-with list (round 5; superseded by the product notes linked from this note and by [[Offerings by Organization]]; kept as written for items not yet modeled):**
   - Chargers: M-Series X-3 and X-7 (X-7: up to 30 kW, silicon carbide, standard, opportunity and fast charge, 72-96 V, lithium; AGM planned) <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>
   - Software: inCOMMAND energy performance management (monitor batteries and chargers from a computer) <https://www.stryten.com/?p=207972>
   - Battery-side monitoring: onboard display on Li610; remote monitoring and CANbus on Li600 <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
@@ -70,5 +71,6 @@ US industrial battery maker, formerly GNB Industrial Power, selling M-Series lea
 
 - Stryten
 - formerly GNB Industrial Power
+
 
 ## Former ids

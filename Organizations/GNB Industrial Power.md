@@ -33,4 +33,5 @@ Former industrial battery division brand; Stryten Energy says it is formerly GNB
 
 - GNB
 
+
 ## Former ids

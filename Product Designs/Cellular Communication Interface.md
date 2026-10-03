@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Wireless Interfaces and Range]]"
+  - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
@@ -25,7 +25,7 @@ Cellular modem for sending data from the battery device.
 ## Notes
 
 - Stated for Hyster Battery Tracker, Yale Battery Vision and optional on Battery Rx.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf> <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>

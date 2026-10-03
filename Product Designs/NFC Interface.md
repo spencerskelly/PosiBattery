@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Wireless Interfaces and Range]]"
+  - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[HOPPECKE trak collect]]"
 ---

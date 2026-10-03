@@ -32,4 +32,5 @@ Charger maker that states it supplies chargers to OEMs of electric vehicles and 
 
 - Delta-Q
 
+
 ## Former ids

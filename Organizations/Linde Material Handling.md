@@ -22,6 +22,7 @@ makes:
   - "[[Linde BlueSpot]]"
   - "[[Linde Motion Detection]]"
   - "[[Linde connect]]"
+  - "[[Linde Smartphone Holder]]"
 offers:
   - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
@@ -44,5 +45,6 @@ KION brand selling Linde electric forklifts with lead-acid or lithium-ion batter
 
 - Linde MH
 - Linde
+
 
 ## Former ids

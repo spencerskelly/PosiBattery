@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Wireless Interfaces and Range]]"
+  - "[[Metric - Wireless Interfaces and Range]]"
 performedBy:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
@@ -42,7 +42,7 @@ Send battery data wirelessly to a gateway, app, truck module or charger.
 ## Notes
 
 - Radio type is a design choice; see the interface design notes.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/procoreedge>

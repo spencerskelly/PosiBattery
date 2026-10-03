@@ -28,4 +28,5 @@ Japanese maker with forklifts, thirteenth in the 2024 ranking.
 
 - Komatsu Forklift
 
+
 ## Former ids

@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Current Measurement]]"
+  - "[[Metric - Current Measurement]]"
 designOf:
   - "[[Power Designers PowerTrac SP+]]"
 ---
@@ -22,7 +22,7 @@ Current sensing across an external shunt wired into the battery circuit.
 ## Notes
 
 - PowerTrac SP+ uses a standard 50 mV external shunt; 500 A bolt-on and clamp-on shunts are offered.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Power Designers PowerTrac SP+]] (V): <https://www.powerdesignerssibex.com/powertrac-sp/> <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>

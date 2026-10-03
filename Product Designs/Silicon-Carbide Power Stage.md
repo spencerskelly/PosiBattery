@@ -8,7 +8,7 @@ tags:
   - charger
   - design-characteristic
 describedBy:
-  - "[[Charger Metric - Peak Efficiency]]"
+  - "[[Metric - Peak Efficiency]]"
 designOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"

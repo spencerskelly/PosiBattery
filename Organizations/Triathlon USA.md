@@ -33,6 +33,7 @@ Triathlon-branded battery and charger supplier named by Mitsubishi Logisnext Ame
 
 ## Aliases
 
-- Triathlon
+- Triathlon (US)
+
 
 ## Former ids

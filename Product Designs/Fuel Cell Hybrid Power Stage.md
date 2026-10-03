@@ -8,8 +8,8 @@ tags:
   - truck-design
   - design-characteristic
 designOf:
-  - "[[Plug Power GenDrive]]"
   - "[[Nuvera PowerEdge]]"
+  - "[[Plug Power GenDrive]]"
 ---
 
 # Fuel Cell Hybrid Power Stage

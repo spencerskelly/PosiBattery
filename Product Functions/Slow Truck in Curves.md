@@ -8,7 +8,7 @@ tags:
   - truck-function
   - product-function
 describedBy:
-  - "[[Truck Metric - Response Action]]"
+  - "[[Metric - Response Action]]"
 performedBy:
   - "[[Hyster Reaction]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"

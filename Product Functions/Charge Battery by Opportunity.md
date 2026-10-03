@@ -8,7 +8,7 @@ tags:
   - charger
   - product-function
 describedBy:
-  - "[[Charger Metric - Charge Regimes]]"
+  - "[[Metric - Charge Regimes]]"
 performedBy:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"

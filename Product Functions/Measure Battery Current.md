@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Current Measurement]]"
+  - "[[Metric - Current Measurement]]"
 performedBy:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[EnerSys Wi-iQ]]"
@@ -36,7 +36,7 @@ Measure current into and out of the battery.
 ## Notes
 
 - Sensing method is a design choice: external shunt, shuntless, Hall effect or split-core. See the design notes.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>

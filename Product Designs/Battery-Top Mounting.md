@@ -23,7 +23,7 @@ Device mounted on top of the battery.
 ## Notes
 
 - Stated for Crown BMID, TruBid and the eGO! range.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Crown V-Force BMID]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>

@@ -8,16 +8,16 @@ tags:
   - truck-function
   - product-function
 describedBy:
-  - "[[Truck Metric - Detection Technology]]"
-  - "[[Truck Metric - Detection Range and Accuracy]]"
+  - "[[Metric - Detection Range and Accuracy]]"
+  - "[[Metric - Detection Technology]]"
 performedBy:
-  - "[[Hyster Reaction]]"
-  - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[Hyster Reaction]]"
+  - "[[Linde Motion Detection]]"
+  - "[[Linde Safety Guard]]"
   - "[[Toyota Assist]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Linde Safety Guard]]"
-  - "[[Linde Motion Detection]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck

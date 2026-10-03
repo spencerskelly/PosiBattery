@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - BMS and Communication]]"
+  - "[[Metric - BMS and Communication]]"
 designOf:
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"

@@ -8,8 +8,8 @@ tags:
   - truck-function
   - product-function
 performedBy:
-  - "[[Linde Safety Guard]]"
   - "[[Linde BlueSpot]]"
+  - "[[Linde Safety Guard]]"
   - "[[STILL Safety Assist and Curve Speed Control]]"
 ---
 

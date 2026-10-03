@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - design-characteristic
 describedBy:
-  - "[[Monitor Metric - Wired and Vehicle Interfaces]]"
+  - "[[Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[Power Designers PowerTrac SP+]]"
 ---
@@ -22,7 +22,7 @@ Infrared optical data port for local download.
 ## Notes
 
 - Stated for PowerTrac SP+.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Power Designers PowerTrac SP+]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>

@@ -8,11 +8,11 @@ tags:
   - truck-design
   - design-characteristic
 describedBy:
-  - "[[Truck Metric - Operator Feedback]]"
+  - "[[Metric - Operator Feedback]]"
 designOf:
   - "[[Crown InfoLink]]"
-  - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Hyster J1.5-3.0UT(L)]]"
 ---
 
 # Operator Touch Display

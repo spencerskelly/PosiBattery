@@ -8,7 +8,7 @@ tags:
   - battery
   - design-characteristic
 describedBy:
-  - "[[Battery Metric - Watering Interval]]"
+  - "[[Metric - Watering Interval]]"
 designOf:
   - "[[Deka HydraSaver Battery]]"
   - "[[Deka MaintenanceSaver Battery]]"

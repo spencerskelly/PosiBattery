@@ -28,4 +28,5 @@ Korean maker of Doosan industrial vehicles, ninth in the 2024 ranking.
 
 - Doosan Industrial Vehicle
 
+
 ## Former ids

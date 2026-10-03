@@ -1,178 +1,178 @@
 {
-  "nodes": [
-    {
-      "id": "land",
-      "type": "file",
-      "file": "Research/Battery Product Landscape.md",
-      "x": 0,
-      "y": 0,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "ev",
-      "type": "file",
-      "file": "Research/Landscape Evidence and Modeling Conventions.md",
-      "x": 0,
-      "y": 220,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "conf",
-      "type": "file",
-      "file": "Research/Battery Product Landscape Conflicts and Open Questions.md",
-      "x": 0,
-      "y": 440,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "comp",
-      "type": "file",
-      "file": "Research/BMID Competitor Landscape.md",
-      "x": 0,
-      "y": 660,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "var",
-      "type": "file",
-      "file": "Research/PosiCharge BMID Variants.md",
-      "x": 0,
-      "y": 880,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "mref",
-      "type": "file",
-      "file": "Research/Battery Installed Device Market Reference.md",
-      "x": 0,
-      "y": 1100,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "root",
-      "type": "file",
-      "file": "Battery Products/Categories/Battery-Connected Product.md",
-      "x": 520,
-      "y": 60,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "inst",
-      "type": "file",
-      "file": "Battery Products/Categories/Battery-Installed Devices/Battery-Installed Device.md",
-      "x": 520,
-      "y": 1100,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "idci",
-      "type": "file",
-      "file": "Battery Products/Categories/Battery-Installed Devices/Battery Identification and Charge Interface Device.md",
-      "x": 520,
-      "y": 620,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "bmid",
-      "type": "file",
-      "file": "Battery Products/Manufacturers/PosiCharge/PosiCharge BMID.md",
-      "x": 1040,
-      "y": 780,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "bmid3",
-      "type": "file",
-      "file": "Battery Products/Manufacturers/PosiCharge/PosiCharge BMID 3.md",
-      "x": 1040,
-      "y": 980,
-      "width": 340,
-      "height": 170
-    },
-    {
-      "id": "guard",
-      "type": "file",
-      "file": "Battery Products/Manufacturers/PosiCharge/PosiCharge PosiGuard.md",
-      "x": 1040,
-      "y": 1180,
-      "width": 340,
-      "height": 170
-    }
-  ],
-  "edges": [
-    {
-      "id": "e1",
-      "fromNode": "land",
-      "fromSide": "left",
-      "toNode": "root",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e2",
-      "fromNode": "ev",
-      "fromSide": "left",
-      "toNode": "root",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e3",
-      "fromNode": "mref",
-      "fromSide": "left",
-      "toNode": "inst",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e4",
-      "fromNode": "comp",
-      "fromSide": "left",
-      "toNode": "idci",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e5",
-      "fromNode": "comp",
-      "fromSide": "left",
-      "toNode": "bmid",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e6",
-      "fromNode": "var",
-      "fromSide": "left",
-      "toNode": "bmid",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e7",
-      "fromNode": "var",
-      "fromSide": "left",
-      "toNode": "bmid3",
-      "toSide": "right",
-      "label": "describes"
-    },
-    {
-      "id": "e8",
-      "fromNode": "var",
-      "fromSide": "left",
-      "toNode": "guard",
-      "toSide": "right",
-      "label": "describes"
-    }
-  ]
+ "nodes": [
+  {
+   "id": "land",
+   "type": "file",
+   "file": "Research/Battery Product Landscape.md",
+   "x": 0,
+   "y": 0,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "ev",
+   "type": "file",
+   "file": "Research/Landscape Evidence and Modeling Conventions.md",
+   "x": 0,
+   "y": 220,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "conf",
+   "type": "file",
+   "file": "Research/Battery Product Landscape Conflicts and Open Questions.md",
+   "x": 0,
+   "y": 440,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "comp",
+   "type": "file",
+   "file": "Research/BMID Competitor Landscape.md",
+   "x": 0,
+   "y": 660,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "var",
+   "type": "file",
+   "file": "Research/PosiCharge BMID Variants.md",
+   "x": 0,
+   "y": 880,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "mref",
+   "type": "file",
+   "file": "Research/Battery Installed Device Market Reference.md",
+   "x": 0,
+   "y": 1100,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "root",
+   "type": "file",
+   "file": "Products/Battery-Connected Product.md",
+   "x": 520,
+   "y": 60,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "inst",
+   "type": "file",
+   "file": "Products/Battery Accessories/Battery-Installed Device.md",
+   "x": 520,
+   "y": 1100,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "idci",
+   "type": "file",
+   "file": "Products/Battery Accessories/Identification and Charge Interface Devices/Battery Identification and Charge Interface Device.md",
+   "x": 520,
+   "y": 620,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "bmid",
+   "type": "file",
+   "file": "Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md",
+   "x": 1040,
+   "y": 780,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "bmid3",
+   "type": "file",
+   "file": "Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID 3.md",
+   "x": 1040,
+   "y": 980,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "guard",
+   "type": "file",
+   "file": "Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge PosiGuard.md",
+   "x": 1040,
+   "y": 1180,
+   "width": 340,
+   "height": 170
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "land",
+   "fromSide": "left",
+   "toNode": "root",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e2",
+   "fromNode": "ev",
+   "fromSide": "left",
+   "toNode": "root",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e3",
+   "fromNode": "mref",
+   "fromSide": "left",
+   "toNode": "inst",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e4",
+   "fromNode": "comp",
+   "fromSide": "left",
+   "toNode": "idci",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e5",
+   "fromNode": "comp",
+   "fromSide": "left",
+   "toNode": "bmid",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e6",
+   "fromNode": "var",
+   "fromSide": "left",
+   "toNode": "bmid",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e7",
+   "fromNode": "var",
+   "fromSide": "left",
+   "toNode": "bmid3",
+   "toSide": "right",
+   "label": "describes"
+  },
+  {
+   "id": "e8",
+   "fromNode": "var",
+   "fromSide": "left",
+   "toNode": "guard",
+   "toSide": "right",
+   "label": "describes"
+  }
+ ]
 }

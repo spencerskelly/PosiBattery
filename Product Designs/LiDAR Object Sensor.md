@@ -8,10 +8,10 @@ tags:
   - truck-design
   - design-characteristic
 describedBy:
-  - "[[Truck Metric - Detection Technology]]"
+  - "[[Metric - Detection Technology]]"
 designOf:
-  - "[[Hyster Reaction]]"
   - "[[Crown ProximityAssist System]]"
+  - "[[Hyster Reaction]]"
 ---
 
 # LiDAR Object Sensor

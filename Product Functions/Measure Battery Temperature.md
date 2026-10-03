@@ -8,7 +8,7 @@ tags:
   - battery-monitoring
   - product-function
 describedBy:
-  - "[[Monitor Metric - Temperature Sensing]]"
+  - "[[Metric - Temperature Sensing]]"
 performedBy:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
@@ -50,7 +50,7 @@ Measure battery temperature, either of the electrolyte or of the surroundings.
 ## Notes
 
 - Whether the sensor is immersed in electrolyte differs by product; see [[Electrolyte-Immersed Temperature Sensor]].
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge BMID]] (V): <https://www.posicharge.com/faq/> <https://www.posicharge.com/airport-ground-support-equipment/>

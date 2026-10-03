@@ -98,6 +98,10 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-071 | Operator assist features for Raymond and Jungheinrich; model availability lists for Hyster Reaction and Toyota Assist | <https://www.raymondcorp.com/products/power-systems> | Fill the Truck Device Comparison Matrix | Raymond operator assist; Jungheinrich assist systems | open |
 | IB-072 | Third-party bolt-on proximity and telematics systems on forklifts (Q15) | <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html> | Crown says many systems are bolt-on | forklift pedestrian detection retrofit | open |
 | IB-073 | Fuel cell trucks: Hyster-Yale Nuvera current products, Linde and STILL fuel cell options, GenDrive models and dispensers; DOE hydrogen infrastructure PDF | <https://www.plugpower.com/applications/material-handling/> | Feature gap review | forklift fuel cell power unit models | open |
+| IB-074 | ACCESSORIES SWEEP (key focus): for every battery maker, charger maker, truck maker and GSE supplier already on file, list the accessories offered (battery: connectors, cables, watering, circulation, covers, stands, rollers, hydrometers, thermal, protection; charger: stands, connectors, remotes, lights, cables, software; vehicle and GSE: displays, cameras, detection, lights, access, holders, telematics) | <https://www.linde-mh.com/en/Service/Retrofit-Accessories/> | Owner priority (Q15) | <maker> accessories catalog; <maker> options and accessories | open |
+| IB-075 | GSE: identify GSE vehicle types (baggage tractor, belt loader, pushback, ground power) and devices and accessories added to them, plus airport rules that require devices (SLC and others) | <https://www.slcairport.com/assets/pdfDocuments/EGSEInspectionProcedures.pdf> | Owner priority (Q15) | electric GSE battery monitor BMID airport requirement | open |
+| IB-076 | Categories with no products yet: Battery Accessories (thermal management, protection and disconnect, BMS, telematics), Operator Displays (more than two), Warning Lights (STILL warning zone light), Wireless and On-board Chargers (more models); decide whether empty categories stay | <https://github.com/spencerskelly/PosiBattery> | Folder structure by category | n/a | open |
+| IB-077 | Re-use check before each new note: add a script check for duplicate titles, shared aliases and owner-named folders | <https://github.com/spencerskelly/PosiBattery> | Owner rule (Note Reuse Audit) | n/a | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 
@@ -105,5 +109,6 @@ Running list of directions the searches have opened, each with the page that tri
 
 - Future investigation file
 - Directions backlog
+
 
 ## Former ids

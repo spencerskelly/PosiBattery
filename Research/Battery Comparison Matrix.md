@@ -21,7 +21,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 ## Notes
 
 - Values are copied from the metric notes; each metric's comparability rule applies. n/s = not stated in any retrieved source. Only products with at least one value in these columns are listed.
-- Metric definitions: [[Battery Metric - Chemistry and Plate Construction]], [[Battery Metric - Nominal Voltage]], [[Battery Metric - Capacity]], [[Battery Metric - Watering Interval]], [[Battery Metric - Charge Regimes Supported]], [[Battery Metric - BMS and Communication]], [[Battery Metric - Certifications]].
+- Metric definitions: [[Metric - Chemistry and Plate Construction]], [[Metric - Nominal Voltage Range]], [[Metric - Capacity]], [[Metric - Watering Interval]], [[Metric - Charge Regimes Supported]], [[Metric - BMS and Communication]], [[Metric - Certifications and Standards]].
 - This matrix is a reading aid. Fix a product note first, then its metric value.
 
 | Product | BM01 Chemistry and Plate Construction | BM02 Nominal Voltage | BM03 Capacity | BM04 Watering Interval | BM05 Charge Regimes Supported | BM08 BMS and Communication | BM10 Certifications | Authority |

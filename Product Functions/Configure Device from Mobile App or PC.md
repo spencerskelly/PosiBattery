@@ -22,7 +22,7 @@ Let a technician configure the device and read its logs from a phone, tablet or 
 ## Notes
 
 - Tools named: PosiConnect, E Connect, eGO!Tools, PowerTrac setup utilities.
-- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Battery Monitoring Function Map]].
+- Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge PosiGuard]] (V): <https://apps.apple.com/mx/app/posiconnect/id6748969496>

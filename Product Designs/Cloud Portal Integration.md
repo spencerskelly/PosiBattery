@@ -27,7 +27,7 @@ Integration with a hosted portal that stores and reports battery data.
 ## Notes
 
 - Portals named: EnerSys online portal, Insight Cloud, PosiNET, InfoLink, iWarehouse, batterymanagement.net, HOPPECKE cloud collector.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf> <https://posicharge.com/products/battery-rx/>

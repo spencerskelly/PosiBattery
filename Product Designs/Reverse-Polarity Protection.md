@@ -22,7 +22,7 @@ Protection against connecting the device with reversed polarity, or operation re
 ## Notes
 
 - PowerTrac SP+ and DT3 state reverse-polarity protection; SmartBlinky Pro states universal polarity.
-- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Battery Monitoring Design Map]].
+- Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
   - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.mhwmag.com/?p=7981>

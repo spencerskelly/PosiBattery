@@ -8,7 +8,7 @@ tags:
   - charger
   - product-function
 describedBy:
-  - "[[Charger Metric - Battery Identification Method]]"
+  - "[[Metric - Battery Identification Method]]"
 performedBy:
   - "[[Crown Battery EVOLUTION Series]]"
   - "[[Crown V-HFM3 Charger]]"

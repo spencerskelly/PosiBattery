@@ -28,4 +28,5 @@ Chinese truck maker, eighth in the 2024 ranking.
 
 - Hangcha
 
+
 ## Former ids

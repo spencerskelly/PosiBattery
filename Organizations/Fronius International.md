@@ -18,6 +18,7 @@ makes:
   - "[[Fronius TagID]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[Fronius SelectION]]"
+  - "[[Fronius Charge & Connect]]"
 ---
 
 # Fronius International
@@ -36,5 +37,6 @@ Austrian maker of Selectiva and SelectION industrial battery chargers and the Ta
 
 - Fronius
 - Fronius Perfect Charging
+
 
 ## Former ids
