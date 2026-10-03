@@ -18,22 +18,31 @@ purpose: Persistent, prioritized next-step list for expanding the PosiBattery kn
 
 ## P0 — Decision-grade baseline
 
-- [ ] **Create a verified PosiCharge current-state product and variant baseline.** Consolidate current and relevant legacy offerings, model/SKU and lifecycle state, target applications, battery chemistry/voltage/capacity envelope, charging/interface compatibility, BMID functions, communications, mechanical/environmental constraints, certifications, service model, supported channels, and known deployments. Attach source, evidence class, confidence, reviewer, and last-verified date for every material claim.  
-  **Completion criteria:** A product manager or engineer can establish what PosiCharge sells, to whom, under which constraints, and with what verified evidence without reconciling multiple notes.  
-  **Related:** [[Organizations/PosiCharge]], [[Research/PosiCharge BMID Variants]], [[Research/PosiCharge Business Scope and Portfolio]], [[Research/PosiCharge Product Comparison Matrix]]
+- [ ] **Complete the verified PosiCharge and Power Designers current-state product and variant baseline.** Public-evidence draft captured in [[Research/PosiCharge and Power Designers Current Portfolio Baseline]]. Reconcile current and relevant active offerings against the internal product/SKU master; add lifecycle state, target applications, chemistry/voltage/capacity envelope, charging/interface compatibility, monitoring functions, communications, mechanical/environmental constraints, certifications, service model, channels, and known deployments. Attach source, evidence class, confidence, reviewer, and last-verified date for every material claim.  
+  **Current progress:** Public first pass complete; product-master and controlled-document reconciliation pending.  
+  **Completion criteria:** A product manager or engineer can establish what PosiCharge/Power Designers currently sell, to whom, under which constraints, and with what verified evidence without reconciling multiple notes.  
+  **Related:** [[Research/PosiCharge and Power Designers Current Portfolio Baseline]], [[Research/PosiCharge and Power Designers Public Evidence Register]], [[Organizations/PosiCharge]], [[Organizations/Power Designers]], [[Research/PosiCharge BMID Variants]], [[Research/PosiCharge Business Scope and Portfolio]], [[Research/PosiCharge Product Comparison Matrix]]
 
-- [ ] **Create and maintain a structured product-landscape conflict register.** Convert the highest-impact unresolved conflicts and open questions into discrete records with conflict ID, exact claim, affected entities, competing evidence, impact, decision risk, evidence needed, owner, due date, status, and disposition.  
-  **Initial focus:** Select the five conflicts most likely to affect differentiation, compatibility/safety, make-versus-partner choices, competitor capability claims, OEM/dealer relationships, or opportunity scoring.  
-  **Completion criteria:** Every high-impact conflict has an owner, evidence plan, and a visible resolved or intentionally-unresolved disposition.  
-  **Related:** [[Research/Battery Product Landscape Conflicts and Open Questions]], [[Research/Research Change and Decision Tracker]]
+- [ ] **Resolve public-evidence product conflicts `PC-PUB-001` through `PC-PUB-003`.** Preserve existing source claims, then obtain controlled current specifications/configuration records to resolve: SVS100’s 10 kW versus 40 kW rating; MVS800’s eight versus 16-vehicle claim; and MVS400/MVS800 power-server versus power-station rating/topology ambiguity.  
+  **Completion criteria:** Each conflict has a disposition, source basis, applicability boundary, reviewer, date, and all affected baseline/matrix records are updated without deleting historical conflict evidence.  
+  **Related:** [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]], [[Research/PosiCharge and Power Designers Public Evidence Register]]
+
+- [ ] **Enumerate and classify the current Power Designers portfolio and its relationship to PosiCharge.** Establish whether each acquired product/capability is a Power Designers-branded, PosiCharge-branded, Ampure-branded, OEM/private-label, manufacturing-only, software-only, active, or legacy element.  
+  **Completion criteria:** An authoritative current Power Designers portfolio map exists, including product families, branding/route-to-market, lifecycle, owner, and evidence source.  
+  **Related:** [[Organizations/Power Designers]], [[Research/PosiCharge and Power Designers Current Portfolio Baseline]], [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]]
+
+- [ ] **Define and validate the connected-product architecture.** Establish the product and data-flow boundaries among BMID, PosiGuard, Battery Rx, PosiLink, SkyLink, PosiConnect, and E-Meter, including hardware, communications, configuration, cloud/fleet function, interfaces, security ownership, commercial/product boundaries, and lifecycle relationships.  
+  **Completion criteria:** A reviewed system/data-flow diagram and product-boundary matrix identify confirmed interfaces, assumptions, incompatibilities, ownership, and validation needs.  
+  **Related:** [[Research/PosiCharge and Power Designers Current Portfolio Baseline]], [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]], [[Research/PosiCharge BMID Variants]]
 
 - [ ] **Define a canonical, normalized product-attribute facts schema.** Create a controlled vocabulary and structured facts layer for products and variants; include manufacturer, family/model, asset application, chemistry, voltage/capacity, charging and connector interface, monitoring functions, communications, fleet integration, certifications, service model, lifecycle status, and source evidence.  
   **Completion criteria:** Populate PosiCharge’s offering set plus five priority competitor or partner product families; demonstrate a reproducible filtered comparison view.  
   **Related:** [[Products/BASE_all_Products.base]], [[Research/Battery Comparison Matrix]], [[Research/Charger Comparison Matrix]], [[Research/Monitor Comparison Matrix]], [[Research/Truck Device Comparison Matrix]]
 
 - [ ] **Establish a source-evidence confidence and freshness model.** Define evidence tiers; add source type, claim confidence, verification date, and review-by date to material findings. Set review cadence for technical specifications/certifications, organization/channel relationships, availability/pricing signals, and strategic hypotheses.  
+  **Current progress:** Draft evidence classes and source register created for PosiCharge/Power Designers public baseline.  
   **Completion criteria:** The standard is documented and applied to the PosiCharge baseline plus priority comparison-matrix records.  
-  **Related:** [[Research/Landscape Evidence and Modeling Conventions]], [[Research/Document Wishlist]], [[Research/Link Audit]], [[Source Documents]]
+  **Related:** [[Research/PosiCharge and Power Designers Public Evidence Register]], [[Research/Landscape Evidence and Modeling Conventions]], [[Research/Document Wishlist]], [[Research/Link Audit]], [[Source Documents]]
 
 ## P1 — Strategic synthesis and validation
 
@@ -54,8 +63,9 @@ purpose: Persistent, prioritized next-step list for expanding the PosiBattery kn
   **Related:** [[Research/Function Map]], [[Research/Design Map]], [[Research/Function and Design Levels]], [[Research/ICE and Fuel Cell Feature Gap Review]]
 
 - [ ] **Acquire the highest-value missing primary documents.** Prioritize manuals, wiring/interface documents, application guides, certification records, warranty/service documents, compatibility lists, and official product catalogs required to resolve P0 conflicts and populate the canonical facts layer.  
+  **Initial acquisition order:** SVS100 spec/configuration record; MVS400/MVS800 topology and spec documentation; High Voltage Power Station AC/DC spec sheets; PosiLink and Battery Rx product sheets; ProCore Edge controlled manuals/tool documents; DVS100 current official evidence.  
   **Completion criteria:** The document wishlist is ranked by decision impact and each P0 dependency has a source-acquisition path or documented access limitation.  
-  **Related:** [[Research/Document Wishlist]], [[Source Documents]], [[Downloads]]
+  **Related:** [[Research/PosiCharge and Power Designers Public Evidence Register]], [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]], [[Research/Document Wishlist]], [[Source Documents]], [[Downloads]]
 
 ## P2 — Commercial intelligence and operating system
 
@@ -73,6 +83,7 @@ purpose: Persistent, prioritized next-step list for expanding the PosiBattery kn
 
 ## Suggested first sprint
 
+- [x] Conduct an initial public-evidence inventory for current PosiCharge and Power Designers portfolio representation; capture source/evidence and open conflicts. Completed 2026-10-03: [[Research/PosiCharge and Power Designers Current Portfolio Baseline]], [[Research/PosiCharge and Power Designers Public Evidence Register]], and [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]].
 - [ ] Convert the top 20 unresolved conflicts into the conflict register and identify the five highest-impact items.
 - [ ] Create the canonical facts schema and populate it for PosiCharge plus five priority competitor/partner product families.
 - [ ] Produce one segment-to-offering traceability matrix for the highest-priority target segment.
@@ -81,4 +92,4 @@ purpose: Persistent, prioritized next-step list for expanding the PosiBattery kn
 
 ## Completed
 
-- No items completed yet.
+- 2026-10-03 — Created a public-evidence baseline, evidence register, and gaps/conflicts register for current PosiCharge and Power Designers product/capability research. The work includes P0 records for SVS100 rating conflict, MVS800 vehicle-count conflict, MVS component-rating ambiguity, Power Designers portfolio enumeration, current product/SKU master reconciliation, and connected-product architecture clarification. See [[Research/PosiCharge and Power Designers Current Portfolio Baseline]], [[Research/PosiCharge and Power Designers Public Evidence Register]], and [[Research/PosiCharge and Power Designers Evidence Gaps and Conflicts]].
