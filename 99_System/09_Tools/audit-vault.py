@@ -203,7 +203,7 @@ for source,fm in model_notes.items():
                         inverse_missing.append((source,field,target_path,inv))
 
 # top-level navigation coverage
-root_dirs=[p for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith(".") and p.name!="99_System"]
+primary_names={"Customer Actors","Customer Needs","Organizations","Performance Metrics","Product Designs","Product Functions","Products","Research","Source Documents"}\nroot_dirs=[ROOT/name for name in sorted(primary_names) if (ROOT/name).is_dir()]
 nav={}
 for d in root_dirs:
     names={p.name for p in d.iterdir() if p.is_file()}
