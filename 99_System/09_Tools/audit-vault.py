@@ -274,3 +274,13 @@ lines += ["","## Interpretation","","This report detects structural inconsistenc
 
 REPORT.write_text("\n".join(lines),encoding="utf-8")
 print("\n".join(lines))
+
+critical = (
+    len(parse_errors) + len(dup_ids) + len(dup_uids) + len(bad_id) + len(bad_uid)
+    + len(missing) + len(deprecated) + len(broken) + len(ambiguous)
+    + len(rel_missing) + len(inverse_missing) + len(long_paths)
+    + sum(len(v) for v in nav.values())
+)
+if critical:
+    print(f"\nAUDIT FAILED: {critical} blocking structural finding(s).", file=sys.stderr)
+    sys.exit(1)
