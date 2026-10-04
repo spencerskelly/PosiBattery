@@ -20,38 +20,38 @@ Derived map from each catalog product to the customer needs it serves, and from 
 
 ## Notes
 
-- **Status: derived and hypothesis.** The map is generated from links already in the vault. Needs are what makers and dealers say their products do, not what customers say they need; a need becomes validated only with customer-side evidence (the ruleset's path from source research to hypothesis to validated need). Evidence and conflicts: C101 to C110 in [[Battery Product Landscape Conflicts and Open Questions]].
+- **Status: derived and hypothesis.** The map is generated from links already in the vault. Needs are what makers and dealers say their products do, not what customers say they need; a need becomes validated only with customer-side evidence (the ruleset's path from source research to hypothesis to validated need). Evidence and conflicts: C101 to C110, Q20 in [[Battery Product Landscape Conflicts and Open Questions]].
 - **Routes.** F = by performed function. D = by design: the product has a design that a function realizing the need depends on (the product may not perform the function; other designs may also be required). O = by option: the vehicle or battery is offered with a product that reaches the need by F, so the need is reached only if the option is bought. M = by metric: the product has a value on a property metric that informs the need (analyst crosswalk, hypothesis; batteries are described by properties, which the vault keeps as metrics, not functions).
-- **Coverage (398 products, excluding abstract anatomy notes):** F 238; F plus D 250; F plus D plus O 272; all four routes 283. 55 of the 115 with no route are abstract class or category notes (expected); 60 are concrete products with no route.
-- **GSE vehicles and batteries (round 40 gap review):** GSE vehicles 5 of 21 by F, 10 by any route; batteries 14 of 63 by F, 44 by any route. The F counts moved because round 40 added sourced links; most remaining gaps are source gaps (listings that state only properties), not modeling gaps.
+- **Reached (owner decision, round 40): a product counts as reached through route F, D or O. M stays a hypothesis column and is not counted as reached.** Of 398 products (excluding abstract anatomy notes): 272 are reached; 238 of those perform a realizing function (F); 12 more are added by design (D) and 22 more by option (O). The metric route adds 11 products that are not counted. 55 of the 115 with no route are abstract class or category notes (expected); 60 are concrete products with no route at all.
+- **GSE vehicles and batteries (round 40 gap review):** GSE vehicles 5 of 21 by F, 10 reached (F + D + O), 10 with M; batteries 14 of 63 by F, 35 reached, 44 with M. The F counts moved because round 40 added sourced links; most remaining gaps are source gaps (listings that state only properties), not modeling gaps.
 - **The counts are lower bounds.** A product reaches a need only through links a source states.
 
 ### Needs
 
-| Need (Use Case, why) | Who has it | Operating segments (analyst crosswalk, hypothesis) | Products by F | Products by any route | Functions | Evidence kinds |
-|---|---|---|---|---|---|---|
-| [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 52 | 76 | 4 | V |
-| [[Charge Without a Ventilated Battery Room]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Distributed and opportunity charging; Mixed-chemistry fleets | 22 | 43 | 2 | V |
-| [[Return Trucks to Service Quickly After a Low Charge]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets; Distributed and opportunity charging | 26 | 53 | 4 | V |
-| [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Mixed-chemistry fleets; Battery-room and centralized charging | 27 | 47 | 4 | V |
-| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 8 | 17 | 4 | V |
-| [[Know Battery State Before and During the Shift]] | [[Forklift Operator]], [[Maintenance Technician]] | Material-handling fleets; Airport eGSE fleets | 32 | 35 | 4 | V |
-| [[Document Battery Care for Warranty Compliance]] | [[Fleet Operations Manager]], [[Dealer Service Technician]] | Material-handling fleets; Battery-room and centralized charging | 32 | 35 | 3 | V |
-| [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets; Battery-room and centralized charging | 44 | 59 | 3 | V |
-| [[Control Who Operates Each Truck]] | [[Fleet Operations Manager]], [[Site Safety Manager]], [[Forklift Operator]] | Material-handling fleets | 26 | 37 | 3 | V |
-| [[Detect and Learn from Truck Impacts]] | [[Site Safety Manager]], [[Fleet Operations Manager]] | Material-handling fleets | 10 | 17 | 1 | V |
-| [[Warn the Operator of People and Objects Near the Truck]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets; Airport eGSE fleets | 32 | 39 | 2 | V + G |
-| [[Warn Pedestrians of an Approaching Truck]] | [[Pedestrian Near Trucks]], [[Site Safety Manager]] | Material-handling fleets | 37 | 45 | 2 | V + G |
-| [[Prevent Tip-Overs and Overloads]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets | 19 | 25 | 4 | V + G |
-| [[Keep Trucks Slow in Hazardous Zones]] | [[Site Safety Manager]], [[Pedestrian Near Trucks]] | Material-handling fleets | 23 | 30 | 2 | V + G |
-| [[Protect Aircraft and Ground Crew During Ground Operations]] | [[GSE Operator]], [[Fleet Operations Manager]] | Airport eGSE fleets | 7 | 11 | 3 | V |
-| [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 24 | 29 | 3 | V |
-| [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 18 | 45 | 4 | V |
-| [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 9 | 11 | 2 | V |
-| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 18 | 31 | 3 | V |
-| [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 28 | 41 | 3 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 10 | 19 | 3 | V + manual |
-| [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 24 | 36 | 4 | V |
+| Need (Use Case, why) | Who has it | Operating segments (analyst crosswalk, hypothesis) | Products reached (F + D + O) | of which by F | Added by metric (M, hypothesis) | Functions | Evidence kinds |
+|---|---|---|---|---|---|---|---|
+| [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 71 | 52 | 5 | 4 | V |
+| [[Charge Without a Ventilated Battery Room]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Distributed and opportunity charging; Mixed-chemistry fleets | 41 | 22 | 2 | 2 | V |
+| [[Return Trucks to Service Quickly After a Low Charge]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets; Distributed and opportunity charging | 42 | 26 | 11 | 4 | V |
+| [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Mixed-chemistry fleets; Battery-room and centralized charging | 47 | 27 | 0 | 4 | V |
+| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 11 | 8 | 6 | 4 | V |
+| [[Know Battery State Before and During the Shift]] | [[Forklift Operator]], [[Maintenance Technician]] | Material-handling fleets; Airport eGSE fleets | 35 | 32 | 0 | 4 | V |
+| [[Document Battery Care for Warranty Compliance]] | [[Fleet Operations Manager]], [[Dealer Service Technician]] | Material-handling fleets; Battery-room and centralized charging | 35 | 32 | 0 | 3 | V |
+| [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets; Battery-room and centralized charging | 59 | 44 | 0 | 3 | V |
+| [[Control Who Operates Each Truck]] | [[Fleet Operations Manager]], [[Site Safety Manager]], [[Forklift Operator]] | Material-handling fleets | 37 | 26 | 0 | 3 | V |
+| [[Detect and Learn from Truck Impacts]] | [[Site Safety Manager]], [[Fleet Operations Manager]] | Material-handling fleets | 17 | 10 | 0 | 1 | V |
+| [[Warn the Operator of People and Objects Near the Truck]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets; Airport eGSE fleets | 39 | 32 | 0 | 2 | V + G |
+| [[Warn Pedestrians of an Approaching Truck]] | [[Pedestrian Near Trucks]], [[Site Safety Manager]] | Material-handling fleets | 45 | 37 | 0 | 2 | V + G |
+| [[Prevent Tip-Overs and Overloads]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets | 25 | 19 | 0 | 4 | V + G |
+| [[Keep Trucks Slow in Hazardous Zones]] | [[Site Safety Manager]], [[Pedestrian Near Trucks]] | Material-handling fleets | 30 | 23 | 0 | 2 | V + G |
+| [[Protect Aircraft and Ground Crew During Ground Operations]] | [[GSE Operator]], [[Fleet Operations Manager]] | Airport eGSE fleets | 11 | 7 | 0 | 3 | V |
+| [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 29 | 24 | 0 | 3 | V |
+| [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 23 | 18 | 22 | 4 | V |
+| [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
+| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 26 | 18 | 5 | 3 | V |
+| [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 41 | 28 | 0 | 3 | V |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 19 | 10 | 0 | 3 | V + manual |
+| [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 36 | 24 | 0 | 4 | V |
 
 Evidence kinds: V = vendor or dealer statement in product notes; G = government statistics showing the underlying problem exists; manual = a maker's installation or service manual.
 
@@ -102,62 +102,62 @@ Which property metrics inform which need. This is the analyst's reading (hypothe
 
 ### Families
 
-| Product family | Products | F | F + D | F + D + O | All routes |
-|---|---|---|---|---|---|
-| Batteries | 1 | 0 | 0 | 0 | 0 |
-| Batteries/Flooded Lead-Acid Batteries | 24 | 4 | 5 | 12 | 17 |
-| Batteries/Lithium-Ion Batteries | 27 | 8 | 16 | 18 | 21 |
-| Batteries/Valve-Regulated Lead-Acid Batteries | 11 | 2 | 3 | 5 | 6 |
-| Battery Accessories | 2 | 0 | 0 | 0 | 0 |
-| Battery Accessories/Battery Management Systems | 1 | 0 | 0 | 0 | 0 |
-| Battery Accessories/Connector Assemblies | 4 | 3 | 3 | 3 | 3 |
-| Battery Accessories/Electrolyte Circulation Systems | 4 | 0 | 0 | 0 | 0 |
-| Battery Accessories/Identification and Charge Interface Devices | 10 | 7 | 8 | 8 | 8 |
-| Battery Accessories/Monitoring Devices | 27 | 26 | 26 | 26 | 26 |
-| Battery Accessories/Protection and Disconnect Units | 1 | 0 | 0 | 0 | 0 |
-| Battery Accessories/Telematics and Connectivity Devices | 2 | 1 | 1 | 1 | 1 |
-| Battery Accessories/Thermal Management Devices | 1 | 0 | 0 | 0 | 0 |
-| Battery Accessories/Water Level Monitors | 5 | 4 | 4 | 4 | 4 |
-| Battery Accessories/Watering Systems | 8 | 6 | 6 | 6 | 6 |
-| Battery-Connected Product.md | 1 | 0 | 0 | 0 | 0 |
-| Charger Accessories | 1 | 0 | 0 | 0 | 0 |
-| Charger Accessories/Cable Management | 2 | 1 | 1 | 1 | 1 |
-| Charger Accessories/Connector Accessories | 2 | 0 | 0 | 0 | 0 |
-| Charger Accessories/Remote Controls and Indicators | 4 | 2 | 2 | 2 | 2 |
-| Charger Accessories/Stands and Mounting | 3 | 1 | 1 | 1 | 1 |
-| Charger Accessories/Thermal Accessories | 2 | 0 | 0 | 0 | 0 |
-| Chargers | 1 | 0 | 0 | 0 | 0 |
-| Chargers/Industrial Modular Chargers | 37 | 29 | 29 | 29 | 30 |
-| Chargers/Light-Duty Chargers | 4 | 3 | 3 | 3 | 3 |
-| Chargers/On-board Chargers | 3 | 1 | 1 | 1 | 1 |
-| Chargers/Wireless Chargers | 2 | 1 | 1 | 1 | 1 |
-| Fleet Software and Platforms | 1 | 0 | 0 | 0 | 0 |
-| Fleet Software and Platforms/Battery and Charger Management | 10 | 6 | 6 | 6 | 6 |
-| Fleet Software and Platforms/Truck Telematics | 20 | 19 | 19 | 19 | 19 |
-| Forklifts | 1 | 0 | 0 | 0 | 0 |
-| Forklifts/Class I Electric Rider Trucks | 30 | 20 | 20 | 26 | 27 |
-| Forklifts/Class II Electric Narrow Aisle Trucks | 6 | 2 | 2 | 3 | 3 |
-| Forklifts/Class III Electric Hand and Hand-Rider Trucks | 3 | 2 | 2 | 2 | 2 |
-| Forklifts/Class IV Internal Combustion Cushion Tire Trucks | 1 | 0 | 0 | 0 | 0 |
-| Forklifts/Class V Internal Combustion Pneumatic Tire Trucks | 1 | 0 | 0 | 0 | 0 |
-| Forklifts/Class VI Tractors | 1 | 0 | 0 | 0 | 0 |
-| Forklifts/Class VII Rough Terrain Forklifts | 1 | 0 | 0 | 0 | 0 |
-| Fuel Cell Power Units/Hydrogen Fuel Cell Units | 3 | 2 | 2 | 2 | 2 |
-| Ground Support Equipment | 1 | 0 | 0 | 0 | 0 |
-| Ground Support Equipment/Baggage and Tow Tractors | 7 | 2 | 2 | 2 | 2 |
-| Ground Support Equipment/Belt Loaders | 6 | 2 | 3 | 5 | 5 |
-| Ground Support Equipment/Cargo Loaders | 3 | 0 | 0 | 2 | 2 |
-| Ground Support Equipment/Pushback Tractors | 4 | 1 | 1 | 1 | 1 |
-| Vehicle Accessories | 1 | 0 | 0 | 0 | 0 |
-| Vehicle Accessories/Access Control | 3 | 2 | 2 | 2 | 2 |
-| Vehicle Accessories/Cameras and Recorders | 8 | 6 | 6 | 6 | 6 |
-| Vehicle Accessories/Cold Storage Packages | 3 | 2 | 2 | 2 | 2 |
-| Vehicle Accessories/Operator Assist and Stability | 37 | 29 | 29 | 29 | 29 |
-| Vehicle Accessories/Operator Convenience | 6 | 0 | 0 | 0 | 0 |
-| Vehicle Accessories/Operator Displays | 5 | 3 | 3 | 3 | 3 |
-| Vehicle Accessories/Power Source Interfaces | 3 | 1 | 1 | 1 | 1 |
-| Vehicle Accessories/Proximity and Object Detection | 29 | 28 | 28 | 28 | 28 |
-| Vehicle Accessories/Warning Lights and Alerts | 14 | 12 | 12 | 12 | 12 |
+| Product family | Products | By F | Reached (F + D + O) | Reached plus M (hypothesis) |
+|---|---|---|---|---|
+| Batteries | 1 | 0 | 0 | 0 |
+| Batteries/Flooded Lead-Acid Batteries | 24 | 4 | 12 | 17 |
+| Batteries/Lithium-Ion Batteries | 27 | 8 | 18 | 21 |
+| Batteries/Valve-Regulated Lead-Acid Batteries | 11 | 2 | 5 | 6 |
+| Battery Accessories | 2 | 0 | 0 | 0 |
+| Battery Accessories/Battery Management Systems | 1 | 0 | 0 | 0 |
+| Battery Accessories/Connector Assemblies | 4 | 3 | 3 | 3 |
+| Battery Accessories/Electrolyte Circulation Systems | 4 | 0 | 0 | 0 |
+| Battery Accessories/Identification and Charge Interface Devices | 10 | 7 | 8 | 8 |
+| Battery Accessories/Monitoring Devices | 27 | 26 | 26 | 26 |
+| Battery Accessories/Protection and Disconnect Units | 1 | 0 | 0 | 0 |
+| Battery Accessories/Telematics and Connectivity Devices | 2 | 1 | 1 | 1 |
+| Battery Accessories/Thermal Management Devices | 1 | 0 | 0 | 0 |
+| Battery Accessories/Water Level Monitors | 5 | 4 | 4 | 4 |
+| Battery Accessories/Watering Systems | 8 | 6 | 6 | 6 |
+| Battery-Connected Product.md | 1 | 0 | 0 | 0 |
+| Charger Accessories | 1 | 0 | 0 | 0 |
+| Charger Accessories/Cable Management | 2 | 1 | 1 | 1 |
+| Charger Accessories/Connector Accessories | 2 | 0 | 0 | 0 |
+| Charger Accessories/Remote Controls and Indicators | 4 | 2 | 2 | 2 |
+| Charger Accessories/Stands and Mounting | 3 | 1 | 1 | 1 |
+| Charger Accessories/Thermal Accessories | 2 | 0 | 0 | 0 |
+| Chargers | 1 | 0 | 0 | 0 |
+| Chargers/Industrial Modular Chargers | 37 | 29 | 29 | 30 |
+| Chargers/Light-Duty Chargers | 4 | 3 | 3 | 3 |
+| Chargers/On-board Chargers | 3 | 1 | 1 | 1 |
+| Chargers/Wireless Chargers | 2 | 1 | 1 | 1 |
+| Fleet Software and Platforms | 1 | 0 | 0 | 0 |
+| Fleet Software and Platforms/Battery and Charger Management | 10 | 6 | 6 | 6 |
+| Fleet Software and Platforms/Truck Telematics | 20 | 19 | 19 | 19 |
+| Forklifts | 1 | 0 | 0 | 0 |
+| Forklifts/Class I Electric Rider Trucks | 30 | 20 | 26 | 27 |
+| Forklifts/Class II Electric Narrow Aisle Trucks | 6 | 2 | 3 | 3 |
+| Forklifts/Class III Electric Hand and Hand-Rider Trucks | 3 | 2 | 2 | 2 |
+| Forklifts/Class IV Internal Combustion Cushion Tire Trucks | 1 | 0 | 0 | 0 |
+| Forklifts/Class V Internal Combustion Pneumatic Tire Trucks | 1 | 0 | 0 | 0 |
+| Forklifts/Class VI Tractors | 1 | 0 | 0 | 0 |
+| Forklifts/Class VII Rough Terrain Forklifts | 1 | 0 | 0 | 0 |
+| Fuel Cell Power Units/Hydrogen Fuel Cell Units | 3 | 2 | 2 | 2 |
+| Ground Support Equipment | 1 | 0 | 0 | 0 |
+| Ground Support Equipment/Baggage and Tow Tractors | 7 | 2 | 2 | 2 |
+| Ground Support Equipment/Belt Loaders | 6 | 2 | 5 | 5 |
+| Ground Support Equipment/Cargo Loaders | 3 | 0 | 2 | 2 |
+| Ground Support Equipment/Pushback Tractors | 4 | 1 | 1 | 1 |
+| Vehicle Accessories | 1 | 0 | 0 | 0 |
+| Vehicle Accessories/Access Control | 3 | 2 | 2 | 2 |
+| Vehicle Accessories/Cameras and Recorders | 8 | 6 | 6 | 6 |
+| Vehicle Accessories/Cold Storage Packages | 3 | 2 | 2 | 2 |
+| Vehicle Accessories/Operator Assist and Stability | 37 | 29 | 29 | 29 |
+| Vehicle Accessories/Operator Convenience | 6 | 0 | 0 | 0 |
+| Vehicle Accessories/Operator Displays | 5 | 3 | 3 | 3 |
+| Vehicle Accessories/Power Source Interfaces | 3 | 1 | 1 | 1 |
+| Vehicle Accessories/Proximity and Object Detection | 29 | 28 | 28 | 28 |
+| Vehicle Accessories/Warning Lights and Alerts | 14 | 12 | 12 | 12 |
 
 ### Per-product route
 
@@ -648,7 +648,7 @@ Generated list. A dash means no product in that route.
 ### Challenges to the current state
 
 - **Vendor claims are not needs.** Every need rests on a maker or dealer sentence. Direction: customer-side sources (IB-129).
-- **Weaker routes can overstate.** D says a product has a part a function needs, not that it does the function. O says an option exists. M says a property is on file. They are shown so the gap is visible; none replaces F.
+- **Counting D and O as reached can overstate.** The owner decided in round 40 that design and option routes count as reached. D says a product has a part a function needs, not that it does the function (other parts may be missing). O says the product can be bought with something that does it, not that every unit has it. The per-product table keeps F, D and O in separate columns so the stronger evidence stays visible. M is a property on file and is not counted.
 - **Battery properties stay metrics.** Round 27 retired property functions into metrics; closing battery gaps by adding functions would double-count them, so only device behaviors with a source were linked (BMS, onboard charger, heater, CAN output, electrolyte circulation).
 - **Remaining GSE gaps are source gaps.** Several GSE notes rest on distributor lists that state only drawbar pull or battery size. Direction: OEM spec sheets (IB-138, Document Wishlist).
 - **Role names are partly hypotheses.** Site Safety Manager has no source naming it; Dealer Sales Representative rests on dealer option lists (C106).
@@ -656,6 +656,7 @@ Generated list. A dash means no product in that route.
 ### Change history
 
 - 2026-10-03: first generated map (round 39).
+- 2026-10-03: owner decision (Q20): design and option routes count as reached; metric route stays a hypothesis column.
 - 2026-10-03: round 40 gap review. Added routes D, O and M; linked 21 product notes to functions, designs or options from cited sources; added function [[Diagnose Vehicle Remotely]] and need [[Find and Fix Vehicle Faults Without Downtime]]; conflicts C107 to C110; backlog IB-136 to IB-140. See [[Research Change and Decision Tracker]].
 
 ## Aliases
