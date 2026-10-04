@@ -75,7 +75,8 @@ for p in md_files:
     if fm is None:
         no_fm.append(relp)
         continue
-    if not relp.startswith("99_System/") and isinstance(fm,dict) and fm.get("type"):\n        model_notes[relp] = fm
+    if not relp.startswith("99_System/") and isinstance(fm,dict) and fm.get("type"):
+        model_notes[relp] = fm
 
 ids=defaultdict(list); uids=defaultdict(list)
 bad_id=[]; bad_uid=[]; missing=[]; deprecated=[]
