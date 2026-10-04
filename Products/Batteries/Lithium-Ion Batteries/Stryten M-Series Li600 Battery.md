@@ -12,6 +12,8 @@ tags:
   - hibernation
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Communicate Battery State over CAN]]"
 hasDesign:
   - "[[CAN Interface]]"
   - "[[Hibernation Mode]]"
@@ -37,6 +39,8 @@ Stryten LFP battery for Class I, II and III trucks with CANbus, remote monitorin
 - **Related products and how they differ (offeredWith):**
   - [[Stryten X-7 Charger]]: no difference stated in the sources.
   - [[Stryten X-3 Charger]]: no difference stated in the sources.
+- **Functions performed, with citations (round 40, gap review 2026-10-03):**
+  - [[Communicate Battery State over CAN]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
 
 ## Aliases
 

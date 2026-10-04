@@ -16,6 +16,7 @@ designOf:
   - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Heli Lithium-Ion Battery]]"
   - "[[Heli G Series Lithium Forklifts]]"
+  - "[[Flux Power LiFT Pack]]"
 ---
 
 # Integrated Battery Heater
@@ -33,6 +34,7 @@ Heaters in the battery for cold operation.
   - [[Heli G Series Lithium Forklifts]] (V): <https://www.liftstoday.com/listing/for-sale/259364865/2026-heli-cpd15-pneumatic-tire-forklifts?print=1>
   - [[Hangcha Lithium Iron Phosphate Battery Pack]] (V): <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
   - [[Heli Lithium-Ion Battery]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd50-g2a11li-li-ion.html>
+  - [[Flux Power LiFT Pack]] (V): <https://www.fluxpower.com/hubfs/M36%20Battery%20Pack%20-Brochure-1.pdf>
 
 ## Aliases
 

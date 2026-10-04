@@ -33,6 +33,8 @@ Deka lithium-ion forklift battery with a multi-module BMS design communicating o
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
   - [[CAN Interface]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
+  - [[Integrated Battery Management System]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
 
 ## Aliases
 

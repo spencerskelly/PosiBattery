@@ -26,6 +26,7 @@ performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Stryten inCOMMAND]]"
+  - "[[Exide Solition Light Traction Battery]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
@@ -55,6 +56,7 @@ Exchange data with a charger in either direction.
   - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
   - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
+  - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

@@ -30,6 +30,8 @@ GNB lithium-ion battery launched at MODEX 2020 with a BMS and an option for remo
 - **Open:** relation to Sonnenschein Lithium not stated.
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
+  - [[Integrated Battery Management System]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
 
 ## Aliases
 

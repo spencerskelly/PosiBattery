@@ -44,7 +44,7 @@ How functions and designs are generalized into levels, which relationships conne
   - [[Maintain Battery Electrolyte]] (general): [[Circulate Electrolyte]], [[Water Battery Cells]]
 - **[[Manage Fleet Use and Data]]** (goal)
   - [[Communicate Battery and Vehicle Data]] (general): [[Communicate Battery State over CAN]], [[Communicate with Charger]], [[Configure Device from Mobile App or PC]], [[Export Battery Data to PC]], [[Identify Battery to Charger]], [[Log Battery Events and Usage]], [[Report Battery Temperature to Charger]], [[Transmit Battery Data Wirelessly]], [[Upload Battery Data to Cloud Portal]]
-  - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Enforce Pre-Shift Checklist]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
+  - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Diagnose Vehicle Remotely]], [[Enforce Pre-Shift Checklist]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
 - **[[Protect People and Equipment Near Vehicles]]** (goal)
   - [[Sense Collision Risk and Events]] (general): [[Detect Pedestrians and Objects Near Truck]], [[Detect and Record Impacts]]
   - [[Limit Vehicle Speed Automatically]] (general): [[Adapt Speed to Load and Lift Height]], [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Program Travel, Lift and Tilt Speeds]], [[Reduce Speed When Seat Belt Is Unfastened]], [[Slow Truck in Curves]]

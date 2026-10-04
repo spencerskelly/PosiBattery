@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Inform Operator of Truck Condition]]"
 performedBy:
   - "[[Toyota 3-Wheel Electric Forklift]]"
+realizes:
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
 
 # Indicate Maintenance Due

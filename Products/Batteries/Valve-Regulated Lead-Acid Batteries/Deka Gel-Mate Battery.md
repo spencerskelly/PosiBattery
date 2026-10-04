@@ -12,6 +12,8 @@ tags:
   - onboard-charger
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
+performs:
+  - "[[Charge Battery from Standard Power Outlet]]"
 hasDesign:
   - "[[Gel Electrolyte]]"
   - "[[Battery Onboard Charger]]"
@@ -33,6 +35,8 @@ Deka gel battery with a built-in charger.
 - **Design characteristics, with citations:**
   - [[Gel Electrolyte]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Battery Onboard Charger]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+- **Functions performed, with citations (round 40, gap review 2026-10-03):**
+  - [[Charge Battery from Standard Power Outlet]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 
 ## Aliases
 

@@ -35,6 +35,8 @@ performedBy:
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Exide Solition Light Traction Battery]]"
 ---
 
 # Measure Battery Voltage
@@ -71,6 +73,8 @@ Measure the battery's overall terminal voltage (some products also measure half-
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+  - [[Green Cubes SAFEFlex Battery]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
+  - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

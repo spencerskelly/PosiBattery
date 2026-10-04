@@ -28,6 +28,8 @@ HOPPECKE lithium-ion systems with an integrated battery management system.
 - HOPPECKE says trak | power lithium-ion systems offer high energy density in a light compact design and include an integrated HOPPECKE battery management system. Source: HOPPECKE trak page (T1), retrieved 2026-10-02. <https://hoppecke.com/en-us/applications/trak>
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://hoppecke.com/en-us/applications/trak>
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
+  - [[Integrated Battery Management System]] (V): <https://hoppecke.com/en-us/applications/trak>
 
 ## Aliases
 

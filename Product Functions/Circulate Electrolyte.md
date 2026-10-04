@@ -18,6 +18,7 @@ performedBy:
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
+  - "[[HOPPECKE trak uplift air Battery]]"
 ---
 
 # Circulate Electrolyte
@@ -36,6 +37,7 @@ Mix or circulate electrolyte during charging to limit acid stratification.
   - [[HOPPECKE trak air Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[GS Yuasa Traction Battery (Europe)]] (V): <https://www.logisticsbusiness.com/?p=40376>
   - [[HAWKER Perfect Plus Battery]] (V): <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
+  - [[HOPPECKE trak uplift air Battery]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Forced Electrolyte Circulation); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

@@ -20,6 +20,7 @@ madeBy:
   - "[[TLD Group]]"
 offeredWith:
   - "[[TLD RBL Electric Regional Belt Loader]]"
+  - "[[TLD NBL-E Belt Loader]]"
 ---
 
 # TLD Aircraft Safety Docking

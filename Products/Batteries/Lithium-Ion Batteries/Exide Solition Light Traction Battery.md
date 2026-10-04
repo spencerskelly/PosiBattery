@@ -11,6 +11,10 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Current]]"
+  - "[[Communicate with Charger]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 madeBy:
@@ -30,6 +34,12 @@ Exide lithium-ion battery for cleaning machines, pallet trucks and wheelchairs, 
 
 - The leaflet says Solition fits cleaning machines, pallet trucks and electric wheelchairs, runs 24/7, and its battery management system monitors voltage, current and other parameters and controls the Motion+ Lithium Charger. Source: Exide Solition leaflet (T1), retrieved 2026-10-02. <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Design characteristics, with citations:**
+  - [[Integrated Battery Management System]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+- **Functions performed, with citations (round 40, gap review 2026-10-03):**
+  - [[Measure Battery Voltage]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+  - [[Measure Battery Current]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+  - [[Communicate with Charger]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 
 ## Aliases

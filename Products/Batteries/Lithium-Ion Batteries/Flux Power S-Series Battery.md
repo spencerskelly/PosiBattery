@@ -29,6 +29,8 @@ Flux UL Type EE lithium battery for walkie pallet jacks, supplied in private-lab
 - Flux says its UL Type EE certified S-Series, with proprietary BMS and telemetry, is offered under an OEM partner's brand in a 2024 private label program. Source: Business Wire (2024-09-12) (T2), retrieved 2026-10-02. <https://www.businesswire.com/news/home/20240912587367/en>
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://www.businesswire.com/news/home/20240912587367/en>
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
+  - [[Integrated Battery Management System]] (V): <https://www.businesswire.com/news/home/20240912587367/en>
 
 ## Aliases
 

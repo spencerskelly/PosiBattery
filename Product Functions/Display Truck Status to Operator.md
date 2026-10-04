@@ -16,6 +16,8 @@ performedBy:
   - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
+realizes:
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
 
 # Display Truck Status to Operator

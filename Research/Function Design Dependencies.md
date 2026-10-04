@@ -57,6 +57,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Transmit Battery Data Wirelessly]] | [[Wireless Interface Design]] | analyst inference (necessity) | strong | sources do not name the radio | needs a radio interface |
 | [[Upload Battery Data to Cloud Portal]] | [[Wireless Interface Design]], [[Cloud Portal Integration]] | analyst inference (necessity) | typical | sources do not name the portal integration | needs a radio path and a portal |
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | analyst inference (necessity) | typical | sources do not name the interface | needs a radio path to the portal |
+| [[Diagnose Vehicle Remotely]] | [[Wireless Interface Design]] | analyst inference (necessity) | typical | TUG Endurance names Bluetooth; TUG ALPHA 1 does not name the link | remote diagnostics need a radio or portal path to the technician (added round 40) |
 | [[Follow Operator Automatically]] | [[Belt-Worn Remote Control]] | analyst inference (necessity) | typical | no gap | the operator's signal comes from a worn remote (easyPILOT) |
 | [[Adapt Speed to Load and Lift Height]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing | needs the load and height measured |
 | [[Enforce Pre-Shift Checklist]] | [[Display Device Design]] | analyst inference (necessity) | strong | sources do not name the display | the checklist is shown on a display (keypad or touch) |
@@ -98,6 +99,7 @@ Each row is a dependency where at least one product that performs the function h
 | [[Measure Battery Current]] | [[Current Sensing Design]] | strong | 9 of 15 | sources do not name the sensing method |
 | [[Program Travel, Lift and Tilt Speeds]] | [[Programmable Motor Controller]] | typical | 3 of 5 | sources name modes or electronic control, not a programmable controller |
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | typical | 18 of 18 | sources do not name the interface |
+| [[Diagnose Vehicle Remotely]] | [[Wireless Interface Design]] | typical | 1 of 2 | TUG ALPHA 1 does not name the interface; TUG Endurance links Bluetooth Interface |
 | [[Restrict Lift When Load Exceeds Limit]] | [[Vehicle State Sensing Design]] | strong | 3 of 3 | sources do not name the sensing |
 | [[Sense Electrolyte Level]] | [[Battery Sensor Element Design]] | weak | 24 of 28 | sources do not name the sensing element; class is broad because only the capacitive probe is modeled |
 | [[Sense Load Weight and Lift Height]] | [[Vehicle State Sensing Design]] | strong | 6 of 7 | sources do not name the sensing |

@@ -12,6 +12,7 @@ supertypeOf:
   - "[[Enforce Pre-Shift Checklist]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Diagnose Vehicle Remotely]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

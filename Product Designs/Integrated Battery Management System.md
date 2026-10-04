@@ -26,6 +26,7 @@ designOf:
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
+  - "[[TUG ALPHA 1 Pushback]]"
 ---
 
 # Integrated Battery Management System
@@ -51,6 +52,7 @@ Battery management system built into the battery pack.
   - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
   - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
   - [[Godrej Lithium-Ion Forklift Battery]] (V): <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system>
+  - [[TUG ALPHA 1 Pushback]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
 
 ## Aliases
 

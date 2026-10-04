@@ -34,6 +34,8 @@ Crown V-Force lithium-ion energy storage system (pack, charger and BMS) for Crow
   - [[Integrated Battery Management System]] (V): <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
 - The FC 5700 brochure says the V-Force Integrated Lithium-Ion System eliminates battery changes, watering and special battery rooms, lets one battery handle one or multiple shifts, charges with zero emissions (no gassing) and supports true opportunity charging with a multi-level safety architecture. Source: Crown FC 5700 brochure (in repo) (T1), retrieved 2026-10-03. <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 - **Functions performed, with citations:**
+- **Design characteristics, with citations (round 40, gap review 2026-10-03):**
+  - [[Integrated Battery Management System]] (V): <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
 
 ## Aliases
 

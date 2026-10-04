@@ -19,6 +19,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Hyster Power Cellect]]"
+  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
@@ -39,6 +41,8 @@ Provide battery state to other equipment over a CAN network.
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf> <https://integration.enersys.com/493bb4/globalassets/documents/product-documentation/_misc/wi-iq/emea/wi-iq3-battery-monitoring-device-brochure.pdf>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Hyster Power Cellect]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
+  - [[Stryten M-Series Li600 Battery]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
+  - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
 - **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (CAN Interface); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

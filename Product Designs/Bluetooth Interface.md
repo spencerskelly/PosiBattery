@@ -20,6 +20,7 @@ designOf:
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Stryten X-3 Charger]]"
+  - "[[TUG Endurance Baggage Tractor]]"
 ---
 
 # Bluetooth Interface
@@ -40,6 +41,7 @@ Bluetooth radio link. Parent family for variants; used directly where a source s
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
   - [[Crown Battery Health Monitor]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
   - [[Stryten X-3 Charger]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/SE1038-X-3-Product-Brochure_DIGITAL.pdf>
+  - [[TUG Endurance Baggage Tractor]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/baggage-cargo/press-release/21280484/textron-gse-textron-gse-introduces-the-tug-endurance-baggage-tractor>
 
 ## Aliases
 
