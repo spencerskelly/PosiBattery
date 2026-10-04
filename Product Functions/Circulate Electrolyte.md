@@ -15,6 +15,7 @@ performedBy:
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
+  - "[[GS Yuasa Traction Battery (Europe)]]"
 ---
 
 # Circulate Electrolyte
@@ -31,6 +32,7 @@ Mix or circulate electrolyte during charging to limit acid stratification.
   - [[Exide AIR Electrolyte Agitation System]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[Midac EUW Electrolyte Circulation System]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
   - [[HOPPECKE trak air Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
+  - [[GS Yuasa Traction Battery (Europe)]] (V): <https://www.logisticsbusiness.com/?p=40376>
 
 ## Aliases
 

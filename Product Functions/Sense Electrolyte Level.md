@@ -10,7 +10,7 @@ tags:
 subtypeOf:
   - "[[Sense Battery State]]"
 dependsOn:
-  - "[[Capacitive Electrolyte Level Probe]]"
+  - "[[Battery Sensor Element Design]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:

@@ -42,6 +42,7 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[EnerSys Wi-iQ]]: -20 to 60 C
   - [[Exide Motion+ EasyMonitor]]: -10 to 60 C
   - [[Flow-Rite Eagle Eye Essential IV]]: -40 to 185 F (-40 to 85 C)
+  - [[Godrej Multi-Ion Forklift Battery]]: ambient above 45 C (maker claim)
   - [[Green Cubes GSE Lithium Battery]]: heaters; range not stated
   - [[HOPPECKE trak collect]]: use -30 to 80 C (data sheet); earlier note: use -30 to 80 C; storage -30 to 80 C
   - [[Inventus Smart Battery Monitor SBM-01]]: -30 to 70 C; storage -40 to 80 C

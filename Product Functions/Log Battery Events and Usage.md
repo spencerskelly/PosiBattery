@@ -10,7 +10,7 @@ tags:
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
-  - "[[Non-Volatile Event Memory]]"
+  - "[[Data Handling Design]]"
 describedBy:
   - "[[Metric - Data Storage]]"
 performedBy:

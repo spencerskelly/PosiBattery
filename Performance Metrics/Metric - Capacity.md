@@ -29,6 +29,7 @@ Capacity: Rated capacity.
   - [[Flux Power LiFT Pack]]: 250 Ahe
   - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells
+  - [[Leoch PzS Traction Battery]]: 200 to 400 Ah at 5 h per 2 V cell (2PzS200 to 5PzS400)
   - [[Stryten M-Series T330 Battery]]: up to 18% more capacity than conventional flooded
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 5 product(s) have a value; document-based values to be added as documents are supplied.

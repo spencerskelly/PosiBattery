@@ -24,6 +24,7 @@ Charge Time: Stated time to a given state of charge.
 - **Comparability rule:** Needs charger power and start and end SOC.
 - **Direction:** shorter is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Godrej Lithium-Ion Forklift Battery]]: 20 to 80 percent in 2.5 hours (maker claim)
   - [[Jungheinrich Lithium-Ion Battery]]: 50% in 40 minutes; full in 80 minutes (trade report)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 1 product(s) have a value; document-based values to be added as documents are supplied.

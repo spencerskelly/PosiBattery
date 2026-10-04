@@ -10,6 +10,8 @@ tags:
 supertypeOf:
   - "[[Cloud Portal Integration]]"
   - "[[Non-Volatile Event Memory]]"
+dependencyOf:
+  - "[[Log Battery Events and Usage]]"
 ---
 
 # Data Handling Design

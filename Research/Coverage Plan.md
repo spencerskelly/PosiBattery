@@ -60,11 +60,11 @@ How the catalog decides which makers and products to include, what a finished ca
 
 | Rank (2025 list, 2024 revenue) | Company as ranked | Vault organization | 2024 revenue | Headquarters stated by a source | Forklift products on file (with subsidiaries and brands) | All product notes on file (with subsidiaries and brands) | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | Toyota Industries Corporation | [[Toyota Industries Corporation]] | not stated in the retrieved text | Japan (Kariya, Aichi; 2024 list) | 6 | 39 | covered |
+| 1 | Toyota Industries Corporation | [[Toyota Industries Corporation]] | not stated in the retrieved text | Japan (Kariya, Aichi; 2024 list) | 6 | 41 | covered |
 | 2 | KION Group | [[KION Group]] | $8.96B | Germany (2019 list) | 6 | 33 | covered |
 | 3 | Jungheinrich | [[Jungheinrich]] | $5.60B | Germany (2019 list) | 1 | 9 | covered |
 | 4 | Crown Equipment Corp. | [[Crown Equipment]] | not stated in the retrieved text | United States (2019 list) | 5 | 22 | covered |
-| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 1 | 1 | covered |
+| 5 | Mitsubishi Logisnext Co. | [[Mitsubishi Logisnext]] | not stated in the retrieved text | Japan (Kyoto; 2024 list) | 8 | 18 | covered |
 | 6 | Hyster-Yale | [[Hyster-Yale]] | $4.30B | United States (Cleveland; 2024 list) | 3 | 13 | covered |
 | 7 | Anhui Forklift Group | [[Anhui Heli]] | $2.51B | China (the vault note is titled Anhui Heli; see C84) | 2 | 6 | covered |
 | 8 | Hangcha Group | [[Hangcha Group]] | $2.29B | China (2019 list) | 2 | 5 | covered |
@@ -79,20 +79,22 @@ How the catalog decides which makers and products to include, what a finished ca
 | Exide Technologies | [[Exide Technologies]] | United States | A, B, E | 6 | 12 | covered |
 | Exide Industries (India) | - | India (D, F) | D, F | 0 | 0 | gap: no org note |
 | HOPPECKE | [[HOPPECKE]] | Germany | A, B, C, D | 3 | 6 | covered |
-| Crown Battery Manufacturing | - | United States | A, D, E, G (the lists also name 'Crown Equipment Corporation'; see C84) | 0 | 0 | gap: no org note |
+| Crown Battery Manufacturing | [[Crown Battery Manufacturing]] | United States | A, D, E, G (the lists also name 'Crown Equipment Corporation'; see C84) | 0 | 1 | org note, no battery notes |
 | Midac | [[Midac]] | Italy | A, D, G | 1 | 4 | covered |
 | Flux Power | [[Flux Power]] | United States | A, C, E | 3 | 3 | covered |
-| GS Yuasa | - | Japan | A, B | 0 | 0 | gap: no org note |
-| Leoch International | - | China | A, B, F | 0 | 0 | gap: no org note |
-| Banner Batteries | - | Austria | A, G | 0 | 0 | gap: no org note |
+| GS Yuasa | [[GS Yuasa]] | Japan | A, B | 1 | 1 | covered |
+| Leoch International | [[Leoch]] | China | A, B, F | 1 | 1 | covered |
+| Banner Batteries | [[Banner]] | Austria | A, G | 3 | 3 | covered |
 | Stryten Energy | [[Stryten Energy]] | United States | B only (but 15 or more product notes on file) | 10 | 16 | covered |
-| Tianneng, Amara Raja, Godrej, Forsee Power, OneCharge, GB Industrial Battery, Hawker, Clarios, Saft, Hitachi Chemical, Trojan, Navitas, Storage Battery Systems | - | various | one list each | 0 | 0 | single-list names: not yet screened |
+| Amara Raja | [[Amara Raja]] | Asia-Pacific (stated by the maker) | A | 1 | 1 | covered |
+| Godrej | [[Godrej Enterprises Group]] | India | A | 2 | 2 | covered |
+| Tianneng, Forsee Power, OneCharge, GB Industrial Battery, Hawker, Clarios, Saft, Hitachi Chemical, Trojan, Navitas, Storage Battery Systems | - | various | one list each | 0 | 0 | single-list names: not yet screened |
 
 *Makers that are the direct maker or offerer of at least one product note, by product type (parent companies are not rolled up here)*
 
 | Product type | Makers with at least one product note | Makers |
 |---|---|---|
-| Batteries | 18 | [[Anhui Heli]], [[Crown Equipment]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Flux Power]], [[Green Cubes Technology]], [[HOPPECKE]], [[Hangcha Group]], [[Jungheinrich]], [[Linde Material Handling]], [[Logisnext Europe]], [[Midac]], [[Mitsubishi Logisnext Americas]], [[Raymond]], [[Stryten Energy]], [[Toyota Material Handling]], [[Triathlon USA]] |
+| Batteries | 23 | [[Amara Raja]], [[Anhui Heli]], [[Banner]], [[Crown Equipment]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Flux Power]], [[GS Yuasa]], [[Godrej Enterprises Group]], [[Green Cubes Technology]], [[HOPPECKE]], [[Hangcha Group]], [[Jungheinrich]], [[Leoch]], [[Linde Material Handling]], [[Logisnext Europe]], [[Midac]], [[Mitsubishi Logisnext Americas]], [[Raymond]], [[Stryten Energy]], [[Toyota Material Handling]], [[Triathlon USA]] |
 | Chargers | 19 | [[AMETEK Prestolite Power]], [[Advanced Charging Technologies]], [[Anhui Heli]], [[Crown Battery Manufacturing]], [[Crown Equipment]], [[Delta-Q Technologies]], [[East Penn Manufacturing]], [[EnerSys]], [[Exide Technologies]], [[Fronius International]], [[Green Cubes Technology]], [[HOPPECKE]], [[Lester Electrical]], [[Linde Material Handling]], [[PosiCharge]], [[Power Designers]], [[Raymond]], [[Stryten Energy]], [[Triathlon USA]] |
 | Forklifts | 14 | [[Anhui Heli]], [[Crown Equipment]], [[Doosan Bobcat]], [[Hangcha Group]], [[Hyster-Yale]], [[Jungheinrich]], [[Komatsu]], [[Linde Material Handling]], [[Logisnext Europe]], [[Mitsubishi Logisnext]], [[Mitsubishi Logisnext Americas]], [[Raymond]], [[STILL]], [[Toyota Material Handling]] |
 | Battery Accessories | 19 | [[AMETEK Prestolite Power]], [[Access Control Group]], [[Advanced Charging Technologies]], [[Anderson Power Products]], [[Crown Equipment]], [[EnerSys]], [[Energywith]], [[Exide Technologies]], [[Flow-Rite]], [[Fronius International]], [[HOPPECKE]], [[Hyster-Yale]], [[Inventus Power]], [[Midac]], [[Philadelphia Scientific]], [[PosiCharge]], [[Power Designers]], [[Raymond]], [[Sunlight Group]] |
@@ -102,8 +104,8 @@ How the catalog decides which makers and products to include, what a finished ca
 | Fuel Cell Power Units | 2 | [[Nuvera]], [[Plug Power]] |
 | Ground Support Equipment | 6 | [[Charlatte Manutention]], [[Linde Material Handling]], [[Mallaghan]], [[Oshkosh AeroTech]], [[TLD Group]], [[Textron GSE]] |
 
-- **Region recorded:** 37 of 73 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
-- **What the ledger shows (round 24):** all eight ranked forklift OEMs have at least one electric truck note; Mitsubishi Logisnext is now split into group, Americas and Europe entities; the thin spots are manufacturer-level sources for the Asian makers and Mitsubishi (dealer data, T3), the Asian and Indian battery makers, and the region field on organization notes.
+- **Region recorded:** 41 of 78 organization notes carry a region tag; the rest have none, so regional coverage cannot be measured yet. Backlog: record headquarters and regions served with a source on every organization note.
+- **What the ledger shows (round 28):** every ranked forklift OEM has a truck note; of the battery makers named in the lists, GS Yuasa, Banner, Leoch, Godrej and Amara Raja now have notes (mostly trade-press and a few maker sheets); Tianneng and the single-list names remain gaps; the region field on organization notes and manufacturer datasheets are the main weaknesses.
 
 ## Aliases
 

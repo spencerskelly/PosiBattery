@@ -17,6 +17,7 @@ designOf:
   - "[[Deka PowrMate Battery]]"
   - "[[Exide Element VRLA Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
+  - "[[Banner Traction Bull PzV Gel]]"
 ---
 
 # Gel Electrolyte
@@ -35,6 +36,7 @@ Gelled electrolyte, so no watering.
   - [[Deka PowrMate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka Gel-Mate Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Deka Dominator Battery]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Banner Traction Bull PzV Gel]] (V): <https://bannerbatterien.com/energysolutions/upload/files/FolderAGS_GB.pdf>
 
 ## Aliases
 

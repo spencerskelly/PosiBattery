@@ -20,6 +20,7 @@ supertypeOf:
   - "[[Stryten M-Series AGM200 Battery]]"
   - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
+  - "[[Banner Traction Bull PzV Gel]]"
 ---
 
 # Valve-Regulated Lead-Acid Traction Battery

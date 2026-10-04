@@ -27,11 +27,14 @@ Chemistry and Plate Construction: Chemistry and plate type.
 - **Comparability rule:** Plate type (flat, round tubular, TPPL) changes cycle behavior; compare within chemistry.
 - **Direction:** n/a.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Banner Traction Bull Bloc PzF]]: flooded, positive tubular plates, negative grid plates, high antimony
+  - [[Banner Traction Bull PzV Gel]]: gel, valve-regulated
   - [[Deka Dominator Battery]]: gel (maintenance-free); corrected from flooded (C53)
   - [[EnerSys NexSys TPPL Battery]]: thin plate pure lead (valve-regulated)
   - [[Exide TENSOR xGEL Battery]]: gel (valve-regulated)
   - [[Green Cubes GSE Lithium Battery]]: lithium iron phosphate
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: LiFePO4, square cells
+  - [[Leoch PzS Traction Battery]]: flooded, tubular positive plates
   - [[Stryten M-Series AGM200 Battery]]: AGM (valve-regulated)
   - [[Stryten M-Series F100 Battery]]: flooded; flat plate
   - [[Stryten M-Series F110 Battery]]: flooded; flat plate

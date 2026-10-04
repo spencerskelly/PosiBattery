@@ -48,6 +48,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
 | [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 12 | 4 | 20 | defined |
 | [[Adveez Asset and Operations Monitoring System]] | [[Adveez]] | accessory | 1 | 0 | 0 | none |
+| [[Amaron Brute Hi-Life Battery]] | [[Amara Raja]] | battery | 0 | 0 | 0 | none |
 | [[Anderson SB Connector Series]] | [[Anderson Power Products]] | accessory | 1 | 1 | 1 | partial |
 | [[Heli A3 Series Lithium Forklifts]] | [[Anhui Heli]] | forklift | 4 | 2 | 10 | defined |
 | [[Heli Built-In Lithium Charger]] | [[Anhui Heli]] | accessory | 2 | 1 | 1 | partial |
@@ -55,6 +56,9 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Heli G Series Lithium Forklifts]] | [[Anhui Heli]] | forklift | 4 | 1 | 8 | defined |
 | [[Heli Lithium-Ion Battery]] | [[Anhui Heli]] | battery | 2 | 2 | 8 | defined |
 | [[Heli Operator Presence Sensing System]] | [[Anhui Heli]] | accessory | 1 | 0 | 0 | none |
+| [[Banner Traction Bull Bloc PzF]] | [[Banner]] | battery | 1 | 0 | 4 | defined |
+| [[Banner Traction Bull PzS]] | [[Banner]] | battery | 0 | 0 | 0 | none |
+| [[Banner Traction Bull PzV Gel]] | [[Banner]] | battery | 1 | 0 | 0 | none |
 | [[Blaxtair Pedestrian Detection System]] | [[Blaxtair]] | accessory | 4 | 0 | 3 | defined |
 | [[Charlatte Belt Loaders]] | [[Charlatte Manutention]] | gse | 1 | 0 | 4 | defined |
 | [[Charlatte CBT350 AC Tow Tractor]] | [[Charlatte Manutention]] | gse | 0 | 0 | 0 | none |
@@ -135,6 +139,9 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Fronius SelectION]] | [[Fronius International]] | charger | 2 | 0 | 0 | none |
 | [[Fronius Selectiva 4.0]] | [[Fronius International]] | charger | 2 | 2 | 11 | defined |
 | [[Fronius TagID]] | [[Fronius International]] | monitor | 3 | 1 | 0 | none |
+| [[GS Yuasa Traction Battery (Europe)]] | [[GS Yuasa]] | battery | 2 | 0 | 4 | defined |
+| [[Godrej Lithium-Ion Forklift Battery]] | [[Godrej Enterprises Group]] | battery | 1 | 0 | 6 | defined |
+| [[Godrej Multi-Ion Forklift Battery]] | [[Godrej Enterprises Group]] | battery | 0 | 0 | 4 | defined |
 | [[Green Cubes GSE Lithium Battery]] | [[Green Cubes Technology]] | battery | 3 | 1 | 1 | partial |
 | [[Green Cubes SAFEFlex Battery]] | [[Green Cubes Technology]] | battery | 1 | 1 | 1 | partial |
 | [[Green Cubes SAFEFlex Charger]] | [[Green Cubes Technology]] | charger | 1 | 2 | 0 | none |
@@ -178,6 +185,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Komatsu KOMTRAX]] | [[Komatsu]] | accessory | 1 | 1 | 0 | none |
 | [[Komatsu Operator Presence Sensing System]] | [[Komatsu]] | accessory | 1 | 0 | 0 | none |
 | [[Larson Explosion-Proof Blue LED Forklift Light]] | [[Larson Electronics]] | accessory | 1 | 0 | 3 | defined |
+| [[Leoch PzS Traction Battery]] | [[Leoch]] | battery | 1 | 0 | 2 | partial |
 | [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
 | [[Linde 1293 Series (E20BHP and E25BHP)]] | [[Linde Material Handling]] | forklift | 0 | 0 | 1 | partial |
 | [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Linde Material Handling]] | forklift | 1 | 2 | 3 | defined |
@@ -367,6 +375,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

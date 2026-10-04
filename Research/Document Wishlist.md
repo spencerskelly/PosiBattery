@@ -27,6 +27,13 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>new this round (battery maker gaps); direct addresses come from search results and were not opened | Banner Traction Bull brochure (PzS, PzV, Bloc ranges) | <https://bannerbatterien.com/energysolutions/upload/files/FolderAGS_GB.pdf> |  | Banner traction range | - | R28 |
+| **high priority**<br>new this round (battery maker gaps); direct addresses come from search results and were not opened | Banner Traction Bull Bloc PzF data sheet | <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf> |  | Banner Bloc PzF | - | R28 |
+| **high priority**<br>new this round (battery maker gaps) | GS Yuasa traction range brochure and cell data (Europe and Japan) | no direct file found | <https://www.gs-yuasa.eu/products/traction/> | GS Yuasa traction | - | R28 |
+| **high priority**<br>new this round (battery maker gaps) | Leoch PzS and lithium motive power catalog | no direct file found | <https://leoch.com/product/power/127.html> | Leoch motive power | - | R28 |
+| **high priority**<br>new this round (battery maker gaps) | Godrej Li-ion and Multi-Ion forklift battery data sheets | no direct file found | <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system> | Godrej batteries | - | R28 |
+| **high priority**<br>new this round (battery maker gaps) | Amara Raja Amaron Brute Hi-Life data sheet | no direct file found | <https://www.maritimegateway.com/amara-raja-launches-amaron-brute-hi-life-batteries-revolutionize-logistics-industry/> | Amara Raja | - | R28 |
+| **high priority**<br>new this round (battery maker gaps) | Tianneng motive power or forklift lithium catalog | no direct file found | none found in round 28 | Tianneng (no sources found) | - | R28 |
 | **high priority**<br>new this round (Mitsubishi Logisnext focus) | Logisnext Americas Mitsubishi FBC, FB and FBCS brochures and options sheets | no direct file found | <https://www.logisnextamericas.com/en/logisnext/who-we-are> | Mitsubishi Forklift Trucks models and options (currently dealer data, T3) | - | R24 |
 | **high priority**<br>new this round (Mitsubishi Logisnext focus) | UniCarriers SCX N2, MX2, MXL and Nomad brochures | no direct file found | <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions> | UniCarriers models and options | - | R24 |
 | **high priority**<br>new this round (Mitsubishi Logisnext focus) | Logisnext Energy Solutions brochure (lithium-ion forklifts, chargers, Promatch program) | no direct file found | <https://www.logisnextamericas.com/es-co/logisnext/solutions/energy-solutions> | Logisnext energy offer | - | R24 |
@@ -203,6 +210,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 22 2026-10-03:** the Linde dealer brochure and the KION North America catalog were read; three truck OEM rows updated; a Lift Link sheet address (found by search, not opened) and two new rows added. Counts: high priority 45, helpful 30, issue 12, in repo 60.
 - **Round 23 2026-10-03:** 7 direct file addresses for Hangcha and Cat found in search results (not opened) and 4 page-only rows for Heli, Doosan, Komatsu and STILL. Counts: high priority 56, helpful 30, issue 12, in repo 60.
 - **Round 24 2026-10-03:** 5 page-only rows added for the Mitsubishi Logisnext group; no direct file was found for any Mitsubishi, UniCarriers or Cat sheet. Counts: high priority 61, helpful 30, issue 12, in repo 60.
+- **Round 28 2026-10-03:** 7 rows added for the battery makers (two Banner files found by search, not opened).
 
 ## Aliases
 

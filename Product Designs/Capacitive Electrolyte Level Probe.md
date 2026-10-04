@@ -9,9 +9,6 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Battery Sensor Element Design]]"
-dependencyOf:
-  - "[[Alert on Low Electrolyte Level]]"
-  - "[[Sense Electrolyte Level]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 designOf:

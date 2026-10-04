@@ -10,6 +10,9 @@ tags:
 supertypeOf:
   - "[[Capacitive Electrolyte Level Probe]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
+dependencyOf:
+  - "[[Alert on Low Electrolyte Level]]"
+  - "[[Sense Electrolyte Level]]"
 ---
 
 # Battery Sensor Element Design

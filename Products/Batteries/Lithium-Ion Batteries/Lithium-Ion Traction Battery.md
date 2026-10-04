@@ -35,6 +35,8 @@ supertypeOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
+  - "[[Godrej Lithium-Ion Forklift Battery]]"
+  - "[[Godrej Multi-Ion Forklift Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

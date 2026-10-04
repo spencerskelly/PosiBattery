@@ -28,6 +28,11 @@ supertypeOf:
   - "[[Stryten M-Series T300 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[GS Yuasa Traction Battery (Europe)]]"
+  - "[[Banner Traction Bull PzS]]"
+  - "[[Banner Traction Bull Bloc PzF]]"
+  - "[[Leoch PzS Traction Battery]]"
+  - "[[Amaron Brute Hi-Life Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

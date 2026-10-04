@@ -59,10 +59,10 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Flat Plate Construction]] | [[Stryten M-Series F100 Battery]] | - | - |
 | [[Flexible Bolt-On Intercell Connector]] | [[Crown V-Force Lead-Acid Battery]] | - | - |
 | [[Floor-Projected Warning Light]] | [[Cat Safety Lighting Options]], [[Crown RC 5700 Series]], [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist]], [[STILL SafetyLight 4Plus]], [[STILL Warning Zone Light]], [[Toyota Forklift Lighting Options]] | - | - |
-| [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
+| [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[GS Yuasa Traction Battery (Europe)]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Fork Laser Guide]] | [[Raymond Fork-Tip Laser Guide]], [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
-| [[Gel Electrolyte]] | [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
+| [[Gel Electrolyte]] | [[Banner Traction Bull PzV Gel]], [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
 | [[Hall-Effect Current Sensing]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!pro]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Harness Ring-Terminal Mounting]] | [[EnerSys Wi-iQ]] | - | - |
 | [[Heavy-Duty Intercell Connectors]] | [[Deka FastCharge Battery]] | - | - |
@@ -74,7 +74,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Ingress-Protected Drive Components]] | [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Heli G Series Lithium Forklifts]], [[Heli Lithium-Ion Battery]] | - | - |
-| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
+| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Godrej Lithium-Ion Forklift Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
 | [[Integrated LCD Display]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Interactive Warning Vest]] | [[Linde Safety Guard]], [[Linde Safety Guard Portable Unit]] | - | - |
 | [[LiDAR Object Sensor]] | [[Crown ProximityAssist System]], [[Hyster Reaction]], [[Raymond In-Aisle Detection System]], [[Raymond iWAREHOUSE ObjectSense]] | - | - |
@@ -114,7 +114,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Truck Charging Port]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]], [[Cat Lithium-Ion Battery Option]], [[Toyota Traigo48]] | - | - |
-| [[Tubular Plate Construction]] | [[Crown V-Force Lead-Acid Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
+| [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
 | [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
@@ -126,6 +126,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.

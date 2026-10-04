@@ -24,6 +24,11 @@ rolePlayedBy:
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
+  - "[[GS Yuasa]]"
+  - "[[Banner]]"
+  - "[[Leoch]]"
+  - "[[Godrej Enterprises Group]]"
+  - "[[Amara Raja]]"
 ---
 
 # Battery Maker

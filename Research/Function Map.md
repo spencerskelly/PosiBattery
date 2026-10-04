@@ -43,7 +43,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Charge Lithium-Ion Battery]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[Deka PowerForce Charger]], [[Delta-Q IC650]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]], [[Exide Motion+ Lithium Charger]], [[Exide Motion+ Premium Charger]], [[Fronius SelectION]], [[Green Cubes SAFEFlex Charger]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Charge Under BMS Control]] | [[Delta-Q IC650]], [[Exide Motion+ Lithium Charger]], [[Fronius SelectION]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]] | - | - |
 | [[Charge in Cold Storage]] | [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]] | - | - |
-| [[Circulate Electrolyte]] | [[Exide AIR Electrolyte Agitation System]], [[HOPPECKE trak air Electrolyte Circulation]], [[Midac EUW Electrolyte Circulation System]] | - | - |
+| [[Circulate Electrolyte]] | [[Exide AIR Electrolyte Agitation System]], [[GS Yuasa Traction Battery (Europe)]], [[HOPPECKE trak air Electrolyte Circulation]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Command Vehicle Operating Limits over CAN]] | [[EnerSys Wi-iQ]] | - | - |
 | [[Communicate Battery State over CAN]] | [[EnerSys Wi-iQ]], [[Hyster Power Cellect]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]] | - | - |
 | [[Communicate with Charger]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[EnerSys NexSys iON Battery]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac SP+]], [[Stryten inCOMMAND]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
@@ -123,6 +123,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.

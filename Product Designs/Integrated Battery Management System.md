@@ -25,6 +25,7 @@ designOf:
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
+  - "[[Godrej Lithium-Ion Forklift Battery]]"
 ---
 
 # Integrated Battery Management System
@@ -49,6 +50,7 @@ Battery management system built into the battery pack.
   - [[Jungheinrich Lithium-Ion Battery]] (V): <https://warehousenews.co.uk/?p=45557>
   - [[Toyota Lithium-Ion 5-35 Battery Series]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
   - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
+  - [[Godrej Lithium-Ion Forklift Battery]] (V): <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system>
 
 ## Aliases
 

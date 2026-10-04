@@ -619,6 +619,19 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Raymond Zoning and Positioning]] | [[Raymond Orderpickers]] | option on the High Capacity Orderpicker | <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker> |
 | offeredWith | [[Raymond In-Aisle Detection System]] | [[Raymond Orderpickers]] | offered with the High Capacity Orderpicker | <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker> |
 | offeredWith | [[Yale Vision Telemetry]] | [[Yale ERC050-060VGL]] | Yale lists Yale Vision telemetry with the truck page | <https://yale.com/en-us/north-america/lithium-ion-forklifts/erc050-060vgl> |
+| playsRole | [[GS Yuasa]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Banner]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Leoch]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Godrej Enterprises Group]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| playsRole | [[Amara Raja]] | [[Battery Maker]] | analyst label from the organization note | see the organization note |
+| makes | [[GS Yuasa]] | [[GS Yuasa Traction Battery (Europe)]] | vendor presents the product as its own | see the product note |
+| makes | [[Banner]] | [[Banner Traction Bull PzS]] | vendor presents the product as its own | see the product note |
+| makes | [[Banner]] | [[Banner Traction Bull PzV Gel]] | vendor presents the product as its own | see the product note |
+| makes | [[Banner]] | [[Banner Traction Bull Bloc PzF]] | vendor presents the product as its own | see the product note |
+| makes | [[Leoch]] | [[Leoch PzS Traction Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Godrej Enterprises Group]] | [[Godrej Lithium-Ion Forklift Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Godrej Enterprises Group]] | [[Godrej Multi-Ion Forklift Battery]] | vendor presents the product as its own | see the product note |
+| makes | [[Amara Raja]] | [[Amaron Brute Hi-Life Battery]] | vendor presents the product as its own | see the product note |
 - **Round 24 note:** earlier rows that name Mitsubishi Logisnext as maker, offerer, supplier or distributor of UniCarriers, Lift Link, Triathlon, PowerFleet and Jungheinrich items are kept as history; the rows added in round 24 re-attribute them to Mitsubishi Logisnext Americas (and the Cat EP items to Logisnext Europe by inference, C92).
 
 ## Aliases

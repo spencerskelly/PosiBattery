@@ -61,6 +61,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 25 2026-10-03:** feature capture for the unlinked products (50 products linked; 56 of 321 still unlinked); see [[Feature Capture Log]].
 - **Round 26 2026-10-03:** sources found for unlinked products; 48 of 323 still without a feature link ([[Feature Capture Log]]).
 - **Round 27 2026-10-03:** feature vocabulary and dependency review applied; 52 of 323 products still without a feature link ([[Feature Capture Log]]).
+- **Round 28 2026-10-03:** dependency strength column and check script; battery maker gaps: 5 organizations and 9 battery notes; conflicts C94 and C95 ([[Coverage Plan]]).
 
 ## Aliases
 

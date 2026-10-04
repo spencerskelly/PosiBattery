@@ -16,6 +16,8 @@ designOf:
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[Banner Traction Bull Bloc PzF]]"
+  - "[[Leoch PzS Traction Battery]]"
 ---
 
 # Tubular Plate Construction
@@ -33,6 +35,8 @@ Tubular positive plates.
   - [[Midac PzS Traction Battery]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
   - [[Stryten M-Series T310 Battery]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[Crown V-Force Lead-Acid Battery]] (V): <https://www.batteriesinternational.com/?p=15261>
+  - [[Banner Traction Bull Bloc PzF]] (V): <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf>
+  - [[Leoch PzS Traction Battery]] (V): <https://leoch.com/product/power/127.html>
 
 ## Aliases
 

@@ -24,6 +24,9 @@ Cycle Life and Warranty: Stated cycle life and warranty.
 - **Comparability rule:** Cycles to what end-of-life percentage is rarely stated.
 - **Direction:** higher is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Banner Traction Bull Bloc PzF]]: up to 1,200 cycles at 80 percent K5 discharge
+  - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid
+  - [[Godrej Multi-Ion Forklift Battery]]: up to 5,000 cycles; 7-year warranty (trade report)
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 6 years or 12,000 hours (2024 and 2025 brochures)
   - [[Heli Lithium-Ion Battery]]: 48 months (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report)

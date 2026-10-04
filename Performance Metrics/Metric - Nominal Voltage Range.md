@@ -40,6 +40,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[ACT Quantum 3]]: 24-120 V (sheet); earlier note: 24-120 V
   - [[ACT Quantum Outdoor]]: 24-96 V
   - [[Advanced Charging Technologies BATTview]]: 12-80 V nominal; operating 12-110 V
+  - [[Banner Traction Bull Bloc PzF]]: 6 V and 12 V blocks
   - [[Crown V-HFM3 Charger]]: 24, 36, 48, 72, 80, 96 V
   - [[Delta-Q IC650]]: 24, 36, 48 V
   - [[EnerSys Wi-iQ]]: 24-80 V and 96-120 V (nominal and operating)
@@ -49,6 +50,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Flux Power GSE Pack]]: 72 V
   - [[Flux Power LiFT Pack]]: 24 V (first unit)
   - [[Fronius Selectiva 4.0]]: 96 V and 120 V models on the flyer; 2-30 kW classes overall
+  - [[GS Yuasa Traction Battery (Europe)]]: 24, 48 and 80 V (2 V cells)
   - [[Green Cubes GSE Lithium Battery]]: 80 V (FBP-1000)
   - [[Green Cubes SAFEFlex Battery]]: 48 V (FBP-1000)
   - [[Green Cubes SAFEFlex PLUS Battery]]: 24, 36, 48, 80 V
@@ -56,6 +58,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 80 V on the XC Mid FB40Li (dealer); other voltages not stated
   - [[Heli Lithium-Ion Battery]]: 153.6 V; 80 V (dealer pages)
   - [[Inventus Smart Battery Monitor SBM-01]]: 9-60 VDC supply
+  - [[Leoch PzS Traction Battery]]: 2 V cells (battery voltages not stated)
   - [[Lester Summit Series II]]: 24, 36, 48 V nominal; 36/54/72 V maximum (1425 W sheet); earlier note: 24, 36, 48 V
   - [[Philadelphia Scientific eGO!core]]: 12 V
   - [[Philadelphia Scientific eGO!plus]]: 24-80 V (12, 72, 120 V optional)

@@ -22,6 +22,7 @@ describedBy:
   - "[[Metric - Certifications and Standards]]"
   - "[[Metric - Charge Regimes Supported]]"
   - "[[Metric - Charge Time]]"
+  - "[[Metric - Charging Gas Emissions]]"
   - "[[Metric - Chemistry and Plate Construction]]"
   - "[[Metric - Cycle Life and Warranty]]"
   - "[[Metric - Nominal Voltage Range]]"
@@ -29,7 +30,6 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
-  - "[[Metric - Charging Gas Emissions]]"
 ---
 
 # Industrial Traction Battery
