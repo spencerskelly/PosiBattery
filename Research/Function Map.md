@@ -134,6 +134,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
+- **Round 25:** rebuilt after the feature capture pass.
 
 ## Aliases
 

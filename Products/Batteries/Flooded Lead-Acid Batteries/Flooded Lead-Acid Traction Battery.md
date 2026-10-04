@@ -24,6 +24,7 @@ supertypeOf:
   - "[[EnerSys IRONCLAD Battery]]"
   - "[[Exide MARATHON Battery]]"
   - "[[GS Yuasa Traction Battery (Europe)]]"
+  - "[[HAWKER Perfect Plus Battery]]"
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[Leoch PzS Traction Battery]]"
@@ -33,7 +34,6 @@ supertypeOf:
   - "[[Stryten M-Series T300 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
-  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

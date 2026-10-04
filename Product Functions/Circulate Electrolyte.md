@@ -14,10 +14,10 @@ dependsOn:
   - "[[Forced Electrolyte Circulation]]"
 performedBy:
   - "[[GS Yuasa Traction Battery (Europe)]]"
+  - "[[HAWKER Perfect Plus Battery]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
-  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Circulate Electrolyte

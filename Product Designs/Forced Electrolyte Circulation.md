@@ -16,11 +16,11 @@ describedBy:
 designOf:
   - "[[Exide MARATHON Battery]]"
   - "[[GS Yuasa Traction Battery (Europe)]]"
+  - "[[HAWKER Perfect Plus Battery]]"
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
-  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Forced Electrolyte Circulation

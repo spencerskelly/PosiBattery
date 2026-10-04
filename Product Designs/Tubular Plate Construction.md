@@ -14,11 +14,11 @@ describedBy:
 designOf:
   - "[[Banner Traction Bull Bloc PzF]]"
   - "[[Crown V-Force Lead-Acid Battery]]"
+  - "[[HAWKER Perfect Plus Battery]]"
   - "[[Leoch PzS Traction Battery]]"
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
-  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Tubular Plate Construction

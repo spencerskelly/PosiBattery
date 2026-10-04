@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Maintain Battery Electrolyte]]"
 performedBy:
+  - "[[HAWKER Perfect Plus Battery]]"
   - "[[Crown V-Force Single Point Watering System]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Midac Aquamatic Watering System]]"
@@ -18,7 +19,6 @@ performedBy:
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[PosiCharge Single-Point Automatic Battery Watering]]"
   - "[[PosiCharge SVS200]]"
-  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Water Battery Cells
