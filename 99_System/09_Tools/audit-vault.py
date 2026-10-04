@@ -118,7 +118,7 @@ def resolve_any(source,target):
     target=target.strip()
     if not target:
         return []
-    if (target.startswith("<") and target.endswith(">")) or target in ("...","…"):
+    if target.startswith("<") or target in ("...","…"):
         return ["<example>"]
     # Obsidian path-like links may be repo-relative or relative to the source note.
     if "/" in target or target.startswith("."):
