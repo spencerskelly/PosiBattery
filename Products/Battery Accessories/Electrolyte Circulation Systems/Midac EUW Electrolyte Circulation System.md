@@ -36,6 +36,7 @@ Optional EUW electrolyte circulation accessory for Midac PzS traction batteries 
   - [[Circulate Electrolyte]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

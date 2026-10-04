@@ -47,6 +47,7 @@ Philadelphia Scientific connected battery monitor that records every battery cyc
   - [[Mobile App Interface]] (V): <https://warehousenews.co.uk/?p=68147>
   - [[Cloud Portal Integration]] (V): <https://warehousenews.co.uk/?p=68147>
 - **Sources used for the mapping above:** iPE feature on eGO!c <https://www.ipesearch.co.uk/iOT-technology-for-batteries>; Warehouse News eGO! feature (undated) <https://warehousenews.co.uk/?p=68147>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

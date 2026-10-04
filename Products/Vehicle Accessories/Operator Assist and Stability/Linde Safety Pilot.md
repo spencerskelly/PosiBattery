@@ -37,6 +37,7 @@ Linde driver assistance system that shows load weight, centre of gravity, lift h
 - **Functions performed, with citations:**
   - [[Restrict Lift When Load Exceeds Limit]] (V): <https://logisticsmatters.co.uk/page_513926.asp>
 - The brochure says Safety Pilot comes in an 'active' version (comfort functions that intervene or regulate) and a 'select' version (comfort functions without intervention), only on new E12 to E50 electric (series 386-388) and H14 to H80 diesel and LPG trucks (series 391-396), and regulates lift and tilt according to load and height. Source: Linde Rhein-Ruhr safety brochure (T3), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Hydraulics]], [[Truck Drive and Brakes]], [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

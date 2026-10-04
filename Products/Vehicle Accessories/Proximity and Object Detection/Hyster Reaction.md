@@ -51,6 +51,7 @@ Hyster operator assist package that limits truck speed, acceleration and hydraul
 - **Functions performed, with citations:**
   - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
 - The Hyster solutions brochure lists Reaction's four elements as object detection, real-time location sensing, proximity detection and advanced dynamic stability, and says it proactively reduces truck performance when pedestrians, other trucks or objects are close. Source: Hyster solutions brochure (read round 20) (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); acts on [[Truck Drive and Brakes]], [[Truck Controls and Display]], [[Truck Hydraulics]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

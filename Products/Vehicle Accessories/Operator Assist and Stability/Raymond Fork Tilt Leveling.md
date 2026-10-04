@@ -32,6 +32,7 @@ Raymond option that positions the forks perpendicular to the mast at the touch o
 - Raymond's options sheet lists Fork Tilt Leveling, which automatically positions the forks perpendicular to the mast with the touch of a button to engage loads more quickly and accurately. Source: Raymond 4000 Series options sell sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Functions performed, with citations:**
   - [[Assist Lift Positioning]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+- **Truck parts (round 31):** stated by the source: acts on [[Truck Forks]] (positions the forks perpendicular to the mast) | typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

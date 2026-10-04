@@ -52,6 +52,7 @@ Crown battery-mounted monitor that pairs over Bluetooth with the truck's InfoLin
   - [[Bluetooth Interface]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
   - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
 - **Sources used for the mapping above:** M H&L New Products (undated) <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

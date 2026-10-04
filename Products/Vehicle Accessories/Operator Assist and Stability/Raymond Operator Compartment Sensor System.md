@@ -33,6 +33,7 @@ Raymond option that senses operator position; the truck decelerates to a stop if
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - The options sheet says that when the sensors are blocked or the beams are not seen, a tone sounds, a message scrolls on the operator display and the truck decelerates to a stop if traveling. Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

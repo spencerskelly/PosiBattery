@@ -38,6 +38,7 @@ Safety Guard module fitted to the truck: measures distance to within 10 cm, warn
   - [[Alert Operator of Hazards]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

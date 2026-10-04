@@ -32,6 +32,7 @@ UniCarriers intelligent curve control that smoothly reduces lift truck speed whe
 - A dealer-data page for the MX2-30L says its smart systems include intelligent curve control that smoothly reduces speed when cornering, thereby reducing lateral forces on the operator, truck and load. Source: AllMachines listing of UniCarriers MX2-30L (T3), retrieved 2026-10-03. <https://www.allmachines.com/forklifts/unicarriers-mx2-30l>
 - **Functions performed, with citations:**
   - [[Slow Truck in Curves]] (V): <https://www.allmachines.com/forklifts/unicarriers-mx2-30l>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

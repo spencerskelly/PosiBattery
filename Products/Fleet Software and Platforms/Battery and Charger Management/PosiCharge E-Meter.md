@@ -37,6 +37,7 @@ PosiCharge fleet assessment tool that records energy and usage data from an exis
   - [[Transmit Battery Data Wirelessly]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
 - **Design characteristics, with citations:**
   - [[Cellular Communication Interface]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+- **Truck parts (round 31):** stated by the source: mounts on [[Truck Battery Compartment]] (goes in the battery compartment). See [[Truck Part Connection Register]].
 
 ## Aliases
 

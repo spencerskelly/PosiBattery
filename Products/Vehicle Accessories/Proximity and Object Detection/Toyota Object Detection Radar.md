@@ -37,6 +37,7 @@ Toyota high-resolution radar on the back of the counterweight that detects movin
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Design characteristics, with citations:**
   - [[Radar Object Sensor]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- **Truck parts (round 31):** stated by the source: mounts on [[Truck Rear Body]] (radar sensor mounted to the back of the counterweight). See [[Truck Part Connection Register]].
 
 ## Aliases
 

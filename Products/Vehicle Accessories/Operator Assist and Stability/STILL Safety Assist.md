@@ -46,6 +46,7 @@ STILL assistance systems that set slow-speed zones, adjust speed in curves and w
 - **Functions performed, with citations:**
   - [[Control Operator Access]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[Limit Truck Speed Automatically]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Lighting]], [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

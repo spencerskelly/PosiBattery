@@ -25,6 +25,7 @@ Linde accessory holder for smartphones on a truck.
 ## Notes
 
 - Linde's retrofit and accessories page lists a practical holder for smartphones, with the Linde Safety Guard, BlueSpot driving path warning device and components for automatically recording and transmitting operating hours. Source: Linde Retrofit and Accessories page (T1), retrieved 2026-10-03. <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

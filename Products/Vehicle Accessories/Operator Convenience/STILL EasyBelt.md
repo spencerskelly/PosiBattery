@@ -34,6 +34,7 @@ STILL restraint belt that can be retrofitted to a fleet's counterbalance trucks.
   - [[Reduce Speed When Seat Belt Is Unfastened]] (V): <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>
 - **Design characteristics, with citations:**
   - [[Seat Belt Interlock]] (V): <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

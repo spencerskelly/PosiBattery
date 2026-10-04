@@ -34,6 +34,7 @@ Panacea fingerprint starter for forklifts.
   - [[Control Operator Access]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Design characteristics, with citations:**
   - [[Fingerprint Reader]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

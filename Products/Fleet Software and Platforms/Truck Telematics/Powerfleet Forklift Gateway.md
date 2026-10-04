@@ -45,6 +45,7 @@ Powerfleet forklift gateway (VAC) that handles driver access control, an impact 
 - **Name (C87):** the vault note says Forklift Gateway (VAC); the 2021 release names the VAC4.
 - **Functions performed, with citations:**
   - [[Enforce Pre-Shift Checklist]] (V): <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

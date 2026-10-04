@@ -46,6 +46,7 @@ Crown LiDAR operator assist that automatically slows the truck when it detects a
 - **Design characteristics, with citations:**
   - [[LiDAR Object Sensor]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
   - [[Operator Touch Display]] (V): <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

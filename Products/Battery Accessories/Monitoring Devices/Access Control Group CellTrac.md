@@ -43,6 +43,7 @@ Access Control Group non-invasive battery monitor for material handling batterie
 - **Design characteristics, with citations:**
   - [[Shuntless Current Sensing]] (V): <https://www.mhlnews.com/archive/celltrac>
 - **Sources used for the mapping above:** M H&L archive item (undated) <https://www.mhlnews.com/archive/celltrac>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

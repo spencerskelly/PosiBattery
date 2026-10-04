@@ -32,6 +32,7 @@ Optional digital load scale on the Komatsu AM50 series electric forklifts.
 - Dealer data lists rearview mirrors, strobe lights and a digital load scale as options on the AM50 series (FB15U-12 to FB20AU-12). Source: AllMachines listings (T3), retrieved 2026-10-03. <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
 - **Functions performed, with citations:**
   - [[Sense Load Weight and Lift Height]] (V): <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

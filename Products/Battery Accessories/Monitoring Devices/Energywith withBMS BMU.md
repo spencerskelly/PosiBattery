@@ -52,6 +52,7 @@ Battery Monitoring Unit installed on forklift lead-acid batteries as the battery
   - [[Transmit Battery Data Wirelessly]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
   - [[Upload Battery Data to Cloud Portal]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 - **Sources used for the mapping above:** Seed note (cites the Energywith vendor pages) <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -62,6 +62,7 @@ Power Designers wireless diagnostic data logger that is plugged into a battery f
   - [[Acid-Resistant Sealed Housing]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
   - [[Reverse-Polarity Protection]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
 - **Sources used for the mapping above:** PowerTrac DT3 data sheet (03/2018, dated) <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>; Material Handling 24/7 listing for PowerTrac DT <https://www.materialhandling247.com/product/powertrac_dt_battery_diagnostics_tool>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

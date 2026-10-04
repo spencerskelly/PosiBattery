@@ -32,6 +32,7 @@ Optional automatic watering accessory for Midac PzS traction batteries (dealer l
 - A dealer lists Aquamatic watering as an optional accessory for Midac PzS traction batteries; the maker of the watering system is not stated. Source: Batterie Siems dealer page (T3), retrieved 2026-10-03. <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

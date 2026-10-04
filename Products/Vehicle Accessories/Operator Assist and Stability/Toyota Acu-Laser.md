@@ -36,6 +36,7 @@ Toyota laser that projects a red or green line onto the pallet for precise place
   - [[Assist Lift Positioning]] (V): <https://www.toyotaforklift.com/toyota-assist>
 - **Design characteristics, with citations:**
   - [[Fork Laser Guide]] (V): <https://www.toyotaforklift.com/toyota-assist>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -45,6 +45,7 @@ Power Designers low-cost shuntless battery monitor that logs voltage, temperatur
 - **Design characteristics, with citations:**
   - [[Shuntless Current Sensing]] (V): <https://powerdesignerssibex.com/powertrac-monitor/>
 - **Sources used for the mapping above:** PowerTrac Monitor product page <https://powerdesignerssibex.com/powertrac-monitor/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

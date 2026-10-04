@@ -30,6 +30,7 @@ TVH blue and red forklift arrow warning lights; the blue arrow on the back warns
 - DC Velocity says TVH in the Americas added blue and red forklift arrow lights. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

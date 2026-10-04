@@ -32,6 +32,7 @@ Cat system (PDS and PDS+) that prevents truck movement when the operator is not 
 - Cat says the Presence Detection System prevents any movement when the operator leaves the seat, and PDS+ is a safety feature of the 48 V EP14-20 trucks; Cat's list of operator safety features also names operator presence detection, forward LED work lights, backup alarms, ground speed control, full-suspension seats and a fully floating cabin. Source: Cat Lift Trucks blog and Logisnext Cat page (T1), retrieved 2026-10-03. <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

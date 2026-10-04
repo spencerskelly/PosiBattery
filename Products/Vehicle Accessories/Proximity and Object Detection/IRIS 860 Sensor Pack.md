@@ -31,6 +31,7 @@ Sensor pack that recognizes reflective tape on safety gear and warns the forklif
 - **Maker not stated** in the retrieved text; recorded as offered through the dealer.
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://holtlift.com/?p=4466>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

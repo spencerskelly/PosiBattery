@@ -34,6 +34,7 @@ Crown watering systems and kits for lead-acid batteries: single point watering, 
 - Crown's parts shop lists V-Force barbed float system kits (for example part 300316-018-01) for 24, 36 and 48 V standard or Douglas batteries, each with a named water supply: Philly Sci Stealth, Flow Rite, Crown V-Force, Battery Watering Technologies, Battery Filling System or Philly Scientific Injector. Source: Crown parts shop (T1), retrieved 2026-10-03. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-Watering/c/battery_watering>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

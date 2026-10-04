@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 31) — Truck parts and accessory mapping ([[Truck Part Connection Register]]).
 - 2026-10-03 (round 30) — Accessories and bonus features: Extra rule, host scope tags and host links ([[Extra Functions Register]]).
 - 2026-10-03 (round 29) — Feature-first truck comparison built ([[Truck Feature Comparison Matrix]]).
 - 2026-10-03 (round 28) — Dependency strength column and check script added; battery maker gaps (GS Yuasa, Banner, Leoch, Godrej, Amara Raja) covered; Tianneng not found.

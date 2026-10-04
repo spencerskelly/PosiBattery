@@ -53,6 +53,7 @@ Philadelphia Scientific battery-installed electrolyte level monitor with visual 
   - [[Cable-Mounted Indicator Placement]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Reverse-Polarity Protection]] (V): <https://www.mhwmag.com/?p=7981>
 - **Sources used for the mapping above:** M H&W magazine item (undated, likely older) <https://www.mhwmag.com/?p=7981>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

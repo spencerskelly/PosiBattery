@@ -38,6 +38,7 @@ Raymond LiDAR option for Orderpicker and Swing-Reach trucks that keeps trucks ap
   - [[Limit Truck Speed Automatically]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
 - **Design characteristics, with citations:**
   - [[LiDAR Object Sensor]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

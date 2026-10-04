@@ -64,6 +64,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 28 2026-10-03:** dependency strength column and check script; battery maker gaps: 5 organizations and 9 battery notes; conflicts C94 and C95 ([[Coverage Plan]]).
 - **Round 29 2026-10-03:** [[Truck Feature Comparison Matrix]] generated (43 functions, 10 maker groups).
 - **Round 30 2026-10-03:** [[Extra Functions Register]]: 70 Extra and 12 Core functions; host scope tags on 178 accessory notes.
+- **Round 31 2026-10-03:** [[Industrial Truck Anatomy]] (12 parts) and [[Truck Part Connection Register]]: 159 accessories mapped, 14 stated rows, rest typical.
 
 ## Aliases
 

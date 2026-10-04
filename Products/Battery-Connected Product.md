@@ -18,12 +18,14 @@ supertypeOf:
   - "[[Battery Telematics and Connectivity Device]]"
   - "[[Battery Thermal Management Device]]"
   - "[[Industrial Battery Charger]]"
+  - "[[Industrial Truck Anatomy]]"
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
   - "[[Coverage Plan]]"
   - "[[Document Wishlist]]"
   - "[[External Context and Provenance]]"
+  - "[[Extra Functions Register]]"
   - "[[Feature Capture Log]]"
   - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
@@ -37,7 +39,7 @@ describedBy:
   - "[[Research Change and Decision Tracker]]"
   - "[[Truck Feature Comparison Matrix]]"
   - "[[Unidentified Products Review]]"
-  - "[[Extra Functions Register]]"
+  - "[[Truck Part Connection Register]]"
 ---
 
 # Battery-Connected Product

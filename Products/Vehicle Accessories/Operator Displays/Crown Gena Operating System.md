@@ -36,6 +36,7 @@ Crown lift truck operating system with a 7 inch touch screen, widgets, zone sele
 - Crown says ProximityAssist alerts appear on the Gena touch screen. Source: IVT International (T2), retrieved 2026-10-03. <https://www.ivtinternational.com/?p=22917>
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

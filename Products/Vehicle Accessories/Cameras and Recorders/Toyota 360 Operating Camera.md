@@ -32,6 +32,7 @@ Toyota camera system that shows several areas around the forklift for tight envi
 - Toyota says the 360 Operating Camera lets the operator view multiple areas around the forklift to assist in tight environments; SEnS can be extended with a 360 camera system. Source: Toyota Assist page and brochure (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/toyota-assist>
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.toyotaforklift.com/toyota-assist>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; connects to [[Truck Controls and Display]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

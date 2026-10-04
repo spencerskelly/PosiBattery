@@ -36,6 +36,7 @@ Bobcat camera that uses AI processing to tell people from their surroundings and
   - [[Alert Operator of Hazards]] (V): <https://www.ivtinternational.com/?p=21644>
 - **Design characteristics, with citations:**
   - [[Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

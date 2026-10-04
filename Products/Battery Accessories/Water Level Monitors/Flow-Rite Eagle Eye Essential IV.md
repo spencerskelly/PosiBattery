@@ -41,6 +41,7 @@ Flow-Rite electrolyte level sensor with a bright LED, installed without drilling
   - [[Local LED Indicator]] (V): <https://mhwmag.com/?p=86116>
   - [[Acid-Resistant Sealed Housing]] (V): <https://mhwmag.com/?p=86116>
 - **Sources used for the mapping above:** M H&W magazine (MODEX 2022 launch) <https://mhwmag.com/?p=86116>; Intertek ETL notice via BEST magazine <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

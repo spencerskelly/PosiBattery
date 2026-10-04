@@ -71,6 +71,7 @@ AMETEK Prestolite Power Battery Identification Device that provides a compatible
 | Warranty | 1 year |
 | Recommendation | strongly suggested on all opportunity or fast charge applications |
 - **Gap closed:** earlier notes said how the BID reaches the charger was not stated; it is power line communication over the charging cables (see [[DC-Cable Power-Line Communication]]). How temperature is sensed is still not stated (battery average temperature).
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

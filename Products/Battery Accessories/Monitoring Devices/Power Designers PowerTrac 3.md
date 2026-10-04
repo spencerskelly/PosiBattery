@@ -86,6 +86,7 @@ Power Designers wireless battery monitoring device with shuntless intercell sens
 | Multi-voltage with REVOLUTION | 24/36/48/72/80 V capability, footnoted by charger rating (48 V chargers charge 24/36/48 batteries; 36 V chargers 24/36; 80 V chargers 24 to 80 V) |
 - **Smart Equalize with REVOLUTION:** completes any missed equalization during the next charge cycle and continues until finished.
 - **Conflicts (C47):** the product page says shuntless and lists 24/36/48 V; the sheet says shuntless intercell sensing or Hall effect and lists 24/36/48/72/80 V by charger rating. Every number in this sheet's spec table (900 MHz, 150 ft, 10,000 events, 1/2 W, 4.25 x 1.5 x 0.6 in, +/-500 A) matches the 2018 PowerTrac DT3 data sheet, so the two may share a platform or the table may be reused.
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

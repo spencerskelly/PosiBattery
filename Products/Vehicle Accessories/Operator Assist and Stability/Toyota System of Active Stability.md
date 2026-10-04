@@ -34,6 +34,7 @@ Toyota system that engages instantly to stabilize the rear axle when the truck s
 - **Design characteristics, with citations:**
   - [[Active Stability Actuator]] (V): <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
 - The 2025 brochure says SAS, when it detects a situation that could lead to instability, instantly engages the swing lock cylinder to stabilize the rear axle, changing the stability footprint from triangular to rectangular. Source: Toyota Assist brochure 2025 (read round 20) (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Hydraulics]], [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

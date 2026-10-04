@@ -42,6 +42,7 @@ Crown electrolyte level indicators for lead-acid batteries in standard, smart (L
   - [[Local LED Indicator]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Functions performed, with citations:**
   - [[Alert on Low Electrolyte Level]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

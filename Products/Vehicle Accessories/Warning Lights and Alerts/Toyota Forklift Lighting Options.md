@@ -35,6 +35,7 @@ Toyota lighting options: headlights, work lights, strobes in yellow or blue, blu
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 - **Design characteristics, with citations:**
   - [[Floor-Projected Warning Light]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
+- **Truck parts (round 31):** stated by the source: mounts on [[Truck Overhead Guard]] (blue spotlights mount on the overhead guard) | typical (inferred from the device type, not from a source): connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

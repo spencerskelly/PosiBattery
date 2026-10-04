@@ -45,6 +45,7 @@ Flow-Rite in-valve electrolyte-level sensor for industrial and deep-cycle floode
 - **Design characteristics, with citations:**
   - [[Capacitive Electrolyte Level Probe]] (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 - **Sources used for the mapping above:** Seed note (cites the Flow-Rite monitoring page) <https://www.flow-rite.com/category/application/battery-monitoring/>; ETL notice describes the Eagle Eye range; Elite IV membership comes from the seed note <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

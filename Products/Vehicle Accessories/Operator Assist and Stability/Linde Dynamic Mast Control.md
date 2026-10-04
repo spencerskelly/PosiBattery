@@ -34,6 +34,7 @@ Linde system for reach trucks whose electric thrust drive counters mast oscillat
   - [[Damp Mast Oscillation]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Design characteristics, with citations:**
   - [[Electric Mast Thrust Drive]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+- **Truck parts (round 31):** stated by the source: acts on [[Truck Mast]] (reduces mast swing and deflection) | typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -32,6 +32,7 @@ STILL assistance function that reduces travel speed automatically according to t
 - STILL says Curve Speed Control regulates driving speed automatically according to the steering angle, is available on various forklift trucks and warehouse devices (standard on the EXH-SF 16C/20C), and addresses tipping accidents whose frequent cause is excessive cornering speed. Source: STILL pages and 2021 STILL release (T1/T2), retrieved 2026-10-03. <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
 - **Functions performed, with citations:**
   - [[Slow Truck in Curves]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

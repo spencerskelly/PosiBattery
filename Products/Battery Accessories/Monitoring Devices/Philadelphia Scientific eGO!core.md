@@ -44,6 +44,7 @@ Philadelphia Scientific entry eGO! monitor for 12 V flooded and VRLA batteries t
 - **Design characteristics, with citations:**
   - [[Mobile App Interface]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Sources used for the mapping above:** PhilSci eGO!core page <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>; PhilSci eGO!core owner's manual <https://www.phlsci.com/media/ux3nu5uy/egocore-om-ps-en-us-doc0652.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

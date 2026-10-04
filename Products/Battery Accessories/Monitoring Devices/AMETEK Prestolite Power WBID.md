@@ -49,6 +49,7 @@ Obsolete AMETEK Prestolite Power Wireless Battery Identification Device, replace
   - [[ZigBee 2.4 GHz Interface]] (V): <https://mhlnews.com/new-products/article/22054269/wireless-forklift-battery-monitor-new-products>
   - [[DC-Cable Power-Line Communication]] (V): <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
 - **Sources used for the mapping above:** Prestolite obsolete-products WBID page <https://www.prestolitepower.com/products/obsolete-products/wbid>; Marketwired release via Yahoo Finance (2014, dated) <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>; M H&L New Products (2017, dated) <https://mhlnews.com/new-products/article/22054269/wireless-forklift-battery-monitor-new-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

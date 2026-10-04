@@ -33,6 +33,7 @@ Philadelphia Scientific Stealth watering system for industrial batteries.
 - Crown's parts shop names the Philly Sci Stealth as one of the water supplies its V-Force float system kits work with. Source: Crown parts shop (T1), retrieved 2026-10-03. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-Watering/c/battery_watering>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://og.mhi.org/members/13790>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -38,6 +38,7 @@ Jungheinrich reversing camera with person detection, built on the Blaxtair camer
   - [[Limit Truck Speed Automatically]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
 - **Design characteristics, with citations:**
   - [[Stereoscopic Vision Sensor]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Rear Body]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

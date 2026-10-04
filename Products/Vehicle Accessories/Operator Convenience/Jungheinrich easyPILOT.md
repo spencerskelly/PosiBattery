@@ -34,6 +34,7 @@ Jungheinrich belt-worn remote that moves an order picker truck with the operator
   - [[Follow Operator Automatically]] (V): <https://logisticsmatters.co.uk/page_724637.asp>
 - **Design characteristics, with citations:**
   - [[Belt-Worn Remote Control]] (V): <https://logisticsmatters.co.uk/page_724637.asp>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -31,6 +31,7 @@ First PosiCharge BMID variant as named by the user. No public document identifie
 - No BMID 2 was mentioned. Whether one exists is not established.
 - **Functions and designs:** none stated in any source yet.
 - **Sources:** none beyond the user statement.
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

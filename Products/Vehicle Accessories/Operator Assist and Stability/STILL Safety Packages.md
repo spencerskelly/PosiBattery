@@ -34,6 +34,7 @@ STILL RX 20 and RX 60 equipment bundles: Safety Work (SafetyLight, warning light
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/rx20-safety>
   - [[Slow Truck in Curves]] (V): <https://www.still.co.uk/rx20-safety>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Lighting]], [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

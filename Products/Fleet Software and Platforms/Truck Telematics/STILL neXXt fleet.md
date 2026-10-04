@@ -33,6 +33,7 @@ STILL fleet management software that RX trucks can interface with.
 - STILL says the RX 60 offers an optional interface for integration into fleet management software such as STILL neXXt fleet. Source: STILL RX 60 page (dealer copy) (T3), retrieved 2026-10-03. <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

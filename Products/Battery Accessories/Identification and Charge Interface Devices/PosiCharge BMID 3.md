@@ -36,6 +36,7 @@ Third PosiCharge BMID variant as named by the user, with stated BLE, CAN and int
   - [[Bluetooth Low Energy Interface]] (U): (no web source)
   - [[CAN Interface]] (U): (no web source)
 - **Sources used for the mapping above:** Stated by Spencer Skelly, 2026-10-02 (no web source)
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

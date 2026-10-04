@@ -32,6 +32,7 @@ Raymond system that alerts and limits truck functions if the operator is not pro
 - Raymond says the Integrated Tether System alerts operators and managers and limits lift truck functionality if the operator is not tethered; on a reach truck a red light flashes and the truck cannot lift all the way up. Source: DC Velocity (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

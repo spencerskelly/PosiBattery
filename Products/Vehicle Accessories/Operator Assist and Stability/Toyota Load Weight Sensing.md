@@ -36,6 +36,7 @@ Toyota hydraulic pressure sensors and a display that show the approximate weight
   - [[Sense Load Weight and Lift Height]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Design characteristics, with citations:**
   - [[Hydraulic Pressure Load Sensor]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

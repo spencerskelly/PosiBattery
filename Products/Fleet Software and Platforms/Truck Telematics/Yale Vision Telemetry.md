@@ -31,6 +31,7 @@ Yale real-time fleet monitoring telemetry; wireless monitoring is standard on Se
 - **Conflict-visible (C60):** earlier notes treated Yale Vision as the battery monitor [[Yale Battery Vision]]; this page describes truck fleet telemetry.
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://www.yale.com/en-gb/emea/contact/global%20language%20blocks/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

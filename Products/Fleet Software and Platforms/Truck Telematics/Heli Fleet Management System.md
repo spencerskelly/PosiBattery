@@ -31,6 +31,7 @@ Heli fleet management system with remote diagnostics, monitoring and battery man
 - A Polish dealer lists a HELI fleet management system with remote diagnostics, monitoring and battery management on the G2 series. Source: FLT Grupa Heli page (T3), retrieved 2026-10-03. <https://fltgrupa.pl/en/heli-forklifts/>
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://fltgrupa.pl/en/heli-forklifts/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -57,6 +57,7 @@ Hyster-branded battery monitor, described as powered by PosiCharge technology, t
   - [[Cellular Communication Interface]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Cloud Portal Integration]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Sources used for the mapping above:** Trade press listing (undated) <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

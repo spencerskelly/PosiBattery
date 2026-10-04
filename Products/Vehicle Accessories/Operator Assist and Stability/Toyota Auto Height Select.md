@@ -32,6 +32,7 @@ Toyota option with up to 25 programmable preset lift heights; the carriage stops
 - Toyota says Auto Height Select lets the operator choose up to 25 programmable preset lift heights using the reach and retract buttons, and the carriage stops automatically near the selected height; Lift Logic continuously monitors lift height (rest of the sentence cut off). Source: Toyota Assist page and brochure (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/toyota-assist>
 - **Functions performed, with citations:**
   - [[Assist Lift Positioning]] (V): <https://www.toyotaforklift.com/toyota-assist>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -61,6 +61,7 @@ AMETEK Prestolite Power BID variant that adds current monitoring to track batter
 | Kits (part numbers) | 197348-001 (12-18 cells), -002 (24), -003 (36), -004 (40) |
 | Accumulator functions on | Ultra Maxx, PowerStar Plus, Eclipse II controls |
 | Warranty | 1 year |
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

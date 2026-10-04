@@ -32,6 +32,7 @@ Jungheinrich driver assistance that reduces cornering speed automatically when n
 - **Functions performed, with citations:**
   - [[Slow Truck in Curves]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
   - [[Stabilize Truck Dynamically]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Hydraulics]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

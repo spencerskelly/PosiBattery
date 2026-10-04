@@ -33,6 +33,7 @@ Raymond location system that monitors trucks, people and assets and slows or sto
 - Raymond says iWAREHOUSE RTLS slows down a Raymond lift truck or brings it to a controlled stop in defined zones, and monitors movements of trucks, personnel and assets through geofencing, zoning and tracking. Source: DC Velocity and Raymond IADS page (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
 - **Functions performed, with citations:**
   - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

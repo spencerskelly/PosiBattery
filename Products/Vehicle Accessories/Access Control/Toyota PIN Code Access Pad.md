@@ -34,6 +34,7 @@ Toyota option pad that reduces unauthorized use of the truck by PIN code.
   - [[Control Operator Access]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 - **Design characteristics, with citations:**
   - [[RFID or PIN Access Reader]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

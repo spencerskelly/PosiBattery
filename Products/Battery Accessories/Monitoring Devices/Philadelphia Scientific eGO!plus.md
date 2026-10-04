@@ -43,6 +43,7 @@ Philadelphia Scientific mid-tier eGO! battery performance monitor that records c
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Sources used for the mapping above:** PhilSci eGO!plus page <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

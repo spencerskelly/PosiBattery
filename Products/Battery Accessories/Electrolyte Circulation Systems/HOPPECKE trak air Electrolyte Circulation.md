@@ -36,6 +36,7 @@ HOPPECKE trak | air electrolyte circulation used on trak | uplift air batteries.
   - [[Circulate Electrolyte]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

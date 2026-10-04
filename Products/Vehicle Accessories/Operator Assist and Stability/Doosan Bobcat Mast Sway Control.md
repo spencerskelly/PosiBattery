@@ -34,6 +34,7 @@ Control on 7-Series Plus trucks that cuts speed and stabilizes the mast at heigh
 - **Functions performed, with citations:**
   - [[Damp Mast Oscillation]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
   - [[Limit Truck Speed Automatically]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
+- **Truck parts (round 31):** stated by the source: acts on [[Truck Mast]] (stabilizes the mast at height) | typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

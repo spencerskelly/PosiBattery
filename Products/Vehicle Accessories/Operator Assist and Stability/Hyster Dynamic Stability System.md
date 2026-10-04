@@ -34,6 +34,7 @@ Hyster system, standard on the A Series, that alerts the operator, limits functi
   - [[Stabilize Truck Dynamically]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Slow Truck in Curves]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
   - [[Alert Operator of Hazards]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Hydraulics]], [[Truck Drive and Brakes]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

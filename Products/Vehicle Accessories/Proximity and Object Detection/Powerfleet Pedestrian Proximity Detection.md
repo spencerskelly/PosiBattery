@@ -32,6 +32,7 @@ Powerfleet pedestrian proximity detection that identifies risks without special 
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Limit Truck Speed Automatically]] (V): <https://www.powerfleet.com/?p=30065>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

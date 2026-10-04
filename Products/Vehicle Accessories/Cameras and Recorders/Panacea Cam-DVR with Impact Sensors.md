@@ -36,6 +36,7 @@ Panacea four-camera DVR with integrated g-force sensors for forklifts.
   - [[Detect and Record Impacts]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Design characteristics, with citations:**
   - [[Impact Sensor]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; connects to [[Truck Controls and Display]]; acts on [[Truck Controls and Display]], [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

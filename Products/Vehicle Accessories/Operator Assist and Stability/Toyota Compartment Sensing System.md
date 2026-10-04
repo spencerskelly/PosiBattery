@@ -39,6 +39,7 @@ Toyota light-beam sensors embedded in the rear operator compartment of the Stand
 - **Design characteristics, with citations:**
   - [[Light-Beam Compartment Sensor]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
   - [[Operator Sensing Floor Mat]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

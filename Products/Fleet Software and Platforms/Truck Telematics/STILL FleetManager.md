@@ -33,6 +33,7 @@ STILL fleet management system with access control, reports and telematics applic
 - **Functions performed, with citations:**
   - [[Control Operator Access]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
   - [[Report Truck Telemetry]] (V): <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

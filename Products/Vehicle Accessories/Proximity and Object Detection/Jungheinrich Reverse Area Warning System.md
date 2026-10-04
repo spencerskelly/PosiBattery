@@ -32,6 +32,7 @@ Jungheinrich rear-area device that warns by light and sound, stronger as a detec
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Alert Operator of Hazards]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Rear Body]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

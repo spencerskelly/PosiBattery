@@ -40,6 +40,7 @@ Philadelphia Scientific mains-powered gateway that collects data from eGO! devic
   - [[Bluetooth Interface]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
   - [[Cellular Communication Interface]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
 - **Sources used for the mapping above:** PhilSci eGO!gateway page <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -36,6 +36,7 @@ Wearable Safety Guard unit that warns a person of approaching trucks with light,
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Design characteristics, with citations:**
   - [[Interactive Warning Vest]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

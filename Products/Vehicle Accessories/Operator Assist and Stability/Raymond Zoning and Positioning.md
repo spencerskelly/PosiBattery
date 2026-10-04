@@ -32,6 +32,7 @@ Raymond operator assist option for orderpickers that controls many order-picking
 - Raymond describes Zoning and Positioning as an operator assist option where operators focus on surroundings and task instead of locating the exact pick position, and the technology controls many order-picking functions for more reliable, repeatable operation. Source: Plant Engineering product item (2023-02-01) (T2), retrieved 2026-10-03. <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
 - **Functions performed, with citations:**
   - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

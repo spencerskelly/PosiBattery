@@ -37,6 +37,7 @@ Toyota's telematics solution, pre-installed on its three-wheel electric forklift
 - **Design characteristics, with citations:**
   - [[Impact Sensor]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
 - Toyota says MyInsights provides visibility into impact events and equipment tracking. Source: Toyota forklift site (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

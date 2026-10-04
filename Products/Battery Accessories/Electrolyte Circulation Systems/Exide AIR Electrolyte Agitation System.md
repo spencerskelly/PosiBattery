@@ -36,6 +36,7 @@ Exide forced electrolyte circulation (AIR agitation) offered on MARATHON tractio
   - [[Circulate Electrolyte]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

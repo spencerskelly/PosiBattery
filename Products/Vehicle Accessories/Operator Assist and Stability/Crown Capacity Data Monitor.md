@@ -30,6 +30,7 @@ Optional Crown display that shows load weight, lift height and capacity limits o
 - Crown says the optional Capacity Data Monitor provides load weights, lift heights and capacity limits at a glance, with color-coded visuals that alert the operator to stay within load limits. Source: Crown ESR reach truck page (T1), retrieved 2026-10-03. <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 - **Functions performed, with citations:**
   - [[Sense Load Weight and Lift Height]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

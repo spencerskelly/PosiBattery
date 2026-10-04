@@ -32,6 +32,7 @@ Philadelphia Scientific water injector watering system for industrial batteries.
 - MHI's member profile lists the Water Injector System among Philadelphia Scientific's battery watering systems; Crown's parts shop names the Philly Scientific Injector as a water supply for its float system kits. Source: MHI member profile and Crown parts shop (T1), retrieved 2026-10-03. <https://og.mhi.org/members/13790>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://og.mhi.org/members/13790>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

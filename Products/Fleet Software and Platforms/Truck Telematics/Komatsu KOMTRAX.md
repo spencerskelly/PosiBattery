@@ -33,6 +33,7 @@ Komatsu remote equipment and fleet monitoring system named on the FB series fork
 - Komatsu's Australian page names KOMTRAX as Komatsu's remote equipment and fleet monitoring system in the FB series entry. Source: Komatsu Australia FB page (T1), retrieved 2026-10-03. <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

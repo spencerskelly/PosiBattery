@@ -40,6 +40,7 @@ Raymond LiDAR obstacle detection that alerts operators and restricts movement wh
   - [[Alert Operator of Hazards]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
 - **Design characteristics, with citations:**
   - [[LiDAR Object Sensor]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); acts on [[Truck Drive and Brakes]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

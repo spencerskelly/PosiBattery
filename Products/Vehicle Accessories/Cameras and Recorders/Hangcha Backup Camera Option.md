@@ -32,6 +32,7 @@ Hangcha backup camera option that gives a wider view and is promoted for reducin
 - Hangcha's XC series brochures and a North American dealer list a backup camera option; the dealer says it eliminates blind spots and reduces pedestrian accidents. Source: Hangcha brochures and Summit Handling pages (T1/T3), retrieved 2026-10-03. <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; connects to [[Truck Controls and Display]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

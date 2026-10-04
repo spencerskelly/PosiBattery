@@ -48,6 +48,7 @@ EnerSys truck-mounted display that shows data read wirelessly from the Wi-iQ on 
   - [[Vehicle-Mounted Display]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
 - **Sources used for the mapping above:** EnerSys Truck iQ page <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>; EnerSys Wi-iQ4 owner's manual (Truck iQ section) <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 - The Wi-iQ4 manual says the Truck iQ is a display powered by the battery via the truck cables that reads Wi-iQ4 data in real time over BLE and shows alerts, alarms, state of charge and other parameters. Source: EnerSys Wi-iQ4 owner's manual (T1), retrieved 2026-10-02. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+- **Truck parts (round 31):** stated by the source: mounts on [[Truck Controls and Display]] (a truck-mounted touchscreen) | typical (inferred from the device type, not from a source): connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

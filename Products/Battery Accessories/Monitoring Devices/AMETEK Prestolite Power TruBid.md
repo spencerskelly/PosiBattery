@@ -53,6 +53,7 @@ AMETEK Prestolite Power battery charge monitor that sits on the battery, puts a 
   - [[Local LED Indicator]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
   - [[Battery-Top Mounting]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 - **Sources used for the mapping above:** DC Velocity (undated) <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

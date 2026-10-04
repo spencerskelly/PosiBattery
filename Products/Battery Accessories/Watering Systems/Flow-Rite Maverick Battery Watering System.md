@@ -32,6 +32,7 @@ Flow-Rite battery-installed single-point watering system built around Maverick w
 - The external water supply is adjacent infrastructure; the battery-resident valves/tubing/manifold are the installed system modeled here.
 - Evidence: https://www.flow-rite.com/battery-care/
 - **Verification 2026-10-02:** not re-verified in this pass; claims above are carried from the seed branch as written.
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

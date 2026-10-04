@@ -31,6 +31,7 @@ Access Control Group real-time battery gauge offered alongside CellTrac.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Indicate Battery Status Locally]] (V): <https://www.mhlnews.com/archive/celltrac>
 - **Sources used for the mapping above:** M H&L archive item (undated) <https://www.mhlnews.com/archive/celltrac>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -46,6 +46,7 @@ Mitsubishi Logisnext Americas telematics with access control, enforced pre-opera
 - **Design characteristics, with citations:**
   - [[RFID or PIN Access Reader]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
   - [[Impact Sensor]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

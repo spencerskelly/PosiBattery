@@ -33,6 +33,7 @@ Mitsubishi computer-based feedback system that uses audible and visual indicator
 - Dealer data repeating Mitsubishi's text says the Integrated Presence System (IPS) is a computer-based feedback system with audible and visual indicators that alert the operator to potentially hazardous situations; the same listings show an operator presence system as a key feature. Source: AllMachines listings of Mitsubishi FBC and FB models (T3), retrieved 2026-10-03. <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
 - **Functions performed, with citations:**
   - [[Alert Operator of Hazards]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

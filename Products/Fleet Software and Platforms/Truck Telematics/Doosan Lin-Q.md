@@ -31,6 +31,7 @@ Doosan Industrial Vehicle telematics solution for managing forklifts, introduced
 - A 2018 trade report says Doosan Industrial Vehicle introduced a telematics solution, Lin-Q, for forklift management (dated; current status not checked). Source: Logistics Matters (2018) (T2 (dated)), retrieved 2026-10-03. <https://logisticsmatters.co.uk/doosan-reveals-lithium-ion-forklift>
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://logisticsmatters.co.uk/doosan-reveals-lithium-ion-forklift>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

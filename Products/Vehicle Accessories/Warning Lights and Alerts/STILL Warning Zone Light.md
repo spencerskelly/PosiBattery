@@ -34,6 +34,7 @@ STILL lights that project two strips of light beside the truck, or a semi-circle
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 - **Design characteristics, with citations:**
   - [[Floor-Projected Warning Light]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

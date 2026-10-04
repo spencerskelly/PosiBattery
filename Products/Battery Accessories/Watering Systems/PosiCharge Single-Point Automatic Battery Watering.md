@@ -30,6 +30,7 @@ PosiCharge charger-controlled single-point battery watering accessory.
 - **Baseline confidence (Single-point automatic battery watering):** Verified public—listing level. **Still needed:** Supported battery types, water source/interface, required charger option, control/sensor logic, installation/service/safety requirements.
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://posicharge.com/accessories/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -39,6 +39,7 @@ Jungheinrich radio system of a stationary beacon and truck-mounted transmitters 
   - [[Alert Operator of Hazards]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): acts on [[Truck Drive and Brakes]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

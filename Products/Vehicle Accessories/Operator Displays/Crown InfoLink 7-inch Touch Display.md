@@ -37,6 +37,7 @@ Crown 7 inch touch display on InfoLink-equipped trucks that shows visual and aud
   - [[Alert Operator of Hazards]] (V): <https://www.ivtinternational.com/?p=22917>
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.ivtinternational.com/?p=22917>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

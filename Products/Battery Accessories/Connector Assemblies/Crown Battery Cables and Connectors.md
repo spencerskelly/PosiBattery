@@ -33,6 +33,7 @@ Crown leadhead cable assemblies, fast charge leadheads, battery caps, terminal p
 - Crown lists leadhead cable assemblies, fast charge leadheads, battery caps, terminal protectors and power cables and accessories; its parts shop lists SB 350 contacts, SB 175 wire contacts, a 50 SB connecting handle, 320 SBE and 350 SBX cable clamps and a DIN 320 A 4/0 charger plug. Source: Crown batteries and chargers page and parts shop (T1), retrieved 2026-10-03. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>
 - **Functions performed, with citations:**
   - [[Connect Battery to Charger or Vehicle]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

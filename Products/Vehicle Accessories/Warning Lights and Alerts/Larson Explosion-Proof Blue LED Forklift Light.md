@@ -30,6 +30,7 @@ Blue LED forklift warning light rated for hazardous areas, 2,250 lumens at 25 W,
 - DC Velocity reports Larson's blue LED light produces 2,250 lumens while drawing 25 W, is rated Class I, II, III and Division 1 and 2, and works on 9 to 60 V. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

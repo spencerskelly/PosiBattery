@@ -34,6 +34,7 @@ Toyota camera on the carriage that helps the operator position forks at height.
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.toyotaforklift.com/toyota-assist>
   - [[Assist Lift Positioning]] (V): <https://www.toyotaforklift.com/toyota-assist>
+- **Truck parts (round 31):** stated by the source: mounts on [[Truck Mast]] (a camera mounted on the carriage) | typical (inferred from the device type, not from a source): connects to [[Truck Controls and Display]]; acts on [[Truck Controls and Display]], [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

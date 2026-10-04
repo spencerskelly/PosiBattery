@@ -68,6 +68,7 @@ AMETEK Prestolite Power battery-mounted monitoring device that records forklift-
   - [[ZigBee 2.4 GHz Interface]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
   - [[Local LED Indicator]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
 - **Sources used for the mapping above:** Prestolite WBID Pro page <https://www.prestolitepower.com/products/datadevices/wbid-pro>; Seed note (cites the WBID Pro page for these) <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

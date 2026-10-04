@@ -34,6 +34,7 @@ Jungheinrich modular camera systems with a central assistance display that show 
   - [[Show Camera View to Operator]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 - **Design characteristics, with citations:**
   - [[Vehicle-Mounted Display]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+- **Truck parts (round 31):** stated by the source: connects to [[Truck Controls and Display]] (cameras with a central assistance display) | typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

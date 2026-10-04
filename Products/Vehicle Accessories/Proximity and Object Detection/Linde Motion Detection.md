@@ -29,6 +29,7 @@ Linde assistance system that detects movement behind a stationary truck and warn
 - Linde's retrofit page says Linde Motion Detection detects movements behind the forklift and warns the driver, preventing accidents. Source: Linde Retrofit and Accessories page (T1), retrieved 2026-10-03. <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

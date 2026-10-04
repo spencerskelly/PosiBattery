@@ -43,6 +43,7 @@ Toyota Smart Environment Sensor+ that detects pedestrians and objects and alerts
 - **C66 resolved (round 20):** the brochure states that SEnS+ itself slows the truck; plain SEnS only alerts (see [[Toyota SEnS Pedestrian Detection]]). The earlier reports that described alerts only were describing SEnS.
 - **Functions performed, with citations:**
   - [[Limit Truck Speed Automatically]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Rear Body]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]], [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

@@ -57,6 +57,7 @@ Yale-branded battery management device, described as using PosiCharge technology
   - [[Cellular Communication Interface]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Sources used for the mapping above:** M H&L New Products (2016-07-20, dated) <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

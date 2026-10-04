@@ -45,6 +45,7 @@ Yale portfolio of operator assist technologies, which added the pedestrian-aware
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 - The Yale white paper (Downloads/133294183726805278.pdf) lists operator assist capabilities: overload arrest, automatic speed reduction when cornering, keeping equipment out of designated pedestrian-only zones, line-of-sight support and location-based fork height restriction to avoid low beams. Source: Yale operator assist white paper (read round 20) (T1), retrieved 2026-10-03. <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Hydraulics]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

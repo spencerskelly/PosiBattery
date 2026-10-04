@@ -33,6 +33,7 @@ Hangcha system that provides real-time information about the forklift truck and 
 - Hangcha says FIMS provides real-time information about the forklift and driver and, for fleets across sites, lets users collect and view the data; the brochures also point to a 'Hangcha Forklift' app. Source: Hangcha XC series brochures (T1), retrieved 2026-10-03. <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

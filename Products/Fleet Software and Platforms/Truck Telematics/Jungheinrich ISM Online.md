@@ -34,6 +34,7 @@ Jungheinrich web-based truck fleet management system for fleets of any size and 
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://www.industrial-production.de/wirtschaft---unternehmen/jungheinrich-verbessert-staplermanagement--neue-moeglichkeiten.htm>
   - [[Enforce Pre-Shift Checklist]] (V): <https://www.industrial-production.de/wirtschaft---unternehmen/jungheinrich-verbessert-staplermanagement--neue-moeglichkeiten.htm>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

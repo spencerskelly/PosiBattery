@@ -33,6 +33,7 @@ AMETEK Prestolite Power diagnostic device for 24/7 monitoring of lift truck batt
   - [[Accumulate Amp-Hours]] (V): <https://www.mhwmag.com/?p=5495>
   - [[Log Battery Events and Usage]] (V): <https://www.mhwmag.com/?p=5495>
 - **Sources used for the mapping above:** M H&W magazine <https://www.mhwmag.com/?p=5495>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 

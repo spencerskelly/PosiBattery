@@ -28,6 +28,7 @@ UniCarriers lighting packages listed as options on the SCX N2 (contents not desc
 ## Notes
 
 - The SCX N2 release lists lighting packages as options, and a dealer-data page lists additional lights and awareness options for the MX2-30L; the contents are not described. Source: UniCarriers release and AllMachines (T1/T3), retrieved 2026-10-03. <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
+- **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]. See [[Truck Part Connection Register]].
 
 ## Aliases
 
