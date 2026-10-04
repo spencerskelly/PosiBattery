@@ -17,11 +17,14 @@ describedBy:
   - "[[Catalog Review 2026-10-02]]"
   - "[[Flooded Lead-Acid Charge Profile Comparison]]"
   - "[[Note Standard (Example)]]"
+  - "[[Traction Battery Charging Characteristics (DIN Notation)]]"
   - "[[Offerings by Organization]]"
   - "[[Metric - BMS and Communication]]"
   - "[[Metric - Capacity]]"
   - "[[Metric - Certifications and Standards]]"
   - "[[Metric - Charge End Criterion]]"
+  - "[[Metric - Charge Factor]]"
+  - "[[Metric - Charge Rate Taper]]"
   - "[[Metric - Charge Regimes Supported]]"
   - "[[Metric - Charge Temperature Limits]]"
   - "[[Metric - Charge Time]]"
@@ -37,9 +40,6 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
-  - "[[Metric - Charge Rate Taper]]"
-  - "[[Metric - Charge Factor]]"
-  - "[[Traction Battery Charging Characteristics (DIN Notation)]]"
 ---
 
 # Industrial Traction Battery

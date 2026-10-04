@@ -70,6 +70,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 34 2026-10-03:** [[Flooded Lead-Acid Charge Profile Comparison]], 6 charge metrics, [[HAWKER Perfect Plus Battery]]; conflict C97.
 - **Round 34b 2026-10-03:** the charge and discharge values quoted in the new metric notes were added with sources to the three product notes.
 - **Round 35 2026-10-03:** flooded charge profile sources extended; [[Traction Battery Charging Characteristics (DIN Notation)]]; comparison note rewritten and corrected.
+- **Round 36 2026-10-03:** [[Charger Charge Algorithm Comparison]], 3 charger metrics, function Adapt Charge to Battery Condition; conflict C98.
 
 ## Aliases
 

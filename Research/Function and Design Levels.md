@@ -31,7 +31,7 @@ How functions and designs are generalized into levels, which relationships conne
 
 - **[[Deliver Energy to Vehicles]]** (goal)
   - [[Charge Battery]] (general): [[Charge Battery Conventionally]], [[Charge Battery Fast]], [[Charge Battery Wirelessly]], [[Charge Battery by Opportunity]], [[Charge Battery from Standard Power Outlet]], [[Charge Lithium-Ion Battery]], [[Charge in Cold Storage]]
-  - [[Control Charge Profile]] (general): [[Charge Under BMS Control]], [[Compensate Charge for Battery Temperature]], [[Complete Missed Equalization Automatically]], [[Desulfate Battery During Charge]], [[Diagnose Battery During Charge]], [[Equalize Battery on Schedule]], [[Float Charge Battery]], [[Identify Battery by Voltage]]
+  - [[Control Charge Profile]] (general): [[Adapt Charge to Battery Condition]], [[Charge Under BMS Control]], [[Compensate Charge for Battery Temperature]], [[Complete Missed Equalization Automatically]], [[Desulfate Battery During Charge]], [[Diagnose Battery During Charge]], [[Equalize Battery on Schedule]], [[Float Charge Battery]], [[Identify Battery by Voltage]]
   - [[Keep Charging Available and Safe]] (general): [[Continue Charging Through Module Fault]], [[Detect Foreign and Live Objects]]
   - [[Supply Vehicle Energy Without Charging]] (general): [[Change Battery Quickly]], [[Deliver Constant Power Through Shift]], [[Recover Energy by Regeneration]], [[Refuel Truck Power Source in Minutes]], [[Report Fuel Cell State to Truck]]
   - [[Connect Battery Power Path]] (general): [[Connect Battery to Charger or Vehicle]], [[Manage Charging Cables]]
@@ -88,7 +88,7 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Charge Battery]] | 7 | 34 | [[Modular Power Modules]] (10), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[Touchscreen Interface]] (3), [[USB Data Download]] (3) |
 | [[Communicate Battery and Vehicle Data]] | 9 | 41 | [[Local LED Indicator]] (10), [[Cloud Portal Integration]] (8), [[Acid-Resistant Sealed Housing]] (7), [[Cellular Communication Interface]] (6), [[Non-Volatile Event Memory]] (5) |
 | [[Connect Battery Power Path]] | 2 | 5 | none yet |
-| [[Control Charge Profile]] | 8 | 28 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
+| [[Control Charge Profile]] | 9 | 28 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
 | [[Hold or Stop Vehicle Automatically]] | 5 | 20 | [[Electric Parking Brake]] (3), [[Quick-Change Battery Compartment]] (2), [[Ultrasonic Distance Sensor]] (2), [[Programmable Motor Controller]] (1), [[Regenerative Braking]] (1) |
 | [[Inform Operator of Truck Condition]] | 2 | 4 | [[Vehicle-Mounted Display]] (3), [[Audible Alarm]] (2), [[AC Drive Motor]] (2), [[Electric Parking Brake]] (1), [[Regenerative Braking]] (1) |
 | [[Inform Users of Battery Condition]] | 6 | 32 | [[Local LED Indicator]] (15), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |

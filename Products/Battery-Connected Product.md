@@ -42,6 +42,7 @@ describedBy:
   - "[[Truck Feature Comparison Matrix]]"
   - "[[Truck Part Connection Register]]"
   - "[[Unidentified Products Review]]"
+  - "[[Charger Charge Algorithm Comparison]]"
 ---
 
 # Battery-Connected Product

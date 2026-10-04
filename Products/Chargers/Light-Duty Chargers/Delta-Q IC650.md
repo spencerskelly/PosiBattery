@@ -45,6 +45,7 @@ Delta-Q industrial charger with CAN bus (CANopen, CiA 419) for on-board or off-b
 - **Design characteristics, with citations (data sheet):**
   - [[USB Data Download]] (V): <https://www.simpower.co.nz/wp-content/uploads/2025/02/DQIC650-48_13.5.pdf>
 - The Delta-Q IC650 sheet (Downloads/DQIC650-48_13.5.pdf) lists 24 V at 27 A, 36 V at 18 A and 48 V at 13.5 A, 650 W, lead acid (wet, AGM, gel) and lithium, on- and off-board versions, optional CAN, USB host port, for scissor lifts, lift trucks, floor care machines and golf cars. Source: Delta-Q IC650 sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.simpower.co.nz/>
+- Delta-Q says every lead-acid charge algorithm has three stages: Bulk (most energy returned at maximum power or current, exit at a conservative target voltage), Absorption (constant voltage while the current tapers) and Finish (a constant-current finish, sized to the battery as its maker specifies, used in cyclic applications); algorithms are developed with battery manufacturers, the IC650 datasheet lists up to 25 field-programmable charge profiles, a reseller lists 16 lead-acid and 2 lithium profiles preloaded and more than 200 developed, some algorithms are temperature compensated and need the charger's temperature sensor, and Delta-Q advises monitoring a new battery and algorithm pair for at least three cycles. Source: Delta-Q support articles, IC650 datasheet and reseller listing (T1/T3), retrieved 2026-10-03. <https://support.delta-q.com/hc/en-us/articles/360015387312-What-is-an-Algorithm-Charge-Profile>
 
 ## Aliases
 

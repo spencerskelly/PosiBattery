@@ -58,6 +58,7 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
+  - [[Crown V-HFM3 Charger]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

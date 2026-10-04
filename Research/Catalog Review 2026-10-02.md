@@ -84,7 +84,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Crown V-Force Lead-Acid Battery]] | [[Crown Equipment]] | battery | 2 | 1 | 0 | none |
 | [[Crown V-Force Lithium-Ion ESS]] | [[Crown Equipment]] | battery | 1 | 3 | 0 | none |
 | [[Crown V-Force Single Point Watering System]] | [[Crown Equipment]] | accessory | 1 | 0 | 1 | partial |
-| [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 8 | 24 | defined |
+| [[Crown V-HFM3 Charger]] | [[Crown Equipment]] | charger | 10 | 8 | 25 | defined |
 | [[Crown V-HFM3 Charger Stand]] | [[Crown Equipment]] | accessory | 0 | 1 | 0 | none |
 | [[Crown V-HFM3 Tower Light Kit]] | [[Crown Equipment]] | accessory | 2 | 1 | 0 | none |
 | [[Crown V-HFM3 Wired Remote Control Kit]] | [[Crown Equipment]] | accessory | 0 | 1 | 1 | partial |
@@ -106,7 +106,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Deka PowrMate Battery]] | [[East Penn Manufacturing]] | battery | 2 | 1 | 2 | partial |
 | [[Deka Ready Power Lithium Battery]] | [[East Penn Manufacturing]] | battery | 2 | 1 | 0 | none |
 | [[EnerSys Express Charger]] | [[EnerSys]] | charger | 9 | 1 | 0 | none |
-| [[EnerSys IMPAQ Charger]] | [[EnerSys]] | charger | 6 | 0 | 1 | partial |
+| [[EnerSys IMPAQ Charger]] | [[EnerSys]] | charger | 7 | 0 | 4 | defined |
 | [[EnerSys IRONCLAD Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
 | [[EnerSys NexSys AIR Wireless Charger]] | [[EnerSys]] | charger | 9 | 1 | 1 | partial |
 | [[EnerSys NexSys COMpact Charger]] | [[EnerSys]] | charger | 1 | 1 | 0 | none |
@@ -138,7 +138,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Flux Power S-Series Battery]] | [[Flux Power]] | battery | 1 | 0 | 0 | none |
 | [[Fronius Charge & Connect]] | [[Fronius International]] | accessory | 0 | 1 | 3 | defined |
 | [[Fronius SelectION]] | [[Fronius International]] | charger | 2 | 0 | 0 | none |
-| [[Fronius Selectiva 4.0]] | [[Fronius International]] | charger | 2 | 2 | 11 | defined |
+| [[Fronius Selectiva 4.0]] | [[Fronius International]] | charger | 3 | 2 | 14 | defined |
 | [[Fronius TagID]] | [[Fronius International]] | monitor | 3 | 1 | 0 | none |
 | [[GS Yuasa Traction Battery (Europe)]] | [[GS Yuasa]] | battery | 2 | 0 | 4 | defined |
 | [[Godrej Lithium-Ion Forklift Battery]] | [[Godrej Enterprises Group]] | battery | 1 | 0 | 6 | defined |
@@ -280,7 +280,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[PosiCharge PosiGuard]] | [[PosiCharge]] | monitor | 15 | 2 | 30 | defined |
 | [[PosiCharge PosiLink]] | [[PosiCharge]] | accessory | 1 | 2 | 0 | none |
 | [[PosiCharge PosiNet]] | [[PosiCharge]] | accessory | 2 | 0 | 0 | none |
-| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 6 | 2 | 20 | defined |
+| [[PosiCharge ProCore Edge]] | [[PosiCharge]] | charger | 7 | 2 | 21 | defined |
 | [[PosiCharge ProCore Solo]] | [[PosiCharge]] | charger | 1 | 0 | 19 | defined |
 | [[PosiCharge SVS100]] | [[PosiCharge]] | charger | 2 | 1 | 17 | defined |
 | [[PosiCharge SVS200]] | [[PosiCharge]] | charger | 1 | 0 | 3 | defined |
@@ -386,6 +386,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

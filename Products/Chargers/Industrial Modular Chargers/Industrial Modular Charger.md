@@ -47,6 +47,10 @@ supertypeOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
+describedBy:
+  - "[[Metric - Charge Profile Types Offered]]"
+  - "[[Metric - Charge Adaptation Method]]"
+  - "[[Metric - Equalize Scheduling]]"
 ---
 
 # Industrial Modular Charger

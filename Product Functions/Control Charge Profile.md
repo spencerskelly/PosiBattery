@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Equalize Battery on Schedule]]"
   - "[[Float Charge Battery]]"
   - "[[Identify Battery by Voltage]]"
+  - "[[Adapt Charge to Battery Condition]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

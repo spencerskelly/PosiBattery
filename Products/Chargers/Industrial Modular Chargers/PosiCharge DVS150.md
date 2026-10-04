@@ -37,6 +37,7 @@ PosiCharge dual-port fast charger for 24 to 80 V material handling batteries.
   - [[Log Battery Events and Usage]] (V): <https://posicharge.com/products/dvs150/>
 - **Design characteristics, with citations:**
   - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://posicharge.com/products/dvs150/>
+- The public DVS150 page lists equalization scheduling, an electrolyte-immersed thermistor and thermal foldback or shutdown among its controls and protections. Source: PosiCharge DVS150 page (T1), retrieved 2026-10-03. <https://posicharge.com/products/dvs150/>
 
 ## Aliases
 

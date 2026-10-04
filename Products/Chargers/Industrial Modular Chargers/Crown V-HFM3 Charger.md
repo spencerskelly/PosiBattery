@@ -83,6 +83,9 @@ Crown V-Force modular charger for lead-acid and lithium-ion batteries that ident
   - [[Multi-Voltage Output]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
   - [[Modular Power Modules]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
   - [[Charger Status LED Bar]] (V): <https://www.crown.com/en-au/batteries-and-chargers/vhfm3-charger.html>
+- Crown's V-HFM3 brochure lists charge profile options of Conventional, Opportunity, Fast and V-Force Lithium-Ion; the charger identifies a battery on connection and applies the correct charging profile from 24 to 96 V without a monitoring device; with the V-Force BMID it adds automatic temperature compensation and electrolyte level monitoring during the charge, and its indicators show charging status, cooling time and equalizing and watering needs. Source: Crown V-HFM3 brochure (T1), retrieved 2026-10-03. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+- **Functions performed, with citations:**
+  - [[Compensate Charge for Battery Temperature]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 
 ## Aliases
 

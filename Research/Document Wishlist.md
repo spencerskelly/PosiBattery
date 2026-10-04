@@ -27,6 +27,12 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>addresses from search results, snippets used; not opened | EnerSys IMPAQ owner's manual (AMER, EMEA 1022, APAC 1024) with the charge profile code table | <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf> <https://enersys.com/4a7701/globalassets/documents/product-documentation/impaq/amer/impaq-owners-manual> |  | Numeric profile descriptions | - | R36 |
+| **high priority**<br>addresses from search results, snippets used; not opened | EnerSys NexSys+ charger owner's manual (EMEA 1022 and outdoor APAC 0524) | <https://www.enersys.com/4aefff/globalassets/documents/product-documentation/nexsys/_multi/emea/emea-en-om-nex-plch-1022.pdf> <https://enersys.com/4966d9/globalassets/documents/product-documentation/_enersys/apac/emea-en-om-nex-plch-outdoor-apac-0524.pdf> |  | NexSys+ profile table | - | R36 |
+| **high priority**<br>pages found by search; list rows not retrieved | Delta-Q Charge Profile Algorithm List and Choosing an Algorithm for a Lithium Battery | no direct file found | <https://support.delta-q.com/hc/en-us/articles/360052952391-Charge-Profile-Algorithm-List> | Delta-Q per-battery profiles | - | R36 |
+| **high priority**<br>named in the reseller listing; not found as a file | Delta-Q IC650 Installation and Design Guide | no direct file found | <https://support.delta-q.com/> | IC650 algorithm details | - | R36 |
+| **high priority**<br>not found | Crown V-HFM3 charger operating manual | no direct file found | <https://www.crown.com/> | Crown profile details | - | R36 |
+| **high priority**<br>not found | Fronius Selectiva 4.0 operating instructions | no direct file found | <https://www.fronius.com/> | Fronius characteristic details | - | R36 |
 | **high priority**<br>address from search results, snippet used; not opened | Stryten T300 installation and operating instructions (SE1012) | <https://www.stryten.com/wp-content/uploads/2023/03/T300_Installation-Operation_Manual_SE1012.pdf> |  | Stryten charge rules and finish rates | - | R35 |
 | **high priority**<br>addresses from search results, snippets used; not opened | Stryten T310 and T310-FP installation and operating manuals (SE1006, SE1017) | <https://www.stryten.com/wp-content/uploads/2023/03/T310-T310-FP_Installation-OperatingManual_SE1006.pdf> <https://www.stryten.com/wp-content/uploads/2023/03/T310-FP_Installation-Operation_Manual_SE1017.pdf> |  | Stryten T310 charge rules | - | R35 |
 | **high priority**<br>address from search results, snippet used; not opened | Stryten T330 installation and operating instructions (SE1014) | <https://www.stryten.com/wp-content/uploads/2023/03/T330_Installation-Operation_Manual_SE1014.pdf> |  | Stryten T330 charge rules | - | R35 |
@@ -236,6 +242,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 33 2026-10-03:** 7 GSE rows added; the Oshkosh AeroTech APD brochure was read through the fetch tool; the two Customer Care catalogs have direct addresses found by search and were not opened.
 - **Round 34 2026-10-03:** 9 rows for flooded charge profile sources (one read in full, several found by search and not opened).
 - **Round 35 2026-10-03:** 6 rows (Stryten manuals found by search, snippets used; ZVEI leaflet read in full).
+- **Round 36 2026-10-03:** 6 rows for charger algorithm sources.
 
 ## Aliases
 

@@ -16,6 +16,7 @@ performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Identify Battery by Voltage]]"
   - "[[Charge Under BMS Control]]"
+  - "[[Equalize Battery on Schedule]]"
 hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Charger Status LED Bar]]"
@@ -47,6 +48,9 @@ PosiCharge opportunity charger with automatic modes for CAN/lithium, BMID and vo
 - Opportunity charger platform for forklift batteries. Public pages list 24/36/48 V variants at 6–30 kW and 48/72/80/96 V variants at 9–30 kW; 96 V is listed for lithium-ion applications only. Public capabilities include automatic multi-chemistry charging, Bluetooth diagnostics, LED status, modular/scalable power, wall/pole/free-standing installation options, and PosiLink-connected fleet tools. Resource listings reference installation, service, spare-parts, anti-arc, BMID III-B dongle, PilotTerm software-loading, and iOS updater documentation. Source: official PosiCharge page for ProCore Edge, as summarized in the vault's Public Evidence Register (PUB-003, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/procore-edge/>
 - **Baseline confidence (ProCore Edge):** Verified public—family level. **Still needed:** Current SKU/option master; certification and regional configuration matrix; chemistry/BMS/connector/BMID interoperability; active firmware and software versions; installation and service policy.
 - The current ProCore Edge sheet (Downloads/ProCore-Edge-Spec-Sheet-Updated.pdf) lists 440/480 V and 600 V versions at 6 to 30 kW and a 380/400 V version at 6 to 15 kW; chemistries lead acid, Li-ion, Ni-MH and sodium-ion with automatic selection; Bluetooth app; LED stack light bar; three replaceable parts; a 5-year warranty; 24/36/48 V output tables (for example 6 kW at 128/128/104 A to 30 kW at 640/640/521 A) and 48/72/80/96 V tables (9 to 30 kW; 96 V lithium-ion only); the sheet calls it the only UL-approved charger that can be de-rated for smaller breakers and the only HF charger supporting 48 to 96 V in one module (vendor claims). Source: ProCore Edge spec sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/06/ProCore-Edge-Spec-Sheet-Updated.pdf>
+- The ProCore Edge manual says the charger controls charging current and voltage through PosiCharge proprietary charging algorithms, works in BMID mode or voltage mode (no BMID), schedules an equalization (an extended low-current charge once a week) after a regular charge to 100 percent state of charge, shows the equalization schedule in BMID mode, and lets the operator schedule or cancel an equalization with a button during the EQ window. Source: PosiCharge ProCore Edge IOMM (in repo) (T1), retrieved 2026-10-03. <https://www.posicharge.com/procoreedge>
+- **Functions performed, with citations:**
+  - [[Equalize Battery on Schedule]] (V): <https://www.posicharge.com/procoreedge>
 
 ## Aliases
 

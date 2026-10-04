@@ -18,6 +18,7 @@ performs:
   - "[[Charge in Cold Storage]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Equalize Battery on Schedule]]"
+  - "[[Adapt Charge to Battery Condition]]"
 hasDesign:
   - "[[Modular Power Modules]]"
 madeBy:
@@ -53,6 +54,11 @@ EnerSys modular high-frequency charger line for material handling and floor-care
 | Ratings | not given (n/s) |
 - **Correction (C43):** an earlier link between this charger and the Wi-iQ monitor was withdrawn; the chart shows no Wi-iQ temperature adjustment for IMPAQ.
 - Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
+- EnerSys' IMPAQ owner's manuals list charge profile codes: P21 STDWL standard waterless wet-cell profile (IUI), P22 HDUTY heavy-duty wet-cell pulse profile that diagnoses the battery status or capacity through continuous current loops, P19 FAST for flooded batteries with air mix (battery capacity, temperature and equalize values must be set and a programmed Wi-iQ fitted), P07 OPP opportunity charge for PzQ cells (finish current 5 percent), P25 LOWCHG low-rate charge, and NexSys TPPL profiles P31 NXBLOC (bloc), P29 NXSTND (2 V normal) and P30 NXFAST (2 V fast, charge rate 0.18 to 0.40 C5 with a FAST-programmed Wi-iQ); letter codes include IEI (constant current, constant voltage, constant current) with user-configurable settings, a gel IEI profile, O for opportunity and an IEIE (constant current, constant voltage, constant current, constant voltage) type; a weekly equalize charge can be programmed, an opportunity profile needs time scheduled after the weekly equalize for cooling, and refresh or maintenance charging is a function. Source: EnerSys IMPAQ and NexSys+ charger owner's manuals (T1), retrieved 2026-10-03. <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
+- **Functions performed, with citations:**
+  - [[Adapt Charge to Battery Condition]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
+  - [[Charge Battery by Opportunity]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
+  - [[Equalize Battery on Schedule]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
 
 ## Aliases
 
