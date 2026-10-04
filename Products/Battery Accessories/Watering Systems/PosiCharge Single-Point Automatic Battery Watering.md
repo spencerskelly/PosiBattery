@@ -5,10 +5,11 @@ id: OBJ-00308
 uid: 20261003143453042skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

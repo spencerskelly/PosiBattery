@@ -35,8 +35,9 @@ describedBy:
   - "[[Note Standard (Example)]]"
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
-  - "[[Unidentified Products Review]]"
   - "[[Truck Feature Comparison Matrix]]"
+  - "[[Unidentified Products Review]]"
+  - "[[Extra Functions Register]]"
 ---
 
 # Battery-Connected Product

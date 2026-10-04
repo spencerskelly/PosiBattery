@@ -6,6 +6,7 @@ uid: 20261002164202369skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -26,6 +27,7 @@ Detect a failed cell in the battery.
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
   - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+- **Extra (round 30):** documented for 0 of 21 battery maker groups (0 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

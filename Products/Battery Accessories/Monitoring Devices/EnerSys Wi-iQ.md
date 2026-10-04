@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - gse
+  - scope-oem-option
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

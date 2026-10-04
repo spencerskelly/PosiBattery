@@ -7,15 +7,19 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
   - gse
   - proximity
+  - scope-oem-option
+  - truck-device
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
 madeBy:
   - "[[Oshkosh AeroTech]]"
+offeredWith:
+  - "[[Oshkosh AeroTech Commander 30i Cargo Loader]]"
+  - "[[Oshkosh AeroTech Ranger 15E Cargo Loader]]"
 ---
 
 # Oshkosh AeroTech Aircraft Proximity Detection

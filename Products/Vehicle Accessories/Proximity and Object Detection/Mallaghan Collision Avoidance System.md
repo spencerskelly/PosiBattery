@@ -7,15 +7,18 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
   - gse
   - proximity
+  - scope-oem-option
+  - truck-device
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
 madeBy:
   - "[[Mallaghan]]"
+offeredWith:
+  - "[[Mallaghan SkyBelt]]"
 ---
 
 # Mallaghan Collision Avoidance System

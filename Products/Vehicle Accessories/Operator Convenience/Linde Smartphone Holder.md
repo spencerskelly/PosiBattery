@@ -5,9 +5,10 @@ id: OBJ-00219
 uid: 20261003093855188skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
-  - accessory
+  - scope-oem-option
   - vehicle-accessory
 subtypeOf:
   - "[[Operator Convenience Accessory]]"

@@ -5,6 +5,7 @@ id: OBJ-00167
 uid: 20261003084359647skellyspencer
 status: Draft
 tags:
+  - scope-oem-option
   - software
   - telematics
 subtypeOf:

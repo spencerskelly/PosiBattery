@@ -5,9 +5,10 @@ id: FUNC-00061
 uid: 20261003094918657skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - gse
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Hold or Stop Vehicle Automatically]]"
 dependsOn:
@@ -28,6 +29,7 @@ Reduce speed and stop a vehicle automatically as it approaches an aircraft, so t
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+- **Extra (round 30):** documented for 1 of 6 gse maker groups (17 percent), delivered by devices or software (Object and Proximity Sensing Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

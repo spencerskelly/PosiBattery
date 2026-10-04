@@ -5,10 +5,11 @@ id: OBJ-00310
 uid: 20261003143453044skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:

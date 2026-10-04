@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - lead-acid
+  - scope-aftermarket
   - stated-in-posicharge-docs
 subtypeOf:
   - "[[PosiCharge BMID]]"

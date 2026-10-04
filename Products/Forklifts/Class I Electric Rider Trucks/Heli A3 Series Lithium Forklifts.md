@@ -21,6 +21,7 @@ madeBy:
 offeredWith:
   - "[[Heli Lithium-Ion Battery]]"
   - "[[Heli Built-In Lithium Charger]]"
+  - "[[Heli Operator Presence Sensing System]]"
 ---
 
 # Heli A3 Series Lithium Forklifts

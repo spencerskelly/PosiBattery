@@ -6,6 +6,7 @@ uid: 20261002164202366skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
@@ -63,6 +64,7 @@ Send battery data to a hosted portal for fleet reporting.
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
   - [[PosiCharge PosiLink]] (V): <https://posicharge.com/products/posilink/>
   - [[PosiCharge PosiNet]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Wireless Interface Design, Cloud Portal Integration); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -5,11 +5,12 @@ id: OBJ-00249
 uid: 20261003094918668skellyspencer
 status: Draft
 tags:
+  - battery-charger-software
   - battery-market-reference
   - commercial-product
-  - software
-  - battery-charger-software
   - gse
+  - scope-oem-option
+  - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 performs:

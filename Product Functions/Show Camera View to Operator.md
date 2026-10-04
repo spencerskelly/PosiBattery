@@ -5,8 +5,9 @@ id: FUNC-00057
 uid: 20261003090225552skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Support Operator View and Positioning]]"
 dependsOn:
@@ -41,6 +42,7 @@ Show the operator a camera view of the truck's surroundings.
   - [[Jungheinrich addedVIEW Camera Systems]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Hangcha Backup Camera Option]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
   - [[Crown RR-RD 5700 Series]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
+- **Extra (round 30):** documented for 4 of 10 truck maker groups (40 percent), delivered by devices or software (Display Device Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

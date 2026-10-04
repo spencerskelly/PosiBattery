@@ -14,6 +14,8 @@ subtypeOf:
   - "[[GSE Cargo Loader]]"
 madeBy:
   - "[[Oshkosh AeroTech]]"
+offeredWith:
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
 ---
 
 # Oshkosh AeroTech Ranger 15E Cargo Loader

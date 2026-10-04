@@ -5,8 +5,9 @@ id: FUNC-00050
 uid: 20261003090225545skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 dependsOn:
@@ -39,6 +40,7 @@ Measure the load, lift height or tilt so the truck can show limits or assist lif
   - [[Raymond Load Weight Display]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Linde Load Management Advanced]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Komatsu Digital Load Scale]] (V): <https://www.allmachines.com/forklifts/komatsu-fb20au-12>
+- **Extra (round 30):** documented for 4 of 10 truck maker groups (40 percent), delivered by devices or software (Vehicle State Sensing Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

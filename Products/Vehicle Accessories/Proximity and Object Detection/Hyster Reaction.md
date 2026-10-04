@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
-  - proximity
   - operator-assist
+  - proximity
+  - scope-oem-option
+  - truck-device
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

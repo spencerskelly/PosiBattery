@@ -6,6 +6,7 @@ uid: 20261002193402987skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Control Charge Profile]]"
@@ -57,6 +58,7 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
+- **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

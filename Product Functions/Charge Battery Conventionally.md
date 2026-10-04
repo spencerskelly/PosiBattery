@@ -6,6 +6,7 @@ uid: 20261002193402982skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Charge Battery]]"
@@ -49,6 +50,7 @@ Recharge a battery over a full shift break or overnight at a tapering rate, typi
   - [[Stryten EHF Charger]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
   - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+- **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

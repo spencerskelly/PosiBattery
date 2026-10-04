@@ -6,6 +6,7 @@ uid: 20261002164202367skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
@@ -30,6 +31,7 @@ Move logged data to a PC for analysis, by cable, USB or short-range wireless.
   - [[Philadelphia Scientific eGO!Mini]] (V): <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>
   - [[Power Designers PowerTrac SP+]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[Power Designers PowerTrac DT3]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
+- **Extra (round 30):** documented for 0 of 21 battery maker groups (0 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

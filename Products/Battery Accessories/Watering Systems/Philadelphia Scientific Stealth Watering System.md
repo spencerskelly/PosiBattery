@@ -5,10 +5,11 @@ id: OBJ-00261
 uid: 20261003101711496skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
   - battery-accessory
+  - battery-market-reference
+  - commercial-product
+  - scope-aftermarket
   - watering
 subtypeOf:
   - "[[Battery Watering System]]"

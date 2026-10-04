@@ -7,8 +7,9 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - forklift
   - diagnostic
+  - forklift
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

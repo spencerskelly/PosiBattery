@@ -33,8 +33,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | Product | Maker or offerer | Kind | Functions and designs linked | Offered-with links | Spec values in note | Spec status |
 |---|---|---|---|---|---|---|
 | [[AMETEK Prestolite Power BID]] | [[AMETEK Prestolite Power]] | monitor | 5 | 2 | 2 | partial |
-| [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power]] | monitor | 7 | 0 | 2 | partial |
-| [[AMETEK Prestolite Power Eclipse II]] | [[AMETEK Prestolite Power]] | charger | 5 | 1 | 2 | partial |
+| [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power]] | monitor | 7 | 1 | 2 | partial |
+| [[AMETEK Prestolite Power Eclipse II]] | [[AMETEK Prestolite Power]] | charger | 5 | 2 | 2 | partial |
 | [[AMETEK Prestolite Power Site Probe]] | [[AMETEK Prestolite Power]] | monitor | 2 | 0 | 0 | none |
 | [[AMETEK Prestolite Power TruBid]] | [[AMETEK Prestolite Power]] | monitor | 9 | 0 | 0 | none |
 | [[AMETEK Prestolite Power ULTRA]] | [[AMETEK Prestolite Power]] | charger | 4 | 1 | 3 | defined |
@@ -47,15 +47,15 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[ACT Quantum 3]] | [[Advanced Charging Technologies]] | charger | 6 | 2 | 19 | defined |
 | [[ACT Quantum Outdoor]] | [[Advanced Charging Technologies]] | charger | 6 | 1 | 4 | defined |
 | [[Advanced Charging Technologies BATTview]] | [[Advanced Charging Technologies]] | monitor | 12 | 4 | 20 | defined |
-| [[Adveez Asset and Operations Monitoring System]] | [[Adveez]] | accessory | 1 | 0 | 0 | none |
+| [[Adveez Asset and Operations Monitoring System]] | [[Adveez]] | accessory | 1 | 1 | 0 | none |
 | [[Amaron Brute Hi-Life Battery]] | [[Amara Raja]] | battery | 0 | 0 | 0 | none |
 | [[Anderson SB Connector Series]] | [[Anderson Power Products]] | accessory | 1 | 1 | 1 | partial |
-| [[Heli A3 Series Lithium Forklifts]] | [[Anhui Heli]] | forklift | 4 | 2 | 10 | defined |
+| [[Heli A3 Series Lithium Forklifts]] | [[Anhui Heli]] | forklift | 4 | 3 | 10 | defined |
 | [[Heli Built-In Lithium Charger]] | [[Anhui Heli]] | accessory | 2 | 1 | 1 | partial |
 | [[Heli Fleet Management System]] | [[Anhui Heli]] | accessory | 1 | 0 | 0 | none |
 | [[Heli G Series Lithium Forklifts]] | [[Anhui Heli]] | forklift | 4 | 1 | 8 | defined |
 | [[Heli Lithium-Ion Battery]] | [[Anhui Heli]] | battery | 2 | 2 | 8 | defined |
-| [[Heli Operator Presence Sensing System]] | [[Anhui Heli]] | accessory | 1 | 0 | 0 | none |
+| [[Heli Operator Presence Sensing System]] | [[Anhui Heli]] | accessory | 1 | 1 | 0 | none |
 | [[Banner Traction Bull Bloc PzF]] | [[Banner]] | battery | 1 | 0 | 4 | defined |
 | [[Banner Traction Bull PzS]] | [[Banner]] | battery | 0 | 0 | 0 | none |
 | [[Banner Traction Bull PzV Gel]] | [[Banner]] | battery | 1 | 0 | 0 | none |
@@ -181,9 +181,9 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Jungheinrich easyPILOT]] | [[Jungheinrich]] | accessory | 2 | 0 | 0 | none |
 | [[Jungheinrich zoneCONTROL]] | [[Jungheinrich]] | accessory | 4 | 0 | 0 | none |
 | [[Komatsu Digital Load Scale]] | [[Komatsu]] | accessory | 1 | 1 | 0 | none |
-| [[Komatsu FB Series Electric Forklifts]] | [[Komatsu]] | forklift | 5 | 2 | 3 | defined |
+| [[Komatsu FB Series Electric Forklifts]] | [[Komatsu]] | forklift | 5 | 3 | 3 | defined |
 | [[Komatsu KOMTRAX]] | [[Komatsu]] | accessory | 1 | 1 | 0 | none |
-| [[Komatsu Operator Presence Sensing System]] | [[Komatsu]] | accessory | 1 | 0 | 0 | none |
+| [[Komatsu Operator Presence Sensing System]] | [[Komatsu]] | accessory | 1 | 1 | 0 | none |
 | [[Larson Explosion-Proof Blue LED Forklift Light]] | [[Larson Electronics]] | accessory | 1 | 0 | 3 | defined |
 | [[Leoch PzS Traction Battery]] | [[Leoch]] | battery | 1 | 0 | 2 | partial |
 | [[Lester Summit Series II]] | [[Lester Electrical]] | charger | 7 | 0 | 46 | defined |
@@ -214,8 +214,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Cat Lithium-Ion Battery Option]] | [[Logisnext Europe]] | battery | 1 | 2 | 1 | partial |
 | [[Cat Presence Detection System]] | [[Logisnext Europe]] | accessory | 1 | 1 | 1 | partial |
 | [[Cat Safety Lighting Options]] | [[Logisnext Europe]] | accessory | 2 | 1 | 0 | none |
-| [[Mallaghan Collision Avoidance System]] | [[Mallaghan]] | accessory | 1 | 0 | 1 | partial |
-| [[Mallaghan SkyBelt]] | [[Mallaghan]] | gse | 2 | 0 | 0 | none |
+| [[Mallaghan Collision Avoidance System]] | [[Mallaghan]] | accessory | 1 | 1 | 1 | partial |
+| [[Mallaghan SkyBelt]] | [[Mallaghan]] | gse | 2 | 2 | 0 | none |
 | [[Midac Aquamatic Watering System]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
 | [[Midac EUW Electrolyte Circulation System]] | [[Midac]] | accessory | 2 | 1 | 0 | none |
 | [[Midac End Leads]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
@@ -233,12 +233,12 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 3 | 6 | defined |
 | [[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 4 | 2 | partial |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
-| [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
+| [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 2 | 0 | none |
 | [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 4 | defined |
-| [[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
+| [[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 2 | 0 | none |
 | [[Oshkosh AeroTech Pushback B350E and B650E]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
-| [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
-| [[Oshkosh AeroTech iOPS]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
+| [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 1 | 0 | none |
+| [[Oshkosh AeroTech iOPS]] | [[Oshkosh AeroTech]] | accessory | 1 | 1 | 0 | none |
 | [[Panacea Blue Warning Light]] | [[Panacea Aftermarket Co.]] | accessory | 1 | 0 | 1 | partial |
 | [[Panacea Cam-DVR with Impact Sensors]] | [[Panacea Aftermarket Co.]] | accessory | 3 | 0 | 0 | none |
 | [[Panacea Smart Start]] | [[Panacea Aftermarket Co.]] | accessory | 2 | 0 | 0 | none |
@@ -338,10 +338,10 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[TLD Aircraft Safety Docking]] | [[TLD Group]] | accessory | 2 | 0 | 0 | none |
 | [[TLD NBL-E Belt Loader]] | [[TLD Group]] | gse | 0 | 0 | 0 | none |
 | [[TVH Forklift Arrow Lights]] | [[TVH]] | accessory | 1 | 0 | 0 | none |
-| [[TUG 660 Belt Loader]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
+| [[TUG 660 Belt Loader]] | [[Textron GSE]] | gse | 0 | 1 | 0 | none |
 | [[TUG ALPHA 1 Pushback]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
 | [[TUG Endurance Baggage Tractor]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
-| [[Textron Smart Sense]] | [[Textron GSE]] | accessory | 7 | 0 | 8 | defined |
+| [[Textron Smart Sense]] | [[Textron GSE]] | accessory | 7 | 1 | 8 | defined |
 | [[Toyota 3-Wheel Electric Forklift]] | [[Toyota Material Handling]] | forklift | 2 | 2 | 2 | partial |
 | [[Toyota 360 Operating Camera]] | [[Toyota Material Handling]] | accessory | 1 | 0 | 0 | none |
 | [[Toyota Acu-Laser]] | [[Toyota Material Handling]] | accessory | 2 | 0 | 0 | none |
@@ -375,6 +375,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

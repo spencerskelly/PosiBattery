@@ -6,6 +6,7 @@ uid: 20261002164202357skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
@@ -36,6 +37,7 @@ Track whether and when equalization charging occurred.
   - [[Crown Battery Health Monitor]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
   - [[Raymond iBattery]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors>
+- **Extra (round 30):** documented for 3 of 21 battery maker groups (14 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

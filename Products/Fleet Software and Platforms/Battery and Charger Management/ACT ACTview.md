@@ -5,10 +5,11 @@ id: OBJ-00222
 uid: 20261003093855191skellyspencer
 status: Draft
 tags:
+  - battery-charger-software
   - battery-market-reference
   - commercial-product
+  - scope-oem-option
   - software
-  - battery-charger-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 performs:

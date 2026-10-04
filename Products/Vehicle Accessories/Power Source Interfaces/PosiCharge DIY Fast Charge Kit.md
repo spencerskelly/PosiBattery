@@ -5,10 +5,11 @@ id: OBJ-00309
 uid: 20261003143453043skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-aftermarket
 subtypeOf:
   - "[[Power Source Interface]]"
 madeBy:

@@ -6,6 +6,7 @@ uid: 20261002193402988skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Control Charge Profile]]"
@@ -45,6 +46,7 @@ Run equalization charges at an interval or schedule, even when the battery moves
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[Power Designers REVOLUTION X]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
+- **Extra (round 30):** documented for 4 of 18 charger maker groups (22 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

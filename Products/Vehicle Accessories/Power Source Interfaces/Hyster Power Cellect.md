@@ -5,8 +5,9 @@ id: OBJ-00165
 uid: 20261003084359645skellyspencer
 status: Draft
 tags:
-  - option-package
   - battery-interface
+  - option-package
+  - scope-oem-option
 subtypeOf:
   - "[[Power Source Interface]]"
 performs:

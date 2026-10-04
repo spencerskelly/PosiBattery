@@ -6,10 +6,11 @@ uid: 20261002164202416skellyspencer
 status: Draft
 tags:
   - battery-market-reference
+  - cloud
   - commercial-product
   - forklift
   - lead-acid
-  - cloud
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

@@ -6,6 +6,7 @@ uid: 20261002193402991skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Charge Battery]]"
@@ -25,6 +26,7 @@ Transfer charge without a plug-in connector.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[EnerSys NexSys AIR Wireless Charger]] (V): <https://www.enersys.com/493367/globalassets/documents/product-documentation/_enersys/apac/apac_en-imp-nex-com-air-0623.pdf>
+- **Extra (round 30):** documented for 1 of 18 charger maker groups (6 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

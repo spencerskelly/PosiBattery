@@ -6,6 +6,7 @@ uid: 20261002164202350skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -84,6 +85,7 @@ Sense whether the electrolyte level in a flooded lead-acid cell is adequate.
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Exide Automatic Watering System and Level Sensor]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+- **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (Battery Sensor Element Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

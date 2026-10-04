@@ -632,6 +632,15 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | makes | [[Godrej Enterprises Group]] | [[Godrej Lithium-Ion Forklift Battery]] | vendor presents the product as its own | see the product note |
 | makes | [[Godrej Enterprises Group]] | [[Godrej Multi-Ion Forklift Battery]] | vendor presents the product as its own | see the product note |
 | makes | [[Amara Raja]] | [[Amaron Brute Hi-Life Battery]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[Mallaghan Collision Avoidance System]] | [[Mallaghan SkyBelt]] | SkyBelt text lists a collision avoidance system | <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market> |
+| offeredWith | [[Adveez Asset and Operations Monitoring System]] | [[Mallaghan SkyBelt]] | SkyBelt text lists sensors and telematics from Adveez | <https://fortbrand.com/gse-products/> |
+| offeredWith | [[Oshkosh AeroTech iOPS]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | Commander 30i page lists iOPS monitoring | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | Commander 30i page lists optional proximity detection | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | Ranger 15E page lists optional proximity detection | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Textron Smart Sense]] | [[TUG 660 Belt Loader]] | Smart Sense is available on the TUG 660 and 660E | <https://airport.h5mag.com/air_dec18/textron_company_insight> |
+| offeredWith | [[Heli Operator Presence Sensing System]] | [[Heli A3 Series Lithium Forklifts]] | dealer pages list OPS on the A3 trucks | <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html> |
+| offeredWith | [[Komatsu Operator Presence Sensing System]] | [[Komatsu FB Series Electric Forklifts]] | Komatsu page lists operator presence sensing | <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb> |
+| offeredWith | [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power Eclipse II]] | the BID's Ah and temperature are read out on the Eclipse II front panel | <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> |
 - **Round 24 note:** earlier rows that name Mitsubishi Logisnext as maker, offerer, supplier or distributor of UniCarriers, Lift Link, Triathlon, PowerFleet and Jungheinrich items are kept as history; the rows added in round 24 re-attribute them to Mitsubishi Logisnext Americas (and the Cat EP items to Logisnext Europe by inference, C92).
 
 ## Aliases

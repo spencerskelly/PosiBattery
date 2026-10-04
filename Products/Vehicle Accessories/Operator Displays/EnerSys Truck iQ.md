@@ -5,11 +5,12 @@ id: OBJ-00049
 uid: 20261002164202417skellyspencer
 status: Draft
 tags:
+  - adjacent
   - battery-market-reference
   - commercial-product
   - forklift
+  - scope-aftermarket
   - vehicle-mounted
-  - adjacent
 subtypeOf:
   - "[[Operator Display]]"
 performs:

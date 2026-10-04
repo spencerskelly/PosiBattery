@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - lead-acid
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

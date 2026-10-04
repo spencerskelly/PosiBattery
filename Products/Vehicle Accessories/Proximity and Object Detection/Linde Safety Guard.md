@@ -7,8 +7,9 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
   - proximity
+  - scope-oem-option
+  - truck-device
   - uwb
 subtypeOf:
   - "[[Proximity and Object Detection System]]"

@@ -7,8 +7,9 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
+  - scope-oem-option
   - telematics
+  - truck-device
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

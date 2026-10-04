@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
-  - stability
   - load
+  - scope-oem-option
+  - stability
+  - truck-device
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

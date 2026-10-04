@@ -6,6 +6,7 @@ uid: 20261002164202359skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
@@ -62,6 +63,7 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Crown V-HFM3 Tower Light Kit]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
   - [[PosiCharge Three-Color Stack Light]] (V): <https://posicharge.com/accessories/>
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Warning and Display Device Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

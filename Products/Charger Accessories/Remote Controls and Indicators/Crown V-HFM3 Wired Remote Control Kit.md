@@ -5,10 +5,11 @@ id: OBJ-00209
 uid: 20261003093855178skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
+  - battery-market-reference
   - charger-accessory
+  - commercial-product
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 offeredBy:

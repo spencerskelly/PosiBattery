@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - fleet-management
   - forklift
   - lead-acid
-  - fleet-management
+  - scope-oem-option
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

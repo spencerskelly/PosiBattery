@@ -18,6 +18,9 @@ hasDesign:
   - "[[Vehicle-Mounted Display]]"
 madeBy:
   - "[[Mallaghan]]"
+offeredWith:
+  - "[[Mallaghan Collision Avoidance System]]"
+  - "[[Adveez Asset and Operations Monitoring System]]"
 ---
 
 # Mallaghan SkyBelt

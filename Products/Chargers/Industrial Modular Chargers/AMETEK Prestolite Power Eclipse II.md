@@ -22,6 +22,7 @@ offeredBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
   - "[[AMETEK Prestolite Power BID]]"
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
 ---
 
 # AMETEK Prestolite Power Eclipse II

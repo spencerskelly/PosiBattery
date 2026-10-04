@@ -5,11 +5,12 @@ id: OBJ-00258
 uid: 20261003101711493skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
   - battery-accessory
+  - battery-market-reference
+  - commercial-product
   - level-sensing
+  - scope-oem-option
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - fleet-management
   - forklift
   - gse
-  - fleet-management
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"

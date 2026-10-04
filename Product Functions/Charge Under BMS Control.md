@@ -6,6 +6,7 @@ uid: 20261002193402989skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Control Charge Profile]]"
@@ -35,6 +36,7 @@ Take charge limits from the battery's BMS (often over CAN), with the charger act
   - [[Fronius SelectION]] (V): <https://www.fronius.com/en/battery-charging-technology/info-centre/news/lead-acid-lithium-ion>
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Delta-Q IC650]] (V): <https://eepower.com/new-industry-products/delta-q-introduces-can-bus-functionality-to-the-ic650-charger/>
+- **Extra (round 30):** documented for 5 of 18 charger maker groups (28 percent), delivered by devices or software (Integrated Battery Management System); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

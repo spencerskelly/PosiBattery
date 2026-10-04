@@ -6,6 +6,7 @@ uid: 20261002164202355skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -32,6 +33,7 @@ Estimate the working time remaining at the present usage.
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Linde 6-8 t Electric Counterbalance Forklifts]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

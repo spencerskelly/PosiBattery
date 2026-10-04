@@ -6,6 +6,7 @@ uid: 20261002164202364skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
@@ -72,6 +73,7 @@ Send battery data wirelessly to a gateway, app, truck module or charger.
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+- **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent), delivered by devices or software (Wireless Interface Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

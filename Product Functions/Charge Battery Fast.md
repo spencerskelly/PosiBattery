@@ -6,6 +6,7 @@ uid: 20261002193402984skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Charge Battery]]"
@@ -57,6 +58,7 @@ Charge at rates several times conventional charging, at every opportunity, usual
   - [[PosiCharge DVS300 Series]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
   - [[PosiCharge MVS400 and MVS800]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
   - [[PosiCharge High Voltage Power Station (DC)]] (V): <https://posicharge.com/products/high-voltage-power-station-dc/>
+- **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

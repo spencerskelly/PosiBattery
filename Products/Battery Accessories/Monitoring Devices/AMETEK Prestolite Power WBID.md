@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - obsolete
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"

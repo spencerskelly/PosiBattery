@@ -7,15 +7,18 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - gse
+  - scope-aftermarket
   - software
   - telematics
-  - gse
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
   - "[[Report Truck Telemetry]]"
 madeBy:
   - "[[Adveez]]"
+offeredWith:
+  - "[[Mallaghan SkyBelt]]"
 ---
 
 # Adveez Asset and Operations Monitoring System

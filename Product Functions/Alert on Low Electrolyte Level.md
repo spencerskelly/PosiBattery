@@ -6,6 +6,7 @@ uid: 20261003141234119skellyspencer
 status: Draft
 tags:
   - accessory-function
+  - extra
   - product-function
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
@@ -28,6 +29,7 @@ Warn users that the electrolyte level in a flooded battery is low and water is n
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (Battery Sensor Element Design, Indicator and Alarm Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

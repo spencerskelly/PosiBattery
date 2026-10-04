@@ -5,8 +5,9 @@ id: FUNC-00092
 uid: 20261003152905093skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Maintain Vehicle Stability and Load Awareness]]"
 performedBy:
@@ -27,6 +28,7 @@ Counter mast swing and deflection at high lift heights so loads can be handled f
 - **Sources** (product, evidence level, web page):
   - [[Linde Dynamic Mast Control]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Doosan Bobcat Mast Sway Control]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
+- **Extra (round 30):** documented for 2 of 10 truck maker groups (20 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -7,8 +7,9 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - lead-acid
   - floor-care
+  - lead-acid
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

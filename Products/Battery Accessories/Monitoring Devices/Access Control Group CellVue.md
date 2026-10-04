@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - forklift
+  - scope-aftermarket
   - status-unclear
 subtypeOf:
   - "[[Battery Monitoring Device]]"

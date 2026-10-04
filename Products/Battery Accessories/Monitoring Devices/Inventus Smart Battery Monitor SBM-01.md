@@ -5,11 +5,12 @@ id: OBJ-00050
 uid: 20261002164202418skellyspencer
 status: Draft
 tags:
+  - adjacent
   - battery-market-reference
+  - can
   - commercial-product
   - lithium
-  - can
-  - adjacent
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

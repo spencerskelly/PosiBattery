@@ -5,10 +5,11 @@ id: OBJ-00306
 uid: 20261003143453040skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 madeBy:

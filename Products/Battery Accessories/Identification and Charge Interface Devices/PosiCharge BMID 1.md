@@ -6,8 +6,9 @@ uid: 20261002162520380skellyspencer
 status: Draft
 tags:
   - battery-market-reference
-  - commercial-product
   - charge-interface
+  - commercial-product
+  - scope-aftermarket
   - stated-by-user
 subtypeOf:
   - "[[PosiCharge BMID]]"

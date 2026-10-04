@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - europe
   - forklift
   - lead-acid
-  - europe
+  - scope-oem-option
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

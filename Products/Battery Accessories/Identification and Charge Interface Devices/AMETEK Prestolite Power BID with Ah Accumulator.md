@@ -6,9 +6,10 @@ uid: 20261002162520377skellyspencer
 status: Draft
 tags:
   - battery-market-reference
+  - charge-interface
   - commercial-product
   - forklift
-  - charge-interface
+  - scope-aftermarket
 subtypeOf:
   - "[[AMETEK Prestolite Power BID]]"
 describedBy:
@@ -24,6 +25,8 @@ hasDesign:
   - "[[DC-Cable Power-Line Communication]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
+offeredWith:
+  - "[[AMETEK Prestolite Power Eclipse II]]"
 ---
 
 # AMETEK Prestolite Power BID with Ah Accumulator

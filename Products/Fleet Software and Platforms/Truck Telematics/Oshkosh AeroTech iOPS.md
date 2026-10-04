@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - gse
+  - scope-aftermarket
   - software
   - telematics
-  - gse
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
@@ -18,6 +19,8 @@ madeBy:
   - "[[Oshkosh AeroTech]]"
 poweredBy:
   - "[[Adveez]]"
+offeredWith:
+  - "[[Oshkosh AeroTech Commander 30i Cargo Loader]]"
 ---
 
 # Oshkosh AeroTech iOPS

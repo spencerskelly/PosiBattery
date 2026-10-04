@@ -5,11 +5,12 @@ id: OBJ-00215
 uid: 20261003093855184skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
   - battery-accessory
+  - battery-market-reference
+  - commercial-product
   - connector
+  - scope-oem-option
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

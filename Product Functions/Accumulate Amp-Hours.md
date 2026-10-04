@@ -6,6 +6,7 @@ uid: 20261002164202352skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -48,6 +49,7 @@ Accumulate amp-hours of charge and discharge, per event and over the battery's l
   - [[Access Control Group CellTrac]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet> <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -22,6 +22,7 @@ madeBy:
 offeredWith:
   - "[[Komatsu KOMTRAX]]"
   - "[[Komatsu Digital Load Scale]]"
+  - "[[Komatsu Operator Presence Sensing System]]"
 ---
 
 # Komatsu FB Series Electric Forklifts

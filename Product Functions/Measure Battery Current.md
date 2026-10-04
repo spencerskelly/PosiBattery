@@ -6,6 +6,7 @@ uid: 20261002164202348skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -58,6 +59,7 @@ Measure current into and out of the battery.
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Current Sensing Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -5,10 +5,11 @@ id: OBJ-00211
 uid: 20261003093855180skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
+  - battery-market-reference
   - charger-accessory
+  - commercial-product
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Stand and Mounting]]"
 offeredBy:

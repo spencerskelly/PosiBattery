@@ -6,6 +6,7 @@ uid: 20261002164202365skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
@@ -36,6 +37,7 @@ Provide battery state to other equipment over a CAN network.
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf> <https://integration.enersys.com/493bb4/globalassets/documents/product-documentation/_misc/wi-iq/emea/wi-iq3-battery-monitoring-device-brochure.pdf>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Hyster Power Cellect]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (CAN Interface); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

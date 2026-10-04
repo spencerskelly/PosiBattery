@@ -11,6 +11,7 @@ tags:
   - gse
   - lead-acid
   - lithium
+  - scope-aftermarket
 subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:

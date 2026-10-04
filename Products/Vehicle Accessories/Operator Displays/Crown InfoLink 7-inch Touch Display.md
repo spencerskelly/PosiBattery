@@ -5,11 +5,12 @@ id: OBJ-00220
 uid: 20261003093855189skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
-  - accessory
-  - vehicle-accessory
   - display
+  - scope-oem-option
+  - vehicle-accessory
 subtypeOf:
   - "[[Operator Display]]"
 performs:

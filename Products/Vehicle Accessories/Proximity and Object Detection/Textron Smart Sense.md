@@ -7,9 +7,10 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
-  - truck-device
   - gse
   - proximity
+  - scope-oem-option
+  - truck-device
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:
@@ -23,6 +24,8 @@ hasDesign:
   - "[[Aircraft Proximity Indicator Light]]"
 madeBy:
   - "[[Textron GSE]]"
+offeredWith:
+  - "[[TUG 660 Belt Loader]]"
 ---
 
 # Textron Smart Sense

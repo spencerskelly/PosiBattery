@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - lead-acid
+  - scope-aftermarket
   - water-level
 subtypeOf:
   - "[[Battery Water Level Monitor]]"

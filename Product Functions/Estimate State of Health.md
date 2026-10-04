@@ -6,6 +6,7 @@ uid: 20261002164202354skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
@@ -28,6 +29,7 @@ Estimate the battery's state of health.
 - **Sources** (product, evidence level, web page):
   - [[Raymond iBattery]] (V): <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
   - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

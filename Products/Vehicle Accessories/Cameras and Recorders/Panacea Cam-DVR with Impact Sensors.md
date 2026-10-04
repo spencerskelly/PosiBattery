@@ -6,10 +6,11 @@ uid: 20261003101711507skellyspencer
 status: Draft
 tags:
   - battery-market-reference
+  - camera
   - commercial-product
+  - scope-aftermarket
   - truck-device
   - vehicle-accessory
-  - camera
 subtypeOf:
   - "[[Vehicle Camera and Recorder]]"
 performs:

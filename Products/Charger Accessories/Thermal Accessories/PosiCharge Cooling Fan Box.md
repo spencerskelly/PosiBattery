@@ -5,10 +5,11 @@ id: OBJ-00311
 uid: 20261003143453045skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Thermal Accessory]]"
 madeBy:

@@ -5,10 +5,11 @@ id: OBJ-00307
 uid: 20261003143453041skellyspencer
 status: Draft
 tags:
+  - accessory
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
-  - accessory
+  - scope-oem-option
 subtypeOf:
   - "[[Charger Stand and Mounting]]"
 performs:

@@ -13,6 +13,9 @@ subtypeOf:
   - "[[GSE Cargo Loader]]"
 madeBy:
   - "[[Oshkosh AeroTech]]"
+offeredWith:
+  - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
 ---
 
 # Oshkosh AeroTech Commander 30i Cargo Loader

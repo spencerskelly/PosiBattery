@@ -6,6 +6,7 @@ uid: 20261002193402990skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Manage Fleet Use]]"
@@ -41,6 +42,7 @@ Configure, monitor or update chargers from a remote portal or app.
   - [[Lester Summit Series II]] (V): <https://voltloop.ca/products/summit-series-ii-charger-1050w-24v-36v-48v>
   - [[PosiCharge SkyLink]] (V): <https://posicharge.com/products/skylink/>
   - [[ACT ACTview]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
+- **Extra (round 30):** documented for 5 of 18 charger maker groups (28 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -11,6 +11,7 @@ tags:
   - lead-acid
   - oem-branded
   - powered-by-posicharge
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

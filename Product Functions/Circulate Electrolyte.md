@@ -6,6 +6,7 @@ uid: 20261003101711510skellyspencer
 status: Draft
 tags:
   - accessory-function
+  - extra
   - product-function
 subtypeOf:
   - "[[Maintain Battery Electrolyte]]"
@@ -33,6 +34,7 @@ Mix or circulate electrolyte during charging to limit acid stratification.
   - [[Midac EUW Electrolyte Circulation System]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
   - [[HOPPECKE trak air Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[GS Yuasa Traction Battery (Europe)]] (V): <https://www.logisticsbusiness.com/?p=40376>
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Forced Electrolyte Circulation); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

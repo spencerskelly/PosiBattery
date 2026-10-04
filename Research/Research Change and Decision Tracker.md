@@ -29,6 +29,7 @@ Each entry should state: date, change, reason/method, affected notes, evidence o
 
 | Date | Change | Method / decision | Affected information | Follow-up |
 | --- | --- | --- | --- | --- |
+| 2026-10-03 | Accessories and bonus features (owner) | 'Bonus' defined as device or software controlled features not on every system; marked on the function as Extra when uncommon (70 Extra, 12 Core); host scope tag on every accessory note; 9 accessory and host pairs linked from sources | [[Extra Functions Register]] | Threshold (50 percent) and tags to be confirmed; maker option catalogs to link more accessories |
 | 2026-10-03 | Feature-first truck comparison (owner request) | Generated matrix of 43 functions by 10 maker groups with cell evidence, reading rules and coverage counts | [[Truck Feature Comparison Matrix]] | Fill dots with sources; re-run when notes change |
 | 2026-10-03 | Dependency strength and class-level targets applied (owner) | Strength column (strong, typical, weak) and gap handling column added to the register; Sense Electrolyte Level, Alert on Low Electrolyte Level and Log Battery Events and Usage retargeted to design classes; report-only check script `99_System/check-dependencies.py` added | [[Function Design Dependencies]] | Owner may turn on --strict |
 | 2026-10-03 | Battery maker gaps (owner request) | GS Yuasa, Banner, Leoch, Godrej Enterprises Group and Amara Raja added with 9 battery notes; Tianneng not found | [[GS Yuasa]], [[Banner]], [[Leoch]], [[Godrej Enterprises Group]], [[Amara Raja]], [[Coverage Plan]] | Datasheets, Tianneng |

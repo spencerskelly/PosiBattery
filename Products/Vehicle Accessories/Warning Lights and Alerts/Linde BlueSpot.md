@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - scope-oem-option
   - truck-device
   - warning
 subtypeOf:

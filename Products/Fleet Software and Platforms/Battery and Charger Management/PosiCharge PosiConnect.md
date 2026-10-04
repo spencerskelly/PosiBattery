@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - posicharge-baseline
+  - scope-oem-option
   - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"

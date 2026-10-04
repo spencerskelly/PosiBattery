@@ -5,11 +5,12 @@ id: OBJ-00256
 uid: 20261003101711491skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
-  - charger-accessory
   - battery-accessory
+  - battery-market-reference
+  - charger-accessory
+  - commercial-product
+  - scope-oem-option
 subtypeOf:
   - "[[Cable Management Accessory]]"
 performs:

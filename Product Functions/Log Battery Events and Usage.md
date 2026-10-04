@@ -6,6 +6,7 @@ uid: 20261002164202356skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
@@ -79,6 +80,7 @@ Record charge, discharge, temperature and fault events with time stamps for late
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+- **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent), delivered by devices or software (Data Handling Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -7,15 +7,18 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - scope-oem-option
   - truck-device
-  - vehicle-accessory
   - truck-oem-option
+  - vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 madeBy:
   - "[[Anhui Heli]]"
+offeredWith:
+  - "[[Heli A3 Series Lithium Forklifts]]"
 ---
 
 # Heli Operator Presence Sensing System

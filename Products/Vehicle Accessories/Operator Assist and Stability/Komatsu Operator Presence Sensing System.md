@@ -7,15 +7,18 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - scope-oem-option
   - truck-device
-  - vehicle-accessory
   - truck-oem-option
+  - vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 madeBy:
   - "[[Komatsu]]"
+offeredWith:
+  - "[[Komatsu FB Series Electric Forklifts]]"
 ---
 
 # Komatsu Operator Presence Sensing System

@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - scope-aftermarket
   - software
   - telematics
   - vehicle-accessory

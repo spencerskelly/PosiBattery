@@ -5,8 +5,9 @@ id: FUNC-00111
 uid: 20261003163422028skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Limit Vehicle Speed Automatically]]"
 dependsOn:
@@ -35,6 +36,7 @@ Set or select travel, lift and tilt speeds to suit the operator and task.
   - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Linde E Series Electric Counterbalance Forklifts]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
+- **Extra (round 30):** documented for 4 of 10 truck maker groups (40 percent), delivered by devices or software (Programmable Motor Controller); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

@@ -6,6 +6,7 @@ uid: 20261002193402986skellyspencer
 status: Draft
 tags:
   - charger
+  - extra
   - product-function
 subtypeOf:
   - "[[Control Charge Profile]]"
@@ -35,6 +36,7 @@ Detect the battery's nominal voltage on connection and pick the profile without 
   - [[Power Designers REVOLUTION X]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf>
   - [[Crown Battery EVOLUTION Series]] (V): <https://crownbattery.com/lp-power-line>
   - [[Lester Summit Series II]] (V): <https://jspowersolutions.b2bwave.com/products/view/492>
+- **Extra (round 30):** documented for 4 of 18 charger maker groups (22 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

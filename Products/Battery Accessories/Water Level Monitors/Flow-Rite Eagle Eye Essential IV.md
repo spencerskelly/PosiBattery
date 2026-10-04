@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - lead-acid
+  - scope-aftermarket
   - water-level
 subtypeOf:
   - "[[Battery Water Level Monitor]]"

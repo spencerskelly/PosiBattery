@@ -6,9 +6,10 @@ uid: 20261002150858946skellyspencer
 status: Draft
 tags:
   - battery-market-reference
+  - charge-interface
   - commercial-product
   - forklift
-  - charge-interface
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 supertypeOf:

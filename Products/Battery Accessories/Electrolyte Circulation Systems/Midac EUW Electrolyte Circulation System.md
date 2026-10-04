@@ -5,11 +5,12 @@ id: OBJ-00214
 uid: 20261003093855183skellyspencer
 status: Draft
 tags:
-  - battery-market-reference
-  - commercial-product
   - accessory
   - battery-accessory
+  - battery-market-reference
   - circulation
+  - commercial-product
+  - scope-oem-option
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 performs:

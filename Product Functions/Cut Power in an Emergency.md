@@ -5,8 +5,9 @@ id: FUNC-00110
 uid: 20261003163422027skellyspencer
 status: Draft
 tags:
-  - truck-function
+  - extra
   - product-function
+  - truck-function
 subtypeOf:
   - "[[Hold or Stop Vehicle Automatically]]"
 dependsOn:
@@ -27,6 +28,7 @@ Remove drive power at once through an emergency cut-off.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Hangcha XC Series Electric Forklifts]] (V): <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/>
+- **Extra (round 30):** documented for 1 of 10 truck maker groups (10 percent), delivered by devices or software (Emergency Cut-Off Switch); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

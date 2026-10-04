@@ -14,6 +14,8 @@ subtypeOf:
   - "[[GSE Belt Loader]]"
 madeBy:
   - "[[Textron GSE]]"
+offeredWith:
+  - "[[Textron Smart Sense]]"
 ---
 
 # TUG 660 Belt Loader

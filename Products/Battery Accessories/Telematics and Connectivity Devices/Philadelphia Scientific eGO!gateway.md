@@ -5,10 +5,11 @@ id: OBJ-00056
 uid: 20261002165629066skellyspencer
 status: Draft
 tags:
+  - adjacent
   - battery-market-reference
   - commercial-product
   - gateway
-  - adjacent
+  - scope-aftermarket
   - site-infrastructure
 subtypeOf:
   - "[[Battery Telematics and Connectivity Device]]"

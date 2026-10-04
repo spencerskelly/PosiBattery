@@ -7,10 +7,11 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+  - scope-oem-option
   - software
   - truck-device
-  - vehicle-accessory
   - truck-oem-option
+  - vehicle-accessory
 subtypeOf:
   - "[[Operator Display]]"
 hasDesign:

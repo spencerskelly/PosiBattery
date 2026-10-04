@@ -6,6 +6,7 @@ uid: 20261002165629052skellyspencer
 status: Draft
 tags:
   - battery-monitoring
+  - extra
   - product-function
 subtypeOf:
   - "[[Protect Battery from Harm]]"
@@ -27,6 +28,7 @@ Send the vehicle a limited-operation or lift lock-out trigger over CAN so the tr
 - Citations are listed under Sources below. Links to products are made only where a source states the behavior.
 - **Sources** (product, evidence level, web page):
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (CAN Interface); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 

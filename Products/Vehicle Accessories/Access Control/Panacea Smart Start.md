@@ -5,11 +5,12 @@ id: OBJ-00273
 uid: 20261003101711508skellyspencer
 status: Draft
 tags:
+  - access-control
   - battery-market-reference
   - commercial-product
+  - scope-aftermarket
   - truck-device
   - vehicle-accessory
-  - access-control
 subtypeOf:
   - "[[Access Control Device]]"
 performs:

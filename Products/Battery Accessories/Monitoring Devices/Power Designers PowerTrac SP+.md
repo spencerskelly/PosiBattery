@@ -10,6 +10,7 @@ tags:
   - forklift
   - gse
   - lead-acid
+  - scope-aftermarket
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:
