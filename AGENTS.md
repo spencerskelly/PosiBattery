@@ -7,7 +7,8 @@ For a normal engineering vault, read these before creating, moving, or editing m
 1. `99_System/02_AI/AI_INSTRUCTIONS.md`
 2. `99_System/10_Docs/MDSE Modeling Ruleset 1.23.md`
 3. `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
-4. the runtime schemas under `99_System/03_Schemas/`
+4. `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+5. the runtime schemas under `99_System/03_Schemas/`
 
 The essentials:
 
