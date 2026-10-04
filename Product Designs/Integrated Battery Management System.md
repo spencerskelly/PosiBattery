@@ -20,12 +20,12 @@ designOf:
   - "[[Exide GNB Lithium Battery 2.0]]"
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Flux Power S-Series Battery]]"
+  - "[[Godrej Lithium-Ion Forklift Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
-  - "[[Godrej Lithium-Ion Forklift Battery]]"
 ---
 
 # Integrated Battery Management System

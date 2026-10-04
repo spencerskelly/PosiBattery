@@ -12,12 +12,12 @@ subtypeOf:
 describedBy:
   - "[[Metric - Chemistry and Plate Construction]]"
 designOf:
+  - "[[Banner Traction Bull PzV Gel]]"
   - "[[Deka Dominator Battery]]"
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
   - "[[Exide Element VRLA Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
-  - "[[Banner Traction Bull PzV Gel]]"
 ---
 
 # Gel Electrolyte

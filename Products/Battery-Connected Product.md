@@ -36,6 +36,7 @@ describedBy:
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Unidentified Products Review]]"
+  - "[[Truck Feature Comparison Matrix]]"
 ---
 
 # Battery-Connected Product

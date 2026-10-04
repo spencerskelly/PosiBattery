@@ -35,6 +35,7 @@ Side-by-side comparison of truck-side proximity and operator assist systems by t
 | [[STILL Safety Assist]] | n/s | n/s | slow-speed zones; curve speed adjustment | n/s | n/s | n/s | [[STILL Safety Assist]] |
 | [[Toyota Assist]] | n/s | n/s | n/s | suite on new Toyota forklift models | n/s | new Toyota forklift models | [[Toyota Assist]] |
 | [[Toyota SEnS+ Pedestrian and Object Detection]] | stereoscopic vision (radar listed separately in the Toyota Assist suite) | n/s | visual and audible alerts; one report adds regenerative-braking movement limiting (C66) | n/s | visual and audible alerts | n/s | [[Toyota SEnS+ Pedestrian and Object Detection]] |
+- **Round 29:** the feature-first view by maker group is in [[Truck Feature Comparison Matrix]].
 
 ## Aliases
 

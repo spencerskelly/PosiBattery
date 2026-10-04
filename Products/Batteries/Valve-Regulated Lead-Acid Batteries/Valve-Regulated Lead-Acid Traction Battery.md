@@ -11,6 +11,7 @@ abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"
 supertypeOf:
+  - "[[Banner Traction Bull PzV Gel]]"
   - "[[Deka Dominator Battery]]"
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
@@ -20,7 +21,6 @@ supertypeOf:
   - "[[Stryten M-Series AGM200 Battery]]"
   - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
-  - "[[Banner Traction Bull PzV Gel]]"
 ---
 
 # Valve-Regulated Lead-Acid Traction Battery

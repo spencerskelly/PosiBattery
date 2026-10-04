@@ -15,11 +15,11 @@ describedBy:
   - "[[Metric - Watering Interval]]"
 designOf:
   - "[[Exide MARATHON Battery]]"
+  - "[[GS Yuasa Traction Battery (Europe)]]"
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
-  - "[[GS Yuasa Traction Battery (Europe)]]"
 ---
 
 # Forced Electrolyte Circulation

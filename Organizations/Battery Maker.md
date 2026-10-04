@@ -8,6 +8,8 @@ tags:
   - organization
   - business-role
 rolePlayedBy:
+  - "[[Amara Raja]]"
+  - "[[Banner]]"
   - "[[CATL]]"
   - "[[Crown Battery Manufacturing]]"
   - "[[East Penn Manufacturing]]"
@@ -15,20 +17,18 @@ rolePlayedBy:
   - "[[Exide Technologies]]"
   - "[[Flux Power]]"
   - "[[GNB Industrial Power]]"
+  - "[[GS Yuasa]]"
+  - "[[Godrej Enterprises Group]]"
   - "[[Green Cubes Technology]]"
   - "[[HOPPECKE]]"
   - "[[Inventus Power]]"
+  - "[[Leoch]]"
   - "[[Midac]]"
   - "[[Nuvera]]"
   - "[[Plug Power]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
-  - "[[GS Yuasa]]"
-  - "[[Banner]]"
-  - "[[Leoch]]"
-  - "[[Godrej Enterprises Group]]"
-  - "[[Amara Raja]]"
 ---
 
 # Battery Maker

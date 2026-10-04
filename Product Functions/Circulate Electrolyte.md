@@ -12,10 +12,10 @@ subtypeOf:
 dependsOn:
   - "[[Forced Electrolyte Circulation]]"
 performedBy:
+  - "[[GS Yuasa Traction Battery (Europe)]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
-  - "[[GS Yuasa Traction Battery (Europe)]]"
 ---
 
 # Circulate Electrolyte

@@ -21,6 +21,8 @@ supertypeOf:
   - "[[Flux Power GSE Pack]]"
   - "[[Flux Power LiFT Pack]]"
   - "[[Flux Power S-Series Battery]]"
+  - "[[Godrej Lithium-Ion Forklift Battery]]"
+  - "[[Godrej Multi-Ion Forklift Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
@@ -35,8 +37,6 @@ supertypeOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
-  - "[[Godrej Lithium-Ion Forklift Battery]]"
-  - "[[Godrej Multi-Ion Forklift Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

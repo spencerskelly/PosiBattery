@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 29) — Feature-first truck comparison built ([[Truck Feature Comparison Matrix]]).
 - 2026-10-03 (round 28) — Dependency strength column and check script added; battery maker gaps (GS Yuasa, Banner, Leoch, Godrej, Amara Raja) covered; Tianneng not found.
 - 2026-10-03 (round 27) — Feature vocabulary and dependency review applied (three dependencies withdrawn, three property functions moved to metrics, general function split); see [[Function Design Dependencies]].
 - 2026-10-03 (round 26) — Sources found for part of the unlinked products; see [[Feature Capture Log]].

@@ -12,12 +12,12 @@ subtypeOf:
 describedBy:
   - "[[Metric - Chemistry and Plate Construction]]"
 designOf:
+  - "[[Banner Traction Bull Bloc PzF]]"
   - "[[Crown V-Force Lead-Acid Battery]]"
+  - "[[Leoch PzS Traction Battery]]"
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
-  - "[[Banner Traction Bull Bloc PzF]]"
-  - "[[Leoch PzS Traction Battery]]"
 ---
 
 # Tubular Plate Construction
