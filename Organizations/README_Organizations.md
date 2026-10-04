@@ -12,7 +12,7 @@ This folder contains organization records and market-role concepts for companies
 
 ## Key information
 
-- [[Ampure]] — group context: PosiCharge, Power Designers Sibex and Automotive and Aftermarket EVSE are internal businesses, not competitors. See [[../Research/Ampure Group Portfolio Context|Ampure Group Portfolio Context]].
+- [[Ampure]] — group context: PosiCharge, Power Designers Sibex and Automotive and Aftermarket EVSE are internal businesses, not competitors. See [[Ampure Group Portfolio Context|Ampure Group Portfolio Context]].
 - [[Business Relationship Ledger]] — detailed relationship evidence and claims.
 - [[Business Relationship Vocabulary]] — terms used for organization-to-organization relationships.
 - [[Offerings by Organization]] — organization-centric offering index.
