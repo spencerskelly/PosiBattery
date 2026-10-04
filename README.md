@@ -2,7 +2,9 @@
 
 PosiBattery is an engineering vault running the lean MDSE **0.8.0** runtime.
 
-Runtime schemas:
+Runtime:
+- Workbench 0.1.17
+- Bootstrap 0.3.1
 - relationships 1.35
 - element-types 1.17
 - Local Model 0.2
@@ -11,6 +13,14 @@ Runtime schemas:
 For AI tools or anyone rebuilding/reorganizing the vault, the authoritative filesystem guidance is:
 
 `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
+
+PosiBattery-specific organization and migration guidance is in:
+
+`99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+
+The current runtime handoff snapshot is in:
+
+`99_System/10_Docs/PosiBattery Runtime Handoff State.md`
 
 Runtime modeling rules are in:
 
