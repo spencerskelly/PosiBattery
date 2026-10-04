@@ -16,6 +16,8 @@ performedBy:
   - "[[Linde Load Management Advanced]]"
   - "[[Linde Safety Pilot]]"
   - "[[Yale Reliant Portfolio]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Restrict Lift When Load Exceeds Limit

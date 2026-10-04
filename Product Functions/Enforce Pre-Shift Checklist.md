@@ -18,6 +18,8 @@ performedBy:
   - "[[Logisnext Lift Link]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[STILL RX 60 Electric Forklift]]"
+realizes:
+  - "[[Control Who Operates Each Truck]]"
 ---
 
 # Enforce Pre-Shift Checklist

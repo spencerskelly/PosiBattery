@@ -19,6 +19,8 @@ performedBy:
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Hyster Reaction]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Stabilize Truck Dynamically

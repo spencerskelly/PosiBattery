@@ -14,6 +14,8 @@ performedBy:
   - "[[Anderson SB Connector Series]]"
   - "[[Crown Battery Cables and Connectors]]"
   - "[[Midac End Leads]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Connect Battery to Charger or Vehicle

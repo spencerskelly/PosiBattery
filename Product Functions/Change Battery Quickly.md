@@ -16,6 +16,8 @@ performedBy:
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
   - "[[Toyota Traigo48]]"
+realizes:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Change Battery Quickly

@@ -20,6 +20,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 - [[Catalog Review 2026-10-02]] — catalog review findings.
 - [[Battery Comparison Matrix]], [[Charger Comparison Matrix]], [[Monitor Comparison Matrix]], [[Truck Device Comparison Matrix]], and [[Forklift Offerings Matrix]] — comparative analyses.
 - [[BMID Competitor Landscape]] and [[Battery Installed Device Market Reference]] — battery-monitoring and installed-device market analysis.
+- [[Product to Customer Need Map]] — products mapped to customer needs and roles; roles are in `Customer Actors/` and needs in `Customer Needs/`.
 - [[Function Map]], [[Design Map]], and [[Function and Design Levels]] — relationships between functions, designs, and modeling levels.
 - [[Landscape Evidence and Modeling Conventions]] — evidence and modeling rules used in landscape work.
 - [[Investigation Backlog]] and [[Document Wishlist]] — future evidence-gathering and research work.

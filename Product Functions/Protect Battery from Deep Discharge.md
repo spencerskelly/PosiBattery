@@ -14,6 +14,8 @@ performedBy:
   - "[[EnerSys NexSys iON Battery]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Hyster Power Cellect]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Protect Battery from Deep Discharge

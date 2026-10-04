@@ -14,6 +14,8 @@ dependsOn:
   - "[[CAN Interface]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Command Vehicle Operating Limits over CAN

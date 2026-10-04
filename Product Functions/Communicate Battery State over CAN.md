@@ -19,6 +19,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Hyster Power Cellect]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Communicate Battery State over CAN

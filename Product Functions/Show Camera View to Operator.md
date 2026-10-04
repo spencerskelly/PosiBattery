@@ -21,6 +21,8 @@ performedBy:
   - "[[Toyota 360 Operating Camera]]"
   - "[[Toyota Carriage-Mounted Camera]]"
   - "[[Toyota Assist]]"
+realizes:
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---
 
 # Show Camera View to Operator

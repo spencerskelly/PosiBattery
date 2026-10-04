@@ -19,6 +19,8 @@ performedBy:
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[PosiCharge Single-Point Automatic Battery Watering]]"
   - "[[PosiCharge SVS200]]"
+realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Water Battery Cells

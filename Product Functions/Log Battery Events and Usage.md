@@ -40,6 +40,8 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[PosiCharge DVS150]]"
   - "[[PosiCharge E-Meter]]"
+realizes:
+  - "[[Document Battery Care for Warranty Compliance]]"
 ---
 
 # Log Battery Events and Usage

@@ -15,6 +15,8 @@ dependsOn:
 performedBy:
   - "[[Crown RC 5700 Series]]"
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
+realizes:
+  - "[[Stretch Truck Run Time per Charge]]"
 ---
 
 # Recover Energy by Regeneration

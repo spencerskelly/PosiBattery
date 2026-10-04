@@ -16,6 +16,8 @@ performedBy:
   - "[[Yale ERC050-060VGL]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Linde MT18 Multifunction Display]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Display Battery Status to Operator

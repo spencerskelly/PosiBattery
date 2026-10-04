@@ -27,6 +27,9 @@ performedBy:
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
   - "[[STILL Safety Assist]]"
+realizes:
+  - "[[Control Who Operates Each Truck]]"
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Control Operator Access

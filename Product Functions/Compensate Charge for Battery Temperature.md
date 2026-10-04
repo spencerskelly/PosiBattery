@@ -29,6 +29,8 @@ performedBy:
   - "[[Lester Summit Series II]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Stryten inCOMMAND]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Compensate Charge for Battery Temperature

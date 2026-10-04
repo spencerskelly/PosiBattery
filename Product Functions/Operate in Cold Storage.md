@@ -18,6 +18,8 @@ performedBy:
   - "[[Heli G Series Lithium Forklifts]]"
   - "[[Toyota Cold Conditioning Package]]"
   - "[[UniCarriers Freezer Option]]"
+realizes:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Operate in Cold Storage

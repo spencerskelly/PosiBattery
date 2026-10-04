@@ -15,6 +15,8 @@ dependsOn:
   - "[[Indicator and Alarm Design]]"
 performedBy:
   - "[[Crown Battery Acid Indicators]]"
+realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Alert on Low Electrolyte Level

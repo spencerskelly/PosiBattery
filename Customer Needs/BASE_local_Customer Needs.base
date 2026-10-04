@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.folder == "Customer Needs"
+views:
+  - type: table
+    name: Local contents
+    order:
+      - file.name
+      - id
+      - status

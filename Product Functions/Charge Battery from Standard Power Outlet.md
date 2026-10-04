@@ -16,6 +16,8 @@ performedBy:
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Heli A3 Series Lithium Forklifts]]"
   - "[[Yale ERC050-060VGL]]"
+realizes:
+  - "[[Charge Without a Ventilated Battery Room]]"
 ---
 
 # Charge Battery from Standard Power Outlet

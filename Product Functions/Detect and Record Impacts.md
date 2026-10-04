@@ -22,6 +22,9 @@ performedBy:
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
+realizes:
+  - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Detect and Record Impacts

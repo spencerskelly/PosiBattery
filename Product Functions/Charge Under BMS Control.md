@@ -18,6 +18,8 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Delta-Q IC650]]"
   - "[[Lester Summit Series II]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Charge Under BMS Control

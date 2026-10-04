@@ -25,6 +25,8 @@ performedBy:
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
   - "[[Toyota Compartment Sensing System]]"
   - "[[Textron Smart Sense]]"
+realizes:
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---
 
 # Stop Vehicle When Operator Is Out of Position

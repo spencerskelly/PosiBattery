@@ -14,6 +14,8 @@ dependsOn:
 performedBy:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"
+realizes:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Refuel Truck Power Source in Minutes

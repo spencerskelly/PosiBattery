@@ -21,6 +21,8 @@ performedBy:
   - "[[Lester Summit Series II]]"
   - "[[ACT ACTview]]"
   - "[[PosiCharge SkyLink]]"
+realizes:
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 ---
 
 # Manage Chargers Remotely

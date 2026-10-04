@@ -14,6 +14,8 @@ performedBy:
   - "[[Yale ERC080VHL]]"
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"
+realizes:
+  - "[[Stretch Truck Run Time per Charge]]"
 ---
 
 # Deliver Constant Power Through Shift

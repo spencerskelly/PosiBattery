@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("Customer Actors")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All notes
+    order:
+      - file.name
+      - id
+      - status

@@ -29,6 +29,8 @@ performedBy:
   - "[[Stryten EHI Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+realizes:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Charge Battery Fast

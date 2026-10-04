@@ -15,6 +15,8 @@ performedBy:
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+realizes:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Charge in Cold Storage

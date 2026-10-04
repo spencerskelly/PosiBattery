@@ -14,6 +14,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[EnerSys Truck iQ]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Detect Voltage Imbalance

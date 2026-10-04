@@ -12,6 +12,8 @@ subtypeOf:
 performedBy:
   - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
   - "[[Raymond 4000 Series Counterbalanced Trucks]]"
+realizes:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Shelter Operator from Weather

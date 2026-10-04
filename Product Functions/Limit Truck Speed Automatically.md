@@ -31,6 +31,8 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+realizes:
+  - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---
 
 # Limit Truck Speed Automatically

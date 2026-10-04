@@ -20,6 +20,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[EnerSys NexSys+ Charger]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Identify Battery to Charger

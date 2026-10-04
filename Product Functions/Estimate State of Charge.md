@@ -24,6 +24,8 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
   - "[[EnerSys Truck iQ]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Estimate State of Charge

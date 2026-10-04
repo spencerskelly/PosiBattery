@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[Crown Cable Management Accessories]]"
   - "[[PosiCharge Charger Stand Kit and Cable Handler]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Manage Charging Cables

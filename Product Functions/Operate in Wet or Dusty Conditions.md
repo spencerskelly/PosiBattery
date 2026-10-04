@@ -16,6 +16,8 @@ performedBy:
   - "[[Komatsu FB Series Electric Forklifts]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Raymond 8000 Series Pallet Trucks]]"
+realizes:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Operate in Wet or Dusty Conditions

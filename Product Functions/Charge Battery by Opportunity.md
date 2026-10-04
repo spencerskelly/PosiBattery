@@ -28,6 +28,8 @@ performedBy:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+realizes:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Charge Battery by Opportunity

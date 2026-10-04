@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 performedBy:
   - "[[EnerSys iQ Mini]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Calculate Battery Abuse Cycles

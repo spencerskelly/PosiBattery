@@ -19,6 +19,8 @@ performedBy:
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
+realizes:
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---
 
 # Assist Lift Positioning

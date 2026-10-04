@@ -35,6 +35,9 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+realizes:
+  - "[[Warn the Operator of People and Objects Near the Truck]]"
+  - "[[Warn Pedestrians of an Approaching Truck]]"
 ---
 
 # Alert Operator of Hazards

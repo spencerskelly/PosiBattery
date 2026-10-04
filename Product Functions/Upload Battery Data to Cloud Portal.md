@@ -32,6 +32,9 @@ performedBy:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge PosiLink]]"
   - "[[PosiCharge PosiNet]]"
+realizes:
+  - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 ---
 
 # Upload Battery Data to Cloud Portal

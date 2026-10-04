@@ -17,6 +17,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Raymond iBattery]]"
+realizes:
+  - "[[Document Battery Care for Warranty Compliance]]"
 ---
 
 # Track Equalization

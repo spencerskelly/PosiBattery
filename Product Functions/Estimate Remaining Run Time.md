@@ -15,6 +15,8 @@ performedBy:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
   - "[[EnerSys Truck iQ]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Estimate Remaining Run Time

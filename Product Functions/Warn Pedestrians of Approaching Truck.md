@@ -29,6 +29,8 @@ performedBy:
   - "[[STILL Warning Zone Light]]"
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
+realizes:
+  - "[[Warn Pedestrians of an Approaching Truck]]"
 ---
 
 # Warn Pedestrians of Approaching Truck

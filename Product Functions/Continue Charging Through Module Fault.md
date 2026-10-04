@@ -18,6 +18,8 @@ performedBy:
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Continue Charging Through Module Fault

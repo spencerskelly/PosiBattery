@@ -16,6 +16,8 @@ performedBy:
   - "[[Crown FC 5700 Series]]"
   - "[[Linde Load Management Advanced]]"
   - "[[Linde System Control]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Adapt Speed to Load and Lift Height

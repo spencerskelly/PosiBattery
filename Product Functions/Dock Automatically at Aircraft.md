@@ -12,6 +12,8 @@ subtypeOf:
 performedBy:
   - "[[Oshkosh AeroTech JetDock]]"
   - "[[TLD ASD+ Assisted Docking]]"
+realizes:
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # Dock Automatically at Aircraft

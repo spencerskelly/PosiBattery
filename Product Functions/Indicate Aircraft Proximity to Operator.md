@@ -15,6 +15,8 @@ dependsOn:
   - "[[Aircraft Proximity Indicator Light]]"
 performedBy:
   - "[[Textron Smart Sense]]"
+realizes:
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # Indicate Aircraft Proximity to Operator

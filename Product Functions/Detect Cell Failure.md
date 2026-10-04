@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Sense Battery State]]"
 performedBy:
   - "[[AMETEK Prestolite Power TruBid]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Detect Cell Failure

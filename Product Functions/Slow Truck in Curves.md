@@ -25,6 +25,8 @@ performedBy:
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Slow Truck in Curves

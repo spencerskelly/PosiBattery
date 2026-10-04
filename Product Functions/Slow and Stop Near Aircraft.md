@@ -19,6 +19,8 @@ performedBy:
   - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
   - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
   - "[[Textron Smart Sense]]"
+realizes:
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # Slow and Stop Near Aircraft

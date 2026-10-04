@@ -31,6 +31,8 @@ performedBy:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[PosiCharge Three-Color Stack Light]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Indicate Battery Status Locally

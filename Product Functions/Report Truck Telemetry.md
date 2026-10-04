@@ -30,6 +30,10 @@ performedBy:
   - "[[STILL neXXt fleet]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
+realizes:
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+  - "[[Control Who Operates Each Truck]]"
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Report Truck Telemetry

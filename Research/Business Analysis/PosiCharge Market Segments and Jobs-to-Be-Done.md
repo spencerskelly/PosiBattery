@@ -52,10 +52,12 @@ Define the operational contexts and customer jobs used to judge relevance, produ
 - [[PosiCharge Product Comparison Matrix]]
 - [[PosiCharge Capability Gap Assessment]]
 - [[README_Product Functions|Product Functions]]
+- [[Product to Customer Need Map]] and [[../../Customer Needs/README_Customer Needs|Customer Needs]]: customer needs and roles added as hypotheses, with a crosswalk to these segments
 - [[README_Performance Metrics|Performance Metrics]]
 
 ### Change history
 
+- 2026-10-03 — Customer needs and roles added in `Customer Needs/` and `Customer Actors/` with a segment crosswalk in [[Product to Customer Need Map]]; this note's segments and jobs were not changed.
 - 2026-10-03 — Defined initial segments and customer jobs. Method: make the operating context explicit before deciding whether offers compete, partner, or address a material gap. See [[Research Change and Decision Tracker]].
 
 ## Aliases

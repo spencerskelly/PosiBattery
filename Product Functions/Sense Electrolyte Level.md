@@ -43,6 +43,8 @@ performedBy:
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
+realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Sense Electrolyte Level

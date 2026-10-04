@@ -26,6 +26,8 @@ performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Stryten inCOMMAND]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Communicate with Charger

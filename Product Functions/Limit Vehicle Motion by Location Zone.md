@@ -19,6 +19,8 @@ performedBy:
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
+realizes:
+  - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---
 
 # Limit Vehicle Motion by Location Zone
