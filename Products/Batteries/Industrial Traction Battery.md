@@ -15,9 +15,11 @@ supertypeOf:
 describedBy:
   - "[[Battery Comparison Matrix]]"
   - "[[Catalog Review 2026-10-02]]"
+  - "[[Cold Storage Charging Rules for Traction Batteries (ZVEI)]]"
   - "[[Flooded Lead-Acid Charge Profile Comparison]]"
   - "[[Note Standard (Example)]]"
   - "[[Traction Battery Charging Characteristics (DIN Notation)]]"
+  - "[[VRLA Charge Profile Comparison (AGM and Gel)]]"
   - "[[Offerings by Organization]]"
   - "[[Metric - BMS and Communication]]"
   - "[[Metric - Capacity]]"
@@ -30,6 +32,7 @@ describedBy:
   - "[[Metric - Charge Time]]"
   - "[[Metric - Charging Gas Emissions]]"
   - "[[Metric - Chemistry and Plate Construction]]"
+  - "[[Metric - Constant Voltage Setpoint]]"
   - "[[Metric - Cycle Life and Warranty]]"
   - "[[Metric - Depth of Discharge Limit]]"
   - "[[Metric - Equalizing Charge Rule]]"
@@ -38,12 +41,11 @@ describedBy:
   - "[[Metric - Nominal Voltage Range]]"
   - "[[Metric - Onboard Accessories]]"
   - "[[Metric - Operating Temperature Range]]"
+  - "[[Metric - Opportunity Charging Window]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
-  - "[[Metric - Constant Voltage Setpoint]]"
-  - "[[Metric - Opportunity Charging Window]]"
-  - "[[VRLA Charge Profile Comparison (AGM and Gel)]]"
-  - "[[Cold Storage Charging Rules for Traction Batteries (ZVEI)]]"
+  - "[[Metric - Maximum Continuous Charge Current]]"
+  - "[[Lithium-Ion Forklift Charge Profile Comparison]]"
 ---
 
 # Industrial Traction Battery

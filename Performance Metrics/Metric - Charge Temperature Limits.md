@@ -24,6 +24,7 @@ Charge Temperature Limits: degrees C
 - **Comparability rule:** Start-of-charge and upper limits differ in meaning; record which is which.
 - **Direction:** not ranked.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Flux Power LiFT Pack]]: charge 0 to 45 C (32 to 113 F); discharge -20 to 55 C; integrated heaters for cold
   - [[HAWKER Perfect Plus Battery]]: charging should begin only if electrolyte is below 45 C and at least 10 C (rises about 10 C during charge); rated 30 C; 55 C is the upper limit and not acceptable as an operating temperature
   - [[Stryten M-Series T300 Battery]]: an average above 125 F is a condition for action (text cut off); let the battery reach room temperature before charging
   - [[Stryten M-Series T330 Battery]]: an average above 125 F, or a rise of more than 25 F (14 C) during charge, are conditions for action (text cut off)

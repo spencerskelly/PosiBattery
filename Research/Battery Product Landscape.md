@@ -72,6 +72,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 35 2026-10-03:** flooded charge profile sources extended; [[Traction Battery Charging Characteristics (DIN Notation)]]; comparison note rewritten and corrected.
 - **Round 36 2026-10-03:** [[Charger Charge Algorithm Comparison]], 3 charger metrics, function Adapt Charge to Battery Condition; conflict C98.
 - **Round 37 2026-10-03:** [[VRLA Charge Profile Comparison (AGM and Gel)]], [[Cold Storage Charging Rules for Traction Batteries (ZVEI)]], 2 metrics; conflict C99.
+- **Round 38 2026-10-03:** [[Lithium-Ion Forklift Charge Profile Comparison]], metric Maximum Continuous Charge Current; conflict C100.
 
 ## Aliases
 

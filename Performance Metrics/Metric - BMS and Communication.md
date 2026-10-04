@@ -27,9 +27,13 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
 - **Direction:** richer is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Deka Ready Power Lithium Battery]]: multi-module BMS over CAN
+  - [[EnerSys NexSys iON Battery]]: BMS limits charge and discharge voltage; optional CAN to the truck; ISO 26262 design
   - [[Exide GNB Lithium Battery 2.0]]: BMS; GNB Cloud option
+  - [[Flux Power LiFT Pack]]: patented BMS limits charging; CAN integration with the truck; onboard charger
   - [[Flux Power S-Series Battery]]: BMS and telemetry
   - [[Green Cubes GSE Lithium Battery]]: BMS on top; CANbus
+  - [[Green Cubes SAFEFlex Battery]]: internal BMS balancing; CAN voltage auto-detect at the Lithium SAFEFlex charger
+  - [[Hyster Power Cellect]]: BMS adjusts charge current with the charger over a custom CAN protocol and opens the charge contactor on an unsafe cell; only recommended chargers
   - [[Stryten M-Series Li600 Battery]]: configurable CANbus; remote monitoring; touchscreen diagnostics
   - [[Stryten M-Series Li610 Battery]]: onboard display; inCOMMAND
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

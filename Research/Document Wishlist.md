@@ -27,6 +27,12 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>addresses from search results, snippets used; not opened | Flux Power LiFT Pack FAQ (v1.5) and M36 and X80 brochures | <https://www.fluxpower.com/hubfs/Support-Documents/S-Series%20/FAQ/990821-v1.5-Flux-LiFT-Pack-FAQ.pdf> <https://www.fluxpower.com/hubfs/M36%20Battery%20Pack%20-Brochure-1.pdf> <https://www.fluxpower.com/hubfs/X80%20Battery%20Pack%20-%20Brochure-1.pdf> |  | Flux charge window, current and profile | - | R38 |
+| **high priority**<br>page found by search; snippets used | Hyster lithium-ion battery and charger FAQ (EMEA and North America) | no direct file found | <https://www.hyster.com/en-gb/emea/industry-solutions/power-sources/lithium-ion-batteries/> | Hyster BMS-charger communication | - | R38 |
+| **high priority**<br>page found by search; snippets used; algorithm table not retrieved | Delta-Q: Choosing an Algorithm for a Lithium Battery (FAQ164) | no direct file found | <https://support.delta-q.com/hc/en-us/articles/14188856858893-Choosing-an-Algorithm-for-a-Lithium-Battery> | Delta-Q lithium algorithms | - | R38 |
+| **high priority**<br>not found | EnerSys NexSys iON manual and NexSys+ lithium charging profile table | no direct file found | <https://www.enersys.com/> | NexSys iON charge rates | - | R38 |
+| **high priority**<br>not found | Green Cubes SAFEFlex battery manual and CAN integration guide | no direct file found | <https://greencubestech.com/> | Green Cubes charge profile | - | R38 |
+| **high priority**<br>not found | Crown V-Force lithium-ion charging manual | no direct file found | <https://www.crown.com/> | Crown lithium charging | - | R38 |
 | **high priority**<br>read in full in round 37 through the fetch tool | ZVEI leaflet: Dependencies and rules for operating PzS- and PzV-traction batteries at low temperatures (August 2009) | <https://www.zvei.org/fileadmin/user_upload/Verband/Fachverbaende/Batterien/Merkblaetter/Industriebatterien/21_e_Traction_Batteries_at_low_temeratures_2009-08.pdf> |  | Cold-store charging and temperature rules | - | R37 |
 | **high priority**<br>addresses from search results, snippets used; not opened | Stryten AGM220 installation and operating instructions (SE1041) and brochure (SE1043) | <https://www.stryten.com/wp-content/uploads/2023/03/Stryten-M-Series-I-O-Manual-AGM220-SE1041-April-2023.pdf> <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-SeriesProductBrochure_AGM220_SE1043_FINAL.pdf> |  | AGM220 charge rules | - | R37 |
 | **high priority**<br>only a French-Canada edition of the AGM200 manual found, fragmentary | Stryten AGM200 and AGM210 manuals in English | <https://www.stryten.com/wp-content/uploads/2024/04/Stryten_M-Series_I-O_Manual_AGM200_SE1045_French-Canada_Final.pdf> |  | AGM200 and AGM210 charge rules | - | R37 |
@@ -250,6 +256,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 35 2026-10-03:** 6 rows (Stryten manuals found by search, snippets used; ZVEI leaflet read in full).
 - **Round 36 2026-10-03:** 6 rows for charger algorithm sources.
 - **Round 37 2026-10-03:** 6 rows for VRLA and cold-store charging sources (the ZVEI low-temperature leaflet read in full).
+- **Round 38 2026-10-03:** 6 rows for lithium-ion charge profile sources.
 
 ## Aliases
 

@@ -34,6 +34,7 @@ Green Cubes FBC series chargers for its lithium material handling and GSE batter
 - **Related products and how they differ (offeredWith):**
   - [[Green Cubes SAFEFlex Battery]]: no difference stated in the sources.
   - [[Green Cubes GSE Lithium Battery]]: no difference stated in the sources.
+- Green Cubes' Lithium SAFEFlex chargers are 15 and 30 kW with 1, 2 or 3 outputs for 24, 36, 48, 72, 80 and 96 V lithium batteries, with automatic voltage detection over CAN communication on each port, universal AC input, a touchscreen and remote management through embedded IoT that reports each charge session, and an operating temperature of -4 to 122 F. Source: Green Cubes charger release (T1/T2), retrieved 2026-10-03. <https://www.csemag.com/products/lithium-safeflex-charger>
 
 ## Aliases
 

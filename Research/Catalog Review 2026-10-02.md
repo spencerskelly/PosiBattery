@@ -134,7 +134,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite]] | monitor | 5 | 0 | 5 | defined |
 | [[Flow-Rite Maverick Battery Watering System]] | [[Flow-Rite]] | monitor | 0 | 0 | 0 | none |
 | [[Flux Power GSE Pack]] | [[Flux Power]] | battery | 0 | 0 | 2 | partial |
-| [[Flux Power LiFT Pack]] | [[Flux Power]] | battery | 0 | 0 | 2 | partial |
+| [[Flux Power LiFT Pack]] | [[Flux Power]] | battery | 0 | 0 | 7 | defined |
 | [[Flux Power S-Series Battery]] | [[Flux Power]] | battery | 1 | 0 | 0 | none |
 | [[Fronius Charge & Connect]] | [[Fronius International]] | accessory | 0 | 1 | 3 | defined |
 | [[Fronius SelectION]] | [[Fronius International]] | charger | 2 | 0 | 0 | none |
@@ -144,8 +144,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Godrej Lithium-Ion Forklift Battery]] | [[Godrej Enterprises Group]] | battery | 1 | 0 | 6 | defined |
 | [[Godrej Multi-Ion Forklift Battery]] | [[Godrej Enterprises Group]] | battery | 0 | 0 | 4 | defined |
 | [[Green Cubes GSE Lithium Battery]] | [[Green Cubes Technology]] | battery | 3 | 1 | 1 | partial |
-| [[Green Cubes SAFEFlex Battery]] | [[Green Cubes Technology]] | battery | 1 | 1 | 1 | partial |
-| [[Green Cubes SAFEFlex Charger]] | [[Green Cubes Technology]] | charger | 1 | 2 | 0 | none |
+| [[Green Cubes SAFEFlex Battery]] | [[Green Cubes Technology]] | battery | 1 | 1 | 5 | defined |
+| [[Green Cubes SAFEFlex Charger]] | [[Green Cubes Technology]] | charger | 1 | 2 | 3 | defined |
 | [[Green Cubes SAFEFlex PLUS Battery]] | [[Green Cubes Technology]] | battery | 0 | 0 | 1 | partial |
 | [[HOPPECKE trak air Electrolyte Circulation]] | [[HOPPECKE]] | accessory | 2 | 1 | 0 | none |
 | [[HOPPECKE trak charger HF premium]] | [[HOPPECKE]] | charger | 1 | 3 | 0 | none |
@@ -386,6 +386,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
