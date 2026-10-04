@@ -12,7 +12,7 @@ This folder is the catalog of product categories, product-family concepts, and i
 - [[Charger Accessories/Charger Accessory|Charger Accessories]] — cable management, connector accessories, controls/indicators, and mounting.
 - [[Fleet Software and Platforms/Fleet Software and Platform|Fleet Software and Platforms]] — battery/charger management and truck telematics.
 - [[Forklifts/Powered Industrial Truck|Forklifts]] — powered industrial trucks across Classes I–VII.
-- [[Fuel Cell Power Units/Hydrogen Fuel Cell Units|Fuel Cell Power Units]] — hydrogen fuel-cell power systems.
+- [[Fuel Cell Power Unit|Fuel Cell Power Units]] — hydrogen fuel-cell power systems.
 - [[Ground Support Equipment/Ground Support Equipment|Ground Support Equipment]] — baggage/tow tractors, belt loaders, cargo loaders, and pushback tractors.
 - [[Vehicle Accessories/Vehicle Accessory|Vehicle Accessories]] — access control, cameras, operator assistance, displays, power interfaces, detection, and warnings.
 
