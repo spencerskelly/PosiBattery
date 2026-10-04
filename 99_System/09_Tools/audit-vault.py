@@ -95,7 +95,18 @@ for path,fm in model_notes.items():
 dup_ids={k:v for k,v in ids.items() if len(v)>1}
 dup_uids={k:v for k,v in uids.items() if len(v)>1}
 
-# Wikilink resolution approximation using Obsidian basename/path behavior.
+# Wikilink resolution approximation across all repository files.
+all_files = [p for p in ROOT.rglob("*") if p.is_file() and ".git" not in p.parts]
+file_by_name=defaultdict(list)
+file_by_stem=defaultdict(list)
+file_paths={}
+for p in all_files:
+    rp=p.relative_to(ROOT).as_posix()
+    file_paths[rp]=rp
+    file_by_name[p.name].append(rp)
+    file_by_stem[p.stem].append(rp)
+
+# Markdown-only indexes are used for semantic relationship resolution.
 basename=defaultdict(list)
 stempath={}
 for path in notes:
@@ -103,18 +114,55 @@ for path in notes:
     stempath[stem]=path
     basename[Path(stem).name].append(path)
 
+def resolve_any(source,target):
+    target=target.strip()
+    if not target:
+        return []
+    if (target.startswith("<") and target.endswith(">")) or target in ("...","…"):
+        return ["<example>"]
+    # Obsidian path-like links may be repo-relative or relative to the source note.
+    if "/" in target or target.startswith("."):
+        candidates=set()
+        source_dir=Path(source).parent
+        raw=(source_dir / target).as_posix()
+        parts=[]
+        for part in raw.split("/"):
+            if part in ("","."):
+                continue
+            if part=="..":
+                if parts: parts.pop()
+            else:
+                parts.append(part)
+        norm="/".join(parts)
+        target_noext=str(Path(target).with_suffix(""))
+        norm_noext=str(Path(norm).with_suffix(""))
+        for rp in file_paths:
+            rp_noext=str(Path(rp).with_suffix(""))
+            if rp==target or rp_noext==target_noext or rp==norm or rp_noext==norm_noext:
+                candidates.add(rp)
+            elif rp.endswith("/"+target) or rp_noext.endswith("/"+target_noext):
+                candidates.add(rp)
+        return sorted(candidates)
+    candidates=set(file_by_name.get(target,[]))
+    candidates.update(file_by_stem.get(target,[]))
+    return sorted(candidates)
+
 broken=[]; ambiguous=[]
 link_re=re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 for source,n in notes.items():
-    for m in link_re.finditer(n["text"]):
-        target=m.group(1).strip().removesuffix(".md")
-        if not target or "://" in target: continue
-        if "/" in target:
-            matches=[p for s,p in stempath.items() if s==target or s.endswith("/"+target)]
-        else:
-            matches=basename.get(target,[])
-        if len(matches)==0: broken.append((source,target))
-        elif len(matches)>1: ambiguous.append((source,target,matches))
+    # Exclude fenced code examples from link health.
+    body=re.sub(r"\x60\x60\x60.*?\x60\x60\x60","",n["text"],flags=re.S)
+    for m in link_re.finditer(body):
+        target=m.group(1).strip()
+        if not target or "://" in target:
+            continue
+        matches=resolve_any(source,target)
+        if matches==["<example>"]:
+            continue
+        if len(matches)==0:
+            broken.append((source,target))
+        elif len(matches)>1:
+            ambiguous.append((source,target,matches))
 
 # Relationship target and inverse check.
 rel_missing=[]; inverse_missing=[]
