@@ -30,6 +30,11 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
 ---
 
 # Alert Operator of Hazards
@@ -58,6 +63,11 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
   - [[Mitsubishi Integrated Presence System]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbc25en>
   - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.ivtinternational.com/?p=22917>
+  - [[Oshkosh AeroTech APD Forward Radar and Controller]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Wheel Position Sensor]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 
 ## Aliases
 

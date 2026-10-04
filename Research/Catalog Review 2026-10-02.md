@@ -233,11 +233,19 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 3 | 6 | defined |
 | [[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 4 | 2 | partial |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
+| [[Oshkosh AeroTech APD Engine Cowling Sensors]] | [[Oshkosh AeroTech]] | accessory | 4 | 0 | 0 | none |
+| [[Oshkosh AeroTech APD Forward Radar and Controller]] | [[Oshkosh AeroTech]] | accessory | 4 | 2 | 4 | defined |
+| [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] | [[Oshkosh AeroTech]] | accessory | 2 | 0 | 0 | none |
+| [[Oshkosh AeroTech APD Wheel Position Sensor]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 0 | none |
+| [[Oshkosh AeroTech APD Wing and Fairing Sensors]] | [[Oshkosh AeroTech]] | accessory | 3 | 0 | 0 | none |
 | [[Oshkosh AeroTech Aircraft Proximity Detection]] | [[Oshkosh AeroTech]] | accessory | 1 | 2 | 0 | none |
 | [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 4 | defined |
-| [[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 2 | 0 | none |
+| [[Oshkosh AeroTech Commander 30i Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 5 | 0 | none |
+| [[Oshkosh AeroTech JetDock]] | [[Oshkosh AeroTech]] | accessory | 1 | 1 | 0 | none |
+| [[Oshkosh AeroTech Powered Handrail with Distance Sensor]] | [[Oshkosh AeroTech]] | accessory | 1 | 0 | 2 | partial |
 | [[Oshkosh AeroTech Pushback B350E and B650E]] | [[Oshkosh AeroTech]] | gse | 0 | 0 | 0 | none |
-| [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 1 | 0 | none |
+| [[Oshkosh AeroTech Ramp Visibility Lights]] | [[Oshkosh AeroTech]] | accessory | 1 | 1 | 1 | partial |
+| [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | [[Oshkosh AeroTech]] | gse | 0 | 2 | 2 | partial |
 | [[Oshkosh AeroTech iOPS]] | [[Oshkosh AeroTech]] | accessory | 1 | 1 | 0 | none |
 | [[Panacea Blue Warning Light]] | [[Panacea Aftermarket Co.]] | accessory | 1 | 0 | 1 | partial |
 | [[Panacea Cam-DVR with Impact Sensors]] | [[Panacea Aftermarket Co.]] | accessory | 3 | 0 | 0 | none |
@@ -335,8 +343,10 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 3 | 21 | defined |
 | [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 3 | 9 | defined |
 | [[Stryten inCOMMAND]] | [[Stryten Energy]] | accessory | 2 | 3 | 0 | none |
-| [[TLD Aircraft Safety Docking]] | [[TLD Group]] | accessory | 2 | 0 | 0 | none |
-| [[TLD NBL-E Belt Loader]] | [[TLD Group]] | gse | 0 | 0 | 0 | none |
+| [[TLD ASD+ Assisted Docking]] | [[TLD Group]] | accessory | 1 | 1 | 0 | none |
+| [[TLD Aircraft Safety Docking]] | [[TLD Group]] | accessory | 2 | 1 | 0 | none |
+| [[TLD NBL-E Belt Loader]] | [[TLD Group]] | gse | 0 | 1 | 0 | none |
+| [[TLD RBL Electric Regional Belt Loader]] | [[TLD Group]] | gse | 0 | 1 | 1 | partial |
 | [[TVH Forklift Arrow Lights]] | [[TVH]] | accessory | 1 | 0 | 0 | none |
 | [[TUG 660 Belt Loader]] | [[Textron GSE]] | gse | 0 | 1 | 0 | none |
 | [[TUG ALPHA 1 Pushback]] | [[Textron GSE]] | gse | 0 | 0 | 0 | none |
@@ -375,6 +385,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

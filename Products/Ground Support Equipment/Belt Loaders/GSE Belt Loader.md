@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Mallaghan SkyBelt]]"
   - "[[TLD NBL-E Belt Loader]]"
   - "[[TUG 660 Belt Loader]]"
+  - "[[TLD RBL Electric Regional Belt Loader]]"
 ---
 
 # GSE Belt Loader

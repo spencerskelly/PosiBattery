@@ -43,6 +43,10 @@ supertypeOf:
   - "[[Toyota System of Active Stability]]"
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
+  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
+  - "[[Oshkosh AeroTech JetDock]]"
+  - "[[TLD ASD+ Assisted Docking]]"
 ---
 
 # Operator Assist and Stability System

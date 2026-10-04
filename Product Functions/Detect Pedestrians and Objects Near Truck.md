@@ -39,6 +39,9 @@ performedBy:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
 ---
 
 # Detect Pedestrians and Objects Near Truck
@@ -76,6 +79,9 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
   - [[Jungheinrich Reverse Area Warning System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Doosan Bobcat Pedestrian Detection Camera]] (V): <https://www.ivtinternational.com/?p=21644>
+  - [[Oshkosh AeroTech APD Forward Radar and Controller]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 
 ## Aliases
 

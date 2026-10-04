@@ -30,6 +30,7 @@ describedBy:
   - "[[Feature Capture Log]]"
   - "[[Function Design Dependencies]]"
   - "[[Function and Design Levels]]"
+  - "[[GSE Part Connection Register]]"
   - "[[Investigation Backlog]]"
   - "[[Knowledge Base Next Steps]]"
   - "[[Landscape Evidence and Modeling Conventions]]"
@@ -41,7 +42,6 @@ describedBy:
   - "[[Truck Feature Comparison Matrix]]"
   - "[[Truck Part Connection Register]]"
   - "[[Unidentified Products Review]]"
-  - "[[GSE Part Connection Register]]"
 ---
 
 # Battery-Connected Product

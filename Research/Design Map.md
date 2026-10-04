@@ -103,7 +103,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Quick-Change Battery Compartment]] | [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Hangcha A Series Electric Forklifts]], [[Hangcha XC Series Electric Forklifts]], [[Toyota Traigo48]] | - | - |
 | [[RFID or PIN Access Reader]] | [[Hangcha XC Series Electric Forklifts]], [[Linde connect]], [[Logisnext Lift Link]], [[Raymond 8000 Series Pallet Trucks]], [[STILL EXH-SF Low Lift Pallet Truck]], [[Toyota PIN Code Access Pad]] | - | - |
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
-| [[Radar Object Sensor]] | [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
+| [[Radar Object Sensor]] | [[Oshkosh AeroTech APD Forward Radar and Controller]], [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Crown RC 5700 Series]], [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Seat Belt Interlock]] | [[STILL EasyBelt]] | - | - |
@@ -116,7 +116,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Truck Charging Port]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]], [[Cat Lithium-Ion Battery Option]], [[Toyota Traigo48]] | - | - |
 | [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
-| [[Ultrasonic Distance Sensor]] | [[Textron Smart Sense]] | - | - |
+| [[Ultrasonic Distance Sensor]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Textron Smart Sense]] | - | - |
 | [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
 | [[Wi-Fi Interface]] | [[ACT ACTview]], [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
@@ -126,6 +126,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.

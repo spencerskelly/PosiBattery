@@ -14,6 +14,8 @@ playsRole:
 makes:
   - "[[TLD NBL-E Belt Loader]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[TLD ASD+ Assisted Docking]]"
+  - "[[TLD RBL Electric Regional Belt Loader]]"
 ---
 
 # TLD Group

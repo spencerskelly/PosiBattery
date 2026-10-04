@@ -28,6 +28,7 @@ performedBy:
   - "[[STILL Warning Zone Light]]"
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
+  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
 ---
 
 # Warn Pedestrians of Approaching Truck
@@ -57,6 +58,7 @@ Warn people on foot that a truck is approaching with lights, sounds or wearable 
   - [[Panacea Blue Warning Light]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
   - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Oshkosh AeroTech Ramp Visibility Lights]] (V): <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en>
 
 ## Aliases
 

@@ -27,6 +27,13 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>new this round (GSE options); address from search results, not opened | Oshkosh AeroTech Customer Care Service and Kit Catalog (Summer 2026) | <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en> |  | Oshkosh AeroTech loader and pushback kits and options | - | R33 |
+| **high priority**<br>new this round (GSE options); address from search results, not opened | Oshkosh AeroTech Customer Care Service and Kit Catalog (Summer 2024) | <https://oshkoshaerotech.com/wp-content/uploads/2024/10/Customer-Care-Catalog-Summer2024Catalog.pdf> |  | Oshkosh AeroTech kits (older edition) | - | R33 |
+| **high priority**<br>new this round (GSE options) | Oshkosh AeroTech Aircraft Proximity Detection brochure (06/18/24) | <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24> |  | APD components (read in round 33) | - | R33 |
+| **high priority**<br>new this round (GSE options) | TLD NBL-E, RBL and ASD+ brochures | no direct file found | <https://www.tld-group.com/products/belt-loaders/nbl-e/> | TLD options and docking | - | R33 |
+| **high priority**<br>new this round (GSE options) | Textron GSE TUG 660 and Alpha brochures with options lists | no direct file found | <https://textrongse.com/products/belt-loaders/tug-660> | Textron GSE options | - | R33 |
+| **high priority**<br>new this round (GSE options) | Charlatte belt loader, pushback and tractor option lists | no direct file found | <https://www.charlatte.com/> | Charlatte options (nothing new found in round 33) | - | R33 |
+| **high priority**<br>new this round (GSE options) | Mallaghan SkyBelt options and accessory list | no direct file found | <https://www.mallaghan.com/> | Mallaghan options | - | R33 |
 | **high priority**<br>new this round (battery maker gaps); direct addresses come from search results and were not opened | Banner Traction Bull brochure (PzS, PzV, Bloc ranges) | <https://bannerbatterien.com/energysolutions/upload/files/FolderAGS_GB.pdf> |  | Banner traction range | - | R28 |
 | **high priority**<br>new this round (battery maker gaps); direct addresses come from search results and were not opened | Banner Traction Bull Bloc PzF data sheet | <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf> |  | Banner Bloc PzF | - | R28 |
 | **high priority**<br>new this round (battery maker gaps) | GS Yuasa traction range brochure and cell data (Europe and Japan) | no direct file found | <https://www.gs-yuasa.eu/products/traction/> | GS Yuasa traction | - | R28 |
@@ -211,6 +218,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 23 2026-10-03:** 7 direct file addresses for Hangcha and Cat found in search results (not opened) and 4 page-only rows for Heli, Doosan, Komatsu and STILL. Counts: high priority 56, helpful 30, issue 12, in repo 60.
 - **Round 24 2026-10-03:** 5 page-only rows added for the Mitsubishi Logisnext group; no direct file was found for any Mitsubishi, UniCarriers or Cat sheet. Counts: high priority 61, helpful 30, issue 12, in repo 60.
 - **Round 28 2026-10-03:** 7 rows added for the battery makers (two Banner files found by search, not opened).
+- **Round 33 2026-10-03:** 7 GSE rows added; the Oshkosh AeroTech APD brochure was read through the fetch tool; the two Customer Care catalogs have direct addresses found by search and were not opened.
 
 ## Aliases
 

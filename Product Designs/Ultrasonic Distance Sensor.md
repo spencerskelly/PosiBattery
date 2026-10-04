@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Object and Proximity Sensing Design]]"
 designOf:
   - "[[Textron Smart Sense]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
 ---
 
 # Ultrasonic Distance Sensor
@@ -25,6 +27,8 @@ Ultrasonic sensors that measure distance to an aircraft or object.
 - Design characteristic found in GSE products, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+  - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech Powered Handrail with Distance Sensor]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 
 ## Aliases
 

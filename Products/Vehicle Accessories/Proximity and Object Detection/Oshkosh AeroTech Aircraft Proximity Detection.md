@@ -13,6 +13,13 @@ tags:
   - truck-device
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
+hasPart:
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
+  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
 madeBy:

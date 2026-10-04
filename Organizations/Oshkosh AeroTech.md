@@ -18,6 +18,14 @@ makes:
   - "[[Oshkosh AeroTech Commander 30i Cargo Loader]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Oshkosh AeroTech iOPS]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
+  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
+  - "[[Oshkosh AeroTech JetDock]]"
+  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
 ---
 
 # Oshkosh AeroTech

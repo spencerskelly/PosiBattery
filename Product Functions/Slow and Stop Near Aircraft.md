@@ -15,6 +15,10 @@ dependsOn:
   - "[[Object and Proximity Sensing Design]]"
 performedBy:
   - "[[Textron Smart Sense]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
 ---
 
 # Slow and Stop Near Aircraft
@@ -29,6 +33,10 @@ Reduce speed and stop a vehicle automatically as it approaches an aircraft, so t
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Textron Smart Sense]] (V): <https://airport.h5mag.com/air_dec18/textron_company_insight>
+  - [[Oshkosh AeroTech APD Forward Radar and Controller]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Extra (round 30):** documented for 1 of 6 gse maker groups (17 percent), delivered by devices or software (Object and Proximity Sensing Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

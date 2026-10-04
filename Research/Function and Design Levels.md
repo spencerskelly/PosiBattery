@@ -53,7 +53,7 @@ How functions and designs are generalized into levels, which relationships conne
   - [[Hold or Stop Vehicle Automatically]] (general): [[Cut Power in an Emergency]], [[Hold Truck on Slope]], [[Reduce Wheel Slip]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
 - **[[Support the Operator]]** (goal)
   - [[Support Operator View and Positioning]] (general): [[Assist Lift Positioning]], [[Show Camera View to Operator]]
-  - [[Reduce Operator Effort]] (general): [[Follow Operator Automatically]], [[Rotate Operator Workstation]], [[Steer with Electric Power Assist]]
+  - [[Reduce Operator Effort]] (general): [[Dock Automatically at Aircraft]], [[Follow Operator Automatically]], [[Rotate Operator Workstation]], [[Steer with Electric Power Assist]]
   - [[Inform Operator of Truck Condition]] (general): [[Display Truck Status to Operator]], [[Indicate Maintenance Due]]
 
 **Design classes**
@@ -89,7 +89,7 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Communicate Battery and Vehicle Data]] | 9 | 41 | [[Local LED Indicator]] (10), [[Cloud Portal Integration]] (8), [[Acid-Resistant Sealed Housing]] (7), [[Cellular Communication Interface]] (6), [[Non-Volatile Event Memory]] (5) |
 | [[Connect Battery Power Path]] | 2 | 5 | none yet |
 | [[Control Charge Profile]] | 8 | 28 | [[Modular Power Modules]] (8), [[Multi-Voltage Output]] (7), [[Charger Status LED Bar]] (4), [[DC-Cable Power-Line Communication]] (2), [[Touchscreen Interface]] (2) |
-| [[Hold or Stop Vehicle Automatically]] | 5 | 16 | [[Electric Parking Brake]] (3), [[Quick-Change Battery Compartment]] (2), [[Programmable Motor Controller]] (1), [[Regenerative Braking]] (1), [[Audible Alarm]] (1) |
+| [[Hold or Stop Vehicle Automatically]] | 5 | 20 | [[Electric Parking Brake]] (3), [[Quick-Change Battery Compartment]] (2), [[Ultrasonic Distance Sensor]] (2), [[Programmable Motor Controller]] (1), [[Regenerative Braking]] (1) |
 | [[Inform Operator of Truck Condition]] | 2 | 4 | [[Vehicle-Mounted Display]] (3), [[Audible Alarm]] (2), [[AC Drive Motor]] (2), [[Electric Parking Brake]] (1), [[Regenerative Braking]] (1) |
 | [[Inform Users of Battery Condition]] | 6 | 32 | [[Local LED Indicator]] (15), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
 | [[Keep Charging Available and Safe]] | 2 | 5 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1), [[Multi-Voltage Output]] (1) |
@@ -99,12 +99,12 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Manage Fleet Use]] | 4 | 34 | [[RFID or PIN Access Reader]] (6), [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3) |
 | [[Operate in Harsh Conditions]] | 3 | 14 | [[Ingress-Protected Drive Components]] (4), [[Integrated Battery Heater]] (3), [[Electric Parking Brake]] (2), [[RFID or PIN Access Reader]] (2), [[Regenerative Braking]] (1) |
 | [[Protect Battery from Harm]] | 2 | 4 | [[CAN Interface]] (2), [[Audible Alarm]] (2), [[Integrated Battery Management System]] (1), [[Hall-Effect Current Sensing]] (1), [[Bluetooth Low Energy Interface]] (1) |
-| [[Reduce Operator Effort]] | 3 | 4 | [[Electric Power Steering]] (2), [[AC Drive Motor]] (1), [[Operator Presence Pedal]] (1), [[Belt-Worn Remote Control]] (1) |
+| [[Reduce Operator Effort]] | 4 | 6 | [[Electric Power Steering]] (2), [[AC Drive Motor]] (1), [[Operator Presence Pedal]] (1), [[Belt-Worn Remote Control]] (1) |
 | [[Sense Battery State]] | 12 | 40 | [[Local LED Indicator]] (13), [[Acid-Resistant Sealed Housing]] (8), [[Cloud Portal Integration]] (7), [[Non-Volatile Event Memory]] (5), [[DC-Cable Power-Line Communication]] (5) |
-| [[Sense Collision Risk and Events]] | 2 | 34 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Operator Touch Display]] (2) |
+| [[Sense Collision Risk and Events]] | 2 | 37 | [[Impact Sensor]] (5), [[Proximity Tag System]] (5), [[Stereoscopic Vision Sensor]] (4), [[LiDAR Object Sensor]] (4), [[Radar Object Sensor]] (3) |
 | [[Supply Vehicle Energy Without Charging]] | 5 | 10 | [[Quick-Change Battery Compartment]] (4), [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2) |
 | [[Support Operator View and Positioning]] | 2 | 12 | [[Fork Laser Guide]] (3), [[Vehicle-Mounted Display]] (1), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
-| [[Warn People of Hazards]] | 3 | 32 | [[Floor-Projected Warning Light]] (8), [[Proximity Tag System]] (4), [[Audible Alarm]] (3), [[Vehicle-Mounted Display]] (3), [[Stereoscopic Vision Sensor]] (3) |
+| [[Warn People of Hazards]] | 3 | 38 | [[Floor-Projected Warning Light]] (8), [[Proximity Tag System]] (4), [[Audible Alarm]] (3), [[Vehicle-Mounted Display]] (3), [[Stereoscopic Vision Sensor]] (3) |
 
 - **Not yet assigned a general parent:** functions none; designs [[Reverse-Polarity Protection]].
 

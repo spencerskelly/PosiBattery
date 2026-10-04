@@ -14,6 +14,7 @@ describedBy:
 designOf:
   - "[[Toyota Assist]]"
   - "[[Toyota Object Detection Radar]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
 ---
 
 # Radar Object Sensor
@@ -28,6 +29,7 @@ Radar sensor that detects objects near the truck.
 - **Sources** (product, evidence level, web page):
   - [[Toyota Assist]] (V): <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
   - [[Toyota Object Detection Radar]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Oshkosh AeroTech APD Forward Radar and Controller]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 
 ## Aliases
 

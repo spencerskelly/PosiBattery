@@ -11,6 +11,7 @@ supertypeOf:
   - "[[Follow Operator Automatically]]"
   - "[[Rotate Operator Workstation]]"
   - "[[Steer with Electric Power Assist]]"
+  - "[[Dock Automatically at Aircraft]]"
 childOf:
   - "[[Support the Operator]]"
 ---

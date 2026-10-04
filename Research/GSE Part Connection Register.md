@@ -101,6 +101,7 @@ Which of 12 generic GSE parts each GSE accessory, device and software note mount
 | Accessory | Reason |
 |---|---|
 | [[PosiCharge PosiNet]] | back-office software; not mounted or connected to a GSE part |
+- **Round 33 additions:** the Oshkosh AeroTech APD components, JetDock, ramp visibility lights and TLD ASD+ were added after the main table was generated; their mappings are on each note (stated rows come from the APD brochure, which names the bumper, the cab control panel and the drive interlocks): [[Oshkosh AeroTech APD Forward Radar and Controller]], [[Oshkosh AeroTech APD Wheel Position Sensor]], [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech APD Wing and Fairing Sensors]], [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Oshkosh AeroTech JetDock]], [[Oshkosh AeroTech Ramp Visibility Lights]], [[TLD ASD+ Assisted Docking]].
 
 ## Aliases
 

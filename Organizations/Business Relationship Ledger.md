@@ -641,6 +641,22 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[Heli Operator Presence Sensing System]] | [[Heli A3 Series Lithium Forklifts]] | dealer pages list OPS on the A3 trucks | <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html> |
 | offeredWith | [[Komatsu Operator Presence Sensing System]] | [[Komatsu FB Series Electric Forklifts]] | Komatsu page lists operator presence sensing | <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb> |
 | offeredWith | [[AMETEK Prestolite Power BID with Ah Accumulator]] | [[AMETEK Prestolite Power Eclipse II]] | the BID's Ah and temperature are read out on the Eclipse II front panel | <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech APD Forward Radar and Controller]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech APD Wheel Position Sensor]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech APD Wing and Fairing Sensors]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Powered Handrail with Distance Sensor]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech JetDock]] | vendor presents the product as its own | see the product note |
+| makes | [[Oshkosh AeroTech]] | [[Oshkosh AeroTech Ramp Visibility Lights]] | vendor presents the product as its own | see the product note |
+| makes | [[TLD Group]] | [[TLD ASD+ Assisted Docking]] | vendor presents the product as its own | see the product note |
+| offeredWith | [[Oshkosh AeroTech APD Forward Radar and Controller]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | APD is optional on the Commander 30i and Ranger 15E | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Oshkosh AeroTech APD Forward Radar and Controller]] | [[Oshkosh AeroTech Ranger 15E Cargo Loader]] | APD is optional on the Commander 30i and Ranger 15E | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Oshkosh AeroTech JetDock]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | JetDock is an automated docking option on the Commander | <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader> |
+| offeredWith | [[Oshkosh AeroTech Ramp Visibility Lights]] | [[Oshkosh AeroTech Commander 30i Cargo Loader]] | Customer Care kit for Commander loaders | <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en> |
+| offeredWith | [[TLD ASD+ Assisted Docking]] | [[TLD NBL-E Belt Loader]] | ASD is standard on the NBL-E and ASD+ is offered on TLD belt loaders | <https://www.tld-group.com/products/belt-loaders/nbl-e/> |
+| makes | [[TLD Group]] | [[TLD RBL Electric Regional Belt Loader]] | vendor presents the product as its own | <https://www.aerospecialties.com/product/tld-rbl/> |
+| offeredWith | [[TLD Aircraft Safety Docking]] | [[TLD RBL Electric Regional Belt Loader]] | ASD is an option on the RBL | <https://www.aerospecialties.com/product/tld-rbl/> |
 - **Round 24 note:** earlier rows that name Mitsubishi Logisnext as maker, offerer, supplier or distributor of UniCarriers, Lift Link, Triathlon, PowerFleet and Jungheinrich items are kept as history; the rows added in round 24 re-attribute them to Mitsubishi Logisnext Americas (and the Cat EP items to Logisnext Europe by inference, C92).
 
 ## Aliases

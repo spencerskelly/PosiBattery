@@ -23,6 +23,7 @@ supertypeOf:
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
   - "[[UniCarriers Lighting Packages]]"
+  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
 ---
 
 # Warning Light and Alert
