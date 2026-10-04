@@ -36,17 +36,17 @@ for container_key in ("types","elementTypes","classes"):
     if isinstance(container, dict):
         MODEL_CLASSES.update(container.keys())
 
-# Build relationship field -> inverse map by scanning dicts recursively.
-def walk_rel(obj):
-    if isinstance(obj, dict):
-        field = obj.get("field") or obj.get("name") or obj.get("relationship")
-        inv = obj.get("inverse") or obj.get("inverseField")
-        if isinstance(field,str):
-            REL[field] = inv if isinstance(inv,str) else None
-        for v in obj.values(): walk_rel(v)
-    elif isinstance(obj, list):
-        for v in obj: walk_rel(v)
-walk_rel(rel_schema)
+# Build relationship field -> inverse map from governed schema.
+for rec in rel_schema.get("paired", []) + rel_schema.get("temporaryPairs", []):
+    field = rec.get("forward"); inv = rec.get("inverse")
+    if field: REL[field] = inv
+    if inv: REL[inv] = field
+for rec in rel_schema.get("symmetric", []):
+    field = rec.get("field")
+    if field: REL[field] = field
+for rec in rel_schema.get("oneWay", []):
+    field = rec.get("field")
+    if field: REL[field] = None
 
 def frontmatter(text):
     if not text.startswith("---\n"):
@@ -75,8 +75,7 @@ for p in md_files:
     if fm is None:
         no_fm.append(relp)
         continue
-    if isinstance(fm,dict) and fm.get("type"):
-        model_notes[relp] = fm
+    if not relp.startswith("99_System/") and isinstance(fm,dict) and fm.get("type"):\n        model_notes[relp] = fm
 
 ids=defaultdict(list); uids=defaultdict(list)
 bad_id=[]; bad_uid=[]; missing=[]; deprecated=[]
