@@ -33,6 +33,7 @@ supertypeOf:
   - "[[Stryten M-Series T300 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

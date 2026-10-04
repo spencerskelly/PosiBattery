@@ -59,7 +59,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Flat Plate Construction]] | [[Stryten M-Series F100 Battery]] | - | - |
 | [[Flexible Bolt-On Intercell Connector]] | [[Crown V-Force Lead-Acid Battery]] | - | - |
 | [[Floor-Projected Warning Light]] | [[Cat Safety Lighting Options]], [[Crown RC 5700 Series]], [[Linde BlueSpot]], [[Powerfleet Forklift Safety Lights]], [[STILL Safety Assist]], [[STILL SafetyLight 4Plus]], [[STILL Warning Zone Light]], [[Toyota Forklift Lighting Options]] | - | - |
-| [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[GS Yuasa Traction Battery (Europe)]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
+| [[Forced Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[Exide MARATHON Battery]], [[GS Yuasa Traction Battery (Europe)]], [[HAWKER Perfect Plus Battery]], [[HOPPECKE trak air Electrolyte Circulation]], [[HOPPECKE trak uplift air Battery]], [[Midac EUW Electrolyte Circulation System]] | - | - |
 | [[Fork Laser Guide]] | [[Raymond Fork-Tip Laser Guide]], [[Toyota Acu-Laser]], [[Toyota Assist]] | - | - |
 | [[Fuel Cell Hybrid Power Stage]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
 | [[Gel Electrolyte]] | [[Banner Traction Bull PzV Gel]], [[Deka Dominator Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Exide Element VRLA Battery]], [[Exide TENSOR xGEL Battery]] | - | - |
@@ -114,7 +114,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Thin Plate Pure Lead Plates]] | [[EnerSys NexSys TPPL Battery]] | - | - |
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Truck Charging Port]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]], [[Cat Lithium-Ion Battery Option]], [[Toyota Traigo48]] | - | - |
-| [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
+| [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[HAWKER Perfect Plus Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Textron Smart Sense]] | - | - |
 | [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
@@ -126,6 +126,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 15:** renamed (no longer 'Battery Monitoring'); covers monitors, chargers, batteries and truck devices; rebuilt from every citation line.
 - **Round 17:** rebuilt; specific functions and designs only (general levels are in [[Function and Design Levels]]).
 - **Round 18:** rebuilt.
+- **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.

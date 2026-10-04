@@ -11,9 +11,9 @@ tags:
 subtypeOf:
   - "[[Object and Proximity Sensing Design]]"
 designOf:
-  - "[[Textron Smart Sense]]"
-  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
   - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Textron Smart Sense]]"
 ---
 
 # Ultrasonic Distance Sensor

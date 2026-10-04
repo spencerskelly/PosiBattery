@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Linde BlueSpot]]"
   - "[[Linde Safety Guard Portable Unit]]"
   - "[[Linde Safety Guard Static Unit]]"
+  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
   - "[[Panacea Blue Warning Light]]"
   - "[[Powerfleet Forklift Safety Lights]]"
   - "[[STILL SafetyLight 4Plus]]"
@@ -23,7 +24,6 @@ supertypeOf:
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
   - "[[UniCarriers Lighting Packages]]"
-  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
 ---
 
 # Warning Light and Alert

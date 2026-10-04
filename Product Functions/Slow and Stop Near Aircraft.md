@@ -14,11 +14,11 @@ subtypeOf:
 dependsOn:
   - "[[Object and Proximity Sensing Design]]"
 performedBy:
-  - "[[Textron Smart Sense]]"
-  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
   - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
-  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
   - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
+  - "[[Textron Smart Sense]]"
 ---
 
 # Slow and Stop Near Aircraft

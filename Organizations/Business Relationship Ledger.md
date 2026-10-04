@@ -657,6 +657,8 @@ Ledger of every provisional business link written in note frontmatter, with its 
 | offeredWith | [[TLD ASD+ Assisted Docking]] | [[TLD NBL-E Belt Loader]] | ASD is standard on the NBL-E and ASD+ is offered on TLD belt loaders | <https://www.tld-group.com/products/belt-loaders/nbl-e/> |
 | makes | [[TLD Group]] | [[TLD RBL Electric Regional Belt Loader]] | vendor presents the product as its own | <https://www.aerospecialties.com/product/tld-rbl/> |
 | offeredWith | [[TLD Aircraft Safety Docking]] | [[TLD RBL Electric Regional Belt Loader]] | ASD is an option on the RBL | <https://www.aerospecialties.com/product/tld-rbl/> |
+| makes | [[EnerSys]] | [[HAWKER Perfect Plus Battery]] | vendor presents the product as its own (HAWKER brand) | <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf> |
+| offeredWith | [[EnerSys Wi-iQ]] | [[HAWKER Perfect Plus Battery]] | the manual lists Wi-iQ as an optional accessory | <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf> |
 - **Round 24 note:** earlier rows that name Mitsubishi Logisnext as maker, offerer, supplier or distributor of UniCarriers, Lift Link, Triathlon, PowerFleet and Jungheinrich items are kept as history; the rows added in round 24 re-attribute them to Mitsubishi Logisnext Americas (and the Cat EP items to Logisnext Europe by inference, C92).
 
 ## Aliases

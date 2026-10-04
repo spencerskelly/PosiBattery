@@ -27,6 +27,15 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>read in full in round 34 through the fetch tool | EnerSys HAWKER Perfect Plus owner's manual (EMEA, 2024) | <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf> |  | Flooded charge rules and options | - | R34 |
+| **high priority**<br>address from search results, not opened; finish-rate tables need the file | East Penn Deka D-Series installation and operation manual | <https://www.eastpennmanufacturing.com/wp-content/uploads/D-Series-IO-Manual-0628.pdf> |  | Deka finish rates by cell size | - | R34 |
+| **high priority**<br>address from search results, not opened | East Penn Deka MaxPowr installation and operation manual | <https://www.eastpennmanufacturing.com/wp-content/uploads/Max-Powr-IO-Manual-0608.pdf> |  | MaxPowr charge and discharge rules | - | R34 |
+| **high priority**<br>address from search results, not opened; snippet used | East Penn Flooded Cycling Battery Charging sheet | <https://www.eastpennmanufacturing.com/wp-content/uploads/Flooded-Cycling-Battery-Charging-2679.pdf> |  | Staged charge pattern | - | R34 |
+| **high priority**<br>address from search results, not opened; snippet used | East Penn Sealed AGM Charging Guidelines (8A line) | <https://ressupply.com/documents/deka/Sealed_AGM_Charging_Guidelines.pdf> |  | VRLA contrast pattern | - | R34 |
+| **high priority**<br>page not found (404) when fetched in round 34; a search snippet was used | Exide Industries traction battery operation manual | <https://docs.exideindustries.com/pdf/industrial-export-batteries/products/pallets/operation-manual-traction.pdf> |  | Charge end voltage and equalizing | - | R34 |
+| **high priority**<br>none found in round 34 | Stryten motive power charging guide (flooded) | no direct file found | <https://www.stryten.com/> | Stryten charge rules | - | R34 |
+| **high priority**<br>only a ManualsLib mirror without numbers found | HOPPECKE traction battery operating instructions with charging values | no direct file found | <https://www.manualslib.mx/manual/659071/Hoppecke-Trak-Basic.html?page=6> | HOPPECKE charge rules | - | R34 |
+| **high priority**<br>standard, not found as an open file | DIN EN 50272-3 or EN 62485-3 gassing-stage current limits | no direct file found | <https://www.en-standard.eu/> | Gassing-stage current limits | - | R34 |
 | **high priority**<br>new this round (GSE options); address from search results, not opened | Oshkosh AeroTech Customer Care Service and Kit Catalog (Summer 2026) | <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en> |  | Oshkosh AeroTech loader and pushback kits and options | - | R33 |
 | **high priority**<br>new this round (GSE options); address from search results, not opened | Oshkosh AeroTech Customer Care Service and Kit Catalog (Summer 2024) | <https://oshkoshaerotech.com/wp-content/uploads/2024/10/Customer-Care-Catalog-Summer2024Catalog.pdf> |  | Oshkosh AeroTech kits (older edition) | - | R33 |
 | **high priority**<br>new this round (GSE options) | Oshkosh AeroTech Aircraft Proximity Detection brochure (06/18/24) | <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24> |  | APD components (read in round 33) | - | R33 |
@@ -219,6 +228,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 24 2026-10-03:** 5 page-only rows added for the Mitsubishi Logisnext group; no direct file was found for any Mitsubishi, UniCarriers or Cat sheet. Counts: high priority 61, helpful 30, issue 12, in repo 60.
 - **Round 28 2026-10-03:** 7 rows added for the battery makers (two Banner files found by search, not opened).
 - **Round 33 2026-10-03:** 7 GSE rows added; the Oshkosh AeroTech APD brochure was read through the fetch tool; the two Customer Care catalogs have direct addresses found by search and were not opened.
+- **Round 34 2026-10-03:** 9 rows for flooded charge profile sources (one read in full, several found by search and not opened).
 
 ## Aliases
 

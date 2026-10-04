@@ -18,6 +18,7 @@ designOf:
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Tubular Plate Construction
@@ -37,6 +38,7 @@ Tubular positive plates.
   - [[Crown V-Force Lead-Acid Battery]] (V): <https://www.batteriesinternational.com/?p=15261>
   - [[Banner Traction Bull Bloc PzF]] (V): <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf>
   - [[Leoch PzS Traction Battery]] (V): <https://leoch.com/product/power/127.html>
+  - [[HAWKER Perfect Plus Battery]] (V): <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
 
 ## Aliases
 

@@ -94,7 +94,7 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Inform Users of Battery Condition]] | 6 | 32 | [[Local LED Indicator]] (15), [[Cloud Portal Integration]] (7), [[Audible Alarm]] (5), [[Acid-Resistant Sealed Housing]] (5), [[Bluetooth Low Energy Interface]] (4) |
 | [[Keep Charging Available and Safe]] | 2 | 5 | [[Modular Power Modules]] (3), [[Dual-Cable and Parallel Charging Configuration]] (2), [[Touchscreen Interface]] (1), [[Charger Status LED Bar]] (1), [[Multi-Voltage Output]] (1) |
 | [[Limit Vehicle Speed Automatically]] | 6 | 34 | [[Proximity Tag System]] (4), [[LiDAR Object Sensor]] (4), [[Programmable Motor Controller]] (2), [[Floor-Projected Warning Light]] (2), [[Ingress-Protected Drive Components]] (2) |
-| [[Maintain Battery Electrolyte]] | 2 | 11 | [[Forced Electrolyte Circulation]] (4) |
+| [[Maintain Battery Electrolyte]] | 2 | 12 | [[Forced Electrolyte Circulation]] (5), [[Tubular Plate Construction]] (1) |
 | [[Maintain Vehicle Stability and Load Awareness]] | 6 | 20 | [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2), [[Quick-Change Battery Compartment]] (2) |
 | [[Manage Fleet Use]] | 4 | 34 | [[RFID or PIN Access Reader]] (6), [[Multi-Voltage Output]] (5), [[Impact Sensor]] (4), [[Modular Power Modules]] (3), [[Charger Status LED Bar]] (3) |
 | [[Operate in Harsh Conditions]] | 3 | 14 | [[Ingress-Protected Drive Components]] (4), [[Integrated Battery Heater]] (3), [[Electric Parking Brake]] (2), [[RFID or PIN Access Reader]] (2), [[Regenerative Braking]] (1) |

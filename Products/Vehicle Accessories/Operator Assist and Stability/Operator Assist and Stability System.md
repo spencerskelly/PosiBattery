@@ -24,6 +24,9 @@ supertypeOf:
   - "[[Linde Safety Pilot]]"
   - "[[Linde System Control]]"
   - "[[Mitsubishi Integrated Presence System]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
+  - "[[Oshkosh AeroTech JetDock]]"
+  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
   - "[[Raymond Fork Tilt Leveling]]"
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Load Weight Display]]"
@@ -35,6 +38,7 @@ supertypeOf:
   - "[[STILL Curve Speed Control]]"
   - "[[STILL Safety Assist]]"
   - "[[STILL Safety Packages]]"
+  - "[[TLD ASD+ Assisted Docking]]"
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
@@ -43,10 +47,6 @@ supertypeOf:
   - "[[Toyota System of Active Stability]]"
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
-  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
-  - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
-  - "[[Oshkosh AeroTech JetDock]]"
-  - "[[TLD ASD+ Assisted Docking]]"
 ---
 
 # Operator Assist and Stability System

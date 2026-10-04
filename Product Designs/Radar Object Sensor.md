@@ -13,8 +13,8 @@ describedBy:
   - "[[Metric - Detection Technology]]"
 designOf:
   - "[[Toyota Assist]]"
-  - "[[Toyota Object Detection Radar]]"
   - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Toyota Object Detection Radar]]"
 ---
 
 # Radar Object Sensor

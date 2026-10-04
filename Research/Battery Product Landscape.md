@@ -67,6 +67,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 31 2026-10-03:** [[Industrial Truck Anatomy]] (12 parts) and [[Truck Part Connection Register]]: 159 accessories mapped, 14 stated rows, rest typical.
 - **Round 32 2026-10-03:** [[GSE Vehicle Anatomy]] (12 parts) and [[GSE Part Connection Register]]: 11 GSE accessories mapped.
 - **Round 33 2026-10-03:** GSE accessory and option lists: 9 accessory notes, TLD RBL, Dock Automatically at Aircraft; conflict C96.
+- **Round 34 2026-10-03:** [[Flooded Lead-Acid Charge Profile Comparison]], 6 charge metrics, [[HAWKER Perfect Plus Battery]]; conflict C97.
 
 ## Aliases
 

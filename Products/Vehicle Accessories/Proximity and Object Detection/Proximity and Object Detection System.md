@@ -25,6 +25,10 @@ supertypeOf:
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
   - "[[Mallaghan Collision Avoidance System]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[Raymond In-Aisle Detection System]]"
@@ -35,10 +39,6 @@ supertypeOf:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
-  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
-  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
-  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
 ---
 
 # Proximity and Object Detection System

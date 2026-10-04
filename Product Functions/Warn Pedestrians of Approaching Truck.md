@@ -22,13 +22,13 @@ performedBy:
   - "[[Linde BlueSpot]]"
   - "[[Linde Safety Guard Portable Unit]]"
   - "[[Linde Safety Guard Static Unit]]"
+  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
   - "[[Panacea Blue Warning Light]]"
   - "[[Powerfleet Forklift Safety Lights]]"
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
-  - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
 ---
 
 # Warn Pedestrians of Approaching Truck

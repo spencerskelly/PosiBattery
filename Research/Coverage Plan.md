@@ -74,7 +74,7 @@ How the catalog decides which makers and products to include, what a finished ca
 
 | Maker | Vault organization | Headquarters named by a list | Lists naming it | Battery product notes on file | All product notes on file | Status |
 |---|---|---|---|---|---|---|
-| EnerSys | [[EnerSys]] | United States | A, B, C, E, F | 3 | 11 | covered |
+| EnerSys | [[EnerSys]] | United States | A, B, C, E, F | 4 | 12 | covered |
 | East Penn Manufacturing | [[East Penn Manufacturing]] | United States | A, B, C, D, E, G | 10 | 15 | covered |
 | Exide Technologies | [[Exide Technologies]] | United States | A, B, E | 6 | 12 | covered |
 | Exide Industries (India) | - | India (D, F) | D, F | 0 | 0 | gap: no org note |

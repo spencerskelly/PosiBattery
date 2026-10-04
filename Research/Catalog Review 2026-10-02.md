@@ -114,8 +114,9 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] | battery | 3 | 0 | 2 | partial |
 | [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 13 | 2 | 9 | defined |
 | [[EnerSys Truck iQ]] | [[EnerSys]] | monitor | 6 | 1 | 0 | none |
-| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 6 | 35 | defined |
+| [[EnerSys Wi-iQ]] | [[EnerSys]] | monitor | 29 | 7 | 35 | defined |
 | [[EnerSys iQ Mini]] | [[EnerSys]] | monitor | 10 | 0 | 3 | defined |
+| [[HAWKER Perfect Plus Battery]] | [[EnerSys]] | battery | 4 | 1 | 4 | defined |
 | [[Energywith withBMS BMU]] | [[Energywith]] | monitor | 7 | 0 | 0 | none |
 | [[Exide AIR Electrolyte Agitation System]] | [[Exide Technologies]] | accessory | 2 | 1 | 0 | none |
 | [[Exide Automatic Watering System and Level Sensor]] | [[Exide Technologies]] | accessory | 2 | 1 | 0 | none |
@@ -385,6 +386,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

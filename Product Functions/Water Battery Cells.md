@@ -18,6 +18,7 @@ performedBy:
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[PosiCharge Single-Point Automatic Battery Watering]]"
   - "[[PosiCharge SVS200]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # Water Battery Cells
@@ -38,6 +39,7 @@ Refill the cells of a flooded battery with water, by tool or automatically.
   - [[Philadelphia Scientific Water Injector System]] (V): <https://og.mhi.org/members/13790>
   - [[PosiCharge Single-Point Automatic Battery Watering]] (V): <https://posicharge.com/accessories/>
   - [[PosiCharge SVS200]] (V): <https://www.posicharge.com/svs200/>
+  - [[HAWKER Perfect Plus Battery]] (V): <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
 - **Extra (round 30):** documented for 3 of 21 battery maker groups (14 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

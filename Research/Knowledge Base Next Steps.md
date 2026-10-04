@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 34) — Charge profile parameters for flooded lead-acid started ([[Flooded Lead-Acid Charge Profile Comparison]]).
 - 2026-10-03 (round 33) — GSE accessory and option lists (Oshkosh AeroTech, TLD, Textron).
 - 2026-10-03 (round 32) — GSE part mapping ([[GSE Part Connection Register]]).
 - 2026-10-03 (round 31) — Truck parts and accessory mapping ([[Truck Part Connection Register]]).

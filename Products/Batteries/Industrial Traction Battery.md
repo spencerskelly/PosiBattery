@@ -30,6 +30,13 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
+  - "[[Metric - Charge End Criterion]]"
+  - "[[Metric - Equalizing Charge Rule]]"
+  - "[[Metric - Full-Charge Specific Gravity]]"
+  - "[[Metric - Depth of Discharge Limit]]"
+  - "[[Metric - Charge Temperature Limits]]"
+  - "[[Metric - Float Voltage per Cell]]"
+  - "[[Flooded Lead-Acid Charge Profile Comparison]]"
 ---
 
 # Industrial Traction Battery

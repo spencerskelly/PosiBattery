@@ -31,6 +31,7 @@ makes:
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[EnerSys NexSys iON Battery]]"
   - "[[EnerSys IRONCLAD Battery]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 distributedBy:
   - "[[Western Materials]]"
 partnerOf:

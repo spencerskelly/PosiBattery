@@ -17,6 +17,7 @@ describedBy:
 performedBy:
   - "[[Hyster Dynamic Stability System]]"
   - "[[Mitsubishi Integrated Presence System]]"
+  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Crown ProximityAssist System]]"
@@ -26,15 +27,14 @@ performedBy:
   - "[[Jungheinrich Reverse Area Warning System]]"
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Truck Unit]]"
+  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
+  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
+  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
+  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
-  - "[[Oshkosh AeroTech APD Forward Radar and Controller]]"
-  - "[[Oshkosh AeroTech APD Wheel Position Sensor]]"
-  - "[[Oshkosh AeroTech APD Engine Cowling Sensors]]"
-  - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
-  - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
 ---
 
 # Alert Operator of Hazards

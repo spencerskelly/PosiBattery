@@ -55,6 +55,7 @@ offeredWith:
   - "[[EnerSys Truck iQ]]"
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # EnerSys Wi-iQ
