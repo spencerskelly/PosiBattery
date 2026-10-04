@@ -1,0 +1,27 @@
+name: MDSE Vault Audit
+
+on:
+  push:
+    paths:
+      - '99_System/09_Tools/audit-vault.py'
+      - '.github/workflows/mdse-vault-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Run vault audit
+        run: python 99_System/09_Tools/audit-vault.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mdse-vault-audit
+          path: audit-report.md
