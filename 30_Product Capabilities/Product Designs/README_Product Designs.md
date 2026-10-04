@@ -21,10 +21,10 @@ This folder contains reusable technical solution concepts—the implementation c
 
 ## Related areas
 
-- [[../Product Functions/README_Product Functions|Product Functions]] — the capabilities designs realize.
-- [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — dimensions used to evaluate design tradeoffs.
-- [[../Products/README_Products|Products]] — cataloged offerings that may embody these designs.
-- [[../Research/README_Research|Research]] — comparative and gap analysis.
+- [[README_Product Functions|Product Functions]] — the capabilities designs realize.
+- [[README_Performance Metrics|Performance Metrics]] — dimensions used to evaluate design tradeoffs.
+- [[README_Products|Products]] — cataloged offerings that may embody these designs.
+- [[README_Research|Research]] — comparative and gap analysis.
 
 ## Maintenance
 

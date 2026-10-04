@@ -12,12 +12,12 @@ Customer needs modeled as Use Case notes (subtype why). Each need is realized by
 
 - `BASE_all_Customer Needs.base` and `BASE_local_Customer Needs.base` — views of the notes in this folder.
 - [[Product to Customer Need Map]] — product to need to role route.
-- [[../Research/Battery Product Landscape Conflicts and Open Questions|Conflicts and open questions]] — C101 to C106 cover the evidence behind these notes.
+- [[Battery Product Landscape Conflicts and Open Questions|Conflicts and open questions]] — C101 to C106 cover the evidence behind these notes.
 
 ## Related areas
 
-- [[../Product Functions/README_Product Functions|Product Functions]] — the functions that realize needs.
-- [[../Products/README_Products|Products]] — offerings that perform those functions.
+- [[README_Product Functions|Product Functions]] — the functions that realize needs.
+- [[README_Products|Products]] — offerings that perform those functions.
 
 ## Maintenance
 

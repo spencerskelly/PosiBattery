@@ -7,8 +7,8 @@ This folder is the intake and staging area for externally acquired files. It cur
 ## How to use this folder
 
 - Place newly obtained external files here while they are being reviewed.
-- Create or update a curated source-record note in [[../Source Documents/README_Source Documents|Source Documents]] when the item becomes evidence used by the vault.
-- Link analysis and conclusions to [[../Research/README_Research|Research]], rather than treating filenames as the final knowledge record.
+- Create or update a curated source-record note in [[README_Source Documents|Source Documents]] when the item becomes evidence used by the vault.
+- Link analysis and conclusions to [[README_Research|Research]], rather than treating filenames as the final knowledge record.
 - Keep exact duplicates and renamed copies visible until their relationship is verified; do not silently remove potentially distinct versions.
 
 ## Notable source groups
@@ -20,10 +20,10 @@ This folder is the intake and staging area for externally acquired files. It cur
 
 ## Related areas
 
-- [[../Source Documents/README_Source Documents|Source Documents]] — curated metadata records for authoritative evidence.
-- [[../Organizations/README_Organizations|Organizations]] — suppliers, manufacturers, OEMs, and other market actors referenced by the files.
-- [[../Products/README_Products|Products]] — catalog entities represented by the literature.
-- [[../Research/README_Research|Research]] — comparison matrices, landscape analyses, gaps, and open questions derived from the evidence.
+- [[README_Source Documents|Source Documents]] — curated metadata records for authoritative evidence.
+- [[README_Organizations|Organizations]] — suppliers, manufacturers, OEMs, and other market actors referenced by the files.
+- [[README_Products|Products]] — catalog entities represented by the literature.
+- [[README_Research|Research]] — comparison matrices, landscape analyses, gaps, and open questions derived from the evidence.
 
 ## Maintenance
 

@@ -21,10 +21,10 @@ This folder models what products, systems, or subsystems do. Function notes are 
 
 ## Related areas
 
-- [[../Product Designs/README_Product Designs|Product Designs]] — implementation patterns that realize functions.
-- [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — measures used to assess functional outcomes.
-- [[../Products/README_Products|Products]] — offerings that perform or expose functions.
-- [[../Research/README_Research|Research]] — function maps, comparison work, gaps, and open questions.
+- [[README_Product Designs|Product Designs]] — implementation patterns that realize functions.
+- [[README_Performance Metrics|Performance Metrics]] — measures used to assess functional outcomes.
+- [[README_Products|Products]] — offerings that perform or expose functions.
+- [[README_Research|Research]] — function maps, comparison work, gaps, and open questions.
 
 ## Maintenance
 

@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"ident","type":"file","file":"30_Product Capabilities/Product Functions/Identify Battery to Charger.md","x":1040,"y":0,"width":340,"height":170},
+		{"id":"rtemp","type":"file","file":"30_Product Capabilities/Product Functions/Report Battery Temperature to Charger.md","x":1040,"y":260,"width":340,"height":170},
+		{"id":"chg","type":"file","file":"30_Product Capabilities/Product Functions/Communicate with Charger.md","x":1040,"y":520,"width":340,"height":170},
+		{"id":"bmid","type":"file","file":"10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md","x":0,"y":0,"width":340,"height":170},
+		{"id":"crown","type":"file","file":"10_Products/Battery Accessories/Identification and Charge Interface Devices/Crown V-Force BMID.md","x":0,"y":220,"width":340,"height":170},
+		{"id":"bid","type":"file","file":"10_Products/Battery Accessories/Identification and Charge Interface Devices/AMETEK Prestolite Power BID.md","x":0,"y":440,"width":340,"height":170},
+		{"id":"fron","type":"file","file":"10_Products/Battery Accessories/Identification and Charge Interface Devices/Fronius TagID.md","x":0,"y":660,"width":340,"height":170},
+		{"id":"pt3","type":"file","file":"10_Products/Battery Accessories/Monitoring Devices/Power Designers PowerTrac 3.md","x":0,"y":880,"width":340,"height":170},
+		{"id":"wiiq","type":"file","file":"10_Products/Battery Accessories/Monitoring Devices/EnerSys Wi-iQ.md","x":520,"y":520,"width":340,"height":170},
+		{"id":"hop","type":"file","file":"10_Products/Battery Accessories/Monitoring Devices/HOPPECKE trak collect.md","x":520,"y":740,"width":340,"height":170},
+		{"id":"tru","type":"file","file":"10_Products/Battery Accessories/Monitoring Devices/AMETEK Prestolite Power TruBid.md","x":520,"y":960,"width":340,"height":170}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"bmid","fromSide":"left","toNode":"ident","toSide":"right","label":"performs"},
+		{"id":"e2","fromNode":"bmid","fromSide":"left","toNode":"rtemp","toSide":"right","label":"performs"},
+		{"id":"e3","fromNode":"crown","fromSide":"left","toNode":"ident","toSide":"right","label":"performs"},
+		{"id":"e4","fromNode":"bid","fromSide":"left","toNode":"ident","toSide":"right","label":"performs"},
+		{"id":"e5","fromNode":"bid","fromSide":"left","toNode":"rtemp","toSide":"right","label":"performs"},
+		{"id":"e6","fromNode":"fron","fromSide":"left","toNode":"rtemp","toSide":"right","label":"performs"},
+		{"id":"e7","fromNode":"pt3","fromSide":"left","toNode":"ident","toSide":"right","label":"performs"},
+		{"id":"e8","fromNode":"pt3","fromSide":"left","toNode":"chg","toSide":"right","label":"performs"},
+		{"id":"e9","fromNode":"wiiq","fromSide":"left","toNode":"chg","toSide":"right","label":"performs"},
+		{"id":"e10","fromNode":"hop","fromSide":"left","toNode":"chg","toSide":"right","label":"performs"},
+		{"id":"e11","fromNode":"tru","fromSide":"left","toNode":"chg","toSide":"right","label":"performs"}
+	]
+}

@@ -17,16 +17,16 @@ This folder defines the shared vocabulary, note conventions, and relationship pr
 - [[EA Source Section]] — how source information and Enterprise Architect references are represented.
 - [[Changing Your Author Code]] — procedure for changing an author identifier.
 - [[Properties/Property Dictionary]] — index of controlled relationship and metadata properties.
-- [[Properties/uid]] and [[Properties/id]] — identifier semantics.
-- [[Properties/status]] — lifecycle/status semantics.
-- [[Properties/hasDesign]], [[Properties/performs]], [[Properties/satisfies]], and [[Properties/tracesTo]] — common cross-domain relationships.
+- [[uid]] and [[id]] — identifier semantics.
+- [[status]] — lifecycle/status semantics.
+- [[hasDesign]], [[performs]], [[satisfies]], and [[tracesTo]] — common cross-domain relationships.
 
 ## Related areas
 
-- [[../Products/README_Products|Products]] — catalog entities that use the shared vocabulary.
-- [[../Product Functions/README_Product Functions|Product Functions]] and [[../Product Designs/README_Product Designs|Product Designs]] — linked functional and design concepts.
-- [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — controlled comparison dimensions.
-- [[../Research/README_Research|Research]] — synthesized analysis using these concepts.
+- [[README_Products|Products]] — catalog entities that use the shared vocabulary.
+- [[README_Product Functions|Product Functions]] and [[README_Product Designs|Product Designs]] — linked functional and design concepts.
+- [[README_Performance Metrics|Performance Metrics]] — controlled comparison dimensions.
+- [[README_Research|Research]] — synthesized analysis using these concepts.
 
 ## Maintenance
 

@@ -22,11 +22,11 @@ This folder contains curated metadata notes for authoritative external documents
 
 ## Related areas
 
-- [[../Downloads/README_Downloads|Downloads]] — incoming PDFs and other acquired source files.
-- [[../Organizations/README_Organizations|Organizations]] — entities referenced by source documents.
-- [[../Products/README_Products|Products]] — products and categories supported by the evidence.
-- [[../Research/README_Research|Research]] — synthesis, matrices, audits, conflicts, and future work derived from sources.
-- [[../Definitions/README_Definitions|Definitions]] — rules for note structure, source sections, and traceability properties.
+- [[README_Downloads|Downloads]] — incoming PDFs and other acquired source files.
+- [[README_Organizations|Organizations]] — entities referenced by source documents.
+- [[README_Products|Products]] — products and categories supported by the evidence.
+- [[README_Research|Research]] — synthesis, matrices, audits, conflicts, and future work derived from sources.
+- [[README_Definitions|Definitions]] — rules for note structure, source sections, and traceability properties.
 
 ## Maintenance
 

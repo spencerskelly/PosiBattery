@@ -23,10 +23,10 @@ This folder contains organization records and market-role concepts for companies
 
 ## Related areas
 
-- [[../Products/README_Products|Products]] — offerings and product categories.
-- [[../Source Documents/README_Source Documents|Source Documents]] — primary documents supporting organization claims.
-- [[../Research/README_Research|Research]] — competitor landscapes, catalog review, and unresolved relationship questions.
-- [[../Definitions/README_Definitions|Definitions]] — common relationship vocabulary and property semantics.
+- [[README_Products|Products]] — offerings and product categories.
+- [[README_Source Documents|Source Documents]] — primary documents supporting organization claims.
+- [[README_Research|Research]] — competitor landscapes, catalog review, and unresolved relationship questions.
+- [[README_Definitions|Definitions]] — common relationship vocabulary and property semantics.
 
 ## Maintenance
 

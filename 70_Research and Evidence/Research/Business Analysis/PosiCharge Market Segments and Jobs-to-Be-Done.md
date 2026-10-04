@@ -52,7 +52,7 @@ Define the operational contexts and customer jobs used to judge relevance, produ
 - [[PosiCharge Product Comparison Matrix]]
 - [[PosiCharge Capability Gap Assessment]]
 - [[README_Product Functions|Product Functions]]
-- [[Product to Customer Need Map]] and [[../../Customer Needs/README_Customer Needs|Customer Needs]]: customer needs and roles added as hypotheses, with a crosswalk to these segments
+- [[Product to Customer Need Map]] and [[README_Customer Needs|Customer Needs]]: customer needs and roles added as hypotheses, with a crosswalk to these segments
 - [[README_Performance Metrics|Performance Metrics]]
 
 ### Change history

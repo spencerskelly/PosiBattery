@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"n1","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Fleet Operations Manager.md","x":0,"y":0,"width":340,"height":170},
+		{"id":"n2","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Forklift Operator.md","x":420,"y":0,"width":340,"height":170},
+		{"id":"n3","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/GSE Operator.md","x":840,"y":0,"width":340,"height":170},
+		{"id":"n4","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Maintenance Technician.md","x":0,"y":250,"width":340,"height":170},
+		{"id":"n5","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Dealer Service Technician.md","x":420,"y":250,"width":340,"height":170},
+		{"id":"n6","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Site Safety Manager.md","x":840,"y":250,"width":340,"height":170},
+		{"id":"n7","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Equipment Installer.md","x":0,"y":500,"width":340,"height":170},
+		{"id":"n8","type":"file","file":"60_Stakeholders and Ecosystem/Customer Actors/Truck OEM Integration Engineer.md","x":420,"y":500,"width":340,"height":170}
+	],
+	"edges":[]
+}

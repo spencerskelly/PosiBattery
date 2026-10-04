@@ -32,10 +32,10 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 
 ## Related areas
 
-- [[../Downloads/README_Downloads|Downloads]] — acquired raw material awaiting or supporting review.
-- [[../Source Documents/README_Source Documents|Source Documents]] — curated primary-source records.
-- [[../Organizations/README_Organizations|Organizations]] and [[../Products/README_Products|Products]] — entity and offering records used by research.
-- [[../Product Functions/README_Product Functions|Product Functions]], [[../Product Designs/README_Product Designs|Product Designs]], and [[../Performance Metrics/README_Performance Metrics|Performance Metrics]] — reusable analytical dimensions.
+- [[README_Downloads|Downloads]] — acquired raw material awaiting or supporting review.
+- [[README_Source Documents|Source Documents]] — curated primary-source records.
+- [[README_Organizations|Organizations]] and [[README_Products|Products]] — entity and offering records used by research.
+- [[README_Product Functions|Product Functions]], [[README_Product Designs|Product Designs]], and [[README_Performance Metrics|Performance Metrics]] — reusable analytical dimensions.
 
 ## Maintenance
 

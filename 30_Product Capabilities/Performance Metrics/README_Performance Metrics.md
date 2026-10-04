@@ -19,10 +19,10 @@ This folder defines the reusable comparison dimensions used to evaluate products
 
 ## Related areas
 
-- [[../Products/README_Products|Products]] — entities being compared.
-- [[../Product Functions/README_Product Functions|Product Functions]] — capabilities that motivate metric selection.
-- [[../Product Designs/README_Product Designs|Product Designs]] — implementation choices that affect metric outcomes.
-- [[../Research/README_Research|Research]] — matrices and analyses that apply these metrics.
+- [[README_Products|Products]] — entities being compared.
+- [[README_Product Functions|Product Functions]] — capabilities that motivate metric selection.
+- [[README_Product Designs|Product Designs]] — implementation choices that affect metric outcomes.
+- [[README_Research|Research]] — matrices and analyses that apply these metrics.
 
 ## Maintenance
 
