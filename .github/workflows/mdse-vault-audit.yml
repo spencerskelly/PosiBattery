@@ -3,7 +3,12 @@ name: MDSE Vault Audit
 on:
   push:
     paths:
-      - '99_System/09_Tools/audit-vault.py'
+      - '**/*.md'
+      - '**/*.yaml'
+      - '**/*.base'
+      - '**/*.canvas'
+      - '.vault.yaml'
+      - '99_System/**/*.py'
       - '.github/workflows/mdse-vault-audit.yml'
   workflow_dispatch:
 
@@ -21,6 +26,10 @@ jobs:
       - run: python -m pip install --quiet PyYAML
       - name: Run vault audit
         run: python 99_System/09_Tools/audit-vault.py
+      - name: Check note names and aliases
+        run: python 99_System/check-names.py
+      - name: Check strong function-design dependencies
+        run: python 99_System/check-dependencies.py --strict
       - uses: actions/upload-artifact@v4
         with:
           name: mdse-vault-audit
