@@ -27,6 +27,7 @@ Stryten flooded battery for medium to heavy-duty trucks, designed for opportunit
 - Stryten's lineup sheet says F110 delivers premium cost-efficient power and extended durability, [earlier draft wording, corrected below]. Source: Stryten lineup sheet (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - Correction: Stryten's lineup sheet says F110 delivers premium, cost-efficient power and extended durability for medium to heavy-duty trucks, with improved performance and cycle life, and is designed for opportunity charge applications; conventional charging is the F100. Source: Stryten lineup sheet (09/2024) (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - **Related-product note (round 12):** the EHF charger brochure names this battery among its algorithms; other pairings are not named. The earlier 'no charger linked' statement is replaced by this link.
+- Stryten's rapid-charging manual for the F110, T310 and T330 says the charging equipment must be approved by Stryten Application Engineering, fast charging is done during breaks, the starting rate and finish rate follow the battery's own values and the rate tapers to the finish rate (text cut off), equalize once a week. Source: Stryten F110, T310 and T330 fast charge manual (SE1005, search snippet) (T1), retrieved 2026-10-03. <https://www.stryten.com/wp-content/uploads/2023/03/F110-T310-T330_FastCharge_Manual_SE1005.pdf>
 
 ## Aliases
 

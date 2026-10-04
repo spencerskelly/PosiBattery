@@ -69,6 +69,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 33 2026-10-03:** GSE accessory and option lists: 9 accessory notes, TLD RBL, Dock Automatically at Aircraft; conflict C96.
 - **Round 34 2026-10-03:** [[Flooded Lead-Acid Charge Profile Comparison]], 6 charge metrics, [[HAWKER Perfect Plus Battery]]; conflict C97.
 - **Round 34b 2026-10-03:** the charge and discharge values quoted in the new metric notes were added with sources to the three product notes.
+- **Round 35 2026-10-03:** flooded charge profile sources extended; [[Traction Battery Charging Characteristics (DIN Notation)]]; comparison note rewritten and corrected.
 
 ## Aliases
 

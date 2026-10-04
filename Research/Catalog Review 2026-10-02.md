@@ -338,9 +338,9 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten M-Series F110 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
 | [[Stryten M-Series Li600 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
 | [[Stryten M-Series Li610 Battery]] | [[Stryten Energy]] | battery | 5 | 3 | 1 | partial |
-| [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
-| [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
-| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 2 | partial |
+| [[Stryten M-Series T300 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 2 | partial |
+| [[Stryten M-Series T310 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 2 | partial |
+| [[Stryten M-Series T330 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 6 | defined |
 | [[Stryten X-3 Charger]] | [[Stryten Energy]] | charger | 9 | 3 | 21 | defined |
 | [[Stryten X-7 Charger]] | [[Stryten Energy]] | charger | 7 | 3 | 9 | defined |
 | [[Stryten inCOMMAND]] | [[Stryten Energy]] | accessory | 2 | 3 | 0 | none |
@@ -386,6 +386,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

@@ -37,6 +37,9 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
+  - "[[Metric - Charge Rate Taper]]"
+  - "[[Metric - Charge Factor]]"
+  - "[[Traction Battery Charging Characteristics (DIN Notation)]]"
 ---
 
 # Industrial Traction Battery
