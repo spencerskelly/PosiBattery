@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Products")
+    - file.inFolder("10_Products")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
@@ -8,8 +8,11 @@ views:
     name: All products by category
     order:
       - file.name
-      - file.folder
+      - subtypeOf
       - madeBy
       - offeredBy
-      - subtypeOf
+      - file.folder
       - status
+    sort:
+      - property: subtypeOf
+        direction: ASC
