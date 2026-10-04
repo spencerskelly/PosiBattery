@@ -33,6 +33,7 @@ TLD aircraft safety docking (ASD) system that reduces speed close to aircraft an
 - **Functions performed, with citations:**
   - [[Limit Truck Speed Automatically]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
   - [[Detect and Record Impacts]] (V): <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Front Body and Bumper]] (alternative) or [[GSE Load-Handling Structure]] (alternative); connects to [[GSE Controller and CAN Bus]]; acts on [[GSE Drive and Brakes]], [[GSE Controller and CAN Bus]]. See [[GSE Part Connection Register]].
 
 ## Aliases
 

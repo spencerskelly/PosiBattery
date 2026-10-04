@@ -65,6 +65,7 @@ Scope, method, evidence tiers and backlog for the first-pass survey of product c
 - **Round 29 2026-10-03:** [[Truck Feature Comparison Matrix]] generated (43 functions, 10 maker groups).
 - **Round 30 2026-10-03:** [[Extra Functions Register]]: 70 Extra and 12 Core functions; host scope tags on 178 accessory notes.
 - **Round 31 2026-10-03:** [[Industrial Truck Anatomy]] (12 parts) and [[Truck Part Connection Register]]: 159 accessories mapped, 14 stated rows, rest typical.
+- **Round 32 2026-10-03:** [[GSE Vehicle Anatomy]] (12 parts) and [[GSE Part Connection Register]]: 11 GSE accessories mapped.
 
 ## Aliases
 

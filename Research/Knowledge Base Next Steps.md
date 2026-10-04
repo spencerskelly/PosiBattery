@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 32) — GSE part mapping ([[GSE Part Connection Register]]).
 - 2026-10-03 (round 31) — Truck parts and accessory mapping ([[Truck Part Connection Register]]).
 - 2026-10-03 (round 30) — Accessories and bonus features: Extra rule, host scope tags and host links ([[Extra Functions Register]]).
 - 2026-10-03 (round 29) — Feature-first truck comparison built ([[Truck Feature Comparison Matrix]]).

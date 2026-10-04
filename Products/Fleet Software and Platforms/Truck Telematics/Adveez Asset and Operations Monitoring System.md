@@ -36,6 +36,7 @@ Adveez telematics system engineered for airside environments and airport ground 
 - Adveez's listing says retrofit kits are available for tugs, belt loaders, GPUs, dollies and service carts, with predictive maintenance alerts, unauthorized-use prevention and operator access control with behavior logging. Source: Fortbrand Adveez listing (T3), retrieved 2026-10-03. <https://fortbrand.com/?p=687>
 - A case study says JBT integrated ADVEEZ FAMA telematics into pushback tractors, loaders and deicers, giving real-time data on equipment and drivers including hands-free access control, geofencing, outdoor tracking, fuel and battery levels and shock detection, captured daily on the IOPS platform. Source: Adveez case study (JBT) (T2), retrieved 2026-10-03. <https://www.casestudies.com/company/adveez/case-study/gse-data-capture-with-jbt>
 - **Open (C75):** the case study names 'ADVEEZ FAMA'; whether it is the same product as the 'Asset and Operations Monitoring System' is not stated.
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Controller and CAN Bus]]; connects to [[GSE Controller and CAN Bus]]; acts on [[GSE Controller and CAN Bus]]. See [[GSE Part Connection Register]].
 
 ## Aliases
 

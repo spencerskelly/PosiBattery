@@ -35,6 +35,7 @@ Oshkosh AeroTech equipment monitoring technology with diagnostics and monitoring
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/commander-30i-e-electric-cargo-loader>
 - The Adveez case study for JBT names an IOPS platform where FAMA data is captured, the same name as Oshkosh AeroTech's iOPS equipment monitoring, which supports iOPS being the JBT AeroTech platform now under the Oshkosh AeroTech name (not stated outright, C71). Source: Adveez case study (JBT) (T2), retrieved 2026-10-03. <https://www.casestudies.com/company/adveez/case-study/gse-data-capture-with-jbt>
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Controller and CAN Bus]]; connects to [[GSE Controller and CAN Bus]]; acts on [[GSE Controller and CAN Bus]]. See [[GSE Part Connection Register]].
 
 ## Aliases
 

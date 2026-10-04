@@ -142,6 +142,7 @@ Which of 12 generic truck parts each truck-side and battery accessory mounts on,
 | [[Stryten inCOMMAND]] | back-office software; not mounted or connected to a truck part |
 | [[Toyota Cold Conditioning Package]] | whole-truck conditioning package; no single part |
 | [[UniCarriers Freezer Option]] | whole-truck conditioning package; no single part |
+- **Round 32:** GSE accessories, and the battery-side devices that fit both trucks and GSE, are mapped in [[GSE Part Connection Register]]; those devices were left out of this register because they carry the GSE tag.
 
 ## Aliases
 

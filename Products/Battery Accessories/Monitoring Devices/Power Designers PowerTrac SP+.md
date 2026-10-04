@@ -66,6 +66,7 @@ Power Designers battery data logger for industrial and motive batteries that att
   - [[Non-Volatile Event Memory]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[Reverse-Polarity Protection]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
 - **Sources used for the mapping above:** PowerTrac SP+ page <https://www.powerdesignerssibex.com/powertrac-sp/>; PowerTrac SP+ data sheet (10/2014, dated) <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 ## Aliases
 

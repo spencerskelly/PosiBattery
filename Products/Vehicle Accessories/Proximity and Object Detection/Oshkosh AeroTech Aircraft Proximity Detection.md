@@ -34,6 +34,7 @@ Optional Oshkosh AeroTech sensors on cargo loaders that help coordinate the airc
 - **Unknown:** sensor type, ranges and whether the loader slows automatically.
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://oshkoshaerotech.com/products-and-services/ground-support-equipment/cargo-loaders/ranger-15e-electric-cargo-loader>
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Front Body and Bumper]] (alternative) or [[GSE Load-Handling Structure]] (alternative); connects to [[GSE Controller and CAN Bus]]. See [[GSE Part Connection Register]].
 
 ## Aliases
 

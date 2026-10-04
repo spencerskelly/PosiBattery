@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Battery Thermal Management Device]]"
   - "[[Industrial Battery Charger]]"
   - "[[Industrial Truck Anatomy]]"
+  - "[[GSE Vehicle Anatomy]]"
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
@@ -38,8 +39,9 @@ describedBy:
   - "[[Project Objectives (Draft)]]"
   - "[[Research Change and Decision Tracker]]"
   - "[[Truck Feature Comparison Matrix]]"
-  - "[[Unidentified Products Review]]"
   - "[[Truck Part Connection Register]]"
+  - "[[Unidentified Products Review]]"
+  - "[[GSE Part Connection Register]]"
 ---
 
 # Battery-Connected Product

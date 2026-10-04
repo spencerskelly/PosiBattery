@@ -88,6 +88,7 @@ ACT battery monitor that exchanges data with ACT Quantum chargers and reports to
 | Alerts | weekly missed equalization; charge, temperature and usage notifications; potential weak cells; missed finish; deep discharge; potential sulfated battery; water level |
 | Other | no calibration needed; '10x faster Wi-Fi speed' and 'easier to install' versus earlier model (claims) |
 - **Conflict-visible (C51):** the sheet's Quantum blurb says 'Industry's highest charge efficiency (>94% peak)' while the Quantum 3 sheet says 96.4%; different generations, vendor superlative.
+- **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 ## Aliases
 
