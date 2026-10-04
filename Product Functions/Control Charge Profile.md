@@ -8,6 +8,7 @@ tags:
   - general-function
   - product-function
 supertypeOf:
+  - "[[Adapt Charge to Battery Condition]]"
   - "[[Charge Under BMS Control]]"
   - "[[Compensate Charge for Battery Temperature]]"
   - "[[Complete Missed Equalization Automatically]]"
@@ -16,7 +17,6 @@ supertypeOf:
   - "[[Equalize Battery on Schedule]]"
   - "[[Float Charge Battery]]"
   - "[[Identify Battery by Voltage]]"
-  - "[[Adapt Charge to Battery Condition]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

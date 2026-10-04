@@ -110,7 +110,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[EnerSys IRONCLAD Battery]] | [[EnerSys]] | battery | 0 | 0 | 0 | none |
 | [[EnerSys NexSys AIR Wireless Charger]] | [[EnerSys]] | charger | 9 | 1 | 1 | partial |
 | [[EnerSys NexSys COMpact Charger]] | [[EnerSys]] | charger | 1 | 1 | 0 | none |
-| [[EnerSys NexSys TPPL Battery]] | [[EnerSys]] | battery | 1 | 2 | 0 | none |
+| [[EnerSys NexSys TPPL Battery]] | [[EnerSys]] | battery | 1 | 2 | 7 | defined |
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] | battery | 3 | 0 | 2 | partial |
 | [[EnerSys NexSys+ Charger]] | [[EnerSys]] | charger | 13 | 2 | 9 | defined |
 | [[EnerSys Truck iQ]] | [[EnerSys]] | monitor | 6 | 1 | 0 | none |
@@ -333,7 +333,7 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Stryten EHY Charger]] | [[Stryten Energy]] | charger | 1 | 1 | 13 | defined |
 | [[Stryten M-Series AGM200 Battery]] | [[Stryten Energy]] | battery | 0 | 0 | 0 | none |
 | [[Stryten M-Series AGM210 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 3 | defined |
-| [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 3 | defined |
+| [[Stryten M-Series AGM220 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 4 | defined |
 | [[Stryten M-Series F100 Battery]] | [[Stryten Energy]] | battery | 1 | 1 | 0 | none |
 | [[Stryten M-Series F110 Battery]] | [[Stryten Energy]] | battery | 0 | 1 | 0 | none |
 | [[Stryten M-Series Li600 Battery]] | [[Stryten Energy]] | battery | 2 | 2 | 1 | partial |
@@ -386,6 +386,7 @@ Review of organization and product notes for what is offered and by whom, featur
 - **Round 22:** table regenerated.
 - **Round 23:** table regenerated.
 - **Round 24:** table regenerated.
+- **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.
 - **Round 25:** table regenerated after the feature capture pass.

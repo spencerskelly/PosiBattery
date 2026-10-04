@@ -40,6 +40,10 @@ describedBy:
   - "[[Metric - Operating Temperature Range]]"
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Watering Interval]]"
+  - "[[Metric - Constant Voltage Setpoint]]"
+  - "[[Metric - Opportunity Charging Window]]"
+  - "[[VRLA Charge Profile Comparison (AGM and Gel)]]"
+  - "[[Cold Storage Charging Rules for Traction Batteries (ZVEI)]]"
 ---
 
 # Industrial Traction Battery

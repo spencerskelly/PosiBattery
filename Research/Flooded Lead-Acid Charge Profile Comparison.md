@@ -64,6 +64,7 @@ East Penn's 'Flooded Cycling-Battery Charging' sheet gives a staged profile for 
 - Float or storage voltage differs: 2.27 V per cell (EnerSys) against 2.23 V per cell (GNB EPzS); C97.
 - The charge-end rule differs in kind: constant specific gravity and voltage for 2 hours (EnerSys, GNB), no rise in specific gravity (Stryten), 2.65 V per cell or dV/dt cut-off (Exide Industries); C97.
 - Equalizing frequency differs: after specific events (EnerSys, GNB), every 1 to 4 weeks (East Penn), once a week (Stryten); C97.
+- **Temperature coefficient for voltage (round 37):** ZVEI recommends -0.004 V per cell per K from 0 to 40 C with a PzS charge voltage of 2.40 V at 30 C (IUI characteristic; see [[Cold Storage Charging Rules for Traction Batteries (ZVEI)]]), against East Penn's -0.005 V per cell per C at 20 C for flooded cycling batteries and -6 mV in its renewable sheet; reference temperature and application differ; C99.
 - Identical text: the EnerSys, GNB and HOPPECKE manuals share the same wording on DC charging, DIN 41773 and 41774, 5 A per 100 Ah equalizing, 55 C and -0.0007 kg/l per C; they follow a common template, so they are not independent confirmations of each other.
 - Not found: the EN 62485-3 Table 1 final-current values (paid standard), HOPPECKE's own numeric charging values beyond the template text, East Penn and Stryten finish-rate tables by cell size (not extractable), and charger-side algorithm values.
 - **Curves:** no voltage-time or discharge-capacity curves are recorded yet; the ZVEI leaflet's diagrams are shapes, not tabulated points.

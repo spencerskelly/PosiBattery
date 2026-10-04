@@ -106,6 +106,7 @@ Research working note: Knowledge Base Next Steps.
 
 ### Completed
 
+- 2026-10-03 (round 37) — VRLA (AGM and gel) charge profiles and cold-store charging rules.
 - 2026-10-03 (round 36) — Charger-side algorithms ([[Charger Charge Algorithm Comparison]]).
 - 2026-10-03 (round 35) — Stryten, ZVEI and standards values for flooded charging; correction of a round 34 misplacement.
 - 2026-10-03 (round 34) — Charge profile parameters for flooded lead-acid started ([[Flooded Lead-Acid Charge Profile Comparison]]).

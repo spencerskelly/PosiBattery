@@ -38,6 +38,7 @@ EnerSys thin plate pure lead battery line, described as virtually maintenance-fr
   - [[EnerSys NexSys+ Charger]]: profiles exist for NexSys TPPL; the iON profile is truncated in the retrieved text.
   - [[EnerSys Wi-iQ]]: no difference stated in the sources.
 - Listed in the Logisnext Promatch parts program (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
+- A trade report says NexSys Fast TPPL batteries recharge in under four hours from 60 percent depth of discharge and take opportunity charges from 40 to 80 percent state of charge in one hour and to 98 percent in two hours, with chargers up to 94 percent efficient and a low charging factor giving up to 30 percent energy saving against standard batteries; the EnerSys charging poster says to keep the battery above 40 percent charge, that temperatures above 60 C inhibit charging and that opportunity charging maximizes life. Source: Logistics Matters and EnerSys charging poster (EMEA 0324) (T2/T1), retrieved 2026-10-03. <https://www.logisticsmatters.co.uk/?p=14776>
 
 ## Aliases
 

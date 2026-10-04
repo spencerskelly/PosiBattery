@@ -23,6 +23,7 @@ supertypeOf:
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"
+  - "[[Charger Charge Algorithm Comparison]]"
   - "[[Coverage Plan]]"
   - "[[Document Wishlist]]"
   - "[[External Context and Provenance]]"
@@ -42,7 +43,6 @@ describedBy:
   - "[[Truck Feature Comparison Matrix]]"
   - "[[Truck Part Connection Register]]"
   - "[[Unidentified Products Review]]"
-  - "[[Charger Charge Algorithm Comparison]]"
 ---
 
 # Battery-Connected Product

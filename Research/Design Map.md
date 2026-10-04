@@ -139,6 +139,7 @@ Matrix of design characteristics against the products that use them, split by ev
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
 - **Round 25:** rebuilt after the feature capture pass.
+- **Round 25:** rebuilt after the feature capture pass.
 
 ## Aliases
 

@@ -48,8 +48,8 @@ supertypeOf:
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
 describedBy:
-  - "[[Metric - Charge Profile Types Offered]]"
   - "[[Metric - Charge Adaptation Method]]"
+  - "[[Metric - Charge Profile Types Offered]]"
   - "[[Metric - Equalize Scheduling]]"
 ---
 

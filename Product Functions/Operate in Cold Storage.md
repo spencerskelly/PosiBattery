@@ -39,6 +39,7 @@ Keep a truck or battery working in cold storage or freezer conditions.
   - [[Toyota Cold Conditioning Package]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
   - [[UniCarriers Freezer Option]] (V): <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+- **Round 37:** industry rules for charging and operating traction batteries in cold stores are in [[Cold Storage Charging Rules for Traction Batteries (ZVEI)]].
 
 ## Aliases
 
