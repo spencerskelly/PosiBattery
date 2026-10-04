@@ -1,0 +1,86 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Capacity.md",
+   "x": 0,
+   "y": 0,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n2",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Nominal Voltage Range.md",
+   "x": 420,
+   "y": 0,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n3",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Maximum Continuous Charge Current.md",
+   "x": 840,
+   "y": 0,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n4",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Charge Time.md",
+   "x": 0,
+   "y": 250,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n5",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Charge Temperature Limits.md",
+   "x": 420,
+   "y": 250,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n6",
+   "type": "file",
+   "file": "Performance Metrics/Metric - BMS and Communication.md",
+   "x": 840,
+   "y": 250,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n7",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Cycle Life and Warranty.md",
+   "x": 0,
+   "y": 500,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n8",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Full-Cycle Efficiency.md",
+   "x": 420,
+   "y": 500,
+   "width": 340,
+   "height": 170
+  },
+  {
+   "id": "n9",
+   "type": "file",
+   "file": "Performance Metrics/Metric - Communication and Remote Management.md",
+   "x": 840,
+   "y": 500,
+   "width": 340,
+   "height": 170
+  }
+ ],
+ "edges": []
+}
