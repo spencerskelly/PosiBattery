@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Full-vault structural integrity audit for MDSE handoff.
 from __future__ import annotations
 import re, sys, json
 from pathlib import Path
