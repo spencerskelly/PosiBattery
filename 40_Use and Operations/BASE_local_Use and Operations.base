@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "40_Use and Operations"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local use and operations contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
