@@ -1,0 +1,35 @@
+schema_version: "0.1"
+generated_date: "2026-10-05"
+purpose: "Reviewed semantic-linking completeness classifications and gap dispositions used by report-traceability.py."
+authority:
+  content_standards: "80_Decisions and Planning/Semantic Linking Content Standards Step 3 0.1.yaml"
+  exception_classes: "80_Decisions and Planning/Semantic Linking Exception Classes Step 4 0.1.yaml"
+allowed_completeness_classes:
+  - active_engineering
+  - engineering_support
+  - reference_content
+  - historical_or_import_holding
+allowed_dispositions:
+  - linked
+  - intentionally_absent
+  - unresolved
+  - not_applicable
+allowed_exception_codes:
+  - EXC-FRAMING
+  - EXC-REFERENCE-LEAF
+  - EXC-REUSABLE-UNSELECTED
+  - EXC-ARCH-UNRESOLVED
+  - EXC-UNMODELED-IMPLEMENTATION
+  - EXC-RESEARCH-ONLY
+  - EXC-HISTORICAL
+  - EXC-IMPORT-HOLDING
+  - EXC-EVIDENCE-PENDING
+  - EXC-NOT-APPLICABLE
+rules:
+  - "Records are keyed by exact vault-relative Markdown path."
+  - "classification is required for a reviewed note."
+  - "gap dispositions are recorded only for expectation dimensions that remain unlinked."
+  - "intentionally_absent, unresolved, and not_applicable require one controlled exception code."
+  - "linked does not require an exception code and normally need not be recorded because the reporter derives links."
+  - "Do not use this registry to override relationship-integrity findings."
+records: {}
