@@ -1248,6 +1248,40 @@ No historical files were deleted and no model content was changed.
 
 ---
 
+## Step 11 completion evidence — Primary navigation naming standardized
+
+**Date:** 2026-10-04
+
+The canonical PosiBattery primary navigation filename convention is now:
+
+- `README_<Domain>.md`
+- `BASE_local_<Domain>.base`
+- `BASE_all_<Domain>.base`
+- `CANVAS_<Domain>.canvas`
+
+For numbered root folders, `<Domain>` uses the human-readable domain label without the numeric prefix. The numbered folder itself is not renamed.
+
+Six unambiguous transitional root READMEs were renamed:
+
+- `20_Product Architecture/README_Product Architecture.md`
+- `30_Product Capabilities/README_Product Capabilities.md`
+- `40_Use and Operations/README_Use and Operations.md`
+- `60_Stakeholders and Ecosystem/README_Stakeholders and Ecosystem.md`
+- `70_Research and Evidence/README_Research and Evidence.md`
+- `90_Definitions and Reusable Reference/README_Definitions and Reusable Reference.md`
+
+The older `README - <numbered folder>.md` forms for those six domains were removed after successful replacement.
+
+The duplicate old-style files in `10_Products` and `50_Customer Needs` remain intentionally for Steps 13–14 because those folders already contain substantive correctly named READMEs whose content must be reconciled before retirement.
+
+`PosiBattery Model Organization and Handoff.md` now documents the exact convention, and `PosiBattery Navigation Artifact Inventory.yaml` records six standardized root READMEs and only two remaining transitional root placeholders.
+
+No model-note identity or semantic relationship was changed.
+
+**Result:** Step 11 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1260,3 +1294,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |\n| 8 | 2026-10-04 | Complete | Established the numbered 10–99 PosiBattery root taxonomy as authoritative for vault-level placement and migration destinations, while preserving MDSE schemas/relationships as semantic authority and treating 00–09 as subordinate product-context navigation. Commits `d15bc61f`, `eabfc714`, `063fba7d`, `cf82ab63`, `266c5499`. |
 | 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
 | 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
+| 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |
