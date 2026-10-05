@@ -146,10 +146,12 @@ def resolve_any(source,target):
             else:
                 parts.append(part)
         norm="/".join(parts)
-        target_noext=str(Path(target).with_suffix(""))
-        norm_noext=str(Path(norm).with_suffix(""))
+        def strip_md_ext(value):
+            return value[:-3] if value.lower().endswith(".md") else value
+        target_noext=strip_md_ext(target)
+        norm_noext=strip_md_ext(norm)
         for rp in file_paths:
-            rp_noext=str(Path(rp).with_suffix(""))
+            rp_noext=strip_md_ext(rp)
             if rp==target or rp_noext==target_noext or rp==norm or rp_noext==norm_noext:
                 candidates.add(rp)
             elif rp.endswith("/"+target) or rp_noext.endswith("/"+target_noext):
