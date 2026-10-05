@@ -1624,6 +1624,84 @@ The one-link improvement is expected because the Use and Operations README no lo
 
 ---
 
+## Step 18 completion evidence — Stakeholders and Ecosystem navigation normalized
+
+**Date:** 2026-10-04
+
+The `60_Stakeholders and Ecosystem` root now has a complete primary navigation set and clearly distinguishes Customer Actors from Organizations.
+
+### Changes
+
+- `README_Stakeholders and Ecosystem.md`
+  - replaced target-placeholder wording with active domain guidance;
+  - defines Actors as roles/participant types and Organizations as durable organizational entities or organization-class concepts;
+  - explicitly prevents treating role and organization identity as interchangeable;
+  - records that the Organizations area remains a later migration/classification candidate.
+
+- `BASE_local_Stakeholders and Ecosystem.base`
+  - created for direct Markdown contents of the root domain.
+
+- `BASE_all_Stakeholders and Ecosystem.base`
+  - created for recursive Markdown contents across Actors and Organizations.
+
+- `CANVAS_Stakeholders and Ecosystem.canvas`
+  - created as a curated root map linking the root README to Customer Actors and Organizations.
+
+### Child navigation repairs
+
+Five stale Base paths were repaired:
+
+- Customer Actors local + recursive:
+  - from `Customer Actors`
+  - to `60_Stakeholders and Ecosystem/Customer Actors`
+
+- Organizations local + recursive:
+  - from `Organizations`
+  - to `60_Stakeholders and Ecosystem/Organizations`
+
+- `Organizations/BASE_offerings.base`:
+  - from `Products`
+  - to `10_Products`
+
+No Actor or Organization model content was moved or reclassified.
+
+### Validation
+
+GitHub Actions run `37263377106` on commit `849f0901` completed the structural audit after the root navigation and four standard child Base repairs.
+
+Results:
+
+- Markdown files: 1074
+- Model notes: 905
+- Broken wikilinks: **21** (improved from 22)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The final specialized offerings Base repair was committed immediately afterward as `0c98595d`; it changes only a Base filter path and does not alter model-note structure.
+
+### Commits
+
+- `70b53547` — normalize Stakeholders and Ecosystem README
+- `b34ebe0d` — add local root Base
+- `91f2c3c9` — add recursive root Base
+- `3381e7bb` — add root Canvas
+- `0287ea74`, `dfc6fb91` — repair Customer Actors Bases
+- `a0bbc22d`, `849f0901` — repair Organizations Bases
+- `0c98595d` — repair organization offerings Base path
+
+**Result:** Step 18 complete. `60_Stakeholders and Ecosystem` now has coherent root navigation, distinct Actor/Organization guidance, and current Base paths.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1640,3 +1718,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 15 | 2026-10-04 | Complete | Normalized `20_Product Architecture` with an active README, local/recursive Bases, and a minimal curated Canvas; no architecture elements were invented. Structural audit improved broken wikilinks from 25 to 24. |
 | 16 | 2026-10-04 | Complete | Normalized `30_Product Capabilities` with active root README/Base/Canvas navigation, surfaced Functions/Designs/Metrics, repaired all six child Base paths to numbered locations, and reduced broken wikilinks from 24 to 23 without reclassifying model content. |
 | 17 | 2026-10-04 | Complete | Normalized `40_Use and Operations` with an active README, local/recursive Bases, and a minimal curated Canvas; no operational content was invented. Structural audit improved broken wikilinks from 23 to 22. |
+| 18 | 2026-10-04 | Complete | Normalized `60_Stakeholders and Ecosystem` with active root navigation, clarified Actors vs Organizations, repaired four standard child Base paths plus the offerings view to numbered canonical paths, and reduced broken wikilinks from 22 to 21. |
