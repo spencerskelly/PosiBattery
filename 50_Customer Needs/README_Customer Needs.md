@@ -16,6 +16,14 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[Knowledge Base Backlog]].
 - [[Product to Customer Need Map]] — product to need to role route.
 - [[Battery Product Landscape Conflicts and Open Questions|Conflicts and open questions]] — C101 to C106 cover the evidence behind these notes.
 
+## Operational traceability
+
+All current Customer Need notes identify the Actors who have the need through `participants` and the Functions that address the need through `realizedBy`.
+
+Where a stable operational scenario or context now exists, the Need note also includes an **Operational traceability** section with ordinary wikilinks to that Use Case/context. These links are intentionally navigational rather than `tracesTo`: the current relationship vocabulary has no dedicated Need-to-operational-Use-Case relationship, and `tracesTo` is provisional/review-generating.
+
+Do not force every Need into an operational Use Case. Some Needs currently map only to operating contexts, and others remain ahead of the operational model.
+
 ## Related areas
 
 - [[README_Product Functions|Product Functions]] — the functions that realize needs.
