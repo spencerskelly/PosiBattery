@@ -1,0 +1,22 @@
+name: MDSE Identity Check
+
+on:
+  push:
+    paths:
+      - '.github/workflows/mdse-identity-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Run complete identity validation
+        run: python 99_System/09_Tools/check-identities.py
