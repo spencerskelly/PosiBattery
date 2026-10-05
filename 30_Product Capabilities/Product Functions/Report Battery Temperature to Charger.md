@@ -24,6 +24,8 @@ realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 satisfies:
   - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
+realizedBy:
+  - "[[Electrolyte-Immersed Temperature Sensor]]"
 ---
 
 # Report Battery Temperature to Charger
