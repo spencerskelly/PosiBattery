@@ -10,8 +10,8 @@
 - [[MDSE Modeling Ruleset 1.23]] — current modeling semantics and authoring rules.
 - [[MDSE Vault File and Folder Structure 0.8]] — authoritative filesystem and placement guidance.
 - [[PosiBattery Model Organization and Handoff]] — PosiBattery-specific organization and migration guidance.
-- [[PosiBattery Runtime Handoff State]] — runtime handoff snapshot; use the active improvement-plan evidence when newer work supersedes a snapshot.
-- [[PosiBattery Architecture Improvement Plan]] — current controlled improvement sequence.
+- [[PosiBattery Runtime Handoff State]] — authoritative current architecture, runtime, quality, unresolved-work, and next-step handoff.
+- [[PosiBattery Architecture Improvement Plan]] — completed 100-step improvement record and detailed completion evidence.
 
 ## System areas
 
