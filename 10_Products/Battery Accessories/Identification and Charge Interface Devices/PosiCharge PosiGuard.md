@@ -4,6 +4,9 @@ subtype: electrical
 id: OBJ-00012
 uid: 20261002150858948skellyspencer
 status: Draft
+productClass: specific-offering
+aliases:
+  - PosiGuard
 tags:
   - battery-market-reference
   - commercial-product
@@ -104,10 +107,5 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The PosiGuard product card (Downloads/PosiGuard_Product-Card.pdf-2.pdf) lists nominal battery voltage 24 to 96 V, operating voltage '18 - 20 Volts', voltage resolution 30 mV, current resolution 100 mA, operating temperature -25 to 75 C, 4.05 x 1.80 x 1.00 in, IP65, serial, CAN, WiFi, Bluetooth and LoRa interfaces, battery-backed date and time, 16 MB memory, UL 583 and EN1175; features: lead-acid and lithium, current, voltage and electrolyte sensing (some sensors need optional components), mobile app configuration and BMID data download. Source: PosiGuard product card (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/PosiGuard_Product-Card.pdf-2.pdf>
 - **C83 (round 20):** the card's operating voltage reads 18 to 20 V where the web page says 18 to 120 V.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
-
-## Aliases
-
-- PosiGuard
-
 
 ## Former ids
