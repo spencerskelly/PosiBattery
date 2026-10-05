@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check function dependencies against product links (report-only by default).
 
-For each row of Research/Function Design Dependencies.md, list products that perform the function
+For each row of 70_Research and Evidence/Research/Function Design Dependencies.md, list products that perform the function
 but have no hasDesign link to the design (or to a design under the class). With --strict, exit 1
 when a row marked strong has such a gap and its Gap handling column says 'unreviewed'.
 """
@@ -12,12 +12,15 @@ except ImportError:
     sys.exit("PyYAML is required: pip install pyyaml")
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 notes = {}
-for pat in ("Products/**/*.md", "Product Functions/*.md", "Product Designs/*.md"):
-    for f in glob.glob(os.path.join(ROOT, pat), recursive=True):
-        t = open(f, encoding="utf-8").read(); m = re.match(r"^---\n(.*?)\n---\n", t, re.S)
-        if m:
-            try: fm = yaml.safe_load(m.group(1)) or {}
-            except Exception: continue
+for f in glob.glob(os.path.join(ROOT, "**/*.md"), recursive=True):
+    rel = os.path.relpath(f, ROOT).replace(os.sep, "/")
+    if rel.startswith("99_System/") or "/.git/" in rel or rel.startswith(".git/"):
+        continue
+    t = open(f, encoding="utf-8").read(); m = re.match(r"^---\n(.*?)\n---\n", t, re.S)
+    if m:
+        try: fm = yaml.safe_load(m.group(1)) or {}
+        except Exception: continue
+        if fm.get("type"):
             notes[os.path.basename(f)[:-3]] = fm
 def links(fm, k):
     out = []
@@ -30,7 +33,7 @@ def anc(x, seen=None):
         if y not in seen: seen.add(y); anc(y, seen)
     return seen
 prods = {n: fm for n, fm in notes.items() if fm.get("type") == "Object" and not fm.get("abstract")}
-reg = open(os.path.join(ROOT, "Research", "Function Design Dependencies.md"), encoding="utf-8").read().split("**Withdrawn")[0]
+reg = open(os.path.join(ROOT, "70_Research and Evidence", "Research", "Function Design Dependencies.md"), encoding="utf-8").read().split("**Withdrawn")[0]
 bad = []; total = 0
 print("Function | design or class | strength | products lacking it | handling")
 for line in reg.split("\n"):
