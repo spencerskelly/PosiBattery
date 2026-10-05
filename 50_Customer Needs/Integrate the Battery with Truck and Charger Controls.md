@@ -18,6 +18,8 @@ participants:
 arisesIn:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+drives:
+  - "[[BMID - Provide Battery Identity to Compatible Charger]]"
 ---
 
 # Integrate the Battery with Truck and Charger Controls
