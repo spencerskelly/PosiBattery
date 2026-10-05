@@ -4372,6 +4372,37 @@ Validation run `37293619073` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 63 completion evidence - Actor to Need to Use to Capability traceability strengthened
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Actor Need Use Capability Traceability Step 63 0.1.yaml`.
+
+### Coverage
+
+- **22 / 22 Customer Needs** identify participating Actors.
+- **22 / 22 Customer Needs** already identify realizing Functions.
+- **7 / 7 operational Use Cases** identify participating Actors.
+- **7 / 7 operational Use Cases** now have synchronized formal Function traceability.
+- **22 formal operational Use Case ↔ Function pairs** are active.
+- **13 Customer Needs** now link directly to stable operational Use Cases and/or operating contexts.
+- **10 Customer Needs** have direct links to one or more stable operational Use Cases.
+- **13 Customer Needs** have direct operating-context links.
+
+Need→Use/context traceability uses ordinary wikilinks rather than `tracesTo`, because the current relationship vocabulary has no dedicated non-provisional relationship for that bridge and `tracesTo` would create Review findings.
+
+No Use Case→Requirement links were created. The vault currently has no committed `Requirement` model notes for these scenarios; the SLC airport BMID rule remains an `Info` research note and was not silently promoted into a Requirement.
+
+One potential support link from [[Lock Out Vehicle After Impact]] to [[Review an Impact Event and Decide Whether to Return the Vehicle to Service]] remains evidence-only rather than formal because its paired inverse could not be synchronized during this step.
+
+Updated both the Customer Needs and Use and Operations README guidance to explain the traceability pattern.
+
+Evidence commit: `a2aab60b`.
+
+**Result:** Step 63 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4433,3 +4464,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 60 | 2026-10-05 | Complete | Modeled eight reusable operational/site/environment contexts, added one supported context specialization, reused existing surrounding Objects/products, and deferred ambiguous external-system boundaries rather than inventing them. Evidence: `Operational Context Inventory Step 60 0.1.yaml`. |
 | 61 | 2026-10-05 | Complete | Identified 12 repeated operational workflow candidates from existing evidence: 7 high-readiness and 5 medium-readiness; classified likely Procedure vs Use Case-with-Steps representation, identified 3 Setup candidates, and explicitly excluded product-controlled algorithms from operational workflow modeling. Evidence: `Operational Workflow and Procedure Candidate Inventory Step 61 0.1.yaml`. |
 | 62 | 2026-10-05 | Complete | Populated 40_Use and Operations with 7 stable actor-goal Use Cases in addition to the 8 Step-60 contexts; retained only synchronized formal Function traceability, deferred evidence-gated Procedures, and updated README/Canvas navigation. Evidence: `Use and Operations Population Step 62 0.1.yaml`. |
+| 63 | 2026-10-05 | Complete | Strengthened Actor → Need → Use/context → Function traceability: all 22 Needs retain Actor and Function links; all 7 operational Use Cases have Actor and synchronized Function links; 13 Needs now link to stable operational Use/context, while Requirement traceability remains deferred because no committed Requirement model notes exist. Evidence: `Actor Need Use Capability Traceability Step 63 0.1.yaml`. |
