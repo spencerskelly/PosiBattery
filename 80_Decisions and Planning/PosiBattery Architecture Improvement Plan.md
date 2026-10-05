@@ -2794,6 +2794,77 @@ Results remain stable:
 
 ---
 
+## Step 32 completion evidence — Orphaned Downloads candidates identified
+
+**Date:** 2026-10-04
+
+Downloads artifacts lacking Source Document records were checked for direct repository filename references.
+
+### Review record created
+
+`80_Decisions and Planning/Downloads Orphan Candidate Review 0.1.yaml`
+
+### Results
+
+- Downloads PDFs: **66**
+- Source-record-backed PDFs: **8**
+- unmatched PDFs checked for direct repository references: **58**
+- direct repository filename references found: **0**
+- orphan candidates: **58**
+
+Those 58 candidates are intentionally split into two risk classes:
+
+- **9 redundant exact-copy candidates**
+  - byte-identical to another retained copy;
+  - no Source Document record;
+  - no direct repository reference;
+  - strongest candidates for later cleanup review.
+
+- **49 unique untracked artifact candidates**
+  - no Source Document record;
+  - no direct repository filename reference;
+  - unique Git blobs rather than redundant copies;
+  - must be preserved pending provenance/use review.
+
+### Interpretation boundary
+
+An orphan candidate is not the same thing as a deletion candidate.
+
+The repository search establishes only that no current note directly references the PDF filename. It does not prove that research prose was never derived from the file without an explicit link, nor that the artifact lacks future evidentiary value.
+
+Unique untracked artifacts therefore remain preserved until Step 35 can distinguish safe cleanup from unique, unstable, private, access-controlled, or otherwise important evidence.
+
+### Validation
+
+GitHub Actions run `37267841906` on commit `4d925299` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No Downloads artifacts were deleted, renamed, moved, or modified in Step 32.
+
+### Commit
+
+- `4d925299` — identify orphaned Downloads candidates
+
+**Result:** Step 32 complete. The evidence intake now distinguishes source-record-backed files, redundant orphan candidates, and unique untracked artifacts without treating missing traceability as permission to delete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2824,3 +2895,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 29 | 2026-10-04 | Complete | Inventoried all 66 Downloads PDFs in a machine-readable manifest with size, blob SHA, conservative source identity, duplicate hints, and 8 confirmed existing Source Document/model-link matches; no artifacts were changed. |
 | 30 | 2026-10-04 | Complete | Classified 8 exact duplicate groups involving 17 files and 9 redundant copies; found no additional non-identical likely duplicate groups, selected unsuffixed preferred copies, and deleted nothing. |
 | 31 | 2026-10-04 | Complete | Matched all 66 Downloads PDFs against the 8 existing Source Document records: 8 one-to-one matches, 0 one-to-many, 58 missing source records, and 0 ambiguous matches; no records or artifacts were changed. |
+| 32 | 2026-10-04 | Complete | Checked all 58 unmatched PDFs for direct repository references, found none, and classified them as 9 redundant exact-copy orphan candidates plus 49 unique untracked artifacts to preserve pending provenance/cleanup review. |
