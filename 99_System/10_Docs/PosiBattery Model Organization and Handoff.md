@@ -24,25 +24,26 @@ Read first:
 
 ## Current PosiBattery content organization
 
-The existing vault already contains substantial engineering and market knowledge under:
+The repository has already been reorganized substantially into the numbered PosiBattery domain structure:
 
 ```text
-Customer Actors/
-Customer Needs/
-Definitions/
-Organizations/
-Performance Metrics/
-Product Designs/
-Product Functions/
-Products/
-Research/
-Source Documents/
-Downloads/
+10_Products/
+20_Product Architecture/
+30_Product Capabilities/
+40_Use and Operations/
+50_Customer Needs/
+60_Stakeholders and Ecosystem/
+70_Research and Evidence/
+80_Decisions and Planning/
+90_Definitions and Reusable Reference/
+99_System/
 ```
 
-These are valid navigational areas and should not be bulk-moved merely to make the vault look like another repository.
+This is the current physical organization of the vault. It is still being reconciled: some folders contain mixed artifact classes, some navigation files retain pre-migration paths, and the root still contains temporary/migration-source areas such as `Downloads`, `_Cost Driver Research`, `_EMS Research`, and `_Power Conversion Research`.
 
-Existing links, note identity, and semantic relationships are more important than cosmetic folder uniformity.
+Do not interpret current placement as semantic proof. Existing links, note identity, explicit relationships, schemas, and evidence provenance remain more important than cosmetic folder uniformity.
+
+The controlled incremental cleanup sequence is `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`. Follow that plan one approved step at a time rather than performing an ad hoc bulk reorganization.
 
 ## Target product-model navigation pattern
 
@@ -129,9 +130,9 @@ Unresolved work, investigation notes, temporary model-development material, revi
 
 This is not a permanent dumping ground. Mature concepts should move to their proper model area.
 
-## Mapping from current PosiBattery areas
+## Mapping from transitional PosiBattery areas
 
-The current areas should be treated as existing authoritative content, not mechanically migrated. When content is naturally touched or promoted into the product model, use this guidance:
+Several of the named areas below now exist beneath numbered domains rather than at the vault root. Their content remains authoritative until a controlled migration step explicitly reclassifies or moves it. When content is reviewed or promoted into a product-specific model, use this guidance:
 
 | Current area | Likely target role |
 |---|---|
