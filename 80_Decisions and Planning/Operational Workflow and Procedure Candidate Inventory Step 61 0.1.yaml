@@ -1,0 +1,301 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 61
+purpose: "Identify repeated operational sequences in existing evidence that warrant later Procedure, Step, Setup, or related operational-model representation."
+
+methodology:
+  procedure_rule: "Use Procedure only for governed repeatable assembly, configuration, commissioning, calibration, maintenance, repair, decommissioning, or test work."
+  step_rule: "Use Step for ordered actions inside an externally controlled workflow or Procedure."
+  setup_rule: "Use Setup for reusable operational or verification capability/configuration needed to perform a workflow."
+  use_case_rule: "Routine operation that is actor-goal driven remains a Use Case, optionally decomposed into Steps; it is not forced into Procedure because it has a sequence."
+  exclusion_rule: "Product-controlled algorithms and automatic state transitions remain Functions/behavior, not operational Procedures."
+
+sources_reviewed:
+  - "Step 58 Operational Use Case Candidate Inventory"
+  - "Step 60 Operational Context Inventory"
+  - "PosiCharge ProCore Edge"
+  - "PosiCharge Single-Point Automatic Battery Watering"
+  - "TLD Aircraft Safety Docking"
+  - "Charger Charge Algorithm Comparison"
+  - "Flooded Lead-Acid Charge Profile Comparison"
+  - "Lithium-Ion Forklift Charge Profile Comparison"
+  - "Cold Storage Charging Rules for Traction Batteries (ZVEI)"
+  - "Customer Need and Product-to-Need research"
+
+workflow_candidates:
+  - candidate_id: WF-C01
+    name: "Connect, Charge, and Return a Vehicle to Service"
+    recommended_representation: "Operational Use Case with ordered Steps"
+    readiness: high
+    actors: ["Forklift Operator", "GSE Operator"]
+    contexts:
+      - "Distributed and Opportunity Charging Area"
+      - "Centralized Battery Room and Charging Area"
+    recurring_sequence:
+      - "Bring the vehicle/battery to an appropriate charging point."
+      - "Make the charging connection."
+      - "Confirm charging begins / no blocking condition is indicated."
+      - "Allow the intended charge session to complete or reach the required operational point."
+      - "Disconnect and return the vehicle to service."
+    evidence_basis:
+      - "Connect Chargers and Batteries Safely at the Site"
+      - "Return Trucks to Service Quickly After a Low Charge"
+      - "PosiCharge ProCore Edge"
+    caution: "Exact connection/disconnection safety steps remain product/manual specific and must not be invented."
+
+  - candidate_id: WF-C02
+    name: "Opportunity-Charge During a Work Break"
+    recommended_representation: "Operational Use Case with ordered Steps"
+    readiness: high
+    actors: ["Forklift Operator"]
+    contexts: ["Distributed and Opportunity Charging Area"]
+    recurring_sequence:
+      - "Reach an available break/idle window."
+      - "Connect to the charger."
+      - "Receive a partial/opportunity charge."
+      - "Disconnect at the end of the available window."
+      - "Resume work."
+    evidence_basis:
+      - "Return Trucks to Service Quickly After a Low Charge"
+      - "Stretch Truck Run Time per Charge"
+      - "Charger Charge Algorithm Comparison"
+    caution: "Charge-control stages are Functions/algorithms, not human Steps."
+
+  - candidate_id: WF-C03
+    name: "Authenticate Operator and Complete Pre-Shift Check"
+    recommended_representation: "Operational Use Case with ordered Steps"
+    readiness: high
+    actors: ["Forklift Operator"]
+    contexts: ["Material-Handling Fleet Site"]
+    recurring_sequence:
+      - "Identify/authenticate the operator."
+      - "Present or perform the required pre-shift inspection/checklist."
+      - "Complete required responses."
+      - "Permit or block vehicle use based on completion/authorization."
+    evidence_basis:
+      - "Control Who Operates Each Truck"
+      - "Enforce Pre-Shift Checklist"
+      - "Control Operator Access"
+    caution: "The product-enforced lockout decision remains Function behavior."
+
+  - candidate_id: WF-C04
+    name: "Inspect and Water a Flooded Traction Battery"
+    recommended_representation: "Procedure subtype maintenance with ordered Steps; optional Setup for watering equipment"
+    readiness: high
+    actors: ["Maintenance Technician"]
+    contexts:
+      - "Centralized Battery Room and Charging Area"
+      - "Cold Storage Operating Environment"
+    recurring_sequence:
+      - "Assess battery/electrolyte condition."
+      - "Charge as required before watering according to the applicable battery guidance."
+      - "Add purified water at the appropriate point in the charge cycle."
+      - "Confirm acceptable electrolyte level/condition."
+    evidence_basis:
+      - "Keep Trucks Working Without Battery Maintenance Labor"
+      - "Flooded Lead-Acid Charge Profile Comparison"
+      - "Cold Storage Charging Rules for Traction Batteries (ZVEI)"
+      - "PosiCharge Single-Point Automatic Battery Watering"
+    caution: "Maker-specific watering timing and limits differ; a generic Procedure must preserve those applicability conditions."
+
+  - candidate_id: WF-C05
+    name: "Perform Equalization Maintenance on a Flooded Battery"
+    recommended_representation: "Procedure subtype maintenance with ordered Steps"
+    readiness: medium
+    actors: ["Maintenance Technician"]
+    contexts: ["Centralized Battery Room and Charging Area"]
+    recurring_sequence:
+      - "Determine that equalization is due or required."
+      - "Bring the battery to the required charge state."
+      - "Initiate or permit the equalization cycle."
+      - "Monitor completion/condition using the applicable maker rule."
+      - "Record the maintenance event when required."
+    evidence_basis:
+      - "Flooded Lead-Acid Charge Profile Comparison"
+      - "PosiCharge ProCore Edge"
+      - "Document Battery Care for Warranty Compliance"
+    caution: "Frequency, current, end criteria, and triggering conditions differ materially by battery maker; generic Steps cannot contain one universal numeric rule."
+
+  - candidate_id: WF-C06
+    name: "Prepare a Traction Battery for Cold-Storage Operation"
+    recommended_representation: "Procedure subtype maintenance or configuration plus context-specific Steps"
+    readiness: high
+    actors: ["Maintenance Technician", "Fleet Operations Manager"]
+    contexts: ["Cold Storage Operating Environment"]
+    recurring_sequence:
+      - "Charge/park in an appropriate-temperature area."
+      - "Ensure the battery is fully recharged before the shift."
+      - "Apply temperature-compensated charging rules where required."
+      - "Avoid prohibited watering/charging practices in sub-zero ambient conditions."
+      - "Return the battery/vehicle to cold-storage duty."
+    evidence_basis:
+      - "Cold Storage Charging Rules for Traction Batteries (ZVEI)"
+    caution: "This is a source-derived operating procedure candidate; applicability must stay explicit to PzS/PzV traction batteries and the referenced conditions."
+
+  - candidate_id: WF-C07
+    name: "Review an Impact and Release or Hold the Vehicle"
+    recommended_representation: "Operational Use Case with ordered Steps; possible Procedure subtype maintenance for the inspection portion"
+    readiness: high
+    actors: ["Site Safety Manager", "Maintenance Technician", "Fleet Operations Manager"]
+    contexts:
+      - "Material-Handling Fleet Site"
+      - "Airport Ground-Support Operating Area"
+    recurring_sequence:
+      - "Receive/detect the impact event."
+      - "Identify the vehicle/operator/time and available event evidence."
+      - "Inspect or assess the vehicle as required."
+      - "Decide whether the vehicle is safe to resume operation."
+      - "Release/unlock or retain the vehicle out of service."
+    evidence_basis:
+      - "Detect and Learn from Truck Impacts"
+      - "TLD Aircraft Safety Docking"
+    caution: "Inspection criteria are not yet defined in the vault and must not be invented."
+
+  - candidate_id: WF-C08
+    name: "Diagnose a Vehicle or Battery Fault"
+    recommended_representation: "Operational Use Case plus Procedure subtype repair when a repeatable diagnostic method is sourced"
+    readiness: medium
+    actors: ["Maintenance Technician", "Dealer Service Technician"]
+    contexts:
+      - "Material-Handling Fleet Site"
+      - "Airport Ground-Support Operating Area"
+    recurring_sequence:
+      - "Receive a fault/warning/service indication."
+      - "Retrieve available diagnostic or telemetry information."
+      - "Identify likely fault domain/cause."
+      - "Inspect or service the affected equipment."
+      - "Confirm restoration or escalate."
+    evidence_basis:
+      - "Find and Fix Vehicle Faults Without Downtime"
+      - "Diagnose Vehicle Remotely"
+      - "Display Truck Status to Operator"
+    caution: "The vault has evidence for diagnostic capability but not enough common product-independent troubleshooting detail for a stable repair Procedure yet."
+
+  - candidate_id: WF-C09
+    name: "Install and Commission a Charger"
+    recommended_representation: "Procedure subtype commissioning plus Setup"
+    readiness: medium
+    actors: ["Equipment Installer"]
+    contexts:
+      - "Centralized Battery Room and Charging Area"
+      - "Distributed and Opportunity Charging Area"
+    recurring_sequence:
+      - "Confirm site/electrical/location prerequisites."
+      - "Mount/install the charger and cable-management equipment."
+      - "Connect site power and charging interfaces."
+      - "Configure applicable battery/chemistry/communication settings."
+      - "Verify safe operation before release to users."
+    evidence_basis:
+      - "Connect Chargers and Batteries Safely at the Site"
+      - "PosiCharge ProCore Edge"
+      - "Product documentation references to installation/service manuals"
+    caution: "The exact ordered installation instructions are not currently captured in vault-native evidence; do not create detailed Steps until the manuals are ingested."
+
+  - candidate_id: WF-C10
+    name: "Configure a Battery Monitor or Charge Interface Device"
+    recommended_representation: "Procedure subtype configuration"
+    readiness: medium
+    actors: ["Maintenance Technician", "Equipment Installer"]
+    contexts: ["Material-Handling Fleet Site"]
+    recurring_sequence:
+      - "Connect to the device through its supported configuration interface."
+      - "Identify/select the battery or operating parameters."
+      - "Apply configuration."
+      - "Confirm communication/status."
+      - "Read or preserve logs/configuration as needed."
+    evidence_basis:
+      - "Configure Device from Mobile App or PC"
+      - "PosiCharge BMID 3"
+      - "Battery-monitoring product evidence"
+    caution: "Specific fields, permissions, and save/validation actions vary by product and are not yet normalized."
+
+  - candidate_id: WF-C11
+    name: "Approach and Dock GSE at an Aircraft"
+    recommended_representation: "Operational Use Case with ordered Steps"
+    readiness: high
+    actors: ["GSE Operator"]
+    contexts:
+      - "Airport Ground-Support Operating Area"
+      - "Aircraft Service Envelope"
+    recurring_sequence:
+      - "Approach the aircraft service area."
+      - "Enter/engage the protected docking mode where applicable."
+      - "Proceed at constrained approach speed while proximity sensing is active."
+      - "Respond to warnings or automatic stop behavior."
+      - "Reach the service position without aircraft contact."
+    evidence_basis:
+      - "Protect Aircraft and Ground Crew During Ground Operations"
+      - "TLD Aircraft Safety Docking"
+    caution: "Automatic speed limiting, sensing, and stopping are Functions; operator actions remain Steps."
+
+  - candidate_id: WF-C12
+    name: "Review Battery Care for Warranty or Service"
+    recommended_representation: "Operational Use Case with ordered Steps"
+    readiness: high
+    actors: ["Fleet Operations Manager", "Dealer Service Technician", "Maintenance Technician"]
+    contexts: ["Material-Handling Fleet Site"]
+    recurring_sequence:
+      - "Retrieve battery usage/charge/watering/equalization history."
+      - "Review abnormal events or abuse indicators."
+      - "Compare history with applicable care expectations."
+      - "Decide whether maintenance, warranty follow-up, or replacement planning is needed."
+      - "Preserve the evidence/report."
+    evidence_basis:
+      - "Document Battery Care for Warranty Compliance"
+      - "Prevent Battery Abuse and Premature Replacement"
+    caution: "Warranty acceptance criteria remain maker-specific and are not yet Requirements."
+
+not_workflows:
+  - subject: "Bulk -> absorption -> finish/equalize charge stages"
+    classification: "Product-controlled charging algorithm / Function behavior"
+    reason: "The charger/BMS controls these states; they are not externally controlled operational Steps."
+  - subject: "Automatic battery identification and charge adaptation"
+    classification: "Function behavior"
+    reason: "External users may configure prerequisites, but identification/adaptation itself is product-controlled."
+  - subject: "Automatic proximity detection, speed reduction, and stopping"
+    classification: "Function behavior"
+    reason: "These support actor workflows but should not be modeled as human Procedure steps."
+  - subject: "Cold, wet, dusty, outdoor, or mixed-chemistry conditions"
+    classification: "Operational context / scenario variant"
+    reason: "These change applicability and constraints but are not sequences."
+
+setup_candidates:
+  - name: "Industrial Charger Commissioning Setup"
+    readiness: medium
+    includes:
+      - "Industrial Battery Charger"
+      - "Site electrical service (boundary deferred)"
+      - "Charging cable/connector"
+      - "Representative battery or approved load"
+    note: "Create only after the site electrical-system boundary is resolved."
+  - name: "Flooded Battery Maintenance Setup"
+    readiness: medium
+    includes:
+      - "Industrial Traction Battery"
+      - "Approved watering equipment"
+      - "Charger"
+      - "Battery-condition measurement tools as applicable"
+    note: "Exact equipment list varies by maker/manual."
+  - name: "Battery Monitor Configuration Setup"
+    readiness: medium
+    includes:
+      - "Battery monitor / identification device"
+      - "Supported phone, tablet, PC, or service interface"
+      - "Battery/vehicle connection as required"
+    note: "Create only when a concrete configuration Procedure is selected."
+
+summary:
+  workflow_candidates: 12
+  high_readiness: 7
+  medium_readiness: 5
+  procedures_warranted_later: 5
+  use_cases_with_steps_warranted_later: 7
+  setup_candidates: 3
+  model_notes_created: 0
+  semantic_relationships_changed: 0
+  conclusion: "Existing evidence supports a controlled set of repeated operational sequences, but Step 62 should populate only those whose sequence and applicability are sufficiently sourced."
+
+next_step:
+  step: 62
+  focus: "Create or move stable operational content from this inventory without inventing missing workflow details."
