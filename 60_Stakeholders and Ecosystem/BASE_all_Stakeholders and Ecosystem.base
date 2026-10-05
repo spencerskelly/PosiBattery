@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("60_Stakeholders and Ecosystem")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All stakeholder and ecosystem contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - file.folder
+      - status
