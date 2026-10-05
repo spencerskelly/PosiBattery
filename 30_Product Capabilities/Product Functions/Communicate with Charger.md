@@ -29,6 +29,7 @@ performedBy:
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Crown V-Force BMID]]"
 realizes:
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
