@@ -1,0 +1,267 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 77
+status: "Complete"
+purpose: "Select the smallest metadata extension that materially improves query, validation, and traceability without duplicating existing type, identity, relationships, Git history, or note-body semantics."
+
+authorities:
+  vocabulary_resolution: "80_Decisions and Planning/Vocabulary Conflict Resolution Step 76 0.1.yaml"
+  field_reconciliation: "80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yaml"
+  type_reconciliation: "80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 0.1.yaml"
+  relationship_reconciliation: "80_Decisions and Planning/Relationship Reconciliation Matrix Step 75 0.1.yaml"
+  current_element_schema: "99_System/03_Schemas/element-types.yaml 1.17"
+
+selection_test:
+  required_to_adopt:
+    - "The field expresses intrinsic metadata not already represented by type/subtype/id/uid/status/tags or a governed relationship."
+    - "The value materially improves filtering, validation, deduplication, comparison, or provenance."
+    - "The value cannot be derived reliably from folder placement, note title, uid, Git history, or existing relationships."
+    - "The field has a bounded semantic definition and a plausible controlled value/format."
+    - "The field can be optional/type-scoped where universal use would create maintenance burden."
+  rejection_triggers:
+    - "Duplicates a relationship."
+    - "Duplicates note history or title."
+    - "Requires subjective maintenance without clear query/validation benefit."
+    - "Can be derived reliably from existing hierarchy/relationships."
+    - "Is useful only for a future workflow that has not yet been demonstrated."
+
+selected_extension:
+  common_optional:
+    - name: aliases
+      value: "list[text]"
+      allowedOn: "all first-class model notes"
+      default: "[]"
+      purpose:
+        - "Queryable alternate names, codes, abbreviations, and former names."
+        - "Improves duplicate detection and search."
+      migration: "Replaces ## Aliases body content when a note is migrated; never maintain both."
+      rationale: "Current body aliases contain valuable identity data but cannot be queried reliably."
+
+    - name: reuseScope
+      value: "enum"
+      allowed:
+        - product-specific
+        - product-family
+        - platform-shared
+        - cross-product
+        - external-reference
+      allowedOn:
+        - Object
+        - Function
+        - Design
+        - Requirement
+        - Info
+        - Document
+        - Verification
+        - Procedure
+        - Setup
+      optional: true
+      purpose: "States intended breadth of reuse without naming specific applicability targets."
+      boundary: "Named applicability remains appliesTo; folder placement does not set reuseScope."
+      rationale: "Cross-product/platform/reference intent is otherwise not reliably derivable from location or hierarchy."
+
+  object_product_optional:
+    - name: productClass
+      value: "enum"
+      allowed:
+        - product-category
+        - product-type
+        - product-family
+        - product-variant
+        - specific-offering
+      allowedOn: [Object]
+      optional: true
+      semantic_constraint: "Use only when the Object represents a commercial/product taxonomy identity; architecture Objects omit it."
+      purpose: "Disambiguates abstraction level in the 10_Products domain without creating a Product formal type."
+      rationale:
+        - "Steps 36-41 found mixed product abstraction to be a recurring classification problem."
+        - "subtypeOf expresses hierarchy but not whether an Object is a family, variant, category, or marketed offering."
+
+  measure_info_optional:
+    appliesWhen: "Info note represents a governed metric/property/comparison definition."
+    fields:
+      - name: measureClass
+        value: "enum"
+        allowed:
+          - metric
+          - property-definition
+          - comparison-criterion
+        requiredWhenMeasure: true
+        purpose: "Separates atomic measures/property semantics from compound comparison dimensions."
+
+      - name: valueType
+        value: "enum"
+        allowed:
+          - numeric
+          - categorical
+          - boolean
+          - text
+          - compound
+        requiredWhenMeasure: true
+        purpose: "Makes value semantics queryable and exposes compound records that should not be treated as atomic engineering properties."
+
+      - name: unit
+        value: "text-or-controlled-reference"
+        requiredWhen: "valueType is numeric and the measure is dimensional"
+        optionalOtherwise: true
+        purpose: "Defines normalized engineering unit semantics; future controlled Unit references may replace free text."
+
+      - name: measurementMethod
+        value: "text-or-note-link"
+        optional: true
+        purpose: "Identifies the comparison/measurement basis when method matters."
+        boundary: "A formal executable method should link to a Procedure/Verification rather than duplicate the procedure in text."
+    rationale:
+      - "Step 56 found 55 metric records spanning quantitative, categorical, and compound comparison semantics."
+      - "These fields directly expose which records are atomic and suitable for later requirement/verification use."
+      - "They prevent market comparison cards from masquerading as validation criteria."
+
+  source_document_optional:
+    appliesWhen: "Document note is a curated external Source Document."
+    fields:
+      - name: sourceClass
+        value: "enum"
+        allowed:
+          - web-page
+          - datasheet
+          - brochure
+          - manual
+          - standard
+          - article
+          - database
+          - other
+        requiredWhenSourceDocument: true
+        purpose: "Provides stable source-type filtering independent of tags."
+
+      - name: sourceUrl
+        value: "url"
+        requiredWhen: "an original public/private web locator is known"
+        purpose: "Canonical original locator for the source artifact."
+
+      - name: sourceRevision
+        value: "text"
+        optional: true
+        purpose: "Publication date, document code, revision, or edition as supplied by the source."
+
+      - name: accessed
+        value: "date"
+        optional: true
+        purpose: "Records when the external source was accessed/reviewed when that date matters to provenance."
+    rationale:
+      - "Current Source Document notes already maintain these facts in prose, proving the metadata is operationally useful."
+      - "Structured provenance enables completeness checks and avoids parsing narrative text."
+    excluded_source_field:
+      name: sourceStability
+      reason: "Useful but not necessary for the initial runtime; stability/access-control judgments can remain in body until a concrete workflow requires validation."
+
+selected_field_count:
+  total_new_field_names: 11
+  common_optional: 2
+  product_specific: 1
+  measure_specific: 4
+  source_specific: 4
+
+not_selected:
+  - field: evidenceBasis
+    reason: "Source/support relationships and provenance are more objective; a note-level basis classification is not required for initial runtime."
+  - field: evidenceConfidence
+    reason: "Subjective, maintenance-heavy, and likely to be confused with status unless a concrete decision workflow proves value."
+  - field: commercialStatus
+    reason: "Useful market data but time-sensitive and incomplete; defer until sourced lifecycle tracking is an explicit workflow."
+  - field: needClass
+    reason: "Current Customer Need set is small and already identifiable as Use Case/why; controlled need categories have not yet shown enough query value."
+  - field: needPriority
+    reason: "No authoritative prioritization process/value owner exists yet."
+  - field: functionLevel
+    reason: "Function hierarchy already expresses decomposition level sufficiently for the current model."
+  - field: designClass
+    reason: "Current Design hierarchy and Object architecture split provide adequate semantics; classification can be reconsidered after the product pilot."
+  - field: decisionClass
+    reason: "Plan/Issue/Info already separate the important planning semantics."
+  - field: workPriority
+    reason: "Planning priority belongs to workflow tooling rather than the minimum engineering model contract."
+  - field: due
+    reason: "Scheduling metadata is useful for task management but not required for MDSE model integrity."
+  - field: sourceStability
+    reason: "Defer until source-monitoring/refresh workflows require it."
+  - field: aliases_required
+    reason: "aliases is optional; requiring empty alias arrays on every note adds noise."
+
+existing_fields_preserved:
+  common:
+    - type
+    - subtype
+    - id
+    - uid
+    - status
+    - tags
+  optional:
+    - abstract
+  translated_only:
+    - eaType
+  relationships: "remain governed by relationships.yaml and Step 75 decisions"
+
+schema_design_for_step_78:
+  common_optional_properties:
+    aliases:
+      value: "list[text]"
+      default: []
+      omitWhenEmpty: true
+    reuseScope:
+      value: "enum"
+      allowed: [product-specific, product-family, platform-shared, cross-product, external-reference]
+      omitWhenBlank: true
+
+  class_optional_properties:
+    Object:
+      - productClass
+    Info:
+      - measureClass
+      - valueType
+      - unit
+      - measurementMethod
+    Document:
+      - sourceClass
+      - sourceUrl
+      - sourceRevision
+      - accessed
+
+  conditional_validation:
+    - "productClass is valid only for Objects intentionally modeled as product taxonomy/offering identities."
+    - "measureClass/valueType/unit/measurementMethod apply only to measure-definition Info notes."
+    - "sourceClass/sourceUrl/sourceRevision/accessed apply only to curated Source Document records, not every Document."
+    - "aliases and reuseScope are sparse; absence is valid."
+
+template_implications_for_step_79:
+  - "Do not add every selected field to every template."
+  - "Common sparse fields may be governed by schema without being emitted when empty."
+  - "Product/metric/source specializations may need purpose-specific template variants or insertion rules rather than bloating Object, Info, and Document templates."
+  - "Migration from ## Aliases must be one-way and controlled."
+
+pilot_acceptance_inputs_for_step_80:
+  representative_notes:
+    product: "one product Object with productClass"
+    reusable_cross_product: "one reusable Function/Design/Object with reuseScope"
+    atomic_metric: "one numeric metric with measureClass/valueType/unit"
+    compound_comparison: "one comparison criterion showing compound valueType"
+    source_document: "one existing Source Document with structured provenance"
+    organization: "one Organization candidate after Step 78 type addition"
+  acceptance:
+    - "No duplicate semantic storage is introduced."
+    - "Existing links/IDs/UIDs remain stable."
+    - "Bases can filter/group selected metadata."
+    - "Workbench/Obsidian renders sparse properties without degrading authoring."
+    - "Audit rejects invalid enum/type combinations but does not flag legacy notes merely for lacking new optional metadata."
+
+implementation_status:
+  schema_changed: false
+  templates_changed: false
+  property_definitions_changed: false
+  model_notes_changed: false
+  relationship_data_changed: false
+
+conclusion: "The minimum extension is intentionally sparse: two optional cross-cutting fields, one product-classification field, four measure-definition fields, and four source-provenance fields. Evidence-confidence, planning, commercial lifecycle, and additional need/function/design classifications are deferred until concrete workflows demonstrate that their value exceeds their maintenance cost."
+
+next_step:
+  step: 78
