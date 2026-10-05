@@ -30,6 +30,7 @@ performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
+  - "[[Opportunity-Charge a Vehicle During a Work Break]]"
 ---
 
 # Charge Battery by Opportunity
