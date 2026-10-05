@@ -13,6 +13,7 @@ performedBy:
   - "[[Toyota Twistlock Snapshot Camera System]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 ---
 
 # Record Images of Load Handling
