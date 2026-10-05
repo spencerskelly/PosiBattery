@@ -5,8 +5,11 @@ step: 26
 purpose: "Inventory and migration plan for the legacy _EMS Research island."
 source_folder: "_EMS Research"
 destination_folder: "70_Research and Evidence/Research/EMS"
-migration_executed: false
+migration_executed: true
 preserve_filenames: true
+migration_commit: "7b10f3609e2a98440194255c64ed2e6e0eb1c565"
+source_folder_removed: true
+navigation_updated: true
 
 summary:
   files: 4
