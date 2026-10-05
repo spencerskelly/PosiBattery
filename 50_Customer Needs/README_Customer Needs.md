@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Customer needs modeled as Use Case notes (subtype why). Each need is realized by specific Functions, which products perform, and lists the Actors who have the need.
+Customer and user outcomes, needs, pain points, constraints, and demand signals are organized here. Current need records are modeled as Use Case notes (subtype why); each need is realized by specific Functions, which products perform, and lists the Actors who have the need.
+
+See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[Knowledge Base Backlog]].
 
 ## Contents
 
