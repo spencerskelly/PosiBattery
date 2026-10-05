@@ -3345,6 +3345,96 @@ No product identities were merged, moved, renamed, or edited in Step 38.
 
 ---
 
+## Step 39 completion evidence — Product placement conflicts reviewed
+
+**Date:** 2026-10-04
+
+Product-note placement was reviewed against semantic role, governed relationships, surrounding hierarchy, and canonical domain intent.
+
+### Review created
+
+`80_Decisions and Planning/Product Placement Conflict Review 0.1.yaml`
+
+### Results
+
+- high-confidence placement conflicts: **26**
+- moderate placement-review signals: **5**
+- product/category patterns explicitly treated as non-conflicts: **3**
+- moves executed: **0**
+
+### High-confidence conflicts
+
+The 26 high-confidence conflicts are the reusable architecture notes currently under:
+
+- `10_Products/Forklifts/Truck Anatomy` — 13 notes
+- `10_Products/Ground Support Equipment/GSE Anatomy` — 13 notes
+
+Direct content review confirms:
+
+- `Industrial Truck Anatomy` is an abstract assembly with governed `hasPart` decomposition;
+- `GSE Vehicle Anatomy` is an abstract assembly with governed `hasPart` decomposition;
+- their child notes represent reusable structural/component concepts rather than marketed product identities.
+
+Because `20_Product Architecture` is the canonical domain for reusable architecture knowledge, these 26 notes are the clear Step 40 normalization candidates.
+
+### Moderate review signals
+
+Current placement remains unchanged for:
+
+- Class I Electric Rider Trucks;
+- Industrial Modular Chargers;
+- Flooded Lead-Acid Batteries;
+- Lithium-Ion Batteries;
+- Valve-Regulated Lead-Acid Batteries.
+
+These areas mix commercial series/families and specific offerings, but product identity evidence is not yet strong enough to justify regrouping.
+
+### Explicit non-conflicts
+
+Abstract product-category notes are **not** treated as misplaced merely because they are abstract.
+
+Examples retained in Products include:
+
+- `Battery and Charger Management Software`;
+- `Access Control Device`;
+- `Industrial Modular Charger`;
+- `Battery-Connected Product`;
+- `Industrial Traction Battery`;
+- `Powered Industrial Truck`.
+
+These organize product/offering taxonomies, rather than structural architecture.
+
+### Validation
+
+GitHub Actions run `37270275679` on commit `bf7880d1` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No notes were moved, renamed, merged, or semantically edited in Step 39.
+
+### Commit
+
+- `bf7880d1` — review product placement conflicts
+
+**Result:** Step 39 complete. Twenty-six reusable Truck/GSE anatomy notes are the only high-confidence placement conflicts and are ready for controlled normalization in Step 40.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3382,3 +3472,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 36 | 2026-10-04 | Complete | Semantically inventoried 424 product/model notes across `10_Products`, distinguishing reusable categories/families, commercial series, specific offerings, accessories/options, software/platforms, and reusable anatomy concepts without changing structure. |
 | 37 | 2026-10-04 | Complete | Reviewed mixed abstraction levels across 56 product folders: 38 contain multiple semantic classes, mostly intentional category-plus-offering patterns; identified 26 truck/GSE anatomy concepts as the clearest architecture-placement candidates and flagged several series-versus-offering areas for later evidence review. |
 | 38 | 2026-10-04 | Complete | Reviewed potential duplicate product identities: found no confirmed duplicates, preserved two unresolved PosiCharge BMID-family identity overlaps, and confirmed five major name-similarity groups as distinct products/system-component relationships. |
+| 39 | 2026-10-04 | Complete | Reviewed placement conflicts and identified 26 high-confidence reusable Truck/GSE anatomy notes that belong under canonical Product Architecture; preserved five series/offering areas as review-only signals and confirmed abstract product-category organizers are not placement conflicts. |
