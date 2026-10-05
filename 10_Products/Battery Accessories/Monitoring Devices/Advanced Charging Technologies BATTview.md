@@ -4,6 +4,9 @@ subtype: electrical
 id: OBJ-00053
 uid: 20261002165629063skellyspencer
 status: Draft
+aliases:
+  - BATTview
+productClass: specific-offering
 tags:
   - battery-market-reference
   - commercial-product
@@ -14,6 +17,8 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Identification and Charge Interface Device]]"
+supportedBy:
+  - "[[Document - ACT Battview Sheet (2023)]]"
 describedBy:
   - "[[Document - ACT Battview Sheet (2023)]]"
   - "[[Document - ACT Quantum 3 Sheet (2024)]]"
@@ -102,9 +107,5 @@ Maker or publisher marketing claims as stated, not independently verified.
 | Other | no calibration needed; '10x faster Wi-Fi speed' and 'easier to install' versus earlier model (claims) |
 - **Conflict-visible (C51):** the sheet's Quantum blurb says 'Industry's highest charge efficiency (>94% peak)' while the Quantum 3 sheet says 96.4%; different generations, vendor superlative.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
-
-## Aliases
-
-- BATTview
 
 ## Former ids
