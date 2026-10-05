@@ -1,6 +1,6 @@
 schemaVersion: '1.18'
-date: '2026-10-02'
-basis: MDSE ruleset 1.23
+date: '2026-10-05'
+basis: MDSE ruleset 1.23 + PosiBattery reconciliation Steps 73-82
 commonProperties: [type, subtype, id, uid, status, tags]   # order fixed by W-97
 optionalProperties:
   - name: abstract
