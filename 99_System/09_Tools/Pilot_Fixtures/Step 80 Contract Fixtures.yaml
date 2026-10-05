@@ -1,0 +1,62 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+purpose: "Non-canonical validation fixtures for the Step 80 revised contract pilot. These records are data only and must not be indexed as model notes."
+
+fixtures:
+  actor:
+    type: Actor
+    hasNeed: ["pilot-need"]
+
+  need:
+    type: Use Case
+    subtype: why
+    needOf: ["pilot-actor"]
+    realizedBy: ["pilot-function"]
+
+  function:
+    type: Function
+    reuseScope: cross-product
+    realizedBy: ["pilot-design"]
+
+  design:
+    type: Design
+    reuseScope: cross-product
+
+  atomic_measure:
+    type: Info
+    measureClass: metric
+    valueType: numeric
+    unit: "%"
+    measurementMethod: "Peak efficiency comparison"
+
+  compound_measure:
+    type: Info
+    measureClass: comparison-criterion
+    valueType: compound
+    measurementMethod: "Composite commercial comparison"
+
+  source_document:
+    type: Document
+    sourceClass: datasheet
+    sourceUrl: "https://example.invalid/pilot.pdf"
+    sourceRevision: "Rev A"
+    accessed: 2026-10-05
+    supports: ["pilot-product"]
+
+  product:
+    type: Object
+    subtype: electrical
+    productClass: specific-offering
+    aliases: ["Pilot Product Alias"]
+    supportedBy: ["pilot-source"]
+
+validation_rules:
+  - "hasNeed may originate on Actor and target a Use Case/why."
+  - "needOf is the generated inverse of hasNeed."
+  - "reuseScope is optional and expresses breadth, not named applicability."
+  - "numeric measure definitions require valueType and dimensional unit when applicable."
+  - "compound comparison criteria do not require a unit."
+  - "Source Document provenance fields are scoped to curated sources."
+  - "supports/supportedBy is distinct from describes/describedBy."
+  - "productClass applies only to product-purpose Objects."
+  - "aliases is structured metadata and must not be duplicated by an independent body alias list."
