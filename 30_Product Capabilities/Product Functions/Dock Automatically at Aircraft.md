@@ -14,6 +14,7 @@ performedBy:
   - "[[TLD ASD+ Assisted Docking]]"
 realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Dock Automatically at Aircraft
