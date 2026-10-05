@@ -9,7 +9,8 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[PosiBattery Model Organizat
 ## Current reusable-reference areas
 
 - [[README_Definitions|Definitions]] — shared vocabulary, note conventions, identifier guidance, and relationship/property semantics.
-- [[Property Dictionary]] — controlled view of reusable metadata and relationship-property definitions.
+- [[README_Properties|Properties]] — semantic guide for identity, hierarchy, interaction, traceability, lifecycle, and temporary relationship fields.
+- [[Property Dictionary]] — exhaustive tabular inventory of the controlled Property definitions.
 
 The vault does not currently need empty Technologies, Protocols, Units, or similar folders. Create those areas only when enough real reusable content exists to justify distinct navigation.
 
@@ -30,9 +31,11 @@ A concept's presence here does not make it a model relationship. Explicit relati
 
 ## Navigation
 
-- `BASE_local_Definitions and Reusable Reference.base` — direct Markdown contents of this root domain.
-- `BASE_all_Definitions and Reusable Reference.base` — recursive Markdown contents across reusable-reference material.
-- [[CANVAS_Definitions and Reusable Reference]] — curated map of the current reusable-reference structure.
+Start with [[README_Definitions|Definitions]] for authoring conventions or [[README_Properties|Properties]] when choosing/interpreting metadata and relationship fields. Use [[Property Dictionary]] when you need the complete property inventory rather than semantic guidance.
+
+- `BASE_local_Definitions and Reusable Reference.base` — direct Markdown contents of this root domain; currently intentionally sparse because reusable content lives below `Definitions`.
+- `BASE_all_Definitions and Reusable Reference.base` — recursive inventory across all current reusable-reference material.
+- [[CANVAS_Definitions and Reusable Reference]] — curated map of the active reusable-reference area and its governance/evidence boundaries.
 
 ## Governance boundary
 
