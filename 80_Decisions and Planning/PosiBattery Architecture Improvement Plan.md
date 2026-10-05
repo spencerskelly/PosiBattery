@@ -4185,6 +4185,32 @@ Validation run `37290192612` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 57 completion evidence - Capability navigation improved
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Capability Navigation Improvement Step 57 0.1.yaml`.
+
+Capability navigation was reworked around a traceable semantic path from customer or operational intent, through Function and Design, to Product and Metric/evidence.
+
+The root Product Capabilities README now documents behavioral Function goals, reusable Design-family navigation, metric semantic classes, and common traceability relationship directions.
+
+Product Designs navigation now follows the modeled general Design hierarchy instead of ad-hoc example groupings.
+
+Performance Metrics navigation now separates quantitative engineering measures, categorical/enumerated attributes, and compound comparison summaries.
+
+The Product Capabilities Canvas is now an 8-node traceability map connecting Customer Needs, Functions, the six Function goals, Designs, Products, Metrics, and Research.
+
+Existing Bases remain the exhaustive discovery mechanism. README and Canvas navigation are for semantic exploration.
+
+No model note, relationship, folder placement, ID, UID, or semantic classification was changed.
+
+Evidence commit: `e09349dc`.
+
+**Result:** Step 57 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
