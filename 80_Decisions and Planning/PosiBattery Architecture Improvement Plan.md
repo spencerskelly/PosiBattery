@@ -1836,6 +1836,77 @@ The broken-link count is unchanged because Step 20 added only valid navigation l
 
 ---
 
+## Step 21 completion evidence — Definitions and Reusable Reference navigation normalized
+
+**Date:** 2026-10-04
+
+The `90_Definitions and Reusable Reference` root now has a complete primary navigation set and clearer guidance for reusable cross-product concepts without creating empty category folders.
+
+### Changes
+
+- `README_Definitions and Reusable Reference.md`
+  - replaced target-placeholder wording with active reusable-reference guidance;
+  - identifies Definitions and the Property Dictionary as the current substantive reusable-reference areas;
+  - defines technologies, protocols, properties, units, abbreviations, taxonomies, and shared reference architectures as valid future categories when real content justifies them;
+  - explicitly avoids creating empty Technologies/Protocols/Units folders;
+  - distinguishes reusable model knowledge from `99_System` methodology/runtime governance;
+  - records that existing Definitions/Properties placement remains subject to later semantic review.
+
+- `BASE_local_Definitions and Reusable Reference.base`
+  - created for direct Markdown contents of the root domain.
+
+- `BASE_all_Definitions and Reusable Reference.base`
+  - created for recursive Markdown contents across reusable-reference material.
+
+- `CANVAS_Definitions and Reusable Reference.canvas`
+  - created as a curated map linking the root README, Definitions, and the Property Dictionary.
+
+- `Definitions/Properties/Property Dictionary.base`
+  - repaired from the stale filter `file.folder == "Definitions/Properties"`;
+  - now points to `90_Definitions and Reusable Reference/Definitions/Properties`.
+
+- `PosiBattery Navigation Artifact Inventory.yaml`
+  - updated to record the specialized Property Dictionary Base path as resolved;
+  - stale path-dependent Base count is now zero because the Organizations offerings Base was repaired in Step 18 and the Property Dictionary Base in Step 21.
+
+No definition/property model notes were moved, deleted, or semantically reclassified.
+
+### Validation
+
+GitHub Actions run `37264099637` on commit `e82cd037` completed the structural audit.
+
+Results:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **19** (improved from 20)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The one-link improvement is expected because the reusable-reference root README no longer uses the obsolete path-qualified taxonomy link form.
+
+### Commits
+
+- `5d6a304b` — normalize root README
+- `0a288c83` — add local root Base
+- `c30aad6e` — add recursive root Base
+- `3268e937` — add root Canvas
+- `e82cd037` — repair Property Dictionary Base path
+- `5610913b` — update navigation artifact inventory
+
+**Result:** Step 21 complete. `90_Definitions and Reusable Reference` now has coherent primary navigation and no stale specialized Base paths, while later semantic migration decisions remain deferred.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1855,3 +1926,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 18 | 2026-10-04 | Complete | Normalized `60_Stakeholders and Ecosystem` with active root navigation, clarified Actors vs Organizations, repaired four standard child Base paths plus the offerings view to numbered canonical paths, and reduced broken wikilinks from 22 to 21. |
 | 19 | 2026-10-04 | Complete | Normalized `70_Research and Evidence` with active root navigation, clarified raw artifacts vs Source Document records vs synthesis, repaired Research/Source Document Bases to numbered paths, and reduced broken wikilinks from 21 to 20. |
 | 20 | 2026-10-04 | Complete | Added primary `80_Decisions and Planning` README/Base/Canvas navigation linking the active roadmap, backlog, decision record, historical migration baseline, and inventories. Structural audit remained at 20 broken wikilinks with all other integrity categories clean. |
+| 21 | 2026-10-04 | Complete | Normalized `90_Definitions and Reusable Reference` with active root README/Base/Canvas navigation, repaired the Property Dictionary path, avoided empty category scaffolding, and reduced broken wikilinks from 20 to 19. |
