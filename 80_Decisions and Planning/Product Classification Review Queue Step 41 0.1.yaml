@@ -1,0 +1,74 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 41
+purpose: "Record unresolved product identity and abstraction questions without forcing hierarchy."
+structure_changed: false
+product_notes_modified: false
+
+summary:
+  queued_questions: 7
+  blocked_identity_questions: 2
+  proposed_abstraction_questions: 5
+  forced_classifications: 0
+  merges_executed: 0
+
+queue_target: "80_Decisions and Planning/Knowledge Base Backlog.md"
+
+items:
+  - id: "PCQ-001"
+    status: "Blocked"
+    priority: "P1"
+    question: "Is PosiCharge BMID 3 the same marketed identity as PosiCharge PosiGuard?"
+    current_treatment: "Keep separate; do not merge."
+    evidence_needed: "Internal part-number/history mapping or authoritative product documentation."
+
+  - id: "PCQ-002"
+    status: "Blocked"
+    priority: "P1"
+    question: "Is PosiCharge BMID 1 the same marketed identity as PosiCharge Battery Rx?"
+    current_treatment: "Keep separate; do not merge."
+    evidence_needed: "Internal part-number/history mapping or authoritative product documentation."
+
+  - id: "PCQ-003"
+    status: "Proposed"
+    priority: "P2"
+    question: "Which Class I forklift notes are commercial series/families versus specific offerings?"
+    current_treatment: "Preserve current peer placement."
+    evidence_needed: "Manufacturer model-family documentation or explicit series-to-model relationships."
+
+  - id: "PCQ-004"
+    status: "Proposed"
+    priority: "P2"
+    question: "Which industrial charger notes are commercial families/series versus specific offerings?"
+    current_treatment: "Preserve current peer placement."
+    evidence_needed: "Manufacturer family/model documentation."
+
+  - id: "PCQ-005"
+    status: "Proposed"
+    priority: "P2"
+    question: "Which flooded lead-acid battery notes are series/families versus specific offerings?"
+    current_treatment: "Preserve current placement."
+    evidence_needed: "Manufacturer catalog/model evidence."
+
+  - id: "PCQ-006"
+    status: "Proposed"
+    priority: "P2"
+    question: "Which lithium-ion Pack/Series/Option notes are families, platforms, variants, or specific offerings?"
+    current_treatment: "Preserve current placement."
+    evidence_needed: "Manufacturer identity and variant evidence."
+
+  - id: "PCQ-007"
+    status: "Proposed"
+    priority: "P2"
+    question: "Which VRLA battery notes are series/families versus specific offerings?"
+    current_treatment: "Preserve current placement."
+    evidence_needed: "Manufacturer catalog/model evidence."
+
+governance:
+  - "Folder location does not resolve identity."
+  - "Name similarity does not resolve identity."
+  - "Do not merge notes or create deeper hierarchy without supporting evidence."
+  - "When evidence resolves an item, update the relevant product notes and the prior review records rather than silently changing structure."
+
+result: "All ambiguous product classifications identified in Steps 37-39 are now visible in the decision/review queue."
