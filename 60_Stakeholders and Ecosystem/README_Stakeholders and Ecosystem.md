@@ -25,6 +25,21 @@ Use explicit relationships to connect Actors, Organizations, Customer Needs, Use
 
 The Organizations area remains a migration candidate because it mixes organization entities, role/type concepts, ledgers, indexes, and synthesis. Later classification steps control any deeper restructuring.
 
+## Actor–Organization–Product relationship semantics
+
+Keep the three layers distinct:
+
+- **Actor** — a person or role participating in a Need or operational Use Case. Use `participants` from the Use Case/Need. Do not infer employment, ownership, or customer-organization membership unless a dedicated relationship is deliberately modeled.
+- **Organization** — a company, group, dealer, manufacturer, or other business entity. Use business relationships such as `makes / madeBy`, `offers / offeredBy`, `distributedBy / distributorOf`, `supplierOf / suppliedBy`, `partnerOf`, or `integratesWith` only when evidence supports them.
+- **Product** — a commercial or reusable Object. Use `madeBy` only for supported maker identity; use `offeredBy` for channel/brand availability when maker identity is different or unknown; use `poweredBy` only for evidenced technology provenance.
+
+Do not create direct Actor→Product or Actor→Organization structural links merely because an Actor uses, buys, services, installs, or works for that class of organization. Operational participation already captures the role without overloading the Actor note.
+
+Examples:
+- [[Triathlon Lithium-Ion Battery for UniCarriers]] is `madeBy` [[Triathlon USA]] and `offeredBy` [[Mitsubishi Logisnext Americas]].
+- [[Hyster Battery Tracker]] is `offeredBy` [[Hyster-Yale]] and `poweredBy` [[PosiCharge]]; this does not establish who physically manufactures the hardware.
+- [[Crown V-Force BMID]] is `offeredBy` [[Crown Equipment]]; do not infer a different maker without evidence.
+
 ## Related areas
 
 - [[README_Customer Needs|Customer Needs]] — desired outcomes and problems associated with Actors.
