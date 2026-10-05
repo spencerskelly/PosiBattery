@@ -9,14 +9,15 @@ This folder defines the shared vocabulary, note conventions, and relationship pr
 - Note-authoring and layout guidance.
 - Enterprise Architect source and traceability guidance.
 - Author-code maintenance guidance.
-- `Properties/`, the controlled dictionary for metadata and relationship fields.
+- `Properties/`, the controlled dictionary for metadata and relationship fields, with [[README_Properties|Properties]] as its semantic navigation guide.
 
 ## Key information
 
 - [[Note Layout]] — required structure and layout conventions for notes.
 - [[EA Source Section]] — how source information and Enterprise Architect references are represented.
 - [[Changing Your Author Code]] — procedure for changing an author identifier.
-- [[Properties/Property Dictionary]] — index of controlled relationship and metadata properties.
+- [[README_Properties|Properties]] — grouped guide for choosing and interpreting controlled properties.
+- [[Properties/Property Dictionary|Property Dictionary]] — exhaustive tabular inventory of controlled relationship and metadata properties.
 - [[uid]] and [[id]] — identifier semantics.
 - [[status]] — lifecycle/status semantics.
 - [[hasDesign]], [[performs]], [[satisfies]], and [[tracesTo]] — common cross-domain relationships.
