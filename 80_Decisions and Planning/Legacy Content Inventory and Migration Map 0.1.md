@@ -12,6 +12,14 @@ related_backlog:
 
 # Legacy Content Inventory and Migration Map 0.1
 
+## Historical-baseline status
+
+This document preserves the **first-pass migration analysis made before and during the numbered-root transition**. Its legacy path names and proposed destinations are historical planning evidence, not current placement authority.
+
+The authoritative current vault-level taxonomy is `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md`. The active execution sequence is `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
+
+Use this file to recover migration rationale, ambiguities, and original classification concerns. Do not use an old source path or proposed target here to override the current filesystem, folder inventory, or later roadmap decisions.
+
 ## Purpose
 
 This document records the first-pass inventory of legacy PosiBattery content and the proposed migration from the existing top-level folders into the canonical product-first taxonomy. It is a planning artifact only. It does not authorize a file move, rename, merge, edit, or deletion.
