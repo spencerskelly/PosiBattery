@@ -2575,6 +2575,87 @@ The vault root is materially closer to the canonical numbered taxonomy.
 
 ---
 
+## Step 29 completion evidence — Downloads inventoried
+
+**Date:** 2026-10-04
+
+The `Downloads` folder was inventoried without deleting, renaming, or relocating any artifact.
+
+### Manifest created
+
+`80_Decisions and Planning/Downloads Manifest 0.1.yaml`
+
+The manifest records every PDF with:
+
+- filename;
+- repository path;
+- byte size;
+- Git blob SHA;
+- likely source identity;
+- confidence of that identity;
+- apparent exact-duplicate-group hint;
+- existing curated Source Document match, when known;
+- model entities linked by the existing Source Document record.
+
+### Current snapshot
+
+- PDF files: **66**
+- total PDF bytes: **216,790,555**
+- unique Git blobs: **57**
+- exact-SHA duplicate groups observed: **8**
+- files participating in those duplicate groups: **17**
+- confirmed existing Source Document matches: **8**
+- opaque filenames left unresolved rather than guessed: **12**
+
+The duplicate information is observational only. Formal duplicate classification is deferred to Step 30.
+
+### Identity policy
+
+The manifest uses three confidence levels:
+
+- `confirmed_by_source_record` — an existing curated Source Document explicitly names the local PDF;
+- `likely_from_filename` / `filename_only` — conservative filename-based inference only;
+- `unknown` — opaque filename with no supported identity.
+
+No source identity was invented for unresolved numeric/GUID-like filenames.
+
+### Existing evidence links
+
+Eight downloads have confirmed existing curated Source Document records. For those files, the manifest also records the model entities named in the Source Document's governed `describes` relationship.
+
+Absence of a known Source Document or model link in the Step 29 manifest does **not** establish that a PDF is orphaned; Steps 31 and 32 perform the systematic matching and orphan review.
+
+### Validation
+
+GitHub Actions run `37267048584` on commit `b86f8971` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No download artifacts or model content were changed in Step 29.
+
+### Commit
+
+- `b86f8971` — add Downloads artifact manifest
+
+**Result:** Step 29 complete. The Downloads evidence intake now has a machine-readable baseline ready for duplicate classification in Step 30.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2602,3 +2683,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 26 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_EMS Research` notes unchanged into `70_Research and Evidence/Research/EMS`, preserved unresolved verification/source needs, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
 | 27 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_Power Conversion Research` notes unchanged into `70_Research and Evidence/Research/Power Conversion`, preserved unverified design reasoning with explicit evidence warnings, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
 | 28 | 2026-10-04 | Complete | Completed the full post-migration audit: all three legacy research roots are gone, 20 original notes are preserved under canonical Research subgroups, no new broken links or relationship defects were introduced, and the root is materially closer to the canonical taxonomy. |
+| 29 | 2026-10-04 | Complete | Inventoried all 66 Downloads PDFs in a machine-readable manifest with size, blob SHA, conservative source identity, duplicate hints, and 8 confirmed existing Source Document/model-link matches; no artifacts were changed. |
