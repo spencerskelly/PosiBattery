@@ -1977,6 +1977,78 @@ The unchanged broken-link count is expected because the deleted canvases contain
 
 ---
 
+## Step 23 completion evidence — Cost Driver Research inventoried
+
+**Date:** 2026-10-04
+
+The legacy `_Cost Driver Research` island was fully inventoried before any migration.
+
+### Inventory created
+
+`80_Decisions and Planning/Cost Driver Research Inventory 0.1.yaml`
+
+The inventory records all 12 notes:
+
+- 10 cost-driver deep dives;
+- 1 cross-driver product-function mapping;
+- 1 top-level MHE warehouse cost hierarchy.
+
+For every note, the inventory records:
+
+- research role and topic;
+- observed explicit external-link count;
+- whether a References section exists;
+- wikilink count;
+- provenance quality;
+- major unique conclusions;
+- content that must be preserved during migration.
+
+### Key findings
+
+- All 12 notes are primarily **research synthesis**, not canonical product/function/design/source-record identities.
+- None of the 12 notes currently contains model-note wikilinks or explicit governed model relationships.
+- The recommended canonical destination domain is `70_Research and Evidence/Research`.
+- A dedicated `Cost Drivers` subgroup is recommended to preserve this coherent research series; Step 24 will define the exact per-file migration mapping.
+- Quantitative claims, product opportunities, recommended architectures, ROI models, and roadmaps remain research hypotheses until separately supported and modeled.
+- External-reference quality is uneven:
+  - seven notes have explicit References sections;
+  - five do not;
+  - Cost Drivers 01, 02, and 05 contain no explicit external links and are flagged for provenance recovery before their claims are relied upon.
+- Explicit external links observed across the island total 155 unique links.
+- Existing source URLs, caveats, formulas, pilot methods, risks, business-outcome claims, and future-work sections must be preserved during migration.
+- Potential customer needs, functions, designs, requirements, metrics, and product opportunities may be extracted later only through evidence-backed modeling work; migration alone must not promote them into ontology.
+
+### Validation
+
+GitHub Actions run `37264757652` on commit `6e63cb4c` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No content was moved, renamed, deleted, or semantically reclassified in Step 23.
+
+### Commit
+
+- `6e63cb4c` — add Cost Driver Research inventory
+
+**Result:** Step 23 complete. The legacy cost-driver island is fully inventoried and ready for explicit migration mapping in Step 24.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1998,3 +2070,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 20 | 2026-10-04 | Complete | Added primary `80_Decisions and Planning` README/Base/Canvas navigation linking the active roadmap, backlog, decision record, historical migration baseline, and inventories. Structural audit remained at 20 broken wikilinks with all other integrity categories clean. |
 | 21 | 2026-10-04 | Complete | Normalized `90_Definitions and Reusable Reference` with active root README/Base/Canvas navigation, repaired the Property Dictionary path, avoided empty category scaffolding, and reduced broken wikilinks from 20 to 19. |
 | 22 | 2026-10-04 | Complete | Reviewed lower-level navigation, retained substantive domain views and functional system Bases, removed three empty unreferenced system Folder Map canvases, and kept the structural audit stable at 19 broken wikilinks. |
+| 23 | 2026-10-04 | Complete | Inventoried all 12 `_Cost Driver Research` notes, classified them as research synthesis, documented source/provenance quality and unique conclusions, recommended `70_Research and Evidence/Research/Cost Drivers` as the destination group, and made no migration changes. |
