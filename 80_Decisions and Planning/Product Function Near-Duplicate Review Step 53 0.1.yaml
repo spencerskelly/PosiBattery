@@ -1,0 +1,115 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 53
+purpose: "Review near-duplicate Product Functions for equivalence, hierarchy, or legitimate contextual distinction."
+
+scope:
+  total_function_notes: 129
+  review_basis:
+    - "Step 50 near-duplicate/overlap candidate groups"
+    - "Step 52 hierarchy findings"
+    - "Definitions, modeled parentage, performer patterns, and stated operating context"
+  safety_rule: "Do not merge or rename from name similarity alone."
+
+result:
+  status: complete
+  confirmed_true_duplicates: 0
+  merges_performed: 0
+  renames_performed: 0
+  hierarchy_changes_performed: 0
+  function_notes_changed: 0
+  conclusion: "All reviewed overlap candidates are either already modeled hierarchy relationships or substantively distinct behaviors."
+
+candidate_groups:
+  - group:
+      - "Limit Truck Speed Automatically"
+      - "Limit Vehicle Speed Automatically"
+    classification: "valid specialization"
+    evidence:
+      - "Limit Truck Speed Automatically is explicitly subtypeOf Limit Vehicle Speed Automatically."
+      - "The specific definition is truck-scoped; the general definition covers automatic vehicle speed limiting."
+    action: "preserve"
+
+  - group:
+      - "Alert Operator of Hazards"
+      - "Warn People of Hazards"
+      - "Alert on Abnormal Condition"
+    classification: "hierarchy plus distinct domain"
+    evidence:
+      - "Alert Operator of Hazards is already a specialization of Warn People of Hazards."
+      - "Warn People of Hazards is a nearby-vehicle/person safety family."
+      - "Alert on Abnormal Condition reports battery/device abnormal conditions and belongs under Inform Users of Battery Condition."
+    action: "preserve"
+
+  - group:
+      - "Display Battery Status to Operator"
+      - "Display Truck Status to Operator"
+      - "Inform Operator of Truck Condition"
+      - "Inform Users of Battery Condition"
+    classification: "parallel domain-specific behaviors with existing hierarchy"
+    evidence:
+      - "Display Battery Status to Operator reports battery condition."
+      - "Display Truck Status to Operator reports vehicle/truck condition."
+      - "Each is already connected to the appropriate general family."
+    action: "preserve"
+
+  - group:
+      - "Manage Fleet Use"
+      - "Manage Fleet Use and Data"
+    classification: "goal decomposition, not duplication"
+    evidence:
+      - "Manage Fleet Use is a general behavioral family."
+      - "Manage Fleet Use and Data is the broader goal that also contains Communicate Battery and Vehicle Data."
+      - "Existing childOf/hasChild relationship correctly captures the abstraction difference."
+    action: "preserve"
+
+  - group:
+      - "Operate in Harsh Conditions"
+      - "Operate in Wet or Dusty Conditions"
+      - "Operate in Cold Storage"
+    classification: "general-to-specific hierarchy"
+    evidence:
+      - "The two specific functions are already subtypeOf Operate in Harsh Conditions."
+      - "Wet/dust/corrosion exposure and cold-storage operation are distinct environmental cases."
+    action: "preserve"
+
+  - group:
+      - "Slow Truck in Curves"
+      - "Slow and Stop Near Aircraft"
+    classification: "legitimate distinct behaviors"
+    evidence:
+      - "Slow Truck in Curves reduces speed while cornering and belongs under Limit Vehicle Speed Automatically."
+      - "Slow and Stop Near Aircraft manages aircraft approach and belongs under Hold or Stop Vehicle Automatically."
+      - "The trigger, context, endpoint behavior, and safety intent differ."
+    action: "preserve"
+
+additional_high-overlap_case:
+  group:
+    - "Charge Battery Fast"
+    - "Charge Battery by Opportunity"
+    - "Charge Battery Conventionally"
+  classification: "distinct charging regime dimensions"
+  evidence:
+    - "Fast charging describes elevated charge rate."
+    - "Opportunity charging describes repeated short charging sessions during breaks."
+    - "Conventional charging describes full-break/overnight charging."
+    - "Products can legitimately perform more than one of these behaviors."
+  note: "Charge Battery Fast currently mentions 'at every opportunity' in its definition, which creates wording overlap but does not establish semantic equivalence."
+  action: "preserve; consider wording precision in a later naming-quality pass"
+
+observations:
+  - "Shared performers are not sufficient evidence of Function duplication."
+  - "Similar verbs are common because related behaviors intentionally live within the same general family."
+  - "The current hierarchy already resolves most apparent duplicates through abstraction level."
+  - "Remaining overlap is generally orthogonal context, trigger, actor, or operating regime rather than duplicate intent."
+
+deferred_review:
+  - issue: "Charge Battery Fast definition partially overlaps opportunity-charging language."
+    treatment: "Potential wording cleanup only; do not merge Functions."
+  - issue: "Some truck-specific names may later be generalized if product evidence shows broader vehicle applicability."
+    treatment: "Naming/scope review, not duplicate consolidation."
+
+next_step:
+  step: 54
+  focus: "Systematically measure Product, Need, Use Case, Requirement, Design, and evidence traceability for Functions."
