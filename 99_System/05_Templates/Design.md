@@ -15,6 +15,4 @@ satisfies: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
