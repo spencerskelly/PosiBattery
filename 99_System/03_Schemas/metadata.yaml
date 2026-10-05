@@ -1,7 +1,7 @@
 schemaVersion: '1.0'
 date: '2026-10-05'
 basis: PosiBattery reconciliation Steps 73-82
-purpose: "Sparse metadata contract layered on element-types.1.18.yaml. Relationship fields remain governed only by relationships.1.36.yaml."
+purpose: "Sparse metadata contract layered on live element-types.yaml 1.18. Relationship fields remain governed only by live relationships.yaml 1.36."
 
 identity:
   uid:
@@ -14,10 +14,10 @@ identity:
     meaning: "Short human-readable class identifier. Reclassification does not by itself authorize changing an existing id."
   type:
     required: true
-    authority: "element-types.1.18.yaml"
+    authority: "element-types.yaml 1.18"
   subtype:
     requiredWhenClassDefinesValues: true
-    authority: "element-types.1.18.yaml"
+    authority: "element-types.yaml 1.18"
 
 lifecycle:
   field: status
