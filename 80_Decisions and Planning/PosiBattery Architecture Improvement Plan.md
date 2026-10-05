@@ -3184,6 +3184,92 @@ No product notes were moved, renamed, or semantically edited in Step 36.
 
 ---
 
+## Step 37 completion evidence — Mixed abstraction levels reviewed
+
+**Date:** 2026-10-04
+
+The Step 36 semantic inventory was analyzed for folders that mix reusable categories/families, commercial families/series, specific offerings, accessory/options, platform offerings, and architecture-like concepts.
+
+### Review created
+
+`80_Decisions and Planning/Products Mixed Abstraction Review 0.1.yaml`
+
+### Results
+
+- folders containing product notes: **56**
+- folders with more than one semantic class: **38**
+- reusable truck/GSE anatomy concepts currently inside `10_Products`: **26**
+
+The majority of mixed folders follow a coherent pattern: one reusable category/family note is co-located with the concrete offerings it organizes. This is not treated as a defect by itself.
+
+### Primary restructuring opportunities
+
+The clearest placement issue is architecture-like knowledge inside Products:
+
+- `10_Products/Forklifts/Truck Anatomy` — **13** reusable anatomy/component concepts
+- `10_Products/Ground Support Equipment/GSE Anatomy` — **13** reusable anatomy/component concepts
+
+These are candidates for Step 39 placement review because they describe reusable product architecture rather than marketed products.
+
+Medium-priority abstraction review areas include:
+
+- Industrial Modular Chargers;
+- Class I Electric Rider Trucks;
+- flooded lead-acid batteries;
+- lithium-ion batteries;
+- VRLA batteries.
+
+These folders mix a reusable category note, marketed commercial series/families, and specific offerings. The review does **not** recommend adding hierarchy yet; series-versus-specific identity should first be checked against product/source evidence.
+
+### Intentional mixed-level folders
+
+Accessory and software trees commonly contain:
+
+- one abstract reusable category definition;
+- multiple concrete vendor/OEM offerings.
+
+That pattern is currently coherent navigation and should not be split merely to enforce semantic purity.
+
+### Governance
+
+Step 37 explicitly records:
+
+- folder purity is not a goal by itself;
+- relationships and abstract/family semantics are preferred over deep folder hierarchy;
+- commercial family/series identity must be evidence-driven;
+- no move, merge, or relationship change is authorized by this review.
+
+### Validation
+
+GitHub Actions run `37269801384` on commit `9599ebe9` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No product notes were moved or edited in Step 37.
+
+### Commit
+
+- `9599ebe9` — review mixed product abstraction levels
+
+**Result:** Step 37 complete. Mixed abstraction is now separated into intentional category-plus-offering navigation versus genuine architecture/series-level review opportunities.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3219,3 +3305,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 34 | 2026-10-04 | Complete | Normalized provenance and traceability sections across all 8 Source Document records using only supported metadata, preserved all identities/relationships, explicitly retained unknown access dates, and kept the structural audit stable at 19 broken wikilinks. |
 | 35 | 2026-10-04 | Complete | Classified Downloads cleanup safety: retain 8 Source-Document-backed PDFs, flag 9 byte-identical redundant copies as high-confidence cleanup candidates, and preserve 49 unique untracked artifacts pending provenance review; deleted nothing. |
 | 36 | 2026-10-04 | Complete | Semantically inventoried 424 product/model notes across `10_Products`, distinguishing reusable categories/families, commercial series, specific offerings, accessories/options, software/platforms, and reusable anatomy concepts without changing structure. |
+| 37 | 2026-10-04 | Complete | Reviewed mixed abstraction levels across 56 product folders: 38 contain multiple semantic classes, mostly intentional category-plus-offering patterns; identified 26 truck/GSE anatomy concepts as the clearest architecture-placement candidates and flagged several series-versus-offering areas for later evidence review. |
