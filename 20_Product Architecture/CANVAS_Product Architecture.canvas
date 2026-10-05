@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "id": "architecture_readme",
+      "type": "file",
+      "file": "20_Product Architecture/README_Product Architecture.md",
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 220
+    },
+    {
+      "id": "architecture_note",
+      "type": "text",
+      "text": "Product Architecture is intentionally sparse. Add stable architecture/realization content here only when supported by product-development work or controlled migration.",
+      "x": 520,
+      "y": 0,
+      "width": 420,
+      "height": 220
+    }
+  ],
+  "edges": []
+}
