@@ -28,6 +28,7 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
+  - "[[Inspect Battery Condition Through a BMID]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
