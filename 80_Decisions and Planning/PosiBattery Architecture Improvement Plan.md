@@ -1200,6 +1200,54 @@ Commits: `757e8d8a`, `0849bb40`.
 
 ---
 
+## Step 10 completion evidence — Obsolete organizational guidance retired
+
+**Date:** 2026-10-04
+
+Obsolete organizational instructions were removed from the active authority path without deleting useful historical records.
+
+### Historical records retained but explicitly superseded
+
+- `99_System/10_Docs/PosiBattery Integrity Audit 2026-10-04.md`
+  - now carries a historical-status notice;
+  - identifies itself as a preserved pre-migration snapshot from commit `b8fda489`;
+  - directs readers to the canonical taxonomy, current handoff, and architecture-improvement roadmap for present authority;
+  - retains its historical counts and clean-state evidence unchanged.
+
+- `80_Decisions and Planning/Legacy Content Inventory and Migration Map 0.1.md`
+  - now carries a historical-baseline notice;
+  - preserves its original legacy-path mapping and classification reasoning;
+  - explicitly states that old source paths and proposed targets do not override the current filesystem, folder inventory, or later roadmap decisions.
+
+### Active handoff wording corrected
+
+`99_System/10_Docs/PosiBattery Model Organization and Handoff.md` was updated to remove remaining target-era wording and now states that:
+
+- the numbered vault architecture is authoritative;
+- transitional content must be preserved during migration;
+- the 00–09 pattern is subordinate product-context navigation;
+- new canonical placement follows the numbered domains.
+
+### Verification
+
+Repository searches found no remaining active occurrences of these obsolete phrases:
+
+- `structurally handoff-ready`
+- `existing legacy folders remain authoritative`
+- `target MDSE product-model organization`
+
+No historical files were deleted and no model content was changed.
+
+### Commits
+
+- `208df600` — mark prior integrity audit as historical
+- `671d5f01` — mark legacy migration map as historical baseline
+- `e00d070b` — remove remaining target-era wording from active handoff
+
+**Result:** Step 10 complete. Historical architecture records remain available for traceability, but the active instruction path now points only to current authority.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1211,3 +1259,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
 | 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |\n| 8 | 2026-10-04 | Complete | Established the numbered 10–99 PosiBattery root taxonomy as authoritative for vault-level placement and migration destinations, while preserving MDSE schemas/relationships as semantic authority and treating 00–09 as subordinate product-context navigation. Commits `d15bc61f`, `eabfc714`, `063fba7d`, `cf82ab63`, `266c5499`. |
 | 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
+| 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
