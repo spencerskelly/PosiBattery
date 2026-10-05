@@ -1,0 +1,78 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 96
+status: "Complete"
+title: "Source and provenance quality reporting"
+
+implementation:
+  reporter: "99_System/09_Tools/report-provenance.py"
+  reporter_commit: "9f9ab2fc"
+  dedicated_workflow: ".github/workflows/mdse-provenance-report.yml"
+  dedicated_workflow_commit: "4c947f66"
+  main_audit_integration_commit: "39680b93"
+  behavior: "Report-only; findings do not fail the build."
+
+report_scope:
+  curated_source_records:
+    definition: "Document notes tagged source-document"
+    checks:
+      - "structured sourceClass"
+      - "structured sourceUrl"
+      - "structured sourceRevision"
+      - "structured accessed"
+      - "body Local artifact signal"
+      - "body Source identity signal"
+      - "body Original web address signal"
+      - "body Document date/revision signal"
+      - "body review/access-context signal"
+      - "explicit unknown original web access/download date"
+  evidence_bearing_claim_notes:
+    detection: "Heuristic source-label or URL evidence signal on model notes other than curated source records."
+    curated_link_test:
+      - "supportedBy"
+      - "referencedBy"
+      - "describedBy"
+    interpretation: "Candidate curation gap only; a raw URL may still be valid evidence."
+
+validation:
+  dedicated_workflow_run: 37383264915
+  job_id: 112010253738
+  result: "success"
+  model_notes: 945
+  source_records: 8
+  source_records_missing_structured_provenance: 8
+  source_records_missing_body_provenance: 0
+  source_records_unknown_original_access_date: 8
+  evidence_signal_notes: 740
+  evidence_signal_notes_without_curated_link: 620
+  evidence_signal_notes_with_curated_link: 120
+  report_artifact: "provenance-quality-report.md"
+  conclusion: "PROVENANCE REPORT GENERATED (REPORT-ONLY)"
+
+main_audit_verification:
+  workflow_run: 37383322989
+  job_id: 112010446892
+  identity_validation: "success"
+  relationship_validation: "success"
+  structural_audit: "success"
+  provenance_report_step: "success"
+  note_name_alias_check: "success"
+  later_strict_dependency_check: "outside Step 96 scope"
+
+findings_interpretation:
+  - "All eight curated Source Document records retain complete recognized body provenance signals."
+  - "All eight predate the structured sparse metadata fields and therefore lack one or more structured provenance fields; this is a migration-quality finding, not an invalid-note condition."
+  - "All eight explicitly state that original web access/download date is not recorded."
+  - "620 evidence-signal notes have raw/source evidence but no curated evidence relationship detectable through supportedBy, referencedBy, or describedBy."
+  - "The 620-note count is intentionally heuristic and should drive prioritization, not automatic bulk edits."
+  - "No source metadata, access dates, revisions, or evidence links were invented in Step 96."
+
+governance:
+  mandatory_change: false
+  legacy_notes_remain_valid: true
+  future_rule: "Only promote selected provenance fields to mandatory status through a separate governance decision."
+
+next_step:
+  step: 97
+  title: "Add orphan and weak-traceability reporting"
