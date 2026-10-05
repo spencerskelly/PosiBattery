@@ -17,6 +17,8 @@ performedBy:
   - "[[PosiCharge PosiConnect]]"
   - "[[Fronius TagID]]"
   - "[[HOPPECKE trak collect]]"
+realizes:
+  - "[[Configure and Service a Supported BMID]]"
 ---
 
 # Configure Device from Mobile App or PC
