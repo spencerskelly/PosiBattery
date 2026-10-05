@@ -5116,3 +5116,38 @@ Evidence: `80_Decisions and Planning/BMID End-to-End Traceability Step 92 0.1.ya
 **Commit:** `05a2e1f7`.
 
 **Result:** Step 92 complete. The next incomplete roadmap item is **Step 93 — Run complete identity validation**.
+
+
+---
+
+## Step 93 completion evidence — Complete identity validation
+
+**Date:** 2026-10-05
+
+Completed the Phase N identity hardening pass and added a permanent validator at `99_System/09_Tools/check-identities.py`, integrated into the main MDSE audit workflow and a dedicated identity-check workflow.
+
+The first full scan exposed two genuine duplicate current IDs introduced during the BMID modeling phase:
+
+- `INFO-00110` was shared by `PosiCharge BMID Product Abstract and Definition` and `Medley Company`;
+- `INFO-00111` was shared by `PosiCharge BMID Product Context` and `Western Materials`.
+
+Because those numbers were already valid identities owned by the older Organization notes, the newly created BMID notes were corrected to `INFO-90003` and `INFO-90004` respectively. The collided values were not added as former IDs because they remain valid current IDs on the pre-existing notes.
+
+The validator now checks current-ID presence/format/uniqueness, governed type-prefix compatibility including the approved legacy Organization-ID exception, UID presence/format/uniqueness, registered author codes, former-ID reservation and non-reuse, Local Model token format/author validity, Local Model token uniqueness, and Local Model token collision with note UIDs. Controlled templates are excluded from instantiated identity checks.
+
+Final dedicated identity workflow run `37372004724` on commit `955d049a` passed with:
+
+- **1,125** Markdown files scanned;
+- **955** instantiated identity-bearing notes;
+- **955** unique current IDs;
+- **955** unique note UIDs;
+- **15** former-ID reservations;
+- **11** Local Model records / identity tokens;
+- **15** registered author codes;
+- **0 findings**.
+
+Evidence: `80_Decisions and Planning/Identity Validation Step 93 Worklog 0.1.yaml`.
+
+**Commits:** `58cd51f4`, `104ffd70`, `52502338`, `9e23f725`, `7585c3ad`, `955d049a`.
+
+**Result:** Step 93 complete. The next incomplete roadmap item is **Step 94 — Run complete relationship validation**.
