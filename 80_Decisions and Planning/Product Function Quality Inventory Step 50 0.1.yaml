@@ -10,116 +10,70 @@ scope:
   total_function_notes: 129
   all_function_names_reviewed: true
   all_function_notes_directly_inspected: true
-  relationship_fields_reviewed: ["subtypeOf","supertypeOf","performedBy","describedBy","satisfies"]
+  relationship_fields_reviewed: ["subtypeOf","supertypeOf","hasChild","childOf","performedBy","dependsOn","realizes","describedBy","satisfies"]
   evidence_signal_reviewed: "direct source URLs in note body"
 
 summary:
   concrete_leaf_functions_with_parent: 103
-  hierarchy_organizers_with_children: 20
-  isolated_functions_without_parent_or_children: 6
+  top_level_goal_functions_with_children: 6
+  intermediate_general_function_families: 20
+  isolated_functions_without_parent_or_children: 0
   functions_with_direct_performers: 103
   functions_without_direct_performers: 26
   functions_with_direct_source_urls: 103
   functions_without_direct_source_urls: 26
   functions_with_satisfies_relationship: 0
   dominant_pattern: "Concrete source-backed behaviors subtype broader reusable function families and carry performedBy links to products."
-  hierarchy_pattern: "Broad organizing functions have supertypeOf children and generally no direct performers or source URLs, which is coherent."
+  hierarchy_pattern: "Six goal-level Functions use hasChild/childOf decomposition; 20 intermediate families organize concrete specializations through supertypeOf/subtypeOf; concrete Functions carry performers and source evidence."
   primary_quality_risks:
-    - "Six broad umbrella functions are isolated from the current hierarchy."
     - "Several near-duplicate or overlapping behavior names require semantic review before consolidation."
+    - "Truck-specific wording may be narrower than some observed GSE/vehicle usage and needs scope review."
     - "No Function currently carries a satisfies relationship to a Requirement."
     - "Function categories are flat in folder navigation despite meaningful semantic clusters."
 
-observed_hierarchy_roots:
-  - name: "Hold or Stop Vehicle Automatically"
-    observed_children: 7
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Inform Operator of Truck Condition"
-    observed_children: 2
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Limit Vehicle Speed Automatically"
-    observed_children: 6
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Reduce Operator Effort"
-    observed_children: 4
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Charge Battery"
-    observed_children: 7
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Communicate Battery and Vehicle Data"
-    observed_children: 9
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Connect Battery Power Path"
-    observed_children: 3
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Control Charge Profile"
-    observed_children: 9
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Inform Users of Battery Condition"
-    observed_children: 7
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Keep Charging Available and Safe"
-    observed_children: 3
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Maintain Battery Electrolyte"
-    observed_children: 2
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Maintain Vehicle Stability and Load Awareness"
-    observed_children: 6
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Manage Fleet Use"
-    observed_children: 8
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Protect Battery from Harm"
-    observed_children: 2
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Sense Battery State"
-    observed_children: 12
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Sense Collision Risk and Events"
-    observed_children: 2
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Support Operator View and Positioning"
-    observed_children: 3
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Warn People of Hazards"
-    observed_children: 3
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Operate in Harsh Conditions"
-    observed_children: 3
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
-  - name: "Supply Vehicle Energy Without Charging"
+top_level_goal_functions:
+  - name: "Deliver Energy to Vehicles"
     observed_children: 5
-    direct_performers: 0
-    interpretation: "coherent reusable parent"
+  - name: "Keep Equipment Working in Its Environment"
+    observed_children: 1
+  - name: "Know and Protect Battery Condition"
+    observed_children: 4
+  - name: "Manage Fleet Use and Data"
+    observed_children: 2
+  - name: "Protect People and Equipment Near Vehicles"
+    observed_children: 5
+  - name: "Support the Operator"
+    observed_children: 3
+  interpretation: "These are coherent goal-level decomposition roots using hasChild; they intentionally have no direct performers or source URLs."
+
+intermediate_general_function_families:
+  count: 20
+  relationship_pattern: "childOf one goal-level Function and/or supertypeOf concrete reusable Function specializations"
+  names:
+    - "Charge Battery"
+    - "Communicate Battery and Vehicle Data"
+    - "Connect Battery Power Path"
+    - "Control Charge Profile"
+    - "Hold or Stop Vehicle Automatically"
+    - "Inform Operator of Truck Condition"
+    - "Inform Users of Battery Condition"
+    - "Keep Charging Available and Safe"
+    - "Limit Vehicle Speed Automatically"
+    - "Maintain Battery Electrolyte"
+    - "Maintain Vehicle Stability and Load Awareness"
+    - "Manage Fleet Use"
+    - "Operate in Harsh Conditions"
+    - "Protect Battery from Harm"
+    - "Reduce Operator Effort"
+    - "Sense Battery State"
+    - "Sense Collision Risk and Events"
+    - "Supply Vehicle Energy Without Charging"
+    - "Support Operator View and Positioning"
+    - "Warn People of Hazards"
 
 hierarchy_gap_candidates:
-  - "Deliver Energy to Vehicles"
-  - "Keep Equipment Working in Its Environment"
-  - "Know and Protect Battery Condition"
-  - "Manage Fleet Use and Data"
-  - "Protect People and Equipment Near Vehicles"
-  - "Support the Operator"
-  rationale: "Direct inspection found no parent and no children on these broad functions; their names imply higher-level behavioral aggregation. Step 52 should test whether existing functions should subtype them."
+  status: "none asserted in Step 50"
+  rationale: "The six apparent broad orphan candidates were rechecked and all have hasChild decomposition. Step 52 should review subtler missing parent/child or specialization links rather than treating these goal roots as gaps."
 
 near_duplicate_or_overlap_review_candidates:
   - group:
@@ -176,7 +130,7 @@ traceability_observations:
   broad_functions:
     pattern: "Often intentionally lack direct performers/evidence and instead organize concrete child behaviors."
   requirements:
-    finding: "No satisfies links were observed in the directly inspected 60-function sample."
+    finding: "No satisfies links were observed across the complete 129-function direct scan."
     treatment: "This is a traceability gap candidate for Step 54, not a reason to invent requirements."
   designs:
     finding: "Several Design notes use dependencyOf links back to Functions, but Function-side Design traceability is not consistently obvious from the current flat navigation."
@@ -219,7 +173,7 @@ step_51_focus:
   - "Do not change semantic hierarchy merely to match folders."
 
 step_52_focus:
-  - "Validate the six broad hierarchy-gap candidates."
+  - "Review subtler missing hierarchy links below the six established goal roots."
   - "Review truck-specific versus vehicle-general functions for true specialization."
   - "Do not infer subtypeOf solely from similar wording."
 
