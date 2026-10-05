@@ -1,0 +1,92 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 84
+status: "Complete"
+product_family: "PosiCharge BMID"
+
+framing_note:
+  path: "20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md"
+  type: Info
+  id: "INFO-00110"
+  purpose: "Concise product-family framing authority for Phase M."
+
+product_abstract:
+  purpose: "Battery-installed identification, sensing, logging, and charger-interface family for industrial battery systems."
+  value: "Carry battery identity and supported battery-side condition/history with the battery so compatible charging and fleet systems can recognize and use battery-specific information."
+  boundary:
+    included:
+      - "battery-side BMID electronics"
+      - "directly integrated sensing"
+      - "stored identity/profile/history"
+      - "BMID external communication interfaces"
+      - "family and variant structure"
+    external_context:
+      - "traction battery"
+      - "charger"
+      - "MHE/forklift vehicle"
+      - "airport GSE vehicle"
+      - "cloud/fleet systems"
+      - "mobile/PC configuration tools"
+      - "service/dealer/operator stakeholders"
+
+product_definition:
+  canonical_family: "PosiCharge BMID"
+  parent: "Battery Identification and Charge Interface Device"
+  members:
+    - "PosiCharge BMID 1"
+    - "PosiCharge BMID 3"
+    - "PosiCharge Battery Rx"
+    - "PosiCharge PosiGuard"
+  family_behaviors:
+    - "Measure Battery Voltage"
+    - "Measure Battery Temperature"
+    - "Estimate State of Charge"
+    - "Log Battery Events and Usage"
+    - "Identify Battery to Charger"
+    - "Report Battery Temperature to Charger"
+    - "Communicate with Charger"
+    - "Transmit Battery Data Wirelessly"
+  family_associated_designs:
+    - "Electrolyte-Immersed Temperature Sensor"
+    - "Bluetooth Interface"
+
+classification_changes:
+  PosiCharge_BMID:
+    productClass: product-family
+    reuseScope: product-family
+  PosiCharge_BMID_1:
+    productClass: product-variant
+  PosiCharge_BMID_3:
+    productClass: product-variant
+  PosiCharge_Battery_Rx:
+    productClass: specific-offering
+  PosiCharge_PosiGuard:
+    productClass: specific-offering
+
+alias_migration:
+  notes_migrated: 5
+  rule: "Reviewed body aliases moved into YAML aliases; duplicate body alias sections removed."
+
+identity_preservation:
+  ids_changed: 0
+  uids_changed_on_existing_product_notes: 0
+  lineage_inferred: false
+
+preserved_uncertainty:
+  - "Public-name mapping to BMID 1 and BMID 3."
+  - "Battery Rx generation/branch mapping."
+  - "Exact predecessor relationship for PosiGuard."
+  - "BMID 3 option/configuration/variant distinctions."
+  - "Possible BMID 2 existence."
+  - "Lithium/BMS/CAN role boundary."
+
+modeling_rule:
+  - "Family-level behavior does not imply every child supports every capability."
+  - "Child-specific features remain child-specific."
+  - "BMID does not own charger power-control authority unless later requirements explicitly establish it."
+  - "No unsupported internal architecture is inferred."
+
+next_step:
+  step: 85
+  title: "Build Product Use Cases"
