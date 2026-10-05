@@ -1,0 +1,17 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 75
+status: "Complete"
+title: "Relationship reconciliation"
+primary_evidence: "80_Decisions and Planning/Relationship Reconciliation Matrix Step 75 0.1.yaml"
+evidence_commit: "e49d8fe26e3574bffeac85164630a3898b0abddc"
+summary:
+  - "Reconciled governed MDSE, proposed traceability/evidence, and provisional business relationship vocabularies."
+  - "Retained named YAML relationship fields as the single assertion storage model."
+  - "Queued hasNeed, arisesIn, measures, supports, and contradicts for controlled schema implementation."
+  - "Preserved distinct business predicates rather than weakening them into generic dependencies."
+  - "Defined Organization-dependent endpoint rules for the future governed business relationship set."
+  - "Changed no existing schema or model relationship."
+roadmap_note: "This completion record is authoritative Step 75 evidence if the main roadmap status table has not yet incorporated the row."
+next_step: 76
