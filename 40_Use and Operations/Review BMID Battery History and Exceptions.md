@@ -16,6 +16,10 @@ realizedBy:
   - "[[Log Battery Events and Usage]]"
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Alert on Abnormal Condition]]"
+givesRiseTo:
+  - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Review BMID Battery History and Exceptions
