@@ -182,3 +182,21 @@ step_53_focus:
 
 step_54_focus:
   - "Measure performer/product, Need, Use Case, Requirement, Design, and evidence traceability systematically."
+
+function_tree_document_drift:
+  document: "70_Research and Evidence/Research/Function and Design Levels.md"
+  documented_functions: 120
+  current_function_notes: 129
+  omitted_from_document_but_correctly_parented_in_model: 9
+  functions:
+    - {name: "Adapt Truck to Battery Chemistry", parent: "Connect Battery Power Path"}
+    - {name: "Control Charger from Remote Panel", parent: "Manage Fleet Use"}
+    - {name: "Illuminate Work Area", parent: "Support Operator View and Positioning"}
+    - {name: "Inhibit Drive Until Equipment Is Stowed", parent: "Hold or Stop Vehicle Automatically"}
+    - {name: "Lock Out Vehicle After Impact", parent: "Manage Fleet Use"}
+    - {name: "Manage Temperature During Fast Charging", parent: "Keep Charging Available and Safe"}
+    - {name: "Predict Battery Replacement Timing", parent: "Inform Users of Battery Condition"}
+    - {name: "Record Images of Load Handling", parent: "Manage Fleet Use"}
+    - {name: "Stop Truck for Detected Obstacle", parent: "Hold or Stop Vehicle Automatically"}
+  interpretation: "Documentation/navigation drift only; these are not hierarchy orphans."
+  next_action: "Synchronize hierarchy/navigation artifacts during Steps 51-52 rather than altering valid model relationships."
