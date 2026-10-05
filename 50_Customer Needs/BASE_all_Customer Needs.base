@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Customer Needs")
+    - file.inFolder("50_Customer Needs")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
