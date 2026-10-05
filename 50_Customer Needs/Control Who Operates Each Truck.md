@@ -37,6 +37,11 @@ Customer need: Control Who Operates Each Truck. The problem behind it: Only trai
   - [[STILL FleetManager]]: STILL says its FleetManager access control system offers reports and telematics applications that monitor the use of trucks and drivers on site, and access authorisation 'with Fleet Manager 4.x'. Source: STILL release (2021) and EXH-SF page (T1/T2), retrieved 2026-10-03. <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Authenticate and Complete Pre-Shift Authorization]].
+- Operating contexts: [[Material-Handling Fleet Site]].
+
 ## Aliases
 
 
