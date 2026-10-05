@@ -1,0 +1,67 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 94
+status: "In Progress"
+title: "Complete relationship validation"
+
+validator:
+  path: "99_System/09_Tools/check-relationships.py"
+  added_commit: "01bb0b4b"
+  main_audit_integration_commit: "1ece51b2"
+  dedicated_workflow: ".github/workflows/mdse-relationship-check.yml"
+  checks:
+    - "controlled relationship field names"
+    - "unique target resolution"
+    - "from/to endpoint compatibility"
+    - "sameClass and excludePairs constraints"
+    - "paired and symmetric inverse persistence"
+    - "provisional tracesTo/tracesFrom usage"
+    - "temporary hasClassifier/classifierOf and equals usage"
+    - "deprecated or uncontrolled relationship-like frontmatter fields"
+
+last_executable_full_vault_baseline:
+  workflow_run: 37370351298
+  head_commit: "58cd51f4"
+  model_notes: 945
+  deprecated_properties: 0
+  ambiguous_wikilinks: 0
+  unresolved_relationship_targets: 0
+  missing_relationship_inverses: 0
+  note: "This run occurred after Steps 83-92, so it includes the BMID product model, Local Model, verification, and end-to-end traceability changes."
+
+change_review_since_baseline:
+  compare_base: "58cd51f4"
+  compare_head: "main"
+  relationship_semantics_changed: false
+  model_note_changes:
+    - "PosiCharge BMID Product Abstract and Definition: ID correction only"
+    - "PosiCharge BMID Product Context: ID correction only"
+  conclusion: "No relationship assertion was added, removed, or changed after the last executable full-vault baseline."
+
+full_relationship_gate_attempts:
+  - run: 37380581411
+    head_commit: "c047844c"
+    result: "startup failure before runner execution"
+  - run: 37380635002
+    head_commit: "679e310c"
+    result: "startup failure before runner execution"
+  - run: 37380704147
+    head_commit: "f12b6e3f"
+    result: "startup failure before runner execution"
+  github_job_observation:
+    runner_id: 0
+    steps: 0
+    interpretation: "The jobs did not execute the repository checker; this is an Actions runner/startup limitation rather than a relationship-validation finding."
+
+current_assessment:
+  unresolved_targets_known: 0
+  missing_inverses_known: 0
+  deprecated_core_properties_known: 0
+  endpoint_compatibility_full_scan: "pending execution"
+  provisional_and_temporary_relationship_full_scan: "pending execution"
+  completion_allowed: false
+
+next_action:
+  step: 94
+  action: "Re-run the dedicated relationship gate when GitHub Actions can start a runner. Repair any checker findings before marking Step 94 complete."
