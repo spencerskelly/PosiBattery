@@ -1496,6 +1496,76 @@ Commits: `695c4192`, `fadd6c33`, `7460ef1c`, `aa5f7f6f`.
 
 ---
 
+## Step 16 completion evidence — Product Capabilities navigation normalized
+
+**Date:** 2026-10-04
+
+The `30_Product Capabilities` root now has a complete primary navigation set and clearly surfaces its three current major capability areas without reclassifying their content.
+
+### Changes
+
+- `README_Product Capabilities.md`
+  - replaced target-placeholder wording with active domain guidance;
+  - links directly to Product Functions, Product Designs, and Performance Metrics;
+  - records that Product Designs and Performance Metrics remain migration/classification candidates;
+  - distinguishes capability content from Product Architecture.
+
+- `BASE_local_Product Capabilities.base`
+  - created for direct Markdown contents of `30_Product Capabilities`.
+
+- `BASE_all_Product Capabilities.base`
+  - created for recursive Markdown contents of the capability domain.
+
+- `CANVAS_Product Capabilities.canvas`
+  - created as a curated map linking the root README to Product Functions, Product Designs, and Performance Metrics.
+
+### Child navigation repairs
+
+The six existing child Bases were repaired from legacy unnumbered paths to their current canonical paths:
+
+- Product Functions local + recursive
+- Product Designs local + recursive
+- Performance Metrics local + recursive
+
+No Functions, Designs, or Metrics were moved or semantically reclassified.
+
+### Validation
+
+GitHub Actions run `37258437826` on commit `1e22388c` completed the structural audit.
+
+Results:
+
+- Markdown files: 1074
+- Model notes: 905
+- Broken wikilinks: **23** (improved from 24)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The one-link improvement is expected because the Product Capabilities root README no longer uses the obsolete path-qualified taxonomy link form.
+
+### Commits
+
+- `3ff35486` — normalize Product Capabilities README
+- `dd5f5ed4` — add local root Base
+- `cab87dcc` — add recursive root Base
+- `d0dc9fbe`, `aa3c0035` — repair Product Functions Bases
+- `a0b6ce7e`, `256d6648` — repair Product Designs Bases
+- `2e432d1f`, `b6817957` — repair Performance Metrics Bases
+- `1e22388c` — add Product Capabilities Canvas
+
+**Result:** Step 16 complete. `30_Product Capabilities` now has coherent root navigation and functional child views while preserving later semantic migration decisions.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1510,3 +1580,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
 | 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |\n| 13 | 2026-10-04 | Complete | Reconciled `10_Products`: consolidated into `README_Products.md`, repaired the local Base path to `10_Products`, retired the duplicate placeholder, retained the valid recursive Base and Canvas, and reduced broken wikilinks from 27 to 26. |\n| 14 | 2026-10-04 | Complete | Reconciled `50_Customer Needs`: consolidated into `README_Customer Needs.md`, repaired both local and recursive Base paths to `50_Customer Needs`, retired the duplicate placeholder, retained the curated Canvas, and reduced broken wikilinks from 26 to 25. |
 | 15 | 2026-10-04 | Complete | Normalized `20_Product Architecture` with an active README, local/recursive Bases, and a minimal curated Canvas; no architecture elements were invented. Structural audit improved broken wikilinks from 25 to 24. |
+| 16 | 2026-10-04 | Complete | Normalized `30_Product Capabilities` with active root README/Base/Canvas navigation, surfaced Functions/Designs/Metrics, repaired all six child Base paths to numbered locations, and reduced broken wikilinks from 24 to 23 without reclassifying model content. |
