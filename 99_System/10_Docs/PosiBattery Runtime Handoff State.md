@@ -1,68 +1,97 @@
 # PosiBattery Runtime Handoff State
 
+## Authority
+
+Updated 2026-10-05 after completion of the PosiBattery architecture-improvement roadmap. This file supersedes the prior 2026-10-04 snapshot for current-state claims.
+
 ## Current controlled state
 
 - Repository: `spencerskelly/PosiBattery`
 - Branch: `main`
 - Vault name: `PosiBattery`
-- Vault UID: `20261004152953762skellyspencer`
-- MDSE release: `0.8.0`
+- MDSE release: `0.8.1`
 - Modeling Ruleset: `1.23`
 - Workbench: `0.1.17`
 - Bootstrap: `0.3.1`
-- relationships schema: `1.35`
-- element-types schema: `1.17`
+- relationships schema: `1.36`
+- element-types schema: `1.18`
 - Local Model schema: `0.2`
 
-## Handoff readiness
+## Vault architecture
 
-Final integrity evidence: `99_System/10_Docs/PosiBattery Integrity Audit 2026-10-04.md`.
+The numbered domain structure is authoritative:
 
-The vault now has:
+`10_Products` · `20_Product Architecture` · `30_Product Capabilities` · `40_Use and Operations` · `50_Customer Needs` · `60_Stakeholders and Ecosystem` · `70_Research and Evidence` · `80_Decisions and Planning` · `90_Definitions and Reusable Reference` · `99_System`.
 
-- initialized vault identity;
-- current v0.8 runtime schemas;
-- current AI instructions;
-- explicit filesystem contract;
-- current verified Workbench candidate;
-- matching Bootstrap candidate;
-- matching controlled plugin lock;
-- PosiBattery-specific model-organization guidance;
-- Git history preserving the changes.
+Folder placement supports navigation only. Type, identity, governed relationships, applicability, evidence provenance, and Local Model records remain authoritative for engineering meaning.
 
-## Important interpretation
+## Modeling approach
 
-The repository has already undergone a broad move into the numbered PosiBattery domain structure. That structure is the current physical organization, but several areas remain transitional and should only be changed through the controlled architecture-improvement roadmap.
+Reusable engineering definitions remain first-class notes. Context-specific composition uses Local Model records rather than duplicate notes. Local Model 0.2 is the canonical writer format.
 
-Do not perform bulk moves for visual consistency. Preserve identities, explicit relationships, source provenance, and working navigation while each migration batch is reviewed and validated.
+`relationships.yaml` 1.36 is the relationship authority. Author the governed forward/owner-side relationship and keep persisted inverses synchronized. Do not invent relationships to clear quality reports.
 
-Current improvement sequence: `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
+The optional 00–09 product pattern is subordinate product-context navigation, not a second root taxonomy.
 
-## Next tool startup sequence
+Evidence follows the chain `acquired artifact → curated Source Document → research/model claim`. Missing curation is report-only; do not invent provenance.
 
-Read:
+## First full product model
 
-1. `AGENTS.md`
-2. `99_System/02_AI/AI_INSTRUCTIONS.md`
-3. `99_System/10_Docs/MDSE Modeling Ruleset 1.23.md`
-4. `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
-5. `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+PosiCharge BMID is the first end-to-end product-development model:
 
-Then run the MDSE Bootstrap release check and Workbench diagnostics inside Obsidian before large edits.
+`Customer Need Hypothesis → Use Case → Requirement → Function → Design → Local Model Architecture → Verification`.
 
-## Known limitation
+Three Function→Design choices intentionally remain open because the current evidence does not support a specific realization: Identify Battery to Charger, Measure Battery Voltage, and Estimate State of Charge.
 
-Workbench 0.1.17 is the last verified candidate from the WB-106 disposable acceptance repository, not a separately promoted final Workbench release. It passed the automated test suite, 60k semantic-cache smoke test, and production build through performance/stability Step 24.
+## Final blocking quality state
 
-Treat any later Workbench build as newer only when its controlled artifact and plugin lock have both been intentionally promoted.
+Final full audit: run `37385299758`, job `112016981982`, head `d0ab744a`.
 
+- identity validation: PASS
+- relationship validation: PASS
+- structural audit: PASS
+- note-name / alias check: PASS
+- strict Function→Design dependency check: PASS
+- 1,126 Markdown files
+- 945 model notes
+- 0 broken wikilinks
+- 0 ambiguous wikilinks
+- 0 paths over 212 characters
+- 42 dependency pairs checked
+- 0 strong dependency pairs with an unreviewed gap
 
-## Integrity status
+The dependency checker was updated during finalization to follow the numbered vault architecture instead of legacy pre-migration paths.
 
-The earlier 2026-10-04 handoff audit was clean at commit `b8fda489`, but it is now a historical pre-migration reference rather than the current repository state.
+## Report-only quality state
 
-The fresh architecture-improvement baseline found **27 broken wikilinks** after the subsequent information-architecture migration. Identity, governed frontmatter, relationship-target resolution, inverse persistence, and path-length checks remain clean. Because the primary audit currently fails on those links, downstream naming/dependency checks do not execute in that workflow run.
+Provenance: 8 curated Source Documents retain body provenance; all 8 lack one or more newer structured provenance fields and lack a recorded original web access/download date. Of 740 notes with source/evidence signals, 120 expose a detected curated evidence relationship and 620 do not. This is a curation queue, not a defect count.
 
-Use the completion evidence in `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md` as the current structural status. Do not describe the vault as fully structurally clean until the later validation step confirms it again.
+Traceability: 2 isolated model elements; 0 isolated Use Case/Requirement/Function/Design/Verification elements; 221 weak-traceability findings (Design 138, Function 81, Requirement 2). Do not bulk-fill relationships to reduce these counts.
 
-All current model notes remain Draft; unresolved research questions remain intentionally unresolved; and `Reverse-Polarity Protection` remains an explicit Design-taxonomy review item.
+## Workbench state
+
+Workbench 0.1.17 passed the cleaned-model review against 945 model notes and 5,987 governed relationship assertions with 0 unresolved relationship links. The BMID Local Model resolves all 11 records and 5/5 representative bounded views passed.
+
+Known nonblocking limitation: the BMID Product Assembly Local Model is owned by an Info context note, while Workbench Internal view starts only from Object. The Local Model is valid; occurrence-aware Where Used / Interfaces behavior remains available.
+
+## Remaining review items
+
+- three open BMID Function→Design choices;
+- two Requirement satisfaction-path quality findings;
+- selective Design/Function traceability curation;
+- structured provenance migration for eight Source Documents;
+- selective evidence-link curation for the 620 evidence-signal notes;
+- two isolated BMID framing/context Info notes;
+- Workbench Internal-view start-type limitation for an Info-owned Local Model context;
+- Reverse-Polarity Protection remains a Design-taxonomy review item;
+- model notes remain Draft unless intentionally promoted later.
+
+## Recommended next engineering work
+
+Do not begin another broad vault reorganization. Continue product-development-driven modeling. Use BMID as the reference pattern for the next product family, close design gaps only when evidence supports them, improve high-value traceability as elements are touched, curate provenance selectively, and keep the full vault audit green after future schema/runtime/importer changes.
+
+## Startup sequence
+
+Read `AGENTS.md`, `99_System/02_AI/AI_INSTRUCTIONS.md`, [[MDSE Modeling Ruleset 1.23]], [[MDSE Vault File and Folder Structure 0.8]], [[PosiBattery Model Organization and Handoff]], and this handoff. Then confirm Bootstrap release state and inspect Workbench runtime health before large edits.
+
+Git history remains the approval/recovery boundary. Markdown/YAML remains authoritative; Workbench, Bases, Canvases, and reports are derived interfaces.
