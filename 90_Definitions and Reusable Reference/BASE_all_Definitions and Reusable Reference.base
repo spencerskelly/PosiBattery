@@ -8,7 +8,10 @@ views:
     name: All reusable reference
     order:
       - file.name
+      - property
       - type
       - subtype
+      - usedOn
+      - required
       - file.folder
       - status
