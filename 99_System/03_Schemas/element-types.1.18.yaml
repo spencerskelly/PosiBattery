@@ -1,0 +1,82 @@
+schemaVersion: '1.18'
+date: '2026-10-05'
+basis: MDSE ruleset 1.23 + PosiBattery reconciliation Steps 73-77
+commonProperties: [type, subtype, id, uid, status, tags]
+optionalProperties:
+  - name: abstract
+    value: boolean
+    default: false
+    omitWhenDefault: true
+  - name: aliases
+    value: list[text]
+    omitWhenEmpty: true
+  - name: reuseScope
+    value: enum
+    allowed: ["product-specific", "product-family", "platform-shared", "cross-product", "external-reference"]
+    omitWhenBlank: true
+classOptionalProperties:
+  Object:
+    - name: productClass
+      value: enum
+      allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"]
+      sparse: true
+  Info:
+    - name: measureClass
+      value: enum
+      allowed: ["metric", "property-definition", "comparison-criterion"]
+      sparse: true
+    - name: valueType
+      value: enum
+      allowed: ["numeric", "categorical", "boolean", "text", "compound"]
+      sparse: true
+    - name: unit
+      value: text-or-link
+      sparse: true
+    - name: measurementMethod
+      value: text-or-link
+      sparse: true
+  Document:
+    - name: sourceClass
+      value: enum
+      allowed: ["web-page", "datasheet", "brochure", "manual", "standard", "article", "database", "other"]
+      sparse: true
+    - name: sourceUrl
+      value: url
+      sparse: true
+    - name: sourceRevision
+      value: text
+      sparse: true
+    - name: accessed
+      value: date
+      sparse: true
+translatedOnlyProperties: [eaType]
+classes:
+  - {name: Object, prefix: OBJ, subtype: ["electrical", "circuit", "mechanical", "software", "firmware", "part"]}
+  - {name: Port, prefix: PORT, subtype: ["proxy", "full"]}
+  - {name: Item Flow, prefix: IFLOW, subtype: ["information", "energy", "material"]}
+  - {name: Function, prefix: FUNC, subtype: []}
+  - {name: Functional Flow, prefix: FFLOW, subtype: []}
+  - {name: State, prefix: STATE, subtype: []}
+  - {name: State Machine, prefix: SM, subtype: []}
+  - {name: Requirement, prefix: REQ, subtype: ["functional", "design", "standard", "stakeholder", "engineering"]}
+  - {name: Design, prefix: DES, subtype: []}
+  - {name: Use Case, prefix: UC, subtype: ["what", "where", "why", "when", "who"]}
+  - {name: Actor, prefix: ACT, subtype: []}
+  - {name: Organization, prefix: ORG, subtype: []}
+  - {name: Failure Mode, prefix: FM, subtype: []}
+  - {name: Issue, prefix: ISS, subtype: ["engineering issue", "lifecycle risk"]}
+  - {name: Info, prefix: INFO, subtype: []}
+  - {name: Step, prefix: STEP, subtype: []}
+  - {name: Verification, prefix: VER, subtype: ["test", "analysis", "inspection", "demonstration"]}
+  - {name: Procedure, prefix: PROC, subtype: ["test", "assembly", "configuration", "commissioning", "calibration", "maintenance", "repair", "decommissioning"]}
+  - {name: Setup, prefix: SETUP, subtype: []}
+  - {name: Plan, prefix: PLAN, subtype: []}
+  - {name: Result, prefix: RES, subtype: []}
+  - {name: Document, prefix: DOC, subtype: []}
+  - {name: Artifact, prefix: ART, subtype: []}
+  - {name: Diagram, prefix: DIA, subtype: ["custom", "logical", "use case", "composite structure", "statechart", "activity", "sequence", "package"]}
+compatibility:
+  legacyNotesMissingNewFields: valid
+  existingIdsRemainValid: true
+  existingUidsRemainValid: true
+  organizationMigration: "Existing organization Info notes remain valid until controlled migration; retyping must not change uid and must not automatically change id."
