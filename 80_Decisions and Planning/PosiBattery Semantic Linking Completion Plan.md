@@ -243,3 +243,14 @@ No model notes were reclassified yet, no schema fields were added, and no model 
 **Commit:** `3a162cb9`.
 
 **Result:** Step 3 complete. The next step is **Step 4 — Define intentional exception classes**.
+
+
+---
+
+## Step 4 completion evidence — Intentional exception classes
+
+Created `80_Decisions and Planning/Semantic Linking Exception Classes Step 4 0.1.yaml` and defined ten controlled exception codes for intentional, unresolved, historical, reference, framing, and not-applicable linking gaps. No schema or model relationships changed.
+
+**Commit:** `fc8708b1`.
+
+**Result:** Step 4 complete. Next: **Step 5 — Align automated traceability rules to the new matrix**.
