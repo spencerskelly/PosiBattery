@@ -20,6 +20,7 @@ performedBy:
   - "[[Hyster Battery Tracker]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Track Equalization
