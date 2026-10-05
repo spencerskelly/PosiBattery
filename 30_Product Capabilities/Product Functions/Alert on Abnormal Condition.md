@@ -36,6 +36,8 @@ performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
+realizes:
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Alert on Abnormal Condition
