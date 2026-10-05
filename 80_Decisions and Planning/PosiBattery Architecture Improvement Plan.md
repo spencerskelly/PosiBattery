@@ -1476,6 +1476,26 @@ The reduction from 26 to 25 is the expected removal of the broken wikilink that 
 
 ---
 
+## Step 15 completion evidence — Product Architecture navigation normalized
+
+**Date:** 2026-10-04
+
+The `20_Product Architecture` primary navigation set is now complete without adding unsupported architecture model content.
+
+Changes:
+- `README_Product Architecture.md` now defines the active domain, what belongs there, its relationship to Product Capabilities and product-context design/assembly, and the rule against artificial population.
+- `BASE_local_Product Architecture.base` was created for direct Markdown contents.
+- `BASE_all_Product Architecture.base` was created for recursive Markdown contents.
+- `CANVAS_Product Architecture.canvas` was created as a minimal curated map using the README plus an explanatory note; no architecture elements were invented.
+
+Validation: GitHub Actions run `37258203843` on commit `aa5f7f6f` reported 905 model notes, 24 broken wikilinks, and zero findings for frontmatter, duplicate/malformed IDs or UIDs, governed properties, ambiguity, relationship targets, inverse persistence, and over-limit paths. Broken links improved from 25 to 24.
+
+Commits: `695c4192`, `fadd6c33`, `7460ef1c`, `aa5f7f6f`.
+
+**Result:** Step 15 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1489,3 +1509,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
 | 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
 | 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |\n| 13 | 2026-10-04 | Complete | Reconciled `10_Products`: consolidated into `README_Products.md`, repaired the local Base path to `10_Products`, retired the duplicate placeholder, retained the valid recursive Base and Canvas, and reduced broken wikilinks from 27 to 26. |\n| 14 | 2026-10-04 | Complete | Reconciled `50_Customer Needs`: consolidated into `README_Customer Needs.md`, repaired both local and recursive Base paths to `50_Customer Needs`, retired the duplicate placeholder, retained the curated Canvas, and reduced broken wikilinks from 26 to 25. |
+| 15 | 2026-10-04 | Complete | Normalized `20_Product Architecture` with an active README, local/recursive Bases, and a minimal curated Canvas; no architecture elements were invented. Structural audit improved broken wikilinks from 25 to 24. |
