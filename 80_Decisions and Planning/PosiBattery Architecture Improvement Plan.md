@@ -1777,6 +1777,65 @@ The one-link improvement is expected because the Research and Evidence root READ
 
 ---
 
+## Step 20 completion evidence — Decisions and Planning navigation normalized
+
+**Date:** 2026-10-04
+
+The `80_Decisions and Planning` domain now has one primary entry point for active plans, backlog, decision records, assumptions/open questions, migration records, and model-quality findings.
+
+### Changes
+
+- `README_Decisions and Planning.md`
+  - created as the primary landing page;
+  - links directly to the active architecture-improvement roadmap, Knowledge Base Backlog, schema/relationship decision record, historical migration baseline, folder inventory, and navigation artifact inventory;
+  - clarifies that planning/governance records do not themselves authorize schema, relationship, or placement changes;
+  - distinguishes current authority from historical baselines.
+
+- `BASE_local_Decisions and Planning.base`
+  - created for direct Markdown planning/decision records.
+
+- `BASE_all_Decisions and Planning.base`
+  - created for recursive Markdown planning/decision records.
+
+- `CANVAS_Decisions and Planning.canvas`
+  - created as a curated map of the root README, active roadmap, backlog, decision record, and historical migration baseline.
+
+No existing planning record, backlog item, decision, assumption, or migration conclusion was changed in this step.
+
+### Validation
+
+GitHub Actions run `37263812552` on commit `589a65e6` completed the structural audit.
+
+Results:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **20** (unchanged)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The broken-link count is unchanged because Step 20 added only valid navigation links and intentionally did not alter the existing schema/relationship decision record or other historical documentation.
+
+### Commits
+
+- `05b26dbf` — add primary Decisions and Planning README
+- `136ec961` — add local Base
+- `7a375621` — add recursive Base
+- `589a65e6` — add curated Canvas
+
+**Result:** Step 20 complete. `80_Decisions and Planning` now has coherent primary navigation without changing planning semantics.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1795,3 +1854,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 17 | 2026-10-04 | Complete | Normalized `40_Use and Operations` with an active README, local/recursive Bases, and a minimal curated Canvas; no operational content was invented. Structural audit improved broken wikilinks from 23 to 22. |
 | 18 | 2026-10-04 | Complete | Normalized `60_Stakeholders and Ecosystem` with active root navigation, clarified Actors vs Organizations, repaired four standard child Base paths plus the offerings view to numbered canonical paths, and reduced broken wikilinks from 22 to 21. |
 | 19 | 2026-10-04 | Complete | Normalized `70_Research and Evidence` with active root navigation, clarified raw artifacts vs Source Document records vs synthesis, repaired Research/Source Document Bases to numbered paths, and reduced broken wikilinks from 21 to 20. |
+| 20 | 2026-10-04 | Complete | Added primary `80_Decisions and Planning` README/Base/Canvas navigation linking the active roadmap, backlog, decision record, historical migration baseline, and inventories. Structural audit remained at 20 broken wikilinks with all other integrity categories clean. |
