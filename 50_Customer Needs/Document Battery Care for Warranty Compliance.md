@@ -15,6 +15,8 @@ realizedBy:
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Dealer Service Technician]]"
+arisesIn:
+  - "[[Review BMID Battery History and Exceptions]]"
 ---
 
 # Document Battery Care for Warranty Compliance
