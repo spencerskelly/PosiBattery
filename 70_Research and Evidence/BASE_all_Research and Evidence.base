@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("70_Research and Evidence")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All research and evidence contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - file.folder
+      - status
