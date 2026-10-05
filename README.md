@@ -18,6 +18,10 @@ PosiBattery-specific organization and migration guidance is in:
 
 `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
 
+The active incremental architecture-improvement sequence is controlled by:
+
+`80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
+
 The current runtime handoff snapshot is in:
 
 `99_System/10_Docs/PosiBattery Runtime Handoff State.md`
@@ -34,21 +38,22 @@ The vault intentionally does not contain the methodology workspace's Current Sta
 
 ## Current model areas
 
-The present PosiBattery content includes:
+PosiBattery is currently organized under the numbered domain structure:
 
-- Customer Actors
-- Customer Needs
-- Definitions
-- Organizations
-- Performance Metrics
-- Product Designs
-- Product Functions
-- Products
-- Research
-- Source Documents
-- Downloads
+- `10_Products`
+- `20_Product Architecture`
+- `30_Product Capabilities`
+- `40_Use and Operations`
+- `50_Customer Needs`
+- `60_Stakeholders and Ecosystem`
+- `70_Research and Evidence`
+- `80_Decisions and Planning`
+- `90_Definitions and Reusable Reference`
+- `99_System`
 
-These folders support navigation only. They do not create engineering semantics; relationships and schemas do that.
+Several areas inside these domains are still transitional or pending migration review. In particular, mixed-content folders and the remaining underscore-prefixed research roots are being reconciled through `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
+
+Folders support navigation only. They do not create engineering semantics; relationships and schemas do that.
 
 ## Opening the vault
 
