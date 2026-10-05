@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Source Documents"
+    - file.folder == "70_Research and Evidence/Source Documents"
 views:
   - type: table
     name: Local contents
