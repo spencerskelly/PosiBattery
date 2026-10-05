@@ -4803,3 +4803,32 @@ Evidence: `80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 
 **Commit:** `da3a80fe`.
 
 **Result:** Step 74 complete. The next incomplete roadmap item is **Step 75 — Relationship reconciliation**.
+
+
+---
+
+## Step 82 completion evidence — Adopt incrementally
+
+**Date:** 2026-10-05
+
+The reconciled contract is now the live MDSE runtime for PosiBattery under **MDSE release 0.8.1**.
+
+Live authorities:
+- `element-types.yaml` 1.18
+- `relationships.yaml` 1.36
+- `metadata.yaml` 1.0
+- `local-model.yaml` remains 0.2
+
+Activation preserved the existing importer-only `modelCheck` class and existing Local Model behavior. `Organization` is now governed as a first-class type, the Step 75 traceability/evidence and business relationships are live, and the Step 77 sparse metadata fields are governed without making them mandatory on legacy notes.
+
+The affected FileClasses were advanced to the active 2.1 authoring contract, a new Organization FileClass was added, Organization-aware link-target views were added, and the specialized Organization/Product Object/Measure Info/Source Document templates were promoted to the normal template root. Duplicate Pilot FileClasses and Pilot templates were removed so there is one active authoring definition per type.
+
+The old `business-relationships.provisional.yaml` is now explicitly retired and points to `relationships.yaml` 1.36, eliminating the parallel relationship authority.
+
+Adoption is intentionally incremental. Existing notes are not bulk rewritten. A legacy note adopts the revised contract only while it is already being reviewed, moved for an approved reason, materially edited, or relationship-corrected. Existing `id` and `uid` values remain unchanged; body aliases migrate one-way into YAML `aliases`; optional metadata is added only when supported; paired relationships and inverses change together; and each small logical batch is validated before proceeding.
+
+Evidence: `80_Decisions and Planning/Incremental Adoption Step 82 0.1.yaml`.
+
+**Commit:** `1e879e56`.
+
+**Result:** Step 82 complete. **Phase L is complete.** The next incomplete roadmap item is **Step 83 — Select the first product family for full modeling**, which requires user judgment.
