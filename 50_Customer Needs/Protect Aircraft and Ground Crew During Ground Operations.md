@@ -38,6 +38,11 @@ Customer need: Protect Aircraft and Ground Crew During Ground Operations. The pr
   - [[TLD Aircraft Safety Docking]]: A dealer listing says the ASD system on the TLD RBL uses a 3D camera that detects any obstacle in front of the vehicle up to 7 m and keeps the loader from approaching the aircraft too fast, with the operator pressing an ASD button after entering the safety area; TLD's NBL-E page lists customizations including ASD 'no touch'; a 2020 trade report names TLD's Aircraft Avoidance Strike System using a camera and infrared and a belt-stop feature for a baggage strap caught between belt and boom (text fragmentary). Source: Aero Specialties listing, TLD NBL-E page and Ramp Equipment News (2020) (T3/T1/T2), retrieved 2026-10-03. <https://www.aerospecialties.com/product/tld-rbl/>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Approach and Dock GSE at an Aircraft]].
+- Operating contexts: [[Airport Ground-Support Operating Area]], [[Aircraft Service Envelope]].
+
 ## Aliases
 
 
