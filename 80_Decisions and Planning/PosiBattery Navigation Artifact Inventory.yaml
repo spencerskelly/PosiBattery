@@ -6,7 +6,8 @@ summary:
   true_duplicate_readme_groups: 2
   duplicate_readme_files: 4
   stale_path_dependent_bases: 2
-  transitional_root_placeholder_readmes: 8
+  transitional_root_placeholder_readmes: 2
+  standardized_root_readmes: 6
   empty_system_canvases_for_review: 3
   intentional_all_local_base_pairs: 8
 findings:
@@ -44,15 +45,20 @@ findings:
     category: transitional_root_placeholder_readme
     files:
       - "10_Products/README - 10_Products.md"
-      - "20_Product Architecture/README - 20_Product Architecture.md"
-      - "30_Product Capabilities/README - 30_Product Capabilities.md"
-      - "40_Use and Operations/README - 40_Use and Operations.md"
       - "50_Customer Needs/README - 50_Customer Needs.md"
-      - "60_Stakeholders and Ecosystem/README - 60_Stakeholders and Ecosystem.md"
-      - "70_Research and Evidence/README - 70_Research and Evidence.md"
-      - "90_Definitions and Reusable Reference/README - 90_Definitions and Reusable Reference.md"
-    disposition: "normalize_in_navigation_phase"
-    note: "These were created as target-skeleton landing pages and still state that the folders are target-only even though substantial migration has already occurred. Naming also differs from the README_<folder> convention."
+    disposition: "reconcile_in_steps_13_14"
+    note: "These duplicate substantive canonical README files and are intentionally deferred to the domain-specific navigation reconciliation steps so unique content can be preserved."
+  - id: NAV-007
+    category: standardized_root_readme
+    files:
+      - "20_Product Architecture/README_Product Architecture.md"
+      - "30_Product Capabilities/README_Product Capabilities.md"
+      - "40_Use and Operations/README_Use and Operations.md"
+      - "60_Stakeholders and Ecosystem/README_Stakeholders and Ecosystem.md"
+      - "70_Research and Evidence/README_Research and Evidence.md"
+      - "90_Definitions and Reusable Reference/README_Definitions and Reusable Reference.md"
+    disposition: "canonical_name"
+    note: "Renamed in Step 11 to the primary README_<Domain>.md convention using the human-readable domain label without the numeric root prefix."
   - id: NAV-006
     category: empty_system_canvas_review
     files:
