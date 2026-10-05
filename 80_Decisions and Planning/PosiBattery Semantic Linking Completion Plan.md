@@ -217,3 +217,29 @@ Step 2 intentionally does **not** yet decide which notes receive the strict acti
 **Commits:** `dbf947d6`, `c47e3497`.
 
 **Result:** Step 2 complete. The next step is **Step 3 — Define active-engineering versus reference-content standards**.
+
+
+---
+
+## Step 3 completion evidence — Active-engineering versus reference-content standards
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Semantic Linking Content Standards Step 3 0.1.yaml` to define how semantic-linking completeness changes by engineering use rather than by folder location or note type alone.
+
+Four completeness classes are now defined:
+
+- **active_engineering** — strict traceability; no unexplained isolation or missing material chain dimensions;
+- **engineering_support** — contextual completeness; reusable/supporting notes must provide sufficient purpose, where-used, and evidence linkage once relied upon;
+- **reference_content** — intentionally lighter coverage; valid sparse leaves are allowed when they are retained primarily for market/catalog/source/reference knowledge;
+- **historical_or_import_holding** — preservation-first treatment for source fidelity, migration history, and unresolved imported semantics.
+
+The standard maps all **25 governed element types** to context-dependent defaults and defines activation signals that promote notes into stricter classes. A note participating in an active product-development chain always receives the stricter standard, regardless of external origin, Draft status, or folder placement.
+
+The standard also defines strict expectations for active Requirements, Functions, Designs, Verification, Use Cases, Objects, Ports, Item Flows, States/State Machines, Failure Modes, Issues, and validation-execution elements. Reference content is explicitly **not** required to acquire artificial product ownership, performer, design, verification, or evidence relationships merely to reduce orphan counts.
+
+No model notes were reclassified yet, no schema fields were added, and no model relationships changed in Step 3. Step 4 will define the controlled exception vocabulary used when an expectation is intentionally absent or unresolved.
+
+**Commit:** `3a162cb9`.
+
+**Result:** Step 3 complete. The next step is **Step 4 — Define intentional exception classes**.
