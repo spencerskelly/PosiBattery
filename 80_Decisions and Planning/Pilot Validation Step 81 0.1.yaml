@@ -1,0 +1,105 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 81
+status: "Complete"
+validation_result: "conditional-pass-for-contract; not-yet-activated"
+
+scope:
+  - "Candidate element schema 1.18"
+  - "Candidate relationship schema 1.36"
+  - "Sparse metadata schema 1.0"
+  - "Pilot templates and FileClasses"
+  - "Step 80 non-canonical fixture contract"
+  - "Workbench schema parser/index behavior"
+  - "Vault audit schema selection"
+  - "Production compatibility during pilot"
+
+passes:
+  - id: V81-P01
+    check: "Workbench candidate schema parsing"
+    result: pass
+    evidence: "Workbench parseSchema reads list-form classes and paired/symmetric/oneWay relationships used by the candidate schemas."
+  - id: V81-P02
+    check: "Organization class recognition"
+    result: pass_when_candidate_paths_active
+    evidence: "Organization is present in element-types.1.18.yaml and therefore enters Workbench classNames when that schema is loaded."
+  - id: V81-P03
+    check: "Relationship endpoint vocabulary"
+    result: pass
+    evidence: "All class names used by relationships.1.36.yaml are defined in element-types.1.18.yaml; Workbench endpoint parsing accepts these list/any forms."
+  - id: V81-P04
+    check: "Relationship inverse detection"
+    result: pass_when_candidate_paths_active
+    evidence: "Workbench ModelIndex.findings checks paired relationship inverses using the loaded candidate schema."
+  - id: V81-P05
+    check: "Legacy-note compatibility"
+    result: pass
+    evidence: "New metadata is sparse/optional; no bulk legacy migration is required."
+  - id: V81-P06
+    check: "Pilot fixture isolation"
+    result: pass
+    evidence: "Fixtures are YAML under 99_System and are not indexed as model-note Markdown records."
+  - id: V81-P07
+    check: "Production runtime stability during pilot"
+    result: pass_after_rollback
+    evidence: "Step 81 restored the two Step 80 canonical notes to production-compatible type/relationship/body-alias representation."
+  - id: V81-P08
+    check: "Identity stability"
+    result: pass
+    evidence: "No production id or uid changed during pilot or rollback."
+
+findings:
+  - id: V81-F01
+    severity: blocking-for-activation
+    issue: "Workbench defaults still point to unsuffixed relationships.yaml and element-types.yaml."
+    impact: "Organization and the new relationships are invisible to the active Workbench until schema paths are activated."
+    resolution: "Step 82 must activate the reconciled schema set through the controlled release path before migrating real notes."
+
+  - id: V81-F02
+    severity: resolved-in-step
+    issue: "audit-vault.py previously hard-coded the production schemas."
+    impact: "A pilot audit could not detect new relationship inverses such as supports/supportedBy."
+    resolution: "Step 81 added --element-schema and --relationship-schema arguments while retaining production defaults."
+    pilot_command: "python 99_System/09_Tools/audit-vault.py --element-schema element-types.1.18.yaml --relationship-schema relationships.1.36.yaml"
+
+  - id: V81-F03
+    severity: medium
+    issue: "Workbench does not consume metadata.1.0.yaml."
+    impact: "Workbench can preserve/display note frontmatter but does not enforce productClass, measureClass, valueType, unit, sourceClass, or other metadata conditions/enums."
+    resolution: "Use FileClass controls plus dedicated schema/audit validation; do not claim Workbench itself validates sparse metadata."
+
+  - id: V81-F04
+    severity: environment-limited
+    issue: "Interactive Obsidian rendering and clicks cannot be executed through the repository connector."
+    impact: "Actual UI rendering of Select/MultiFile fields and Bases remains unobserved in this environment."
+    resolution: "Do not treat this as evidence of a UI failure; Step 82 should activate incrementally and retain rollback capability."
+
+  - id: V81-F05
+    severity: low
+    issue: "Pilot Link Targets Base uses a legacy-organization tag fallback expression that has no other in-repo precedent."
+    impact: "The Organization view expression should be visually confirmed in Obsidian before relying on it for user workflow."
+    resolution: "Treat the fallback as compatibility assistance only; Organization type remains the semantic authority."
+
+changes_made_during_validation:
+  - "Restored Advanced Charging Technologies from candidate Organization back to production Info."
+  - "Restored ACT alias to the body representation used by production notes."
+  - "Removed candidate productClass/aliases/supportedBy fields from the canonical BATTview pilot note and restored its body alias."
+  - "Extended audit-vault.py with selectable element/relationship schema arguments."
+  - "Fixed audit MODEL_CLASSES loading to recognize list-form classes."
+
+adoption_gate:
+  contract_semantics: pass
+  candidate_schema_parse_compatibility: pass
+  production_runtime_current_state: stable
+  workbench_candidate_activation: required
+  metadata_validation: external_to_workbench
+  interactive_obsidian_validation: not_executed
+  bulk_migration_authorized: false
+
+decision:
+  step_81_complete: true
+  rationale: "The validation step is complete and produced actionable adoption conditions. It does not authorize blind deployment."
+  step_82_direction: "Activate the reconciled schema/tooling path first, then migrate only reviewed notes incrementally with immediate audit/rollback capability."
+
+next_step: 82
