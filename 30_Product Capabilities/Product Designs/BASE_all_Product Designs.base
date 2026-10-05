@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Product Designs")
+    - file.inFolder("30_Product Capabilities/Product Designs")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
