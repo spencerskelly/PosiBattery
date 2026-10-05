@@ -1,0 +1,155 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 37
+purpose: "Identify folders in 10_Products that mix semantic abstraction levels and record restructuring opportunities without moving notes."
+source_inventory: "80_Decisions and Planning/Products Semantic Inventory 0.1.yaml"
+structure_changed: false
+
+summary:
+  folders_with_product_notes: 56
+  mixed_semantic_folders: 38
+  mixed_semantic_folders_pct: 67.9
+  reusable_anatomy_concepts_in_products: 26
+  primary_issue_classes:
+    - "intentional_category_plus_offerings"
+    - "commercial_series_plus_specific_offerings"
+    - "architecture_concepts_inside_products"
+
+interpretation:
+  - "A category/family note co-located with the offerings it organizes is not automatically a defect."
+  - "The most common pattern is one reusable category/family note plus multiple concrete offerings; this is currently useful navigation and should not be split merely to enforce semantic purity."
+  - "Commercial series/families mixed with specific offerings may obscure abstraction level and deserves review in Steps 38-41."
+  - "Truck Anatomy and GSE Anatomy are materially different: these notes describe reusable product architecture, not market products, and are the clearest placement-review candidates for Step 39."
+  - "No move or relationship change is authorized by this inventory."
+
+priority_findings:
+  - id: "MIX-001"
+    area: "10_Products/Forklifts/Truck Anatomy"
+    severity: "high"
+    pattern: "architecture_concepts_inside_products"
+    notes: 13
+    recommendation: "Review for migration or canonical representation under 20_Product Architecture while preserving product-context navigation links."
+    rationale: "These are reusable vehicle structure/component concepts, not commercial product offerings."
+
+  - id: "MIX-002"
+    area: "10_Products/Ground Support Equipment/GSE Anatomy"
+    severity: "high"
+    pattern: "architecture_concepts_inside_products"
+    notes: 13
+    recommendation: "Review for migration or canonical representation under 20_Product Architecture while preserving GSE product-context navigation."
+    rationale: "These are reusable GSE structure/component concepts, not commercial product offerings."
+
+  - id: "MIX-003"
+    area: "10_Products/Forklifts/Class I Electric Rider Trucks"
+    severity: "medium"
+    pattern: "category_plus_commercial_series_plus_specific_offerings"
+    notes: 30
+    semantic_mix:
+      category_or_family: 1
+      commercial_family_or_series: 15
+      specific_commercial_offering: 14
+    recommendation: "Review whether marketed Series notes are valid commercial family identities or should remain peer offerings. Do not create deeper hierarchy until identity evidence is reviewed."
+
+  - id: "MIX-004"
+    area: "10_Products/Chargers/Industrial Modular Chargers"
+    severity: "medium"
+    pattern: "category_plus_commercial_series_plus_specific_offerings"
+    notes: 37
+    semantic_mix:
+      category_or_family: 1
+      commercial_family_or_series: 4
+      specific_commercial_offering: 32
+    recommendation: "Review multi-model/series notes such as DVS300 Series or MVS400 and MVS800 for family-versus-offering identity before navigation changes."
+
+  - id: "MIX-005"
+    area: "10_Products/Batteries/Flooded Lead-Acid Batteries"
+    severity: "medium"
+    pattern: "category_plus_commercial_series_plus_specific_offerings"
+    notes: 24
+    semantic_mix:
+      category_or_family: 1
+      commercial_family_or_series: 6
+      specific_commercial_offering: 17
+    recommendation: "Review marketed series/model-level identity before introducing subfolders."
+
+  - id: "MIX-006"
+    area: "10_Products/Batteries/Lithium-Ion Batteries"
+    severity: "medium"
+    pattern: "category_plus_commercial_series_plus_specific_offerings"
+    notes: 27
+    semantic_mix:
+      category_or_family: 1
+      commercial_family_or_series: 8
+      specific_commercial_offering: 18
+    recommendation: "Review Pack/Series/Option notes for family, platform, variant, or offering identity using source evidence."
+
+  - id: "MIX-007"
+    area: "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries"
+    severity: "medium"
+    pattern: "category_plus_commercial_series_plus_specific_offerings"
+    notes: 11
+    semantic_mix:
+      category_or_family: 1
+      commercial_family_or_series: 3
+      specific_commercial_offering: 7
+    recommendation: "Review marketed series/model-level identity before navigation changes."
+
+  - id: "MIX-008"
+    area: "Accessory and software subfolders"
+    severity: "low"
+    pattern: "intentional_category_plus_offerings"
+    examples:
+      - "10_Products/Battery Accessories/Monitoring Devices"
+      - "10_Products/Vehicle Accessories/Operator Assist and Stability"
+      - "10_Products/Vehicle Accessories/Proximity and Object Detection"
+      - "10_Products/Fleet Software and Platforms/Truck Telematics"
+    recommendation: "Retain current co-location unless user navigation becomes unclear; the generic reusable category note plus concrete offerings is a coherent folder pattern."
+
+mixed_folders:
+  - folder: "10_Products/Chargers/Industrial Modular Chargers"
+    notes: 37
+    classes: ["category_or_family", "commercial_family_or_series", "specific_commercial_offering"]
+  - folder: "10_Products/Vehicle Accessories/Operator Assist and Stability"
+    notes: 37
+    classes: ["accessory_category_or_family", "accessory_or_option_offering"]
+  - folder: "10_Products/Forklifts/Class I Electric Rider Trucks"
+    notes: 30
+    classes: ["category_or_family", "commercial_family_or_series", "specific_commercial_offering"]
+  - folder: "10_Products/Vehicle Accessories/Proximity and Object Detection"
+    notes: 29
+    classes: ["accessory_category_or_family", "accessory_or_option_offering"]
+  - folder: "10_Products/Batteries/Lithium-Ion Batteries"
+    notes: 27
+    classes: ["category_or_family", "commercial_family_or_series", "specific_commercial_offering"]
+  - folder: "10_Products/Battery Accessories/Monitoring Devices"
+    notes: 27
+    classes: ["accessory_category_or_family", "accessory_or_option_offering"]
+  - folder: "10_Products/Batteries/Flooded Lead-Acid Batteries"
+    notes: 24
+    classes: ["category_or_family", "commercial_family_or_series", "specific_commercial_offering"]
+  - folder: "10_Products/Fleet Software and Platforms/Truck Telematics"
+    notes: 20
+    classes: ["platform_category_or_family", "platform_or_software_offering"]
+  - folder: "10_Products/Vehicle Accessories/Warning Lights and Alerts"
+    notes: 14
+    classes: ["accessory_category_or_family", "accessory_or_option_offering"]
+  - folder: "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries"
+    notes: 11
+    classes: ["category_or_family", "commercial_family_or_series", "specific_commercial_offering"]
+  - folder: "10_Products/Battery Accessories/Identification and Charge Interface Devices"
+    notes: 10
+    classes: ["accessory_category_or_family", "accessory_or_option_offering"]
+  - folder: "10_Products/Fleet Software and Platforms/Battery and Charger Management"
+    notes: 10
+    classes: ["platform_category_or_family", "platform_or_software_offering"]
+
+remaining_mixed_folders:
+  count: 26
+  treatment: "Mostly the same intentional one-category-plus-offerings pattern in smaller folders. Preserve unless Steps 38-41 find identity or placement evidence requiring change."
+
+decision_guidance:
+  - "Do not create separate category-only folders merely to eliminate mixed semantic classes."
+  - "Prefer relationships and explicit abstract/family semantics over deep folder hierarchy."
+  - "Treat commercial family/series identity as an evidence question, not a filename convention."
+  - "Treat architecture-like anatomy concepts as placement-review candidates because canonical domain 20_Product Architecture exists for reusable architecture knowledge."
