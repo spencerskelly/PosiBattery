@@ -2348,6 +2348,122 @@ Later evidence/modeling work still needs to:
 
 ---
 
+## Step 27 completion evidence — Power Conversion Research migrated
+
+**Date:** 2026-10-04
+
+The legacy `_Power Conversion Research` island was inventoried, mapped, migrated, and validated within this step.
+
+### Inventory and mapping
+
+Created:
+
+`80_Decisions and Planning/Power Conversion Research Migration Record 0.1.yaml`
+
+The four notes were classified as unverified power-conversion design-reasoning research:
+
+- general power-conversion primer;
+- unidirectional 480 VAC to 96 VDC topology hypothesis;
+- bidirectional 480 VAC ↔ 96 VDC topology hypothesis;
+- wide-turndown 50 kW to 500 W topology hypothesis.
+
+The migration record explicitly warns that the notes contain topology recommendations, efficiency ranges, product examples, semiconductor choices, control claims, thermal recommendations, and architecture conclusions without embedded authoritative citations. These remain research hypotheses until verified.
+
+### Controlled move
+
+All four notes were moved one-to-one into:
+
+`70_Research and Evidence/Research/Power Conversion/`
+
+with filenames preserved.
+
+Each destination file reused its exact original Git blob SHA, confirming byte-for-byte content preservation.
+
+Post-move verification:
+
+- legacy source files remaining under `_Power Conversion Research`: **0**
+- migrated research notes at destination: **4**
+- filenames changed: **0**
+- content blobs changed: **0**
+
+### Navigation
+
+Created:
+
+`70_Research and Evidence/Research/Power Conversion/README_Power Conversion Research.md`
+
+The README:
+
+- explains the research scope;
+- links all four migrated notes;
+- states that the notes are not approved architecture or verified design requirements;
+- explicitly flags the absence of authoritative embedded citations;
+- prevents direct promotion of research reasoning into Product Architecture, Designs, Requirements, Interfaces, or product commitments.
+
+Updated:
+
+`70_Research and Evidence/Research/README_Research.md`
+
+to make the Power Conversion subgroup discoverable.
+
+No subgroup Base or Canvas was created because the parent Research recursive Base already exposes the files.
+
+### Machine-readable records
+
+- `Power Conversion Research Migration Record 0.1.yaml`
+  - marked `migration_executed: true`;
+  - records migration commit `a6c1a4cd`;
+  - records legacy source-folder removal and navigation update.
+
+- `PosiBattery Folder Inventory.yaml`
+  - replaced the `_Power Conversion Research` migration-candidate entry with canonical `70_Research and Evidence/Research/Power Conversion`;
+  - canonical-folder count increased from 70 to 71;
+  - migration-candidate count decreased from 8 to 7.
+
+### Validation
+
+GitHub Actions run `37266319145` on commit `58937732` completed the structural audit.
+
+Results:
+
+- Markdown files: 1078
+- Model notes: 905
+- Broken wikilinks: **19** (unchanged)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The Markdown count increased by one because the subgroup README was intentionally added.
+
+### Commits
+
+- `91d12981` — add Power Conversion Research migration record
+- `a6c1a4cd` — move all four research notes with original blob identities preserved
+- `16714751` — add Power Conversion Research README
+- `db758361` — link Power Conversion Research from parent Research navigation
+- `788f5cea` — mark migration record executed
+- `58937732` — update folder inventory
+
+### Deferred engineering/evidence work
+
+Later work still needs to:
+
+- recover primary sources for topology, efficiency, product, semiconductor, thermal, isolation, and bidirectional-control claims;
+- compare these hypotheses against actual charger voltage range, power, isolation, safety, thermal, regulatory, bidirectional, and charge-profile requirements;
+- extract Designs, Requirements, Interfaces, Functions, or Product Architecture only through separate evidence-backed engineering work.
+
+**Result:** Step 27 complete. The legacy power-conversion research island has been eliminated without content loss or semantic promotion.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2373,3 +2489,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 24 | 2026-10-04 | Complete | Created an explicit one-to-one migration map for all 12 cost-driver notes into `70_Research and Evidence/Research/Cost Drivers`, with content-class preservation rules and no file moves. Structural audit remained stable at 19 broken wikilinks. |
 | 25 | 2026-10-04 | Complete | Migrated all 12 cost-driver research notes unchanged into `70_Research and Evidence/Research/Cost Drivers`, added one useful subgroup README, updated Research navigation and machine inventories, eliminated the legacy root island, and kept the structural audit stable at 19 broken wikilinks. |
 | 26 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_EMS Research` notes unchanged into `70_Research and Evidence/Research/EMS`, preserved unresolved verification/source needs, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
+| 27 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_Power Conversion Research` notes unchanged into `70_Research and Evidence/Research/Power Conversion`, preserved unverified design reasoning with explicit evidence warnings, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
