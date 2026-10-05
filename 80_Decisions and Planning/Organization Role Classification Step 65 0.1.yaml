@@ -224,3 +224,14 @@ conclusion: "Clear organization roles are now classified with a controlled model
 
 next_step:
   step: 66
+
+audit_validation:
+  workflow_run: 37333618114
+  commit: "33ccdacc4a9e9618afba0230200ba68d55e0bc31"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 65 introduced no new structural regression."
