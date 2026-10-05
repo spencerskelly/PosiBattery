@@ -1,4 +1,4 @@
-schemaVersion: '1.17'
+schemaVersion: '1.18'
 date: '2026-10-02'
 basis: MDSE ruleset 1.23
 commonProperties: [type, subtype, id, uid, status, tags]   # order fixed by W-97
