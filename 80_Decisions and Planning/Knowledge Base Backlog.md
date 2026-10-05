@@ -100,6 +100,22 @@ Topics and data that are thin or absent in the vault and would inform two-year e
 | Engineering capacity split (sustaining vs new product vs customer-specific) | Shows real capacity available for roadmap bets | KB-010 |
 | Customer economics baseline (TCO, energy and demand cost, labor saved) | Supports value-based pricing and energy-management features | `_Cost Driver Research/` staging folder |
 
+### Product classification review queue
+
+These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
+
+| ID | Priority | Status | Question | Current treatment | Evidence needed |
+| --- | --- | --- | --- | --- | --- |
+| PCQ-001 | P1 | Blocked | Is [[PosiCharge BMID 3]] the same marketed identity as [[PosiCharge PosiGuard]]? | Keep separate; do not merge. | Internal part-number/history mapping or authoritative product documentation. |
+| PCQ-002 | P1 | Blocked | Is [[PosiCharge BMID 1]] the same marketed identity as [[PosiCharge Battery Rx]]? | Keep separate; do not merge. | Internal part-number/history mapping or authoritative product documentation. |
+| PCQ-003 | P2 | Proposed | Which Class I forklift notes are commercial series/families versus specific offerings? | Preserve current peer placement. | Manufacturer model-family documentation or explicit series-to-model relationships. |
+| PCQ-004 | P2 | Proposed | Which industrial charger notes are commercial families/series versus specific offerings? | Preserve current peer placement. | Manufacturer family/model documentation. |
+| PCQ-005 | P2 | Proposed | Which flooded lead-acid battery notes are series/families versus specific offerings? | Preserve current placement. | Manufacturer catalog/model evidence. |
+| PCQ-006 | P2 | Proposed | Which lithium-ion Pack/Series/Option notes are families, platforms, variants, or specific offerings? | Preserve current placement. | Manufacturer identity and variant evidence. |
+| PCQ-007 | P2 | Proposed | Which VRLA battery notes are series/families versus specific offerings? | Preserve current placement. | Manufacturer catalog/model evidence. |
+
+Queue rules: folder location and name similarity do not resolve identity; do not merge or deepen hierarchy without supporting evidence.
+
 ## Change history
 
 - 2026-10-04 — Added business and roadmap-data candidates (topic gaps and internal data to collect) to the parking lot. Existing items unchanged. Possible overlap with unmigrated `_EMS Research/` and `_Cost Driver Research/` staging folders noted for reconciliation.
