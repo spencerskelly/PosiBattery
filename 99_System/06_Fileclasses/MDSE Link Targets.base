@@ -440,3 +440,64 @@ views:
     sort:
       - property: file.name
         direction: ASC
+
+  - type: table
+    name: "Organization"
+    filters:
+      or:
+        - 'note.type == "Organization"'
+        - 'note.type == "Info" && list(tags).contains("organization")'
+    order:
+      - file.name
+      - type
+      - id
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Organization | Object"
+    filters:
+      or:
+        - 'note.type == "Organization"'
+        - 'note.type == "Info" && list(tags).contains("organization")'
+        - 'note.type == "Object"'
+    order:
+      - file.name
+      - type
+      - id
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Requirement | Use Case"
+    filters:
+      or:
+        - 'note.type == "Requirement"'
+        - 'note.type == "Use Case"'
+    order:
+      - file.name
+      - type
+      - id
+  - type: table
+    name: "Requirement | Function | Design | Info"
+    filters:
+      or:
+        - 'note.type == "Requirement"'
+        - 'note.type == "Function"'
+        - 'note.type == "Design"'
+        - 'note.type == "Info"'
+    order:
+      - file.name
+      - type
+      - id
+  - type: table
+    name: "Procedure | Setup | Use Case"
+    filters:
+      or:
+        - 'note.type == "Procedure"'
+        - 'note.type == "Setup"'
+        - 'note.type == "Use Case"'
+    order:
+      - file.name
+      - type
+      - id
