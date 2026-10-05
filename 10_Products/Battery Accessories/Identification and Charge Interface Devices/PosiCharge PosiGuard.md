@@ -42,6 +42,9 @@ madeBy:
 offeredWith:
   - "[[PosiCharge PosiLink]]"
   - "[[PosiCharge PosiConnect]]"
+applies:
+  - "[[PosiGuard - Support Local Service Configuration]]"
+  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
 ---
 
 # PosiCharge PosiGuard
