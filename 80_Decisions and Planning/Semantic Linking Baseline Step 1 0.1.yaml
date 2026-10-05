@@ -1,0 +1,134 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 1
+status: "Complete"
+title: "Semantic linking baseline"
+
+baseline_definition:
+  model_head: "24a1cfb4ed683b2cba654d8d59dfbae26814ea8d"
+  model_head_description: "Final commit of the completed 100-step PosiBattery Architecture Improvement Plan."
+  linking_plan_commit: "0c232dadac6473b4cc758d5bfbbdf301a9e01192"
+  linking_plan_semantic_model_change: false
+  rule: "All improvements in the semantic-linking program are measured against this frozen state unless a later step explicitly rebaselines."
+
+runtime:
+  mdse_release: "0.8.1"
+  modeling_ruleset: "1.23"
+  workbench: "0.1.17"
+  bootstrap: "0.3.1"
+  relationships_schema: "1.36"
+  element_types_schema: "1.18"
+  local_model_schema: "0.2"
+
+final_roadmap_state:
+  architecture_improvement_steps_complete: 100
+  architecture_improvement_steps_total: 100
+  authoritative_handoff: "99_System/10_Docs/PosiBattery Runtime Handoff State.md"
+  evidence: "80_Decisions and Planning/Authoritative Handoff Step 100 0.1.yaml"
+
+validation_sources:
+  vault_audit:
+    workflow_run: 37385743780
+    job_id: 112018457299
+    head: "24a1cfb4"
+    result: "success"
+  workbench_model_review:
+    workflow_run: 37385744231
+    job_id: 112018458635
+    head: "24a1cfb4"
+    result: "success"
+
+structural_baseline:
+  markdown_files: 1126
+  model_notes: 945
+  statuses:
+    Draft: 945
+  broken_wikilinks: 0
+  ambiguous_wikilinks: 0
+  paths_over_212_chars: 0
+  identity_validation: "PASS"
+  note_name_alias_check: "PASS"
+
+model_notes_by_type:
+  Actor: 11
+  Design: 118
+  Document: 8
+  Function: 129
+  Info: 197
+  Item_Flow: 2
+  Object: 424
+  Port: 2
+  Requirement: 6
+  Use_Case: 42
+  Verification: 6
+
+relationship_baseline:
+  governed_relationship_fields: 98
+  relationship_assertions: 5987
+  uncontrolled_relationship_fields: 0
+  deprecated_relationship_fields: 0
+  unresolved_targets: 0
+  ambiguous_targets: 0
+  endpoint_incompatible: 0
+  missing_inverses: 0
+  provisional_relationships: 0
+  temporary_relationships: 0
+  findings: 0
+  result: "PASS"
+
+traceability_and_orphan_baseline:
+  semantic_relationship_assertions_plus_local_model_definition_uses: 5996
+  product_development_focus_notes: 301
+  isolated_model_elements: 2
+  isolated_product_development_focus_elements: 0
+  weak_traceability_findings: 221
+  focus_weak_traceability_findings: 221
+  weak_by_type:
+    Design: 138
+    Function: 81
+    Requirement: 2
+    Use_Case: 0
+    Verification: 0
+  isolated_elements:
+    - "20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md"
+    - "20_Product Architecture/PosiCharge BMID Product Context.md"
+
+provenance_baseline:
+  curated_source_records: 8
+  source_records_missing_structured_provenance: 8
+  source_records_missing_body_provenance: 0
+  source_records_unknown_original_access_date: 8
+  evidence_signal_notes: 740
+  evidence_signal_notes_without_curated_link: 620
+  evidence_signal_notes_with_curated_link: 120
+
+dependency_baseline:
+  dependency_pairs_checked: 42
+  strong_pairs_with_unreviewed_gap: 0
+  result: "PASS"
+
+workbench_baseline:
+  workbench_version: "0.1.17"
+  model_notes: 945
+  relationship_assertions: 5987
+  unresolved_relationship_links: 0
+  local_model_regions: 1
+  local_model_records: 11
+  representative_views_passed: "5/5"
+  blocking_findings: 0
+  review_findings: 1
+  known_review_finding: "BMID Product Assembly Local Model is owned by an Info context note while the Workbench Internal profile starts only from Object."
+  result: "PASS WITH DOCUMENTED INTERACTION LIMITATION"
+
+baseline_interpretation:
+  - "The semantic-linking program begins from a structurally clean vault with zero governed relationship integrity findings."
+  - "The principal measurable improvement queue is semantic completeness: 221 weak-traceability findings, 2 isolated framing/context notes, and 620 evidence-signal notes without a detected curated evidence relationship."
+  - "Zero isolated product-development focus elements does not mean end-to-end linking is complete; Step 2 onward will define a stricter element-by-element completeness contract."
+  - "Reference/catalog content is not presumed defective merely because it is sparse."
+  - "No relationship should be added solely to improve these counts."
+
+next_step:
+  step: 2
+  title: "Define element-by-element linking expectations"
