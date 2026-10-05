@@ -15,6 +15,8 @@ drivenBy:
   - "[[Inspect Battery Condition Through a BMID]]"
 satisfiedBy:
   - "[[Report Battery Temperature to Charger]]"
+verifiedBy:
+  - "[[Verify BMID Battery Condition Information Delivery]]"
 ---
 
 # BMID - Provide Supported Battery Condition Information to Charger
