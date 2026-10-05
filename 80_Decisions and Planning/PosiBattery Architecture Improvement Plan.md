@@ -4690,6 +4690,7 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 69 | 2026-10-05 | Complete | Reviewed all 48 reusable-reference notes for source-specific research extraction; found zero notes requiring relocation to Research and Evidence. Added an explicit definition-vs-research maintenance boundary and deferred unrelated methodology-placement questions. Evidence: `Definition Research Boundary Review Step 69 0.1.yaml`. |
 | 70 | 2026-10-05 | Complete | Restored evidence separation as an explicit operational rule across Definitions and Research: external evidence stays in Source Document/Research records, reusable definitions link to it when needed, and no unsupported extraction/migration was performed because Step 69 found zero candidates. Evidence: `Evidence Separation Validation Step 70 0.1.yaml`. |
 | 71 | 2026-10-05 | Complete | Reviewed all 45 Property definition notes against the active relationship/element schemas and governance. Found 0 exact duplicate properties and 0 confirmed aliases, but documented 11 placeholder-meaning properties, 3 direct documentation conflicts, and 6 proposal-to-runtime relationship-vocabulary drift topics for later schema reconciliation. No property meanings or schemas were changed. Evidence: `Property Definition Quality Inventory Step 71 0.1.yaml`. |
+| 72 | 2026-10-05 | Complete | Improved reusable-reference navigation around the content that actually exists: added a semantic Properties guide for 45 controlled definitions, enhanced recursive Base columns, expanded the curated Canvas to schema/evidence boundaries, and deliberately avoided empty Technologies/Protocols/Units/Interfaces scaffolding. No model semantics or schemas changed. Evidence: `Reusable Reference Navigation Improvement Step 72 0.1.yaml`. |
 
 ---
 
@@ -4734,3 +4735,25 @@ Evidence: `80_Decisions and Planning/Property Definition Quality Inventory Step 
 **Commit:** `f7fb52aa`.
 
 **Result:** Step 71 complete. The next incomplete roadmap item is **Step 72 — Improve reusable-reference navigation**.
+
+---
+
+## Step 72 completion evidence — Improve reusable-reference navigation
+
+**Date:** 2026-10-05
+
+Improved reusable-reference navigation without creating speculative folder structure.
+
+The `Definitions/Properties` area now has a dedicated `README_Properties.md` that groups the 45 controlled Property definitions by semantic purpose and highlights the important boundaries between similar predicates. The existing `Property Dictionary.base` remains the exhaustive inventory rather than being overloaded with explanatory prose.
+
+The reusable-reference root README and Definitions README now direct users to the semantic guide first and the exhaustive Base when needed. The recursive Base now exposes Property-specific columns (`property`, `usedOn`, and `required`) in addition to general note metadata.
+
+The curated Canvas was expanded from three nodes to six, showing the reusable-reference domain, Definitions, Property guidance, Property Dictionary, the active relationship schema, and the Research/Evidence boundary. It remains a map rather than an exhaustive inventory.
+
+No empty Technologies, Protocols, Units, Interfaces, Abbreviations, or Reference Architecture folders were created because the current vault does not contain enough real reusable content to justify them. This preserves the no-empty-scaffolding rule.
+
+No Property semantics, runtime schemas, model relationships, IDs, or UIDs changed.
+
+Evidence: `80_Decisions and Planning/Reusable Reference Navigation Improvement Step 72 0.1.yaml`.
+
+**Result:** Step 72 complete. Phase K is complete. The next incomplete roadmap item is **Step 73 — Complete field reconciliation**.
