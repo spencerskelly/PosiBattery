@@ -15,6 +15,7 @@ performedBy:
   - "[[Oshkosh AeroTech Powered Handrail with Distance Sensor]]"
 realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Inhibit Drive Until Equipment Is Stowed
