@@ -6,6 +6,8 @@ uid: 20261005023600001skellyspencer
 status: Draft
 tags:
   - operational-context
+supertypeOf:
+  - "[[Aircraft Service Envelope]]"
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
