@@ -4236,6 +4236,8 @@ No operational Use Case model notes or semantic relationships were created in th
 
 Evidence commit: `e8c5ea4b`.
 
+Validation run `37291839092` remained at the established **19 broken wikilinks**, with **0 frontmatter parse errors**, **0 duplicate IDs**, and **0 duplicate UIDs**. No new structural regression was introduced.
+
 **Result:** Step 58 complete.
 
 ---
