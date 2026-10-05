@@ -117,3 +117,14 @@ conclusion: "Organization navigation now exposes meaningful ecosystem entry poin
 
 next_step:
   step: 68
+
+audit_validation:
+  workflow_run: 37337866919
+  commit: "d8346e0455db9a9af715414c7a132ff193ef2ef2"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 67 introduced no new structural regression."
