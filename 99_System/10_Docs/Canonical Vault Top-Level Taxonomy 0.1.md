@@ -12,9 +12,9 @@ related_backlog:
 
 ## Purpose
 
-This document defines the target top-level information architecture for the PosiBattery vault. It provides a product-first numbered order for predictable alphabetical navigation while preserving reusable concepts, evidence traceability, and relationship-first modeling.
+This document defines the authoritative vault-level information architecture for the PosiBattery vault. It provides a product-first numbered order for predictable alphabetical navigation while preserving reusable concepts, evidence traceability, and relationship-first modeling.
 
-This is a target taxonomy, not an authorization to move, rename, or delete existing content. Content migration requires an inventory, an approved mapping, controlled batches, and integrity checks.
+The numbered root taxonomy is authoritative for where new stable PosiBattery knowledge is organized and for the destination of future migration work. Existing transitional folders remain valid migration sources until their controlled migration step is completed. This authority does not itself authorize bulk moves, renames, merges, or deletions; those actions still require inventory, mapping, controlled batches, and integrity checks.
 
 ## Governing principles
 
@@ -27,7 +27,7 @@ This is a target taxonomy, not an authorization to move, rename, or delete exist
 - Separate evidence from model claims. Evidence supports, contradicts, or qualifies claims and relationships; it is not silently converted into fact.
 - Keep the model useful at multiple levels of abstraction: business, stakeholder, use, product, system, architecture, component, and implementation.
 
-## Canonical top-level folders
+## Authoritative top-level folders
 
 | Folder | Primary purpose | Canonical content examples |
 | --- | --- | --- |
@@ -97,4 +97,4 @@ The following are intentionally deferred until the related backlog work is compl
 
 | Version | Date | Change |
 | --- | --- | --- |
-| 0.1 | 2026-10-04 | Initial product-first numbered taxonomy, evidence separation, scope rules, and non-destructive migration principles |
+| 0.1 | 2026-10-04 | Initial product-first numbered taxonomy, evidence separation, scope rules, and non-destructive migration principles; later established by the PosiBattery improvement roadmap as the authoritative vault-level architecture. |
