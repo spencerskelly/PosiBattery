@@ -1,0 +1,76 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 97
+status: "Complete"
+title: "Orphan and weak-traceability reporting"
+
+implementation:
+  reporter: "99_System/09_Tools/report-traceability.py"
+  reporter_added_commit: "adafd35f"
+  audit_integration_commit: "d8313cab"
+  logging_breakdown_commit: "cdcf7fe8"
+  local_model_context_fix_commit: "907351eb"
+  behavior: "Report-only; findings do not fail the build."
+
+method:
+  orphan_definition: "No resolved governed note-level relationship assertion incoming or outgoing, after counting governed Local Model definition usage as contextual connectivity."
+  weak_traceability_definition: "Selected element classes lack at least one relationship from a high-value alternative set."
+  product_development_focus_types:
+    - "Use Case"
+    - "Requirement"
+    - "Function"
+    - "Design"
+    - "Verification"
+  policy:
+    - "Folder placement, body wikilinks, and raw URLs do not substitute for semantic relationships."
+    - "Local Model definition references count as contextual usage so reusable Port/Object/Item Flow definitions are not mislabeled as orphaned."
+    - "Findings are review prompts, not automatic defects."
+    - "No relationships are created merely to reduce counts."
+
+validation:
+  workflow_run: 37383696085
+  job_id: 112011666620
+  head_commit: "907351eb"
+  reporter_step: "success"
+  model_notes: 945
+  semantic_relationship_assertions_and_local_model_definition_uses: 5996
+  isolated_model_elements: 2
+  product_development_focus_notes: 301
+  isolated_focus_elements: 0
+  weak_traceability_findings: 221
+  focus_weak_traceability_findings: 221
+
+isolated_elements:
+  - "20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md"
+  - "20_Product Architecture/PosiCharge BMID Product Context.md"
+interpretation_of_isolated_elements:
+  - "Both are Phase M framing/context Info notes with extensive body links but no governed semantic relationship fields."
+  - "They remain visible review findings; Step 97 does not invent describes/includes/other relationships solely to remove the orphan flag."
+
+weak_traceability_breakdown:
+  Design:
+    total: 138
+    missing_behavior_or_requirement_trace: 116
+    missing_design_ownership_or_context: 22
+  Function:
+    total: 81
+    missing_intent_or_implementation_trace: 55
+    missing_performer_or_product_context: 26
+  Requirement:
+    total: 2
+    missing_satisfaction_path: 2
+  Use_Case:
+    total: 0
+  Verification:
+    total: 0
+
+priority_interpretation:
+  - "No Use Case, Requirement, Function, Design, or Verification note is fully isolated."
+  - "The two Requirement satisfaction gaps align with the known BMID requirement/function gaps preserved in earlier traceability work."
+  - "The largest improvement opportunity is Design-to-behavior/requirement traceability, followed by Function intent/implementation traceability."
+  - "Because much of the vault is a market/reference catalog, weak links should be prioritized by product-development value rather than bulk-filled."
+
+next_step:
+  step: 98
+  title: "Review navigation coverage"
