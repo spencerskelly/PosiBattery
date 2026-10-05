@@ -9,20 +9,44 @@ function_notes_changed: 0
 scope:
   total_function_notes: 129
   all_function_names_reviewed: true
-  direct_note_relationship_samples: 60
-  note: "All 129 functions were reviewed for naming/scope from the complete tree. Sixty representative notes, including concrete functions and likely hierarchy roots, were directly inspected for relationship/evidence patterns."
+  all_function_notes_directly_inspected: true
+  relationship_fields_reviewed: ["subtypeOf","supertypeOf","performedBy","describedBy","satisfies"]
+  evidence_signal_reviewed: "direct source URLs in note body"
 
 summary:
-  dominant_pattern: "Concrete, source-backed behaviors frequently subtype broader reusable function families and carry performedBy links to multiple products."
-  hierarchy_pattern: "Broad organizing functions commonly have supertypeOf children and no direct performers, which is coherent for reusable function taxonomy."
+  concrete_leaf_functions_with_parent: 103
+  hierarchy_organizers_with_children: 20
+  isolated_functions_without_parent_or_children: 6
+  functions_with_direct_performers: 103
+  functions_without_direct_performers: 26
+  functions_with_direct_source_urls: 103
+  functions_without_direct_source_urls: 26
+  functions_with_satisfies_relationship: 0
+  dominant_pattern: "Concrete source-backed behaviors subtype broader reusable function families and carry performedBy links to products."
+  hierarchy_pattern: "Broad organizing functions have supertypeOf children and generally no direct performers or source URLs, which is coherent."
   primary_quality_risks:
-    - "Some broad umbrella functions have no children despite names implying decomposition."
+    - "Six broad umbrella functions are isolated from the current hierarchy."
     - "Several near-duplicate or overlapping behavior names require semantic review before consolidation."
-    - "Evidence and performer traceability is strong on many concrete functions but sparse/absent on general organizing functions by design."
-    - "Requirement satisfaction is largely absent from the sampled function population."
-    - "Function categories are currently flat in folder navigation despite meaningful semantic clusters."
+    - "No Function currently carries a satisfies relationship to a Requirement."
+    - "Function categories are flat in folder navigation despite meaningful semantic clusters."
 
 observed_hierarchy_roots:
+  - name: "Hold or Stop Vehicle Automatically"
+    observed_children: 7
+    direct_performers: 0
+    interpretation: "coherent reusable parent"
+  - name: "Inform Operator of Truck Condition"
+    observed_children: 2
+    direct_performers: 0
+    interpretation: "coherent reusable parent"
+  - name: "Limit Vehicle Speed Automatically"
+    observed_children: 6
+    direct_performers: 0
+    interpretation: "coherent reusable parent"
+  - name: "Reduce Operator Effort"
+    observed_children: 4
+    direct_performers: 0
+    interpretation: "coherent reusable parent"
   - name: "Charge Battery"
     observed_children: 7
     direct_performers: 0
