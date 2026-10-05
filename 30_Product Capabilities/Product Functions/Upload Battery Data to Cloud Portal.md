@@ -37,6 +37,7 @@ performedBy:
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+  - "[[Review BMID Battery History and Exceptions]]"
   - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
