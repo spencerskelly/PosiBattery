@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Performance Metrics")
+    - file.inFolder("30_Product Capabilities/Performance Metrics")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
