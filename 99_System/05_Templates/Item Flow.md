@@ -14,6 +14,4 @@ subtypeOf: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
