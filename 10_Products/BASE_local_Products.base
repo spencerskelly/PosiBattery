@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Products"
+    - file.folder == "10_Products"
 views:
   - type: table
     name: Local contents
