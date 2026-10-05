@@ -9,6 +9,7 @@ For a normal engineering vault, read these before creating, moving, or editing m
 3. `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
 4. `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
 5. the runtime schemas under `99_System/03_Schemas/`
+6. if active architecture work is underway, `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
 
 The essentials:
 
