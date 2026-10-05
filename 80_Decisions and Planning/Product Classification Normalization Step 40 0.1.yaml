@@ -1,0 +1,64 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 40
+purpose: "Execution record for unambiguous product-classification normalization."
+structure_changed: true
+identity_preserved: true
+
+summary:
+  notes_moved: 26
+  forklift_architecture_notes_moved: 13
+  gse_architecture_notes_moved: 13
+  product_notes_reclassified_or_merged: 0
+  ambiguous_series_or_variant_cases_changed: 0
+
+moves:
+  - source_group: "10_Products/Forklifts/Truck Anatomy"
+    destination_group: "20_Product Architecture/Industrial Truck Architecture"
+    files: 13
+    method: "Exact Git blobs moved; note content unchanged."
+  - source_group: "10_Products/Ground Support Equipment/GSE Anatomy"
+    destination_group: "20_Product Architecture/Ground Support Equipment Architecture"
+    files: 13
+    method: "Exact Git blobs moved; note content unchanged."
+
+identity_and_relationship_preservation:
+  - "All moved files reuse their original Git blob SHA, so note frontmatter and body content are byte-identical."
+  - "IDs and UIDs are unchanged."
+  - "Governed hasPart/partOf, subtypeOf/supertypeOf, performs, hasDesign, describedBy, and other relationships embedded in the notes are unchanged."
+  - "No duplicate copy remains at the old product paths."
+  - "No path-qualified repository references to the old folders were found before migration."
+  - "Basename wikilinks remain valid because note names were not changed."
+
+navigation:
+  product_architecture_readme:
+    change: "Added curated links to Industrial Truck Anatomy and GSE Vehicle Anatomy as canonical reusable architecture sets."
+  products_readme:
+    change: "Added product-context links back to the canonical architecture sets instead of duplicating definitions."
+  lower_level_navigation_files_added: false
+  rationale: "Each architecture set contains 13 notes; dedicated lower-level README/Base/Canvas scaffolding is not yet necessary."
+
+deferred:
+  - "Commercial family/series versus specific-offering questions remain unchanged for Step 41 review."
+  - "PosiCharge BMID identity overlaps remain unresolved and unchanged."
+  - "Phase G will further classify architecture knowledge beginning at Step 43."
+
+validation:
+  workflow_run: 37270616500
+  markdown_files: 1079
+  model_notes: 905
+  broken_wikilinks: 19
+  ambiguous_wikilinks: 0
+  unresolved_relationship_targets: 0
+  missing_relationship_inverses: 0
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  malformed_or_missing_ids: 0
+  malformed_or_missing_uids: 0
+  missing_governed_core_properties: 0
+  deprecated_properties: 0
+  paths_over_212_chars: 0
+
+result: "The 26 unambiguous reusable vehicle-architecture concepts are now canonical under 20_Product Architecture; no ambiguous product classifications were normalized."
