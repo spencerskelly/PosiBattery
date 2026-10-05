@@ -2464,6 +2464,117 @@ Later work still needs to:
 
 ---
 
+## Step 28 completion evidence — Complete post-migration audit
+
+**Date:** 2026-10-04
+
+A complete post-migration audit was performed after eliminating the three legacy root research islands.
+
+### Root verification
+
+The following legacy roots are now absent:
+
+- `_Cost Driver Research`
+- `_EMS Research`
+- `_Power Conversion Research`
+
+The repository root now contains the numbered canonical domains, system/configuration folders, and the intentionally temporary `Downloads` area.
+
+### Destination verification
+
+Canonical destinations were verified:
+
+- `70_Research and Evidence/Research/Cost Drivers`
+  - 12 migrated research notes
+  - 1 orientation README
+
+- `70_Research and Evidence/Research/EMS`
+  - 4 migrated research/support notes
+  - 1 orientation README
+
+- `70_Research and Evidence/Research/Power Conversion`
+  - 4 migrated research notes
+  - 1 orientation README
+
+All 20 migrated source notes retained their original Git blob identities during migration.
+
+### Audit record
+
+Created:
+
+`80_Decisions and Planning/Research Island Post-Migration Audit 0.1.md`
+
+The report captures:
+
+- root cleanup;
+- destination counts;
+- navigation verification;
+- structural audit results;
+- broken-link comparison;
+- semantic-preservation safeguards;
+- remaining evidence debt.
+
+### Structural audit
+
+GitHub Actions run `37266738979` on commit `66c170e3` completed the final Step 28 audit.
+
+Results:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The Markdown count increased by one because the Step 28 audit report was intentionally added.
+
+### Broken-link comparison
+
+The repository had **19 broken wikilinks before the Phase D migration moves** and has **19 after all three migrations**.
+
+None of the remaining broken links points into:
+
+- a removed legacy research root;
+- Cost Drivers;
+- EMS Research;
+- Power Conversion Research.
+
+Therefore Phase D introduced **zero new broken wikilinks**.
+
+The remaining 19 links are pre-existing documentation-link defects, primarily path-qualified governance/schema links plus one stale Customer Needs README link in `Research Change and Decision Tracker.md`.
+
+### Phase D result
+
+Phase D successfully:
+
+- removed 3 legacy research islands;
+- migrated 20 original research/support notes;
+- preserved all migrated source content;
+- added 3 useful subgroup READMEs;
+- introduced 0 identity defects;
+- introduced 0 relationship/inverse defects;
+- introduced 0 new broken links;
+- consolidated this research under `70_Research and Evidence/Research`.
+
+The vault root is materially closer to the canonical numbered taxonomy.
+
+### Commit
+
+- `66c170e3` — add complete research-island post-migration audit
+
+**Result:** Step 28 complete. Phase D is complete and the vault is ready for Phase E evidence-layer cleanup.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2490,3 +2601,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 25 | 2026-10-04 | Complete | Migrated all 12 cost-driver research notes unchanged into `70_Research and Evidence/Research/Cost Drivers`, added one useful subgroup README, updated Research navigation and machine inventories, eliminated the legacy root island, and kept the structural audit stable at 19 broken wikilinks. |
 | 26 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_EMS Research` notes unchanged into `70_Research and Evidence/Research/EMS`, preserved unresolved verification/source needs, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
 | 27 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_Power Conversion Research` notes unchanged into `70_Research and Evidence/Research/Power Conversion`, preserved unverified design reasoning with explicit evidence warnings, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
+| 28 | 2026-10-04 | Complete | Completed the full post-migration audit: all three legacy research roots are gone, 20 original notes are preserved under canonical Research subgroups, no new broken links or relationship defects were introduced, and the root is materially closer to the canonical taxonomy. |
