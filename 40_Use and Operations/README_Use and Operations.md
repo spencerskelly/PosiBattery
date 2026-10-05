@@ -35,9 +35,28 @@ Examples include:
 
 ## Current maturity
 
-This domain is intentionally sparse today. Existing customer-need Use Cases in [[README_Customer Needs|Customer Needs]] represent desired outcomes rather than operational scenarios and should not be copied here merely to populate this folder.
+The operational model is now being built from evidence-backed actor goals and contexts. Existing customer-need Use Cases in [[README_Customer Needs|Customer Needs]] remain desired outcomes and should not be copied here merely to populate this folder.
 
-Create operational-model content only when evidence or product-development work supports it.
+### Current operating contexts
+
+Use these as reusable scenario context rather than duplicating environment language inside every Use Case:
+
+- [[Material-Handling Fleet Site]]
+- [[Airport Ground-Support Operating Area]]
+  - [[Aircraft Service Envelope]]
+- [[Centralized Battery Room and Charging Area]]
+- [[Distributed and Opportunity Charging Area]]
+- [[Shared Vehicle and Pedestrian Work Area]]
+- [[Cold Storage Operating Environment]]
+- [[Wet Dusty or Outdoor Operating Environment]]
+
+These notes describe where scenarios occur. They do not replace product Functions such as cold-storage operation, charging, proximity detection, or automatic stopping.
+
+### Reused surrounding systems and equipment
+
+Operational Use Cases should link to existing canonical Objects and products rather than creating duplicate context copies. Common surrounding elements already modeled include [[Industrial Battery Charger]], [[Industrial Traction Battery]], [[Ground Support Equipment]], forklift product classes, battery-monitoring devices, vehicle architecture elements, and fleet/cloud software products.
+
+Facility electrical service, utility/grid connection, building ventilation, racks, aircraft, and other infrastructure should be added as reusable Objects only when the model needs explicit relationships or requirements for them and the intended scope is clear.
 
 ## Navigation
 
