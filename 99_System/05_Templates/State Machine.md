@@ -14,6 +14,4 @@ hasState: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
