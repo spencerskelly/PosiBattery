@@ -1,0 +1,94 @@
+schemaVersion: '1.36'
+date: '2026-10-05'
+basis: relationships.yaml 1.35 + PosiBattery reconciliation Steps 73-77
+storage: "Named forward/owner-side YAML fields remain canonical. Inverse fields are derivative and synchronized. No parallel relationships[] store."
+paired:
+  - {forward: subtypeOf, inverse: supertypeOf, from: any, to: any, sameClass: true}
+  - {forward: hasPart, inverse: partOf, from: [Object], to: [Object]}
+  - {forward: hasPort, inverse: portOf, from: any, to: [Port]}
+  - {forward: hasFlow, inverse: flowOf, from: [Port], to: [Item Flow]}
+  - {forward: exposes, inverse: exposedBy, from: [Port], to: [Port]}
+  - {forward: hasChild, inverse: childOf, from: any, to: any, excludePairs: [[Object, Object], [Object, State], [Object, State Machine], [State Machine, State]]}
+  - {forward: hasState, inverse: stateOf, from: [Object, State Machine], to: [State, State Machine], excludePairs: [[State Machine, State Machine]]}
+  - {forward: includes, inverse: includedIn, from: any, to: any}
+  - {forward: copyOf, inverse: hasCopy, from: any, to: any, sameClass: true}
+  - {forward: dependsOn, inverse: dependencyOf, from: any, to: any}
+  - {forward: derivedFrom, inverse: derivedBy, from: [Requirement], to: [Requirement]}
+  - {forward: refines, inverse: refinedBy, from: [Requirement], to: [Requirement]}
+  - {forward: drives, inverse: drivenBy, from: any, to: any}
+  - {forward: references, inverse: referencedBy, from: [Requirement], to: [Requirement, Document]}
+  - {forward: precedes, inverse: follows, from: any, to: any, sameClass: true}
+  - {forward: triggeredBy, inverse: triggers, from: [Function, Design, State], to: [Function, Design, State, Item Flow]}
+  - {forward: supersedes, inverse: supersededBy, from: any, to: any, sameClass: true}
+  - {forward: describes, inverse: describedBy, from: [Info, Artifact, Document], to: any}
+  - {forward: tracesTo, inverse: tracesFrom, from: any, to: any, provisional: true}
+  - {forward: performs, inverse: performedBy, from: [Object], to: [Function]}
+  - {forward: hasDesign, inverse: designOf, from: [Object, Document], to: [Design], canonicalFrom: [Object]}
+  - {forward: appliesTo, inverse: applies, from: [Requirement, Design, Info], to: any}
+  - {forward: satisfies, inverse: satisfiedBy, from: [Function, Design, Object, Result], to: [Requirement, Use Case]}
+  - {forward: verifies, inverse: verifiedBy, from: [Verification, Result], to: [Requirement, Function, Design, Info]}
+  - {forward: realizedBy, inverse: realizes, from: [Use Case, Function], to: [Function, Design]}
+  - {forward: optionOf, inverse: hasOption, from: [Use Case], to: [Use Case]}
+  - {forward: affects, inverse: affectedBy, from: [Issue, Failure Mode, Use Case], to: any}
+  - {forward: hasNeed, inverse: needOf, from: [Actor, Organization], to: [Use Case]}
+  - {forward: arisesIn, inverse: givesRiseTo, from: [Use Case], to: [Use Case, Procedure, Setup]}
+  - {forward: measures, inverse: measuredBy, from: [Info, Verification], to: any}
+  - {forward: supports, inverse: supportedBy, from: [Document, Info, Result], to: any}
+  - {forward: contradicts, inverse: contradictedBy, from: [Document, Info, Result], to: any}
+
+  - {forward: playsRole, inverse: rolePlayedBy, from: [Organization, Info], to: [Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: makes, inverse: madeBy, from: [Organization, Info], to: [Object], legacyInfoOrganizationEndpoint: true}
+  - {forward: offers, inverse: offeredBy, from: [Organization, Info], to: [Object], legacyInfoOrganizationEndpoint: true}
+  - {forward: supplierOf, inverse: suppliedBy, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: distributedBy, inverse: distributorOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: subsidiaryOf, inverse: parentOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: successorOf, inverse: predecessorOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: privateLabelFor, inverse: privateLabelledBy, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: poweredBy, inverse: powers, from: [Object], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {forward: rebrandOf, inverse: rebrandedAs, from: [Object], to: [Object]}
+
+temporaryPairs:
+  - forward: hasClassifier
+    inverse: classifierOf
+    from: [Port, Object]
+    to: [Object, Item Flow]
+    temporary: true
+
+symmetric:
+  - {field: conflictsWith, between: any}
+  - {field: interfaces, between: [Port]}
+  - {field: equals, between: [Port], temporary: true}
+  - {field: partnerOf, between: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+  - {field: integratesWith, between: [Organization, Info, Object], legacyInfoOrganizationEndpoint: true}
+  - {field: offeredWith, between: [Object]}
+
+oneWay:
+  - {field: participants, from: [Use Case], to: [Object, Actor, Organization, Function, Port, Document]}
+  - {field: transmits, from: [Port], to: [Item Flow]}
+  - {field: receives, from: [Port], to: [Item Flow]}
+  - {field: exchanges, from: [Port], to: [Item Flow]}
+  - {field: initialState, from: [State Machine], to: [State]}
+  - {field: finalState, from: [State Machine], to: [State]}
+
+semanticConstraints:
+  hasNeed: "Use Case target is a Customer Need represented by subtype why."
+  arisesIn: "Normally authored from a Customer Need Use Case to an operational use/context/workflow."
+  measures: "Info source is a governed measure definition when measureClass is adopted."
+  supports: "The source is evidence for the target; source identity/provenance must be preserved."
+  contradicts: "The source materially conflicts with the target; record rationale and uncertainty."
+  satisfies: "Use Case target must be a Customer Need when used; Object/Result satisfaction requires evidence of fulfillment."
+  realizedBy: "Use Case to Function/Design expresses realization of external intent; Function to Design expresses implementation."
+  verifies: "Info target must be a governed measure definition when used as a verification target."
+  appliesTo: "Specific semantic applicability; do not duplicate in scope metadata."
+  playsRole: "Info target is a reusable business-role definition."
+  successorOf: "Corporate/business lineage; not note lifecycle supersedes."
+  rebrandOf: "Commercial identity/design equivalence; not note copyOf."
+  partnerOf: "Documented partnership, not analyst-inferred competition."
+  integratesWith: "Requires explicit integration/compatibility evidence."
+  offeredWith: "Products are explicitly offered/promoted together."
+
+compatibility:
+  legacyBusinessInfoOrganizations: "Permitted during migration only. Tighten business endpoints to Organization after the organization pilot/migration."
+  offRuleTranslatedLinks: "Review finding, not automatic deletion."
+  existingForwardInversePairs: "Preserve and synchronize during migration."
+  structuredRelationshipRecords: "Not active."
