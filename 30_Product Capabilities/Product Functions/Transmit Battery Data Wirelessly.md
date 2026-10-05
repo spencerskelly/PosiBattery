@@ -40,6 +40,8 @@ performedBy:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!c]]"
+realizes:
+  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 ---
 
 # Transmit Battery Data Wirelessly
