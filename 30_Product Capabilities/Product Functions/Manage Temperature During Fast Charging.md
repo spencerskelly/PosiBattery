@@ -13,6 +13,7 @@ performedBy:
   - "[[PosiCharge Cooling Fan Box]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
+  - "[[Opportunity-Charge a Vehicle During a Work Break]]"
 ---
 
 # Manage Temperature During Fast Charging
