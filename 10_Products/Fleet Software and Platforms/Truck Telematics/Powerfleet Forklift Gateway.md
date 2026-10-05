@@ -22,7 +22,7 @@ hasDesign:
   - "[[Impact Sensor]]"
 madeBy:
   - "[[Powerfleet]]"
-distributedBy:
+offeredBy:
   - "[[Mitsubishi Logisnext Americas]]"
 ---
 
