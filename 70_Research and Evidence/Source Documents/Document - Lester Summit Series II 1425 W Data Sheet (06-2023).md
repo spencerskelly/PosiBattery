@@ -19,11 +19,21 @@ describes:
 
 Lester Summit Series II 1425 W data sheet: models, AC input, DC output, interfaces, environment, safety. Also mentions a product called Sigma.
 
-## Notes
+## Provenance
 
-- **File in the repo:** [[summit-series-ii_1425w_v2_data-sheet_060223.pdf]] (folder Downloads). **Original web address:** <https://www.rjbatt.com.au/media/somkvf25/summit-series-ii_1425w_v2_data-sheet_060223.pdf>. **Format:** 2 pages; created 2023-06-02.
-- **Tier:** T1 manufacturer document (read from the local copy on 2026-10-02). Facts taken from it are cited on the product notes as this note plus the original address.
-- **Checked against other sources:** every difference from earlier vault text is logged in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- **Local artifact:** [[summit-series-ii_1425w_v2_data-sheet_060223.pdf]] in `Downloads`.
+- **Source identity:** Lester Electrical manufacturer data sheet, hosted by RJ Batteries.
+- **Original web address:** <https://www.rjbatt.com.au/media/somkvf25/summit-series-ii_1425w_v2_data-sheet_060223.pdf>.
+- **Document date / revision:** PDF created 2023-06-02; filename/title identify 06-2023.
+- **Evidence tier:** T1 manufacturer document.
+- **Local copy reviewed:** 2026-10-02.
+- **Original web access/download date:** Not recorded in the current vault evidence.
+
+## Traceability
+
+- Governed `describes` relationships in frontmatter identify the modeled subjects this source supports.
+- Differences from earlier vault text are tracked in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- As of the 2026-10-04 provenance review, no direct downstream backlink to this Source Document note name or original URL was verified outside the Source Documents/planning records. This is a traceability gap, not evidence that the source was unused.
 
 ## Aliases
 
