@@ -10,6 +10,12 @@ participants:
   - "[[Forklift Operator]]"
   - "[[GSE Operator]]"
   - "[[Maintenance Technician]]"
+realizedBy:
+  - "[[Estimate State of Charge]]"
+  - "[[Estimate Remaining Run Time]]"
+  - "[[Display Battery Status to Operator]]"
+  - "[[Indicate Battery Status Locally]]"
+  - "[[Alert on Abnormal Condition]]"
 ---
 
 # Start a Shift and Confirm Vehicle Energy Readiness
@@ -23,6 +29,11 @@ Before beginning a shift or mission, the operator checks that the vehicle has su
 - Primary contexts: [[Material-Handling Fleet Site]] and [[Airport Ground-Support Operating Area]].
 - Trigger: an operator prepares a vehicle for a shift or mission.
 - Completion: the operator can determine whether the vehicle is ready for the intended work or needs charging/service.
+
+## Traceability
+
+- Source needs: [[Know Battery State Before and During the Shift]], [[Prevent Battery Abuse and Premature Replacement]].
+- Operating contexts: [[Material-Handling Fleet Site]], [[Airport Ground-Support Operating Area]].
 
 ## Aliases
 
