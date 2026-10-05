@@ -1,0 +1,108 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 59
+purpose: "Apply the Use Case versus Function methodology consistently and identify only clear classification mistakes."
+
+methodology:
+  use_case: "Externally controlled actor goal or interaction with a recognizable trigger and completion outcome."
+  function: "Product-controlled behavior performed by a product, system, subsystem, software element, or accessory."
+  condition_variant: "Environment, deployment mode, fleet state, or other context that modifies a scenario but is not itself an actor goal."
+  design: "Reusable technical solution or implementation approach."
+  rule: "Verb wording alone does not determine the element type."
+
+current_model_review:
+  customer_need_use_cases:
+    count: 22
+    type: "Use Case"
+    subtype: "why"
+    finding: "Consistent with the current methodology: these are desired outcomes / problem hypotheses with participants and realizedBy Function links."
+    operational_status: "They are not operational interaction scenarios and should remain in 50_Customer Needs."
+  operational_use_cases:
+    count: 0
+    folder: "40_Use and Operations"
+    finding: "No existing operational Use Case note can currently be misclassified."
+  functions:
+    count: 129
+    finding: "No Function was found that is clearly an actor-goal Use Case rather than product-controlled behavior."
+
+edge_case_function_review:
+  - function: "Configure Device from Mobile App or PC"
+    classification: "Function"
+    rationale: "Defines product capability to permit configuration/log access; the technician configuration workflow is the Use Case."
+  - function: "Control Charger from Remote Panel"
+    classification: "Function"
+    rationale: "Defines product capability to accept remote start/stop/status control; remote fleet-management interaction is the Use Case."
+  - function: "Connect Battery to Charger or Vehicle"
+    classification: "Function"
+    rationale: "Defines the connection capability provided by connector/cable products; connecting a vehicle or battery to a charger is the Use Case."
+  - function: "Change Battery Quickly"
+    classification: "Function"
+    rationale: "Defines product capability for rapid battery exchange; restoring a low-energy vehicle to service is the actor goal."
+  - function: "Refuel Truck Power Source in Minutes"
+    classification: "Function"
+    rationale: "Defines product energy-restoration capability; refueling/recovering the vehicle is the operational scenario."
+  - function: "Manage Chargers Remotely"
+    classification: "Function"
+    rationale: "Defines remote-management behavior exposed by products; monitoring/managing assets across sites is the actor goal."
+  - function: "Enforce Pre-Shift Checklist"
+    classification: "Function"
+    rationale: "The system enforces completion; the operator's authorization/pre-shift workflow is the Use Case."
+  - function: "Dock Automatically at Aircraft"
+    classification: "Function"
+    rationale: "Automatic guidance is product-controlled behavior within the GSE operator's aircraft-approach Use Case."
+
+clear_classification_mistakes:
+  count: 0
+  changes_made: 0
+
+step_58_candidate_review:
+  accepted_as_use_case_shape:
+    - "Install and Commission Charging Equipment at a Site"
+    - "Retrofit Monitoring or Safety Equipment onto an Existing Vehicle"
+    - "Integrate a Battery with Vehicle and Charger Controls"
+    - "Connect a Vehicle or Battery to a Charger"
+    - "Opportunity-Charge a Vehicle During a Work Break"
+    - "Start a Shift and Confirm Vehicle Energy Readiness"
+    - "Authenticate and Complete Pre-Shift Authorization"
+    - "Operate a Vehicle Through a Shared Pedestrian Area"
+    - "Handle and Position a Load with Operator Assistance"
+    - "Operate a Loaded Vehicle Within Stability Limits"
+    - "Approach and Dock GSE at an Aircraft"
+    - "Inspect and Maintain a Flooded Traction Battery"
+    - "Diagnose a Vehicle or Battery Fault"
+    - "Review an Impact Event and Decide Whether to Return the Vehicle to Service"
+    - "Monitor and Manage Energy Assets Across Sites"
+    - "Review Battery Care and Warranty Compliance"
+  uncertain_or_requires_refinement:
+    - candidate: "Recover a Low-Energy Vehicle to Service"
+      concern: "May be an umbrella Use Case whose charging, battery-exchange, and fuel-cell refueling flows should become variants or included sub-scenarios."
+    - candidate: "Move Safely Through a Vehicle Work Area as a Pedestrian"
+      concern: "Valid actor goal, but inclusion depends on whether pedestrian behavior is inside the intended system-of-interest operational boundary."
+    - candidate: "Configure Charging for a Battery Chemistry and Condition"
+      concern: "Needs separation between actor configuration activity and automatic charge adaptation performed by the product."
+    - candidate: "Plan Battery Service or Replacement from Condition History"
+      concern: "Valid maintenance-management goal, but may fit better as a decision workflow under a broader battery-health management Use Case."
+  treatment: "Do not create or retype these uncertain cases until the next operational-model refinement step resolves scope/decomposition."
+
+scenario_conditions_confirmed_not_use_cases:
+  - "Cold-storage operation"
+  - "Wet, dusty, corrosive, or outdoor operation"
+  - "Battery-room versus distributed/opportunity charging"
+  - "Mixed-chemistry fleet"
+
+guidance_change:
+  file: "40_Use and Operations/README_Use and Operations.md"
+  change: "Added an explicit Use Case versus Function boundary test and examples."
+  semantic_model_changed: false
+
+changes:
+  model_notes_retyped: 0
+  function_notes_changed: 0
+  customer_need_notes_changed: 0
+  operational_use_case_notes_created: 0
+  semantic_relationships_changed: 0
+  navigation_guidance_files_changed: 1
+  evidence_records_created: 1
+
+conclusion: "The current model is classification-consistent. The next operational-model step can create/refine actor-goal scenarios from the Step 58 inventory without reclassifying existing Functions or why-level Customer Needs."
