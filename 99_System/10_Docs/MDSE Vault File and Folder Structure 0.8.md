@@ -122,25 +122,24 @@ Do not copy methodology-workspace-only material into a normal engineering vault 
 
 Model content belongs in meaningful domain-oriented folders at the root or below them.
 
-The current PosiBattery root content areas are:
+For **PosiBattery specifically**, the authoritative vault-level content taxonomy is defined by `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md` and currently uses:
 
 ```text
-Customer Actors/
-Customer Needs/
-Definitions/
-Downloads/
-Organizations/
-Performance Metrics/
-Product Designs/
-Product Functions/
-Products/
-Research/
-Source Documents/
+10_Products/
+20_Product Architecture/
+30_Product Capabilities/
+40_Use and Operations/
+50_Customer Needs/
+60_Stakeholders and Ecosystem/
+70_Research and Evidence/
+80_Decisions and Planning/
+90_Definitions and Reusable Reference/
+99_System/
 ```
 
-These names document the current PosiBattery organization; they are not universal MDSE element classes and do not define semantic relationships.
+This PosiBattery taxonomy is a project-specific navigation contract layered on top of the generic MDSE runtime filesystem contract. It does not define semantic relationships, and it is not a universal folder set that every compatible MDSE vault must reproduce.
 
-When creating a new compatible vault, choose content folders that help humans navigate the model. Do not mechanically reproduce the PosiBattery folder names unless the new vault has the same domain needs.
+When creating a different compatible vault, choose content folders that help humans navigate that model unless its own project-specific governance defines a controlled taxonomy.
 
 ## 5. Folder design rules
 
