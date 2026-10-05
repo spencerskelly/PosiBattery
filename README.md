@@ -1,12 +1,12 @@
 # PosiBattery MDSE Vault
 
-PosiBattery is an engineering vault running the lean MDSE **0.8.0** runtime.
+PosiBattery is an engineering vault running the lean MDSE **0.8.1** runtime.
 
 Runtime:
 - Workbench 0.1.17
 - Bootstrap 0.3.1
-- relationships 1.35
-- element-types 1.17
+- relationships 1.36
+- element-types 1.18
 - Local Model 0.2
 - Modeling Ruleset 1.23
 
@@ -22,7 +22,7 @@ The active incremental architecture-improvement sequence is controlled by:
 
 `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
 
-The current runtime handoff snapshot is in:
+The authoritative current runtime handoff is in:
 
 `99_System/10_Docs/PosiBattery Runtime Handoff State.md`
 
