@@ -38,6 +38,10 @@ Customer need: Keep Equipment Working in Cold, Wet and Dusty Conditions. The pro
   - [[PosiCharge E-Meter]]: Fleet assessment/optimization tool that captures energy and usage data from an existing electric fleet automatically. Public page states it uses a real-time clock to monitor/record vehicle data and generate reports/analysis; it is described as capable of operating in environments including freezers. Source: official PosiCharge page for E-Meter, as summarized in the vault's Public Evidence Register (PUB-014, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/e-meter/>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operating contexts: [[Cold Storage Operating Environment]], [[Wet Dusty or Outdoor Operating Environment]].
+
 ## Aliases
 
 
