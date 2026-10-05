@@ -18,6 +18,8 @@ realizedBy:
   - "[[Upload Battery Data to Cloud Portal]]"
 givesRiseTo:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
+drives:
+  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
 ---
 
 # Integrate a BMID with Charger Vehicle and Fleet Systems
