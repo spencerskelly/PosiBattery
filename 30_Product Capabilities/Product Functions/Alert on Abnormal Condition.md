@@ -37,6 +37,7 @@ performedBy:
   - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
 realizes:
+  - "[[Review BMID Battery History and Exceptions]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
