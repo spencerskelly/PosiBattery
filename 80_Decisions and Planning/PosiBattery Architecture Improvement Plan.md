@@ -4879,3 +4879,30 @@ Evidence: `80_Decisions and Planning/Product Abstract and Definition Step 84 0.1
 **Commit:** `e73c6a8b`.
 
 **Result:** Step 84 complete. The next incomplete roadmap item is **Step 85 — Build Product Use Cases** for the PosiCharge BMID family.
+
+
+---
+
+## Step 85 completion evidence — Build Product Use Cases
+
+**Date:** 2026-10-05
+
+Completed the first product-specific Use Case set for **PosiCharge BMID**.
+
+Five actor-goal Use Cases were added under `40_Use and Operations`:
+
+- `UC-00038` — Charge a BMID-Equipped Battery Using Battery Information
+- `UC-00039` — Inspect Battery Condition Through a BMID
+- `UC-00040` — Review BMID Battery History and Exceptions
+- `UC-00041` — Configure and Service a Supported BMID
+- `UC-00042` — Integrate a BMID with Charger Vehicle and Fleet Systems
+
+The cases are written as external actor goals, not internal Functions. They reuse the generic charging/readiness/warranty workflows already in the vault, and they keep charger power-control authority outside the BMID.
+
+`realizedBy/realizes` inverses were synchronized for the supporting Functions, and the supported customer-need links use the governed `arisesIn/givesRiseTo` pair. The configuration/service case intentionally retains an upstream Customer Need gap because no current need maps cleanly enough to justify a weak inferred relationship.
+
+Evidence: `80_Decisions and Planning/BMID Product Use Cases Step 85 0.1.yaml`.
+
+**Commit:** `338ae8d5`.
+
+**Result:** Step 85 complete. The next incomplete roadmap item is **Step 86 — Build Product Context** for the PosiCharge BMID family.
