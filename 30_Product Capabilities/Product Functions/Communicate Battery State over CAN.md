@@ -23,6 +23,7 @@ performedBy:
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[HOPPECKE trak collect]]"
 realizes:
+  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
