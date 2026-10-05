@@ -40,16 +40,16 @@ The vault intentionally does not contain the methodology workspace's Current Sta
 
 The numbered domain structure is the authoritative vault-level information architecture for PosiBattery. New stable content and future migrations should use these domains:
 
-- `10_Products`
-- `20_Product Architecture`
-- `30_Product Capabilities`
-- `40_Use and Operations`
-- `50_Customer Needs`
-- `60_Stakeholders and Ecosystem`
-- `70_Research and Evidence`
-- `80_Decisions and Planning`
-- `90_Definitions and Reusable Reference`
-- `99_System`
+- [[README_Products|10 Products]]
+- [[README_Product Architecture|20 Product Architecture]]
+- [[README_Product Capabilities|30 Product Capabilities]]
+- [[README_Use and Operations|40 Use and Operations]]
+- [[README_Customer Needs|50 Customer Needs]]
+- [[README_Stakeholders and Ecosystem|60 Stakeholders and Ecosystem]]
+- [[README_Research and Evidence|70 Research and Evidence]]
+- [[README_Decisions and Planning|80 Decisions and Planning]]
+- [[README_Definitions and Reusable Reference|90 Definitions and Reusable Reference]]
+- [[README_System|99 System]]
 
 Existing exceptions do not create competing root taxonomies. Several areas inside these domains are still transitional or pending migration review. In particular, mixed-content folders and the remaining underscore-prefixed research roots are being reconciled through `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
 
