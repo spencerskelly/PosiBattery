@@ -13,6 +13,8 @@ appliesTo:
 drivenBy:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Inspect Battery Condition Through a BMID]]"
+satisfiedBy:
+  - "[[Report Battery Temperature to Charger]]"
 ---
 
 # BMID - Provide Supported Battery Condition Information to Charger
