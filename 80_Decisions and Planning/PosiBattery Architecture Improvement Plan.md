@@ -1348,6 +1348,70 @@ No structural repair was performed in Step 12; this step was validation only.
 
 ---
 
+## Step 13 completion evidence — Products navigation reconciled
+
+**Date:** 2026-10-04
+
+The `10_Products` domain now has one clear primary entry point and a repaired local navigation view.
+
+### Changes
+
+- `10_Products/README_Products.md`
+  - retained as the single primary Products README;
+  - expanded to include the useful placement/context from the retired placeholder;
+  - now links to the canonical taxonomy and active backlog using resolvable note-name links.
+
+- `10_Products/BASE_local_Products.base`
+  - repaired from the stale pre-migration filter `file.folder == "Products"`;
+  - now correctly uses `file.folder == "10_Products"`.
+
+- `10_Products/BASE_all_Products.base`
+  - reviewed and retained unchanged because it already uses `file.inFolder("10_Products")`.
+
+- `10_Products/CANVAS_Products.canvas`
+  - reviewed and retained; its file references already point into `10_Products`.
+
+- `10_Products/README - 10_Products.md`
+  - retired after its useful placement context was incorporated into the canonical README;
+  - it contained no model identity and no unique engineering content.
+
+- `PosiBattery Navigation Artifact Inventory.yaml`
+  - updated to mark the Products duplicate README issue resolved and leave only Customer Needs for Step 14.
+
+### Validation
+
+GitHub Actions run `37257888238` on commit `c2c27bf3` completed the structural audit.
+
+Results:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **26** (improved from 27)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The reduction from 27 to 26 is the expected removal of the broken wikilink that existed only in the retired Products placeholder README. No new structural defects were introduced.
+
+### Commits
+
+- `64e540f0` — consolidate Products primary README
+- `d6954565` — repair local Products Base path
+- `c2c27bf3` — retire duplicate Products README placeholder
+- `8a4097c1` — update navigation artifact inventory
+
+**Result:** Step 13 complete. `10_Products` now has one primary README, valid local/recursive Bases, and an existing curated Canvas with current paths.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1360,4 +1424,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |\n| 8 | 2026-10-04 | Complete | Established the numbered 10–99 PosiBattery root taxonomy as authoritative for vault-level placement and migration destinations, while preserving MDSE schemas/relationships as semantic authority and treating 00–09 as subordinate product-context navigation. Commits `d15bc61f`, `eabfc714`, `063fba7d`, `cf82ab63`, `266c5499`. |
 | 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
 | 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
-| 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |
+| 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |\n| 13 | 2026-10-04 | Complete | Reconciled `10_Products`: consolidated into `README_Products.md`, repaired the local Base path to `10_Products`, retired the duplicate placeholder, retained the valid recursive Base and Canvas, and reduced broken wikilinks from 27 to 26. |
