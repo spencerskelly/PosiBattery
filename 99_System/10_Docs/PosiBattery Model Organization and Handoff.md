@@ -6,13 +6,15 @@ This note tells the next engineer or AI how to continue PosiBattery using the au
 
 The governing runtime remains:
 
-- MDSE release: `0.8.0`
+- MDSE release: `0.8.1`
 - Modeling Ruleset: `1.23`
 - Workbench: `0.1.17`
 - Bootstrap: `0.3.1`
-- relationships schema: `1.35`
-- element-types schema: `1.17`
+- relationships schema: `1.36`
+- element-types schema: `1.18`
 - Local Model schema: `0.2`
+
+For current repository status, quality state, unresolved decisions, and next recommended work, use [[PosiBattery Runtime Handoff State]].
 
 Read first:
 
