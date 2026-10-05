@@ -4692,6 +4692,7 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 71 | 2026-10-05 | Complete | Reviewed all 45 Property definition notes against the active relationship/element schemas and governance. Found 0 exact duplicate properties and 0 confirmed aliases, but documented 11 placeholder-meaning properties, 3 direct documentation conflicts, and 6 proposal-to-runtime relationship-vocabulary drift topics for later schema reconciliation. No property meanings or schemas were changed. Evidence: `Property Definition Quality Inventory Step 71 0.1.yaml`. |
 | 72 | 2026-10-05 | Complete | Improved reusable-reference navigation around the content that actually exists: added a semantic Properties guide for 45 controlled definitions, enhanced recursive Base columns, expanded the curated Canvas to schema/evidence boundaries, and deliberately avoided empty Technologies/Protocols/Units/Interfaces scaffolding. No model semantics or schemas changed. Evidence: `Reusable Reference Navigation Improvement Step 72 0.1.yaml`. |
 | 73 | 2026-10-05 | Complete | Completed field reconciliation between the active MDSE runtime and Common Element Metadata Standard 0.1. Preserved the canonical `uid`/`id`/`type` contract, rejected parallel duplicate fields, redirected relationship-like metadata toward governed relationships, documented 8 direct conflicts, and bounded the remaining intrinsic metadata candidates for Steps 74-77. No schemas/templates/model notes changed. Evidence: `Field Reconciliation Matrix Step 73 0.1.yaml`. |
+| 74 | 2026-10-05 | Complete | Reconciled the formal element-type model. Retained Product as `Object`, Customer Need as `Use Case/why`, Metrics as `Info` plus future measure classification, source/research as `Document`/`Info`, and planning as `Plan`/`Issue`/`Info`; identified `Organization` as the sole high-confidence new formal type candidate. No schema, template, type, ID, UID, or model-note changes were made. Evidence: `Element Type Reconciliation Matrix Step 74 0.1.yaml`. |
 
 ---
 
@@ -4780,3 +4781,25 @@ Evidence: `80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yam
 **Commit:** `7644f5fb`.
 
 **Result:** Step 73 complete. The next incomplete roadmap item is **Step 74 — Element-type reconciliation**.
+
+---
+
+## Step 74 completion evidence — Element-type reconciliation
+
+**Date:** 2026-10-05
+
+Reconciled the product-development knowledge model against the 24 formal runtime element types in `element-types.yaml` 1.17.
+
+The result intentionally avoids type proliferation. Commercial products and product families remain `Object`; the 22 Customer Need records remain the existing `Use Case` subtype `why`; operational roles remain `Actor`; Performance Metrics remain `Info` pending controlled `measure_class`/value semantics; source artifacts remain `Document` while cross-source research synthesis remains `Info`; and decisions/planning continue to use `Plan`, `Issue`, or `Info` according to their actual semantics.
+
+`Organization` is the sole high-confidence new formal type candidate. Step 64 established 73 actual organization identities currently stored as generic `Info`; they have durable identity, aliases, lineage, role, channel, product, and evidence relationships and are semantically distinct from operational `Actor` roles. A proposed `ORG` prefix is recorded for the later schema proposal, but no organization note was retyped in this step.
+
+The existing `Person` and `Property Definition` templates were explicitly kept outside the engineering model-type list: Person currently serves author/settings infrastructure, and Property Definition records define schema vocabulary rather than engineering measured properties.
+
+No runtime schema, template, Property definition, model note, relationship, ID, or UID changed. Any later Organization retyping must preserve existing identity and requires an explicit prefix/ID migration policy before implementation.
+
+Evidence: `80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 0.1.yaml`.
+
+**Commit:** `da3a80fe`.
+
+**Result:** Step 74 complete. The next incomplete roadmap item is **Step 75 — Relationship reconciliation**.
