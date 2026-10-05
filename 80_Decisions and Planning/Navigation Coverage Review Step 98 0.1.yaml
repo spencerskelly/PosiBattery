@@ -1,0 +1,114 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 98
+status: "Complete"
+title: "Navigation coverage review"
+
+scope:
+  primary_domains:
+    - "10_Products"
+    - "20_Product Architecture"
+    - "30_Product Capabilities"
+    - "40_Use and Operations"
+    - "50_Customer Needs"
+    - "60_Stakeholders and Ecosystem"
+    - "70_Research and Evidence"
+    - "80_Decisions and Planning"
+    - "90_Definitions and Reusable Reference"
+    - "99_System"
+  principle: "Provide useful entry points and exhaustive discovery without generating README/Base/Canvas scaffolding for every lower-level folder."
+
+changes:
+  - commit: "b68a169d"
+    change: "Added 99_System/README_System.md as the human entry point for runtime, schema, authoring, tools, and governance content."
+  - commit: "0ef08b79"
+    change: "Changed the authoritative root-domain list in README.md from plain code paths to direct wikilinks to each domain entry point."
+
+primary_domain_result:
+  model_domains_10_through_90:
+    count: 9
+    each_has_readme: true
+    each_has_base_local: true
+    each_has_base_all: true
+    each_has_canvas: true
+  system_domain:
+    entry_point: "99_System/README_System.md"
+    base_canvas_scaffolding_added: false
+    reason: "System is a compact governance/runtime tree rather than a model-content domain; README plus numbered subfolders is the appropriate navigation pattern."
+  root_readme:
+    directly_links_all_primary_domains: true
+
+important_lower_level_areas:
+  Product_Capabilities:
+    areas:
+      - "Performance Metrics"
+      - "Product Designs"
+      - "Product Functions"
+    each_has_readme_base_local_base_all_canvas: true
+  Stakeholders_and_Ecosystem:
+    areas:
+      - "Customer Actors"
+      - "Organizations"
+    each_has_readme_base_local_base_all_canvas: true
+  Research_and_Evidence:
+    areas:
+      - "Research"
+      - "Source Documents"
+    each_has_readme_base_local_base_all_canvas: true
+  Definitions_and_Reusable_Reference:
+    area: "Definitions"
+    has_readme: true
+    additional_scaffolding_required: false
+    reason: "The primary-domain recursive Base already provides exhaustive discovery and the Definitions README routes readers to Properties/Property Dictionary."
+  Products:
+    large_category_folders_have_individual_scaffolding: false
+    navigation_is_sufficient: true
+    mechanism:
+      - "README_Products links semantic category/family entry notes."
+      - "BASE_all_Products.base provides exhaustive recursive product discovery."
+      - "CANVAS_Products provides curated orientation."
+    decision: "Do not create category README/Base/Canvas sets solely because folders are large."
+  Product_Architecture:
+    lower_architecture_sets_have_individual_scaffolding: false
+    navigation_is_sufficient: true
+    mechanism:
+      - "README_Product Architecture directly links Industrial Truck Anatomy and GSE Vehicle Anatomy."
+      - "BASE_all_Product Architecture.base provides recursive inventory."
+    decision: "Do not generate extra scaffolding for the current small architecture branches."
+  Use_and_Operations:
+    structure: "flat"
+    navigation_is_sufficient: true
+  Customer_Needs:
+    structure: "flat"
+    navigation_is_sufficient: true
+  Decisions_and_Planning:
+    structure: "flat planning/evidence record set"
+    navigation_is_sufficient: true
+    mechanism:
+      - "README start-here guidance"
+      - "BASE_local and BASE_all"
+      - "curated Canvas"
+
+validation:
+  workflow_run: 37384291384
+  job_id: 112013633586
+  head_commit: "0ef08b79"
+  identity_validation: "success"
+  relationship_validation: "success"
+  structural_audit: "success"
+  provenance_report: "success"
+  traceability_report: "success"
+  note_name_alias_check: "success"
+  later_strict_dependency_check: "failure outside Step 98 scope"
+  navigation_change_regression: false
+
+conclusion:
+  primary_domain_entry_points_complete: true
+  important_lower_level_navigation_adequate: true
+  excessive_scaffolding_added: false
+  remaining_navigation_work_for_step_98: false
+
+next_step:
+  step: 99
+  title: "Review Workbench behavior on the cleaned model"
