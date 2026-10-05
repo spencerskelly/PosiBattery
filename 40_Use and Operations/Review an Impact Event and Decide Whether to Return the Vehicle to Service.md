@@ -6,10 +6,6 @@ uid: 20261005023700004skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Detect and Record Impacts]]"
-  - "[[Record Images of Load Handling]]"
-  - "[[Lock Out Vehicle After Impact]]"
 participants:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
