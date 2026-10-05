@@ -3960,7 +3960,7 @@ Key findings:
 
 No Function note was moved, renamed, merged, or reparented.
 
-Audit run `37275992225` on corrected inventory commit `f55f4795` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+Latest audit run `37276555622` on finalized inventory commit `3ce812bb` remained stable at 19 known broken wikilinks with all other integrity categories clean.
 
 **Result:** Step 50 complete.
 
