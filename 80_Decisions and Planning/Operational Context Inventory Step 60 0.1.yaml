@@ -1,0 +1,86 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 60
+purpose: "Model clear operating environments, site contexts, surrounding equipment, and external-system context needed to interpret operational scenarios."
+
+method:
+  - "Reviewed current Use and Operations content, Customer Needs, stakeholder actors, representative products, Jobs-to-Be-Done research, and existing architecture/product Objects."
+  - "Reused existing Objects/products where context already exists."
+  - "Created only context notes whose semantics were clear enough to model without inventing unsupported engineering detail."
+
+created_operational_contexts:
+  total: 8
+  notes:
+    - {name: "Material-Handling Fleet Site", type: "Use Case", subtype: "where", id: "UC-00023"}
+    - {name: "Airport Ground-Support Operating Area", type: "Use Case", subtype: "where", id: "UC-00024"}
+    - {name: "Centralized Battery Room and Charging Area", type: "Use Case", subtype: "where", id: "UC-00025"}
+    - {name: "Distributed and Opportunity Charging Area", type: "Use Case", subtype: "where", id: "UC-00026"}
+    - {name: "Shared Vehicle and Pedestrian Work Area", type: "Use Case", subtype: "where", id: "UC-00027"}
+    - {name: "Aircraft Service Envelope", type: "Use Case", subtype: "where", id: "UC-00028"}
+    - {name: "Cold Storage Operating Environment", type: "Use Case", subtype: "where", id: "UC-00029"}
+    - {name: "Wet Dusty or Outdoor Operating Environment", type: "Use Case", subtype: "where", id: "UC-00030"}
+
+context_hierarchy:
+  - child: "Aircraft Service Envelope"
+    parent: "Airport Ground-Support Operating Area"
+    relationship: "subtypeOf / supertypeOf"
+    rationale: "The aircraft service envelope is a stable reusable specialization of the broader airport GSE operating area."
+
+reused_surrounding_equipment_and_systems:
+  - "Industrial Battery Charger"
+  - "Industrial Traction Battery"
+  - "Ground Support Equipment"
+  - "Existing forklift product classes"
+  - "Battery monitoring and identification products"
+  - "Vehicle architecture elements"
+  - "Fleet and cloud software products"
+  rationale: "These already exist as canonical Objects/products and should be linked from scenarios rather than duplicated as context notes."
+
+deferred_external_context_candidates:
+  - candidate: "Facility Electrical Supply / Utility Grid Connection"
+    treatment: "Do not create yet."
+    reason: "Clearly relevant to installation and charging, but voltage/service/distribution scope must be defined before choosing a reusable Object boundary."
+  - candidate: "Building Ventilation System"
+    treatment: "Do not create yet."
+    reason: "Relevant to flooded lead-acid charging, but should be created only when explicit requirements or interfaces need it."
+  - candidate: "Aircraft"
+    treatment: "Do not create a generic Object yet."
+    reason: "Operationally important in GSE scenarios, but product/architecture boundary and desired level of aircraft abstraction remain undefined."
+  - candidate: "Warehouse racks / storage infrastructure"
+    treatment: "Do not create yet."
+    reason: "Contextually relevant to lift/visibility scenarios but not yet required for traceability."
+
+modeling_decisions:
+  - "Use Case subtype where is used for reusable operating/site/environment context."
+  - "Environment contexts constrain scenarios; they do not replace product Functions."
+  - "Existing product and architecture Objects remain authoritative for surrounding equipment."
+  - "Do not create generic external-system Objects until relationships or requirements justify their boundary."
+
+navigation_updates:
+  readme: "40_Use and Operations/README_Use and Operations.md"
+  canvas: "40_Use and Operations/CANVAS_Use and Operations.canvas"
+  canvas_node_count: 8
+  canvas_purpose: "Curated map of operational contexts, not exhaustive inventory."
+
+changes:
+  operational_context_notes_created: 8
+  existing_model_notes_changed: 2
+  semantic_relationship_pairs_added: 1
+  files_moved: 0
+  files_renamed: 0
+  ids_changed: 0
+  uids_changed: 0
+
+commits:
+  context_creation_range:
+    - "64a2222c2e51680dd3721db5816d751ab1470594"
+    - "74bfdaf42e1a4419d4537fbbf5addaf2dd998017"
+  aircraft_context_relationship:
+    - "3c837550fd6c5aebf79dee907dae4ef9454ccf60"
+    - "37a56b487d7633e1046e6dc7884bb5e8e2d977d2"
+  readme: "ffb0de98e83f3ecd27b37ed90ff17600860b26b8"
+  canvas: "c965231ac5c21dad45cb629095b62bf833014fa6"
+
+next_step:
+  step: 61
