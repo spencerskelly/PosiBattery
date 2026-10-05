@@ -3270,6 +3270,81 @@ No product notes were moved or edited in Step 37.
 
 ---
 
+## Step 38 completion evidence — Potential duplicate product identities reviewed
+
+**Date:** 2026-10-04
+
+Product-note identity overlap was reviewed using naming, manufacturer context, relationships, and source evidence. No merges were performed.
+
+### Review created
+
+`80_Decisions and Planning/Product Duplicate Identity Review 0.1.yaml`
+
+### Results
+
+- confirmed duplicate product identities: **0**
+- unresolved identity-overlap groups: **2**
+- reviewed similarity groups resolved as distinct: **5**
+- merge candidates authorized: **0**
+
+### Unresolved identity overlaps
+
+Both unresolved cases are within the PosiCharge BMID family:
+
+1. **PosiCharge BMID 3 ↔ PosiCharge PosiGuard**
+   - overlap is plausible because BMID 3 is user-stated with BLE/CAN options and the BMID 3 note itself records PosiGuard as a possible match;
+   - PosiGuard has authoritative public evidence, but no source proves it is the same marketed identity as BMID 3;
+   - status remains unresolved.
+
+2. **PosiCharge BMID 1 ↔ PosiCharge Battery Rx**
+   - Battery Rx is publicly documented and described as a smart BMID;
+   - BMID 1 is user-stated without an identified public document;
+   - no authoritative source maps Battery Rx to BMID 1;
+   - status remains unresolved.
+
+### Similarity groups confirmed distinct
+
+The review confirms that the following are not duplicates:
+
+- Power Designers PowerTrac 3, DT3, Monitor, and SP+ — separate products with different architectures/use cases;
+- Linde Safety Guard and its Truck/Portable/Static/Zone components — system plus governed component identities;
+- ACT Quantum 2 and Quantum 3 — distinct generations;
+- Green Cubes SAFEFlex Battery and SAFEFlex Charger — different product types;
+- Triathlon battery and charger offerings for UniCarriers — different product types.
+
+Similar Truck Anatomy and GSE Anatomy concept names are not treated as duplicate commercial products; they remain architecture/reuse questions for Step 39 and Phase G.
+
+### Validation
+
+GitHub Actions run `37270048678` on commit `9edb7a42` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No product identities were merged, moved, renamed, or edited in Step 38.
+
+### Commit
+
+- `9edb7a42` — review potential duplicate product identities
+
+**Result:** Step 38 complete. No duplicate product identity is sufficiently supported for merging; two BMID-family mappings remain explicitly unresolved.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3306,3 +3381,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 35 | 2026-10-04 | Complete | Classified Downloads cleanup safety: retain 8 Source-Document-backed PDFs, flag 9 byte-identical redundant copies as high-confidence cleanup candidates, and preserve 49 unique untracked artifacts pending provenance review; deleted nothing. |
 | 36 | 2026-10-04 | Complete | Semantically inventoried 424 product/model notes across `10_Products`, distinguishing reusable categories/families, commercial series, specific offerings, accessories/options, software/platforms, and reusable anatomy concepts without changing structure. |
 | 37 | 2026-10-04 | Complete | Reviewed mixed abstraction levels across 56 product folders: 38 contain multiple semantic classes, mostly intentional category-plus-offering patterns; identified 26 truck/GSE anatomy concepts as the clearest architecture-placement candidates and flagged several series-versus-offering areas for later evidence review. |
+| 38 | 2026-10-04 | Complete | Reviewed potential duplicate product identities: found no confirmed duplicates, preserved two unresolved PosiCharge BMID-family identity overlaps, and confirmed five major name-similarity groups as distinct products/system-component relationships. |
