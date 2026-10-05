@@ -6,11 +6,6 @@ uid: 20261005023700006skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Log Battery Events and Usage]]"
-  - "[[Upload Battery Data to Cloud Portal]]"
-  - "[[Track Equalization]]"
-  - "[[Calculate Battery Abuse Cycles]]"
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Dealer Service Technician]]"
