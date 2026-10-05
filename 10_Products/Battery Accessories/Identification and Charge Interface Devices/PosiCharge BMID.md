@@ -48,6 +48,11 @@ offeredWith:
   - "[[PosiCharge SVS100]]"
   - "[[PosiCharge DVS300 Series]]"
   - "[[PosiCharge MVS400 and MVS800]]"
+applies:
+  - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
+  - "[[BMID - Retain Battery-Specific Usage History]]"
+  - "[[BMID - Preserve Battery Association]]"
+  - "[[BMID - Provide Battery Identity to Compatible Charger]]"
 ---
 
 # PosiCharge BMID
