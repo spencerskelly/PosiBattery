@@ -1,0 +1,217 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 56
+purpose: "Review all Performance Metrics for duplicate risk, units/value semantics, measurement basis, applicability, traceability, and suitability as reusable properties or validation criteria."
+
+scope:
+  total_metric_notes: 55
+  all_metric_notes_directly_inspected: true
+  fields_and_sections_reviewed:
+    - describes
+    - Definition
+    - Code and class
+    - Unit or format
+    - Comparability rule
+    - Direction
+    - Values on file
+    - Source rule
+  model_changes: false
+
+overall_assessment:
+  status: "usable comparison library with mixed semantic maturity"
+  strengths:
+    - "Every metric note states a definition and comparison intent."
+    - "Most metrics explicitly state unit/format, comparability rules, direction, and copied product values."
+    - "The notes consistently declare product notes as the authoritative source for copied comparison values."
+    - "Metrics already trace to Products, Functions, Designs, or reusable product classes through describes."
+  primary_risks:
+    - "The folder mixes measurable engineering properties, categorical attributes, comparison dimensions, commercial data, and compound summaries under one Performance Metric label."
+    - "Several notes combine multiple independent quantities or concepts, reducing suitability as atomic reusable properties."
+    - "Some cross-product-class merged metrics use one note for semantically different measurements."
+    - "Most values are vendor-stated comparison evidence rather than controlled validation criteria."
+
+semantic_classes:
+  quantitative_measurable_examples:
+    - "Metric - Capacity"
+    - "Metric - Charge Factor"
+    - "Metric - Charge Rate Taper"
+    - "Metric - Charge Temperature Limits"
+    - "Metric - Charge Time"
+    - "Metric - Constant Voltage Setpoint"
+    - "Metric - Current Measurement"
+    - "Metric - Detection Range and Accuracy"
+    - "Metric - Float Voltage per Cell"
+    - "Metric - Full-Charge Specific Gravity"
+    - "Metric - Full-Cycle Efficiency"
+    - "Metric - Input Voltage and Phase"
+    - "Metric - Maximum Continuous Charge Current"
+    - "Metric - Nominal Voltage Range"
+    - "Metric - Operating Temperature Range"
+    - "Metric - Opportunity Charging Window"
+    - "Metric - Output Power and Current"
+    - "Metric - Peak Efficiency"
+    - "Metric - Power Consumption"
+    - "Metric - Size and Mass"
+    - "Metric - Voltage Measurement"
+    - "Metric - Watering Interval"
+  categorical_or_enumerated_examples:
+    - "Metric - Battery Identification Method"
+    - "Metric - Certifications and Standards"
+    - "Metric - Charge Adaptation Method"
+    - "Metric - Charge End Criterion"
+    - "Metric - Charge Profile Types Offered"
+    - "Metric - Charge Regimes"
+    - "Metric - Charge Regimes Supported"
+    - "Metric - Chemistries Supported"
+    - "Metric - Detection Technology"
+    - "Metric - Equalize Scheduling"
+    - "Metric - Equalizing Charge Rule"
+    - "Metric - Temperature Compensation Source"
+    - "Metric - Wired and Vehicle Interfaces"
+    - "Metric - Wireless Interfaces and Range"
+  composite_or_summary_examples:
+    - "Metric - BMS and Communication"
+    - "Metric - Chemistry and Plate Construction"
+    - "Metric - Communication and Remote Management"
+    - "Metric - Cycle Life and Warranty"
+    - "Metric - Onboard Accessories"
+    - "Metric - Operator Feedback"
+    - "Metric - Response Action"
+    - "Metric - Warranty and Price"
+
+duplicate_and_overlap_review:
+  confirmed_exact_duplicates: 0
+  related_but_distinct:
+    - group: ["Metric - Charge Regimes", "Metric - Charge Regimes Supported"]
+      finding: "Not duplicates. The first is a charger comparison dimension; the second is a battery capability dimension."
+    - group: ["Metric - Peak Efficiency", "Metric - Full-Cycle Efficiency"]
+      finding: "Not duplicates. Peak conversion efficiency and whole-cycle efficiency are explicitly distinguished."
+    - group: ["Metric - Equalize Scheduling", "Metric - Equalizing Charge Rule"]
+      finding: "Not duplicates. One describes charger scheduling behavior; the other describes battery-side equalization rules."
+    - group: ["Metric - Communication and Remote Management", "Metric - Wired and Vehicle Interfaces", "Metric - Wireless Interfaces and Range"]
+      finding: "Overlapping subject area, but different comparison scopes. Consolidation would lose useful detail."
+  split_candidates:
+    - metric: "Metric - Warranty and Price"
+      concern: "Combines price and warranty, which have different units, volatility, evidence lifetime, and validation meaning."
+      recommendation: "Strong candidate to split into separate reusable comparison dimensions."
+    - metric: "Metric - Cycle Life and Warranty"
+      concern: "Combines demonstrated/claimed lifecycle with commercial warranty."
+      recommendation: "Consider splitting if these become reusable properties or validation criteria."
+    - metric: "Metric - Size and Mass"
+      concern: "Combines dimensions and mass; useful as a comparison card but not atomic property semantics."
+      recommendation: "Retain as comparison summary if desired, but use atomic properties for engineering model/validation."
+    - metric: "Metric - Output Power and Current"
+      concern: "Combines two related but independent quantities."
+      recommendation: "Use separate rated power and current properties when formal validation begins."
+    - metric: "Metric - BMS and Communication"
+      concern: "Compound feature summary rather than one measurable metric."
+      recommendation: "Keep for landscape comparison; do not treat as a single validation criterion."
+
+cross_class_reuse_review:
+  strong_shared_candidates:
+    - "Metric - Certifications and Standards"
+    - "Metric - Ingress and Enclosure Protection"
+    - "Metric - Operating Temperature Range"
+  caution_candidates:
+    - metric: "Metric - Nominal Voltage Range"
+      issue: "Monitor supply/operating voltage, charger battery-voltage coverage, and battery nominal pack voltage are not the same semantic property even though they share volts."
+      recommendation: "Preserve current comparison note for now; formal property modeling should separate these semantics."
+    - metric: "Metric - Power Consumption"
+      issue: "Monitor parasitic draw and charger power consumption differ substantially in context and measurement basis."
+      recommendation: "Separate at reusable property/validation level if formalized."
+    - metric: "Metric - Warranty and Price"
+      issue: "Already merges different concepts and different product classes."
+      recommendation: "Highest-priority cleanup candidate."
+
+unit_and_value_semantics:
+  good_patterns:
+    - "Scalar/range metrics usually state explicit engineering units."
+    - "Qualitative attributes generally declare list, text, method, protocol, device, or statement formats."
+    - "Comparability caveats are frequently explicit."
+  issues:
+    - "Some Unit or format fields repeat prose definitions instead of normalized units or value types."
+    - "Several metrics permit mixed units in one field, such as Ah or kWh, cycles and years, or dimensions and mass."
+    - "Directions such as richer is better, deeper integration, or automatic limiting is stronger are preference judgments, not neutral measurement semantics."
+    - "Values copied from vendor literature often mix tested figures, nominal ratings, feature claims, and channel/commercial data."
+
+measurement_basis:
+  vendor_comparison:
+    finding: "The dominant current basis is vendor-stated product evidence copied from Product notes."
+    suitability: "Good for market landscape and feature comparison."
+  validation:
+    finding: "Most metrics do not yet define a controlled test method, instrumentation, operating state, tolerance, sampling method, or pass/fail threshold."
+    suitability: "Not yet sufficient as validation criteria without additional method/acceptance semantics."
+  source_authority:
+    finding: "Metric notes consistently state that Product notes hold the source URL and win if copied values conflict."
+    assessment: "Good provenance rule."
+
+traceability:
+  functions:
+    prior_step_54: "21 of 103 concrete Functions currently have describedBy metric links."
+    implication: "Function-to-metric coverage is selective and should remain purposeful rather than universal."
+  designs:
+    prior_step_55: "38 of 95 specific Designs currently have describedBy metric links."
+    implication: "Design-to-metric coverage is partial but materially stronger than Function metric coverage."
+  needs:
+    finding: "Metric notes mostly describe products/functions/designs rather than directly trace to Customer Need Use Cases."
+    treatment: "Do not add direct need links unless a metric is explicitly the measure of that need."
+  requirements:
+    finding: "The current Requirement layer is not mature enough for metrics to act as formal verification criteria."
+    treatment: "Do not infer requirement acceptance limits from market comparison values."
+
+property_and_validation_suitability:
+  reusable_property_candidates:
+    criteria:
+      - "Atomic concept"
+      - "Stable semantic meaning across contexts"
+      - "Normalized unit or enumerated value domain"
+    strongest_examples:
+      - "Nominal voltage (with context separated by subject)"
+      - "Rated capacity"
+      - "Charge time"
+      - "Temperature range"
+      - "Peak efficiency"
+      - "Full-cycle efficiency"
+      - "Maximum continuous charge current"
+      - "Float voltage per cell"
+      - "Full-charge specific gravity"
+      - "Watering interval"
+      - "Detection range"
+      - "Voltage/current measurement accuracy and range"
+  comparison_only_or_decompose_first:
+    - "Availability"
+    - "BMS and Communication"
+    - "Communication and Remote Management"
+    - "Onboard Accessories"
+    - "Operator Feedback"
+    - "Response Action"
+    - "Warranty and Price"
+    - "Cycle Life and Warranty"
+  validation_criterion_readiness:
+    ready_as_is: 0
+    reason: "No metric note reviewed provides the complete controlled measurement method and acceptance-threshold semantics needed to serve as a standalone formal validation criterion."
+    path_forward: "Reuse atomic metric/property semantics, then bind a requirement-specific target, tolerance, method, and operating condition in the validation model."
+
+quality_priorities:
+  - priority: 1
+    action: "Separate atomic engineering properties from market-comparison summaries before formal requirement/validation use."
+  - priority: 2
+    action: "Split or clarify compound metrics, especially Warranty and Price, Cycle Life and Warranty, Size and Mass, and Output Power and Current."
+  - priority: 3
+    action: "Normalize value type and unit semantics for metrics intended to become reusable Properties."
+  - priority: 4
+    action: "Keep vendor-stated values as evidence/comparison data; do not promote them directly into acceptance criteria."
+  - priority: 5
+    action: "When Requirements mature, create requirement-specific validation criteria using the reusable metric/property definitions rather than embedding market comparison tables into Requirements."
+
+changes:
+  metric_notes_changed: 0
+  relationships_changed: 0
+  metrics_merged: 0
+  metrics_split: 0
+  evidence_records_created: 1
+
+next_step:
+  step: 57
+  focus: "Continue the roadmap using the first incomplete Step 57 definition; preserve the Step 56 separation between comparison metrics and formal validation semantics."
