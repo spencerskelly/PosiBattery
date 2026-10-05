@@ -36,6 +36,11 @@ Customer need: Detect and Learn from Truck Impacts. The problem behind it: Unrep
   - [[STILL Smart Portal]]: STILL's EXH-SF page says the Smart Portal brings together fleet information from operator management and impact detection to access control, and that PIN access is also available without it. Source: STILL EXH-SF page (T1), retrieved 2026-10-03. <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Review an Impact Event and Decide Whether to Return the Vehicle to Service]].
+- Operating contexts: [[Material-Handling Fleet Site]], [[Airport Ground-Support Operating Area]].
+
 ## Aliases
 
 
