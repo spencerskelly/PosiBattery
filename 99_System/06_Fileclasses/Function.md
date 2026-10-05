@@ -122,7 +122,7 @@ fields:
     path: ""
     options:
       baseFile: "99_System/06_Fileclasses/MDSE Link Targets.base"
-      viewName: "Function | Design"
+      viewName: "Design | Function"
 ---
 # Function
 
