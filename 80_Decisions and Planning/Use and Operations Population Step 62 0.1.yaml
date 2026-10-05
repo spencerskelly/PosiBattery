@@ -105,3 +105,14 @@ conclusion: "40_Use and Operations now contains a usable initial operational mod
 
 next_step:
   step: 63
+
+audit_validation:
+  workflow_run: 37293619073
+  commit: "a20ec81ad2c37824d8b32410361502fa87252c3b"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 62 introduced no new structural regression."
