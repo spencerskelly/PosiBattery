@@ -72,6 +72,16 @@ Operational Use Cases should link to existing canonical Objects and products rat
 
 Facility electrical service, utility/grid connection, building ventilation, racks, aircraft, and other infrastructure should be added as reusable Objects only when the model needs explicit relationships or requirements for them and the intended scope is clear.
 
+## Traceability status
+
+The current stable operational Use Cases identify participating Actors in `participants` and use formal `realizedBy` links only where the inverse Function `realizes` relationship is synchronized.
+
+Customer Needs link into these scenarios through their **Operational traceability** sections. This keeps the chain navigable without introducing provisional `tracesTo` findings:
+
+**Actor → Customer Need → Operational Use Case / context → Function**
+
+No formal Use Case → Requirement links are created yet because the vault currently has no committed `Requirement` model notes for these scenarios. Research notes that describe external rules remain evidence until they are deliberately converted into Requirements.
+
 ## Navigation
 
 - `BASE_local_Use and Operations.base` — direct Markdown contents.
