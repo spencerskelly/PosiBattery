@@ -1,0 +1,108 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 38
+purpose: "Review potential duplicate product identities using names, manufacturer context, relationships, and source evidence."
+structure_changed: false
+merges_executed: false
+
+summary:
+  confirmed_duplicate_product_identities: 0
+  unresolved_identity_overlap_groups: 2
+  reviewed_name_similarity_groups_resolved_as_distinct: 5
+  merge_candidates_authorized: 0
+
+rules:
+  - "Name similarity alone is not sufficient to merge product identities."
+  - "Family/variant, system/component, battery/charger, and generation relationships are not duplicates when the model or source evidence distinguishes them."
+  - "A duplicate identity requires evidence that two notes represent the same real-world marketed product at the same semantic level."
+  - "Unresolved overlaps remain review items; no identities are merged in Step 38."
+
+unresolved_identity_overlap_groups:
+  - id: "DUP-001"
+    notes:
+      - "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID 3.md"
+      - "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge PosiGuard.md"
+    manufacturer: "PosiCharge"
+    status: "unresolved"
+    confidence: "medium"
+    evidence:
+      - "BMID 3 is user-stated and has no public product document identified."
+      - "BMID 3 is described as having BLE and CAN options."
+      - "The BMID 3 note explicitly records PosiGuard as a possible match hypothesis but does not accept it."
+      - "PosiGuard has public evidence for Bluetooth, CAN, serial, optional LoRa, mixed lead-acid/lithium support, and PosiConnect integration."
+    reason_not_merged: "The overlap is plausible but there is no evidence proving BMID 3 and PosiGuard are the same marketed product identity."
+    next_action: "Keep separate until internal part-number/history evidence or an authoritative product mapping resolves the relationship."
+
+  - id: "DUP-002"
+    notes:
+      - "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID 1.md"
+      - "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge Battery Rx.md"
+    manufacturer: "PosiCharge"
+    status: "unresolved"
+    confidence: "low"
+    evidence:
+      - "BMID 1 is user-stated and has no public document identified."
+      - "Battery Rx is publicly documented and described as a smart BMID."
+      - "The current BMID family note states that public-document names such as Battery Rx, wireless BMID, and Smart BMID are not yet mapped to user-stated BMID variants."
+    reason_not_merged: "No authoritative evidence maps Battery Rx to BMID 1."
+    next_action: "Preserve both identities and resolve only with product-history, part-number, or internal naming evidence."
+
+resolved_distinct_groups:
+  - id: "DISTINCT-001"
+    notes:
+      - "Power Designers PowerTrac 3"
+      - "Power Designers PowerTrac DT3"
+      - "Power Designers PowerTrac Monitor"
+      - "Power Designers PowerTrac SP+"
+    result: "distinct_products"
+    evidence: "Separate manufacturer source material describes different sensing architectures, installation modes, feature sets, and use cases."
+    examples:
+      - "PowerTrac 3: permanent wireless battery monitor with shuntless sensing and charger identification."
+      - "PowerTrac DT3: temporary diagnostic logger for short power studies."
+      - "PowerTrac Monitor: lower-cost shuntless monitor using PowerTrac Link."
+      - "PowerTrac SP+: external-shunt data logger with serial/IR interfaces."
+
+  - id: "DISTINCT-002"
+    notes:
+      - "Linde Safety Guard"
+      - "Linde Safety Guard Truck Unit"
+      - "Linde Safety Guard Portable Unit"
+      - "Linde Safety Guard Static Unit"
+      - "Linde Safety Guard Zone Marker"
+    result: "system_and_components"
+    evidence: "The Safety Guard note has governed hasPart relationships to the component notes; component notes use partOf back to the system."
+    reason_not_duplicate: "System identity and component identities intentionally coexist."
+
+  - id: "DISTINCT-003"
+    notes:
+      - "ACT Quantum 2"
+      - "ACT Quantum 3"
+    result: "distinct_generations"
+    evidence: "Separate manufacturer documents identify different charger generations/specifications, including differing voltage range, efficiency, interface, and product date."
+    reason_not_duplicate: "Same product family, different generations."
+
+  - id: "DISTINCT-004"
+    notes:
+      - "Green Cubes SAFEFlex Battery"
+      - "Green Cubes SAFEFlex Charger"
+    result: "distinct_product_types"
+    evidence: "One is a battery product and the other is charging equipment."
+    reason_not_duplicate: "Shared brand/family naming does not imply identical product identity."
+
+  - id: "DISTINCT-005"
+    notes:
+      - "Triathlon Lithium-Ion Battery for UniCarriers"
+      - "Triathlon Lithium-Ion Charger for UniCarriers"
+    result: "distinct_product_types"
+    evidence: "One is a traction battery offering and the other is a charger offering."
+    reason_not_duplicate: "Shared application/manufacturer context does not imply identical product identity."
+
+non_product_similarity:
+  - "Truck Anatomy and GSE Anatomy contain several similarly named concepts such as battery compartment, controls/display, hydraulics, lighting, and operator compartment."
+  - "These are not duplicate commercial product identities; they are reusable architecture concepts and are handled as placement/reuse questions in Steps 39 and Phase G."
+
+conclusion:
+  - "No product-note merge is currently justified."
+  - "The only material identity ambiguity is within the historical/current PosiCharge BMID family."
+  - "Steps 39-41 should preserve those unresolved identities rather than force a hierarchy or merge."
