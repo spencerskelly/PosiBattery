@@ -1,0 +1,113 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 68
+purpose: "Validate Actor–Organization–Product relationship semantics and identify misleading structural links."
+
+scope:
+  actor_notes: 11
+  organization_folder_notes: 86
+  product_notes: 398
+  focus:
+    - "Actor participation and role boundaries"
+    - "Organization maker/offer/channel/partner relationships"
+    - "Product maker/offer/technology-provenance relationships"
+
+actor_relationships:
+  current_pattern:
+    - "Actors are role/person notes such as Forklift Operator, GSE Operator, Maintenance Technician, Fleet Operations Manager, Dealer Service Technician, Equipment Installer, and Truck OEM Integration Engineer."
+    - "Actors participate in Customer Need and operational Use Case notes through participants."
+    - "Actor notes contain product examples as evidence in prose, not formal Actor→Product structural relationships."
+  finding: "Appropriate."
+  misleading_direct_actor_organization_links_found: 0
+  misleading_direct_actor_product_links_found: 0
+  rationale:
+    - "Use/buyer/influencer/beneficiary language on Actor notes is explicitly analyst classification or hypothesis."
+    - "No employment or ownership relationship is inferred from the Actor role."
+    - "Customer Actors should not be converted into Organization records."
+
+organization_product_semantics:
+  madeBy_makes:
+    meaning: "Maker/manufacturer identity where supported."
+    examples:
+      - "PosiCharge ProCore Edge madeBy PosiCharge"
+      - "EnerSys NexSys iON Battery madeBy EnerSys"
+      - "TLD Aircraft Safety Docking madeBy TLD Group"
+    assessment: "Appropriate where direct maker evidence exists."
+  offeredBy_offers:
+    meaning: "Commercial/channel/brand availability without necessarily asserting manufacturer identity."
+    examples:
+      - "Triathlon Lithium-Ion Battery for UniCarriers madeBy Triathlon USA and offeredBy Mitsubishi Logisnext Americas"
+      - "Crown V-Force BMID offeredBy Crown Equipment"
+      - "Hyster Battery Tracker offeredBy Hyster-Yale"
+    assessment: "Important distinction; should not be collapsed into madeBy."
+  poweredBy_powers:
+    meaning: "Technology provenance or named powered-by relationship; does not prove physical manufacturing."
+    example:
+      - "Hyster Battery Tracker poweredBy PosiCharge"
+    assessment: "Appropriate and intentionally narrower than madeBy."
+  distributedBy_distributorOf:
+    meaning: "Channel relationship between organizations."
+    assessment: "Appropriate; should remain separate from maker identity."
+  supplierOf_suppliedBy:
+    meaning: "Organization-to-organization supply relationship."
+    assessment: "Appropriate when source evidence is explicit."
+  partnerOf_integratesWith:
+    meaning: "Contextual business/technology relationships."
+    assessment: "Appropriate when evidence-backed; not global identity roles."
+
+representative_validation_cases:
+  - product: "Triathlon Lithium-Ion Battery for UniCarriers"
+    maker: "Triathlon USA"
+    offerer: "Mitsubishi Logisnext Americas"
+    finding: "Semantics are correct: maker and OEM/channel offerer are distinct."
+  - product: "Hyster Battery Tracker"
+    offerer: "Hyster-Yale"
+    technology_source: "PosiCharge"
+    finding: "Semantics are conservative and correct; poweredBy does not overclaim hardware manufacturing."
+  - product: "Crown V-Force BMID"
+    offerer: "Crown Equipment"
+    maker: "not asserted"
+    finding: "Correctly avoids an unsupported manufacturer claim."
+  - product: "PosiCharge ProCore Edge"
+    maker: "PosiCharge"
+    finding: "Direct maker relationship is appropriate."
+  - product: "TLD Aircraft Safety Docking"
+    maker: "TLD Group"
+    finding: "Direct maker relationship is appropriate."
+
+structural_risks:
+  - risk: "Actor notes describe buyer/user/influencer/beneficiary status in prose."
+    severity: "low"
+    treatment: "Keep as analyst classification/hypothesis unless a governed relationship is later introduced."
+  - risk: "Business relationships such as makes/offers/supplier/partner remain provisional outside relationships.yaml."
+    severity: "medium"
+    treatment: "Do not expand semantics beyond the evidence; future governance work should decide whether to formalize them."
+  - risk: "Brand owner or OEM offerer may be mistaken for manufacturer."
+    severity: "medium"
+    treatment: "Preserve madeBy versus offeredBy distinction."
+  - risk: "Technology provenance may be mistaken for physical manufacturing."
+    severity: "medium"
+    treatment: "Preserve poweredBy semantics and explicit uncertainty."
+
+misleading_links_found:
+  count: 0
+  note: "No existing structural Actor–Organization–Product link required deletion or correction in Step 68."
+
+guidance_change:
+  file: "60_Stakeholders and Ecosystem/README_Stakeholders and Ecosystem.md"
+  change: "Added explicit Actor–Organization–Product relationship semantics and representative examples."
+
+changes:
+  actor_notes_changed: 0
+  organization_notes_changed: 0
+  product_notes_changed: 0
+  semantic_relationships_changed: 0
+  misleading_links_removed: 0
+  guidance_files_changed: 1
+  evidence_records_created: 1
+
+conclusion: "Current Actor–Organization–Product semantics are appropriately conservative. Actors participate in needs/use cases, organizations make/offer/distribute/integrate products, and products remain distinct from both actors and organizations. No misleading structural links were found."
+
+next_step:
+  step: 69
