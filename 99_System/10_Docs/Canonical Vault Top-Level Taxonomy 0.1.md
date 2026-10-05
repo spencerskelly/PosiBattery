@@ -42,6 +42,16 @@ The numbered root taxonomy is authoritative for where new stable PosiBattery kno
 | `90_Definitions and Reusable Reference` | Cross-product concepts and controlled vocabulary | Definitions, technologies, protocols, units, abbreviations, shared reference architectures, taxonomies |
 | `99_System` | Vault methodology and administration | Schemas, templates, scripts, checks, system documentation, tools, AI instructions |
 
+## Relationship to product-centered 00–09 navigation
+
+The 00–09 product-centered pattern is not a second vault taxonomy. It may be used **inside a specific product or product-family context** as a curated engineering workspace.
+
+The numbered 10–99 taxonomy remains authoritative for canonical vault-level placement. When a product context needs a shared Function, Design, Requirement, Object, Actor, source record, reusable definition, or other cross-product concept, link to the canonical note rather than creating a product-local duplicate.
+
+Product-specific material may be organized inside the 00–09 context when its scope is genuinely local to that product/family. Contextual reuse of components/interfaces should use Local Model occurrences where applicable.
+
+Do not instantiate an empty 00–09 folder tree. Create only the product-context areas that have actual content or demonstrated navigation value.
+
 ## Specific and reusable elements
 
 A note is stored according to its primary scope. Its relevance elsewhere is expressed through relationships and navigation, not duplicate copies.
