@@ -1,0 +1,71 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 87
+status: "Complete"
+product_family: "PosiCharge BMID"
+
+requirements_created:
+  family_level:
+    - id: "REQ-00001"
+      name: "BMID - Provide Battery Identity to Compatible Charger"
+      appliesTo: "PosiCharge BMID"
+      subtype: functional
+    - id: "REQ-00002"
+      name: "BMID - Provide Supported Battery Condition Information to Charger"
+      appliesTo: "PosiCharge BMID"
+      subtype: functional
+    - id: "REQ-00003"
+      name: "BMID - Retain Battery-Specific Usage History"
+      appliesTo: "PosiCharge BMID"
+      subtype: functional
+    - id: "REQ-00004"
+      name: "BMID - Preserve Battery Association"
+      appliesTo: "PosiCharge BMID"
+      subtype: engineering
+  variant_specific:
+    - id: "REQ-00005"
+      name: "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+      appliesTo: "PosiCharge PosiGuard"
+      subtype: functional
+    - id: "REQ-00006"
+      name: "PosiGuard - Support Local Service Configuration"
+      appliesTo: "PosiCharge PosiGuard"
+      subtype: functional
+
+derivation_rules:
+  - "Requirements were derived from supported needs, use cases, and documented product behavior rather than by rewriting Functions as shall-statements."
+  - "Family requirements were limited to obligations with family-level evidence."
+  - "PosiGuard-only behavior remains variant-specific."
+  - "No quantitative threshold was invented where controlled evidence or an approved design target is absent."
+  - "Charger power-control authority remains outside BMID requirements."
+
+traceability_completed:
+  drives_drivenBy_synchronized: true
+  appliesTo_applies_synchronized: true
+  satisfies_satisfiedBy_added: false
+  reason_satisfaction_deferred: "Step 88 explicitly owns Requirement-to-Function traceability."
+
+integrity:
+  req_ids:
+    - REQ-00001
+    - REQ-00002
+    - REQ-00003
+    - REQ-00004
+    - REQ-00005
+    - REQ-00006
+  duplicate_req_ids_found: false
+  existing_product_ids_changed: 0
+  existing_product_uids_changed: 0
+
+known_gaps:
+  - "Exact identity payload and communication method by BMID generation."
+  - "Exact battery-condition data set required by each generation."
+  - "History retention duration, timestamp accuracy, event schema, and memory capacity."
+  - "Association establishment, replacement, transfer, and retirement procedure."
+  - "Supported lithium BMS protocols and CAN responsibility boundaries for PosiGuard."
+  - "Authentication, permissions, update security, OS support, and offline behavior for PosiGuard service configuration."
+
+next_step:
+  step: 88
+  title: "Connect Requirements to Functions"
