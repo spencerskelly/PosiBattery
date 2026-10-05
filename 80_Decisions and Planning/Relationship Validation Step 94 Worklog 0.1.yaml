@@ -2,7 +2,7 @@ schema_version: "1.0"
 generated_date: "2026-10-05"
 repository: "spencerskelly/PosiBattery"
 step: 94
-status: "In Progress"
+status: "Complete"
 title: "Complete relationship validation"
 
 validator:
@@ -77,3 +77,42 @@ latest_recheck:
   executed_steps: 0
   conclusion: "GitHub Actions still did not allocate a runner; this is not a relationship-model finding."
   completion_status: "Step 94 remains incomplete because endpoint/provisional/temporary checks have not executed."
+
+
+final_execution:
+  workflow_run: 37382627667
+  head_commit: "d63cfaca"
+  job_id: 112008128637
+  runner_id: 1000001882
+  model_notes: 945
+  governed_relationship_fields: 98
+  relationship_assertions: 5987
+  uncontrolled_relationship_fields: 0
+  deprecated_relationship_fields: 0
+  non_link_relationship_values: 0
+  unresolved_targets: 0
+  ambiguous_targets: 0
+  endpoint_incompatible: 0
+  missing_inverses: 0
+  provisional_relationships: 0
+  temporary_relationships: 0
+  findings: 0
+  conclusion: "RELATIONSHIP VALIDATION PASSED"
+
+repair_performed:
+  issue:
+    - "Powerfleet Forklift Gateway used distributedBy -> Mitsubishi Logisnext Americas."
+    - "Mitsubishi Logisnext Americas used distributorOf -> Powerfleet Forklift Gateway."
+  finding: "The governed distributedBy/distributorOf pair is organization-to-organization, so the Object/Organization pair violated endpoint rules."
+  semantic_resolution:
+    - "Mitsubishi Logisnext Americas now offers Powerfleet Forklift Gateway."
+    - "Powerfleet Forklift Gateway now uses offeredBy -> Mitsubishi Logisnext Americas."
+    - "Jungheinrich remains under distributorOf because that relationship is organization-to-organization."
+  commits:
+    organization: "df5f248a"
+    product: "d63cfaca"
+  rationale: "The source describes a reseller/factory-option relationship; offers/offeredBy is the governed product-channel predicate and avoids overstating an organization-to-organization distribution relationship."
+
+step_result:
+  status: "Complete"
+  next_step: 95
