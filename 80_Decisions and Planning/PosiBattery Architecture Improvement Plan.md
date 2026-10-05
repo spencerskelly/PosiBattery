@@ -3745,6 +3745,23 @@ No architecture-like candidate was moved or retyped in Step 43.
 
 ---
 
+## Step 44 completion evidence — Reusable definitions separated from contextual architecture
+
+**Date:** 2026-10-04
+
+Created `Reusable Definition vs Contextual Architecture Review Step 44 0.1.yaml`.
+
+- 26 current Product Architecture model notes remain reusable architecture definitions.
+- All 94 architecture-like Product Design candidates remain canonical reusable Design definitions.
+- No reviewed candidate is currently a single-product contextual architecture note.
+- 37 component/interface-like Design concepts are queued for Step 45 structural-type review.
+- No notes were moved, retyped, duplicated, or merged.
+- Audit run `37271601962` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+
+**Result:** Step 44 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3787,3 +3804,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 41 | 2026-10-04 | Complete | Added seven unresolved product identity/abstraction questions to the canonical backlog and a machine-readable Step 41 queue; no ambiguous case was forced into hierarchy or merged. |
 | 42 | 2026-10-04 | Complete | Simplified the Products canvas from 55 nodes/49 edges to 12 nodes/11 edges, preserved detailed discovery in the Bases, linked product domains to canonical Truck/GSE architecture context, and clarified navigation roles in the Products README. |
 | 43 | 2026-10-04 | Complete | Inventoried the architecture layer: confirmed 26 canonical vehicle architecture notes and identified 94 architecture-like candidates among 118 reusable Product Designs for Step 44 separation; moved or retyped nothing. |
+| 44 | 2026-10-04 | Complete | Retained all 94 architecture-like Product Designs as reusable definitions; found no single-product contextual architecture notes among them; queued 37 component/interface-like concepts for Step 45 structural review. |
