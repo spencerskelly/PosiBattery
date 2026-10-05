@@ -1,0 +1,230 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 66
+purpose: "Detect duplicate or potentially duplicate organization identities across alternate spellings, divisions, legacy names, brands, regional entities, and acquisitions while preserving unresolved ambiguity."
+
+review_scope:
+  organization_folder_notes: 86
+  actual_organization_identities: 73
+  role_and_research_notes_excluded_from_duplicate_count: 13
+  method:
+    - "Reviewed canonical names, Aliases sections, Definition/Notes identity cautions, parent/subsidiary fields, predecessor/successor fields, and regional qualifiers."
+    - "Compared suspicious same-brand, former-name, acquisition, regional, and parent/business-unit cases."
+    - "Did not merge entities solely because of shared brand words or historical names."
+
+result:
+  confirmed_duplicate_notes: 0
+  merges_performed: 0
+  renames_performed: 0
+  identities_retyped: 0
+
+verified_same_identity_or_legacy_alias:
+  - canonical: "AMETEK Prestolite Power"
+    aliases:
+      - "Prestolite Power"
+      - "Hobart Brothers Battery Charger Division"
+    classification: "same lineage / former division name represented correctly as aliases"
+    action: "Keep one canonical organization note."
+  - canonical: "Advanced Charging Technologies"
+    aliases:
+      - "ACT"
+    classification: "abbreviation"
+    action: "Keep one canonical organization note."
+  - canonical: "Ampure"
+    aliases:
+      - "Ampure Charging Systems"
+      - "Ampure Group"
+    classification: "same parent operating group"
+    action: "Keep one canonical organization note."
+  - canonical: "PosiCharge"
+    aliases:
+      - "Ampure PosiCharge"
+      - "PosiCharge Systems"
+    classification: "same industrial brand/business identity in current model"
+    action: "Keep one canonical organization note."
+  - canonical: "Mitsubishi Logisnext"
+    aliases:
+      - "Mitsubishi Logisnext Co., Ltd."
+      - "Mitsubishi Nichiyu Forklift (former name)"
+      - "TYO 7105"
+    classification: "current corporate identity plus former/legal/reference names"
+    action: "Keep one canonical parent organization note."
+  - canonical: "Logisnext Europe"
+    aliases:
+      - "Mitsubishi Logisnext Europe"
+      - "MLE"
+      - "Mitsubishi Caterpillar Forklift Europe"
+      - "UniCarriers Europe"
+    classification: "current regional identity with legacy/regional predecessor names"
+    action: "Keep one canonical regional organization note."
+  - canonical: "Mitsubishi Logisnext Americas"
+    aliases:
+      - "Logisnext Americas"
+      - "MLA"
+      - "Mitsubishi Caterpillar Forklift America"
+    classification: "current regional identity with abbreviation/legacy name"
+    action: "Keep one canonical regional organization note."
+  - canonical: "TLD Group"
+    aliases:
+      - "TLD"
+      - "TLD America"
+    classification: "working consolidated identity; TLD America is not currently modeled separately"
+    action: "Preserve as aliases until evidence requires a distinct regional legal entity."
+  - canonical: "Textron GSE"
+    aliases:
+      - "Textron Ground Support Equipment"
+    classification: "same business identity"
+    action: "Keep one canonical organization note."
+
+verified_distinct_organizations:
+  - pair:
+      - "Crown Battery Manufacturing"
+      - "Crown Equipment"
+    evidence:
+      - "Different headquarters and founding histories in retrieved sources."
+      - "Different product/business identities."
+    classification: "distinct organizations despite shared Crown name"
+    action: "Never merge based on name similarity."
+  - pair:
+      - "Ampure"
+      - "PosiCharge"
+    classification: "parent operating group versus industrial business/brand"
+    evidence: "Ampure parentOf / PosiCharge subsidiaryOf and portfolio research."
+    action: "Keep separate."
+  - pair:
+      - "Ampure"
+      - "Power Designers"
+    classification: "parent operating group versus acquired industrial business"
+    evidence: "2025 Ampure acquisition evidence."
+    action: "Keep separate."
+  - pair:
+      - "PosiCharge"
+      - "Power Designers"
+    classification: "sibling internal industrial businesses with overlapping portfolio"
+    action: "Keep separate; analyze overlap as internal portfolio, not duplicate identity."
+  - pair:
+      - "Mitsubishi Logisnext"
+      - "Mitsubishi Logisnext Americas"
+    classification: "global/Japanese parent versus regional subsidiary"
+    action: "Keep separate."
+  - pair:
+      - "Mitsubishi Logisnext"
+      - "Logisnext Europe"
+    classification: "global/Japanese parent versus regional subsidiary"
+    action: "Keep separate."
+  - pair:
+      - "Toyota Industries Corporation"
+      - "Toyota Material Handling"
+    classification: "parent group versus operating material-handling brand/business"
+    action: "Keep separate."
+  - pair:
+      - "KION Group"
+      - "Linde Material Handling"
+    classification: "parent group versus operating brand/business"
+    action: "Keep separate."
+  - pair:
+      - "KION Group"
+      - "STILL"
+    classification: "parent group versus operating brand/business"
+    action: "Keep separate."
+
+unresolved_identity_or_lineage_cases:
+  - case: "Power Designers naming lineage"
+    names:
+      - "Power Designers"
+      - "Power Designers LLC"
+      - "Power Designers USA LLC"
+      - "Power Designers Sibex"
+    status: "unresolved legal/corporate relationship"
+    current_model: "One canonical Power Designers organization note with aliases/caution."
+    action: "Do not split or merge further until legal lineage is sourced."
+  - case: "Triathlon U.S. versus U.K./Sunlight relationship"
+    names:
+      - "Triathlon USA"
+      - "Triathlon Battery Solutions"
+      - "TRIATHLON"
+      - "Sunlight Group"
+    status: "relationship between Triathlon USA and the Sunlight-owned U.K. entity not established in retrieved sources"
+    current_model: "Separate organization notes."
+    action: "Preserve separation; do not infer subsidiary/affiliate relationship."
+  - case: "GNB / Exide / Stryten lineage"
+    names:
+      - "GNB Industrial Power"
+      - "Exide Technologies"
+      - "Stryten Energy"
+    status: "conflicting/regionally complex lineage"
+    evidence:
+      - "Exide literature says GNB Industrial Power became or was replaced by Exide Technologies."
+      - "Stryten states it is formerly GNB Industrial Power."
+    current_model: "GNB predecessorOf both Exide and Stryten, with explicit caution."
+    action: "Do not collapse any of the three identities."
+  - case: "Oshkosh AeroTech / JBT AeroTech"
+    names:
+      - "Oshkosh AeroTech"
+      - "JBT AeroTech"
+      - "JBT"
+    status: "retrieved evidence does not establish exact legal/acquisition lineage"
+    current_model: "JBT names retained as aliases on Oshkosh AeroTech with open caution."
+    action: "Do not create a second JBT organization or claim equivalence beyond the current evidence."
+  - case: "Textron GSE / TUG"
+    names:
+      - "Textron GSE"
+      - "TUG"
+      - "TUG Technologies"
+    status: "TUG is clearly used as a product/brand identity within Textron GSE; exact historical corporate lineage not fully modeled"
+    current_model: "TUG/TUG Technologies stored as aliases."
+    action: "Do not create duplicate organization notes unless a distinct legal/business entity is required."
+  - case: "Ampure Automotive and Aftermarket EVSE"
+    names:
+      - "Ampure Automotive and Aftermarket EVSE"
+      - "Ampure EVSE group"
+      - "EVSE group"
+    status: "vault-owner working business-unit name; official unit name not recorded"
+    current_model: "Separate internal context note."
+    action: "Preserve as working identity; do not merge into Ampure or invent a legal entity."
+
+brand_or_product_names_not_to_promote_to_duplicate_organizations:
+  examples:
+    - "Deka"
+    - "Hawker"
+    - "NexSys"
+    - "IRONCLAD"
+    - "V-Force"
+    - "UniCarriers"
+    - "Cat Lift Trucks"
+    - "TUG"
+    - "Raymond"
+  rule: "A brand appearing in product names or organization descriptions does not automatically justify a separate Organization note or indicate duplication."
+
+alias_quality_observations:
+  strengths:
+    - "Aliases sections already capture many abbreviations, legacy names, and common market names."
+    - "Current notes usually include explicit identity cautions where public evidence is insufficient."
+  risks:
+    - "Some aliases may represent former legal entities, divisions, or brands rather than exact identity equivalence."
+    - "Treating aliases as guaranteed synonymy could erase acquisition or regional history."
+  recommendation: "Continue using aliases for navigation, but require explicit evidence before using aliases as a basis for merge/delete actions."
+
+duplicate_detection_policy:
+  confirmed_same_identity:
+    action: "Maintain one canonical note; keep aliases/legacy names."
+  confirmed_distinct:
+    action: "Maintain separate notes even when brand words overlap."
+  unresolved:
+    action: "Maintain separate notes or current cautious consolidated note; log ambiguity and do not merge."
+  prohibited_shortcut: "Do not infer duplicate identity from similar names, shared brands, shared products, acquisitions, or parent relationships alone."
+
+changes:
+  organization_notes_changed: 0
+  aliases_changed: 0
+  relationships_changed: 0
+  notes_merged: 0
+  notes_deleted: 0
+  notes_renamed: 0
+  evidence_records_created: 1
+
+conclusion: "No duplicate organization notes were confirmed. The current identity model is appropriately conservative: obvious aliases are consolidated into canonical notes, verified parent/regional/business distinctions remain separate, and unresolved lineage cases remain explicitly ambiguous."
+
+next_step:
+  step: 67
