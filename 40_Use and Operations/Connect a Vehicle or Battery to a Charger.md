@@ -27,6 +27,11 @@ The operator connects a vehicle or battery to an appropriate charger so charging
 - Completion: a valid charging connection is established and charging can begin without a blocking condition.
 - Product-specific connection, inspection, and disconnect instructions remain in the applicable product documentation and are not generalized here.
 
+## Traceability
+
+- Source needs: [[Connect Chargers and Batteries Safely at the Site]], [[Return Trucks to Service Quickly After a Low Charge]].
+- Operating contexts: [[Centralized Battery Room and Charging Area]], [[Distributed and Opportunity Charging Area]].
+
 ## Aliases
 
 
