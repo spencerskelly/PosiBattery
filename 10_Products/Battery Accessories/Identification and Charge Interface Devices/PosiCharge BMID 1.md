@@ -4,6 +4,9 @@ subtype: electrical
 id: OBJ-00030
 uid: 20261002162520380skellyspencer
 status: Draft
+productClass: product-variant
+aliases:
+  - BMID 1
 tags:
   - battery-market-reference
   - charge-interface
@@ -42,10 +45,5 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions and designs:** none stated in any source yet.
 - **Sources:** none beyond the user statement.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
-
-## Aliases
-
-- BMID 1
-
 
 ## Former ids
