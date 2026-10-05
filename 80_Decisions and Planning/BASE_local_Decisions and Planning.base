@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.folder == "80_Decisions and Planning"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local decisions and planning
+    order:
+      - file.name
+      - status
