@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Customer Actors")
+    - file.inFolder("60_Stakeholders and Ecosystem/Customer Actors")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
