@@ -4275,6 +4275,37 @@ Validation run `37292122572` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 60 completion evidence - Operational contexts modeled
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Operational Context Inventory Step 60 0.1.yaml`.
+
+Modeled eight clear reusable operating/site/environment contexts under `40_Use and Operations`:
+
+- [[Material-Handling Fleet Site]]
+- [[Airport Ground-Support Operating Area]]
+- [[Centralized Battery Room and Charging Area]]
+- [[Distributed and Opportunity Charging Area]]
+- [[Shared Vehicle and Pedestrian Work Area]]
+- [[Aircraft Service Envelope]]
+- [[Cold Storage Operating Environment]]
+- [[Wet Dusty or Outdoor Operating Environment]]
+
+[[Aircraft Service Envelope]] was modeled as a specialization of [[Airport Ground-Support Operating Area]] with a synchronized `subtypeOf / supertypeOf` pair.
+
+Existing canonical Objects and products are reused for surrounding equipment rather than duplicated. Facility electrical supply, building ventilation, generic aircraft, and warehouse infrastructure remain deferred until their model boundaries are needed and supported.
+
+Updated the Use and Operations README and Canvas to navigate the new contexts.
+
+No existing IDs or UIDs were changed.
+
+Evidence commit: `d0bbf95c`.
+
+**Result:** Step 60 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4333,3 +4364,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 57 | 2026-10-05 | Complete | Reworked Product Capabilities navigation around intent to Function to Design to Product to Metric/evidence; aligned Design navigation to modeled hierarchy, Metric navigation to semantic class, and replaced the root Canvas with an 8-node traceability map. No semantic model changes. Evidence: `Capability Navigation Improvement Step 57 0.1.yaml`. |
 | 58 | 2026-10-05 | Complete | Reviewed all 22 Customer Needs plus Products, Functions, and research to extract 20 actor-goal operational Use Case candidates; 17 high-confidence and 3 medium-confidence. Kept environmental/fleet conditions as scenario variants and created no premature Use Case notes. Evidence: `Operational Use Case Candidate Inventory Step 58 0.1.yaml`. |
 | 59 | 2026-10-05 | Complete | Applied the Use Case/Function boundary across current Customer Needs and representative Function edge cases; found zero clear classification mistakes, documented four uncertain Step-58 candidates, and added an explicit classification test to the Use and Operations README. Evidence: `Use Case Function Classification Review Step 59 0.1.yaml`. |
+| 60 | 2026-10-05 | Complete | Modeled eight reusable operational/site/environment contexts, added one supported context specialization, reused existing surrounding Objects/products, and deferred ambiguous external-system boundaries rather than inventing them. Evidence: `Operational Context Inventory Step 60 0.1.yaml`. |
