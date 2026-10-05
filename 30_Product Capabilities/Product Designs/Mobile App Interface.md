@@ -15,6 +15,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!core]]"
+realizes:
+  - "[[Configure Device from Mobile App or PC]]"
 ---
 
 # Mobile App Interface
