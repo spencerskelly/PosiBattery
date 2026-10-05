@@ -47,6 +47,8 @@ realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Review Battery Care and Warranty Compliance]]"
+satisfies:
+  - "[[BMID - Retain Battery-Specific Usage History]]"
 ---
 
 # Log Battery Events and Usage
