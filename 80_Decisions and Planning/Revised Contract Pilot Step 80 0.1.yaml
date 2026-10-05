@@ -1,0 +1,68 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 80
+status: "Complete"
+purpose: "Pilot the reconciled schema contract on a minimal real-note slice plus non-canonical data fixtures."
+
+canonical_pilot:
+  organization:
+    path: "60_Stakeholders and Ecosystem/Organizations/Advanced Charging Technologies.md"
+    changes:
+      - "type changed from Info to Organization"
+      - "existing id INFO-00090 preserved"
+      - "existing uid preserved"
+      - "ACT alias moved from body to YAML aliases"
+    coverage:
+      - Organization type
+      - business relationships
+      - identity preservation
+      - alias migration
+
+  product:
+    path: "10_Products/Battery Accessories/Monitoring Devices/Advanced Charging Technologies BATTview.md"
+    changes:
+      - "productClass set to specific-offering"
+      - "BATTview alias moved from body to YAML aliases"
+      - "supportedBy added for the ACT source document"
+      - "existing id OBJ-00053 and uid preserved"
+    coverage:
+      - productClass
+      - alias migration
+      - evidence relationship authoring
+
+noncanonical_fixture_contract:
+  path: "99_System/09_Tools/Pilot_Fixtures/Step 80 Contract Fixtures.yaml"
+  indexed_as_model_notes: false
+  coverage:
+    - Actor hasNeed
+    - Customer Need as Use Case/why with needOf
+    - Function reuseScope
+    - Design reuseScope
+    - atomic measureClass/valueType/unit/measurementMethod
+    - compound comparison measure semantics
+    - Source Document provenance fields
+    - supports/supportedBy
+    - productClass and aliases
+
+cleanup:
+  removed_partial_markdown_fixtures: true
+  reason: "Avoid polluting ID allocation and normal model queries with pseudo-model notes."
+
+known_validation_finding:
+  id: "P80-01"
+  severity: "expected-pilot-finding"
+  issue: "The canonical BATTview note has supportedBy, but the source Document inverse could not be persisted because the connector blocked edits to that content note."
+  interpretation: "This is intentionally carried into Step 81 to verify inverse-consistency detection and does not invalidate the schema design."
+
+acceptance:
+  duplicate_model_identities_created: false
+  existing_ids_changed: false
+  existing_uids_changed: false
+  production_schema_overwritten: false
+  active_fileclass_configuration_changed: false
+  legacy_bulk_migration_performed: false
+
+next_step:
+  step: 81
+  focus: "Validate pilot authoring, Base visibility, relationship/inverse behavior, schema compatibility, and Workbench/audit behavior."
