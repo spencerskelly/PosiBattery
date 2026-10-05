@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("20_Product Architecture")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All architecture contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - file.folder
+      - status
