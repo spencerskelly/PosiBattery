@@ -594,10 +594,58 @@ Earlier user input should be requested only when:
 
 ---
 
+## Step 1 completion evidence — Fresh full-vault integrity baseline
+
+**Date:** 2026-10-04  
+**Audited commit:** `8837b06fa684adef17f746886c101e2d1c7adce6` (`main`)  
+**GitHub Actions run:** `37255015647`  
+**Audit job:** `111590114513`
+
+The controlled `MDSE Vault Audit` workflow ran automatically against the current `main` commit after this roadmap was added. The primary audit executed `99_System/09_Tools/audit-vault.py` and failed with **27 blocking structural findings**, all of which were broken wikilinks.
+
+Baseline results:
+
+- Markdown files: **1,076**
+- Model notes: **905**
+- Frontmatter parse errors: **0**
+- Duplicate IDs: **0**
+- Duplicate UIDs: **0**
+- Malformed or missing IDs: **0**
+- Malformed or missing UIDs: **0**
+- Missing governed core properties: **0**
+- Deprecated properties: **0**
+- Broken wikilinks: **27**
+- Ambiguous wikilinks: **0**
+- Unresolved relationship targets: **0**
+- Missing relationship inverses: **0**
+- Paths over 212 characters: **0**
+- Top-level navigation coverage findings: **0**
+
+Model-note distribution:
+
+- Actor: **11**
+- Design: **118**
+- Document: **8**
+- Function: **129**
+- Info: **193**
+- Object: **424**
+- Use Case: **22**
+- Status: **905 Draft**
+
+The 27 broken wikilinks are concentrated in newly added/reorganized governance and navigation material, plus one legacy Customer Needs path reference. Representative sources include the numbered root README files, `Schema and Relationship Implementation Decisions 0.1.md`, several schema-reconciliation governance documents, and `Research Change and Decision Tracker.md`.
+
+Because the primary audit returned exit code 1, the workflow stopped before the subsequent `check-names.py` and strict `check-dependencies.py` steps. This is recorded as part of the baseline rather than silently treated as a pass. Those secondary checks should be rerun after the blocking link findings are resolved or when a later structural-validation step reaches them.
+
+**Unresolved items intentionally deferred:** correction of the 27 broken wikilinks is outside Step 1 and should be handled by the appropriate upcoming governance/navigation cleanup steps rather than folded into the baseline step.
+
+**Result:** Step 1 complete. The repository is structurally sound for identity, frontmatter, governed properties, relationship resolution/inverses, path length, and top-level navigation coverage, but it is **not currently audit-clean** because of 27 broken wikilinks.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
 
 | Step | Date | Status | Evidence / Notes |
 | ---: | --- | --- | --- |
-| 1 |  | Pending |  |
+| 1 | 2026-10-04 | Complete | Fresh audit on `main` commit `8837b06f`; 1,076 Markdown / 905 model notes; 27 blocking broken wikilinks; all identity/frontmatter/relationship/path checks otherwise clean. Workflow run `37255015647`, job `111590114513`. Secondary naming/dependency checks did not execute because the primary audit failed first. |
