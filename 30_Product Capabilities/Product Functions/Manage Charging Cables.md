@@ -15,6 +15,7 @@ performedBy:
   - "[[PosiCharge Charger Stand Kit and Cable Handler]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
 ---
 
 # Manage Charging Cables
