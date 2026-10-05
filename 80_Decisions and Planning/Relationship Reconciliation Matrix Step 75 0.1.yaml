@@ -1,0 +1,330 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 75
+purpose: "Reconcile the governed MDSE relationship schema, proposed product-development traceability predicates, and provisional business relationships into one future controlled relationship vocabulary."
+
+authorities_reviewed:
+  governed_runtime: "99_System/03_Schemas/relationships.yaml 1.35"
+  provisional_business: "99_System/03_Schemas/business-relationships.provisional.yaml 0.1-provisional"
+  semantic_guide: "99_System/10_Docs/Relationship Vocabulary Usage Guide 0.1.md"
+  business_guide: "60_Stakeholders and Ecosystem/Organizations/Business Relationship Vocabulary.md"
+  element_type_decisions: "80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 0.1.yaml"
+  field_decisions: "80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yaml"
+
+summary:
+  existing_governed_forward_or_symmetric_predicates: 38
+  provisional_business_predicates: 13
+  high_value_guide_predicates_missing_from_runtime:
+    - hasNeed
+    - arisesIn
+    - measures
+    - supports
+    - contradicts
+  proposed_parallel_relationship_record_block: "rejected for initial implementation"
+  reason: "The current property-per-predicate YAML model is already integrated with templates, inverse generation, audit tooling, and Workbench. A second structured relationships[] store would create two authorities."
+  schema_files_modified: 0
+  model_relationships_modified: 0
+
+storage_decision:
+  canonical_representation: "Named relationship fields in YAML, ordered by relationships.yaml."
+  inverse_policy: "Author forward/owner-side assertion; generated inverse remains derivative and synchronized."
+  structured_relationship_records:
+    disposition: "defer"
+    rationale:
+      - "Status/evidence/applicability qualifiers are useful, but introducing relationships[] now would duplicate the active relationship fields."
+      - "First govern predicate meaning and endpoints; relationship-level qualifiers can be revisited after a pilot proves a storage need."
+  evidence_policy: "Evidence for a material relationship is linked/documented through Source Document/Research records and body rationale until a relationship-level evidence representation is approved."
+
+core_traceability_additions:
+  - forward: hasNeed
+    inverse: needOf
+    from: [Actor, Organization]
+    to: [Use Case]
+    semantic_constraint: "Target is a Customer Need represented as Use Case subtype why."
+    meaning: "The stakeholder role or organization holds/experiences the need."
+    evidence: "recommended for non-obvious organization-level claims"
+    disposition: "add in Step 78 if Organization is adopted"
+  - forward: arisesIn
+    inverse: givesRiseTo
+    from: [Use Case]
+    to: [Use Case, Procedure, Setup]
+    semantic_constraint: "Source is normally Use Case subtype why; target is an operational use/context/workflow."
+    meaning: "The need becomes relevant in the target operational context."
+    evidence: "recommended when not self-evident"
+    disposition: "add"
+  - forward: measures
+    inverse: measuredBy
+    from: [Info, Verification]
+    to: any
+    semantic_constraint: "Info source must be classified as an atomic measure/metric when measure_class is adopted."
+    meaning: "The source defines or performs a measurement of the target property/outcome."
+    evidence: "required for a material measurement claim"
+    disposition: "add after Step 77 measure classification decision"
+  - forward: supports
+    inverse: supportedBy
+    from: [Document, Info, Result]
+    to: any
+    meaning: "Source evidence materially supports the target assertion/element within stated applicability."
+    limitation: "Note-level runtime can target elements, not an individual relationship assertion."
+    evidence: "intrinsic by definition; source identity/provenance must be available"
+    disposition: "add"
+  - forward: contradicts
+    inverse: contradictedBy
+    from: [Document, Info, Result]
+    to: any
+    meaning: "Source evidence materially conflicts with the target assertion/element."
+    limitation: "Note-level runtime can target elements, not an individual relationship assertion."
+    evidence: "intrinsic by definition; conflict rationale must be recorded"
+    disposition: "add"
+
+existing_traceability_predicates:
+  drives:
+    disposition: "retain"
+    canonical_meaning: "Source gives rise to/causes or materially motivates the target; distinct from affects."
+    endpoints: "keep any -> any for compatibility; guidance should prefer Need/Issue/Decision/Use Case -> Requirement/Function/Design/Plan."
+  satisfies:
+    disposition: "retain and cautiously broaden"
+    current: "Function|Design -> Requirement"
+    proposed: "Function|Design|Object|Result -> Requirement|Use Case"
+    semantic_constraint: "Use Case target must be a Customer Need (why); Result use requires demonstrated fulfillment, not mere evaluation."
+    evidence_expectation: "required for Object/Result satisfaction claims; recommended for Function/Design"
+    risk: "Do not use satisfies for intended contribution without evidence."
+  realizedBy:
+    disposition: "retain and broaden"
+    current: "Use Case -> Function|Design"
+    proposed: "Use Case|Function -> Function|Design"
+    semantic_constraint:
+      - "Customer Need/operational Use Case -> Function expresses behavior realization."
+      - "Function -> Design expresses implementation of product-controlled behavior."
+    exclusion: "Do not use realizedBy for simple product ownership; use hasDesign/hasPart."
+  verifies:
+    disposition: "retain and broaden"
+    current: "Verification -> Requirement"
+    proposed: "Verification|Result -> Requirement|Function|Design|Info"
+    semantic_constraint: "Info target must be a governed measure/metric if used as verification target."
+    evidence_expectation: "Verification defines intent; Result records execution evidence."
+  appliesTo:
+    disposition: "retain as semantic applicability relationship"
+    current: "Requirement -> any"
+    proposed: "Requirement|Design|Info -> any"
+    semantic_constraint: "Info source must be a governed rule/measure/reference concept, not generic analysis."
+    field_boundary: "Do not also add scope.applies_to as a second semantic applicability store."
+  hasDesign:
+    disposition: "retain and narrow canonical authoring"
+    current: "Object|Document -> Design"
+    proposed_canonical: "Object -> Design"
+    compatibility: "Existing translated Document -> Design links may remain until individually reconciled."
+    distinction: "hasDesign associates a reusable Design with the Object/product/system that owns or adopts it; realizedBy expresses behavior/intent implementation."
+  references:
+    disposition: "retain but keep non-evidentiary"
+    meaning: "Mentions/cites; does not itself assert support."
+    distinction: "Use supports when the source is evidence for the target."
+  describes:
+    disposition: "retain"
+    meaning: "Document/Info/Artifact is about the target; does not imply evidence support or derivation."
+  derivedFrom:
+    disposition: "retain requirement-to-requirement for runtime"
+    note: "Do not broaden to generic evidence provenance; use supports/references/describes depending on meaning."
+  tracesTo:
+    disposition: "retain provisional only"
+    rule: "Every use remains a review finding and should be replaced by a stronger predicate when meaning becomes known."
+
+structure_and_behavior_predicates:
+  subtypeOf: "retain; true reusable same-class specialization only"
+  hasPart: "retain; Object assembly/composition"
+  hasChild: "retain; generic ownership/hierarchy when a more specific predicate does not govern"
+  includes: "retain; membership without ownership"
+  hasPort: "retain; reusable endpoint ownership"
+  hasFlow: "retain current Port -> Item Flow ownership semantics; do not broaden to generic context-to-flow"
+  hasState: "retain current Object|State Machine ownership rules"
+  interfaces: "retain Port <-> Port symmetric interaction in canonical runtime"
+  exposes: "retain outer Port -> inner Port boundary exposure"
+  equals: "retain temporary Port binding evidence only; not a general equality predicate"
+  transmits: "retain Port -> Item Flow one-way direction semantics"
+  receives: "retain Port -> Item Flow one-way direction semantics"
+  exchanges: "retain Port -> Item Flow one-way inout semantics"
+  triggeredBy: "retain governed behavior trigger meaning"
+  precedes: "retain sequencing/order meaning"
+  participants:
+    disposition: "retain one-way Use Case participation"
+    proposed_targets: [Object, Actor, Organization, Function, Port, Document]
+    note: "Organization should be allowed only for a scenario in which the institution itself materially participates; ordinary human role participation remains Actor."
+
+lifecycle_conflict_and_identity:
+  affects: "retain; impact on independently existing target"
+  conflictsWith: "retain symmetric compatibility/model conflict"
+  dependsOn: "retain generic prerequisite dependency; do not substitute for a known supply/channel/realization predicate"
+  copyOf: "retain copy/source identity trace; not commercial rebrand"
+  supersedes: "retain note/model replacement lifecycle; not corporate succession"
+  optionOf: "retain Use Case option relationship under current runtime; broader product-option semantics deferred unless justified"
+  refines: "retain Requirement -> Requirement precision relationship"
+  initialState: "retain one-way State Machine -> State"
+  finalState: "retain one-way State Machine -> State"
+  hasClassifier: "retain temporary importer-only relationship until post-import resolution"
+
+business_relationship_reconciliation:
+  principle: "Business predicates carry meaning that generic engineering predicates would lose. Move them into the governed schema after Organization is available rather than replacing them with weak generic links."
+  predicates:
+    - forward: playsRole
+      inverse: rolePlayedBy
+      from: [Organization]
+      to: [Info]
+      semantic_constraint: "Target is a reusable business-role definition."
+      disposition: "govern"
+    - forward: makes
+      inverse: madeBy
+      from: [Organization]
+      to: [Object]
+      meaning: "Organization designs/manufactures product and presents it as its own."
+      disposition: "govern"
+    - forward: offers
+      inverse: offeredBy
+      from: [Organization]
+      to: [Object]
+      meaning: "Organization sells/brands/offers product; maker may differ."
+      disposition: "govern"
+    - forward: supplierOf
+      inverse: suppliedBy
+      from: [Organization]
+      to: [Organization]
+      meaning: "Documented supply relationship."
+      disposition: "govern"
+    - forward: distributedBy
+      inverse: distributorOf
+      from: [Organization]
+      to: [Organization]
+      meaning: "Source organization's products are distributed through target organization."
+      disposition: "govern"
+    - forward: subsidiaryOf
+      inverse: parentOf
+      from: [Organization]
+      to: [Organization]
+      meaning: "Corporate ownership/organizational lineage."
+      disposition: "govern"
+    - forward: successorOf
+      inverse: predecessorOf
+      from: [Organization]
+      to: [Organization]
+      meaning: "Organization continues business/brand lineage of target."
+      disposition: "govern"
+      distinction: "Not supersedes: corporate succession is not model-note replacement."
+    - forward: privateLabelFor
+      inverse: privateLabelledBy
+      from: [Organization]
+      to: [Organization]
+      meaning: "Source makes products sold under target's brand."
+      disposition: "govern"
+    - forward: poweredBy
+      inverse: powers
+      from: [Object]
+      to: [Organization]
+      meaning: "Product explicitly uses technology/platform supplied by organization."
+      disposition: "govern"
+    - forward: rebrandOf
+      inverse: rebrandedAs
+      from: [Object]
+      to: [Object]
+      meaning: "Commercial product is materially the same design offered under another brand."
+      disposition: "govern"
+      distinction: "Not copyOf: both products remain real commercial identities."
+    - field: partnerOf
+      symmetric: true
+      between: [Organization]
+      meaning: "Documented partnership."
+      disposition: "govern"
+    - field: integratesWith
+      symmetric: true
+      between: [Organization, Object]
+      semantic_constraint: "Both endpoints must be valid Organization/Object combinations supported by explicit integration/compatibility evidence."
+      disposition: "govern"
+    - field: offeredWith
+      symmetric: true
+      between: [Object]
+      meaning: "Products are explicitly offered/promoted together."
+      disposition: "govern"
+
+business_predicates_not_yet_approved:
+  - competesWith
+  - licensedFrom
+  - acquiredBy
+  - resellerOf
+reason: "Current evidence/methodology does not yet define stable semantics and endpoint/range behavior. Competition especially depends on market/context and should not become a timeless symmetric fact."
+
+evidence_requirements:
+  business_relationships: "Every material business relationship must retain traceable supporting evidence; the existing Business Relationship Ledger may serve during migration, but long-term source links should use governed Source Document/Research support semantics."
+  supports_contradicts: "Source note itself must preserve source identity/revision/access context appropriate to the claim."
+  satisfies_verifies_measures: "Evidence/method conditions must be visible where the relationship could be interpreted as a demonstrated engineering claim."
+  inferred_links: "Do not silently convert analyst inference into supported fact; rationale and uncertainty must remain visible."
+
+relationship_level_status:
+  proposed_values_from_guide: [asserted, inferred, supported, validated, disputed]
+  step_75_decision: "Do not introduce relationship-level status storage yet."
+  reason: "The current field-per-predicate representation has no qualifier slot. Adding relationships[] would create parallel assertions."
+  interim_rule: "Keep maturity/evidence rationale in source/evidence notes and note body until a single-storage qualifier design is approved."
+
+canonicalization_conflicts_resolved:
+  - conflict: "hasFlow guide wording vs runtime ownership semantics"
+    decision: "runtime Port -> Item Flow ownership wins"
+  - conflict: "hasState guide wording vs runtime endpoints"
+    decision: "runtime Object/State Machine rules win"
+  - conflict: "interfaces property wording vs runtime Port-only rule"
+    decision: "Port-only canonical"
+  - conflict: "scope.applies_to vs appliesTo"
+    decision: "relationship remains the semantic applicability authority"
+  - conflict: "evidence.source_records vs supports/references/describes"
+    decision: "typed relationships preferred; no duplicate evidence link array"
+  - conflict: "structured relationships[] vs named relationship fields"
+    decision: "named fields remain canonical for initial reconciliation"
+  - conflict: "successorOf vs supersedes"
+    decision: "keep both; different semantics"
+  - conflict: "rebrandOf vs copyOf"
+    decision: "keep both; different semantics"
+
+step_78_schema_proposal_inputs:
+  add_types_dependency:
+    - Organization
+  add_predicates:
+    - hasNeed
+    - arisesIn
+    - measures
+    - supports
+    - contradicts
+    - playsRole
+    - makes
+    - offers
+    - supplierOf
+    - distributedBy
+    - subsidiaryOf
+    - successorOf
+    - privateLabelFor
+    - poweredBy
+    - rebrandOf
+    - partnerOf
+    - integratesWith
+    - offeredWith
+  modify_endpoint_rules:
+    - satisfies
+    - realizedBy
+    - verifies
+    - appliesTo
+    - hasDesign
+    - participants
+  retain_temporary_or_provisional:
+    - hasClassifier
+    - equals
+    - tracesTo
+  no_storage_change:
+    - "Do not add relationships[] in initial schema implementation."
+
+migration_constraints:
+  - "No existing relationship is renamed or rewritten until the Step 78 schema is approved and Step 80 pilot passes."
+  - "Forward/inverse pairs must be synchronized within the same migration batch."
+  - "Existing business links retain evidence and must not be generalized into weaker predicates."
+  - "Off-rule translated links are review findings, not automatically deleted."
+  - "No relationship may be inferred solely from folder placement, tags, naming similarity, or adjacency."
+
+conclusion: "The reconciled model keeps the proven field-per-predicate relationship architecture, adds five missing high-value traceability/evidence predicates, and moves the existing business vocabulary toward the governed schema once Organization is available. Generic relationships are not used to erase business lineage or evidence meaning, and structured relationship records are deferred to avoid two competing relationship stores."
+
+next_step:
+  step: 76
