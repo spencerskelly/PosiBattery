@@ -38,6 +38,7 @@ realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Review BMID Battery History and Exceptions]]"
+  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
