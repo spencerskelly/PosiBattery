@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Research"
+    - file.folder == "70_Research and Evidence/Research"
 views:
   - type: table
     name: Local contents
