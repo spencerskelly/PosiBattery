@@ -4832,3 +4832,24 @@ Evidence: `80_Decisions and Planning/Incremental Adoption Step 82 0.1.yaml`.
 **Commit:** `1e879e56`.
 
 **Result:** Step 82 complete. **Phase L is complete.** The next incomplete roadmap item is **Step 83 — Select the first product family for full modeling**, which requires user judgment.
+
+
+---
+
+## Step 83 completion evidence — Select the first product family for full modeling
+
+**Date:** 2026-10-05
+
+Selected **PosiCharge BMID** as the first complete product-development MDSE pilot.
+
+The family is the strongest first candidate because it is directly aligned with the battery-installed-device scope of PosiBattery, is strategically relevant to PosiCharge/Ampure, already has substantial product/evidence/function/design coverage, spans both MHE and GSE, and contains real unresolved variant and architecture questions that benefit from disciplined modeling.
+
+The current family already includes BMID 1, BMID 3, Battery Rx, and PosiGuard candidates/successors; eight existing Functions; two existing Designs; multiple related charger products; direct public sources; a dedicated variant-reconciliation record; a mature competitor landscape; and an external airport/GSE BMID requirement. That gives enough evidence to build real end-to-end traceability without making the first full-model pilot as large as the industrial charger portfolio.
+
+Initial Phase M scope is the BMID family itself. Batteries, chargers, cloud/fleet systems, vehicles, and organizations remain context unless they are explicitly part of a BMID variant. Unsupported internal reverse engineering remains out of scope.
+
+Evidence: `80_Decisions and Planning/First Full Product Model Selection Step 83 0.1.yaml`.
+
+**Commit:** `87559a50`.
+
+**Result:** Step 83 complete. The next incomplete roadmap item is **Step 84 — Build Product Abstract and Product Definition** for **PosiCharge BMID**.
