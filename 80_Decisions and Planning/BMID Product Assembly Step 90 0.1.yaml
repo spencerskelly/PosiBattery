@@ -1,0 +1,78 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 90
+status: "Complete"
+product_family: "PosiCharge BMID"
+
+local_model_owner:
+  note: "PosiCharge BMID Product Assembly Local Model"
+  path: "20_Product Architecture/PosiCharge BMID Product Assembly Local Model.md"
+  type: "Info"
+  local_model_schema: "0.2"
+  scope: "integration assembly context, not product BOM"
+
+reusable_definitions_created:
+  ports:
+    - "BMID Battery Interaction"
+    - "BMID Charger Communication"
+  item_flows:
+    - "BMID Battery Sensing Data"
+    - "BMID Charger Battery Information"
+
+local_model_records:
+  parts:
+    - identifier: "BMID Device"
+      definition: "PosiCharge BMID"
+      usage: "variant"
+    - identifier: "Traction Battery"
+      definition: "Industrial Traction Battery"
+      usage: "variant"
+    - identifier: "Compatible Charger"
+      definition: "Industrial Battery Charger"
+      usage: "variant"
+  endpoints:
+    count: 4
+  connections:
+    - "Battery-to-BMID Information Path"
+    - "BMID-to-Charger Information Path"
+  flows:
+    - "Battery Sensing Information"
+    - "Charger Battery Information"
+
+boundary_decisions:
+  - "Battery and charger occurrences are external integration context and are not BMID hasPart relationships."
+  - "Abstract reusable Object roots use Local Model usage: variant so a configuration resolves to one concrete specialization."
+  - "Port definitions are logical interaction boundaries and do not prescribe physical connectors, pinouts, wiring, or protocol."
+  - "Item Flow definitions are reusable and abstract; occurrence direction is local to each connection."
+  - "Internal BMID electronics and sensor topology were not invented from market-level evidence."
+
+deferred_architecture:
+  - "Internal PCBA, controller, memory, power, enclosure, and wiring composition."
+  - "Temperature-sensor physical connection and connector details."
+  - "Current-sensor and electrolyte-level hardware topology."
+  - "Family-wide CAN, Bluetooth, serial, or LoRa endpoint selection."
+  - "Battery Rx cloud/cellular architecture."
+  - "PosiGuard service/configuration topology."
+  - "Lithium BMS ownership and charge-control paths."
+
+integrity:
+  local_model_start_markers: 1
+  local_model_end_markers: 1
+  local_record_block_ids: 11
+  duplicate_local_record_block_ids: 0
+  reusable_object_notes_duplicated: 0
+  unsupported_internal_topology_added: 0
+  inverse_product_description_link_synchronized: true
+
+commits:
+  port_battery_interaction: "93a6489e"
+  port_charger_communication: "b39ef58a"
+  flow_battery_sensing: "e06c22a9"
+  flow_charger_information: "1513a803"
+  local_model: "cde9628a"
+  product_inverse: "ca861fc9"
+
+next_step:
+  step: 91
+  title: "Introduce Verification structure"
