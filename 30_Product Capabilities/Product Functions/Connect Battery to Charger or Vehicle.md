@@ -17,6 +17,7 @@ performedBy:
   - "[[PosiCharge Modular Charge Cables]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
 ---
 
 # Connect Battery to Charger or Vehicle
