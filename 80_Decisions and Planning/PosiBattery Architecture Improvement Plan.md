@@ -3435,6 +3435,81 @@ No notes were moved, renamed, merged, or semantically edited in Step 39.
 
 ---
 
+## Step 40 completion evidence — Unambiguous product classifications normalized
+
+**Date:** 2026-10-04
+
+The 26 high-confidence placement conflicts identified in Step 39 were normalized into the canonical Product Architecture domain.
+
+### Moves executed
+
+- **13** notes moved from `10_Products/Forklifts/Truck Anatomy` to `20_Product Architecture/Industrial Truck Architecture`.
+- **13** notes moved from `10_Products/Ground Support Equipment/GSE Anatomy` to `20_Product Architecture/Ground Support Equipment Architecture`.
+
+All moved notes retained their exact Git blob content, so IDs, UIDs, frontmatter, relationships, definitions, evidence, and note bodies are unchanged.
+
+The old product-side anatomy paths are now empty/gone.
+
+### Navigation preservation
+
+`20_Product Architecture/README_Product Architecture.md` now links to:
+
+- [[Industrial Truck Anatomy]]
+- [[GSE Vehicle Anatomy]]
+
+`10_Products/README_Products.md` now points product users back to those canonical architecture sets rather than duplicating definitions.
+
+No lower-level README/Base/Canvas scaffolding was added because each architecture set currently contains only 13 notes and existing root navigation is sufficient.
+
+### Ambiguous cases deliberately unchanged
+
+Step 40 did not alter:
+
+- commercial series versus specific-offering classifications;
+- battery Pack/Series/Option ambiguities;
+- PosiCharge BMID 1/Battery Rx identity ambiguity;
+- PosiCharge BMID 3/PosiGuard identity ambiguity.
+
+These remain Step 41 review items.
+
+### Execution record
+
+`80_Decisions and Planning/Product Classification Normalization Step 40 0.1.yaml`
+
+The Step 39 placement-conflict review was also updated to show all 26 high-confidence conflicts resolved.
+
+### Validation
+
+GitHub Actions run `37270692358` on commit `784aa75d` completed the structural audit after migration and documentation.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+### Commits
+
+- `2fe123a8` — move reusable vehicle anatomy to Product Architecture
+- `adf43928`, `b870ecf2` — preserve navigation between Products and Product Architecture
+- `fbf25268` — record Step 40 normalization execution
+- `784aa75d` — mark high-confidence placement conflicts resolved
+
+**Result:** Step 40 complete. All unambiguous reusable vehicle-architecture concepts are now canonical under `20_Product Architecture`, with identity and relationships preserved.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3473,3 +3548,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 37 | 2026-10-04 | Complete | Reviewed mixed abstraction levels across 56 product folders: 38 contain multiple semantic classes, mostly intentional category-plus-offering patterns; identified 26 truck/GSE anatomy concepts as the clearest architecture-placement candidates and flagged several series-versus-offering areas for later evidence review. |
 | 38 | 2026-10-04 | Complete | Reviewed potential duplicate product identities: found no confirmed duplicates, preserved two unresolved PosiCharge BMID-family identity overlaps, and confirmed five major name-similarity groups as distinct products/system-component relationships. |
 | 39 | 2026-10-04 | Complete | Reviewed placement conflicts and identified 26 high-confidence reusable Truck/GSE anatomy notes that belong under canonical Product Architecture; preserved five series/offering areas as review-only signals and confirmed abstract product-category organizers are not placement conflicts. |
+| 40 | 2026-10-04 | Complete | Moved 26 reusable Truck/GSE anatomy notes into canonical `20_Product Architecture` groupings using exact Git blobs, preserved IDs/UIDs/relationships, removed old product-side copies, and added product-to-architecture navigation links; ambiguous classifications remain deferred. |
