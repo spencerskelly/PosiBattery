@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "70_Research and Evidence"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local evidence contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
