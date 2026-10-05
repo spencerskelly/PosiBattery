@@ -5223,3 +5223,40 @@ Evidence: `80_Decisions and Planning/Link and Path Validation Step 95 0.1.yaml`.
 **Commits:** `b9ea9392`, `a6845ad2`, `e7fa2f26`.
 
 **Result:** Step 95 complete. The next incomplete roadmap item is **Step 96 — Add source/provenance quality reporting**.
+
+
+---
+
+## Step 96 completion evidence — Source/provenance quality reporting
+
+**Date:** 2026-10-05
+
+Added permanent **report-only provenance quality reporting** at `99_System/09_Tools/report-provenance.py`. The reporter is available through a dedicated workflow and is also integrated into the normal MDSE vault audit before later quality checks.
+
+The report distinguishes two quality layers rather than turning provenance gaps into structural failures:
+
+- **Curated Source Document records** are checked for structured provenance fields plus recognizable body provenance such as local artifact, source identity, original web address, document date/revision, and review/access context.
+- **Evidence-bearing model notes** are heuristically detected from source labels and URLs and checked for a curated evidence relationship through `supportedBy`, `referencedBy`, or `describedBy`.
+
+Dedicated workflow run `37383264915`, job `112010253738`, completed successfully and reported:
+
+- **945 model notes** scanned;
+- **8 curated Source Document records**;
+- **8/8** source records missing one or more structured provenance fields;
+- **0/8** missing the recognized body provenance signals;
+- **8/8** explicitly lacking a recorded original web access/download date;
+- **740** model notes with evidence/source signals;
+- **120** of those exposing a curated evidence relationship;
+- **620** without a detected curated evidence relationship.
+
+The 620-note figure is deliberately a **review heuristic**, not a defect count. Many of those notes contain valid raw URLs or source text; the report identifies where future curation may add value. Likewise, the eight Source Document notes remain valid legacy notes: their provenance is present in the body, while the newer sparse structured metadata has not been migrated.
+
+No source URL, revision, access date, or evidence relationship was invented. Step 96 changes reporting only; it does not make optional provenance fields mandatory.
+
+Main audit run `37383322989`, job `112010446892`, also executed the new provenance report successfully after identity, relationship, and structural validation had passed.
+
+Evidence: `80_Decisions and Planning/Source and Provenance Quality Reporting Step 96 0.1.yaml`.
+
+**Commits:** `9f9ab2fc`, `4c947f66`, `39680b93`.
+
+**Result:** Step 96 complete. The next incomplete roadmap item is **Step 97 — Add orphan and weak-traceability reporting**.
