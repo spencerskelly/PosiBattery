@@ -6,12 +6,6 @@ uid: 20261005023700002skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Estimate State of Charge]]"
-  - "[[Estimate Remaining Run Time]]"
-  - "[[Display Battery Status to Operator]]"
-  - "[[Indicate Battery Status Locally]]"
-  - "[[Alert on Abnormal Condition]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[GSE Operator]]"
