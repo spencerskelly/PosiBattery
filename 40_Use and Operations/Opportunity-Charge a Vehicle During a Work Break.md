@@ -6,10 +6,6 @@ uid: 20261005023700001skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Charge Battery by Opportunity]]"
-  - "[[Charge Battery Fast]]"
-  - "[[Manage Temperature During Fast Charging]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Fleet Operations Manager]]"
