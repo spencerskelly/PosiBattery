@@ -2131,6 +2131,106 @@ No research files were moved, renamed, deleted, or rewritten in Step 24.
 
 ---
 
+## Step 25 completion evidence — Cost Driver Research migrated
+
+**Date:** 2026-10-04
+
+The `_Cost Driver Research` island was migrated into the canonical Research and Evidence structure according to the approved Step 24 map.
+
+### Controlled move
+
+All 12 research notes were moved one-to-one into:
+
+`70_Research and Evidence/Research/Cost Drivers/`
+
+The move reused the exact original Git blob SHA for every file. This verifies that note contents were preserved byte-for-byte during migration.
+
+Post-move verification:
+
+- legacy source files remaining under `_Cost Driver Research`: **0**
+- migrated research notes at destination: **12**
+- filenames changed: **0**
+- content blobs changed: **0**
+
+The legacy root folder therefore disappears naturally because Git does not retain empty directories.
+
+### Navigation
+
+Created:
+
+`70_Research and Evidence/Research/Cost Drivers/README_Cost Drivers.md`
+
+The README:
+
+- explains that the series is research synthesis rather than canonical model fact;
+- links all 12 research notes;
+- preserves the provenance warnings for Cost Drivers 01, 02, 05, and 08;
+- explicitly prevents research hypotheses from being promoted into model elements without later evidence-backed modeling.
+
+Updated:
+
+`70_Research and Evidence/Research/README_Research.md`
+
+to make the new Cost Drivers subgroup discoverable.
+
+No additional Base or Canvas was created because the parent Research recursive Base already exposes the subgroup and Step 22 established the rule against redundant scaffolding.
+
+### Machine-readable records
+
+- `Cost Driver Research Migration Map 0.1.yaml`
+  - marked `migration_executed: true`;
+  - records migration commit `5166678f`;
+  - records source-folder removal and navigation update.
+
+- `PosiBattery Folder Inventory.yaml`
+  - replaced the legacy `_Cost Driver Research` migration-candidate entry with the canonical `70_Research and Evidence/Research/Cost Drivers` subgroup;
+  - canonical-folder count increased from 68 to 69;
+  - migration-candidate count decreased from 10 to 9.
+
+### Validation
+
+GitHub Actions run `37265744826` on commit `845d2edf` completed the structural audit.
+
+Results:
+
+- Markdown files: 1076
+- Model notes: 905
+- Broken wikilinks: **19** (unchanged)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The Markdown count increased by one because the new subgroup README was intentionally added. The stable broken-link and relationship results confirm the controlled move introduced no structural regression.
+
+### Commits
+
+- `5166678f` — move all 12 Cost Driver Research notes into the canonical Research domain with original blob identities preserved
+- `049fc327` — add Cost Drivers research README
+- `fe42d5df` — link Cost Drivers from parent Research navigation
+- `a48ef45a` — mark migration map executed
+- `845d2edf` — update folder inventory
+
+### Deferred evidence work
+
+Migration does not resolve provenance debt. Later evidence-cleanup work still needs to:
+
+- recover sources for Cost Drivers 01, 02, and 05;
+- normalize the embedded source links in Cost Driver 08;
+- create or link curated Source Document records where durable claims require them;
+- separately review research hypotheses before extracting any Customer Needs, Functions, Designs, Requirements, Metrics, Product Architecture, or planning elements.
+
+**Result:** Step 25 complete. The legacy cost-driver research island has been eliminated without content loss or semantic promotion.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2154,3 +2254,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 22 | 2026-10-04 | Complete | Reviewed lower-level navigation, retained substantive domain views and functional system Bases, removed three empty unreferenced system Folder Map canvases, and kept the structural audit stable at 19 broken wikilinks. |
 | 23 | 2026-10-04 | Complete | Inventoried all 12 `_Cost Driver Research` notes, classified them as research synthesis, documented source/provenance quality and unique conclusions, recommended `70_Research and Evidence/Research/Cost Drivers` as the destination group, and made no migration changes. |
 | 24 | 2026-10-04 | Complete | Created an explicit one-to-one migration map for all 12 cost-driver notes into `70_Research and Evidence/Research/Cost Drivers`, with content-class preservation rules and no file moves. Structural audit remained stable at 19 broken wikilinks. |
+| 25 | 2026-10-04 | Complete | Migrated all 12 cost-driver research notes unchanged into `70_Research and Evidence/Research/Cost Drivers`, added one useful subgroup README, updated Research navigation and machine inventories, eliminated the legacy root island, and kept the structural audit stable at 19 broken wikilinks. |
