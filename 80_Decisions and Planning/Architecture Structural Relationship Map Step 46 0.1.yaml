@@ -1,0 +1,132 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 46
+purpose: "Map explicit structural relationships in the current Product Architecture layer without using folder hierarchy as semantic structure."
+structure_changed: false
+relationships_added: 0
+relationships_removed: 0
+
+summary:
+  architecture_model_notes: 26
+  root_assemblies: 2
+  direct_hasPart_edges: 24
+  verified_inverse_pattern: "partOf"
+  root_subtypeOf_edges: 2
+  modeled_ports: 0
+  modeled_item_flows: 0
+  modeled_interface_edges: 0
+  modeled_exposure_edges: 0
+
+assemblies:
+  - assembly: "Industrial Truck Anatomy"
+    type: "Object"
+    abstract: true
+    subtypeOf:
+      - "Battery-Connected Product"
+    parts:
+      - "Truck Mast"
+      - "Truck Forks"
+      - "Truck Overhead Guard"
+      - "Truck Operator Compartment"
+      - "Truck Controls and Display"
+      - "Truck Battery Compartment"
+      - "Truck Controller and CAN Bus"
+      - "Truck Hydraulics"
+      - "Truck Drive and Brakes"
+      - "Truck Rear Body"
+      - "Truck Wheels"
+      - "Truck Lighting"
+    structural_edge_count: 12
+    inverse_rule: "Each child is expected to carry partOf -> Industrial Truck Anatomy; representative children were directly verified and the vault audit reports zero missing relationship inverses."
+
+  - assembly: "GSE Vehicle Anatomy"
+    type: "Object"
+    abstract: true
+    subtypeOf:
+      - "Battery-Connected Product"
+    parts:
+      - "GSE Operator Compartment"
+      - "GSE Controls and Display"
+      - "GSE Canopy and Roof"
+      - "GSE Battery Compartment"
+      - "GSE Controller and CAN Bus"
+      - "GSE Drive and Brakes"
+      - "GSE Hydraulics"
+      - "GSE Load-Handling Structure"
+      - "GSE Towing Interface"
+      - "GSE Front Body and Bumper"
+      - "GSE Rear Body"
+      - "GSE Lighting"
+    structural_edge_count: 12
+    inverse_rule: "Each child is expected to carry partOf -> GSE Vehicle Anatomy; representative children were directly verified and the vault audit reports zero missing relationship inverses."
+
+relationship_findings:
+  - id: "ARCH-REL-001"
+    relationship: "hasPart / partOf"
+    status: "established"
+    finding: "The two reusable vehicle assemblies are explicitly decomposed into 24 reusable Object parts."
+    action: "Use these explicit relationships as the architecture backbone; do not derive decomposition from folders."
+
+  - id: "ARCH-REL-002"
+    relationship: "subtypeOf / supertypeOf"
+    status: "established"
+    finding: "Industrial Truck Anatomy and GSE Vehicle Anatomy both subtype Battery-Connected Product."
+    caution: "This currently expresses reusable generalization, not commercial product occurrence or product-specific assembly composition."
+
+  - id: "ARCH-REL-003"
+    relationship: "hasPort / portOf"
+    status: "absent"
+    finding: "No Port notes are currently modeled in the Product Architecture layer."
+    action: "Do not infer Ports from names such as Controller and CAN Bus, Towing Interface, or Charging Port without an owned endpoint definition."
+
+  - id: "ARCH-REL-004"
+    relationship: "hasFlow / flowOf / transmits / receives / exchanges"
+    status: "absent"
+    finding: "No Item Flow notes are currently modeled in the Product Architecture layer."
+    action: "Do not infer information, energy, or material flows from interface technology names alone."
+
+  - id: "ARCH-REL-005"
+    relationship: "interfaces"
+    status: "absent"
+    finding: "No explicit interface edges exist between architecture elements."
+    action: "Add only when two modeled endpoints or elements have source-supported interaction semantics."
+
+  - id: "ARCH-REL-006"
+    relationship: "exposes / exposedBy"
+    status: "absent"
+    finding: "No architecture endpoint-exposure relationships exist."
+    action: "Defer until actual inner and outer Port concepts are modeled."
+
+  - id: "ARCH-REL-007"
+    relationship: "product-context composition"
+    status: "gap"
+    finding: "The reusable anatomy assemblies are not yet modeled as occurrences inside specific commercial truck or GSE products."
+    action: "Step 47 should identify Local Model occurrence candidates rather than adding direct hasPart from every commercial product to the reusable generic parts."
+
+  - id: "ARCH-REL-008"
+    relationship: "Design to structural entity"
+    status: "gap"
+    finding: "The 37 Step 45 structural counterpart candidates remain Design definitions; no distinct Object/Port counterparts or relationships have yet been created."
+    action: "Create structural counterparts only when Step 47/48 architecture context demonstrates a real need and evidence supports the distinction."
+
+modeling_boundaries:
+  - "Folder membership is not a structural relationship."
+  - "A child note's partOf relationship, not its folder, establishes assembly membership."
+  - "A Design's designOf relationship expresses that a product embodies a reusable design pattern; it is not equivalent to hasPart."
+  - "A protocol/interface Design such as CAN Interface is not a Port."
+  - "A commercial product identity is not automatically an occurrence of every generic anatomy part."
+  - "Local Model is the preferred mechanism when a reusable structural definition appears contextually in multiple product assemblies."
+
+quality_observations:
+  - id: "ARCH-QUAL-001"
+    finding: "All current vehicle anatomy Objects use subtype electrical, including concepts whose names may imply mechanical or mixed structure."
+    treatment: "Do not change in Step 46. Review semantic subtype quality during later architecture refinement because subtype must be evidence-driven."
+  - id: "ARCH-QUAL-002"
+    finding: "The architecture layer currently proves decomposition but not endpoint/flow architecture."
+    treatment: "This is an honest maturity state, not a defect to fill with inferred data."
+
+step_47_focus:
+  - "Identify reusable architecture parts that appear across multiple product contexts and should become Local Model occurrences."
+  - "Prioritize battery compartment, controller/CAN bus, controls/display, drive/brakes, lighting, and other repeated structural concepts."
+  - "Do not duplicate canonical Object definitions for each product."
