@@ -4146,6 +4146,43 @@ Commit: `e721e777`.
 
 ---
 
+## Step 56 completion evidence — Performance Metrics analyzed
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Performance Metric Quality Inventory Step 56 0.1.yaml`.
+
+All **55 Performance Metric notes** were directly reviewed for duplicate risk, units/value semantics, comparison basis, applicability, traceability, and suitability as reusable properties or formal validation criteria.
+
+### Key findings
+
+- **0 confirmed exact duplicate metrics**
+- The metric library mixes three different semantic kinds:
+  - quantitative engineering measures;
+  - categorical/enumerated comparison attributes;
+  - compound market-comparison summaries.
+- Strong reusable-property candidates include voltage, capacity, charge time, temperature range, efficiency, charge current, specific gravity, watering interval, detection range, and measurement range/accuracy.
+- **0 metrics are ready as standalone formal validation criteria as-is**, because the notes do not yet define the full controlled measurement method, operating conditions, tolerance, and acceptance threshold needed for verification.
+- Market comparison values should remain evidence/comparison data rather than being promoted directly into Requirement acceptance criteria.
+
+### Highest-priority cleanup candidates
+
+- [[Metric - Warranty and Price]] — combines volatile commercial price data with warranty terms.
+- [[Metric - Cycle Life and Warranty]] — combines lifecycle performance and commercial warranty.
+- [[Metric - Size and Mass]] — useful comparison summary, but not atomic property semantics.
+- [[Metric - Output Power and Current]] — related but independent quantities.
+- [[Metric - BMS and Communication]] — compound feature summary rather than one measurable property.
+
+Cross-class reuse also needs care. In particular, [[Metric - Nominal Voltage Range]] currently merges monitor voltage, charger battery-voltage coverage, and battery nominal pack voltage; all use volts, but they are not the same semantic property.
+
+No metric note, relationship, value, or comparison table was changed in this step.
+
+Commit: `4e81d962`.
+
+**Result:** Step 56 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4200,3 +4237,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 53 | 2026-10-05 | Complete | Reviewed all Step-50 near-duplicate Function candidates plus the high-overlap charging regime group; found zero true duplicates and made no merges, renames, or hierarchy changes. Evidence: `Product Function Near-Duplicate Review Step 53 0.1.yaml`. |
 | 54 | 2026-10-05 | Complete | Measured all 103 concrete Functions: 100% have performers and source evidence; 66.0% realize Customer Need Use Cases, 44.7% have Design dependencies, 20.4% have metric links, and 0% satisfy Requirements. Identified 24 highest-priority intent/design trace gaps without inventing relationships. Evidence: `Product Function Traceability Gap Review Step 54 0.1.yaml`. |
 | 55 | 2026-10-05 | Complete | Analyzed all 118 Product Designs: 23 general classes and 95 specific Designs; 94/95 specific Designs have parents, 100% have product applicability and source evidence, 17.9% have direct Function dependencies, and 40.0% have metric links. Identified Reverse-Polarity Protection as the sole specific parentage gap and found zero confirmed duplicates. Evidence: `Product Design Quality Inventory Step 55 0.1.yaml`. |
+| 56 | 2026-10-05 | Complete | Reviewed all 55 Performance Metrics; found zero exact duplicates, separated quantitative properties from categorical and compound comparison dimensions, identified five high-priority decomposition/cleanup candidates, and found zero metrics ready to serve as standalone formal validation criteria without additional method/acceptance semantics. Evidence: `Performance Metric Quality Inventory Step 56 0.1.yaml`. |
