@@ -1,0 +1,226 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 65
+purpose: "Classify clear organization roles using the controlled distinction between durable intrinsic roles and contextual ecosystem relationships."
+
+classification_model:
+  intrinsic_roles:
+    mechanism: "playsRole / rolePlayedBy"
+    rule: "Use only for durable market identity: what the organization is."
+    controlled_roles:
+      - "Battery Maker"
+      - "Charger Maker"
+      - "Monitor Maker"
+      - "Truck OEM"
+      - "Dealer or Distributor"
+      - "Software Vendor"
+      - "Accessory Maker"
+      - "Brand Owner"
+  contextual_roles:
+    rule: "Do not convert relationship-specific status into a global playsRole label."
+    mechanisms:
+      supplier: "supplierOf / suppliedBy"
+      channel_partner: "distributedBy / distributorOf"
+      partner: "partnerOf"
+      technology_or_integration_partner: "integratesWith or scoped research"
+      competitor: "offer-scoped research classification"
+      customer_or_operator: "specific organization evidence required"
+      regulator: "specific organization record required when needed for rule/Requirement traceability"
+      standards_body: "specific organization record required when needed for standard/Requirement traceability"
+
+intrinsic_role_classification:
+  battery_makers:
+    examples:
+      - "EnerSys"
+      - "East Penn Manufacturing"
+      - "Exide Technologies"
+      - "HOPPECKE"
+      - "Flux Power"
+      - "Green Cubes Technology"
+      - "Stryten Energy"
+      - "Triathlon USA"
+  charger_makers:
+    examples:
+      - "PosiCharge"
+      - "Power Designers"
+      - "AMETEK Prestolite Power"
+      - "Advanced Charging Technologies"
+      - "Fronius International"
+      - "Delta-Q Technologies"
+      - "Lester Electrical"
+      - "Triathlon USA"
+  monitor_makers:
+    examples:
+      - "PosiCharge"
+      - "Power Designers"
+      - "EnerSys"
+      - "Philadelphia Scientific"
+      - "Advanced Charging Technologies"
+      - "AMETEK Prestolite Power"
+      - "HOPPECKE"
+  truck_oems:
+    examples:
+      - "Toyota Material Handling"
+      - "Raymond"
+      - "Crown Equipment"
+      - "Hyster-Yale"
+      - "Linde Material Handling"
+      - "Mitsubishi Logisnext Americas"
+      - "Oshkosh AeroTech"
+      - "TLD Group"
+  dealers_and_distributors:
+    examples:
+      - "Averest"
+      - "Carolina Handling"
+      - "Western Materials"
+      - "Motive Energy"
+      - "Holt of California"
+      - "Raymond Handling Consultants"
+  software_vendors:
+    examples:
+      - "Adveez"
+      - "Powerfleet"
+  accessory_makers:
+    examples:
+      - "Adveez"
+      - "Anderson Power Products"
+      - "Arcure"
+      - "Blaxtair"
+      - "Larson Electronics"
+      - "Panacea Aftermarket Co."
+      - "Powerfleet"
+      - "TVH"
+  brand_owners:
+    examples:
+      - "Toyota Material Handling"
+      - "Raymond"
+      - "Crown Equipment"
+      - "Hyster-Yale"
+      - "Linde Material Handling"
+      - "Mitsubishi Logisnext"
+
+contextual_role_classification:
+  suppliers:
+    clear_examples:
+      - organization: "Triathlon USA"
+        customer_or_recipient: "Mitsubishi Logisnext Americas"
+        evidence_field: "supplierOf / suppliedBy"
+        status: "formal provisional business relationship"
+    note: "Supplier is relationship-specific and is not added as a global playsRole role."
+  channel_partners:
+    clear_examples:
+      - channel: "Western Materials"
+        principals: ["East Penn Manufacturing", "EnerSys"]
+      - channel: "Averest"
+        principals: ["PosiCharge"]
+      - channel: "Carolina Handling"
+        principals: ["Raymond"]
+      - channel: "Motive Energy"
+        principals: ["Advanced Charging Technologies"]
+      - channel: "East Penn Manufacturing"
+        principals: ["AMETEK Prestolite Power", "Advanced Charging Technologies"]
+    evidence_field: "distributedBy / distributorOf"
+  partners:
+    clear_examples:
+      - organization_a: "EnerSys"
+        organization_b: "Mitsubishi Logisnext Americas"
+        evidence_field: "partnerOf"
+      - organization_a: "EnerSys"
+        organization_b: "Hyster-Yale"
+        evidence_field: "integratesWith"
+        classification: "technology/integration relationship"
+    note: "Partner status is scoped to the evidenced relationship; it is not a permanent global role."
+  competitors:
+    policy_source: "PosiCharge Competitive and Partner Landscape"
+    rule: "Competitor is offer-space specific, not a global organization role."
+    current_research_cohorts:
+      battery_monitoring_and_identification:
+        - "Philadelphia Scientific"
+        - "Advanced Charging Technologies"
+        - "EnerSys"
+        - "Crown Battery Manufacturing"
+        - "Stryten Energy"
+        - "HOPPECKE"
+      industrial_charging:
+        - "EnerSys"
+        - "Fronius International"
+        - "Lester Electrical"
+        - "Delta-Q Technologies"
+        - "GNB Industrial Power"
+        - "Advanced Charging Technologies"
+      connected_fleet_and_energy_operations:
+        - "Powerfleet"
+        - "Adveez"
+        - "Energywith"
+        - "Blaxtair"
+    classification_status: "research candidates / scoped competition analysis, not global playsRole assignments"
+    internal_noncompetitors:
+      - "Power Designers"
+      - "Ampure Automotive and Aftermarket EVSE"
+      note: "Ampure internal portfolio; explicitly excluded from external competitor classification."
+  customers_or_operators:
+    clear_organization_records: 0
+    note: "Customer Actors exist as Actor notes, but no buying/operating organization has yet been modeled strongly enough to receive a Customer role."
+    decision: "Do not invent customer organizations or convert actors into organizations."
+  regulators:
+    clear_organization_records: 0
+    note: "The SLC airport rule is stored as an Info research note; the responsible airport authority has not yet been modeled as a reusable organization."
+    decision: "Do not create a Regulator role assignment until an organization record is required by traceability."
+  standards_bodies:
+    clear_organization_records: 0
+    note: "Standards/certifications appear in product evidence, but no standards-body organization record is currently required by the model."
+    decision: "Do not infer Standards Body organizations from certification strings alone."
+
+other_relevant_roles:
+  parent_or_group:
+    mechanism: "parentOf / subsidiaryOf"
+    examples:
+      - "Ampure -> PosiCharge / Power Designers"
+      - "KION Group -> Linde Material Handling / STILL"
+      - "Mitsubishi Logisnext -> Mitsubishi Logisnext Americas / Logisnext Europe"
+      - "Toyota Industries Corporation -> Toyota Material Handling / Raymond"
+      - "Sunlight Group -> Triathlon Battery Solutions"
+    classification: "structural ownership relationship, not playsRole"
+  internal_portfolio_business:
+    examples:
+      - "PosiCharge"
+      - "Power Designers"
+      - "Ampure Automotive and Aftermarket EVSE"
+    context: "Ampure"
+    classification: "internal portfolio context, not competitor role"
+
+quality_findings:
+  strengths:
+    - "Intrinsic manufacturer/dealer/software roles are already well represented through role notes."
+    - "Contextual supplier/channel/partner relationships already have explicit relationship fields."
+    - "Competition policy is correctly offer-scoped in research rather than globally attached to organizations."
+  gaps:
+    - "No modeled customer organizations."
+    - "No modeled regulator organizations."
+    - "No modeled standards-body organizations."
+    - "Business relationships remain provisional and outside governed relationships.yaml."
+  risks:
+    - "Global competitor/partner/supplier tags would overstate context and should be avoided."
+    - "Customer Actors and customer Organizations must remain separate concepts."
+    - "Certification evidence does not by itself justify creating a standards-body organization."
+
+guidance_change:
+  file: "60_Stakeholders and Ecosystem/Organizations/README_Organizations.md"
+  change: "Added Controlled role classification section distinguishing intrinsic playsRole roles from contextual relationship-scoped roles."
+
+changes:
+  organization_notes_changed: 0
+  relationship_fields_changed: 0
+  role_notes_created: 0
+  global_competitor_labels_added: 0
+  customer_organizations_created: 0
+  regulator_organizations_created: 0
+  standards_body_organizations_created: 0
+  guidance_files_changed: 1
+  evidence_records_created: 1
+
+conclusion: "Clear organization roles are now classified with a controlled model: durable manufacturer/dealer/software identities use playsRole, while supplier, partner, channel, competitor, customer, regulator, and standards-body status remains relationship- or context-specific. Existing evidence supports supplier/channel/partner classifications, while customer/regulator/standards-body organization coverage remains an explicit gap."
+
+next_step:
+  step: 66
