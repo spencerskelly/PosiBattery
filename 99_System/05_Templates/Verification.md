@@ -14,6 +14,4 @@ verifies: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
