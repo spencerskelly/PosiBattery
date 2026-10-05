@@ -20,6 +20,7 @@ performedBy:
   - "[[Hyster Power Cellect]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Display Battery Status to Operator
