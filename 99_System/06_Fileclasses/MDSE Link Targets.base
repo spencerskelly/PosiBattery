@@ -446,7 +446,6 @@ views:
     filters:
       or:
         - 'note.type == "Organization"'
-        - 'note.type == "Info" && list(tags).contains("organization")'
     order:
       - file.name
       - type
@@ -459,7 +458,6 @@ views:
     filters:
       or:
         - 'note.type == "Organization"'
-        - 'note.type == "Info" && list(tags).contains("organization")'
         - 'note.type == "Object"'
     order:
       - file.name
