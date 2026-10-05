@@ -1,0 +1,153 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 24
+purpose: "Explicit per-file migration mapping for _Cost Driver Research into the canonical Research and Evidence domain."
+source_root: "_Cost Driver Research"
+destination_root: "70_Research and Evidence/Research/Cost Drivers"
+migration_executed: false
+preserve_filenames: true
+content_rewrite_required_for_move: false
+
+mapping_rules:
+  - "Move each research note as a whole; do not split it during the mechanical migration."
+  - "Preserve filename, headings, prose, tables, formulas, source URLs, caveats, risks, pilot methods, and future-work sections."
+  - "Do not create or modify model IDs, UIDs, governed relationships, or canonical product/function/design notes during migration."
+  - "Treat product opportunities, architecture recommendations, functions, needs, metrics, and roadmap items inside these notes as research hypotheses unless separately modeled through an evidence-backed later step."
+  - "Preserve unsupported or weakly sourced claims as research content and keep provenance debt visible."
+  - "Do not create Source Document records merely to complete the move; provenance normalization belongs to later evidence-cleanup work."
+  - "After migration, update Research navigation so the Cost Drivers subgroup is discoverable, then run integrity checks."
+
+content_classes:
+  source_evidence:
+    definition: "External URLs, cited case studies, standards/regulatory material, vendor literature, and explicitly attributed business outcomes."
+    migration_treatment: "Preserve verbatim as research-note source context. Later evidence work may create or link curated Source Document records."
+  synthesis:
+    definition: "Comparisons, cost-driver framing, category landscapes, KPI frameworks, selection logic, ROI models, and cross-source interpretation."
+    migration_treatment: "Preserve in the migrated research note."
+  derived_conclusion:
+    definition: "Statements inferred from the research, including recommended adjacencies, value propositions, prioritization, and business conclusions."
+    migration_treatment: "Preserve as research conclusions; do not promote to canonical model facts."
+  product_function_hypothesis:
+    definition: "Candidate needs, functions, designs, architecture, product opportunities, integrations, requirements, metrics, or roadmap ideas."
+    migration_treatment: "Preserve as hypotheses. Extraction into the model requires separate evidence-backed modeling work."
+
+files:
+  - source: "_Cost Driver Research/Cost Driver 01 Labor and Productivity.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 01 Labor and Productivity.md"
+    role: "cost_driver_deep_dive"
+    provenance: "weak_explicit_provenance"
+    preserve_classes: [synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all claims but flag provenance recovery as future work; no explicit external links currently present."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 02 Inventory Carrying, Accuracy, and Loss.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 02 Inventory Carrying, Accuracy, and Loss.md"
+    role: "cost_driver_deep_dive"
+    provenance: "weak_explicit_provenance"
+    preserve_classes: [synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all claims but flag provenance recovery as future work; no explicit external links currently present."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 03 Facility Space and Storage Capacity.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 03 Facility Space and Storage Capacity.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and source descriptions."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 04 Transportation and Packaging.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 04 Transportation and Packaging.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and source descriptions."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 05 MHE Lifecycle Cost.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 05 MHE Lifecycle Cost.md"
+    role: "cost_driver_deep_dive"
+    provenance: "weak_explicit_provenance"
+    preserve_classes: [synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all claims but flag provenance recovery as future work; no explicit external links currently present."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 06 Downtime and Congestion.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 06 Downtime and Congestion.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and source descriptions."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 07 Warehouse Safety and Damage.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 07 Warehouse Safety and Damage.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and safety/regulatory context."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 08 Utilities and Energy.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 08 Utilities and Energy.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_links_present_but_not_normalized_reference_section"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve embedded source links; normalization of source presentation is deferred."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 09 Systems and Administration.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 09 Systems and Administration.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and source descriptions."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Cost Driver 10 Workforce Hiring, Training, and Retention.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Cost Driver 10 Workforce Hiring, Training, and Retention.md"
+    role: "cost_driver_deep_dive"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve all cited URLs and regulatory/training context."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/MHE Cost Drivers Mapped to Product Functions.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/MHE Cost Drivers Mapped to Product Functions.md"
+    role: "cross_driver_synthesis"
+    provenance: "explicit_links_present_but_mapping_is_research_hypothesis"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion, product_function_hypothesis]
+    evidence_action: "Preserve source links and explicitly retain the function/architecture mapping as research hypothesis rather than governed model relationships."
+    move_action: "move_unchanged"
+
+  - source: "_Cost Driver Research/Top Cost Drivers in an MHE-Enabled Warehouse.md"
+    destination: "70_Research and Evidence/Research/Cost Drivers/Top Cost Drivers in an MHE-Enabled Warehouse.md"
+    role: "cross_driver_synthesis"
+    provenance: "explicit_sources_present"
+    preserve_classes: [source_evidence, synthesis, derived_conclusion]
+    evidence_action: "Preserve cost hierarchy, MHE cost stack, priority logic, formulas, caveats, and references."
+    move_action: "move_unchanged"
+
+post_move_navigation:
+  parent_readme: "70_Research and Evidence/Research/README_Research.md"
+  add_reference: "Cost Drivers/"
+  lower_level_navigation:
+    create_readme: true
+    create_base_local: false
+    create_base_all: false
+    create_canvas: false
+    rationale: "The subgroup has 12 coherent research notes. A README provides useful orientation; parent Research Bases already expose the files recursively, so additional Bases/Canvas would be redundant scaffolding."
+
+validation_after_move:
+  - "Confirm all 12 source files exist at mapped destination paths."
+  - "Confirm _Cost Driver Research is empty/removed after the controlled move."
+  - "Compare file contents before/after move to ensure no content loss."
+  - "Run the structural audit."
+  - "Confirm no new broken wikilinks, unresolved relationship targets, identity defects, or inverse defects."
+  - "Update folder/navigation inventories to reflect the migration."
+
+deferred_after_migration:
+  - "Recover provenance for Cost Drivers 01, 02, and 05."
+  - "Normalize explicit source references and create Source Document records where durable claims require them."
+  - "Review research hypotheses for evidence-backed extraction into Customer Needs, Functions, Designs, Requirements, Metrics, Product Architecture, or planning records."
