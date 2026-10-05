@@ -2049,6 +2049,88 @@ No content was moved, renamed, deleted, or semantically reclassified in Step 23.
 
 ---
 
+## Step 24 completion evidence — Cost Driver Research migration mapped
+
+**Date:** 2026-10-04
+
+An explicit per-file migration map was created for all 12 notes in `_Cost Driver Research`.
+
+### Migration map created
+
+`80_Decisions and Planning/Cost Driver Research Migration Map 0.1.yaml`
+
+All 12 files map one-to-one into:
+
+`70_Research and Evidence/Research/Cost Drivers/`
+
+with filenames preserved.
+
+### Mapping policy
+
+The migration is intentionally mechanical:
+
+- move each note as a whole;
+- preserve filename and content;
+- preserve source URLs, references, formulas, caveats, risks, pilot methods, and future-work sections;
+- do not create or modify model IDs/UIDs;
+- do not create governed relationships from prose;
+- do not promote research conclusions, product opportunities, architecture proposals, needs, functions, metrics, or roadmaps into canonical model facts.
+
+The map explicitly distinguishes four content classes:
+
+1. source evidence;
+2. research synthesis;
+3. derived conclusions;
+4. product/function/model hypotheses.
+
+Each class has a defined migration treatment so Step 25 cannot collapse evidence into interpretation or interpretation into ontology.
+
+### Provenance handling
+
+- Cost Drivers 01, 02, and 05 remain flagged for provenance recovery because they contain no explicit external links.
+- Cost Driver 08 has embedded external links but no normalized References section.
+- Other source-rich notes retain their explicit reference lists unchanged.
+- Source Document normalization is deferred to the later evidence-cleanup phase.
+
+### Navigation design
+
+After migration:
+
+- the parent `README_Research.md` should link to `Cost Drivers/`;
+- a single `README_Cost Drivers.md` should be created inside the subgroup because 12 coherent notes justify orientation;
+- no subgroup Bases or Canvas should be created because the existing recursive Research Base already exposes the files and extra artifacts would be redundant scaffolding.
+
+### Validation
+
+GitHub Actions run `37265367841` on commit `0ed61110` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No research files were moved, renamed, deleted, or rewritten in Step 24.
+
+### Commit
+
+- `0ed61110` — add Cost Driver Research migration map
+
+**Result:** Step 24 complete. The cost-driver island now has an explicit, reversible per-file migration plan ready for execution in Step 25.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2071,3 +2153,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 21 | 2026-10-04 | Complete | Normalized `90_Definitions and Reusable Reference` with active root README/Base/Canvas navigation, repaired the Property Dictionary path, avoided empty category scaffolding, and reduced broken wikilinks from 20 to 19. |
 | 22 | 2026-10-04 | Complete | Reviewed lower-level navigation, retained substantive domain views and functional system Bases, removed three empty unreferenced system Folder Map canvases, and kept the structural audit stable at 19 broken wikilinks. |
 | 23 | 2026-10-04 | Complete | Inventoried all 12 `_Cost Driver Research` notes, classified them as research synthesis, documented source/provenance quality and unique conclusions, recommended `70_Research and Evidence/Research/Cost Drivers` as the destination group, and made no migration changes. |
+| 24 | 2026-10-04 | Complete | Created an explicit one-to-one migration map for all 12 cost-driver notes into `70_Research and Evidence/Research/Cost Drivers`, with content-class preservation rules and no file moves. Structural audit remained stable at 19 broken wikilinks. |
