@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "bmid",
+      "type": "file",
+      "file": "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 140
+    },
+    {
+      "id": "battery",
+      "type": "file",
+      "file": "10_Products/Batteries/Industrial Traction Battery.md",
+      "x": -500,
+      "y": -180,
+      "width": 340,
+      "height": 120
+    },
+    {
+      "id": "charger",
+      "type": "file",
+      "file": "10_Products/Chargers/Industrial Battery Charger.md",
+      "x": 500,
+      "y": -180,
+      "width": 340,
+      "height": 120
+    },
+    {
+      "id": "vehicle",
+      "type": "file",
+      "file": "10_Products/Forklifts/Class I Electric Rider Trucks/Class I Electric Rider Truck.md",
+      "x": -500,
+      "y": 180,
+      "width": 340,
+      "height": 120
+    },
+    {
+      "id": "cloud",
+      "type": "file",
+      "file": "10_Products/Fleet Software and Platforms/Battery and Charger Management/PosiCharge PosiLink.md",
+      "x": 500,
+      "y": 180,
+      "width": 340,
+      "height": 120
+    },
+    {
+      "id": "context",
+      "type": "file",
+      "file": "20_Product Architecture/PosiCharge BMID Product Context.md",
+      "x": 0,
+      "y": -380,
+      "width": 360,
+      "height": 120
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "bmid",
+      "toNode": "battery",
+      "label": "battery context"
+    },
+    {
+      "id": "e2",
+      "fromNode": "bmid",
+      "toNode": "charger",
+      "label": "charger context"
+    },
+    {
+      "id": "e3",
+      "fromNode": "bmid",
+      "toNode": "vehicle",
+      "label": "vehicle context"
+    },
+    {
+      "id": "e4",
+      "fromNode": "bmid",
+      "toNode": "cloud",
+      "label": "external platform"
+    },
+    {
+      "id": "e5",
+      "fromNode": "context",
+      "toNode": "bmid",
+      "label": "defines context"
+    }
+  ]
+}
