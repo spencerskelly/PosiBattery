@@ -3965,7 +3965,37 @@ Latest audit run `37278655646` on finalized evidence commit `de36a393` remained 
 **Result:** Step 50 complete.
 
 
+
 ---
+
+## Step 51 completion evidence — Product Functions grouped by modeled behavioral purpose
+
+**Date:** 2026-10-05
+
+Reworked Product Function navigation around the **six existing goal-level Function roots** rather than introducing keyword-based or count-based folder buckets.
+
+Updated:
+
+- `30_Product Capabilities/Product Functions/README_Product Functions.md`
+- `70_Research and Evidence/Research/Function and Design Levels.md`
+- `80_Decisions and Planning/Product Function Navigation Grouping Step 51 0.1.yaml`
+
+The six navigation categories are:
+
+- [[Deliver Energy to Vehicles]]
+- [[Keep Equipment Working in Its Environment]]
+- [[Know and Protect Battery Condition]]
+- [[Manage Fleet Use and Data]]
+- [[Protect People and Equipment Near Vehicles]]
+- [[Support the Operator]]
+
+The documented Function tree was also synchronized with the nine correctly parented Function notes identified as missing from the research/navigation document during Step 50. All nine target notes were directly verified to exist before the update.
+
+No Function note was moved, renamed, retyped, or reparented. No Function relationship was changed. The result is a relationship-backed navigation structure covering all **129 Functions**: 6 goal roots, 20 general families, and 103 concrete Functions.
+
+Commits: `8afc8e24`, `65d4717c`, `90a0bda9`.
+
+**Result:** Step 51 complete.
 
 # Completion log
 
@@ -4016,3 +4046,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 48 | 2026-10-04 | Complete | Replaced the placeholder Product Architecture canvas with a 15-node/14-edge curated structural view using only existing subtypeOf and hasPart relationships; preserved exhaustive detail in the recursive Base and introduced no unsupported Ports, flows, or occurrences. |
 | 49 | 2026-10-04 | Complete | Validated the architecture view: all 14 canvas edges match governed relationships, no unsupported semantics were introduced, and remaining product-context, Design, Function, evidence, Port, flow, and subtype-quality gaps are explicitly documented. |
 | 50 | 2026-10-04 | Complete | Analyzed all 129 Product Functions: 6 goal-level decomposition roots, 20 intermediate reusable families, and 103 concrete source-backed functions; confirmed zero Step-50 hierarchy orphans and zero Requirement satisfaction links, with scope/naming and traceability questions deferred to Steps 52–54. |
+| 51 | 2026-10-05 | Complete | Grouped Function navigation by the six existing modeled goal roots, synchronized the documented Function tree with all 129 Function notes, and avoided arbitrary physical folders or semantic changes. Evidence: `Product Function Navigation Grouping Step 51 0.1.yaml`. |
