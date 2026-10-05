@@ -17,6 +17,8 @@ participants:
   - "[[Dealer Service Technician]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
+drives:
+  - "[[BMID - Retain Battery-Specific Usage History]]"
 ---
 
 # Document Battery Care for Warranty Compliance
