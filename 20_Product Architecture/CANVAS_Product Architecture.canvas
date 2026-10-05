@@ -1,23 +1,253 @@
 {
   "nodes": [
     {
-      "id": "architecture_readme",
+      "id": "root",
       "type": "file",
-      "file": "20_Product Architecture/README_Product Architecture.md",
+      "file": "10_Products/Battery-Connected Product.md",
       "x": 0,
       "y": 0,
-      "width": 420,
-      "height": 220
+      "width": 340,
+      "height": 140
     },
     {
-      "id": "architecture_note",
-      "type": "text",
-      "text": "Product Architecture is intentionally sparse. Add stable architecture/realization content here only when supported by product-development work or controlled migration.",
-      "x": 520,
-      "y": 0,
-      "width": 420,
-      "height": 220
+      "id": "truck",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Industrial Truck Anatomy.md",
+      "x": 500,
+      "y": -260,
+      "width": 360,
+      "height": 140
+    },
+    {
+      "id": "gse",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Vehicle Anatomy.md",
+      "x": 500,
+      "y": 260,
+      "width": 360,
+      "height": 140
+    },
+    {
+      "id": "tbatt",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Battery Compartment.md",
+      "x": 1040,
+      "y": -600,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "tcan",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Controller and CAN Bus.md",
+      "x": 1040,
+      "y": -470,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "tdisp",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Controls and Display.md",
+      "x": 1040,
+      "y": -340,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "tdrive",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Drive and Brakes.md",
+      "x": 1040,
+      "y": -210,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "thyd",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Hydraulics.md",
+      "x": 1040,
+      "y": -80,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "top",
+      "type": "file",
+      "file": "20_Product Architecture/Industrial Truck Architecture/Truck Operator Compartment.md",
+      "x": 1040,
+      "y": 50,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "gbatt",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Battery Compartment.md",
+      "x": 1040,
+      "y": 210,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "gcan",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Controller and CAN Bus.md",
+      "x": 1040,
+      "y": 340,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "gdisp",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Controls and Display.md",
+      "x": 1040,
+      "y": 470,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "gdrive",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Drive and Brakes.md",
+      "x": 1040,
+      "y": 600,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "ghyd",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Hydraulics.md",
+      "x": 1040,
+      "y": 730,
+      "width": 330,
+      "height": 110
+    },
+    {
+      "id": "gop",
+      "type": "file",
+      "file": "20_Product Architecture/Ground Support Equipment Architecture/GSE Operator Compartment.md",
+      "x": 1040,
+      "y": 860,
+      "width": 330,
+      "height": 110
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "e-truck-root",
+      "fromNode": "truck",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e-gse-root",
+      "fromNode": "gse",
+      "fromSide": "left",
+      "toNode": "root",
+      "toSide": "right",
+      "label": "subtypeOf"
+    },
+    {
+      "id": "e-truck-batt",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "tbatt",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-truck-can",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "tcan",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-truck-disp",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "tdisp",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-truck-drive",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "tdrive",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-truck-hyd",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "thyd",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-truck-op",
+      "fromNode": "truck",
+      "fromSide": "right",
+      "toNode": "top",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-batt",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "gbatt",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-can",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "gcan",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-disp",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "gdisp",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-drive",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "gdrive",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-hyd",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "ghyd",
+      "toSide": "left",
+      "label": "hasPart"
+    },
+    {
+      "id": "e-gse-op",
+      "fromNode": "gse",
+      "fromSide": "right",
+      "toNode": "gop",
+      "toSide": "left",
+      "label": "hasPart"
+    }
+  ]
 }
