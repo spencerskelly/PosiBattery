@@ -1,0 +1,244 @@
+schema_version: "0.1"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 4
+status: "Complete"
+title: "Controlled semantic-linking exception classes"
+
+authority:
+  expectation_matrix: "80_Decisions and Planning/Semantic Linking Expectation Matrix Step 2 0.1.yaml"
+  content_standards: "80_Decisions and Planning/Semantic Linking Content Standards Step 3 0.1.yaml"
+  relationship_schema: "99_System/03_Schemas/relationships.yaml 1.36"
+  rule: "An exception explains why an expected semantic link is intentionally absent or unresolved. It never authorizes an invalid relationship, broken target, missing inverse, provisional relationship, or temporary relationship."
+
+purpose:
+  statement: "Replace vague 'acceptable none' reasoning with a controlled, reviewable vocabulary that can be used consistently across the whole-vault linking pass."
+  scope:
+    - "Gap disposition only."
+    - "No change to element type, status, ID, UID, relationship vocabulary, or lifecycle state."
+    - "Step 5 may consume these codes in reporting, but Step 4 does not yet add them to note frontmatter."
+
+disposition_states:
+  linked:
+    meaning: "The expected semantic dimension is satisfied by one or more valid governed relationships or Local Model contextual uses."
+    exception_required: false
+  intentionally_absent:
+    meaning: "The semantic dimension does not currently need a relationship for a controlled reason."
+    exception_required: true
+  unresolved:
+    meaning: "The relationship is expected but cannot yet be asserted safely because engineering meaning/evidence is incomplete."
+    exception_required: true
+  not_applicable:
+    meaning: "The expectation dimension does not apply to this element in its current role."
+    exception_required: true
+
+exception_classes:
+
+  EXC-FRAMING:
+    name: "Framing or navigation note"
+    disposition: "not_applicable"
+    meaning: "The note exists to orient, summarize, frame, or navigate model content rather than to participate as an engineering element in the semantic chain."
+    typical_classes: [Info, Diagram]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+      - "evidence"
+    evidence_needed: "The note body/function clearly shows framing/navigation purpose."
+    invalid_use:
+      - "Do not use on Requirement, Function, Design, Verification, or other active engineering elements merely because their body is descriptive."
+      - "Do not use to hide a missing active-engineering link."
+    example: "BMID Product Abstract and Definition framing note may use this disposition if review confirms it is intentionally non-semantic framing."
+
+  EXC-REFERENCE-LEAF:
+    name: "External/reference leaf"
+    disposition: "intentionally_absent"
+    meaning: "The note is retained primarily as market, catalog, source, competitor, ecosystem, or external-reference knowledge and has not been adopted into active engineering."
+    typical_classes: [Object, Design, Organization, Actor, Document, Info, Port, Item_Flow]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+    evidence_needed: "Current use is reference_content under Step 3 and no active-engineering consumer depends on the missing relationship."
+    invalid_use:
+      - "Once an active decision relies on the note, reclassify and satisfy the stricter standard."
+      - "Does not excuse invalid existing relationships or missing provenance."
+    example: "A competitor product retained for comparison with no current product adoption."
+
+  EXC-REUSABLE-UNSELECTED:
+    name: "Reusable definition not yet selected"
+    disposition: "intentionally_absent"
+    meaning: "A reusable platform/library definition is valid and intentionally retained but has not yet been selected into an active product, plan, procedure, or architecture."
+    typical_classes: [Object, Port, Item_Flow, Function, Design, Verification, Procedure, Setup, Plan, Step]
+    allowed_for:
+      - "ownership_use"
+      - "downstream"
+      - "evidence"
+    evidence_needed: "The element has a clear reusable/library purpose and no active consumer is expected yet."
+    invalid_use:
+      - "Cannot be used if the element is already referenced by an active Local Model or product-development chain."
+    example: "Generic reusable Verification intent not yet assigned to a product."
+
+  EXC-ARCH-UNRESOLVED:
+    name: "Unresolved architecture choice"
+    disposition: "unresolved"
+    meaning: "An implementation/design relationship is expected, but engineering has not selected or supported a specific architecture choice."
+    typical_classes: [Function, Design, Object, Requirement]
+    allowed_for:
+      - "downstream"
+      - "ownership_use"
+    evidence_needed: "The gap is explicitly recognized and a stronger relationship would overstate current engineering knowledge."
+    invalid_use:
+      - "Do not use when an existing supported Design/Object already provides the required relationship."
+      - "Do not create provisional tracesTo merely to mark the gap."
+    example: "BMID Estimate State of Charge has no selected Design realization."
+
+  EXC-UNMODELED-IMPLEMENTATION:
+    name: "Implementation intentionally not modeled"
+    disposition: "intentionally_absent"
+    meaning: "The model intentionally stops before implementation detail that is outside the current scope or abstraction level."
+    typical_classes: [Function, Design, Object, Port, Item_Flow]
+    allowed_for:
+      - "downstream"
+      - "ownership_use"
+    evidence_needed: "The abstraction boundary is deliberate and documented by the current product/model scope."
+    invalid_use:
+      - "Cannot be used for a missing relationship that is necessary to make an active engineering decision understandable."
+    example: "A product-level Function whose internal algorithm is deliberately outside the current model scope."
+
+  EXC-RESEARCH-ONLY:
+    name: "Research-only concept"
+    disposition: "intentionally_absent"
+    meaning: "The note captures research synthesis, comparison context, or an investigated concept that has not been promoted into the active engineering model."
+    typical_classes: [Info, Design, Object, Document, Organization]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+    evidence_needed: "The note is used as research/reference rather than as an adopted engineering decision."
+    invalid_use:
+      - "When research drives a Requirement, Design, supplier choice, or other active decision, the relevant evidence/semantic relationship must be added."
+    example: "A researched charging technology concept that has not been selected."
+
+  EXC-HISTORICAL:
+    name: "Historical or superseded evidence"
+    disposition: "intentionally_absent"
+    meaning: "The note is retained for history, provenance, auditability, or supersession context rather than current engineering use."
+    typical_classes: [Issue, Result, Artifact, Document, Info, Diagram]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+      - "evidence"
+    evidence_needed: "Historical/superseded role is clear from the note, relationship, or repository history."
+    invalid_use:
+      - "Does not excuse a missing supersedes relationship when one is known and semantically appropriate."
+    example: "A historical result retained after a later validated result replaces its decision role."
+
+  EXC-IMPORT-HOLDING:
+    name: "Imported semantics awaiting reconciliation"
+    disposition: "unresolved"
+    meaning: "The note exists to preserve source/import semantics that have not yet been promoted to a stable governed class/relationship."
+    typical_classes: [modelCheck, Functional_Flow, State, Step, Diagram]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+      - "evidence"
+    evidence_needed: "Source/import provenance exists and semantic promotion has not yet been completed."
+    invalid_use:
+      - "Cannot be used indefinitely once the source semantics are understood well enough to classify."
+      - "Temporary/provisional relationships remain findings even when this exception applies."
+    example: "EA element retained as modelCheck pending post-import semantic reconciliation."
+
+  EXC-EVIDENCE-PENDING:
+    name: "Evidence insufficient to assert link"
+    disposition: "unresolved"
+    meaning: "A relationship is plausible or expected, but current source/model evidence is not strong enough to make the semantic claim."
+    typical_classes: [Requirement, Function, Design, Object, Verification, Info, Document, Organization]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+      - "evidence"
+    evidence_needed: "The reviewer can state what evidence is missing or why current evidence is ambiguous."
+    invalid_use:
+      - "Do not use as a substitute for reviewing available evidence."
+      - "Do not add tracesTo merely because this exception exists."
+    example: "Supplier capability appears likely from marketing material but is not confirmed strongly enough to support an engineering relationship."
+
+  EXC-NOT-APPLICABLE:
+    name: "Expectation dimension not applicable"
+    disposition: "not_applicable"
+    meaning: "The Step 2 expectation dimension genuinely does not apply to this element in its current role."
+    typical_classes: [Info, Document, Diagram, Artifact, Organization, Actor]
+    allowed_for:
+      - "upstream"
+      - "downstream"
+      - "ownership_use"
+      - "evidence"
+    evidence_needed: "The element role makes the dimension semantically irrelevant, not merely inconvenient."
+    invalid_use:
+      - "Never use on a strict active-engineering expectation that is materially required by Step 3."
+    example: "A derived navigation Diagram does not require an engineering downstream chain."
+
+use_rules:
+  - "Every accepted missing Step 2 expectation during Steps 6-27 must resolve to linked, intentionally_absent, unresolved, or not_applicable."
+  - "Every intentionally_absent, unresolved, or not_applicable disposition must use exactly one primary exception code from this file."
+  - "A secondary explanatory note may be recorded, but free-form wording never replaces the controlled code."
+  - "Use the narrowest exception that explains the gap."
+  - "If EXC-NOT-APPLICABLE and a more specific exception both fit, use the more specific exception."
+  - "EXC-EVIDENCE-PENDING and EXC-ARCH-UNRESOLVED are unresolved gaps and remain visible in completion reporting; they are not considered equivalent to a completed link."
+  - "Intentional exceptions count as explained gaps, not repaired links."
+  - "A stricter Step 3 completeness class overrides a weaker default exception claim."
+  - "Classification and exception disposition must be reviewed again when the note's engineering use changes."
+  - "No exception suppresses identity, target-resolution, endpoint, inverse, provisional, temporary, or structural validator findings."
+
+completion_semantics:
+  active_engineering:
+    complete_when:
+      - "All materially applicable expectation dimensions are linked or intentionally absent with an allowed controlled exception."
+      - "Unresolved exceptions are zero for final semantic-linking completion unless explicitly accepted as a named engineering decision backlog in the final handoff."
+    caution: "Reference-leaf, research-only, and reusable-unselected exceptions are normally incompatible with active_engineering unless the classification itself is reconsidered."
+  engineering_support:
+    complete_when:
+      - "Actual active consumers have where-used/evidence connectivity."
+      - "Unused dimensions may use an intentional exception."
+  reference_content:
+    complete_when:
+      - "Existing asserted relationships are valid and source/provenance is preserved."
+      - "Sparse dimensions may use EXC-REFERENCE-LEAF or a more specific controlled exception."
+  historical_or_import_holding:
+    complete_when:
+      - "Identity/source context is preserved and unresolved import semantics are visible."
+      - "Promotion is not falsely claimed complete."
+
+storage_policy:
+  step_4: "Exceptions are governance/reporting vocabulary only; do not add new note properties in this step."
+  step_5: "Automated reporting may maintain a separate review/disposition record or another governed representation after implementation design is reviewed."
+  note_frontmatter_change_requires: "separate schema/governance decision"
+  reason: "Avoid silently creating a second relationship-status or exception metadata system before the reporting contract is implemented."
+
+step_4_result:
+  exception_codes_defined: 10
+  unresolved_exception_codes:
+    - "EXC-ARCH-UNRESOLVED"
+    - "EXC-IMPORT-HOLDING"
+    - "EXC-EVIDENCE-PENDING"
+  intentional_sparse_codes:
+    - "EXC-FRAMING"
+    - "EXC-REFERENCE-LEAF"
+    - "EXC-REUSABLE-UNSELECTED"
+    - "EXC-UNMODELED-IMPLEMENTATION"
+    - "EXC-RESEARCH-ONLY"
+    - "EXC-HISTORICAL"
+    - "EXC-NOT-APPLICABLE"
+  schema_changes_made: 0
+  model_relationships_changed: 0
+  note_metadata_changed: 0
+  ready_for_step_5: true
+
+next_step:
+  step: 5
+  title: "Align automated traceability rules to the new matrix"
