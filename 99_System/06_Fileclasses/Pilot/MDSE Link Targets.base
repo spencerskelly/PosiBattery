@@ -1,0 +1,93 @@
+# GENERATED FOR STEP 79 PILOT from element-types.1.18.yaml, metadata.1.0.yaml, relationships.1.36.yaml
+filters:
+  and:
+    - '!file.inFolder("99_System")'
+    - 'file.ext == "md"'
+    - '!note.type.isEmpty()'
+views:
+  - type: table
+    name: "Any model note"
+    order: [file.name, type, id]
+  - type: table
+    name: "Organization"
+    filters: {or: ['note.type == "Organization"', 'note.type == "Info" && list(tags).contains("organization")']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Object"
+    filters: {or: ['note.type == "Object"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Actor"
+    filters: {or: ['note.type == "Actor"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Use Case"
+    filters: {or: ['note.type == "Use Case"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Function"
+    filters: {or: ['note.type == "Function"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Design"
+    filters: {or: ['note.type == "Design"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Requirement"
+    filters: {or: ['note.type == "Requirement"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Info"
+    filters: {or: ['note.type == "Info"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Document"
+    filters: {or: ['note.type == "Document"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Verification"
+    filters: {or: ['note.type == "Verification"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Result"
+    filters: {or: ['note.type == "Result"']}
+    order: [file.name, type, id]
+  - type: table
+    name: "Procedure | Setup | Use Case"
+    filters:
+      or:
+        - 'note.type == "Procedure"'
+        - 'note.type == "Setup"'
+        - 'note.type == "Use Case"'
+    order: [file.name, type, id]
+  - type: table
+    name: "Function | Design"
+    filters:
+      or:
+        - 'note.type == "Function"'
+        - 'note.type == "Design"'
+    order: [file.name, type, id]
+  - type: table
+    name: "Requirement | Use Case"
+    filters:
+      or:
+        - 'note.type == "Requirement"'
+        - 'note.type == "Use Case"'
+    order: [file.name, type, id]
+  - type: table
+    name: "Requirement | Function | Design | Info"
+    filters:
+      or:
+        - 'note.type == "Requirement"'
+        - 'note.type == "Function"'
+        - 'note.type == "Design"'
+        - 'note.type == "Info"'
+    order: [file.name, type, id]
+  - type: table
+    name: "Organization | Object"
+    filters:
+      or:
+        - 'note.type == "Organization"'
+        - 'note.type == "Info" && list(tags).contains("organization")'
+        - 'note.type == "Object"'
+    order: [file.name, type, id]
