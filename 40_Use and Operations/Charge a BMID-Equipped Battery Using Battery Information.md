@@ -16,6 +16,9 @@ realizedBy:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
   - "[[Communicate with Charger]]"
+givesRiseTo:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Charge a BMID-Equipped Battery Using Battery Information
