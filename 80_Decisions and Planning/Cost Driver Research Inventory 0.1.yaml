@@ -1,0 +1,250 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+source_folder: "_Cost Driver Research"
+step: 23
+purpose: "Inventory the legacy cost-driver research island before mapping or migration."
+recommended_destination_domain: "70_Research and Evidence/Research"
+recommended_destination_group: "Cost Drivers"
+migration_executed: false
+
+summary:
+  files: 12
+  cost_driver_deep_dives: 10
+  cross_driver_synthesis_notes: 2
+  markdown_model_wikilinks: 0
+  explicit_governed_relationships: 0
+  notes_with_reference_heading: 7
+  notes_without_reference_heading: 5
+  notes_with_zero_explicit_external_links: 3
+  total_unique_explicit_external_links_observed: 155
+  primary_content_role: "research synthesis"
+  canonical_model_status: "not authoritative model facts merely by presence in these notes"
+
+migration_principles:
+  - "Preserve each note as research synthesis unless later review identifies material that should be extracted into canonical model elements."
+  - "Do not convert vendor claims, ROI figures, product opportunities, recommended architectures, or roadmap suggestions into canonical facts without evidence review."
+  - "Preserve source URLs, cited outcomes, caveats, risks, pilot guidance, formulas, and future-work sections."
+  - "Treat quantitative claims in notes without explicit source references as unsupported until provenance is recovered."
+  - "Do not create model relationships merely from prose adjacency in these research notes."
+  - "Step 24 will define the exact per-file migration mapping; Step 23 only defines the destination domain/group and inventory."
+
+files:
+  - file: "Cost Driver 01 Labor and Productivity.md"
+    role: "cost_driver_deep_dive"
+    topic: "labor and productivity"
+    explicit_external_links: 0
+    references_heading: false
+    wikilinks: 0
+    provenance_status: "weak_explicit_provenance"
+    unique_conclusions:
+      - "Labor-productivity value comes from reducing travel, waiting, manual transactions, poor task allocation, repetitive transport, training burden, and rework."
+      - "Connected battery/charger products are positioned as an equipment-readiness and workflow layer rather than a replacement WMS/WES/LMS."
+      - "Released labor capacity is not automatically cash savings and requires finance-approved realization logic."
+    preserve:
+      - "product-category landscape"
+      - "ROI and pilot controls"
+      - "build/partner strategy"
+      - "risks and future work"
+
+  - file: "Cost Driver 02 Inventory Carrying, Accuracy, and Loss.md"
+    role: "cost_driver_deep_dive"
+    topic: "inventory carrying, accuracy, shrinkage, and loss"
+    explicit_external_links: 0
+    references_heading: false
+    wikilinks: 0
+    provenance_status: "weak_explicit_provenance"
+    unique_conclusions:
+      - "Inventory cost is framed as capital, storage/handling, loss, obsolescence, count/reconciliation labor, shortages, and disruption."
+      - "The strongest MHE adjacency is a physical-observation and exception platform, not a replacement WMS."
+      - "More observations do not automatically create inventory accuracy; event interpretation and exception closure remain necessary."
+    preserve:
+      - "technology comparison logic"
+      - "selection framework"
+      - "value equations"
+      - "build/partner strategy"
+      - "risks and future work"
+
+  - file: "Cost Driver 03 Facility Space and Storage Capacity.md"
+    role: "cost_driver_deep_dive"
+    topic: "facility space and storage capacity"
+    explicit_external_links: 23
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Space economics depend on density, cubic utilization, travel, staging, conditioned volume, and deferred expansion rather than rent alone."
+      - "The strongest connected-MHE opportunity is utilization, modeling, traffic/charging-space coordination, and savings verification rather than another storage machine."
+    preserve:
+      - "commercial product comparison"
+      - "operating-business evidence"
+      - "measurement framework"
+      - "source list and caveats"
+
+  - file: "Cost Driver 04 Transportation and Packaging.md"
+    role: "cost_driver_deep_dive"
+    topic: "transportation and packaging"
+    explicit_external_links: 19
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Transportation and packaging economics are coupled across consolidation, route/carrier selection, trailer utilization, dock/yard dwell, packaging cube, rating, damage, and invoice compliance."
+      - "Value is strongest when planning and physical execution share a shipment-level record through verified savings."
+    preserve:
+      - "product landscape"
+      - "business evidence"
+      - "cost-reduction model"
+      - "measurement framework"
+      - "source list"
+
+  - file: "Cost Driver 05 MHE Lifecycle Cost.md"
+    role: "cost_driver_deep_dive"
+    topic: "MHE lifecycle cost"
+    explicit_external_links: 0
+    references_heading: false
+    wikilinks: 0
+    provenance_status: "weak_explicit_provenance"
+    unique_conclusions:
+      - "MHE lifecycle value depends on fleet right-sizing, maintenance workflow, battery lifecycle, damage/abuse, replacement timing, charging capacity, and verified savings."
+      - "The recommended roadmap starts with asset identity/cost normalization, then closed maintenance workflows, shift readiness, verified savings, fleet/charging optimization, and expanded condition coverage."
+      - "Truck, battery, charger, operator, location, and attachment should be separate time-related entities."
+    preserve:
+      - "TCO framework"
+      - "architecture requirements"
+      - "pilot method"
+      - "ROI logic"
+      - "recommended roadmap and risks"
+
+  - file: "Cost Driver 06 Downtime and Congestion.md"
+    role: "cost_driver_deep_dive"
+    topic: "downtime and congestion"
+    explicit_external_links: 20
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Downtime and congestion are treated as linked losses involving unavailable equipment, queues, blocked flow, delayed repair, and missed throughput."
+      - "Proposed adjacencies include shift readiness, charging-queue orchestration, downtime-event workflows, congestion intelligence, and maintenance-system integration."
+    preserve:
+      - "needs-to-functions map"
+      - "product opportunities"
+      - "recommended architecture"
+      - "KPI framework"
+      - "pilot design and sources"
+
+  - file: "Cost Driver 07 Warehouse Safety and Damage.md"
+    role: "cost_driver_deep_dive"
+    topic: "warehouse safety and damage"
+    explicit_external_links: 22
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Safety economics include injury, damage, insurance, investigation, compliance, and avoided productivity loss."
+      - "The research explores a safety-and-energy edge-controller opportunity with modular sensing, proximity, speed, analytics, and workflow features."
+    preserve:
+      - "commercial category comparison"
+      - "documented outcomes"
+      - "cost/productivity models"
+      - "technical architecture"
+      - "sources and safety caveats"
+
+  - file: "Cost Driver 08 Utilities and Energy.md"
+    role: "cost_driver_deep_dive"
+    topic: "utilities and energy"
+    explicit_external_links: 10
+    references_heading: false
+    wikilinks: 0
+    provenance_status: "explicit_links_present_but_not_normalized_reference_section"
+    unique_conclusions:
+      - "Warehouse energy value spans building systems and MHE charging, including consumption, peak demand, infrastructure deferral, maintenance, and operational losses."
+      - "MHE-adjacent opportunities include fleet-energy orchestration and shift-readiness/energy planning."
+    preserve:
+      - "product landscape"
+      - "documented outcomes"
+      - "KPI and ROI framework"
+      - "MHE-adjacent opportunities"
+      - "embedded source links"
+
+  - file: "Cost Driver 09 Systems and Administration.md"
+    role: "cost_driver_deep_dive"
+    topic: "systems and administration"
+    explicit_external_links: 15
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Administrative cost is framed around duplicate entry, disconnected systems, manual workflow, slow response, audit burden, and integration overhead."
+      - "Relevant product categories include WMS/WES, integration platforms, RPA, mobile workflow, labor management, analytics, and control towers."
+    preserve:
+      - "needs-to-value map"
+      - "commercial product landscape"
+      - "documented outcomes"
+      - "source list"
+
+  - file: "Cost Driver 10 Workforce Hiring, Training, and Retention.md"
+    role: "cost_driver_deep_dive"
+    topic: "workforce hiring, training, and retention"
+    explicit_external_links: 17
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "The strongest commercial pattern is an integrated workforce loop spanning forecast, schedule, fill, train/certify, measure readiness, feedback, and retention intervention."
+      - "Integration among workforce, training, operational, safety, and MHE-energy data is identified as incomplete."
+    preserve:
+      - "product landscape"
+      - "cost/productivity model"
+      - "recommended architecture"
+      - "implementation roadmap"
+      - "pilot, risks, procurement criteria, and sources"
+
+  - file: "MHE Cost Drivers Mapped to Product Functions.md"
+    role: "cross_driver_synthesis"
+    topic: "cost-driver to product-function mapping"
+    explicit_external_links: 6
+    references_heading: false
+    wikilinks: 0
+    provenance_status: "explicit_links_present_but_mapping_is_research_hypothesis"
+    unique_conclusions:
+      - "Uses a sense → interpret → act → optimize → verify product-value model."
+      - "Maps warehouse cost drivers to candidate product functions, options, and customer KPIs adjacent to connected batteries, chargers, forklifts, and cloud systems."
+      - "Contains proposed product architecture that must not be treated as approved architecture without later product-development review."
+    preserve:
+      - "executive mapping"
+      - "candidate architecture"
+      - "function hypotheses"
+      - "KPI mapping"
+      - "embedded sources"
+
+  - file: "Top Cost Drivers in an MHE-Enabled Warehouse.md"
+    role: "cross_driver_synthesis"
+    topic: "warehouse cost-driver hierarchy"
+    explicit_external_links: 13
+    references_heading: true
+    wikilinks: 0
+    provenance_status: "explicit_sources_present"
+    unique_conclusions:
+      - "Labor and lost productivity are identified as the largest controllable cost in many MHE warehouses, with ranking dependent on accounting boundary."
+      - "Forklift purchase price and electricity are argued to be less important than travel, waiting, congestion, charging labor, downtime, slotting, space, damage, and underutilization."
+      - "Provides a normalized cost hierarchy and MHE-specific lifecycle cost stack."
+    preserve:
+      - "cost hierarchy"
+      - "MHE cost stack"
+      - "priority actions"
+      - "recommended cost model"
+      - "references"
+
+destination_assessment:
+  canonical_domain: "70_Research and Evidence/Research"
+  recommended_group_name: "Cost Drivers"
+  rationale:
+    - "All 12 notes are synthesis/analysis rather than canonical product, function, design, organization, or source-document identity records."
+    - "The notes mix market evidence, hypotheses, ROI models, product opportunities, architecture suggestions, risks, and future work, which is appropriate for Research."
+    - "A dedicated Cost Drivers subgroup would preserve the coherent research series without promoting research conclusions into ontology."
+  source_record_follow_up:
+    - "External references should later be matched to or converted into curated Source Document records when they support durable claims."
+    - "Cost Drivers 01, 02, and 05 need provenance recovery before quantitative/product claims are relied upon."
+  semantic_extraction_follow_up:
+    - "Potential customer needs, functions, designs, requirements, metrics, and product opportunities may be extracted later only through evidence-backed modeling work."
