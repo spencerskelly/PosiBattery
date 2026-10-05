@@ -5021,3 +5021,37 @@ Evidence: `80_Decisions and Planning/BMID Function Design Traceability Step 89 0
 **Commit:** `4641fbfa`.
 
 **Result:** Step 89 complete. The next incomplete roadmap item is **Step 90 — Build Product Assembly using Local Model**.
+
+
+---
+
+## Step 90 completion evidence — Build Product Assembly using Local Model
+
+**Date:** 2026-10-05
+
+Built the first governed Local Model architecture for the **PosiCharge BMID** pilot at `20_Product Architecture/PosiCharge BMID Product Assembly Local Model.md`.
+
+The model is intentionally an **integration assembly context**, not a product BOM. It reuses existing Object definitions rather than duplicating them:
+- [[PosiCharge BMID]] as a required `usage: variant` occurrence;
+- [[Industrial Traction Battery]] as a required `usage: variant` occurrence;
+- [[Industrial Battery Charger]] as a required `usage: variant` occurrence.
+
+Two reusable logical Port definitions were added:
+- [[iBMID - Battery Interaction|BMID Battery Interaction]]
+- [[iBMID - Charger Communication|BMID Charger Communication]]
+
+Two reusable abstract Item Flow definitions were added:
+- [[BMID Battery Sensing Data]]
+- [[BMID Charger Battery Information]]
+
+The Local Model 0.2 region contains **3 part occurrences, 4 endpoints, 2 connections, and 2 flow occurrences**. This establishes the first occurrence-aware architecture path without converting external context into BMID `hasPart` structure.
+
+The model deliberately does **not** infer internal PCBAs, controller/memory/power topology, sensor wiring, physical connectors, pinouts, protocols, cloud architecture, service topology, or lithium-BMS control ownership. Those remain explicit architecture gaps until product-specific evidence supports them.
+
+The [[PosiCharge BMID]] note now carries the persisted inverse `describedBy` link back to the Local Model assembly note. Local Model markers are balanced and all 11 Local Model record block IDs are unique within the note.
+
+Evidence: `80_Decisions and Planning/BMID Product Assembly Step 90 0.1.yaml`.
+
+**Commit:** `1d84bc19`.
+
+**Result:** Step 90 complete. The next incomplete roadmap item is **Step 91 — Introduce Verification structure**.
