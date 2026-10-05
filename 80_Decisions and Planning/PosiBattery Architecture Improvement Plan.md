@@ -701,7 +701,7 @@ Primary top-level domain coverage currently has no missing-standard-artifact fin
 | Root area | Files | Markdown | Bases | Canvases | PDFs |
 |---|---:|---:|---:|---:|---:|
 | `10_Products` | 429 | 426 | 2 | 1 | 0 |
-| 2 | 2026-10-04 | Complete | Baseline counts recorded at main commit `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. Exact relationship-edge totals deferred to Step 4 machine-readable scan because the connector bulk-read cap prevents an authoritative full-note parse here. |\n| `30_Product Capabilities` | 315 | 306 | 6 | 3 | 0 |
+| 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline. +47 Markdown, +9 model notes (all Functions), large numbered-taxonomy migration, new accessory traceability, runtime/schema versions unchanged, and broken wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |\n| 2 | 2026-10-04 | Complete | Baseline counts recorded at main commit `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. Exact relationship-edge totals deferred to Step 4 machine-readable scan because the connector bulk-read cap prevents an authoritative full-note parse here. |\n| `30_Product Capabilities` | 315 | 306 | 6 | 3 | 0 |
 | `60_Stakeholders and Ecosystem` | 107 | 100 | 5 | 2 | 0 |
 | `99_System` | 96 | 78 | 4 | 3 | 0 |
 | `70_Research and Evidence` | 69 | 63 | 4 | 2 | 0 |
@@ -722,6 +722,109 @@ The active relationship contract defines paired, symmetric, temporary, and one-w
 This limitation is intentionally deferred to **Step 4**, where the machine-readable inventory can calculate and persist repeatable relationship-instance metrics alongside folder statistics. Step 1 already confirms that the current relationship targets that were scanned by the controlled audit have **0 unresolved targets** and **0 missing inverses**.
 
 **Result:** Step 2 complete. Repository, model, evidence, navigation, and major-area counts are now captured as the comparison baseline. Exact relationship-edge totals remain a documented machine-inventory follow-up rather than an estimated value.
+
+---
+
+## Step 3 completion evidence — Comparison with the 2026-10-04 integrity report
+
+**Date:** 2026-10-04  
+**Previous clean-audit commit:** `b8fda489093a12bd4b14a40e03cd77e23814ea3a`  
+**Comparison endpoint:** current Step 2 baseline at `5e8e3b2c9b4c0045ae6265cd829caafc589e2d76`  
+**Commits between baselines:** **19**
+
+The comparison shows two distinct categories of change after the earlier clean handoff: a large information-architecture reorganization and a smaller but meaningful expansion of accessory-related model content.
+
+### Structural-count deltas
+
+| Measure | Previous clean audit | Fresh baseline | Delta |
+|---|---:|---:|---:|
+| Markdown files | 1,029 | 1,076 | **+47** |
+| Model notes | 896 | 905 | **+9** |
+| Actor | 11 | 11 | 0 |
+| Design | 118 | 118 | 0 |
+| Document | 8 | 8 | 0 |
+| Function | 120 | 129 | **+9** |
+| Info | 193 | 193 | 0 |
+| Object | 424 | 424 | 0 |
+| Use Case | 22 | 22 | 0 |
+| Broken wikilinks | 0 | 27 | **+27** |
+| Ambiguous wikilinks | 0 | 0 | 0 |
+| Unresolved relationship targets | 0 | 0 | 0 |
+| Missing relationship inverses | 0 | 0 | 0 |
+| Duplicate IDs / UIDs | 0 / 0 | 0 / 0 | unchanged |
+| Paths over 212 chars | 0 | 0 | unchanged |
+
+The **+9 model-note delta is entirely Function growth**. No other governed model class changed count between the two audits.
+
+### Major architectural changes since the clean audit
+
+The commit history shows the vault moved from the prior unnumbered domain layout toward the current numbered canonical root architecture.
+
+Key changes include:
+
+- addition of the canonical knowledge-base backlog;
+- definition of the canonical top-level taxonomy;
+- addition of the canonical vault folder skeleton;
+- addition of the legacy-content inventory and migration map;
+- addition of the common element metadata standard;
+- addition of the relationship vocabulary usage guide;
+- addition of the schema reconciliation plan and matrix;
+- addition of schema/relationship implementation decisions;
+- broad filesystem relocation into numbered root domains.
+
+The GitHub compare API reports at least **298 detected renames** in the returned file set. Representative examples show content moving from paths such as:
+
+- `Products/...` → `10_Products/...`
+
+The compare response is capped by GitHub's changed-file response limit, so 298 is evidence of the large migration batch, not a claim that exactly 298 repository files were the only relocated files. One of the migration commits itself records **995 affected files**.
+
+### Model-content changes
+
+Accessory research/modeling was expanded after the clean audit:
+
+- summaries and marketed-feature evidence were added to **159 accessory notes**;
+- **9 new Functions** were created (`FUNC-00124` through `FUNC-00132`);
+- **91 sourced `performs/performedBy` links** were added across 52 accessory notes;
+- the 9 new Functions were connected to customer needs with **11 `realizes/realizedBy` links across 8 needs**;
+- **6 Function-to-Design `dependsOn/dependencyOf` relationships** were added;
+- 3 of the new Functions intentionally remain without a Design note because supporting evidence was not available.
+
+These changes explain the full model-count increase from 896 to 905.
+
+### Runtime and schema state
+
+The core runtime/schema versions remain unchanged from the previous integrity handoff:
+
+- Workbench: **0.1.17**
+- Bootstrap: **0.3.1**
+- relationships schema: **1.35**
+- element-types schema: **1.17**
+- Local Model schema: **0.2**
+- Modeling Ruleset basis: **1.23**
+
+Therefore, the current audit regression is not attributable to a runtime/schema version upgrade.
+
+### Material integrity regression
+
+The previous report was fully clean, including **0 broken wikilinks**. The fresh audit reports **27 broken wikilinks**.
+
+The failures are concentrated in governance/navigation documents introduced or moved during the architecture transition, plus one stale Customer Needs path reference. Identity, governed frontmatter, relationship target resolution, inverse persistence, and path length all remain clean.
+
+This indicates a **navigation/path migration regression**, not broad model corruption.
+
+### Interpretation
+
+The vault has materially changed since the prior handoff, but the changes are understandable and bounded:
+
+1. the repository was reorganized toward the numbered canonical taxonomy;
+2. governance/reference documentation expanded substantially;
+3. accessory modeling added nine Functions and new evidence-backed traceability;
+4. model identity and relationship integrity remained stable;
+5. wikilink cleanup did not fully keep pace with the filesystem/governance migration, producing the 27 current blocking findings.
+
+No correction was performed in Step 3. This step records change awareness only, as required by the roadmap.
+
+**Result:** Step 3 complete. The earlier clean audit is no longer representative of current repository navigation, but remains a valid pre-migration reference point. The current structural defect is specifically the 27-link regression introduced during subsequent organization/governance work.
 
 ---
 
