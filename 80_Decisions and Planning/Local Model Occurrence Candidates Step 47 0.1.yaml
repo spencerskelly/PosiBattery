@@ -1,0 +1,143 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 47
+purpose: "Identify where reusable architecture definitions should be used contextually through Local Model occurrences rather than duplicated notes."
+structure_changed: false
+local_model_records_created: 0
+
+summary:
+  current_reusable_architecture_objects: 26
+  current_reusable_architecture_objects_abstract: 26
+  immediately_valid_standard_part_occurrences: 0
+  high_value_occurrence_patterns_identified: 8
+  occurrence_patterns_blocked_by_missing_concrete_object_definition: 8
+  design_driven_structural_counterpart_opportunities: 4
+
+local_model_constraints:
+  - "A Local Model part definition must point to an Object."
+  - "A standard part occurrence cannot point to an abstract definition."
+  - "Variant and option occurrence families require at least one concrete specialization candidate."
+  - "The current Truck/GSE anatomy definitions are abstract reusable architecture definitions."
+  - "No concrete specialization family is currently established for these generic anatomy parts."
+  - "Therefore no valid standard Local Model part occurrence should be created from the current anatomy notes yet."
+
+high_value_occurrence_patterns:
+  - id: "LM-CAND-001"
+    reusable_concept_family:
+      - "Truck Battery Compartment"
+      - "GSE Battery Compartment"
+    role: "battery compartment occurrence"
+    context: "Vehicle product assemblies that explicitly define battery placement, removable battery configuration, or integrated battery configuration."
+    status: "blocked"
+    prerequisite: "Concrete reusable Object definition or supported concrete specialization before Local Model occurrence creation."
+    example_product_evidence:
+      - "Toyota Traigo48 explicitly describes a side-panel battery change arrangement and an integrated-lithium variant."
+  - id: "LM-CAND-002"
+    reusable_concept_family:
+      - "Truck Controller and CAN Bus"
+      - "GSE Controller and CAN Bus"
+    role: "vehicle controller/network occurrence"
+    context: "Products with explicit controller, CAN, vehicle-bus, or network architecture evidence."
+    status: "blocked"
+    prerequisite: "Concrete controller/network Object definition plus endpoint modeling where needed."
+  - id: "LM-CAND-003"
+    reusable_concept_family:
+      - "Truck Controls and Display"
+      - "GSE Controls and Display"
+    role: "operator controls/display occurrence"
+    context: "Products with explicit operator display/control hardware evidence."
+    status: "blocked"
+    prerequisite: "Concrete reusable Object definition or supported specialization."
+  - id: "LM-CAND-004"
+    reusable_concept_family:
+      - "Truck Drive and Brakes"
+      - "GSE Drive and Brakes"
+    role: "drive/brake subsystem occurrence"
+    context: "Products with explicit drive, regenerative braking, parking-brake, steering, or motor architecture."
+    status: "blocked"
+    prerequisite: "Concrete reusable structural Object definitions."
+    example_product_evidence:
+      - "TUG Endurance Baggage Tractor has source-supported regenerative braking and electronic parking brake."
+      - "TUG 660 Belt Loader has source-supported regenerative braking."
+  - id: "LM-CAND-005"
+    reusable_concept_family:
+      - "Truck Lighting"
+      - "GSE Lighting"
+    role: "lighting subsystem occurrence"
+    context: "Products with source-supported warning, road, status, or work-light architecture."
+    status: "blocked"
+    prerequisite: "Concrete reusable lighting Object definitions."
+  - id: "LM-CAND-006"
+    reusable_concept_family:
+      - "Truck Operator Compartment"
+      - "GSE Operator Compartment"
+    role: "operator-compartment occurrence"
+    context: "Products with explicit operator-station, cab, seat, control, or compartment configuration evidence."
+    status: "blocked"
+    prerequisite: "Concrete reusable Object definition or specialization."
+  - id: "LM-CAND-007"
+    reusable_concept_family:
+      - "Truck Rear Body"
+      - "GSE Rear Body"
+    role: "rear-body/counterweight occurrence"
+    context: "Products where charging ports, batteries, controls, or accessories are explicitly mounted in the rear body/counterweight."
+    status: "blocked"
+    prerequisite: "Concrete reusable structural Object definition."
+    example_product_evidence:
+      - "Toyota Traigo48 explicitly places the integrated-lithium charging port in the counterweight."
+  - id: "LM-CAND-008"
+    reusable_concept_family:
+      - "Truck Hydraulics"
+      - "GSE Hydraulics"
+    role: "hydraulic subsystem occurrence"
+    context: "Products with explicit hydraulic lift, steering, load-handling, or actuator architecture."
+    status: "blocked"
+    prerequisite: "Concrete reusable structural Object definition."
+
+design_driven_structural_counterpart_opportunities:
+  - id: "LM-DES-001"
+    design: "Truck Charging Port"
+    evidence:
+      - "Cat EP25-55 80 V Electric Counterbalance Forklifts"
+      - "Toyota Traigo48"
+    structural_need: "A reusable owned charging-endpoint or connector Object/Port representation may support product-specific occurrences."
+    caution: "The current Design note itself cannot serve as a Local Model part definition."
+  - id: "LM-DES-002"
+    design: "Battery Onboard Charger"
+    evidence:
+      - "Heli A3 Series Lithium Forklifts"
+      - "Multiple batteries, forklifts, and GSE products linked by designOf in the canonical Design note."
+    structural_need: "A reusable charger-module Object could support contextual occurrences where source evidence says the charger is physically built into the product."
+  - id: "LM-DES-003"
+    design: "Regenerative Braking"
+    evidence:
+      - "TUG Endurance Baggage Tractor"
+      - "TUG 660 Belt Loader"
+    structural_need: "No new part should be created merely for the Design; actual motor/controller/brake Objects should be modeled only when source evidence supports structural decomposition."
+  - id: "LM-DES-004"
+    design: "Vehicle-Mounted Display / display-family designs"
+    evidence:
+      - "Multiple product families contain source-supported display/operator-interface features."
+    structural_need: "A reusable display-device Object may be useful when product architecture needs a physical display occurrence rather than only a Design characteristic."
+
+occurrence_policy:
+  - "Do not duplicate Truck/GSE anatomy notes into individual product folders."
+  - "Do not add direct hasPart from every commercial product to abstract generic anatomy definitions."
+  - "Do not create Local Model standard parts from abstract definitions."
+  - "First create or identify concrete reusable structural Objects where evidence supports them."
+  - "Then instantiate those concrete Objects contextually using Local Model part records."
+  - "Use variant or option only when a valid concrete specialization family exists."
+  - "Use Local Model endpoints only after reusable Port definitions exist."
+  - "Use Local Model flows only after reusable Item Flow definitions and connections exist."
+
+priority_for_future_occurrence_modeling:
+  1: "Charging interface / onboard charger because multiple products already have explicit source-supported product context."
+  2: "Drive/brake subsystem because multiple GSE products already have explicit regenerative-braking/electronic-brake evidence."
+  3: "Display/operator interface where physical display evidence is explicit."
+  4: "Battery compartment where removable/integrated battery configuration is explicitly documented."
+  5: "Controller/network architecture after concrete controller and Port definitions exist."
+
+step_48_implication:
+  - "The first meaningful architecture view should use the existing reusable assemblies plus Design relationships and should not pretend Local Model occurrences already exist."
+  - "A small evidence-supported pilot context may be shown as a future-occurrence overlay, but no invalid Local Model records should be created."
