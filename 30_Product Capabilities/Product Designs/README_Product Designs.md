@@ -2,30 +2,82 @@
 
 ## Purpose
 
-This folder contains reusable technical solution concepts—the implementation choices that can realize product functions. Notes span battery construction, charging and power conversion, sensing, communications, data handling, operator interfaces, vehicle safety, and packaging.
+This folder contains reusable technical solution concepts—the implementation choices that can support Product Functions. Product Design notes record reusable patterns observed across products rather than single-product claims.
 
-## Key design families
+## Hierarchy-backed navigation
 
-- **Battery and energy architecture:** [[Lead-Acid Battery Construction Design]], [[Thin Plate Pure Lead Plates]], [[Tubular Plate Construction]], [[Gel Electrolyte]], [[Integrated Battery Management System]], [[Integrated Battery Heater]], and [[Fuel Cell Power Design]].
-- **Charging and power:** [[Charger Power Stage Design]], [[Modular Power Modules]], [[Silicon-Carbide Power Stage]], [[Battery Onboard Charger]], [[Dual-Cable and Parallel Charging Configuration]], and [[DC-Cable Power-Line Communication]].
-- **Measurement and monitoring:** [[Current Sensing Design]], [[Hall-Effect Current Sensing]], [[External Shunt Current Sensing]], [[Shuntless Current Sensing]], [[Battery Sensor Element Design]], and [[Capacitive Electrolyte Level Probe]].
-- **Interfaces and data:** [[CAN Interface]], [[Bluetooth Interface]], [[Bluetooth Low Energy Interface]], [[Wi-Fi Interface]], [[LoRa Interface]], [[Cellular Communication Interface]], [[Cloud Portal Integration]], [[Mobile App Interface]], and [[Data Handling Design]].
-- **Human interface and safety:** [[Local LED Indicator]], [[Integrated LCD Display]], [[Operator Touch Display]], [[Pedestrian Detection Camera]], [[LiDAR Object Sensor]], [[Radar Object Sensor]], [[Proximity Tag System]], and [[Floor-Projected Warning Light]].
-- **Integration and packaging:** [[Enclosure and Mounting Design]], [[Acid-Resistant Sealed Housing]], [[Battery-Top Mounting]], [[Breakaway Connector]], and [[Harness Ring-Terminal Mounting]].
+Use the modeled general Design hierarchy as the primary navigation structure. Specific Designs remain reusable leaves beneath these families.
+
+### Battery construction and integration
+
+- [[Lead-Acid Battery Construction Design]]
+- [[Battery Integrated Feature Design]]
+- [[Battery Sensor Element Design]]
+- [[Battery Sensor Mounting Design]]
+
+### Charging and energy interfaces
+
+- [[Charger Power Stage Design]]
+- [[Charger Operator Interface Design]]
+- [[Vehicle Energy Interface Design]]
+- [[Fuel Cell Power Design]]
+
+### Sensing, state, and data
+
+- [[Current Sensing Design]]
+- [[Vehicle State Sensing Design]]
+- [[Data Handling Design]]
+- [[Object and Proximity Sensing Design]]
+
+### Communications and interfaces
+
+- [[Wired Interface Design]]
+- [[Wireless Interface Design]]
+
+[[Bluetooth Interface]] is intentionally a nested reusable family under Wireless Interface Design because it can represent unspecified Bluetooth evidence while also specializing into BLE and Class 1 variants.
+
+### Operator, warning, and control
+
+- [[Warning and Display Device Design]]
+  - [[Display Device Design]]
+  - [[Indicator and Alarm Design]]
+- [[Vehicle Control Device Design]]
+  - [[Operator Identification Design]]
+  - [[Operator Presence Sensing Design]]
+- [[Vehicle Drive Design]]
+
+### Packaging and mounting
+
+- [[Enclosure and Mounting Design]]
+
+The complete Design inventory remains available through `BASE_all_Product Designs.base`. Do not create physical folders merely to mirror this hierarchy.
+
+## Traceability
+
+Follow these relationships when evaluating a Design:
+
+- **Design → Product:** `designOf`
+- **Design → Function:** `dependencyOf`
+- **Function → Design:** `dependsOn`
+- **Metric → Design:** `describes`
+
+Step 55 found that all **95 specific Designs** are product-backed and source-backed, while direct Function dependency coverage is intentionally sparser. A missing Function dependency should therefore be reviewed, not automatically filled.
+
+[[Reverse-Polarity Protection]] is the one known specific Design without a modeled general parent and remains a classification candidate.
 
 ## Navigation
 
 - [[CANVAS_Product Designs]] — visual map of design concepts.
-- `BASE_all_Product Designs.base` — view across all design notes.
-- `BASE_local_Product Designs.base` — locally scoped design view.
+- `BASE_all_Product Designs.base` — exhaustive Design inventory.
+- `BASE_local_Product Designs.base` — direct contents of this folder.
 
 ## Related areas
 
-- [[README_Product Functions|Product Functions]] — the capabilities designs realize.
-- [[README_Performance Metrics|Performance Metrics]] — dimensions used to evaluate design tradeoffs.
-- [[README_Products|Products]] — cataloged offerings that may embody these designs.
-- [[README_Research|Research]] — comparative and gap analysis.
+- [[README_Product Functions|Product Functions]] — behavior supported by Designs.
+- [[README_Performance Metrics|Performance Metrics]] — dimensions used to compare or characterize Designs.
+- [[README_Products|Products]] — cataloged offerings embodying Designs.
+- [[README_Research|Research]] — comparative evidence and gap analysis.
 
 ## Maintenance
 
-Use a design note for a reusable implementation pattern, not for a single product claim. Link a design to functions it realizes and metrics it affects; preserve alternatives and conflicts when evidence supports more than one viable approach.
+Use a Design note for a reusable implementation pattern, not for a single product claim. Preserve product evidence through `designOf`; link to Functions only where a supported dependency exists; link to metrics only where the metric meaningfully characterizes the Design.
