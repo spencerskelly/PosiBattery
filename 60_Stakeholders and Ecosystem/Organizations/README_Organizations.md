@@ -21,6 +21,46 @@ This folder contains organization records and market-role concepts for companies
 - [[CANVAS_Organizations]] — visual organization map.
 - `BASE_all_Organizations.base` and `BASE_local_Organizations.base` — organization views.
 
+## Controlled role classification
+
+Use two different mechanisms depending on whether the role is intrinsic to the organization or contextual to a specific relationship / offer space.
+
+### Intrinsic organization roles
+
+Use `playsRole / rolePlayedBy` only for durable roles that describe what the organization is in this market:
+
+- [[Battery Maker]]
+- [[Charger Maker]]
+- [[Monitor Maker]]
+- [[Truck OEM]]
+- [[Dealer or Distributor]]
+- [[Software Vendor]]
+- [[Accessory Maker]]
+- [[Brand Owner]]
+
+These may coexist on one organization.
+
+### Contextual ecosystem roles
+
+Do **not** turn these into global `playsRole` labels unless the scope is explicit. Use the relationship field or scoped research record instead:
+
+- **Supplier** — use `supplierOf / suppliedBy` between the specific organizations.
+- **Channel partner** — use `distributedBy / distributorOf`.
+- **Partner** — use `partnerOf` only where the partnership itself is evidenced.
+- **Technology/integration partner** — use `integratesWith` or a scoped research record.
+- **Competitor** — classify only in a defined offer space; see [[PosiCharge Competitive and Partner Landscape]]. Do not label an entire company a competitor merely because one product overlaps.
+- **Customer / operator** — classify only when an actual buying/operating organization is identified. Customer Actors such as [[Fleet Operations Manager]] are not organization records.
+- **Regulator** and **Standards body** — create organization records only when the organization itself is needed for traceability to a rule, standard, or Requirement. Do not infer the body from a product certification string alone.
+
+### Evidence rule
+
+Every contextual business role must be supported by either:
+
+1. a corresponding relationship in the organization notes plus [[Business Relationship Ledger]], or
+2. a scoped research record with the offer/market context and source evidence.
+
+Avoid global role tags for contextual relationships because supplier, partner, customer, and competitor status can change by product, market, geography, and time.
+
 ## Related areas
 
 - [[README_Products|Products]] — offerings and product categories.
