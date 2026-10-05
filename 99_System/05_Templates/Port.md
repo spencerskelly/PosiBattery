@@ -15,6 +15,4 @@ interfaces: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
