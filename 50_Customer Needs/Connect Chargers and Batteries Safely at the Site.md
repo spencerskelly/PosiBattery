@@ -37,6 +37,11 @@ Customer need: Connect Chargers and Batteries Safely at the Site. The problem be
   - PosiCharge ProCore Edge North America Installation Guide (Rev 05-10-23, in repo: Downloads/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf) (T1): states that only authorized, trained and qualified personnel should install and service the charger, that installation must follow the NEC and be done by suitably qualified personnel, and that only a qualified electrician makes electrical connections; the IOMM (Downloads/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf) repeats these statements, and also warns that changes not made by an authorized service provider could void the warranty.
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]].
+- Operating contexts: [[Centralized Battery Room and Charging Area]], [[Distributed and Opportunity Charging Area]].
+
 ## Aliases
 
 
