@@ -2656,6 +2656,75 @@ No download artifacts or model content were changed in Step 29.
 
 ---
 
+## Step 30 completion evidence — Duplicate Downloads classified
+
+**Date:** 2026-10-04
+
+Duplicate detection was completed for the `Downloads` artifact set without deleting or renaming any files.
+
+### Classification created
+
+`80_Decisions and Planning/Downloads Duplicate Classification 0.1.yaml`
+
+### Exact duplicates
+
+Eight exact duplicate groups were confirmed using identical Git blob SHA values.
+
+Across those groups:
+
+- files involved: **17**
+- unique retained copies required: **8**
+- redundant copies beyond one per group: **9**
+
+Every detected `(1)` or `(2)` variant is byte-for-byte identical to its unsuffixed counterpart.
+
+The preferred retained-copy rule is:
+
+> Retain the unsuffixed filename when exact duplicates are otherwise equivalent, unless later source-record/reference review establishes a different canonical attachment name.
+
+### Additional likely duplicates
+
+Conservative filename normalization found **0 additional non-identical likely-duplicate groups**.
+
+Similar documents with distinct blob SHAs—such as different wattages, manuals, brochures, or revisions—remain separate and were not collapsed based on naming similarity.
+
+### Reference safety check
+
+Repository filename searches found **no current references to any of the 17 duplicate filenames** outside the inventory/planning artifacts.
+
+This lowers cleanup risk, but does not authorize deletion. Step 31 source-record matching and Step 32 orphan review remain required before cleanup planning.
+
+### Validation
+
+GitHub Actions run `37267374018` on commit `dda8b9fc` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No Downloads artifacts were modified in Step 30.
+
+### Commit
+
+- `dda8b9fc` — classify duplicate Downloads artifacts
+
+**Result:** Step 30 complete. Nine byte-identical redundant copies are identified for later cleanup review, with no deletion performed.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2684,3 +2753,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 27 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_Power Conversion Research` notes unchanged into `70_Research and Evidence/Research/Power Conversion`, preserved unverified design reasoning with explicit evidence warnings, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
 | 28 | 2026-10-04 | Complete | Completed the full post-migration audit: all three legacy research roots are gone, 20 original notes are preserved under canonical Research subgroups, no new broken links or relationship defects were introduced, and the root is materially closer to the canonical taxonomy. |
 | 29 | 2026-10-04 | Complete | Inventoried all 66 Downloads PDFs in a machine-readable manifest with size, blob SHA, conservative source identity, duplicate hints, and 8 confirmed existing Source Document/model-link matches; no artifacts were changed. |
+| 30 | 2026-10-04 | Complete | Classified 8 exact duplicate groups involving 17 files and 9 redundant copies; found no additional non-identical likely duplicate groups, selected unsuffixed preferred copies, and deleted nothing. |
