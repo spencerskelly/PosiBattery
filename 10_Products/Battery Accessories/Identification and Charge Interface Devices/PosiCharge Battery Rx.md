@@ -4,6 +4,10 @@ subtype: electrical
 id: OBJ-00032
 uid: 20261002164202400skellyspencer
 status: Draft
+productClass: specific-offering
+aliases:
+  - Battery Rx
+  - Smart BMID
 tags:
   - battery-market-reference
   - commercial-product
@@ -92,11 +96,5 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Baseline confidence (Battery Rx):** Verified public—listing/family level. **Still needed:** Obtain current controlled product sheet; resolve hardware/software/service architecture, relationship to PosiGuard, supported chemistry/data acquisition, SKU/lifecycle state, and interfaces.
 - The Battery Rx sheet (Downloads/BatteryRX.pdf) calls it a wireless battery health and fleet monitoring system that monitors state of charge, water level, voltage, current and temperature 24/7, stores battery history for the life of the battery, installs in about 20 minutes on 24 to 96 V batteries, is 7.63 x 2.25 x 1.25 in, measures +/-1,000 A, has a temperature sensor range of -20 to 165 F, withstands acid immersion and high-pressure wash, works with BMID, non-BMID and CAN systems, and has optional cellular connectivity and optional PosiLink. Source: Battery Rx sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/BatteryRX.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
-
-## Aliases
-
-- Battery Rx
-- Smart BMID
-
 
 ## Former ids
