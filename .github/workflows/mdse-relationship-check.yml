@@ -21,4 +21,12 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install --quiet PyYAML
       - name: Run complete relationship validation
-        run: python 99_System/09_Tools/check-relationships.py
+        run: |
+          set -o pipefail
+          python 99_System/09_Tools/check-relationships.py 2>&1 | tee relationship-validation.txt
+      - name: Upload relationship validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relationship-validation
+          path: relationship-validation.txt
