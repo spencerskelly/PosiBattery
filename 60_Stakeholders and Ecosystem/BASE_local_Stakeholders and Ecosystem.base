@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "60_Stakeholders and Ecosystem"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local stakeholder contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
