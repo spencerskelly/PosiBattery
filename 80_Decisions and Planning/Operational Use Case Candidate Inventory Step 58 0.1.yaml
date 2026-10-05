@@ -1,0 +1,417 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 58
+purpose: "Extract candidate externally controlled actor-goal Use Cases for 40_Use and Operations without copying customer needs or product-controlled Functions."
+
+sources_reviewed:
+  customer_needs:
+    count: 22
+    representation: "Use Case / subtype why"
+    interpretation: "Desired outcomes and problem hypotheses, not operational scenarios."
+  existing_operational_use_cases:
+    count: 0
+    folder: "40_Use and Operations"
+  products:
+    method: "Reviewed product-to-need mapping plus representative charger, battery-interface, MHE safety, and GSE safety products."
+    examples:
+      - "PosiCharge ProCore Edge"
+      - "PosiCharge BMID 3"
+      - "Linde Safety Guard"
+      - "TLD Aircraft Safety Docking"
+  functions:
+    basis: "Existing 129-Function model and need realizedBy links."
+  research:
+    - "PosiCharge Market Segments and Jobs-to-Be-Done"
+    - "Product to Customer Need Map"
+
+selection_rule:
+  include:
+    - "An external actor initiates, controls, or meaningfully participates in the scenario."
+    - "The actor has an operational goal independent of a particular technical implementation."
+    - "The scenario can have a recognizable trigger/start and useful completion condition."
+    - "Product Functions support the scenario but are not substituted for the actor goal."
+  exclude:
+    - "Pure customer outcomes or business needs."
+    - "Product-controlled Functions phrased as Use Cases."
+    - "Technology choices or Design characteristics."
+    - "Environmental conditions that are better modeled as scenario variants."
+    - "Scenarios unsupported by current need/product/research evidence."
+
+candidate_use_cases:
+  - candidate_id: OUC-C01
+    name: "Install and Commission Charging Equipment at a Site"
+    primary_actor: "Equipment Installer"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "New or relocated charging equipment must be put into service."
+    goal: "Make the charger safely usable with the site's electrical, enclosure, cable, and battery constraints."
+    source_needs:
+      - "Connect Chargers and Batteries Safely at the Site"
+      - "Charge Each Battery Correctly for Its Chemistry and Condition"
+    supporting_functions:
+      - "Connect Battery to Charger or Vehicle"
+      - "Manage Charging Cables"
+      - "Identify Battery to Charger"
+    confidence: high
+
+  - candidate_id: OUC-C02
+    name: "Retrofit Monitoring or Safety Equipment onto an Existing Vehicle"
+    primary_actor: "Equipment Installer"
+    secondary_actors: ["Dealer Service Technician", "Dealer Sales Representative"]
+    trigger: "An existing truck or GSE asset is selected for added monitoring, telematics, or safety capability."
+    goal: "Install and commission the retrofit without replacing the base vehicle."
+    source_needs:
+      - "Retrofit Safety and Telematics Onto Existing Trucks"
+    supporting_functions:
+      - "Report Truck Telemetry"
+      - "Detect and Record Impacts"
+      - "Control Operator Access"
+    confidence: high
+
+  - candidate_id: OUC-C03
+    name: "Integrate a Battery with Vehicle and Charger Controls"
+    primary_actor: "Truck OEM Integration Engineer"
+    secondary_actors: ["Equipment Installer"]
+    trigger: "A battery or battery interface must interoperate with a vehicle and charger."
+    goal: "Establish communication and control behavior that protects the battery and permits intended vehicle/charge operation."
+    source_needs:
+      - "Integrate the Battery with Truck and Charger Controls"
+    supporting_functions:
+      - "Communicate Battery State over CAN"
+      - "Command Vehicle Operating Limits over CAN"
+      - "Communicate with Charger"
+      - "Adapt Truck to Battery Chemistry"
+    confidence: high
+
+  - candidate_id: OUC-C04
+    name: "Connect a Vehicle or Battery to a Charger"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["GSE Operator"]
+    trigger: "The vehicle or battery needs charging."
+    goal: "Create a safe charging connection and confirm charging can begin."
+    source_needs:
+      - "Connect Chargers and Batteries Safely at the Site"
+      - "Return Trucks to Service Quickly After a Low Charge"
+    supporting_functions:
+      - "Connect Battery to Charger or Vehicle"
+      - "Manage Charging Cables"
+    confidence: high
+
+  - candidate_id: OUC-C05
+    name: "Opportunity-Charge a Vehicle During a Work Break"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "A scheduled or available break occurs while the vehicle remains in the work cycle."
+    goal: "Add enough energy during the break to continue the required shift."
+    source_needs:
+      - "Return Trucks to Service Quickly After a Low Charge"
+      - "Stretch Truck Run Time per Charge"
+      - "Charge Without a Ventilated Battery Room"
+    supporting_functions:
+      - "Charge Battery by Opportunity"
+      - "Charge Battery Fast"
+      - "Manage Temperature During Fast Charging"
+    confidence: high
+
+  - candidate_id: OUC-C06
+    name: "Recover a Low-Energy Vehicle to Service"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["Fleet Operations Manager", "GSE Operator"]
+    trigger: "Available battery/fuel energy is insufficient to continue the mission."
+    goal: "Restore usable energy and return the vehicle to work."
+    source_needs:
+      - "Return Trucks to Service Quickly After a Low Charge"
+    supporting_functions:
+      - "Charge Battery Fast"
+      - "Change Battery Quickly"
+      - "Refuel Truck Power Source in Minutes"
+    confidence: high
+    note: "May later decompose into charging, battery-exchange, and fuel-cell refueling variants."
+
+  - candidate_id: OUC-C07
+    name: "Start a Shift and Confirm Vehicle Energy Readiness"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["GSE Operator", "Maintenance Technician"]
+    trigger: "An operator is preparing a vehicle for a shift or mission."
+    goal: "Determine whether the vehicle/battery has sufficient usable energy and no blocking condition."
+    source_needs:
+      - "Know Battery State Before and During the Shift"
+      - "Prevent Battery Abuse and Premature Replacement"
+    supporting_functions:
+      - "Estimate State of Charge"
+      - "Estimate Remaining Run Time"
+      - "Display Battery Status to Operator"
+      - "Indicate Battery Status Locally"
+      - "Alert on Abnormal Condition"
+    confidence: high
+
+  - candidate_id: OUC-C08
+    name: "Authenticate and Complete Pre-Shift Authorization"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["Fleet Operations Manager", "Site Safety Manager"]
+    trigger: "An operator attempts to begin using a controlled vehicle."
+    goal: "Demonstrate authorization and complete required pre-use checks before operation."
+    source_needs:
+      - "Control Who Operates Each Truck"
+    supporting_functions:
+      - "Control Operator Access"
+      - "Enforce Pre-Shift Checklist"
+    confidence: high
+
+  - candidate_id: OUC-C09
+    name: "Operate a Vehicle Through a Shared Pedestrian Area"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["Pedestrian Near Trucks", "Site Safety Manager"]
+    trigger: "A powered industrial vehicle enters or travels through an area shared with pedestrians."
+    goal: "Complete vehicle movement while maintaining safe separation and responding to detected hazards."
+    source_needs:
+      - "Warn the Operator of People and Objects Near the Truck"
+      - "Warn Pedestrians of an Approaching Truck"
+      - "Keep Trucks Slow in Hazardous Zones"
+    supporting_functions:
+      - "Detect Pedestrians and Objects Near Truck"
+      - "Alert Operator of Hazards"
+      - "Warn Pedestrians of Approaching Truck"
+      - "Limit Vehicle Motion by Location Zone"
+      - "Stop Truck for Detected Obstacle"
+    confidence: high
+
+  - candidate_id: OUC-C10
+    name: "Move Safely Through a Vehicle Work Area as a Pedestrian"
+    primary_actor: "Pedestrian Near Trucks"
+    secondary_actors: ["Site Safety Manager", "Forklift Operator"]
+    trigger: "A pedestrian enters or crosses an active vehicle operating area."
+    goal: "Remain aware of approaching vehicles and complete pedestrian movement without conflict."
+    source_needs:
+      - "Warn Pedestrians of an Approaching Truck"
+    supporting_functions:
+      - "Warn Pedestrians of Approaching Truck"
+      - "Alert Operator of Hazards"
+    confidence: medium
+    note: "Retain only if pedestrian behavior is within the intended system-of-interest operational scope."
+
+  - candidate_id: OUC-C11
+    name: "Handle and Position a Load with Operator Assistance"
+    primary_actor: "Forklift Operator"
+    secondary_actors: []
+    trigger: "The operator must pick, place, raise, lower, or position a load where direct visibility or precision is limited."
+    goal: "Position the load accurately while remaining in a safe operating position."
+    source_needs:
+      - "Keep the Operator Positioned and Able to See the Work"
+    supporting_functions:
+      - "Show Camera View to Operator"
+      - "Assist Lift Positioning"
+      - "Illuminate Work Area"
+      - "Stop Vehicle When Operator Is Out of Position"
+    confidence: high
+
+  - candidate_id: OUC-C12
+    name: "Operate a Loaded Vehicle Within Stability Limits"
+    primary_actor: "Forklift Operator"
+    secondary_actors: ["Site Safety Manager"]
+    trigger: "The operator travels, corners, lifts, or lowers a load."
+    goal: "Complete material movement without tip-over, overload, or instability."
+    source_needs:
+      - "Prevent Tip-Overs and Overloads"
+    supporting_functions:
+      - "Slow Truck in Curves"
+      - "Adapt Speed to Load and Lift Height"
+      - "Restrict Lift When Load Exceeds Limit"
+      - "Stabilize Truck Dynamically"
+    confidence: high
+
+  - candidate_id: OUC-C13
+    name: "Approach and Dock GSE at an Aircraft"
+    primary_actor: "GSE Operator"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "Ground-support equipment must approach an aircraft for service."
+    goal: "Reach the required service position without striking the aircraft or exposing ground crew to avoidable risk."
+    source_needs:
+      - "Protect Aircraft and Ground Crew During Ground Operations"
+    supporting_functions:
+      - "Slow and Stop Near Aircraft"
+      - "Dock Automatically at Aircraft"
+      - "Indicate Aircraft Proximity to Operator"
+      - "Inhibit Drive Until Equipment Is Stowed"
+    product_evidence_examples:
+      - "TLD Aircraft Safety Docking"
+    confidence: high
+
+  - candidate_id: OUC-C14
+    name: "Inspect and Maintain a Flooded Traction Battery"
+    primary_actor: "Maintenance Technician"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "Scheduled battery maintenance is due or a battery condition alert is raised."
+    goal: "Restore or confirm acceptable electrolyte and battery condition with minimum maintenance burden."
+    source_needs:
+      - "Keep Trucks Working Without Battery Maintenance Labor"
+      - "Prevent Battery Abuse and Premature Replacement"
+    supporting_functions:
+      - "Sense Electrolyte Level"
+      - "Alert on Low Electrolyte Level"
+      - "Water Battery Cells"
+      - "Track Equalization"
+    confidence: high
+
+  - candidate_id: OUC-C15
+    name: "Diagnose a Vehicle or Battery Fault"
+    primary_actor: "Maintenance Technician"
+    secondary_actors: ["Dealer Service Technician", "Fleet Operations Manager"]
+    trigger: "A fault, warning, performance issue, or service-due condition is reported."
+    goal: "Identify the likely cause and required corrective action before or during service."
+    source_needs:
+      - "Find and Fix Vehicle Faults Without Downtime"
+      - "Prevent Battery Abuse and Premature Replacement"
+    supporting_functions:
+      - "Diagnose Vehicle Remotely"
+      - "Indicate Maintenance Due"
+      - "Display Truck Status to Operator"
+      - "Detect Cell Failure"
+      - "Detect Voltage Imbalance"
+    confidence: high
+
+  - candidate_id: OUC-C16
+    name: "Review an Impact Event and Decide Whether to Return the Vehicle to Service"
+    primary_actor: "Site Safety Manager"
+    secondary_actors: ["Fleet Operations Manager", "Maintenance Technician"]
+    trigger: "A vehicle impact is detected or reported."
+    goal: "Understand the event, inspect as needed, and decide whether the vehicle may resume operation."
+    source_needs:
+      - "Detect and Learn from Truck Impacts"
+    supporting_functions:
+      - "Detect and Record Impacts"
+      - "Record Images of Load Handling"
+      - "Lock Out Vehicle After Impact"
+    product_evidence_examples:
+      - "TLD Aircraft Safety Docking"
+    confidence: high
+
+  - candidate_id: OUC-C17
+    name: "Monitor and Manage Energy Assets Across Sites"
+    primary_actor: "Fleet Operations Manager"
+    secondary_actors: []
+    trigger: "The manager reviews fleet, charger, or battery status locally or remotely."
+    goal: "Identify conditions needing attention and manage assets without walking each site."
+    source_needs:
+      - "Monitor and Manage Chargers and Batteries Across Sites"
+      - "Know Battery State Before and During the Shift"
+    supporting_functions:
+      - "Manage Chargers Remotely"
+      - "Upload Battery Data to Cloud Portal"
+      - "Report Truck Telemetry"
+      - "Control Charger from Remote Panel"
+    confidence: high
+
+  - candidate_id: OUC-C18
+    name: "Review Battery Care and Warranty Compliance"
+    primary_actor: "Fleet Operations Manager"
+    secondary_actors: ["Dealer Service Technician", "Maintenance Technician"]
+    trigger: "Warranty, service, audit, or battery-performance review is required."
+    goal: "Determine whether charging, watering, equalization, and usage history are consistent with expected battery care."
+    source_needs:
+      - "Document Battery Care for Warranty Compliance"
+      - "Prevent Battery Abuse and Premature Replacement"
+    supporting_functions:
+      - "Log Battery Events and Usage"
+      - "Upload Battery Data to Cloud Portal"
+      - "Track Equalization"
+      - "Calculate Battery Abuse Cycles"
+    confidence: high
+
+  - candidate_id: OUC-C19
+    name: "Configure Charging for a Battery Chemistry and Condition"
+    primary_actor: "Maintenance Technician"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "A charger, battery, or fleet configuration is commissioned or changed."
+    goal: "Ensure the intended battery receives an appropriate charge profile and compensation."
+    source_needs:
+      - "Charge Each Battery Correctly for Its Chemistry and Condition"
+    supporting_functions:
+      - "Adapt Charge to Battery Condition"
+      - "Identify Battery to Charger"
+      - "Compensate Charge for Battery Temperature"
+      - "Charge Under BMS Control"
+    confidence: medium
+    note: "Needs later separation between user configuration and fully automatic charging behavior."
+
+  - candidate_id: OUC-C20
+    name: "Plan Battery Service or Replacement from Condition History"
+    primary_actor: "Maintenance Technician"
+    secondary_actors: ["Fleet Operations Manager"]
+    trigger: "Battery health, abuse, or lifecycle data indicate degradation or rising service risk."
+    goal: "Decide whether to continue service, repair, rebalance, or plan replacement."
+    source_needs:
+      - "Prevent Battery Abuse and Premature Replacement"
+      - "Document Battery Care for Warranty Compliance"
+    supporting_functions:
+      - "Estimate State of Health"
+      - "Predict Battery Replacement Timing"
+      - "Calculate Battery Abuse Cycles"
+      - "Log Battery Events and Usage"
+    confidence: medium
+
+scenario_variants_not_promoted_to_standalone_use_cases:
+  - condition: "Cold-storage operation"
+    source_need: "Keep Equipment Working in Cold, Wet and Dusty Conditions"
+    rationale: "Usually constrains charging, operation, maintenance, and shift-readiness scenarios rather than representing an independent actor goal."
+  - condition: "Wet, dusty, corrosive, or outdoor operation"
+    source_need: "Keep Equipment Working in Cold, Wet and Dusty Conditions"
+    rationale: "Operational environment variant applied to other scenarios."
+  - condition: "Battery-room versus distributed/opportunity charging"
+    source_needs:
+      - "Charge Without a Ventilated Battery Room"
+      - "Connect Chargers and Batteries Safely at the Site"
+    rationale: "Deployment/use context that changes workflow and constraints."
+  - condition: "Mixed-chemistry fleet"
+    source_needs:
+      - "Charge Each Battery Correctly for Its Chemistry and Condition"
+      - "Integrate the Battery with Truck and Charger Controls"
+    rationale: "Fleet context affecting configuration, identification, and charging scenarios."
+
+candidate_quality:
+  total_candidates: 20
+  high_confidence: 17
+  medium_confidence: 3
+  low_confidence: 0
+  duplicate_customer_needs_copied_as_operational_use_cases: 0
+  functions_recast_as_actor_goals: 0
+
+recommended_next_modeling_order:
+  first_wave:
+    rationale: "High-value, clearly actor-controlled, central to the current battery/charger scope."
+    candidates:
+      - OUC-C04
+      - OUC-C05
+      - OUC-C07
+      - OUC-C08
+      - OUC-C14
+      - OUC-C15
+      - OUC-C17
+      - OUC-C18
+  second_wave:
+    rationale: "Vehicle-safety and GSE scenarios with strong evidence but broader system boundary."
+    candidates:
+      - OUC-C09
+      - OUC-C11
+      - OUC-C12
+      - OUC-C13
+      - OUC-C16
+  later_or_boundary_review:
+    candidates:
+      - OUC-C01
+      - OUC-C02
+      - OUC-C03
+      - OUC-C06
+      - OUC-C10
+      - OUC-C19
+      - OUC-C20
+
+changes:
+  operational_use_case_notes_created: 0
+  semantic_relationships_changed: 0
+  existing_notes_changed: 0
+  evidence_records_created: 1
+
+next_step:
+  step: 59
+  note: "Use this candidate inventory as the controlled source for the next operational-model step rather than generating Use Cases directly from Customer Need names."
