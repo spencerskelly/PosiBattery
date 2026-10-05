@@ -2933,6 +2933,78 @@ No Source Document records were modified in Step 33.
 
 ---
 
+## Step 34 completion evidence — Source provenance normalized
+
+**Date:** 2026-10-04
+
+The eight existing Source Document records were normalized using only provenance already supported by the vault.
+
+### Changes applied to all eight Source Document notes
+
+Each record now has a consistent `## Provenance` section containing:
+
+- local artifact link;
+- source identity;
+- original web address;
+- document date/revision signal where supported;
+- T1 manufacturer evidence tier;
+- local-copy review date;
+- explicit statement that the original web access/download date is **not recorded** when it is unknown.
+
+Each record also now has a consistent `## Traceability` section that:
+
+- points to the governed `describes` relationships in frontmatter;
+- preserves the existing conflict/open-question tracking;
+- explicitly records that no direct downstream backlink to the Source Document note name or original URL was verified during the 2026-10-04 provenance review;
+- states that this is a traceability gap, not evidence that the source was unused.
+
+### Metadata discipline
+
+No unsupported metadata was invented.
+
+In particular:
+
+- no web access/download dates were fabricated;
+- ACT PDF-created dates remain labeled as created dates rather than being promoted to publication/revision dates;
+- existing document identifiers and date signals were retained as-is;
+- all model IDs, UIDs, statuses, tags, and governed `describes` relationships were preserved.
+
+### Assessment record updated
+
+`80_Decisions and Planning/Source Document Provenance Assessment 0.1.yaml`
+
+now records that Step 34 normalization was completed and identifies the remaining provenance/traceability gaps.
+
+### Validation
+
+GitHub Actions run `37268607670` on commit `fa24a394` completed the structural audit after all eight Source Document notes were normalized.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+### Commits
+
+- `f049cb5c` through `fa24a394` — normalize the eight Source Document records
+- `29bfb4ea` — record provenance-normalization results in the assessment
+
+**Result:** Step 34 complete. Existing Source Documents now have consistent, explicit provenance without inventing missing publication/access metadata.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2965,3 +3037,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 31 | 2026-10-04 | Complete | Matched all 66 Downloads PDFs against the 8 existing Source Document records: 8 one-to-one matches, 0 one-to-many, 58 missing source records, and 0 ambiguous matches; no records or artifacts were changed. |
 | 32 | 2026-10-04 | Complete | Checked all 58 unmatched PDFs for direct repository references, found none, and classified them as 9 redundant exact-copy orphan candidates plus 49 unique untracked artifacts to preserve pending provenance/cleanup review. |
 | 33 | 2026-10-04 | Complete | Reviewed all 8 existing Source Document records: all have strong basic source provenance but incomplete explicit access-date and downstream claim-traceability information, so all 8 were classified moderate rather than weak. |
+| 34 | 2026-10-04 | Complete | Normalized provenance and traceability sections across all 8 Source Document records using only supported metadata, preserved all identities/relationships, explicitly retained unknown access dates, and kept the structural audit stable at 19 broken wikilinks. |
