@@ -28,6 +28,29 @@ This folder defines the shared vocabulary, note conventions, and relationship pr
 - [[README_Performance Metrics|Performance Metrics]] — controlled comparison dimensions.
 - [[README_Research|Research]] — synthesized analysis using these concepts.
 
+## Definition versus research boundary
+
+Keep reusable definitions concise and context-independent.
+
+A definition/reference note may contain:
+
+- the canonical meaning of a term or property;
+- allowed values, direction, inverse, or usage rules;
+- stable authoring/modeling conventions;
+- short examples that clarify semantics.
+
+Move or keep content under [[README_Research|Research]] when it is primarily:
+
+- product- or vendor-specific source extraction;
+- literature review, comparison, or market evidence;
+- long quoted/paraphrased source findings;
+- conflicting source claims;
+- dated observations whose meaning may change with new evidence.
+
+Definitions may link to Research for provenance, but they should not accumulate large evidence dumps. Research should support the definition rather than become embedded inside it.
+
+Enterprise Architect translation/layout guidance such as [[EA Source Section]] and [[Note Layout]] is methodology/reference content, not research extraction. Its long form does not by itself make it Research.
+
 ## Maintenance
 
 Update this index when a new authoring convention or property family is added. Define reusable terminology and relationship semantics here rather than creating inconsistent local variants.
