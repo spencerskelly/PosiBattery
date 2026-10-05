@@ -1282,6 +1282,72 @@ No model-note identity or semantic relationship was changed.
 
 ---
 
+## Step 12 completion evidence — Structural integrity re-check
+
+**Date:** 2026-10-04  
+**Validated commit:** `fb49927341eaa36b4eabfe87c2b5122301b47203`  
+**GitHub Actions run:** `37257599894`  
+**Job:** `111597915688`
+
+The current MDSE Vault Audit re-ran automatically after Step 11 and completed with the same blocking condition seen in Step 1: **27 broken wikilinks**.
+
+### Current structural results
+
+| Check | Count |
+|---|---:|
+| Markdown files | 1076 |
+| Model notes | 905 |
+| Frontmatter parse errors | 0 |
+| Duplicate IDs | 0 |
+| Duplicate UIDs | 0 |
+| Malformed/missing IDs | 0 |
+| Malformed/missing UIDs | 0 |
+| Missing governed core properties | 0 |
+| Deprecated properties | 0 |
+| Broken wikilinks | 27 |
+| Ambiguous wikilinks | 0 |
+| Unresolved relationship targets | 0 |
+| Missing relationship inverses | 0 |
+| Paths over 212 chars | 0 |
+
+Model-type counts also remain unchanged from the Step 1 baseline:
+
+- Actor: 11
+- Design: 118
+- Document: 8
+- Function: 129
+- Info: 193
+- Object: 424
+- Use Case: 22
+- All 905 model notes remain Draft.
+
+### Comparison to Step 1
+
+The blocker count is unchanged at **27**. The broken-link set is substantively the same migration-era set identified in Step 1.
+
+Six source paths changed only because Step 11 renamed their README files to the canonical naming convention:
+
+- Product Architecture
+- Product Capabilities
+- Use and Operations
+- Stakeholders and Ecosystem
+- Research and Evidence
+- Definitions and Reusable Reference
+
+The unresolved targets themselves remain the same. No new identity, schema, relationship, inverse, ambiguity, or path-length defect was introduced by Steps 7–11.
+
+The one remaining non-governance stale path is still the historical Research Change and Decision Tracker link to `Customer Needs/README_Customer Needs`.
+
+### Workflow limitation
+
+Because `audit-vault.py` exits non-zero on the 27 broken wikilinks, the workflow stops before `check-names.py` and `check-dependencies.py --strict` execute. This is the same workflow behavior documented in Step 1 and is not a newly introduced failure.
+
+No structural repair was performed in Step 12; this step was validation only.
+
+**Result:** Step 12 complete. Phase B governance cleanup did not worsen the structural baseline. The vault remains blocked only by the previously known 27 migration-era wikilinks, which can be repaired in later controlled navigation/migration steps.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1294,4 +1360,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |\n| 8 | 2026-10-04 | Complete | Established the numbered 10–99 PosiBattery root taxonomy as authoritative for vault-level placement and migration destinations, while preserving MDSE schemas/relationships as semantic authority and treating 00–09 as subordinate product-context navigation. Commits `d15bc61f`, `eabfc714`, `063fba7d`, `cf82ab63`, `266c5499`. |
 | 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
 | 10 | 2026-10-04 | Complete | Retired obsolete organizational guidance from the active authority path by marking the prior integrity audit and legacy migration map historical/superseded and correcting remaining target-era handoff wording. Commits `208df600`, `671d5f01`, `e00d070b`. |
-| 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |
+| 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |
