@@ -33,6 +33,22 @@ Battery Monitoring Unit installed on forklift lead-acid batteries as the battery
 
 ## Notes
 
+**Summary:**
+Battery monitoring unit installed on forklift lead-acid batteries as the measurement hardware for Energywith's withBMS monitoring service.
+
+**Marketed features:**
+- 24/7 measurement of current, total voltage, temperature and electrolyte level
+- Data to the service platform via an IoT gateway
+- Alerts for insufficient watering, overcharge and abnormal heating
+- Reports on operation, idle and charging time per site
+- Replacement-timing estimates from degradation trends
+- Supports all JIS-compliant forklift lead-acid batteries
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Energywith (T1), retrieved 2026-10-04. <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+- Energywith (T1), retrieved 2026-10-04. <https://www.energy-with.com/en/strength/technology-development/ev-battery-monitoring/>
+
 - Manufacturer: Energywith
 - Market evidence checked: 2026-10-02
 - Vendor explicitly states the BMU is installed on the battery.

@@ -27,6 +27,21 @@ Optional Crown display that shows load weight, lift height and capacity limits o
 
 ## Notes
 
+**Summary:**
+Optional Crown on-display monitor that shows load weight, lift height and capacity limits so operators stay within safe load limits.
+
+**Marketed features:**
+- Displays load weight, lift height and lift-height limit at a glance
+- Color-coded status: gray within limits, yellow approaching limit, red over capacity or above height limit
+- Requires a level fork carriage; information is for reference only
+- Offered on ESR reach trucks and TSP VNA trucks
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/content/dam/crown/pdfs/en-us/operator-manuals/man-up-trucks/TSP%201000-1500%20(english).pdf>
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-eu/forklifts/vna-truck-tsp/_jcr_content/mainpar/carousel_copy.html>
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/content/dam/crown/pdfs/en-uk/brochures/reach-truck-esr1000-brochure-GB.pdf>
+
 - Crown says the optional Capacity Data Monitor provides load weights, lift heights and capacity limits at a glance, with color-coded visuals that alert the operator to stay within load limits. Source: Crown ESR reach truck page (T1), retrieved 2026-10-03. <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 - **Functions performed, with citations:**
   - [[Sense Load Weight and Lift Height]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>

@@ -42,6 +42,23 @@ Hyster-branded battery monitor, described as powered by PosiCharge technology, t
 
 ## Notes
 
+**Summary:**
+Hyster-branded battery monitoring solution, described as powered by PosiCharge technology, that reports battery data over existing wireless networks to Hyster Tracker.
+
+**Marketed features:**
+- 24/7 monitoring via existing wireless networks to cloud-based Hyster Tracker
+- State of charge, voltage, current and temperature analytics
+- Lifetime data storage for warranty compliance
+- Electrolyte high/low reporting
+- Email alerts: high temperature, equalization overdue, deep discharge, electrolyte high/low, imbalance
+- Weekly exception and lifetime history reports; fleet data download
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/en-us/north-america/technology/telematics/hyster-tracker/>
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
+
 - Hyster-Yale introduced Hyster Battery Tracker 'Powered by PosiCharge technology': a low-profile device that stays with the battery, installs in as little as 20 minutes, uses cellular communications to report state of charge, water levels, voltage, current and temperature, sends email notifications, and feeds a reporting suite with daily, weekly and lifetime reports. Source: Trade press listing (undated) (T2), retrieved 2026-10-02. <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Open (C18):** relationship to [[PosiCharge Battery Rx]] and PosiNET is not stated. Treat as an OEM-branded channel for PosiCharge technology, not an independent competitor, until a source says otherwise.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

@@ -32,6 +32,17 @@ Raymond system that alerts pedestrians and operators within a set distance of ot
 
 ## Notes
 
+**Summary:**
+Raymond iWAREHOUSE system that alerts pedestrians and operators when they come within a set distance of trucks or people.
+
+**Marketed features:**
+- Magnetic field generation creates detection fields around the vehicle
+- Alerts both pedestrians and operators within a predefined distance
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+
 - Raymond says iWAREHOUSE Fieldsense alerts pedestrians and lift truck operators when they come within a predefined distance of other lift trucks or pedestrians, using magnetic field generation to create detection fields around the vehicle. Source: DC Velocity (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>

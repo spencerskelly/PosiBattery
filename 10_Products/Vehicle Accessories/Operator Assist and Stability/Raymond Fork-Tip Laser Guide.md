@@ -31,6 +31,18 @@ Raymond red or green laser line at the fork height for precise pallet engagement
 
 ## Notes
 
+**Summary:**
+Raymond laser that projects a red or green line at fork height for precise pallet engagement.
+
+**Marketed features:**
+- High-visibility red or green laser line at fork height
+- Precise pallet engagement
+- Marketed for greater operator speed, accuracy and confidence
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Johnston Equipment (T3), retrieved 2026-10-04. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+
 - Raymond's options sheet lists a Fork-Tip Laser Guide that projects a high-visibility red or green laser line at the height of the truck's forks for precise pallet engagement. Source: Raymond 4000 Series options sell sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Functions performed, with citations:**
   - [[Assist Lift Positioning]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>

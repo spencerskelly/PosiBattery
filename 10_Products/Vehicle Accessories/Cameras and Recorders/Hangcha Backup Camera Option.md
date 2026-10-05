@@ -29,6 +29,17 @@ Hangcha backup camera option that gives a wider view and is promoted for reducin
 
 ## Notes
 
+**Summary:**
+Backup camera option listed for Hangcha forklifts, promoted for a wider rear view.
+
+**Marketed features:**
+- Listed as an option in the Hangcha brochure
+- No further product-specific features published in the retrieved source
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Hangcha (T1), retrieved 2026-10-04. <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
+
 - Hangcha's XC series brochures and a North American dealer list a backup camera option; the dealer says it eliminates blind spots and reduces pedestrian accidents. Source: Hangcha brochures and Summit Handling pages (T1/T3), retrieved 2026-10-03. <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>

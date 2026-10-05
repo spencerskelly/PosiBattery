@@ -49,6 +49,19 @@ ACT battery monitor that exchanges data with ACT Quantum chargers and reports to
 
 ## Notes
 
+**Summary:**
+Advanced Charging Technologies battery monitor that exchanges charge-cycle data with ACT Quantum chargers and reports to ACTview.
+
+**Marketed features:**
+- Improved charge-cycle communication with Quantum chargers
+- Scheduling and delivery of precise equalization cycles
+- Tracks charge-cycle termination conditions
+- Better diagnosis of charger and battery performance
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors>
+
 - The spec sheet lists nominal battery voltage 12 to 80 V, operating voltage 12 to 110 V, voltage resolution plus or minus 30 mV, current resolution plus or minus 1 A minimum, temperature resolution plus or minus 1.0 F, and operating temperature -25 to 60 C; it reports hours, Ah, charge, use and idle periods, and alerts for weekly missed equalization, charge, temperature and usage, potential weak cells, missed finish, deep discharge, potential sulfated battery and water level; it needs no calibration, uses Wi-Fi, and communicates in real time between Quantum chargers and ACTview. Source: ACT Battview spec sheet (T1), retrieved 2026-10-02. <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
 - A trade report says data integration between BATTview units and Quantum chargers improves charge-cycle communications, equalization scheduling and tracking of charge termination conditions. Source: DC Velocity (T2), retrieved 2026-10-02. <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors>
 - A GSE trade article says ACT's Quantum GSE outdoor charger communicates with BATTview and uploads data to the ACTintelligent cloud platform. Source: Airside International (T2), retrieved 2026-10-02. <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>

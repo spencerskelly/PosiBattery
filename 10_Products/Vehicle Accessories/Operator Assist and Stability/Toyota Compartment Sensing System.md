@@ -32,6 +32,18 @@ Toyota light-beam sensors embedded in the rear operator compartment of the Stand
 
 ## Notes
 
+**Summary:**
+Toyota light-beam sensor system in the Stand Up Rider rear compartment that checks the operator is in position.
+
+**Marketed features:**
+- Multiple light-beam sensors embedded in the rear operator compartment
+- Tone and display message when sensors are blocked
+- Truck decelerates to a stop if traveling
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota says the Compartment Sensing System on the Stand Up Rider uses multiple light beam sensors embedded in the rear operator compartment, and a message appears on the operator display. Source: Toyota Assist brochure 2025 (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - The Side Entry End Rider option list includes an Operator Compartment Sensor System and an Operator Sensing Floor Mat. Source: Toyota Side Entry End Rider brochure (T1), retrieved 2026-10-03. <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 - **Functions performed, with citations:**

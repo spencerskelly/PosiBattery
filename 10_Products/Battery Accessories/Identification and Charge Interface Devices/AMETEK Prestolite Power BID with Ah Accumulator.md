@@ -37,6 +37,18 @@ AMETEK Prestolite Power BID variant that adds current monitoring to track batter
 
 ## Notes
 
+**Summary:**
+AMETEK Prestolite Power BID variant that adds current monitoring to track battery amp-hour throughput.
+
+**Marketed features:**
+- All BID features: battery ID and data to the charger
+- Adds current monitoring
+- Tracks forklift battery amp-hours
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AMETEK Prestolite Power (T1), retrieved 2026-10-04. <https://www.prestolitepower.com/products/datadevices>
+
 - Manufacturer: AMETEK Prestolite Power
 - **Verification 2026-10-02 (verified):** the vendor lists a BID with Amp Hour Accumulator that adds current monitoring to track amp hours, in addition to BID features; the 2018 data sheet says it samples charge and discharge amp hours including fast transients and gives access to discharge-cycle counts based on 80 percent of the BID amp-hour setting. Source: AMETEK Prestolite Power data devices page and BID data sheet (Aug 2018) (T1) <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
 - **Not stated in retrieved sources:** current-measurement range, chemistry coverage.

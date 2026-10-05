@@ -38,6 +38,23 @@ Linde assistance system that detects trucks and pedestrians approaching each oth
 
 ## Notes
 
+**Summary:**
+Linde ultra-wideband radio assistance system that warns trucks and pedestrians when they come too close and can enforce slow-speed zones.
+
+**Marketed features:**
+- UWB location of people and obstacles to within 10 cm; radio works through shutters and walls
+- Operator warning on an in-truck LED display
+- Pedestrian warning by flashing LEDs, tone and vibration (interactive vest won a Dekra award)
+- Automatic speed reduction in defined zones
+- Modular: Truck Unit, Portable Unit, Zone Marker, Static Unit (Keeper) and intersection mirror
+- Truck Unit retrofittable
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- KION Group (T1), retrieved 2026-10-04. <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+- Industrial Production (T2), retrieved 2026-10-04. <https://www.industrial-production.de/safety---security-en/seifert-tests-linde-safety-guard.htm>
+- LMH Rhein-Ruhr (dealer) (T3), retrieved 2026-10-04. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+
 - KION says Linde Safety Guard (introduced 2018) detects trucks and pedestrians approaching too closely, warns pedestrians through interactive warning vests, and can define zones with reduced speed. Source: KION Group story (T1), retrieved 2026-10-03. <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 - A pilot report says the warning systems use ultra-wideband technology to locate obstacles or people with an accuracy of up to ten centimetres and need only hardware installed on vehicles or danger points. Source: Industrial Production (T2), retrieved 2026-10-03. <https://www.industrial-production.de/safety---security-en/seifert-tests-linde-safety-guard.htm>
 - A Linde dealer brochure describes Safety Guard as four modules with different, complementary functions. Source: Linde Rhein-Ruhr safety brochure (T3 (dealer-hosted, German)), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>

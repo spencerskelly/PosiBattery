@@ -37,6 +37,23 @@ Compact EnerSys battery-mounted monitoring device for battery status and usage m
 
 ## Notes
 
+**Summary:**
+Compact EnerSys IoT battery monitor that records battery state and usage and uploads data to an online portal.
+
+**Marketed features:**
+- Works on TPPL, flooded and VRLA batteries
+- Records work, rest, charge and cool-down time
+- Abuse-cycle calculation of life lost to misuse
+- Detects over-temperature, low electrolyte and over-discharge
+- Color status indicators on the device
+- Data upload via iQ Gateway to an online portal; part numbers IQ-MINI-300Q/300B8/310Q/310S/301Q
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/iq-mini/>
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf>
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/en/about-us/news/enersys-to-showcase-advanced-battery-management-at-2024-north-american-issa-show/>
+
 - Manufacturer: EnerSys
 - Market evidence checked: 2026-10-02
 - Installation locus: battery-mounted according to EnerSys product literature.

@@ -34,6 +34,19 @@ APD ultrasonic sensors on the side of the loader that warn, or interlock the dri
 
 ## Notes
 
+**Summary:**
+Oshkosh AeroTech APD ultrasonic side sensors that warn or interlock the drive when the loader nears an engine cowling.
+
+**Marketed features:**
+- Ultrasonic sensors cover the small zone at the loader's side
+- For front lower lobe or cargo-door work near engine cowlings
+- Visual/audible alarm or drive interlock
+- Can activate only with aircraft in radar range or in snail/creep mode to avoid false alarms
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
+
 - The APD brochure says ultrasonic sensors on the side of the loader warn when an object enters the small zone at the side, can trigger a visual or audible alarm or be interlocked with the drive system, and can be set to activate only when the aircraft is in radar range or the loader is in snail or creep mode, to prevent false alarms. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>

@@ -30,6 +30,22 @@ Toyota Smart Environment Sensor+ that detects pedestrians and objects and alerts
 
 ## Notes
 
+**Summary:**
+Toyota pedestrian and object detection system that alerts the operator and automatically slows the forklift.
+
+**Marketed features:**
+- Stereoscopic vision differentiates pedestrians from objects
+- Visual and audible alerts
+- Automatic slowing via regenerative braking
+- Dynamic zoning by speed: 130-degree field up to 32 ft
+- Tracks steer direction when reversing and turning
+- Available on select new Toyota models
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Fabricating and Metalworking (T2), retrieved 2026-10-04. <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota says SEnS+ delivers visual and audible alerts when objects or pedestrians are within range, complemented by a Toyota-designed obstacle detection system using stereoscopic vision to differentiate pedestrians and objects. Source: Toyota release via Fabricating and Metalworking (T2), retrieved 2026-10-03. <https://fabricatingandmetalworking.com/toyota-assists-features-enable-advanced-operator-awareness-technologies/>
 - One trade report adds that SEnS+ limits the movement of the forklift by engaging regenerative braking; the other reports describe alerts only. Source: Industrial Distribution (T2), retrieved 2026-10-03. <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
 - **Conflict-visible (C66):** whether SEnS+ itself slows the truck differs across reports of the same release.

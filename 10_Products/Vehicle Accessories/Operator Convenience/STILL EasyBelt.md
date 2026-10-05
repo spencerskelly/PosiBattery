@@ -29,6 +29,19 @@ STILL restraint belt that can be retrofitted to a fleet's counterbalance trucks.
 
 ## Notes
 
+**Summary:**
+STILL retrofit device that holds the seat belt pre-tensioned so drivers can buckle up quickly.
+
+**Marketed features:**
+- Keeps the belt diagonally taut over the seat
+- Quick fastening and unfastening for productivity
+- Cost-effective addition marketed for high driver acceptance
+- Easy retrofit onto counterbalance forklifts
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- STILL (T1), retrieved 2026-10-04. <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>
+
 - STILL's Safety Assist page lists the EasyBelt restraint system as easy to retrofit onto a fleet's counterbalanced forklift trucks, and a seat belt control that reduces driving speed if the belt is not used. Source: STILL Safety Assist page (T1), retrieved 2026-10-03. <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>
 - **Functions performed, with citations:**
   - [[Reduce Speed When Seat Belt Is Unfastened]] (V): <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>

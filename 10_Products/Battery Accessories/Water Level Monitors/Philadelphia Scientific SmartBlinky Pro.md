@@ -34,6 +34,22 @@ Philadelphia Scientific battery-installed electrolyte level monitor with visual 
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific battery water-level monitor with smart sensing, delay and an audible alarm that signals when batteries need water.
+
+**Marketed features:**
+- Patented Smart Sensing and 24-hour SmartDELAY to avoid false indication and over-watering
+- SmartBEEP audible alarm, frequency shows days low
+- Multi-state LED (OK, fill soon, fill now, filled); SmartMOUNT on the battery cable
+- Universal voltage and polarity; ANYCELL probe placement
+- Standard and remote versions; FlexiTap, M4 or M10 connections
+- UL Classified; for forklifts, scrubbers, aerial and marine
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/>
+- Material Handling Wholesaler (T2), retrieved 2026-10-04. <https://www.mhwmag.com/?p=7981>
+
 - Manufacturer: Philadelphia Scientific
 - Market evidence checked: 2026-10-02
 - Installation locus: battery-mounted electronic probe sensing electrolyte in a cell.

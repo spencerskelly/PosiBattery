@@ -45,6 +45,22 @@ Philadelphia Scientific commercial battery performance monitor for industrial le
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific flagship battery performance monitor that records minute-by-minute battery metrics and energy flow for industrial lead-acid fleets.
+
+**Marketed features:**
+- 25 metrics logged minute by minute; bidirectional Hall-effect split-core current sensor
+- Profiles charger efficiency, truck efficiency and actual battery capacity
+- Automatic upload via eGO!cloudlink; light-triggered and only-on-charge transfer
+- eGO!alerts for topping and out-of-spec use
+- Super-bright LEDs and audible alerts; waterproof, acid-proof, flame-retardant housing
+- Flooded and VRLA models; marketed as the industry's most advanced monitor
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://www.phlsci.com/media/akpfbf1u/egopro-ssh-ps-us-en-doc0642.pdf>
+
 - Manufacturer: Philadelphia Scientific
 - Market evidence checked: 2026-10-02
 - Installation locus: battery-mounted; vendor literature describes battery connection options and a split-core current sensor measuring battery energy flow.

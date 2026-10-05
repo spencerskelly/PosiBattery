@@ -30,6 +30,20 @@ Bobcat camera that uses AI processing to tell people from their surroundings and
 
 ## Notes
 
+**Summary:**
+Doosan Bobcat camera that uses AI processing to distinguish people from surroundings and alert the operator.
+
+**Marketed features:**
+- AI-enabled image processing
+- Differentiates people from the work environment
+- Reduces unnecessary operator alerts
+- Marketed to increase safety and prevent unintended machine actions
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Bauforum24 (T2), retrieved 2026-10-04. <https://www.bauforum24.biz/news/doosan-bobcat/bobcat-gabelstapler-r9977/>
+- Logistics Matters (T2), retrieved 2026-10-04. <https://www.logisticsmatters.co.uk/article/connectivity-is-key/>
+
 - A trade report says Bobcat's pedestrian detection camera uses AI-enabled processing to differentiate humans from surroundings, reducing unnecessary operator alerts. Source: IVT International (T2), retrieved 2026-10-03. <https://www.ivtinternational.com/?p=21644>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.ivtinternational.com/?p=21644>

@@ -49,6 +49,22 @@ PosiCharge commercial battery data and monitoring device for lead-acid and lithi
 
 ## Notes
 
+**Summary:**
+PosiCharge battery data and monitoring device for mixed lead-acid and lithium fleets that connects battery data to PosiLink.
+
+**Marketed features:**
+- Lead-acid and lithium support for mixed fleets
+- Charger communication by wired, Bluetooth and CAN; optional LoRa
+- Monitors current, voltage and electrolyte level; daily usage and misuse
+- PosiConnect mobile app: Bluetooth pairing, settings, firmware updates, log export
+- IP65, ultra-compact (4.05 x 1.80 x 1.00 in), -25 to 75 C
+- 24-96 V nominal; 16 MB memory; UL 583 and EN 1175
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- PosiCharge (T1), retrieved 2026-10-04. <https://posicharge.com/products/posiguard/>
+- Apple App Store (vendor listing) (T1), retrieved 2026-10-04. <https://apps.apple.com/mx/app/posiconnect/id6748969496>
+
 - Manufacturer/product line: PosiCharge / Ampure
 - Market evidence checked: 2026-10-02
 - Published voltage range: nominal 24–96 V; operating 18–120 V.

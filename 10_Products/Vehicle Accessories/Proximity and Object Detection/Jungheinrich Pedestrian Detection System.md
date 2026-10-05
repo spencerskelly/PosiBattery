@@ -32,6 +32,19 @@ Jungheinrich reversing camera with person detection, built on the Blaxtair camer
 
 ## Notes
 
+**Summary:**
+Jungheinrich reversing camera with person recognition that scans the area behind the truck and warns of nearby pedestrians.
+
+**Marketed features:**
+- Stereo camera active while reversing
+- Distinguishes people from objects
+- Optical and audible warnings when a person is close behind the truck
+- Easy to retrofit and maintenance-free
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Jungheinrich (T1), retrieved 2026-10-04. <https://www.jungheinrich.cz/servis-sluzby/bezpecnostni-reseni/ochrana-lidi-491980>
+
 - Jungheinrich offers a reversing camera with person detection; a 2016 report says the integrated pedestrian detection and speed control system was developed with Arcure around the Blaxtair on-board camera, scans the truck's path, identifies obstacles and at long range responds to pedestrians, so the operator is not interrupted by needless warnings. Source: Jungheinrich safety page and Logistics Business (T1/T2), retrieved 2026-10-03. <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.logisticsbusiness.com/materials-handling-warehousing/agv-amr-robots/win-for-jungheinrich-in-design-safety-awards/>

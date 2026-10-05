@@ -27,6 +27,19 @@ AMETEK Prestolite Power diagnostic device for 24/7 monitoring of lift truck batt
 
 ## Notes
 
+**Summary:**
+AMETEK Prestolite Power diagnostic logger for 24/7 monitoring of lift-truck battery and charger use during a power study.
+
+**Marketed features:**
+- 24/7 monitoring of lift-truck battery usage
+- Supports a full facility power study
+- Diagnoses application problems limiting throughput
+- Built-in analysis of charging opportunities, idle times and amp-hours consumed
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Material Handling Wholesaler (T2), retrieved 2026-10-04. <https://www.mhwmag.com/?p=5495>
+
 - Trade press describes Site Probe as providing 24/7 activity monitoring of lift truck battery usage, used for power studies and diagnosis, with built-in analysis of charging opportunities, idle times and amp hours consumed; it is still listed on the vendor's Data Devices page. Source: M H&W magazine and Prestolite page (T2/T1), retrieved 2026-10-02. <https://www.mhwmag.com/?p=5495>
 - **Locus:** study and diagnostic tool; adjacent to the battery. Where it connects is not stated.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

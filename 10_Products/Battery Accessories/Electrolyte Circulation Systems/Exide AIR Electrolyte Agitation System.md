@@ -31,6 +31,18 @@ Exide forced electrolyte circulation (AIR agitation) offered on MARATHON tractio
 
 ## Notes
 
+**Summary:**
+Exide forced electrolyte circulation (air agitation) system that can be fitted to all MARATHON traction batteries.
+
+**Marketed features:**
+- Reduces energy and water consumption and CO2 footprint
+- Extends MARATHON Excell watering interval from up to 16 weeks (80 cycles) to up to 24 weeks (120 cycles)
+- Part of the TENSOR fast-charging package
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Exide (T1), retrieved 2026-10-04. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+
 - Exide's overview says MARATHON batteries can be fitted with AIR agitation, a forced electrolyte circulation system (copy of the overview is in the repo). Source: GNB motive power overview (T1), retrieved 2026-10-03. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 - **Functions performed, with citations:**
   - [[Circulate Electrolyte]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>

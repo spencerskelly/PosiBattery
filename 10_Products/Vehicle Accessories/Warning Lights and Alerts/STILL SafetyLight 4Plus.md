@@ -31,6 +31,20 @@ STILL blue warning light that projects a blue cone or dot of light ahead of the 
 
 ## Notes
 
+**Summary:**
+STILL blue warning light that projects spots in front of and behind the truck to warn people of an approaching truck.
+
+**Marketed features:**
+- Blue spots projected about 5 m ahead and behind
+- Four light points indicate truck direction
+- Energy-efficient 5 W at 12 V LEDs with minimal runtime impact
+- Maintenance-free, 20,000 h service life
+- Minimal scattering for visibility on light floors
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- STILL (T1), retrieved 2026-10-04. <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+
 - STILL says the Safety Light projects a blue dot or cone about 5 m ahead in the direction of travel, can flash, helps in hearing-protection areas, the 4Plus version improves safety in confusing or bend-rich areas, and the light is maintenance-free with a 20,000 hour life. Source: STILL Safety Assist and RX 20 safety pages (T1), retrieved 2026-10-03. <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>

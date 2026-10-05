@@ -31,6 +31,19 @@ Wearable Safety Guard unit that warns a person of approaching trucks with light,
 
 ## Notes
 
+**Summary:**
+Wearable Linde Safety Guard unit that warns a person of approaching trucks with light, vibration and sound.
+
+**Marketed features:**
+- Optical, haptic and acoustic warnings
+- Worn on a belt or warning vest
+- Inductive charging
+- Distance measurement in combination with Keeper
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- LMH Rhein-Ruhr (dealer) (T3), retrieved 2026-10-04. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+
 - The brochure says the Portable Unit gives optical, haptic and acoustic warnings, is worn on a belt or warning vest, charges inductively and measures distance in combination with the Zone Marker; the KION catalog says an inductive charger activates automatically. Source: Linde Rhein-Ruhr safety brochure and KION North America catalog 2023 (T3/T1), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>

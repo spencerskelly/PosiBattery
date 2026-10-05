@@ -35,6 +35,23 @@ Obsolete AMETEK Prestolite Power Wireless Battery Identification Device, replace
 
 ## Notes
 
+**Summary:**
+Obsolete AMETEK Prestolite Power wireless battery identification device that captured lift-truck battery data for fleet monitoring, replaced by the WBID Pro.
+
+**Marketed features:**
+- Recorded temperature, Ah in/out, EQ hours and connects per day; 30-day fleet summary
+- Six I/O channels for temperature, level or LED indicators
+- Data to the charger over the DC cable without extra connectors
+- ZigBee wireless link to DataLink 2/3; range up to 500 ft in-truck and 3,000 ft between chargers (as stated)
+- One device covers 12-40 cells
+- Status: obsolete; WBID Pro is the direct replacement
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AMETEK Prestolite Power (T1), retrieved 2026-10-04. <https://www.prestolitepower.com/products/obsolete-products/wbid>
+- Yahoo Finance (press release) (T2), retrieved 2026-10-04. <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
+- MH&L (T2), retrieved 2026-10-04. <https://mhlnews.com/new-products/article/22054269/wireless-forklift-battery-monitor-new-products>
+
 - The vendor lists the WBID as obsolete with WBID Pro as the direct replacement, and notes compatibility with DataLink and IntelliFleet software. Source: AMETEK Prestolite Power obsolete-products page (T1), retrieved 2026-10-02. <https://www.prestolitepower.com/products/obsolete-products/wbid>
 - A 2014 release says the WBID stores all data over the battery's life, communicates with the charger over the DC cable without special or auxiliary connectors, and needs only one device for 12 to 40 cells; a 2017 release says data moves by ZigBee or over DC cables with a connectivity range up to 500 ft when truck-mounted. Source: Marketwired release (2014) and trade coverage (2017) (T2 (dated)), retrieved 2026-10-02. <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
 - **Relevance:** this is the only retrieved example of charger communication carried on the DC cable. Whether WBID Pro keeps it is not stated (conflicts C11).

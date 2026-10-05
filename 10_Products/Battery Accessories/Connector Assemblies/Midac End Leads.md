@@ -29,6 +29,17 @@ Optional end leads (cable connections) for Midac PzS traction batteries (dealer 
 
 ## Notes
 
+**Summary:**
+Optional end leads (cable connections) for Midac PzS traction batteries, as listed by a dealer.
+
+**Marketed features:**
+- Listed by the dealer as an optional accessory
+- No product-specific marketed features found
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Batterie Siems dealer page (T3), retrieved 2026-10-03 (blocked on re-fetch 2026-10-04). <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
+
 - The same dealer lists end leads as an optional accessory. Source: Batterie Siems dealer page (T3), retrieved 2026-10-03. <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 - **Functions performed, with citations:**
   - [[Connect Battery to Charger or Vehicle]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>

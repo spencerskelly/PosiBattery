@@ -26,6 +26,16 @@ First PosiCharge BMID variant as named by the user. No public document identifie
 
 ## Notes
 
+**Summary:**
+First PosiCharge BMID variant as named by the user; no public product document identified.
+
+**Marketed features:**
+- No marketed features published or found
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Stated by Spencer Skelly, 2026-10-02 (no public source).
+
 - **Source evidence (direct stakeholder statement):** named as 'BMID 1' by Spencer Skelly on 2026-10-02.
 - **Unknown:** physical form, communication method, chemistry coverage, sensors, years of availability, and which public document names (for example Smart BMID, Battery Rx) correspond to it.
 - No BMID 2 was mentioned. Whether one exists is not established.

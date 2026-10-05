@@ -29,6 +29,18 @@ Raymond operator assist option for orderpickers that controls many order-picking
 
 ## Notes
 
+**Summary:**
+Raymond orderpicker operator-assist option that automates pick-location functions by zone and position.
+
+**Marketed features:**
+- Controls many order-picking functions automatically
+- Operator need not search for the exact pick location
+- More reliable, repeatable truck operation
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Plant Engineering (T2), retrieved 2026-10-04. <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
+
 - Raymond describes Zoning and Positioning as an operator assist option where operators focus on surroundings and task instead of locating the exact pick position, and the technology controls many order-picking functions for more reliable, repeatable operation. Source: Plant Engineering product item (2023-02-01) (T2), retrieved 2026-10-03. <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
 - **Functions performed, with citations:**
   - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>

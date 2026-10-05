@@ -40,6 +40,22 @@ AMETEK Prestolite Power battery-mounted monitoring device that records forklift-
 
 ## Notes
 
+**Summary:**
+AMETEK Prestolite Power battery-mounted monitor that records forklift-battery operating history for the battery's life and supports wireless fleet data collection via Insight Cloud.
+
+**Marketed features:**
+- Records average/min/max temperature, Ah in/out, total EQ hours and connects per day
+- 30-day fleet summary with graphical tools; 5-minute data downloads
+- Level, electrolyte and ambient temperature sensors; configurable LED output module
+- Idle, usage and charge times; timestamped event logs; minimum and average SOC
+- ZigBee data access; multiple I/O
+- Compatible with Insight Cloud remote monitoring; direct replacement for WBID
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AMETEK Prestolite Power (T1), retrieved 2026-10-04. <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+- AMETEK Prestolite Power (T1), retrieved 2026-10-04. <https://www.prestolitepower.com/products/datadevices>
+
 - Manufacturer: AMETEK Prestolite Power
 - Market evidence checked: 2026-10-02
 - Vendor explicitly describes WBID Pro as a battery-mounted monitoring device.

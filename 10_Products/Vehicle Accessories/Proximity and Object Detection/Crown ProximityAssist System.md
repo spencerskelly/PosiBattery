@@ -35,6 +35,22 @@ Crown LiDAR operator assist that automatically slows the truck when it detects a
 
 ## Notes
 
+**Summary:**
+Crown LiDAR operator-assist system that detects objects in the truck's expected path and automatically slows the truck.
+
+**Marketed features:**
+- Detects racking, pallet loads, boxes and other obstructions in the expected path
+- Automatically reduces travel speed (does not fully stop; not autonomous)
+- Detection zone adapts to travel speed and steering direction
+- Visual and audible alerts on the InfoLink 7 in display or Gena touchscreen
+- Rugged steel sensor housings; second LiDAR on TSP for both directions
+- Factory-fit or retrofit kits for reach, order picker, stand-up counterbalance, VNA, tow tractor and select pallet trucks
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/sponsored-content/object-detection-supports-operators-in-protecting-equipment-products-and-facilities>
+
 - Crown says ProximityAssist slows the forklift automatically when LiDAR detects an object in the expected path, using steering and travel system inputs to adjust the sensor's field of view and the length of the detection zone with travel speed, and that trucks with the InfoLink 7 inch touch display or the Gena operating system's 7 inch screen also show visual and audible alerts. Source: Crown product innovations article and IVT report (T1/T2), retrieved 2026-10-03. <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>
 - Crown says the sensors are low to the ground and detect in the power unit direction, and the TSP Series very narrow aisle turret truck adds a second LiDAR sensor for both directions. Source: DC Velocity (sponsored content by Crown) (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/sponsored-content/object-detection-supports-operators-in-protecting-equipment-products-and-facilities>
 - Crown says many detection and alert systems are bolt-on and do not offer the integration a truck maker can. Source: Crown product innovations article (T1), retrieved 2026-10-03. <https://www.crown.com/en-us/blog/articles/product-innovations/reinforce-operator-training-with-the-crown-proximityassist-system.html>

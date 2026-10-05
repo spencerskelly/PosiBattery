@@ -29,6 +29,18 @@ Raymond option that senses operator position; the truck decelerates to a stop if
 
 ## Notes
 
+**Summary:**
+Raymond sensor system that checks the operator is in the proper position and brings the truck to a stop if not.
+
+**Marketed features:**
+- Tone and scrolling display message when sensors are blocked
+- Decelerates the truck to a stop if traveling
+- Marketed as a training aid reinforcing proper operator position
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Johnston Equipment (T3), retrieved 2026-10-04. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+
 - Raymond's options sheet lists an Operator Compartment Sensor System to help the operator assume and maintain a proper position, with a display message and the truck decelerating to a stop (sentence cut off). Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>

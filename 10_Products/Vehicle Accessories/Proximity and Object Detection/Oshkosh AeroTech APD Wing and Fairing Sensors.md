@@ -32,6 +32,19 @@ APD sensors that cover the impact zone to the rear and right of the loader bridg
 
 ## Notes
 
+**Summary:**
+Oshkosh AeroTech APD sensors that protect the rear and right of the loader bridge near aircraft wings and fairings.
+
+**Marketed features:**
+- Covers the large impact zone to the rear and right of the bridge
+- For rear lower-lobe and cargo-door work
+- Activates with aircraft in radar range or when reversing
+- Visual/audible alarm or drive interlock
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
+
 - The APD brochure says additional sensors protect the potential impact zone to the rear and right of the loader bridge, can be set to activate when the aircraft is in radar range or the loader is reversing, and can trigger a visual or audible alarm or be interlocked with the drive system. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>

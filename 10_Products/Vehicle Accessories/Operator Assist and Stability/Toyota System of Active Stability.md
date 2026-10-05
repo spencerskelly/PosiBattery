@@ -28,6 +28,20 @@ Toyota system that engages instantly to stabilize the rear axle when the truck s
 
 ## Notes
 
+**Summary:**
+Toyota proprietary system that detects potential instability and locks the rear axle to reduce tip-over risk.
+
+**Marketed features:**
+- Engages instantly when a potentially unstable situation is sensed
+- Swing-lock cylinder stabilizes the rear axle
+- Changes stability footprint from triangular to rectangular
+- Minimizes likelihood of tip-over for operators and bystanders
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Food Logistics (T2), retrieved 2026-10-04. <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota says SAS engages instantly to stabilize the rear axle if the system senses the forklift is in a situation that could lead to instability. Source: Toyota release via Food Logistics (T2), retrieved 2026-10-03. <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
 - **Functions performed, with citations:**
   - [[Stabilize Truck Dynamically]] (V): <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>

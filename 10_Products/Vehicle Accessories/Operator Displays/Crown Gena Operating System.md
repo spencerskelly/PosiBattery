@@ -31,6 +31,22 @@ Crown lift truck operating system with a 7 inch touch screen, widgets, zone sele
 
 ## Notes
 
+**Summary:**
+Crown's connected lift-truck operating system with a touchscreen, widgets and contextual guidance, integrated with InfoLink.
+
+**Marketed features:**
+- 7 in touchscreen with customizable widgets (battery capacity, hour meter, height and steer-angle indicators)
+- Wireless updates
+- Adjustable driving parameters (acceleration, braking, travel speed) per operator and application
+- Onboarding prompts, safety reminders and real-time task guidance
+- 25 to more than 40 languages, depending on source
+- Integrates with InfoLink (required); optional USB charging port on ESR
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
+- Crown (T1), retrieved 2026-10-04. <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+
 - Crown says the Gena operating system has a 7 inch touch screen programmable in 25 languages, customizable widgets, wireless updates and, on the ESR reach truck, integrates an optional Capacity Data Monitor. Source: Crown ESR reach truck page (T1), retrieved 2026-10-03. <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 - On the SP Series order picker, Zone Select lets three clear heights be programmed per application, safety messages show at log-in, and Gena integrates with the optional InfoLink Operator and Fleet Management System (access control, visual inspection checklist, impact detection and alerts, equipment lockout; InfoLink service plan required). Source: Crown SP 1500 page and APAC brochure (T1), retrieved 2026-10-03. <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
 - Crown says ProximityAssist alerts appear on the Gena touch screen. Source: IVT International (T2), retrieved 2026-10-03. <https://www.ivtinternational.com/?p=22917>

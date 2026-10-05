@@ -32,6 +32,18 @@ Crown electrolyte level indicators for lead-acid batteries in standard, smart (L
 
 ## Notes
 
+**Summary:**
+Crown electrolyte level indicators for lead-acid batteries in standard, smart and remote versions.
+
+**Marketed features:**
+- Standard models
+- Smart models with LED and sound for good level or water needed
+- Remote model for batteries that never leave the truck
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-ca/batteries-and-chargers/>
+
 - Crown lists battery acid indicators: standard models, smart models that use LED lights and sound to show electrolyte is good or water is needed, and a remote model for batteries that never leave the truck. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Maker not stated** for these indicators; other notes cover Flow-Rite Eagle Eye and Philadelphia Scientific SmartBlinky.
 - **Functions performed, with citations:**

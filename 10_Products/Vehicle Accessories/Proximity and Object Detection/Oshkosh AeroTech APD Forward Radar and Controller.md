@@ -37,6 +37,22 @@ Base Aircraft Proximity Detection system for Commander loaders: a forward-lookin
 
 ## Notes
 
+**Summary:**
+Base Oshkosh AeroTech Aircraft Proximity Detection system for Commander loaders: forward radar, controller, cab alerts and configurable drive interlocks.
+
+**Marketed features:**
+- Forward-looking 5.8 GHz airport-approved radar, 6.0 m (20 ft) maximum range
+- Controller in main electrical panel; cab warning light, buzzer and outdoor-rated color LCD
+- Hand throttle for precise creep speed on final approach
+- Password-protected interlocks: full stop, snail or creep speed at preset 3.0-6.0 m distances
+- Modular expansion; configurable to IATA AHM 913 6.1
+- Offered for C15/C15i, C30/C30i and Ranger
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%202025.pdf?hsLang=en>
+
 - Oshkosh AeroTech's APD brochure says the controller sits in the main electrical panel and interprets sensor input, alerting the operator through a warning light and buzzer on the cab control panel, which also carries a 5 cm (2.8 in) color LCD rated for outdoor use; the base system includes a forward-looking radar at 5.8 GHz with a maximum range of 6.0 m (20 ft), approved for airports, and a hand throttle lever for creep speed on final approach. Source: Oshkosh AeroTech APD brochure (06/18/24) (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - The brochure says selectable, password-protected interlocks let maintenance staff choose what the radar does when it detects an obstacle at 6.0, 5.3, 4.5, 3.8 or 3.0 m: full stop, switch to snail speed or switch to hand-control creep speed, and warning light, buzzer and drive interlock when the cab is not retracted, the bridge is not lowered, the wing-down is not actuated or the chassis is not lowered. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Functions performed, with citations:**

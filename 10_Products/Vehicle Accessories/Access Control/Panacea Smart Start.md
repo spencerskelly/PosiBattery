@@ -29,6 +29,19 @@ Panacea fingerprint starter for forklifts.
 
 ## Notes
 
+**Summary:**
+Panacea fingerprint-reader starter that restricts forklift and vehicle starting to authorized operators.
+
+**Marketed features:**
+- Fingerprint-reader start control for internal-combustion vehicles
+- Available for most forklift makes and models
+- Can also be fitted to cars and trucks
+- Marketed install time of about 10 minutes
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+
 - DC Velocity lists the Smart Start fingerprint starter among Panacea's forklift safety products. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Functions performed, with citations:**
   - [[Control Operator Access]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>

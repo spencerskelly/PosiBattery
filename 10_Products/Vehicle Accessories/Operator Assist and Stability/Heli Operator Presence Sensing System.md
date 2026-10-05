@@ -29,6 +29,18 @@ Heli OPS that prevents the forklift from operating when the operator leaves the 
 
 ## Notes
 
+**Summary:**
+Heli factory-installed operator presence sensing system that prevents forklift operation when the operator leaves the operating position.
+
+**Marketed features:**
+- Factory-installed
+- Prevents operation when the operator leaves position
+- Some series add a driver-absence warning (per existing note)
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Paleciaki (T3), retrieved 2026-10-04. <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
+
 - A Polish dealer says the factory OPS (Operator Presence Sensing) system prevents operation of the forklift when the operator leaves the position, and lists an operator presence detection system on the H4 series and a driver absence warning on the H3 and G3 series. Source: Paleciaki and FLT Grupa dealer pages (T3), retrieved 2026-10-03. <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.paleciaki.info/en/electric-forklift-heli-cpd18-a3lih4-m-li-ion.html>

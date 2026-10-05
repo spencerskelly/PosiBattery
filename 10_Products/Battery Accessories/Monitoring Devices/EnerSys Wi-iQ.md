@@ -66,6 +66,23 @@ EnerSys commercial battery monitoring device for motive-power batteries.
 
 ## Notes
 
+**Summary:**
+EnerSys fourth-generation battery monitoring device (Wi-iQ4) that monitors motive-power batteries and shares data with chargers, apps, truck displays and, optionally, CAN networks.
+
+**Marketed features:**
+- 24-80 V and 96-120 V configurations; flooded lead-acid and NexSys TPPL
+- Hall-effect current up to +/-1000 A at 1 A resolution; full and half-battery voltage; temperature and electrolyte probes
+- LCD, three LEDs and low-voltage buzzer, replacing a separate LVA device
+- Zigbee to Wi-iQ Report, chargers and Xinx; BLE to E Connect app and Truck iQ
+- Optional CAN module (CANopen or J1939) for trucks and AGVs
+- IP65; more than 8,000 events stored (spec table says up to 8,000 records)
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- EnerSys (T1), retrieved 2026-10-04. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/data-logger/enersys/wi-iq/>
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/49761b/globalassets/documents/product-documentation/_misc/wi-iq/apac/wiiq_gb.pdf>
+
 - **Identity:** battery-harness monitoring device made by [[EnerSys]]; installed family [[Battery Monitoring Device]]; also performs battery identification and temperature reporting to EnerSys chargers, so it behaves like a BMID-class device. Generation covered: Wi-iQ4 (2025 manual); the earlier Wi-iQ3 is described in a brochure.
 - **Specifications (as stated in the Wi-iQ4 owner's manual):**
 | Parameter | Value as stated |

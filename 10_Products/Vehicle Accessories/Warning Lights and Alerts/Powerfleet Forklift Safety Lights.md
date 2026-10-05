@@ -29,6 +29,23 @@ Powerfleet Forklift Safety Light family: Standard, Mini, Sideliner and the Maxi 
 
 ## Notes
 
+**Summary:**
+Powerfleet family of floor-projecting LED warning lights for forklifts, tow tractors and overhead cranes.
+
+**Marketed features:**
+- Models: Standard, Mini, Sideliner and crane-specific Maxi (24 LED)
+- Projects a bright spot, arrow or line up to about 4.5 m (15 ft) ahead, behind or beside the vehicle
+- Visual warning that works despite ambient noise
+- Red or blue; adjustable mounting bracket
+- Waterproof (IP68 on Forewarner), maintenance-free; 9-60/9-80 VDC depending on model
+- Marketed benefits: safety, reduced liability, equipment longevity
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Powerfleet (T1), retrieved 2026-10-04. <https://www.powerfleet.com/wp-content/uploads/2023/07/PS_Forklift-Safety-Lights_Letter_EN_062023.pdf>
+- Powerfleet (T1), retrieved 2026-10-04. <https://www.powerfleet.com/us/products/on-site/>
+- Powerfleet (T1), retrieved 2026-10-04. <https://www.powerfleet.com/documents/catalogs/powerfleet_industrial_catalog.pdf>
+
 - Powerfleet lists Forklift Safety Light Standard, Mini and Sideliner, plus the Forklift Safety Light Maxi for overhead cranes mounted at the bottom of the crane to project an LED spot or line. Source: Powerfleet material handling telematics page (T1), retrieved 2026-10-03. <https://www.powerfleet.com/?p=30065>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.powerfleet.com/?p=30065>

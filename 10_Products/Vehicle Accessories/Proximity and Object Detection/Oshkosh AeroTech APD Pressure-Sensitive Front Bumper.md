@@ -31,6 +31,18 @@ APD front bumper that automatically stops forward drive when actuated and can be
 
 ## Notes
 
+**Summary:**
+Oshkosh AeroTech APD pressure-sensitive front bumper that automatically stops forward drive on contact.
+
+**Marketed features:**
+- Automatically stops forward drive when actuated
+- Short stopping distance in creep mode greatly reduces aircraft damage
+- Can be interlocked with warning light, buzzer and higher-speed propel modes for incident follow-up
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
+
 - The APD brochure says the pressure-sensitive front bumpers automatically stop forward drive motion when actuated, that in creep mode the stopping distance is short enough to greatly reduce damage to the aircraft, and that the bumper can be interlocked with the warning light, buzzer and the higher-speed propel modes to draw attention to collisions. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Functions performed, with citations:**
   - [[Slow and Stop Near Aircraft]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>

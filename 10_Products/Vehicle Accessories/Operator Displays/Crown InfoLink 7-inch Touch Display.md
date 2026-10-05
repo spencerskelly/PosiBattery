@@ -31,6 +31,23 @@ Crown 7 inch touch display on InfoLink-equipped trucks that shows visual and aud
 
 ## Notes
 
+**Summary:**
+Crown InfoLink operator touchscreen module that delivers visual messages, checklists, access control and impact alerts during operation.
+
+**Marketed features:**
+- 7 in color touch LCD (HD3000) with customizable widgets
+- Illustrated electronic inspection checklists (OSHA compliance support)
+- Impact monitoring and messages; analyzer mode for live impact testing
+- Operator certification management and electronic truck access control; integrated proximity reader and on-screen keypad
+- Safety reminders, Dynamic Coaching and two-way messaging
+- Glove-friendly navigation buttons; 25 languages
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-us/fleet-management/infolink.html>
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-eu/fleet-management/forklift-fleet-management-infolink.html>
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/content/dam/crown/pdfs/en-us/operator-manuals/InfoLink/infolink-hardware-7inch.pdf>
+
 - Crown says trucks with the InfoLink 7 inch touch display or the Gena operating system's 7 inch touch screen show visual and audible alerts when ProximityAssist detects an object. Source: IVT International and Food Logistics reports (T2), retrieved 2026-10-03. <https://www.ivtinternational.com/?p=22917>
 - **Open:** the Gena operating system screen is a separate named item, not yet modeled.
 - **Functions performed, with citations:**

@@ -30,6 +30,19 @@ Hydraulically powered left handrail whose ultrasonic sensor keeps it 5 cm from t
 
 ## Notes
 
+**Summary:**
+Hydraulically powered loader handrail with an ultrasonic sensor that holds it a fixed distance from the aircraft fuselage.
+
+**Marketed features:**
+- Hydraulically powered extend/retract
+- Ultrasonic sensor keeps the rail 5 cm (2 in) from the fuselage
+- Interlock can disable drive until the rail is folded or retracted
+- Extends after the loader interfaces with the aircraft
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Oshkosh AeroTech (T1), retrieved 2026-10-04. <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
+
 - The APD brochure says the extend and retract function of the left handrail is hydraulically powered, interlocks can disable drive until the rail is folded or retracted, and after interfacing with the aircraft an ultrasonic sensor automatically adjusts the handrail to stay 5 cm (2 in) from the fuselage. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **Design characteristics, with citations:**
   - [[Ultrasonic Distance Sensor]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>

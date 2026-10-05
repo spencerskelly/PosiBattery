@@ -27,6 +27,18 @@ UniCarriers in-cab accessories for the SCX N2: USB ports, operator fan and mirro
 
 ## Notes
 
+**Summary:**
+In-cab convenience accessories offered on the UniCarriers SCX N2 stand-up counterbalanced truck.
+
+**Marketed features:**
+- USB ports
+- Operator fan
+- Mirror
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AJOT (T2), retrieved 2026-10-04. <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
+
 - The SCX N2 launch release lists several in-cab accessories: USB ports, an operator fan and a mirror. Source: UniCarriers SCX N2 launch release (T1), retrieved 2026-10-03. <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]. See [[Truck Part Connection Register]].
 

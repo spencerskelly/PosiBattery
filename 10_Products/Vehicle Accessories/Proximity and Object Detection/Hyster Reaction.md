@@ -35,6 +35,23 @@ Hyster operator assist package that limits truck speed, acceleration and hydraul
 
 ## Notes
 
+**Summary:**
+Hyster operator-assist technology package that adjusts truck performance from location, proximity and object-detection inputs while the operator stays in control.
+
+**Marketed features:**
+- Combines dynamic stability, object detection (LiDAR), proximity detection and real-time location sensing
+- Automatic slowdown at intersections, in pedestrian zones and in corners
+- Hydraulic adjustment and overload arrest above set weight thresholds
+- Tags on trucks, pedestrians and infrastructure for truck-to-truck/pedestrian/beacon detection
+- Includes pedestrian awareness camera option
+- Scalable and site-customizable; developed with over 29,000 R&D hours
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+
 - Hyster says Reaction uses proximity detection powered by local or real-time location technologies with tags on equipment, pedestrians and infrastructure for truck-to-truck, truck-to-pedestrian and truck-to-beacon detection, plus a LiDAR system for obstacles without tags, and applies limits to speed, acceleration and hydraulic functions; the 2021 release also names advanced dynamic stability and real-time location sensing. Source: Hyster press release (2021) (T1), retrieved 2026-10-03. <https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2021/hyster-introduces-innovative-operator-assist-technology-for-lift-trucks>
 - Hyster's EMEA page adds automatic speed limits near pedestrians and equipment or by location rules such as four-way crossings and pedestrian zones, with visual and audible alerts; it is an option on many electric counterbalanced and warehouse models. Source: Hyster EMEA Reaction page (T1), retrieved 2026-10-03. <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
 - **Left blank on purpose:** which specific truck models offer it is not stated (selected models); no offered-with link is written until a model list is found.

@@ -28,6 +28,19 @@ Linde driving path warning lights (Blue Spot, Red Spot, Truck Spot) projecting a
 
 ## Notes
 
+**Summary:**
+Linde travel-path warning lights (Blue Spot, Red Spot, Truck Spot) that project a spot on the floor to announce an approaching truck.
+
+**Marketed features:**
+- Blue LED spot projected a few meters ahead in the direction of travel, constant or flashing
+- Early pedestrian warning, effective in loud environments
+- High robustness and service life
+- Factory option or retrofit on H14-H80, E12-E80 and R10-R25 series
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- LMH Rhein-Ruhr (dealer) (T3), retrieved 2026-10-04. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+
 - Linde says BlueSpot uses two bright LEDs to project a blue spot a few metres ahead in the direction of travel, constant or flashing, to improve pedestrian safety at aisle intersections; a dealer brochure lists Blue Spot, Red Spot and a Truck Spot warning symbol. Source: Logistics Matters and Linde dealer brochure (T2/T3), retrieved 2026-10-03. <https://logisticsmatters.co.uk/page_513926.asp>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://logisticsmatters.co.uk/page_513926.asp>

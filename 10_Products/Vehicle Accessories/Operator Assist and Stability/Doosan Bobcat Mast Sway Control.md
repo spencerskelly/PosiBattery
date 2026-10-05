@@ -30,6 +30,18 @@ Control on 7-Series Plus trucks that cuts speed and stabilizes the mast at heigh
 
 ## Notes
 
+**Summary:**
+Doosan Bobcat stability feature on 7-Series Plus trucks that cuts speed and stabilizes the mast at height.
+
+**Marketed features:**
+- Standard (built-in) safety feature
+- Cuts speed and stabilizes the mast at height
+- Marketed for confident, secure handling at height
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DirectIndustry (T3), retrieved 2026-10-04. <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
+
 - The catalog entry for the 7-Series Plus says mast sway control cuts speed and stabilizes the mast at height, alongside an Operator Sensing System, Hill Start Assist, an electric parking brake and an electric foot brake. Source: DirectIndustry catalog entry (T3), retrieved 2026-10-03. <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>
 - **Functions performed, with citations:**
   - [[Damp Mast Oscillation]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856186.html>

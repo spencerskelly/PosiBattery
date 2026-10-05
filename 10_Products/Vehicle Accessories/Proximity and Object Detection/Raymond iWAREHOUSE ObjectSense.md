@@ -33,6 +33,18 @@ Raymond LiDAR obstacle detection that alerts operators and restricts movement wh
 
 ## Notes
 
+**Summary:**
+Raymond iWAREHOUSE LiDAR detection and notification system that alerts operators and restricts truck movement for objects in the path.
+
+**Marketed features:**
+- LiDAR-based obstacle detection
+- Alerts operators to other vehicles and objects
+- Restricts truck movement when objects are in the path
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
+
 - Raymond says iWAREHOUSE ObjectSense uses LiDAR obstacle detection to alert operators to other vehicles and objects with audible and visual notifications and provides slowdown or stop functionality based on application needs. Source: DC Velocity (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.dcvelocity.com/how-facility-leaders-can-invest-in-operators-to-reinforce-warehouse-best-practices>

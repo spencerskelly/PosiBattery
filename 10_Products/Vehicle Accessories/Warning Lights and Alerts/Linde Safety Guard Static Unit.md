@@ -31,6 +31,18 @@ Safety Guard module that marks and warns at a fixed hazard such as a door or bli
 
 ## Notes
 
+**Summary:**
+Fixed Linde Safety Guard module that marks and warns at hazard points such as doors and blind intersections.
+
+**Marketed features:**
+- Marking and warning in one device
+- High-power LEDs and dimmable siren
+- Optional mast-height detection and speed reduction
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- LMH Rhein-Ruhr (dealer) (T3), retrieved 2026-10-04. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+
 - The brochure says the Static Unit marks and warns with one device using high-power LEDs and a dimmable siren, with optional mast height detection and travel reduction; the KION catalog names access doors and low-visibility intersections as typical places. Source: Linde Rhein-Ruhr safety brochure and KION North America catalog 2023 (T3/T1), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>

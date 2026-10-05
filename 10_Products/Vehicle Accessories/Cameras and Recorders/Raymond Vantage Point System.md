@@ -30,6 +30,18 @@ Raymond option with a camera mounted under the forks for pallet engagement (name
 
 ## Notes
 
+**Summary:**
+Raymond option with a camera mounted under the forks for precise pallet storage and retrieval at height.
+
+**Marketed features:**
+- Camera mounted under the forks
+- Marketed as the greatest clarity and widest field of view on the market
+- Supports more precise pallet storage and retrieval at height
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Johnston Equipment (T3), retrieved 2026-10-04. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+
 - Raymond's options sheet describes a camera mounted under the truck's forks for precise pallet engagement and greater operator speed, accuracy and confidence; the sheet text retrieved does not give its name. Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>

@@ -31,6 +31,19 @@ Cat lighting options: road lights, amber strobes, red or blue warning spots and 
 
 ## Notes
 
+**Summary:**
+Range of Cat optional safety lights for the EP40-55N electric forklift range.
+
+**Marketed features:**
+- Road lights
+- Amber strobes
+- Red or blue warning spots
+- Red lines highlighting exclusion boundaries around the truck
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Cat Lift Trucks (T1), retrieved 2026-10-04. <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
+
 - Cat's blog lists road lights, amber strobes, red or blue warning spots and red lines to highlight exclusion boundaries around the truck among options on the EP40-55N. Source: Cat Lift Trucks blog (T1), retrieved 2026-10-03. <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>

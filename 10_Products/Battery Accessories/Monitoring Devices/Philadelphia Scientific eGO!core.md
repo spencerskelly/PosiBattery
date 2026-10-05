@@ -32,6 +32,21 @@ Philadelphia Scientific entry eGO! monitor for 12 V flooded and VRLA batteries t
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific entry-level eGO! battery performance monitor for smaller batteries that records key metrics for fleet decisions at lower cost of ownership.
+
+**Marketed features:**
+- Records work, rest, charge and cool-down hours, opportunity and abuse cycles
+- Indications for connectivity, electrolyte level and high temperature
+- eGO!alerts and Critical Alert Service via batterymanagement.net
+- Light-triggered manual upload (phone torch)
+- Data via eGO!cloudlink, eGO!receiver, eGO!gateway or eGO!tools app
+- Listed for PPT and LLOP applications
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
+
 - The page lists 12 V nominal, flooded and VRLA versions, cycle data, internal temperature sensor, 100 x 30 x 18 mm, 100 g (flooded) and 80 g (VRLA), 2-year warranty, and data collection through eGO!cloudlink, eGO!receiver, eGO!gateway or the eGO!tools Android app. Source: PhilSci eGO!core page (T1), retrieved 2026-10-02. <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - The owner's manual says eGO!core is intended for 12 V flooded and VRLA batteries and monitors and records cycles and temperatures. Source: PhilSci eGO!core owner's manual (T1), retrieved 2026-10-02. <https://www.phlsci.com/media/ux3nu5uy/egocore-om-ps-en-us-doc0652.pdf>
 - **Fit:** 12 V only, so it targets scrubbers and similar equipment, not 24 to 80 V forklift batteries. Not stated in retrieved sources: forklift or GSE use.

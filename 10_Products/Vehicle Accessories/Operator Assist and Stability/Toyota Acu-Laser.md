@@ -31,6 +31,18 @@ Toyota laser that projects a red or green line onto the pallet for precise place
 
 ## Notes
 
+**Summary:**
+Toyota laser that projects a red or green line onto the pallet to show fork position for precise placement.
+
+**Marketed features:**
+- Automatically projects a red or green laser line onto the pallet
+- Shows the operator the fork position
+- Enables precise pallet placement
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/toyota-assist>
+
 - Toyota says Acu-Laser automatically projects a red or green laser line onto the pallet, allowing precise pallet placement and showing the operator the fork's position. Source: Toyota Assist page (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/toyota-assist>
 - **Functions performed, with citations:**
   - [[Assist Lift Positioning]] (V): <https://www.toyotaforklift.com/toyota-assist>

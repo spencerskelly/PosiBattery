@@ -30,6 +30,18 @@ Exide electrolyte level sensor and automatic watering system offered for its tra
 
 ## Notes
 
+**Summary:**
+Exide electrolyte level sensor and automatic watering system offered for its traction batteries.
+
+**Marketed features:**
+- Sensor indicates battery electrolyte level
+- Automatic watering system available
+- No further product-specific features published in the retrieved source
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Exide (T1), retrieved 2026-10-04. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+
 - Exide's overview says an electrolyte level sensor and an automatic watering system are available for its motive power batteries. Source: GNB motive power overview (T1), retrieved 2026-10-03. <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>

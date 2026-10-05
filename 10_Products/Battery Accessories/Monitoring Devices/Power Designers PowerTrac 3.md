@@ -45,6 +45,21 @@ Power Designers wireless battery monitoring device with shuntless intercell sens
 
 ## Notes
 
+**Summary:**
+Power Designers wireless battery monitor with shuntless sensing and an electrolyte sensor that also lets REVOLUTION chargers recognize the battery.
+
+**Marketed features:**
+- Logs voltage, temperature, current and electrolyte level during charge, discharge and idle
+- Shuntless, compact, easier installation; up to 90 percent less energy than earlier models
+- Stores up to 10,000 events; wireless transfer
+- Smart Equalize and auto voltage/Ah recognition with REVOLUTION chargers via power-line communication
+- Predicts battery replacement; PowerCharge.Net fleet monitoring option
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Power Designers (T1), retrieved 2026-10-04. <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+- Power Designers (T1), retrieved 2026-10-04. <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
+
 - Manufacturer: Power Designers (Power Designers Sibex).
 - The vendor page says PowerTrac 3 tracks voltage, temperature, current and electrolyte level (variable-length probe), stores up to 10,000 events, transfers data wirelessly, uses a shuntless design, uses up to 90 percent less energy than previous models, and reports cycles, equalization status and kWh per event; it communicates with the REVOLUTION charger so the charger can automatically recognize battery voltage (24/36/48 V, footnoted by charger rating) and Ah capacity. Source: Power Designers PowerTrac 3 page (T1), retrieved 2026-10-02. <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 - **Not retrieved:** the specification sheet and installation guides linked from the page (radio band, nominal voltage range, operating temperature). **Competitive relevance:** closest match found to the BMID behavior of identifying a battery to a charger by a charger vendor's own monitor.

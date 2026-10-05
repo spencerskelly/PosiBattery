@@ -39,6 +39,22 @@ Philadelphia Scientific low-profile battery data recorder that stores data on a 
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific slim battery-life monitor that records battery data to a removable USB drive for upload.
+
+**Marketed features:**
+- Monitors voltage, temperature and electrolyte level every 60 seconds
+- Stores data on a USB flash drive for upload to BatteryManagement.net
+- LED indicators and audible low-electrolyte alarm; over-temperature warning
+- 24-hour Smart Delay to reduce incorrect topping
+- Lead-acid and VRLA versions; 12-80 V; IP65
+- 25 mm high, three-lead installation
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Warehouse News (T2), retrieved 2026-10-04. <https://warehousenews.co.uk/?p=68147>
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>
+
 - The trade feature says eGO!Mini is slim, records data and stores it on a removable USB drive, with the eGO! range mounted on top of the battery and showing maintenance needs with LED indicators; the eGO!Tools Android app lets technicians upload data and program an eGO!. Source: Warehouse News feature (undated) (T4), retrieved 2026-10-02. <https://warehousenews.co.uk/?p=68147>
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Measure Battery Voltage]] (V): <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>

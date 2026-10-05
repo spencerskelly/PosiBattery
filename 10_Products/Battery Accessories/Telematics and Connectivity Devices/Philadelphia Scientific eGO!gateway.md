@@ -31,6 +31,21 @@ Philadelphia Scientific mains-powered gateway that collects data from eGO! devic
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific mains-powered gateway that collects data from eGO! monitors over Bluetooth and uploads it over cellular.
+
+**Marketed features:**
+- Works with all eGO! monitors; collects data at the end of each charge cycle
+- Uploads to batterymanagement.net; no engineer site visits
+- 4G/3G/2G global cellular; Bluetooth range about 70 m
+- Wall mount with power and internet cables; DHCP auto-configuration
+- 90-264 VAC; 0-50 C; status LEDs
+- Two-year warranty
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Philadelphia Scientific (T1), retrieved 2026-10-04. <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
+
 - The page says the eGO!gateway captures performance data from an eGO! installed on a battery and uploads it to the online portal, runs on 90 to 264 V AC, works on 4G/3G/2G cellular, has Bluetooth range of about 70 m, operates 0 to 50 C, and has a 2-year warranty. Source: PhilSci eGO!gateway page (T1), retrieved 2026-10-02. <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
 - **Locus:** site infrastructure, not battery-installed.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

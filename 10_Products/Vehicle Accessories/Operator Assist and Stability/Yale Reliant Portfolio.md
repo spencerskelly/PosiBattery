@@ -32,6 +32,23 @@ Yale portfolio of operator assist technologies, which added the pedestrian-aware
 
 ## Notes
 
+**Summary:**
+Yale's Reliant operator-assist portfolio that uses detection, proximity and location technologies to warn operators and automatically limit truck performance.
+
+**Marketed features:**
+- Adjusts travel speed, acceleration and hydraulics to keep the load center within the stability triangle
+- Ultra-wideband 360-degree proximity detection of equipped trucks, badge-wearing pedestrians and beacons
+- Server-based real-time location sensing for geofenced speed zones, exclusion zones and end-of-aisle slowdown
+- 2D lidar object detection in the forks-trailing travel path
+- Truck-mounted OAS display alerts; vibrating wearable pedestrian tags
+- Pedestrian-awareness camera added to the portfolio; offered on 18 Yale models
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Automated Warehouse (T2), retrieved 2026-10-04. <https://www.automatedwarehouseonline.com/?p=8847>
+- MHI Solutions (T2), retrieved 2026-10-04. <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+- Inbound Logistics (T2), retrieved 2026-10-04. <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+
 - A trade report says Yale Lift Truck Technologies announced the addition of the pedestrian-awareness camera to its Reliant portfolio in the same month Hyster launched it. Source: Automated Warehouse (T2), retrieved 2026-10-03. <https://www.automatedwarehouseonline.com/?p=8847>
 - **Not retrieved:** the other Reliant products and models.
 - Yale says Reliant uses multiple detection technologies (proximity tags through local or real-time location, object detection, geofencing), automatic speed reduction near pedestrians and in pedestrian-only zones, a following-distance rule, speed control and exclusion zones, an operator display with performance alerts, restricting travel and lift if the load exceeds the weight limit and reducing cornering speed; the launch release credits more than 29,000 hours of Hyster-Yale Group R&D. Source: Yale Reliant sheet (MHI) and launch release (T1/T2), retrieved 2026-10-03. <https://og.mhi.org/media/members/14259/133294183726805278.pdf>

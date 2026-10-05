@@ -26,6 +26,18 @@ Crown option kit (part 396587-001) giving a V-HFM3 charger a wired remote contro
 
 ## Notes
 
+**Summary:**
+Option kit for the Crown V-HFM3 charger that adds a wired remote for charger control and status display.
+
+**Marketed features:**
+- Wired remote control with detachable cable for control and status display
+- Part no. 396587-001
+- Includes I/O expansion board with internal wiring loom, expansion-board and DE9 mounting standoffs
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+
 - Crown's brochure lists the Wired Remote Control Kit, part 396587-001, which allows control and status display via the remote control and includes a wired remote control on an 11.81 inch pole with detachable cable, an I/O expansion board with mounting standoff and DE9 mounting standoffs. Source: Crown V-HFM3 brochure (copy in repo: Downloads/vhfm3-chargers.pdf) (T1), retrieved 2026-10-03. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 
 ## Aliases

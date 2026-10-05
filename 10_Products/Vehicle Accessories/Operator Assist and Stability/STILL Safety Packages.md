@@ -30,6 +30,22 @@ STILL RX 20 and RX 60 equipment bundles: Safety Work (SafetyLight, warning light
 
 ## Notes
 
+**Summary:**
+Combinable STILL safety-equipment bundles for RX 20 and RX 60 electric forklifts, offered at a package price.
+
+**Marketed features:**
+- Safety Work: STILL SafetyLight (blue spot about 5 m away), flashing warning light, panoramic mirror, steering-angle-dependent curve speed control
+- Safety Vision: two front LED work lights and one rear LED work light
+- Safety Load: load backrest and mesh overhead guard
+- Packs can be combined; priced below buying items individually
+- Offer tied to new RX 20 or RX 60 purchase or lease
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- STILL (T1), retrieved 2026-10-04. <https://www.still.fr/produits/chariots-neufs/chariots-elevateurs-electriques/rx-20-14-20-t/les-packs-securite-still.html>
+- STILL (T1), retrieved 2026-10-04. <https://www.still.de/rx-60-safety.html>
+- STILL (T1), retrieved 2026-10-04. <https://www.still.es/rx-60-seguridad.html>
+
 - STILL's UK pages describe three combinable packages, offered with a new RX 20 or RX 60 electric truck: Safety Work, Safety Vision and Safety Load, as listed in the definition. Source: STILL RX 20 and RX 60 safety pages (T1), retrieved 2026-10-03. <https://www.still.co.uk/rx20-safety>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/rx20-safety>

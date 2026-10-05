@@ -35,6 +35,22 @@ Philadelphia Scientific connected battery monitor that records every battery cyc
 
 ## Notes
 
+**Summary:**
+Philadelphia Scientific connected battery monitor that records every battery cycle and uploads wirelessly to batterymanagement.net.
+
+**Marketed features:**
+- Over 250,000 samples per day across 38 measurement fields
+- Wireless upload via CloudLink gateway
+- Red/amber/green indicators for water, temperature and OK
+- 40 configurable alerts with email to up to three recipients
+- Abuse analytics and predicted replacement date
+- Marketed for larger fleets; claims payback with 30 days of extra battery life
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- IPE Search (T2), retrieved 2026-10-04. <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+- Warehouse News (T2), retrieved 2026-10-04. <https://warehousenews.co.uk/?p=68147>
+
 - The trade feature says eGO!c records every battery cycle and uploads automatically to batterymanagement.net; a second trade source says it takes over 250,000 samples a day into 38 fields and gives 40 alerts, claims that are manufacturer figures. Source: Warehouse News and iPE feature (T4), retrieved 2026-10-02. <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Log Battery Events and Usage]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>

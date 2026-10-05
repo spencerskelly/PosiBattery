@@ -30,6 +30,18 @@ TLD ASD+ Aircraft Safe Docking assistance that detects the aircraft door positio
 
 ## Notes
 
+**Summary:**
+TLD aircraft safe-docking assistance that detects the aircraft door position and steers the GSE on an optimal docking trajectory.
+
+**Marketed features:**
+- Detects aircraft door position
+- Steers the GSE on the optimal trajectory
+- Marketed for first-attempt docking
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- The Flying Engineer (T2), retrieved 2026-10-04. <https://theflyingengineer.com/listing/tld-europe/>
+
 - A TLD Europe listing says its belt loaders offer ASD+ Aircraft Safe Docking assistance that detects the aircraft door position and steers the GSE on an optimal trajectory for first-attempt docking, as part of growing automation that reduces human-factor risk. Source: The Flying Engineer listing of TLD Europe (T3), retrieved 2026-10-03. <https://theflyingengineer.com/listing/tld-europe/>
 - **Functions performed, with citations:**
   - [[Dock Automatically at Aircraft]] (V): <https://theflyingengineer.com/listing/tld-europe/>

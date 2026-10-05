@@ -36,6 +36,21 @@ Textron anti-collision system for TUG belt loaders using ultrasonic sensors that
 
 ## Notes
 
+**Summary:**
+Textron GSE ultrasonic anti-collision system that slows and stops TUG belt loaders as they approach an aircraft.
+
+**Marketed features:**
+- Ultrasonic sensors on the conveyor front feed the transmission speed control
+- Speed limited to 3.5 mph (5.6 km/h) at all times
+- 0.5 mph within 6 ft (1.8 m) with yellow indicator
+- No forward movement within 2-4 in (5-10 cm); red light at 2 in, seat exit or fault
+- Indicator lights front and rear for ground handlers
+- Available on TUG 660 and 660E
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Airport World (T2), retrieved 2026-10-04. <https://airport.h5mag.com/air_dec18/textron_company_insight>
+
 - Textron says Smart Sense uses ultrasonic sensors on the front of the conveyor to judge aircraft proximity and signals the transmission to control speed; speed is limited to 3.5 mph, slows to 0.5 mph within 6 ft (1.8 m) with a flashing yellow light, and the vehicle cannot move forward once the conveyor is within 2 to 4 inches (5 to 10 cm); indicator lights are on the conveyor front and the back of the TUG 660. Source: Airport Industry Review company insight (T2), retrieved 2026-10-03. <https://airport.h5mag.com/air_dec18/textron_company_insight>
 - A trade report adds that Smart Sense stops the belt loader if the operator leaves the seat while it is moving or a system fault is detected, and quotes IATA research that belt loaders and other ground support vehicles account for 40 percent of ramp incidents. Source: Ground Handling International (April 2023) (T2), retrieved 2026-10-03. <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
 - **Functions performed, with citations:**

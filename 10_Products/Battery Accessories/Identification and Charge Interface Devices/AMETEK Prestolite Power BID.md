@@ -38,6 +38,18 @@ AMETEK Prestolite Power Battery Identification Device that provides a compatible
 
 ## Notes
 
+**Summary:**
+AMETEK Prestolite Power battery identification device that gives a compatible charger the battery's identity, configuration and temperature.
+
+**Marketed features:**
+- Provides battery ID number for charger archive records
+- Provides cell count, Ah capacity, battery type/charge profile and start rate
+- Continuous temperature updates enable temperature-compensated charging
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AMETEK Prestolite Power (T1), retrieved 2026-10-04. <https://www.prestolitepower.com/products/datadevices/bid>
+
 - Manufacturer: AMETEK Prestolite Power
 - Market evidence checked: 2026-10-02
 - Installation locus: battery device used with motive-power batteries.

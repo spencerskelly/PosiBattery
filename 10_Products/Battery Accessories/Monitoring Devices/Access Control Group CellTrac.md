@@ -32,6 +32,20 @@ Access Control Group non-invasive battery monitor for material handling batterie
 
 ## Notes
 
+**Summary:**
+Access Control Group non-invasive battery monitor for material-handling batteries that measures current without a shunt.
+
+**Marketed features:**
+- Voltage, Ah available/used, temperature, water level and alarms
+- No shunt needed, increasing affordability
+- Eliminates manual data collection and human error
+- Interfaces with the Proactive fleet management system
+- Installs in minutes
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- MH&L (T2), retrieved 2026-10-04. <https://www.mhlnews.com/archive/celltrac>
+
 - The vendor release says CellTrac provides voltage, amp hours available and used, temperature, water level and alarms, needs no shunt for current measurement, installs in minutes, and can interface with the Proactive fleet management system. Source: M H&L archive item (undated) (T2), retrieved 2026-10-02. <https://www.mhlnews.com/archive/celltrac>
 - **Status unclear:** undated archive item; current availability not checked. **Locus:** installed on the battery is likely but not stated.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

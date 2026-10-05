@@ -30,6 +30,20 @@ Panacea four-camera DVR with integrated g-force sensors for forklifts.
 
 ## Notes
 
+**Summary:**
+Panacea four-camera DVR with integrated g-force impact sensors for forklifts and other vehicles.
+
+**Marketed features:**
+- Four cameras with integrated g-force sensors
+- Live impact alerts and video review on smartphone or desktop
+- Fits forklifts, cars and trucks
+- Two-year warranty
+- Marketed to improve visibility and safety and reduce product damage
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+
 - DC Velocity says the Cam-DVR has four cameras and integrated g-force sensors to improve operator visibility and reduce product damage. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Functions performed, with citations:**
   - [[Show Camera View to Operator]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>

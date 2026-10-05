@@ -28,6 +28,18 @@ Jungheinrich driver assistance that reduces cornering speed automatically when n
 
 ## Notes
 
+**Summary:**
+Jungheinrich driver-assistance function that automatically reduces cornering speed to keep the truck stable.
+
+**Marketed features:**
+- Automatically reduces cornering speed when necessary
+- Improves forklift stability
+- Marketed as ensuring maximum driving safety
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Jungheinrich (T1), retrieved 2026-10-04. <https://www.jungheinrich.ch/about-us/stories/safety-549042>
+
 - Jungheinrich says curveCONTROL improves forklift stability by automatically reducing cornering speed when necessary. Source: Jungheinrich safety page (T1), retrieved 2026-10-03. <https://www.jungheinrich.ch/about-us/stories/safety-549042>
 - **Functions performed, with citations:**
   - [[Slow Truck in Curves]] (V): <https://www.jungheinrich.ch/about-us/stories/safety-549042>

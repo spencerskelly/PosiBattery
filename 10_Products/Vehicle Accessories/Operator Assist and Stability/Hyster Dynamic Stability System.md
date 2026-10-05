@@ -29,6 +29,20 @@ Hyster system, standard on the A Series, that alerts the operator, limits functi
 
 ## Notes
 
+**Summary:**
+Hyster stability system, standard on the A Series, that warns the operator and limits truck functions and cornering speed in real time.
+
+**Marketed features:**
+- Lowers the likelihood of forward and sideways tip-overs
+- Audible and visual operator alerts
+- Automatically limits functions in real time while leaving the operator in control
+- Dynamically limits cornering speed based on how tightly the truck is turning
+- Standard on the Hyster A Series
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Inbound Logistics (T2), retrieved 2026-10-04. <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
+
 - Inbound Logistics says the Hyster DSS comes standard on the A Series, sends audible and visual alerts, automatically limits forklift functionality while leaving the operator in control, and dynamically limits speed in corners based on how tightly the truck is turning. Source: Inbound Logistics product spotlight (T2), retrieved 2026-10-03. <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>
 - **Functions performed, with citations:**
   - [[Stabilize Truck Dynamically]] (V): <https://www.inboundlogistics.com/articles/product-spotlight-safety-and-ergonomics/>

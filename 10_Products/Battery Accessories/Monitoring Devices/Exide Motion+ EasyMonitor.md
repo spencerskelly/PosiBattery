@@ -43,6 +43,21 @@ Exide (GNB Industrial Power) battery monitor whose 3-in-1 sensor wraps around a 
 
 ## Notes
 
+**Summary:**
+Exide (GNB) battery monitor whose 3-in-1 sensor wraps around a cell connector to monitor electrolyte level, temperature and voltage symmetry.
+
+**Marketed features:**
+- '1-Click' installation around a cell connector
+- 3-in-1 sensor: electrolyte level, temperature, voltage symmetry
+- Double-protected design with integrated fuses
+- Traffic-light LED and icon-based LCD
+- Monitors Ah turnover and deep discharges; Bluetooth and wireless read-out
+- Automatic executive reports; lifetime logbook for rental and warranty management
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Exide (T1), retrieved 2026-10-04. <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
+
 - Exide says Motion+ EasyMonitor installs by wrapping the probe around a cell connector and monitors electrolyte level, temperature and voltage symmetry, with a LED traffic-light display and an icon-based LCD, and tracks cycle life, voltage, temperature and electrolyte levels for rental and warranty management. Source: Exide Motion+ EasyMonitor page (T1), retrieved 2026-10-02. <https://www.exidegroup.com/en/product/easymonitor>
 - The leaflet lists monitoring of Ah turnover, temperature, electrolyte level, deep discharge, state of charge and battery voltage; a middle voltage tap that detects imbalances; voltage range 18 to 120 V; operating temperature -10 to 60 C; and the EU low voltage directive 2014/35/EU. Source: Exide Easy Monitor leaflet (T1), retrieved 2026-10-02. <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
 - A GNB PRO 2.0 brochure from the same division uses near-identical wording for a 3-in-1 sensor, a traffic-light system, a 18 to 120 V range and -10 to 60 C. Whether GNB PRO 2.0 is the earlier name of EasyMonitor is not stated. Source: Exide GNB PRO 2.0 brochure (search excerpt; direct fetch returned 404) (T1 (unverified fetch)), retrieved 2026-10-02. <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>

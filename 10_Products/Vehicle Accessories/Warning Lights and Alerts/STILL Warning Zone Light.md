@@ -29,6 +29,19 @@ STILL lights that project two strips of light beside the truck, or a semi-circle
 
 ## Notes
 
+**Summary:**
+STILL floor-projected light strips that mark the danger zone beside the truck, or a semi-circle behind it in the Plus version.
+
+**Marketed features:**
+- Two light strips projected left and right of the truck
+- Warning Zone Light Plus projects a semi-circle around the rear
+- Marks a typical danger zone to reduce pedestrian injury risk
+- Complements the STILL SafetyLight
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- STILL (T1), retrieved 2026-10-04. <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+
 - STILL says the warning zone light projects two strips of light to the left and right of the truck and the Warning Zone Light Plus projects a semi-circle around the rear, complementing the Safety Light's blue cone at the front. Source: STILL Safety Assist page (T1), retrieved 2026-10-03. <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>

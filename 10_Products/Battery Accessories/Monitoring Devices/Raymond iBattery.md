@@ -40,6 +40,21 @@ Raymond battery-resident module that reports battery statistics through the iWar
 
 ## Notes
 
+**Summary:**
+Raymond iWAREHOUSE battery module that reports battery statistics and maintenance data to fleet managers.
+
+**Marketed features:**
+- Reports charge/discharge cycles, high and low temperatures and low water
+- Detects battery weight to verify truck specification
+- State of charge and voltage to prevent over-discharge
+- Reports on charge intervals, temperature, watering and equalization for warranty compliance
+- Web portal access via iWAREHOUSE Gateway
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Raymond (T1), retrieved 2026-10-04. <https://raymondcorp.com/news/2010/ibattery-launch>
+- MH&L (T2), retrieved 2026-10-04. <https://mhlnews.com/archive/article/22045964/raymond-battery-module>
+
 - Raymond's 2010 launch release says the iBattery module reports charge and discharge cycles, high and low temperatures and low water levels, helps prevent over-discharge through voltage and state-of-charge detection, can detect battery weight against truck specifications, and gives reports on charging intervals, temperature, watering and equalization for warranty compliance; DC Velocity says the module rests on the battery itself. Source: Raymond press release (2010) and DC Velocity (T1/T2 (dated)), retrieved 2026-10-02. <https://raymondcorp.com/news/2010/ibattery-launch>
 - A current product page describes the iBATTERY system as sending email or SMS alerts on temperature, water level, charge interval and state of charge, and forwarding data through iWAREHOUSE (note: page is on a 'develop-' subdomain, so treat as possibly non-production). Source: Raymond iBATTERY page (T1 (caution)), retrieved 2026-10-02. <https://develop-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
 - **Not stated in retrieved sources:** radio, voltage range, enclosure rating, whether it is still sold as a standalone device.

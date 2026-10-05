@@ -33,6 +33,19 @@ Power Designers low-cost shuntless battery monitor that logs voltage, temperatur
 
 ## Notes
 
+**Summary:**
+Power Designers low-cost shuntless battery monitor that logs voltage, temperature and current.
+
+**Marketed features:**
+- Logs battery voltage, temperature and current
+- Shuntless: compact, less invasive, easier install
+- Analysis software to maximize performance and minimize battery inventory
+- Listed price USD 220
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Power Designers (T1), retrieved 2026-10-04. <https://powerdesignerssibex.com/powertrac-monitor/>
+
 - The vendor page says the PowerTrac Monitor attaches to the battery, tracks and logs voltage, temperature and current, is shuntless, gives timely data on voltage, temperature, charge intervals and state of charge, predicts battery replacements, transfers data wirelessly using a PowerTrac Link, and can be used with most battery types. Source: Power Designers PowerTrac Monitor page (T1), retrieved 2026-10-02. <https://powerdesignerssibex.com/powertrac-monitor/>
 - **Not stated in retrieved sources:** voltage range, memory size, radio, price beyond 'low cost'. Relationship to PowerTrac 3 and SP+ is a product-tier ordering that the vendor does not spell out.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

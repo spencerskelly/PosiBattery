@@ -30,6 +30,21 @@ Flow-Rite in-valve electrolyte-level sensor for industrial and deep-cycle floode
 
 ## Notes
 
+**Summary:**
+Flow-Rite in-valve electrolyte level sensor for industrial and deep-cycle flooded batteries, with a remote-mountable LED.
+
+**Marketed features:**
+- Sensor integrated into the watering valve
+- Light mounts on the dash or battery side; suits in-truck batteries
+- Sealed lens; epoxy-sealed ring terminals
+- Low draw 2-7 mA; reverse-polarity protected; RoHS
+- 12-48 VDC; 0-150 F
+- Not compatible with Trojan Plus Series batteries
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Flow-Rite (T1), retrieved 2026-10-04. <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
+
 - Manufacturer: Flow-Rite Controls
 - Market evidence checked: 2026-10-02
 - Installation locus: integrated into a battery watering valve with battery-mounted control/indicator hardware.

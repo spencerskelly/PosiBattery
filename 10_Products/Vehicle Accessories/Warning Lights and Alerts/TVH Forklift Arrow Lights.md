@@ -27,6 +27,18 @@ TVH blue and red forklift arrow warning lights; the blue arrow on the back warns
 
 ## Notes
 
+**Summary:**
+TVH blue and red arrow warning lights that show pedestrians a forklift's direction of travel.
+
+**Marketed features:**
+- Blue arrow on the back indicates reversing
+- Red arrow on the front indicates forward travel
+- Top- or bottom-mounted options
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
+
 - DC Velocity says TVH in the Americas added blue and red forklift arrow lights. Source: DC Velocity (T2 (dated)), retrieved 2026-10-03. <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>

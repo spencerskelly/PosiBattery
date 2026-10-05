@@ -35,6 +35,22 @@ EnerSys truck-mounted display that shows data read wirelessly from the Wi-iQ on 
 
 ## Notes
 
+**Summary:**
+EnerSys truck-mounted smart battery dashboard that shows live battery data read over Bluetooth from the Wi-iQ monitor.
+
+**Marketed features:**
+- 4.3 in (10.9 cm) touchscreen mounted on the dashboard
+- Displays state of charge, alerts, alarms and other battery parameters
+- Wireless Bluetooth link to Wi-iQ3/Wi-iQ4, manual or automatic pairing
+- Starts automatically with the vehicle; powered from the battery via truck cables
+- Marketed to avoid downtime and premature asset failure
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- EnerSys (T1), retrieved 2026-10-04. <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/en-gb/about-us/news/enersys_suite_of_power_management_tools_elevate_fleet_performance/>
+- EnerSys (T1), retrieved 2026-10-04. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+
 - EnerSys says Truck iQ is a truck-mounted touchscreen powered through the lift truck cables that reads Wi-iQ3 data wirelessly and shows remaining work time, battery warnings, state of charge, temperatures, electrolyte level and cell imbalance, connecting without driver action. Source: EnerSys Truck iQ page (T1), retrieved 2026-10-02. <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
 - EnerSys describes the Wi-iQ data as communicated by Bluetooth to the Truck iQ dashboard. Source: EnerSys news release (T2), retrieved 2026-10-02. <https://www.enersys.com/en-gb/about-us/news/enersys_suite_of_power_management_tools_elevate_fleet_performance/>
 - **Locus:** vehicle-mounted; adjacent, not battery-installed.

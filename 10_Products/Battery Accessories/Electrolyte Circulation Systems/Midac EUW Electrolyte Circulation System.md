@@ -31,6 +31,18 @@ Optional EUW electrolyte circulation accessory for Midac PzS traction batteries 
 
 ## Notes
 
+**Summary:**
+Optional electrolyte circulation (EUW) system for Midac PzS traction batteries, using in-cell tubes and charger-mounted air pump.
+
+**Marketed features:**
+- Tubes in each cell with gentle airflow from a pump on the charger
+- Prevents electrolyte stratification and sulfation
+- Optimizes charging
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Vectra (T3), retrieved 2026-10-04. <https://www.vectra.ro/baterii-de-tractiune-midac/>
+
 - The same dealer lists an electrolyte circulation system (EUW) as an optional accessory. Source: Batterie Siems dealer page (T3), retrieved 2026-10-03. <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 - **Functions performed, with citations:**
   - [[Circulate Electrolyte]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>

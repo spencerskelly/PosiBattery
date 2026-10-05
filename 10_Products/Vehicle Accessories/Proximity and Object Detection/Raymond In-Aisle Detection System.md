@@ -32,6 +32,20 @@ Raymond LiDAR option for Orderpicker and Swing-Reach trucks that keeps trucks ap
 
 ## Notes
 
+**Summary:**
+Raymond LiDAR option for Orderpicker and Swing-Reach trucks that stops the truck for objects in the aisle path and then limits speed.
+
+**Marketed features:**
+- LiDAR detects objects in the tractor-first travel path and decelerates to a stop
+- Continued travel limited to 1 mph until the object is removed
+- Programmable sensing distance of 30 ft or more
+- Keeps wire-guided VNA trucks separated
+- Orderpicker 5300/5400/5500/5600; Swing-Reach 9600/9700 (wire guidance required)
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Raymond (T1), retrieved 2026-10-04. <https://raymondcorp.com/campaign/in-aisle-detection-system>
+
 - Raymond says the In-Aisle Detection System (IADS) uses a LiDAR sensor, is an option on Orderpicker and Swing-Reach models (9600 and 9700, which require wire guidance), and limits speed to 1 mph until the object is removed. Source: Raymond IADS page (T1), retrieved 2026-10-03. <https://raymondcorp.com/campaign/in-aisle-detection-system>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>

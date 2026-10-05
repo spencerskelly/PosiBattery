@@ -31,6 +31,21 @@ Flow-Rite electrolyte level sensor with a bright LED, installed without drilling
 
 ## Notes
 
+**Summary:**
+Flow-Rite electrolyte level sensor with a bright green LED that installs without drilling the battery housing.
+
+**Marketed features:**
+- Bright green LED claimed up to six times brighter than competitors
+- No drilling, cutting or housing modification
+- Alloy probe needs no trimming
+- 4-12 VDC; 0.015 A draw; -40 to 185 F
+- Sealed heat-shrink ring terminal; RoHS
+- Two-year warranty
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Material Handling Wholesaler (T2), retrieved 2026-10-04. <https://mhwmag.com/?p=86116>
+
 - Flow-Rite says the Essential IV uses an engineered alloy probe that needs no trimming, a bright green LED, operation from 4 to 12 V DC at 0.015 A, 24 in pre-wired leads, operating range -40 to 185 F, RoHS compliance and a two-year warranty, and installs without modifying the battery. Source: M H&W magazine (MODEX 2022 launch) (T2), retrieved 2026-10-02. <https://mhwmag.com/?p=86116>
 - The Eagle Eye sensor range received ETL approval to ANSI/UL 61010-1 and CAN/CSA C22.2 No. 61010-1 and uses patented capacitive sensing so no current runs through the probe. Source: Intertek ETL notice via BEST magazine (T2), retrieved 2026-10-02. <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

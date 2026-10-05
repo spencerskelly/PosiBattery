@@ -42,6 +42,20 @@ Yale-branded battery management device, described as using PosiCharge technology
 
 ## Notes
 
+**Summary:**
+Yale-branded battery management device, powered by PosiCharge technology, that reports battery health over cellular to PosiNET.
+
+**Marketed features:**
+- Powered by PosiCharge technology
+- Low-profile cellular device with real-time SOC, water level, voltage, current and temperature
+- 24/7 monitoring with email alerts
+- PosiNET back-office reporting: daily tracking, weekly exception and lifetime reports
+- Simplifies warranty compliance
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- MH&L (T2), retrieved 2026-10-04. <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+
 - Yale Battery Vision was introduced in July 2016 as a battery management solution using 'Powered by PosiCharge technology': a low-profile cellular device reporting state of charge, water levels, voltage, current and temperature, with email alerts and PosiNET back-office reporting. Source: M H&L New Products (2016-07-20) (T2 (dated)), retrieved 2026-10-02. <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Open (C18):** current market status not checked; same-technology relationship to Hyster Battery Tracker is likely but not stated.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

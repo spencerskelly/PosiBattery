@@ -32,6 +32,18 @@ Safety Guard module fitted to the truck: measures distance to within 10 cm, warn
 
 ## Notes
 
+**Summary:**
+Truck-mounted module of the Linde Safety Guard system that measures distance to nearby tags and warns of the hazard direction.
+
+**Marketed features:**
+- Distance measurement accurate to 10 cm
+- Warning zones with direction of danger indicated
+- Quick plug-and-play retrofit
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- LMH Rhein-Ruhr (dealer) (T3), retrieved 2026-10-04. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+
 - The Linde dealer brochure lists the Truck Unit as the vehicle equipment of Safety Guard: distance measurement accurate to 10 cm, warning zones with the hazard direction shown, and quick plug-and-play retrofit; the North American KION catalog says the Truck Unit warns the operator by LED lights and acoustic signals and a small version communicates with stationary modules. Source: Linde Rhein-Ruhr safety brochure and KION North America catalog 2023 (both in repo) (T3/T1), retrieved 2026-10-03. <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>

@@ -42,6 +42,21 @@ Power Designers wireless diagnostic data logger that is plugged into a battery f
 
 ## Notes
 
+**Summary:**
+Power Designers plug-in wireless diagnostic logger used for short power studies to size batteries and chargers.
+
+**Marketed features:**
+- Plug-and-play on existing battery systems; compact and non-invasive
+- Logs voltage, current, temperature and Ah per event and since install
+- Over/under voltage, over-current and over-temperature alarms
+- Non-volatile memory; wireless download
+- One-click reports: daily Ah used/replaced, cycle log, battery assessment, energy use
+- Helps decide battery count and opportunity vs fast charging
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Power Designers (T1), retrieved 2026-10-04. <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
+
 - Manufacturer: Power Designers (Power Designers Sibex). **Locus:** temporary connection for a study; adjacent, not permanently installed, so filed under the category and not under the installed-device family.
 - The data sheet (issued 03/2018, dated) lists nominal battery voltage 24 to 84 V, operating voltage 18 to 120 V, Hall-effect current sensing, bidirectional plus or minus 500 A typical at 1 A resolution, voltage accuracy 0.1 V, operating temperature -25 to 60 C, 4.25 x 1.5 x 0.6 in, 900 MHz industrial wireless up to 150 ft, storage of 10,000 events, upload to PC through a PowerTrac Link USB device sold separately, water and acid resistant packaging, 0.5 W nominal power, internal and external fuse and reverse-polarity protection. Source: PowerTrac DT3 data sheet (T1 (dated)), retrieved 2026-10-02. <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

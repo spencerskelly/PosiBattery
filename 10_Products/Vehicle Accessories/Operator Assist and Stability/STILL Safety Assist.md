@@ -32,6 +32,21 @@ STILL assistance systems that set slow-speed zones, adjust speed in curves and w
 
 ## Notes
 
+**Summary:**
+STILL's range of driver-assistance systems that monitor the truck's surroundings, set slow-speed zones and warn pedestrians, intervening in critical situations.
+
+**Marketed features:**
+- Zone-based automatic speed reduction to the maximum permitted in each defined zone
+- Warning Zone Light / Warning Zone Light Plus floor-projected side and rear danger-zone marking
+- Easy Control pre-shift check on the on-board computer, with optional performance limiting after a failed check
+- SafetyLight 4plus blue spots about 5 m ahead and behind with four direction points; 5 W at 12 V LEDs, 20,000 h service life
+- Marketed for safety plus high performance and energy efficiency
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- KION Group (T1), retrieved 2026-10-04. <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+- STILL (T1), retrieved 2026-10-04. <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+
 - KION says STILL Safety Assist defines zones where speed must be slower, STILL Curve Speed Control automatically adjusts speed when cornering, and the STILL warning zone light warns pedestrians; Linde's matching feature is Curve Assist. Source: KION Group story (T1), retrieved 2026-10-03. <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 - **Functions performed, with citations:**
   - [[Limit Truck Speed Automatically]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>

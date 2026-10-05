@@ -50,6 +50,23 @@ HOPPECKE battery controller permanently affixed to lead-acid traction batteries 
 
 ## Notes
 
+**Summary:**
+HOPPECKE battery controller permanently fitted to lead-acid traction batteries that measures battery state and communicates with chargers, trucks, PCs and trak monitor.
+
+**Marketed features:**
+- Shows state of usage (SOU) and state of readiness (SOR), plus SOC
+- Measures full and mid voltage, charge/discharge current (shunt), temperature and electrolyte level
+- Ah and Wh charged/discharged; remaining driving time
+- Interfaces: NFC, Bluetooth, CAN, LIN and battery-bus; smartphone app and PC software
+- Controls charge curve via trak charger; cloud collector for remote monitoring
+- Fits all PzS and PzB batteries; retrofittable on site
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- HOPPECKE (T1), retrieved 2026-10-04. <https://www.hoppecke.com/uk/product/trak-collect-premium/>
+- Warehouse News (T2), retrieved 2026-10-04. <https://warehousenews.co.uk/?p=103814>
+- HOPPECKE (T1), retrieved 2026-10-04. <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
+
 - The product page says trak | collect (premium) records voltage, current, temperature and electrolyte level, communicates with the charger, trak | monitor, PC and industrial truck, and transmits diagnostic data; area of application is industrial trucks, special-purpose vehicles and cleaning machines; technology lead-acid; listed standards include EN 12895, EN 1175-1, DIN EN IEC 62485-3, EN 55011 and EN 61000-6-2 and -3. Source: HOPPECKE trak | collect premium page (T1), retrieved 2026-10-02. <https://www.hoppecke.com/uk/product/trak-collect-premium/>
 - The Advanced version is described as showing state of usage and state of readiness, giving access to charged and discharged Ah and Wh, and sending data to a remote monitoring system through a cloud collector. Source: Warehouse News feature on trak | collect Advanced (undated) (T2/T4), retrieved 2026-10-02. <https://warehousenews.co.uk/?p=103814>
 - The brochure says trak | collect remains on the battery for its whole life, installs on PzS and PzB batteries, and links to trak | monitor, trak | charger and the vehicle over LIN and battery bus. Source: HOPPECKE brochure (T1), retrieved 2026-10-02. <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>

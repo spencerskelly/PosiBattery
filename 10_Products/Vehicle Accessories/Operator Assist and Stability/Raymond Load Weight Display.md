@@ -29,6 +29,18 @@ Raymond option that shows the weight on the forks on the truck display.
 
 ## Notes
 
+**Summary:**
+Raymond option that shows the weight on the forks on the truck display.
+
+**Marketed features:**
+- Displays load weight on the forks
+- Helps the operator judge safe lift and storage heights
+- Increases operator awareness
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Johnston Equipment (T3), retrieved 2026-10-04. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+
 - Raymond's stand-up counterbalanced options sheet lists a Load Weight Display option that communicates the load weight on the forks via the truck display. Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Functions performed, with citations:**
   - [[Sense Load Weight and Lift Height]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>

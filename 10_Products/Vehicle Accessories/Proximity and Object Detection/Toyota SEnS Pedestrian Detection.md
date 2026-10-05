@@ -33,6 +33,19 @@ Toyota Smart Environment Sensor: stereoscopic vision pedestrian detection with v
 
 ## Notes
 
+**Summary:**
+Toyota stereoscopic-vision pedestrian detection sensor that distinguishes people from objects and alerts the operator.
+
+**Marketed features:**
+- Stereoscopic vision technology
+- Differentiates pedestrians from objects
+- Visual and audible alerts within the detection zone
+- Retrofit kit for select existing Toyota models or on new models
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - The 2025 Toyota Assist brochure says SEnS, designed by Toyota, uses stereoscopic vision to tell pedestrians from objects and gives visual and audible alerts in the detection zone; adding a 360 camera system gives a bird's-eye view; SEnS is an add-on kit that can be retrofitted to select existing Toyota forklift models as well as new models. Source: Toyota Assist brochure 2025 (read round 20) (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>

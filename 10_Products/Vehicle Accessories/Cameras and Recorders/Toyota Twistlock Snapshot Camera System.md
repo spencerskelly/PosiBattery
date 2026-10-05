@@ -27,6 +27,18 @@ Toyota camera system that captures snapshots at the twistlock (container handlin
 
 ## Notes
 
+**Summary:**
+Toyota container-handler camera system that photographs container and spreader engagement before and after each lift.
+
+**Marketed features:**
+- Captures images of containers and spreader/twistlock engagement
+- Images taken before and after each container is handled
+- Part of the Toyota Assist portfolio
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota's Assist brochure lists the Twistlock Snapshot Camera System (the description is cut off in the retrieved text). Source: Toyota Assist brochure 2025 (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Unknown:** what it captures and which trucks offer it.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; connects to [[Truck Controls and Display]]. See [[Truck Part Connection Register]].

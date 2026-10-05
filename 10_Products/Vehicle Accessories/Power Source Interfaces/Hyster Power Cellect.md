@@ -31,6 +31,21 @@ Hyster optional package that lets an electric truck switch between lead-acid, TP
 
 ## Notes
 
+**Summary:**
+Hyster power option that lets electric trucks switch between lead-acid, TPPL and lithium-ion battery modes and communicate with the battery over CAN.
+
+**Marketed features:**
+- Quick switching between lead-acid, TPPL and lithium-ion modes without external accessories
+- Full integration with EnerSys NexSys TPPL and lithium-ion batteries
+- Battery data shown on the factory Battery Discharge Indicator; state-of-charge warnings
+- Battery status and charging habits viewable in Hyster Tracker with optional telemetry
+- Marketed for mixed fleets, ICE-to-electric conversion and higher resale value
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- EnerSys (T1), retrieved 2026-10-04. <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
+
 - Hyster says Power Cellect is an option on 27 Hyster electric forklift models, uses a CAN bus between a qualified battery and the truck, lets users switch between lead-acid, TPPL and lithium-ion, triggers a controlled shutdown at complete discharge, and shows battery state of health and lifetime discharge when Hyster Tracker is added. Source: Hyster release (2024-01-31) via Industrial Distribution (T2), retrieved 2026-10-03. <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
 - EnerSys states Hyster-Yale approved full integration of NexSys TPPL with Hyster Power Cellect and Yale Power Key. Source: EnerSys release (2023-07-19) (T1), retrieved 2026-10-03. <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
 - **Functions performed, with citations:**

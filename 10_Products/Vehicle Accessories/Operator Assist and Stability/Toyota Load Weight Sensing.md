@@ -31,6 +31,17 @@ Toyota hydraulic pressure sensors and a display that show the approximate weight
 
 ## Notes
 
+**Summary:**
+Toyota option that uses hydraulic pressure sensors and a display to show the approximate load weight.
+
+**Marketed features:**
+- Hydraulic pressure sensors
+- Displays approximate load weight to the operator
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota says Load Weight Sensing uses hydraulic pressure sensors with a display to show the operator the approximate weight of the load. Source: Toyota Assist brochure 2025 (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Functions performed, with citations:**
   - [[Sense Load Weight and Lift Height]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>

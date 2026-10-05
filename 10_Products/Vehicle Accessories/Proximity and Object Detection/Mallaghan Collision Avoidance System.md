@@ -29,6 +29,19 @@ Mallaghan SkyBelt collision avoidance system with auto-level, using what the mak
 
 ## Notes
 
+**Summary:**
+Mallaghan collision avoidance system for belt loaders that passively helps prevent aircraft damage from operator error.
+
+**Marketed features:**
+- Uses 3D radar and advanced sensor technology
+- Operates passively in the background so the operator can focus on driving
+- Reduces aircraft damage from operator error and distraction
+- Maker cites CAS development since AHM 913 inception in 2017
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- AviationPros (T2), retrieved 2026-10-04. <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
+
 - AviationPros quotes Mallaghan that the SkyBelt's collision avoidance system uses the most advanced available sensor technology, will prevent the loader from damaging an aircraft through operator error, and is complemented by auto-level using precision sensors. Source: Ground Support Worldwide (T2), retrieved 2026-10-03. <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
 - **Unknown:** sensor type and ranges.
 - **Functions performed, with citations:**

@@ -38,6 +38,20 @@ Crown battery-mounted monitor that pairs over Bluetooth with the truck's InfoLin
 
 ## Notes
 
+**Summary:**
+Crown battery-mounted monitor that pairs over Bluetooth with the truck's InfoLink module and reports lead-acid battery data to the InfoLink portal.
+
+**Marketed features:**
+- Real-time battery activity and per-battery performance capture
+- Automatic Bluetooth pairing with InfoLink (Advantage Plan)
+- Temperature threshold alerts compared with water level and last equalization
+- Per-battery performance profiles
+- Cloud portal dashboards; email or text alerts
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- MH&L (T2), retrieved 2026-10-04. <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
+
 - Crown says the Battery Health Monitor is installed on the battery and monitors real-time battery activity, alerts when temperature exceeds a threshold, and shows water levels, last equalization, Ah throughput and run time; it works with any forklift equipped with InfoLink Advantage Plan, pairing by Bluetooth with the InfoLink module, which sends data to a cloud portal. Source: Crown press coverage in M H&W and MH&L (undated) (T2), retrieved 2026-10-02. <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
 - **Not stated in retrieved sources:** Bluetooth variant, voltage range, price, whether it also talks to a charger. Relationship to [[Crown V-Force BMID]] is unknown.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):

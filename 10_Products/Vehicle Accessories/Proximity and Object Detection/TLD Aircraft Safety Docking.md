@@ -31,6 +31,21 @@ TLD aircraft safety docking (ASD) system that reduces speed close to aircraft an
 
 ## Notes
 
+**Summary:**
+TLD aircraft safe docking (ASD) option for belt loaders that limits approach speed near aircraft and records impacts.
+
+**Marketed features:**
+- ASD button engages safe mode with a flashing beacon
+- Speed limited to 5 km/h; proximity sensor and sensitive bumper activated
+- 3D camera detects obstacles up to 7 m ahead
+- Buzzer warning, then automatic stop if the driver does not react
+- 0.7 km/h in final docking phase
+- Impact strength measured; GSE locked until a manager unlocks it after inspection
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Aero Specialties (T3), retrieved 2026-10-04. <https://www.aerospecialties.com/product/tld-rbl/>
+
 - TLD's Group Chief Procurement Officer says the ASD system is now an industry standard, preventing aircraft damage by automatically reducing speed close to aircraft and making sure collisions are reported. Source: Ground Handling International (April 2023) (T2), retrieved 2026-10-03. <https://ghi.mydigitalpublication.co.uk/april-2023/page-44>
 - **Unknown:** sensor type, ranges and which TLD models carry it.
 - **Functions performed, with citations:**

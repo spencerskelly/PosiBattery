@@ -31,6 +31,21 @@ Jungheinrich radio system of a stationary beacon and truck-mounted transmitters 
 
 ## Notes
 
+**Summary:**
+Jungheinrich radio-based zone system of stationary beacons and truck units that warns and intervenes in critical warehouse areas.
+
+**Marketed features:**
+- Monitors height obstacles, congested traffic areas and no-set-down zones
+- Alerts the operator, warns nearby people or intervenes in truck control
+- Regulates junctions, reducing speed to crawl when truck volume is high
+- Access authorizations to optimize traffic flow
+- Runs on the Jungheinrich assistance display
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Jungheinrich (T1), retrieved 2026-10-04. <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+- Logistics Matters (T2), retrieved 2026-10-04. <https://logisticsmatters.co.uk/ZoneControl-to-assist-safety>
+
 - Jungheinrich says zoneCONTROL consists of a stationary radio beacon and mobile transmitters on the trucks with a display and an operator module; it warns trucks and people in congested areas, cuts speed to crawl at busy intersections, can open a warehouse door only for an authorized truck, and can connect traffic lights or warning lights; the same components perform all functions and suit counterbalance trucks. Source: Jungheinrich assistance systems page and trade reports (T1/T2), retrieved 2026-10-03. <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 - A 2019 trade report adds that zoneCONTROL and addedVIEW were introduced together to raise warehouse safety. Source: Logistics Matters (T2), retrieved 2026-10-03. <https://logisticsmatters.co.uk/ZoneControl-to-assist-safety>
 - **Functions performed, with citations:**

@@ -32,6 +32,18 @@ Toyota high-resolution radar on the back of the counterweight that detects movin
 
 ## Notes
 
+**Summary:**
+Toyota high-resolution radar on the counterweight that detects moving and stationary objects behind the forklift.
+
+**Marketed features:**
+- High-resolution radar sensor
+- Mounted on the back of the counterweight
+- Detects moving and stationary objects behind the truck
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - The 2025 Toyota Assist brochure says the Object Detection Radar is a high-resolution radar sensor mounted to the back of the counterweight to detect both moving and stationary objects behind the forklift. Source: Toyota Assist brochure 2025 (read round 20) (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>

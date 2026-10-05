@@ -29,6 +29,18 @@ Raymond system that alerts and limits truck functions if the operator is not pro
 
 ## Notes
 
+**Summary:**
+Raymond iWAREHOUSE tether-monitoring system that alerts and limits truck functions if the operator is not properly tethered.
+
+**Marketed features:**
+- Alerts operators and managers when the operator is not tethered
+- Limits truck functions (for example, restricted lift height on a reach truck)
+- Flashing red light when not tethered
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- DC Velocity (T2), retrieved 2026-10-04. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+
 - Raymond says the Integrated Tether System alerts operators and managers and limits lift truck functionality if the operator is not tethered; on a reach truck a red light flashes and the truck cannot lift all the way up. Source: DC Velocity (T2), retrieved 2026-10-03. <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>

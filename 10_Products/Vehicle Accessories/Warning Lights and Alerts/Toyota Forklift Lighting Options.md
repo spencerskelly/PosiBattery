@@ -29,6 +29,21 @@ Toyota lighting options: headlights, work lights, strobes in yellow or blue, blu
 
 ## Notes
 
+**Summary:**
+Toyota's range of optional forklift lights: headlights, work lights, strobes, blue spotlights and red zone lights.
+
+**Marketed features:**
+- Halogen or LED options (LED more durable, lower amperage draw, plastic lenses for consumer-goods sites)
+- Headlight styles: standard overhead-guard, inset, low profile, front combination
+- Rear work lights
+- Yellow or blue strobes
+- Blue spotlights and red zone lights (per existing note)
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/resource-library/video-library/forklift-options-accessories>
+
 - Toyota says blue spotlights mount on the overhead guard and aim at the ground ahead of or behind the forklift, and red zone lights shine a red strip on the ground; popular accessories include backup alarms and yellow or blue strobe lights. Source: Toyota lighting options and accessories pages (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 - Toyota also lists rear assist grip with horn, rearview mirrors, fire extinguishers and a multi-function display panel with self diagnostics among popular accessories. Source: Toyota options and accessories page (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/resource-library/video-library/forklift-options-accessories>
 - **Functions performed, with citations:**

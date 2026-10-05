@@ -42,6 +42,23 @@ PosiCharge battery monitor with optional cellular connectivity, described in Pos
 
 ## Notes
 
+**Summary:**
+PosiCharge battery monitor (smart BMID) that monitors, records and reports battery health, with optional cellular connectivity to PosiNet.
+
+**Marketed features:**
+- 20-minute installation with no special battery requirements
+- 24/7 monitoring of state of charge, water level, voltage and temperature
+- Unique battery identification and charger communication
+- Rotation recommendations, life-expectancy estimates and warranty-compliance tracking
+- Optional cellular link to PosiNet with email alerts, no IT involvement
+- 24-96 V batteries; +/-1000 A current range; -20 to 165 F electrolyte temperature sensor
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- PosiCharge (T1), retrieved 2026-10-04. <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
+- Maker-hosted PDF (T1), retrieved 2026-10-04. <https://3425125.fs1.hubspotusercontent-na1.net/hubfs/3425125/IPC%20Technical%20Documents/2-Manuals/24407-W-76_02%20ProCore%20IM.pdf>
+- PosiCharge (T1), retrieved 2026-10-04. <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>
+
 - PosiCharge's Battery Rx sheet says it monitors state of charge, water level, voltage and temperature in real time, with current measurement range of plus or minus 1000 A, an electrolyte-immersed temperature sensor rated about -20 F to 165 F, a water-level detector, 7.63 x 2.25 x 1.25 in size, and tolerance of acid immersion and pressure-wash spray. The sheet names AeroVironment, so it likely predates current ownership (dated). Source: PosiCharge Battery Rx sheet (T1), retrieved 2026-10-02. <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
 - The ProCore installation manual refers to the PosiCharge Battery Rx (smart BMID) and says PosiNet is accessed through it. Source: PosiCharge ProCore installation manual (T1), retrieved 2026-10-02. <https://3425125.fs1.hubspotusercontent-na1.net/hubfs/3425125/IPC%20Technical%20Documents/2-Manuals/24407-W-76_02%20ProCore%20IM.pdf>
 - The SVS 80/200/300 spec sheet lists Battery Rx as an advanced battery monitor with optional cellular connectivity and data, and POSINET as collecting charge data and running usage reports (2019 sheet, dated). Source: PosiCharge SVS spec sheet (T1 (dated)), retrieved 2026-10-02. <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>

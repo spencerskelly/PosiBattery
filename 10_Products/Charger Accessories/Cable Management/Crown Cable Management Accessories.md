@@ -29,6 +29,20 @@ Crown cable management accessories for batteries and chargers: battery pogo stic
 
 ## Notes
 
+**Summary:**
+Crown's range of battery and charger cable-management accessories, sold to secure cables during charging and to protect and prolong connector life.
+
+**Marketed features:**
+- Battery pogo sticks
+- Tender kits
+- Cable retractors
+- Magnetic cable holders
+- Marketed to secure cables during charging and prolong connector life
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/en-eu/batteries-and-chargers.html>
+
 - Crown's battery and charger accessories page lists cable management to secure cables during charge and protect connector life: battery pogo sticks, tender kits, cable retractors, magnetic cable holders and more. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>
 - Crown's V-HFM3 page lists pogo sticks among the charger options. Source: Crown V-HFM3 page (Brazil) (T1), retrieved 2026-10-03. <https://crown.com/en-br/batteries-and-chargers/vhfm3-charger.html>
 - **Resolved:** the earlier 'function unknown' item for the V-HFM3 pogo stick is answered: it is cable management.

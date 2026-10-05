@@ -31,6 +31,23 @@ Fronius battery-mounted sensor that identifies a lead-acid traction battery to a
 
 ## Notes
 
+**Summary:**
+Fronius battery-mounted sensor that identifies a lead-acid traction battery to a Selectiva 4.0 charger and guides charging from measured values.
+
+**Marketed features:**
+- Digital identification and parameterization for TagID guided charging
+- Standard temperature sensor; TagID+ adds electrolyte-level sensing
+- Automatic ionic circulation, desulfation and intelligent equalizing (up to 4 percent energy efficiency)
+- Self-configuring charge curve
+- NFC configuration via TagID Config App with automatic voltage check
+- LED status; IP65; 20-200 VDC; under 0.5 W
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Fronius (T1), retrieved 2026-10-04. <https://manuals.fronius.com/html/4204102645/en-US.html>
+- Fronius (T1), retrieved 2026-10-04. <https://www.fronius.com/de-at/austria/batterieladetechnik/unsere-loesungen/individuelle-batterieladeloesungen/batteriesensor-tagid>
+- Fronius (T1), retrieved 2026-10-04. <https://www.fronius.com/de-ch/switzerland/batterieladetechnik/our-solutions/individuelle-batterieladeloesungen/batteriesensor-tagid>
+
 - Manufacturer: Fronius International (Perfect Charging division)
 - **Verification 2026-10-02 (verified (2022 launch)):** TagID has a temperature sensor as standard and the charger adjusts charging to battery temperature; TagID+ adds a level sensor for wet batteries, while TagID with temperature sensor is preferred for gel batteries; used with Selectiva 4.0 chargers; the sensor system lets the charger detect a deeply discharged battery and start desulphation, signal when water is needed, and run intelligent equalising charges. Source: Fronius TagID product page and launch press release (T1) <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 - **Related feature:** Fronius lists 'automatic ionic circulation' to prevent acid stratification as a function of the TagID and charger combination. Relationship to [[Electrolyte Circulation System]] is unresolved.

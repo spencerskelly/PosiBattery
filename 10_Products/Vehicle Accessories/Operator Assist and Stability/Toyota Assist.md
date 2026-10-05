@@ -45,6 +45,21 @@ Toyota suite of operator assist features including SEnS+ pedestrian and object d
 
 ## Notes
 
+**Summary:**
+Toyota's suite of operator-assist technologies that passively and actively support load handling, productivity, ergonomics and situational awareness.
+
+**Marketed features:**
+- SEnS+ pedestrian and object detection with visual/audible alerts and regenerative-braking slowdown; dynamic zoning up to 32 ft in a 130-degree field
+- System of Active Stability (SAS) rear-axle stabilization
+- EZ Control Joystick and EZ Fingertip Controls ergonomic hydraulic controls
+- Selection of adjustable cameras
+- Also includes Acu-Laser, Auto Height Select, Lift Logic, Load Weight Sensing, Ground Level Monitoring, Object Detection Radar and Compartment Sensing System
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Food Logistics (T2), retrieved 2026-10-04. <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
 - Toyota launched Toyota Assist in October 2022: SEnS+ gives pedestrian and object detection with visual and audible alerts; the System of Active Stability stabilizes the rear axle; also included are Acu-Laser, Auto Height Select, Lift Logic, Load Weight Sensing, Ground Level Monitoring, Object Detection Radar and Compartment Sensing System, the EZ Control Joystick and adjustable cameras. Source: Toyota releases via trade press (T2), retrieved 2026-10-03. <https://www.mbtmag.com/home/material-handling-storage/product/22499013/toyota-material-handling-usa-tmh-toyota-assist-advanced-operator-awareness-technologies>
 - The same suite is described as available on new Toyota forklift models. Source: Food Logistics (T2), retrieved 2026-10-03. <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
 - **Left blank on purpose:** which exact models are 'new Toyota forklift models' is not stated.

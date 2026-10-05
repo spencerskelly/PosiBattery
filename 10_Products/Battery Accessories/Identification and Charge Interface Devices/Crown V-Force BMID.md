@@ -38,6 +38,22 @@ Crown battery monitoring and identification device for lead-acid forklift batter
 
 ## Notes
 
+**Summary:**
+Crown V-Force battery monitoring and identification device that sits on a lead-acid battery to record events and optimize charging.
+
+**Marketed features:**
+- Dual profile configuration for opportunity or fast charging
+- Records battery events including temperature and charge/discharge cycles
+- Adjusts charge rate by voltage and temperature; automatic temperature compensation
+- Low electrolyte detection and watering-need communication
+- Rugged case resists impact, water and electrolyte; Bluetooth Class 1 to laptop/tablet
+- Part no. 396525-BT
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Crown (T1), retrieved 2026-10-04. <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+- Crown (T1), retrieved 2026-10-04. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+
 - Manufacturer: Crown Equipment Corporation. Not the same product as the PosiCharge BMID despite the shared acronym (conflicts C1).
 - **Verification 2026-10-02 (verified (vendor shop)):** part 396525-BTM: dual-profile configuration for opportunity or fast charging, records battery events including temperature and charge and discharge cycles, rugged spill-resistant case, Bluetooth Class 1 for connecting to a laptop or tablet; listed at 583.33 USD with 365-day warranty on the retrieval date. Source: Crown parts shop (T1) <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
 - **Verification 2026-10-02 (verified (regional page)):** an optional BMID module for FS3 and HFM3 chargers mounts on top of a lead-acid battery, detects low electrolyte, monitors voltage and temperature, and adjusts charge rate. Source: Crown charger page (Vietnam site) (T1) <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>

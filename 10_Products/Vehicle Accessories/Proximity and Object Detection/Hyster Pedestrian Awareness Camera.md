@@ -30,6 +30,21 @@ Camera in the Hyster Reaction lineup that identifies pedestrians up to 16 ft thr
 
 ## Notes
 
+**Summary:**
+Hyster Reaction camera system that identifies pedestrians behind the truck and alerts the operator, optionally slowing the truck.
+
+**Marketed features:**
+- Identifies pedestrians up to 16 ft through a 110-degree field of view
+- Audible voiceover and visual zone light alerts
+- Optional traction alerts that gradually slow the truck
+- Indoor and outdoor use on electric or IC forklifts
+- Optimized for travel speeds of 5 mph or less; mounted forks-trailing
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Hyster (T1), retrieved 2026-10-04. <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
+- Industrial Machinery Digest (T2), retrieved 2026-10-04. <https://industrialmachinerydigest.com/material-handling/lift-trucks/hyster-expands-lineup-of-active-alert-and-assist-solutions-with-pedestrian-awareness-camera/>
+
 - Hyster's EMEA page says the pedestrian awareness camera identifies pedestrians at ranges up to 16 ft through a 110 degree field of view with automatic alerts; the launch release adds audible, visual and optional traction alerts, a voiceover of pedestrian proximity, a light on the truck-mounted operator remote showing the zone, and use indoors and outdoors. Source: Hyster EMEA page and launch release (T1/T2), retrieved 2026-10-03. <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
 - The launch coverage says the system was developed from photographic data collected from worksites and adapts to lighting and environmental conditions. Source: Industrial Machinery Digest (T2), retrieved 2026-10-03. <https://industrialmachinerydigest.com/material-handling/lift-trucks/hyster-expands-lineup-of-active-alert-and-assist-solutions-with-pedestrian-awareness-camera/>
 - **Functions performed, with citations:**

@@ -29,6 +29,19 @@ Toyota option pad that reduces unauthorized use of the truck by PIN code.
 
 ## Notes
 
+**Summary:**
+Toyota electronic PIN-code pad option that restricts truck use to authorized operators.
+
+**Marketed features:**
+- Reduces the potential for unauthorized users
+- Allows up to 10 different codes/options
+- Listed as optional equipment on Side-Entry End Rider and Industrial Tow Tractor brochures
+
+**Summary and features sources:**
+Maker or publisher marketing claims as stated, not independently verified.
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/resource-library/blog/toyota-products/what-is-a-side-entry-end-rider>
+- Toyota Material Handling (T1), retrieved 2026-10-04. <https://www.toyotaforklift.com/content/dam/tmh/marketing/en/pdf/product-spec-brochures/2023_Industrial%20Tow%20Tractor_Comprehensive_Digital.pdf>
+
 - Toyota's Side Entry End Rider brochure lists a PIN code access pad option, and a model page says the ER1-EF60 features a PIN code access pad to prevent unauthorized use. Source: Toyota brochure and ER1-EF60 page (T1/T3), retrieved 2026-10-03. <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 - **Functions performed, with citations:**
   - [[Control Operator Access]] (V): <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
