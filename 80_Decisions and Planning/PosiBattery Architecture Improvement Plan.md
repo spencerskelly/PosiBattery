@@ -4480,6 +4480,43 @@ Validation run `37333618114` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 66 completion evidence - Duplicate organizations reviewed
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Organization Duplicate Identity Review Step 66 0.1.yaml`.
+
+Reviewed alternate spellings, aliases, legacy names, regional/divisional identities, parent/business relationships, acquisition history, and brand overlap across the Organization set.
+
+### Result
+
+- **0 confirmed duplicate organization notes**
+- **0 merges**
+- **0 deletions**
+- **0 renames**
+
+Verified same-identity/legacy aliases include Prestolite Power, ACT, Ampure Charging Systems, Mitsubishi Logisnext legacy names, and regional Logisnext names already captured in Aliases.
+
+Verified distinct same-name-family examples include:
+
+- Crown Battery Manufacturing vs Crown Equipment
+- Ampure vs PosiCharge
+- Ampure vs Power Designers
+- PosiCharge vs Power Designers
+- Mitsubishi Logisnext vs its Americas/Europe subsidiaries
+- Toyota Industries Corporation vs Toyota Material Handling
+- KION Group vs Linde Material Handling / STILL
+
+Unresolved cases remain deliberately separate or explicitly cautioned, including Power Designers legal-name lineage, Triathlon USA vs Triathlon Battery Solutions/Sunlight, GNB vs Exide/Stryten lineage, Oshkosh AeroTech vs JBT AeroTech, and Textron GSE vs TUG historical identity.
+
+No organization identity was changed solely because of naming similarity.
+
+Evidence commit: `a9b17661`.
+
+**Result:** Step 66 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4544,3 +4581,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 63 | 2026-10-05 | Complete | Strengthened Actor → Need → Use/context → Function traceability: all 22 Needs retain Actor and Function links; all 7 operational Use Cases have Actor and synchronized Function links; 13 Needs now link to stable operational Use/context, while Requirement traceability remains deferred because no committed Requirement model notes exist. Evidence: `Actor Need Use Capability Traceability Step 63 0.1.yaml`. |
 | 64 | 2026-10-05 | Complete | Reviewed all 86 notes in Organizations: 73 actual organizations, 8 reusable business-role notes, and 5 research/ledger rollups. Found zero confirmed duplicate organizations; identity, hierarchy and product/source coverage are generally strong, while provisional business-relationship governance and mixed folder content are the main quality risks. Evidence: `Organization Quality Inventory Step 64 0.1.yaml`. |
 | 65 | 2026-10-05 | Complete | Classified organization roles using a controlled intrinsic-versus-contextual model: durable maker/dealer/software identities remain playsRole roles, while supplier/channel/partner/competitor/customer/regulator/standards-body status is relationship- or offer-scoped. Added no global competitor labels or unsupported customer/regulator/standards-body notes. Evidence: `Organization Role Classification Step 65 0.1.yaml`. |
+| 66 | 2026-10-05 | Complete | Reviewed alternate spellings, aliases, legacy names, regional/divisional entities, parent/business distinctions, and lineage cautions across the Organization set. Found zero confirmed duplicate organization notes; preserved verified distinctions and unresolved lineage cases without merges or renames. Evidence: `Organization Duplicate Identity Review Step 66 0.1.yaml`. |
