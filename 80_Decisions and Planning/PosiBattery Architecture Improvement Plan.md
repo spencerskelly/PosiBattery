@@ -3857,6 +3857,41 @@ Audit run `37272510192` on commit `ea1680be` remained stable at 19 known broken 
 
 ---
 
+## Step 48 completion evidence — First meaningful Product Architecture view built
+
+**Date:** 2026-10-04
+
+Created the first relationship-backed curated architecture view in:
+
+`20_Product Architecture/CANVAS_Product Architecture.canvas`
+
+The view contains:
+
+- **15 nodes**
+- **14 edges**
+- [[Battery-Connected Product]] as the shared root
+- [[Industrial Truck Anatomy]] and [[GSE Vehicle Anatomy]] as reusable abstract assemblies
+- six representative structural parts from each assembly
+- only explicit `subtypeOf` and `hasPart` relationships already present in the model
+
+The canvas intentionally omits:
+
+- the remaining 12 child architecture parts, which remain available in the recursive Base;
+- product-specific Local Model occurrences, because none are validly instantiated yet;
+- Ports and Item Flows, because none are currently modeled;
+- inferred interface, connection, or exposure edges.
+
+`README_Product Architecture.md` now explains the curated view and the division of responsibility between Canvas, README, and the recursive Base.
+
+Execution record:
+`80_Decisions and Planning/First Product Architecture View Step 48 0.1.yaml`
+
+Audit run `37272982665` on commit `0959e6f8` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+
+**Result:** Step 48 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3903,3 +3938,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 45 | 2026-10-04 | Complete | Classified 37 structural counterpart candidates: 36 Object-role candidates and 1 Port candidate, with no supported Item Flows yet; recorded schema boundaries for system/module/component roles and preserved all existing Design definitions unchanged. |
 | 46 | 2026-10-04 | Complete | Mapped the current Product Architecture structure: 2 abstract assemblies, 24 explicit hasPart/partOf decomposition edges, 2 root subtypeOf edges, and no modeled Ports, Item Flows, interface edges, or exposure edges; recorded product-context occurrence gaps without inventing relationships. |
 | 47 | 2026-10-04 | Complete | Identified eight high-value Local Model occurrence patterns and four Design-driven structural opportunities, but created no occurrences because all 26 current anatomy Objects are abstract and lack concrete specialization candidates required by Local Model 0.2. |
+| 48 | 2026-10-04 | Complete | Replaced the placeholder Product Architecture canvas with a 15-node/14-edge curated structural view using only existing subtypeOf and hasPart relationships; preserved exhaustive detail in the recursive Base and introduced no unsupported Ports, flows, or occurrences. |
