@@ -2865,6 +2865,74 @@ No Downloads artifacts were deleted, renamed, moved, or modified in Step 32.
 
 ---
 
+## Step 33 completion evidence — Source Document provenance assessed
+
+**Date:** 2026-10-04
+
+All eight existing Source Document records were reviewed for provenance completeness and downstream traceability.
+
+### Assessment created
+
+`80_Decisions and Planning/Source Document Provenance Assessment 0.1.yaml`
+
+### Results
+
+All eight records have:
+
+- a local PDF link;
+- an original source URL;
+- a clear source identity;
+- a T1 manufacturer-source classification;
+- a recorded local-copy read date;
+- governed `describes` relationships;
+- a connection to the shared conflicts/open-questions record.
+
+No record is fundamentally weak enough to be unusable. All eight are classified as **moderate** because important end-to-end traceability details remain incomplete.
+
+### Common weaknesses
+
+- **0 of 8** records has an explicit original web access/download date.
+- **0 of 8** records has a verified downstream backlink to the Source Document note name outside the Source Documents folder/planning records.
+- Three ACT records use PDF-created dates rather than clearly identified publication/revision dates.
+- The records state that facts were cited on product notes, but Step 33 could not verify those citation links directly by Source Document note name.
+
+### Interpretation
+
+The Source Document layer already has good basic provenance. Its main weakness is not source identity; it is **claim traceability from source record to extracted/model findings**.
+
+A missing backlink does not prove that the source was never used. It means the current repository structure does not make that use directly verifiable through links.
+
+### Validation
+
+GitHub Actions run `37268365308` on commit `e5453a12` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No Source Document records were modified in Step 33.
+
+### Commit
+
+- `e5453a12` — assess Source Document provenance quality
+
+**Result:** Step 33 complete. Existing Source Documents are usable but need normalization and stronger source-to-claim traceability where supported.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2896,3 +2964,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 30 | 2026-10-04 | Complete | Classified 8 exact duplicate groups involving 17 files and 9 redundant copies; found no additional non-identical likely duplicate groups, selected unsuffixed preferred copies, and deleted nothing. |
 | 31 | 2026-10-04 | Complete | Matched all 66 Downloads PDFs against the 8 existing Source Document records: 8 one-to-one matches, 0 one-to-many, 58 missing source records, and 0 ambiguous matches; no records or artifacts were changed. |
 | 32 | 2026-10-04 | Complete | Checked all 58 unmatched PDFs for direct repository references, found none, and classified them as 9 redundant exact-copy orphan candidates plus 49 unique untracked artifacts to preserve pending provenance/cleanup review. |
+| 33 | 2026-10-04 | Complete | Reviewed all 8 existing Source Document records: all have strong basic source provenance but incomplete explicit access-date and downstream claim-traceability information, so all 8 were classified moderate rather than weak. |
