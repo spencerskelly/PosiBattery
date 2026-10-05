@@ -183,6 +183,25 @@ Several of the named areas below now exist beneath numbered domains rather than 
 
 Do not bulk-convert a folder based on this table. Classify each concept semantically when it is touched.
 
+## Primary navigation naming convention
+
+For PosiBattery primary domain navigation, use the human-readable domain label without the numeric root prefix as the navigation stem:
+
+- `README_<Domain>.md`
+- `BASE_local_<Domain>.base`
+- `BASE_all_<Domain>.base`
+- `CANVAS_<Domain>.canvas`
+
+Examples:
+
+- folder `10_Products` → `README_Products.md`, `BASE_local_Products.base`, `BASE_all_Products.base`, `CANVAS_Products.canvas`
+- folder `20_Product Architecture` → `README_Product Architecture.md`
+- folder `70_Research and Evidence` → `README_Research and Evidence.md`
+
+Do not use transitional forms such as `README - 20_Product Architecture.md` for active primary navigation.
+
+This naming rule affects navigation filenames only. It does not rename the numbered root folders or change semantic identity.
+
 ## Folder creation rule
 
 Do not create all target folders merely because they appear above.
