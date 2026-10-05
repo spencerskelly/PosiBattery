@@ -1,0 +1,49 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 95
+status: "Complete"
+title: "Link and path validation"
+
+changes:
+  - commit: "b9ea9392"
+    change: "Corrected audit wikilink resolution so versioned filenames such as 'Schema Reconciliation Matrix 0.1' are not misinterpreted as having a generic file extension."
+  - commit: "a6845ad2"
+    change: "Repaired the one genuinely stale Customer Needs navigation link in Research Change and Decision Tracker."
+  - commit: "e7fa2f26"
+    change: "Extended extensionless wikilink resolution to recognized vault artifacts (.md, .base, .canvas) without stripping semantic version suffixes such as .1."
+
+validation:
+  workflow_run: 37382916228
+  job_id: 112009090385
+  head_commit: "e7fa2f26"
+  markdown_files: 1125
+  model_notes: 945
+  broken_wikilinks: 0
+  ambiguous_wikilinks: 0
+  paths_over_212_chars: 0
+  note_name_alias_check: "PASSED"
+  identity_validation: "PASSED"
+  relationship_validation: "PASSED"
+  relevant_step_95_gate: "PASSED"
+
+interpretation:
+  previous_broken_wikilinks: 19
+  false_positive_group:
+    count: 18
+    cause: "The audit used pathlib suffix stripping, so filenames ending in version text like '.1' were treated as if '.1' were a file extension."
+    resolution: "Resolver now strips only recognized vault file extensions."
+  genuine_stale_links:
+    count: 1
+    source: "70_Research and Evidence/Research/Research Change and Decision Tracker.md"
+    old_target: "Customer Needs/README_Customer Needs"
+    new_target: "50_Customer Needs/README_Customer Needs"
+
+workflow_note:
+  overall_workflow_conclusion: "failure"
+  reason: "The later strict function-design dependency check failed after all Step 95 checks had passed."
+  scope: "Outside Step 95; do not treat as a link/path/naming failure."
+
+next_step:
+  step: 96
+  title: "Add source/provenance quality reporting"
