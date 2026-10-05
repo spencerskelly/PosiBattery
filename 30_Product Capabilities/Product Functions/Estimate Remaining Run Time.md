@@ -17,6 +17,7 @@ performedBy:
   - "[[EnerSys Truck iQ]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Estimate Remaining Run Time
