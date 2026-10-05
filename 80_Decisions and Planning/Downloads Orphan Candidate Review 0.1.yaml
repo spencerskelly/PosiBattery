@@ -1,0 +1,392 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 32
+purpose: "Identify Downloads artifacts with neither an existing Source Document record nor a direct repository filename reference."
+source_match_record: "80_Decisions and Planning/Downloads Source Document Match 0.1.yaml"
+duplicate_record: "80_Decisions and Planning/Downloads Duplicate Classification 0.1.yaml"
+cleanup_executed: false
+
+summary:
+  pdf_files: 66
+  source_record_backed_files: 8
+  unmatched_files_checked_for_direct_repository_reference: 58
+  direct_repository_filename_references_found: 0
+  orphan_candidates_total: 58
+  redundant_exact_copy_candidates: 9
+  unique_untracked_artifact_candidates: 49
+  unique_untracked_git_blobs: 49
+
+classification_rules:
+  source_record_backed:
+    definition: "Existing curated Source Document explicitly names the local PDF."
+    cleanup_treatment: "Not an orphan."
+  redundant_exact_copy_candidate:
+    definition: "No Source Document or direct repository reference, and content is byte-identical to another retained copy."
+    cleanup_treatment: "Strong later cleanup candidate, but do not delete before Step 35 review."
+  unique_untracked_artifact_candidate:
+    definition: "No Source Document or direct repository filename reference, and not merely a redundant exact copy."
+    cleanup_treatment: "Preserve pending provenance/use review; missing traceability is not evidence that the artifact lacks value."
+
+reference_check:
+  method: "Exact filename search across repository content, excluding Step 29-32 planning/inventory records."
+  note: "This detects direct attachment references. It does not prove that research prose was never derived from the PDF without linking it."
+
+redundant_exact_copy_candidates:
+  - filename: "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
+    path: "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
+    git_blob_sha: "bc0ed79080ff4d10f335ff33e006ec157cfb5614"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "131261342940149065 (1).pdf"
+    path: "Downloads/131261342940149065 (1).pdf"
+    git_blob_sha: "72a5230045d2845462dd18de98c0013c0047ed39"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "133294183726805278 (1).pdf"
+    path: "Downloads/133294183726805278 (1).pdf"
+    git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "133294183726805278 (2).pdf"
+    path: "Downloads/133294183726805278 (2).pdf"
+    git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "2025_Toyota Assist Brochure_Digital (1).pdf"
+    path: "Downloads/2025_Toyota Assist Brochure_Digital (1).pdf"
+    git_blob_sha: "8036e4a589d4ed8907ceaf64ab36186b788b5d4e"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
+    path: "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
+    git_blob_sha: "7ab7ee4d69216fc00420020cf4fc6aa20289c23d"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "GNB_MP_Overview_EN_web (1).pdf"
+    path: "Downloads/GNB_MP_Overview_EN_web (1).pdf"
+    git_blob_sha: "355cd0e4ff3d6782001712edc250c8ac9f2bc599"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
+    path: "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
+    git_blob_sha: "5658584052baff4200850d6e530792ab5122b9ea"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+  - filename: "trak_collect_brochure_en (1).pdf"
+    path: "Downloads/trak_collect_brochure_en (1).pdf"
+    git_blob_sha: "986bc7a0e1d615df4d677c4c2be48889b30bc514"
+    source_document: null
+    direct_repository_reference: false
+    classification: "redundant_exact_copy_candidate"
+
+unique_untracked_artifact_candidates:
+  - filename: "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
+    path: "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
+    git_blob_sha: "bc0ed79080ff4d10f335ff33e006ec157cfb5614"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "0071het4bc001_e_en-gb_v1r0_042025_pedestrian-awareness-camera-brochure.pdf"
+    path: "Downloads/0071het4bc001_e_en-gb_v1r0_042025_pedestrian-awareness-camera-brochure.pdf"
+    git_blob_sha: "9208009efb8694c37761fb6b9fdcbaeb2760909f"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "131261341460139117.pdf"
+    path: "Downloads/131261341460139117.pdf"
+    git_blob_sha: "f5627f4a71d26b90764f4f2fd2fcfe75265fe863"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "131261342052642309.pdf"
+    path: "Downloads/131261342052642309.pdf"
+    git_blob_sha: "c798547d6985395d7622bae4d35fa75cad1c8904"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "131261342583679925.pdf"
+    path: "Downloads/131261342583679925.pdf"
+    git_blob_sha: "14a2daf31a4320714d95d73118efae1d194d74eb"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "131261342940149065.pdf"
+    path: "Downloads/131261342940149065.pdf"
+    git_blob_sha: "72a5230045d2845462dd18de98c0013c0047ed39"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "133294183726805278.pdf"
+    path: "Downloads/133294183726805278.pdf"
+    git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "133717591287578074.pdf"
+    path: "Downloads/133717591287578074.pdf"
+    git_blob_sha: "2bb5361ceb724d5099f111ef3a1537fc7d01d3b7"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "133723547947804003.pdf"
+    path: "Downloads/133723547947804003.pdf"
+    git_blob_sha: "d11451eb1c31c26a21370e8f217f5394c3be33af"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "2018_GD2000SpecSheet_F1Digi.pdf"
+    path: "Downloads/2018_GD2000SpecSheet_F1Digi.pdf"
+    git_blob_sha: "19b84916cda2ab04d18fe12269f850dace28ea55"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "2025_Toyota Assist Brochure_Digital.pdf"
+    path: "Downloads/2025_Toyota Assist Brochure_Digital.pdf"
+    git_blob_sha: "8036e4a589d4ed8907ceaf64ab36186b788b5d4e"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
+    path: "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
+    git_blob_sha: "7ab7ee4d69216fc00420020cf4fc6aa20289c23d"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "3002005771_Mobile Electric Airport Ground Support Equipment.pdf"
+    path: "Downloads/3002005771_Mobile Electric Airport Ground Support Equipment.pdf"
+    git_blob_sha: "71b53717b4a15d341be926e4429fa467c25ad22b"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf"
+    path: "Downloads/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf"
+    git_blob_sha: "b6b3a85c369970740555aab9486bcb05533a903d"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf"
+    path: "Downloads/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf"
+    git_blob_sha: "d005d986e5d64329d186dd29a18f96004267da6e"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "5x7_ProCore-Solo-1.pdf"
+    path: "Downloads/5x7_ProCore-Solo-1.pdf"
+    git_blob_sha: "9f1f3b8ef7c754837e6c89d1c57bec788509bc8a"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "BatteryRX.pdf"
+    path: "Downloads/BatteryRX.pdf"
+    git_blob_sha: "58c7018c7a7061ef89e11cdb17901fb7867c808c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "DQIC650-48_13.5.pdf"
+    path: "Downloads/DQIC650-48_13.5.pdf"
+    git_blob_sha: "d0f47fab2109d9e4188fb4f499f4860757470a52"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "DVS-300-400.pdf"
+    path: "Downloads/DVS-300-400.pdf"
+    git_blob_sha: "8b6635bd1193c295208a03a8bdd44400e8fedb13"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "E-Meter.pdf"
+    path: "Downloads/E-Meter.pdf"
+    git_blob_sha: "e6c5987aadac32a6886ab28496b130a1b642bc10"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "GNB_MP_Overview_EN_web.pdf"
+    path: "Downloads/GNB_MP_Overview_EN_web.pdf"
+    git_blob_sha: "355cd0e4ff3d6782001712edc250c8ac9f2bc599"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "GenDrive-Series-1000-Spec-Sheet.pdf"
+    path: "Downloads/GenDrive-Series-1000-Spec-Sheet.pdf"
+    git_blob_sha: "5ffed61f10c98c7ce7749295f74b373ec67513ae"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "High-Voltage-Power-Station-Product-Card-1.pdf"
+    path: "Downloads/High-Voltage-Power-Station-Product-Card-1.pdf"
+    git_blob_sha: "21f1076e90bca794674766684b469e91d520ccab"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "MVS-400.pdf"
+    path: "Downloads/MVS-400.pdf"
+    git_blob_sha: "3778b779454f38392809cae5a9535c1f1438aca9"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "MVS-800.pdf"
+    path: "Downloads/MVS-800.pdf"
+    git_blob_sha: "4f8414d414c6e5a753d9994073da2fbac38ef762"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "PC_BRO_Selectiva40_UL_EN.pdf"
+    path: "Downloads/PC_BRO_Selectiva40_UL_EN.pdf"
+    git_blob_sha: "dc1b1b84bbf8a9604d557efd20053ab3b2681124"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf"
+    path: "Downloads/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf"
+    git_blob_sha: "115802580fe1abc55bf14ca942ca295e4943fc2b"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "PDS-PT-DT3_PowerTracDT3.pdf"
+    path: "Downloads/PDS-PT-DT3_PowerTracDT3.pdf"
+    git_blob_sha: "bf4922fb3f5180dc412c0164861fe33ff26e6c22"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf"
+    path: "Downloads/PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf"
+    git_blob_sha: "cf596a1f925c7f51bfd18381424ba7fc833fc6d8"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "PosiGuard_Product-Card.pdf-2.pdf"
+    path: "Downloads/PosiGuard_Product-Card.pdf-2.pdf"
+    git_blob_sha: "14668259d32fa6fc9c0ceec2b0cc940f357f3e83"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "Posilink-2-Pager.pdf"
+    path: "Downloads/Posilink-2-Pager.pdf"
+    git_blob_sha: "9c1d5b830f04afdb4d1b50fbc1f5d19d84ad6581"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "ProCore-Edge-Spec-Sheet-Updated.pdf"
+    path: "Downloads/ProCore-Edge-Spec-Sheet-Updated.pdf"
+    git_blob_sha: "a3179fdffaefc9f294f63ad3989a0f2710eec86a"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "Raymond Stand-Up Counterbalanced Options Sell Sheet.pdf"
+    path: "Downloads/Raymond Stand-Up Counterbalanced Options Sell Sheet.pdf"
+    git_blob_sha: "9ba070b53f75cfe50f017788c08acbba66fc2ec7"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "SP-1500-Broch-APAC.pdf"
+    path: "Downloads/SP-1500-Broch-APAC.pdf"
+    git_blob_sha: "7c3b5834acf86bfa24a4a46227cbbf40a69a8a5c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "SVS-100.pdf"
+    path: "Downloads/SVS-100.pdf"
+    git_blob_sha: "6f58858a1fc7b53191f72b93f6ef7952dc6c6eca"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "broschuere_safety_.pdf"
+    path: "Downloads/broschuere_safety_.pdf"
+    git_blob_sha: "beebf9c28bf1c6a15c1f64468f5f87d9e69ca0eb"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "ciotto_infrastructure_for_emerging_markets.pdf"
+    path: "Downloads/ciotto_infrastructure_for_emerging_markets.pdf"
+    git_blob_sha: "7e46f92421c1968660fe243b5c4e411da59bfcee"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
+    path: "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
+    git_blob_sha: "5658584052baff4200850d6e530792ab5122b9ea"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "eGSE-Catalog.pdf"
+    path: "Downloads/eGSE-Catalog.pdf"
+    git_blob_sha: "3b6710017920d68f4a92352747fdff449e038464"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "egocore-om-ps-en-us-doc0652.pdf"
+    path: "Downloads/egocore-om-ps-en-us-doc0652.pdf"
+    git_blob_sha: "ad5974d0b4cc28af68d77b31553e50611a4735aa"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "emea-en-om-ens-wiq-0524.pdf"
+    path: "Downloads/emea-en-om-ens-wiq-0524.pdf"
+    git_blob_sha: "caaf773f93a5dbbf75ba39cdfab9fec3b166085c"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "forklift-rc5700-spec-GB.pdf"
+    path: "Downloads/forklift-rc5700-spec-GB.pdf"
+    git_blob_sha: "a3381a48f47d5998418958ef7e08d630160e441b"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "forklift-truck-fc5700-brochure-GB.pdf"
+    path: "Downloads/forklift-truck-fc5700-brochure-GB.pdf"
+    git_blob_sha: "85c9583418d102046450e53154b9d14f0ccf9e02"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "summit-series-ii_650w_data-sheet_060223.pdf"
+    path: "Downloads/summit-series-ii_650w_data-sheet_060223.pdf"
+    git_blob_sha: "afd803d7bebeaacd6e7812e149358a22e44a85e2"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "trak_collect_brochure_en.pdf"
+    path: "Downloads/trak_collect_brochure_en.pdf"
+    git_blob_sha: "986bc7a0e1d615df4d677c4c2be48889b30bc514"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "trak_collect_data_sheet_en.pdf"
+    path: "Downloads/trak_collect_data_sheet_en.pdf"
+    git_blob_sha: "0551b5bf630dc1c1fedb0cbbf5e2a3c058abe4f5"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "vhfm3-chargers.pdf"
+    path: "Downloads/vhfm3-chargers.pdf"
+    git_blob_sha: "ab325cd0a7ebe30ed37b2c4439ab20550fcbba4e"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "wbid-and-bid-data-sheet.pdf"
+    path: "Downloads/wbid-and-bid-data-sheet.pdf"
+    git_blob_sha: "920321c38969de504d04ed11dff5022ddac645dc"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+  - filename: "wbid-owners-manual-821.pdf"
+    path: "Downloads/wbid-owners-manual-821.pdf"
+    git_blob_sha: "d0d2c182158e7280191c2d1c84ca8e92ab6de242"
+    source_document: null
+    direct_repository_reference: false
+    classification: "unique_untracked_artifact_candidate"
+
+safety_and_follow_up:
+  - "Do not delete unique untracked artifacts merely because they lack source records or direct links."
+  - "Step 33 reviews the quality of existing Source Document records."
+  - "Step 34 may normalize provenance where supported."
+  - "Step 35 must distinguish safe cleanup from unique/unstable/private/access-controlled or otherwise important evidence."
+  - "The nine redundant exact copies are stronger cleanup candidates than the 49 unique untracked artifacts."
