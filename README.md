@@ -36,9 +36,9 @@ AI authoring rules are in:
 
 The vault intentionally does not contain the methodology workspace's Current State, release manifest, Translator Definition, Decision Log, EA evidence, archives, or Workbench design notes. The engineering vault is a runtime artifact, not a copy of the methodology workspace.
 
-## Current model areas
+## Authoritative PosiBattery vault architecture
 
-PosiBattery is currently organized under the numbered domain structure:
+The numbered domain structure is the authoritative vault-level information architecture for PosiBattery. New stable content and future migrations should use these domains:
 
 - `10_Products`
 - `20_Product Architecture`
@@ -51,9 +51,9 @@ PosiBattery is currently organized under the numbered domain structure:
 - `90_Definitions and Reusable Reference`
 - `99_System`
 
-Several areas inside these domains are still transitional or pending migration review. In particular, mixed-content folders and the remaining underscore-prefixed research roots are being reconciled through `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
+Existing exceptions do not create competing root taxonomies. Several areas inside these domains are still transitional or pending migration review. In particular, mixed-content folders and the remaining underscore-prefixed research roots are being reconciled through `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
 
-Folders support navigation only. They do not create engineering semantics; relationships and schemas do that.
+Folder authority here determines where knowledge is organized for navigation. It does not create engineering semantics; element types, governed properties, relationships, evidence provenance, and Local Model records remain authoritative for meaning.
 
 ## Opening the vault
 
