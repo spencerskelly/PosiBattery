@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("40_Use and Operations")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All use and operations contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - file.folder
+      - status
