@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Products")
+    - file.inFolder("10_Products")
     - type == "Object"
     - '!file.name.startsWith("README_")'
 views:
