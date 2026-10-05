@@ -11,6 +11,12 @@ tags:
   - gse
   - charge-interface
 abstract: true
+productClass: product-family
+reuseScope: product-family
+aliases:
+  - BMID
+  - Battery Monitor and Identifier
+  - Smart Battery Monitor and Identification Device
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 supertypeOf:
@@ -80,12 +86,5 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
 - **Related products and how they differ (offeredWith):**
   - [[PosiCharge DVS100]]: the DVS100 page lists the BMID as a feature of the charger (with an electrolytic thermistor).
   - [[PosiCharge ProCore Edge]]: ProCore Edge communicates with wireless BMIDs over Bluetooth and has a BMID automatic mode, so the BMID here is the wireless variant.
-
-## Aliases
-
-- BMID
-- Battery Monitor and Identifier
-- Smart Battery Monitor and Identification Device
-
 
 ## Former ids
