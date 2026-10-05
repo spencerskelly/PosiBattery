@@ -28,6 +28,7 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Estimate State of Charge
