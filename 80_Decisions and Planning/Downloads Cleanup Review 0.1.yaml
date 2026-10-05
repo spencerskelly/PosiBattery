@@ -1,0 +1,101 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 35
+purpose: "Deletion-review classification for Downloads artifacts after duplicate, source-record, orphan, and provenance review."
+cleanup_executed: false
+
+summary:
+  pdf_files: 66
+  retain_source_record_backed: 8
+  safe_cleanup_candidates: 9
+  preserve_pending_provenance_review: 49
+  immediate_deletions_authorized: 0
+
+decision_rules:
+  safe_cleanup_candidate:
+    requirements:
+      - "Byte-identical duplicate of another retained file."
+      - "No Source Document record names this duplicate filename."
+      - "No direct repository filename reference was found."
+      - "An unsuffixed retained copy with the same Git blob is present."
+    confidence: "high"
+    action: "Eligible for explicit approved cleanup action; not deleted in Step 35."
+  retain_source_record_backed:
+    requirements:
+      - "Existing Source Document record explicitly names the local artifact."
+    confidence: "high"
+    action: "Retain as evidence attachment."
+  preserve_pending_provenance_review:
+    requirements:
+      - "Unique Git blob with no Source Document record and no direct filename reference."
+    confidence: "insufficient_for_deletion"
+    action: "Retain until provenance, source identity, access constraints, and evidence value are reviewed."
+  unknown_or_access_control_caution:
+    rule: "Opaque filenames, large files, manuals, product literature, and potentially unstable/limited-access sources are not deletion candidates merely because they lack current links."
+
+safe_cleanup_candidates:
+  - "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
+  - "Downloads/131261342940149065 (1).pdf"
+  - "Downloads/133294183726805278 (1).pdf"
+  - "Downloads/133294183726805278 (2).pdf"
+  - "Downloads/2025_Toyota Assist Brochure_Digital (1).pdf"
+  - "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
+  - "Downloads/GNB_MP_Overview_EN_web (1).pdf"
+  - "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
+  - "Downloads/trak_collect_brochure_en (1).pdf"
+
+preferred_retained_copies:
+  - "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
+  - "Downloads/131261342940149065.pdf"
+  - "Downloads/133294183726805278.pdf"
+  - "Downloads/2025_Toyota Assist Brochure_Digital.pdf"
+  - "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
+  - "Downloads/GNB_MP_Overview_EN_web.pdf"
+  - "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
+  - "Downloads/trak_collect_brochure_en.pdf"
+
+retain_source_record_backed:
+  - "Downloads/133717589840217692.pdf"
+  - "Downloads/133717591610794845.pdf"
+  - "Downloads/133717592244521430.pdf"
+  - "Downloads/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf"
+  - "Downloads/glob-en-fly-iqm-0924-apac.pdf"
+  - "Downloads/summit-series-ii_1425w_v2_data-sheet_060223.pdf"
+  - "Downloads/PDS-PT-PT3_PowerTrac-3.pdf"
+  - "Downloads/bid-ah-accumulator-datasheet-aug-2018.pdf"
+
+preserve_pending_provenance_review:
+  count: 49
+  rationale:
+    - "Each file is a unique Git blob."
+    - "No current Source Document record explicitly names it."
+    - "No direct repository filename reference was found."
+    - "The Downloads README defines this folder as intake/staging and requires provenance review before cleanup."
+    - "Some may be unique manufacturer manuals, product brochures, standards-adjacent references, market evidence, or access-controlled/unstable sources."
+    - "Lack of current traceability is not proof of redundancy."
+  action: "Retain all 49 until later source-record/provenance work determines whether they are valuable evidence, superseded versions, or safe cleanup candidates."
+
+explicit_non_candidates:
+  - "Do not delete any of the 8 Source Document-backed PDFs."
+  - "Do not delete any of the 49 unique untracked artifacts in the current phase."
+  - "Do not collapse different wattages, manuals, brochures, revisions, or product-family documents based on similar names alone."
+
+recommended_future_cleanup_action:
+  scope: "Only the 9 safe cleanup candidates listed above."
+  prerequisites:
+    - "Explicit approved cleanup action."
+    - "Recheck branch head and filename references immediately before deletion."
+    - "Delete only redundant suffixed copies; preserve each preferred retained copy."
+    - "Run structural integrity checks after deletion."
+    - "Update Downloads manifest, duplicate classification, orphan review, and this cleanup review after execution."
+
+phase_e_result:
+  evidence_layer_state:
+    - "66 PDFs inventoried."
+    - "8 exact duplicate groups classified."
+    - "9 redundant copies identified."
+    - "8 PDFs connected to curated Source Document records."
+    - "49 unique untracked artifacts preserved pending provenance review."
+    - "8 Source Document records normalized for provenance."
+  conclusion: "Only 9 artifacts currently meet a high-confidence safe-cleanup threshold, and none are deleted without explicit approval."
