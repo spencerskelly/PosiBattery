@@ -5,9 +5,12 @@ step: 24
 purpose: "Explicit per-file migration mapping for _Cost Driver Research into the canonical Research and Evidence domain."
 source_root: "_Cost Driver Research"
 destination_root: "70_Research and Evidence/Research/Cost Drivers"
-migration_executed: false
+migration_executed: true
 preserve_filenames: true
 content_rewrite_required_for_move: false
+migration_commit: "5166678f117f2dee6eb1f289394c11800b1444d8"
+source_folder_removed: true
+navigation_updated: true
 
 mapping_rules:
   - "Move each research note as a whole; do not split it during the mechanical migration."
