@@ -1907,6 +1907,76 @@ The one-link improvement is expected because the reusable-reference root README 
 
 ---
 
+## Step 22 completion evidence — Unnecessary lower-level scaffolding removed
+
+**Date:** 2026-10-04
+
+Lower-level navigation artifacts were reviewed across the vault.
+
+### Retained as meaningful navigation
+
+The following lower-level navigation sets were retained because they provide substantive, domain-specific value:
+
+- Product Functions
+- Product Designs
+- Performance Metrics
+- Customer Actors
+- Organizations
+- Research
+- Source Documents
+- specialized Organization offerings view
+- Property Dictionary view
+
+The `99_System/02_AI`, `99_System/05_Templates`, and `99_System/08_Scripts` `00 - Folder Contents.base` files were also retained because they provide functional folder-content views.
+
+### Removed as unnecessary scaffolding
+
+Three empty, unreferenced system canvases were removed:
+
+- `99_System/02_AI/00 - Folder Map.canvas`
+- `99_System/05_Templates/00 - Folder Map.canvas`
+- `99_System/08_Scripts/00 - Folder Map.canvas`
+
+Each contained only `{"nodes":[],"edges":[]}` and provided no navigation value.
+
+No model notes, model relationships, README content, or functional Bases were removed.
+
+`PosiBattery Navigation Artifact Inventory.yaml` was updated to mark the empty system-canvas finding resolved.
+
+### Validation
+
+GitHub Actions run `37264327424` on commit `2799c09e` completed the structural audit.
+
+Results:
+
+- Markdown files: 1075
+- Model notes: 905
+- Broken wikilinks: **19** (unchanged)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The unchanged broken-link count is expected because the deleted canvases contained no links.
+
+### Commits
+
+- `05116d9a` — remove empty AI Folder Map canvas
+- `98e45132` — remove empty Templates Folder Map canvas
+- `c735923a` — remove empty Scripts Folder Map canvas
+- `2799c09e` — update navigation artifact inventory
+
+**Result:** Step 22 complete. Lower-level navigation now follows the demonstrated-value rule rather than automatic README/Base/Canvas scaffolding.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1927,3 +1997,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 19 | 2026-10-04 | Complete | Normalized `70_Research and Evidence` with active root navigation, clarified raw artifacts vs Source Document records vs synthesis, repaired Research/Source Document Bases to numbered paths, and reduced broken wikilinks from 21 to 20. |
 | 20 | 2026-10-04 | Complete | Added primary `80_Decisions and Planning` README/Base/Canvas navigation linking the active roadmap, backlog, decision record, historical migration baseline, and inventories. Structural audit remained at 20 broken wikilinks with all other integrity categories clean. |
 | 21 | 2026-10-04 | Complete | Normalized `90_Definitions and Reusable Reference` with active root README/Base/Canvas navigation, repaired the Property Dictionary path, avoided empty category scaffolding, and reduced broken wikilinks from 20 to 19. |
+| 22 | 2026-10-04 | Complete | Reviewed lower-level navigation, retained substantive domain views and functional system Bases, removed three empty unreferenced system Folder Map canvases, and kept the structural audit stable at 19 broken wikilinks. |
