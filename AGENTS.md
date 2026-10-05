@@ -7,14 +7,15 @@ For a normal engineering vault, read these before creating, moving, or editing m
 1. `99_System/02_AI/AI_INSTRUCTIONS.md`
 2. `99_System/10_Docs/MDSE Modeling Ruleset 1.23.md`
 3. `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
-4. `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
-5. the runtime schemas under `99_System/03_Schemas/`
-6. if active architecture work is underway, `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
+4. `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md`
+5. `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+6. the runtime schemas under `99_System/03_Schemas/`
+7. if active architecture work is underway, `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
 
 The essentials:
 
 - Preserve the controlled root, `.obsidian/`, and `99_System/` runtime structure. Do not invent replacement system files when something is missing.
-- Folder placement is navigation, not semantic meaning. Use the filesystem contract before creating or reorganizing folders.
+- For PosiBattery, the numbered root taxonomy defined in `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md` is authoritative for vault-level content placement. Folder placement remains navigation, not semantic meaning.
 - Create notes from the class template in `99_System/05_Templates`, and fill in `uid` and `id` yourself by the rules in `AI_INSTRUCTIONS.md`. You cannot run Templater, but the result must be identical.
 - Use your author code only for notes you create with no direct user instruction. When a user directs the note, use the user's code.
 - Leave `status` at the template default. A person reviews.
