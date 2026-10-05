@@ -1,0 +1,63 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 69
+purpose: "Review reusable definition notes for source-specific research extraction that belongs under Research and Evidence."
+
+scope:
+  reusable_reference_notes_reviewed: 48
+  external_urls_found: 0
+  notes_with_source_specific_market_research_blocks: 0
+  notes_moved_to_research: 0
+
+findings:
+  primary_result: "No reusable definition note currently contains large vendor-, product-, market-, or literature-specific research extraction that warrants relocation."
+  longest_notes:
+    - note: "EA Source Section"
+      approximate_size_chars: 7364
+      classification: "methodology/reference"
+      reason: "Defines how translated Enterprise Architect source material is represented in notes; it is not source research about products or technologies."
+    - note: "Note Layout"
+      approximate_size_chars: 7244
+      classification: "methodology/reference"
+      reason: "Defines note layout and translation conventions; length comes from governance detail and examples rather than research extraction."
+  property_dictionary_notes:
+    classification: "concise reusable semantics"
+    finding: "Property notes generally define direction, placement, inverse, format, rules, and decisions without external source evidence."
+
+boundary_rule:
+  definition_or_reference_content:
+    - "Canonical meaning"
+    - "Allowed values and usage rules"
+    - "Relationship direction/inverse semantics"
+    - "Stable authoring/modeling conventions"
+    - "Short clarifying examples"
+  research_and_evidence_content:
+    - "Product/vendor-specific source extraction"
+    - "Market or literature review"
+    - "Long source findings"
+    - "Conflicting claims"
+    - "Dated observations likely to change as evidence changes"
+  rule: "Definitions may link to Research for provenance, but should not accumulate evidence dumps."
+
+guidance_update:
+  file: "90_Definitions and Reusable Reference/Definitions/README_Definitions.md"
+  change: "Added an explicit Definition versus research boundary section."
+  commit: "5847f7efeea524c66bb9ef12d85da3ded41e34c7"
+
+deferred_scope:
+  issue: "EA Source Section and Note Layout are methodology-heavy and may eventually belong under 99_System according to the broader governance boundary."
+  treatment: "Not moved in Step 69 because the task is definition-versus-research separation, not system-governance migration."
+
+changes:
+  definition_notes_changed: 0
+  research_notes_created: 0
+  notes_moved: 0
+  notes_renamed: 0
+  guidance_files_changed: 1
+  evidence_records_created: 1
+
+conclusion: "The current reusable-reference area is already cleanly separated from research extraction. Step 69 therefore adds a maintenance boundary rather than relocating content."
+
+next_step:
+  step: 70
