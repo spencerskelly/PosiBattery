@@ -642,6 +642,89 @@ Because the primary audit returned exit code 1, the workflow stopped before the 
 
 ---
 
+## Step 2 completion evidence — Current repository and model counts
+
+**Date:** 2026-10-04  
+**Baseline commit:** `22aed9cbd8976f4084f7d7a72749c18a12ab58f8` (`main`)
+
+A recursive repository-tree inventory and the Step 1 controlled audit were used to establish the current size/profile baseline.
+
+### Repository totals
+
+- Repository entries: **1,345**
+- Files: **1,240**
+- Directories: **105**
+- Markdown files: **1,076**
+- PDF files: **66**
+- Obsidian Bases: **24**
+- Obsidian Canvases: **12**
+- README-style Markdown navigation files: **20**
+
+### Model-note totals
+
+The controlled audit identified **905 model notes**:
+
+- Object: **424**
+- Info: **193**
+- Function: **129**
+- Design: **118**
+- Use Case: **22**
+- Actor: **11**
+- Document: **8**
+- Other governed model classes currently represented in the audit count: **0**
+- Status: **905 Draft**
+
+### Evidence-layer counts
+
+- `70_Research and Evidence/Source Documents`: **12 files**
+  - **9 Markdown files**, consisting of **8 Document source-record notes** plus the folder README
+  - **2 Bases**
+  - **1 Canvas**
+- `70_Research and Evidence/Research`: **56 files**
+  - **53 Markdown**
+  - remaining files are navigation artifacts
+
+The **8 governed Document notes** reported by the audit align with the eight source-document records currently stored in the Source Documents folder.
+
+### Navigation artifacts
+
+Across the repository:
+
+- README-style Markdown files: **20**
+- Bases: **24**
+- Canvases: **12**
+
+Primary top-level domain coverage currently has no missing-standard-artifact finding in the controlled audit, although later steps will reconcile duplicate/transitional naming and lower-level scaffolding.
+
+### Major root-area sizes
+
+| Root area | Files | Markdown | Bases | Canvases | PDFs |
+|---|---:|---:|---:|---:|---:|
+| `10_Products` | 429 | 426 | 2 | 1 | 0 |
+| 2 | 2026-10-04 | Complete | Baseline counts recorded at main commit `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. Exact relationship-edge totals deferred to Step 4 machine-readable scan because the connector bulk-read cap prevents an authoritative full-note parse here. |\n| `30_Product Capabilities` | 315 | 306 | 6 | 3 | 0 |
+| `60_Stakeholders and Ecosystem` | 107 | 100 | 5 | 2 | 0 |
+| `99_System` | 96 | 78 | 4 | 3 | 0 |
+| `70_Research and Evidence` | 69 | 63 | 4 | 2 | 0 |
+| `Downloads` | 67 | 1 | 0 | 0 | 66 |
+| `90_Definitions and Reusable Reference` | 51 | 50 | 1 | 0 | 0 |
+| `50_Customer Needs` | 27 | 24 | 2 | 1 | 0 |
+| `_Cost Driver Research` | 12 | 12 | 0 | 0 | 0 |
+| `_EMS Research` | 4 | 4 | 0 | 0 | 0 |
+| `_Power Conversion Research` | 4 | 4 | 0 | 0 | 0 |
+| `80_Decisions and Planning` | 4 | 4 | 0 | 0 | 0 |
+| `20_Product Architecture` | 1 | 1 | 0 | 0 | 0 |
+| `40_Use and Operations` | 1 | 1 | 0 | 0 | 0 |
+
+### Relationship-count note
+
+The active relationship contract defines paired, symmetric, temporary, and one-way relationship fields under `99_System/03_Schemas/relationships.yaml`. Exact **instance-edge totals** require a full frontmatter scan of all model notes. The GitHub connector's per-turn bulk-read cap prevented a complete 1,076-file parse in this step, so no synthetic or partial edge count has been recorded as authoritative.
+
+This limitation is intentionally deferred to **Step 4**, where the machine-readable inventory can calculate and persist repeatable relationship-instance metrics alongside folder statistics. Step 1 already confirms that the current relationship targets that were scanned by the controlled audit have **0 unresolved targets** and **0 missing inverses**.
+
+**Result:** Step 2 complete. Repository, model, evidence, navigation, and major-area counts are now captured as the comparison baseline. Exact relationship-edge totals remain a documented machine-inventory follow-up rather than an estimated value.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
