@@ -159,3 +159,33 @@ The program is complete when all of the following are true:
 10. **All remaining sparse nodes are intentional, classified, and reviewable rather than accidental.**
 
 The desired end state is not a maximally connected graph. It is a model in which engineering reasoning is traversable and every absence of a relationship is either meaningful or explicitly understood.
+
+
+---
+
+## Step 1 completion evidence — Freeze the baseline
+
+**Date:** 2026-10-05
+
+Established a frozen semantic-linking baseline from the completed 100-step architecture-improvement state at commit `24a1cfb4`. The semantic-linking plan commit itself introduced no model-semantic changes.
+
+Baseline sources are the successful final Vault Audit run `37385743780`, job `112018457299`, and Workbench Model Review run `37385744231`, job `112018458635`.
+
+The frozen starting state is:
+
+- **945 model notes** across Actor 11, Design 118, Document 8, Function 129, Info 197, Item Flow 2, Object 424, Port 2, Requirement 6, Use Case 42, Verification 6;
+- **5,987 governed relationship assertions** with **0 relationship findings**;
+- **2 isolated model elements**, but **0 isolated product-development focus elements**;
+- **221 weak-traceability findings**: Design 138, Function 81, Requirement 2;
+- **8 curated Source Documents**, all with recognized body provenance and all missing one or more newer structured provenance fields;
+- **740 evidence-signal notes**, of which 120 expose a detected curated evidence relationship and 620 do not;
+- **42 Function→Design dependency pairs**, with 0 strong pairs carrying an unreviewed gap;
+- Workbench 0.1.17: **5/5 representative views passed**, 11 Local Model records, 0 unresolved relationship links, and one documented nonblocking interaction limitation.
+
+Structural conditions are also frozen at **0 broken wikilinks, 0 ambiguous wikilinks, 0 overlength paths**, with identity and naming validation passing.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Baseline Step 1 0.1.yaml`.
+
+**Commit:** `f5408c20`.
+
+**Result:** Step 1 complete. The next step is **Step 2 — Define element-by-element linking expectations**.
