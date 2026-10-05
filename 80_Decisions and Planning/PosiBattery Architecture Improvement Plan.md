@@ -3576,6 +3576,82 @@ No product identities were merged, moved, renamed, or reclassified in Step 41.
 
 ---
 
+## Step 42 completion evidence — Curated product navigation improved
+
+**Date:** 2026-10-04
+
+Product navigation was simplified after the Step 40 architecture migration so users can orient to major product domains without duplicating the full catalog in a canvas.
+
+### Canvas simplification
+
+`10_Products/CANVAS_Products.canvas`
+
+was reduced from:
+
+- **55 nodes** to **12 nodes**
+- **49 edges** to **11 edges**
+
+The curated canvas now emphasizes:
+
+- Battery-Connected Product as the cross-cutting root;
+- major product domains and family roots;
+- Forklift and GSE product domains;
+- links from those vehicle domains to their canonical architecture contexts:
+  - [[Industrial Truck Anatomy]]
+  - [[GSE Vehicle Anatomy]]
+
+Detailed subcategories and individual commercial offerings were intentionally removed from the canvas.
+
+### Navigation-layer guidance
+
+`10_Products/README_Products.md` now explains the intended navigation layers:
+
+- Canvas for high-level orientation;
+- `BASE_all_Products.base` for the recursive detailed catalog;
+- `BASE_local_Products.base` for direct root contents;
+- specialization relationships for navigating from abstract product definitions to offerings.
+
+The README explicitly states that the canvas is intentionally not exhaustive.
+
+### Bases
+
+The existing Bases were retained because they already serve their intended roles:
+
+- local direct-content view;
+- recursive full product catalog.
+
+No duplicate or redundant lower-level navigation scaffolding was added.
+
+### Validation
+
+GitHub Actions run `37271055984` on commit `bd38436f` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+### Commits
+
+- `61680197` — curate Products canvas
+- `bd38436f` — clarify Products navigation layers
+
+**Result:** Step 42 complete. Phase F is complete. Product navigation now separates orientation, detailed catalog browsing, and architecture context without exhaustive visual duplication.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3616,3 +3692,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 39 | 2026-10-04 | Complete | Reviewed placement conflicts and identified 26 high-confidence reusable Truck/GSE anatomy notes that belong under canonical Product Architecture; preserved five series/offering areas as review-only signals and confirmed abstract product-category organizers are not placement conflicts. |
 | 40 | 2026-10-04 | Complete | Moved 26 reusable Truck/GSE anatomy notes into canonical `20_Product Architecture` groupings using exact Git blobs, preserved IDs/UIDs/relationships, removed old product-side copies, and added product-to-architecture navigation links; ambiguous classifications remain deferred. |
 | 41 | 2026-10-04 | Complete | Added seven unresolved product identity/abstraction questions to the canonical backlog and a machine-readable Step 41 queue; no ambiguous case was forced into hierarchy or merged. |
+| 42 | 2026-10-04 | Complete | Simplified the Products canvas from 55 nodes/49 edges to 12 nodes/11 edges, preserved detailed discovery in the Bases, linked product domains to canonical Truck/GSE architecture context, and clarified navigation roles in the Products README. |
