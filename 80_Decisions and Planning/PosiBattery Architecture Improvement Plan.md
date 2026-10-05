@@ -4936,3 +4936,34 @@ Evidence: `80_Decisions and Planning/BMID Product Context Step 86 0.1.yaml`.
 **Commit:** `77362c86`.
 
 **Result:** Step 86 complete. The next incomplete roadmap item is **Step 87 — Introduce product Requirements** for the PosiCharge BMID family.
+
+
+---
+
+## Step 87 completion evidence — Introduce product Requirements
+
+**Date:** 2026-10-05
+
+Introduced the first governed Requirement set in PosiBattery for the **PosiCharge BMID** product family.
+
+Six Requirements were created directly under `30_Product Capabilities` (folder placement remains navigational):
+
+Family-level:
+- `REQ-00001` — BMID - Provide Battery Identity to Compatible Charger
+- `REQ-00002` — BMID - Provide Supported Battery Condition Information to Charger
+- `REQ-00003` — BMID - Retain Battery-Specific Usage History
+- `REQ-00004` — BMID - Preserve Battery Association
+
+PosiGuard-specific:
+- `REQ-00005` — PosiGuard - Support Lead-Acid and Lithium Battery Fleets
+- `REQ-00006` — PosiGuard - Support Local Service Configuration
+
+The requirements were derived from supported customer/engineering needs, product Use Cases, and documented product behavior. They were not produced by simply converting Functions into “shall” statements. Family-level obligations are limited to evidence that applies across the BMID family; PosiGuard-only behavior remains variant-specific.
+
+`drives/drivenBy` traceability is synchronized from the source needs/use cases, and `appliesTo/applies` is synchronized to the BMID family or PosiGuard as appropriate. Requirement-to-Function satisfaction is intentionally deferred to **Step 88**, which owns that traceability.
+
+Evidence: `80_Decisions and Planning/BMID Product Requirements Step 87 0.1.yaml`.
+
+**Commit:** `58990954`.
+
+**Result:** Step 87 complete. The next incomplete roadmap item is **Step 88 — Connect Requirements to Functions**.
