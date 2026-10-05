@@ -15,6 +15,8 @@ realizedBy:
   - "[[Adapt Truck to Battery Chemistry]]"
 participants:
   - "[[Truck OEM Integration Engineer]]"
+arisesIn:
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 ---
 
 # Integrate the Battery with Truck and Charger Controls
