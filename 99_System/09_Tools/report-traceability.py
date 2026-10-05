@@ -115,6 +115,7 @@ expectations={
 
 weak=[]
 by_type=Counter()
+by_signal=Counter()
 for path,data in notes.items():
     typ=str(data.get("type") or "")
     fields={f for f,_ in outgoing[path]} | {f for f,_ in incoming[path]}
@@ -122,6 +123,7 @@ for path,data in notes.items():
         if not (fields & alternatives):
             weak.append((path,typ,label,sorted(alternatives)))
             by_type[typ]+=1
+            by_signal[(typ,label)]+=1
 
 # Product-development focus subset: high-value chain classes.
 focus_types={"Use Case","Requirement","Function","Design","Verification"}
@@ -176,5 +178,7 @@ REPORT.write_text("\n".join(lines),encoding="utf-8")
 print("orphan and traceability quality reporting")
 for k,v in summary.items(): print(f"  {k.replace('_',' ')}: {v}")
 for typ,count in sorted(by_type.items()): print(f"  weak {typ}: {count}")
+for (typ,label),count in sorted(by_signal.items()): print(f"  missing signal {typ} / {label}: {count}")
+for path in orphans: print(f"  isolated: {path}")
 print(f"  report: {REPORT.relative_to(ROOT)}")
 print("TRACEABILITY REPORT GENERATED (REPORT-ONLY)")
