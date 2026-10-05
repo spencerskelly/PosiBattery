@@ -888,6 +888,73 @@ While recording Step 4, an accidental formatting defect introduced during the pr
 
 ---
 
+## Step 5 completion evidence — Folder architectural-role classification
+
+**Date:** 2026-10-04  
+**Classified inventory:** `80_Decisions and Planning/PosiBattery Folder Inventory.yaml`  
+**Classification commit:** `e0fca48c056c73aa75ce065955413238e05b0686`  
+**Metadata-finalization commit:** `5279c553abe4558e9ed252fb0a5dd2384728b6a2`
+
+All **105 directories** in the Step 4 machine-readable inventory were assigned one of the approved architectural roles.
+
+### Classification totals
+
+| Classification | Folder count |
+|---|---:|
+| `canonical` | **68** |
+| `system` | **26** |
+| `migration_candidate` | **10** |
+| `temporary` | **1** |
+| `legacy` | **0** |
+
+Each directory now has both a machine-readable `classification` value and a short `classification_reason`.
+
+### Classification rules applied
+
+- `system`: GitHub workflow/runtime structure, Obsidian/plugin runtime structure, and all `99_System` folders.
+- `canonical`: folders already operating within the approved numbered target taxonomy and not explicitly identified as mixed-content redistribution candidates.
+- `migration_candidate`: folders that contain useful active content but require redistribution, semantic review, or movement into a more appropriate canonical location.
+- `temporary`: ingestion/staging structure that is not intended to be a knowledge-model domain.
+- `legacy`: reserved for obsolete legacy structure that is no longer an active migration source. No current folder met that stricter definition.
+
+### Migration-candidate folders
+
+The following **10** folders are explicitly classified as migration candidates:
+
+1. `30_Product Capabilities/Performance Metrics`
+2. `30_Product Capabilities/Product Designs`
+3. `60_Stakeholders and Ecosystem/Organizations`
+4. `70_Research and Evidence/Research`
+5. `70_Research and Evidence/Research/Business Analysis`
+6. `90_Definitions and Reusable Reference/Definitions`
+7. `90_Definitions and Reusable Reference/Definitions/Properties`
+8. `_Cost Driver Research`
+9. `_EMS Research`
+10. `_Power Conversion Research`
+
+The classification reflects the existing migration map:
+
+- Product Designs requires note-level separation among architecture, capabilities, and reusable reference.
+- Performance Metrics requires metric-versus-comparison-criterion review.
+- Organizations contains multiple artifact classes.
+- Research contains evidence synthesis mixed with planning/governance/register material.
+- Definitions currently contains substantial system/meta-model material that must be separated from true reusable domain definitions.
+- The three underscore-prefixed research roots sit outside the canonical numbered taxonomy and need controlled migration.
+
+### Temporary folder
+
+`Downloads` is classified **temporary**, consistent with the governing migration map: it is an ingestion area for source binaries pending source matching, evidence extraction, provenance preservation, duplicate handling, and approved cleanup.
+
+### Why no folders are classified legacy
+
+No folder was marked `legacy` merely because its name or location predates the canonical taxonomy. The remaining noncanonical research roots still contain active information that must be migrated, so `migration_candidate` is more accurate and preserves their current authority until migration is complete.
+
+No files were moved, renamed, merged, or deleted in this step.
+
+**Result:** Step 5 complete. Every current folder now has an explicit architectural role that Step 6 and later migration phases can use programmatically.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -897,4 +964,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 1 | 2026-10-04 | Complete | Fresh audit on `main` commit `8837b06f`; 1,076 Markdown / 905 model notes; 27 blocking broken wikilinks; all identity/frontmatter/relationship/path checks otherwise clean. Workflow run `37255015647`, job `111590114513`. Secondary naming/dependency checks did not execute because the primary audit failed first. |
 | 2 | 2026-10-04 | Complete | Baseline counts recorded at `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. |
 | 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
-| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |
+| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |
