@@ -1,0 +1,646 @@
+schema_version: "0.1"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 2
+status: "Complete"
+title: "Element-by-element semantic linking expectation matrix"
+
+authority:
+  element_schema: "99_System/03_Schemas/element-types.yaml 1.18"
+  relationship_schema: "99_System/03_Schemas/relationships.yaml 1.36"
+  modeling_ruleset: "99_System/10_Docs/MDSE Modeling Ruleset 1.23.md"
+  usage_guide: "99_System/10_Docs/Relationship Vocabulary Usage Guide 0.1.md"
+  precedence: "relationships.yaml endpoint/direction rules and the Modeling Ruleset override examples or legacy/interim wording in the usage guide."
+
+purpose:
+  statement: "Define what useful semantic connectivity normally looks like for every governed element class without requiring maximum link density."
+  not_yet_defined:
+    - "Which notes are active-engineering versus reference-content; Step 3 defines that."
+    - "Controlled exception codes; Step 4 defines those."
+    - "Automated pass/fail thresholds; Step 5 derives those from this matrix plus Steps 3-4."
+
+general_rules:
+  - "A normal expectation is a review question, not permission to invent a relationship."
+  - "At least one supported path may satisfy a category when alternatives are listed; every alternative is not required."
+  - "Inverse fields count as the same semantic assertion when persisted according to relationships.yaml."
+  - "Navigation/body wikilinks do not satisfy semantic expectations."
+  - "Local Model definition use counts as usage/context for reusable Object, Port, and Item Flow definitions."
+  - "Evidence links are expected where a material engineering claim depends on external evidence; they are not mandatory on every reference leaf."
+  - "Provisional tracesTo and temporary equals/hasClassifier are review findings, not completion mechanisms."
+  - "dependsOn is enabling dependency; realizedBy is implementation; satisfies is fulfillment. Do not substitute among them to clear a gap."
+
+expectation_dimensions:
+  upstream: "Why the element exists, where it came from, what motivates/scopes/owns it, or what higher-level context contains it."
+  downstream: "What the element drives, contains, implements, affects, realizes, or makes possible."
+  ownership_use: "Where the reusable element is owned, performed, applied, included, instantiated, or used."
+  evidence: "What source/research/result supports, describes, contradicts, references, or verifies the element."
+  acceptable_none: "Situations where absence in a dimension can be normal; these are descriptive until Step 4 assigns controlled exception codes."
+
+classes:
+
+  Object:
+    role: "Reusable physical/software/firmware/product/architecture definition."
+    upstream:
+      normal:
+        - "subtypeOf / supertypeOf for true reusable generalization where applicable"
+        - "partOf / hasPart for reusable structural composition where the relationship is definition-level"
+        - "offeredBy / madeBy / poweredBy / suppliedBy / rebrandOf for supported market/business context"
+        - "applies / drivenBy / describedBy / supportedBy when requirements, decisions, or evidence provide context"
+    downstream:
+      normal:
+        - "hasPart for reusable constituent structure"
+        - "hasPort for owned reusable interfaces"
+        - "performs for product/system behavior"
+        - "hasDesign for design ownership/context"
+        - "hasState for behavior ownership"
+        - "satisfies when the Object demonstrably fulfills a Requirement or Use Case"
+    ownership_use:
+      normal:
+        - "partOf or Local Model part-definition use"
+        - "performedBy inverse is not applicable to Object; performs is authored on Object"
+        - "participants from Use Cases may establish operational use without an inverse field"
+        - "Local Model definition use is sufficient to answer where-used for contextual composition"
+    evidence:
+      normal:
+        - "describedBy"
+        - "supportedBy"
+        - "contradictedBy when evidence materially conflicts"
+    acceptable_none:
+      - "abstract/general reusable root whose purpose is taxonomy rather than direct product use"
+      - "external-reference catalog Object not yet selected for an active product"
+      - "specific market offering retained primarily as researched reference"
+    review_question: "Can a reviewer determine what this Object is, where it is used, and what behavior/design context matters?"
+
+  Port:
+    role: "Reusable interaction-point definition."
+    upstream:
+      normal:
+        - "portOf / hasPort for definition-level ownership when the Port belongs to a reusable Object"
+        - "copyOf / subtypeOf where the Port is intentionally reused/specialized"
+        - "Local Model endpoint-definition use for contextual ownership/use"
+    downstream:
+      normal:
+        - "interfaces for peer interaction"
+        - "exposes for boundary exposure"
+        - "hasFlow for owned Item Flow definitions where applicable"
+        - "transmits / receives / exchanges for directional flow semantics"
+    ownership_use:
+      normal:
+        - "hasPort/portOf or Local Model endpoint-definition use"
+        - "Local Model endpoint occurrence may be the primary use context"
+    evidence:
+      normal:
+        - "describedBy / supportedBy when interface semantics depend on a source"
+    acceptable_none:
+      - "reusable Port definition created for Local Model use and intentionally unowned at note level"
+      - "external-reference interface definition retained without product adoption"
+    review_question: "Is the Port's owner/use context and exchanged/interface meaning discoverable without inventing topology?"
+
+  Item_Flow:
+    role: "Reusable information, energy, or material flow definition."
+    upstream:
+      normal:
+        - "flowOf / hasFlow when owned by a reusable Port"
+        - "transmits / receives / exchanges backlinks from Ports"
+        - "Local Model flow-definition use"
+    downstream:
+      normal:
+        - "triggers when the flow legitimately triggers Function/Design/State via triggeredBy inverse"
+    ownership_use:
+      normal:
+        - "hasFlow/flowOf, Port data-direction relationship, or Local Model flow occurrence"
+    evidence:
+      normal:
+        - "describedBy / supportedBy where payload/flow meaning is source-derived"
+    acceptable_none:
+      - "reusable flow definition used only by Local Model connections"
+      - "external/reference payload definition not yet bound to a product interface"
+    review_question: "Can a reviewer determine where this flow occurs or which interfaces exchange it?"
+
+  Function:
+    role: "Product-controlled behavior."
+    upstream:
+      normal:
+        - "performedBy / performs for performer context"
+        - "childOf / hasChild for functional decomposition"
+        - "realizes / realizedBy when a Use Case is realized by the Function"
+        - "satisfiedBy / satisfies when a Requirement or Use Case is fulfilled by the Function"
+        - "drivenBy when a Need/Use Case/decision materially causes the behavior"
+        - "triggeredBy and follows where sequencing matters"
+    downstream:
+      normal:
+        - "realizedBy to implementing Function or Design where supported"
+        - "dependsOn for enabling prerequisite/design"
+        - "hasChild for sub-functions"
+        - "precedes for defined behavioral order"
+        - "satisfies for Requirements/Use Cases"
+    ownership_use:
+      normal:
+        - "performedBy, parent Function, Use Case realization, or explicit generic/platform reuse context"
+    evidence:
+      normal:
+        - "verifiedBy"
+        - "describedBy / supportedBy when behavior claim depends on evidence"
+    acceptable_none:
+      - "generic reusable behavior intentionally not assigned to a product yet"
+      - "architecture choice intentionally unresolved, provided the missing implementation is explicit"
+    review_question: "Why does this Function exist, who/what performs it, and what realizes or enables it?"
+
+  Functional_Flow:
+    role: "Reusable or imported functional-flow concept."
+    upstream:
+      normal:
+        - "childOf / includedIn / dependsOn when a governed semantic context is supported"
+        - "describedBy for source-derived flow definitions"
+    downstream:
+      normal:
+        - "hasChild / includes / precedes where the flow owns or orders compatible Functional Flow elements"
+    ownership_use:
+      normal:
+        - "a governed hierarchy/membership link when the flow participates in an active model"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "legacy/imported flow retained for source fidelity pending semantic promotion"
+      - "reference-only process/flow concept"
+    review_question: "Is this Functional Flow part of an active behavior model, or intentionally retained as source/reference material?"
+
+  State:
+    role: "Behavioral state."
+    upstream:
+      normal:
+        - "stateOf / hasState for owning Object or State Machine"
+        - "childOf / hasChild only for State-to-State hierarchy"
+        - "follows / precedes for ordered transitions where represented at state level"
+        - "triggeredBy for transition-driving behavior/event semantics at element level"
+    downstream:
+      normal:
+        - "hasChild for nested States"
+        - "precedes for defined order"
+        - "satisfies / applies only when the state itself legitimately fulfills/scopes a requirement/use case"
+    ownership_use:
+      normal:
+        - "stateOf is normally expected for an active State"
+    evidence:
+      normal:
+        - "verifiedBy when state behavior is explicitly verified"
+        - "describedBy / supportedBy where source-derived"
+    acceptable_none:
+      - "legacy/imported State awaiting attachment to a valid State Machine/Object"
+    review_question: "Can the owning behavior and transition context for this State be found?"
+
+  State_Machine:
+    role: "Owned state-behavior definition."
+    upstream:
+      normal:
+        - "stateOf / hasState from owning Object"
+        - "childOf / includedIn only where a separate governed hierarchy is truly intended"
+    downstream:
+      normal:
+        - "hasState to contained States"
+        - "initialState"
+        - "finalState"
+    ownership_use:
+      normal:
+        - "stateOf is normally expected for active State Machines"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "reference/imported State Machine not yet adopted into active product behavior"
+    review_question: "Does the State Machine have an owner and discoverable constituent/initial/final states?"
+
+  Requirement:
+    role: "Obligation, constraint, or required outcome."
+    upstream:
+      normal:
+        - "drivenBy from Need/Use Case/decision"
+        - "derivedFrom / refinedBy / childOf for requirement hierarchy or derivation"
+        - "references for cited Requirement/Document"
+        - "appliesTo for explicit scope"
+    downstream:
+      normal:
+        - "derivedBy / refines / hasChild where it structures other Requirements"
+        - "satisfiedBy from Function/Design/Object/Result"
+        - "verifiedBy from Verification/Result"
+    ownership_use:
+      normal:
+        - "appliesTo where scope is material; otherwise a clear rationale relationship should locate it in product intent"
+    evidence:
+      normal:
+        - "referencedBy when other Requirements/Documents cite it"
+        - "supportedBy / contradictedBy"
+        - "verifiedBy"
+    acceptable_none:
+      - "external standard/reference Requirement retained for reuse before product applicability is chosen"
+      - "newly captured Requirement awaiting reviewed rationale, satisfaction, or verification disposition"
+    review_question: "Why does this Requirement exist, where does it apply, what satisfies it, and how will it be verified?"
+
+  Design:
+    role: "Solution/implementation concept or engineering design choice."
+    upstream:
+      normal:
+        - "designOf / hasDesign for owning Object or Document context"
+        - "realizes / realizedBy from Function"
+        - "satisfies Requirements/Use Cases where fulfillment is supported"
+        - "appliesTo for scoped design rules/choices"
+        - "dependsOn for enabling prerequisites"
+        - "drivenBy for decision/requirement/use context when causal"
+    downstream:
+      normal:
+        - "hasChild for design decomposition"
+        - "realizes through inverse of Function realizedBy"
+        - "satisfies"
+        - "triggeredBy / precedes only where design behavior is explicitly modeled"
+    ownership_use:
+      normal:
+        - "designOf, realizes, appliesTo, or a supported platform/reuse context"
+    evidence:
+      normal:
+        - "verifiedBy"
+        - "describedBy / supportedBy / contradictedBy"
+    acceptable_none:
+      - "external/reference Design retained for comparison"
+      - "generic reusable Design not yet selected for a product"
+    review_question: "What owns or uses this Design, what behavior/requirement motivates it, and what evidence/verification applies?"
+
+  Use_Case:
+    role: "Externally controlled scenario, actor goal, or operational context."
+    upstream:
+      normal:
+        - "needOf / hasNeed from Actor or Organization"
+        - "includedIn / hasOption / childOf when part of a larger scenario"
+        - "drivenBy when a higher-level need/context causes the scenario"
+    downstream:
+      normal:
+        - "participants"
+        - "realizedBy to Function/Design"
+        - "drives Requirements or other justified downstream decisions"
+        - "includes / optionOf / arisesIn / affects where semantically appropriate"
+    ownership_use:
+      normal:
+        - "participant and/or need linkage for active operational scenarios"
+    evidence:
+      normal:
+        - "satisfiedBy where a Function/Design/Object/Result fulfills the scenario"
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "reference scenario retained from research before adoption"
+    review_question: "Who needs/participates in this Use Case and what product behavior or requirements result?"
+
+  Actor:
+    role: "Human/external actor identity."
+    upstream:
+      normal:
+        - "participation is represented one-way from Use Case; Actor may therefore have no persisted inverse"
+        - "describedBy / supportedBy for evidence"
+    downstream:
+      normal:
+        - "hasNeed to Use Case"
+    ownership_use:
+      normal:
+        - "hasNeed and/or appearance as a Use Case participant"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "stakeholder/reference Actor recorded before an applicable Use Case is modeled"
+    review_question: "Can a reviewer discover what this Actor needs or where the Actor participates?"
+
+  Organization:
+    role: "Persistent institutional/business identity."
+    upstream:
+      normal:
+        - "subsidiaryOf / predecessorOf / suppliedBy / distributorOf / privateLabelledBy / rolePlayedBy as supported"
+        - "participant use from Use Case may be one-way"
+    downstream:
+      normal:
+        - "hasNeed"
+        - "playsRole"
+        - "makes / offers"
+        - "supplierOf / distributedBy / parentOf / successorOf / privateLabelFor"
+        - "partnerOf / integratesWith"
+    ownership_use:
+      normal:
+        - "at least one business, need, participation, or evidence context when the Organization is relevant to the vault"
+    evidence:
+      normal:
+        - "describedBy / supportedBy / contradictedBy"
+    acceptable_none:
+      - "organization identity captured as a reference target before a business/use relationship is reviewed"
+    review_question: "Why is this Organization in the model and what product, need, role, or business relationship makes it relevant?"
+
+  Failure_Mode:
+    role: "Defined failure mechanism/mode."
+    upstream:
+      normal:
+        - "childOf / includedIn for governed failure decomposition/context"
+        - "drivenBy / dependsOn where cause/dependency semantics are supported"
+    downstream:
+      normal:
+        - "affects"
+        - "drives Requirements or mitigation work when the failure causes them"
+    ownership_use:
+      normal:
+        - "an affected element, parent failure context, or requirement/mitigation chain"
+    evidence:
+      normal:
+        - "verifiedBy / describedBy / supportedBy / contradictedBy"
+    acceptable_none:
+      - "reference FMEA library item not yet applied to a product"
+    review_question: "What does this failure affect and what design/requirement response follows?"
+
+  Issue:
+    role: "Engineering issue or lifecycle risk."
+    upstream:
+      normal:
+        - "affectedBy / drivenBy / dependsOn / childOf as context requires"
+    downstream:
+      normal:
+        - "affects"
+        - "drives decisions, Requirements, Designs, or Plans"
+        - "supersedes only when replacing another Issue record"
+    ownership_use:
+      normal:
+        - "at least one affected/driven target for an active issue"
+    evidence:
+      normal:
+        - "supportedBy / contradictedBy / describedBy"
+    acceptable_none:
+      - "newly captured issue awaiting triage"
+      - "historical/closed issue retained for audit history"
+    review_question: "What is affected by this Issue and what response does it drive?"
+
+  Info:
+    role: "General information, metric/property/comparison concept, framing, or legacy organization representation."
+    upstream:
+      normal:
+        - "describedBy / supportedBy / applies / measuredBy depending role"
+        - "legacy business inverses where the Info note represents an Organization under the explicit schema exception"
+    downstream:
+      normal:
+        - "describes"
+        - "supports / contradicts"
+        - "appliesTo"
+        - "measures"
+        - "legacy business relationship forward fields only when acting as legacy Organization endpoint"
+    ownership_use:
+      normal:
+        - "role-dependent; framing/reference Info may be intentionally sparse"
+    evidence:
+      normal:
+        - "supports / contradicts / describes and their inverses"
+    acceptable_none:
+      - "framing/navigation Info note"
+      - "metric/property definition not yet applied"
+      - "legacy research/context note retained for readability"
+    review_question: "Is this Info note making a semantic claim, defining a reusable measure/property, or merely framing/navigation?"
+
+  Step:
+    role: "Reusable ordered step."
+    upstream:
+      normal:
+        - "childOf / includedIn"
+        - "follows"
+    downstream:
+      normal:
+        - "precedes"
+        - "hasChild / includes where decomposition is modeled"
+        - "dependsOn where a prerequisite is explicit"
+    ownership_use:
+      normal:
+        - "parent Procedure/flow/context through a governed hierarchy or membership link"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "legacy/imported Step awaiting procedure/process reconciliation"
+    review_question: "What process/procedure owns this Step and how does its order/dependency context work?"
+
+  Verification:
+    role: "Reusable verification intent."
+    upstream:
+      normal:
+        - "arisesIn / givesRiseTo only when the scenario relationship is semantically supported"
+        - "childOf / includedIn for verification hierarchy/campaign membership"
+    downstream:
+      normal:
+        - "verifies Requirement, Function, Design, or Info"
+        - "measures where the Verification is a measurement method"
+    ownership_use:
+      normal:
+        - "at least one verifies target for active Verification"
+    evidence:
+      normal:
+        - "supportedBy / describedBy"
+        - "Result relationships may provide execution evidence without replacing Verification intent"
+    acceptable_none:
+      - "verification template/library intent not yet assigned to a target"
+    review_question: "What does this Verification evaluate, and can execution evidence later connect back to it?"
+
+  Procedure:
+    role: "Reusable ordered execution method."
+    upstream:
+      normal:
+        - "givesRiseTo / arisesIn from Use Case where procedure originates in a scenario"
+        - "childOf / includedIn for process/test hierarchy"
+        - "dependsOn for required Setup or prerequisite"
+    downstream:
+      normal:
+        - "hasChild to Steps or subordinate Procedures where supported"
+        - "includes"
+        - "dependsOn Setup"
+    ownership_use:
+      normal:
+        - "verification/plan/use context via governed hierarchy, membership, dependency, or scenario linkage"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "procedure library item not yet selected into a Plan"
+    review_question: "What intent/context uses this Procedure and what Setup/Steps does it require?"
+
+  Setup:
+    role: "Reusable execution capability/configuration."
+    upstream:
+      normal:
+        - "givesRiseTo / arisesIn when a scenario gives rise to the Setup"
+        - "dependencyOf when Procedures/Plans depend on it"
+        - "includedIn / childOf where setup hierarchy is meaningful"
+    downstream:
+      normal:
+        - "hasChild / includes for setup constituents when represented as non-Object hierarchy"
+        - "dependsOn for prerequisites"
+    ownership_use:
+      normal:
+        - "dependency from Procedure/Plan/Verification context"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "setup library capability not yet selected"
+    review_question: "Which verification/procedure/plan depends on this Setup?"
+
+  Plan:
+    role: "Campaign/selection/planning artifact."
+    upstream:
+      normal:
+        - "drivenBy / dependsOn"
+        - "includedIn / childOf where governed campaign hierarchy exists"
+    downstream:
+      normal:
+        - "includes Procedures, Verifications, Setups, or Results when membership semantics fit"
+        - "dependsOn prerequisites"
+        - "drives downstream execution artifacts when causal"
+    ownership_use:
+      normal:
+        - "a product/campaign/decision context through applies, includes, drives, or dependency relationships"
+    evidence:
+      normal:
+        - "describedBy / supportedBy"
+    acceptable_none:
+      - "draft planning shell before campaign content is selected"
+    review_question: "What objective/product drives this Plan and what execution content does it select?"
+
+  Result:
+    role: "Execution or analysis result/evidence."
+    upstream:
+      normal:
+        - "includedIn / childOf / dependsOn for execution context where supported"
+        - "describedBy for result documentation"
+    downstream:
+      normal:
+        - "verifies"
+        - "satisfies when the result itself demonstrates fulfillment"
+        - "supports / contradicts"
+    ownership_use:
+      normal:
+        - "a Verification/Plan/Procedure/execution context plus at least one evidentiary target for meaningful Results"
+    evidence:
+      normal:
+        - "Result is itself evidence; supports/contradicts/verifies are primary outbound evidence links"
+    acceptable_none:
+      - "raw/unreviewed Result awaiting interpretation"
+    review_question: "What execution produced this Result and what engineering claim does it verify/support/contradict?"
+
+  Document:
+    role: "Document or curated source record."
+    upstream:
+      normal:
+        - "referencedBy from Requirements"
+        - "designOf inverse only when a Document legitimately owns a Design"
+        - "describedBy / supportedBy when another evidence record contextualizes it"
+    downstream:
+      normal:
+        - "describes"
+        - "supports"
+        - "contradicts"
+        - "hasDesign only where the Document is legitimately the design owner"
+    ownership_use:
+      normal:
+        - "at least one describes/supports/references context for curated high-value Documents"
+    evidence:
+      normal:
+        - "Document is normally an evidence source; provenance metadata/body establishes source identity"
+    acceptable_none:
+      - "archived/reference Document retained before claim-level curation"
+    review_question: "What does this Document describe or support, and is source identity/provenance sufficient for its use?"
+
+  Artifact:
+    role: "Non-document evidence or deliverable artifact."
+    upstream:
+      normal:
+        - "includedIn / childOf / dependsOn according to production/execution context"
+    downstream:
+      normal:
+        - "describes"
+        - "supports / contradicts when serving as evidence"
+    ownership_use:
+      normal:
+        - "a producing/using context via hierarchy, membership, dependency, or evidence relationship"
+    evidence:
+      normal:
+        - "Artifact may itself serve as evidence"
+    acceptable_none:
+      - "archived artifact retained for provenance/history before curation"
+    review_question: "What produced/uses this Artifact and what does it document or support?"
+
+  modelCheck:
+    role: "Translator/import holding class for unresolved EA semantics; not intended for hand creation."
+    upstream:
+      normal:
+        - "childOf / includedIn / describedBy as preserved source context"
+    downstream:
+      normal:
+        - "tracesTo only as provisional imported evidence when no stronger relationship is yet known"
+        - "supersedes/copyOf only when explicitly warranted during reconciliation"
+    ownership_use:
+      normal:
+        - "source/import context sufficient to allow later reconciliation"
+    evidence:
+      normal:
+        - "describedBy / supportedBy from import/source evidence"
+    acceptable_none:
+      - "temporary imported holding element awaiting post-import semantic classification"
+    review_question: "Has this modelCheck been deliberately retained as unresolved import evidence, or can it now be promoted to a governed semantic class?"
+
+  Diagram:
+    role: "Diagram/view artifact representing model content."
+    upstream:
+      normal:
+        - "includedIn / childOf only where a governed documentation hierarchy is useful"
+        - "describedBy if a source explicitly explains the diagram"
+    downstream:
+      normal:
+        - "describes only if the Diagram itself is intended as an explanatory model artifact and the schema permits the chosen endpoint through a valid relationship owner"
+    ownership_use:
+      normal:
+        - "view/navigation usage may be sufficient; semantic linkage is not automatically required"
+    evidence:
+      normal:
+        - "supporting Document/Artifact relationships only when the diagram is evidence-bearing"
+    acceptable_none:
+      - "derived/navigation diagram whose meaning is entirely represented by the underlying model"
+      - "imported diagram retained for visual/source fidelity"
+    review_question: "Is this Diagram authoritative evidence, a derived view, or imported visual context? Do not force semantic links onto a derived view."
+
+cross_class_chain_contract:
+  need_and_use:
+    preferred_shape:
+      - "Actor/Organization --hasNeed--> Use Case"
+      - "Use Case --drives--> Requirement"
+  requirement_and_behavior:
+    preferred_shape:
+      - "Requirement <--satisfies-- Function/Design/Object/Result"
+      - "Use Case --realizedBy--> Function/Design"
+      - "Object --performs--> Function"
+  implementation:
+    preferred_shape:
+      - "Function --realizedBy--> Design when direct implementation is supported"
+      - "Function --dependsOn--> Design/Object/other prerequisite when enabling rather than implementing"
+      - "Object --hasDesign--> Design for design ownership/context"
+  verification:
+    preferred_shape:
+      - "Verification/Result --verifies--> Requirement/Function/Design/Info"
+  evidence:
+    preferred_shape:
+      - "Document/Info/Result --supports|contradicts|describes--> engineering element"
+  architecture:
+    preferred_shape:
+      - "Object --hasPart--> Object for reusable definition-level composition"
+      - "Object/other owner --hasPort--> Port where definition-level ownership is appropriate"
+      - "Local Model occurrence -> reusable Object/Port/Item Flow definition for contextual architecture"
+
+step_2_result:
+  governed_classes_covered: 24
+  omitted_governed_classes: 0
+  relationship_vocabulary_extensions_created: 0
+  schema_changes_made: 0
+  model_relationships_changed: 0
+  ready_for_step_3: true
+
+next_step:
+  step: 3
+  title: "Define active-engineering versus reference-content standards"
