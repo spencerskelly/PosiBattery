@@ -1,0 +1,161 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 63
+purpose: "Strengthen Actor -> Need -> Use / context -> Capability traceability where evidence permits, without forcing complete chains."
+
+coverage:
+  customer_needs:
+    total: 22
+    with_participants: 22
+    percent_with_actor_trace: 100.0
+    with_function_realization: 22
+    percent_with_function_realization: 100.0
+  operational_use_cases:
+    total: 7
+    with_participants: 7
+    percent_with_actor_trace: 100.0
+    with_formal_realizedBy: 7
+    percent_with_formal_function_trace: 100.0
+    formal_use_case_function_pairs: 22
+  need_to_operational_navigation:
+    needs_with_operational_traceability_section: 13
+    needs_with_stable_operational_use_case_links: 10
+    needs_with_operating_context_links: 13
+  requirements:
+    committed_requirement_model_notes_available: 0
+    operational_use_cases_with_requirement_links: 0
+
+traceability_pattern:
+  actor_to_need:
+    mechanism: "Need participants"
+    status: "Complete across all 22 current Customer Needs."
+  need_to_operational_use_or_context:
+    mechanism: "Ordinary wikilinks in an Operational traceability section"
+    rationale: "No dedicated non-provisional relationship currently exists between a why-level Customer Need and an operational Use Case/context. tracesTo was deliberately avoided because it creates Review findings."
+  operational_use_to_function:
+    mechanism: "realizedBy / realizes paired relationship"
+    status: "Synchronized for all retained formal links."
+  use_to_requirement:
+    mechanism: "drives or other requirement relationship only when a real Requirement model exists"
+    status: "Deferred; no committed Requirement model notes exist for these scenarios."
+
+needs_linked_to_stable_operational_use_cases:
+  - need: "Connect Chargers and Batteries Safely at the Site"
+    use_cases: ["Connect a Vehicle or Battery to a Charger"]
+    contexts: ["Centralized Battery Room and Charging Area", "Distributed and Opportunity Charging Area"]
+  - need: "Return Trucks to Service Quickly After a Low Charge"
+    use_cases: ["Connect a Vehicle or Battery to a Charger", "Opportunity-Charge a Vehicle During a Work Break"]
+    contexts: ["Distributed and Opportunity Charging Area"]
+  - need: "Stretch Truck Run Time per Charge"
+    use_cases: ["Opportunity-Charge a Vehicle During a Work Break"]
+    contexts: ["Distributed and Opportunity Charging Area"]
+  - need: "Charge Without a Ventilated Battery Room"
+    use_cases: ["Opportunity-Charge a Vehicle During a Work Break"]
+    contexts: ["Distributed and Opportunity Charging Area"]
+  - need: "Know Battery State Before and During the Shift"
+    use_cases: ["Start a Shift and Confirm Vehicle Energy Readiness"]
+    contexts: ["Material-Handling Fleet Site", "Airport Ground-Support Operating Area"]
+  - need: "Prevent Battery Abuse and Premature Replacement"
+    use_cases: ["Start a Shift and Confirm Vehicle Energy Readiness", "Review Battery Care and Warranty Compliance"]
+    contexts: ["Material-Handling Fleet Site", "Centralized Battery Room and Charging Area"]
+  - need: "Control Who Operates Each Truck"
+    use_cases: ["Authenticate and Complete Pre-Shift Authorization"]
+    contexts: ["Material-Handling Fleet Site"]
+  - need: "Detect and Learn from Truck Impacts"
+    use_cases: ["Review an Impact Event and Decide Whether to Return the Vehicle to Service"]
+    contexts: ["Material-Handling Fleet Site", "Airport Ground-Support Operating Area"]
+  - need: "Protect Aircraft and Ground Crew During Ground Operations"
+    use_cases: ["Approach and Dock GSE at an Aircraft"]
+    contexts: ["Airport Ground-Support Operating Area", "Aircraft Service Envelope"]
+  - need: "Document Battery Care for Warranty Compliance"
+    use_cases: ["Review Battery Care and Warranty Compliance"]
+    contexts: ["Material-Handling Fleet Site"]
+
+context_only_need_traceability:
+  - need: "Keep Equipment Working in Cold, Wet and Dusty Conditions"
+    contexts: ["Cold Storage Operating Environment", "Wet Dusty or Outdoor Operating Environment"]
+    rationale: "The operating environments are stable, but no single operational actor-goal Use Case should duplicate the environmental need."
+  - need: "Warn Pedestrians of an Approaching Truck"
+    contexts: ["Shared Vehicle and Pedestrian Work Area"]
+    rationale: "Stable context exists; pedestrian workflow remains outside the first populated Use Case set."
+  - need: "Warn the Operator of People and Objects Near the Truck"
+    contexts: ["Shared Vehicle and Pedestrian Work Area"]
+    rationale: "Stable context exists; the broader vehicle-in-shared-area workflow remains deferred."
+
+formal_operational_use_case_function_pairs:
+  - use_case: "Connect a Vehicle or Battery to a Charger"
+    functions:
+      - "Connect Battery to Charger or Vehicle"
+      - "Manage Charging Cables"
+  - use_case: "Opportunity-Charge a Vehicle During a Work Break"
+    functions:
+      - "Charge Battery by Opportunity"
+      - "Charge Battery Fast"
+      - "Manage Temperature During Fast Charging"
+  - use_case: "Start a Shift and Confirm Vehicle Energy Readiness"
+    functions:
+      - "Estimate State of Charge"
+      - "Estimate Remaining Run Time"
+      - "Display Battery Status to Operator"
+      - "Indicate Battery Status Locally"
+      - "Alert on Abnormal Condition"
+  - use_case: "Authenticate and Complete Pre-Shift Authorization"
+    functions:
+      - "Control Operator Access"
+      - "Enforce Pre-Shift Checklist"
+  - use_case: "Review an Impact Event and Decide Whether to Return the Vehicle to Service"
+    functions:
+      - "Detect and Record Impacts"
+      - "Record Images of Load Handling"
+  - use_case: "Approach and Dock GSE at an Aircraft"
+    functions:
+      - "Slow and Stop Near Aircraft"
+      - "Dock Automatically at Aircraft"
+      - "Indicate Aircraft Proximity to Operator"
+      - "Inhibit Drive Until Equipment Is Stowed"
+  - use_case: "Review Battery Care and Warranty Compliance"
+    functions:
+      - "Log Battery Events and Usage"
+      - "Upload Battery Data to Cloud Portal"
+      - "Track Equalization"
+      - "Calculate Battery Abuse Cycles"
+
+deferred_or_nonformal_support:
+  - function: "Lock Out Vehicle After Impact"
+    use_case: "Review an Impact Event and Decide Whether to Return the Vehicle to Service"
+    treatment: "Support remains in Step 58/61 evidence but was omitted from the formal realizedBy pair because the inverse could not be synchronized during this step."
+  - need: "Charge Each Battery Correctly for Its Chemistry and Condition"
+    treatment: "Operational charging-configuration scenario remains under refinement."
+  - need: "Find and Fix Vehicle Faults Without Downtime"
+    treatment: "Diagnostic workflow candidate exists but is not yet stable enough for formal population."
+  - need: "Integrate the Battery with Truck and Charger Controls"
+    treatment: "Integration scenario candidate remains deferred pending clearer workflow boundary."
+  - need: "Retrofit Safety and Telematics Onto Existing Trucks"
+    treatment: "Retrofit scenario candidate remains deferred pending detailed installation evidence."
+  - need: "Monitor and Manage Chargers and Batteries Across Sites"
+    treatment: "Remote fleet-management scenario remains a candidate but was not in the first populated operational batch."
+
+requirements_boundary:
+  research_note: "SLC Airport EGSE BMID Requirement"
+  actual_type: "Info"
+  decision: "Do not treat a research note whose title contains Requirement as a committed Requirement model element."
+  result: "No Use Case -> Requirement links created."
+
+guidance_updates:
+  - "50_Customer Needs/README_Customer Needs.md"
+  - "40_Use and Operations/README_Use and Operations.md"
+
+changes:
+  customer_need_notes_with_new_operational_traceability: 13
+  operational_use_case_notes_strengthened: 7
+  function_inverse_links_added: 20
+  formal_pair_removed_to_preserve_consistency: 1
+  model_notes_retyped: 0
+  requirements_created: 0
+  provisional_tracesTo_links_created: 0
+
+conclusion: "The current model now supports a navigable Actor -> Need -> operational Use/context -> Function chain for the strongest evidence-backed scenarios, while preserving incomplete areas as explicit maturity gaps rather than forcing synthetic completeness."
+
+next_step:
+  step: 64
