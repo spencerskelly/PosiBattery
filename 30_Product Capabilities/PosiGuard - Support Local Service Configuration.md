@@ -15,6 +15,8 @@ drivenBy:
   - "[[Configure and Service a Supported BMID]]"
 satisfiedBy:
   - "[[Configure Device from Mobile App or PC]]"
+verifiedBy:
+  - "[[Verify PosiGuard Local Service Configuration]]"
 ---
 
 # PosiGuard - Support Local Service Configuration
