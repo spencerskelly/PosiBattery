@@ -32,6 +32,17 @@ Research may interpret multiple sources, but interpretation must remain distingu
 - `BASE_all_Research and Evidence.base` — recursive Markdown contents across Source Documents and Research.
 - [[CANVAS_Research and Evidence]] — map of the evidence flow.
 
+## Reusable-reference evidence support
+
+When evidence supports a reusable definition, preserve the separation between semantic meaning and source interpretation:
+
+- the reusable definition remains under [[README_Definitions and Reusable Reference|Definitions and Reusable Reference]];
+- the curated external-source identity remains in [[README_Source Documents|Source Documents]];
+- source comparison, extraction, conflicts, and dated analysis remain in [[README_Research|Research]];
+- definitions may link here for provenance, but evidence text should not be copied into the definition merely to make the claim self-contained.
+
+This keeps reusable vocabulary stable while allowing the supporting evidence to evolve independently as sources change.
+
 ## Working rule
 
 Use the evidence chain:
