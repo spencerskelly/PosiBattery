@@ -4340,6 +4340,36 @@ Validation run `37293053323` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 62 completion evidence - 40_Use and Operations populated
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Use and Operations Population Step 62 0.1.yaml`.
+
+The operational domain now contains the eight reusable contexts from Step 60 plus **7 stable actor-goal Use Cases**:
+
+- [[Connect a Vehicle or Battery to a Charger]]
+- [[Opportunity-Charge a Vehicle During a Work Break]]
+- [[Start a Shift and Confirm Vehicle Energy Readiness]]
+- [[Authenticate and Complete Pre-Shift Authorization]]
+- [[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]
+- [[Approach and Dock GSE at an Aircraft]]
+- [[Review Battery Care and Warranty Compliance]]
+
+Only [[Connect a Vehicle or Battery to a Charger]] currently retains formal `realizedBy` links, because its two inverse Function `realizes` links were synchronized. Formal Function traceability for the other six Use Cases is deferred rather than leaving one-sided relationship pairs.
+
+The high-value Procedure candidates identified in Step 61 remain evidence-gated. No generic maintenance, commissioning, configuration, or troubleshooting Procedure was invented where product/manual-specific sequence or applicability is still missing.
+
+The Use and Operations README and Canvas were updated; the curated Canvas now contains **15 nodes** spanning key contexts and stable operational scenarios.
+
+No files were moved or renamed, and no existing IDs or UIDs were changed.
+
+Evidence commit: `7856108b`.
+
+**Result:** Step 62 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4400,3 +4430,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 59 | 2026-10-05 | Complete | Applied the Use Case/Function boundary across current Customer Needs and representative Function edge cases; found zero clear classification mistakes, documented four uncertain Step-58 candidates, and added an explicit classification test to the Use and Operations README. Evidence: `Use Case Function Classification Review Step 59 0.1.yaml`. |
 | 60 | 2026-10-05 | Complete | Modeled eight reusable operational/site/environment contexts, added one supported context specialization, reused existing surrounding Objects/products, and deferred ambiguous external-system boundaries rather than inventing them. Evidence: `Operational Context Inventory Step 60 0.1.yaml`. |
 | 61 | 2026-10-05 | Complete | Identified 12 repeated operational workflow candidates from existing evidence: 7 high-readiness and 5 medium-readiness; classified likely Procedure vs Use Case-with-Steps representation, identified 3 Setup candidates, and explicitly excluded product-controlled algorithms from operational workflow modeling. Evidence: `Operational Workflow and Procedure Candidate Inventory Step 61 0.1.yaml`. |
+| 62 | 2026-10-05 | Complete | Populated 40_Use and Operations with 7 stable actor-goal Use Cases in addition to the 8 Step-60 contexts; retained only synchronized formal Function traceability, deferred evidence-gated Procedures, and updated README/Canvas navigation. Evidence: `Use and Operations Population Step 62 0.1.yaml`. |
