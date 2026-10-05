@@ -61,6 +61,9 @@ symmetric:
   between: [Port]
   meaning: 'Two Ports that are the same port at two levels of the system, from the EA BindingConnector (W-153). Written on both end notes. Temporary under W-311: stage 1 preserves the EA binding evidence; review confirms exposure or another appropriate interface meaning before replacement.'
   temporary: true
+- {field: partnerOf, between: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {field: integratesWith, between: [Organization, Info, Object], legacyInfoOrganizationEndpoint: true}
+- {field: offeredWith, between: [Object]}
 oneWay:
 - {field: participants, from: [Use Case], to: [Object, Actor, Organization, Function, Port, Document]}
 - {field: transmits, from: [Port], to: [Item Flow]}
