@@ -14,6 +14,4 @@ affects: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
