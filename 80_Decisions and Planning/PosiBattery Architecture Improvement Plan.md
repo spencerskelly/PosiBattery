@@ -1024,6 +1024,76 @@ No navigation artifact was deleted, renamed, or repaired in Step 6.
 
 ---
 
+## Step 7 completion evidence — Reconciled active architecture guidance
+
+**Date:** 2026-10-04
+
+Reviewed and reconciled the active PosiBattery guidance chain:
+
+- `README.md`
+- `AGENTS.md`
+- `99_System/10_Docs/MDSE Modeling Ruleset 1.23.md`
+- `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
+- `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+- `99_System/10_Docs/PosiBattery Runtime Handoff State.md`
+- `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md`
+- `80_Decisions and Planning/Legacy Content Inventory and Migration Map 0.1.md`
+- `80_Decisions and Planning/Schema and Relationship Implementation Decisions 0.1.md`
+- `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
+
+### Contradictions corrected
+
+The active handoff chain still described the old unnumbered knowledge areas as the current root organization and described the numbered structure as merely future-oriented. That no longer matched the repository after the large filesystem migration.
+
+The following corrections were made:
+
+- `README.md`
+  - now describes the actual numbered domain structure currently present in the repository;
+  - identifies the architecture-improvement roadmap as the active incremental migration sequence;
+  - makes clear that transitional/mixed areas still remain.
+
+- `PosiBattery Model Organization and Handoff.md`
+  - replaces the obsolete unnumbered-root description with the numbered physical structure now in use;
+  - distinguishes current physical placement from semantic authority;
+  - identifies the remaining temporary/migration-source root areas;
+  - points future tools to the controlled roadmap instead of ad hoc bulk reorganization;
+  - reframes the old mapping table as guidance for transitional areas rather than a description of current root folders.
+
+- `PosiBattery Runtime Handoff State.md`
+  - removes the stale claim that the current repository still passes the earlier fully clean integrity gate;
+  - explicitly distinguishes the clean `b8fda489` handoff audit from the current post-migration baseline;
+  - records the present **27 broken wikilinks** while noting that identity, frontmatter, relationship-target, inverse, and path checks remain clean;
+  - points current structural status to the roadmap completion evidence.
+
+- `AGENTS.md`
+  - adds the active architecture-improvement roadmap to the startup reading chain when architecture work is underway.
+
+### Guidance that remains consistent and unchanged
+
+The core MDSE guidance remains internally compatible:
+
+- Ruleset 1.23: folder placement is navigation, not semantics.
+- File/folder structure 0.8: project content folders are domain-specific and live beside `99_System`; the runtime contract does not itself define PosiBattery's domain taxonomy.
+- Canonical taxonomy 0.1: numbered PosiBattery domains define the target/current architecture direction.
+- The product-centered 00–09 pattern remains a navigation pattern for product-specific contexts, not a semantic ontology.
+- Empty scaffolding should be avoided.
+- Primary navigation artifacts belong automatically only at primary domains; lower-level navigation remains exception-based.
+
+Step 7 intentionally did **not** yet make the numbered root taxonomy the explicit final authority everywhere; that is Step 8. It only removed statements that were factually inconsistent with the repository's current state so the next step can establish authority cleanly.
+
+### Commits
+
+- `de849aa5` — root README reconciliation
+- `c0f8220e` — PosiBattery model-organization handoff reconciliation
+- `b2d13aa5` — runtime handoff integrity-status reconciliation
+- `f2a6b372` — AGENTS startup-chain reconciliation
+
+A repository search found no remaining occurrences of the specifically removed stale phrases `existing root content folders` or `Final integrity gate`.
+
+**Result:** Step 7 complete. The active guidance now describes the repository's actual transitional state consistently, while preserving Step 8 for the explicit authority declaration.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1033,4 +1103,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 1 | 2026-10-04 | Complete | Fresh audit on `main` commit `8837b06f`; 1,076 Markdown / 905 model notes; 27 blocking broken wikilinks; all identity/frontmatter/relationship/path checks otherwise clean. Workflow run `37255015647`, job `111590114513`. Secondary naming/dependency checks did not execute because the primary audit failed first. |
 | 2 | 2026-10-04 | Complete | Baseline counts recorded at `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. |
 | 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
-| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |
+| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |
