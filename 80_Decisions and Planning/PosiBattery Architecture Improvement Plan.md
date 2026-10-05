@@ -4853,3 +4853,29 @@ Evidence: `80_Decisions and Planning/First Full Product Model Selection Step 83 
 **Commit:** `87559a50`.
 
 **Result:** Step 83 complete. The next incomplete roadmap item is **Step 84 — Build Product Abstract and Product Definition** for **PosiCharge BMID**.
+
+
+---
+
+## Step 84 completion evidence — Build Product Abstract and Product Definition
+
+**Date:** 2026-10-05
+
+Completed the first Phase M product framing for **PosiCharge BMID**.
+
+A concise product-framing note was created at `20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md`. It defines the family purpose, value, boundary, external context, modeled family members, family-level behaviors, reusable associated designs, and the unresolved variant/lineage questions that must remain explicit.
+
+The reviewed product records were also classified using the newly adopted metadata contract:
+- `PosiCharge BMID` → `productClass: product-family`, `reuseScope: product-family`
+- `PosiCharge BMID 1` → `productClass: product-variant`
+- `PosiCharge BMID 3` → `productClass: product-variant`
+- `PosiCharge Battery Rx` → `productClass: specific-offering`
+- `PosiCharge PosiGuard` → `productClass: specific-offering`
+
+Aliases on those five reviewed notes were migrated from body sections into YAML `aliases` without changing any existing product IDs or UIDs. No unsupported lineage or internal architecture was inferred.
+
+Evidence: `80_Decisions and Planning/Product Abstract and Definition Step 84 0.1.yaml`.
+
+**Commit:** `e73c6a8b`.
+
+**Result:** Step 84 complete. The next incomplete roadmap item is **Step 85 — Build Product Use Cases** for the PosiCharge BMID family.
