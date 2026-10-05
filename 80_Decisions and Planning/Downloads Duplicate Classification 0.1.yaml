@@ -1,0 +1,114 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 30
+purpose: "Duplicate classification for Downloads artifacts. No deletion performed."
+source_manifest: "80_Decisions and Planning/Downloads Manifest 0.1.yaml"
+cleanup_executed: false
+
+summary:
+  exact_duplicate_groups: 8
+  files_in_exact_duplicate_groups: 17
+  redundant_copies_beyond_one_per_group: 9
+  additional_likely_nonidentical_duplicate_groups: 0
+  preferred_retained_copy_rule: "Prefer the unsuffixed filename when byte-identical variants exist."
+  repository_references_to_duplicate_filenames_found: 0
+
+classification_rules:
+  exact_duplicate:
+    test: "Same Git blob SHA"
+    confidence: "certain"
+    cleanup_status: "eligible_for_later_cleanup_review"
+  likely_duplicate:
+    test: "Strong filename/revision similarity but differing blob SHA"
+    confidence: "review_required"
+    cleanup_status: "do_not_delete_without_content/source review"
+  preferred_retained_copy:
+    rule: "For exact duplicate filename variants, retain the unsuffixed filename unless a later source-record/reference review establishes another canonical attachment name."
+  safety:
+    - "No artifact is deleted in Step 30."
+    - "Step 31 source-record matching and Step 32 orphan review remain required before any cleanup."
+    - "A duplicate artifact can still matter if one filename is referenced externally or in historical records; cleanup must preserve traceability."
+
+exact_duplicate_groups:
+  - id: "EXACT-01"
+    confidence: "certain"
+    git_blob_sha: "bc0ed79080ff4d10f335ff33e006ec157cfb5614"
+    preferred_retained_copy: "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
+    redundant_candidates:
+      - "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-02"
+    confidence: "certain"
+    git_blob_sha: "72a5230045d2845462dd18de98c0013c0047ed39"
+    preferred_retained_copy: "131261342940149065.pdf"
+    redundant_candidates:
+      - "131261342940149065 (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-03"
+    confidence: "certain"
+    git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
+    preferred_retained_copy: "133294183726805278.pdf"
+    redundant_candidates:
+      - "133294183726805278 (1).pdf"
+      - "133294183726805278 (2).pdf"
+    repository_filename_references_found: false
+    reason: "All three filenames resolve to the same Git blob; two suffixed copies are redundant by content."
+
+  - id: "EXACT-04"
+    confidence: "certain"
+    git_blob_sha: "8036e4a589d4ed8907ceaf64ab36186b788b5d4e"
+    preferred_retained_copy: "2025_Toyota Assist Brochure_Digital.pdf"
+    redundant_candidates:
+      - "2025_Toyota Assist Brochure_Digital (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-05"
+    confidence: "certain"
+    git_blob_sha: "7ab7ee4d69216fc00420020cf4fc6aa20289c23d"
+    preferred_retained_copy: "250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
+    redundant_candidates:
+      - "250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-06"
+    confidence: "certain"
+    git_blob_sha: "355cd0e4ff3d6782001712edc250c8ac9f2bc599"
+    preferred_retained_copy: "GNB_MP_Overview_EN_web.pdf"
+    redundant_candidates:
+      - "GNB_MP_Overview_EN_web (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-07"
+    confidence: "certain"
+    git_blob_sha: "5658584052baff4200850d6e530792ab5122b9ea"
+    preferred_retained_copy: "d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
+    redundant_candidates:
+      - "d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+  - id: "EXACT-08"
+    confidence: "certain"
+    git_blob_sha: "986bc7a0e1d615df4d677c4c2be48889b30bc514"
+    preferred_retained_copy: "trak_collect_brochure_en.pdf"
+    redundant_candidates:
+      - "trak_collect_brochure_en (1).pdf"
+    repository_filename_references_found: false
+    reason: "Byte-identical Git blob; suffixed copy is redundant by content."
+
+likely_duplicate_review:
+  groups: []
+  note: "Conservative filename normalization found no additional candidate groups with differing blob SHAs. Similar product-family documents such as different wattages, manuals, brochures, or revisions remain distinct."
+
+deferred_cleanup:
+  - "Step 31 must match every download to Source Document records before deletion planning."
+  - "Step 32 must identify orphan candidates."
+  - "Step 35 will define safe cleanup candidates and should include the 9 redundant exact copies unless later evidence/reference review provides a reason to retain them."
