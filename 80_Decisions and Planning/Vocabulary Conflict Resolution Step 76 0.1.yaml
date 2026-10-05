@@ -1,0 +1,340 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 76
+purpose: "Resolve naming, controlled-value, alias, and overlapping-semantic vocabulary conflicts before selecting the minimum metadata extension in Step 77."
+
+authorities:
+  runtime_element_schema: "99_System/03_Schemas/element-types.yaml 1.17"
+  runtime_relationship_schema: "99_System/03_Schemas/relationships.yaml 1.35"
+  field_reconciliation: "80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yaml"
+  type_reconciliation: "80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 0.1.yaml"
+  relationship_reconciliation: "80_Decisions and Planning/Relationship Reconciliation Matrix Step 75 0.1.yaml"
+  legacy_property_definitions: "90_Definitions and Reusable Reference/Definitions/Properties"
+
+principles:
+  - "One semantic concept gets one canonical field/predicate name."
+  - "Do not overload one field with incompatible controlled vocabularies."
+  - "Prefer the existing runtime vocabulary when it already has stable semantics and tooling support."
+  - "Use new metadata names only for concepts that are genuinely distinct from existing type, subtype, status, tags, and relationships."
+  - "Prefer flat camelCase field names when a new scalar metadata field is eventually approved; do not introduce nested objects unless they add necessary structure."
+  - "Do not keep both a legacy and replacement representation active indefinitely."
+
+resolved_conflicts:
+  - id: VC-76-01
+    topic: "type vs element_type"
+    canonical: "type"
+    legacy_or_proposed_aliases:
+      - element_type
+    disposition: "reject parallel field"
+    migration_rule: "Non-runtime governance documents using element_type may be normalized later when brought under the model-note contract; do not add element_type to model notes."
+    reason: "type is already the governed MDSE semantic class."
+
+  - id: VC-76-02
+    topic: "uid vs id as identity"
+    canonical:
+      permanent_identity: "uid"
+      human_readable_identifier: "id"
+    disposition: "retain two distinct concepts"
+    reason: "uid is immutable global identity; id is the short class-prefixed reference."
+
+  - id: VC-76-03
+    topic: "status lifecycle vs evidence maturity"
+    canonical:
+      lifecycle_field: "status"
+      lifecycle_values:
+        - Draft
+        - Active
+        - Retired
+    rejected_for_status:
+      - provisional
+      - supported
+      - validated
+      - disputed
+      - superseded
+      - archived
+    disposition: "status remains note lifecycle/review state only"
+    future_distinct_concepts:
+      evidence_basis: "evidenceBasis"
+      evidence_confidence: "evidenceConfidence"
+    note: "Whether either evidence field is adopted is a Step 77 decision."
+    reason: "Evidence maturity and conflict state must not silently change whether a model note is Draft, Active, or Retired."
+
+  - id: VC-76-04
+    topic: "aliases body section vs YAML aliases"
+    canonical_future: "aliases"
+    canonical_format: "YAML list"
+    legacy_representation: "## Aliases body section"
+    disposition: "replacement migration, never dual authority"
+    migration_rule:
+      - "Existing notes may continue using the body section until a controlled template/schema migration."
+      - "When aliases YAML is adopted for a note, migrate body aliases into the field in the same reviewed change and leave the body section empty/remove it only according to the template migration rule."
+      - "Do not independently maintain aliases in both locations."
+    reason: "Aliases are metadata used for discovery/deduplication and benefit from queryable structured storage."
+
+  - id: VC-76-05
+    topic: "scope.kind vs implementation_scope"
+    canonical_future: "reuseScope"
+    replaces_proposed:
+      - "scope.kind"
+      - "implementation_scope"
+    controlled_values:
+      - product-specific
+      - product-family
+      - platform-shared
+      - cross-product
+      - external-reference
+    disposition: "single flat reuse/applicability classification candidate"
+    semantic_boundary: "reuseScope says how broadly the definition is intended to be reused; it does not name the specific target contexts."
+    specific_applicability: "Use governed appliesTo relationships for named products, contexts, environments, or domains."
+    reason: "This avoids nested YAML and prevents scope metadata from duplicating appliesTo."
+
+  - id: VC-76-06
+    topic: "scope.applies_to vs appliesTo"
+    canonical: "appliesTo"
+    disposition: "reject duplicate metadata list"
+    reason: "Specific semantic applicability is a model relationship, not a parallel scope field."
+
+  - id: VC-76-07
+    topic: "need priority vs planning priority"
+    canonical_future:
+      customer_need: "needPriority"
+      planning_work: "workPriority"
+    need_values:
+      - unknown
+      - low
+      - medium
+      - high
+      - critical
+    work_values:
+      - P0
+      - P1
+      - P2
+      - P3
+      - unknown
+    rejected: "generic priority"
+    disposition: "separate field names because the scales answer different questions"
+    reason: "Need importance and execution urgency are not interchangeable."
+
+  - id: VC-76-08
+    topic: "commercial product lifecycle vs model note lifecycle"
+    canonical_future: "commercialStatus"
+    controlled_values:
+      - active
+      - legacy
+      - announced
+      - discontinued
+      - unknown
+    disposition: "distinct from status"
+    reason: "A retired model note and a discontinued product are different concepts."
+
+  - id: VC-76-09
+    topic: "manufacturer / portfolio_owner / need_holder / owner metadata"
+    canonical: "governed relationships"
+    disposition: "reject duplicate scalar/list metadata"
+    mappings:
+      manufacturer: "madeBy/makes"
+      product_offer_or_brand: "offeredBy/offers"
+      need_holder: "hasNeed/needOf"
+      planning_owner: "future Person/Actor/Organization ownership relationship if required"
+    reason: "These fields name other first-class identities and are semantic relationships."
+
+  - id: VC-76-10
+    topic: "source-record links"
+    canonical: "typed relationships"
+    rejected_parallel_fields:
+      - evidence.source_records
+      - sourceRecords
+    relationship_choices:
+      references: "citation/mention without evidentiary assertion"
+      describes: "source/research is about target"
+      supports: "source/research materially supports target"
+      contradicts: "source/research materially conflicts with target"
+    disposition: "relationship vocabulary is authoritative"
+
+  - id: VC-76-11
+    topic: "created and updated dates"
+    canonical:
+      created_for_model_notes: "derive from uid when needed"
+      change_history: "Git"
+    disposition: "reject as required common fields"
+    exception: "Source records may carry source-specific publication/revision/access dates because those describe the external artifact, not vault history."
+
+  - id: VC-76-12
+    topic: "title field vs note heading"
+    canonical: "Markdown H1 / semantic note name"
+    disposition: "reject required title field"
+    reason: "A duplicate title property creates synchronization risk and does not add semantic value."
+
+  - id: VC-76-13
+    topic: "subtype vs subtypeOf"
+    canonical:
+      subtype: "controlled classification value inside one formal type"
+      subtypeOf: "relationship between reusable definitions"
+    disposition: "retain both; not aliases"
+    reason: "Their semantics and storage roles are different."
+
+  - id: VC-76-14
+    topic: "eaType vs type"
+    canonical:
+      type: "current MDSE semantic class"
+      eaType: "temporary imported EA classification/provenance"
+    disposition: "retain temporary distinction"
+    migration_rule: "eaType may later move to source provenance/remove after review, but never becomes a synonym for type."
+
+  - id: VC-76-15
+    topic: "measure/property terminology"
+    canonical_future:
+      classifier_field: "measureClass"
+      values:
+        - metric
+        - property-definition
+        - comparison-criterion
+    related_fields:
+      value_type: "valueType"
+      unit: "unit"
+      measurement_method: "measurementMethod"
+    disposition: "use measure vocabulary for engineering/comparison semantics; do not confuse system Property Definition records with measured-property notes."
+    note: "Step 77 decides which of these fields are actually required."
+
+  - id: VC-76-16
+    topic: "organization role as intrinsic metadata"
+    canonical: "playsRole / contextual business relationships"
+    rejected: "organizationRole common field"
+    disposition: "relationship/context first"
+    reason: "Step 65 showed supplier, partner, competitor, customer, regulator, and similar roles are often context-dependent."
+
+  - id: VC-76-17
+    topic: "relationship assertion maturity"
+    proposed_values:
+      - asserted
+      - inferred
+      - supported
+      - validated
+      - disputed
+    disposition: "do not create a field until a single relationship-storage model can hold it without duplicating named predicates"
+    interim_representation: "source/evidence note plus concise body rationale"
+    reason: "Step 75 retained named relationship fields as the one relationship store."
+
+deprecated_or_noncanonical_vocabulary:
+  fields:
+    element_type: "Use type for model notes."
+    title: "Use semantic H1/name unless a later tooling need proves otherwise."
+    scope.applies_to: "Use appliesTo relationship."
+    implementation_scope: "Use reuseScope if adopted."
+    priority: "Use needPriority or workPriority according to semantic context."
+    manufacturer: "Use madeBy/makes."
+    need_holder: "Use hasNeed/needOf."
+    organization_role: "Use role/business relationships."
+    evidence.source_records: "Use references/describes/supports/contradicts as appropriate."
+    created: "Do not require on model notes."
+    updated: "Do not require on model notes."
+  concepts_not_deprecated:
+    - "subtype is distinct from subtypeOf."
+    - "eaType remains temporary provenance."
+    - "commercialStatus is distinct from status."
+    - "rebrandOf is distinct from copyOf."
+    - "successorOf is distinct from supersedes."
+
+naming_convention_for_future_metadata:
+  style: "lower camelCase"
+  examples:
+    - reuseScope
+    - evidenceBasis
+    - evidenceConfidence
+    - productClass
+    - commercialStatus
+    - needClass
+    - needPriority
+    - functionLevel
+    - designClass
+    - measureClass
+    - valueType
+    - measurementMethod
+    - sourceClass
+    - sourceUrl
+    - sourceRevision
+    - accessed
+    - sourceStability
+    - decisionClass
+    - workPriority
+    - due
+  exception: "Existing governed field names remain unchanged even if historical casing/style differs."
+
+controlled_value_style:
+  recommendation: "lowercase kebab-case for new enumerated metadata values unless the field already has a governed legacy vocabulary."
+  preserve_existing:
+    status: [Draft, Active, Retired]
+    type: "Exact class names from element-types.yaml"
+    subtype: "Exact values from element-types.yaml"
+  examples:
+    reuseScope: [product-specific, product-family, platform-shared, cross-product, external-reference]
+    commercialStatus: [active, legacy, announced, discontinued, unknown]
+
+documentation_conflicts_carried_forward:
+  - issue: "type.md says stage-2 reclassification changes id, conflicting with current immutable-id governance."
+    canonical_decision: "Preserve existing id and uid; stale sentence must be corrected in the controlled definition/schema implementation sequence."
+  - issue: "status.md says no complete value list has been given."
+    canonical_decision: "Draft, Active, Retired are the Step-76 canonical lifecycle values for the current runtime."
+  - issue: "Some property notes still say 'No meaning given yet.'"
+    canonical_decision: "Step 75 relationship semantics become the reconciliation source for later property-note updates."
+
+step_77_handoff:
+  eligible_common_or_crosscutting_candidates:
+    - aliases
+    - reuseScope
+    - evidenceBasis
+    - evidenceConfidence
+  eligible_type_specific_candidates:
+    - productClass
+    - commercialStatus
+    - needClass
+    - needPriority
+    - functionLevel
+    - designClass
+    - measureClass
+    - valueType
+    - unit
+    - measurementMethod
+    - sourceClass
+    - sourceUrl
+    - sourceRevision
+    - accessed
+    - sourceStability
+    - decisionClass
+    - workPriority
+    - due
+  relationship_not_metadata:
+    - appliesTo
+    - hasNeed
+    - madeBy
+    - offeredBy
+    - supports
+    - contradicts
+  explicitly_excluded_from_minimum_common_core:
+    - element_type
+    - title
+    - created
+    - updated
+    - scope.applies_to
+    - manufacturer
+    - portfolio_owner
+    - need_holder
+    - organization_role
+    - evidence.source_records
+    - uncertainty.assumptions
+    - uncertainty.open_questions
+    - uncertainty.conflicts
+    - relationships
+
+implementation_status:
+  schemas_changed: 0
+  templates_changed: 0
+  property_definitions_changed: 0
+  model_notes_changed: 0
+  relationships_changed: 0
+
+conclusion: "Vocabulary conflicts are resolved around the existing MDSE runtime rather than around a parallel metadata model. Status remains lifecycle only, type/uid/id keep their established meanings, specific applicability and identity links stay relationships, ambiguous generic names are split into semantically explicit fields, and a bounded camelCase metadata vocabulary is ready for Step 77 minimum-set selection."
+
+next_step:
+  step: 77
