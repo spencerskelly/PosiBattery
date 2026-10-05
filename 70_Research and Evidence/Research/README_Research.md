@@ -30,6 +30,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 - `BASE_all_Research.base` and `BASE_local_Research.base` — research views.
 - `Business Analysis/` — PosiCharge and Ampure business-analysis notes: scope, segments, competitive landscape, comparison cohorts, capability gaps, opportunity backlog, portfolio baseline, public evidence register and evidence gaps.
 - [[README_Cost Drivers|Cost Drivers]] — warehouse and MHE cost-driver research, ROI frameworks, product landscapes, and product-adjacency hypotheses.
+- [[README_EMS Research|EMS Research]] — energy-management-system research, protocol/interface verification needs, source links, and product-opportunity hypotheses.
 
 ## Related areas
 
