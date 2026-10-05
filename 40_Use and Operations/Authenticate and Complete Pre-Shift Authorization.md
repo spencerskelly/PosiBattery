@@ -6,9 +6,6 @@ uid: 20261005023700003skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Control Operator Access]]"
-  - "[[Enforce Pre-Shift Checklist]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Fleet Operations Manager]]"
