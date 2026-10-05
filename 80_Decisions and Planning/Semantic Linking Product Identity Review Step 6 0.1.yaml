@@ -1,0 +1,83 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 6
+status: "Complete"
+title: "Product identity and product-family linking review"
+
+scope:
+  domain: "10_Products"
+  governed_type: "Object"
+  review_focus:
+    - "product/category/family/variant identity"
+    - "subtypeOf/supertypeOf specialization"
+    - "commercial maker/offering context"
+    - "engineering entry points into behavior/design/requirements/product context"
+
+implementation:
+  review_script: "99_System/09_Tools/review-product-linking.py"
+  script_commit: "48261f1b"
+  workflow: ".github/workflows/semantic-linking-product-review.yml"
+  workflow_commit: "1dd198ca"
+  behavior: "Report-only; exits nonzero only for concrete structural/product-identity findings."
+
+validation:
+  workflow_run: 37391226378
+  job_id: 112036506410
+  result: "success"
+  product_objects_reviewed: 398
+  abstract_product_definitions: 56
+  concrete_product_offerings: 342
+  findings: 0
+  thin_concrete_reference_offerings: 45
+
+classification_review:
+  active_engineering: 1
+  engineering_support: 55
+  reference_content: 342
+  rationale:
+    active_engineering:
+      - "PosiCharge BMID is the current end-to-end product-development family and has Requirement/Function/Design context."
+    engineering_support:
+      - "Abstract category/family Objects provide reusable product taxonomy/context unless later promoted by active product work."
+    reference_content:
+      - "Concrete catalog offerings are reference content unless later adopted into an active engineering decision."
+  warning: "Classification is based on current engineering use; the Products folder only defines review scope."
+
+product_class_properties_observed:
+  product_family: 1
+  product_variant: 2
+  specific_offering: 2
+  note: "productClass is intentionally sparse and was not bulk-populated."
+
+review_results:
+  specialization:
+    concrete_offerings_without_family_link: 0
+    isolated_abstract_families: 0
+    reciprocal_specialization_findings: 0
+  commercial_identity:
+    commercial_products_without_maker_or_offering_organization: 0
+  active_product_entry:
+    active_products_without_behavior_or_design_entry: 0
+    active_products_without_requirement_context_entry: 0
+
+thin_reference_interpretation:
+  count: 45
+  meaning: "Concrete reference offerings with no direct performs/hasDesign/applies/satisfies/structure entry field."
+  defect_status: "not a defect by itself"
+  disposition: "Remain reference leaves when family identity, maker/offering context, and evidence are sound; promotion to active engineering requires stronger linking."
+  no_artificial_links_added: true
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+  productClass_bulk_edits: 0
+
+conclusion:
+  product_identity_and_family_structure: "complete for Step 6"
+  unexplained_product_identity_gaps: 0
+  unexplained_family_specialization_gaps: 0
+  next_step: "Step 7 — Review product architecture ownership and composition"
