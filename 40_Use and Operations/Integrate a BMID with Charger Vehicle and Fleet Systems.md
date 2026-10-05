@@ -16,6 +16,8 @@ realizedBy:
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+givesRiseTo:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Integrate a BMID with Charger Vehicle and Fleet Systems
