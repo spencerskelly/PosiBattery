@@ -15,6 +15,8 @@ drivenBy:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 satisfiedBy:
   - "[[Identify Battery to Charger]]"
+verifiedBy:
+  - "[[Verify BMID Battery Identity Delivery]]"
 ---
 
 # BMID - Provide Battery Identity to Compatible Charger
