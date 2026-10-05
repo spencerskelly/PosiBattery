@@ -5,7 +5,7 @@ purpose: "Machine-readable inventory of transitional, duplicate, stale, and inte
 summary:
   true_duplicate_readme_groups: 0
   duplicate_readme_files: 0
-  stale_path_dependent_bases: 2
+  stale_path_dependent_bases: 0
   transitional_root_placeholder_readmes: 0
   standardized_root_readmes: 6
   empty_system_canvases_for_review: 3
@@ -34,12 +34,12 @@ findings:
     disposition: "repair_later"
     note: "Filter still points to file.inFolder(\"Products\") instead of the numbered product location."
   - id: NAV-004
-    category: stale_path_dependent_base
+    category: resolved_stale_path_dependent_base
     folder: "90_Definitions and Reusable Reference/Definitions/Properties"
     files:
       - "90_Definitions and Reusable Reference/Definitions/Properties/Property Dictionary.base"
-    disposition: "repair_or_relocate_later"
-    note: "Filter still points to file.folder == \"Definitions/Properties\" and the folder itself is a migration candidate."
+    disposition: "resolved_step_21"
+    note: "Step 21 repaired the Property Dictionary filter to the numbered canonical path. The folder remains a later semantic migration candidate."
   - id: NAV-005
     category: resolved_transitional_root_placeholder_readmes
     files: []
@@ -81,4 +81,4 @@ intentional_navigation_patterns:
     files:
       - "60_Stakeholders and Ecosystem/Organizations/BASE_offerings.base"
       - "90_Definitions and Reusable Reference/Definitions/Properties/Property Dictionary.base"
-    note: "Special-purpose Bases are not duplicates of BASE_all/BASE_local, although both currently contain stale pre-migration path filters."
+    note: "Special-purpose Bases are not duplicates of BASE_all/BASE_local. Their stale pre-migration path filters were repaired in Steps 18 and 21."
