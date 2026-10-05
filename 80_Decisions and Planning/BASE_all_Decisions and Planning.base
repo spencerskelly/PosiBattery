@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("80_Decisions and Planning")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: All decisions and planning
+    order:
+      - file.name
+      - file.folder
+      - status
