@@ -1175,6 +1175,31 @@ Repository searches found no remaining active occurrences of the specific obsole
 
 ---
 
+## Step 9 completion evidence — Product-centered 00–09 pattern
+
+**Date:** 2026-10-04
+
+The product-centered 00–09 pattern is now formally defined as subordinate navigation within a specific product or product-family context.
+
+The governing documents now state that:
+
+- the 10–99 numbered taxonomy remains authoritative at vault level;
+- the 00–09 pattern is not a second root taxonomy;
+- shared reusable definitions remain canonical in numbered domains and are linked into product contexts;
+- genuinely product-specific material may be organized locally;
+- contextual reuse should use Local Model occurrences where applicable;
+- evidence and vault-level governance remain in their canonical numbered domains;
+- empty 00–09 scaffolding is not created automatically;
+- identity is preserved when product-context work matures into reusable content.
+
+Detailed placement rules and the 00–09-to-domain mapping are recorded in `PosiBattery Model Organization and Handoff.md` and `Canonical Vault Top-Level Taxonomy 0.1.md`.
+
+Commits: `757e8d8a`, `0849bb40`.
+
+**Result:** Step 9 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1185,3 +1210,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 2 | 2026-10-04 | Complete | Baseline counts recorded at `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. |
 | 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
 | 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |\n| 7 | 2026-10-04 | Complete | Reconciled README, AGENTS, model-organization handoff, and runtime handoff with the repository’s actual numbered transitional structure; removed stale unnumbered-root/current-clean claims while preserving Step 8 for the explicit authority declaration. Commits `de849aa5`, `c0f8220e`, `b2d13aa5`, `f2a6b372`. |\n| 8 | 2026-10-04 | Complete | Established the numbered 10–99 PosiBattery root taxonomy as authoritative for vault-level placement and migration destinations, while preserving MDSE schemas/relationships as semantic authority and treating 00–09 as subordinate product-context navigation. Commits `d15bc61f`, `eabfc714`, `063fba7d`, `cf82ab63`, `266c5499`. |
+| 9 | 2026-10-04 | Complete | Formalized 00–09 as subordinate product/product-family navigation with explicit mapping to numbered-domain authority; shared definitions remain canonical and linked rather than duplicated. Commits `757e8d8a`, `0849bb40`. |
