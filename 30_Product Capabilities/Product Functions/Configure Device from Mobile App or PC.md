@@ -21,6 +21,8 @@ realizes:
   - "[[Configure and Service a Supported BMID]]"
 satisfies:
   - "[[PosiGuard - Support Local Service Configuration]]"
+realizedBy:
+  - "[[Mobile App Interface]]"
 ---
 
 # Configure Device from Mobile App or PC
