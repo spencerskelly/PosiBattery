@@ -4994,3 +4994,30 @@ Evidence: `80_Decisions and Planning/BMID Requirement Function Traceability Step
 **Commit:** `4f98d506`.
 
 **Result:** Step 88 complete. The next incomplete roadmap item is **Step 89 — Connect Functions to Designs**.
+
+
+---
+
+## Step 89 completion evidence — Connect Functions to Designs
+
+**Date:** 2026-10-05
+
+Connected BMID Functions to governed Design elements where the implementation relationship is defensible, while preserving explicit architecture gaps where no Design is yet selected.
+
+Direct realization pairs synchronized:
+- [[Report Battery Temperature to Charger]] → [[Electrolyte-Immersed Temperature Sensor]]
+- [[Configure Device from Mobile App or PC]] → [[Mobile App Interface]]
+
+Both pairs now persist the governed `realizedBy/realizes` inverse relationship. Existing `dependsOn/dependencyOf` design dependencies remain the correct representation for enabling relationships that are not direct realization, including:
+- [[Log Battery Events and Usage]] → [[Data Handling Design]]
+- [[Communicate Battery State over CAN]] → [[CAN Interface]]
+- [[Transmit Battery Data Wirelessly]] → [[Wireless Interface Design]]
+- [[Upload Battery Data to Cloud Portal]] → [[Cloud Portal Integration]]
+
+Explicit Design gaps remain for [[Identify Battery to Charger]], [[Measure Battery Voltage]], and [[Estimate State of Charge]]. No nearby Design was substituted merely to close traceability.
+
+Evidence: `80_Decisions and Planning/BMID Function Design Traceability Step 89 0.1.yaml`.
+
+**Commit:** `4641fbfa`.
+
+**Result:** Step 89 complete. The next incomplete roadmap item is **Step 90 — Build Product Assembly using Local Model**.
