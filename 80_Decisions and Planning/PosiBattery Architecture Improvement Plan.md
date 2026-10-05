@@ -3652,6 +3652,99 @@ Results remain stable:
 
 ---
 
+## Step 43 completion evidence — Architecture-like knowledge inventoried
+
+**Date:** 2026-10-04
+
+Existing architecture-like knowledge was inventoried across the current Product Architecture baseline and the reusable Product Designs collection.
+
+### Inventory created
+
+`80_Decisions and Planning/Product Architecture Knowledge Inventory Step 43 0.1.yaml`
+
+### Current canonical architecture baseline
+
+`20_Product Architecture` currently contains:
+
+- **26 model notes**
+  - 13 Industrial Truck architecture/anatomy notes
+  - 13 Ground Support Equipment architecture/anatomy notes
+- plus the architecture README.
+
+These 26 notes remain the confirmed architecture baseline created in Step 40.
+
+### Architecture-like knowledge outside Product Architecture
+
+The Product Designs collection contains **118 reusable Design notes**.
+
+A conservative role/name inventory identified **94 architecture-like candidates** spanning:
+
+- interfaces and communications;
+- power and energy architecture;
+- sensing and control;
+- packaging, mounting, enclosure, and connectors;
+- human interface and indication;
+- vehicle subsystem realization.
+
+Examples include:
+
+- [[CAN Interface]]
+- [[Bluetooth Interface]]
+- [[Charger Power Stage Design]]
+- [[Modular Power Modules]]
+- [[Truck Charging Port]]
+- [[Current Sensing Design]]
+- [[Programmable Motor Controller]]
+- [[Enclosure and Mounting Design]]
+- [[Breakaway Connector]]
+- [[Display Device Design]]
+- [[Vehicle Drive Design]]
+
+The remaining **24 Product Design notes** appear primarily to represent capability/design patterns rather than obvious architecture structure from the current inventory.
+
+### Important boundary
+
+Architecture-like does **not** mean “move to Product Architecture.”
+
+Step 43 only identifies the reservoir of reusable implementation knowledge. Step 44 must determine:
+
+- which notes should remain canonical reusable Design definitions under Product Capabilities;
+- which actually represent structural elements, modules, assemblies, components, interfaces, or contextual architecture;
+- where relationships or Local Model occurrences should express reuse instead of moving/duplicating canonical notes.
+
+Commercial product/system identities remain in Products when marketed identity is primary.
+
+### Validation
+
+GitHub Actions run `37271307847` on commit `a02288a6` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No architecture-like candidate was moved or retyped in Step 43.
+
+### Commit
+
+- `a02288a6` — inventory architecture-like knowledge
+
+**Result:** Step 43 complete. The vault now has a machine-readable baseline of existing canonical architecture plus 94 architecture-like Product Design candidates for Step 44 separation.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3693,3 +3786,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 40 | 2026-10-04 | Complete | Moved 26 reusable Truck/GSE anatomy notes into canonical `20_Product Architecture` groupings using exact Git blobs, preserved IDs/UIDs/relationships, removed old product-side copies, and added product-to-architecture navigation links; ambiguous classifications remain deferred. |
 | 41 | 2026-10-04 | Complete | Added seven unresolved product identity/abstraction questions to the canonical backlog and a machine-readable Step 41 queue; no ambiguous case was forced into hierarchy or merged. |
 | 42 | 2026-10-04 | Complete | Simplified the Products canvas from 55 nodes/49 edges to 12 nodes/11 edges, preserved detailed discovery in the Bases, linked product domains to canonical Truck/GSE architecture context, and clarified navigation roles in the Products README. |
+| 43 | 2026-10-04 | Complete | Inventoried the architecture layer: confirmed 26 canonical vehicle architecture notes and identified 94 architecture-like candidates among 118 reusable Product Designs for Step 44 separation; moved or retyped nothing. |
