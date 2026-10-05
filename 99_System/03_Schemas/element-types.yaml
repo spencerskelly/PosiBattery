@@ -17,6 +17,19 @@ optionalProperties:
     allowed: ["product-specific", "product-family", "platform-shared", "cross-product", "external-reference"]
     omitWhenBlank: true
     meaning: "Intended breadth of reuse; named applicability remains in appliesTo."
+classOptionalProperties:
+  Object:
+    - {name: productClass, value: enum, allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"], sparse: true}
+  Info:
+    - {name: measureClass, value: enum, allowed: ["metric", "property-definition", "comparison-criterion"], sparse: true}
+    - {name: valueType, value: enum, allowed: ["numeric", "categorical", "boolean", "text", "compound"], sparse: true}
+    - {name: unit, value: text-or-link, sparse: true}
+    - {name: measurementMethod, value: text-or-link, sparse: true}
+  Document:
+    - {name: sourceClass, value: enum, allowed: ["web-page", "datasheet", "brochure", "manual", "standard", "article", "database", "other"], sparse: true}
+    - {name: sourceUrl, value: url, sparse: true}
+    - {name: sourceRevision, value: text, sparse: true}
+    - {name: accessed, value: date, sparse: true}
 relationshipFields: after governed optional properties (or after tags when none are present), in the order of relationships.yaml; may hold lists (W-126, W-319)
 translatedOnlyProperties: [eaType]   # written by the translator, between status and tags (W-31, W-97)
 classes:
@@ -53,6 +66,10 @@ classes:
 - name: Actor
   prefix: ACT
   subtype: []
+- name: Organization
+  prefix: ORG
+  subtype: []
+  note: 'Persistent institutional/business identity. Existing organization Info notes remain valid until individually migrated; preserve existing id and uid.'
 - name: Failure Mode
   prefix: FM
   subtype: []
