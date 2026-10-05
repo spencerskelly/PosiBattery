@@ -3945,12 +3945,12 @@ Audit run `37273291149` on commit `2ceae505` remained stable at 19 known broken 
 
 Created `80_Decisions and Planning/Product Function Quality Inventory Step 50 0.1.yaml`.
 
-The complete set of **129 Product Function notes** was reviewed for scope and naming, with **60 representative function notes** directly inspected for relationship/evidence patterns.
+The complete set of **129 Product Function notes** was directly inspected for hierarchy, performer, evidence, and Requirement-satisfaction relationship patterns.
 
 Key findings:
 
-- Concrete functions commonly subtype broader reusable function families and carry direct `performedBy` plus source evidence.
-- Broad organizing functions commonly carry `supertypeOf` children and intentionally have no direct performers.
+- **103** concrete leaf Functions have a parent, direct `performedBy` relationships, and direct source URLs.
+- **20** broad organizer Functions carry `supertypeOf` children and generally have no direct performers or source URLs.
 - Six broad functions appear to have no hierarchy despite names suggesting aggregation:
   - Deliver Energy to Vehicles
   - Keep Equipment Working in Its Environment
@@ -3959,12 +3959,12 @@ Key findings:
   - Protect People and Equipment Near Vehicles
   - Support the Operator
 - Several near-duplicate/overlap groups were identified for Step 53, including truck-versus-vehicle speed limiting, hazard warning, status display/informing, fleet management, and environment functions.
-- No `satisfies` links were observed in the directly inspected 60-function sample, making Requirement traceability a Step 54 review item.
+- **0 of 129** Functions carry a `satisfies` relationship, making Requirement traceability a Step 54 review item.
 - The function set has meaningful behavioral clusters that can support Step 51 navigation without changing semantic hierarchy.
 
 No Function notes were moved, renamed, merged, or reparented.
 
-Audit run `37273810575` on commit `c22ff157` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+Audit run `37275264020` on commit `9a5a619a` remained stable at 19 known broken wikilinks with all other integrity categories clean.
 
 **Result:** Step 50 complete.
 
