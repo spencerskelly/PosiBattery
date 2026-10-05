@@ -3762,6 +3762,38 @@ Created `Reusable Definition vs Contextual Architecture Review Step 44 0.1.yaml`
 
 ---
 
+## Step 45 completion evidence — Structural architecture concepts classified
+
+**Date:** 2026-10-04
+
+Created `80_Decisions and Planning/Architecture Structural Classification Step 45 0.1.yaml`.
+
+Reviewed all **37** structural counterpart candidates from Step 44 against the current MDSE schema.
+
+Classification results:
+
+- **1** system/assembly-level Object candidate — Proximity Tag System
+- **3** module-level Object candidates — Battery Onboard Charger, Modular Power Modules, Programmable Motor Controller
+- **32** component-level Object candidates
+- **1** Port candidate — Truck Charging Port
+- **0** Item Flow candidates supported from the current evidence
+
+No existing Design note was retyped or replaced.
+
+Important schema boundaries recorded:
+
+- system/module/assembly/component are useful architecture roles but are not governed Object subtype values;
+- connector hardware is an Object candidate, while an owned interaction endpoint is a Port;
+- Port subtype only distinguishes proxy/full and should not be overloaded with domain meaning;
+- Design and structural Object representations may coexist when they represent different semantics;
+- Item Flows should not be inferred from protocol/interface names alone.
+
+Audit run `37271968386` on commit `d36c4c2f` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+
+**Result:** Step 45 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3805,3 +3837,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 42 | 2026-10-04 | Complete | Simplified the Products canvas from 55 nodes/49 edges to 12 nodes/11 edges, preserved detailed discovery in the Bases, linked product domains to canonical Truck/GSE architecture context, and clarified navigation roles in the Products README. |
 | 43 | 2026-10-04 | Complete | Inventoried the architecture layer: confirmed 26 canonical vehicle architecture notes and identified 94 architecture-like candidates among 118 reusable Product Designs for Step 44 separation; moved or retyped nothing. |
 | 44 | 2026-10-04 | Complete | Retained all 94 architecture-like Product Designs as reusable definitions; found no single-product contextual architecture notes among them; queued 37 component/interface-like concepts for Step 45 structural review. |
+| 45 | 2026-10-04 | Complete | Classified 37 structural counterpart candidates: 36 Object-role candidates and 1 Port candidate, with no supported Item Flows yet; recorded schema boundaries for system/module/component roles and preserved all existing Design definitions unchanged. |
