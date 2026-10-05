@@ -1,0 +1,117 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 85
+status: "Complete"
+product_family: "PosiCharge BMID"
+
+use_cases:
+  - id: "UC-00038"
+    name: "Charge a BMID-Equipped Battery Using Battery Information"
+    primary_goal: "Let an operator or technician charge a BMID-equipped battery using supported battery identity/condition information supplied to a compatible charger."
+    actors:
+      - Forklift Operator
+      - GSE Operator
+      - Maintenance Technician
+    product_participant: "PosiCharge BMID"
+    realized_by:
+      - Identify Battery to Charger
+      - Report Battery Temperature to Charger
+      - Communicate with Charger
+    source_needs:
+      - Charge Each Battery Correctly for Its Chemistry and Condition
+      - Integrate the Battery with Truck and Charger Controls
+    family_applicability: broad
+
+  - id: "UC-00039"
+    name: "Inspect Battery Condition Through a BMID"
+    primary_goal: "Let maintenance or fleet personnel obtain supported battery-condition information for readiness or service decisions."
+    actors:
+      - Maintenance Technician
+      - Fleet Operations Manager
+    product_participant: "PosiCharge BMID"
+    realized_by:
+      - Measure Battery Voltage
+      - Measure Battery Temperature
+      - Estimate State of Charge
+    source_needs:
+      - Know Battery State Before and During the Shift
+      - Prevent Battery Abuse and Premature Replacement
+    family_applicability: broad_with_variant_specific_measurements
+
+  - id: "UC-00040"
+    name: "Review BMID Battery History and Exceptions"
+    primary_goal: "Let responsible personnel review supported usage/history/exception information and decide service, operating, warranty, or replacement follow-up."
+    actors:
+      - Fleet Operations Manager
+      - Dealer Service Technician
+      - Maintenance Technician
+    product_participant: "PosiCharge BMID"
+    realized_by:
+      - Log Battery Events and Usage
+      - Upload Battery Data to Cloud Portal
+      - Alert on Abnormal Condition
+    source_needs:
+      - Prevent Battery Abuse and Premature Replacement
+      - Document Battery Care for Warranty Compliance
+      - Monitor and Manage Chargers and Batteries Across Sites
+    family_applicability: "logging broad; cloud/remote portions variant/system dependent"
+
+  - id: "UC-00041"
+    name: "Configure and Service a Supported BMID"
+    primary_goal: "Let a qualified installer or technician configure/read/update/service a BMID using the interfaces supported by that variant."
+    actors:
+      - Dealer Service Technician
+      - Maintenance Technician
+      - Equipment Installer
+    product_participant: "PosiCharge BMID"
+    realized_by:
+      - Configure Device from Mobile App or PC
+    family_applicability: variant_dependent
+    direct_evidence_strongest_for: "PosiCharge PosiGuard"
+    source_need_status: "No existing Customer Need maps cleanly enough to justify an arisesIn link; leave this as an explicit upstream-need gap rather than force a weak trace."
+
+  - id: "UC-00042"
+    name: "Integrate a BMID with Charger Vehicle and Fleet Systems"
+    primary_goal: "Let an integration engineer or qualified technician connect a supported BMID variant to required charger, vehicle, or fleet-data interfaces."
+    actors:
+      - Truck OEM Integration Engineer
+      - Dealer Service Technician
+    product_participant: "PosiCharge BMID"
+    realized_by:
+      - Communicate with Charger
+      - Communicate Battery State over CAN
+      - Transmit Battery Data Wirelessly
+      - Upload Battery Data to Cloud Portal
+    source_needs:
+      - Integrate the Battery with Truck and Charger Controls
+    family_applicability: interface_and_variant_dependent
+
+traceability:
+  realizedBy_realizes_pairs_synchronized: true
+  arisesIn_givesRiseTo_pairs_synchronized: true
+  unsupported_relationships_inferred: false
+  charger_power_control_assigned_to_bmid: false
+
+boundary_rules:
+  - "Use Case states an external actor goal, not an internal BMID Function."
+  - "The BMID is a participating product Object; the human/integration role owns the external goal."
+  - "Charging control remains with the charger or battery BMS as applicable."
+  - "CAN, Bluetooth, cellular, LoRa, cloud, and app behaviors are not generalized across all BMID variants."
+  - "Generic site workflows remain reusable and are referenced rather than duplicated."
+  - "Variant-limited product use cases may remain in the family set when their applicability is explicit."
+
+existing_generic_workflows_reused:
+  - "Connect a Vehicle or Battery to a Charger"
+  - "Start a Shift and Confirm Vehicle Energy Readiness"
+  - "Review Battery Care and Warranty Compliance"
+
+result:
+  new_product_use_cases: 5
+  broad_family_cases: 4
+  explicitly_variant_dependent_cases: 1
+  upstream_need_gap_count: 1
+
+next_step:
+  step: 86
+  title: "Build Product Context"
