@@ -13,6 +13,8 @@ appliesTo:
 drivenBy:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
+satisfiedBy:
+  - "[[Identify Battery to Charger]]"
 ---
 
 # BMID - Provide Battery Identity to Compatible Charger
