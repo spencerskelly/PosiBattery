@@ -19,6 +19,9 @@ realizedBy:
 givesRiseTo:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
+drives:
+  - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
+  - "[[BMID - Provide Battery Identity to Compatible Charger]]"
 ---
 
 # Charge a BMID-Equipped Battery Using Battery Information
