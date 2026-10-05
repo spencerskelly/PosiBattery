@@ -5190,3 +5190,36 @@ Evidence: `80_Decisions and Planning/Relationship Validation Step 94 Worklog 0.1
 **Commits:** `01bb0b4b`, `1ece51b2`, `aee9b017`, `df5f248a`, `d63cfaca`.
 
 **Result:** Step 94 complete. The next incomplete roadmap item is **Step 95 — Run link and path validation**.
+
+
+---
+
+## Step 95 completion evidence — Link and path validation
+
+**Date:** 2026-10-05
+
+Completed full link/path validation and removed the historical 19-link structural baseline.
+
+The prior 19 broken-wikilink findings separated into two causes:
+
+- **18 were audit false positives** caused by generic suffix stripping. Filenames such as `Schema Reconciliation Matrix 0.1.md` were interpreted as if `.1` were a file extension. The resolver now strips only recognized vault file extensions (`.md`, `.base`, and `.canvas`) and therefore preserves semantic version suffixes.
+- **1 was a real stale navigation link** in `Research Change and Decision Tracker.md`, which still pointed to the pre-migration `Customer Needs/README_Customer Needs` path. It now points to `50_Customer Needs/README_Customer Needs`.
+
+GitHub Actions run `37382916228`, job `112009090385`, on commit `e7fa2f26` validated:
+
+- **1,125 Markdown files**;
+- **945 model notes**;
+- **0 broken wikilinks**;
+- **0 ambiguous wikilinks**;
+- **0 paths over 212 characters**;
+- note-name / alias check: **PASSED**;
+- identity validation: **PASSED**;
+- relationship validation: **PASSED**.
+
+The workflow later failed on the separate strict Function→Design dependency quality check. That check is outside Step 95 and does not alter the link/path/naming result.
+
+Evidence: `80_Decisions and Planning/Link and Path Validation Step 95 0.1.yaml`.
+
+**Commits:** `b9ea9392`, `a6845ad2`, `e7fa2f26`.
+
+**Result:** Step 95 complete. The next incomplete roadmap item is **Step 96 — Add source/provenance quality reporting**.
