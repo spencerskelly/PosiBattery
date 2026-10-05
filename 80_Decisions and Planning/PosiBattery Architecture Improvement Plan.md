@@ -5055,3 +5055,33 @@ Evidence: `80_Decisions and Planning/BMID Product Assembly Step 90 0.1.yaml`.
 **Commit:** `1d84bc19`.
 
 **Result:** Step 90 complete. The next incomplete roadmap item is **Step 91 — Introduce Verification structure**.
+
+
+---
+
+## Step 91 completion evidence — Introduce Verification structure
+
+**Date:** 2026-10-05
+
+Introduced the first governed product-validation structure for the **PosiCharge BMID** pilot.
+
+Six reusable Verification intents were created under `20_Product Architecture/PosiCharge BMID Validation`, one for each of the six current BMID/PosiGuard product Requirements:
+
+- `VER-00001` — [[Verify BMID Battery Identity Delivery]]
+- `VER-00002` — [[Verify BMID Battery Condition Information Delivery]]
+- `VER-00003` — [[Verify BMID Usage History Retention]]
+- `VER-00004` — [[Verify BMID Battery Association Preservation]]
+- `VER-00005` — [[Verify PosiGuard Lead-Acid and Lithium Application Support]]
+- `VER-00006` — [[Verify PosiGuard Local Service Configuration]]
+
+Each Verification uses the governed `verifies/verifiedBy` relationship pair, and the inverse was persisted on all six Requirement notes.
+
+No Procedure, Setup, Plan, or Result records were created. The vault currently has defensible requirement-level verification intent, but it does **not** yet contain an approved BMID-specific test method, equipment/setup definition, campaign selection, or executed test evidence. Creating those records now would manufacture validation detail rather than model real engineering work.
+
+The Verification notes therefore preserve the current requirement gaps explicitly, including undefined identity payload/transport, incomplete family condition-data scope, undefined history-retention criteria, unresolved battery-association lifecycle behavior, incomplete lithium protocol/application requirements, and incomplete service-security/access requirements.
+
+Evidence: `80_Decisions and Planning/BMID Verification Structure Step 91 0.1.yaml`.
+
+**Commit:** `1293ea29`.
+
+**Result:** Step 91 complete. The next incomplete roadmap item is **Step 92 — Demonstrate end-to-end product traceability**.
