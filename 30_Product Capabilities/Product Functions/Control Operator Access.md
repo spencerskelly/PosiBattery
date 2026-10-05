@@ -31,6 +31,7 @@ performedBy:
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
+  - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
 # Control Operator Access
