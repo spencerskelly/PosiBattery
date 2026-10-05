@@ -2725,6 +2725,75 @@ No Downloads artifacts were modified in Step 30.
 
 ---
 
+## Step 31 completion evidence — Downloads matched to Source Document records
+
+**Date:** 2026-10-04
+
+Every PDF in `Downloads` was compared against the existing curated Source Document collection.
+
+### Match record created
+
+`80_Decisions and Planning/Downloads Source Document Match 0.1.yaml`
+
+The record classifies every PDF as:
+
+- `one_to_one`
+- `one_to_many`
+- `missing_source_record`
+- `ambiguous`
+
+### Results
+
+- Downloads PDFs reviewed: **66**
+- Source Document records reviewed: **8**
+- one-to-one matches: **8**
+- one-to-many matches: **0**
+- missing Source Document records: **58**
+- ambiguous matches: **0**
+
+All eight existing Source Document records explicitly name exactly one local PDF, and no local PDF is explicitly represented by more than one Source Document note.
+
+The remaining 58 PDFs are classified only as `missing_source_record`. This does **not** mean they are orphaned or safe to delete; Step 32 performs repository-reference and evidence-use review.
+
+### Safety boundary
+
+Step 31 did not:
+
+- create new Source Document records;
+- edit any existing Source Document record;
+- delete, rename, or move any PDF;
+- infer that an unmatched PDF is unused;
+- collapse exact duplicates into one record.
+
+### Validation
+
+GitHub Actions run `37267633778` on commit `10e3b124` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+### Commit
+
+- `10e3b124` — map Downloads to Source Document records
+
+**Result:** Step 31 complete. The current evidence layer has eight explicit PDF-to-Source-Document matches and 58 PDFs that still require source-record or orphan/provenance review.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2754,3 +2823,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 28 | 2026-10-04 | Complete | Completed the full post-migration audit: all three legacy research roots are gone, 20 original notes are preserved under canonical Research subgroups, no new broken links or relationship defects were introduced, and the root is materially closer to the canonical taxonomy. |
 | 29 | 2026-10-04 | Complete | Inventoried all 66 Downloads PDFs in a machine-readable manifest with size, blob SHA, conservative source identity, duplicate hints, and 8 confirmed existing Source Document/model-link matches; no artifacts were changed. |
 | 30 | 2026-10-04 | Complete | Classified 8 exact duplicate groups involving 17 files and 9 redundant copies; found no additional non-identical likely duplicate groups, selected unsuffixed preferred copies, and deleted nothing. |
+| 31 | 2026-10-04 | Complete | Matched all 66 Downloads PDFs against the 8 existing Source Document records: 8 one-to-one matches, 0 one-to-many, 58 missing source records, and 0 ambiguous matches; no records or artifacts were changed. |
