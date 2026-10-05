@@ -61,3 +61,14 @@ conclusion: "The current reusable-reference area is already cleanly separated fr
 
 next_step:
   step: 70
+
+audit_validation:
+  workflow_run: 37338910609
+  commit: "00919707b2a50b283a2990f4de2282e61238c986"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 69 introduced no new structural regression."
