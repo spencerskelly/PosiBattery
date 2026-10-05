@@ -13,7 +13,6 @@ participants:
 realizedBy:
   - "[[Detect and Record Impacts]]"
   - "[[Record Images of Load Handling]]"
-  - "[[Lock Out Vehicle After Impact]]"
 ---
 
 # Review an Impact Event and Decide Whether to Return the Vehicle to Service
