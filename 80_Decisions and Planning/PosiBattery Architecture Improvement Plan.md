@@ -4689,6 +4689,7 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 68 | 2026-10-05 | Complete | Validated Actor–Organization–Product semantics across 11 Actors, 86 Organization-folder notes, and 398 Products; found zero misleading direct Actor↔Organization/Product structural links and confirmed conservative use of madeBy, offeredBy, poweredBy, channel, supply, and partnership relationships. Evidence: `Actor Organization Product Relationship Validation Step 68 0.1.yaml`. |
 | 69 | 2026-10-05 | Complete | Reviewed all 48 reusable-reference notes for source-specific research extraction; found zero notes requiring relocation to Research and Evidence. Added an explicit definition-vs-research maintenance boundary and deferred unrelated methodology-placement questions. Evidence: `Definition Research Boundary Review Step 69 0.1.yaml`. |
 | 70 | 2026-10-05 | Complete | Restored evidence separation as an explicit operational rule across Definitions and Research: external evidence stays in Source Document/Research records, reusable definitions link to it when needed, and no unsupported extraction/migration was performed because Step 69 found zero candidates. Evidence: `Evidence Separation Validation Step 70 0.1.yaml`. |
+| 71 | 2026-10-05 | Complete | Reviewed all 45 Property definition notes against the active relationship/element schemas and governance. Found 0 exact duplicate properties and 0 confirmed aliases, but documented 11 placeholder-meaning properties, 3 direct documentation conflicts, and 6 proposal-to-runtime relationship-vocabulary drift topics for later schema reconciliation. No property meanings or schemas were changed. Evidence: `Property Definition Quality Inventory Step 71 0.1.yaml`. |
 
 ---
 
@@ -4709,3 +4710,27 @@ No model identity, semantic relationship, file placement, or source artifact cha
 **Commits:** `5d9a5ac1`, `2f3e0676`, `e82f29d0`.
 
 **Result:** Step 70 complete. The next incomplete roadmap item is **Step 71 — Review Property definitions**.
+
+---
+
+## Step 71 completion evidence — Review Property definitions
+
+**Date:** 2026-10-05
+
+Reviewed all **45** controlled Property definition notes against `relationships.yaml` 1.35, `element-types.yaml` 1.17, the current Ruleset, AI instructions, AGENTS guidance, and the newer Relationship Vocabulary Usage Guide.
+
+Results:
+
+- **0 exact duplicate property names** and **0 confirmed alias properties** require immediate consolidation.
+- **11 relationship-property notes** still contain placeholder language such as `No meaning given yet` even though the runtime schema already constrains their endpoints/inverses.
+- **3 direct documentation conflicts** were identified: immutable `id` governance versus stale reclassification wording in `type.md`; `interfaces.md` allowing generic notes while the runtime schema restricts it to Ports; and contradictory `hasState` importer wording.
+- **6 proposal-to-runtime drift topics** were documented where the newer relationship usage guide intentionally proposes broader semantics than the active runtime schema (`hasFlow`, `hasState`, `realizedBy`, `satisfies`, `verifies`, `appliesTo`).
+- Important near-name groups such as `subtype`/`subtypeOf`, `hasPart`/`hasChild`/`includes`, and `interfaces`/`equals`/`exposes` were confirmed to be semantically distinct rather than duplicates.
+
+No runtime schema, property definition, relationship, model note, ID, or UID was changed. Step 71 is an analysis/inventory step; canonical vocabulary selection remains intentionally reserved for Steps 73–78.
+
+Evidence: `80_Decisions and Planning/Property Definition Quality Inventory Step 71 0.1.yaml`.
+
+**Commit:** `f7fb52aa`.
+
+**Result:** Step 71 complete. The next incomplete roadmap item is **Step 72 — Improve reusable-reference navigation**.
