@@ -14,6 +14,4 @@ describes: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
