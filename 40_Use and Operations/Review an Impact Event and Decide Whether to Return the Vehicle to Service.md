@@ -10,6 +10,10 @@ participants:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
   - "[[Maintenance Technician]]"
+realizedBy:
+  - "[[Detect and Record Impacts]]"
+  - "[[Record Images of Load Handling]]"
+  - "[[Lock Out Vehicle After Impact]]"
 ---
 
 # Review an Impact Event and Decide Whether to Return the Vehicle to Service
@@ -23,6 +27,11 @@ After a detected or reported impact, responsible personnel review the event and 
 - Primary contexts: [[Material-Handling Fleet Site]] and [[Airport Ground-Support Operating Area]].
 - Typical sequence: receive the event, identify vehicle/operator/time and available evidence, inspect or assess as required, decide disposition, then release/unlock or retain out of service.
 - Inspection acceptance criteria are not yet defined in the vault and are intentionally not invented here.
+
+## Traceability
+
+- Source needs: [[Detect and Learn from Truck Impacts]].
+- Operating contexts: [[Material-Handling Fleet Site]], [[Airport Ground-Support Operating Area]].
 
 ## Aliases
 
