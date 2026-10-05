@@ -1,0 +1,27 @@
+name: MDSE Provenance Report
+
+on:
+  push:
+    paths:
+      - '.github/workflows/mdse-provenance-report.yml'
+      - '99_System/09_Tools/report-provenance.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Generate provenance quality report
+        run: python 99_System/09_Tools/report-provenance.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: provenance-quality-report
+          path: provenance-quality-report.md
