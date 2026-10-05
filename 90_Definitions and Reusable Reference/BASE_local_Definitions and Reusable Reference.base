@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "90_Definitions and Reusable Reference"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local reusable reference
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
