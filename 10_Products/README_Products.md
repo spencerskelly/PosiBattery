@@ -25,7 +25,17 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[Knowledge Base Backlog]].
 - `BASE_all_Products.base` — view across all product records.
 - `BASE_local_Products.base` — locally scoped product view.
 
+## Product architecture context
+
+Reusable vehicle anatomy is canonical under [[README_Product Architecture|Product Architecture]] rather than stored as product offerings:
+
+- [[Industrial Truck Anatomy]] — reusable industrial-truck assembly and subsystem structure.
+- [[GSE Vehicle Anatomy]] — reusable GSE assembly and subsystem structure.
+
+These remain directly linkable from product notes and product research; their placement does not change their model identity or relationships.
+
 ## Related areas
+
 
 - [[README_Organizations|Organizations]] — the companies that make, sell, distribute, or promote offerings.
 - [[README_Source Documents|Source Documents]] — primary evidence for product claims.
