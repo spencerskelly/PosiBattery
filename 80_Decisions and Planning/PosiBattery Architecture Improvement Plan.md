@@ -4213,6 +4213,33 @@ Validation run `37291410475` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 58 completion evidence - Candidate operational Use Cases extracted
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Operational Use Case Candidate Inventory Step 58 0.1.yaml`.
+
+Reviewed all **22 Customer Need** notes, the currently empty operational Use Case layer, representative Products, the Function model, and the Jobs-to-Be-Done / product-to-need research.
+
+### Result
+
+- Extracted **20 candidate operational Use Cases**.
+- **17** are high-confidence actor-goal scenarios.
+- **3** are medium-confidence and need later boundary/refinement review.
+- **0** Customer Need notes were copied directly into `40_Use and Operations`.
+- **0** product-controlled Functions were recast as actor goals.
+- Identified environmental and fleet conditions such as cold storage, wet/dusty operation, distributed charging, and mixed chemistry as **scenario variants**, not standalone Use Cases.
+
+The candidate set covers deployment/commissioning, charging and shift operation, operator authorization and safety, GSE docking, battery maintenance and diagnosis, impact review, fleet monitoring, warranty/compliance review, and charging configuration.
+
+No operational Use Case model notes or semantic relationships were created in this step. The inventory is the controlled source for the next operational-model step.
+
+Evidence commit: `e8c5ea4b`.
+
+**Result:** Step 58 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4269,3 +4296,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 55 | 2026-10-05 | Complete | Analyzed all 118 Product Designs: 23 general classes and 95 specific Designs; 94/95 specific Designs have parents, 100% have product applicability and source evidence, 17.9% have direct Function dependencies, and 40.0% have metric links. Identified Reverse-Polarity Protection as the sole specific parentage gap and found zero confirmed duplicates. Evidence: `Product Design Quality Inventory Step 55 0.1.yaml`. |
 | 56 | 2026-10-05 | Complete | Reviewed all 55 Performance Metrics; found zero exact duplicates, separated quantitative properties from categorical and compound comparison dimensions, identified five high-priority decomposition/cleanup candidates, and found zero metrics ready to serve as standalone formal validation criteria without additional method/acceptance semantics. Evidence: `Performance Metric Quality Inventory Step 56 0.1.yaml`. |
 | 57 | 2026-10-05 | Complete | Reworked Product Capabilities navigation around intent to Function to Design to Product to Metric/evidence; aligned Design navigation to modeled hierarchy, Metric navigation to semantic class, and replaced the root Canvas with an 8-node traceability map. No semantic model changes. Evidence: `Capability Navigation Improvement Step 57 0.1.yaml`. |
+| 58 | 2026-10-05 | Complete | Reviewed all 22 Customer Needs plus Products, Functions, and research to extract 20 actor-goal operational Use Case candidates; 17 high-confidence and 3 medium-confidence. Kept environmental/fleet conditions as scenario variants and created no premature Use Case notes. Evidence: `Operational Use Case Candidate Inventory Step 58 0.1.yaml`. |
