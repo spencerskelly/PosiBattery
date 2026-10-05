@@ -38,6 +38,11 @@ Customer need: Prevent Battery Abuse and Premature Replacement. The problem behi
   - [[HOPPECKE trak collect]]: HOPPECKE says trak | collect highlights incorrect treatment such as deep discharge or temperature warning, and that remaining driving time data helps OEMs optimize drive mode. Source: HOPPECKE news on improved battery management (T1), retrieved 2026-10-02. <https://www.hoppecke.com/uk/news/improved-battery-management-with-trak-collect/>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Start a Shift and Confirm Vehicle Energy Readiness]], [[Review Battery Care and Warranty Compliance]].
+- Operating contexts: [[Material-Handling Fleet Site]], [[Centralized Battery Room and Charging Area]].
+
 ## Aliases
 
 
