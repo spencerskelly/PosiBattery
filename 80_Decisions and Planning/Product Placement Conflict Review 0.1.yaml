@@ -110,3 +110,19 @@ step_40_candidates:
   - "Move or canonically regroup the 13 Truck Anatomy notes under 20_Product Architecture."
   - "Move or canonically regroup the 13 GSE Anatomy notes under 20_Product Architecture."
   - "Preserve product-context navigation back from Forklifts and Ground Support Equipment."
+
+
+step_40_result:
+  normalized_high_confidence_conflicts: 26
+  moved_groups:
+    - from: "10_Products/Forklifts/Truck Anatomy"
+      to: "20_Product Architecture/Industrial Truck Architecture"
+      files: 13
+    - from: "10_Products/Ground Support Equipment/GSE Anatomy"
+      to: "20_Product Architecture/Ground Support Equipment Architecture"
+      files: 13
+  identity_preserved: true
+  relationships_preserved: true
+  old_product_paths_remaining: 0
+  ambiguous_review_signals_changed: 0
+  status: "high-confidence placement conflicts resolved"
