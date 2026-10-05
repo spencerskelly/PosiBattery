@@ -13,6 +13,8 @@ appliesTo:
 drivenBy:
   - "[[Inspect Battery Condition Through a BMID]]"
   - "[[Review BMID Battery History and Exceptions]]"
+verifiedBy:
+  - "[[Verify BMID Battery Association Preservation]]"
 ---
 
 # BMID - Preserve Battery Association
