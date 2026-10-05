@@ -22,6 +22,7 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
 realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Slow and Stop Near Aircraft
