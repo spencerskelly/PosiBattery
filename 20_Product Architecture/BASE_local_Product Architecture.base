@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "20_Product Architecture"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local architecture contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
