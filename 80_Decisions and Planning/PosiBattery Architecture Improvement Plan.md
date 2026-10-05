@@ -4269,6 +4269,8 @@ Four Step 58 candidates remain intentionally uncertain and are recorded for late
 
 Evidence commit: `3f4b02e6`.
 
+Validation run `37292122572` remained at the established **19 broken wikilinks**, with **0 frontmatter parse errors**, **0 duplicate IDs**, and **0 duplicate UIDs**. No new structural regression was introduced.
+
 **Result:** Step 59 complete.
 
 ---
