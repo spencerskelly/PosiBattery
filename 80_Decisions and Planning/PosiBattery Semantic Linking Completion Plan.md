@@ -189,3 +189,31 @@ Evidence: `80_Decisions and Planning/Semantic Linking Baseline Step 1 0.1.yaml`.
 **Commit:** `f5408c20`.
 
 **Result:** Step 1 complete. The next step is **Step 2 — Define element-by-element linking expectations**.
+
+
+---
+
+## Step 2 completion evidence — Element-by-element linking expectations
+
+**Date:** 2026-10-05
+
+Created the primary semantic-linking expectation matrix at `80_Decisions and Planning/Semantic Linking Expectation Matrix Step 2 0.1.yaml`.
+
+The matrix covers **all 25 governed element classes** in `element-types.yaml` 1.18 and defines, for each class:
+
+- normal upstream links — why it exists, what motivates/scopes/owns it;
+- normal downstream links — what it drives, realizes, contains, affects, or verifies;
+- ownership/use expectations — how a reviewer should answer “where is this used?”;
+- evidence expectations — how sources/results should connect where material;
+- acceptable-none situations — descriptive cases where sparse linkage may be legitimate;
+- a concise review question that will guide later whole-vault review.
+
+The matrix also establishes cross-class chain patterns for need/use, requirements/behavior, implementation, verification, evidence, and architecture. It explicitly distinguishes `realizedBy`, `dependsOn`, and `satisfies`, and counts Local Model definition use as valid contextual usage for reusable Object/Port/Item Flow definitions.
+
+No schema terms were added, no relationship endpoints were changed, and no model relationships were modified in Step 2. `relationships.yaml` 1.36 remains the direction/endpoint authority; the matrix is a completeness contract layered on top of the existing governed vocabulary.
+
+Step 2 intentionally does **not** yet decide which notes receive the strict active-engineering standard, define controlled exception codes, or make the checks blocking. Those decisions belong to Steps 3, 4, and 5.
+
+**Commits:** `dbf947d6`, `c47e3497`.
+
+**Result:** Step 2 complete. The next step is **Step 3 — Define active-engineering versus reference-content standards**.
