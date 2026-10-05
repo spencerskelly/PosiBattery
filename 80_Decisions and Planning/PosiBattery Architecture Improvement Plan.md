@@ -4591,6 +4591,33 @@ Validation run `37338389254` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 69 completion evidence - Definitions separated from research extraction
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Definition Research Boundary Review Step 69 0.1.yaml`.
+
+Reviewed all **48 reusable-reference notes** for vendor-, product-, market-, or literature-specific source extraction.
+
+### Result
+
+- **0 notes** contain large source-specific research blocks that belong under Research and Evidence.
+- **0 notes moved**
+- **0 research notes created**
+- **0 definition notes rewritten**
+
+The two longest notes, [[EA Source Section]] and [[Note Layout]], are methodology/reference documents rather than research extraction. Their length comes from translation/layout rules and examples, not market evidence.
+
+Added an explicit **Definition versus research boundary** to `README_Definitions.md`: canonical meaning, property semantics, usage rules, and short examples belong in Definitions; product/vendor evidence, market comparisons, conflicting source claims, and dated research belong in Research and Evidence.
+
+A broader future question remains whether methodology-heavy notes such as EA Source Section and Note Layout should eventually move under `99_System`, but that is outside Step 69's definition-vs-research scope.
+
+Evidence commit: `00919707`.
+
+**Result:** Step 69 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4658,3 +4685,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 66 | 2026-10-05 | Complete | Reviewed alternate spellings, aliases, legacy names, regional/divisional entities, parent/business distinctions, and lineage cautions across the Organization set. Found zero confirmed duplicate organization notes; preserved verified distinctions and unresolved lineage cases without merges or renames. Evidence: `Organization Duplicate Identity Review Step 66 0.1.yaml`. |
 | 67 | 2026-10-05 | Complete | Improved Organization navigation with ecosystem role groupings, richer Base relationship columns, and a 10-node curated Canvas covering internal portfolio, makers, OEMs, channels, software, relationship evidence, and scoped competition/partner analysis. No semantic model changes. Evidence: `Organization Navigation Improvement Step 67 0.1.yaml`. |
 | 68 | 2026-10-05 | Complete | Validated Actor–Organization–Product semantics across 11 Actors, 86 Organization-folder notes, and 398 Products; found zero misleading direct Actor↔Organization/Product structural links and confirmed conservative use of madeBy, offeredBy, poweredBy, channel, supply, and partnership relationships. Evidence: `Actor Organization Product Relationship Validation Step 68 0.1.yaml`. |
+| 69 | 2026-10-05 | Complete | Reviewed all 48 reusable-reference notes for source-specific research extraction; found zero notes requiring relocation to Research and Evidence. Added an explicit definition-vs-research maintenance boundary and deferred unrelated methodology-placement questions. Evidence: `Definition Research Boundary Review Step 69 0.1.yaml`. |
