@@ -955,6 +955,75 @@ No files were moved, renamed, merged, or deleted in this step.
 
 ---
 
+## Step 6 completion evidence — Transitional and duplicate navigation artifacts
+
+**Date:** 2026-10-04  
+**Navigation inventory:** `80_Decisions and Planning/PosiBattery Navigation Artifact Inventory.yaml`  
+**Inventory commit:** `caf199a8754e62c6bdf794ea14d6657592277af0`
+
+A dedicated machine-readable navigation-artifact inventory was created to distinguish genuinely duplicated/transitional navigation from intentional view patterns.
+
+### True duplicate landing pages
+
+Two folders currently have duplicate README-style landing pages:
+
+1. `10_Products`
+   - `README - 10_Products.md`
+   - `README_Products.md`
+2. `50_Customer Needs`
+   - `README - 50_Customer Needs.md`
+   - `README_Customer Needs.md`
+
+In both cases, the `README_<name>.md` file contains substantive working navigation while the `README - <numbered folder>.md` file is a migration-era target placeholder.
+
+### Stale path-dependent Bases
+
+Two specialized Bases still contain pre-migration folder paths:
+
+- `60_Stakeholders and Ecosystem/Organizations/BASE_offerings.base`
+  - still filters on `file.inFolder("Products")`
+- `90_Definitions and Reusable Reference/Definitions/Properties/Property Dictionary.base`
+  - still filters on `file.folder == "Definitions/Properties"`
+
+These are not duplicate Bases; they are valid specialized views with stale path filters.
+
+### Transitional canonical-root placeholder READMEs
+
+Eight numbered root READMEs remain in the original target-skeleton form:
+
+- `10_Products/README - 10_Products.md`
+- `20_Product Architecture/README - 20_Product Architecture.md`
+- `30_Product Capabilities/README - 30_Product Capabilities.md`
+- `40_Use and Operations/README - 40_Use and Operations.md`
+- `50_Customer Needs/README - 50_Customer Needs.md`
+- `60_Stakeholders and Ecosystem/README - 60_Stakeholders and Ecosystem.md`
+- `70_Research and Evidence/README - 70_Research and Evidence.md`
+- `90_Definitions and Reusable Reference/README - 90_Definitions and Reusable Reference.md`
+
+They still say the folder is a "target structure only," which is no longer accurate after the large migration. Their naming also differs from the newer `README_<folder>` navigation convention.
+
+### Empty system canvases requiring later review
+
+Three system Canvases are currently empty:
+
+- `99_System/02_AI/00 - Folder Map.canvas`
+- `99_System/05_Templates/00 - Folder Map.canvas`
+- `99_System/08_Scripts/00 - Folder Map.canvas`
+
+They are recorded for later review, not deletion, because they may be expected by system/runtime conventions.
+
+### Intentional patterns explicitly excluded from duplicate cleanup
+
+`BASE_all_*` and `BASE_local_*` pairs are intentional complementary views, not duplicate artifacts. They should not be collapsed merely because both exist in the same folder.
+
+Specialized Bases such as `BASE_offerings.base` and `Property Dictionary.base` are likewise not duplicates of the all/local pair; their issue is stale path logic, not duplication.
+
+No navigation artifact was deleted, renamed, or repaired in Step 6.
+
+**Result:** Step 6 complete. Duplicate, transitional, stale, and intentionally paired navigation artifacts are now explicitly separated so later cleanup steps can act without removing valid views.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -964,4 +1033,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 1 | 2026-10-04 | Complete | Fresh audit on `main` commit `8837b06f`; 1,076 Markdown / 905 model notes; 27 blocking broken wikilinks; all identity/frontmatter/relationship/path checks otherwise clean. Workflow run `37255015647`, job `111590114513`. Secondary naming/dependency checks did not execute because the primary audit failed first. |
 | 2 | 2026-10-04 | Complete | Baseline counts recorded at `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. |
 | 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
-| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |
+| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |\n| 5 | 2026-10-04 | Complete | Classified all 105 folders: 68 canonical, 26 system, 10 migration candidates, 1 temporary, 0 legacy. Added classification reasons to the machine-readable inventory; no files moved. Commits `e0fca48c` and `5279c553`. |\n| 6 | 2026-10-04 | Complete | Added `PosiBattery Navigation Artifact Inventory.yaml`: 2 duplicate README groups, 2 stale path-dependent specialized Bases, 8 transitional root placeholder READMEs, and 3 empty system Canvases for later review. Explicitly excluded intentional BASE_all/BASE_local pairs from duplicate cleanup. Commit `caf199a8`. |
