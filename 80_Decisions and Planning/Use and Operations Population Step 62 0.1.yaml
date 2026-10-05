@@ -1,0 +1,107 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 62
+purpose: "Populate 40_Use and Operations with stable operational content supported by existing evidence, without inventing unresolved workflows."
+
+population_result:
+  operational_contexts_already_present_from_step_60: 8
+  new_operational_use_cases_created: 7
+  procedures_created: 0
+  steps_created: 0
+  setups_created: 0
+  rationale: "Only actor-goal scenarios with sufficiently stable intent and sequence were promoted. Procedure/Step/Setup candidates remain deferred where manuals, applicability, or ordered detail are incomplete."
+
+created_use_cases:
+  - id: "UC-00031"
+    name: "Connect a Vehicle or Battery to a Charger"
+    actors: ["Forklift Operator", "GSE Operator"]
+    contexts:
+      - "Centralized Battery Room and Charging Area"
+      - "Distributed and Opportunity Charging Area"
+    traceability_status: "Formal realizedBy links retained and inverse Function realizes links synchronized."
+  - id: "UC-00032"
+    name: "Opportunity-Charge a Vehicle During a Work Break"
+    actors: ["Forklift Operator", "Fleet Operations Manager"]
+    contexts:
+      - "Distributed and Opportunity Charging Area"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+  - id: "UC-00033"
+    name: "Start a Shift and Confirm Vehicle Energy Readiness"
+    actors: ["Forklift Operator", "GSE Operator", "Maintenance Technician"]
+    contexts:
+      - "Material-Handling Fleet Site"
+      - "Airport Ground-Support Operating Area"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+  - id: "UC-00034"
+    name: "Authenticate and Complete Pre-Shift Authorization"
+    actors: ["Forklift Operator", "Fleet Operations Manager", "Site Safety Manager"]
+    contexts:
+      - "Material-Handling Fleet Site"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+  - id: "UC-00035"
+    name: "Review an Impact Event and Decide Whether to Return the Vehicle to Service"
+    actors: ["Site Safety Manager", "Fleet Operations Manager", "Maintenance Technician"]
+    contexts:
+      - "Material-Handling Fleet Site"
+      - "Airport Ground-Support Operating Area"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+  - id: "UC-00036"
+    name: "Approach and Dock GSE at an Aircraft"
+    actors: ["GSE Operator", "Fleet Operations Manager"]
+    contexts:
+      - "Airport Ground-Support Operating Area"
+      - "Aircraft Service Envelope"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+  - id: "UC-00037"
+    name: "Review Battery Care and Warranty Compliance"
+    actors: ["Fleet Operations Manager", "Dealer Service Technician", "Maintenance Technician"]
+    contexts:
+      - "Material-Handling Fleet Site"
+    traceability_status: "Function support documented in evidence; formal realizedBy deferred until synchronized traceability pass."
+
+relationship_quality:
+  retained_formal_pair:
+    use_case: "Connect a Vehicle or Battery to a Charger"
+    realizedBy:
+      - "Connect Battery to Charger or Vehicle"
+      - "Manage Charging Cables"
+    inverse_status: "Synchronized on both Function notes."
+  deferred_formal_traceability:
+    count: 6
+    reason: "Avoid leaving one-sided paired relationships. Supporting Functions remain identified in Step 58/61 evidence until a dedicated synchronized traceability pass."
+  one_sided_relationships_intentionally_left: 0
+
+deferred_workflows:
+  procedure_candidates:
+    - "Inspect and Water a Flooded Traction Battery"
+    - "Perform Equalization Maintenance on a Flooded Battery"
+    - "Prepare a Traction Battery for Cold-Storage Operation"
+    - "Install and Commission a Charger"
+    - "Configure a Battery Monitor or Charge Interface Device"
+  reason: "Existing evidence supports the workflow concept, but generic ordered procedures would require product/manual-specific applicability and details not yet fully captured."
+  unresolved_synthesis_location: "80_Decisions and Planning evidence inventories"
+  product_in_progress_used: false
+
+navigation_updates:
+  readme: "40_Use and Operations/README_Use and Operations.md"
+  canvas: "40_Use and Operations/CANVAS_Use and Operations.canvas"
+  canvas_node_count: 15
+  note: "Canvas now combines key contexts and the first stable operational Use Cases while remaining within the curated-navigation guideline."
+
+changes:
+  use_case_notes_created: 7
+  function_notes_changed: 2
+  navigation_files_changed: 2
+  procedures_created: 0
+  steps_created: 0
+  setups_created: 0
+  files_moved: 0
+  files_renamed: 0
+  existing_ids_changed: 0
+  existing_uids_changed: 0
+
+conclusion: "40_Use and Operations now contains a usable initial operational model: eight reusable contexts and seven stable actor-goal Use Cases. Detailed Procedures remain evidence-gated rather than invented."
+
+next_step:
+  step: 63
