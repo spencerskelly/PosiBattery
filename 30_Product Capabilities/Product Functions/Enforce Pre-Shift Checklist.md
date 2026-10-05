@@ -22,6 +22,7 @@ performedBy:
   - "[[Crown InfoLink 7-inch Touch Display]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
+  - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
 # Enforce Pre-Shift Checklist
