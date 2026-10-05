@@ -1,0 +1,286 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 74
+purpose: "Reconcile current formal MDSE element types with the product-development knowledge model and proposed metadata extensions before relationship and vocabulary reconciliation."
+
+authorities:
+  element_schema: "99_System/03_Schemas/element-types.yaml 1.17"
+  ruleset: "99_System/10_Docs/MDSE Modeling Ruleset 1.23.md"
+  field_reconciliation: "80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yaml"
+  prior_domain_reviews:
+    - "Step 36-42 Product semantic/classification reviews"
+    - "Performance Metric Quality Inventory Step 56 0.1.yaml"
+    - "Organization Quality Inventory Step 64 0.1.yaml"
+    - "Operational Context Inventory Step 60 0.1.yaml"
+    - "Use and Operations Population Step 62 0.1.yaml"
+
+current_formal_types:
+  count: 24
+  types:
+    - Object
+    - Port
+    - Item Flow
+    - Function
+    - Functional Flow
+    - State
+    - State Machine
+    - Requirement
+    - Design
+    - Use Case
+    - Actor
+    - Failure Mode
+    - Issue
+    - Info
+    - Step
+    - Verification
+    - Procedure
+    - Setup
+    - Plan
+    - Result
+    - Document
+    - Artifact
+    - modelCheck
+    - Diagram
+
+governing_principles:
+  - "A formal type represents durable semantic behavior and relationship constraints, not a folder or navigation category."
+  - "Do not create a new type when an existing type plus a controlled intrinsic classification can express the concept without ambiguity."
+  - "Do not overload Actor with persistent legal/business organization identity."
+  - "Do not turn customer intent into Requirement merely because it motivates engineering work."
+  - "Do not make market-comparison metrics look like verification criteria."
+  - "Research synthesis and source artifacts remain distinct."
+  - "Folder placement remains navigation, never type authority."
+
+reconciliation:
+  product:
+    current_representation: "Object"
+    observed_pattern: "Commercial products, product families, categories, variants, and offerings are already modeled as reusable Objects with subtypeOf/product relationships."
+    decision: "retain Object as formal base"
+    extension_candidate: "product_class"
+    no_new_type: "Product"
+    rationale:
+      - "Products are reusable physical/software/firmware entities and fit Object semantics."
+      - "A separate Product type would overlap Object and split architecture/product relationship rules."
+      - "product_class can distinguish category/type/family/variant/specific offering if Step 77 finds query value."
+    migration: "No retyping required."
+
+  customer_need:
+    current_representation: "Use Case subtype why"
+    observed_pattern: "22 Customer Need notes use Use Case/why, while operational actor-goal scenarios use other Use Case semantics and context subtypes."
+    decision: "retain Use Case subtype why as the formal representation of customer need"
+    extension_candidate: "need_class"
+    no_new_type: "Need"
+    rationale:
+      - "The current Who/What/When/Where/Why use-case taxonomy intentionally treats need as externally controlled intent/context rather than product behavior."
+      - "This preserves the boundary between customer need and Requirement."
+      - "A first-class Need type would duplicate a working semantic distinction and force endpoint migration."
+    migration: "No retyping required."
+
+  operational_actor:
+    current_representation: "Actor"
+    decision: "retain Actor"
+    meaning: "A reusable human/external-system role participating in a use scenario."
+    note: "Actor is role semantics, not legal/business identity."
+
+  organization:
+    current_representation: "Info"
+    observed_pattern:
+      actual_organizations: 73
+      reusable_role_notes_in_same_area: 8
+      research_or_ledger_notes_in_same_area: 5
+      prior_finding: "All Organization-folder notes are currently Info because no Organization class exists."
+    decision: "propose first-class Organization type"
+    rationale:
+      - "An organization is a persistent external/internal entity with identity, aliases, lineage, roles, products, channels, and evidence."
+      - "It is not merely descriptive information."
+      - "It is semantically distinct from Actor: an organization may play roles or participate in scenarios, while Actor represents the role itself."
+      - "Business relationship endpoint governance needs a stable organization class."
+      - "Using Object would incorrectly place companies inside the reusable engineering-object hierarchy."
+    proposed_prefix: "ORG"
+    proposed_subtypes: []
+    migration_rule: "Do not retype existing organization Info notes until Step 78 schema approval and Step 80 pilot validation."
+    exclusion:
+      - "Business-role definition notes remain reusable reference/Info concepts unless a dedicated Role decision is later justified."
+      - "Research/ledger notes remain Info/Document/Plan according to semantic purpose."
+    formal_change_status: "candidate for Step 78"
+
+  organization_role:
+    current_representation: "Info role definitions plus playsRole/rolePlayedBy provisional relationships"
+    decision: "do not create Role formal type now"
+    rationale:
+      - "Step 65 established that many business roles are contextual rather than intrinsic."
+      - "A Role type is unnecessary until role records require independent governed behavior beyond reusable reference semantics."
+    future_option: "Reconsider only if role endpoint/cardinality/query needs cannot be expressed through relationships."
+
+  metric_and_comparison:
+    current_representation: "Info"
+    observed_pattern:
+      metric_notes: 55
+      exact_duplicates: 0
+      maturity: "mixed quantitative, categorical, compound, and commercial comparison dimensions"
+      validation_ready_as_is: 0
+    decision: "retain Info as current formal base; do not introduce Metric type yet"
+    extension_candidate: "measure_class"
+    additional_candidate_fields:
+      - value_type
+      - unit
+      - measurement_method
+    rationale:
+      - "The current library is not semantically uniform enough to make all records one new formal class."
+      - "Some notes are atomic engineering measures; others are comparison cards or compound commercial summaries."
+      - "A measure_class extension can distinguish metric/property_definition/comparison_criterion without falsely promoting all records to validation semantics."
+      - "Verification criteria remain governed through Requirement and Verification, not through the metric library."
+    migration: "Classification first; no bulk retyping."
+    future_gate: "A dedicated Metric type may be reconsidered only after atomic measure records demonstrate endpoint/validation behavior that Info + measure_class cannot govern."
+
+  source_record:
+    current_representation: "Document and Info"
+    decision:
+      source_artifact: "Document"
+      research_synthesis: "Info"
+    extension_candidate: "source_class for Document source records"
+    no_new_types:
+      - Source
+      - Research
+    rationale:
+      - "Document is appropriate for a specific external artifact/source identity."
+      - "Info is appropriate for analysis and synthesis derived across sources."
+      - "Creating Source/Research types would largely mirror folder placement rather than new model behavior."
+
+  decision_and_planning:
+    current_representation:
+      - Plan
+      - Issue
+      - Info
+      - "some newer governance documents use non-runtime element_type metadata"
+    decision:
+      plan_backlog_campaign: "Plan"
+      unresolved_problem_or_conflict: "Issue"
+      analysis_or_decision_record: "Info unless it is itself an executable Plan or Issue"
+    extension_candidate: "decision_class only if Step 77 shows material query value"
+    no_new_type: "Decision"
+    rationale:
+      - "The existing semantic types already separate planned work, unresolved problems, and informational decision records."
+      - "A Decision type would mainly classify document purpose and can be handled by a controlled extension if needed."
+    cleanup_signal: "Documents using element_type instead of runtime type are reconciliation/migration candidates, not evidence for a second type system."
+
+  reusable_technical_reference:
+    current_representation:
+      - Object
+      - Design
+      - Info
+      - "system Property Definition records"
+    decision: "classify by semantic role; do not create Reference type"
+    mapping:
+      reusable_engineering_entity: Object
+      reusable_design_pattern_or_intent: Design
+      terminology_taxonomy_or_explanatory_reference: Info
+      metadata_or_relationship_property_definition: "Property Definition system record; not a model type"
+    rationale: "Reference is a reuse/placement characteristic, not one semantic behavior."
+
+  person:
+    current_representation: "Person template exists for author/settings records but Person is absent from element-types.yaml."
+    decision: "keep Person outside the model type schema for now"
+    rationale:
+      - "Current Person template is account/author configuration, not an engineering model-element template."
+      - "Do not use it as a surrogate Organization or Actor class."
+    follow_up: "If first-class named individuals become part of stakeholder modeling, reconcile Person explicitly in a later schema proposal rather than assuming the settings template is a model type."
+
+  property_definition:
+    current_representation: "Property Definition template exists without type/subtype and is used for controlled schema vocabulary."
+    decision: "keep outside formal engineering element-type list"
+    rationale:
+      - "These records define the schema itself and should not be confused with engineering metrics/properties."
+      - "Engineering measured properties remain Info/measure_class candidates until a later explicit decision."
+
+existing_types_confirmed_without_change:
+  - type: Function
+    role: "product-controlled behavior"
+  - type: Design
+    role: "reusable design intent/solution definition"
+  - type: Requirement
+    role: "formal obligation/constraint; not customer need"
+  - type: Verification
+    role: "reusable verification intent"
+  - type: Procedure
+    role: "ordered human/external operational or validation activity"
+  - type: Setup
+    role: "required test/operational capability/context"
+  - type: Result
+    role: "execution evidence/result"
+  - type: Port
+    role: "reusable interface endpoint definition"
+  - type: Item Flow
+    role: "reusable information/energy/material flow definition"
+  - type: State
+    role: "behavior state"
+  - type: State Machine
+    role: "state behavior owner"
+  - type: Failure Mode
+    role: "failure semantics"
+  - type: Artifact
+    role: "created/managed artifact where Document is not the better semantic class"
+  - type: Diagram
+    role: "formal diagram record"
+  - type: modelCheck
+    role: "temporary/review holding class for unresolved importer semantics"
+
+new_formal_type_candidates:
+  approved_for_later_schema_proposal:
+    - name: Organization
+      prefix: ORG
+      confidence: high
+      reason: "Persistent identity and relationship behavior are not adequately represented by Info or Actor."
+  rejected_or_deferred:
+    - Product
+    - Need
+    - Role
+    - Metric
+    - Source
+    - Research
+    - Decision
+    - Reference
+    - Person
+    - "Engineering Property Definition"
+
+endpoint_implications_for_step_75:
+  - "Business relationships should use Organization endpoints where the subject/object is an institutional identity."
+  - "Actor remains the endpoint for scenario participation, not automatically Organization."
+  - "Customer Need endpoints should resolve to Use Case subtype why unless Step 75 needs a broader Use Case rule."
+  - "Product endpoints should use Object with product classification rather than a Product class."
+  - "Metric/evidence relationships must not assume a Metric class; use Info plus controlled measure classification until changed."
+  - "Source support relationships should distinguish Document source records from Info research synthesis."
+  - "Decision/planning relationships should target Plan, Issue, or Info according to actual semantics."
+
+type_extension_handoff_to_step_77:
+  strong_candidates:
+    - product_class
+    - measure_class
+    - value_type
+    - unit
+    - measurement_method
+    - source_class
+  conditional_candidates:
+    - need_class
+    - decision_class
+    - function_level
+    - design_class
+  avoid_as_intrinsic_type_extensions:
+    - organization_role
+    - manufacturer
+    - need_holder
+    - owner
+    - portfolio_owner
+
+compatibility_and_migration:
+  current_ids_uids_preserved: true
+  current_notes_retyped_in_step_74: 0
+  schema_changed_in_step_74: false
+  templates_changed_in_step_74: false
+  note: "If Organization is implemented later, existing Info IDs must not be silently rewritten solely to match a new ORG prefix. Identity/prefix migration behavior must be explicitly specified before Step 78; current governance preserves existing id/uid."
+
+conclusion: "The current MDSE type system already covers nearly all PosiBattery semantics without type proliferation. Product remains Object, Customer Need remains Use Case/why, Metrics remain Info with a classification extension, source/research remains Document/Info, and planning remains Plan/Issue/Info. Organization is the sole high-confidence new formal type candidate because institutional identity and governed business relationships are materially different from both Actor and Info."
+
+next_step:
+  step: 75
