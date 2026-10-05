@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Organizations")
+    - file.inFolder("60_Stakeholders and Ecosystem/Organizations")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
