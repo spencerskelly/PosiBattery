@@ -26,6 +26,7 @@ performedBy:
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 ---
 
 # Detect and Record Impacts
