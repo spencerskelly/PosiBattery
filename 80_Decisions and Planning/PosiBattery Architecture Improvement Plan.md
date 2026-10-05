@@ -3999,6 +3999,40 @@ Validation run `37284706945` remained at the established **19 broken wikilinks**
 
 **Result:** Step 51 complete.
 
+## Step 52 completion evidence — Function hierarchy gaps reviewed
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Product Function Hierarchy Gap Review Step 52 0.1.yaml`.
+
+The complete Function hierarchy was reviewed below the six established goal roots, including targeted inspection of the main scope/overlap candidates from Step 50.
+
+### Result
+
+- **129 / 129** Function notes remain represented in the documented hierarchy.
+- **103 / 103** concrete Functions have a general parent.
+- **20 / 20** general Function families connect to a goal branch.
+- **6 / 6** goal Functions have decomposition children.
+- **0 supported missing hierarchy relationships** were found.
+- **0 Function notes or relationships changed.**
+
+The review confirmed that the highest-risk candidates are already modeled appropriately:
+
+- [[Limit Truck Speed Automatically]] is already a specialization of [[Limit Vehicle Speed Automatically]].
+- [[Alert Operator of Hazards]] is already a specialization of [[Warn People of Hazards]].
+- [[Alert on Abnormal Condition]] correctly remains under [[Inform Users of Battery Condition]] rather than the nearby vehicle-hazard warning branch.
+- [[Display Battery Status to Operator]] and [[Display Truck Status to Operator]] intentionally belong to different battery-condition versus truck-condition families.
+- [[Operate in Cold Storage]] and [[Operate in Wet or Dusty Conditions]] are already specializations of [[Operate in Harsh Conditions]].
+- [[Manage Fleet Use]] correctly uses goal decomposition under [[Manage Fleet Use and Data]] rather than subtype inheritance.
+
+Potential secondary thematic membership was not treated as a gap because the active Function modeling rule uses one strongest general parent.
+
+Commit: `feae8272`.
+
+**Result:** Step 52 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4049,3 +4083,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 49 | 2026-10-04 | Complete | Validated the architecture view: all 14 canvas edges match governed relationships, no unsupported semantics were introduced, and remaining product-context, Design, Function, evidence, Port, flow, and subtype-quality gaps are explicitly documented. |
 | 50 | 2026-10-04 | Complete | Analyzed all 129 Product Functions: 6 goal-level decomposition roots, 20 intermediate reusable families, and 103 concrete source-backed functions; confirmed zero Step-50 hierarchy orphans and zero Requirement satisfaction links, with scope/naming and traceability questions deferred to Steps 52–54. |
 | 51 | 2026-10-05 | Complete | Grouped Function navigation by the six existing modeled goal roots, synchronized the documented Function tree with all 129 Function notes, and avoided arbitrary physical folders or semantic changes. Evidence: `Product Function Navigation Grouping Step 51 0.1.yaml`. |
+| 52 | 2026-10-05 | Complete | Reviewed the full 129-Function hierarchy and targeted scope/overlap candidates; found zero supported missing hierarchy links, zero hierarchy orphans, and made no semantic changes. Evidence: `Product Function Hierarchy Gap Review Step 52 0.1.yaml`. |
