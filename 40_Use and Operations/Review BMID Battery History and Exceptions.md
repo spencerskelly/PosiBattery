@@ -20,6 +20,9 @@ givesRiseTo:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+drives:
+  - "[[BMID - Preserve Battery Association]]"
+  - "[[BMID - Retain Battery-Specific Usage History]]"
 ---
 
 # Review BMID Battery History and Exceptions
