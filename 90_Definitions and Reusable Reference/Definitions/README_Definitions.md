@@ -51,6 +51,19 @@ Definitions may link to Research for provenance, but they should not accumulate 
 
 Enterprise Architect translation/layout guidance such as [[EA Source Section]] and [[Note Layout]] is methodology/reference content, not research extraction. Its long form does not by itself make it Research.
 
+## Evidence linkage and separation
+
+When a reusable definition needs evidentiary support, keep the reusable semantic statement here and place source-specific extraction or analysis in the evidence layer.
+
+Use the following pattern:
+
+- link to a curated [[README_Source Documents|Source Document]] record when a specific external document directly supports the definition;
+- link to [[README_Research|Research]] when the support depends on synthesis, comparison, conflicting evidence, or interpretation across sources;
+- keep vendor wording, dated observations, extracted tables, long source summaries, and unresolved source conflicts out of reusable definition notes;
+- preserve uncertainty in the Research or Source Document record rather than converting it into unconditional definition text.
+
+A definition does not require an evidence link when it is itself a controlled internal modeling convention or schema vocabulary. Evidence links are appropriate when the definition makes an externally sourced technical, market, standards, product, or technology claim.
+
 ## Maintenance
 
 Update this index when a new authoring convention or property family is added. Define reusable terminology and relationship semantics here rather than creating inconsistent local variants.
