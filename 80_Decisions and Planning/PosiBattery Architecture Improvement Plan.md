@@ -1566,6 +1566,64 @@ The one-link improvement is expected because the Product Capabilities root READM
 
 ---
 
+## Step 17 completion evidence — Use and Operations navigation normalized
+
+**Date:** 2026-10-04
+
+The `40_Use and Operations` domain now has a complete primary navigation set without inventing operational model content.
+
+### Changes
+
+- `40_Use and Operations/README_Use and Operations.md`
+  - replaced target-placeholder wording with active domain guidance;
+  - defines externally controlled Use Cases, workflows, Procedures, Setups, operating environments, service/maintenance context, and operational Issues as appropriate content;
+  - distinguishes externally controlled operational behavior from product-controlled Functions in Product Capabilities;
+  - explicitly states that the domain is intentionally sparse and should not be populated merely for completeness.
+
+- `40_Use and Operations/BASE_local_Use and Operations.base`
+  - created as a direct-folder Markdown view.
+
+- `40_Use and Operations/BASE_all_Use and Operations.base`
+  - created as a recursive Markdown view.
+
+- `40_Use and Operations/CANVAS_Use and Operations.canvas`
+  - created as a minimal curated map using the domain README plus an explanatory note;
+  - no use cases, workflows, procedures, or operational issues were invented.
+
+### Validation
+
+GitHub Actions run `37258578074` on commit `5adbfdfd` completed the structural audit.
+
+Results:
+
+- Markdown files: 1074
+- Model notes: 905
+- Broken wikilinks: **22** (improved from 23)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The one-link improvement is expected because the Use and Operations README no longer uses the obsolete path-qualified taxonomy link form.
+
+### Commits
+
+- `3b346ded` — normalize Use and Operations README
+- `d015cdf3` — add local Base
+- `f9b120e0` — add recursive Base
+- `5adbfdfd` — add curated Canvas
+
+**Result:** Step 17 complete. `40_Use and Operations` now has coherent navigation and scope guidance while remaining intentionally free of unsupported operational content.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1581,3 +1639,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 11 | 2026-10-04 | Complete | Standardized primary navigation naming to README/BASE/CANVAS with the human domain label (numeric root prefix omitted). Renamed six unambiguous root READMEs; retained Products and Customer Needs duplicate placeholders for Steps 13–14. Updated handoff and navigation inventory. |\n| 12 | 2026-10-04 | Complete | Re-ran the full structural audit on `fb499273`; results remain 27 broken wikilinks and zero findings in all other structural categories. No new defects were introduced by Steps 7–11. Run `37257599894`, job `111597915688`. |\n| 13 | 2026-10-04 | Complete | Reconciled `10_Products`: consolidated into `README_Products.md`, repaired the local Base path to `10_Products`, retired the duplicate placeholder, retained the valid recursive Base and Canvas, and reduced broken wikilinks from 27 to 26. |\n| 14 | 2026-10-04 | Complete | Reconciled `50_Customer Needs`: consolidated into `README_Customer Needs.md`, repaired both local and recursive Base paths to `50_Customer Needs`, retired the duplicate placeholder, retained the curated Canvas, and reduced broken wikilinks from 26 to 25. |
 | 15 | 2026-10-04 | Complete | Normalized `20_Product Architecture` with an active README, local/recursive Bases, and a minimal curated Canvas; no architecture elements were invented. Structural audit improved broken wikilinks from 25 to 24. |
 | 16 | 2026-10-04 | Complete | Normalized `30_Product Capabilities` with active root README/Base/Canvas navigation, surfaced Functions/Designs/Metrics, repaired all six child Base paths to numbered locations, and reduced broken wikilinks from 24 to 23 without reclassifying model content. |
+| 17 | 2026-10-04 | Complete | Normalized `40_Use and Operations` with an active README, local/recursive Bases, and a minimal curated Canvas; no operational content was invented. Structural audit improved broken wikilinks from 23 to 22. |
