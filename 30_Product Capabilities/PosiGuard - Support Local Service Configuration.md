@@ -13,6 +13,8 @@ appliesTo:
   - "[[PosiCharge PosiGuard]]"
 drivenBy:
   - "[[Configure and Service a Supported BMID]]"
+satisfiedBy:
+  - "[[Configure Device from Mobile App or PC]]"
 ---
 
 # PosiGuard - Support Local Service Configuration
