@@ -33,6 +33,11 @@ Customer need: Stretch Truck Run Time per Charge. The problem behind it: Less en
   - [[Raymond 7000 Series Reach-Fork Trucks]]: Raymond's catalog says the Model 7500 returns up to 10 percent of every amp to the battery with regenerative lowering technology and uses up to 21 percent less energy than the leading competition (vendor claims). Source: Raymond 7000 Series catalog (DirectIndustry) (T1 (catalog)), retrieved 2026-10-03. <https://pdf.directindustry.com/pdf/raymond/7000-series-reach-fork-truck-universal-stance/14119-514315.html>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Opportunity-Charge a Vehicle During a Work Break]].
+- Operating contexts: [[Distributed and Opportunity Charging Area]].
+
 ## Aliases
 
 
