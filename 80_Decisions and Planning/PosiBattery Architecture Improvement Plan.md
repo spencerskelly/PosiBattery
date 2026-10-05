@@ -2231,6 +2231,123 @@ Migration does not resolve provenance debt. Later evidence-cleanup work still ne
 
 ---
 
+## Step 26 completion evidence — EMS Research migrated
+
+**Date:** 2026-10-04
+
+The legacy `_EMS Research` island was inventoried, mapped, migrated, and validated within this step.
+
+### Inventory and mapping
+
+Created:
+
+`80_Decisions and Planning/EMS Research Migration Record 0.1.yaml`
+
+The four source notes were classified as:
+
+- primary EMS research synthesis;
+- research source-link register;
+- standards/manual acquisition and verification plan;
+- preserved research-status/limitation record.
+
+The migration record explicitly preserves unresolved verification needs and prevents protocol, command, compliance, product-support, architecture, or requirement claims from being promoted into canonical model facts without authoritative evidence.
+
+### Controlled move
+
+All four notes were moved one-to-one into:
+
+`70_Research and Evidence/Research/EMS/`
+
+with filenames preserved.
+
+The migration reused each file's exact original Git blob SHA, confirming byte-for-byte content preservation.
+
+Post-move verification:
+
+- legacy source files remaining under `_EMS Research`: **0**
+- migrated EMS research notes at destination: **4**
+- filenames changed: **0**
+- content blobs changed: **0**
+
+### Navigation
+
+Created:
+
+`70_Research and Evidence/Research/EMS/README_EMS Research.md`
+
+The README:
+
+- distinguishes research synthesis from approved requirements/architecture;
+- links all four EMS research/support notes;
+- preserves unresolved verification status;
+- states that `Source Links.md` is a research support register rather than a curated Source Document collection;
+- warns against assuming product-specific protocol support without authoritative evidence.
+
+Updated:
+
+`70_Research and Evidence/Research/README_Research.md`
+
+to make the EMS subgroup discoverable.
+
+No subgroup Base or Canvas was created because the parent Research recursive Base already exposes the files.
+
+### Machine-readable records
+
+- `EMS Research Migration Record 0.1.yaml`
+  - marked `migration_executed: true`;
+  - records migration commit `7b10f360`;
+  - records legacy source-folder removal and navigation update.
+
+- `PosiBattery Folder Inventory.yaml`
+  - replaced the `_EMS Research` migration-candidate entry with canonical `70_Research and Evidence/Research/EMS`;
+  - canonical-folder count increased from 69 to 70;
+  - migration-candidate count decreased from 9 to 8.
+
+### Validation
+
+GitHub Actions run `37266111819` on commit `25026802` completed the structural audit.
+
+Results:
+
+- Markdown files: 1077
+- Model notes: 905
+- Broken wikilinks: **19** (unchanged)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The Markdown count increased by one because the subgroup README was intentionally added.
+
+### Commits
+
+- `20b7bf74` — add EMS migration record
+- `7b10f360` — move all four EMS research notes with original blob identities preserved
+- `950d4e73` — add EMS Research README
+- `3da7c49c` — link EMS Research from parent Research navigation
+- `a6097b5b` — mark EMS migration record executed
+- `25026802` — update folder inventory
+
+### Deferred evidence work
+
+Later evidence/modeling work still needs to:
+
+- create curated Source Document records for authoritative standards/vendor manuals where durable claims depend on them;
+- verify exact protocol versions, register maps, command semantics, product support, and compliance claims;
+- preserve the unresolved acquisition list until authoritative documents are obtained;
+- extract Requirements, Functions, Designs, Interfaces, Product Architecture, or product opportunities only through separate evidence-backed modeling work.
+
+**Result:** Step 26 complete. The EMS research island has been eliminated without content loss, and its unresolved verification state remains explicit.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -2255,3 +2372,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 23 | 2026-10-04 | Complete | Inventoried all 12 `_Cost Driver Research` notes, classified them as research synthesis, documented source/provenance quality and unique conclusions, recommended `70_Research and Evidence/Research/Cost Drivers` as the destination group, and made no migration changes. |
 | 24 | 2026-10-04 | Complete | Created an explicit one-to-one migration map for all 12 cost-driver notes into `70_Research and Evidence/Research/Cost Drivers`, with content-class preservation rules and no file moves. Structural audit remained stable at 19 broken wikilinks. |
 | 25 | 2026-10-04 | Complete | Migrated all 12 cost-driver research notes unchanged into `70_Research and Evidence/Research/Cost Drivers`, added one useful subgroup README, updated Research navigation and machine inventories, eliminated the legacy root island, and kept the structural audit stable at 19 broken wikilinks. |
+| 26 | 2026-10-04 | Complete | Inventoried, mapped, and migrated all four `_EMS Research` notes unchanged into `70_Research and Evidence/Research/EMS`, preserved unresolved verification/source needs, added one subgroup README, updated Research navigation and folder inventory, and kept the structural audit stable at 19 broken wikilinks. |
