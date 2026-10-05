@@ -3510,6 +3510,72 @@ Results remain stable:
 
 ---
 
+## Step 41 completion evidence — Ambiguous product classifications queued
+
+**Date:** 2026-10-04
+
+All unresolved product identity and abstraction questions from Steps 37–39 were added to the canonical decision/review queue rather than being forced into hierarchy.
+
+### Backlog updated
+
+`80_Decisions and Planning/Knowledge Base Backlog.md`
+
+A new **Product classification review queue** now contains seven items:
+
+- **PCQ-001** — BMID 3 versus PosiGuard identity
+- **PCQ-002** — BMID 1 versus Battery Rx identity
+- **PCQ-003** — Class I forklift series/family versus specific-offering classification
+- **PCQ-004** — Industrial charger family/series versus specific-offering classification
+- **PCQ-005** — Flooded lead-acid battery series/family classification
+- **PCQ-006** — Lithium-ion Pack/Series/Option family/platform/variant/offering classification
+- **PCQ-007** — VRLA battery series/family classification
+
+### Queue record created
+
+`80_Decisions and Planning/Product Classification Review Queue Step 41 0.1.yaml`
+
+### Governance
+
+The queue explicitly preserves these rules:
+
+- folder location does not resolve product identity;
+- name similarity does not justify a merge;
+- commercial family/series notes may remain peers of specific offerings until stronger evidence exists;
+- hierarchy should not be deepened for symmetry;
+- evidence resolution should update the canonical notes and review records rather than silently altering structure.
+
+### Validation
+
+GitHub Actions run `37270889172` on commit `8016bcca` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No product identities were merged, moved, renamed, or reclassified in Step 41.
+
+### Commits
+
+- `79f7dbdf` — add product classification review queue to the canonical backlog
+- `8016bcca` — record Step 41 ambiguity queue
+
+**Result:** Step 41 complete. All unresolved product-classification decisions are visible, actionable, and explicitly deferred rather than guessed.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3549,3 +3615,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 38 | 2026-10-04 | Complete | Reviewed potential duplicate product identities: found no confirmed duplicates, preserved two unresolved PosiCharge BMID-family identity overlaps, and confirmed five major name-similarity groups as distinct products/system-component relationships. |
 | 39 | 2026-10-04 | Complete | Reviewed placement conflicts and identified 26 high-confidence reusable Truck/GSE anatomy notes that belong under canonical Product Architecture; preserved five series/offering areas as review-only signals and confirmed abstract product-category organizers are not placement conflicts. |
 | 40 | 2026-10-04 | Complete | Moved 26 reusable Truck/GSE anatomy notes into canonical `20_Product Architecture` groupings using exact Git blobs, preserved IDs/UIDs/relationships, removed old product-side copies, and added product-to-architecture navigation links; ambiguous classifications remain deferred. |
+| 41 | 2026-10-04 | Complete | Added seven unresolved product identity/abstraction questions to the canonical backlog and a machine-readable Step 41 queue; no ambiguous case was forced into hierarchy or merged. |
