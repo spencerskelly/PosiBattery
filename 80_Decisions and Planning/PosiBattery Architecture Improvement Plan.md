@@ -3823,6 +3823,40 @@ Audit run `37272230276` on commit `f8e6f080` remained stable at 19 known broken 
 
 ---
 
+## Step 47 completion evidence — Local Model occurrence candidates identified
+
+**Date:** 2026-10-04
+
+Created `80_Decisions and Planning/Local Model Occurrence Candidates Step 47 0.1.yaml`.
+
+The Local Model schema was reviewed before proposing occurrences.
+
+Key result:
+
+- all **26** current reusable Truck/GSE architecture Objects are `abstract: true`;
+- a standard Local Model part occurrence cannot reference an abstract Object;
+- variant/option occurrences require valid concrete specialization candidates;
+- therefore **0 immediately valid Local Model part occurrences** should be created from the current anatomy definitions.
+
+Eight high-value occurrence patterns were identified for future contextual modeling, including battery compartments, controller/network assemblies, controls/displays, drive/brake subsystems, lighting, operator compartments, rear-body/counterweight structure, and hydraulics.
+
+Four Design-driven structural opportunities were also identified where product evidence already exists:
+
+- Truck Charging Port;
+- Battery Onboard Charger;
+- Regenerative Braking-related structural architecture;
+- vehicle/display hardware.
+
+These remain prerequisites, not occurrences. Concrete reusable Object/Port definitions must exist before valid Local Model records are authored.
+
+No Local Model records, duplicate notes, or mass `hasPart` relationships were created.
+
+Audit run `37272510192` on commit `ea1680be` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+
+**Result:** Step 47 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3868,3 +3902,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 44 | 2026-10-04 | Complete | Retained all 94 architecture-like Product Designs as reusable definitions; found no single-product contextual architecture notes among them; queued 37 component/interface-like concepts for Step 45 structural review. |
 | 45 | 2026-10-04 | Complete | Classified 37 structural counterpart candidates: 36 Object-role candidates and 1 Port candidate, with no supported Item Flows yet; recorded schema boundaries for system/module/component roles and preserved all existing Design definitions unchanged. |
 | 46 | 2026-10-04 | Complete | Mapped the current Product Architecture structure: 2 abstract assemblies, 24 explicit hasPart/partOf decomposition edges, 2 root subtypeOf edges, and no modeled Ports, Item Flows, interface edges, or exposure edges; recorded product-context occurrence gaps without inventing relationships. |
+| 47 | 2026-10-04 | Complete | Identified eight high-value Local Model occurrence patterns and four Design-driven structural opportunities, but created no occurrences because all 26 current anatomy Objects are abstract and lack concrete specialization candidates required by Local Model 0.2. |
