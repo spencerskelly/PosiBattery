@@ -1,0 +1,309 @@
+schema_version: "0.1"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 3
+status: "Complete"
+title: "Active-engineering versus reference-content semantic linking standards"
+
+authority:
+  expectation_matrix: "80_Decisions and Planning/Semantic Linking Expectation Matrix Step 2 0.1.yaml"
+  element_schema: "99_System/03_Schemas/element-types.yaml 1.18"
+  relationship_schema: "99_System/03_Schemas/relationships.yaml 1.36"
+  modeling_ruleset: "99_System/10_Docs/MDSE Modeling Ruleset 1.23.md"
+  rule: "Classification changes completeness expectations only; it does not change element type, status, identity, or relationship meaning."
+
+purpose:
+  statement: "Apply strict semantic-completeness expectations to active engineering work while allowing intentionally sparse market/reference knowledge without forcing artificial relationships."
+  principle: "Classify by engineering use and context, not by folder location or element type alone."
+
+coverage_classes:
+  active_engineering:
+    meaning: "The note participates in a current or adopted product-development decision, architecture, behavior, requirement, verification, issue/risk response, or execution chain."
+    completeness_standard: "strict"
+    required_outcome:
+      - "No unexplained semantic isolation."
+      - "Every Step 2 expectation dimension that materially applies has either a supported relationship path or a reviewed disposition."
+      - "The element participates in a traversable engineering chain appropriate to its role."
+      - "Missing implementation, satisfaction, verification, evidence, or ownership links are visible review findings until resolved or intentionally excepted."
+    evidence_priority: "high"
+    automatic_sparse_leaf_allowed: false
+
+  engineering_support:
+    meaning: "The note supports engineering work but is not itself a committed active product-development decision or chain element."
+    examples:
+      - "generic reusable definition not yet selected into a product"
+      - "verification/procedure/setup library item"
+      - "metric/property definition"
+      - "research synthesis used for comparison"
+      - "shared platform concept"
+    completeness_standard: "contextual"
+    required_outcome:
+      - "Must have enough context to answer what it is and why it is retained when used by active engineering."
+      - "Where-used or evidence linkage is required once the note is relied upon by active engineering."
+      - "Unused reusable definitions may remain sparse when their purpose is clear and later exception classification is available."
+    evidence_priority: "medium"
+    automatic_sparse_leaf_allowed: false
+
+  reference_content:
+    meaning: "The note is retained primarily as external market/catalog/source/reference knowledge and has not been adopted as an active engineering decision."
+    examples:
+      - "competitor or market product offering"
+      - "organization identity used for ecosystem research"
+      - "external technology/reference concept"
+      - "source Document"
+      - "comparison-only Design or Object"
+    completeness_standard: "light"
+    required_outcome:
+      - "Identity and meaning must be clear."
+      - "Any semantic relationships that are asserted must be valid and evidence-supported."
+      - "No obligation exists to manufacture upstream/downstream engineering-chain links."
+      - "If active engineering relies on the note, the relied-upon claim must be connected and the note may become engineering_support or active_engineering."
+    evidence_priority: "selective"
+    automatic_sparse_leaf_allowed: true
+
+  historical_or_import_holding:
+    meaning: "The note exists to preserve source fidelity, provenance, migration history, or unresolved imported semantics."
+    completeness_standard: "preservation"
+    required_outcome:
+      - "Preserve identity and source context."
+      - "Do not force product-development links before semantic promotion."
+      - "Any provisional/temporary governed relationship remains a review finding under the active schema."
+      - "When promoted into active engineering, reclassify its completeness context and satisfy that standard."
+    evidence_priority: "source-fidelity"
+    automatic_sparse_leaf_allowed: true
+
+classification_precedence:
+  - "A note actively used in a product-development chain is active_engineering even if its type is normally common in reference content."
+  - "A source/reference note becomes engineering_support when an active engineering decision materially relies on it; the specific relied-upon claim should gain evidence traceability."
+  - "A reusable definition used by an active product through a governed note relationship or Local Model occurrence is at least engineering_support; if it embodies a current product decision, it is active_engineering."
+  - "Folder placement never determines classification."
+  - "Draft status never by itself makes a note reference-only; all current notes are Draft."
+  - "An external origin never by itself makes a note reference-only if engineering has adopted it into a decision or implementation."
+  - "When two classifications could apply, use the stricter one."
+
+activation_signals:
+  active_engineering:
+    any_of:
+      - "direct participation in Need/Use Case/Requirement/Function/Design/Verification chain"
+      - "appliesTo/applies connects the element to a currently modeled product or active Requirement/Design context"
+      - "Object performs an active Function or owns an active Design"
+      - "definition is used by a Local Model occurrence in an active product assembly/context"
+      - "Verification verifies an active Requirement/Function/Design/Info"
+      - "Issue/Failure Mode affects active product architecture or drives an active Requirement/Design/Plan"
+      - "Result supports/verifies/contradicts an active engineering decision"
+      - "Plan/Procedure/Setup is selected into current verification or execution work"
+  engineering_support:
+    any_of:
+      - "governed reusable definition with known cross-product/platform purpose but no active product selection"
+      - "source/research/metric concept used to frame or compare active engineering but not itself adopted"
+      - "library Verification/Procedure/Setup/Plan retained for intended reuse"
+      - "Document/Artifact provides reusable technical background but no current decision depends materially on it"
+  reference_content:
+    any_of:
+      - "market/catalog Object retained for comparison only"
+      - "Organization/Actor retained primarily for ecosystem context without active Need/Use Case/business decision"
+      - "external technology/design/reference concept not selected into a product"
+      - "Document retained for source coverage without a current engineering claim depending on it"
+      - "Info retained as general research/context/framing"
+  historical_or_import_holding:
+    any_of:
+      - "modelCheck holding element"
+      - "source-fidelity Diagram"
+      - "legacy imported Step/Functional Flow/State awaiting semantic reconciliation"
+      - "superseded/historical artifact retained for audit trail"
+
+type_defaults:
+  Requirement:
+    default_when_product_scoped: "active_engineering"
+    default_when_external_unapplied: "reference_content"
+    strict_reason: "Requirements define obligations and therefore need rationale/scope plus satisfaction and verification disposition when active."
+  Function:
+    default_when_performed_or_product_linked: "active_engineering"
+    default_when_generic_unselected: "engineering_support"
+    strict_reason: "Active Functions are central behavior-chain elements."
+  Design:
+    default_when_product_or_function_linked: "active_engineering"
+    default_when_generic_reusable: "engineering_support"
+    default_when_comparison_only: "reference_content"
+    strict_reason: "Active Designs encode implementation decisions."
+  Verification:
+    default_when_targeting_active_element: "active_engineering"
+    default_when_library_only: "engineering_support"
+    strict_reason: "Verification closes the engineering decision chain."
+  Use_Case:
+    default_when_product_or_need_context: "active_engineering"
+    default_when_research_scenario_only: "reference_content"
+    strict_reason: "Active Use Cases connect stakeholder intent to product behavior/requirements."
+  Object:
+    default_when_product_architecture_or_local_model_use: "active_engineering"
+    default_when_reusable_platform_definition: "engineering_support"
+    default_when_market_catalog: "reference_content"
+  Port:
+    default_when_owned_or_used_in_active_local_model: "active_engineering"
+    default_when_reusable_unselected: "engineering_support"
+    default_when_external_reference: "reference_content"
+  Item_Flow:
+    default_when_used_in_active_interface_or_local_model: "active_engineering"
+    default_when_reusable_unselected: "engineering_support"
+    default_when_external_reference: "reference_content"
+  State:
+    default_when_owned_by_active_behavior: "active_engineering"
+    default_when_imported_unreconciled: "historical_or_import_holding"
+  State_Machine:
+    default_when_owned_by_active_product_behavior: "active_engineering"
+    default_when_reference_or_unadopted: "engineering_support"
+  Functional_Flow:
+    default_when_active_behavior_model: "active_engineering"
+    default_when_generic_or_unselected: "engineering_support"
+    default_when_imported_source_fidelity: "historical_or_import_holding"
+  Actor:
+    default_when_need_or_active_participant: "active_engineering"
+    default_when_stakeholder_reference_only: "reference_content"
+  Organization:
+    default_when_active_need_business_or_product_context: "engineering_support"
+    default_when_ecosystem_reference_only: "reference_content"
+    note: "Organization becomes active_engineering only when the organization itself is part of an active engineering requirement/use/operational decision, not merely because it supplies a market product."
+  Failure_Mode:
+    default_when_applied_to_active_product: "active_engineering"
+    default_when_library_only: "engineering_support"
+  Issue:
+    default_when_open_against_active_product: "active_engineering"
+    default_when_historical_closed: "historical_or_import_holding"
+  Info:
+    default_when_metric_property_or_decision_context_used_by_active_engineering: "engineering_support"
+    default_when framing_or_general_research: "reference_content"
+    default_when active_requirement_or_verification_chain_depends_on_it: "active_engineering"
+  Step:
+    default_when_part_of_active_execution: "active_engineering"
+    default_when reusable_procedure_library: "engineering_support"
+    default_when imported_unreconciled: "historical_or_import_holding"
+  Procedure:
+    default_when_selected_for_active_validation_or_execution: "active_engineering"
+    default_when library_only: "engineering_support"
+  Setup:
+    default_when_required_by_active_validation_or_execution: "active_engineering"
+    default_when library_only: "engineering_support"
+  Plan:
+    default_when current_campaign_or_execution_plan: "active_engineering"
+    default_when reusable_or draft shell: "engineering_support"
+  Result:
+    default_when evidence_for_active_decision: "active_engineering"
+    default_when raw_unreviewed_or historical: "historical_or_import_holding"
+  Document:
+    default_when materially supporting_active_decision: "engineering_support"
+    default_when curated_reference_only: "reference_content"
+    note: "The engineering element being supported remains the active-engineering node; the Document normally remains support/evidence rather than becoming a product-development decision itself."
+  Artifact:
+    default_when used_as active execution/design evidence: "engineering_support"
+    default_when archived_reference: "historical_or_import_holding"
+  modelCheck:
+    default: "historical_or_import_holding"
+  Diagram:
+    default_when derived_navigation_view: "reference_content"
+    default_when imported_source_fidelity: "historical_or_import_holding"
+    note: "A Diagram generally does not need semantic chain completeness because the underlying model is authoritative."
+
+strict_active_engineering_expectations:
+  Requirement:
+    must_address:
+      - "rationale/upstream reason"
+      - "scope/applicability when scope is material"
+      - "satisfaction disposition"
+      - "verification disposition"
+  Function:
+    must_address:
+      - "performer/product context"
+      - "intent/rationale path"
+      - "implementation/realization or explicit architecture-gap disposition"
+  Design:
+    must_address:
+      - "ownership/use context"
+      - "behavior/requirement rationale"
+      - "verification/evidence disposition when material"
+  Verification:
+    must_address:
+      - "at least one valid verification target"
+      - "execution evidence path when results exist"
+  Use_Case:
+    must_address:
+      - "actor/organization need or participation context"
+      - "downstream realization and/or requirement-driving path when product work is active"
+  Object:
+    must_address:
+      - "product/architecture use context"
+      - "behavior/design/interface links applicable to its engineering role"
+  Port:
+    must_address:
+      - "owner/use context"
+      - "interface/flow semantics where material"
+  Item_Flow:
+    must_address:
+      - "where-used/interface context"
+  State:
+    must_address:
+      - "owner"
+      - "transition/sequence context where modeled"
+  State_Machine:
+    must_address:
+      - "owner"
+      - "constituent state context"
+  Failure_Mode:
+    must_address:
+      - "affected target"
+      - "response/mitigation chain when one exists"
+  Issue:
+    must_address:
+      - "affected target"
+      - "response/decision path"
+  validation_execution_elements:
+    applies_to: [Procedure, Setup, Plan, Result, Step]
+    must_address:
+      - "active execution/campaign context"
+      - "upstream/downstream execution meaning appropriate to the class"
+
+reference_content_standard:
+  required:
+    - "Canonical identity remains stable."
+    - "Type and meaning are understandable."
+    - "Existing governed relationships are valid."
+    - "Source/provenance is preserved when applicable."
+    - "If the reference is used by active engineering, the specific semantic/evidence dependency is represented."
+  not_required:
+    - "Need-to-verification chain completeness."
+    - "Product ownership."
+    - "Artificial performer/design/verification links."
+    - "A relationship solely to eliminate orphan status."
+    - "Curated evidence relationship for every raw URL or market fact."
+  promotion_rule: "When reference content begins influencing an engineering decision, re-evaluate it under engineering_support or active_engineering before calling linking complete."
+
+engineering_support_standard:
+  required:
+    - "Purpose/reuse context is clear."
+    - "Active consumers can answer where-used when the note is actually used."
+    - "Evidence links are present when active decisions depend on claims in the note."
+    - "No invalid or misleading semantic relationship is tolerated."
+  not_required:
+    - "Full product-development chain when the element has not been selected/adopted."
+    - "Verification coverage for unused generic definitions."
+
+whole_vault_review_rule:
+  first_question: "What completeness class does this note have in its current use?"
+  second_question: "Under that class, which Step 2 expectation dimensions materially apply?"
+  third_question: "Are those dimensions supported, intentionally absent, or unresolved?"
+  caution: "Step 4 will define the controlled vocabulary for intentionally absent/unresolved dispositions; do not invent free-form exception codes before then."
+
+step_3_result:
+  completeness_classes_defined: 4
+  governed_types_mapped: 25
+  strict_active_engineering_standard_defined: true
+  reference_sparse_leaf_standard_defined: true
+  folder_based_classification_allowed: false
+  status_based_classification_allowed: false
+  schema_changes_made: 0
+  model_relationships_changed: 0
+  ready_for_step_4: true
+
+next_step:
+  step: 4
+  title: "Define intentional exception classes"
