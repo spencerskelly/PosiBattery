@@ -1702,6 +1702,81 @@ The final specialized offerings Base repair was committed immediately afterward 
 
 ---
 
+## Step 19 completion evidence — Research and Evidence navigation normalized
+
+**Date:** 2026-10-04
+
+The `70_Research and Evidence` root now has a complete primary navigation set and clearly separates three evidence layers: acquired artifacts, curated Source Document records, and research synthesis.
+
+### Changes
+
+- `README_Research and Evidence.md`
+  - replaced target-placeholder wording with active evidence-layer guidance;
+  - defines `Downloads` as temporary intake/staging rather than canonical evidence;
+  - defines Source Document notes as curated evidence/provenance records;
+  - defines Research as synthesis, comparison, conflict tracking, audits, and investigation;
+  - establishes the working chain `acquired artifact → curated Source Document record → research/model claim`;
+  - explicitly preserves later migration/cleanup steps for Downloads and root research islands.
+
+- `BASE_local_Research and Evidence.base`
+  - created for direct Markdown contents of the root evidence domain.
+
+- `BASE_all_Research and Evidence.base`
+  - created for recursive Markdown contents across Research and Source Documents.
+
+- `CANVAS_Research and Evidence.canvas`
+  - created as a curated map linking the root README, Downloads intake, Source Documents, and Research.
+
+### Child navigation repairs
+
+Four stale Base paths were repaired:
+
+- Research local + recursive:
+  - from `Research`
+  - to `70_Research and Evidence/Research`
+
+- Source Documents local + recursive:
+  - from `Source Documents`
+  - to `70_Research and Evidence/Source Documents`
+
+No research notes, source records, or downloaded artifacts were moved, deleted, or semantically reclassified.
+
+### Validation
+
+GitHub Actions run `37263571471` on commit `0961d060` completed the structural audit.
+
+Results:
+
+- Markdown files: 1074
+- Model notes: 905
+- Broken wikilinks: **20** (improved from 21)
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+The one-link improvement is expected because the Research and Evidence root README no longer uses the obsolete path-qualified taxonomy link form.
+
+### Commits
+
+- `9d080aa5` — normalize Research and Evidence README
+- `90b02b30` — add local root Base
+- `ff4b8700` — add recursive root Base
+- `9c134685` — add root Canvas
+- `550ac462`, `fc521dba` — repair Research Bases
+- `9c3a13b7`, `0961d060` — repair Source Documents Bases
+
+**Result:** Step 19 complete. `70_Research and Evidence` now has coherent navigation and an explicit evidence flow while preserving later evidence-cleanup and migration work.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -1719,3 +1794,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 16 | 2026-10-04 | Complete | Normalized `30_Product Capabilities` with active root README/Base/Canvas navigation, surfaced Functions/Designs/Metrics, repaired all six child Base paths to numbered locations, and reduced broken wikilinks from 24 to 23 without reclassifying model content. |
 | 17 | 2026-10-04 | Complete | Normalized `40_Use and Operations` with an active README, local/recursive Bases, and a minimal curated Canvas; no operational content was invented. Structural audit improved broken wikilinks from 23 to 22. |
 | 18 | 2026-10-04 | Complete | Normalized `60_Stakeholders and Ecosystem` with active root navigation, clarified Actors vs Organizations, repaired four standard child Base paths plus the offerings view to numbered canonical paths, and reduced broken wikilinks from 22 to 21. |
+| 19 | 2026-10-04 | Complete | Normalized `70_Research and Evidence` with active root navigation, clarified raw artifacts vs Source Document records vs synthesis, repaired Research/Source Document Bases to numbered paths, and reduced broken wikilinks from 21 to 20. |
