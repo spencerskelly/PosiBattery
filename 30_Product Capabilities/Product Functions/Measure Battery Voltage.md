@@ -37,6 +37,8 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Exide Solition Light Traction Battery]]"
+realizes:
+  - "[[Inspect Battery Condition Through a BMID]]"
 ---
 
 # Measure Battery Voltage
