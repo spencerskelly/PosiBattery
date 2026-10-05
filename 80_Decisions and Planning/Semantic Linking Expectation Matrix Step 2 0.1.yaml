@@ -634,7 +634,7 @@ cross_class_chain_contract:
       - "Local Model occurrence -> reusable Object/Port/Item Flow definition for contextual architecture"
 
 step_2_result:
-  governed_classes_covered: 24
+  governed_classes_covered: 25
   omitted_governed_classes: 0
   relationship_vocabulary_extensions_created: 0
   schema_changes_made: 0
