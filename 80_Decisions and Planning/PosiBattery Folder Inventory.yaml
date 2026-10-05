@@ -2,7 +2,7 @@ schema_version: "1.0"
 generated_date: "2026-10-04"
 repository: "spencerskelly/PosiBattery"
 baseline_commit: "1181f542d50115b885ae82738118b13b532c823e"
-purpose: "Machine-readable folder inventory for architecture review and migration planning. Folder classification is intentionally blank until Step 5."
+purpose: "Machine-readable folder inventory for architecture review and migration planning. Folder architectural-role classification populated in Step 5."
 repository_totals:
   entries: 1345
   files: 1240
