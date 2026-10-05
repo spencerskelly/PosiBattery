@@ -1,0 +1,96 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 27
+purpose: "Inventory, mapping, and migration plan for the legacy _Power Conversion Research island."
+source_folder: "_Power Conversion Research"
+destination_folder: "70_Research and Evidence/Research/Power Conversion"
+migration_executed: false
+preserve_filenames: true
+
+summary:
+  files: 4
+  model_wikilinks: 0
+  explicit_governed_relationships: 0
+  explicit_external_links: 0
+  primary_role: "unverified design-reasoning research"
+  migration_treatment: "move unchanged as a coherent research subgroup"
+
+global_evidence_warning:
+  - "The notes contain topology recommendations, efficiency ranges, product references, semiconductor choices, thermal assumptions, and architecture guidance without embedded authoritative citations."
+  - "Treat all quantitative and product-specific claims as research hypotheses until verified against primary sources, standards, vendor data, or controlled engineering analysis."
+  - "Do not extract Designs, Requirements, Architecture, Interfaces, or product commitments from these notes merely because the prose is technically plausible."
+
+files:
+  - file: "Chat 1.md"
+    role: "general_power_conversion_primer"
+    preserve:
+      - "conversion-path overview"
+      - "loss-mechanism reasoning"
+      - "topology comparison"
+      - "efficiency-improvement techniques"
+      - "trade-off framing"
+    semantic_rule: "General educational synthesis only; no topology or efficiency value is authoritative without later source verification."
+
+  - file: "Chat 2.md"
+    role: "unidirectional_480vac_to_96vdc_topology_hypothesis"
+    preserve:
+      - "two-stage architecture reasoning"
+      - "Vienna plus LLC/PSFB comparison"
+      - "isolation and DC-bus reasoning"
+      - "alternative topology comparison"
+      - "practical design considerations"
+    semantic_rule: "Treat claimed product examples, efficiencies, bus voltages, topology superiority, and device recommendations as unverified research hypotheses."
+
+  - file: "Chat 3.md"
+    role: "bidirectional_480vac_96vdc_topology_hypothesis"
+    preserve:
+      - "bidirectional DC-bus reasoning"
+      - "AFE topology comparison"
+      - "DAB/CLLC/PSFB comparison"
+      - "protection/control considerations"
+      - "recommended architecture hypothesis"
+    semantic_rule: "Do not treat bidirectional architecture, product examples, efficiency values, or grid-control statements as verified design requirements."
+
+  - file: "Chat 4.md"
+    role: "wide_turndown_50kw_to_500w_topology_hypothesis"
+    preserve:
+      - "100:1 turndown reasoning"
+      - "phase-shedding concept"
+      - "DAB versus CLLC trade-off"
+      - "light-load efficiency techniques"
+      - "modular architecture and thermal reasoning"
+    semantic_rule: "Preserve reasoning only; claimed efficiency improvements, thermal recommendations, and topology preference require later engineering/source validation."
+
+mapping:
+  - source: "_Power Conversion Research/Chat 1.md"
+    destination: "70_Research and Evidence/Research/Power Conversion/Chat 1.md"
+    action: "move_unchanged"
+  - source: "_Power Conversion Research/Chat 2.md"
+    destination: "70_Research and Evidence/Research/Power Conversion/Chat 2.md"
+    action: "move_unchanged"
+  - source: "_Power Conversion Research/Chat 3.md"
+    destination: "70_Research and Evidence/Research/Power Conversion/Chat 3.md"
+    action: "move_unchanged"
+  - source: "_Power Conversion Research/Chat 4.md"
+    destination: "70_Research and Evidence/Research/Power Conversion/Chat 4.md"
+    action: "move_unchanged"
+
+navigation_plan:
+  create_readme: true
+  create_base_local: false
+  create_base_all: false
+  create_canvas: false
+  rationale: "Four coherent notes justify a warning/orientation README. Parent Research recursive navigation already exposes the subgroup."
+
+validation:
+  - "Verify all four destination files reuse original Git blob SHAs."
+  - "Verify no source files remain under _Power Conversion Research."
+  - "Update parent Research navigation."
+  - "Update folder inventory."
+  - "Run structural audit."
+
+deferred:
+  - "Recover primary sources for topology, efficiency, product, device, thermal, isolation, and bidirectional-control claims."
+  - "Compare research against actual PosiCharge input/output voltage, power, isolation, safety, thermal, regulatory, bidirectional, and charge-profile requirements."
+  - "Extract candidate Designs, Requirements, Interfaces, Functions, or Architecture only through separate evidence-backed engineering work."
