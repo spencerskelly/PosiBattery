@@ -1,0 +1,112 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 39
+purpose: "Identify product-note placement conflicts using semantic role, relationships, and current canonical domain intent."
+structure_changed: false
+
+summary:
+  high_confidence_placement_conflicts: 26
+  moderate_review_signals: 5
+  low_or_no_conflict_patterns: 3
+  moves_executed: 0
+
+classification_rules:
+  high_confidence_conflict:
+    definition: "Current folder is materially inconsistent with the note's modeled role and a more appropriate canonical domain already exists."
+  moderate_review_signal:
+    definition: "Current placement may obscure semantic level, but product identity or hierarchy evidence is not yet sufficient to move the note."
+  no_conflict:
+    definition: "Abstractness alone does not make a Products placement wrong when the note is a reusable product/category organizer."
+
+high_confidence_conflicts:
+  - group: "Forklift reusable architecture"
+    current_folder: "10_Products/Forklifts/Truck Anatomy"
+    suggested_canonical_domain: "20_Product Architecture"
+    rationale:
+      - "Industrial Truck Anatomy is an abstract assembly with governed hasPart relationships."
+      - "Its child notes represent reusable structural/component concepts rather than marketed product identities."
+      - "20_Product Architecture exists specifically for reusable product architecture knowledge."
+    notes:
+      - "10_Products/Forklifts/Truck Anatomy/Industrial Truck Anatomy.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Battery Compartment.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Controller and CAN Bus.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Controls and Display.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Drive and Brakes.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Forks.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Hydraulics.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Lighting.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Mast.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Operator Compartment.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Overhead Guard.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Rear Body.md"
+      - "10_Products/Forklifts/Truck Anatomy/Truck Wheels.md"
+
+  - group: "GSE reusable architecture"
+    current_folder: "10_Products/Ground Support Equipment/GSE Anatomy"
+    suggested_canonical_domain: "20_Product Architecture"
+    rationale:
+      - "GSE Vehicle Anatomy is an abstract assembly with governed hasPart relationships."
+      - "Its child notes represent reusable structural/component concepts rather than marketed product identities."
+      - "20_Product Architecture exists specifically for reusable product architecture knowledge."
+    notes:
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Battery Compartment.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Canopy and Roof.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Controller and CAN Bus.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Controls and Display.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Drive and Brakes.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Front Body and Bumper.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Hydraulics.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Lighting.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Load-Handling Structure.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Operator Compartment.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Rear Body.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Towing Interface.md"
+      - "10_Products/Ground Support Equipment/GSE Anatomy/GSE Vehicle Anatomy.md"
+
+moderate_review_signals:
+  - area: "10_Products/Forklifts/Class I Electric Rider Trucks"
+    issue: "Commercial series and specific vehicle offerings coexist at one navigation level."
+    action: "Do not move until series-versus-offering identities are verified."
+  - area: "10_Products/Chargers/Industrial Modular Chargers"
+    issue: "Some notes represent multi-model/series identities while most represent specific charger offerings."
+    action: "Do not move until family/series identity is verified."
+  - area: "10_Products/Batteries/Flooded Lead-Acid Batteries"
+    issue: "Series/model abstraction varies among commercial battery notes."
+    action: "Keep current placement pending evidence-based classification."
+  - area: "10_Products/Batteries/Lithium-Ion Batteries"
+    issue: "Pack, Series, Battery Option, and specific battery identities coexist."
+    action: "Keep current placement pending evidence-based classification."
+  - area: "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries"
+    issue: "Series/model abstraction varies among commercial battery notes."
+    action: "Keep current placement pending evidence-based classification."
+
+no_conflict_patterns:
+  - pattern: "Reusable product-category notes in Products"
+    examples:
+      - "Battery and Charger Management Software"
+      - "Access Control Device"
+      - "Industrial Modular Charger"
+    rationale: "These are abstract product-category organizers whose specialization families are themselves products/offering types, so Products remains appropriate."
+  - pattern: "Product family root"
+    examples:
+      - "Battery-Connected Product"
+      - "Industrial Traction Battery"
+      - "Powered Industrial Truck"
+    rationale: "These are reusable product taxonomy roots rather than architecture decomposition."
+  - pattern: "System plus commercial components"
+    examples:
+      - "Linde Safety Guard and its units"
+    rationale: "System/component commercial identities may legitimately remain under Products when each is a marketed product/accessory identity."
+
+placement_policy:
+  - "Navigation location does not redefine ontology."
+  - "Architecture-like notes should move only when their semantic role is clear and links/identity can be preserved."
+  - "Product-category abstract notes stay in Products when they organize product offerings rather than structural architecture."
+  - "Commercial family/series placement remains unchanged until identity evidence is sufficient."
+  - "Step 40 may normalize only high-confidence cases; Step 41 must capture unresolved cases."
+
+step_40_candidates:
+  - "Move or canonically regroup the 13 Truck Anatomy notes under 20_Product Architecture."
+  - "Move or canonically regroup the 13 GSE Anatomy notes under 20_Product Architecture."
+  - "Preserve product-context navigation back from Forklifts and Ground Support Equipment."
