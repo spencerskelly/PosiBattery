@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Product Functions"
+    - file.folder == "30_Product Capabilities/Product Functions"
 views:
   - type: table
     name: Local contents
