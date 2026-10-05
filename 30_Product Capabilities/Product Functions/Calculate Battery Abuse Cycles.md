@@ -18,6 +18,7 @@ performedBy:
   - "[[Philadelphia Scientific eGO!pro]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Calculate Battery Abuse Cycles
