@@ -15,6 +15,9 @@ realizedBy:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
   - "[[Estimate State of Charge]]"
+givesRiseTo:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Inspect Battery Condition Through a BMID
