@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Research")
+    - file.inFolder("70_Research and Evidence/Research")
     - file.ext == "md"
     - '!file.name.startsWith("README_")'
 views:
