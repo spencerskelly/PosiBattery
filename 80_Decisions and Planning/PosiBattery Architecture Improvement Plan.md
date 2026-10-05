@@ -4035,6 +4035,40 @@ Validation run `37285520488` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 53 completion evidence — Near-duplicate Functions reviewed
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Product Function Near-Duplicate Review Step 53 0.1.yaml`.
+
+The near-duplicate and overlap candidates identified in Step 50 were reviewed against their definitions, hierarchy, performers, and operating context.
+
+### Result
+
+- **0 confirmed true duplicate Functions**
+- **0 merges**
+- **0 renames**
+- **0 hierarchy changes**
+- **0 Function notes modified**
+
+The apparent overlaps resolve into valid distinctions:
+
+- [[Limit Truck Speed Automatically]] is a specialization of [[Limit Vehicle Speed Automatically]].
+- [[Alert Operator of Hazards]] is a specialization of [[Warn People of Hazards]], while [[Alert on Abnormal Condition]] belongs to battery/device condition reporting.
+- Battery-status and truck-status display Functions intentionally report different subjects and already use different parents.
+- [[Manage Fleet Use]] is a general family under the broader [[Manage Fleet Use and Data]] goal.
+- Cold-storage and wet/dust operation are valid specializations of [[Operate in Harsh Conditions]].
+- [[Slow Truck in Curves]] and [[Slow and Stop Near Aircraft]] differ in trigger, context, endpoint behavior, and safety intent.
+- Fast, opportunity, and conventional charging are different charging-regime dimensions even when the same charger supports more than one.
+
+One wording-quality item remains: [[Charge Battery Fast]] currently mentions charging "at every opportunity," which overlaps the wording of [[Charge Battery by Opportunity]]. This is a possible naming/definition cleanup item, not evidence that the Functions should be merged.
+
+Commit: `478bd54e`.
+
+**Result:** Step 53 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4086,3 +4120,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 50 | 2026-10-04 | Complete | Analyzed all 129 Product Functions: 6 goal-level decomposition roots, 20 intermediate reusable families, and 103 concrete source-backed functions; confirmed zero Step-50 hierarchy orphans and zero Requirement satisfaction links, with scope/naming and traceability questions deferred to Steps 52–54. |
 | 51 | 2026-10-05 | Complete | Grouped Function navigation by the six existing modeled goal roots, synchronized the documented Function tree with all 129 Function notes, and avoided arbitrary physical folders or semantic changes. Evidence: `Product Function Navigation Grouping Step 51 0.1.yaml`. |
 | 52 | 2026-10-05 | Complete | Reviewed the full 129-Function hierarchy and targeted scope/overlap candidates; found zero supported missing hierarchy links, zero hierarchy orphans, and made no semantic changes. Evidence: `Product Function Hierarchy Gap Review Step 52 0.1.yaml`. |
+| 53 | 2026-10-05 | Complete | Reviewed all Step-50 near-duplicate Function candidates plus the high-overlap charging regime group; found zero true duplicates and made no merges, renames, or hierarchy changes. Evidence: `Product Function Near-Duplicate Review Step 53 0.1.yaml`. |
