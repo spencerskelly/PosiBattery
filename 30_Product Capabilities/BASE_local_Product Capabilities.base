@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "30_Product Capabilities"
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+views:
+  - type: table
+    name: Local capability contents
+    order:
+      - file.name
+      - type
+      - subtype
+      - status
