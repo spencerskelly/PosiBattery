@@ -6,6 +6,8 @@ uid: 20261005023600005skellyspencer
 status: Draft
 tags:
   - operational-context
+subtypeOf:
+  - "[[Airport Ground-Support Operating Area]]"
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
