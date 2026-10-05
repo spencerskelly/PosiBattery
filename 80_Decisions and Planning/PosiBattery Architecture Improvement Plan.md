@@ -5303,3 +5303,34 @@ Evidence: `80_Decisions and Planning/Orphan and Weak Traceability Reporting Step
 **Commits:** `adafd35f`, `d8313cab`, `cdcf7fe8`, `907351eb`.
 
 **Result:** Step 97 complete. The next incomplete roadmap item is **Step 98 — Review navigation coverage**.
+
+
+---
+
+## Step 98 completion evidence — Navigation coverage review
+
+**Date:** 2026-10-05
+
+Reviewed the root navigation, all ten primary domains, and the important lower-level areas with the explicit goal of improving discoverability **without generating scaffolding merely because a folder is large**.
+
+All nine model-content domains from `10_Products` through `90_Definitions and Reusable Reference` have the standard primary-domain navigation set: a useful README, local Base, recursive Base, and curated Canvas. `99_System` was the only primary domain without a human entry point, so `99_System/README_System.md` was added. System intentionally did **not** receive model-style Base/Canvas scaffolding because it is a compact runtime/governance tree rather than a model-content domain.
+
+The root `README.md` now links directly to each of the ten primary domain entry points instead of listing only plain filesystem paths.
+
+Lower-level coverage was reviewed separately:
+
+- Product Capabilities' Performance Metrics, Product Designs, and Product Functions each already have README + local/all Base + Canvas navigation.
+- Stakeholders and Ecosystem's Customer Actors and Organizations areas each already have a complete lower-level navigation set.
+- Research and Evidence's Research and Source Documents areas each already have a complete lower-level navigation set.
+- Definitions has its own README, while the primary-domain recursive Base provides exhaustive discovery; no extra scaffolding is justified.
+- Product category folders remain intentionally lightweight. `README_Products` provides semantic category/family entry notes, `BASE_all_Products.base` provides exhaustive discovery, and `CANVAS_Products` provides orientation. Large file count alone is not a reason to manufacture category README/Base/Canvas sets.
+- Industrial Truck and GSE architecture branches are directly linked from the Product Architecture README and covered recursively by its Base. Their present size does not justify additional scaffolding.
+- Use and Operations, Customer Needs, and Decisions and Planning are sufficiently navigable from their existing root README/Base/Canvas sets.
+
+Validation run `37384291384`, job `112013633586`, on commit `0ef08b79` passed identity validation, relationship validation, the structural audit, provenance reporting, traceability reporting, and the note-name/alias check. The later strict Function→Design dependency check remains a separate quality issue and is outside Step 98.
+
+Evidence: `80_Decisions and Planning/Navigation Coverage Review Step 98 0.1.yaml`.
+
+**Commits:** `b68a169d`, `0ef08b79`.
+
+**Result:** Step 98 complete. The next incomplete roadmap item is **Step 99 — Review Workbench behavior on the cleaned model**.
