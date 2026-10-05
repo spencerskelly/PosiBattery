@@ -1,0 +1,1382 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+baseline_commit: "1181f542d50115b885ae82738118b13b532c823e"
+purpose: "Machine-readable folder inventory for architecture review and migration planning. Folder classification is intentionally blank until Step 5."
+repository_totals:
+  entries: 1345
+  files: 1240
+  directories: 105
+  markdown: 1076
+  pdf: 66
+  base: 24
+  canvas: 12
+fields:
+  classification_values: [canonical, legacy, system, temporary, migration_candidate]
+  classification_note: "Populate in Step 5; null means not yet classified."
+directories:
+  - path: ".github"
+    depth: 1
+    classification: null
+    direct_files: 0
+    recursive_files: 1
+    direct_subfolders: 1
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".github/workflows"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian"
+    depth: 1
+    classification: null
+    direct_files: 8
+    recursive_files: 47
+    direct_subfolders: 1
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins"
+    depth: 2
+    classification: null
+    direct_files: 0
+    recursive_files: 39
+    direct_subfolders: 11
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/advanced-canvas"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/breadcrumbs"
+    depth: 3
+    classification: null
+    direct_files: 5
+    recursive_files: 5
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/dataview"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/fileclass"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/mdse-bootstrap"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/mdse-workbench"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/nodian"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/obsidian-git"
+    depth: 3
+    classification: null
+    direct_files: 5
+    recursive_files: 5
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/quickadd"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/table-exporter"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: ".obsidian/plugins/templater-obsidian"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products"
+    depth: 1
+    classification: null
+    direct_files: 6
+    recursive_files: 429
+    direct_subfolders: 9
+    recursive_markdown: 426
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README - 10_Products.md", "README_Products.md"]
+    direct_bases: ["BASE_all_Products.base", "BASE_local_Products.base"]
+    direct_canvases: ["CANVAS_Products.canvas"]
+  - path: "10_Products/Batteries"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 63
+    direct_subfolders: 3
+    recursive_markdown: 63
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Batteries/Flooded Lead-Acid Batteries"
+    depth: 3
+    classification: null
+    direct_files: 24
+    recursive_files: 24
+    direct_subfolders: 0
+    recursive_markdown: 24
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Batteries/Lithium-Ion Batteries"
+    depth: 3
+    classification: null
+    direct_files: 27
+    recursive_files: 27
+    direct_subfolders: 0
+    recursive_markdown: 27
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries"
+    depth: 3
+    classification: null
+    direct_files: 11
+    recursive_files: 11
+    direct_subfolders: 0
+    recursive_markdown: 11
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories"
+    depth: 2
+    classification: null
+    direct_files: 2
+    recursive_files: 65
+    direct_subfolders: 10
+    recursive_markdown: 65
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Battery Management Systems"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Connector Assemblies"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Electrolyte Circulation Systems"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Identification and Charge Interface Devices"
+    depth: 3
+    classification: null
+    direct_files: 10
+    recursive_files: 10
+    direct_subfolders: 0
+    recursive_markdown: 10
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Monitoring Devices"
+    depth: 3
+    classification: null
+    direct_files: 27
+    recursive_files: 27
+    direct_subfolders: 0
+    recursive_markdown: 27
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Protection and Disconnect Units"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Telematics and Connectivity Devices"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Thermal Management Devices"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Water Level Monitors"
+    depth: 3
+    classification: null
+    direct_files: 5
+    recursive_files: 5
+    direct_subfolders: 0
+    recursive_markdown: 5
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Battery Accessories/Watering Systems"
+    depth: 3
+    classification: null
+    direct_files: 8
+    recursive_files: 8
+    direct_subfolders: 0
+    recursive_markdown: 8
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 14
+    direct_subfolders: 5
+    recursive_markdown: 14
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories/Cable Management"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories/Connector Accessories"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories/Remote Controls and Indicators"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories/Stands and Mounting"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Charger Accessories/Thermal Accessories"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Chargers"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 47
+    direct_subfolders: 4
+    recursive_markdown: 47
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Chargers/Industrial Modular Chargers"
+    depth: 3
+    classification: null
+    direct_files: 37
+    recursive_files: 37
+    direct_subfolders: 0
+    recursive_markdown: 37
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Chargers/Light-Duty Chargers"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Chargers/On-board Chargers"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Chargers/Wireless Chargers"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Fleet Software and Platforms"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 31
+    direct_subfolders: 2
+    recursive_markdown: 31
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Fleet Software and Platforms/Battery and Charger Management"
+    depth: 3
+    classification: null
+    direct_files: 10
+    recursive_files: 10
+    direct_subfolders: 0
+    recursive_markdown: 10
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Fleet Software and Platforms/Truck Telematics"
+    depth: 3
+    classification: null
+    direct_files: 20
+    recursive_files: 20
+    direct_subfolders: 0
+    recursive_markdown: 20
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 57
+    direct_subfolders: 8
+    recursive_markdown: 57
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class I Electric Rider Trucks"
+    depth: 3
+    classification: null
+    direct_files: 30
+    recursive_files: 30
+    direct_subfolders: 0
+    recursive_markdown: 30
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class II Electric Narrow Aisle Trucks"
+    depth: 3
+    classification: null
+    direct_files: 6
+    recursive_files: 6
+    direct_subfolders: 0
+    recursive_markdown: 6
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class III Electric Hand and Hand-Rider Trucks"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class IV Internal Combustion Cushion Tire Trucks"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class V Internal Combustion Pneumatic Tire Trucks"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class VI Tractors"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Class VII Rough Terrain Forklifts"
+    depth: 3
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Forklifts/Truck Anatomy"
+    depth: 3
+    classification: null
+    direct_files: 13
+    recursive_files: 13
+    direct_subfolders: 0
+    recursive_markdown: 13
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Fuel Cell Power Units"
+    depth: 2
+    classification: null
+    direct_files: 0
+    recursive_files: 3
+    direct_subfolders: 1
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Fuel Cell Power Units/Hydrogen Fuel Cell Units"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 34
+    direct_subfolders: 5
+    recursive_markdown: 34
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment/Baggage and Tow Tractors"
+    depth: 3
+    classification: null
+    direct_files: 7
+    recursive_files: 7
+    direct_subfolders: 0
+    recursive_markdown: 7
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment/Belt Loaders"
+    depth: 3
+    classification: null
+    direct_files: 6
+    recursive_files: 6
+    direct_subfolders: 0
+    recursive_markdown: 6
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment/Cargo Loaders"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment/GSE Anatomy"
+    depth: 3
+    classification: null
+    direct_files: 13
+    recursive_files: 13
+    direct_subfolders: 0
+    recursive_markdown: 13
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Ground Support Equipment/Pushback Tractors"
+    depth: 3
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 109
+    direct_subfolders: 9
+    recursive_markdown: 109
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Access Control"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Cameras and Recorders"
+    depth: 3
+    classification: null
+    direct_files: 8
+    recursive_files: 8
+    direct_subfolders: 0
+    recursive_markdown: 8
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Cold Storage Packages"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Operator Assist and Stability"
+    depth: 3
+    classification: null
+    direct_files: 37
+    recursive_files: 37
+    direct_subfolders: 0
+    recursive_markdown: 37
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Operator Convenience"
+    depth: 3
+    classification: null
+    direct_files: 6
+    recursive_files: 6
+    direct_subfolders: 0
+    recursive_markdown: 6
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Operator Displays"
+    depth: 3
+    classification: null
+    direct_files: 5
+    recursive_files: 5
+    direct_subfolders: 0
+    recursive_markdown: 5
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Power Source Interfaces"
+    depth: 3
+    classification: null
+    direct_files: 3
+    recursive_files: 3
+    direct_subfolders: 0
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Proximity and Object Detection"
+    depth: 3
+    classification: null
+    direct_files: 29
+    recursive_files: 29
+    direct_subfolders: 0
+    recursive_markdown: 29
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "10_Products/Vehicle Accessories/Warning Lights and Alerts"
+    depth: 3
+    classification: null
+    direct_files: 14
+    recursive_files: 14
+    direct_subfolders: 0
+    recursive_markdown: 14
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "20_Product Architecture"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: ["README - 20_Product Architecture.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "30_Product Capabilities"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 315
+    direct_subfolders: 3
+    recursive_markdown: 306
+    recursive_pdf: 0
+    recursive_base: 6
+    recursive_canvas: 3
+    direct_readmes: ["README - 30_Product Capabilities.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "30_Product Capabilities/Performance Metrics"
+    depth: 2
+    classification: null
+    direct_files: 59
+    recursive_files: 59
+    direct_subfolders: 0
+    recursive_markdown: 56
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Performance Metrics.md"]
+    direct_bases: ["BASE_all_Performance Metrics.base", "BASE_local_Performance Metrics.base"]
+    direct_canvases: ["CANVAS_Performance Metrics.canvas"]
+  - path: "30_Product Capabilities/Product Designs"
+    depth: 2
+    classification: null
+    direct_files: 122
+    recursive_files: 122
+    direct_subfolders: 0
+    recursive_markdown: 119
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Product Designs.md"]
+    direct_bases: ["BASE_all_Product Designs.base", "BASE_local_Product Designs.base"]
+    direct_canvases: ["CANVAS_Product Designs.canvas"]
+  - path: "30_Product Capabilities/Product Functions"
+    depth: 2
+    classification: null
+    direct_files: 133
+    recursive_files: 133
+    direct_subfolders: 0
+    recursive_markdown: 130
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Product Functions.md"]
+    direct_bases: ["BASE_all_Product Functions.base", "BASE_local_Product Functions.base"]
+    direct_canvases: ["CANVAS_Product Functions.canvas"]
+  - path: "40_Use and Operations"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: ["README - 40_Use and Operations.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "50_Customer Needs"
+    depth: 1
+    classification: null
+    direct_files: 27
+    recursive_files: 27
+    direct_subfolders: 0
+    recursive_markdown: 24
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README - 50_Customer Needs.md", "README_Customer Needs.md"]
+    direct_bases: ["BASE_all_Customer Needs.base", "BASE_local_Customer Needs.base"]
+    direct_canvases: ["CANVAS_Customer Needs.canvas"]
+  - path: "60_Stakeholders and Ecosystem"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 107
+    direct_subfolders: 2
+    recursive_markdown: 100
+    recursive_pdf: 0
+    recursive_base: 5
+    recursive_canvas: 2
+    direct_readmes: ["README - 60_Stakeholders and Ecosystem.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "60_Stakeholders and Ecosystem/Customer Actors"
+    depth: 2
+    classification: null
+    direct_files: 15
+    recursive_files: 15
+    direct_subfolders: 0
+    recursive_markdown: 12
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Customer Actors.md"]
+    direct_bases: ["BASE_all_Customer Actors.base", "BASE_local_Customer Actors.base"]
+    direct_canvases: ["CANVAS_Customer Actors.canvas"]
+  - path: "60_Stakeholders and Ecosystem/Organizations"
+    depth: 2
+    classification: null
+    direct_files: 91
+    recursive_files: 91
+    direct_subfolders: 0
+    recursive_markdown: 87
+    recursive_pdf: 0
+    recursive_base: 3
+    recursive_canvas: 1
+    direct_readmes: ["README_Organizations.md"]
+    direct_bases: ["BASE_all_Organizations.base", "BASE_local_Organizations.base", "BASE_offerings.base"]
+    direct_canvases: ["CANVAS_Organizations.canvas"]
+  - path: "70_Research and Evidence"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 69
+    direct_subfolders: 2
+    recursive_markdown: 63
+    recursive_pdf: 0
+    recursive_base: 4
+    recursive_canvas: 2
+    direct_readmes: ["README - 70_Research and Evidence.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "70_Research and Evidence/Research"
+    depth: 2
+    classification: null
+    direct_files: 45
+    recursive_files: 56
+    direct_subfolders: 1
+    recursive_markdown: 53
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Research.md"]
+    direct_bases: ["BASE_all_Research.base", "BASE_local_Research.base"]
+    direct_canvases: ["CANVAS_Research.canvas"]
+  - path: "70_Research and Evidence/Research/Business Analysis"
+    depth: 3
+    classification: null
+    direct_files: 11
+    recursive_files: 11
+    direct_subfolders: 0
+    recursive_markdown: 11
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "70_Research and Evidence/Source Documents"
+    depth: 2
+    classification: null
+    direct_files: 12
+    recursive_files: 12
+    direct_subfolders: 0
+    recursive_markdown: 9
+    recursive_pdf: 0
+    recursive_base: 2
+    recursive_canvas: 1
+    direct_readmes: ["README_Source Documents.md"]
+    direct_bases: ["BASE_all_Source Documents.base", "BASE_local_Source Documents.base"]
+    direct_canvases: ["CANVAS_Source Documents.canvas"]
+  - path: "80_Decisions and Planning"
+    depth: 1
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "90_Definitions and Reusable Reference"
+    depth: 1
+    classification: null
+    direct_files: 1
+    recursive_files: 51
+    direct_subfolders: 1
+    recursive_markdown: 50
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 0
+    direct_readmes: ["README - 90_Definitions and Reusable Reference.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "90_Definitions and Reusable Reference/Definitions"
+    depth: 2
+    classification: null
+    direct_files: 4
+    recursive_files: 50
+    direct_subfolders: 1
+    recursive_markdown: 49
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 0
+    direct_readmes: ["README_Definitions.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "90_Definitions and Reusable Reference/Definitions/Properties"
+    depth: 3
+    classification: null
+    direct_files: 46
+    recursive_files: 46
+    direct_subfolders: 0
+    recursive_markdown: 45
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: ["Property Dictionary.base"]
+    direct_canvases: []
+  - path: "99_System"
+    depth: 1
+    classification: null
+    direct_files: 2
+    recursive_files: 96
+    direct_subfolders: 9
+    recursive_markdown: 78
+    recursive_pdf: 0
+    recursive_base: 4
+    recursive_canvas: 3
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/01_Admin"
+    depth: 2
+    classification: null
+    direct_files: 1
+    recursive_files: 1
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/02_AI"
+    depth: 2
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 1
+    direct_readmes: []
+    direct_bases: ["00 - Folder Contents.base"]
+    direct_canvases: ["00 - Folder Map.canvas"]
+  - path: "99_System/03_Schemas"
+    depth: 2
+    classification: null
+    direct_files: 5
+    recursive_files: 5
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/04_People"
+    depth: 2
+    classification: null
+    direct_files: 10
+    recursive_files: 10
+    direct_subfolders: 0
+    recursive_markdown: 10
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/05_Templates"
+    depth: 2
+    classification: null
+    direct_files: 30
+    recursive_files: 30
+    direct_subfolders: 0
+    recursive_markdown: 28
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 1
+    direct_readmes: []
+    direct_bases: ["00 - Folder Contents.base"]
+    direct_canvases: ["00 - Folder Map.canvas"]
+  - path: "99_System/06_Fileclasses"
+    depth: 2
+    classification: null
+    direct_files: 25
+    recursive_files: 25
+    direct_subfolders: 0
+    recursive_markdown: 24
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: ["MDSE Link Targets.base"]
+    direct_canvases: []
+  - path: "99_System/08_Scripts"
+    depth: 2
+    classification: null
+    direct_files: 3
+    recursive_files: 5
+    direct_subfolders: 1
+    recursive_markdown: 3
+    recursive_pdf: 0
+    recursive_base: 1
+    recursive_canvas: 1
+    direct_readmes: []
+    direct_bases: ["00 - Folder Contents.base"]
+    direct_canvases: ["00 - Folder Map.canvas"]
+  - path: "99_System/08_Scripts/02_Snippets"
+    depth: 3
+    classification: null
+    direct_files: 2
+    recursive_files: 2
+    direct_subfolders: 0
+    recursive_markdown: 2
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/09_Tools"
+    depth: 2
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 0
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "99_System/10_Docs"
+    depth: 2
+    classification: null
+    direct_files: 10
+    recursive_files: 10
+    direct_subfolders: 0
+    recursive_markdown: 10
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "Downloads"
+    depth: 1
+    classification: null
+    direct_files: 67
+    recursive_files: 67
+    direct_subfolders: 0
+    recursive_markdown: 1
+    recursive_pdf: 66
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: ["README_Downloads.md"]
+    direct_bases: []
+    direct_canvases: []
+  - path: "_Cost Driver Research"
+    depth: 1
+    classification: null
+    direct_files: 12
+    recursive_files: 12
+    direct_subfolders: 0
+    recursive_markdown: 12
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "_EMS Research"
+    depth: 1
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
+  - path: "_Power Conversion Research"
+    depth: 1
+    classification: null
+    direct_files: 4
+    recursive_files: 4
+    direct_subfolders: 0
+    recursive_markdown: 4
+    recursive_pdf: 0
+    recursive_base: 0
+    recursive_canvas: 0
+    direct_readmes: []
+    direct_bases: []
+    direct_canvases: []
