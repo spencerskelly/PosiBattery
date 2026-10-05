@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Performance Metrics"
+    - file.folder == "30_Product Capabilities/Performance Metrics"
 views:
   - type: table
     name: Local contents
