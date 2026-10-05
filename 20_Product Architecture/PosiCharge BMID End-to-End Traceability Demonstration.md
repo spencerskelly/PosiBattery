@@ -11,14 +11,6 @@ tags:
   - methodology-demonstration
 describes:
   - "[[PosiCharge BMID]]"
-includes:
-  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
-  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
-  - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
-  - "[[Report Battery Temperature to Charger]]"
-  - "[[Electrolyte-Immersed Temperature Sensor]]"
-  - "[[PosiCharge BMID Product Assembly Local Model]]"
-  - "[[Verify BMID Battery Condition Information Delivery]]"
 ---
 
 # PosiCharge BMID End-to-End Traceability Demonstration
