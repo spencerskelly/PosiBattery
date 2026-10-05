@@ -13,11 +13,18 @@ repository_totals:
   canvas: 12
 fields:
   classification_values: [canonical, legacy, system, temporary, migration_candidate]
-  classification_note: "Populate in Step 5; null means not yet classified."
+  classification_note: "Populated in Step 5. Classification describes folder architectural role, not semantic approval of every note inside the folder."
+classification_summary:
+  canonical: 68
+  legacy: 0
+  system: 26
+  temporary: 1
+  migration_candidate: 10
 directories:
   - path: ".github"
     depth: 1
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 0
     recursive_files: 1
     direct_subfolders: 1
@@ -30,7 +37,8 @@ directories:
     direct_canvases: []
   - path: ".github/workflows"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -43,7 +51,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian"
     depth: 1
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 8
     recursive_files: 47
     direct_subfolders: 1
@@ -56,7 +65,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 0
     recursive_files: 39
     direct_subfolders: 11
@@ -69,7 +79,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/advanced-canvas"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -82,7 +93,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/breadcrumbs"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 5
     recursive_files: 5
     direct_subfolders: 0
@@ -95,7 +107,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/dataview"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -108,7 +121,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/fileclass"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -121,7 +135,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/mdse-bootstrap"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -134,7 +149,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/mdse-workbench"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -147,7 +163,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/nodian"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -160,7 +177,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/obsidian-git"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 5
     recursive_files: 5
     direct_subfolders: 0
@@ -173,7 +191,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/quickadd"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -186,7 +205,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/table-exporter"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -199,7 +219,8 @@ directories:
     direct_canvases: []
   - path: ".obsidian/plugins/templater-obsidian"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -212,7 +233,8 @@ directories:
     direct_canvases: []
   - path: "10_Products"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 6
     recursive_files: 429
     direct_subfolders: 9
@@ -225,7 +247,8 @@ directories:
     direct_canvases: ["CANVAS_Products.canvas"]
   - path: "10_Products/Batteries"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 63
     direct_subfolders: 3
@@ -238,7 +261,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Batteries/Flooded Lead-Acid Batteries"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 24
     recursive_files: 24
     direct_subfolders: 0
@@ -251,7 +275,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Batteries/Lithium-Ion Batteries"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 27
     recursive_files: 27
     direct_subfolders: 0
@@ -264,7 +289,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 11
     recursive_files: 11
     direct_subfolders: 0
@@ -277,7 +303,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 65
     direct_subfolders: 10
@@ -290,7 +317,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Battery Management Systems"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -303,7 +331,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Connector Assemblies"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -316,7 +345,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Electrolyte Circulation Systems"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -329,7 +359,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Identification and Charge Interface Devices"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 10
     recursive_files: 10
     direct_subfolders: 0
@@ -342,7 +373,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Monitoring Devices"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 27
     recursive_files: 27
     direct_subfolders: 0
@@ -355,7 +387,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Protection and Disconnect Units"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -368,7 +401,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Telematics and Connectivity Devices"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -381,7 +415,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Thermal Management Devices"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -394,7 +429,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Water Level Monitors"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 5
     recursive_files: 5
     direct_subfolders: 0
@@ -407,7 +443,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Battery Accessories/Watering Systems"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 8
     recursive_files: 8
     direct_subfolders: 0
@@ -420,7 +457,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 14
     direct_subfolders: 5
@@ -433,7 +471,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories/Cable Management"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -446,7 +485,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories/Connector Accessories"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -459,7 +499,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories/Remote Controls and Indicators"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -472,7 +513,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories/Stands and Mounting"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -485,7 +527,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Charger Accessories/Thermal Accessories"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -498,7 +541,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Chargers"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 47
     direct_subfolders: 4
@@ -511,7 +555,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Chargers/Industrial Modular Chargers"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 37
     recursive_files: 37
     direct_subfolders: 0
@@ -524,7 +569,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Chargers/Light-Duty Chargers"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -537,7 +583,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Chargers/On-board Chargers"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -550,7 +597,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Chargers/Wireless Chargers"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -563,7 +611,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Fleet Software and Platforms"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 31
     direct_subfolders: 2
@@ -576,7 +625,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Fleet Software and Platforms/Battery and Charger Management"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 10
     recursive_files: 10
     direct_subfolders: 0
@@ -589,7 +639,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Fleet Software and Platforms/Truck Telematics"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 20
     recursive_files: 20
     direct_subfolders: 0
@@ -602,7 +653,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 57
     direct_subfolders: 8
@@ -615,7 +667,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class I Electric Rider Trucks"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 30
     recursive_files: 30
     direct_subfolders: 0
@@ -628,7 +681,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class II Electric Narrow Aisle Trucks"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 6
     recursive_files: 6
     direct_subfolders: 0
@@ -641,7 +695,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class III Electric Hand and Hand-Rider Trucks"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -654,7 +709,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class IV Internal Combustion Cushion Tire Trucks"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -667,7 +723,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class V Internal Combustion Pneumatic Tire Trucks"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -680,7 +737,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class VI Tractors"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -693,7 +751,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Class VII Rough Terrain Forklifts"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -706,7 +765,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Forklifts/Truck Anatomy"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 13
     recursive_files: 13
     direct_subfolders: 0
@@ -719,7 +779,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Fuel Cell Power Units"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 0
     recursive_files: 3
     direct_subfolders: 1
@@ -732,7 +793,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Fuel Cell Power Units/Hydrogen Fuel Cell Units"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -745,7 +807,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 34
     direct_subfolders: 5
@@ -758,7 +821,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment/Baggage and Tow Tractors"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 7
     recursive_files: 7
     direct_subfolders: 0
@@ -771,7 +835,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment/Belt Loaders"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 6
     recursive_files: 6
     direct_subfolders: 0
@@ -784,7 +849,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment/Cargo Loaders"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -797,7 +863,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment/GSE Anatomy"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 13
     recursive_files: 13
     direct_subfolders: 0
@@ -810,7 +877,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Ground Support Equipment/Pushback Tractors"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -823,7 +891,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 109
     direct_subfolders: 9
@@ -836,7 +905,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Access Control"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -849,7 +919,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Cameras and Recorders"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 8
     recursive_files: 8
     direct_subfolders: 0
@@ -862,7 +933,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Cold Storage Packages"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -875,7 +947,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Operator Assist and Stability"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 37
     recursive_files: 37
     direct_subfolders: 0
@@ -888,7 +961,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Operator Convenience"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 6
     recursive_files: 6
     direct_subfolders: 0
@@ -901,7 +975,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Operator Displays"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 5
     recursive_files: 5
     direct_subfolders: 0
@@ -914,7 +989,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Power Source Interfaces"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 3
     recursive_files: 3
     direct_subfolders: 0
@@ -927,7 +1003,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Proximity and Object Detection"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 29
     recursive_files: 29
     direct_subfolders: 0
@@ -940,7 +1017,8 @@ directories:
     direct_canvases: []
   - path: "10_Products/Vehicle Accessories/Warning Lights and Alerts"
     depth: 3
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 14
     recursive_files: 14
     direct_subfolders: 0
@@ -953,7 +1031,8 @@ directories:
     direct_canvases: []
   - path: "20_Product Architecture"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -966,7 +1045,8 @@ directories:
     direct_canvases: []
   - path: "30_Product Capabilities"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 315
     direct_subfolders: 3
@@ -979,7 +1059,8 @@ directories:
     direct_canvases: []
   - path: "30_Product Capabilities/Performance Metrics"
     depth: 2
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Current folder mixes measurable metrics and comparison criteria; semantic classification is required before treating the structure as final."
     direct_files: 59
     recursive_files: 59
     direct_subfolders: 0
@@ -992,7 +1073,8 @@ directories:
     direct_canvases: ["CANVAS_Performance Metrics.canvas"]
   - path: "30_Product Capabilities/Product Designs"
     depth: 2
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Mixed library requiring note-level split across architecture, capabilities, and reusable-reference domains before final placement."
     direct_files: 122
     recursive_files: 122
     direct_subfolders: 0
@@ -1005,7 +1087,8 @@ directories:
     direct_canvases: ["CANVAS_Product Designs.canvas"]
   - path: "30_Product Capabilities/Product Functions"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 133
     recursive_files: 133
     direct_subfolders: 0
@@ -1018,7 +1101,8 @@ directories:
     direct_canvases: ["CANVAS_Product Functions.canvas"]
   - path: "40_Use and Operations"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -1031,7 +1115,8 @@ directories:
     direct_canvases: []
   - path: "50_Customer Needs"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 27
     recursive_files: 27
     direct_subfolders: 0
@@ -1044,7 +1129,8 @@ directories:
     direct_canvases: ["CANVAS_Customer Needs.canvas"]
   - path: "60_Stakeholders and Ecosystem"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 107
     direct_subfolders: 2
@@ -1057,7 +1143,8 @@ directories:
     direct_canvases: []
   - path: "60_Stakeholders and Ecosystem/Customer Actors"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 15
     recursive_files: 15
     direct_subfolders: 0
@@ -1070,7 +1157,8 @@ directories:
     direct_canvases: ["CANVAS_Customer Actors.canvas"]
   - path: "60_Stakeholders and Ecosystem/Organizations"
     depth: 2
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Current folder mixes canonical organizations, archetypes, relationship controls/registers, and synthesis artifacts."
     direct_files: 91
     recursive_files: 91
     direct_subfolders: 0
@@ -1083,7 +1171,8 @@ directories:
     direct_canvases: ["CANVAS_Organizations.canvas"]
   - path: "70_Research and Evidence"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 69
     direct_subfolders: 2
@@ -1096,7 +1185,8 @@ directories:
     direct_canvases: []
   - path: "70_Research and Evidence/Research"
     depth: 2
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Research area currently mixes research synthesis with planning/governance/register content that must be redistributed by artifact class."
     direct_files: 45
     recursive_files: 56
     direct_subfolders: 1
@@ -1109,7 +1199,8 @@ directories:
     direct_canvases: ["CANVAS_Research.canvas"]
   - path: "70_Research and Evidence/Research/Business Analysis"
     depth: 3
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Research area currently mixes research synthesis with planning/governance/register content that must be redistributed by artifact class."
     direct_files: 11
     recursive_files: 11
     direct_subfolders: 0
@@ -1122,7 +1213,8 @@ directories:
     direct_canvases: []
   - path: "70_Research and Evidence/Source Documents"
     depth: 2
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 12
     recursive_files: 12
     direct_subfolders: 0
@@ -1135,7 +1227,8 @@ directories:
     direct_canvases: ["CANVAS_Source Documents.canvas"]
   - path: "80_Decisions and Planning"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -1148,7 +1241,8 @@ directories:
     direct_canvases: []
   - path: "90_Definitions and Reusable Reference"
     depth: 1
-    classification: null
+    classification: canonical
+    classification_reason: "Folder is within the approved numbered target taxonomy and is not identified as a mixed/legacy area requiring redistribution."
     direct_files: 1
     recursive_files: 51
     direct_subfolders: 1
@@ -1161,7 +1255,8 @@ directories:
     direct_canvases: []
   - path: "90_Definitions and Reusable Reference/Definitions"
     depth: 2
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Current Definitions content is largely methodology/meta-model material and requires system-versus-domain separation."
     direct_files: 4
     recursive_files: 50
     direct_subfolders: 1
@@ -1174,7 +1269,8 @@ directories:
     direct_canvases: []
   - path: "90_Definitions and Reusable Reference/Definitions/Properties"
     depth: 3
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Current Definitions content is largely methodology/meta-model material and requires system-versus-domain separation."
     direct_files: 46
     recursive_files: 46
     direct_subfolders: 0
@@ -1187,7 +1283,8 @@ directories:
     direct_canvases: []
   - path: "99_System"
     depth: 1
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 2
     recursive_files: 96
     direct_subfolders: 9
@@ -1200,7 +1297,8 @@ directories:
     direct_canvases: []
   - path: "99_System/01_Admin"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 1
     recursive_files: 1
     direct_subfolders: 0
@@ -1213,7 +1311,8 @@ directories:
     direct_canvases: []
   - path: "99_System/02_AI"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -1226,7 +1325,8 @@ directories:
     direct_canvases: ["00 - Folder Map.canvas"]
   - path: "99_System/03_Schemas"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 5
     recursive_files: 5
     direct_subfolders: 0
@@ -1239,7 +1339,8 @@ directories:
     direct_canvases: []
   - path: "99_System/04_People"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 10
     recursive_files: 10
     direct_subfolders: 0
@@ -1252,7 +1353,8 @@ directories:
     direct_canvases: []
   - path: "99_System/05_Templates"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 30
     recursive_files: 30
     direct_subfolders: 0
@@ -1265,7 +1367,8 @@ directories:
     direct_canvases: ["00 - Folder Map.canvas"]
   - path: "99_System/06_Fileclasses"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 25
     recursive_files: 25
     direct_subfolders: 0
@@ -1278,7 +1381,8 @@ directories:
     direct_canvases: []
   - path: "99_System/08_Scripts"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 3
     recursive_files: 5
     direct_subfolders: 1
@@ -1291,7 +1395,8 @@ directories:
     direct_canvases: ["00 - Folder Map.canvas"]
   - path: "99_System/08_Scripts/02_Snippets"
     depth: 3
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 2
     recursive_files: 2
     direct_subfolders: 0
@@ -1304,7 +1409,8 @@ directories:
     direct_canvases: []
   - path: "99_System/09_Tools"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -1317,7 +1423,8 @@ directories:
     direct_canvases: []
   - path: "99_System/10_Docs"
     depth: 2
-    classification: null
+    classification: system
+    classification_reason: "Runtime, tooling, schema, plugin, workflow, or vault-administration content."
     direct_files: 10
     recursive_files: 10
     direct_subfolders: 0
@@ -1330,7 +1437,8 @@ directories:
     direct_canvases: []
   - path: "Downloads"
     depth: 1
-    classification: null
+    classification: temporary
+    classification_reason: "Explicitly defined as a temporary ingestion area for source binaries pending provenance/extraction/retention processing."
     direct_files: 67
     recursive_files: 67
     direct_subfolders: 0
@@ -1343,7 +1451,8 @@ directories:
     direct_canvases: []
   - path: "_Cost Driver Research"
     depth: 1
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Legacy root research area that should be reconciled into the numbered canonical taxonomy in a later controlled migration phase."
     direct_files: 12
     recursive_files: 12
     direct_subfolders: 0
@@ -1356,7 +1465,8 @@ directories:
     direct_canvases: []
   - path: "_EMS Research"
     depth: 1
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Legacy root research area that should be reconciled into the numbered canonical taxonomy in a later controlled migration phase."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
@@ -1369,7 +1479,8 @@ directories:
     direct_canvases: []
   - path: "_Power Conversion Research"
     depth: 1
-    classification: null
+    classification: migration_candidate
+    classification_reason: "Legacy root research area that should be reconciled into the numbered canonical taxonomy in a later controlled migration phase."
     direct_files: 4
     recursive_files: 4
     direct_subfolders: 0
