@@ -17,6 +17,7 @@ performedBy:
   - "[[Textron Smart Sense]]"
 realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Indicate Aircraft Proximity to Operator
