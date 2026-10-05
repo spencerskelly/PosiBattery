@@ -1,0 +1,96 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 26
+purpose: "Inventory and migration plan for the legacy _EMS Research island."
+source_folder: "_EMS Research"
+destination_folder: "70_Research and Evidence/Research/EMS"
+migration_executed: false
+preserve_filenames: true
+
+summary:
+  files: 4
+  model_wikilinks: 0
+  explicit_governed_relationships: 0
+  primary_role: "research synthesis and research-support material"
+  migration_treatment: "move unchanged as a coherent research subgroup"
+
+files:
+  - file: "Energy Management Systems for Warehouses and Production Facilities.md"
+    role: "primary_research_synthesis"
+    provenance_status: "source details are not embedded as a normalized reference list"
+    preserve:
+      - "system objectives and categories"
+      - "representative products"
+      - "functional architecture"
+      - "protocol/interface analysis"
+      - "MHE charging analysis"
+      - "metrics and integration requirements"
+      - "product opportunity and roadmap hypotheses"
+      - "pilot, procurement, risks, priorities, and future work"
+    semantic_rule: "Treat product opportunities, architecture, command/control ideas, and requirements as research hypotheses until separately evidenced and modeled."
+
+  - file: "Source Links.md"
+    role: "research_source_register"
+    provenance_status: "67 observed external URLs"
+    preserve:
+      - "standards links"
+      - "vendor documentation links"
+      - "cybersecurity sources"
+      - "grid/DER sources"
+      - "CAN/MHE sources"
+      - "upload-priority guidance"
+    semantic_rule: "This is a research support register, not a set of curated Source Document records."
+
+  - file: "EMS 2.md"
+    role: "research_acquisition_and_verification_plan"
+    provenance_status: "one Perplexity session link plus detailed requested-document list"
+    preserve:
+      - "highest-priority documents"
+      - "vendor manual wishlist"
+      - "protocol command-detail checklist"
+      - "compliance document checklist"
+      - "minimum high-value upload package"
+    semantic_rule: "Preserve unresolved acquisition needs and verification requirements; do not treat listed protocol details as product-specific support without vendor documentation."
+
+  - file: "EMS 1.md"
+    role: "research_status_and_limitation_record"
+    provenance_status: "one Perplexity session link"
+    preserve:
+      - "explicit statement that exact commands, versions, and compliance claims were not verified"
+      - "scope of required future report"
+      - "warning against inventing register addresses or payloads"
+    semantic_rule: "Preserve as an unresolved verification-status record rather than deleting it as a failed attempt."
+
+mapping:
+  - source: "_EMS Research/EMS 1.md"
+    destination: "70_Research and Evidence/Research/EMS/EMS 1.md"
+    action: "move_unchanged"
+  - source: "_EMS Research/EMS 2.md"
+    destination: "70_Research and Evidence/Research/EMS/EMS 2.md"
+    action: "move_unchanged"
+  - source: "_EMS Research/Energy Management Systems for Warehouses and Production Facilities.md"
+    destination: "70_Research and Evidence/Research/EMS/Energy Management Systems for Warehouses and Production Facilities.md"
+    action: "move_unchanged"
+  - source: "_EMS Research/Source Links.md"
+    destination: "70_Research and Evidence/Research/EMS/Source Links.md"
+    action: "move_unchanged"
+
+navigation_plan:
+  create_readme: true
+  create_base_local: false
+  create_base_all: false
+  create_canvas: false
+  rationale: "Four coherent notes justify a README, while the parent Research recursive Base already exposes the subgroup and extra scaffolding would be redundant."
+
+validation:
+  - "Verify all four destination files reuse original Git blob SHAs."
+  - "Verify no source files remain under _EMS Research."
+  - "Update parent Research navigation."
+  - "Update folder inventory."
+  - "Run structural audit."
+
+deferred:
+  - "Create curated Source Document records from durable official standards/vendor manuals during the later evidence-cleanup phase."
+  - "Verify exact protocol versions, commands, register maps, product support, and compliance claims against authoritative documents."
+  - "Extract requirements, interfaces, functions, designs, architecture, or product opportunities only through separate evidence-backed modeling work."
