@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Organizations"
+    - file.folder == "60_Stakeholders and Ecosystem/Organizations"
 views:
   - type: table
     name: Local contents
