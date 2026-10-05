@@ -35,6 +35,11 @@ Customer need: Charge Without a Ventilated Battery Room. The problem behind it: 
   - [[Deka Gel-Mate Battery]]: East Penn says Gel-Mate combines a maintenance-free gel design with a built-in charger for a 15 A, 120 V AC outlet. Source: East Penn forklift products page (T1), retrieved 2026-10-02. <https://www.eastpennmanufacturing.com/forklift-products/>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Opportunity-Charge a Vehicle During a Work Break]].
+- Operating contexts: [[Distributed and Opportunity Charging Area]].
+
 ## Aliases
 
 
