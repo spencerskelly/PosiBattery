@@ -18,7 +18,7 @@ PosiBattery-specific organization and migration guidance is in:
 
 `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
 
-The active incremental architecture-improvement sequence is controlled by:
+The completed 100-step architecture-improvement record and detailed completion evidence are in:
 
 `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
 
@@ -51,7 +51,7 @@ The numbered domain structure is the authoritative vault-level information archi
 - [[README_Definitions and Reusable Reference|90 Definitions and Reusable Reference]]
 - [[README_System|99 System]]
 
-Existing exceptions do not create competing root taxonomies. Several areas inside these domains are still transitional or pending migration review. In particular, mixed-content folders and the remaining underscore-prefixed research roots are being reconciled through `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`.
+Existing exceptions do not create competing root taxonomies. The 100-step architecture-improvement roadmap is complete; current quality state, known review items, and recommended next engineering work are controlled by `99_System/10_Docs/PosiBattery Runtime Handoff State.md`.
 
 Folder authority here determines where knowledge is organized for navigation. It does not create engineering semantics; element types, governed properties, relationships, evidence provenance, and Local Model records remain authoritative for meaning.
 
