@@ -30,6 +30,7 @@ performedBy:
   - "[[Crown V-Force BMID]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
