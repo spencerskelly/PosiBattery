@@ -8,6 +8,19 @@ Use this area to describe how products are used, deployed, serviced, maintained,
 
 See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[PosiBattery Model Organization and Handoff]].
 
+## Use Case versus Function boundary
+
+Use this test before creating or retyping a note:
+
+- **Use Case:** names an externally controlled actor goal or interaction. The actor can explain why they enter the scenario and what outcome tells them the scenario is complete.
+- **Function:** names product-controlled behavior. It describes what the product, system, subsystem, software, or accessory does to support one or more Use Cases.
+- **Condition / variant:** describes environment, fleet state, deployment mode, or other context that changes a scenario but is not itself an actor goal.
+- **Design:** describes the reusable technical approach used to realize behavior.
+
+A verb alone does not determine the type. For example, `Enforce Pre-Shift Checklist` is a Function because the product enforces the behavior; an operational Use Case would be `Authenticate and Complete Pre-Shift Authorization`, where the operator is the external actor pursuing a goal.
+
+Customer Needs under [[README_Customer Needs|Customer Needs]] use `Use Case / subtype: why` to model desired outcomes. Operational scenarios created here should describe the actor interaction itself rather than duplicate those why-level needs.
+
 ## What belongs here
 
 Examples include:
