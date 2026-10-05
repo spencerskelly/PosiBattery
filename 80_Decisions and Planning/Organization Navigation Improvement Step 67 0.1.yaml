@@ -1,0 +1,119 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 67
+purpose: "Improve Organization discoverability through ecosystem groupings and views without making folder placement semantic authority."
+
+navigation_changes:
+  readme:
+    file: "60_Stakeholders and Ecosystem/Organizations/README_Organizations.md"
+    additions:
+      - "Internal Ampure portfolio"
+      - "Energy-storage and charging suppliers"
+      - "Vehicle and GSE ecosystem"
+      - "Channels and service reach"
+      - "Software, accessories, and adjacent technology"
+      - "Competitive and partnership context"
+      - "Exhaustive view guidance"
+    principle: "Role and relationship navigation are discovery aids; organization notes and evidence remain semantic authority."
+
+  base_all:
+    file: "60_Stakeholders and Ecosystem/Organizations/BASE_all_Organizations.base"
+    view_name: "Ecosystem inventory"
+    added_columns:
+      - playsRole
+      - makes
+      - offers
+      - parentOf
+      - subsidiaryOf
+      - distributorOf
+      - distributedBy
+      - supplierOf
+      - suppliedBy
+      - partnerOf
+      - integratesWith
+    purpose: "Expose organization role, portfolio, ownership, channel, supply, partnership, and integration context in one exhaustive table."
+
+  base_local:
+    file: "60_Stakeholders and Ecosystem/Organizations/BASE_local_Organizations.base"
+    view_name: "Local ecosystem contents"
+    added_columns:
+      - playsRole
+      - makes
+      - offers
+      - parentOf
+      - subsidiaryOf
+    purpose: "Improve quick direct-folder browsing without introducing a competing taxonomy."
+
+  canvas:
+    file: "60_Stakeholders and Ecosystem/Organizations/CANVAS_Organizations.canvas"
+    prior_state: "Seven-node relationship-example map focused on a few supplier/integration examples."
+    new_state: "Ten-node curated ecosystem entry map."
+    node_count: 10
+    main_entry_points:
+      - "Organizations README"
+      - "Ampure internal portfolio"
+      - "Battery Maker"
+      - "Charger Maker"
+      - "Monitor Maker"
+      - "Truck OEM"
+      - "Dealer or Distributor"
+      - "Software Vendor"
+      - "Business Relationship Ledger"
+      - "PosiCharge Competitive and Partner Landscape"
+    guideline_alignment: "Within the <=12 element curated canvas guideline."
+    semantic_claims_added: false
+
+grouping_logic:
+  internal_portfolio:
+    entry: "Ampure"
+    purpose: "Keep internal businesses separate from external competition."
+  makers:
+    entries:
+      - "Battery Maker"
+      - "Charger Maker"
+      - "Monitor Maker"
+    purpose: "Navigate product-making organizations by reusable intrinsic roles."
+  vehicle_and_gse:
+    entry: "Truck OEM"
+    purpose: "Navigate forklift, industrial vehicle, and GSE manufacturers."
+  channels:
+    entry: "Dealer or Distributor"
+    purpose: "Navigate evidenced resale/distribution/service reach."
+  software:
+    entry: "Software Vendor"
+    purpose: "Navigate fleet, charger, battery, and GSE software/platform organizations."
+  relationships:
+    entry: "Business Relationship Ledger"
+    purpose: "Navigate relationship evidence and provisional business links."
+  competition_and_partnership:
+    entry: "PosiCharge Competitive and Partner Landscape"
+    purpose: "Keep competitor and partner analysis offer-scoped instead of global."
+
+modeling_safeguards:
+  - "No organization notes moved into role-based folders."
+  - "No organization identity or relationship was changed."
+  - "No new role assignments were inferred."
+  - "Competitor, partner, customer, regulator, and standards-body status remain context/evidence dependent."
+  - "Role notes are navigation aids, not organization identities."
+
+changes:
+  organization_notes_changed: 0
+  relationships_changed: 0
+  files_moved: 0
+  files_renamed: 0
+  readme_files_changed: 1
+  base_files_changed: 2
+  canvas_files_changed: 1
+  evidence_records_created: 1
+
+commits:
+  readme: "2379e83e409184c05f50f43aadac1f0e79197a5f"
+  base_all: "1f1840185c94bed0e78719799e36a7f72ec5294d"
+  base_local: "b818ef175a7a766585bdd0b65f06984cabee44e7"
+  canvas: "d8346e0455db9a9af715414c7a132ff193ef2ef2"
+
+conclusion: "Organization navigation now exposes meaningful ecosystem entry points, portfolio/channel/relationship context, and exhaustive role/relationship columns without using folders as ontology or changing the underlying organization model."
+
+next_step:
+  step: 68
