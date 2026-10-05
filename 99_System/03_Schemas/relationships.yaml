@@ -22,11 +22,11 @@ paired:
 - {forward: describes, inverse: describedBy, from: [Info, Artifact, Document], to: any}
 - {forward: tracesTo, inverse: tracesFrom, from: any, to: any, provisional: true}
 - {forward: performs, inverse: performedBy, from: [Object], to: [Function]}
-- {forward: hasDesign, inverse: designOf, from: [Object, Document], to: [Design]}
-- {forward: appliesTo, inverse: applies, from: [Requirement], to: any}
-- {forward: satisfies, inverse: satisfiedBy, from: [Function, Design], to: [Requirement]}
-- {forward: verifies, inverse: verifiedBy, from: [Verification], to: [Requirement]}
-- {forward: realizedBy, inverse: realizes, from: [Use Case], to: [Function, Design]}
+- {forward: hasDesign, inverse: designOf, from: [Object, Document], to: [Design], canonicalFrom: [Object]}
+- {forward: appliesTo, inverse: applies, from: [Requirement, Design, Info], to: any}
+- {forward: satisfies, inverse: satisfiedBy, from: [Function, Design, Object, Result], to: [Requirement, Use Case]}
+- {forward: verifies, inverse: verifiedBy, from: [Verification, Result], to: [Requirement, Function, Design, Info]}
+- {forward: realizedBy, inverse: realizes, from: [Use Case, Function], to: [Function, Design]}
 - {forward: optionOf, inverse: hasOption, from: [Use Case], to: [Use Case]}
 - {forward: affects, inverse: affectedBy, from: [Issue, Failure Mode, Use Case], to: any}
 temporaryPairs:
@@ -47,7 +47,7 @@ symmetric:
   meaning: 'Two Ports that are the same port at two levels of the system, from the EA BindingConnector (W-153). Written on both end notes. Temporary under W-311: stage 1 preserves the EA binding evidence; review confirms exposure or another appropriate interface meaning before replacement.'
   temporary: true
 oneWay:
-- {field: participants, from: [Use Case], to: [Object, Actor, Function, Port, Document]}
+- {field: participants, from: [Use Case], to: [Object, Actor, Organization, Function, Port, Document]}
 - {field: transmits, from: [Port], to: [Item Flow]}
 - {field: receives, from: [Port], to: [Item Flow]}
 - {field: exchanges, from: [Port], to: [Item Flow]}
