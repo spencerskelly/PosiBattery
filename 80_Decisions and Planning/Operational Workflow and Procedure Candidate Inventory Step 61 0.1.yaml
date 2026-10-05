@@ -299,3 +299,14 @@ summary:
 next_step:
   step: 62
   focus: "Create or move stable operational content from this inventory without inventing missing workflow details."
+
+audit_validation:
+  workflow_run: 37293053323
+  commit: "168579d848a10f2e949d2d5c00b72cf1e8406612"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 61 introduced no new structural regression."
