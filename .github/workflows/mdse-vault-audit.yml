@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install --quiet PyYAML
+      - name: Check identity invariants
+        run: python 99_System/09_Tools/check-identities.py
       - name: Run vault audit
         run: python 99_System/09_Tools/audit-vault.py
       - name: Check note names and aliases
