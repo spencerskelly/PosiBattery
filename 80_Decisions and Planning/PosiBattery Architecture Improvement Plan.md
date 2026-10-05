@@ -3794,6 +3794,35 @@ Audit run `37271968386` on commit `d36c4c2f` remained stable at 19 known broken 
 
 ---
 
+## Step 46 completion evidence — Structural relationships mapped
+
+**Date:** 2026-10-04
+
+Created `80_Decisions and Planning/Architecture Structural Relationship Map Step 46 0.1.yaml`.
+
+Current Product Architecture relationship map:
+
+- **2** abstract reusable root assemblies
+- **24** explicit `hasPart` decomposition edges
+- matching `partOf` inverse pattern verified
+- **2** root `subtypeOf` relationships to [[Battery-Connected Product]]
+- **0** modeled Ports
+- **0** modeled Item Flows
+- **0** explicit `interfaces` relationships
+- **0** `exposes/exposedBy` relationships
+
+The architecture therefore currently proves reusable decomposition, but not endpoint or flow architecture. No missing Ports or flows were inferred from names such as CAN Bus, Towing Interface, or Charging Port.
+
+A key contextual gap was recorded: the generic Truck/GSE anatomy definitions are not yet represented as occurrences inside specific commercial product assemblies. Step 47 will evaluate those Local Model occurrence candidates instead of adding generic parts directly to every commercial product.
+
+No relationships were added, removed, or changed.
+
+Audit run `37272230276` on commit `f8e6f080` remained stable at 19 known broken wikilinks with all other integrity categories clean.
+
+**Result:** Step 46 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3838,3 +3867,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 43 | 2026-10-04 | Complete | Inventoried the architecture layer: confirmed 26 canonical vehicle architecture notes and identified 94 architecture-like candidates among 118 reusable Product Designs for Step 44 separation; moved or retyped nothing. |
 | 44 | 2026-10-04 | Complete | Retained all 94 architecture-like Product Designs as reusable definitions; found no single-product contextual architecture notes among them; queued 37 component/interface-like concepts for Step 45 structural review. |
 | 45 | 2026-10-04 | Complete | Classified 37 structural counterpart candidates: 36 Object-role candidates and 1 Port candidate, with no supported Item Flows yet; recorded schema boundaries for system/module/component roles and preserved all existing Design definitions unchanged. |
+| 46 | 2026-10-04 | Complete | Mapped the current Product Architecture structure: 2 abstract assemblies, 24 explicit hasPart/partOf decomposition edges, 2 root subtypeOf edges, and no modeled Ports, Item Flows, interface edges, or exposure edges; recorded product-context occurrence gaps without inventing relationships. |
