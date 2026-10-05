@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This folder is the catalog of product categories, product-family concepts, and individual market offerings relevant to industrial motive power, charging, battery intelligence, fleet technology, material handling, and airport ground-support equipment.
+This folder is the primary PosiBattery catalog for product categories, product families, variants, offerings, configurations, and portfolio records relevant to industrial motive power, charging, battery intelligence, fleet technology, material handling, and airport ground-support equipment.
+
+See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[Knowledge Base Backlog]].
 
 ## Product domains
 
