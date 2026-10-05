@@ -8,7 +8,7 @@ summary:
   stale_path_dependent_bases: 0
   transitional_root_placeholder_readmes: 0
   standardized_root_readmes: 6
-  empty_system_canvases_for_review: 3
+  empty_system_canvases_for_review: 0
   intentional_all_local_base_pairs: 8
 findings:
   - id: NAV-001
@@ -57,13 +57,10 @@ findings:
     disposition: "canonical_name"
     note: "Renamed in Step 11 to the primary README_<Domain>.md convention using the human-readable domain label without the numeric root prefix."
   - id: NAV-006
-    category: empty_system_canvas_review
-    files:
-      - "99_System/02_AI/00 - Folder Map.canvas"
-      - "99_System/05_Templates/00 - Folder Map.canvas"
-      - "99_System/08_Scripts/00 - Folder Map.canvas"
-    disposition: "retain_until_system_navigation_review"
-    note: "Each Canvas is currently empty. They may be generated/runtime placeholders rather than useful navigation; do not delete without confirming system-tool expectations."
+    category: resolved_empty_system_canvas_review
+    files: []
+    disposition: "resolved_step_22"
+    note: "Step 22 confirmed the three system Folder Map canvases were empty, unreferenced, and provided no navigation value. They were removed; the companion Folder Contents Bases were retained because they provide functional views."
 intentional_navigation_patterns:
   - category: all_local_base_pair
     note: "BASE_all_* and BASE_local_* pairs are intentionally different views and are not duplicates."
