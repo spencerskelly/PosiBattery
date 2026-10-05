@@ -15,11 +15,11 @@ fields:
   classification_values: [canonical, legacy, system, temporary, migration_candidate]
   classification_note: "Populated in Step 5. Classification describes folder architectural role, not semantic approval of every note inside the folder."
 classification_summary:
-  canonical: 68
+  canonical: 69
   legacy: 0
   system: 26
   temporary: 1
-  migration_candidate: 10
+  migration_candidate: 9
 directories:
   - path: ".github"
     depth: 1
@@ -1449,18 +1449,18 @@ directories:
     direct_readmes: ["README_Downloads.md"]
     direct_bases: []
     direct_canvases: []
-  - path: "_Cost Driver Research"
-    depth: 1
-    classification: migration_candidate
-    classification_reason: "Legacy root research area that should be reconciled into the numbered canonical taxonomy in a later controlled migration phase."
-    direct_files: 12
-    recursive_files: 12
+  - path: "70_Research and Evidence/Research/Cost Drivers"
+    depth: 3
+    classification: canonical
+    classification_reason: "Canonical research subgroup created by the controlled Step 25 migration of the legacy cost-driver research island."
+    direct_files: 13
+    recursive_files: 13
     direct_subfolders: 0
-    recursive_markdown: 12
+    recursive_markdown: 13
     recursive_pdf: 0
     recursive_base: 0
     recursive_canvas: 0
-    direct_readmes: []
+    direct_readmes: ["README_Cost Drivers.md"]
     direct_bases: []
     direct_canvases: []
   - path: "_EMS Research"
