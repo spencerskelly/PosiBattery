@@ -1,0 +1,81 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+purpose: "Machine-readable inventory of transitional, duplicate, stale, and intentionally paired navigation artifacts identified in Step 6."
+summary:
+  true_duplicate_readme_groups: 2
+  duplicate_readme_files: 4
+  stale_path_dependent_bases: 2
+  transitional_root_placeholder_readmes: 8
+  empty_system_canvases_for_review: 3
+  intentional_all_local_base_pairs: 8
+findings:
+  - id: NAV-001
+    category: duplicate_readme
+    folder: "10_Products"
+    files:
+      - "10_Products/README - 10_Products.md"
+      - "10_Products/README_Products.md"
+    disposition: "merge_or_retire_one_later"
+    note: "Both act as folder landing pages. README_Products contains substantive navigation; README - 10_Products is a migration-era target placeholder."
+  - id: NAV-002
+    category: duplicate_readme
+    folder: "50_Customer Needs"
+    files:
+      - "50_Customer Needs/README - 50_Customer Needs.md"
+      - "50_Customer Needs/README_Customer Needs.md"
+    disposition: "merge_or_retire_one_later"
+    note: "Both act as folder landing pages. README_Customer Needs contains substantive navigation; README - 50_Customer Needs is a migration-era target placeholder."
+  - id: NAV-003
+    category: stale_path_dependent_base
+    folder: "60_Stakeholders and Ecosystem/Organizations"
+    files:
+      - "60_Stakeholders and Ecosystem/Organizations/BASE_offerings.base"
+    disposition: "repair_later"
+    note: "Filter still points to file.inFolder(\"Products\") instead of the numbered product location."
+  - id: NAV-004
+    category: stale_path_dependent_base
+    folder: "90_Definitions and Reusable Reference/Definitions/Properties"
+    files:
+      - "90_Definitions and Reusable Reference/Definitions/Properties/Property Dictionary.base"
+    disposition: "repair_or_relocate_later"
+    note: "Filter still points to file.folder == \"Definitions/Properties\" and the folder itself is a migration candidate."
+  - id: NAV-005
+    category: transitional_root_placeholder_readme
+    files:
+      - "10_Products/README - 10_Products.md"
+      - "20_Product Architecture/README - 20_Product Architecture.md"
+      - "30_Product Capabilities/README - 30_Product Capabilities.md"
+      - "40_Use and Operations/README - 40_Use and Operations.md"
+      - "50_Customer Needs/README - 50_Customer Needs.md"
+      - "60_Stakeholders and Ecosystem/README - 60_Stakeholders and Ecosystem.md"
+      - "70_Research and Evidence/README - 70_Research and Evidence.md"
+      - "90_Definitions and Reusable Reference/README - 90_Definitions and Reusable Reference.md"
+    disposition: "normalize_in_navigation_phase"
+    note: "These were created as target-skeleton landing pages and still state that the folders are target-only even though substantial migration has already occurred. Naming also differs from the README_<folder> convention."
+  - id: NAV-006
+    category: empty_system_canvas_review
+    files:
+      - "99_System/02_AI/00 - Folder Map.canvas"
+      - "99_System/05_Templates/00 - Folder Map.canvas"
+      - "99_System/08_Scripts/00 - Folder Map.canvas"
+    disposition: "retain_until_system_navigation_review"
+    note: "Each Canvas is currently empty. They may be generated/runtime placeholders rather than useful navigation; do not delete without confirming system-tool expectations."
+intentional_navigation_patterns:
+  - category: all_local_base_pair
+    note: "BASE_all_* and BASE_local_* pairs are intentionally different views and are not duplicates."
+    folders:
+      - "10_Products"
+      - "30_Product Capabilities/Performance Metrics"
+      - "30_Product Capabilities/Product Designs"
+      - "30_Product Capabilities/Product Functions"
+      - "50_Customer Needs"
+      - "60_Stakeholders and Ecosystem/Customer Actors"
+      - "60_Stakeholders and Ecosystem/Organizations"
+      - "70_Research and Evidence/Research"
+      - "70_Research and Evidence/Source Documents"
+  - category: specialized_base
+    files:
+      - "60_Stakeholders and Ecosystem/Organizations/BASE_offerings.base"
+      - "90_Definitions and Reusable Reference/Definitions/Properties/Property Dictionary.base"
+    note: "Special-purpose Bases are not duplicates of BASE_all/BASE_local, although both currently contain stale pre-migration path filters."
