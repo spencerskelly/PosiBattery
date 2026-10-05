@@ -4438,6 +4438,46 @@ Evidence commit: `20dd18dd`.
 
 ---
 
+## Step 65 completion evidence - Clear organization roles classified
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Organization Role Classification Step 65 0.1.yaml`.
+
+Applied a controlled distinction between **intrinsic organization roles** and **contextual ecosystem roles**.
+
+### Intrinsic roles
+
+Durable roles such as Battery Maker, Charger Maker, Monitor Maker, Truck OEM, Dealer or Distributor, Software Vendor, Accessory Maker, and Brand Owner continue to use the existing `playsRole / rolePlayedBy` model.
+
+### Contextual roles
+
+Supplier, channel partner, partner, technology/integration partner, competitor, customer/operator, regulator, and standards-body status are treated as relationship- or offer-specific rather than global company labels.
+
+Evidence-backed examples already present include:
+
+- Triathlon USA supplying Mitsubishi Logisnext Americas.
+- Western Materials distributing East Penn / EnerSys products.
+- Averest distributing PosiCharge.
+- Motive Energy distributing Advanced Charging Technologies.
+- EnerSys partnering with Mitsubishi Logisnext Americas.
+- EnerSys integrating with Hyster-Yale.
+- Offer-scoped competitor cohorts in the PosiCharge competitive landscape.
+
+No global competitor labels were added. Power Designers and Ampure Automotive/Aftermarket EVSE remain explicitly internal portfolio businesses, not external competitors.
+
+There are currently **0 modeled customer organizations**, **0 regulator organizations**, and **0 standards-body organizations** with enough need for durable records. These remain explicit coverage gaps rather than invented notes.
+
+Updated `README_Organizations.md` with the controlled role-classification rules.
+
+No organization relationships or role assignments were changed.
+
+Evidence commit: `33ccdacc`.
+
+**Result:** Step 65 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4501,3 +4541,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 62 | 2026-10-05 | Complete | Populated 40_Use and Operations with 7 stable actor-goal Use Cases in addition to the 8 Step-60 contexts; retained only synchronized formal Function traceability, deferred evidence-gated Procedures, and updated README/Canvas navigation. Evidence: `Use and Operations Population Step 62 0.1.yaml`. |
 | 63 | 2026-10-05 | Complete | Strengthened Actor → Need → Use/context → Function traceability: all 22 Needs retain Actor and Function links; all 7 operational Use Cases have Actor and synchronized Function links; 13 Needs now link to stable operational Use/context, while Requirement traceability remains deferred because no committed Requirement model notes exist. Evidence: `Actor Need Use Capability Traceability Step 63 0.1.yaml`. |
 | 64 | 2026-10-05 | Complete | Reviewed all 86 notes in Organizations: 73 actual organizations, 8 reusable business-role notes, and 5 research/ledger rollups. Found zero confirmed duplicate organizations; identity, hierarchy and product/source coverage are generally strong, while provisional business-relationship governance and mixed folder content are the main quality risks. Evidence: `Organization Quality Inventory Step 64 0.1.yaml`. |
+| 65 | 2026-10-05 | Complete | Classified organization roles using a controlled intrinsic-versus-contextual model: durable maker/dealer/software identities remain playsRole roles, while supplier/channel/partner/competitor/customer/regulator/standards-body status is relationship- or offer-scoped. Added no global competitor labels or unsupported customer/regulator/standards-body notes. Evidence: `Organization Role Classification Step 65 0.1.yaml`. |
