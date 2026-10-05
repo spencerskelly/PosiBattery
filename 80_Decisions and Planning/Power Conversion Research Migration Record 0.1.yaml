@@ -5,8 +5,11 @@ step: 27
 purpose: "Inventory, mapping, and migration plan for the legacy _Power Conversion Research island."
 source_folder: "_Power Conversion Research"
 destination_folder: "70_Research and Evidence/Research/Power Conversion"
-migration_executed: false
+migration_executed: true
 preserve_filenames: true
+migration_commit: "a6c1a4cd3926bd6b9ceb11ddd5365a08284ff4a1"
+source_folder_removed: true
+navigation_updated: true
 
 summary:
   files: 4
