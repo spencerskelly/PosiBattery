@@ -44,6 +44,8 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Green Cubes SAFEFlex Battery]]"
+realizes:
+  - "[[Inspect Battery Condition Through a BMID]]"
 ---
 
 # Measure Battery Temperature
