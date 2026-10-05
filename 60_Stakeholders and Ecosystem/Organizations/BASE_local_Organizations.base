@@ -3,9 +3,14 @@ filters:
     - file.folder == "60_Stakeholders and Ecosystem/Organizations"
 views:
   - type: table
-    name: Local contents
+    name: Local ecosystem contents
     order:
       - file.name
       - id
       - status
+      - playsRole
+      - makes
+      - offers
+      - parentOf
+      - subsidiaryOf
       - tags
