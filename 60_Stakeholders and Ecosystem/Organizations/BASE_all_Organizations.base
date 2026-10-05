@@ -5,9 +5,20 @@ filters:
     - '!file.name.startsWith("README_")'
 views:
   - type: table
-    name: All notes
+    name: Ecosystem inventory
     order:
       - file.name
       - id
       - status
+      - playsRole
+      - makes
+      - offers
+      - parentOf
+      - subsidiaryOf
+      - distributorOf
+      - distributedBy
+      - supplierOf
+      - suppliedBy
+      - partnerOf
+      - integratesWith
       - tags
