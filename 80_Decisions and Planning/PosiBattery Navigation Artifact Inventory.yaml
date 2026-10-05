@@ -3,10 +3,10 @@ generated_date: "2026-10-04"
 repository: "spencerskelly/PosiBattery"
 purpose: "Machine-readable inventory of transitional, duplicate, stale, and intentionally paired navigation artifacts identified in Step 6."
 summary:
-  true_duplicate_readme_groups: 1
-  duplicate_readme_files: 2
+  true_duplicate_readme_groups: 0
+  duplicate_readme_files: 0
   stale_path_dependent_bases: 2
-  transitional_root_placeholder_readmes: 1
+  transitional_root_placeholder_readmes: 0
   standardized_root_readmes: 6
   empty_system_canvases_for_review: 3
   intentional_all_local_base_pairs: 8
@@ -20,13 +20,12 @@ findings:
     disposition: "resolved_step_13"
     note: "Step 13 consolidated the Products landing page into README_Products.md and retired the migration-era placeholder."
   - id: NAV-002
-    category: duplicate_readme
+    category: resolved_duplicate_readme
     folder: "50_Customer Needs"
     files:
-      - "50_Customer Needs/README - 50_Customer Needs.md"
       - "50_Customer Needs/README_Customer Needs.md"
-    disposition: "merge_or_retire_one_later"
-    note: "Both act as folder landing pages. README_Customer Needs contains substantive navigation; README - 50_Customer Needs is a migration-era target placeholder."
+    disposition: "resolved_step_14"
+    note: "Step 14 consolidated the Customer Needs landing page into README_Customer Needs.md and retired the migration-era placeholder."
   - id: NAV-003
     category: stale_path_dependent_base
     folder: "60_Stakeholders and Ecosystem/Organizations"
@@ -42,11 +41,10 @@ findings:
     disposition: "repair_or_relocate_later"
     note: "Filter still points to file.folder == \"Definitions/Properties\" and the folder itself is a migration candidate."
   - id: NAV-005
-    category: transitional_root_placeholder_readme
-    files:
-      - "50_Customer Needs/README - 50_Customer Needs.md"
-    disposition: "reconcile_in_step_14"
-    note: "Products was resolved in Step 13. Customer Needs remains for Step 14."
+    category: resolved_transitional_root_placeholder_readmes
+    files: []
+    disposition: "resolved_steps_13_14"
+    note: "All duplicate transitional root placeholder READMEs identified in Step 6 have now been reconciled and retired."
   - id: NAV-007
     category: standardized_root_readme
     files:
