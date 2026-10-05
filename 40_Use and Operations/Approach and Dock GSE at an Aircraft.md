@@ -6,11 +6,6 @@ uid: 20261005023700005skellyspencer
 status: Draft
 tags:
   - operational-use-case
-realizedBy:
-  - "[[Slow and Stop Near Aircraft]]"
-  - "[[Dock Automatically at Aircraft]]"
-  - "[[Indicate Aircraft Proximity to Operator]]"
-  - "[[Inhibit Drive Until Equipment Is Stowed]]"
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
