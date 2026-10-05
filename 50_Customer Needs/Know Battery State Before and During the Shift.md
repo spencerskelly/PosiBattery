@@ -38,6 +38,11 @@ Customer need: Know Battery State Before and During the Shift. The problem behin
   - [[PosiCharge Battery Rx]]: PosiCharge's Battery Rx sheet says it monitors state of charge, water level, voltage and temperature in real time, with current measurement range of plus or minus 1000 A, an electrolyte-immersed temperature sensor rated about -20 F to 165 F, a water-level detector, 7.63 x 2.25 x 1.25 in size, and tolerance of acid immersion and pressure-wash spray. The sheet names AeroVironment, so it likely predates current ownership (dated). Source: PosiCharge Battery Rx sheet (T1), retrieved 2026-10-02. <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Start a Shift and Confirm Vehicle Energy Readiness]].
+- Operating contexts: [[Material-Handling Fleet Site]], [[Airport Ground-Support Operating Area]].
+
 ## Aliases
 
 
