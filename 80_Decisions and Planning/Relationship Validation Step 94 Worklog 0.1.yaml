@@ -65,3 +65,15 @@ current_assessment:
 next_action:
   step: 94
   action: "Re-run the dedicated relationship gate when GitHub Actions can start a runner. Repair any checker findings before marking Step 94 complete."
+
+
+latest_recheck:
+  run: 37381479796
+  head_commit: "aee9b017"
+  workflow: "MDSE Relationship Check"
+  workflow_shape: "Minimal read-only workflow matching the previously successful identity-check pattern."
+  result: "startup failure before runner execution"
+  runner_id: 0
+  executed_steps: 0
+  conclusion: "GitHub Actions still did not allocate a runner; this is not a relationship-model finding."
+  completion_status: "Step 94 remains incomplete because endpoint/provisional/temporary checks have not executed."
