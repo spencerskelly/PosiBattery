@@ -9,6 +9,11 @@ tags:
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
+realizedBy:
+  - "[[Slow and Stop Near Aircraft]]"
+  - "[[Dock Automatically at Aircraft]]"
+  - "[[Indicate Aircraft Proximity to Operator]]"
+  - "[[Inhibit Drive Until Equipment Is Stowed]]"
 ---
 
 # Approach and Dock GSE at an Aircraft
@@ -22,6 +27,11 @@ The GSE operator approaches and reaches the required aircraft service position w
 - Primary contexts: [[Airport Ground-Support Operating Area]] and [[Aircraft Service Envelope]].
 - Typical sequence: approach the aircraft area, engage protected docking behavior where applicable, proceed under constrained approach conditions, respond to warnings or automatic stops, and reach the service position.
 - Automatic sensing, speed limiting, guidance, and stopping remain Functions.
+
+## Traceability
+
+- Source needs: [[Protect Aircraft and Ground Crew During Ground Operations]].
+- Operating contexts: [[Airport Ground-Support Operating Area]], [[Aircraft Service Envelope]].
 
 ## Aliases
 
