@@ -1,0 +1,128 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 82
+status: "Complete"
+phase: "L - Reconcile schemas and metadata"
+title: "Incremental adoption of reconciled MDSE contract"
+
+live_release:
+  mdse_release: "0.8.1"
+  vault_file: ".vault.yaml"
+  element_types: "99_System/03_Schemas/element-types.yaml 1.18"
+  relationships: "99_System/03_Schemas/relationships.yaml 1.36"
+  metadata: "99_System/03_Schemas/metadata.yaml 1.0"
+  local_model: "99_System/03_Schemas/local-model.yaml 0.2"
+
+activation:
+  element_types:
+    - "Organization is now a governed formal type with ORG prefix."
+    - "aliases and reuseScope are governed sparse optional properties."
+    - "productClass, measure/value fields, and source provenance fields are governed class-scoped sparse metadata."
+    - "Existing modelCheck importer holding class and Diagram folder semantics were preserved from the prior runtime."
+  relationships:
+    - "Five reconciled traceability/evidence predicates are live: hasNeed, arisesIn, measures, supports, contradicts."
+    - "Approved business predicates are now governed in relationships.yaml."
+    - "Selected traceability endpoint rules were broadened per Step 75."
+    - "Named YAML fields remain the only relationship assertion store."
+    - "Legacy Info organization endpoints remain temporarily valid where explicitly marked for migration compatibility."
+  metadata:
+    - "metadata.yaml is the live sparse metadata authority."
+    - "status remains Draft/Active/Retired lifecycle state only."
+    - "id and uid remain immutable after creation."
+    - "Specific applicability remains appliesTo rather than duplicate scope metadata."
+
+single_authority_cleanup:
+  provisional_business_schema:
+    path: "99_System/03_Schemas/business-relationships.provisional.yaml"
+    status: retired
+    superseded_by: "relationships.yaml 1.36"
+  pilot_fileclasses_remaining: 0
+  pilot_templates_remaining: 0
+  versioned_schema_snapshots_retained:
+    - "element-types.1.18.yaml"
+    - "relationships.1.36.yaml"
+    - "metadata.1.0.yaml"
+  note: "Versioned files are retained as release/pilot snapshots; unsuffixed schemas are now the runtime authorities."
+
+authoring_activation:
+  active_fileclass_version: "2.1 for affected classes"
+  affected_fileclasses:
+    - Object
+    - Actor
+    - Use Case
+    - Function
+    - Design
+    - Info
+    - Document
+    - Verification
+    - Result
+    - Organization
+  organization_fileclass_added: true
+  link_target_base:
+    path: "99_System/06_Fileclasses/MDSE Link Targets.base"
+    organization_views_added: true
+  specialized_templates_promoted:
+    - "99_System/05_Templates/Organization.md"
+    - "99_System/05_Templates/Product Object.md"
+    - "99_System/05_Templates/Measure Info.md"
+    - "99_System/05_Templates/Source Document.md"
+  legacy_alias_template_behavior:
+    rule: "New/revised templates no longer encourage an empty body-level ## Aliases authority. aliases is sparse YAML when needed."
+    existing_notes: "Existing body aliases remain valid until that note is deliberately migrated."
+
+tooling_activation:
+  workbench:
+    schema_paths: "Default unsuffixed paths now point to the adopted 1.18/1.36 live schemas; no user setting change is required."
+    organization_and_new_relationships: "Recognized after Workbench rebuild/reload because the active schema files changed in place."
+    sparse_metadata_validation: "Not enforced by Workbench itself; FileClass/schema audit/manual review remain responsible."
+  audit:
+    production_default: "audit-vault.py continues to read the unsuffixed live schemas."
+    candidate_override_support: "Step 81 added optional schema arguments for controlled release testing."
+  id_generator:
+    organization_prefix: ORG
+    specialized_template_mappings_preserved: true
+
+incremental_migration_policy:
+  trigger:
+    - "A legacy note is already being reviewed."
+    - "A legacy note is moved for an approved structural reason."
+    - "A legacy note is materially edited for engineering/business content."
+    - "A relationship correction requires touching the note."
+  not_a_trigger:
+    - "The field exists in the new schema."
+    - "The note happens to be in a folder associated with a new classification."
+    - "A bulk search suggests a possible classification."
+  procedure:
+    - "Read the note and supporting evidence before changing semantic type or classification."
+    - "Preserve existing id and uid. Reclassification alone never authorizes a new id."
+    - "If migrating aliases, move existing body aliases into YAML aliases in the same reviewed change and remove the duplicate body alias content."
+    - "Add productClass, measure metadata, source metadata, or reuseScope only when the semantic value is supported; absence remains valid."
+    - "For Organization migration, change only actual persistent organizations; reusable business-role, research, and ledger notes remain their appropriate existing types."
+    - "When adding or changing a paired relationship, persist/synchronize the inverse in the same reviewed transaction."
+    - "Do not infer relationships from folder placement, naming similarity, tags, or adjacency."
+    - "Run the live audit and/or Workbench assurance after each small logical migration batch; repair or roll back new findings before continuing."
+  batch_rule: "Use small, reviewable logical batches. No vault-wide blind metadata rewrite is authorized."
+
+identity_and_compatibility:
+  bulk_retyping_performed_in_step_82: false
+  bulk_metadata_rewrite_performed_in_step_82: false
+  existing_ids_changed: 0
+  existing_uids_changed: 0
+  legacy_notes_missing_new_sparse_metadata: valid
+  legacy_info_organizations: "valid until individually migrated"
+  local_model_schema_changed: false
+
+validation_state:
+  contract_semantics: passed_in_step_81
+  workbench_schema_parser: compatible
+  production_runtime: activated
+  active_authoring_controls: aligned
+  interactive_obsidian_ui_from_connector: "not directly exercised; retain normal rollback discipline during first real authoring use"
+  known_nonblocking_limit: "Workbench does not currently enforce metadata.yaml conditional field rules."
+
+phase_result:
+  phase_l_complete: true
+  next_phase: "M - Promote PosiBattery into product-development modeling"
+  next_step: 83
+  step_83_note: "Select the first product family for full modeling; this requires user judgment rather than automatic bulk execution."
