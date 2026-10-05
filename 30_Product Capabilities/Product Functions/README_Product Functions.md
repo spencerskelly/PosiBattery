@@ -4,14 +4,18 @@
 
 This folder models what products, systems, or subsystems do. Function notes are phrased as capabilities and support traceability from customer/operational needs to technical designs, product offerings, and measurable outcomes.
 
-## Key function families
+## Behavioral navigation by goal
 
-- **Charging:** [[Charge Battery]], [[Charge Battery Conventionally]], [[Charge Battery Fast]], [[Charge Battery by Opportunity]], [[Charge Lithium-Ion Battery]], [[Charge Under BMS Control]], [[Control Charge Profile]], [[Compensate Charge for Battery Temperature]], and [[Equalize Battery on Schedule]].
-- **Battery condition and protection:** [[Measure Battery Voltage]], [[Measure Battery Current]], [[Measure Battery Temperature]], [[Sense Electrolyte Level]], [[Estimate State of Charge]], [[Estimate State of Health]], [[Detect Cell Failure]], and [[Protect Battery from Deep Discharge]].
-- **Communications and data:** [[Communicate Battery State over CAN]], [[Communicate with Charger]], [[Transmit Battery Data Wirelessly]], [[Upload Battery Data to Cloud Portal]], [[Export Battery Data to PC]], and [[Log Battery Events and Usage]].
-- **Fleet and operator management:** [[Manage Chargers Remotely]], [[Manage Fleet Use and Data]], [[Configure Device from Mobile App or PC]], [[Display Battery Status to Operator]], and [[Control Operator Access]].
-- **Vehicle safety and assistance:** [[Detect Pedestrians and Objects Near Truck]], [[Warn Pedestrians of Approaching Truck]], [[Detect and Record Impacts]], [[Limit Truck Speed Automatically]], [[Maintain Vehicle Stability and Load Awareness]], and [[Support Operator View and Positioning]].
-- **Alternative power:** [[Supply Vehicle Energy Without Charging]], [[Refuel Truck Power Source in Minutes]], and [[Report Fuel Cell State to Truck]].
+Use the existing modeled Function hierarchy as the primary navigation grouping. These categories are derived from explicit goal-to-family relationships; they do not create a second semantic taxonomy and do not make folder placement authoritative.
+
+- **[[Deliver Energy to Vehicles]]** — charging, charge-profile control, charging availability/safety, non-charging energy supply, and battery/vehicle power-path connection.
+- **[[Keep Equipment Working in Its Environment]]** — operation in cold, wet, dusty, weather-exposed, and other harsh conditions.
+- **[[Know and Protect Battery Condition]]** — battery sensing, condition reporting, protection, and electrolyte maintenance.
+- **[[Manage Fleet Use and Data]]** — battery/vehicle communications, fleet controls, remote management, access, event recording, and telemetry.
+- **[[Protect People and Equipment Near Vehicles]]** — collision sensing, automatic speed/stop functions, hazard warning, and vehicle stability/load awareness.
+- **[[Support the Operator]]** — operator visibility/positioning, reduced physical effort, and truck-condition information.
+
+The complete 129-function goal → general family → specific function tree is maintained in [[Function and Design Levels]]. Use `BASE_all_Product Functions.base` for exhaustive discovery rather than creating arbitrary count-based folders.
 
 ## Navigation
 
