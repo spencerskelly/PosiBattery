@@ -20,11 +20,21 @@ describes:
 
 PowerTrac 3 features and specification table, with REVOLUTION charger integration by power line communication.
 
-## Notes
+## Provenance
 
-- **File in the repo:** [[PDS-PT-PT3_PowerTrac-3.pdf]] (folder Downloads). **Original web address:** <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>. **Format:** 2 pages; PDS-PT3; dated 11/2025.
-- **Tier:** T1 manufacturer document (read from the local copy on 2026-10-02). Facts taken from it are cited on the product notes as this note plus the original address.
-- **Checked against other sources:** every difference from earlier vault text is logged in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- **Local artifact:** [[PDS-PT-PT3_PowerTrac-3.pdf]] in `Downloads`.
+- **Source identity:** Power Designers / SIBEX manufacturer document.
+- **Original web address:** <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>.
+- **Document date / revision:** Document identifier PDS-PT3; dated 11/2025.
+- **Evidence tier:** T1 manufacturer document.
+- **Local copy reviewed:** 2026-10-02.
+- **Original web access/download date:** Not recorded in the current vault evidence.
+
+## Traceability
+
+- Governed `describes` relationships in frontmatter identify the modeled subjects this source supports.
+- Differences from earlier vault text are tracked in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- As of the 2026-10-04 provenance review, no direct downstream backlink to this Source Document note name or original URL was verified outside the Source Documents/planning records. This is a traceability gap, not evidence that the source was unused.
 
 ## Aliases
 
