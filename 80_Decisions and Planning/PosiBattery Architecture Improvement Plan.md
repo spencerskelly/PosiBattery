@@ -701,7 +701,7 @@ Primary top-level domain coverage currently has no missing-standard-artifact fin
 | Root area | Files | Markdown | Bases | Canvases | PDFs |
 |---|---:|---:|---:|---:|---:|
 | `10_Products` | 429 | 426 | 2 | 1 | 0 |
-| 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline. +47 Markdown, +9 model notes (all Functions), large numbered-taxonomy migration, new accessory traceability, runtime/schema versions unchanged, and broken wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |\n| 2 | 2026-10-04 | Complete | Baseline counts recorded at main commit `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. Exact relationship-edge totals deferred to Step 4 machine-readable scan because the connector bulk-read cap prevents an authoritative full-note parse here. |\n| `30_Product Capabilities` | 315 | 306 | 6 | 3 | 0 |
+| `30_Product Capabilities` | 315 | 306 | 6 | 3 | 0 |
 | `60_Stakeholders and Ecosystem` | 107 | 100 | 5 | 2 | 0 |
 | `99_System` | 96 | 78 | 4 | 3 | 0 |
 | `70_Research and Evidence` | 69 | 63 | 4 | 2 | 0 |
@@ -719,7 +719,7 @@ Primary top-level domain coverage currently has no missing-standard-artifact fin
 
 The active relationship contract defines paired, symmetric, temporary, and one-way relationship fields under `99_System/03_Schemas/relationships.yaml`. Exact **instance-edge totals** require a full frontmatter scan of all model notes. The GitHub connector's per-turn bulk-read cap prevented a complete 1,076-file parse in this step, so no synthetic or partial edge count has been recorded as authoritative.
 
-This limitation is intentionally deferred to **Step 4**, where the machine-readable inventory can calculate and persist repeatable relationship-instance metrics alongside folder statistics. Step 1 already confirms that the current relationship targets that were scanned by the controlled audit have **0 unresolved targets** and **0 missing inverses**.
+This limitation is not part of the Step 4 folder-inventory scope. Exact relationship-instance totals should be produced by a dedicated full-vault parser when relationship-density metrics are needed; no partial count is treated as authoritative. Step 1 already confirms that the current relationship targets that were scanned by the controlled audit have **0 unresolved targets** and **0 missing inverses**.
 
 **Result:** Step 2 complete. Repository, model, evidence, navigation, and major-area counts are now captured as the comparison baseline. Exact relationship-edge totals remain a documented machine-inventory follow-up rather than an estimated value.
 
@@ -828,6 +828,66 @@ No correction was performed in Step 3. This step records change awareness only, 
 
 ---
 
+## Step 4 completion evidence — Machine-readable folder inventory
+
+**Date:** 2026-10-04  
+**Inventory baseline commit:** `1181f542d50115b885ae82738118b13b532c823e`  
+**Inventory file:** `80_Decisions and Planning/PosiBattery Folder Inventory.yaml`  
+**Inventory creation commit:** `1c8da75841880e8dc13bb4c10cbcaeab5e39ad9b`
+
+A machine-readable YAML inventory was generated from the full recursive Git tree. It records all **105 repository directories** and captures, for every directory:
+
+- repository-relative path;
+- hierarchy depth;
+- direct file count;
+- recursive file count;
+- number of direct child folders;
+- recursive Markdown, PDF, Base, and Canvas counts;
+- direct README-style navigation files;
+- direct Base files;
+- direct Canvas files;
+- a `classification` field reserved for Step 5.
+
+The inventory also preserves repository-level totals at the baseline:
+
+- entries: **1,345**
+- files: **1,240**
+- directories: **105**
+- Markdown: **1,076**
+- PDFs: **66**
+- Bases: **24**
+- Canvases: **12**
+
+The classification field is deliberately `null` for every folder in this step. Step 5 will populate it using the approved values:
+
+- `canonical`
+- `legacy`
+- `system`
+- `temporary`
+- `migration_candidate`
+
+This keeps Step 4 descriptive and prevents classification judgments from being mixed into the inventory-generation step.
+
+### Immediate structural observations exposed by the inventory
+
+The inventory makes several upcoming cleanup targets machine-visible without changing them yet:
+
+- `10_Products` currently contains both `README - 10_Products.md` and `README_Products.md`.
+- `50_Customer Needs` currently contains both `README - 50_Customer Needs.md` and `README_Customer Needs.md`.
+- large leaf folders include Product Functions, Product Designs, Organizations, Performance Metrics, and several product/accessory categories;
+- the three underscore-prefixed research folders and `Downloads` remain visible as separate root areas;
+- `20_Product Architecture` and `40_Use and Operations` currently contain only their root README files.
+
+These are inventory observations only; no folder was moved, renamed, merged, or reclassified in Step 4.
+
+### Documentation repair performed
+
+While recording Step 4, an accidental formatting defect introduced during the prior roadmap update was corrected: the Step 2 and Step 3 completion-log rows had been inserted inside the Step 2 root-size table. The model and repository structure were unaffected; only the roadmap formatting was repaired.
+
+**Result:** Step 4 complete. The vault now has a committed machine-readable folder baseline suitable for classification, migration planning, navigation cleanup, and later before/after comparison.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -835,3 +895,6 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | Step | Date | Status | Evidence / Notes |
 | ---: | --- | --- | --- |
 | 1 | 2026-10-04 | Complete | Fresh audit on `main` commit `8837b06f`; 1,076 Markdown / 905 model notes; 27 blocking broken wikilinks; all identity/frontmatter/relationship/path checks otherwise clean. Workflow run `37255015647`, job `111590114513`. Secondary naming/dependency checks did not execute because the primary audit failed first. |
+| 2 | 2026-10-04 | Complete | Baseline counts recorded at `22aed9cb`: 1,345 entries, 1,240 files, 105 directories, 1,076 Markdown, 905 model notes, 8 governed Document/source records, 24 Bases, 12 Canvases, and major root-area sizes. |
+| 3 | 2026-10-04 | Complete | Compared clean audit commit `b8fda489` with Step 2 baseline: +47 Markdown, +9 model notes (all Functions), major numbered-taxonomy migration, new accessory traceability, unchanged runtime/schema versions, and wikilinks regressed from 0 to 27 while identity/relationship integrity stayed clean. |
+| 4 | 2026-10-04 | Complete | Added `PosiBattery Folder Inventory.yaml` at commit `1c8da758`, covering all 105 directories with direct/recursive counts, navigation artifacts, content-type counts, hierarchy depth, and a classification field reserved for Step 5. Repaired roadmap completion-log formatting. |
