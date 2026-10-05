@@ -3005,6 +3005,96 @@ Results remain stable:
 
 ---
 
+## Step 35 completion evidence — Safe Downloads cleanup candidates defined
+
+**Date:** 2026-10-04
+
+A deletion-review classification was created for the Downloads evidence intake. No files were deleted.
+
+### Review record created
+
+`80_Decisions and Planning/Downloads Cleanup Review 0.1.yaml`
+
+### Cleanup classes
+
+The 66 PDFs are now separated into three treatment classes:
+
+- **8 retain — Source Document backed**
+  - each has an existing curated Source Document record;
+  - these remain evidence attachments.
+
+- **9 safe cleanup candidates**
+  - each is a byte-identical duplicate of another retained file;
+  - none has its own Source Document record;
+  - no direct repository filename reference was found;
+  - an unsuffixed copy with the same Git blob is present;
+  - confidence: **high**.
+
+- **49 preserve pending provenance review**
+  - each is a unique Git blob;
+  - none currently has a Source Document record;
+  - no direct repository filename reference was found;
+  - lack of traceability is not sufficient evidence for deletion.
+
+### Safe cleanup list
+
+The nine high-confidence candidates are the redundant suffixed copies already identified in Step 30.
+
+The review explicitly recommends retaining the corresponding unsuffixed copy for each exact-duplicate group.
+
+### Safety boundary
+
+Step 35 did **not** authorize or execute deletion.
+
+Any future cleanup action should:
+
+1. be explicitly approved;
+2. recheck current references immediately before deletion;
+3. delete only the redundant exact copies;
+4. preserve each preferred retained copy;
+5. rerun the structural audit;
+6. update the Downloads manifest and cleanup records afterward.
+
+### Phase E evidence-layer result
+
+The evidence layer now has:
+
+- 66 PDFs inventoried;
+- 8 exact duplicate groups classified;
+- 9 redundant exact copies identified;
+- 8 PDFs connected to curated Source Document records;
+- 49 unique untracked artifacts preserved pending provenance work;
+- all 8 Source Document records normalized for provenance.
+
+### Validation
+
+GitHub Actions run `37268779664` on commit `115d2bfd` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+### Commit
+
+- `115d2bfd` — define safe Downloads cleanup candidates
+
+**Result:** Step 35 complete. Phase E is complete. Only nine redundant exact copies currently meet a high-confidence cleanup threshold, and none has been deleted.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3038,3 +3128,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 32 | 2026-10-04 | Complete | Checked all 58 unmatched PDFs for direct repository references, found none, and classified them as 9 redundant exact-copy orphan candidates plus 49 unique untracked artifacts to preserve pending provenance/cleanup review. |
 | 33 | 2026-10-04 | Complete | Reviewed all 8 existing Source Document records: all have strong basic source provenance but incomplete explicit access-date and downstream claim-traceability information, so all 8 were classified moderate rather than weak. |
 | 34 | 2026-10-04 | Complete | Normalized provenance and traceability sections across all 8 Source Document records using only supported metadata, preserved all identities/relationships, explicitly retained unknown access dates, and kept the structural audit stable at 19 broken wikilinks. |
+| 35 | 2026-10-04 | Complete | Classified Downloads cleanup safety: retain 8 Source-Document-backed PDFs, flag 9 byte-identical redundant copies as high-confidence cleanup candidates, and preserve 49 unique untracked artifacts pending provenance review; deleted nothing. |
