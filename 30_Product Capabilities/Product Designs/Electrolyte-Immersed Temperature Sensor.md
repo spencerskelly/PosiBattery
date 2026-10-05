@@ -17,6 +17,8 @@ designOf:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[PosiCharge DVS150]]"
+realizes:
+  - "[[Report Battery Temperature to Charger]]"
 ---
 
 # Electrolyte-Immersed Temperature Sensor
