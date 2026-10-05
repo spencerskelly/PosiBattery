@@ -1,0 +1,102 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 86
+status: "Complete"
+product_family: "PosiCharge BMID"
+
+authoritative_context_note:
+  path: "20_Product Architecture/PosiCharge BMID Product Context.md"
+  id: "INFO-00111"
+  role: "Defines the external systems, equipment, actors, environments, and interface boundaries needed to understand the BMID family in operation."
+
+visual_context:
+  path: "20_Product Architecture/CANVAS_PosiCharge BMID Product Context.canvas"
+  scope: "Compact explanatory view only."
+  semantic_rule: "Canvas edges are descriptive and are not authoritative MDSE relationships unless the same relationship exists in governed YAML."
+
+product_of_interest:
+  - "PosiCharge BMID"
+
+external_physical_systems:
+  - "Industrial Traction Battery"
+  - "Industrial Battery Charger"
+  - "Class I Electric Rider Truck"
+  - "Ground Support Equipment"
+  - "Battery Management System"
+
+external_digital_and_service_systems:
+  - "PosiCharge PosiLink"
+  - "PosiCharge PosiConnect"
+
+human_actors:
+  - "Forklift Operator"
+  - "GSE Operator"
+  - "Maintenance Technician"
+  - "Fleet Operations Manager"
+  - "Dealer Service Technician"
+  - "Equipment Installer"
+  - "Truck OEM Integration Engineer"
+
+operating_contexts:
+  - "Material-Handling Fleet Site"
+  - "Airport Ground-Support Operating Area"
+  - "Centralized Battery Room and Charging Area"
+  - "Distributed and Opportunity Charging Area"
+
+interaction_categories:
+  battery_side:
+    - identity
+    - voltage
+    - temperature
+    - current
+    - electrolyte level
+    - state/history
+    - BMS/CAN information
+  charger:
+    - battery identification
+    - battery condition reporting
+    - supported data exchange
+  vehicle:
+    - supported vehicle data exchange
+  fleet_cloud:
+    - logs
+    - alerts
+    - battery history
+    - fleet information
+  service_configuration:
+    - local configuration
+    - firmware update
+    - log export
+    - status access
+
+boundary_rules:
+  - "External systems are not BMID hasPart elements."
+  - "A specific external product is not a mandatory family dependency merely because one BMID generation integrates with it."
+  - "Variant-specific interfaces remain variant-specific."
+  - "The BMID does not own charger power-control authority unless a later requirement explicitly assigns it."
+  - "Battery BMS protection/control authority remains distinct from BMID information functions unless explicitly modeled otherwise."
+  - "Physical mounting, connector pinout, wiring, protocol details, and sensing topology are not inferred without evidence."
+  - "Reusable vehicle/GSE architecture remains in the existing architecture sets rather than being duplicated into BMID."
+  - "Later Local Model work may create contextual occurrences without changing reusable external definitions."
+
+specific_examples_not_mandatory_dependencies:
+  compatible_charger_example: "PosiCharge ProCore Edge"
+  cloud_platform_example: "PosiCharge PosiLink"
+  configuration_tool_example: "PosiCharge PosiConnect"
+
+use_cases_placed_in_context:
+  - "Charge a BMID-Equipped Battery Using Battery Information"
+  - "Inspect Battery Condition Through a BMID"
+  - "Review BMID Battery History and Exceptions"
+  - "Configure and Service a Supported BMID"
+  - "Integrate a BMID with Charger Vehicle and Fleet Systems"
+
+implementation_notes:
+  - "An attempted backlink from the Product Abstract/Definition note was blocked by the repository connector; no semantic dependency relies on that backlink."
+  - "The context note itself links to the canonical BMID family and all major context elements."
+  - "No existing IDs or UIDs were modified."
+
+next_step:
+  step: 87
+  title: "Introduce product Requirements"
