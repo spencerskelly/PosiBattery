@@ -74,6 +74,40 @@ Definitions/
 
 This 00–09 structure is subordinate to the authoritative numbered vault taxonomy. It is a product-context navigation pattern, not a second root taxonomy or an ontology. Element type and relationships remain authoritative.
 
+## Placement rules for the 00–09 product pattern
+
+The 00–09 pattern is a **product-context navigation layer**. It may be created beneath a specific product or product-family context when that product has enough engineering content to benefit from a dedicated working structure.
+
+Use these rules:
+
+1. **Do not create 00–09 folders at the vault root.** The authoritative root remains the numbered 10–99 taxonomy.
+2. **Do not create the full 00–09 set automatically.** Create only the sections that contain real content or provide demonstrated navigation value.
+3. **Do not duplicate reusable definitions.** A cross-product Function, Design, Object, Port, Requirement, technology, or other reusable concept keeps one canonical note in its numbered domain. The product context links to that note.
+4. **Product-specific content may live in the product context** when its scope is genuinely specific to that product or family and the placement improves navigation.
+5. **Contextual composition belongs in Local Model records where appropriate.** Reuse a canonical definition and model the product-specific occurrence rather than cloning the definition.
+6. **00–09 numbering does not change type or relationship semantics.** A note in `04 Product Function` is not a Function merely because of its folder; its governed type and relationships remain authoritative.
+7. **Evidence stays in the evidence layer.** Source records and research synthesis remain under `70_Research and Evidence`; product folders may link to them but should not become duplicate source repositories.
+8. **Decisions and unresolved governance stay visible in `80_Decisions and Planning`.** `09 Product in Progress` is for product-context working material, not a replacement for vault-level governance.
+9. **Promotion must preserve identity.** If product-context work matures into a reusable cross-product definition, move/reclassify the existing canonical note through a controlled step; do not create a second identity.
+10. **Navigation artifacts are exception-based below the root.** A product or product-family context may receive a README/Base/Canvas only when it materially improves navigation.
+
+### 00–09 to numbered-domain relationship
+
+| Product-context area | Primary numbered-domain relationship | Placement rule |
+|---|---|---|
+| `00 Product Abstract` | `10_Products`, `50_Customer Needs`, `80_Decisions and Planning` | Product-specific framing may live in context; reusable product identity stays canonical in `10_Products`. |
+| `00 Product Definition` | `10_Products` | Link to canonical product/family definitions; keep only product-context material locally when distinct. |
+| `01 Product Use Case` | `40_Use and Operations` | Reuse canonical Use Cases when shared; product-specific scenarios may remain local if truly scoped to the product. |
+| `02 Product Context` | `60_Stakeholders and Ecosystem`, `90_Definitions and Reusable Reference` | Link to actors, organizations, external systems, and reusable context definitions rather than copying them. |
+| `03 Product Requirement` | `30_Product Capabilities` | Shared requirements remain canonical; product-specific requirements may be organized locally with explicit applicability. |
+| `04 Product Function` | `30_Product Capabilities` | Shared Functions remain canonical and are referenced from the product context. |
+| `05 Product Design` | `20_Product Architecture` and `30_Product Capabilities` | Product-specific realization may be local; reusable design definitions remain canonical in the appropriate numbered domain. |
+| `06 Product Validation` | `30_Product Capabilities` | Reusable Verification/Procedure/Setup definitions remain canonical; product campaign context may be local. |
+| `07 Product Assembly` | `20_Product Architecture` | Use reusable architecture definitions plus Local Model occurrences for contextual composition. |
+| `09 Product in Progress` | `70_Research and Evidence`, `80_Decisions and Planning` | Temporary product-context synthesis only; mature evidence/governance content moves to its canonical numbered domain. |
+
+This mapping is directional guidance for storage and navigation. It does not establish semantic relationships automatically.
+
 ## Meaning of the target areas
 
 ### 00 Product Abstract
