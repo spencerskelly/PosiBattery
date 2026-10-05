@@ -18,7 +18,19 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[Knowledge Base Backlog]].
 - [[Ground Support Equipment|Ground Support Equipment]] — baggage/tow tractors, belt loaders, cargo loaders, and pushback tractors.
 - [[Vehicle Accessory|Vehicle Accessories]] — access control, cameras, operator assistance, displays, power interfaces, detection, and warnings.
 
+## How to navigate this domain
+
+Use the navigation layers for different questions:
+
+- [[CANVAS_Products]] — curated orientation map of the major product domains and their architecture context.
+- `BASE_all_Products.base` — recursive catalog for finding individual product records across the entire Products tree.
+- `BASE_local_Products.base` — root-level view for only the direct contents of `10_Products`.
+- Follow each abstract category/family note's specialization relationships to move from reusable product definitions to concrete offerings.
+
+The Canvas is intentionally not exhaustive. Detailed categories and individual offerings belong in Bases and relationship navigation rather than being duplicated visually.
+
 ## Key information
+
 
 - [[Battery-Connected Product]] — cross-cutting concept for products that connect to or interact with batteries.
 - [[CANVAS_Products]] — visual product taxonomy and relationships.
