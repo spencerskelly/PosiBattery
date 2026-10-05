@@ -16,6 +16,7 @@ realizedBy:
 participants:
   - "[[Truck OEM Integration Engineer]]"
 arisesIn:
+  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 ---
 
