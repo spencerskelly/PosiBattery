@@ -254,3 +254,22 @@ Created `80_Decisions and Planning/Semantic Linking Exception Classes Step 4 0.1
 **Commit:** `fc8708b1`.
 
 **Result:** Step 4 complete. Next: **Step 5 — Align automated traceability rules to the new matrix**.
+
+
+---
+
+## Step 5 completion evidence — Automated traceability alignment
+
+Created the machine-readable semantic-linking reporting contract, a separate reviewed disposition registry, and updated `report-traceability.py` to consume the Step 2 expectation matrix, Step 3 completeness classes, and Step 4 exception vocabulary.
+
+Validation run `37390908265`, job `112035486866`, completed successfully. The new reporter preserved the frozen legacy baseline of **221 weak findings** while expanding whole-vault review coverage to **1,098 raw matrix-dimension findings**. All **945 notes** remain intentionally unreviewed under the new completeness classification at this point; later steps will classify and disposition them.
+
+The new raw matrix findings are review prompts, not defects. Zero applicable unexplained findings currently means only that no note has yet been formally reviewed under the new contract.
+
+No model relationships, IDs, UIDs, element types, or model-note metadata changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Automation Alignment Step 5 0.1.yaml`.
+
+**Commits:** `56fd89d1`, `40b59469`, `7a559d13`, `e56cea63`.
+
+**Result:** Step 5 complete. The next step is **Step 6 — Review product identity and product-family links**.
