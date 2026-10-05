@@ -4308,6 +4308,36 @@ Validation run `37292638364` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 61 completion evidence - Operational workflows and procedures identified
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Operational Workflow and Procedure Candidate Inventory Step 61 0.1.yaml`.
+
+Reviewed existing operational candidates, Customer Needs, product documentation, charge-profile research, cold-storage guidance, and representative maintenance/safety evidence for repeated sequences.
+
+### Result
+
+Identified **12 repeated operational workflow candidates**:
+
+- **7 high-readiness**
+- **5 medium-readiness**
+- **5** likely future Procedures
+- **7** better represented as operational Use Cases with ordered Steps
+- **3** candidate reusable Setups
+
+The strongest candidates include connect/charge/return-to-service, opportunity charging during breaks, pre-shift authorization/checks, flooded-battery watering, cold-storage battery preparation, impact review/release, GSE aircraft docking, and battery-care review.
+
+Product-controlled sequences were explicitly excluded from Procedure modeling. Bulk/absorption/equalize charger stages, automatic charge adaptation, and automatic proximity slow/stop behavior remain Functions or product-controlled behavior.
+
+No Procedure, Step, Setup, or operational Use Case notes were created in this identification step. Step 62 will populate only the stable workflows supported by enough evidence.
+
+Evidence commit: `168579d8`.
+
+**Result:** Step 61 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4367,3 +4397,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 58 | 2026-10-05 | Complete | Reviewed all 22 Customer Needs plus Products, Functions, and research to extract 20 actor-goal operational Use Case candidates; 17 high-confidence and 3 medium-confidence. Kept environmental/fleet conditions as scenario variants and created no premature Use Case notes. Evidence: `Operational Use Case Candidate Inventory Step 58 0.1.yaml`. |
 | 59 | 2026-10-05 | Complete | Applied the Use Case/Function boundary across current Customer Needs and representative Function edge cases; found zero clear classification mistakes, documented four uncertain Step-58 candidates, and added an explicit classification test to the Use and Operations README. Evidence: `Use Case Function Classification Review Step 59 0.1.yaml`. |
 | 60 | 2026-10-05 | Complete | Modeled eight reusable operational/site/environment contexts, added one supported context specialization, reused existing surrounding Objects/products, and deferred ambiguous external-system boundaries rather than inventing them. Evidence: `Operational Context Inventory Step 60 0.1.yaml`. |
+| 61 | 2026-10-05 | Complete | Identified 12 repeated operational workflow candidates from existing evidence: 7 high-readiness and 5 medium-readiness; classified likely Procedure vs Use Case-with-Steps representation, identified 3 Setup candidates, and explicitly excluded product-controlled algorithms from operational workflow modeling. Evidence: `Operational Workflow and Procedure Candidate Inventory Step 61 0.1.yaml`. |
