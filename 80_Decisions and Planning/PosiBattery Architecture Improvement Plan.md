@@ -4519,6 +4519,36 @@ Validation run `37337102047` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 67 completion evidence - Organization navigation improved
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Organization Navigation Improvement Step 67 0.1.yaml`.
+
+Improved Organization discoverability without changing organization semantics or folder placement.
+
+### Navigation updates
+
+- Added ecosystem navigation to `README_Organizations.md` for:
+  - internal Ampure portfolio;
+  - battery/charger/monitor makers;
+  - vehicle and GSE OEMs;
+  - dealers/distributors;
+  - software/accessory providers;
+  - relationship evidence;
+  - offer-scoped competition and partnerships.
+- Expanded `BASE_all_Organizations.base` to expose role, product, ownership, channel, supplier, partner, and integration relationship columns.
+- Expanded `BASE_local_Organizations.base` with the most useful local role/portfolio/ownership columns.
+- Replaced the prior narrow relationship-example Canvas with a **10-node curated ecosystem entry map**, within the ≤12-node guideline.
+
+No organization notes, IDs, UIDs, roles, or business relationships were changed.
+
+Evidence commit: `bcd16835`.
+
+**Result:** Step 67 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4584,3 +4614,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 64 | 2026-10-05 | Complete | Reviewed all 86 notes in Organizations: 73 actual organizations, 8 reusable business-role notes, and 5 research/ledger rollups. Found zero confirmed duplicate organizations; identity, hierarchy and product/source coverage are generally strong, while provisional business-relationship governance and mixed folder content are the main quality risks. Evidence: `Organization Quality Inventory Step 64 0.1.yaml`. |
 | 65 | 2026-10-05 | Complete | Classified organization roles using a controlled intrinsic-versus-contextual model: durable maker/dealer/software identities remain playsRole roles, while supplier/channel/partner/competitor/customer/regulator/standards-body status is relationship- or offer-scoped. Added no global competitor labels or unsupported customer/regulator/standards-body notes. Evidence: `Organization Role Classification Step 65 0.1.yaml`. |
 | 66 | 2026-10-05 | Complete | Reviewed alternate spellings, aliases, legacy names, regional/divisional entities, parent/business distinctions, and lineage cautions across the Organization set. Found zero confirmed duplicate organization notes; preserved verified distinctions and unresolved lineage cases without merges or renames. Evidence: `Organization Duplicate Identity Review Step 66 0.1.yaml`. |
+| 67 | 2026-10-05 | Complete | Improved Organization navigation with ecosystem role groupings, richer Base relationship columns, and a 10-node curated Canvas covering internal portfolio, makers, OEMs, channels, software, relationship evidence, and scoped competition/partner analysis. No semantic model changes. Evidence: `Organization Navigation Improvement Step 67 0.1.yaml`. |
