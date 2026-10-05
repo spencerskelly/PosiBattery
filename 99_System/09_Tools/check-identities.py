@@ -90,22 +90,37 @@ for p in markdown_files:
     rel = p.relative_to(ROOT).as_posix()
     text = p.read_text(encoding="utf-8", errors="replace")
     fm = frontmatter(text)
-    current_id = str(fm.get("id", "") or "").strip()
-    uid = str(fm.get("uid", "") or "").strip()
     typ = str(fm.get("type", "") or "").strip()
 
-    if current_id or uid:
-        identity_notes += 1
+    # Instantiated engineering notes live outside 99_System. Person notes are
+    # identity-bearing author infrastructure and intentionally share the INFO
+    # ID and global UID namespaces. Templates and system/reference Markdown are
+    # definitions, not instantiated identities.
+    is_model_note = not rel.startswith("99_System/") and bool(typ)
+    is_person_note = rel.startswith("99_System/04_People/") and p.suffix == ".md"
+    if not (is_model_note or is_person_note):
+        continue
 
-    if current_id:
+    current_id = str(fm.get("id", "") or "").strip()
+    uid = str(fm.get("uid", "") or "").strip()
+    identity_notes += 1
+
+    if not current_id:
+        problems.append(("missing current ID", rel, "<missing>"))
+    else:
         current_ids[current_id].append(rel)
         if not ID_RE.fullmatch(current_id):
             problems.append(("invalid current ID format", rel, current_id))
         expected = prefix_by_type.get(typ)
-        if expected and not current_id.startswith(expected + "-"):
+        # Organization was introduced after legacy organization Info notes
+        # existed. Release 0.8.1 explicitly preserves those existing IDs.
+        legacy_org_id = typ == "Organization" and current_id.startswith("INFO-")
+        if expected and not legacy_org_id and not current_id.startswith(expected + "-"):
             problems.append(("ID/type prefix mismatch", rel, f"{current_id} expected {expected}- for {typ}"))
 
-    if uid:
+    if not uid:
+        problems.append(("missing UID", rel, "<missing>"))
+    else:
         uids[uid].append(rel)
         if not UID_RE.fullmatch(uid):
             problems.append(("invalid UID format", rel, uid))
@@ -128,7 +143,7 @@ for p in markdown_files:
             if m:
                 former_ids[m.group(1)].append(rel)
 
-    # Also honor legacy/frontmatter formerIds if encountered.
+    # Honor legacy/frontmatter formerIds if encountered.
     raw_former = fm.get("formerIds") or []
     if isinstance(raw_former, str):
         raw_former = [raw_former]
@@ -138,15 +153,27 @@ for p in markdown_files:
             if x:
                 former_ids[x].append(rel)
 
-    for line in lines:
-        m = LOCAL_RE.fullmatch(line.strip())
-        if not m:
-            continue
-        kind, token = m.groups()
-        local_id = f"{kind}-{token}"
-        local_tokens[token].append((rel, local_id))
-        if token[17:] not in known_author_codes:
-            problems.append(("unregistered Local Model author code", rel, f"{local_id}: {token[17:]}"))
+    # Local identities count only inside a governed Local Model region on an
+    # instantiated model note. Documentation examples do not enter the global
+    # identity namespace.
+    local_start = None
+    local_end = None
+    for idx, line in enumerate(lines):
+        if "MDSE:LOCAL-MODEL START" in line:
+            local_start = idx + 1
+        elif local_start is not None and "MDSE:LOCAL-MODEL END" in line:
+            local_end = idx
+            break
+    if local_start is not None and local_end is not None:
+        for line in lines[local_start:local_end]:
+            m = LOCAL_RE.fullmatch(line.strip())
+            if not m:
+                continue
+            kind, token = m.groups()
+            local_id = f"{kind}-{token}"
+            local_tokens[token].append((rel, local_id))
+            if token[17:] not in known_author_codes:
+                problems.append(("unregistered Local Model author code", rel, f"{local_id}: {token[17:]}"))
 
 for ident, paths in current_ids.items():
     if len(paths) > 1:
