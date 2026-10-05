@@ -16,6 +16,8 @@ realizedBy:
 participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
+arisesIn:
+  - "[[Inspect Battery Condition Through a BMID]]"
 ---
 
 # Know Battery State Before and During the Shift
