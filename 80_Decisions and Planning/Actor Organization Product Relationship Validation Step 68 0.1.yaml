@@ -111,3 +111,14 @@ conclusion: "Current Actor–Organization–Product semantics are appropriately 
 
 next_step:
   step: 69
+
+audit_validation:
+  workflow_run: 37338389254
+  commit: "8bcfefdbe2e19584e8c146ad9f96c07594685722"
+  result: "Expected audit failure only"
+  blocking_structural_findings: 19
+  broken_wikilinks: 19
+  frontmatter_parse_errors: 0
+  duplicate_ids: 0
+  duplicate_uids: 0
+  regression_assessment: "Stable against the established 19-link baseline; Step 68 introduced no new structural regression."
