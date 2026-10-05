@@ -1,0 +1,170 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 64
+purpose: "Review the Organization note set for identity quality, roles, duplicates, naming, parent/child relationships, and product/source relationships."
+
+scope:
+  files_reviewed_in_organizations_folder: 86
+  actual_organization_notes: 73
+  reusable_business_role_notes: 8
+  research_or_ledger_notes_in_same_folder: 5
+  all_notes_type: "Info"
+  note: "The vault currently represents organizations and business roles as Info notes; there is no dedicated Organization class."
+
+content_kinds:
+  business_role_notes:
+    count: 8
+    notes:
+      - "Accessory Maker"
+      - "Battery Maker"
+      - "Brand Owner"
+      - "Charger Maker"
+      - "Dealer or Distributor"
+      - "Monitor Maker"
+      - "Software Vendor"
+      - "Truck OEM"
+    finding: "These are reusable role definitions, not organizations. They are linked through provisional playsRole / rolePlayedBy relationships."
+  research_and_rollup_notes:
+    count: 5
+    notes:
+      - "Business Relationship Ledger"
+      - "Business Relationship Vocabulary"
+      - "Industrial Battery Supply and Private-Label Relationships"
+      - "Offerings by Organization"
+      - "Products Offered or Promoted with Industrial Batteries"
+    finding: "These are analysis/register/navigation artifacts colocated with organizations, not organization identities."
+  actual_organizations:
+    count: 73
+    finding: "Most have sourced identity descriptions and explicit role/product/channel relationships."
+
+identity_quality:
+  strengths:
+    - "Actual organization notes generally use recognizable public or commercial names."
+    - "Definitions usually distinguish parent groups, regional subsidiaries, brands/business units, dealers, and manufacturers."
+    - "Aliases preserve common or historical names without creating duplicate identity notes."
+    - "Source URLs are present on nearly all concrete organization notes."
+  unresolved_identity_cases:
+    - organization: "Power Designers"
+      issue: "Power Designers LLC, Power Designers USA LLC, and Power Designers Sibex appear in sources; their exact legal relationship is not fully established."
+      treatment: "Preserve one current canonical market identity with explicit caution until legal lineage is sourced."
+    - organizations: ["Triathlon USA", "Triathlon Battery Solutions"]
+      issue: "The relationship between the U.S. and U.K. Triathlon entities is explicitly unresolved."
+      treatment: "Do not merge or add parent/subsidiary relationship without source evidence."
+    - organizations: ["GNB Industrial Power", "Exide Technologies"]
+      issue: "Brand/legal lineage is historically complex and should remain evidence-led."
+      treatment: "Do not collapse identities based on brand familiarity."
+    - organizations: ["Ampure", "PosiCharge", "Power Designers", "Ampure Automotive and Aftermarket EVSE"]
+      issue: "Mix of parent group, operating businesses, and brands/business units."
+      treatment: "Current separation is useful for portfolio analysis; do not merge."
+  confirmed_duplicate_organizations: 0
+
+naming_quality:
+  overall: "Human-readable and mostly unambiguous."
+  awkward_filename_cases:
+    - "ELMAS S.R.L..md"
+    - "Panacea Aftermarket Co..md"
+  issue: "Names ending in a period create doubled-period filenames before the .md extension."
+  recommendation: "Consider a later controlled filename cleanup while preserving heading/identity and links; do not rename during Step 64."
+  other_notes:
+    - "Regional qualifiers such as Mitsubishi Logisnext Americas, Logisnext Europe, Triathlon USA, and Toyota Material Handling provide useful disambiguation."
+    - "Parent-company names such as KION Group and Toyota Industries Corporation are appropriately distinct from operating brands."
+
+role_model:
+  relationship_status: "provisional"
+  vocabulary_note: "Business Relationship Vocabulary"
+  role_relationship: "playsRole / rolePlayedBy"
+  strengths:
+    - "Role notes make cross-company comparison practical."
+    - "Many organizations legitimately play several roles, such as battery maker + charger maker + monitor maker."
+    - "Role inverses are maintained manually because the provisional business relationship schema is not consumed by normal tooling."
+  known_role-light_organizations:
+    - "Ampure"
+    - "Ampure Automotive and Aftermarket EVSE"
+    - "Sunlight Group"
+  interpretation: "Missing playsRole is not automatically a defect for parent/group/context entities."
+  risk: "Because business relationships are outside relationships.yaml, standard inverse-generation and audit tooling cannot guarantee consistency."
+
+parent_child_and_lineage:
+  strong_examples:
+    - parent: "Ampure"
+      children: ["PosiCharge", "Power Designers"]
+    - parent: "KION Group"
+      children: ["Linde Material Handling", "STILL"]
+    - parent: "Mitsubishi Logisnext"
+      children: ["Mitsubishi Logisnext Americas", "Logisnext Europe"]
+    - parent: "Toyota Industries Corporation"
+      children: ["Toyota Material Handling", "Raymond"]
+    - parent: "Sunlight Group"
+      child: "Triathlon Battery Solutions"
+  finding: "Parent/subsidiary structure is useful and generally evidence-backed."
+  caution: "parentOf / subsidiaryOf are provisional business relationships rather than governed MDSE relationships."
+  no_safe_auto_fix: true
+
+product_and_source_relationships:
+  strengths:
+    - "High-value manufacturers and OEMs have extensive makes/offers relationships to canonical product Objects."
+    - "Representative strong product-link coverage includes PosiCharge, Linde Material Handling, Toyota Material Handling, Raymond, Crown Equipment, EnerSys, Stryten Energy, Oshkosh AeroTech, and Mitsubishi Logisnext Americas."
+    - "Dealer/distributor notes appropriately use offers/distributor/channel relationships rather than being treated as makers."
+    - "Organization-level research notes and source documents are connected through describedBy where useful."
+  interpretation:
+    - "A zero makes count is not a quality defect for parent companies, dealers, brands with incomplete product modeling, or research-only organization coverage."
+    - "makes and offers should remain distinct because maker identity is materially different from channel availability."
+  provenance:
+    finding: "Concrete organizations are generally supported by one or more direct URLs; role definitions intentionally have no external source requirement."
+
+folder_and_information_architecture:
+  issue: "Organizations folder mixes identity notes, reusable role definitions, and research/register artifacts."
+  consequence:
+    - "Folder inventory overstates organization count."
+    - "Users can mistake role or analysis notes for organizations."
+    - "Research-heavy rollups make the folder less semantically clean."
+  recommendation:
+    - "Keep actual organization identities under Organizations."
+    - "Consider moving role definitions to reusable reference or a dedicated roles area in a later controlled step."
+    - "Consider moving the five research/ledger notes to Research and Evidence or Decisions/Planning, preserving links."
+  step_64_action: "Analysis only; no moves or renames."
+
+relationship_governance_risk:
+  source: "Business Relationship Vocabulary"
+  status: "Provisional business relationship fields are stored outside governed relationships.yaml."
+  affected_fields:
+    - "playsRole / rolePlayedBy"
+    - "makes / madeBy"
+    - "offers / offeredBy"
+    - "supplierOf / suppliedBy"
+    - "distributedBy / distributorOf"
+    - "partnerOf"
+    - "subsidiaryOf / parentOf"
+    - "successorOf / predecessorOf"
+    - "integratesWith"
+    - "offeredWith"
+  risk: "Normal MDSE relationship endpoint rules, inverse regeneration, and automated audit coverage do not fully protect these links."
+  priority: "high methodology issue, not a Step-64 data rewrite"
+
+priority_follow_up:
+  - priority: 1
+    item: "Separate actual organizations from role definitions and research/ledger artifacts in navigation/placement."
+  - priority: 2
+    item: "Resolve long-term governance for provisional business relationships so inverse consistency can be automated."
+  - priority: 3
+    item: "Review unresolved identity/lineage cases without merging unsupported entities."
+  - priority: 4
+    item: "Perform a controlled filename cleanup for organization names ending in punctuation if desired."
+  - priority: 5
+    item: "Continue product/source coverage only where evidence identifies new offerings or relationships."
+
+changes:
+  organization_notes_changed: 0
+  role_notes_changed: 0
+  research_notes_changed: 0
+  relationships_changed: 0
+  files_moved: 0
+  files_renamed: 0
+  merges_performed: 0
+  evidence_records_created: 1
+
+conclusion: "The organization model has strong identity and product/source coverage with no confirmed duplicates. Its largest quality issue is that organization identities, business-role definitions, and research/ledger artifacts share one folder while key business relationships remain provisional and outside the governed MDSE relationship schema."
+
+next_step:
+  step: 65
