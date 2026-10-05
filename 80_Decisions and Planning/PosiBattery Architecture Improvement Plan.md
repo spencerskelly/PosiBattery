@@ -3095,6 +3095,95 @@ Results remain stable:
 
 ---
 
+## Step 36 completion evidence — Products hierarchy semantically inventoried
+
+**Date:** 2026-10-04
+
+The `10_Products` tree was semantically inventoried before any restructuring.
+
+### Inventory created
+
+`80_Decisions and Planning/Products Semantic Inventory 0.1.yaml`
+
+The inventory covers **424 Markdown product/model notes** and records:
+
+- current path;
+- top-level product domain;
+- provisional semantic class;
+- classification confidence;
+- rationale.
+
+### Semantic distribution
+
+- category root: **1**
+- category or family: **23**
+- commercial family or series: **43**
+- specific commercial offering: **112**
+- accessory category or family: **28**
+- accessory or option offering: **160**
+- platform category or family: **2**
+- platform or software offering: **29**
+- reusable anatomy/component concept: **26**
+- uncertain: **0**
+
+### Method
+
+Representative notes were inspected to verify the modeling pattern:
+
+- reusable organizers use `abstract: true`, specialization relationships, and category/family semantics;
+- named commercial products specialize those reusable definitions;
+- accessories and software/platforms follow analogous category-to-offering patterns;
+- forklift/GSE anatomy notes represent reusable structure rather than marketed offerings.
+
+The full inventory then uses the complete Git tree and those verified patterns conservatively.
+
+Folder placement is treated as navigation evidence, not semantic proof.
+
+Commercial names that appear to represent a series/range are classified only at **medium confidence** pending later abstraction-level and duplicate-identity review.
+
+No standalone variant classification was asserted from naming alone.
+
+### Important structural observation
+
+The Products domain currently contains both:
+
+- reusable abstract product/category definitions;
+- concrete commercial products/options;
+- reusable truck/GSE anatomy concepts.
+
+That mixture is now explicit and will be reviewed in Steps 37–41 rather than silently normalized.
+
+### Validation
+
+GitHub Actions run `37269466626` on commit `c80946a2` completed the structural audit.
+
+Results remain stable:
+
+- Markdown files: 1079
+- Model notes: 905
+- Broken wikilinks: **19**
+- Frontmatter parse errors: 0
+- Duplicate IDs: 0
+- Duplicate UIDs: 0
+- Malformed/missing IDs: 0
+- Malformed/missing UIDs: 0
+- Missing governed core properties: 0
+- Deprecated properties: 0
+- Ambiguous wikilinks: 0
+- Unresolved relationship targets: 0
+- Missing relationship inverses: 0
+- Paths over 212 chars: 0
+
+No product notes were moved, renamed, or semantically edited in Step 36.
+
+### Commit
+
+- `c80946a2` — add Products semantic inventory
+
+**Result:** Step 36 complete. The product tree now has a machine-readable semantic baseline for abstraction-level review.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -3129,3 +3218,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 33 | 2026-10-04 | Complete | Reviewed all 8 existing Source Document records: all have strong basic source provenance but incomplete explicit access-date and downstream claim-traceability information, so all 8 were classified moderate rather than weak. |
 | 34 | 2026-10-04 | Complete | Normalized provenance and traceability sections across all 8 Source Document records using only supported metadata, preserved all identities/relationships, explicitly retained unknown access dates, and kept the structural audit stable at 19 broken wikilinks. |
 | 35 | 2026-10-04 | Complete | Classified Downloads cleanup safety: retain 8 Source-Document-backed PDFs, flag 9 byte-identical redundant copies as high-confidence cleanup candidates, and preserve 49 unique untracked artifacts pending provenance review; deleted nothing. |
+| 36 | 2026-10-04 | Complete | Semantically inventoried 424 product/model notes across `10_Products`, distinguishing reusable categories/families, commercial series, specific offerings, accessories/options, software/platforms, and reusable anatomy concepts without changing structure. |
