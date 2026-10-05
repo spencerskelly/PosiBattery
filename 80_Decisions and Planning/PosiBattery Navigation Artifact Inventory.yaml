@@ -3,10 +3,10 @@ generated_date: "2026-10-04"
 repository: "spencerskelly/PosiBattery"
 purpose: "Machine-readable inventory of transitional, duplicate, stale, and intentionally paired navigation artifacts identified in Step 6."
 summary:
-  true_duplicate_readme_groups: 2
-  duplicate_readme_files: 4
+  true_duplicate_readme_groups: 1
+  duplicate_readme_files: 2
   stale_path_dependent_bases: 2
-  transitional_root_placeholder_readmes: 2
+  transitional_root_placeholder_readmes: 1
   standardized_root_readmes: 6
   empty_system_canvases_for_review: 3
   intentional_all_local_base_pairs: 8
@@ -17,8 +17,8 @@ findings:
     files:
       - "10_Products/README - 10_Products.md"
       - "10_Products/README_Products.md"
-    disposition: "merge_or_retire_one_later"
-    note: "Both act as folder landing pages. README_Products contains substantive navigation; README - 10_Products is a migration-era target placeholder."
+    disposition: "resolved_step_13"
+    note: "Step 13 consolidated the Products landing page into README_Products.md and retired the migration-era placeholder."
   - id: NAV-002
     category: duplicate_readme
     folder: "50_Customer Needs"
@@ -44,10 +44,9 @@ findings:
   - id: NAV-005
     category: transitional_root_placeholder_readme
     files:
-      - "10_Products/README - 10_Products.md"
       - "50_Customer Needs/README - 50_Customer Needs.md"
-    disposition: "reconcile_in_steps_13_14"
-    note: "These duplicate substantive canonical README files and are intentionally deferred to the domain-specific navigation reconciliation steps so unique content can be preserved."
+    disposition: "reconcile_in_step_14"
+    note: "Products was resolved in Step 13. Customer Needs remains for Step 14."
   - id: NAV-007
     category: standardized_root_readme
     files:
