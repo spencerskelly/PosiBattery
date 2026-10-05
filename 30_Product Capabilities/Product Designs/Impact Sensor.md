@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Vehicle State Sensing Design]]"
 dependencyOf:
   - "[[Detect and Record Impacts]]"
+  - "[[Lock Out Vehicle After Impact]]"
 designOf:
   - "[[Linde connect]]"
   - "[[Logisnext Lift Link]]"

@@ -12,6 +12,7 @@ realizedBy:
   - "[[Manage Chargers Remotely]]"
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Control Charger from Remote Panel]]"
 participants:
   - "[[Fleet Operations Manager]]"
 ---
@@ -28,7 +29,7 @@ Customer need: Monitor and Manage Chargers and Batteries Across Sites. The probl
 - **Problem solved (analyst wording):** A manager with several sites, chargers and batteries needs data and alerts without walking the floor.
 - **Who has the problem:** [[Fleet Operations Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Airport eGSE fleets, Battery-room and centralized charging.
-- **Realized by (specific functions; products link to these):** [[Manage Chargers Remotely]], [[Upload Battery Data to Cloud Portal]], [[Report Truck Telemetry]].
+- **Realized by (specific functions; products link to these):** [[Manage Chargers Remotely]], [[Upload Battery Data to Cloud Portal]], [[Report Truck Telemetry]], [[Control Charger from Remote Panel]] (added 2026-10-04).
 - **Products reaching this need:** 59 by function, design or option (owner decision, round 40: design and option routes count as reached); 44 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Truck Telematics (18), Battery Accessories/Monitoring Devices (13), Chargers/Industrial Modular Chargers (5), Fleet Software and Platforms/Battery and Charger Management (4), Battery Accessories/Identification and Charge Interface Devices (2), Chargers/Light-Duty Chargers (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Hangcha FIMS]]: Hangcha says FIMS provides real-time information about the forklift and driver and, for fleets across sites, lets users collect and view the data; the brochures also point to a 'Hangcha Forklift' app. Source: Hangcha XC series brochures (T1), retrieved 2026-10-03. <https://www.hcforklift.com/upload/files/b8ede554fd4dbc7af35f288f0c9991f2.pdf>

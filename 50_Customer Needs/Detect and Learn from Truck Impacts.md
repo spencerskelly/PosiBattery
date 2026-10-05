@@ -10,6 +10,8 @@ tags:
   - vendor-stated
 realizedBy:
   - "[[Detect and Record Impacts]]"
+  - "[[Record Images of Load Handling]]"
+  - "[[Lock Out Vehicle After Impact]]"
 participants:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
@@ -27,7 +29,7 @@ Customer need: Detect and Learn from Truck Impacts. The problem behind it: Unrep
 - **Problem solved (analyst wording):** Unreported impacts hide damage and near-misses; a record with time and driver lets a site respond.
 - **Who has the problem:** [[Site Safety Manager]], [[Fleet Operations Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets.
-- **Realized by (specific functions; products link to these):** [[Detect and Record Impacts]].
+- **Realized by (specific functions; products link to these):** [[Detect and Record Impacts]], [[Record Images of Load Handling]] (added 2026-10-04), [[Lock Out Vehicle After Impact]] (added 2026-10-04).
 - **Products reaching this need:** 17 by function, design or option (owner decision, round 40: design and option routes count as reached); 10 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Truck Telematics (8), Vehicle Accessories/Proximity and Object Detection (1), Vehicle Accessories/Cameras and Recorders (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Linde connect]]: Linde lists connect:ac access control (PIN or RFID), connect:an usage analysis, connect:dt crash detection, operating hours and trouble codes; impacts are recorded with time stamp, vehicle and driver reference and sent to the myLinde customer portal. Source: Linde dealer brochure, Linde retrofit page and KION story (T1/T3), retrieved 2026-10-03. <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>

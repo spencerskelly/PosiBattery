@@ -12,6 +12,8 @@ realizedBy:
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Dock Automatically at Aircraft]]"
   - "[[Indicate Aircraft Proximity to Operator]]"
+  - "[[Inhibit Drive Until Equipment Is Stowed]]"
+  - "[[Lock Out Vehicle After Impact]]"
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
@@ -29,7 +31,7 @@ Customer need: Protect Aircraft and Ground Crew During Ground Operations. The pr
 - **Problem solved (analyst wording):** Contact between a loader or tractor and an aircraft damages the aircraft and delays the flight.
 - **Who has the problem:** [[GSE Operator]], [[Fleet Operations Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Airport eGSE fleets.
-- **Realized by (specific functions; products link to these):** [[Slow and Stop Near Aircraft]], [[Dock Automatically at Aircraft]], [[Indicate Aircraft Proximity to Operator]].
+- **Realized by (specific functions; products link to these):** [[Slow and Stop Near Aircraft]], [[Dock Automatically at Aircraft]], [[Indicate Aircraft Proximity to Operator]], [[Inhibit Drive Until Equipment Is Stowed]] (added 2026-10-04), [[Lock Out Vehicle After Impact]] (added 2026-10-04).
 - **Products reaching this need:** 11 by function, design or option (owner decision, round 40: design and option routes count as reached); 7 of those perform a realizing function. Largest families by function: Vehicle Accessories/Proximity and Object Detection (5), Vehicle Accessories/Operator Assist and Stability (2). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Oshkosh AeroTech APD Wing and Fairing Sensors]]: The APD brochure says additional sensors protect the potential impact zone to the rear and right of the loader bridge, can be set to activate when the aircraft is in radar range or the loader is reversing, and can trigger a visual or audible alarm or be interlocked with the drive system. Source: Oshkosh AeroTech APD brochure (T1), retrieved 2026-10-03. <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>

@@ -10,6 +10,8 @@ tags:
 supertypeOf:
   - "[[Charger Status LED Bar]]"
   - "[[Touchscreen Interface]]"
+dependencyOf:
+  - "[[Control Charger from Remote Panel]]"
 ---
 
 # Charger Operator Interface Design

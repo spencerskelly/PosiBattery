@@ -18,6 +18,7 @@ supertypeOf:
 dependencyOf:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Slow and Stop Near Aircraft]]"
+  - "[[Stop Truck for Detected Obstacle]]"
 ---
 
 # Object and Proximity Sensing Design

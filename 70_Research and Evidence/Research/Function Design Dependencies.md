@@ -25,7 +25,7 @@ Register of which designs each function depends on, with the basis for each depe
 - **Rule:** depend on the most specific design that every known implementation of the function uses; if the implementations differ, depend on their general design class; if only one implementation is known, depend on that design and flag it for generalizing when a second appears.
 - **Strength (round 28):** strong = the function cannot work without the design or a design in the class, whatever the implementation; typical = the common implementation found, others possible; weak = broad class target because implementations are unknown. **Gap handling** records why a performing product lacks the design link.
 - **Basis:** 'owner-stated example' is the owner's wording; 'analyst inference (necessity)' is engineering logic that the function cannot work without that kind of design. Neither is a vendor claim; the vendor evidence for each product is on the product notes.
-- **Not written (no design note yet):** voltage and temperature measurement (needs a general temperature sensor design when two are found), stop on operator out of position for seat switches, charging wirelessly, estimating state of charge.
+- **Not written (no design note yet):** managing temperature during fast charging, recording images of load handling and illuminating the work area (2026-10-04); voltage and temperature measurement (needs a general temperature sensor design when two are found), stop on operator out of position for seat switches, charging wirelessly, estimating state of charge.
 
 | Function | Design or class | Basis | Strength | Gap handling | Why |
 |---|---|---|---|---|---|
@@ -109,6 +109,12 @@ Each row is a dependency where at least one product that performs the function h
 | [[Upload Battery Data to Cloud Portal]] | [[Wireless Interface Design]] | typical | 3 of 18 | sources do not name the portal integration |
 | [[Upload Battery Data to Cloud Portal]] | [[Cloud Portal Integration]] | typical | 10 of 18 | sources do not name the portal integration |
 | [[Warn Pedestrians of Approaching Truck]] | [[Indicator and Alarm Design]] | strong | 4 of 16 | sources name the light or alarm product but not its indicator design |
+| [[Control Charger from Remote Panel]] | [[Charger Operator Interface Design]] | analyst inference (necessity) | weak | source names a wired remote with status display; no specific remote-panel design note | needs a way to show charger status and take input away from the charger; one implementation known (wired remote), so the class is used until a design note exists (added 2026-10-04) |
+| [[Stop Truck for Detected Obstacle]] | [[Object and Proximity Sensing Design]] | analyst inference (necessity) | strong | sources name LiDAR (Raymond), camera (TLD) or do not name the sensor (Linde) | cannot stop for an obstacle without sensing it; implementations differ, so the class is used (added 2026-10-04) |
+| [[Inhibit Drive Until Equipment Is Stowed]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | weak | source names the interlock, not the position sensor | needs to sense that the handrail or platform is stowed; one implementation known (added 2026-10-04) |
+| [[Predict Battery Replacement Timing]] | [[Data Handling Design]] | analyst inference (necessity) | typical | sources name portals or software (PosiNet, withBMS platform, batterymanagement.net, PowerTrac software) but not the storage design | a prediction needs stored usage history; known implementations hold it in a portal or software (added 2026-10-04) |
+| [[Adapt Truck to Battery Chemistry]] | [[Vehicle Energy Interface Design]] | analyst inference (necessity) | weak | Hyster names the factory Battery Discharge Indicator and modes, not the interface design | the truck must take the battery's chemistry into its energy interface; only one implementation known (added 2026-10-04) |
+| [[Lock Out Vehicle After Impact]] | [[Impact Sensor]] | analyst inference (necessity) | strong | TLD says impact strength is measured; sensor type not named | a lockout after impact needs an impact to be sensed; only one implementation known, so the specific design is used (generalize when a second appears) (added 2026-10-04) |
 
 ## Aliases
 

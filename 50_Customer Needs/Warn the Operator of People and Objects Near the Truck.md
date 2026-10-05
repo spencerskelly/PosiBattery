@@ -11,6 +11,7 @@ tags:
 realizedBy:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Alert Operator of Hazards]]"
+  - "[[Stop Truck for Detected Obstacle]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
@@ -28,7 +29,7 @@ Customer need: Warn the Operator of People and Objects Near the Truck. The probl
 - **Problem solved (analyst wording):** Operators cannot always see pedestrians, other trucks or objects, especially behind the truck.
 - **Who has the problem:** [[Forklift Operator]], [[Site Safety Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Airport eGSE fleets.
-- **Realized by (specific functions; products link to these):** [[Detect Pedestrians and Objects Near Truck]], [[Alert Operator of Hazards]].
+- **Realized by (specific functions; products link to these):** [[Detect Pedestrians and Objects Near Truck]], [[Alert Operator of Hazards]], [[Stop Truck for Detected Obstacle]] (added 2026-10-04).
 - **Products reaching this need:** 39 by function, design or option (owner decision, round 40: design and option routes count as reached); 32 of those perform a realizing function. Largest families by function: Vehicle Accessories/Proximity and Object Detection (26), Vehicle Accessories/Operator Assist and Stability (5), Vehicle Accessories/Operator Displays (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Toyota SEnS+ Pedestrian and Object Detection]]: The 2025 Toyota Assist brochure (in repo) says SEnS+ detects pedestrians or objects behind the forklift and limits the movement of the forklift by automatically slowing it, uses dynamic zoning (the detection range grows with forklift speed, and in reverse while turning the zone tracks the steer direction), and is available on select Toyota models. Source: Toyota Assist brochure 2025 (read round 20) (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>

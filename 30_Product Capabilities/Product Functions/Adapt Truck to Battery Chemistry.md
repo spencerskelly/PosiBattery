@@ -9,8 +9,12 @@ tags:
   - product-function
 subtypeOf:
   - "[[Connect Battery Power Path]]"
+dependsOn:
+  - "[[Vehicle Energy Interface Design]]"
 performedBy:
   - "[[Hyster Power Cellect]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Adapt Truck to Battery Chemistry
@@ -22,7 +26,9 @@ Let a truck switch its battery settings between chemistries, such as lead-acid a
 ## Notes
 
 - Added 2026-10-04 from the accessory marketed-features review. Product links only where a source states the behavior; no link means unknown.
-- No Requirement or customer need is linked yet (open: see [[Investigation Backlog]] IB-151).
+- **Customer need (2026-10-04, analyst link, hypothesis):** realizes [[Integrate the Battery with Truck and Charger Controls]]; chosen as the need whose problem statement the function addresses (see [[Research Change and Decision Tracker]]).
+- **Depends on:** [[Vehicle Energy Interface Design]] (analyst inference (necessity), weak); rule and basis in [[Function Design Dependencies]].
+- No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Hyster Power Cellect]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
 

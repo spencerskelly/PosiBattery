@@ -13,6 +13,7 @@ realizedBy:
   - "[[Charge Battery by Opportunity]]"
   - "[[Change Battery Quickly]]"
   - "[[Refuel Truck Power Source in Minutes]]"
+  - "[[Manage Temperature During Fast Charging]]"
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
@@ -30,7 +31,7 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
 - **Problem solved (analyst wording):** A truck waiting on a charge, or a battery swap, is a truck not working during the shift.
 - **Who has the problem:** [[Fleet Operations Manager]], [[Forklift Operator]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Airport eGSE fleets, Distributed and opportunity charging.
-- **Realized by (specific functions; products link to these):** [[Charge Battery Fast]], [[Charge Battery by Opportunity]], [[Change Battery Quickly]], [[Refuel Truck Power Source in Minutes]].
+- **Realized by (specific functions; products link to these):** [[Charge Battery Fast]], [[Charge Battery by Opportunity]], [[Change Battery Quickly]], [[Refuel Truck Power Source in Minutes]], [[Manage Temperature During Fast Charging]] (added 2026-10-04).
 - **Products reaching this need:** 42 by function, design or option (owner decision, round 40: design and option routes count as reached); 26 of those perform a realizing function. Largest families by function: Chargers/Industrial Modular Chargers (19), Forklifts/Class I Electric Rider Trucks (4), Fuel Cell Power Units/Hydrogen Fuel Cell Units (2), Chargers/Wireless Chargers (1). The metric route (hypothesis) adds 11 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Yale ERC080VHL]]: Yale says the ERC080VHL is designed around an integrated lithium-ion pack with greater operator space, zero emissions, no battery maintenance, full power until depletion and fast charging, for heavy-duty indoor use or converting internal combustion fleets, with Yale Vision telemetry. Source: Yale ERC080VHL page (T1), retrieved 2026-10-03. <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>

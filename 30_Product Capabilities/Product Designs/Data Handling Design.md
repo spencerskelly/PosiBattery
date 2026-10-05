@@ -12,6 +12,7 @@ supertypeOf:
   - "[[Non-Volatile Event Memory]]"
 dependencyOf:
   - "[[Log Battery Events and Usage]]"
+  - "[[Predict Battery Replacement Timing]]"
 ---
 
 # Data Handling Design

@@ -10,6 +10,8 @@ tags:
 supertypeOf:
   - "[[Quick-Change Battery Compartment]]"
   - "[[Truck Charging Port]]"
+dependencyOf:
+  - "[[Adapt Truck to Battery Chemistry]]"
 ---
 
 # Vehicle Energy Interface Design

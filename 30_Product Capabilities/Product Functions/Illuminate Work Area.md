@@ -14,6 +14,8 @@ performedBy:
   - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
   - "[[UniCarriers Lighting Packages]]"
+realizes:
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---
 
 # Illuminate Work Area
@@ -25,7 +27,9 @@ Light the travel path and work area around a vehicle so the operator can see.
 ## Notes
 
 - Added 2026-10-04 from the accessory marketed-features review. Product links only where a source states the behavior; no link means unknown.
-- No Requirement or customer need is linked yet (open: see [[Investigation Backlog]] IB-151).
+- **Customer need (2026-10-04, analyst link, hypothesis):** realizes [[Keep the Operator Positioned and Able to See the Work]]; chosen as the need whose problem statement the function addresses (see [[Research Change and Decision Tracker]]).
+- **Depends on:** none written: no work-light design note exists (Floor-Projected Warning Light is a warning design); rule and basis in [[Function Design Dependencies]].
+- No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[STILL Safety Packages]] (V): <https://www.still.fr/produits/chariots-neufs/chariots-elevateurs-electriques/rx-20-14-20-t/les-packs-securite-still.html>
   - [[Oshkosh AeroTech Ramp Visibility Lights]] (V): <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en>
