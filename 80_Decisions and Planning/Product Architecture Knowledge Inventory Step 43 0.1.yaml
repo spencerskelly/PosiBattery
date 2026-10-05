@@ -1,0 +1,467 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 43
+purpose: "Inventory architecture-like knowledge that already exists outside 20_Product Architecture."
+structure_changed: false
+
+summary:
+  existing_architecture_markdown_notes: 27
+  existing_vehicle_architecture_model_notes: 26
+  product_design_notes_reviewed: 118
+  architecture_like_product_design_candidates: 94
+  primarily_capability_or_design_pattern_notes: 24
+  product_identity_notes_moved_or_changed: 0
+
+method:
+  - "Reviewed the current canonical Product Architecture domain after Step 40."
+  - "Reviewed the Product Designs purpose and representative Design notes to confirm that many notes are reusable implementation patterns shared across products."
+  - "Applied a conservative role/name screen across all Product Design note names to identify architecture-like interfaces, power structures, sensing/control elements, packaging/mounting, human interfaces, and vehicle subsystems."
+  - "Candidate status is not a migration decision. Step 44 must separate reusable definitions from contextual architecture and decide canonical ownership."
+  - "Commercial product/system identities remain in Products when marketed identity is primary, even if they contain components."
+
+existing_architecture:
+  canonical_domain: "20_Product Architecture"
+  markdown_notes: 27
+  model_notes:
+    industrial_truck_architecture: 13
+    ground_support_equipment_architecture: 13
+  note: "The remaining Markdown note is README_Product Architecture.md."
+
+candidate_category_hits:
+  interface_or_communication: 23
+  vehicle_subsystem_architecture: 8
+  packaging_mounting_enclosure: 17
+  human_interface_indicator: 14
+  power_or_energy_architecture: 13
+  sensing_or_control_architecture: 28
+
+architecture_like_product_design_candidates:
+  - note: "900 MHz Industrial Wireless Interface"
+    current_path: "30_Product Capabilities/Product Designs/900 MHz Industrial Wireless Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "AC Drive Motor"
+    current_path: "30_Product Capabilities/Product Designs/AC Drive Motor.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Acid-Resistant Sealed Housing"
+    current_path: "30_Product Capabilities/Product Designs/Acid-Resistant Sealed Housing.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Active Stability Actuator"
+    current_path: "30_Product Capabilities/Product Designs/Active Stability Actuator.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Aircraft Proximity Indicator Light"
+    current_path: "30_Product Capabilities/Product Designs/Aircraft Proximity Indicator Light.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Audible Alarm"
+    current_path: "30_Product Capabilities/Product Designs/Audible Alarm.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Battery Onboard Charger"
+    current_path: "30_Product Capabilities/Product Designs/Battery Onboard Charger.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Battery Sensor Element Design"
+    current_path: "30_Product Capabilities/Product Designs/Battery Sensor Element Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Battery Sensor Mounting Design"
+    current_path: "30_Product Capabilities/Product Designs/Battery Sensor Mounting Design.md"
+    candidate_roles: ["sensing_or_control_architecture", "packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Battery-Top Mounting"
+    current_path: "30_Product Capabilities/Product Designs/Battery-Top Mounting.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Belt-Worn Remote Control"
+    current_path: "30_Product Capabilities/Product Designs/Belt-Worn Remote Control.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Bluetooth Class 1 Interface"
+    current_path: "30_Product Capabilities/Product Designs/Bluetooth Class 1 Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Bluetooth Interface"
+    current_path: "30_Product Capabilities/Product Designs/Bluetooth Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Bluetooth Low Energy Interface"
+    current_path: "30_Product Capabilities/Product Designs/Bluetooth Low Energy Interface.md"
+    candidate_roles: ["interface_or_communication", "power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Breakaway Connector"
+    current_path: "30_Product Capabilities/Product Designs/Breakaway Connector.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "CAN Interface"
+    current_path: "30_Product Capabilities/Product Designs/CAN Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "CAN-LIN and Battery Bus Interface"
+    current_path: "30_Product Capabilities/Product Designs/CAN-LIN and Battery Bus Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Cable-Mounted Indicator Placement"
+    current_path: "30_Product Capabilities/Product Designs/Cable-Mounted Indicator Placement.md"
+    candidate_roles: ["packaging_mounting_enclosure", "human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Capacitive Electrolyte Level Probe"
+    current_path: "30_Product Capabilities/Product Designs/Capacitive Electrolyte Level Probe.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Cellular Communication Interface"
+    current_path: "30_Product Capabilities/Product Designs/Cellular Communication Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Charger Operator Interface Design"
+    current_path: "30_Product Capabilities/Product Designs/Charger Operator Interface Design.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Charger Power Stage Design"
+    current_path: "30_Product Capabilities/Product Designs/Charger Power Stage Design.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Charger Status LED Bar"
+    current_path: "30_Product Capabilities/Product Designs/Charger Status LED Bar.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Cloud Portal Integration"
+    current_path: "30_Product Capabilities/Product Designs/Cloud Portal Integration.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Copper Inserted Posts"
+    current_path: "30_Product Capabilities/Product Designs/Copper Inserted Posts.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Current Sensing Design"
+    current_path: "30_Product Capabilities/Product Designs/Current Sensing Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "DC-Cable Power-Line Communication"
+    current_path: "30_Product Capabilities/Product Designs/DC-Cable Power-Line Communication.md"
+    candidate_roles: ["interface_or_communication", "packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Display Device Design"
+    current_path: "30_Product Capabilities/Product Designs/Display Device Design.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Dual-Cable and Parallel Charging Configuration"
+    current_path: "30_Product Capabilities/Product Designs/Dual-Cable and Parallel Charging Configuration.md"
+    candidate_roles: ["power_or_energy_architecture", "packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Electric Mast Thrust Drive"
+    current_path: "30_Product Capabilities/Product Designs/Electric Mast Thrust Drive.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Electric Parking Brake"
+    current_path: "30_Product Capabilities/Product Designs/Electric Parking Brake.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Electric Power Steering"
+    current_path: "30_Product Capabilities/Product Designs/Electric Power Steering.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Electrolyte-Immersed Temperature Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Electrolyte-Immersed Temperature Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Enclosure and Mounting Design"
+    current_path: "30_Product Capabilities/Product Designs/Enclosure and Mounting Design.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "External Shunt Current Sensing"
+    current_path: "30_Product Capabilities/Product Designs/External Shunt Current Sensing.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Fingerprint Reader"
+    current_path: "30_Product Capabilities/Product Designs/Fingerprint Reader.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Flexible Bolt-On Intercell Connector"
+    current_path: "30_Product Capabilities/Product Designs/Flexible Bolt-On Intercell Connector.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Floor-Projected Warning Light"
+    current_path: "30_Product Capabilities/Product Designs/Floor-Projected Warning Light.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Fuel Cell Hybrid Power Stage"
+    current_path: "30_Product Capabilities/Product Designs/Fuel Cell Hybrid Power Stage.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Fuel Cell Power Design"
+    current_path: "30_Product Capabilities/Product Designs/Fuel Cell Power Design.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Hall-Effect Current Sensing"
+    current_path: "30_Product Capabilities/Product Designs/Hall-Effect Current Sensing.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Harness Ring-Terminal Mounting"
+    current_path: "30_Product Capabilities/Product Designs/Harness Ring-Terminal Mounting.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Heavy-Duty Intercell Connectors"
+    current_path: "30_Product Capabilities/Product Designs/Heavy-Duty Intercell Connectors.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Hydraulic Pressure Load Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Hydraulic Pressure Load Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Hydrogen Storage Tank"
+    current_path: "30_Product Capabilities/Product Designs/Hydrogen Storage Tank.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Impact Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Impact Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Indicator and Alarm Design"
+    current_path: "30_Product Capabilities/Product Designs/Indicator and Alarm Design.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Infrared Data Port"
+    current_path: "30_Product Capabilities/Product Designs/Infrared Data Port.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Integrated LCD Display"
+    current_path: "30_Product Capabilities/Product Designs/Integrated LCD Display.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "LiDAR Object Sensor"
+    current_path: "30_Product Capabilities/Product Designs/LiDAR Object Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Light-Beam Compartment Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Light-Beam Compartment Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Light-Triggered Data Upload"
+    current_path: "30_Product Capabilities/Product Designs/Light-Triggered Data Upload.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "LoRa Interface"
+    current_path: "30_Product Capabilities/Product Designs/LoRa Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Local LED Indicator"
+    current_path: "30_Product Capabilities/Product Designs/Local LED Indicator.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Magnetic Field Detection Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Magnetic Field Detection Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Mast Lift Limit Switch"
+    current_path: "30_Product Capabilities/Product Designs/Mast Lift Limit Switch.md"
+    candidate_roles: ["sensing_or_control_architecture", "vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Mobile App Interface"
+    current_path: "30_Product Capabilities/Product Designs/Mobile App Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Modular Power Modules"
+    current_path: "30_Product Capabilities/Product Designs/Modular Power Modules.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Multi-Voltage Output"
+    current_path: "30_Product Capabilities/Product Designs/Multi-Voltage Output.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "NFC Interface"
+    current_path: "30_Product Capabilities/Product Designs/NFC Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Object and Proximity Sensing Design"
+    current_path: "30_Product Capabilities/Product Designs/Object and Proximity Sensing Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Onboard Charger Mounting"
+    current_path: "30_Product Capabilities/Product Designs/Onboard Charger Mounting.md"
+    candidate_roles: ["power_or_energy_architecture", "packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Operator Presence Pedal"
+    current_path: "30_Product Capabilities/Product Designs/Operator Presence Pedal.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Operator Presence Sensing Design"
+    current_path: "30_Product Capabilities/Product Designs/Operator Presence Sensing Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Operator Sensing Floor Mat"
+    current_path: "30_Product Capabilities/Product Designs/Operator Sensing Floor Mat.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Operator Touch Display"
+    current_path: "30_Product Capabilities/Product Designs/Operator Touch Display.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Outdoor-Rated Charger Enclosure"
+    current_path: "30_Product Capabilities/Product Designs/Outdoor-Rated Charger Enclosure.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Panel-Mount Gauge Form Factor"
+    current_path: "30_Product Capabilities/Product Designs/Panel-Mount Gauge Form Factor.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "Pedestrian Detection Camera"
+    current_path: "30_Product Capabilities/Product Designs/Pedestrian Detection Camera.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Programmable Motor Controller"
+    current_path: "30_Product Capabilities/Product Designs/Programmable Motor Controller.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Proximity Tag System"
+    current_path: "30_Product Capabilities/Product Designs/Proximity Tag System.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "RFID or PIN Access Reader"
+    current_path: "30_Product Capabilities/Product Designs/RFID or PIN Access Reader.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "RS-232 and RS-485 Serial Interface"
+    current_path: "30_Product Capabilities/Product Designs/RS-232 and RS-485 Serial Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Radar Object Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Radar Object Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Regenerative Braking"
+    current_path: "30_Product Capabilities/Product Designs/Regenerative Braking.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Shuntless Current Sensing"
+    current_path: "30_Product Capabilities/Product Designs/Shuntless Current Sensing.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Silicon-Carbide Power Stage"
+    current_path: "30_Product Capabilities/Product Designs/Silicon-Carbide Power Stage.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Split-Core Current Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Split-Core Current Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Stereoscopic Vision Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Stereoscopic Vision Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Touchscreen Interface"
+    current_path: "30_Product Capabilities/Product Designs/Touchscreen Interface.md"
+    candidate_roles: ["interface_or_communication", "human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Truck Charging Port"
+    current_path: "30_Product Capabilities/Product Designs/Truck Charging Port.md"
+    candidate_roles: ["power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "USB Data Download"
+    current_path: "30_Product Capabilities/Product Designs/USB Data Download.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Ultrasonic Distance Sensor"
+    current_path: "30_Product Capabilities/Product Designs/Ultrasonic Distance Sensor.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Vehicle Control Device Design"
+    current_path: "30_Product Capabilities/Product Designs/Vehicle Control Device Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Vehicle Drive Design"
+    current_path: "30_Product Capabilities/Product Designs/Vehicle Drive Design.md"
+    candidate_roles: ["vehicle_subsystem_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Vehicle Energy Interface Design"
+    current_path: "30_Product Capabilities/Product Designs/Vehicle Energy Interface Design.md"
+    candidate_roles: ["interface_or_communication", "power_or_energy_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Vehicle State Sensing Design"
+    current_path: "30_Product Capabilities/Product Designs/Vehicle State Sensing Design.md"
+    candidate_roles: ["sensing_or_control_architecture"]
+    disposition: "review_in_step_44"
+  - note: "Vehicle-Mounted Display"
+    current_path: "30_Product Capabilities/Product Designs/Vehicle-Mounted Display.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Warning and Display Device Design"
+    current_path: "30_Product Capabilities/Product Designs/Warning and Display Device Design.md"
+    candidate_roles: ["human_interface_indicator"]
+    disposition: "review_in_step_44"
+  - note: "Wi-Fi Interface"
+    current_path: "30_Product Capabilities/Product Designs/Wi-Fi Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Wired Interface Design"
+    current_path: "30_Product Capabilities/Product Designs/Wired Interface Design.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Wireless Interface Design"
+    current_path: "30_Product Capabilities/Product Designs/Wireless Interface Design.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+  - note: "Wrap-Around Cell Connector Probe"
+    current_path: "30_Product Capabilities/Product Designs/Wrap-Around Cell Connector Probe.md"
+    candidate_roles: ["packaging_mounting_enclosure"]
+    disposition: "review_in_step_44"
+  - note: "ZigBee 2.4 GHz Interface"
+    current_path: "30_Product Capabilities/Product Designs/ZigBee 2.4 GHz Interface.md"
+    candidate_roles: ["interface_or_communication"]
+    disposition: "review_in_step_44"
+
+primarily_capability_or_design_pattern_notes:
+  - "Battery Integrated Feature Design"
+  - "Data Handling Design"
+  - "Emergency Cut-Off Switch"
+  - "Extended Watering Interval"
+  - "Flat Plate Construction"
+  - "Forced Electrolyte Circulation"
+  - "Fork Laser Guide"
+  - "Gel Electrolyte"
+  - "Hibernation Mode"
+  - "Individual Plate Formation"
+  - "Ingress-Protected Drive Components"
+  - "Integrated Battery Heater"
+  - "Integrated Battery Management System"
+  - "Interactive Warning Vest"
+  - "Lead-Acid Battery Construction Design"
+  - "Mid-Battery Voltage Tap"
+  - "Non-Volatile Event Memory"
+  - "Onboard Fuel Level Gauge"
+  - "Operator Identification Design"
+  - "Quick-Change Battery Compartment"
+  - "Reverse-Polarity Protection"
+  - "Seat Belt Interlock"
+  - "Thin Plate Pure Lead Plates"
+  - "Tubular Plate Construction"
+
+important_boundaries:
+  - "Type Design does not automatically mean the note belongs in Product Architecture; reusable implementation-pattern definitions may remain capability/design knowledge."
+  - "A physical-looking name does not automatically mean an Object/component should be created; Step 45 must use schema/type rules."
+  - "Commercial systems and marketed components may remain Products when product identity is primary."
+  - "The 26 vehicle anatomy notes already moved in Step 40 are confirmed architecture knowledge and form the current canonical architecture baseline."
+  - "Definitions/property documentation under 90_Definitions and Reusable Reference is methodology/reference content, not product architecture."
+
+high_value_candidate_clusters:
+  - cluster: "Interfaces and communications"
+    examples: ["CAN Interface","Bluetooth Interface","Wi-Fi Interface","Cellular Communication Interface","RS-232 and RS-485 Serial Interface","DC-Cable Power-Line Communication"]
+  - cluster: "Power and energy architecture"
+    examples: ["Charger Power Stage Design","Modular Power Modules","Silicon-Carbide Power Stage","Dual-Cable and Parallel Charging Configuration","Truck Charging Port"]
+  - cluster: "Sensing and control architecture"
+    examples: ["Current Sensing Design","Hall-Effect Current Sensing","Programmable Motor Controller","Proximity Tag System","Radar Object Sensor"]
+  - cluster: "Packaging, mounting, enclosure, connectors"
+    examples: ["Enclosure and Mounting Design","Battery-Top Mounting","Acid-Resistant Sealed Housing","Breakaway Connector","Harness Ring-Terminal Mounting"]
+  - cluster: "Human interface and indication"
+    examples: ["Display Device Design","Operator Touch Display","Charger Status LED Bar","Audible Alarm","Vehicle-Mounted Display"]
+  - cluster: "Vehicle subsystem realization"
+    examples: ["Vehicle Drive Design","AC Drive Motor","Electric Parking Brake","Electric Power Steering","Regenerative Braking"]
+
+step_44_focus:
+  - "Determine which of the 94 candidates are reusable implementation definitions that should remain canonical in Product Capabilities."
+  - "Identify which candidates actually represent structural elements, interfaces, modules, assemblies, or product-context architecture and belong under Product Architecture."
+  - "Avoid duplicate canonical notes; use relationships or Local Model occurrences for contextual reuse."
