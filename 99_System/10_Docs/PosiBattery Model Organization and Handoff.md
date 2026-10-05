@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note tells the next engineer or AI how to continue PosiBattery without confusing the current research-oriented organization with the target MDSE product-model organization.
+This note tells the next engineer or AI how to continue PosiBattery using the authoritative numbered vault architecture while preserving transitional content, product-context navigation, identity, relationships, and provenance.
 
 The governing runtime remains:
 
@@ -221,7 +221,7 @@ The next tool or user should improve the model incrementally:
 
 1. preserve note identity and existing relationships;
 2. classify before moving;
-3. use the target product folders for new stable product-model work;
+3. use the authoritative numbered domains for canonical placement and the 00–09 pattern only as subordinate product-context navigation;
 4. migrate older content only when it is already being reviewed;
 5. use `09 Product in Progress` for unresolved synthesis rather than inventing weak element types;
 6. run Workbench/Bootstrap release checks after structural changes;
