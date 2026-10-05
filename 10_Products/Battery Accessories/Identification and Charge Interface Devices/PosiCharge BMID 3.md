@@ -4,6 +4,10 @@ subtype: electrical
 id: OBJ-00031
 uid: 20261002162520381skellyspencer
 status: Draft
+productClass: product-variant
+aliases:
+  - BMID 3
+  - BMID 3 E-meter
 tags:
   - battery-market-reference
   - charge-interface
@@ -49,11 +53,5 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[CAN Interface]] (U): (no web source)
 - **Sources used for the mapping above:** Stated by Spencer Skelly, 2026-10-02 (no web source)
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
-
-## Aliases
-
-- BMID 3
-- BMID 3 E-meter
-
 
 ## Former ids
