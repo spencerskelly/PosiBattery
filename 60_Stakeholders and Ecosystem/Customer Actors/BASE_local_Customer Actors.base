@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Customer Actors"
+    - file.folder == "60_Stakeholders and Ecosystem/Customer Actors"
 views:
   - type: table
     name: Local contents
