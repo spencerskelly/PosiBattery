@@ -1,0 +1,160 @@
+schema_version: "0.1"
+generated_date: "2026-10-05"
+purpose: "Machine-readable projection of the approved Step 2 semantic-linking expectation matrix for report-traceability.py."
+authority:
+  expectation_matrix: "80_Decisions and Planning/Semantic Linking Expectation Matrix Step 2 0.1.yaml"
+  content_standards: "80_Decisions and Planning/Semantic Linking Content Standards Step 3 0.1.yaml"
+  exception_classes: "80_Decisions and Planning/Semantic Linking Exception Classes Step 4 0.1.yaml"
+  relationship_schema: "99_System/03_Schemas/relationships.yaml"
+policy:
+  report_only: true
+  navigation_links_count: false
+  local_model_definition_use_counts_for:
+    - ownership_use
+  inverse_fields_count: true
+  no_relationship_invention: true
+dimensions:
+  Object:
+    upstream: [subtypeOf, supertypeOf, partOf, hasPart, offeredBy, madeBy, poweredBy, suppliedBy, rebrandOf, applies, drivenBy, describedBy, supportedBy]
+    downstream: [hasPart, hasPort, performs, hasDesign, hasState, satisfies]
+    ownership_use: [partOf, hasPart, performs, hasDesign, participants, localModelDefinition]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Port:
+    upstream: [portOf, hasPort, copyOf, subtypeOf, supertypeOf, localModelDefinition]
+    downstream: [interfaces, exposes, exposedBy, hasFlow, transmits, receives, exchanges]
+    ownership_use: [portOf, hasPort, localModelDefinition]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Item_Flow:
+    upstream: [flowOf, hasFlow, transmits, receives, exchanges, localModelDefinition]
+    downstream: [triggers, triggeredBy]
+    ownership_use: [flowOf, hasFlow, transmits, receives, exchanges, localModelDefinition]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Function:
+    upstream: [performedBy, childOf, realizes, satisfiedBy, drivenBy, triggeredBy, follows]
+    downstream: [realizedBy, dependsOn, hasChild, precedes, satisfies]
+    ownership_use: [performedBy, childOf, realizes, realizedBy]
+    evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
+  Functional_Flow:
+    upstream: [childOf, includedIn, dependsOn, describedBy]
+    downstream: [hasChild, includes, precedes]
+    ownership_use: [childOf, includedIn, hasChild, includes]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  State:
+    upstream: [stateOf, childOf, follows, triggeredBy]
+    downstream: [hasChild, precedes, satisfies]
+    ownership_use: [stateOf]
+    evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
+  State_Machine:
+    upstream: [stateOf, childOf, includedIn]
+    downstream: [hasState, initialState, finalState]
+    ownership_use: [stateOf]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Requirement:
+    upstream: [drivenBy, derivedFrom, refinedBy, childOf, references, appliesTo]
+    downstream: [derivedBy, refines, hasChild, satisfiedBy, verifiedBy]
+    ownership_use: [appliesTo, drivenBy, derivedFrom, refinedBy, childOf]
+    evidence: [referencedBy, supportedBy, contradictedBy, verifiedBy]
+  Design:
+    upstream: [designOf, realizes, drivenBy, appliesTo, dependsOn]
+    downstream: [hasChild, satisfies, triggeredBy, precedes]
+    ownership_use: [designOf, realizes, appliesTo]
+    evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
+  Use_Case:
+    upstream: [needOf, includedIn, hasOption, childOf, drivenBy]
+    downstream: [participants, realizedBy, drives, includes, optionOf, arisesIn, affects]
+    ownership_use: [participants, needOf, realizedBy]
+    evidence: [satisfiedBy, describedBy, supportedBy, contradictedBy]
+  Actor:
+    upstream: [describedBy, supportedBy, contradictedBy, participants]
+    downstream: [hasNeed]
+    ownership_use: [hasNeed, participants]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Organization:
+    upstream: [subsidiaryOf, predecessorOf, suppliedBy, distributorOf, privateLabelledBy, rolePlayedBy, participants]
+    downstream: [hasNeed, playsRole, makes, offers, supplierOf, distributedBy, parentOf, successorOf, privateLabelFor, partnerOf, integratesWith]
+    ownership_use: [hasNeed, participants, makes, offers, supplierOf, distributedBy, partnerOf, integratesWith]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Failure_Mode:
+    upstream: [childOf, includedIn, drivenBy, dependsOn]
+    downstream: [affects, drives]
+    ownership_use: [affectedBy, affects, childOf, includedIn]
+    evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
+  Issue:
+    upstream: [affectedBy, drivenBy, dependsOn, childOf]
+    downstream: [affects, drives, supersedes]
+    ownership_use: [affects, drivenBy, childOf]
+    evidence: [supportedBy, contradictedBy, describedBy]
+  Info:
+    upstream: [describedBy, supportedBy, applies, measuredBy, rolePlayedBy]
+    downstream: [describes, supports, contradicts, appliesTo, measures, playsRole, makes, offers, supplierOf, distributedBy, subsidiaryOf, successorOf, privateLabelFor, poweredBy, partnerOf, integratesWith]
+    ownership_use: [applies, appliesTo, measuredBy, measures, describedBy, describes]
+    evidence: [supports, supportedBy, contradicts, contradictedBy, describes, describedBy]
+  Step:
+    upstream: [childOf, includedIn, follows]
+    downstream: [precedes, hasChild, includes, dependsOn]
+    ownership_use: [childOf, includedIn]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Verification:
+    upstream: [givesRiseTo, childOf, includedIn]
+    downstream: [verifies, measures]
+    ownership_use: [verifies, childOf, includedIn]
+    evidence: [supportedBy, describedBy, contradictedBy]
+  Procedure:
+    upstream: [givesRiseTo, childOf, includedIn, dependsOn]
+    downstream: [hasChild, includes, dependsOn]
+    ownership_use: [childOf, includedIn, dependencyOf, givesRiseTo]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Setup:
+    upstream: [givesRiseTo, dependencyOf, includedIn, childOf]
+    downstream: [hasChild, includes, dependsOn]
+    ownership_use: [dependencyOf, includedIn, childOf]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Plan:
+    upstream: [drivenBy, dependsOn, includedIn, childOf]
+    downstream: [includes, dependsOn, drives]
+    ownership_use: [applies, includedIn, childOf, drivenBy]
+    evidence: [describedBy, supportedBy, contradictedBy]
+  Result:
+    upstream: [includedIn, childOf, dependsOn, describedBy]
+    downstream: [verifies, satisfies, supports, contradicts]
+    ownership_use: [includedIn, childOf, dependencyOf]
+    evidence: [verifies, supports, contradicts]
+  Document:
+    upstream: [referencedBy, designOf, describedBy, supportedBy]
+    downstream: [describes, supports, contradicts, hasDesign]
+    ownership_use: [describes, supports, referencedBy, designOf]
+    evidence: [describes, supports, contradicts]
+  Artifact:
+    upstream: [includedIn, childOf, dependsOn]
+    downstream: [describes, supports, contradicts]
+    ownership_use: [includedIn, childOf, dependencyOf]
+    evidence: [describes, supports, contradicts]
+  modelCheck:
+    upstream: [childOf, includedIn, describedBy]
+    downstream: [tracesTo, supersedes, copyOf]
+    ownership_use: [childOf, includedIn]
+    evidence: [describedBy, supportedBy]
+  Diagram:
+    upstream: [includedIn, childOf, describedBy]
+    downstream: [describes]
+    ownership_use: [includedIn, childOf]
+    evidence: [supportedBy, describedBy]
+strict_active_dimensions:
+  Requirement: [upstream, ownership_use, downstream, evidence]
+  Function: [upstream, ownership_use, downstream]
+  Design: [upstream, ownership_use, evidence]
+  Verification: [downstream]
+  Use_Case: [upstream, downstream]
+  Object: [ownership_use]
+  Port: [ownership_use]
+  Item_Flow: [ownership_use]
+  State: [ownership_use]
+  State_Machine: [ownership_use, downstream]
+  Failure_Mode: [ownership_use, downstream]
+  Issue: [ownership_use, downstream]
+  Procedure: [ownership_use]
+  Setup: [ownership_use]
+  Plan: [ownership_use]
+  Result: [ownership_use, evidence]
+  Step: [ownership_use]
+legacy_focus_types: [Use Case, Requirement, Function, Design, Verification]
