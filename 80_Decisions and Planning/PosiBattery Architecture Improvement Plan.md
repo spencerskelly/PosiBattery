@@ -4688,3 +4688,24 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 67 | 2026-10-05 | Complete | Improved Organization navigation with ecosystem role groupings, richer Base relationship columns, and a 10-node curated Canvas covering internal portfolio, makers, OEMs, channels, software, relationship evidence, and scoped competition/partner analysis. No semantic model changes. Evidence: `Organization Navigation Improvement Step 67 0.1.yaml`. |
 | 68 | 2026-10-05 | Complete | Validated Actor–Organization–Product semantics across 11 Actors, 86 Organization-folder notes, and 398 Products; found zero misleading direct Actor↔Organization/Product structural links and confirmed conservative use of madeBy, offeredBy, poweredBy, channel, supply, and partnership relationships. Evidence: `Actor Organization Product Relationship Validation Step 68 0.1.yaml`. |
 | 69 | 2026-10-05 | Complete | Reviewed all 48 reusable-reference notes for source-specific research extraction; found zero notes requiring relocation to Research and Evidence. Added an explicit definition-vs-research maintenance boundary and deferred unrelated methodology-placement questions. Evidence: `Definition Research Boundary Review Step 69 0.1.yaml`. |
+| 70 | 2026-10-05 | Complete | Restored evidence separation as an explicit operational rule across Definitions and Research: external evidence stays in Source Document/Research records, reusable definitions link to it when needed, and no unsupported extraction/migration was performed because Step 69 found zero candidates. Evidence: `Evidence Separation Validation Step 70 0.1.yaml`. |
+
+---
+
+## Step 70 completion evidence — Restore evidence separation
+
+**Date:** 2026-10-05
+
+Step 70 used the Step 69 reusable-reference inventory as its migration gate. That review found **0 source-specific research blocks**, **0 relocation candidates**, and **0 definition notes requiring extraction**. The step therefore did not create artificial Research notes or move controlled methodology/reference content simply to satisfy the roadmap.
+
+The evidence boundary is now operational in both directions:
+
+- `90_Definitions and Reusable Reference/Definitions/README_Definitions.md` states when a reusable definition should link to Source Documents or Research and explicitly keeps vendor wording, dated observations, extracted tables, long source summaries, and source conflicts out of reusable definition notes.
+- `70_Research and Evidence/README_Research and Evidence.md` states that source identity/provenance belongs in Source Documents, interpretation and comparison belong in Research, and definitions should link to those records rather than copy evidence text.
+- `80_Decisions and Planning/Evidence Separation Validation Step 70 0.1.yaml` records the scope, no-migration decision, operational boundary, validation, and deferred items.
+
+No model identity, semantic relationship, file placement, or source artifact changed. The only new wikilinks point to existing canonical navigation targets. Property-vocabulary review remains intentionally deferred to Step 71.
+
+**Commits:** `5d9a5ac1`, `2f3e0676`, `e82f29d0`.
+
+**Result:** Step 70 complete. The next incomplete roadmap item is **Step 71 — Review Property definitions**.
