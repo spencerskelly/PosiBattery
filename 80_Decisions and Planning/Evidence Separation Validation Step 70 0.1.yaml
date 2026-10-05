@@ -1,0 +1,68 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 70
+purpose: "Restore and operationalize separation between reusable definitions and source-specific evidence while preserving traceable links."
+
+scope:
+  reusable_reference_notes_reviewed_in_step_69: 48
+  source_specific_research_blocks_identified: 0
+  relocation_candidates: 0
+  definition_notes_moved: 0
+  research_notes_created_from_definitions: 0
+
+decision:
+  result: "No content migration is justified."
+  reason: "Step 69 established that reusable-reference notes do not contain vendor-, product-, market-, or literature-specific evidence dumps requiring extraction."
+  rule: "Do not manufacture Research notes or move methodology/reference content merely to satisfy the roadmap step."
+
+operational_boundary:
+  definitions:
+    keep:
+      - "Canonical reusable meaning"
+      - "Controlled modeling/schema semantics"
+      - "Allowed values and usage rules"
+      - "Short clarifying examples"
+    link_to_evidence_when:
+      - "A reusable statement depends on an external technical, market, standards, product, or technology source"
+  source_documents:
+    keep:
+      - "Curated identity and provenance for specific external sources"
+      - "Revision/date/file or URL reference when known"
+      - "Source-specific evidence context"
+  research:
+    keep:
+      - "Source extraction"
+      - "Cross-source synthesis"
+      - "Comparisons and conflicts"
+      - "Dated observations"
+      - "Uncertainty and interpretation"
+
+changes:
+  - file: "90_Definitions and Reusable Reference/Definitions/README_Definitions.md"
+    change: "Added explicit evidence-linkage rules for reusable definitions."
+    commit: "5d9a5ac1e9d0f1b52cfc16019fce806cbb7215d5"
+  - file: "70_Research and Evidence/README_Research and Evidence.md"
+    change: "Added reciprocal guidance for supporting reusable definitions from Source Documents and Research without duplicating evidence text."
+    commit: "2f3e06763d42bdf65d00a7f56e4920a9305a7562"
+
+validation:
+  unsupported_semantic_changes: 0
+  identities_changed: 0
+  model_relationships_changed: 0
+  files_moved: 0
+  files_deleted: 0
+  new_wikilink_targets:
+    - "README_Source Documents"
+    - "README_Research"
+    - "README_Definitions and Reusable Reference"
+  link_target_assessment: "All targets already exist in the canonical navigation structure."
+
+deferred_scope:
+  - "Methodology-heavy reference notes such as EA Source Section and Note Layout may later be reviewed for 99_System placement, but that is not evidence-separation work."
+  - "Property vocabulary quality and alias/semantic overlap are intentionally deferred to Step 71."
+
+conclusion: "Evidence separation is now explicit and operational. The existing reusable-reference content required no extraction or relocation."
+
+next_step:
+  step: 71
