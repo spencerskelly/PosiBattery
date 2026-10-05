@@ -21,6 +21,59 @@ This folder contains organization records and market-role concepts for companies
 - [[CANVAS_Organizations]] — visual organization map.
 - `BASE_all_Organizations.base` and `BASE_local_Organizations.base` — organization views.
 
+## Navigate the ecosystem
+
+Use the role and relationship views below to explore the ecosystem without treating folder placement as ontology.
+
+### Internal Ampure portfolio
+
+Start with [[Ampure]] for the internal group context, then follow [[PosiCharge]], [[Power Designers]], and [[Ampure Automotive and Aftermarket EVSE]]. Internal overlap belongs in portfolio analysis, not competitor classification.
+
+### Energy-storage and charging suppliers
+
+Use these reusable role views:
+
+- [[Battery Maker]] — industrial battery manufacturers and battery brands represented as makers.
+- [[Charger Maker]] — industrial charging-equipment manufacturers.
+- [[Monitor Maker]] — battery identification, monitoring, and related device makers.
+
+Organizations may appear in more than one role.
+
+### Vehicle and GSE ecosystem
+
+- [[Truck OEM]] — forklift, industrial-vehicle, and GSE manufacturers represented in the current market model.
+- [[Brand Owner]] — organizations that own or market relevant product brands.
+
+Use parent/subsidiary relationships to distinguish global groups from regional operating companies.
+
+### Channels and service reach
+
+- [[Dealer or Distributor]] — organizations that resell, distribute, install, or service offerings made by others.
+- Follow `distributedBy / distributorOf` for evidenced channel relationships.
+- Use [[Business Relationship Ledger]] when the relationship details or evidence matter.
+
+### Software, accessories, and adjacent technology
+
+- [[Software Vendor]] — fleet, charger, battery, or GSE software/platform providers.
+- [[Accessory Maker]] — makers of add-on safety, telematics, interface, connector, lighting, and related equipment.
+
+### Competitive and partnership context
+
+Do not browse for a single global "competitor" list. Competition and partnership are offer-specific.
+
+- [[PosiCharge Competitive and Partner Landscape]] — scoped external competitor, partner, channel, and ecosystem analysis.
+- [[Industrial Battery Supply and Private-Label Relationships]] — supply, private-label, integration, and channel evidence.
+- [[Products Offered or Promoted with Industrial Batteries]] — comparative offering matrix.
+- [[Offerings by Organization]] — organization-centric portfolio roll-up.
+
+### Exhaustive views
+
+- `BASE_all_Organizations.base` — all notes in the Organizations domain with role and relationship columns.
+- `BASE_local_Organizations.base` — direct-folder inventory.
+- [[CANVAS_Organizations]] — curated ecosystem entry map.
+
+These navigation aids are not semantic authority. Organization identity and relationships remain defined by the notes and controlled relationship evidence.
+
 ## Controlled role classification
 
 Use two different mechanisms depending on whether the role is intrinsic to the organization or contextual to a specific relationship / offer space.
