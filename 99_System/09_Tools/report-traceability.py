@@ -48,13 +48,16 @@ for rec in rel_schema.get("symmetric",[])+rel_schema.get("oneWay",[]):
     if rec.get("field"): relationship_fields.add(rec["field"])
 
 notes={}
+texts={}
 basename=defaultdict(list)
 for p in ROOT.rglob("*.md"):
     if ".git" in p.parts or "99_System" in p.parts: continue
     rel=p.relative_to(ROOT).as_posix()
-    data=frontmatter(p.read_text(encoding="utf-8",errors="replace"))
+    text=p.read_text(encoding="utf-8",errors="replace")
+    data=frontmatter(text)
     if not isinstance(data,dict) or not data.get("type"): continue
     notes[rel]=data
+    texts[rel]=text
     basename[p.stem].append(rel)
 
 def resolve(name):
@@ -76,6 +79,18 @@ for source,data in notes.items():
             if not target_path: continue
             outgoing[source].append((field,target_path))
             incoming[target_path].append((field,source))
+
+    # Governed Local Model definition references are contextual uses of reusable
+    # definitions. Count them as semantic connectivity for orphan detection,
+    # while keeping them separate from note-level relationship expectations.
+    text=texts[source]
+    m=re.search(r"<!--\s*MDSE:LOCAL-MODEL START[^>]*-->([\s\S]*?)<!--\s*MDSE:LOCAL-MODEL END\s*-->",text)
+    if m:
+        for target in re.findall(r"(?m)^- definition:\s*\[\[([^\]|#]+)",m.group(1)):
+            target_path=resolve(target.strip())
+            if not target_path: continue
+            outgoing[source].append(("localModelDefinition",target_path))
+            incoming[target_path].append(("localModelDefinition",source))
 
 orphans=[]
 for path in notes:
