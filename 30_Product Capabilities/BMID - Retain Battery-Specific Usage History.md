@@ -13,6 +13,8 @@ appliesTo:
 drivenBy:
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Document Battery Care for Warranty Compliance]]"
+satisfiedBy:
+  - "[[Log Battery Events and Usage]]"
 ---
 
 # BMID - Retain Battery-Specific Usage History
