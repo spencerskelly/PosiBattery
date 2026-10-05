@@ -4242,6 +4242,37 @@ Validation run `37291839092` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 59 completion evidence - Use Cases distinguished from Functions
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Use Case Function Classification Review Step 59 0.1.yaml`.
+
+Reviewed the methodology boundary between actor/external goals and product-controlled behavior.
+
+### Result
+
+- Current Customer Needs remain correctly modeled as **Use Case / subtype why** desired outcomes.
+- The operational Use Case layer currently contains no model notes, so there are no existing operational Use Cases to reclassify.
+- Reviewed representative Function edge cases including configuration, remote control, connection, battery exchange, refueling, checklist enforcement, and automatic docking.
+- Found **0 clear Function-to-Use-Case classification mistakes**.
+- Made **0 model-note retypes** and **0 semantic relationship changes**.
+
+The distinction is now documented in `40_Use and Operations/README_Use and Operations.md`:
+
+- Use Case = externally controlled actor goal / interaction.
+- Function = product-controlled behavior.
+- Condition/variant = context that modifies a scenario but is not itself the actor goal.
+- Design = reusable technical realization approach.
+
+Four Step 58 candidates remain intentionally uncertain and are recorded for later refinement: low-energy recovery as a possible umbrella scenario, pedestrian-area movement depending on system boundary, charging configuration versus automatic adaptation, and battery replacement planning as a possible sub-workflow.
+
+Evidence commit: `3f4b02e6`.
+
+**Result:** Step 59 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4299,3 +4330,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 56 | 2026-10-05 | Complete | Reviewed all 55 Performance Metrics; found zero exact duplicates, separated quantitative properties from categorical and compound comparison dimensions, identified five high-priority decomposition/cleanup candidates, and found zero metrics ready to serve as standalone formal validation criteria without additional method/acceptance semantics. Evidence: `Performance Metric Quality Inventory Step 56 0.1.yaml`. |
 | 57 | 2026-10-05 | Complete | Reworked Product Capabilities navigation around intent to Function to Design to Product to Metric/evidence; aligned Design navigation to modeled hierarchy, Metric navigation to semantic class, and replaced the root Canvas with an 8-node traceability map. No semantic model changes. Evidence: `Capability Navigation Improvement Step 57 0.1.yaml`. |
 | 58 | 2026-10-05 | Complete | Reviewed all 22 Customer Needs plus Products, Functions, and research to extract 20 actor-goal operational Use Case candidates; 17 high-confidence and 3 medium-confidence. Kept environmental/fleet conditions as scenario variants and created no premature Use Case notes. Evidence: `Operational Use Case Candidate Inventory Step 58 0.1.yaml`. |
+| 59 | 2026-10-05 | Complete | Applied the Use Case/Function boundary across current Customer Needs and representative Function edge cases; found zero clear classification mistakes, documented four uncertain Step-58 candidates, and added an explicit classification test to the Use and Operations README. Evidence: `Use Case Function Classification Review Step 59 0.1.yaml`. |
