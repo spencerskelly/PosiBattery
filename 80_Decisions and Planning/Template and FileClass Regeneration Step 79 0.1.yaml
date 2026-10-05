@@ -1,0 +1,134 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 79
+status: "Complete"
+purpose: "Regenerate the impacted authoring artifacts against the Step 78 candidate schema set without changing the active production FileClass configuration."
+
+candidate_schema_set:
+  element_types: "99_System/03_Schemas/element-types.1.18.yaml"
+  metadata: "99_System/03_Schemas/metadata.1.0.yaml"
+  relationships: "99_System/03_Schemas/relationships.1.36.yaml"
+  local_model: "99_System/03_Schemas/local-model.yaml 0.2"
+
+generator_finding:
+  documented_generator: "99_System/09_Tools/build-plugin-config.py"
+  repository_status: "not present"
+  treatment: "Performed controlled regeneration of impacted pilot artifacts only; did not claim a full automated rebuild."
+
+pilot_templates_created:
+  count: 4
+  files:
+    - "99_System/05_Templates/Pilot/Organization.md"
+    - "99_System/05_Templates/Pilot/Product Object.md"
+    - "99_System/05_Templates/Pilot/Measure Info.md"
+    - "99_System/05_Templates/Pilot/Source Document.md"
+  design:
+    - "Organization provides the new formal type without adding speculative role metadata."
+    - "Product Object exposes productClass only on product-purpose Object creation."
+    - "Measure Info exposes measureClass/valueType/unit/measurementMethod."
+    - "Source Document exposes sourceClass/sourceUrl/sourceRevision/accessed and evidence predicates."
+    - "Sparse common metadata aliases/reuseScope is not emitted mechanically in every template."
+
+pilot_fileclasses_created:
+  count: 10
+  directory: "99_System/06_Fileclasses/Pilot"
+  files:
+    - Organization.md
+    - Object.md
+    - Actor.md
+    - Use Case.md
+    - Function.md
+    - Design.md
+    - Info.md
+    - Document.md
+    - Verification.md
+    - Result.md
+  impacted_surfaces:
+    Organization:
+      - playsRole
+      - makes
+      - offers
+      - supplierOf
+      - distributedBy
+      - subsidiaryOf
+      - successorOf
+      - privateLabelFor
+      - partnerOf
+      - integratesWith
+      - hasNeed
+    Object:
+      - productClass
+      - satisfies
+      - poweredBy
+      - rebrandOf
+      - integratesWith
+      - offeredWith
+    Actor:
+      - hasNeed
+    Use_Case:
+      - realizedBy
+      - arisesIn
+      - participants
+    Function:
+      - satisfies
+      - realizedBy
+    Design:
+      - appliesTo
+      - satisfies
+    Info:
+      - measureClass
+      - valueType
+      - unit
+      - measurementMethod
+      - appliesTo
+      - measures
+      - supports
+      - contradicts
+    Document:
+      - sourceClass
+      - sourceUrl
+      - sourceRevision
+      - accessed
+      - supports
+      - contradicts
+    Verification:
+      - verifies
+      - measures
+    Result:
+      - satisfies
+      - verifies
+      - supports
+      - contradicts
+
+link_target_base:
+  file: "99_System/06_Fileclasses/Pilot/MDSE Link Targets.base"
+  purpose: "Provides pilot target views including Organization compatibility with legacy Info notes tagged organization."
+
+snippet_compatibility:
+  file: "99_System/08_Scripts/02_Snippets/Snippet - id.md"
+  change: "Added ID-prefix mappings for Organization, Product Object, Measure Info, and Source Document pilot template names."
+  mapping:
+    Organization: ORG
+    Product_Object: OBJ
+    Measure_Info: INFO
+    Source_Document: DOC
+  uid_snippet_change: false
+
+production_compatibility:
+  active_templates_modified: 0
+  active_fileclasses_modified: 0
+  fileclass_plugin_config_modified: false
+  existing_model_notes_modified: 0
+  existing_ids_uids_modified: 0
+  note: "Pilot artifacts remain isolated under Pilot subfolders until Step 80/81 validation and Step 82 adoption."
+
+validation:
+  - "All four pilot templates can now generate a governed ID prefix."
+  - "UID generation remains compatible with the existing global collision strategy."
+  - "Pilot FileClasses reference only the pilot Link Targets Base."
+  - "No production FileClass path/config was redirected."
+
+next_step:
+  step: 80
+  focus: "Define and create the representative pilot contract using one Organization candidate, one product Object, one reusable scoped definition, atomic and compound measure examples, and one Source Document."
