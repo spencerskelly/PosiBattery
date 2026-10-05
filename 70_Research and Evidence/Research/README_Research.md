@@ -29,6 +29,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 - [[CANVAS_Research]] — visual research map.
 - `BASE_all_Research.base` and `BASE_local_Research.base` — research views.
 - `Business Analysis/` — PosiCharge and Ampure business-analysis notes: scope, segments, competitive landscape, comparison cohorts, capability gaps, opportunity backlog, portfolio baseline, public evidence register and evidence gaps.
+- [[README_Cost Drivers|Cost Drivers]] — warehouse and MHE cost-driver research, ROI frameworks, product landscapes, and product-adjacency hypotheses.
 
 ## Related areas
 
