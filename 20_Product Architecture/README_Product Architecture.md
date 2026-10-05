@@ -34,7 +34,18 @@ Use Local Model occurrences for contextual composition where applicable.
 
 These architecture sets are canonical here. Product-domain notes should link to them rather than duplicate their definitions.
 
+## Current curated architecture view
+
+[[CANVAS_Product Architecture]] now provides the first meaningful architecture map. It shows:
+
+- [[Battery-Connected Product]] as the shared reusable root;
+- [[Industrial Truck Anatomy]] and [[GSE Vehicle Anatomy]] as abstract reusable vehicle assemblies;
+- representative structural parts from each assembly using only explicit `hasPart` relationships.
+
+The canvas is intentionally selective. It does not show all 24 child parts, product-specific occurrences, Ports, Item Flows, or inferred connections. Use `BASE_all_Product Architecture.base` for the full recursive architecture inventory.
+
 ## Navigation
+
 
 
 - `BASE_local_Product Architecture.base` — direct Markdown contents of this domain.
