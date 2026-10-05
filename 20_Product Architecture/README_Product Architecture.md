@@ -27,7 +27,15 @@ A product-specific `05 Product Design` or `07 Product Assembly` workspace may or
 
 Use Local Model occurrences for contextual composition where applicable.
 
+## Vehicle architecture sets
+
+- [[Industrial Truck Anatomy]] — abstract industrial-truck assembly and its reusable structural subsystems.
+- [[GSE Vehicle Anatomy]] — abstract GSE vehicle assembly and its reusable structural subsystems.
+
+These architecture sets are canonical here. Product-domain notes should link to them rather than duplicate their definitions.
+
 ## Navigation
+
 
 - `BASE_local_Product Architecture.base` — direct Markdown contents of this domain.
 - `BASE_all_Product Architecture.base` — recursive Markdown contents of this domain.
