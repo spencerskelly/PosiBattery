@@ -20,11 +20,21 @@ describes:
 
 ACT Quantum 3 sheet with specifications for Q4, Q8 and dual-port models.
 
-## Notes
+## Provenance
 
-- **File in the repo:** [[133717589840217692.pdf]] (folder Downloads). **Original web address:** <https://og.mhi.org/media/members/41607/133717589840217692.pdf>. **Format:** 2 pages; created 2024-09-20.
-- **Tier:** T1 manufacturer document (read from the local copy on 2026-10-02). Facts taken from it are cited on the product notes as this note plus the original address.
-- **Checked against other sources:** every difference from earlier vault text is logged in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- **Local artifact:** [[133717589840217692.pdf]] in `Downloads`.
+- **Source identity:** Advanced Charging Technologies / MHI-hosted manufacturer document.
+- **Original web address:** <https://og.mhi.org/media/members/41607/133717589840217692.pdf>.
+- **Document date / revision:** PDF created 2024-09-20; no separate publication/revision date is recorded in the current vault evidence.
+- **Evidence tier:** T1 manufacturer document.
+- **Local copy reviewed:** 2026-10-02.
+- **Original web access/download date:** Not recorded in the current vault evidence.
+
+## Traceability
+
+- Governed `describes` relationships in frontmatter identify the modeled subjects this source supports.
+- Differences from earlier vault text are tracked in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- As of the 2026-10-04 provenance review, no direct downstream backlink to this Source Document note name or original URL was verified outside the Source Documents/planning records. This is a traceability gap, not evidence that the source was unused.
 
 ## Aliases
 
