@@ -29,6 +29,21 @@ paired:
 - {forward: realizedBy, inverse: realizes, from: [Use Case, Function], to: [Function, Design]}
 - {forward: optionOf, inverse: hasOption, from: [Use Case], to: [Use Case]}
 - {forward: affects, inverse: affectedBy, from: [Issue, Failure Mode, Use Case], to: any}
+- {forward: hasNeed, inverse: needOf, from: [Actor, Organization], to: [Use Case]}
+- {forward: arisesIn, inverse: givesRiseTo, from: [Use Case], to: [Use Case, Procedure, Setup]}
+- {forward: measures, inverse: measuredBy, from: [Info, Verification], to: any}
+- {forward: supports, inverse: supportedBy, from: [Document, Info, Result], to: any}
+- {forward: contradicts, inverse: contradictedBy, from: [Document, Info, Result], to: any}
+- {forward: playsRole, inverse: rolePlayedBy, from: [Organization, Info], to: [Info], legacyInfoOrganizationEndpoint: true}
+- {forward: makes, inverse: madeBy, from: [Organization, Info], to: [Object], legacyInfoOrganizationEndpoint: true}
+- {forward: offers, inverse: offeredBy, from: [Organization, Info], to: [Object], legacyInfoOrganizationEndpoint: true}
+- {forward: supplierOf, inverse: suppliedBy, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: distributedBy, inverse: distributorOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: subsidiaryOf, inverse: parentOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: successorOf, inverse: predecessorOf, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: privateLabelFor, inverse: privateLabelledBy, from: [Organization, Info], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: poweredBy, inverse: powers, from: [Object], to: [Organization, Info], legacyInfoOrganizationEndpoint: true}
+- {forward: rebrandOf, inverse: rebrandedAs, from: [Object], to: [Object]}
 temporaryPairs:
 - forward: hasClassifier
   inverse: classifierOf
