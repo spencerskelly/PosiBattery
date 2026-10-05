@@ -1,0 +1,296 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 73
+purpose: "Complete field-level reconciliation between the active MDSE runtime contract and the proposed Common Element Metadata Standard before any schema implementation."
+
+authorities:
+  runtime_element_schema: "99_System/03_Schemas/element-types.yaml 1.17"
+  runtime_local_model_schema: "99_System/03_Schemas/local-model.yaml 0.2"
+  runtime_relationship_schema: "99_System/03_Schemas/relationships.yaml 1.35"
+  modeling_ruleset: "99_System/10_Docs/MDSE Modeling Ruleset 1.23.md"
+  ai_authoring_rules: "99_System/02_AI/AI_INSTRUCTIONS.md"
+  proposed_metadata_standard: "99_System/10_Docs/Common Element Metadata Standard 0.1.md"
+  prior_analysis:
+    - "99_System/10_Docs/Schema Reconciliation Matrix 0.1.md"
+    - "80_Decisions and Planning/Property Definition Quality Inventory Step 71 0.1.yaml"
+
+runtime_note_contract:
+  common_properties:
+    - type
+    - subtype
+    - id
+    - uid
+    - status
+    - tags
+  governed_optional:
+    - abstract
+  translated_only:
+    - eaType
+  relationship_fields: "Governed separately by relationships.yaml; excluded from field implementation decisions until Step 75."
+  identity:
+    permanent_machine_identity: uid
+    human_readable_model_identifier: id
+  title_authority: "Visible Markdown heading/name; filename may carry disambiguating filesystem context."
+  aliases_current_storage: "## Aliases body section in model templates."
+  history_authority: "Git history plus immutable uid creation token; no common updated field exists."
+
+summary:
+  proposed_common_core_fields_reviewed: 10
+  proposed_evidence_uncertainty_fields_reviewed: 7
+  proposed_type_extension_fields_reviewed: 27
+  direct_field_name_or_semantic_conflicts: 8
+  approved_runtime_fields_to_retain_unchanged:
+    - type
+    - subtype
+    - id
+    - uid
+    - tags
+    - abstract
+    - eaType
+  fields_requiring_later_controlled_decision: 21
+  fields_rejected_as_parallel_duplicates_or_relationship_duplicates: 9
+  schema_files_modified: 0
+  template_files_modified: 0
+  model_notes_modified: 0
+
+common_core_reconciliation:
+  - proposed: id
+    current: [id, uid]
+    disposition: "retain current split"
+    canonical_result: "uid remains permanent identity; id remains short human-readable class identifier"
+    rationale: "Collapsing identity into id would contradict current rules and weaken stable identity."
+  - proposed: element_type
+    current: [type]
+    disposition: "map; do not add parallel field"
+    canonical_result: "type"
+    rationale: "type is already the governed MDSE semantic class."
+  - proposed: title
+    current: ["Markdown heading/name", "filename"]
+    disposition: "do not add as common field in current contract"
+    canonical_result: "visible heading/name remains semantic title; filename may be disambiguated"
+    rationale: "A required duplicate title field would create synchronization risk. Revisit only if a concrete query/tooling need is demonstrated."
+  - proposed: status
+    current: [status]
+    disposition: "retain field; reconcile vocabulary"
+    canonical_result: "status"
+    conflict: "Current Draft/Active/Retired lifecycle semantics differ from proposed draft/provisional/supported/validated/disputed/superseded/archived evidence-maturity semantics."
+    rationale: "One field must not silently combine lifecycle state and evidence confidence."
+  - proposed: scope.kind
+    current: []
+    disposition: "candidate extension"
+    canonical_result: "defer to Step 77 minimum-metadata decision"
+    rationale: "Potentially useful for product-specific/family/platform/cross-product/external-reference query semantics."
+  - proposed: scope.applies_to
+    current: [appliesTo]
+    disposition: "do not add until semantic boundary is resolved"
+    canonical_result: "prefer typed relationship where applicability is a model claim"
+    conflict: "Nested scope field would coexist with appliesTo and risk two sources of applicability truth."
+  - proposed: aliases
+    current: ["## Aliases body section"]
+    disposition: "candidate migration, not parallel storage"
+    canonical_result: "one authoritative alias representation must be chosen before implementation"
+    rationale: "Do not maintain aliases in both YAML and body."
+  - proposed: tags
+    current: [tags]
+    disposition: "retain"
+    canonical_result: "tags"
+  - proposed: created
+    current: [uid, "Git history"]
+    disposition: "do not add as required common field"
+    canonical_result: "derive model-note creation timing from uid when needed"
+    rationale: "Avoid redundant date maintenance; special external/source records may still need source dates."
+  - proposed: updated
+    current: ["Git history"]
+    disposition: "do not add as required common field"
+    canonical_result: "Git history"
+    rationale: "Manual updated timestamps are easy to stale and duplicate repository history."
+
+status_reconciliation:
+  current_lifecycle_values:
+    confirmed:
+      - Draft
+      - Active
+      - Retired
+    authority: "Property definition and templates"
+  proposed_standard_values:
+    - draft
+    - provisional
+    - supported
+    - validated
+    - disputed
+    - superseded
+    - archived
+  finding: "The proposed list mixes working maturity/evidence state with lifecycle/replacement/archive semantics and does not contain Active or Retired."
+  disposition: "Do not normalize status in Step 73. Step 76 must separate lifecycle vocabulary from evidence/claim maturity before Step 78 implementation."
+
+evidence_and_uncertainty_reconciliation:
+  - proposed: evidence.basis
+    disposition: "candidate extension"
+    value: "Potentially useful compact provenance-quality signal; avoid treating it as a substitute for source relationships."
+  - proposed: evidence.confidence
+    disposition: "candidate extension"
+    value: "Potentially useful; must remain distinct from lifecycle status and relationship maturity."
+  - proposed: evidence.source_records
+    disposition: "prefer relationship-based provenance; do not duplicate links"
+    conflict: "Overlaps references/describes and proposed supports/contradicts relationship semantics."
+  - proposed: evidence.last_reviewed
+    disposition: "defer/reject as common-required field"
+    rationale: "High maintenance burden; use only where review cadence is operationally meaningful."
+  - proposed: uncertainty.assumptions
+    disposition: "defer"
+    rationale: "Potentially valuable, but common YAML lists may duplicate Issue/Decision/body content."
+  - proposed: uncertainty.open_questions
+    disposition: "defer"
+    rationale: "Prefer explicit Issue/backlog model when an open question is material."
+  - proposed: uncertainty.conflicts
+    disposition: "prefer explicit conflict/relationship model"
+    rationale: "Avoid a second untyped conflict-link store beside conflictsWith and future evidence relationships."
+
+type_specific_extension_reconciliation:
+  product_and_offering:
+    - field: product_class
+      disposition: "candidate type-specific field"
+      note: "Potentially useful for category/type/family/variant/offering navigation; element-type boundary deferred to Step 74."
+    - field: manufacturer
+      disposition: "reject as duplicate metadata field"
+      preferred_model: "Organization relationship such as madeBy/offeredBy under governed business relationship semantics."
+    - field: portfolio_owner
+      disposition: "reject as generic scalar/list field"
+      preferred_model: "Organization/role relationship where ownership is materially modeled."
+    - field: commercial_status
+      disposition: "candidate type-specific field"
+      note: "Commercial lifecycle is distinct from model-note status."
+  stakeholder_actor_organization:
+    - field: stakeholder_class
+      disposition: "candidate only if Step 74 confirms need beyond formal type/subtype"
+    - field: organization_role
+      disposition: "do not adopt as intrinsic common field"
+      note: "Step 65 established supplier/channel/partner/competitor/customer/regulator roles as contextual when appropriate."
+  customer_need:
+    - field: need_class
+      disposition: "candidate type-specific field"
+    - field: need_holder
+      disposition: "reject as duplicate metadata field"
+      preferred_model: "Actor/Organization to Need relationship."
+    - field: priority
+      disposition: "name conflict; do not standardize yet"
+      conflict: "Need priority uses unknown/low/medium/high/critical while planning priority uses P0/P1/P2/P3/unknown."
+  function_and_capability:
+    - field: capability_class
+      disposition: "defer to Step 74"
+      note: "Current formal types already distinguish Function, Requirement, State, Failure Mode, Verification."
+    - field: function_level
+      disposition: "candidate Function-specific field"
+  architecture_and_design:
+    - field: design_class
+      disposition: "candidate Design-specific field"
+    - field: implementation_scope
+      disposition: "candidate but overlaps scope.kind"
+      conflict: "product_specific/platform_shared/external_reference partially duplicate proposed common scope.kind semantics."
+  metric_property_comparison:
+    - field: measure_class
+      disposition: "candidate type-specific field"
+    - field: value_type
+      disposition: "candidate type-specific field"
+    - field: unit
+      disposition: "candidate type-specific field"
+      note: "Should point to controlled reusable unit semantics if adopted."
+    - field: measurement_method
+      disposition: "candidate type-specific field"
+      note: "May remain text or become a Procedure/reference relationship depending on Step 74/77 decisions."
+  source_record:
+    - field: source_class
+      disposition: "candidate Document/Info-specific field"
+    - field: source_url
+      disposition: "candidate source-record field"
+      note: "Useful external locator; not a substitute for a Source Document identity."
+    - field: published_or_revision
+      disposition: "candidate source-record field"
+    - field: accessed
+      disposition: "candidate source-record field"
+    - field: source_stability
+      disposition: "candidate source-record field"
+  decision_and_planning:
+    - field: decision_class
+      disposition: "candidate type-specific field"
+    - field: priority
+      disposition: "name conflict; requires namespaced or type-governed semantics"
+      conflict: "Same field name has incompatible controlled values in Need and Planning proposals."
+    - field: owner
+      disposition: "prefer relationship to Person/Role where authoritative ownership matters"
+    - field: due
+      disposition: "candidate planning-specific field"
+
+direct_conflicts:
+  - id: FR-73-01
+    topic: identity
+    issue: "Proposed standard treats id as stable identity while runtime separates immutable uid from short id."
+    resolution_direction: "Preserve uid + id split."
+  - id: FR-73-02
+    topic: element_type
+    issue: "Proposed element_type duplicates runtime type."
+    resolution_direction: "Use type; do not create parallel element_type for model notes."
+  - id: FR-73-03
+    topic: status
+    issue: "Proposed status controlled values conflict semantically with current lifecycle status."
+    resolution_direction: "Separate lifecycle from evidence/claim maturity before normalization."
+  - id: FR-73-04
+    topic: applicability
+    issue: "scope.applies_to risks duplicating appliesTo."
+    resolution_direction: "Prefer typed relationship for semantic applicability; add scope only if a distinct query use is proven."
+  - id: FR-73-05
+    topic: aliases
+    issue: "Proposed YAML aliases would duplicate existing ## Aliases body sections."
+    resolution_direction: "Choose one representation during controlled implementation."
+  - id: FR-73-06
+    topic: dates
+    issue: "Required created/updated fields duplicate uid/Git-derived history and impose maintenance."
+    resolution_direction: "Do not make them common-required fields."
+  - id: FR-73-07
+    topic: priority
+    issue: "One proposed field name has two incompatible controlled vocabularies."
+    resolution_direction: "Type-govern or rename before implementation."
+  - id: FR-73-08
+    topic: scope
+    issue: "implementation_scope partially duplicates scope.kind."
+    resolution_direction: "Select one reusable applicability concept or clearly separate design implementation context."
+
+field_governance_rules_from_reconciliation:
+  - "Never create a second field for semantics already governed by type, uid, id, or a typed relationship merely to match the proposed metadata standard."
+  - "Prefer model relationships for links to actors, organizations, needs, evidence sources, owners, and applicability when the link is itself an engineering/business claim."
+  - "Use scalar metadata for compact intrinsic classifications that materially improve query or validation."
+  - "Do not require manually maintained metadata that can be derived reliably from uid, Git, filenames/headings, or canonical relationships."
+  - "A proposed type-specific field is not approved merely because it appears in Common Element Metadata Standard 0.1."
+  - "New controlled values require explicit authority and migration behavior before schema adoption."
+
+step_73_decision:
+  action: "Complete reconciliation inventory only."
+  runtime_change_authorized: false
+  reason: "Steps 74-77 must resolve element types, relationships, vocabulary conflicts, and the minimum extension set before Step 78 changes controlled schemas."
+
+handoff:
+  step_74_inputs:
+    - "product_class vs formal Product/Object treatment"
+    - "stakeholder_class and Organization type boundary"
+    - "need_class / first-class Need decision"
+    - "capability_class overlap with existing formal types"
+    - "design_class and measure_class formal-base decisions"
+    - "source_class and decision_class base types"
+  step_75_inputs:
+    - "scope.applies_to vs appliesTo"
+    - "evidence.source_records vs evidence relationships"
+    - "manufacturer/portfolio_owner/need_holder/owner relationship preference"
+  step_76_inputs:
+    - "status vocabulary conflict"
+    - "priority vocabulary conflict"
+    - "implementation_scope vs scope.kind"
+    - "aliases body vs YAML representation"
+    - "element_type proposed alias rejection"
+  step_77_inputs:
+    - "Select the smallest useful set from scope.kind, evidence basis/confidence, commercial_status, function_level, design_class, measure/value/unit/method, source metadata, and planning due/priority."
+
+conclusion: "Field reconciliation is complete enough to prevent parallel metadata vocabularies. The active runtime identity/type fields are preserved; relationship-like proposed fields are redirected toward the relationship model; redundant maintenance fields are rejected as common requirements; and only a bounded set of intrinsic metadata extensions remains for later approval."
+
+next_step:
+  step: 74
