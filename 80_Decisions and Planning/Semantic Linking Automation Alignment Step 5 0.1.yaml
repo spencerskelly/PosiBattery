@@ -1,0 +1,76 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 5
+status: "Complete"
+title: "Automated traceability rules aligned to semantic-linking contract"
+
+implementation:
+  machine_rules:
+    path: "99_System/09_Tools/semantic-linking-report-rules.yaml"
+    commit: "56fd89d1"
+    governed_types_covered: 25
+    source_authority:
+      - "Semantic Linking Expectation Matrix Step 2 0.1.yaml"
+      - "Semantic Linking Content Standards Step 3 0.1.yaml"
+      - "Semantic Linking Exception Classes Step 4 0.1.yaml"
+  disposition_registry:
+    path: "80_Decisions and Planning/Semantic Linking Review Dispositions 0.1.yaml"
+    commit: "40b59469"
+    initial_records: 0
+    purpose: "Separate reviewed classification/gap disposition from model-note frontmatter."
+  reporter:
+    path: "99_System/09_Tools/report-traceability.py"
+    commit: "7a559d13"
+    behavior: "Report-only."
+    changes:
+      - "Loads Step-2-derived machine-readable expectation dimensions instead of using hard-coded primary completeness rules."
+      - "Consumes Step 3 completeness classifications through the review disposition registry."
+      - "Consumes Step 4 controlled exception codes and distinguishes explained versus unresolved gaps."
+      - "Retains Step 97 legacy metrics only for frozen-baseline comparability."
+      - "Does not silently infer final completeness classes."
+      - "Counts Local Model definition use as contextual ownership/use."
+      - "Validates disposition-registry entries but does not modify model notes."
+
+validation:
+  workflow_run: 37390908265
+  job_id: 112035486866
+  result: "success"
+  model_notes: 945
+  semantic_relationship_assertions_and_local_model_definition_uses: 5996
+  isolated_model_elements: 2
+  legacy_product_development_focus_notes: 301
+  legacy_isolated_focus_elements: 0
+  legacy_weak_traceability_findings: 221
+  legacy_focus_weak_traceability_findings: 221
+  matrix_dimension_findings_raw: 1098
+  reviewed_completeness_classifications: 0
+  unreviewed_completeness_classifications: 945
+  applicable_unexplained_findings: 0
+  explained_exception_findings: 0
+  unresolved_exception_findings: 0
+  disposition_registry_errors: 0
+  legacy_breakdown:
+    Design: 138
+    Function: 81
+    Requirement: 2
+  raw_matrix_breakdown:
+    Actor: 24
+    Design: 229
+    Function: 128
+    Info: 122
+    Object: 579
+    Port: 4
+    Verification: 12
+
+interpretation:
+  - "The 1,098 matrix findings are deliberately unfiltered raw review prompts, not defects."
+  - "All 945 notes are currently unreviewed under the new Step 3 completeness classification; Steps 6-27 populate reviewed classifications and controlled dispositions."
+  - "The frozen Step 1 legacy count of 221 is preserved exactly, allowing progress comparison while the new matrix provides broader whole-vault coverage."
+  - "Zero applicable unexplained findings at this stage does not mean the vault is complete; it means no note has yet been formally classified/reviewed under the new contract."
+  - "No semantic relationship, ID, UID, element type, or model-note metadata was changed."
+
+next_step:
+  step: 6
+  title: "Review product identity and product-family links"
