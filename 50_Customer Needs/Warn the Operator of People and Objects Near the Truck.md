@@ -40,6 +40,10 @@ Customer need: Warn the Operator of People and Objects Near the Truck. The probl
   - Secondary pages repeat different fatality and injury figures; see conflicts C101 to C104 in [[Battery Product Landscape Conflicts and Open Questions]]. Only the government sources above are used here.
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operating contexts: [[Shared Vehicle and Pedestrian Work Area]].
+
 ## Aliases
 
 
