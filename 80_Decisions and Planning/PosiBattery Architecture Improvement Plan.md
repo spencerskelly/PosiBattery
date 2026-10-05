@@ -4551,6 +4551,44 @@ Validation run `37337866919` remained at the established **19 broken wikilinks**
 
 ---
 
+## Step 68 completion evidence - Actor–Organization–Product relationships validated
+
+**Date:** 2026-10-05
+
+Created `80_Decisions and Planning/Actor Organization Product Relationship Validation Step 68 0.1.yaml`.
+
+Reviewed the relationship semantics across **11 Customer Actors**, **86 Organization-folder notes**, and **398 Product notes**.
+
+### Result
+
+- **0 misleading direct Actor→Organization links**
+- **0 misleading direct Actor→Product links**
+- **0 existing structural relationships required deletion or correction**
+
+The current model is appropriately conservative:
+
+- Actors participate in Customer Needs and operational Use Cases.
+- Organizations make, offer, distribute, supply, partner with, or integrate products/organizations where evidence supports it.
+- Products remain separate from both Actors and Organizations.
+
+Key semantic distinctions were validated:
+
+- `madeBy` = supported maker/manufacturer identity.
+- `offeredBy` = commercial/channel/brand availability and does not necessarily imply manufacturing.
+- `poweredBy` = technology provenance and does not imply physical hardware manufacture.
+- `distributedBy / distributorOf` = channel relationship.
+- `supplierOf / suppliedBy` = explicit supply relationship.
+
+Representative cases such as the Triathlon UniCarriers battery, Hyster Battery Tracker, Crown V-Force BMID, PosiCharge ProCore Edge, and TLD Aircraft Safety Docking all use appropriately conservative semantics.
+
+Updated `README_Stakeholders and Ecosystem.md` with explicit Actor–Organization–Product relationship guidance.
+
+Evidence commit: `8bcfefdb`.
+
+**Result:** Step 68 complete.
+
+---
+
 # Completion log
 
 Record completed steps below. Do not remove completed steps from the roadmap.
@@ -4617,3 +4655,4 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 65 | 2026-10-05 | Complete | Classified organization roles using a controlled intrinsic-versus-contextual model: durable maker/dealer/software identities remain playsRole roles, while supplier/channel/partner/competitor/customer/regulator/standards-body status is relationship- or offer-scoped. Added no global competitor labels or unsupported customer/regulator/standards-body notes. Evidence: `Organization Role Classification Step 65 0.1.yaml`. |
 | 66 | 2026-10-05 | Complete | Reviewed alternate spellings, aliases, legacy names, regional/divisional entities, parent/business distinctions, and lineage cautions across the Organization set. Found zero confirmed duplicate organization notes; preserved verified distinctions and unresolved lineage cases without merges or renames. Evidence: `Organization Duplicate Identity Review Step 66 0.1.yaml`. |
 | 67 | 2026-10-05 | Complete | Improved Organization navigation with ecosystem role groupings, richer Base relationship columns, and a 10-node curated Canvas covering internal portfolio, makers, OEMs, channels, software, relationship evidence, and scoped competition/partner analysis. No semantic model changes. Evidence: `Organization Navigation Improvement Step 67 0.1.yaml`. |
+| 68 | 2026-10-05 | Complete | Validated Actor–Organization–Product semantics across 11 Actors, 86 Organization-folder notes, and 398 Products; found zero misleading direct Actor↔Organization/Product structural links and confirmed conservative use of madeBy, offeredBy, poweredBy, channel, supply, and partnership relationships. Evidence: `Actor Organization Product Relationship Validation Step 68 0.1.yaml`. |
