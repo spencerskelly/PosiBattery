@@ -16,6 +16,8 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 ---
 
 # Charge Each Battery Correctly for Its Chemistry and Condition
