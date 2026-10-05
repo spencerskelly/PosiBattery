@@ -35,6 +35,7 @@ performedBy:
   - "[[Philadelphia Scientific eGO!core]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Indicate Battery Status Locally
