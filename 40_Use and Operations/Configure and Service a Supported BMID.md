@@ -15,6 +15,8 @@ participants:
   - "[[PosiCharge BMID]]"
 realizedBy:
   - "[[Configure Device from Mobile App or PC]]"
+drives:
+  - "[[PosiGuard - Support Local Service Configuration]]"
 ---
 
 # Configure and Service a Supported BMID
