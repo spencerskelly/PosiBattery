@@ -20,11 +20,21 @@ describes:
 
 Battery Identification Device and its Ah Accumulator variant: what is stored, how it communicates (standard charging cables), temperature compensation range, kit part numbers and charger control compatibility.
 
-## Notes
+## Provenance
 
-- **File in the repo:** [[bid-ah-accumulator-datasheet-aug-2018.pdf]] (folder Downloads). **Original web address:** <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>. **Format:** 2 pages; Data Sheet No. 1336; index 08/18.
-- **Tier:** T1 manufacturer document (read from the local copy on 2026-10-02). Facts taken from it are cited on the product notes as this note plus the original address.
-- **Checked against other sources:** every difference from earlier vault text is logged in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- **Local artifact:** [[bid-ah-accumulator-datasheet-aug-2018.pdf]] in `Downloads`.
+- **Source identity:** AMETEK Prestolite Power manufacturer data sheet.
+- **Original web address:** <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>.
+- **Document date / revision:** Data Sheet No. 1336; index 08/18.
+- **Evidence tier:** T1 manufacturer document.
+- **Local copy reviewed:** 2026-10-02.
+- **Original web access/download date:** Not recorded in the current vault evidence.
+
+## Traceability
+
+- Governed `describes` relationships in frontmatter identify the modeled subjects this source supports.
+- Differences from earlier vault text are tracked in [[Battery Product Landscape Conflicts and Open Questions]] (items C43 to C51); nothing was overwritten.
+- As of the 2026-10-04 provenance review, no direct downstream backlink to this Source Document note name or original URL was verified outside the Source Documents/planning records. This is a traceability gap, not evidence that the source was unused.
 
 ## Aliases
 
