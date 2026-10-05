@@ -13,6 +13,4 @@ tags: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
