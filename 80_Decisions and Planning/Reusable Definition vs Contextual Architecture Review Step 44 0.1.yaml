@@ -1,0 +1,125 @@
+schema_version: "1.0"
+generated_date: "2026-10-04"
+repository: "spencerskelly/PosiBattery"
+step: 44
+purpose: "Separate reusable definitions from contextual architecture before assigning structural element classes."
+structure_changed: false
+notes_moved: 0
+notes_retyped: 0
+
+summary:
+  canonical_reusable_architecture_definitions: 26
+  architecture_like_design_candidates_reviewed: 94
+  reusable_design_definitions: 94
+  existing_product_context_specific_architecture_notes_found: 0
+  structural_entity_candidates_for_step_45: 37
+  duplicate_canonical_definitions_created: 0
+
+governing_interpretation:
+  - "MDSE Ruleset 1.23 requires semantic classification before structure and prefers reuse before creating new independent concepts."
+  - "Design is the approved reusable implementation-pattern class."
+  - "Structural decomposition is expressed with Object, Port, Item Flow, and structural relationships such as hasPart, hasPort, and hasFlow."
+  - "Folder placement is navigation only."
+  - "Therefore a Design note is not moved into Product Architecture merely because its name sounds physical or interface-like."
+
+confirmed_reusable_architecture:
+  domain: "20_Product Architecture"
+  notes: 26
+  treatment: "Remain canonical reusable architecture definitions."
+  groups:
+    - "Industrial Truck Architecture"
+    - "Ground Support Equipment Architecture"
+  contextual_rule: "Product-specific use should reference these definitions rather than duplicate them."
+
+reusable_design_definitions:
+  source_domain: "30_Product Capabilities/Product Designs"
+  reviewed: 94
+  count: 94
+  treatment: "Remain canonical Design definitions under Product Capabilities unless later evidence shows the note itself represents a structural entity rather than a design pattern."
+  evidence:
+    - "Representative notes define reusable implementation characteristics rather than one product instance."
+    - "Many use designOf links to multiple commercial products, demonstrating cross-product reuse."
+    - "General Design notes organize reusable specialization families rather than product-specific configurations."
+  contextual_expression:
+    - "Use existing hasDesign/designOf relationships for product applicability."
+    - "Use Local Model occurrences when a reusable structural element must appear in a specific product assembly context."
+    - "Do not copy or fork the canonical Design note into product folders."
+
+structural_entity_candidates_for_step_45:
+  count: 37
+  meaning: "These reusable Design definitions name things that may also require an Object or Port representation when modeling physical/logical structure. Candidate status does not authorize retyping or replacement."
+  - "AC Drive Motor"
+  - "Active Stability Actuator"
+  - "Aircraft Proximity Indicator Light"
+  - "Audible Alarm"
+  - "Battery Onboard Charger"
+  - "Breakaway Connector"
+  - "Capacitive Electrolyte Level Probe"
+  - "Charger Status LED Bar"
+  - "Electric Mast Thrust Drive"
+  - "Electric Parking Brake"
+  - "Electric Power Steering"
+  - "Electrolyte-Immersed Temperature Sensor"
+  - "Fingerprint Reader"
+  - "Hydraulic Pressure Load Sensor"
+  - "Hydrogen Storage Tank"
+  - "Impact Sensor"
+  - "Integrated LCD Display"
+  - "LiDAR Object Sensor"
+  - "Light-Beam Compartment Sensor"
+  - "Local LED Indicator"
+  - "Magnetic Field Detection Sensor"
+  - "Mast Lift Limit Switch"
+  - "Modular Power Modules"
+  - "Operator Presence Pedal"
+  - "Operator Sensing Floor Mat"
+  - "Operator Touch Display"
+  - "Pedestrian Detection Camera"
+  - "Programmable Motor Controller"
+  - "Proximity Tag System"
+  - "RFID or PIN Access Reader"
+  - "Radar Object Sensor"
+  - "Split-Core Current Sensor"
+  - "Stereoscopic Vision Sensor"
+  - "Truck Charging Port"
+  - "Ultrasonic Distance Sensor"
+  - "Vehicle-Mounted Display"
+  - "Wrap-Around Cell Connector Probe"
+
+structural_candidate_rules:
+  - "Do not convert the existing Design note into Object/Port merely because a physical implementation exists."
+  - "If Step 45 confirms both a reusable design choice and a reusable structural entity are needed, retain the Design and create/reuse the distinct structural definition with an appropriate relationship only when supported."
+  - "Interface Design notes may describe communication/interface approaches; Port creation requires an actual endpoint concept, not merely a protocol or interface technology."
+  - "Sensor/actuator/component-like Design notes may warrant Object representations only when the architecture needs the component identity itself."
+  - "Product-specific occurrences should not become duplicate canonical Objects; use Local Model occurrence semantics where applicable."
+
+contextual_architecture_findings:
+  existing_product_context_specific_notes: []
+  interpretation:
+    - "No reviewed Step 43 Design candidate is currently written as a single-product contextual architecture occurrence."
+    - "Current product context is mostly expressed correctly through designOf/hasDesign relationships."
+    - "The 26 vehicle architecture notes are reusable generic definitions, not individual product assemblies."
+  deferred:
+    - "Step 47 will identify where reusable Objects/components should appear as contextual Local Model occurrences in multiple product assemblies."
+
+examples:
+  reusable_design_definition:
+    - note: "Bluetooth Interface"
+      reason: "Reusable interface technology family linked to multiple products; not a product-specific endpoint."
+    - note: "Charger Power Stage Design"
+      reason: "General reusable design family organizing implementation alternatives."
+    - note: "Vehicle Energy Interface Design"
+      reason: "General implementation family, not one truck's structural instance."
+  reusable_definition_with_possible_structural_counterpart:
+    - note: "AC Drive Motor"
+      reason: "Current Design captures the implementation characteristic; a reusable motor Object may also be useful for structural architecture if Step 45 supports it."
+    - note: "Truck Charging Port"
+      reason: "Current Design captures the charging-interface solution; an actual Port or structural Object requires endpoint/ownership evidence."
+    - note: "Modular Power Modules"
+      reason: "Current Design captures modularity as an implementation pattern; individual reusable power-module Objects would be separate structural concepts if justified."
+
+step_45_focus:
+  - "Evaluate the 37 structural-entity candidates against Object and Port semantics."
+  - "Identify true systems, modules, assemblies, components, interfaces, and ports."
+  - "Preserve the 94 Design definitions unless a specific semantic correction is independently justified."
+  - "Record schema gaps instead of forcing physical entities into Design or protocol concepts into Port."
