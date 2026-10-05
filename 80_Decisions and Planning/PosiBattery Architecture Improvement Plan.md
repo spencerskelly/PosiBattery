@@ -4691,6 +4691,7 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 70 | 2026-10-05 | Complete | Restored evidence separation as an explicit operational rule across Definitions and Research: external evidence stays in Source Document/Research records, reusable definitions link to it when needed, and no unsupported extraction/migration was performed because Step 69 found zero candidates. Evidence: `Evidence Separation Validation Step 70 0.1.yaml`. |
 | 71 | 2026-10-05 | Complete | Reviewed all 45 Property definition notes against the active relationship/element schemas and governance. Found 0 exact duplicate properties and 0 confirmed aliases, but documented 11 placeholder-meaning properties, 3 direct documentation conflicts, and 6 proposal-to-runtime relationship-vocabulary drift topics for later schema reconciliation. No property meanings or schemas were changed. Evidence: `Property Definition Quality Inventory Step 71 0.1.yaml`. |
 | 72 | 2026-10-05 | Complete | Improved reusable-reference navigation around the content that actually exists: added a semantic Properties guide for 45 controlled definitions, enhanced recursive Base columns, expanded the curated Canvas to schema/evidence boundaries, and deliberately avoided empty Technologies/Protocols/Units/Interfaces scaffolding. No model semantics or schemas changed. Evidence: `Reusable Reference Navigation Improvement Step 72 0.1.yaml`. |
+| 73 | 2026-10-05 | Complete | Completed field reconciliation between the active MDSE runtime and Common Element Metadata Standard 0.1. Preserved the canonical `uid`/`id`/`type` contract, rejected parallel duplicate fields, redirected relationship-like metadata toward governed relationships, documented 8 direct conflicts, and bounded the remaining intrinsic metadata candidates for Steps 74-77. No schemas/templates/model notes changed. Evidence: `Field Reconciliation Matrix Step 73 0.1.yaml`. |
 
 ---
 
@@ -4757,3 +4758,25 @@ No Property semantics, runtime schemas, model relationships, IDs, or UIDs change
 Evidence: `80_Decisions and Planning/Reusable Reference Navigation Improvement Step 72 0.1.yaml`.
 
 **Result:** Step 72 complete. Phase K is complete. The next incomplete roadmap item is **Step 73 — Complete field reconciliation**.
+
+---
+
+## Step 73 completion evidence — Complete field reconciliation
+
+**Date:** 2026-10-05
+
+Completed the field-level reconciliation between the current runtime contract (`element-types.yaml` 1.17, `local-model.yaml` 0.2, current templates/property definitions) and `Common Element Metadata Standard 0.1`.
+
+The reconciliation preserves the existing identity and classification model: `uid` remains the immutable machine identity, `id` remains the short human-readable class identifier, and `type` remains the canonical MDSE class. Proposed `element_type` is therefore mapped to `type` rather than introduced as a parallel field.
+
+The proposed common-core fields were classified by disposition. Required `created`/`updated` metadata was rejected as common duplicate maintenance because creation/history are already derivable from `uid` and Git. YAML `aliases` remains a migration candidate only if it replaces, rather than duplicates, the existing `## Aliases` body section. `scope.applies_to` is deferred because it can duplicate the governed `appliesTo` relationship.
+
+Eight direct field conflicts were recorded, including status vocabulary, priority vocabulary, applicability duplication, aliases representation, and scope overlap. Relationship-like proposed fields such as manufacturer, need holder, source records, and owner were redirected toward the relationship reconciliation rather than accepted as duplicate metadata.
+
+No runtime schema, template, Property definition, model relationship, ID, UID, or model note was changed.
+
+Evidence: `80_Decisions and Planning/Field Reconciliation Matrix Step 73 0.1.yaml`.
+
+**Commit:** `7644f5fb`.
+
+**Result:** Step 73 complete. The next incomplete roadmap item is **Step 74 — Element-type reconciliation**.
