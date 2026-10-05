@@ -28,10 +28,10 @@ makes:
   - "[[UniCarriers In-Cab Accessories]]"
 offers:
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
+  - "[[Powerfleet Forklift Gateway]]"
 suppliedBy:
   - "[[Triathlon USA]]"
 distributorOf:
-  - "[[Powerfleet Forklift Gateway]]"
   - "[[Jungheinrich]]"
 subsidiaryOf:
   - "[[Mitsubishi Logisnext]]"
