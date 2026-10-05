@@ -27,6 +27,7 @@ performedBy:
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
   - "[[STILL Safety Assist]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
@@ -58,6 +59,7 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Raymond 8000 Series Pallet Trucks]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+  - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
 
 ## Aliases
 

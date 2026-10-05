@@ -25,6 +25,9 @@ performs:
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Identify Battery to Charger]]"
+  - "[[Alert on Abnormal Condition]]"
+  - "[[Predict Battery Replacement Timing]]"
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Cellular Communication Interface]]"
@@ -73,6 +76,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Communicate with Charger]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
   - [[Transmit Battery Data Wirelessly]] (V): <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf> <https://posicharge.com/products/battery-rx/>
+  - [[Identify Battery to Charger]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
+  - [[Alert on Abnormal Condition]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
+  - [[Predict Battery Replacement Timing]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
 - **Design characteristics, with citations:**
   - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
   - [[Cellular Communication Interface]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf> <https://www.posicharge.com/source/files/PosiCharge_80_200_300-SpecSheet-04302019.pdf>

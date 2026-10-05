@@ -40,6 +40,9 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[PosiCharge DVS150]]"
   - "[[PosiCharge E-Meter]]"
+  - "[[Energywith withBMS BMU]]"
+  - "[[Hyster Battery Tracker]]"
+  - "[[Yale Battery Vision]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
 ---
@@ -82,6 +85,9 @@ Record charge, discharge, temperature and fault events with time stamps for late
   - [[AMETEK Prestolite Power BID with Ah Accumulator]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf> (also [[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]])
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+  - [[Energywith withBMS BMU]] (V): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Hyster Battery Tracker]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
+  - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent), delivered by devices or software (Data Handling Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

@@ -17,6 +17,7 @@ performs:
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Adapt Speed to Load and Lift Height]]"
   - "[[Sense Load Weight and Lift Height]]"
+  - "[[Alert Operator of Hazards]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -50,6 +51,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Adapt Speed to Load and Lift Height]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Sense Load Weight and Lift Height]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Hydraulics]], [[Truck Drive and Brakes]], [[Truck Forks]], [[Truck Mast]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Alert Operator of Hazards]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

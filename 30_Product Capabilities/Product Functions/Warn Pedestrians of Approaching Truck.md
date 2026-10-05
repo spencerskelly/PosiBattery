@@ -29,6 +29,12 @@ performedBy:
   - "[[STILL Warning Zone Light]]"
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
+  - "[[Yale Reliant Portfolio]]"
+  - "[[IRIS 860 Sensor Pack]]"
+  - "[[Jungheinrich zoneCONTROL]]"
+  - "[[Linde Motion Detection]]"
+  - "[[Raymond iWAREHOUSE Fieldsense]]"
+  - "[[UniCarriers Lighting Packages]]"
 realizes:
   - "[[Warn Pedestrians of an Approaching Truck]]"
 ---
@@ -61,6 +67,12 @@ Warn people on foot that a truck is approaching with lights, sounds or wearable 
   - [[STILL Safety Packages]] (V): <https://www.still.co.uk/rx20-safety>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Oshkosh AeroTech Ramp Visibility Lights]] (V): <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en>
+  - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[IRIS 860 Sensor Pack]] (V): <https://holtlift.com/solutions/safety-systems/>
+  - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
+  - [[Linde Motion Detection]] (V): <https://www.linde-mh.de/motion-detection/>
+  - [[Raymond iWAREHOUSE Fieldsense]] (V): <https://www.dcvelocity.com/material-handling/raymond-showcases-products-that-better-connect-operator-and-forklift-truck>
+  - [[UniCarriers Lighting Packages]] (V): <https://unicarriers.pe/wp-content/uploads/2024/08/SCX-Hombre-parado.pdf>
 
 ## Aliases
 

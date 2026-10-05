@@ -42,6 +42,7 @@ performedBy:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[TLD Aircraft Safety Docking]]"
 realizes:
   - "[[Warn the Operator of People and Objects Near the Truck]]"
 ---
@@ -84,6 +85,7 @@ Detect people, other trucks or objects near or in the path of a truck using on-t
   - [[Oshkosh AeroTech APD Forward Radar and Controller]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[TLD Aircraft Safety Docking]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
 
 ## Aliases
 

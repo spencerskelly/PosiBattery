@@ -19,6 +19,7 @@ performedBy:
   - "[[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]]"
   - "[[Oshkosh AeroTech APD Wing and Fairing Sensors]]"
   - "[[Textron Smart Sense]]"
+  - "[[TLD Aircraft Safety Docking]]"
 realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
@@ -39,6 +40,7 @@ Reduce speed and stop a vehicle automatically as it approaches an aircraft, so t
   - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[TLD Aircraft Safety Docking]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
 - **Extra (round 30):** documented for 1 of 6 gse maker groups (17 percent), delivered by devices or software (Object and Proximity Sensing Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

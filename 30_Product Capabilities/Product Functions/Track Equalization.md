@@ -17,6 +17,7 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Raymond iBattery]]"
+  - "[[Hyster Battery Tracker]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
 ---
@@ -39,6 +40,7 @@ Track whether and when equalization charging occurred.
   - [[Crown Battery Health Monitor]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
   - [[Raymond iBattery]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://dcvelocity.com/articles/31570-advanced-charging-technologies-improves-battview-battery-monitors>
+  - [[Hyster Battery Tracker]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
 - **Extra (round 30):** documented for 3 of 21 battery maker groups (14 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

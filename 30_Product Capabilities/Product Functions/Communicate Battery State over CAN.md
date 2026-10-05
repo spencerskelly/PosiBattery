@@ -21,6 +21,7 @@ performedBy:
   - "[[Hyster Power Cellect]]"
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
@@ -43,6 +44,7 @@ Provide battery state to other equipment over a CAN network.
   - [[Hyster Power Cellect]] (V): <https://www.inddist.com/new-products/material-handling-storage/product/22885612/hyster-power-cellect-provides-forklift-battery-freedom>
   - [[Stryten M-Series Li600 Battery]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
   - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
+  - [[HOPPECKE trak collect]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
 - **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (CAN Interface); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

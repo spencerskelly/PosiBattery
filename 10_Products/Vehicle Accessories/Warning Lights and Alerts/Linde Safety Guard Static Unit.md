@@ -17,6 +17,7 @@ partOf:
   - "[[Linde Safety Guard]]"
 performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Limit Vehicle Motion by Location Zone]]"
 hasDesign:
   - "[[Audible Alarm]]"
 madeBy:
@@ -49,6 +50,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Audible Alarm]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Limit Vehicle Motion by Location Zone]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 
 ## Aliases
 

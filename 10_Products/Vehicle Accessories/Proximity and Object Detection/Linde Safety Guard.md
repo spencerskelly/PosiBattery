@@ -23,6 +23,7 @@ performs:
   - "[[Limit Truck Speed Automatically]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
   - "[[Limit Vehicle Motion by Location Zone]]"
+  - "[[Alert Operator of Hazards]]"
 hasDesign:
   - "[[Proximity Tag System]]"
   - "[[Interactive Warning Vest]]"
@@ -70,6 +71,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The North American KION catalog calls the system 'Linde Guardian Operator Assistance System' and lists the same modules as the German brochure's Safety Guard: Truck Unit (with a small version), Zone Marker, Sensors, Static Unit, Portable Unit and an inductive Charger. Source: KION North America catalog 2023 (T1), retrieved 2026-10-03. <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 - **Name (C85):** Safety Guard in Europe and Guardian in the North American catalog; the module names match but no source says they are one product; not merged. Parts: [[Linde Safety Guard Truck Unit]], [[Linde Safety Guard Zone Marker]], [[Linde Safety Guard Static Unit]], [[Linde Safety Guard Portable Unit]].
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); acts on [[Truck Drive and Brakes]], [[Truck Lighting]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Alert Operator of Hazards]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
 
 ## Aliases
 

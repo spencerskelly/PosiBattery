@@ -12,6 +12,8 @@ tags:
   - scope-oem-option
 subtypeOf:
   - "[[Charger Thermal Accessory]]"
+performs:
+  - "[[Manage Temperature During Fast Charging]]"
 madeBy:
   - "[[PosiCharge]]"
 ---
@@ -37,6 +39,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - Public accessory listing identifies a thermal-management accessory for ProCore. Source: official PosiCharge page for Cooling Fan Box, as summarized in the vault's Public Evidence Register (PUB-002, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/accessories/>
 - **Baseline confidence (Cooling Fan Box):** Verified public—listing level. **Still needed:** Thermal performance, compatible configurations, installation/control requirements, serviceability, current status; verify product-page text for potential copy inconsistency.
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Manage Temperature During Fast Charging]] (V): <https://posicharge.com/accessories/>
 
 ## Aliases
 

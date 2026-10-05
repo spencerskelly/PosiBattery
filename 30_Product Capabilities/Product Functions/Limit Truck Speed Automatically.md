@@ -31,6 +31,9 @@ performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Textron Smart Sense]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Toyota Assist]]"
+  - "[[Blaxtair Pedestrian Detection System]]"
+  - "[[Hyster Pedestrian Awareness Camera]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---
@@ -65,6 +68,9 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
   - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Crown RR-RD 5700 Series]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
+  - [[Toyota Assist]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+  - [[Blaxtair Pedestrian Detection System]] (V): <https://thesafetymag.com/ca/products/miscellaneous/blaxtair-inc-embedded-pedestrian-detection-system/416736>
+  - [[Hyster Pedestrian Awareness Camera]] (V): <https://www.hyster.com/en-gb/emea/industry-solutions/operator-assist-systems/hyster-reaction/>
 
 ## Aliases
 

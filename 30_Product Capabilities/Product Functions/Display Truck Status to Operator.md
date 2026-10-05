@@ -16,6 +16,9 @@ performedBy:
   - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
+  - "[[Komatsu Operator Presence Sensing System]]"
+  - "[[Crown Gena Operating System]]"
+  - "[[Linde MT18 Multifunction Display]]"
 realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
@@ -34,6 +37,9 @@ Show the operator the truck's own status, such as diagnostics and warnings, on a
   - [[Hangcha A Series Electric Forklifts]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
   - [[Mallaghan SkyBelt]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Komatsu Operator Presence Sensing System]] (V): <https://www.bkforklift.com/uploaded/images/1640141725202112226BR-EX50emi-004.pdf>
+  - [[Crown Gena Operating System]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Linde MT18 Multifunction Display]] (V): <https://www.linde-mh.us/content/dam/linde/en/images/products/pallet-trucks/1133-03/Linde_MT18_Spec_Sheet_V2.pdf>
 - **Extra (round 30):** documented for 2 of 10 truck maker groups (20 percent), delivered by devices or software (Display Device Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

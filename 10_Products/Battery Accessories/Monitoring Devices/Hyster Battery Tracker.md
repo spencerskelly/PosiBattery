@@ -25,6 +25,9 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Log Battery Events and Usage]]"
+  - "[[Detect Voltage Imbalance]]"
+  - "[[Track Equalization]]"
 hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
@@ -70,6 +73,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Transmit Battery Data Wirelessly]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
+  - [[Log Battery Events and Usage]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
+  - [[Detect Voltage Imbalance]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
+  - [[Track Equalization]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
 - **Design characteristics, with citations:**
   - [[Cellular Communication Interface]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Cloud Portal Integration]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>

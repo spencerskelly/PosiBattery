@@ -16,6 +16,7 @@ subtypeOf:
 performs:
   - "[[Sense Electrolyte Level]]"
   - "[[Indicate Battery Status Locally]]"
+  - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
 madeBy:
@@ -57,6 +58,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Sense Electrolyte Level]] (C): <https://www.flow-rite.com/category/application/battery-monitoring/>
   - [[Indicate Battery Status Locally]] (C): <https://www.flow-rite.com/category/application/battery-monitoring/>
+  - [[Alert on Low Electrolyte Level]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
 - **Design characteristics, with citations:**
   - [[Capacitive Electrolyte Level Probe]] (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 - **Sources used for the mapping above:** Seed note (cites the Flow-Rite monitoring page) <https://www.flow-rite.com/category/application/battery-monitoring/>; ETL notice describes the Eagle Eye range; Elite IV membership comes from the seed note <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>

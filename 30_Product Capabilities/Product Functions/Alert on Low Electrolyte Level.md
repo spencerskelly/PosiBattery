@@ -15,6 +15,9 @@ dependsOn:
   - "[[Indicator and Alarm Design]]"
 performedBy:
   - "[[Crown Battery Acid Indicators]]"
+  - "[[Crown V-Force BMID]]"
+  - "[[Flow-Rite Eagle Eye Elite IV]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
@@ -31,6 +34,9 @@ Warn users that the electrolyte level in a flooded battery is low and water is n
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
+  - [[Crown V-Force BMID]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+  - [[Flow-Rite Eagle Eye Elite IV]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
+  - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/>
 - **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (Battery Sensor Element Design, Indicator and Alarm Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

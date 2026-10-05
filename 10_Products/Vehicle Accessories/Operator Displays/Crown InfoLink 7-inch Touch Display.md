@@ -15,6 +15,9 @@ subtypeOf:
   - "[[Operator Display]]"
 performs:
   - "[[Alert Operator of Hazards]]"
+  - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Detect and Record Impacts]]"
+  - "[[Control Operator Access]]"
 hasDesign:
   - "[[Operator Touch Display]]"
 madeBy:
@@ -55,6 +58,10 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.ivtinternational.com/?p=22917>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Enforce Pre-Shift Checklist]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
+  - [[Detect and Record Impacts]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
+  - [[Control Operator Access]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
 
 ## Aliases
 

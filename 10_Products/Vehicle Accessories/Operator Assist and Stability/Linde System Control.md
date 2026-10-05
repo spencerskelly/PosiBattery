@@ -15,6 +15,7 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Adapt Speed to Load and Lift Height]]"
+  - "[[Slow Truck in Curves]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -47,6 +48,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Adapt Speed to Load and Lift Height]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Hydraulics]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Slow Truck in Curves]] (V): <https://www.linde-mh.pl/media/Datasheets/EN_ds_v_br5213_en_c_0319.pdf>
 
 ## Aliases
 

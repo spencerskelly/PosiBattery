@@ -32,6 +32,8 @@ performedBy:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge PosiLink]]"
   - "[[PosiCharge PosiNet]]"
+  - "[[Philadelphia Scientific eGO!plus]]"
+  - "[[Power Designers PowerTrac 3]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
@@ -67,6 +69,8 @@ Send battery data to a hosted portal for fleet reporting.
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf> <https://www.airsideint.com/issue-article/act-moves-into-the-gse-battery-charging-business/>
   - [[PosiCharge PosiLink]] (V): <https://posicharge.com/products/posilink/>
   - [[PosiCharge PosiNet]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
+  - [[Philadelphia Scientific eGO!plus]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
+  - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Wireless Interface Design, Cloud Portal Integration); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

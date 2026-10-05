@@ -26,6 +26,10 @@ performs:
   - "[[Report Battery Temperature to Charger]]"
   - "[[Communicate with Charger]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Estimate State of Charge]]"
+  - "[[Configure Device from Mobile App or PC]]"
+  - "[[Communicate Battery State over CAN]]"
+  - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Local LED Indicator]]"
@@ -86,6 +90,10 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Report Battery Temperature to Charger]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[Communicate with Charger]] (V): <https://www.hoppecke.com/uk/product/trak-collect-premium/> <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://warehousenews.co.uk/?p=103814>
+  - [[Estimate State of Charge]] (V): <https://warehousenews.co.uk/?p=103814>
+  - [[Configure Device from Mobile App or PC]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
+  - [[Communicate Battery State over CAN]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
 - **Design characteristics, with citations:**
   - [[Bluetooth Interface]] (V): <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
   - [[Local LED Indicator]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>

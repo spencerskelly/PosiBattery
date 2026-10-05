@@ -25,6 +25,7 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Log Battery Events and Usage]]"
 hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
@@ -67,6 +68,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Transmit Battery Data Wirelessly]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
+  - [[Log Battery Events and Usage]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Design characteristics, with citations:**
   - [[Cellular Communication Interface]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>

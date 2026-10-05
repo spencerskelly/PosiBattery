@@ -17,6 +17,7 @@ performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Limit Vehicle Motion by Location Zone]]"
   - "[[Alert Operator of Hazards]]"
+  - "[[Warn Pedestrians of Approaching Truck]]"
 hasDesign:
   - "[[Proximity Tag System]]"
 madeBy:
@@ -55,6 +56,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Proximity Tag System]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): acts on [[Truck Drive and Brakes]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Warn Pedestrians of Approaching Truck]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
 
 ## Aliases
 

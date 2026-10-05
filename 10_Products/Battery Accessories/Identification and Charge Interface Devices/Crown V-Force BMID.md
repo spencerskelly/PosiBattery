@@ -20,6 +20,9 @@ performs:
   - "[[Log Battery Events and Usage]]"
   - "[[Identify Battery to Charger]]"
   - "[[Configure Device from Mobile App or PC]]"
+  - "[[Alert on Low Electrolyte Level]]"
+  - "[[Report Battery Temperature to Charger]]"
+  - "[[Communicate with Charger]]"
 hasDesign:
   - "[[Bluetooth Class 1 Interface]]"
   - "[[Battery-Top Mounting]]"
@@ -65,6 +68,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Log Battery Events and Usage]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
   - [[Identify Battery to Charger]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
   - [[Configure Device from Mobile App or PC]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
+  - [[Alert on Low Electrolyte Level]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+  - [[Report Battery Temperature to Charger]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+  - [[Communicate with Charger]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Design characteristics, with citations:**
   - [[Bluetooth Class 1 Interface]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-and-Charger-Accessories//p/396525-BTM>
   - [[Battery-Top Mounting]] (V): <https://crown.com/en-vn/batteries-and-chargers/vhfm3-charger.html>

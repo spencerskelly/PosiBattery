@@ -35,6 +35,15 @@ performedBy:
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Linde Load Management Advanced]]"
+  - "[[Toyota Assist]]"
+  - "[[Yale Reliant Portfolio]]"
+  - "[[IRIS 860 Sensor Pack]]"
+  - "[[Jungheinrich Pedestrian Detection System]]"
+  - "[[Linde Motion Detection]]"
+  - "[[Linde Safety Guard]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[TLD Aircraft Safety Docking]]"
 realizes:
   - "[[Warn the Operator of People and Objects Near the Truck]]"
   - "[[Warn Pedestrians of an Approaching Truck]]"
@@ -71,6 +80,15 @@ Give the operator visual, audible or traction alerts when a hazard is detected.
   - [[Oshkosh AeroTech APD Engine Cowling Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Wing and Fairing Sensors]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
   - [[Oshkosh AeroTech APD Pressure-Sensitive Front Bumper]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
+  - [[Linde Load Management Advanced]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
+  - [[Toyota Assist]] (V): <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
+  - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[IRIS 860 Sensor Pack]] (V): <https://holtlift.com/solutions/safety-systems/>
+  - [[Jungheinrich Pedestrian Detection System]] (V): <https://www.jungheinrich.cz/servis-sluzby/bezpecnostni-reseni/ochrana-lidi-491980>
+  - [[Linde Motion Detection]] (V): <https://www.linde-mh.de/motion-detection/>
+  - [[Linde Safety Guard]] (V): <https://www.kiongroup.com/en/Newsroom/Stories/Innovation/Safety-in-the-warehouse-comprehensive-protection-under-all-circumstances.html>
+  - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/us/na-iwh-cus-pedestrian-proximity/>
+  - [[TLD Aircraft Safety Docking]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
 
 ## Aliases
 

@@ -12,6 +12,8 @@ tags:
   - scope-oem-option
 subtypeOf:
   - "[[Charger Connector Accessory]]"
+performs:
+  - "[[Connect Battery to Charger or Vehicle]]"
 madeBy:
   - "[[PosiCharge]]"
 ---
@@ -37,6 +39,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - Official product pages list 20 ft, 25 ft, and 30 ft modular cable lengths. Source: official PosiCharge page for Extended/custom modular charge cables, as summarized in the vault's Public Evidence Register (PUB-002, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/accessories/>
 - **Baseline confidence (Extended/custom modular charge cables):** Verified public—listing level. **Still needed:** Connector families; cable gauge; voltage/current ratings; certification; compatible chargers; custom-order limits.
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Connect Battery to Charger or Vehicle]] (V): <https://posicharge.com/accessories/>
 
 ## Aliases
 

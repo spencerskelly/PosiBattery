@@ -19,6 +19,7 @@ performedBy:
   - "[[Toyota Assist]]"
   - "[[Toyota System of Active Stability]]"
   - "[[Hyster Reaction]]"
+  - "[[Yale Reliant Portfolio]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
 ---
@@ -43,6 +44,7 @@ Intervene in travel or lift functions to keep the truck from becoming unstable o
   - [[Doosan Bobcat NXE Series Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856190.html>
   - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Yale Reliant Portfolio]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 
 ## Aliases
 

@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Display Battery Status to Operator]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Track Equalization]]"
+  - "[[Predict Battery Replacement Timing]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

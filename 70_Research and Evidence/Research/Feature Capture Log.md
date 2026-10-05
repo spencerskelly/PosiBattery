@@ -26,6 +26,7 @@ Record of the pass that turned features stated in product notes into function an
 - **Result after round 25:** 50 products received feature links; 56 of 321 remained unlinked (106 at the start).
 - **Round 26:** sources found for 12 of them (in-repo Crown and KION documents, web pages); 48 of 323 remained unlinked.
 - **Round 27 (review of the vocabulary and dependencies):** three property functions were retired and their values moved to metrics: Eliminate Battery Watering (FUNC-00107, 5 products); Avoid Battery Changeover During Shifts (FUNC-00104, 3 products); Charge Without Gas Emissions (FUNC-00106, 4 products). Three dependencies contradicted by sources were withdrawn, two links were fixed, and the overloaded general function was split into [[Limit Vehicle Speed Automatically]] and [[Hold or Stop Vehicle Automatically]]. Products still without any function or design link: 52 of 323.
+- **2026-10-04 (accessory function review):** 9 functions added (FUNC-00124 to FUNC-00132) and 91 product-to-function links on accessory notes, from the marketed-features lists. Accessories still without a function link: 6 of 159 (IB-152, IB-153).
 
 | Product type | Products | Still without a feature link |
 |---|---|---|

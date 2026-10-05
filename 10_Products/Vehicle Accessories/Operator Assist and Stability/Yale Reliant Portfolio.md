@@ -18,6 +18,9 @@ performs:
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Slow Truck in Curves]]"
   - "[[Detect Pedestrians and Objects Near Truck]]"
+  - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Alert Operator of Hazards]]"
+  - "[[Stabilize Truck Dynamically]]"
 hasDesign:
   - "[[Proximity Tag System]]"
 madeBy:
@@ -63,6 +66,10 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Proximity Tag System]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 - The Yale white paper (Downloads/133294183726805278.pdf) lists operator assist capabilities: overload arrest, automatic speed reduction when cornering, keeping equipment out of designated pedestrian-only zones, line-of-sight support and location-based fork height restriction to avoid low beams. Source: Yale operator assist white paper (read round 20) (T1), retrieved 2026-10-03. <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Hydraulics]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Warn Pedestrians of Approaching Truck]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Alert Operator of Hazards]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
+  - [[Stabilize Truck Dynamically]] (V): <https://og.mhi.org/media/members/14259/133294183726805278.pdf>
 
 ## Aliases
 

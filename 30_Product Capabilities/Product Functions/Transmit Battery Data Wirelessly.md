@@ -37,6 +37,9 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge E-Meter]]"
+  - "[[Exide Motion+ EasyMonitor]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Philadelphia Scientific eGO!c]]"
 ---
 
 # Transmit Battery Data Wirelessly
@@ -73,6 +76,9 @@ Send battery data wirelessly to a gateway, app, truck module or charger.
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
   - [[PosiCharge E-Meter]] (V): <https://posicharge.com/wp-content/uploads/2026/06/E-Meter.pdf>
+  - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
+  - [[HOPPECKE trak collect]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
+  - [[Philadelphia Scientific eGO!c]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
 - **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent), delivered by devices or software (Wireless Interface Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

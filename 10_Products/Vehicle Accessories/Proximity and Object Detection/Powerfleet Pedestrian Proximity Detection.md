@@ -16,6 +16,8 @@ subtypeOf:
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Limit Truck Speed Automatically]]"
+  - "[[Alert Operator of Hazards]]"
+  - "[[Report Truck Telemetry]]"
 madeBy:
   - "[[Powerfleet]]"
 ---
@@ -50,6 +52,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.powerfleet.com/?p=30065>
   - [[Limit Truck Speed Automatically]] (V): <https://www.powerfleet.com/?p=30065>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Alert Operator of Hazards]] (V): <https://www.powerfleet.com/us/na-iwh-cus-pedestrian-proximity/>
+  - [[Report Truck Telemetry]] (V): <https://www.powerfleet.com/us/na-iwh-cus-pedestrian-proximity/>
 
 ## Aliases
 

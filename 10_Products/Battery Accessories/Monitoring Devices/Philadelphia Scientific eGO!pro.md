@@ -24,6 +24,7 @@ performs:
   - "[[Indicate Battery Status Locally]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Calculate Battery Abuse Cycles]]"
 hasDesign:
   - "[[Hall-Effect Current Sensing]]"
   - "[[Split-Core Current Sensor]]"
@@ -81,6 +82,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Indicate Battery Status Locally]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
   - [[Transmit Battery Data Wirelessly]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf>
+  - [[Calculate Battery Abuse Cycles]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
 - **Design characteristics, with citations:**
   - [[Hall-Effect Current Sensing]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf> <https://www.phlsci.co.uk/ego/ego-pro/>
   - [[Split-Core Current Sensor]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf> <https://www.phlsci.co.uk/ego/ego-pro/>

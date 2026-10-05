@@ -27,6 +27,7 @@ performedBy:
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Stryten inCOMMAND]]"
   - "[[Exide Solition Light Traction Battery]]"
+  - "[[Crown V-Force BMID]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
@@ -57,6 +58,7 @@ Exchange data with a charger in either direction.
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
   - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
   - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+  - [[Crown V-Force BMID]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

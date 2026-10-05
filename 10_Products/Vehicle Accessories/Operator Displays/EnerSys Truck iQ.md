@@ -18,6 +18,7 @@ performs:
   - "[[Estimate Remaining Run Time]]"
   - "[[Display Battery Status to Operator]]"
   - "[[Detect Voltage Imbalance]]"
+  - "[[Alert on Abnormal Condition]]"
 hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Vehicle-Mounted Display]]"
@@ -59,6 +60,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Estimate Remaining Run Time]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
   - [[Display Battery Status to Operator]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard> <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Detect Voltage Imbalance]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
+  - [[Alert on Abnormal Condition]] (V): <https://www.enersys.com/en-gb/about-us/news/enersys_suite_of_power_management_tools_elevate_fleet_performance/>
 - **Design characteristics, with citations:**
   - [[Bluetooth Low Energy Interface]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Vehicle-Mounted Display]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>

@@ -20,6 +20,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[EnerSys NexSys+ Charger]]"
+  - "[[Fronius TagID]]"
+  - "[[PosiCharge Battery Rx]]"
 realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
@@ -43,6 +45,8 @@ Give a charger the battery's identity and charge parameters so the charger can c
   - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[EnerSys Wi-iQ]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
   - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
+  - [[Fronius TagID]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+  - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
 - **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

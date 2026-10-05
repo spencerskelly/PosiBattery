@@ -13,6 +13,8 @@ supertypeOf:
   - "[[Reduce Wheel Slip]]"
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Stop Vehicle When Operator Is Out of Position]]"
+  - "[[Stop Truck for Detected Obstacle]]"
+  - "[[Inhibit Drive Until Equipment Is Stowed]]"
 childOf:
   - "[[Protect People and Equipment Near Vehicles]]"
 ---

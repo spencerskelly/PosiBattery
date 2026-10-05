@@ -13,6 +13,9 @@ subtypeOf:
 performs:
   - "[[Communicate Battery State over CAN]]"
   - "[[Protect Battery from Deep Discharge]]"
+  - "[[Display Battery Status to Operator]]"
+  - "[[Report Truck Telemetry]]"
+  - "[[Adapt Truck to Battery Chemistry]]"
 hasDesign:
   - "[[CAN Interface]]"
 madeBy:
@@ -57,6 +60,10 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The brochure says Power Cellect lets a truck switch between lead acid, TPPL and lithium-ion battery modes without external accessories, on numerous Hyster electric models. Source: Hyster solutions brochure (read round 20) (T1), retrieved 2026-10-03. <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 - Hyster's lithium-ion FAQ says its LFP batteries are managed by a BMS that monitors cell voltage, module temperature and pack current, that the BMS communicates with the charger over CAN messaging to adjust the charge current and keep every cell inside its safe zone, that it opens the charge contactor if any cell nears an unsafe limit, that a custom Hyster CAN protocol links battery and charger so only the recommended chargers can be used, that lead-acid chargers cannot charge it, and that the battery needs a power signal from the charger which many third-party chargers do not provide. Source: Hyster lithium-ion batteries FAQ (EMEA) (T1), retrieved 2026-10-03. <https://www.hyster.com/en-gb/emea/industry-solutions/power-sources/lithium-ion-batteries/>
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Display Battery Status to Operator]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+  - [[Report Truck Telemetry]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+  - [[Adapt Truck to Battery Chemistry]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
 
 ## Aliases
 

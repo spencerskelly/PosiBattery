@@ -14,6 +14,9 @@ subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
+  - "[[Alert Operator of Hazards]]"
+  - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Stop Truck for Detected Obstacle]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -47,6 +50,10 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Detect Pedestrians and Objects Near Truck]] (V): <https://www.linde-mh.com/en/Service/Retrofit-Accessories/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Alert Operator of Hazards]] (V): <https://www.linde-mh.de/motion-detection/>
+  - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.linde-mh.de/motion-detection/>
+  - [[Stop Truck for Detected Obstacle]] (V): <https://www.linde-mh.de/motion-detection/>
 
 ## Aliases
 

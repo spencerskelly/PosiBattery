@@ -17,6 +17,9 @@ performs:
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Report Battery Temperature to Charger]]"
+  - "[[Identify Battery to Charger]]"
+  - "[[Indicate Battery Status Locally]]"
+  - "[[Configure Device from Mobile App or PC]]"
 madeBy:
   - "[[Fronius International]]"
 offeredWith:
@@ -56,6 +59,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Measure Battery Temperature]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
   - [[Sense Electrolyte Level]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
   - [[Report Battery Temperature to Charger]] (V): <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
+  - [[Identify Battery to Charger]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+  - [[Indicate Battery Status Locally]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+  - [[Configure Device from Mobile App or PC]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
 - **Sources used for the mapping above:** Fronius TagID product page <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 

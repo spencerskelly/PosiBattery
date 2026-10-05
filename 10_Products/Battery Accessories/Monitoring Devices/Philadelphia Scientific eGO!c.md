@@ -18,6 +18,9 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Calculate Battery Abuse Cycles]]"
+  - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Predict Battery Replacement Timing]]"
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
@@ -57,6 +60,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
   - [[Indicate Battery Status Locally]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://warehousenews.co.uk/?p=68147>
+  - [[Calculate Battery Abuse Cycles]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
+  - [[Predict Battery Replacement Timing]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
   - [[Battery-Top Mounting]] (V): <https://warehousenews.co.uk/?p=68147>

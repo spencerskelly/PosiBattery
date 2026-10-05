@@ -30,6 +30,8 @@ performedBy:
   - "[[STILL neXXt fleet]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
+  - "[[Hyster Power Cellect]]"
+  - "[[Powerfleet Pedestrian Proximity Detection]]"
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Control Who Operates Each Truck]]"
@@ -66,6 +68,8 @@ Send truck usage, status and events to a fleet portal.
   - [[Heli Fleet Management System]] (V): <https://fltgrupa.pl/en/heli-forklifts/>
   - [[Doosan Lin-Q]] (V): <https://logisticsmatters.co.uk/doosan-reveals-lithium-ion-forklift>
   - [[Komatsu KOMTRAX]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
+  - [[Hyster Power Cellect]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+  - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/us/na-iwh-cus-pedestrian-proximity/>
 
 ## Aliases
 

@@ -27,6 +27,8 @@ performs:
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Complete Missed Equalization Automatically]]"
+  - "[[Predict Battery Replacement Timing]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
   - "[[Non-Volatile Event Memory]]"
@@ -73,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Identify Battery to Charger]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[Communicate with Charger]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[Transmit Battery Data Wirelessly]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
+  - [[Predict Battery Replacement Timing]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
+  - [[Upload Battery Data to Cloud Portal]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
 - **Design characteristics, with citations:**
   - [[Shuntless Current Sensing]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[Non-Volatile Event Memory]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>

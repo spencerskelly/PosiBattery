@@ -16,6 +16,7 @@ subtypeOf:
 performs:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Limit Truck Speed Automatically]]"
+  - "[[Stop Truck for Detected Obstacle]]"
 hasDesign:
   - "[[LiDAR Object Sensor]]"
 madeBy:
@@ -53,6 +54,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[LiDAR Object Sensor]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Stop Truck for Detected Obstacle]] (V): <https://raymondcorp.com/campaign/in-aisle-detection-system>
 
 ## Aliases
 

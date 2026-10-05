@@ -16,6 +16,7 @@ subtypeOf:
 performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
   - "[[Slow Truck in Curves]]"
+  - "[[Illuminate Work Area]]"
 madeBy:
   - "[[STILL]]"
 offeredWith:
@@ -51,6 +52,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://www.still.co.uk/rx20-safety>
   - [[Slow Truck in Curves]] (V): <https://www.still.co.uk/rx20-safety>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Lighting]], [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Illuminate Work Area]] (V): <https://www.still.fr/produits/chariots-neufs/chariots-elevateurs-electriques/rx-20-14-20-t/les-packs-securite-still.html>
 
 ## Aliases
 

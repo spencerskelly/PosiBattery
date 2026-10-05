@@ -18,6 +18,8 @@ performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
   - "[[Limit Vehicle Motion by Location Zone]]"
   - "[[Control Operator Access]]"
+  - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Reduce Speed When Seat Belt Is Unfastened]]"
 hasDesign:
   - "[[Floor-Projected Warning Light]]"
 madeBy:
@@ -62,6 +64,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Control Operator Access]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[Limit Truck Speed Automatically]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]], [[Truck Lighting]], [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Enforce Pre-Shift Checklist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+  - [[Reduce Speed When Seat Belt Is Unfastened]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 
 ## Aliases
 

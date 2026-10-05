@@ -15,6 +15,7 @@ performedBy:
   - "[[Crown RC 5700 Series]]"
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
+  - "[[Cat Presence Detection System]]"
 ---
 
 # Hold Truck on Slope
@@ -32,6 +33,7 @@ Keep the truck from rolling back or away on a slope.
   - [[Doosan Bobcat NXE Series Electric Forklifts]] (V): <https://www.directindustry.com/prod/doosan-industrial-vehicles/product-26467-2856190.html>
   - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Cat Presence Detection System]] (V): <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
 - **Extra (round 30):** documented for 2 of 10 truck maker groups (20 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

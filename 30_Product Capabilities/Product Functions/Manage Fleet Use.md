@@ -13,6 +13,9 @@ supertypeOf:
   - "[[Manage Chargers Remotely]]"
   - "[[Report Truck Telemetry]]"
   - "[[Diagnose Vehicle Remotely]]"
+  - "[[Control Charger from Remote Panel]]"
+  - "[[Record Images of Load Handling]]"
+  - "[[Lock Out Vehicle After Impact]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

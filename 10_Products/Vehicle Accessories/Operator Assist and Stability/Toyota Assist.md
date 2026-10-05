@@ -29,6 +29,8 @@ performs:
   - "[[Show Camera View to Operator]]"
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Stabilize Truck Dynamically]]"
+  - "[[Alert Operator of Hazards]]"
+  - "[[Limit Truck Speed Automatically]]"
 hasDesign:
   - "[[Fork Laser Guide]]"
   - "[[Radar Object Sensor]]"
@@ -76,6 +78,9 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Round 18:** components with their own notes: [[Toyota SEnS+ Pedestrian and Object Detection]], [[Toyota System of Active Stability]], [[Toyota Acu-Laser]], [[Toyota Auto Height Select]], [[Toyota Load Weight Sensing]], [[Toyota Compartment Sensing System]], [[Toyota 360 Operating Camera]], [[Toyota Carriage-Mounted Camera]], [[Toyota Twistlock Snapshot Camera System]].
 - The brochure also lists Auto Height Select with up to 25 programmable preset heights, Lift Logic height monitoring, Acu-Laser, a Carriage-Mounted Camera, a Compartment Sensing System using light beams on the Stand Up Rider, a Twistlock Snapshot Camera System and a 360 Operating Camera. Source: Toyota Assist brochure 2025 (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Forks]], [[Truck Mast]], [[Truck Controls and Display]], [[Truck Hydraulics]], [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Alert Operator of Hazards]] (V): <https://www.foodlogistics.com/warehousing/material-handling-equipment/news/22498811/toyota-material-handling-usa-inc-toyota-material-handling-launches-operator-awareness-tech>
+  - [[Limit Truck Speed Automatically]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
 
 ## Aliases
 

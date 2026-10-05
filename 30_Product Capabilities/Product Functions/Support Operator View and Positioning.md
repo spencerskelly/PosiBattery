@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Assist Lift Positioning]]"
   - "[[Show Camera View to Operator]]"
+  - "[[Illuminate Work Area]]"
 childOf:
   - "[[Support the Operator]]"
 ---

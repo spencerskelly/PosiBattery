@@ -14,6 +14,7 @@ dependsOn:
   - "[[Seat Belt Interlock]]"
 performedBy:
   - "[[STILL EasyBelt]]"
+  - "[[STILL Safety Assist]]"
 ---
 
 # Reduce Speed When Seat Belt Is Unfastened
@@ -28,6 +29,7 @@ Slow the truck automatically if the operator's seat belt is not used.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[STILL EasyBelt]] (V): <https://www.still.de/en-DE/trucks/driver-assistance/safety-assist.html>
+  - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
 - **Extra (round 30):** documented for 1 of 10 truck maker groups (10 percent), delivered by devices or software (Seat Belt Interlock); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

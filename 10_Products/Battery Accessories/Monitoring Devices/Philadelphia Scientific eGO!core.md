@@ -18,6 +18,9 @@ performs:
   - "[[Log Battery Events and Usage]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Calculate Battery Abuse Cycles]]"
+  - "[[Alert on Abnormal Condition]]"
+  - "[[Indicate Battery Status Locally]]"
 hasDesign:
   - "[[Mobile App Interface]]"
 madeBy:
@@ -56,6 +59,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Log Battery Events and Usage]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core> <https://www.phlsci.com/media/ux3nu5uy/egocore-om-ps-en-us-doc0652.pdf>
   - [[Transmit Battery Data Wirelessly]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
+  - [[Calculate Battery Abuse Cycles]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
+  - [[Alert on Abnormal Condition]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
+  - [[Indicate Battery Status Locally]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Design characteristics, with citations:**
   - [[Mobile App Interface]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Sources used for the mapping above:** PhilSci eGO!core page <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>; PhilSci eGO!core owner's manual <https://www.phlsci.com/media/ux3nu5uy/egocore-om-ps-en-us-doc0652.pdf>

@@ -26,6 +26,7 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Detect Voltage Imbalance]]"
+  - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Integrated LCD Display]]"
@@ -73,6 +74,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Indicate Battery Status Locally]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Detect Voltage Imbalance]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
+  - [[Transmit Battery Data Wirelessly]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Integrated LCD Display]] (V): <https://www.exidegroup.com/en/product/easymonitor>

@@ -31,6 +31,8 @@ performedBy:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[PosiCharge Three-Color Stack Light]]"
+  - "[[Fronius TagID]]"
+  - "[[Philadelphia Scientific eGO!core]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
 ---
@@ -65,6 +67,8 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Crown V-HFM3 Tower Light Kit]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
   - [[PosiCharge Three-Color Stack Light]] (V): <https://posicharge.com/accessories/>
+  - [[Fronius TagID]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+  - [[Philadelphia Scientific eGO!core]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Warning and Display Device Design); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

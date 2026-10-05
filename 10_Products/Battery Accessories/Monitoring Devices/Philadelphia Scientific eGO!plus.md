@@ -18,6 +18,9 @@ performs:
   - "[[Log Battery Events and Usage]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Calculate Battery Abuse Cycles]]"
+  - "[[Alert on Abnormal Condition]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Local LED Indicator]]"
 madeBy:
@@ -55,6 +58,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Log Battery Events and Usage]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
   - [[Indicate Battery Status Locally]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
   - [[Transmit Battery Data Wirelessly]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
+  - [[Calculate Battery Abuse Cycles]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
+  - [[Alert on Abnormal Condition]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
+  - [[Upload Battery Data to Cloud Portal]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Sources used for the mapping above:** PhilSci eGO!plus page <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>

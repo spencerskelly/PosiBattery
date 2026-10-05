@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Connect Battery to Charger or Vehicle]]"
   - "[[Manage Charging Cables]]"
+  - "[[Adapt Truck to Battery Chemistry]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

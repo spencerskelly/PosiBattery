@@ -19,6 +19,7 @@ performedBy:
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Zone Marker]]"
   - "[[Linde Safety Guard]]"
+  - "[[Linde Safety Guard Static Unit]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---
@@ -42,6 +43,7 @@ Reduce speed, acceleration or lift in zones defined by location, such as aisle e
   - [[Linde Safety Guard Zone Marker]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
   - [[Jungheinrich zoneCONTROL]] (V): <https://jungheinrich.co.uk/products/new-forklifts/jungheinrich-assistance-systems-723794>
   - [[Raymond Zoning and Positioning]] (V): <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
+  - [[Linde Safety Guard Static Unit]] (V): <https://www.lmh-rr.de/media/Linde-Rhein-Ruhr/02_PDF/Safety/broschuere_safety.pdf>
 - **Extra (round 30):** documented for 4 of 10 truck maker groups (40 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

@@ -15,6 +15,7 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
+  - "[[Hold Truck on Slope]]"
 madeBy:
   - "[[Logisnext Europe]]"
 offeredWith:
@@ -45,6 +46,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Operator Compartment]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Hold Truck on Slope]] (V): <https://www.catlifttruck.com/blog/switch-cat-electric-lift-trucks>
 
 ## Aliases
 

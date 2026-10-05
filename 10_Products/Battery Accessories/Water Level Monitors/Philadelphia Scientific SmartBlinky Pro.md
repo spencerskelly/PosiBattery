@@ -17,6 +17,7 @@ performs:
   - "[[Sense Electrolyte Level]]"
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
+  - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
@@ -63,6 +64,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Sense Electrolyte Level]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Alert on Abnormal Condition]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Indicate Battery Status Locally]] (V): <https://www.mhwmag.com/?p=7981>
+  - [[Alert on Low Electrolyte Level]] (V): <https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Audible Alarm]] (V): <https://www.mhwmag.com/?p=7981>

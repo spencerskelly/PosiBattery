@@ -16,6 +16,7 @@ subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Illuminate Work Area]]"
 madeBy:
   - "[[Oshkosh AeroTech]]"
 offeredWith:
@@ -47,6 +48,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Warn Pedestrians of Approaching Truck]] (V): <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en>
 - **GSE parts (round 33):** typical (inferred from the device type, not from a source): mounts on [[GSE Canopy and Roof]] (cab beacon and cab work light) and connects to [[GSE Lighting]]. See [[GSE Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Illuminate Work Area]] (V): <https://oshkoshaerotech.com/hubfs/images/Customer%20Care%20Catalog%20-%20Summer2026.pdf?hsLang=en>
 
 ## Aliases
 

@@ -13,6 +13,9 @@ tags:
   - vehicle-accessory
 subtypeOf:
   - "[[Warning Light and Alert]]"
+performs:
+  - "[[Illuminate Work Area]]"
+  - "[[Warn Pedestrians of Approaching Truck]]"
 madeBy:
   - "[[Mitsubishi Logisnext Americas]]"
 offeredWith:
@@ -45,6 +48,9 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - The SCX N2 release lists lighting packages as options, and a dealer-data page lists additional lights and awareness options for the MX2-30L; the contents are not described. Source: UniCarriers release and AllMachines (T1/T3), retrieved 2026-10-03. <https://www.ajot.com/news/mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series-of-electric-stand-up-counterbalanced-lift-trucks>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Overhead Guard]] (alternative) or [[Truck Rear Body]] (alternative); connects to [[Truck Lighting]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Illuminate Work Area]] (V): <https://unicarriers.pe/wp-content/uploads/2024/08/SCX-Hombre-parado.pdf>
+  - [[Warn Pedestrians of Approaching Truck]] (V): <https://unicarriers.pe/wp-content/uploads/2024/08/SCX-Hombre-parado.pdf>
 
 ## Aliases
 

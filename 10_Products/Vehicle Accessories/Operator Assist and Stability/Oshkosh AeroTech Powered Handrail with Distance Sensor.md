@@ -16,6 +16,8 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 partOf:
   - "[[Oshkosh AeroTech Aircraft Proximity Detection]]"
+performs:
+  - "[[Inhibit Drive Until Equipment Is Stowed]]"
 hasDesign:
   - "[[Ultrasonic Distance Sensor]]"
 madeBy:
@@ -47,6 +49,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Ultrasonic Distance Sensor]] (V): <https://oshkoshaerotech.com/aircraft-proximity-detection-apd-06-18-24>
 - **GSE parts (round 33):** stated: acts on [[GSE Drive and Brakes]] (interlock disables drive until the rail is retracted); acts on [[GSE Load-Handling Structure]] (hydraulically powered handrail) | typical: connects to [[GSE Hydraulics]]. See [[GSE Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Inhibit Drive Until Equipment Is Stowed]] (V): <https://oshkoshaerotech.com/hubfs/pdf/Aircraft-Proximity-Detection-APD-06.18.24.pdf?hsLang=en>
 
 ## Aliases
 

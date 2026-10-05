@@ -21,6 +21,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Calculate Battery Abuse Cycles]]"
   - "[[Alert on Abnormal Condition]]"
+  - "[[Sense Electrolyte Level]]"
 hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Local LED Indicator]]"
@@ -71,6 +72,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Indicate Battery Status Locally]] (V): <https://www.enersys.com/en/about-us/news/enersys-to-showcase-advanced-battery-management-at-2024-north-american-issa-show/>
   - [[Transmit Battery Data Wirelessly]] (V): <https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/data-logger/enersys/iq-mini/>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/data-logger/enersys/iq-mini/> <https://www.enersys.com/en/about-us/news/enersys-to-showcase-advanced-battery-management-at-2024-north-american-issa-show/>
+  - [[Sense Electrolyte Level]] (V): <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf>
 - **Design characteristics, with citations:**
   - [[Bluetooth Low Energy Interface]] (V): <https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/data-logger/enersys/iq-mini/>
   - [[Local LED Indicator]] (V): <https://www.enersys.com/en/about-us/news/enersys-to-showcase-advanced-battery-management-at-2024-north-american-issa-show/>

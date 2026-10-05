@@ -25,6 +25,7 @@ performedBy:
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Reaction]]"
+  - "[[Linde System Control]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
 ---
@@ -54,6 +55,7 @@ Reduce speed automatically when cornering.
   - [[Crown FC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Crown RR-RD 5700 Series]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
+  - [[Linde System Control]] (V): <https://www.linde-mh.pl/media/Datasheets/EN_ds_v_br5213_en_c_0319.pdf>
 
 ## Aliases
 

@@ -15,6 +15,7 @@ subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
+  - "[[Illuminate Work Area]]"
 hasDesign:
   - "[[Floor-Projected Warning Light]]"
 madeBy:
@@ -51,6 +52,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Floor-Projected Warning Light]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 - **Truck parts (round 31):** stated by the source: mounts on [[Truck Overhead Guard]] (blue spotlights mount on the overhead guard) | typical (inferred from the device type, not from a source): connects to [[Truck Lighting]]; acts on [[Truck Lighting]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Illuminate Work Area]] (V): <https://www.toyotaforklift.com/blog/forklift-option-highlights-lighting-options>
 
 ## Aliases
 

@@ -18,6 +18,8 @@ performedBy:
   - "[[Logisnext Lift Link]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[STILL RX 60 Electric Forklift]]"
+  - "[[STILL Safety Assist]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
 ---
@@ -39,6 +41,8 @@ Require the operator to complete a vehicle inspection checklist before the truck
   - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
   - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+  - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
+  - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
 
 ## Aliases
 

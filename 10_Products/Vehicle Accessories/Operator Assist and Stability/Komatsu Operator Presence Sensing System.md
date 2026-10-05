@@ -15,6 +15,7 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
+  - "[[Display Truck Status to Operator]]"
 madeBy:
   - "[[Komatsu]]"
 offeredWith:
@@ -50,6 +51,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Display Truck Status to Operator]] (V): <https://www.bkforklift.com/uploaded/images/1640141725202112226BR-EX50emi-004.pdf>
 
 ## Aliases
 

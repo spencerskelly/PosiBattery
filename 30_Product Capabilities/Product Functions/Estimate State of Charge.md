@@ -25,6 +25,7 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[EnerSys Truck iQ]]"
   - "[[TUG ALPHA 1 Pushback]]"
+  - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
 ---
@@ -55,6 +56,7 @@ Estimate the battery's state of charge from measurements.
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
   - [[TUG ALPHA 1 Pushback]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
+  - [[HOPPECKE trak collect]] (V): <https://warehousenews.co.uk/?p=103814>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

@@ -22,6 +22,7 @@ performedBy:
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
@@ -48,6 +49,7 @@ Detect an impact, record it with time, truck and driver references, and report i
   - [[Crown InfoLink]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Hyster Tracker Telemetry]] (V): <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/trucks/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf>
   - [[STILL Smart Portal]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+  - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
 
 ## Aliases
 

@@ -21,6 +21,8 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Predict Battery Replacement Timing]]"
+  - "[[Log Battery Events and Usage]]"
 madeBy:
   - "[[Energywith]]"
 ---
@@ -67,6 +69,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
   - [[Transmit Battery Data Wirelessly]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
   - [[Upload Battery Data to Cloud Portal]] (C): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Predict Battery Replacement Timing]] (V): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
+  - [[Log Battery Events and Usage]] (V): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 - **Sources used for the mapping above:** Seed note (cites the Energywith vendor pages) <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 

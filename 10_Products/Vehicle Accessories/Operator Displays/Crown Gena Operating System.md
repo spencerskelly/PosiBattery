@@ -14,6 +14,10 @@ tags:
   - vehicle-accessory
 subtypeOf:
   - "[[Operator Display]]"
+performs:
+  - "[[Display Battery Status to Operator]]"
+  - "[[Display Truck Status to Operator]]"
+  - "[[Program Travel, Lift and Tilt Speeds]]"
 hasDesign:
   - "[[Operator Touch Display]]"
 madeBy:
@@ -53,6 +57,10 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Display Battery Status to Operator]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Display Truck Status to Operator]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
+  - [[Program Travel, Lift and Tilt Speeds]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
 
 ## Aliases
 

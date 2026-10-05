@@ -13,6 +13,8 @@ tags:
   - watering
 subtypeOf:
   - "[[Battery Watering System]]"
+performs:
+  - "[[Water Battery Cells]]"
 madeBy:
   - "[[Flow-Rite]]"
 ---
@@ -46,6 +48,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - Evidence: https://www.flow-rite.com/battery-care/
 - **Verification 2026-10-02:** not re-verified in this pass; claims above are carried from the seed branch as written.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+- **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Water Battery Cells]] (V): <https://www.flow-rite.com/battery-care/>
 
 ## Aliases
 
