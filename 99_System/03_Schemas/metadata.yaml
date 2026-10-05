@@ -1,0 +1,103 @@
+schemaVersion: '1.0'
+date: '2026-10-05'
+basis: PosiBattery reconciliation Steps 73-82
+purpose: "Sparse metadata contract layered on element-types.1.18.yaml. Relationship fields remain governed only by relationships.1.36.yaml."
+
+identity:
+  uid:
+    required: true
+    immutable: true
+    meaning: "Permanent globally unique model-note identity."
+  id:
+    required: true
+    immutableAfterCreation: true
+    meaning: "Short human-readable class identifier. Reclassification does not by itself authorize changing an existing id."
+  type:
+    required: true
+    authority: "element-types.1.18.yaml"
+  subtype:
+    requiredWhenClassDefinesValues: true
+    authority: "element-types.1.18.yaml"
+
+lifecycle:
+  field: status
+  required: true
+  allowed: [Draft, Active, Retired]
+  defaultModelNote: Draft
+  meaning: "Review/lifecycle state only. It does not encode evidence confidence or commercial availability."
+
+common:
+  tags:
+    value: list[text]
+    required: true
+    default: []
+  aliases:
+    value: list[text]
+    required: false
+    omitWhenEmpty: true
+    migrationFrom: "Legacy body section ## Aliases; never maintain both as independent authorities."
+  reuseScope:
+    value: enum
+    allowed: ["product-specific", "product-family", "platform-shared", "cross-product", "external-reference"]
+    required: false
+    meaning: "Intended breadth of reuse; named applicability remains appliesTo."
+
+classScoped:
+  Object:
+    productClass:
+      value: enum
+      allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"]
+      required: false
+      condition: "Only for Objects representing commercial/product taxonomy identities."
+
+  Info:
+    measureClass:
+      value: enum
+      allowed: ["metric", "property-definition", "comparison-criterion"]
+      required: false
+      condition: "When the Info note is a governed measure definition."
+    valueType:
+      value: enum
+      allowed: ["numeric", "categorical", "boolean", "text", "compound"]
+      requiredWhen: "measureClass is present"
+    unit:
+      value: text-or-link
+      requiredWhen: "measureClass is present and valueType is numeric and dimensional"
+    measurementMethod:
+      value: text-or-link
+      required: false
+      condition: "When method materially affects interpretation; executable methods should link to Procedure/Verification."
+
+  Document:
+    sourceClass:
+      value: enum
+      allowed: ["web-page", "datasheet", "brochure", "manual", "standard", "article", "database", "other"]
+      required: false
+      condition: "Required for curated Source Document records, not every Document."
+    sourceUrl:
+      value: url
+      required: false
+      condition: "Required for Source Document when original locator is known."
+    sourceRevision:
+      value: text
+      required: false
+    accessed:
+      value: date
+      required: false
+
+excludedCommonFields:
+  element_type: "Use type."
+  title: "Use semantic Markdown heading/name."
+  created: "Derive model creation timing from uid when needed."
+  updated: "Use Git history."
+  scope.applies_to: "Use appliesTo relationship."
+  manufacturer: "Use madeBy/makes."
+  need_holder: "Use hasNeed/needOf."
+  organization_role: "Use playsRole/contextual business relationships."
+  evidence.source_records: "Use references/describes/supports/contradicts."
+  relationships: "Do not create a parallel structured relationship store."
+
+compatibility:
+  legacyNotesMissingSparseFields: valid
+  aliasesBodyOnly: validUntilMigrated
+  newFieldsDoNotAuthorizeBulkMigration: true
