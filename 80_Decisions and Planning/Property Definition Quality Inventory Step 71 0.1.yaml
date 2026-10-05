@@ -1,0 +1,161 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 71
+purpose: "Review the controlled Property definition vocabulary for duplicates, aliases, naming inconsistency, semantic overlap, and conflicts with the active runtime schemas and governance."
+
+scope:
+  property_definition_notes: 45
+  common_or_scalar_properties: 8
+  relationship_property_notes: 37
+  active_relationship_authority: "99_System/03_Schemas/relationships.yaml 1.35"
+  active_element_authority: "99_System/03_Schemas/element-types.yaml 1.17"
+  active_ruleset: "99_System/10_Docs/MDSE Modeling Ruleset 1.23.md"
+  reviewed_guidance:
+    - "99_System/10_Docs/Relationship Vocabulary Usage Guide 0.1.md"
+    - "AGENTS.md"
+    - "99_System/02_AI/AI_INSTRUCTIONS.md"
+
+summary:
+  exact_duplicate_property_names: 0
+  confirmed_alias_properties: 0
+  intentional_near_name_pairs:
+    - ["type", "eaType"]
+    - ["subtype", "subtypeOf"]
+    - ["hasPart", "hasChild"]
+    - ["hasFlow", "transmits/receives/exchanges"]
+    - ["interfaces", "equals", "exposes"]
+    - ["copyOf", "supersedes"]
+  property_notes_with_placeholder_meaning: 11
+  direct_internal_documentation_conflicts: 3
+  current_schema_vs_newer_usage_guide_conflict_topics: 6
+  property_files_modified: 0
+  schema_files_modified: 0
+
+placeholder_meaning_properties:
+  - property: appliesTo
+    current_schema: "Requirement -> any; inverse applies"
+  - property: dependsOn
+    current_schema: "any -> any; inverse dependencyOf"
+  - property: derivedFrom
+    current_schema: "Requirement -> Requirement; inverse derivedBy"
+  - property: hasDesign
+    current_schema: "Object or Document -> Design; inverse designOf"
+  - property: hasPort
+    current_schema: "any -> Port; inverse portOf"
+  - property: optionOf
+    current_schema: "Use Case -> Use Case; inverse hasOption"
+  - property: performs
+    current_schema: "Object -> Function; inverse performedBy"
+  - property: realizedBy
+    current_schema: "Use Case -> Function or Design; inverse realizes"
+  - property: satisfies
+    current_schema: "Function or Design -> Requirement; inverse satisfiedBy"
+  - property: subtypeOf
+    current_schema: "same-class reusable generalization; inverse supertypeOf"
+  - property: verifies
+    current_schema: "Verification -> Requirement; inverse verifiedBy"
+
+direct_conflicts:
+  - id: PD-71-01
+    severity: high
+    property: id
+    issue: "The id definition and AGENTS/AI instructions say an existing id never changes, while type.md still says a stage-2 reclassification gets a new id."
+    authority_assessment: "AGENTS.md, AI_INSTRUCTIONS.md, and the Step execution contract all preserve existing id; the reclassification sentence in type.md is stale/inconsistent."
+    recommended_later_action: "Resolve during vocabulary/schema reconciliation; do not change ids in Step 71."
+  - id: PD-71-02
+    severity: medium
+    property: interfaces
+    issue: "interfaces.md says 'Two Ports, or two notes' may interact, while relationships.yaml 1.35 restricts the symmetric relationship to Port <-> Port."
+    authority_assessment: "relationships.yaml is the active note-level relationship authority."
+    recommended_later_action: "Clarify the property note or deliberately broaden the schema only through the controlled reconciliation steps."
+  - id: PD-71-03
+    severity: low
+    property: hasState
+    issue: "Frontmatter says nothing in the import writes hasState yet, while the body says the import writes it wherever ownership is detected."
+    authority_assessment: "relationships.yaml guidance and the note body describe the current intended behavior; setBy wording is stale."
+    recommended_later_action: "Correct documentation wording when property definitions are formally reconciled."
+
+usage_guide_drift:
+  note: "Relationship Vocabulary Usage Guide 0.1 explicitly states that the current schema/property vocabulary remains authoritative until later reconciliation, so these are proposal-to-runtime differences, not Step-71 implementation defects."
+  topics:
+    - property: hasFlow
+      runtime: "Port -> Item Flow ownership"
+      guide: "Examples/general wording allow system/design/use-context -> flow"
+    - property: hasState
+      runtime: "Object or State Machine -> State/State Machine within endpoint constraints"
+      guide: "Examples/general wording describes system/design/function -> state"
+    - property: realizedBy
+      runtime: "Use Case -> Function or Design"
+      guide: "Proposed usage extends realization to Function/Requirement/Design intent -> implementing Design/Artifact"
+    - property: satisfies
+      runtime: "Function or Design -> Requirement"
+      guide: "Proposed usage includes product/capability/verification-result and Requirement/Need targets"
+    - property: verifies
+      runtime: "Verification -> Requirement"
+      guide: "Proposed usage discusses verification/result -> requirement/function/design/metric"
+    - property: appliesTo
+      runtime: "Requirement -> any"
+      guide: "Proposed vocabulary wording is broader than the runtime endpoint rule"
+
+semantic_overlap_review:
+  - group: ["hasPart", "hasChild", "includes", "subtypeOf"]
+    result: "Distinct in the active runtime model: Object composition, generic ownership, membership-without-ownership, and reusable specialization respectively."
+  - group: ["hasDesign", "realizedBy", "satisfies"]
+    result: "Not duplicates, but their semantic boundaries are underdefined in the property notes and explicitly deferred by the relationship guide."
+  - group: ["references", "describes", "derivedFrom", "tracesTo"]
+    result: "Distinct intended roles exist, but references/derivedFrom lack enough local definition to make author choice robust without consulting relationships.yaml."
+  - group: ["interfaces", "equals", "exposes"]
+    result: "Distinct lifecycle: interfaces is interaction, equals is temporary imported binding evidence, exposes is confirmed boundary exposure."
+  - group: ["transmits", "receives", "exchanges", "hasFlow"]
+    result: "Distinct: direction/use of Item Flow versus ownership of Item Flow."
+  - group: ["copyOf", "equals", "supersedes"]
+    result: "Distinct: duplicate/source-copy identity, temporary Port binding equivalence evidence, and replacement lifecycle."
+
+common_property_findings:
+  - property: status
+    finding: "Definition admits that no complete controlled value list exists; Draft, Active, and Retired are merely the values currently used."
+    risk: "Future schema reconciliation should establish lifecycle vocabulary and authority."
+  - property: tags
+    finding: "Cardinality/placement are defined but tag value semantics are intentionally unspecified."
+    risk: "Potential uncontrolled vocabulary growth; no current duplicate property conflict."
+  - property: subtype
+    finding: "Meaning and value authority are clear, but canChange metadata still says 'No meaning given yet.'"
+    risk: "Documentation completeness only."
+  - property: eaType
+    finding: "Clearly temporary translated-source metadata and intentionally distinct from type."
+  - property: abstract
+    finding: "Aligned with element-types.yaml sparse optional boolean semantics."
+  - property: uid
+    finding: "Aligned with current AI instructions: local-time timestamp plus 13-character author code; immutable and globally collision-checked."
+  - property: id
+    finding: "Core definition aligns with active governance except for the stale reclassification wording in type.md noted above."
+  - property: type
+    finding: "Primary MDSE class semantics align with element-types.yaml; only the id-change sentence conflicts with active identity governance."
+
+temporary_or_provisional_properties:
+  - property: eaType
+    disposition: "temporary translated-source classification"
+  - property: hasClassifier
+    disposition: "temporary import relationship resolved in stage 2"
+  - property: equals
+    disposition: "temporary imported BindingConnector evidence"
+  - property: tracesTo
+    disposition: "provisional relationship requiring replacement by a stronger predicate"
+
+decision:
+  step_71_action: "Inventory and classify only; do not rewrite property meanings or runtime schemas."
+  reason: "The plan reserves canonical vocabulary selection and schema implementation for Steps 73-79. Editing semantics here would preempt those decisions."
+  immediate_model_changes: 0
+
+deferred_to_later_steps:
+  step_73: "Field reconciliation, including common metadata completeness."
+  step_75: "Relationship reconciliation with canonical spelling, direction, inverse, endpoints, and evidence expectations."
+  step_76: "Vocabulary conflict resolution and legacy aliases/deprecations."
+  step_77: "Minimum useful metadata extension."
+  step_78: "Controlled schema implementation."
+
+conclusion: "The existing Property dictionary contains no duplicate or alias properties requiring immediate consolidation. Its main weaknesses are incomplete local definitions, three documentation conflicts, and deliberate drift between the current runtime schema and a newer proposed relationship usage guide. These should be resolved during the planned schema-reconciliation phase rather than patched piecemeal."
+
+next_step:
+  step: 72
