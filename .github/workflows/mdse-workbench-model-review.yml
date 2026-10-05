@@ -1,0 +1,35 @@
+name: MDSE Workbench Model Review
+
+on:
+  push:
+    paths:
+      - '.github/workflows/mdse-workbench-model-review.yml'
+      - '.obsidian/plugins/mdse-workbench/**'
+      - '99_System/03_Schemas/**'
+      - '99_System/09_Tools/check-workbench-model.py'
+      - '**/*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  workbench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install --quiet PyYAML
+      - name: Check Workbench bundle syntax
+        run: node --check .obsidian/plugins/mdse-workbench/main.js
+      - name: Review Workbench against cleaned model
+        run: python 99_System/09_Tools/check-workbench-model.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: workbench-model-review
+          path: workbench-model-review.md
