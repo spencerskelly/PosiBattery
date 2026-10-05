@@ -39,6 +39,11 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
   - [[Deka Dominator Battery]]: Correction: East Penn's forklift products page describes Dominator as a maintenance-free gel design to save maintenance hours, designed for conventional and opportunity charging, spillproof and leakproof. Source: East Penn forklift products page (T1), retrieved 2026-10-02. <https://www.eastpennmanufacturing.com/forklift-products/>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
 
+## Operational traceability
+
+- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Opportunity-Charge a Vehicle During a Work Break]].
+- Operating contexts: [[Distributed and Opportunity Charging Area]].
+
 ## Aliases
 
 
