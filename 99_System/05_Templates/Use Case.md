@@ -14,6 +14,4 @@ participants: []
 
 ## Notes
 
-## Aliases
-
 ## Former ids
