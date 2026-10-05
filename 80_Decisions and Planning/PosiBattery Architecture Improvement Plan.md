@@ -4906,3 +4906,33 @@ Evidence: `80_Decisions and Planning/BMID Product Use Cases Step 85 0.1.yaml`.
 **Commit:** `338ae8d5`.
 
 **Result:** Step 85 complete. The next incomplete roadmap item is **Step 86 — Build Product Context** for the PosiCharge BMID family.
+
+
+---
+
+## Step 86 completion evidence — Build Product Context
+
+**Date:** 2026-10-05
+
+Completed the first product-specific context model for **PosiCharge BMID**.
+
+Created `20_Product Architecture/PosiCharge BMID Product Context.md` as the semantic context authority and `20_Product Architecture/CANVAS_PosiCharge BMID Product Context.canvas` as a compact explanatory view.
+
+The context establishes the BMID as the product of interest and keeps the traction battery, industrial charger, vehicle/GSE, battery BMS, fleet/cloud systems, configuration tools, human roles, and operating environments outside the product boundary unless a specific variant explicitly incorporates them.
+
+Important boundary decisions:
+- external context is not modeled as BMID `hasPart`;
+- ProCore Edge, PosiLink, and PosiConnect are evidence-backed examples, not mandatory family dependencies;
+- charger power-control authority remains outside the BMID;
+- BMS protection/control authority remains distinct;
+- CAN, cloud, mobile-app, and similar interfaces remain variant-specific;
+- physical mounting, connector, wiring, protocol, and internal sensing topology are not inferred without evidence;
+- the existing reusable truck/GSE architecture sets remain canonical rather than being copied into the BMID model.
+
+Canvas edges are explanatory only and are not authoritative MDSE relationships unless backed by governed YAML.
+
+Evidence: `80_Decisions and Planning/BMID Product Context Step 86 0.1.yaml`.
+
+**Commit:** `77362c86`.
+
+**Result:** Step 86 complete. The next incomplete roadmap item is **Step 87 — Introduce product Requirements** for the PosiCharge BMID family.
