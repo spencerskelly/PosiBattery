@@ -15,6 +15,8 @@ drivenBy:
   - "[[Document Battery Care for Warranty Compliance]]"
 satisfiedBy:
   - "[[Log Battery Events and Usage]]"
+verifiedBy:
+  - "[[Verify BMID Usage History Retention]]"
 ---
 
 # BMID - Retain Battery-Specific Usage History
