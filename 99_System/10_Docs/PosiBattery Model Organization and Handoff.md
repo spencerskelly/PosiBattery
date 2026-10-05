@@ -22,7 +22,7 @@ Read first:
 4. `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`
 5. this note
 
-## Current PosiBattery content organization
+## Authoritative PosiBattery vault-level organization
 
 The repository has already been reorganized substantially into the numbered PosiBattery domain structure:
 
@@ -39,15 +39,15 @@ The repository has already been reorganized substantially into the numbered Posi
 99_System/
 ```
 
-This is the current physical organization of the vault. It is still being reconciled: some folders contain mixed artifact classes, some navigation files retain pre-migration paths, and the root still contains temporary/migration-source areas such as `Downloads`, `_Cost Driver Research`, `_EMS Research`, and `_Power Conversion Research`.
+This numbered structure is the authoritative vault-level information architecture for PosiBattery and the required destination framework for new stable content and future migrations. It is still being reconciled: some folders contain mixed artifact classes, some navigation files retain pre-migration paths, and the root still contains temporary/migration-source areas such as `Downloads`, `_Cost Driver Research`, `_EMS Research`, and `_Power Conversion Research`.
 
 Do not interpret current placement as semantic proof. Existing links, note identity, explicit relationships, schemas, and evidence provenance remain more important than cosmetic folder uniformity.
 
 The controlled incremental cleanup sequence is `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`. Follow that plan one approved step at a time rather than performing an ad hoc bulk reorganization.
 
-## Target product-model navigation pattern
+## Product-context navigation pattern
 
-For future product-model growth, use the latest MDSE product navigation pattern where it improves clarity:
+Within a specific product or product-family context, the latest MDSE product navigation pattern may be used where it improves clarity:
 
 ```text
 00 Product Abstract/
@@ -72,7 +72,7 @@ Requirement/
 Definitions/
 ```
 
-This is a navigation pattern, not an ontology. Element type and relationships remain authoritative.
+This 00–09 structure is subordinate to the authoritative numbered vault taxonomy. It is a product-context navigation pattern, not a second root taxonomy or an ontology. Element type and relationships remain authoritative.
 
 ## Meaning of the target areas
 
