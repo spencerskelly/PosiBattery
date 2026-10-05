@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Definitions/Properties"
+    - file.folder == "90_Definitions and Reusable Reference/Definitions/Properties"
 views:
   - type: table
     name: Property Dictionary
