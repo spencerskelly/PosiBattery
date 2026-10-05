@@ -4474,6 +4474,8 @@ No organization relationships or role assignments were changed.
 
 Evidence commit: `33ccdacc`.
 
+Validation run `37333618114` remained at the established **19 broken wikilinks**, with **0 frontmatter parse errors**, **0 duplicate IDs**, and **0 duplicate UIDs**. No new structural regression was introduced.
+
 **Result:** Step 65 complete.
 
 ---
