@@ -1,5 +1,17 @@
 # PosiBattery Integrity Audit — 2026-10-04
 
+## Historical-status notice
+
+This file is a preserved **pre-migration integrity snapshot** from commit `b8fda489`. It is not the current structural-status authority and must not be used as current organizational guidance.
+
+For current architecture and structural status, use:
+
+- `99_System/10_Docs/Canonical Vault Top-Level Taxonomy 0.1.md`
+- `99_System/10_Docs/PosiBattery Model Organization and Handoff.md`
+- `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`
+
+The counts, clean-link status, and handoff assessment below remain valuable historical evidence only.
+
 ## Purpose
 
 This document records the final handoff integrity state of the PosiBattery MDSE vault after the 2026-10-04 runtime, navigation, link, identity, relationship, and CI review.
