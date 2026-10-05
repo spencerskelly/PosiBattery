@@ -32,27 +32,27 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Deliver Energy to Vehicles]]** (goal)
   - [[Charge Battery]] (general): [[Charge Battery Conventionally]], [[Charge Battery Fast]], [[Charge Battery Wirelessly]], [[Charge Battery by Opportunity]], [[Charge Battery from Standard Power Outlet]], [[Charge Lithium-Ion Battery]], [[Charge in Cold Storage]]
   - [[Control Charge Profile]] (general): [[Adapt Charge to Battery Condition]], [[Charge Under BMS Control]], [[Compensate Charge for Battery Temperature]], [[Complete Missed Equalization Automatically]], [[Desulfate Battery During Charge]], [[Diagnose Battery During Charge]], [[Equalize Battery on Schedule]], [[Float Charge Battery]], [[Identify Battery by Voltage]]
-  - [[Keep Charging Available and Safe]] (general): [[Continue Charging Through Module Fault]], [[Detect Foreign and Live Objects]]
+  - [[Keep Charging Available and Safe]] (general): [[Continue Charging Through Module Fault]], [[Detect Foreign and Live Objects]], [[Manage Temperature During Fast Charging]]
   - [[Supply Vehicle Energy Without Charging]] (general): [[Change Battery Quickly]], [[Deliver Constant Power Through Shift]], [[Recover Energy by Regeneration]], [[Refuel Truck Power Source in Minutes]], [[Report Fuel Cell State to Truck]]
-  - [[Connect Battery Power Path]] (general): [[Connect Battery to Charger or Vehicle]], [[Manage Charging Cables]]
+  - [[Connect Battery Power Path]] (general): [[Adapt Truck to Battery Chemistry]], [[Connect Battery to Charger or Vehicle]], [[Manage Charging Cables]]
 - **[[Keep Equipment Working in Its Environment]]** (goal)
   - [[Operate in Harsh Conditions]] (general): [[Operate in Cold Storage]], [[Operate in Wet or Dusty Conditions]], [[Shelter Operator from Weather]]
 - **[[Know and Protect Battery Condition]]** (goal)
   - [[Sense Battery State]] (general): [[Accumulate Amp-Hours]], [[Detect Battery Weight]], [[Detect Cell Failure]], [[Detect Voltage Imbalance]], [[Estimate Remaining Run Time]], [[Estimate State of Charge]], [[Estimate State of Health]], [[Measure Battery Current]], [[Measure Battery Temperature]], [[Measure Battery Voltage]], [[Measure Electrolyte Specific Gravity]], [[Sense Electrolyte Level]]
-  - [[Inform Users of Battery Condition]] (general): [[Alert on Abnormal Condition]], [[Alert on Low Electrolyte Level]], [[Calculate Battery Abuse Cycles]], [[Display Battery Status to Operator]], [[Indicate Battery Status Locally]], [[Track Equalization]]
+  - [[Inform Users of Battery Condition]] (general): [[Alert on Abnormal Condition]], [[Alert on Low Electrolyte Level]], [[Calculate Battery Abuse Cycles]], [[Display Battery Status to Operator]], [[Indicate Battery Status Locally]], [[Predict Battery Replacement Timing]], [[Track Equalization]]
   - [[Protect Battery from Harm]] (general): [[Command Vehicle Operating Limits over CAN]], [[Protect Battery from Deep Discharge]]
   - [[Maintain Battery Electrolyte]] (general): [[Circulate Electrolyte]], [[Water Battery Cells]]
 - **[[Manage Fleet Use and Data]]** (goal)
   - [[Communicate Battery and Vehicle Data]] (general): [[Communicate Battery State over CAN]], [[Communicate with Charger]], [[Configure Device from Mobile App or PC]], [[Export Battery Data to PC]], [[Identify Battery to Charger]], [[Log Battery Events and Usage]], [[Report Battery Temperature to Charger]], [[Transmit Battery Data Wirelessly]], [[Upload Battery Data to Cloud Portal]]
-  - [[Manage Fleet Use]] (general): [[Control Operator Access]], [[Diagnose Vehicle Remotely]], [[Enforce Pre-Shift Checklist]], [[Manage Chargers Remotely]], [[Report Truck Telemetry]]
+  - [[Manage Fleet Use]] (general): [[Control Charger from Remote Panel]], [[Control Operator Access]], [[Diagnose Vehicle Remotely]], [[Enforce Pre-Shift Checklist]], [[Lock Out Vehicle After Impact]], [[Manage Chargers Remotely]], [[Record Images of Load Handling]], [[Report Truck Telemetry]]
 - **[[Protect People and Equipment Near Vehicles]]** (goal)
   - [[Sense Collision Risk and Events]] (general): [[Detect Pedestrians and Objects Near Truck]], [[Detect and Record Impacts]]
   - [[Limit Vehicle Speed Automatically]] (general): [[Adapt Speed to Load and Lift Height]], [[Limit Truck Speed Automatically]], [[Limit Vehicle Motion by Location Zone]], [[Program Travel, Lift and Tilt Speeds]], [[Reduce Speed When Seat Belt Is Unfastened]], [[Slow Truck in Curves]]
   - [[Warn People of Hazards]] (general): [[Alert Operator of Hazards]], [[Indicate Aircraft Proximity to Operator]], [[Warn Pedestrians of Approaching Truck]]
   - [[Maintain Vehicle Stability and Load Awareness]] (general): [[Cushion Fork Lowering]], [[Cut Lift at Programmed Height]], [[Damp Mast Oscillation]], [[Restrict Lift When Load Exceeds Limit]], [[Sense Load Weight and Lift Height]], [[Stabilize Truck Dynamically]]
-  - [[Hold or Stop Vehicle Automatically]] (general): [[Cut Power in an Emergency]], [[Hold Truck on Slope]], [[Reduce Wheel Slip]], [[Slow and Stop Near Aircraft]], [[Stop Vehicle When Operator Is Out of Position]]
+  - [[Hold or Stop Vehicle Automatically]] (general): [[Cut Power in an Emergency]], [[Hold Truck on Slope]], [[Inhibit Drive Until Equipment Is Stowed]], [[Reduce Wheel Slip]], [[Slow and Stop Near Aircraft]], [[Stop Truck for Detected Obstacle]], [[Stop Vehicle When Operator Is Out of Position]]
 - **[[Support the Operator]]** (goal)
-  - [[Support Operator View and Positioning]] (general): [[Assist Lift Positioning]], [[Show Camera View to Operator]]
+  - [[Support Operator View and Positioning]] (general): [[Assist Lift Positioning]], [[Illuminate Work Area]], [[Show Camera View to Operator]]
   - [[Reduce Operator Effort]] (general): [[Dock Automatically at Aircraft]], [[Follow Operator Automatically]], [[Rotate Operator Workstation]], [[Steer with Electric Power Assist]]
   - [[Inform Operator of Truck Condition]] (general): [[Display Truck Status to Operator]], [[Indicate Maintenance Due]]
 
@@ -105,6 +105,8 @@ How functions and designs are generalized into levels, which relationships conne
 | [[Supply Vehicle Energy Without Charging]] | 5 | 10 | [[Quick-Change Battery Compartment]] (4), [[Electric Parking Brake]] (2), [[Regenerative Braking]] (2), [[Audible Alarm]] (2), [[Vehicle-Mounted Display]] (2) |
 | [[Support Operator View and Positioning]] | 2 | 12 | [[Fork Laser Guide]] (3), [[Vehicle-Mounted Display]] (1), [[Impact Sensor]] (1), [[Radar Object Sensor]] (1), [[Regenerative Braking]] (1) |
 | [[Warn People of Hazards]] | 3 | 38 | [[Floor-Projected Warning Light]] (8), [[Proximity Tag System]] (4), [[Audible Alarm]] (3), [[Vehicle-Mounted Display]] (3), [[Stereoscopic Vision Sensor]] (3) |
+
+- **Function navigation status (Step 51, 2026-10-05):** all 129 Function notes are represented by the six goal-level roots and their 20 general-function families. This tree is the preferred behavioral navigation grouping; folder placement remains navigation only and does not replace modeled `hasChild` / `childOf` / `supertypeOf` / `subtypeOf` relationships.
 
 - **Not yet assigned a general parent:** functions none; designs [[Reverse-Polarity Protection]].
 
