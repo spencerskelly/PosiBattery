@@ -45,6 +45,7 @@ performedBy:
   - "[[Yale Battery Vision]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Log Battery Events and Usage
