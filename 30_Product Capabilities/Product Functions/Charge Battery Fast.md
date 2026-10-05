@@ -31,6 +31,7 @@ performedBy:
   - "[[Stryten X-7 Charger]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
+  - "[[Opportunity-Charge a Vehicle During a Work Break]]"
 ---
 
 # Charge Battery Fast
