@@ -52,6 +52,20 @@ Use these as reusable scenario context rather than duplicating environment langu
 
 These notes describe where scenarios occur. They do not replace product Functions such as cold-storage operation, charging, proximity detection, or automatic stopping.
 
+### Current operational Use Cases
+
+The first stable operational scenarios are now modeled here:
+
+- [[Connect a Vehicle or Battery to a Charger]]
+- [[Opportunity-Charge a Vehicle During a Work Break]]
+- [[Start a Shift and Confirm Vehicle Energy Readiness]]
+- [[Authenticate and Complete Pre-Shift Authorization]]
+- [[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]
+- [[Approach and Dock GSE at an Aircraft]]
+- [[Review Battery Care and Warranty Compliance]]
+
+These are actor-goal scenarios, not replacements for Product Functions. Only formal `realizedBy` links whose inverse Function relationships are synchronized should be treated as committed semantic traceability; other Function support remains documented evidence until a later traceability pass.
+
 ### Reused surrounding systems and equipment
 
 Operational Use Cases should link to existing canonical Objects and products rather than creating duplicate context copies. Common surrounding elements already modeled include [[Industrial Battery Charger]], [[Industrial Traction Battery]], [[Ground Support Equipment]], forklift product classes, battery-monitoring devices, vehicle architecture elements, and fleet/cloud software products.
