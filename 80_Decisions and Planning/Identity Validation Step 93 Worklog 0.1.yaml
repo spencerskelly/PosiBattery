@@ -1,0 +1,50 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 93
+status: "In Progress"
+
+validator:
+  path: "99_System/09_Tools/check-identities.py"
+  added_commit: "58cd51f4"
+  scope_fix_commit: "7585c3ad"
+
+initial_audit:
+  workflow_run: 37370351298
+  head_commit: "58cd51f4"
+  markdown_files: 1125
+  model_notes: 945
+  duplicate_ids: 2
+  duplicate_uids: 0
+  malformed_ids: 0
+  malformed_uids: 0
+  duplicate_groups:
+    - "INFO-00110: BMID Product Abstract and Definition / Medley Company"
+    - "INFO-00111: BMID Product Context / Western Materials"
+
+repairs:
+  - "INFO-00110 on the newly created BMID framing note corrected to INFO-90003 at commit 52502338."
+  - "INFO-00111 on the newly created BMID context note corrected to INFO-90004 at commit 9e23f725."
+  - "The collided values were not added as former IDs because those numbers remain valid identities owned by the older notes."
+
+expanded_scan:
+  workflow_run: 37371348852
+  head_commit: "52502338"
+  former_id_reservations: 15
+  local_model_records: 11
+  local_model_identity_tokens: 11
+  registered_author_codes: 15
+  findings: 91
+  interpretation:
+    - "One real duplicate remained at that commit: INFO-00111; it was subsequently repaired."
+    - "Other findings came from template placeholders being scanned as instantiated notes."
+    - "No author-code, former-ID reservation, or Local Model identity defect was reported."
+    - "The validator was corrected to scan instantiated engineering notes and Person identity notes only."
+
+final_gate:
+  workflow_run: 37372004724
+  head_commit: "955d049a"
+  status_at_record_write: "queued"
+  rule: "Step 93 remains incomplete until the corrected full identity gate finishes clean."
+
+next_action: "Recheck Step 93 final identity gate."
