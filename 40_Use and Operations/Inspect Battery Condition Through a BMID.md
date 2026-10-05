@@ -18,6 +18,9 @@ realizedBy:
 givesRiseTo:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
   - "[[Know Battery State Before and During the Shift]]"
+drives:
+  - "[[BMID - Preserve Battery Association]]"
+  - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
 ---
 
 # Inspect Battery Condition Through a BMID
