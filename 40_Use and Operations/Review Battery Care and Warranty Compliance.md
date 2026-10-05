@@ -10,6 +10,11 @@ participants:
   - "[[Fleet Operations Manager]]"
   - "[[Dealer Service Technician]]"
   - "[[Maintenance Technician]]"
+realizedBy:
+  - "[[Log Battery Events and Usage]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Track Equalization]]"
+  - "[[Calculate Battery Abuse Cycles]]"
 ---
 
 # Review Battery Care and Warranty Compliance
@@ -23,6 +28,11 @@ Responsible personnel review battery usage and maintenance history to determine 
 - Primary context: [[Material-Handling Fleet Site]].
 - Typical sequence: retrieve charge/watering/equalization/usage history, review abnormal events or abuse indicators, compare history with applicable care expectations, decide follow-up, and preserve the evidence.
 - Warranty acceptance criteria remain manufacturer-specific and are not modeled here as generic Requirements.
+
+## Traceability
+
+- Source needs: [[Document Battery Care for Warranty Compliance]], [[Prevent Battery Abuse and Premature Replacement]].
+- Operating contexts: [[Material-Handling Fleet Site]].
 
 ## Aliases
 
