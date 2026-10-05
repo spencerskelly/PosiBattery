@@ -19,6 +19,8 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Configure and Service a Supported BMID]]"
+satisfies:
+  - "[[PosiGuard - Support Local Service Configuration]]"
 ---
 
 # Configure Device from Mobile App or PC
