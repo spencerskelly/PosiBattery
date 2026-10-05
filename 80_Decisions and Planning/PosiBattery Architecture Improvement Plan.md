@@ -5260,3 +5260,46 @@ Evidence: `80_Decisions and Planning/Source and Provenance Quality Reporting Ste
 **Commits:** `9f9ab2fc`, `4c947f66`, `39680b93`.
 
 **Result:** Step 96 complete. The next incomplete roadmap item is **Step 97 — Add orphan and weak-traceability reporting**.
+
+
+---
+
+## Step 97 completion evidence — Orphan and weak-traceability reporting
+
+**Date:** 2026-10-05
+
+Added permanent **report-only orphan and weak-traceability reporting** at `99_System/09_Tools/report-traceability.py` and integrated it into the normal MDSE audit workflow.
+
+The report builds the governed semantic relationship graph and identifies both fully isolated notes and selected product-development elements that are missing high-value traceability signals. Local Model `definition` references are counted as contextual semantic usage so reusable definitions used by an assembly are not falsely labeled as orphaned.
+
+Final run `37383696085`, job `112011666620`, on commit `907351eb` reported:
+
+- **945 model notes**;
+- **5,996** governed relationship assertions / Local Model definition uses;
+- **2 isolated model elements**;
+- **301 product-development focus notes** across Use Case, Requirement, Function, Design, and Verification;
+- **0 isolated product-development focus elements**;
+- **221 weak-traceability findings**.
+
+The two remaining isolated notes are:
+
+- `PosiCharge BMID Product Abstract and Definition.md`;
+- `PosiCharge BMID Product Context.md`.
+
+Both are Phase M framing/context Info notes with extensive body links but no governed semantic relationship fields. They remain visible as review candidates; Step 97 intentionally does not invent relationships just to clear the report.
+
+The weak-traceability breakdown is:
+
+- **Design: 138** — 116 missing a behavior/requirement trace, 22 missing design ownership/context;
+- **Function: 81** — 55 missing intent/implementation trace, 26 missing performer/product context;
+- **Requirement: 2** — both missing a satisfaction path;
+- **Use Case: 0**;
+- **Verification: 0**.
+
+The important result is that **none of the product-development chain elements are fully isolated**. The largest quality opportunity is Design→behavior/requirement traceability, followed by Function intent/implementation traceability. These are prioritization signals, not instructions for bulk link creation.
+
+Evidence: `80_Decisions and Planning/Orphan and Weak Traceability Reporting Step 97 0.1.yaml`.
+
+**Commits:** `adafd35f`, `d8313cab`, `cdcf7fe8`, `907351eb`.
+
+**Result:** Step 97 complete. The next incomplete roadmap item is **Step 98 — Review navigation coverage**.
