@@ -1,0 +1,108 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 83
+status: "Complete"
+title: "Select the first product family for full modeling"
+
+selection:
+  product_family: "PosiCharge BMID"
+  canonical_note: "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md"
+  id: "OBJ-00013"
+  type: Object
+  current_role: "abstract product-family definition"
+  domain: "Battery-installed identification, sensing, and charger-interface devices"
+  primary_markets:
+    - MHE / forklifts
+    - GSE
+
+why_selected:
+  strategic_fit:
+    - "It is directly installed on or associated with the industrial battery, matching the central PosiBattery scope better than charger-only or vehicle-only product families."
+    - "It sits at the boundary between battery, charger, operator/fleet system, and cloud connectivity, so it exercises the MDSE method across product, context, interface, behavior, design, and evidence."
+    - "It is a PosiCharge/Ampure family rather than only a competitor reference, so the resulting model can become a reusable internal engineering/product-development asset."
+  evidence_depth:
+    - "Public PosiCharge FAQ, charger pages, ProCore Edge material, airport/GSE material, and internal/direct stakeholder statements already support significant behavior and design information."
+    - "A dedicated PosiCharge BMID Variants research record already separates stakeholder statements from public names and unresolved mappings."
+    - "A BMID Competitor Landscape provides a mature external comparison set across battery-monitor and charger-interface products."
+    - "SLC airport evidence provides an external GSE market/site requirement for a BMID-class device."
+  existing_model_coverage:
+    family_relationships:
+      subtypeOf:
+        - "Battery Identification and Charge Interface Device"
+      known_variants_or_successors:
+        - "PosiCharge BMID 1"
+        - "PosiCharge BMID 3"
+        - "PosiCharge Battery Rx"
+        - "PosiCharge PosiGuard"
+    existing_functions:
+      - "Measure Battery Voltage"
+      - "Measure Battery Temperature"
+      - "Estimate State of Charge"
+      - "Log Battery Events and Usage"
+      - "Identify Battery to Charger"
+      - "Report Battery Temperature to Charger"
+      - "Communicate with Charger"
+      - "Transmit Battery Data Wirelessly"
+    existing_designs:
+      - "Electrolyte-Immersed Temperature Sensor"
+      - "Bluetooth Interface"
+    related_products:
+      - "PosiCharge DVS100"
+      - "PosiCharge ProCore Edge"
+      - "PosiCharge SVS100"
+      - "PosiCharge DVS300 Series"
+      - "PosiCharge MVS400 and MVS800"
+  model_value:
+    - "The family contains meaningful variant ambiguity that product modeling can resolve explicitly rather than leaving as research prose."
+    - "It spans legacy and next-generation concepts, making it useful for Product Abstract vs Product Definition separation."
+    - "It naturally produces actor goals, operational contexts, product requirements, functions, designs, interfaces, and verification structure."
+    - "It provides a practical first use of the newly adopted Organization, source/evidence, and traceability contract."
+
+alternatives_considered:
+  industrial_modular_chargers:
+    strength: "Very large evidence/product population and high business relevance."
+    reason_not_first: "Broader system scope and many charger families/variants would make the first end-to-end model substantially larger; better after the method is proven on BMID."
+  battery_monitoring_devices:
+    strength: "Strong competitor and function/design evidence."
+    reason_not_first: "Primarily a market/reference family. PosiCharge BMID gives comparable competitive depth plus direct internal product-development relevance."
+  flooded_or_lithium_batteries:
+    strength: "Large product/evidence populations."
+    reason_not_first: "The vault is principally modeling equipment around industrial batteries; battery families would pull the first full model toward electrochemistry/product-manufacturer variation rather than the intended installed-device architecture."
+
+known_open_questions_to_preserve:
+  - "Which public product names map to BMID 1 and BMID 3."
+  - "Whether Battery Rx maps to a specific BMID generation or is a separate branch."
+  - "Whether PosiGuard is strictly a successor, a family member, or both in different commercial/technical senses."
+  - "Whether BMID 3 BLE, CAN, international, and E-meter are options, variants, configurations, or part numbers."
+  - "How lithium support changes the BMID role relative to a battery BMS and CAN-based charger communication."
+  - "Exact physical interfaces, wiring, mounting, sensing topology, and charger communication per generation."
+  - "Which requirements are product requirements versus charger/system requirements."
+
+scope_for_phase_m:
+  product_boundary: "The BMID family itself, including its battery-side sensing/identity functions and external interfaces; chargers, batteries, cloud systems, and vehicles are context unless explicitly part of a BMID variant."
+  include:
+    - "Family purpose and definition"
+    - "BMID 1 / BMID 3 / Battery Rx / PosiGuard variant structure"
+    - "Battery, charger, service/configuration, fleet/cloud, and GSE/MHE contexts"
+    - "Customer and stakeholder needs relevant to the BMID"
+    - "Requirements derived from supported needs/evidence"
+    - "Functions and designs"
+    - "Local Model assembly/occurrence context for a representative variant when evidence supports it"
+    - "Verification structure and evidence links"
+  exclude_initially:
+    - "Full charger architecture"
+    - "Full battery electrochemistry model"
+    - "Full cloud/fleet-management architecture"
+    - "Unsupported reverse engineering of internal PCB/electrical design"
+
+success_criterion:
+  - "Produce one end-to-end trace from Actor/Need through Use Case, Requirement, Function, Design, product/variant architecture, and Verification."
+  - "Make variant uncertainty explicit rather than forcing unsupported mappings."
+  - "Keep reusable concepts separate from contextual BMID occurrences."
+  - "Demonstrate that the Phase L schema/tooling contract is sufficient for real product-development modeling."
+
+next_step:
+  step: 84
+  title: "Build Product Abstract and Product Definition"
+  target: "PosiCharge BMID"
