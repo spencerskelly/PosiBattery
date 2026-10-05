@@ -30,6 +30,8 @@ jobs:
         run: python 99_System/09_Tools/check-relationships.py
       - name: Run vault audit
         run: python 99_System/09_Tools/audit-vault.py
+      - name: Generate provenance quality report
+        run: python 99_System/09_Tools/report-provenance.py
       - name: Check note names and aliases
         run: python 99_System/check-names.py
       - name: Check strong function-design dependencies
@@ -37,4 +39,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: mdse-vault-audit
-          path: audit-report.md
+          path: |
+            audit-report.md
+            provenance-quality-report.md
