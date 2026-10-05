@@ -1,0 +1,86 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+step: 99
+status: "Complete"
+title: "Workbench behavior review on cleaned model"
+
+installed_runtime:
+  workbench_version: "0.1.17"
+  active_relationships_schema: "1.36"
+  active_element_types_schema: "1.18"
+  local_model_schema: "0.2"
+  vault_release: "0.8.1"
+
+implementation:
+  checker: "99_System/09_Tools/check-workbench-model.py"
+  checker_commit: "6bb48237"
+  workflow: ".github/workflows/mdse-workbench-model-review.yml"
+  workflow_commit: "84b53922"
+  purpose: "Headless compatibility and behavior smoke review of the installed built Workbench against the cleaned PosiBattery model."
+
+validation:
+  workflow_run: 37384755906
+  job_id: 112015171762
+  result: "success"
+  workbench_bundle_syntax: "success"
+  model_notes: 945
+  relationship_assertions: 5987
+  unresolved_relationship_links: 0
+  local_model_regions: 1
+  local_model_records: 11
+  representative_views_passed: "5/5"
+  blocking_findings: 0
+  review_findings: 1
+  final_message: "WORKBENCH MODEL REVIEW PASSED WITH DOCUMENTED INTERACTION LIMITATIONS"
+
+capabilities_confirmed:
+  - "Diagnostics command is present."
+  - "Runtime-health and runtime-history commands are present."
+  - "Semantic-cache inspection and rebuild commands are present."
+  - "Structure, Internal, Functional, Requirements, Where Used, Interfaces, Verification, Design, Scenario, Behavior, Failure/Risk, and Evidence exploration profiles are present."
+  - "Active relationships schema 1.36 is newer than Workbench minimum 1.25."
+  - "Active schema endpoint classes are recognized by the Workbench parser contract."
+  - "Workbench reads Local Model schema 0.1 and 0.2; current model uses 0.2."
+  - "Cooperative 12 ms UI work slicing remains in the built artifact."
+  - "Large exploration views remain bounded by 80-node profile caps, with Internal capped at 200."
+  - "The cleaned model resolves all 5,987 governed relationship assertions used by the smoke review."
+  - "The BMID Local Model resolves all 11 current records and local/definition references."
+  - "Five representative current-model graph views returned useful bounded results."
+
+representative_views:
+  - "Structure: Industrial Truck Anatomy"
+  - "Functional: PosiCharge BMID"
+  - "Requirements: BMID - Provide Supported Battery Condition Information to Charger"
+  - "Scenario: Charge a BMID-Equipped Battery Using Battery Information"
+  - "Verification: Verify BMID Battery Condition Information Delivery"
+
+documented_interaction_limitation:
+  finding: "The current BMID Product Assembly Local Model owner note is type Info, while Workbench 0.1.17's Internal profile can start only from Object."
+  impact: "The BMID assembly-context note cannot launch the Internal view directly."
+  model_integrity: "No impact. The Local Model parses and validates, and occurrence-aware definition-centric discovery remains available through Where Used / Interfaces behavior."
+  disposition: "Carry into the authoritative Step 100 handoff as a Workbench UX/coverage limitation. Do not retype the context note or change plugin semantics solely to hide the finding."
+  rationale: "local-model.yaml permits an owning assembly/context; it does not require the owner note itself to be an Object."
+
+interactive_runtime_boundary:
+  actual_obsidian_ui_automated_here: false
+  reason: "The repository connector and GitHub Actions environment cannot launch the desktop Obsidian runtime or click generated Canvas views."
+  evidence_used_instead:
+    - "Current built artifact syntax/capability inspection."
+    - "Current model/schema compatibility checks."
+    - "Workbench-style representative graph traversal smoke tests."
+    - "Current Local Model occurrence/reference validation."
+    - "Prior controlled Workbench 0.1.17 acceptance evidence retained in the runtime handoff."
+  interpretation: "Do not claim measured desktop startup/canvas-render timing from this step."
+
+conclusion:
+  workbench_model_compatibility: "pass"
+  relationship_resolution: "pass"
+  occurrence_model_readability: "pass"
+  representative_large_current_model_views: "pass"
+  blocking_workbench_regression_detected: false
+  known_nonblocking_interaction_limitations: 1
+
+next_step:
+  step: 100
+  title: "Publish a new authoritative handoff"
