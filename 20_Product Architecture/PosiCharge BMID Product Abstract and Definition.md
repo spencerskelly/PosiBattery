@@ -2,14 +2,12 @@
 type: Info
 subtype:
 id: INFO-00110
-uid: 20261005210000000skellyspencer
+uid: 20261005111104000skellyspencer
 status: Draft
 tags:
   - product-definition
   - bmid
   - posicharge
-describes:
-  - "[[PosiCharge BMID]]"
 ---
 
 # PosiCharge BMID Product Abstract and Definition
