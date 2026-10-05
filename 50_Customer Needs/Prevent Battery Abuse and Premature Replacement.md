@@ -17,6 +17,8 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Inspect Battery Condition Through a BMID]]"
 ---
 
 # Prevent Battery Abuse and Premature Replacement
