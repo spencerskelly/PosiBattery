@@ -20,6 +20,8 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Crown V-Force BMID]]"
+realizes:
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 ---
 
 # Report Battery Temperature to Charger
