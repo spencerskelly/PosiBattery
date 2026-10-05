@@ -22,6 +22,8 @@ performedBy:
   - "[[Crown V-Force BMID]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+satisfies:
+  - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
 ---
 
 # Report Battery Temperature to Charger
