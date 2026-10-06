@@ -67,7 +67,8 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Internal Temperature Sensor]]**: [[Internal Thermistor Temperature Sensor]]
 - **[[Cell Failure Diagnostic Design]]**: [[Algorithmic Cell Failure Diagnosis]], [[Dedicated Threshold Cell Failure Detection]]
 - **[[Charger Operator Interface Design]]**: [[Local Charger Status Indication]], [[Touchscreen Interface]]
-  - **[[Local Charger Status Indication]]**: [[Charger Status LED Bar]], [[Remote Charger Status Stack Light]]
+  - **[[Remote Charger Management Design]]**: remote service plus charger-side management agent
+- **[[Local Charger Status Indication]]**: [[Charger Status LED Bar]], [[Remote Charger Status Stack Light]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
 - **[[Current Sensing Design]]**: [[External Shunt Current Sensing]], [[Hall-Effect Current Sensing]], [[Shuntless Current Sensing]], [[Split-Core Current Sensor]]
 - **[[Deep Discharge Protection Design]]**: [[BMS Discharge Limitation]], [[CAN-Coordinated Deep Discharge Shutdown]], [[Truck Battery Discharge Interlock]]
