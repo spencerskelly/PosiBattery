@@ -2,7 +2,7 @@
 type: Design
 subtype:
 id: DES-90919
-uid: 20261006183500001skellyspencer
+uid: 20261006203800013skellyspencer
 status: Draft
 tags:
   - battery-monitoring
