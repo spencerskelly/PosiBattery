@@ -10,6 +10,7 @@ tags:
 supertypeOf:
   - "[[Local Charger Status Indication]]"
   - "[[Touchscreen Interface]]"
+  - "[[Wired Remote Charger Control Design]]"
 dependencyOf:
   - "[[Control Charger from Remote Panel]]"
 ---
