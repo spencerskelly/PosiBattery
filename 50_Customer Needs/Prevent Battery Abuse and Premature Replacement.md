@@ -17,6 +17,9 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Maintenance Technician]]"
+  - "[[Fleet Operations Manager]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Inspect Battery Condition Through a BMID]]"
