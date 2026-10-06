@@ -23,6 +23,11 @@ dependencyOf:
   - "[[State of Charge Estimation Firmware]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
+  - "[[Local Status Presentation Firmware]]"
+  - "[[LCD Display Interface Circuit]]"
+  - "[[Battery Temperature Acquisition Firmware]]"
+  - "[[Cell Failure Diagnostic Firmware]]"
+  - "[[Battery Temperature Measurement Circuit]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
