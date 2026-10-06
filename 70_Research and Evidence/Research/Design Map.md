@@ -35,7 +35,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
 | [[Battery Discharge Indicator]] | [[Crown RC 5700 Series]], [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]] | - | - |
-| [[Battery Status Gauge]] | [[Access Control Group CellVue]] | - | - |
+| [[Battery Status Gauge]] | [[Access Control Group CellVue]], [[Inventus Smart Battery Monitor SBM-01]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
 | [[BMS Internal Temperature Sensing]] | [[Green Cubes SAFEFlex Battery]] | - | - |
@@ -135,6 +135,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Touchscreen Interface]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Deka PowerForce Charger]] | - | - |
 | [[Truck Charging Port]] | [[Cat EP25-55 80 V Electric Counterbalance Forklifts]], [[Cat Lithium-Ion Battery Option]], [[Toyota Traigo48]] | - | - |
 | [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[HAWKER Perfect Plus Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
+| [[Usage-History State of Health Analytics]] | [[Raymond iWAREHOUSE]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Textron Smart Sense]] | - | - |
 | [[Variable-Length Electrolyte Level Probe]] | [[Power Designers PowerTrac 3]] | - | - |
