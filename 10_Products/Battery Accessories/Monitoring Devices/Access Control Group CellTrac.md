@@ -13,6 +13,7 @@ tags:
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:
+  - "[[Measure Battery Current]]"
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
@@ -55,6 +56,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The vendor release says CellTrac provides voltage, amp hours available and used, temperature, water level and alarms, needs no shunt for current measurement, installs in minutes, and can interface with the Proactive fleet management system. Source: M H&L archive item (undated) (T2), retrieved 2026-10-02. <https://www.mhlnews.com/archive/celltrac>
 - **Status unclear:** undated archive item; current availability not checked. **Locus:** installed on the battery is likely but not stated.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Current]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Measure Battery Voltage]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Measure Battery Temperature]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Sense Electrolyte Level]] (V): <https://www.mhlnews.com/archive/celltrac>
@@ -66,6 +68,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Current-measurement traceability correction (2026-10-06):** The CellTrac source explicitly states that it measures current without a shunt.
 
 ## Aliases
 
