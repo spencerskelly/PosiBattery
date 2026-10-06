@@ -18,6 +18,9 @@ dependsOn:
 performs:
   - "[[Alert on Abnormal Condition]]"
 partOf:
+  - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Philadelphia Scientific eGO!core]]"
+  - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
   - "[[PosiCharge Battery Rx]]"
