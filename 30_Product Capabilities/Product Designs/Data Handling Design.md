@@ -8,6 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Remaining Runtime Estimation Design]]"
   - "[[Usage-History State of Health Analytics]]"
   - "[[Cloud Portal Integration]]"
   - "[[Non-Volatile Event Memory]]"
