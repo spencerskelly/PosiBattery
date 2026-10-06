@@ -14,6 +14,10 @@ subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:
   - "[[Indicate Battery Status Locally]]"
+hasDesign:
+  - "[[Battery Status Gauge]]"
+hasPart:
+  - "[[Battery Status Gauge Display Element]]"
 madeBy:
   - "[[Access Control Group]]"
 ---
@@ -41,6 +45,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Not stated in retrieved sources:** where the gauge is mounted, display type, interface to CellTrac.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Indicate Battery Status Locally]] (V): <https://www.mhlnews.com/archive/celltrac>
+- **Design characteristics, with citations:**
+  - [[Battery Status Gauge]] (V): <https://www.mhlnews.com/archive/celltrac>
 - **Sources used for the mapping above:** M H&L archive item (undated) <https://www.mhlnews.com/archive/celltrac>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
