@@ -18,6 +18,10 @@ performs:
 madeBy:
   - "[[Philadelphia Scientific]]"
 integratesWith:
+hasDesign:
+  - "[[Injector Level-Sensing Watering]]"
+hasPart:
+  - "[[Water Injector Shutoff Assembly]]"
   - "[[Crown V-Force Single Point Watering System]]"
 ---
 
@@ -50,6 +54,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://og.mhi.org/members/13790>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery watering:** [[Injector Level-Sensing Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
