@@ -17,6 +17,12 @@ offeredBy:
 offeredWith:
   - "[[Crown V-HFM3 Charger]]"
 performs:
+hasDesign:
+  - "[[Wired Remote Charger Control Design]]"
+hasPart:
+  - "[[Wired Remote Charger Control Assembly]]"
+  - "[[Remote Charger Control Panel]]"
+  - "[[Remote Charger I-O Expansion Board]]"
   - "[[Control Charger from Remote Panel]]"
 ---
 
@@ -43,6 +49,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - Crown's brochure lists the Wired Remote Control Kit, part 396587-001, which allows control and status display via the remote control and includes a wired remote control on an 11.81 inch pole with detachable cable, an I/O expansion board with mounting standoff and DE9 mounting standoffs. Source: Crown V-HFM3 brochure (copy in repo: Downloads/vhfm3-chargers.pdf) (T1), retrieved 2026-10-03. <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Control Charger from Remote Panel]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+
+- **Architecture realization — wired remote charger control:** the product directly supports [[Wired Remote Charger Control Design]], [[Wired Remote Charger Control Assembly]], [[Remote Charger Control Panel]], and [[Remote Charger I-O Expansion Board]]. Crown explicitly publishes the remote control, detachable cable, I/O expansion board, internal wiring loom, and DE9 mounting hardware, so these allocations are evidence-backed rather than inferred.
 
 ## Aliases
 
