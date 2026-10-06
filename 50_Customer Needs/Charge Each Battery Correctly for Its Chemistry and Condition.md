@@ -16,6 +16,9 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Maintenance Technician]]"
+  - "[[Fleet Operations Manager]]"
 arisesIn:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 ---
