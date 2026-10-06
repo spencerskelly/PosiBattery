@@ -7,7 +7,7 @@ status: Draft
 tags:
   - organization
   - ledger
-  - provisional
+  - governed-business-relationships
 describes:
   - "[[Business Relationship Vocabulary]]"
 ---
@@ -16,7 +16,7 @@ describes:
 
 ## Definition
 
-Ledger of every provisional business link written in note frontmatter, with its evidence type and source, so no link stands without a citation.
+Evidence ledger for governed business links written in note frontmatter, preserving the evidence type and source so material business relationships remain reviewable.
 
 ## Notes
 
