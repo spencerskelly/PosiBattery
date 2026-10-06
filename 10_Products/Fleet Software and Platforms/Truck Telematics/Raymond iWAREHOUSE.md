@@ -26,6 +26,8 @@ performs:
   - "[[Detect and Record Impacts]]"
 hasDesign:
   - "[[Usage-History State of Health Analytics]]"
+integratesWith:
+  - "[[Raymond iBattery]]"
 madeBy:
   - "[[Raymond]]"
 ---
