@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Battery Sensor Mounting Design]]"
 designOf:
+  - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
