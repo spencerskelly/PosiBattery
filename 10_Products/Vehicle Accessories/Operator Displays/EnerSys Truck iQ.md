@@ -20,6 +20,7 @@ performs:
   - "[[Detect Voltage Imbalance]]"
   - "[[Alert on Abnormal Condition]]"
 hasDesign:
+  - "[[Operator Dashboard Abnormal Alert]]"
   - "[[Operator Touch Display]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Vehicle-Mounted Display]]"
@@ -74,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The Wi-iQ4 manual says the Truck iQ is a display powered by the battery via the truck cables that reads Wi-iQ4 data in real time over BLE and shows alerts, alarms, state of charge and other parameters. Source: EnerSys Wi-iQ4 owner's manual (T1), retrieved 2026-10-02. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 - **Architecture realization — operator battery display:** the 4.3-inch touchscreen and BLE link to Wi-iQ are verified. [[Operator Touchscreen Display Module]] and [[BLE Communication Circuit]] therefore capture verified implementation roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because the internal controller/software architecture is not published.
 - **Truck parts (round 31):** stated by the source: mounts on [[Truck Controls and Display]] (a truck-mounted touchscreen) | typical (inferred from the device type, not from a source): connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Truck iQ explicitly shows alerts and alarms received from Wi-iQ on its truck-mounted touchscreen. [[Operator Dashboard Abnormal Alert]] reuses [[Operator Touchscreen Display Module]] and [[Operator Display HMI Firmware]]. No separate abnormal-condition evaluation logic is assigned to Truck iQ because the public sources do not establish whether alert evaluation occurs in Wi-iQ, Truck iQ, or both.
 
 ## Aliases
 
