@@ -14,6 +14,9 @@ dependsOn:
   - "[[Battery Voltage Measurement Circuit]]"
 performs:
   - "[[Measure Battery Voltage]]"
+partOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Battery Voltage Acquisition Firmware
