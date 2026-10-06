@@ -8,6 +8,9 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: brochure
+sourceUrl: "https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf"
+sourceRevision: "AMER-EN-PG-ENS-MPCHARGER-0125"
 describes:
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys Express Charger]]"
