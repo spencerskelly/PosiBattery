@@ -48,6 +48,7 @@ hasDesign:
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
