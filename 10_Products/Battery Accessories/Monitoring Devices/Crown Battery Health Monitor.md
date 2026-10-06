@@ -25,6 +25,7 @@ hasDesign:
   - "[[Remote Exception Notification]]"
   - "[[Bluetooth Interface]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Equalization Event Tracking Design]]"
 hasPart:
   - "[[Remote Alert Notification Service]]"
 offeredBy:
@@ -72,6 +73,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — abnormal-condition alert:** Crown explicitly publishes cloud dashboards with email or text alerts. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
+
+- **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 ## Aliases
 
