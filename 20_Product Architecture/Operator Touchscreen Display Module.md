@@ -18,6 +18,7 @@ partOf:
 dependencyOf:
   - "[[Crown Gena Operating System]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 ---
