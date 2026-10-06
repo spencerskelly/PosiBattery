@@ -2020,3 +2020,30 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reusable custom-RF design family does not make a product-specific implementation claim until assigned to an evidenced product."
+
+  "30_Product Capabilities/Product Designs/Battery Voltage Measurement Design.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Resistive Divider ADC Voltage Measurement.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable voltage-measurement topology candidate; no product-specific topology claim is made until selected by evidence or engineering decision."
+
+  "30_Product Capabilities/Product Designs/Isolated Voltage Measurement.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable isolated voltage-measurement topology candidate; no product-specific topology claim is made until selected."
+
+  "30_Product Capabilities/Product Designs/Mid-Battery Differential Voltage Measurement.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable midpoint/differential voltage-measurement topology candidate; product use requires explicit midpoint evidence."
