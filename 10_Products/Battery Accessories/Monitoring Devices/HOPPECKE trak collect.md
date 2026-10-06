@@ -30,7 +30,8 @@ performs:
   - "[[Configure Device from Mobile App or PC]]"
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
-hasDesign:
+hasDesign:  - "[[Low-Current Electrolyte Level Input]]"
+
   - "[[Bluetooth Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
