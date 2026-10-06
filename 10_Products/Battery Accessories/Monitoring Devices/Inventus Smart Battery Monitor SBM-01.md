@@ -17,7 +17,6 @@ performs:
   - "[[Display Battery Status to Operator]]"
   - "[[Measure Battery Voltage]]"
   - "[[Accumulate Amp-Hours]]"
-  - "[[Estimate State of Charge]]"
   - "[[Alert on Abnormal Condition]]"
   - "[[Communicate Battery State over CAN]]"
 hasDesign:
@@ -61,7 +60,6 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Measure Battery Voltage]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Accumulate Amp-Hours]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
-  - [[Estimate State of Charge]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Display Battery Status to Operator]] (V): <https://inventuspower.com/wp-content/uploads/IP_User_Manual_SBM-01_2023-08-04_V1.9.pdf>
   - [[Alert on Abnormal Condition]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Communicate Battery State over CAN]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
@@ -71,6 +69,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Sources used for the mapping above:** Inventus SBM-01 data sheet (08/2023) <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
+- **Scope correction — state of charge (2026-10-06):** Inventus describes SBM-01 as receiving battery-system information over CAN and reporting/displaying SOC. The current evidence does not establish that the panel monitor calculates SOC locally, so it no longer directly performs [[Estimate State of Charge]].
 - **Scope correction — remaining runtime (2026-10-06):** the SBM-01 receives battery-system information over CAN and reports/displays remaining runtime. The current evidence does not establish that the panel monitor calculates runtime locally, so it no longer directly performs [[Estimate Remaining Run Time]].
 - **Scope correction — state of health (2026-10-06):** Inventus states that SBM-01 uses integrated intelligence to **receive important information from the battery system**, while the data sheet/user manual say it reports/displays SOH. Inventus separately states that PROformance batteries communicate battery SOH. Accordingly, SBM-01 no longer performs [[Estimate State of Health]]; it performs [[Display Battery Status to Operator]] as a panel-mounted CAN display of battery-supplied SOH.
 - The underlying Inventus battery/BMS SOH estimator is not added as a product performer because no PROformance battery product note currently exists in the vault.
