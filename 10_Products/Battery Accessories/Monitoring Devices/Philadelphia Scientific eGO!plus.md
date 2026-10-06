@@ -24,6 +24,8 @@ performs:
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Internal Temperature Sensor]]"
+hasPart:
+  - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
@@ -63,6 +65,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Abnormal Condition]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Design characteristics, with citations:**
+  - [[Internal Temperature Sensor]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
   - [[Local LED Indicator]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Sources used for the mapping above:** PhilSci eGO!plus page <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
