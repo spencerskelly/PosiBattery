@@ -28,6 +28,7 @@ hasDesign:
   - "[[Bluetooth Class 1 Interface]]"
   - "[[Battery-Top Mounting]]"
   - "[[Acid-Resistant Sealed Housing]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Electrolyte Level Acquisition Firmware]]"
   - "[[Electrolyte Level Measurement Circuit]]"
@@ -87,6 +88,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - Crown says the optional BMID module mounts on top of a lead-acid battery, records all battery events including temperature and charge and discharge cycles, detects low electrolyte level and communicates the need to water. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Implementation assumption — low electrolyte alert logic:** [[Low Electrolyte Alert Logic]] is allocated at **>=95% engineering confidence** because the BMID detects low electrolyte and communicates watering need. Crown does not publish the internal decision logic or transport used for that watering alert, so [[Communicated Watering Need Alert]] is verified while the logic implementation remains an explicit assumption.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
