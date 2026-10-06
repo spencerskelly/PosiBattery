@@ -59,8 +59,10 @@ How functions and designs are generalized into levels, which relationships conne
 **Design classes**
 
 - **[[Battery Integrated Feature Design]]**: [[Battery Onboard Charger]], [[Hibernation Mode]], [[Integrated Battery Heater]], [[Integrated Battery Management System]]
-- **[[Battery Sensor Element Design]]**: [[Capacitive Electrolyte Level Probe]], [[Electrolyte-Immersed Temperature Sensor]]
+- **[[Battery Sensor Element Design]]**: [[Capacitive Electrolyte Level Probe]]
 - **[[Battery Sensor Mounting Design]]**: [[Battery-Top Mounting]], [[Cable-Mounted Indicator Placement]], [[Harness Ring-Terminal Mounting]], [[Mid-Battery Voltage Tap]], [[Panel-Mount Gauge Form Factor]], [[Wrap-Around Cell Connector Probe]]
+- **[[Battery Temperature Measurement Design]]**: [[Ambient Temperature Sensor]], [[BMS Internal Temperature Sensing]], [[Cell-Connector Temperature Sensing]], [[Electrolyte-Immersed Temperature Sensor]], [[External Thermistor Temperature Sensor]], [[Internal Temperature Sensor]]
+  - **[[Internal Temperature Sensor]]**: [[Internal Thermistor Temperature Sensor]]
 - **[[Charger Operator Interface Design]]**: [[Charger Status LED Bar]], [[Touchscreen Interface]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
 - **[[Current Sensing Design]]**: [[External Shunt Current Sensing]], [[Hall-Effect Current Sensing]], [[Shuntless Current Sensing]], [[Split-Core Current Sensor]]
