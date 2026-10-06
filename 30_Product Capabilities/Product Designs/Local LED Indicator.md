@@ -12,6 +12,8 @@ subtypeOf:
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[Fronius TagID]]"
   - "[[LED Status Indicator Element]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
@@ -61,6 +63,7 @@ LED indicator on the device or at the battery showing status.
   - [[HOPPECKE trak uplift iQ Battery]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Crown Battery Acid Indicators]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Crown V-HFM3 Tower Light Kit]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+  - [[Fronius TagID]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
 
 ## Aliases
 
