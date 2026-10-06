@@ -11,6 +11,7 @@ tags:
 describes:
   - "[[Battery Monitoring and Identification Device]]"
   - "[[Sense Electrolyte Level]]"
+  - "[[Electrolyte Level Sensing Design]]"
   - "[[Capacitive Electrolyte Level Probe]]"
 ---
 
@@ -30,13 +31,14 @@ Electrolyte Level Sensing: Method for sensing electrolyte level in flooded cells
   - [[EnerSys Wi-iQ]]: electrolyte probe (flooded version)
   - [[Flow-Rite Eagle Eye Essential IV]]: alloy probe, no trimming; Eagle Eye range uses capacitive sensing
   - [[Fronius TagID]]: level sensor on TagID+
-  - [[HOPPECKE trak collect]]: electrolyte input UB 11.3 V; trigger 55 uA; max 100 uA
-  - [[Philadelphia Scientific SmartBlinky Pro]]: electrolyte level indicator
+  - [[HOPPECKE trak collect]]: low-current electrolyte input; UB 11.3 V; trigger 55 uA; max 100 uA
+  - [[Philadelphia Scientific SmartBlinky Pro]]: electronic in-cell probe; Smart Sensing principle not disclosed
   - [[Philadelphia Scientific eGO!pro]]: electrolyte indicator (flooded version)
   - [[PosiCharge PosiGuard]]: electrolyte level monitoring
   - [[Power Designers PowerTrac 3]]: electrolyte sensor with variable-length probe (sheet); earlier note: electrolyte sensor, variable-length probe
+  - [[Exide Motion+ EasyMonitor]]: 3-in-1 sensor wrapped around a cell connector; level-sensing principle n/s
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
-- **Gaps and to-do:** 9 product(s) have a value; document-based values to be added as documents are supplied.
+- **Gaps and to-do:** product notes remain authoritative. Products that name only a level sensor or water-level detector stay at the generic [[Electrolyte Level Sensing Design]] level until probe form or electrical behavior is established.
 
 ## Aliases
 
