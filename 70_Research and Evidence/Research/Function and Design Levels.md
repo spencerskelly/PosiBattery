@@ -68,7 +68,7 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Local Charger Status Indication]]**: [[Charger Status LED Bar]], [[Remote Charger Status Stack Light]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
 - **[[Current Sensing Design]]**: [[External Shunt Current Sensing]], [[Hall-Effect Current Sensing]], [[Shuntless Current Sensing]], [[Split-Core Current Sensor]]
-- **[[Data Handling Design]]**: [[Cloud Portal Integration]], [[Non-Volatile Event Memory]]
+- **[[Data Handling Design]]**: [[Cloud Portal Integration]], [[Non-Volatile Event Memory]], [[Usage-History State of Health Analytics]]
 - **[[Enclosure and Mounting Design]]**: [[Acid-Resistant Sealed Housing]], [[Breakaway Connector]], [[Ingress-Protected Drive Components]], [[Onboard Charger Mounting]], [[Outdoor-Rated Charger Enclosure]]
 - **[[Fuel Cell Power Design]]**: [[Fuel Cell Hybrid Power Stage]], [[Hydrogen Storage Tank]], [[Onboard Fuel Level Gauge]]
 - **[[Low Electrolyte Alert Design]]**: [[Communicated Watering Need Alert]], [[Local Low Electrolyte Alert]]
