@@ -14,6 +14,13 @@ supertypeOf:
   - "[[Hybrid State of Charge Estimation]]"
 realizes:
   - "[[Estimate State of Charge]]"
+designOf:
+  - "[[State of Charge Estimation Firmware]]"
+  - "[[PosiCharge BMID]]"
+supportedBy:
+  - "[[Document - PosiCharge GSE BMID Page]]"
+dependsOn:
+  - "[[Battery Voltage Measurement Design]]"
 ---
 
 # State of Charge Estimation Design
