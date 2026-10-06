@@ -79,6 +79,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The brochure says trak | collect remains on the battery for its whole life, installs on PzS and PzB batteries, and links to trak | monitor, trak | charger and the vehicle over LIN and battery bus. Source: HOPPECKE brochure (T1), retrieved 2026-10-02. <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
 - In a case study, trak | collect allowed temperature-controlled charging in combination with trak | charger HF premium; trak | uplift iQ shows battery status on an LED display near the battery socket. Source: HOPPECKE case study and trak | uplift iQ page (T1), retrieved 2026-10-02. <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
 - **Not stated in retrieved sources:** voltage range, current range, enclosure rating, wireless interfaces. HOPPECKE also names a Batcom Plus controller, not researched.
+- **Electrolyte-level implementation:** the technical data sheet specifies an electrolyte-level electrical input of 11.3 V, 55 µA trigger current and 100 µA maximum current. This supports [[Low-Current Electrolyte Level Input]] and [[Low-Current Electrolyte Level Input Circuit]] without assuming the connected probe technology.
 - **Note on name:** the product is written trak | collect; the pipe is replaced in the file name per the naming rule.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Measure Battery Voltage]] (V): <https://www.hoppecke.com/uk/product/trak-collect-premium/> <https://www.hoppecke.com/uk/news/hoppecke-trak-collect-taking-lead-acid-batteries-into-the-digital-age/>
@@ -128,6 +129,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Conflict-visible (C39):** the data sheet gives 'max 500 A permanent' as the current measuring range and '0 to +/-2100 A' as the battery current measuring value; the two describe permanent versus peak or end value but the sheet does not say so. An earlier HOPPECKE news item lists up to five interfaces including CAN-LIN; the data sheet lists NFC, Bluetooth and the Battery Bus only.
 - **Design links added from the data sheet:** [[Bluetooth Low Energy Interface]], [[NFC Interface]], [[Acid-Resistant Sealed Housing]] (IP 69K, acid resistance).
 - **Design characteristics, with citations (data sheet):**
+  - [[Low-Current Electrolyte Level Input]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
   - [[Bluetooth Low Energy Interface]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
   - [[Acid-Resistant Sealed Housing]] (V): <https://www.hoppecke.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_data_sheet_en.pdf>
 - **Related products and how they differ (offeredWith):**
