@@ -75,6 +75,7 @@ Crown three-wheel stand-up electric counterbalance forklift, 1.5 to 1.8 t, V-For
   - [[Vehicle-Mounted Display]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Battery Discharge Indicator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
+- **Architecture realization — truck status display:** Crown explicitly publishes event-code display and Access 1 2 3 diagnostics on the Crown display. The existing [[Vehicle-Mounted Display Module]], [[Operator Display Controller Circuit]], and [[Operator Display HMI Firmware]] realization is therefore reused for [[Display Truck Status to Operator]]; controller/HMI internals remain **>=95% engineering-confidence assumptions**.
 - **Architecture realization — operator battery display:** the Crown display and battery-discharge indicator are verified. [[Vehicle-Mounted Display Module]] and [[Battery Discharge Indicator Module]] represent those physical roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Crown does not publish the internal display electronics, software partition, or battery-data transport.
 
 ## Aliases
