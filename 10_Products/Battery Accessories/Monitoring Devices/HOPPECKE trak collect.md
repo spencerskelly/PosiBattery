@@ -43,6 +43,7 @@ hasDesign:
   - "[[CAN-LIN and Battery Bus Interface]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
+  - "[[Battery Event and Usage Logging Design]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -53,6 +54,9 @@ hasPart:
   - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[LED Status Indicator Element]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
+  - "[[Battery Event Logger Firmware]]"
+  - "[[Event Log Memory]]"
+  - "[[Event Time Base]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
@@ -153,6 +157,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — remaining runtime:** HOPPECKE explicitly publishes remaining-driving-time information generated from processed battery data. [[Remaining Runtime Estimation Design]] and [[Remaining Runtime Estimation Software]] therefore capture the estimation role. The exact algorithm and input weighting are not published.
 
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
 
 ## Aliases
 
