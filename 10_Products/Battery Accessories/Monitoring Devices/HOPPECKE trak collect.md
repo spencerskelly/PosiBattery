@@ -49,6 +49,8 @@ hasDesign:
   - "[[Cloud Battery Data Upload Design]]"
   - "[[Battery-Charger Data Communication Design]]"
   - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Device Configuration and Service Design]]"
+  - "[[PC Service Tool Interface]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -64,6 +66,8 @@ hasPart:
   - "[[Event Time Base]]"
   - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Battery-Charger Communication Firmware]]"
+  - "[[Device Configuration and Service Firmware]]"
+  - "[[PC Service Tool Software]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
@@ -176,6 +180,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
 
 - **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The existing [[Battery-Charger Communication Firmware]] is reused as the communication performer; its allocation remains a **>=95% engineering-confidence** abstraction where the internal software partition is unpublished. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
+
+- **Architecture realization — configuration and service:** published material supports [[Device Configuration and Service Design]] with the specific front-end path [[PC Service Tool Interface]]. [[Device Configuration and Service Firmware]] is allocated at **>=95% engineering confidence** because the internal service-command firmware partition is not published. Transport details remain represented by the product's verified communication interfaces.
 
 ## Aliases
 
