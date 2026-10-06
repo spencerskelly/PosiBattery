@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Integrated LCD Display]]"
 dependencyOf:
   - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
   - "[[Show Camera View to Operator]]"
 ---
 
