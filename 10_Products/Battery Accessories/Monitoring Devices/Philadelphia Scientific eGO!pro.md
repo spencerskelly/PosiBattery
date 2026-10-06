@@ -34,6 +34,7 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Light-Triggered Data Upload]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
   - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
