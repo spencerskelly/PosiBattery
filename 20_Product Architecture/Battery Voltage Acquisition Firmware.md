@@ -20,8 +20,9 @@ partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
 dependencyOf:
+  - "[[Voltage-Based State of Charge Estimator Firmware]]"
+  - "[[Hybrid State of Charge Estimator Firmware]]"
   - "[[Voltage Imbalance Evaluation Firmware]]"
-  - "[[State of Charge Estimation Firmware]]"
 ---
 
 # Battery Voltage Acquisition Firmware
