@@ -19,6 +19,8 @@ designOf:
   - "[[PosiCharge DVS150]]"
 realizes:
   - "[[Report Battery Temperature to Charger]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Electrolyte-Immersed Temperature Sensor
