@@ -15,6 +15,7 @@ dependsOn:
 performs:
   - "[[Display Battery Status to Operator]]"
 partOf:
+  - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
   - "[[Yale ERC050-060VGL]]"
@@ -33,6 +34,6 @@ Firmware or embedded HMI software that converts battery-state information into o
 - Allocation to [[EnerSys Truck iQ]] is an **>=95% engineering-confidence assumption** because it is an electronic touchscreen dashboard with multiple live battery values and alerts, while EnerSys does not publish its internal firmware architecture.
 - Allocation to [[Crown Gena Operating System]] is functionally direct because Gena is itself the truck operating/HMI software; this reusable note represents the battery-status presentation role within that software.
 - The firmware does not imply the source transport. Product-specific battery data can arrive through BLE, CAN, or internal vehicle signals.
-- Allocation to [[Linde MT18 Multifunction Display]] and [[Yale ERC050-060VGL]] is **>=95% engineering confidence** because both present dynamic battery state and warnings on electronic vehicle displays; their software partition is not published.
+- Allocation to [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]], and [[Crown RC 5700 Series]] is **>=95% engineering confidence** because they present dynamic battery state and warnings on electronic vehicle displays; their software partition is not published.
 
 ## Former ids
