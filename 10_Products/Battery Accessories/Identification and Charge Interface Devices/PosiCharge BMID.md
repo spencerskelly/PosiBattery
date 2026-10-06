@@ -43,6 +43,7 @@ performs:
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Bluetooth Interface]]"
+  - "[[Battery Identification and Charger Communication Software Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -56,6 +57,9 @@ applies:
   - "[[BMID - Retain Battery-Specific Usage History]]"
   - "[[BMID - Preserve Battery Association]]"
   - "[[BMID - Provide Battery Identity to Compatible Charger]]"
+hasPart:
+  - "[[Control Circuit]]"
+  - "[[Battery Identification and Charger Communication Firmware]]"
 ---
 
 # PosiCharge BMID
