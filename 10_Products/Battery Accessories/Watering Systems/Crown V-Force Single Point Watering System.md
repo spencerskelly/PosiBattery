@@ -19,6 +19,8 @@ offeredBy:
   - "[[Crown Equipment]]"
 integratesWith:
   - "[[Philadelphia Scientific Stealth Watering System]]"
+hasDesign:
+  - "[[Float-Valve Single-Point Watering]]"
   - "[[Philadelphia Scientific Water Injector System]]"
 ---
 
@@ -47,6 +49,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery watering:** [[Float-Valve Single-Point Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
