@@ -213,6 +213,9 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Truck Telemetry Reporting Design]] | [[Crown InfoLink]], [[Hyster Tracker Telemetry]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Operator Access Authorization Design]] | [[Toyota PIN Code Access Pad]], [[Panacea Smart Start]], [[Crown InfoLink]] | - | - |
 
+| [[Temperature-Compensated Charge Control Design]] | [[AMETEK Prestolite Power Eclipse II]], [[AMETEK Prestolite Power ULTRA]], [[Crown V-HFM3 Charger]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]], [[Fronius Selectiva 4.0]], [[HOPPECKE trak charger HF premium]], [[PosiCharge DVS100]], [[PosiCharge DVS150]], [[PosiCharge DVS300 Series]], [[PosiCharge SVS100]], [[Stryten EHI Charger]], [[Stryten X-7 Charger]], [[Lester Summit Series II]], [[EnerSys NexSys AIR Wireless Charger]] | - | - |
+| [[Direct Temperature Input Charge Compensation]] | [[PosiCharge DVS150]], [[Lester Summit Series II]] | - | - |
+| [[Communicated Battery Temperature Charge Compensation]] | [[Crown V-HFM3 Charger]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]], [[Fronius Selectiva 4.0]], [[PosiCharge DVS100]], [[PosiCharge DVS300 Series]], [[PosiCharge SVS100]] | - | - |
 | [[BMS-Directed Charge Control Design]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]], [[Exide Motion+ Lithium Charger]] | - | - |
 | [[CAN BMS-Directed Charging]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]] | - | - |
 | [[Adaptive Charge Profile Control Design]] | [[Fronius Selectiva 4.0]], [[EnerSys IMPAQ Charger]] | - | - |
