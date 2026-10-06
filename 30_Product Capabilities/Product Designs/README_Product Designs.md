@@ -28,6 +28,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Battery Abuse Cycle Analytics]]
 - [[Cell Failure Diagnostic Design]]
 - [[Current Sensing Design]]
+- [[Equalization Event Tracking Design]]
 - [[State of Charge Estimation Design]]
 - [[Voltage Imbalance Detection Design]]
 - [[Vehicle State Sensing Design]]
