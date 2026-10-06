@@ -18,6 +18,7 @@ performs:
   - "[[Indicate Battery Status Locally]]"
   - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
+  - "[[Local Low Electrolyte Alert]]"
   - "[[Audible Alarm]]"
   - "[[Local LED Indicator]]"
 offeredBy:
@@ -50,6 +51,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Sense Electrolyte Level]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Indicate Battery Status Locally]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Design characteristics, with citations:**
+  - [[Local Low Electrolyte Alert]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Audible Alarm]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
   - [[Local LED Indicator]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Functions performed, with citations:**
