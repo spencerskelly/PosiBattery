@@ -37,6 +37,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
 | [[Battery Discharge Indicator]] | [[Crown RC 5700 Series]], [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]] | - | - |
 | [[Battery-Monitor State of Charge Estimation]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]], [[PosiCharge BMID]] | - | - |
+| [[Battery Replacement Timing Prediction Design]] | [[PosiCharge Battery Rx]], [[Philadelphia Scientific eGO!c]], [[Power Designers PowerTrac 3]] | - | - |
 | [[Battery Status Gauge]] | [[Access Control Group CellVue]], [[Inventus Smart Battery Monitor SBM-01]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
