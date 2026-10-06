@@ -28,6 +28,7 @@ hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
   - "[[Battery Abuse Cycle Analytics]]"
+  - "[[Cloud Battery Data Upload Design]]"
 hasPart:
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Local Abnormal Alert Output Assembly]]"
@@ -107,6 +108,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — abnormal-condition alert:** iQ Mini explicitly detects over-temperature, low electrolyte and over-discharge and shows the alerts on the unit. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because the internal evaluation implementation is not published.
 
 - **Architecture realization — battery abuse analytics:** the product is allocated [[Battery Abuse Cycle Analytics]] because its published feature set explicitly reports abuse cycles / abuse analytics. The calculation location and algorithm are not published, so neither [[Device-Resident Abuse Cycle Analytics]] nor [[Cloud-Based Abuse Cycle Analytics]] is selected.
+
+- **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
 
 ## Aliases
 
