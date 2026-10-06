@@ -679,3 +679,39 @@ Evidence: `80_Decisions and Planning/Semantic Linking Curated Source Document Re
 **Validation:** curated Source Document workflow `37398262932`, job `112059319482`, success; Vault Audit `37398262615`, success.
 
 **Result:** Step 20 complete. The next step is **Step 21 — Review high-value evidence-bearing notes**.
+
+
+
+---
+
+## Step 21 completion evidence — High-value evidence-bearing notes
+
+Reviewed the evidence-signal population by engineering impact instead of bulk-linking every URL-bearing note.
+
+Three first-party PosiCharge sources were promoted into governed Source Documents because they directly support the active BMID/PosiGuard engineering chain:
+
+- `Document - PosiCharge BMID FAQ` — supports three family Requirements, three satisfying Functions, and the electrolyte-immersed temperature-sensor Design;
+- `Document - PosiCharge PosiGuard Product Page` — supports the PosiGuard lead-acid/lithium application Requirement;
+- `Document - PosiCharge PosiConnect Product Page` — supports the local-service Requirement, its satisfying Function, and the Mobile App Interface Design.
+
+Each source also `describes` its primary product subject. All **3 new `describes/describedBy` pairs** and **11 new `supports/supportedBy` pairs** are synchronized, adding **28 governed relationship assertions** without changing any existing IDs, UIDs, or element types.
+
+Focused active-chain coverage is now:
+- **6 active Requirements**, all with Verification intent;
+- **5 externally evidenced high-value Requirements** with direct curated source support;
+- **1 internally derived semantic Requirement** (`BMID - Preserve Battery Association`) intentionally left without a direct external-source assertion because current public evidence does not establish its unresolved lifecycle/implementation mechanism;
+- **4/4 Requirement-satisfying Functions** with curated source support;
+- **2/2 direct realizing Designs** with curated source support;
+- **2/2 active Requirement-scope Objects** with curated Source Document descriptions;
+- **PosiCharge PosiConnect**, the selected supporting product for the service chain, with a curated Source Document description;
+- **0 executed Results**, so no test-pass evidence is implied.
+
+The Step 21 detector currently sees **775 evidence-signal notes**, of which **736 are not directly curated through a Source Document relationship**. This remains a prioritization queue, not a defect count. Many are market/reference notes where inline provenance is sufficient until an active engineering decision relies on the claim.
+
+No competitor feature similarity was promoted into evidence for PosiCharge engineering. Evidence relationships were added only where the captured first-party source directly supports the modeled claim.
+
+Evidence: `80_Decisions and Planning/Semantic Linking High-Value Evidence Review Step 21 0.1.yaml`.
+
+**Validation:** high-value evidence workflow `37399126391`, job `112062074277`, success; Vault Audit `37399126424`, job `112062074836`, success.
+
+**Result:** Step 21 complete. The next step is **Step 22 — Review Actors, Organizations, and customer needs**.
