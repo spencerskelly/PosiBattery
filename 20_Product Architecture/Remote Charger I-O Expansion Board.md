@@ -12,6 +12,8 @@ tags:
 reuseScope: cross-product
 partOf:
   - "[[Wired Remote Charger Control Assembly]]"
+  - "[[Crown V-HFM3 Wired Remote Control Kit]]"
+  - "[[Crown V-HFM3 Charger]]"
 dependencyOf:
   - "[[Remote Charger Control Panel]]"
 performs:
