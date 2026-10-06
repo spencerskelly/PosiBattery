@@ -20,9 +20,13 @@ performs:
   - "[[Enforce Pre-Shift Checklist]]"
 hasDesign:
   - "[[Impact Sensor]]"
+  - "[[Truck Telemetry Reporting Design]]"
 madeBy:
   - "[[Powerfleet]]"
 offeredBy:
+hasPart:
+  - "[[Truck Telemetry Acquisition Logic]]"
+  - "[[Truck Telemetry Reporting Service]]"
   - "[[Mitsubishi Logisnext Americas]]"
 ---
 
@@ -46,6 +50,8 @@ Powerfleet forklift gateway (VAC) that handles driver access control, an impact 
 - **Functions performed, with citations:**
   - [[Enforce Pre-Shift Checklist]] (V): <https://www.globenewswire.com/news-release/2021/06/01/2239918/8494/en/Mitsubishi-Logisnext-Americas-Launches-Advanced-PowerFleet-Telematics-Solution-For-North-American-Market.html>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — truck telemetry:** published behavior establishes vehicle operating data and event reporting to a fleet-management system, supporting [[Truck Telemetry Reporting Design]]. [[Truck Telemetry Acquisition Logic]] and [[Truck Telemetry Reporting Service]] are allocated at **>=95% engineering confidence** where the vendor does not publish the internal software partition. Exact signal sources, CAN/J1939 mapping, buffering, wireless transport, and cloud protocol remain product-specific.
 
 ## Aliases
 
