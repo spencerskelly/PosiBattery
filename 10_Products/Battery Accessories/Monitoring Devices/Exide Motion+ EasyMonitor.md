@@ -28,6 +28,7 @@ performs:
   - "[[Detect Voltage Imbalance]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Midpoint Voltage Symmetry Detection]]"
   - "[[Cell-Connector Electrolyte Level Sensing]]"
   - "[[Local LED Indicator]]"
   - "[[Integrated LCD Display]]"
@@ -35,6 +36,9 @@ hasDesign:
   - "[[Wrap-Around Cell Connector Probe]]"
   - "[[Cell-Connector Temperature Sensing]]"
 hasPart:
+  - "[[Mid-Battery Voltage Tap Harness]]"
+  - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
+  - "[[Voltage Imbalance Evaluation Firmware]]"
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"
   - "[[LCD Status Display Module]]"
@@ -94,6 +98,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Sources used for the mapping above:** Exide Motion+ EasyMonitor product page <https://www.exidegroup.com/en/product/easymonitor>; Exide Easy Monitor leaflet <https://www.exidegroup.com/en/document/easy-monitor-leaflet>; Exide GNB PRO 2.0 brochure (search excerpt; page returned 404 on direct fetch) <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
 - **Implementation assumption — local status presentation:** [[LCD Status Display Module]] and [[LED Status Indicator Element]] are directly supported by the published icon-based LCD and traffic-light LED. [[LCD Display Interface Circuit]], [[Status Indicator Driver Circuit]], and [[Local Status Presentation Firmware]] are allocated at **>=95% engineering confidence** because the internal electronics/software partition is not published.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — voltage imbalance:** the midpoint / half-battery voltage input is verified and supports [[Midpoint Voltage Symmetry Detection]]. [[Mid-Battery Voltage Tap Harness]] and [[Mid-Battery Differential Voltage Measurement Circuit]] capture the physical sensing path. [[Voltage Imbalance Evaluation Firmware]] is allocated at **>=95% engineering confidence** because the product electronically determines imbalance while its internal evaluation implementation is not published.
 
 ## Aliases
 
