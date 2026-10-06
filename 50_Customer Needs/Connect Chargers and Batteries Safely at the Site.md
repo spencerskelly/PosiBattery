@@ -14,13 +14,10 @@ realizedBy:
   - "[[Continue Charging Through Module Fault]]"
 participants:
   - "[[Equipment Installer]]"
-  - "[[Forklift Operator]]"needOf:
-  - "[[Equipment Installer]]"
   - "[[Forklift Operator]]"
 needOf:
   - "[[Equipment Installer]]"
   - "[[Forklift Operator]]"
-
 ---
 
 # Connect Chargers and Batteries Safely at the Site
