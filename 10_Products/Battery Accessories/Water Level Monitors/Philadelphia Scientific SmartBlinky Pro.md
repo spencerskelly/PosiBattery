@@ -18,7 +18,8 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Alert on Low Electrolyte Level]]"
-hasDesign:
+hasDesign:  - "[[Electronic In-Cell Electrolyte Probe]]"
+
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
   - "[[Cable-Mounted Indicator Placement]]"
