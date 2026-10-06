@@ -29,10 +29,10 @@ performedBy:
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
-  - "[[Crown V-HFM3 Tower Light Kit]]"
-  - "[[PosiCharge Three-Color Stack Light]]"
   - "[[Fronius TagID]]"
   - "[[Philadelphia Scientific eGO!core]]"
+realizedBy:
+  - "[[Warning and Display Device Design]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
@@ -71,6 +71,23 @@ Show battery or maintenance status at the battery with a light or gauge.
   - [[Fronius TagID]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
   - [[Philadelphia Scientific eGO!core]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Warning and Display Device Design); rule and caveats in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+The common Design dependency remains [[Warning and Display Device Design]] because local battery status can be presented through indicator or display branches.
+
+### Known implementation paths
+
+- **LED indication:** [[Local LED Indicator]] -> [[Status Indicator Driver Circuit]] -> [[LED Status Indicator Element]]. The LED element is verified wherever the product source explicitly identifies LEDs; the internal driver circuit is generally an **>=95% engineering-confidence assumption** unless a driver board is published.
+- **Integrated LCD:** [[Integrated LCD Display]] -> [[LCD Display Interface Circuit]] -> [[LCD Status Display Module]]. Verified as an LCD implementation for [[EnerSys Wi-iQ]] and [[Exide Motion+ EasyMonitor]]; the interface circuit is an **>=95% engineering-confidence assumption** because its topology is not published.
+- **Technology-neutral gauge:** [[Battery Status Gauge]] -> [[Battery Status Gauge Display Element]]. Verified for [[Access Control Group CellVue]], whose source calls it a real-time battery gauge but does not identify the display technology.
+- **Presentation firmware:** [[Local Status Presentation Firmware]] represents controller-based formatting and state-to-output logic for multi-state local displays and indicators. It is allocated only as an explicit engineering assumption where the product behavior strongly implies controller-based presentation.
+
+Products that merely state an indication without naming LED, LCD, gauge technology, or another visible element remain at the Function level until stronger evidence exists.
+
+### Scope correction
+
+[[Crown V-HFM3 Tower Light Kit]] and [[PosiCharge Three-Color Stack Light]] were removed from this Function because they show **charger/charge-process status**, not battery-mounted status. They now perform [[Indicate Charger Status Locally]].
 
 ## Aliases
 
