@@ -18,6 +18,7 @@ partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
 dependencyOf:
+  - "[[Voltage Imbalance Evaluation Firmware]]"
   - "[[State of Charge Estimation Firmware]]"
 ---
 
