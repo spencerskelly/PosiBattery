@@ -1945,4 +1945,68 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+  "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md":
+    classification: active_engineering
+
+  "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge PosiGuard.md":
+    classification: active_engineering
+
+  "40_Use and Operations/Charge a BMID-Equipped Battery Using Battery Information.md":
+    classification: active_engineering
+
+  "40_Use and Operations/Inspect Battery Condition Through a BMID.md":
+    classification: active_engineering
+
+  "40_Use and Operations/Review BMID Battery History and Exceptions.md":
+    classification: active_engineering
+
+  "40_Use and Operations/Integrate a BMID with Charger Vehicle and Fleet Systems.md":
+    classification: active_engineering
+
+  "40_Use and Operations/Configure and Service a Supported BMID.md":
+    classification: active_engineering
+    gaps:
+      upstream:
+        disposition: unresolved
+        exception: EXC-EVIDENCE-PENDING
+        note: "Owner: Product requirements / customer discovery. No existing Customer Need maps cleanly enough to this service/configuration Use Case; customer-side need evidence is still required."
+
+  "50_Customer Needs/Charge Each Battery Correctly for Its Chemistry and Condition.md":
+    classification: active_engineering
+
+  "50_Customer Needs/Integrate the Battery with Truck and Charger Controls.md":
+    classification: active_engineering
+
+  "50_Customer Needs/Know Battery State Before and During the Shift.md":
+    classification: active_engineering
+
+  "50_Customer Needs/Prevent Battery Abuse and Premature Replacement.md":
+    classification: active_engineering
+
+  "50_Customer Needs/Document Battery Care for Warranty Compliance.md":
+    classification: active_engineering
+
+  "50_Customer Needs/Monitor and Manage Chargers and Batteries Across Sites.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify BMID Battery Identity Delivery.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify BMID Battery Condition Information Delivery.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify BMID Usage History Retention.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify BMID Battery Association Preservation.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify PosiGuard Lead-Acid and Lithium Application Support.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Validation/Verify PosiGuard Local Service Configuration.md":
+    classification: active_engineering
+
+  "20_Product Architecture/PosiCharge BMID Product Assembly Local Model.md":
+    classification: active_engineering
 
