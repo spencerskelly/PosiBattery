@@ -15,13 +15,17 @@ tags:
 subtypeOf:
   - "[[Truck Telematics Software]]"
 hasPart:
+  - "[[Battery State of Health Analytics Service]]"
   - "[[Raymond iWAREHOUSE ObjectSense]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[Raymond iWAREHOUSE Real-Time Location System]]"
   - "[[Raymond iWAREHOUSE Integrated Tether System]]"
 performs:
+  - "[[Estimate State of Health]]"
   - "[[Report Truck Telemetry]]"
   - "[[Detect and Record Impacts]]"
+hasDesign:
+  - "[[Usage-History State of Health Analytics]]"
 madeBy:
   - "[[Raymond]]"
 ---
@@ -41,6 +45,8 @@ Raymond fleet management system with operator assist modules ObjectSense, Fields
   - [[Detect and Record Impacts]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - The options sheet says iWAREHOUSE telematics shows key and deadman hours, fault codes and impact data. Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery state of health:** Raymond's published iBATTERY material places the battery state-of-health dashboard in iWAREHOUSE and identifies contributors including over/under-discharge, water level, battery capacity/efficiency, temperature, state of charge, current and fault codes. [[Usage-History State of Health Analytics]] and [[Battery State of Health Analytics Service]] therefore represent the verified analytics path. The weighting/formula, update cadence and execution architecture are not published.
 
 ## Aliases
 
