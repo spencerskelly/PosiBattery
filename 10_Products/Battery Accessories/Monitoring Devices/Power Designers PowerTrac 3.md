@@ -41,6 +41,7 @@ hasDesign:
   - "[[Wireless Battery Data Communication Design]]"
   - "[[Cloud Battery Data Upload Design]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Missed Equalization Recovery Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
   - "[[Battery Event Logger Firmware]]"
@@ -48,6 +49,7 @@ hasPart:
   - "[[Event Time Base]]"
   - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Battery-Charger Communication Firmware]]"
+  - "[[Missed Equalization Recovery Firmware]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -134,6 +136,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
+
+- **Architecture realization — missed equalization recovery:** published behavior supports [[Missed Equalization Recovery Design]]. [[Missed Equalization Recovery Firmware]] is allocated at **>=95% engineering confidence** because the automatic carry-forward/recovery behavior requires persistent executable logic while the internal software partition is unpublished. Exact persistence, retry, eligibility, and completion rules remain product-specific.
 
 ## Aliases
 
