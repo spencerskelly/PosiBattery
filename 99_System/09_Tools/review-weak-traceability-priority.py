@@ -203,6 +203,40 @@ for typ,paths in active_by_type.items():
             if not any(x[0]==p for x in active_registry_findings):
                 active_registry_findings.append((p,typ,"classification","missing active_engineering classification"))
 
+# Every legacy weak note is now formally classified. Lower-value support/reference
+# notes receive controlled dispositions only for matrix dimensions that remain
+# missing after the Step-26 specialization/dependency rule alignment.
+weak_registry_findings=[]
+for p,labels in sorted(weak_notes.items()):
+    typ=str(notes[p].get("type") or "")
+    expected_cls=classify_weak(p,typ)
+    rec=records.get(p)
+    if not isinstance(rec,dict) or rec.get("classification")!=expected_cls:
+        weak_registry_findings.append((p,"classification",f"expected {expected_cls}"))
+        continue
+    relfields={f for f,_ in outgoing[p]} | {f for f,_ in incoming[p]}
+    missing=[]
+    for dim,alts in (matrix.get(typ) or {}).items():
+        if alts and not (relfields & set(alts)):
+            missing.append(dim)
+    gaps=rec.get("gaps") or {}
+    if expected_cls=="engineering_support":
+        for dim in missing:
+            if dim!="evidence":
+                continue
+            g=gaps.get(dim)
+            if not isinstance(g,dict) or g.get("disposition")!="not_applicable" or g.get("exception")!="EXC-NOT-APPLICABLE":
+                weak_registry_findings.append((p,dim,"expected not_applicable / EXC-NOT-APPLICABLE"))
+    elif expected_cls=="reference_content":
+        for dim in missing:
+            g=gaps.get(dim)
+            if dim=="evidence":
+                if not isinstance(g,dict) or g.get("disposition")!="not_applicable" or g.get("exception")!="EXC-NOT-APPLICABLE":
+                    weak_registry_findings.append((p,dim,"expected not_applicable / EXC-NOT-APPLICABLE"))
+            elif dim in {"upstream","downstream","ownership_use"}:
+                if not isinstance(g,dict) or g.get("disposition")!="intentionally_absent" or g.get("exception")!="EXC-REFERENCE-LEAF":
+                    weak_registry_findings.append((p,dim,"expected intentionally_absent / EXC-REFERENCE-LEAF"))
+
 print("weak traceability priority review")
 print(f"  legacy weak findings: {len(legacy)}")
 print(f"  weak notes: {len(weak_notes)}")
@@ -211,8 +245,11 @@ for typ,paths in active_by_type.items(): print(f"  active {typ}: {len(paths)}")
 print(f"  active strict dimension gaps: {len(active_dimension_gaps)}")
 print(f"  active unresolved accepted gaps: {len(active_unresolved)}")
 print(f"  active registry/unexplained findings: {len(active_registry_findings)}")
+print(f"  weak queue registry findings: {len(weak_registry_findings)}")
 for p,typ,dim,msg in active_registry_findings:
     print(f"  ACTIVE_FINDING {typ} {dim}: {p}: {msg}")
+for p,dim,msg in weak_registry_findings:
+    print(f"  WEAK_REGISTRY_FINDING {dim}: {p}: {msg}")
 for p,typ,dim,code in active_unresolved:
     print(f"  ACTIVE_UNRESOLVED {typ} {dim}: {p}: {code}")
 for p,labels in sorted(weak_notes.items()):
@@ -232,7 +269,8 @@ f"- Legacy weak findings: **{len(legacy)}**",
 f"- Unique weak notes: **{len(weak_notes)}**",
 f"- Active strict Step-2 dimension gaps: **{len(active_dimension_gaps)}**",
 f"- Active accepted unresolved gaps: **{len(active_unresolved)}**",
-f"- Active registry/unexplained findings: **{len(active_registry_findings)}**","",
+f"- Active registry/unexplained findings: **{len(active_registry_findings)}**",
+f"- Weak-queue registry findings: **{len(weak_registry_findings)}**","",
 "## Active engineering set","",
 f"- Designs: **{len(active_designs)}**",
 f"- Functions: **{len(active_functions)}**",
@@ -263,5 +301,5 @@ lines += ["","## Interpretation","",
 "- Step 26 succeeds when active engineering has zero unexplained gaps; accepted named unresolved decisions remain visible for the final handoff.",
 ]
 REPORT.write_text("\n".join(lines),encoding="utf-8")
-if active_registry_findings: raise SystemExit(2)
+if active_registry_findings or weak_registry_findings: raise SystemExit(2)
 print("WEAK TRACEABILITY PRIORITY REVIEW PASSED")
