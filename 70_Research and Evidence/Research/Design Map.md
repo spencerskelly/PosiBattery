@@ -109,7 +109,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Onboard Fuel Level Gauge]] | [[Plug Power GenDrive]] | - | - |
 | [[Operator Presence Pedal]] | [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
 | [[Operator Sensing Floor Mat]] | [[Toyota Compartment Sensing System]] | - | - |
-| [[Operator Dashboard Abnormal Alert]] | [[EnerSys Truck iQ]] | - | - |
+| [[Operator Dashboard Abnormal Alert]] | [[EnerSys Truck iQ]], [[Yale ERC050-060VGL]] | - | - |
 | [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Crown ProximityAssist System]], [[EnerSys Truck iQ]], [[Hyster J1.5-3.0UT(L)]] | - | - |
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
