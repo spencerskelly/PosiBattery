@@ -20,6 +20,10 @@ dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
 performs:
   - "[[Measure Battery Current]]"
+supertypeOf:
+  - "[[Resistive Current Measurement Circuit]]"
+  - "[[Magnetic Current Measurement Assembly]]"
+  - "[[Clamp-On Current Measurement Assembly]]"
 ---
 
 # Battery Current Measurement Circuit
