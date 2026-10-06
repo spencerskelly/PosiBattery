@@ -13,6 +13,8 @@ hasDesign:
   - "[[Local LED Indicator]]"
 partOf:
   - "[[Low Electrolyte Alert Output Assembly]]"
+  - "[[Flow-Rite Eagle Eye Elite IV]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 performs:
   - "[[Alert on Low Electrolyte Level]]"
   - "[[Indicate Battery Status Locally]]"
