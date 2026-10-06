@@ -15,6 +15,7 @@ dependsOn:
 performs:
   - "[[Display Battery Status to Operator]]"
 partOf:
+  - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[EnerSys Truck iQ]]"
