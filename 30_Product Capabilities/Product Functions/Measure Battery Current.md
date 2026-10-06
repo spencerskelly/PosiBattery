@@ -13,6 +13,8 @@ subtypeOf:
 describedBy:
   - "[[Metric - Current Measurement]]"
 performedBy:
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
+  - "[[Access Control Group CellTrac]]"
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
