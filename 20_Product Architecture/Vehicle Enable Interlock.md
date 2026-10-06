@@ -2,7 +2,7 @@
 type: Object
 subtype: circuit
 id: OBJ-90134
-uid: 20261006212000003skellyspencer
+uid: 20261006203800001skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -15,13 +15,13 @@ dependencyOf:
   - "[[Pre-Shift Checklist Enforcement Logic]]"
   - "[[Impact Lockout Decision Logic]]"
 performs:
+  - "[[Control Operator Access]]"
 partOf:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[Panacea Smart Start]]"
   - "[[Crown InfoLink]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[TLD Aircraft Safety Docking]]"
-  - "[[Control Operator Access]]"
 ---
 
 # Vehicle Enable Interlock
