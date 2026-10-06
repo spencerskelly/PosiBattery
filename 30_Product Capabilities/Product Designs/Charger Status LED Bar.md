@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Local Charger Status Indication]]"
 designOf:
+  - "[[Charger Status LED Bar Assembly]]"
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum Outdoor]]"
   - "[[Crown V-HFM3 Charger]]"
