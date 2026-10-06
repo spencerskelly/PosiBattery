@@ -14,6 +14,7 @@ subtypeOf:
 designOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[Power Designers PowerTrac SP+]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
 describedBy:
   - "[[Metric - Temperature Sensing]]"
@@ -29,6 +30,7 @@ Battery-temperature sensing using a thermistor located external to the monitorin
 
 - [[Power Designers PowerTrac 3]] explicitly specifies an external thermistor.
 - [[EnerSys Wi-iQ]] explicitly specifies an external thermistor in the Wi-iQ4 manual.
+- [[Power Designers PowerTrac SP+]] lists an external thermistor as an available option in its dated data sheet.
 - This Design states sensor technology and external placement only. It does not claim electrolyte immersion, case attachment, or a specific thermistor part number.
 - Both products can therefore share the same reusable [[Thermistor Temperature Measurement Circuit]] implementation family without implying identical physical packaging.
 
