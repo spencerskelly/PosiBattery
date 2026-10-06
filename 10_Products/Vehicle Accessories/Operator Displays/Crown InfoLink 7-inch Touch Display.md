@@ -20,9 +20,13 @@ performs:
   - "[[Control Operator Access]]"
 hasDesign:
   - "[[Operator Touch Display]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
+hasPart:
+  - "[[Pre-Shift Checklist Enforcement Logic]]"
+  - "[[Vehicle Enable Interlock]]"
   - "[[Crown ProximityAssist System]]"
 ---
 
@@ -62,6 +66,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Enforce Pre-Shift Checklist]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
   - [[Detect and Record Impacts]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
   - [[Control Operator Access]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
+
+- **Architecture realization — pre-shift checklist:** published material explicitly describes electronic inspection checklists tied to truck access/lockout behavior, supporting [[Pre-Shift Checklist Enforcement Design]]. [[Pre-Shift Checklist Enforcement Logic]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. [[Vehicle Enable Interlock]] captures the enforcement consequence when the checklist policy is not satisfied.
 
 ## Aliases
 
