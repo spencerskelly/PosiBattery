@@ -16,6 +16,9 @@ participants:
   - "[[Pedestrian Near Trucks]]"needOf:
   - "[[Site Safety Manager]]"
   - "[[Pedestrian Near Trucks]]"
+needOf:
+  - "[[Site Safety Manager]]"
+  - "[[Pedestrian Near Trucks]]"
 
 ---
 
