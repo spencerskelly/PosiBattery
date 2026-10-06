@@ -22,9 +22,12 @@ hasDesign:
   - "[[Remote Charger Management Design]]"
   - "[[Adaptive Charge Profile Control Design]]"
   - "[[Ri-Based Adaptive Charging]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
 hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Fronius Charge & Connect]]"
 ---
 
@@ -48,6 +51,8 @@ Fronius lead-acid charger family with the Ri charging process, offered in 2 to 3
 - **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 - **Architecture realization — adaptive charge profile:** published behavior supports [[Adaptive Charge Profile Control Design]] with [[Ri-Based Adaptive Charging]]. [[Adaptive Charge Profile Control Firmware]] is allocated at **>=95% engineering confidence** because the adaptive control behavior is explicit while the internal firmware partition is unpublished.
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
