@@ -88,6 +88,7 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Operator Identification Design]]**: [[Fingerprint Reader]], [[RFID or PIN Access Reader]]
   - **[[Remote Vehicle Diagnostics Design]]**: vehicle diagnostic acquisition plus remote diagnostic service
   - **[[Truck Telemetry Reporting Design]]**: vehicle acquisition plus upstream fleet-reporting service
+  - **[[Impact-Triggered Vehicle Lockout Design]]**: depends on [[Impact Sensor]] and [[Vehicle Enable Interlock]]
   - **[[Pre-Shift Checklist Enforcement Design]]**: depends on [[Display Device Design]] and [[Vehicle Enable Interlock]]
   - **[[Operator Access Authorization Design]]**: depends on [[Operator Identification Design]]
 - **[[Vehicle Drive Design]]**: [[AC Drive Motor]], [[Electric Parking Brake]], [[Electric Power Steering]], [[Regenerative Braking]]
