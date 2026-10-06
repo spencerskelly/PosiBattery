@@ -15,6 +15,9 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+partOf:
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[Power Designers REVOLUTION X]]"
   - "[[Complete Missed Equalization Automatically]]"
 ---
 
