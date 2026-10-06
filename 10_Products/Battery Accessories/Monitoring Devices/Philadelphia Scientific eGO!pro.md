@@ -33,6 +33,8 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Light-Triggered Data Upload]]"
+hasPart:
+  - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 offeredBy:
@@ -85,6 +87,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf>
   - [[Calculate Battery Abuse Cycles]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
 - **Design characteristics, with citations:**
+  - [[Internal Temperature Sensor]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
   - [[Hall-Effect Current Sensing]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf> <https://www.phlsci.co.uk/ego/ego-pro/>
   - [[Split-Core Current Sensor]] (V): <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf> <https://www.phlsci.co.uk/ego/ego-pro/>
   - [[Local LED Indicator]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-pro/>
