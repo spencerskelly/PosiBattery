@@ -64,6 +64,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Abnormal Condition Alert Design]]**: [[Local Abnormal Condition Alert]], [[Operator Dashboard Abnormal Alert]], [[Remote Exception Notification]]
 - **[[Battery Temperature Measurement Design]]**: [[Ambient Temperature Sensor]], [[BMS Internal Temperature Sensing]], [[Cell-Connector Temperature Sensing]], [[Electrolyte-Immersed Temperature Sensor]], [[External Thermistor Temperature Sensor]], [[Internal Temperature Sensor]]
   - **[[Internal Temperature Sensor]]**: [[Internal Thermistor Temperature Sensor]]
+- **[[Cell Failure Diagnostic Design]]**: [[Algorithmic Cell Failure Diagnosis]], [[Dedicated Threshold Cell Failure Detection]]
 - **[[Charger Operator Interface Design]]**: [[Local Charger Status Indication]], [[Touchscreen Interface]]
   - **[[Local Charger Status Indication]]**: [[Charger Status LED Bar]], [[Remote Charger Status Stack Light]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
