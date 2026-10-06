@@ -12,6 +12,7 @@ subtypeOf:
 describedBy:
   - "[[Metric - Temperature Sensing]]"
 designOf:
+  - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge Battery Rx]]"
   - "[[AMETEK Prestolite Power TruBid]]"
