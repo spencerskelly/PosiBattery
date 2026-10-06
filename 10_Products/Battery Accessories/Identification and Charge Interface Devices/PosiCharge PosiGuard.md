@@ -43,6 +43,7 @@ hasDesign:
   - "[[Battery Voltage Measurement Design]]"
   - "[[Current Sensing Design]]"
   - "[[CAN Battery State Communication Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -66,6 +67,7 @@ hasPart:
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[CAN Battery State Communication Firmware]]"
+  - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 ---
 
