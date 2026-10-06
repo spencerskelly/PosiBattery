@@ -33,6 +33,7 @@ hasDesign:
   - "[[Infrared Data Port]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[Reverse-Polarity Protection]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -96,6 +97,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 - **Architecture realization — amp-hour accumulation:** PowerTrac SP+ explicitly measures battery current through an external shunt and reports charge/discharge Ah since installation and per event. [[Current Integration Amp-Hour Accumulation]] is therefore verified at the implementation-principle level. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
