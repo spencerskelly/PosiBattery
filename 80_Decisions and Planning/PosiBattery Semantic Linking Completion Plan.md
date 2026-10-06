@@ -757,3 +757,44 @@ Evidence: `80_Decisions and Planning/Semantic Linking Actor Organization Custome
 **Validation:** stakeholder ecosystem workflow `37400167622`, job `112065337459`, success; Vault Audit `37400167705`, job `112065337965`, success.
 
 **Result:** Step 22 complete. The next step is **Step 23 — Review product-to-market ecosystem links**.
+
+
+
+---
+
+## Step 23 completion evidence — Product-to-market ecosystem links
+
+Reviewed all **398 Product Objects** for the commercial/ecosystem relationships that place them in the market without confusing those links with product architecture.
+
+Results:
+- **56 abstract Product Objects**;
+- **342 concrete Product Objects**;
+- **342/342 concrete products** have at least one `madeBy` or `offeredBy` attribution;
+- **312 `madeBy` assertions**;
+- **38 `offeredBy` assertions**;
+- **3 `poweredBy` assertions**;
+- **2 `rebrandOf` assertions**;
+- **294 `offeredWith` assertions** across 174 product notes;
+- **8 product-side `integratesWith` assertions** across 7 product notes;
+- organization ecosystem context includes **3 `supplierOf`**, **10 `distributedBy`**, and **4 `partnerOf` assertions**;
+- **0 `privateLabelFor` assertions**, which is not treated as a gap because no current relationship has evidence requiring that stronger claim;
+- **0 broken or unsynchronized relationship findings**;
+- **0 maker/offerer review prompts**.
+
+Seven products explicitly preserve different maker and offerer identities, confirming that the model is maintaining the important distinction between manufacturing and market/channel availability. Two `poweredBy` products intentionally have no manufacturer claim, preserving technology provenance without overstating who built the hardware.
+
+Customer/environment context also remains strength-graded:
+- **245 concrete products** have a direct behavior route into a Customer Need;
+- **136 concrete products** can reach a Customer Need through an `offeredWith` option route.
+
+The direct `performs → Function → Customer Need` route remains stronger than option/bundle context. `offeredWith` does not mean the option is installed on every unit and is not promoted to `hasPart`.
+
+A representative rebrand note was clarified so `rebrandOf/rebrandedAs` is explicitly documented as commercial identity—not composition, specialization, or copying.
+
+No model relationships, IDs, UIDs, or element types changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Product Market Ecosystem Review Step 23 0.1.yaml`.
+
+**Validation:** product ecosystem workflow `37400831318`, job `112067403694`, success; Vault Audit `37400831441`, success.
+
+**Result:** Step 23 complete. The next step is **Step 24 — Review market/reference catalog leaves**.
