@@ -69,14 +69,14 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Detect Voltage Imbalance]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[Hyster Battery Tracker]] | - | - |
 | [[Detect and Record Impacts]] | [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Hyster Tracker Telemetry]], [[Linde connect]], [[Logisnext Lift Link]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Raymond iWAREHOUSE]], [[STILL Smart Portal]], [[TLD Aircraft Safety Docking]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Diagnose Battery During Charge]] | [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
-| [[Display Battery Status to Operator]] | [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]] | - | - |
+| [[Display Battery Status to Operator]] | [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hyster Power Cellect]], [[Inventus Smart Battery Monitor SBM-01]], [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]] | - | - |
 | [[Display Truck Status to Operator]] | [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[Hangcha A Series Electric Forklifts]], [[Komatsu Operator Presence Sensing System]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
 | [[Dock Automatically at Aircraft]] | [[Oshkosh AeroTech JetDock]], [[TLD ASD+ Assisted Docking]] | - | - |
 | [[Enforce Pre-Shift Checklist]] | [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Hyster Tracker Telemetry]], [[Jungheinrich ISM Online]], [[Logisnext Lift Link]], [[Powerfleet Forklift Gateway]], [[STILL RX 60 Electric Forklift]], [[STILL Safety Assist]] | - | - |
 | [[Equalize Battery on Schedule]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[AMETEK Prestolite Power Eclipse II]], [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys AIR Wireless Charger]], [[EnerSys NexSys+ Charger]], [[PosiCharge DVS100]], [[PosiCharge DVS150]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]] | - | - |
 | [[Estimate Remaining Run Time]] | [[EnerSys Truck iQ]], [[HOPPECKE trak collect]], [[Inventus Smart Battery Monitor SBM-01]], [[Linde 6-8 t Electric Counterbalance Forklifts]] | - | - |
 | [[Estimate State of Charge]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac Monitor]], [[Raymond iBattery]], [[Stryten M-Series Li610 Battery]], [[Yale Battery Vision]] | [[AMETEK Prestolite Power WBID Pro]] | - |
-| [[Estimate State of Health]] | [[Inventus Smart Battery Monitor SBM-01]], [[Raymond iBattery]] | - | - |
+| [[Estimate State of Health]] | [[Raymond iWAREHOUSE]] | - | - |
 | [[Export Battery Data to PC]] | [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Float Charge Battery]] | [[PosiCharge ProCore Solo]] | - | - |
 | [[Follow Operator Automatically]] | [[Jungheinrich easyPILOT]] | - | - |
