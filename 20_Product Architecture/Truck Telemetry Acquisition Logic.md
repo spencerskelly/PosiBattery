@@ -15,12 +15,12 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Report Truck Telemetry]]"
 partOf:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
-  - "[[Report Truck Telemetry]]"
 ---
 
 # Truck Telemetry Acquisition Logic
