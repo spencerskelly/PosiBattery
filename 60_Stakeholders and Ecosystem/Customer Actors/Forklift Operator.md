@@ -10,6 +10,16 @@ tags:
   - role-source-stated
 subtypeOf:
   - "[[Vehicle Operator]]"
+hasNeed:
+  - "[[Charge Without a Ventilated Battery Room]]"
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
+  - "[[Control Who Operates Each Truck]]"
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
+  - "[[Know Battery State Before and During the Shift]]"
+  - "[[Prevent Tip-Overs and Overloads]]"
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
+  - "[[Warn the Operator of People and Objects Near the Truck]]"
 ---
 
 # Forklift Operator
