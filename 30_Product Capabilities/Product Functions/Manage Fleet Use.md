@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Control Charger from Remote Panel]]"
   - "[[Record Images of Load Handling]]"
   - "[[Lock Out Vehicle After Impact]]"
+  - "[[Indicate Charger Status Locally]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---
