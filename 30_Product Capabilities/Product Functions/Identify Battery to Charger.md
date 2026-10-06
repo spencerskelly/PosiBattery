@@ -27,6 +27,8 @@ realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 satisfies:
   - "[[BMID - Provide Battery Identity to Compatible Charger]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Identify Battery to Charger
