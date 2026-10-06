@@ -17,6 +17,8 @@ dependsOn:
   - "[[Vehicle Enable Interlock]]"
 performs:
   - "[[Lock Out Vehicle After Impact]]"
+partOf:
+  - "[[TLD Aircraft Safety Docking]]"
 ---
 
 # Impact Lockout Decision Logic
