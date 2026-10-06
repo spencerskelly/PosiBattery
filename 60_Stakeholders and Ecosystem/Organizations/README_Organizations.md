@@ -4,6 +4,12 @@
 
 This folder contains organization records and market-role concepts for companies that make, sell, distribute, integrate, operate, or otherwise influence industrial batteries, chargers, monitoring products, forklifts, fuel-cell systems, ground-support equipment, and fleet technology.
 
+### Current modeling status
+
+Organization identity notes in this vault currently remain legacy `Info` elements tagged `organization`. This is intentional: `relationships.yaml` 1.36 governs the business relationship vocabulary and explicitly permits legacy Info organization endpoints, so semantic completeness does not require a bulk type migration to `Organization`.
+
+Business relationships such as `playsRole`, `makes`, `offers`, `supplierOf`, `distributedBy`, `subsidiaryOf`, `partnerOf`, and `integratesWith` are governed relationships with synchronized inverse or mirror semantics. The older provisional business schema is historical design evidence only.
+
 ## Contents
 
 - Individual organization notes, including battery makers, charger makers, truck OEMs, distributors, software vendors, and accessory makers.
