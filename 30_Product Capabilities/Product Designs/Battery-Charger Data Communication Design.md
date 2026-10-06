@@ -14,6 +14,8 @@ designOf:
 realizes:
   - "[[Communicate with Charger]]"
 dependencyOf:
+supertypeOf:
+  - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Communicate with Charger]]"
 ---
 
