@@ -13,6 +13,10 @@ reuseScope: cross-product
 dependencyOf:
   - "[[Battery Event Logger Firmware]]"
 performs:
+partOf:
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[EnerSys Wi-iQ]]"
   - "[[Log Battery Events and Usage]]"
 ---
 
