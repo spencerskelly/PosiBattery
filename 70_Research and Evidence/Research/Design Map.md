@@ -50,6 +50,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]], [[Stryten X-3 Charger]] | - | - |
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
 | [[Breakaway Connector]] | [[Deka PowerForce Charger]] | - | - |
+| [[CAN Battery State Communication Design]] | [[PosiCharge PosiGuard]], [[EnerSys Wi-iQ]], [[Inventus Smart Battery Monitor SBM-01]], [[Hyster Power Cellect]], [[Stryten M-Series Li600 Battery]], [[Green Cubes GSE Lithium Battery]], [[HOPPECKE trak collect]] | - | - |
 | [[CAN Interface]] | [[Deka Ready Power Lithium Battery]], [[EnerSys Wi-iQ]], [[Exide Motion+ Premium Charger]], [[Green Cubes GSE Lithium Battery]], [[Hyster Power Cellect]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]], [[Stryten M-Series Li600 Battery]] | - | [[PosiCharge BMID 3]] |
 | [[CAN Vehicle Operating Limit Command]] | [[EnerSys Wi-iQ]] | - | - |
 | [[CAN-LIN and Battery Bus Interface]] | [[HOPPECKE trak collect]] | - | - |
