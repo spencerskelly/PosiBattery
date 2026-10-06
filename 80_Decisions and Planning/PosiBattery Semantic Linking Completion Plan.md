@@ -327,3 +327,30 @@ Evidence: `80_Decisions and Planning/Semantic Linking Product Architecture Revie
 **Commits:** `380a4c39`, `8f3d32e9`, `bb1d2d53`.
 
 **Result:** Step 7 complete. The next step is **Step 8 — Review Local Model contexts and occurrence usage**.
+
+
+---
+
+## Step 8 completion evidence — Local Model contexts and occurrence usage
+
+Reviewed every governed Local Model record and reference with a dedicated whole-vault occurrence-use check.
+
+Results:
+- **1 Local Model owner**, using schema **0.2**;
+- **11 local records** total: 3 parts, 4 endpoints, 2 connections, 2 flows;
+- **11 globally unique local tokens** with 0 note-UID collisions;
+- **3 explicit variant usages**, all with valid concrete candidate families;
+- **4 implicit standard endpoint usages**, all valid because their Port definitions are concrete;
+- **7 unique reusable definitions** with confirmed Local Model where-used coverage;
+- **0 unresolved definition links**, invalid local block references, invalid definition types, temporary equals findings, or contextual-composition duplication;
+- **0 Step 8 findings**.
+
+The review confirms that Local Model occurrences are providing legitimate contextual where-used coverage without turning battery, charger, Port, or Item Flow context into false note-level composition.
+
+No model relationships, IDs, UIDs, Local Model tokens, or Local Model records were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Local Model Review Step 8 0.1.yaml`.
+
+**Commits:** `6fa95c81`, `77ed4931`, `69295486`.
+
+**Result:** Step 8 complete. The next step is **Step 9 — Review Ports and Item Flows**.
