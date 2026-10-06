@@ -11,6 +11,7 @@ tags:
 reuseScope: cross-product
 partOf:
   - "[[Load-Handling Camera Assembly]]"
+  - "[[Toyota Twistlock Snapshot Camera System]]"
 performs:
   - "[[Record Images of Load Handling]]"
 ---
