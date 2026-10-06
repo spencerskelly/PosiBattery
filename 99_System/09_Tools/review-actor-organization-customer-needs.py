@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 22 Actor, Organization, and Customer Need semantic review.
 
+Governed Step 22 review entry point.
+
 Validates Actor-to-Need ownership, Customer Need participation, legacy
 organization identity treatment, and governed business relationships.
 Report-only: no identity/type migration is implied.
