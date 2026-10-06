@@ -13,6 +13,8 @@ supertypeOf:
 dependencyOf:
   - "[[Log Battery Events and Usage]]"
   - "[[Predict Battery Replacement Timing]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Data Handling Design
