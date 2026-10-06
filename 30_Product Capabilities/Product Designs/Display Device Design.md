@@ -10,12 +10,10 @@ tags:
 subtypeOf:
   - "[[Warning and Display Device Design]]"
 supertypeOf:
+  - "[[Vehicle Operator Display Design]]"
   - "[[Battery Status Gauge]]"
   - "[[Integrated LCD Display]]"
-  - "[[Operator Touch Display]]"
-  - "[[Vehicle-Mounted Display]]"
 dependencyOf:
-  - "[[Display Battery Status to Operator]]"
   - "[[Display Truck Status to Operator]]"
   - "[[Enforce Pre-Shift Checklist]]"
   - "[[Show Camera View to Operator]]"
