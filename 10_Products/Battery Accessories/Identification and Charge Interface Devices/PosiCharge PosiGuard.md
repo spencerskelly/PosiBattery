@@ -129,4 +129,6 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Implementation assumption — battery identification path:** PosiGuard is treated as performing [[Identify Battery to Charger]] with >=95% confidence because it is identified as a BMID-family device and publicly supports charger communication. The exact identification-message implementation is not published.
 - **Implementation assumption — communication hardware:** the modeled [[Control Circuit]], [[Battery Identification and Charger Communication Firmware]], [[CAN Communication Circuit]], [[Serial Communication Circuit]], [[BLE Communication Circuit]], and [[LoRa Communication Circuit]] are circuit-level abstractions inferred from the published functions/interfaces. The vendor evidence supports CAN, Serial, Bluetooth, and optional LoRa interfaces, but not the exact transceiver/module topology or part numbers.
 
+- **Implementation assumption — voltage measurement hardware:** [[Battery Voltage Measurement Circuit]], [[Battery Voltage Acquisition Firmware]], and [[Battery Voltage Measurement Design]] are allocated at >=95% confidence from the published 18–120 V operating range, voltage monitoring, and 30 mV resolution. The internal topology is not published, so none of the concrete child circuits is selected for PosiGuard.
+
 ## Former ids
