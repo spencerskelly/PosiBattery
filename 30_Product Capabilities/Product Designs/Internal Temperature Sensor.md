@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90003
+id: DES-90903
 uid: 20261006061500002skellyspencer
 status: Draft
 tags:
@@ -36,3 +36,5 @@ Temperature sensor integrated inside the monitoring device rather than connected
 - No circuit subtype is assigned until the sensing technology and conditioning method are established.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90003; duplicate value is intentionally not reserved here.
