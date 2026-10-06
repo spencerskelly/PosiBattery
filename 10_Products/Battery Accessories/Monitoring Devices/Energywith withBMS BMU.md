@@ -21,9 +21,10 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
-  - "[[Predict Battery Replacement Timing]]"
   - "[[Log Battery Events and Usage]]"
 madeBy:
+dependencyOf:
+  - "[[Energywith withBMS Analytics Service]]"
   - "[[Energywith]]"
 ---
 
@@ -73,6 +74,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Log Battery Events and Usage]] (V): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 - **Sources used for the mapping above:** Seed note (cites the Energywith vendor pages) <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture correction — replacement timing:** Energywith's published architecture places degradation/replacement analysis in the service platform, while this BMU is the battery-resident measurement source. [[Energywith withBMS Analytics Service]] therefore performs [[Predict Battery Replacement Timing]], and this BMU supplies its data.
 
 ## Aliases
 
