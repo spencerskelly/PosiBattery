@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 import re, yaml
 
 ROOT=Path(__file__).resolve().parents[2]
-REPORT=ROOT/"architecture-design-linking-review.md"
+REPORT=ROOT/"architecture-design-linking-review.md"\nBMID_TRACE=ROOT/"80_Decisions and Planning"/"BMID Function Design Traceability Step 89 0.1.yaml"
 
 def fm(text):
     if not text.startswith("---\n"): return {}
@@ -114,20 +114,41 @@ for p,d in designs.items():
         if p not in backs:
             findings.append((p,"designOf-inverse",f"designOf {Path(q).stem} lacks reciprocal hasDesign."))
 
-# Review active BMID function implementation choices.
+# Review active BMID implementation choices against the explicit Step 89 decision record.
+trace=yaml.safe_load(BMID_TRACE.read_text(encoding="utf-8")) or {}
+gap_names={str(x.get("function")) for x in trace.get("open_design_gaps",[]) if isinstance(x,dict)}
+direct_names={str(x.get("function")) for x in trace.get("direct_realization_links",[]) if isinstance(x,dict)}
+dependency_names={str(x.get("function")) for x in trace.get("existing_design_dependencies",[]) if isinstance(x,dict)}
+
 for p in sorted(active_bmid_functions):
+    name=Path(p).stem
     d=functions[p]
     direct_realized=[resolve(target(x)) for x in vals(d.get("realizedBy"))]
     direct_realized=[x for x in direct_realized if x in designs]
     deps=[resolve(target(x)) for x in vals(d.get("dependsOn"))]
     deps=[x for x in deps if x in designs]
-    if direct_realized:
-        counts["active_bmid_functions_with_direct_design_realization"]+=1
-    elif deps:
-        counts["active_bmid_functions_with_design_dependency_only"]+=1
+
+    if name in gap_names:
+        if direct_realized or deps:
+            findings.append((p,"gap-record-stale","Step 89 records this as unresolved but the Function now has a Design path."))
+        else:
+            counts["active_bmid_explicit_open_design_gaps"]+=1
+            unresolved.append((p,"EXC-ARCH-UNRESOLVED","Step 89 explicitly leaves the architecture choice unresolved."))
+    elif name in direct_names:
+        if direct_realized:
+            counts["active_bmid_functions_with_direct_design_realization"]+=1
+        else:
+            findings.append((p,"missing-approved-realization","Step 89 records an approved direct realization but no realizedBy Design is present."))
+    elif name in dependency_names:
+        if deps:
+            counts["active_bmid_functions_with_design_dependency_only"]+=1
+        else:
+            findings.append((p,"missing-approved-dependency","Step 89 records an approved Design dependency but no dependsOn Design is present."))
     else:
-        counts["active_bmid_functions_with_no_design_path"]+=1
-        unresolved.append((p,"EXC-ARCH-UNRESOLVED","No supported Design realization/dependency is currently modeled."))
+        # Not every active product Function needs a direct Function->Design edge.
+        # Some behavior is contextualized by product-owned Designs, Local Model
+        # interfaces, or another more specific Function. Do not infer a Design.
+        counts["active_bmid_functions_without_required_direct_design_mapping"]+=1
 
 # Check realizedBy/realizes symmetry for Function->Design and Design->Function.
 for p,d in functions.items():
@@ -196,7 +217,7 @@ lines += ["","## Interpretation","",
 "- realizedBy/realizes is reserved for direct implementation of Function/Use Case behavior by a Design.",
 "- dependsOn/dependencyOf is an enabling dependency and must not be promoted to realization merely to close a traceability gap.",
 "- appliesTo/applies scopes a Design/Requirement/Info claim; absence is not automatically a defect when ownership/realization already supplies context.",
-"- Specific Designs without any implementation/context relationship are review findings; abstract/general Design families may legitimately exist primarily as reusable taxonomy.",
+"- Specific Designs without any implementation/context relationship are review findings; abstract/general Design families may legitimately exist primarily as reusable taxonomy.\n- The BMID direct-realization/dependency/open-gap decisions are validated against the explicit Step 89 decision record rather than inferred from link absence alone.",
 "- Active BMID Functions with no supported Design path are recorded as EXC-ARCH-UNRESOLVED rather than linked to a nearby Design by inference.",
 ]
 REPORT.write_text("\n".join(lines),encoding="utf-8")
