@@ -19,6 +19,8 @@ dependencyOf:
   - "[[Coulomb Counting State of Charge Estimator Firmware]]"
   - "[[Hybrid State of Charge Estimator Firmware]]"
 partOf:
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[Access Control Group CellTrac]]"
   - "[[EnerSys Wi-iQ]]"
