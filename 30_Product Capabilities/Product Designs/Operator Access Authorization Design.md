@@ -2,7 +2,7 @@
 type: Design
 subtype:
 id: DES-90943
-uid: 20261006212000001skellyspencer
+uid: 20261006203800010skellyspencer
 status: Draft
 tags:
   - truck
