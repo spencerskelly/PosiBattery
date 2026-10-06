@@ -17,6 +17,9 @@ participants:
   - "[[Forklift Operator]]"needOf:
   - "[[Equipment Installer]]"
   - "[[Forklift Operator]]"
+needOf:
+  - "[[Equipment Installer]]"
+  - "[[Forklift Operator]]"
 
 ---
 
