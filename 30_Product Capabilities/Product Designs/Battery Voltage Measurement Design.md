@@ -23,6 +23,7 @@ supportedBy:
 dependencyOf:
   - "[[State of Charge Estimation Design]]"
   - "[[Voltage-Based State of Charge Estimation]]"
+  - "[[Hybrid State of Charge Estimation]]"
 ---
 
 # Battery Voltage Measurement Design
