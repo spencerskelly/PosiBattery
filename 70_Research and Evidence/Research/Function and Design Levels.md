@@ -140,3 +140,5 @@ How functions and designs are generalized into levels, which relationships conne
 - Levels of function and design
 
 ## Former ids
+
+  - **[[Load-Handling Image Capture Design]]**: camera assembly plus event-triggered capture logic and retained image storage
