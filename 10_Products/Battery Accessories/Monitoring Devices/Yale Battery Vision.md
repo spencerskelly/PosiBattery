@@ -27,8 +27,11 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Log Battery Events and Usage]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
+hasPart:
+  - "[[Remote Alert Notification Service]]"
 offeredBy:
   - "[[Hyster-Yale]]"
 poweredBy:
@@ -74,6 +77,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Sources used for the mapping above:** M H&L New Products (2016-07-20, dated) <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Yale explicitly publishes 24/7 monitoring with email alerts and PosiNET reporting. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
 ## Aliases
 
