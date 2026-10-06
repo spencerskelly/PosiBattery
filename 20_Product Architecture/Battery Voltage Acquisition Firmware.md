@@ -17,6 +17,8 @@ performs:
 partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
+dependencyOf:
+  - "[[State of Charge Estimation Firmware]]"
 ---
 
 # Battery Voltage Acquisition Firmware
