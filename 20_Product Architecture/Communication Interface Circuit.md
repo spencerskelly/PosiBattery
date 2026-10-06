@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Wireless Communication Circuit]]"
 dependencyOf:
   - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[Battery-Charger Communication Firmware]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
 ---
 
