@@ -1,0 +1,139 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 21
+status: "Complete"
+title: "High-value evidence-bearing note review"
+
+scope:
+  priority:
+    - "active Requirements"
+    - "Requirement satisfiers"
+    - "direct Function-to-Design realizations"
+    - "active product/architecture scope"
+    - "selected supporting products"
+    - "validation intent versus executed evidence"
+  non_goal: "Do not bulk-link every note containing a URL or source citation."
+
+implementation:
+  review_script: "99_System/09_Tools/review-high-value-evidence.py"
+  script_commit: "a8deca12"
+  workflow: ".github/workflows/semantic-linking-high-value-evidence-review.yml"
+  workflow_commit: "c361d822"
+  trigger_commit: "a770d8ef"
+  behavior: "Focused source curation plus report-only whole-vault evidence queue review."
+
+high_value_source_documents_created:
+  - id: "DOC-00009"
+    note: "Document - PosiCharge BMID FAQ"
+    sourceClass: "web-page"
+    sourceUrl: "https://www.posicharge.com/faq/"
+    accessed: "2026-10-02"
+    describes:
+      - "PosiCharge BMID"
+    supports:
+      - "BMID - Provide Battery Identity to Compatible Charger"
+      - "BMID - Provide Supported Battery Condition Information to Charger"
+      - "BMID - Retain Battery-Specific Usage History"
+      - "Identify Battery to Charger"
+      - "Report Battery Temperature to Charger"
+      - "Log Battery Events and Usage"
+      - "Electrolyte-Immersed Temperature Sensor"
+    commit: "cd6da5d7"
+
+  - id: "DOC-00010"
+    note: "Document - PosiCharge PosiGuard Product Page"
+    sourceClass: "web-page"
+    sourceUrl: "https://posicharge.com/products/posiguard/"
+    accessed: "2026-10-03"
+    describes:
+      - "PosiCharge PosiGuard"
+    supports:
+      - "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+    commit: "86089e7b"
+
+  - id: "DOC-00011"
+    note: "Document - PosiCharge PosiConnect Product Page"
+    sourceClass: "web-page"
+    sourceUrl: "https://posicharge.com/products/posiconnect/"
+    accessed: "2026-10-03"
+    describes:
+      - "PosiCharge PosiConnect"
+    supports:
+      - "PosiGuard - Support Local Service Configuration"
+      - "Configure Device from Mobile App or PC"
+      - "Mobile App Interface"
+    commit: "15bef1c0"
+
+relationship_changes:
+  new_source_document_describes_pairs: 3
+  new_source_document_supports_pairs: 11
+  inverse_fields_added:
+    describedBy: 3
+    supportedBy: 11
+  total_new_governed_relationship_assertions: 28
+  speculative_links_added: 0
+  final_inverse_completion_commit: "69d89542"
+
+validation:
+  workflow_run: 37399126391
+  job_id: 112062074277
+  result: "success"
+  vault_audit_run: 37399126424
+  vault_audit_job: 112062074836
+  vault_audit_result: "success"
+  curated_source_documents_current: 11
+  source_document_describes_assertions_current: 28
+  source_document_supports_assertions_current: 11
+  active_requirements: 6
+  active_requirements_with_verification_evidence_path: 6
+  externally_evidenced_high_value_requirements: 5
+  active_requirements_internal_semantic_basis: 1
+  requirement_satisfying_functions: 4
+  satisfying_functions_with_curated_source_support: 4
+  direct_realizing_designs: 2
+  realizing_designs_with_curated_source_support: 2
+  active_requirement_scope_objects: 2
+  active_scope_objects_with_curated_source_description: 2
+  selected_supporting_products: 1
+  selected_supporting_products_with_curated_source_description: 1
+  verification_intents: 6
+  executed_results: 0
+  findings: 0
+
+intentional_evidence_boundary:
+  requirement: "BMID - Preserve Battery Association"
+  disposition: "No direct external source-support assertion required in Step 21."
+  reason:
+    - "This is an internally derived semantic-integrity obligation: battery-specific identity/history must remain associated with the battery."
+    - "The active Requirement already has upstream rationale and Verification intent."
+    - "Current public evidence establishes a battery-mounted BMID and stored battery information but does not establish the unresolved lifecycle/implementation mechanism."
+    - "Adding direct source support as though the source defined the lifecycle requirement would overstate the evidence."
+  related_architecture_gap: "EXC-ARCH-UNRESOLVED"
+
+whole_vault_queue:
+  evidence_signal_notes_detected_by_step_21_review: 775
+  notes_with_curated_source_document_relationship: 33
+  evidence_signal_notes_not_directly_curated: 736
+  interpretation: "This is a curation queue, not a defect count. Many are market/reference notes whose inline provenance is sufficient until an active engineering decision relies on the claim."
+  rule: "Promote evidence into governed relationships when the claim materially affects a Requirement, Design, validation decision, architecture decision, supplier/product selection, or other active engineering choice."
+
+semantic_interpretation:
+  - "describes means the source is directly about the named product/organization."
+  - "supports means the source materially supports the specific engineering claim; it is not inferred from feature similarity."
+  - "Curated first-party source records are preferable to using a broad research synthesis when the source itself is known."
+  - "Verification intent is not executed evidence; zero Result notes means no test-pass evidence is claimed."
+  - "Low-value reference URLs may remain sparse without being treated as semantic defects."
+
+integrity:
+  ids_changed: 0
+  uids_changed: 0
+  existing_element_types_changed: 0
+  low_value_reference_links_bulk_added: 0
+
+conclusion:
+  unexplained_high_value_evidence_findings: 0
+  active_external_claims_reviewed: true
+  low_value_reference_sparsity_preserved: true
+  next_step: "Step 22 — Review Actors, Organizations, and customer needs"
