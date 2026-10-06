@@ -1,7 +1,7 @@
 ---
 type: Object
 subtype: circuit
-id: OBJ-90039
+id: OBJ-90901
 uid: 20261006060500002skellyspencer
 status: Draft
 tags:
@@ -35,3 +35,5 @@ Reusable hardware family for sensing battery temperature and conditioning the se
 - [[Control Circuit]] provides shared acquisition/control resources but is not the temperature-sensing element itself.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate OBJ-90039; duplicate value is intentionally not reserved here.
