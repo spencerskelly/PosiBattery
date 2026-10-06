@@ -33,6 +33,7 @@ hasDesign:
   - "[[Wi-Fi Interface]]"
   - "[[DC-Cable Power-Line Communication]]"
   - "[[Equalization Event Tracking Design]]"
+  - "[[Battery-Charger Data Communication Design]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredWith:
@@ -105,6 +106,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
