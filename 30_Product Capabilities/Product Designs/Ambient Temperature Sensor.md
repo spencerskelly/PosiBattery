@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Battery Temperature Measurement Design]]"
 designOf:
+  - "[[Ambient Temperature Sensor Element]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
 describedBy:
   - "[[Metric - Temperature Sensing]]"
@@ -27,6 +28,7 @@ Temperature sensing of the air or local environment surrounding the battery or m
 - [[AMETEK Prestolite Power WBID Pro]] explicitly identifies ambient temperature sensing in addition to electrolyte temperature sensing.
 - This Design represents measurement locus, not sensor technology. The public source does not identify whether the ambient sensor is a thermistor, semiconductor sensor, RTD, or another technology.
 - Ambient temperature is intentionally kept distinct from [[Electrolyte-Immersed Temperature Sensor]], [[External Thermistor Temperature Sensor]], and [[Internal Temperature Sensor]] because the measured physical quantity differs.
+- [[Ambient Temperature Sensor Element]] captures the verified physical sensor occurrence without selecting a technology.
 - No concrete circuit subtype is assigned until the sensor technology is established.
 
 ## Former ids
