@@ -16,6 +16,7 @@ dependencyOf:
   - "[[Battery Identification and Charger Communication Firmware]]"
   - "[[Battery-Charger Communication Firmware]]"
   - "[[Device Configuration and Service Firmware]]"
+  - "[[Battery Data Export Firmware]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
 ---
 
