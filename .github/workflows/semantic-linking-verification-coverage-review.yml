@@ -1,0 +1,25 @@
+name: Semantic Linking Verification Coverage Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '20_Product Architecture/PosiCharge BMID Validation/**'
+      - '30_Product Capabilities/**'
+      - '10_Products/**'
+      - '99_System/09_Tools/review-verification-coverage.py'
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review Verification coverage
+        run: python 99_System/09_Tools/review-verification-coverage.py
