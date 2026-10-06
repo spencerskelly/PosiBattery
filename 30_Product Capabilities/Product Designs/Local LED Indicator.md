@@ -12,6 +12,7 @@ subtypeOf:
 describedBy:
   - "[[Metric - Onboard Accessories]]"
 designOf:
+  - "[[LED Status Indicator Element]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
@@ -53,6 +54,7 @@ LED indicator on the device or at the battery showing status.
   - [[Philadelphia Scientific eGO!c]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
   - [[Philadelphia Scientific SmartBlinky Pro]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Flow-Rite Eagle Eye Essential IV]] (V): <https://mhwmag.com/?p=86116>
+  - [[Flow-Rite Eagle Eye Elite IV]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
   - [[HOPPECKE trak collect]] (V): <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Deka HydraSaver Battery]] (V): <https://www.eastpennmanufacturing.com/?p=5240>
