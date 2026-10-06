@@ -15,6 +15,8 @@ hasPart:
   - "[[LoRa Radio Module]]"
 hasDesign:
   - "[[LoRa Interface]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # LoRa Communication Circuit
