@@ -23,6 +23,9 @@ supports:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Data Handling Design]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
+  - "[[Thermistor Temperature Sensor]]"
+  - "[[Thermistor Temperature Measurement Circuit]]"
+  - "[[Battery Temperature Measurement Design]]"
 
 ---
 
