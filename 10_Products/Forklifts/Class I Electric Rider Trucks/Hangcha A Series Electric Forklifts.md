@@ -20,6 +20,10 @@ hasDesign:
   - "[[Vehicle-Mounted Display]]"
   - "[[Audible Alarm]]"
   - "[[Quick-Change Battery Compartment]]"
+hasPart:
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Operator Display Controller Circuit]]"
+  - "[[Operator Display HMI Firmware]]"
 madeBy:
   - "[[Hangcha Group]]"
 offeredWith:
@@ -45,6 +49,8 @@ Hangcha A series electric forklifts (1.0 to 3.5 t) with LiFePO4 batteries and an
   - [[Vehicle-Mounted Display]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
   - [[Audible Alarm]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
   - [[Quick-Change Battery Compartment]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
+
+- **Architecture realization — truck status display:** the multi-function dashboard is verified. [[Vehicle-Mounted Display Module]] captures the visible display role. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Hangcha does not publish the internal display electronics, software partition, or data transport.
 
 ## Aliases
 
