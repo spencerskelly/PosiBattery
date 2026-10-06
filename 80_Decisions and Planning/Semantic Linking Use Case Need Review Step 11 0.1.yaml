@@ -1,0 +1,94 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 11
+status: "Complete"
+title: "Use Case participation and governed need-link review"
+
+scope:
+  governed_type: "Use Case"
+  review_focus:
+    - "participants"
+    - "Actor/Organization customer-need ownership"
+    - "hasNeed/needOf governed inverse pair"
+    - "realizedBy/realizes operational and need capability links"
+    - "drives/drivenBy requirement-driving links where supported"
+    - "includes/includedIn and optionOf/hasOption only where scenario semantics exist"
+    - "separation of external actor behavior from product-controlled Function behavior"
+
+implementation:
+  review_script: "99_System/09_Tools/review-use-case-need-linking.py"
+  script_commit: "6c6e168a"
+  workflow: ".github/workflows/semantic-linking-use-case-review.yml"
+  workflow_commit: "d0734055"
+  behavior: "Review plus evidence-backed relationship repair."
+  semantic_upgrade:
+    actor_organization_need_pairs_added: 43
+    persisted_relationship_assertions_added: 86
+    relationship_pair: "hasNeed / needOf"
+    basis:
+      - "Every current Customer Need already explicitly identified its Actor holder(s) through participants and 'Who has the problem' content."
+      - "relationships.yaml 1.36 provides the stronger governed Actor/Organization -> Use Case need relationship."
+      - "participants remains intact because participation and need ownership are distinct semantics."
+
+final_review:
+  workflow_run: 37394086394
+  job_id: 112045779563
+  result: "success"
+  use_cases_total: 42
+  customer_needs: 22
+  operational_use_cases: 12
+  context_use_cases: 8
+  use_cases_with_participants: 42
+  customer_needs_with_actor_or_org_participant: 22
+  customer_needs_with_governed_needOf: 22
+  customer_needs_with_realizedBy: 22
+  operational_use_cases_with_actor_or_org_participant: 12
+  operational_use_cases_with_realizedBy: 12
+  missing_or_unsynchronized_need_pairs: 0
+  other_findings: 0
+
+relationship_validation:
+  vault_audit_run: 37394086612
+  job_id: 112045780093
+  result: "success"
+  governed_relationship_assertions: 6073
+  unresolved_targets: 0
+  missing_inverses: 0
+  relationship_findings: 0
+  semantic_relationship_assertions_plus_local_model_definition_uses: 6082
+  isolated_model_elements: 2
+  legacy_weak_traceability_findings: 221
+  matrix_dimension_findings: 1088
+
+semantics:
+  participants: "One-way Use Case participation. Retained for both Customer Needs and operational/context Use Cases."
+  hasNeed_needOf: "Explicit ownership of a Customer Need by an Actor or Organization."
+  realizedBy_realizes: "Capability/Function or Design realization of the Use Case."
+  drives_drivenBy: "Causal relationship, including Use Case -> Requirement when supported."
+  includes_optionOf: "Not required globally; use only for real membership/optional scenario semantics."
+  actor_function_boundary: "External/user behavior remains Use Case; product-controlled behavior remains Function."
+
+repair_note:
+  issue: "During the batch addition of needOf, seven Customer Need frontmatter blocks were temporarily malformed and created unresolved targets."
+  action: "The seven affected frontmatter blocks were repaired and duplicate/glued needOf entries removed before Step 11 completion."
+  final_status: "No remaining parse, relationship-resolution, or inverse findings."
+  affected_final_model_integrity: false
+
+semantic_changes:
+  customer_need_notes_changed: 22
+  actor_notes_changed: 10
+  hasNeed_assertions_added: 43
+  needOf_assertions_added: 43
+  speculative_links_added: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+
+conclusion:
+  use_case_participation: "pass"
+  customer_need_holders: "pass"
+  operational_realization: "pass"
+  unexplained_use_case_linking_gaps: 0
+  next_step: "Step 12 — Review Requirement upstream rationale"
