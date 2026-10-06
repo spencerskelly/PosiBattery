@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:
+  - "[[Display Battery Status to Operator]]"
   - "[[Slow Truck in Curves]]"
   - "[[Limit Truck Speed Automatically]]"
   - "[[Hold Truck on Slope]]"
@@ -24,11 +25,17 @@ performs:
   - "[[Operate in Wet or Dusty Conditions]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
 hasDesign:
+  - "[[Battery Discharge Indicator]]"
   - "[[Electric Parking Brake]]"
   - "[[Regenerative Braking]]"
   - "[[Audible Alarm]]"
   - "[[Floor-Projected Warning Light]]"
   - "[[Vehicle-Mounted Display]]"
+hasPart:
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Battery Discharge Indicator Module]]"
+  - "[[Operator Display Controller Circuit]]"
+  - "[[Operator Display HMI Firmware]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -55,6 +62,7 @@ Crown three-wheel stand-up electric counterbalance forklift, 1.5 to 1.8 t, V-For
   - [[Program Travel, Lift and Tilt Speeds]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Protect Battery from Deep Discharge]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Display Truck Status to Operator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Display Battery Status to Operator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Control Operator Access]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Operate in Cold Storage]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Operate in Wet or Dusty Conditions]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
@@ -65,6 +73,9 @@ Crown three-wheel stand-up electric counterbalance forklift, 1.5 to 1.8 t, V-For
   - [[Audible Alarm]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Floor-Projected Warning Light]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Vehicle-Mounted Display]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+  - [[Battery Discharge Indicator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+
+- **Architecture realization — operator battery display:** the Crown display and battery-discharge indicator are verified. [[Vehicle-Mounted Display Module]] and [[Battery Discharge Indicator Module]] represent those physical roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Crown does not publish the internal display electronics, software partition, or battery-data transport.
 
 ## Aliases
 
