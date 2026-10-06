@@ -13,6 +13,7 @@ reuseScope: cross-product
 dependsOn:
   - "[[Operator Display Controller Circuit]]"
 performs:
+  - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 partOf:
   - "[[Crown RC 5700 Series]]"
@@ -27,7 +28,7 @@ partOf:
 
 ## Definition
 
-Firmware or embedded HMI software that converts battery-state information into operator-facing values, icons, warnings, pages, or widgets.
+Firmware or embedded HMI software that converts battery, vehicle, diagnostic, or subsystem state into operator-facing values, icons, warnings, pages, or widgets.
 
 ## Notes
 
