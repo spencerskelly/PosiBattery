@@ -19,7 +19,11 @@ performs:
 hasDesign:
   - "[[Onboard Charger Mounting]]"
   - "[[USB Data Download]]"
+  - "[[BMS-Directed Charge Control Design]]"
+  - "[[CAN BMS-Directed Charging]]"
 madeBy:
+hasPart:
+  - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Delta-Q Technologies]]"
 ---
 
@@ -47,6 +51,8 @@ Delta-Q industrial charger with CAN bus (CANopen, CiA 419) for on-board or off-b
 - The Delta-Q IC650 sheet (Downloads/DQIC650-48_13.5.pdf) lists 24 V at 27 A, 36 V at 18 A and 48 V at 13.5 A, 650 W, lead acid (wet, AGM, gel) and lithium, on- and off-board versions, optional CAN, USB host port, for scissor lifts, lift trucks, floor care machines and golf cars. Source: Delta-Q IC650 sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.simpower.co.nz/>
 - Delta-Q says every lead-acid charge algorithm has three stages: Bulk (most energy returned at maximum power or current, exit at a conservative target voltage), Absorption (constant voltage while the current tapers) and Finish (a constant-current finish, sized to the battery as its maker specifies, used in cyclic applications); algorithms are developed with battery manufacturers, the IC650 datasheet lists up to 25 field-programmable charge profiles, a reseller lists 16 lead-acid and 2 lithium profiles preloaded and more than 200 developed, some algorithms are temperature compensated and need the charger's temperature sensor, and Delta-Q advises monitoring a new battery and algorithm pair for at least three cycles. Source: Delta-Q support articles, IC650 datasheet and reseller listing (T1/T3), retrieved 2026-10-03. <https://support.delta-q.com/hc/en-us/articles/360015387312-What-is-an-Algorithm-Charge-Profile>
 - Delta-Q says lithium packs need a BMS and are generally charged at constant current until a target voltage; its lithium chargers use an algorithm-only method (charger and BMS do not communicate; the charger follows the battery or BMS maker's algorithm to the target voltage and the BMS may close or open a contact to enable or disable charging) or a remote-control method over CAN where the charger follows the BMS and can be commanded to deliver maximum voltage and current; it advises charging lithium by direct BMS communication, offers generic lithium algorithms that charge to a listed voltage, and warns against lead-acid algorithms on lithium because of overcharge risk. Source: Delta-Q support article FAQ164 and Delta-Q newsletter (T1), retrieved 2026-10-03. <https://support.delta-q.com/hc/en-us/articles/14188856858893-Choosing-an-Algorithm-for-a-Lithium-Battery>
+
+- **Architecture realization — BMS-directed charging:** published behavior supports [[BMS-Directed Charge Control Design]] and the CAN-specific [[CAN BMS-Directed Charging]] path. [[BMS-Directed Charge Control Firmware]] is allocated at **>=95% engineering confidence** because charger-side executable control is required while the internal software partition is unpublished. The exact BMS message set, timeout/fallback behavior, and safety handoff remain product-specific.
 
 ## Aliases
 
