@@ -25,6 +25,7 @@ designOf:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Exide Motion+ Premium Charger]]"
   - "[[Hyster Power Cellect]]"
+  - "[[CAN Communication Circuit]]"
 ---
 
 # CAN Interface
