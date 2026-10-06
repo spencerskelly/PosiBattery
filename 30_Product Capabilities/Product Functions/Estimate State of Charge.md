@@ -25,6 +25,9 @@ performedBy:
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[HOPPECKE trak collect]]"
   - "[[State of Charge Estimation Firmware]]"
+  - "[[Hybrid State of Charge Estimator Firmware]]"
+  - "[[Coulomb Counting State of Charge Estimator Firmware]]"
+  - "[[Voltage-Based State of Charge Estimator Firmware]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Inspect Battery Condition Through a BMID]]"
