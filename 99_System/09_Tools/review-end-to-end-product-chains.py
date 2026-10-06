@@ -13,6 +13,7 @@ import re, yaml
 
 ROOT=Path(__file__).resolve().parents[2]
 REPORT=ROOT/"end-to-end-product-chain-audit.md"
+DISP=ROOT/"80_Decisions and Planning"/"Semantic Linking Review Dispositions 0.1.yaml"
 
 def fm(t):
     if not t.startswith("---\n"): return {}
@@ -307,6 +308,42 @@ for row in rows:
     if "need-hypothesis" in tags:
         need_hypotheses+=1
 counts["chain_need_records_still_hypotheses"]=need_hypotheses
+
+# Formal active-chain registry classifications.
+disp=yaml.safe_load(DISP.read_text(encoding="utf-8")) or {}
+records=disp.get("records") or {}
+registry_findings=[]
+active_chain_paths=set()
+for spec in specs:
+    for name in [spec["requirement"],spec["product"],spec["use_case"],spec.get("need"),spec.get("satisfier"),spec.get("implementation"),spec.get("architecture")]:
+        p=resolve(name) if name else None
+        if p: active_chain_paths.add(p)
+    req=resolve(spec["requirement"])
+    if req:
+        active_chain_paths.update(links(req,"verifiedBy"))
+# Include all source needs attached to the five governed product Use Cases, not
+# only the representative Need selected for each requirement-centered chain.
+for spec in specs:
+    uc=resolve(spec["use_case"])
+    if uc:
+        active_chain_paths.update(q for q in links(uc,"givesRiseTo") if notes[q].get("type")=="Use Case" and notes[q].get("subtype")=="why")
+
+for p in sorted(active_chain_paths):
+    rec=records.get(p)
+    if not isinstance(rec,dict) or rec.get("classification")!="active_engineering":
+        registry_findings.append((p,"classification","Expected active_engineering."))
+
+service_uc=resolve("Configure and Service a Supported BMID")
+if service_uc:
+    rec=records.get(service_uc) or {}
+    g=(rec.get("gaps") or {}).get("upstream")
+    if not isinstance(g,dict) or g.get("disposition")!="unresolved" or g.get("exception")!="EXC-EVIDENCE-PENDING":
+        registry_findings.append((service_uc,"upstream_gap","Expected unresolved / EXC-EVIDENCE-PENDING."))
+
+counts["active_chain_registry_elements"]=len(active_chain_paths)
+counts["active_chain_registry_findings"]=len(registry_findings)
+for p,kind,msg in registry_findings:
+    findings.append(("Step 27 registry",kind,f"{p}: {msg}"))
 
 print("end to end product chain audit")
 for k,v in sorted(counts.items()): print(f"  {k}: {v}")
