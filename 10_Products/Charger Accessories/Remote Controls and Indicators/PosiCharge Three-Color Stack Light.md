@@ -13,7 +13,9 @@ tags:
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:
-  - "[[Indicate Battery Status Locally]]"
+  - "[[Indicate Charger Status Locally]]"
+hasDesign:
+  - "[[Remote Charger Status Stack Light]]"
 madeBy:
   - "[[PosiCharge]]"
 ---
@@ -43,6 +45,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Baseline confidence (Three-color stack light):** Verified public—listing level. **Still needed:** Electrical interface; compatible products; mounting options; current SKU; environmental/regulatory rating.
 - **Functions performed, with citations:**
   - [[Indicate Battery Status Locally]] (V): <https://posicharge.com/accessories/>
+
+- **Architecture realization:** [[Remote Charger Status Stack Light]] is verified. PosiCharge states that the light requires an Accessory Driver Kit, so the output-driver role is external to the stack-light product; no internal [[Status Indicator Driver Circuit]] is assigned to the light itself.
 
 ## Aliases
 
