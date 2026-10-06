@@ -19,8 +19,10 @@ performs:
 hasDesign:
   - "[[Battery Discharge Indicator]]"
   - "[[CAN Interface]]"
+  - "[[CAN-Coordinated Deep Discharge Shutdown]]"
 hasPart:
   - "[[CAN Communication Circuit]]"
+  - "[[CAN Deep Discharge Shutdown Logic]]"
 dependsOn:
   - "[[Battery Discharge Indicator Module]]"
 madeBy:
@@ -71,6 +73,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Adapt Truck to Battery Chemistry]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
 
 - **Architecture realization — operator battery display:** Hyster explicitly identifies a CAN link between battery and truck and presentation of battery data on the factory Battery Discharge Indicator. [[CAN Communication Circuit]] is allocated at **>=95% engineering confidence** as the reusable physical-layer role; [[Battery Discharge Indicator Module]] is modeled as a dependency because the factory indicator belongs to the truck rather than to the Power Cellect option package.
+
+- **Architecture realization — deep discharge protection:** Hyster explicitly states that Power Cellect uses CAN between the qualified battery and truck and triggers a controlled shutdown at complete discharge. [[CAN-Coordinated Deep Discharge Shutdown]] is therefore product-backed; [[CAN Deep Discharge Shutdown Logic]] captures the reusable control role at **>=95% engineering confidence** while the exact ECU/software partition remains undisclosed.
 
 ## Aliases
 
