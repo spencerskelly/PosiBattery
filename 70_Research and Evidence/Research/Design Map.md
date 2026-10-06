@@ -42,6 +42,9 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
 | [[BMS Internal Temperature Sensing]] | [[Green Cubes SAFEFlex Battery]] | - | - |
+| [[BMS Discharge Limitation]] | [[EnerSys NexSys iON Battery]] | - | - |
+| [[CAN-Coordinated Deep Discharge Shutdown]] | [[Hyster Power Cellect]] | - | - |
+| [[Truck Battery Discharge Interlock]] | [[Crown RC 5700 Series]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
 | [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]], [[Stryten X-3 Charger]] | - | - |
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
