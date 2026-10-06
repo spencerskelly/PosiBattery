@@ -13,6 +13,8 @@ designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
+dependencyOf:
+  - "[[Mid-Battery Differential Voltage Measurement]]"
 ---
 
 # Mid-Battery Voltage Tap
