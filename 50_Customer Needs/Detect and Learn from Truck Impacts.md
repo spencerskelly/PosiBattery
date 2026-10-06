@@ -14,13 +14,10 @@ realizedBy:
   - "[[Lock Out Vehicle After Impact]]"
 participants:
   - "[[Site Safety Manager]]"
-  - "[[Fleet Operations Manager]]"needOf:
-  - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
 needOf:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
-
 ---
 
 # Detect and Learn from Truck Impacts
