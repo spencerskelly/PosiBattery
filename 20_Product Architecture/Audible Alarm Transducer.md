@@ -13,6 +13,7 @@ hasDesign:
   - "[[Audible Alarm]]"
 partOf:
   - "[[Low Electrolyte Alert Output Assembly]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
 performs:
   - "[[Alert on Low Electrolyte Level]]"
 ---
