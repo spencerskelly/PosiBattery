@@ -16,7 +16,6 @@ realizes:
   - "[[Estimate State of Charge]]"
 designOf:
   - "[[State of Charge Estimation Firmware]]"
-  - "[[PosiCharge BMID]]"
 supportedBy:
   - "[[Document - PosiCharge GSE BMID Page]]"
 dependsOn:
@@ -31,7 +30,7 @@ Software/algorithm design for estimating battery state of charge from measured b
 
 ## Notes
 
-This is the selected reusable realization family for [[Estimate State of Charge]].
+This is the selected reusable realization family for [[Estimate State of Charge]]. Products with an unknown algorithm should link to the implementation firmware/Object rather than owning this general Design class.
 
 Concrete algorithm alternatives include:
 - [[Voltage-Based State of Charge Estimation]];
