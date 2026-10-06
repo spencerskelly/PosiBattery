@@ -15,6 +15,8 @@ hasDesign:
 hasPart:
   - "[[Load-Handling Image Sensor Module]]"
 performs:
+partOf:
+  - "[[Toyota Twistlock Snapshot Camera System]]"
   - "[[Record Images of Load Handling]]"
 ---
 
