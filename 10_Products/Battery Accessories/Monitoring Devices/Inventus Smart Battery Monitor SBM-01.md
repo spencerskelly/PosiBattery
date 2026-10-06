@@ -28,6 +28,7 @@ hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Battery Status Gauge Display Element]]"
   - "[[CAN Communication Circuit]]"
+  - "[[CAN Battery State Communication Firmware]]"
 madeBy:
   - "[[Inventus Power]]"
 ---
