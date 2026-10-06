@@ -203,3 +203,5 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Battery-Charger Data Communication Design]] | [[EnerSys NexSys iON Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac SP+]], [[Stryten inCOMMAND]], [[Exide Solition Light Traction Battery]], [[Crown V-Force BMID]] | - | - |
 
 | [[Battery Temperature Reporting to Charger]] | [[PosiCharge BMID]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[Fronius TagID]], [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[Crown V-Force BMID]] | - | - |
+
+| [[Operator Access Authorization Design]] | [[Toyota PIN Code Access Pad]], [[Panacea Smart Start]], [[Crown InfoLink]] | - | - |
