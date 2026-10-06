@@ -14,10 +14,10 @@ reuseScope: cross-product
 hasDesign:
   - "[[PC Service Tool Interface]]"
 performs:
+  - "[[Configure Device from Mobile App or PC]]"
 partOf:
   - "[[Crown V-Force BMID]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[Configure Device from Mobile App or PC]]"
 ---
 
 # PC Service Tool Software
