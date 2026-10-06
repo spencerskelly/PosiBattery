@@ -63,6 +63,8 @@ Power Designers modular high-frequency charger series for conventional, opportun
   - [[Equalize Battery on Schedule]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf> (also [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]])
 - **Round 11 document:** the PowerTrac 3 sheet says PowerTrac 3 integrates with REVOLUTION through power line communication, enables multi-amp, multi-voltage (24/36/48/72/80 V) charging, recognizes battery voltage and Ah capacity, and enables Smart Equalize that completes missed equalizations. Source: [[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]] (T1, local copy; original <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>), absorbed 2026-10-02.
 
+- **Commercial relationship note:** `rebrandedAs` records marketed product identity and does not imply product composition or specialization.
+
 ## Aliases
 
 - REVOLUTION
