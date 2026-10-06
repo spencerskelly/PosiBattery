@@ -19,7 +19,11 @@ hasDesign:
   - "[[Regenerative Braking]]"
   - "[[Electric Parking Brake]]"
   - "[[Bluetooth Interface]]"
+  - "[[Remote Vehicle Diagnostics Design]]"
 madeBy:
+hasPart:
+  - "[[Vehicle Diagnostic Data Acquisition Logic]]"
+  - "[[Remote Vehicle Diagnostic Service]]"
   - "[[Textron GSE]]"
 ---
 
@@ -41,6 +45,8 @@ Textron new lithium baggage tractor, CE certified.
   - [[Regenerative Braking]] (V): <https://textrongse.txtsv.com/products/tractors/tug-endurancer>
   - [[Electric Parking Brake]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/baggage-cargo/press-release/21280484/textron-gse-textron-gse-introduces-the-tug-endurance-baggage-tractor>
   - [[Bluetooth Interface]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/baggage-cargo/press-release/21280484/textron-gse-textron-gse-introduces-the-tug-endurance-baggage-tractor>
+
+- **Architecture realization — remote vehicle diagnostics:** published behavior supports [[Remote Vehicle Diagnostics Design]]. [[Vehicle Diagnostic Data Acquisition Logic]] and [[Remote Vehicle Diagnostic Service]] are allocated at **>=95% engineering confidence** because the internal diagnostic software partition is not published. The exact diagnostic protocol, controller coverage, snapshot content, wireless session, and technician tool remain product-specific.
 
 ## Aliases
 
