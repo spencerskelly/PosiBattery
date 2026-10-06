@@ -25,6 +25,7 @@ hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Internal Temperature Sensor]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
   - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
