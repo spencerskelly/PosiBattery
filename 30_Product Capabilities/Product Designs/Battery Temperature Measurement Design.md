@@ -21,7 +21,6 @@ dependencyOf:
   - "[[Measure Battery Temperature]]"
 designOf:
   - "[[Battery Temperature Measurement Circuit]]"
-  - "[[PosiCharge BMID]]"
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
@@ -34,7 +33,7 @@ General design class for measuring battery temperature and delivering a controll
 
 ## Notes
 
-- This is the reusable implementation family for [[Measure Battery Temperature]].
+- This is the reusable implementation family for [[Measure Battery Temperature]]. Products link to the applicable specific child Design; the general class itself is not product-owned.
 - Specific implementations may sense electrolyte, battery case/cell surface, internal device temperature, or ambient temperature; those are separate child Designs when evidence supports them.
 - [[Electrolyte-Immersed Temperature Sensor]] captures immersed-probe placement.
 - [[External Thermistor Temperature Sensor]] captures products that explicitly use an externally connected thermistor.
