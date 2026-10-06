@@ -15,6 +15,7 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Charge Battery from Standard Power Outlet]]"
 hasDesign:
+  - "[[Operator Dashboard Abnormal Alert]]"
   - "[[Vehicle-Mounted Display]]"
   - "[[Battery Onboard Charger]]"
 hasPart:
@@ -48,6 +49,8 @@ Yale four-wheel electric forklift with a fully integrated lithium-ion battery fo
   - [[Battery Onboard Charger]] (V): <https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf>
 
 - **Architecture realization — operator battery display:** state of charge and low-charge warnings on the truck display are verified. [[Vehicle-Mounted Display Module]] captures the physical display role. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because the source does not identify the internal controller, software architecture, or battery-data transport.
+
+- **Architecture realization — abnormal-condition alert:** Yale explicitly states that low state-of-charge and early-shutdown warnings appear on the truck display. [[Operator Dashboard Abnormal Alert]] therefore reuses the existing [[Vehicle-Mounted Display Module]] and [[Operator Display HMI Firmware]] architecture. The battery-data transport and warning-rule implementation are not published.
 
 ## Aliases
 
