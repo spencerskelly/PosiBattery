@@ -12,6 +12,8 @@ tags:
 subtypeOf:
   - "[[Device Configuration and Service Design]]"
 designOf:
+  - "[[Crown V-Force BMID]]"
+  - "[[HOPPECKE trak collect]]"
   - "[[PC Service Tool Software]]"
 ---
 
