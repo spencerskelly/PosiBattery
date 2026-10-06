@@ -12,9 +12,6 @@ designOf:
   - "[[Battery Identification and Charger Communication Firmware]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
-appliesTo:
-  - "[[PosiCharge BMID]]"
-  - "[[PosiCharge PosiGuard]]"
 dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
