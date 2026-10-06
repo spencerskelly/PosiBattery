@@ -22,9 +22,11 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Internal Temperature Sensor]]"
   - "[[Mobile App Interface]]"
 hasPart:
+  - "[[Remote Alert Notification Service]]"
   - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
@@ -70,6 +72,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Mobile App Interface]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
 - **Sources used for the mapping above:** PhilSci eGO!core page <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>; PhilSci eGO!core owner's manual <https://www.phlsci.com/media/ux3nu5uy/egocore-om-ps-en-us-doc0652.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Philadelphia Scientific explicitly publishes eGO!alerts and Critical Alert Service through batterymanagement.net. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
 ## Aliases
 
