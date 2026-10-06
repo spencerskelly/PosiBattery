@@ -12,6 +12,10 @@ subtypeOf:
 describedBy:
   - "[[Metric - Data Storage]]"
 designOf:
+  - "[[Amp-Hour Counter State Memory]]"
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[EnerSys Wi-iQ]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power BID]]"
   - "[[Power Designers PowerTrac 3]]"
