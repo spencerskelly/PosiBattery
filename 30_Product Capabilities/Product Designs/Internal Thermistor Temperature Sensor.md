@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90005
+id: DES-90905
 uid: 20261006064000001skellyspencer
 status: Draft
 tags:
@@ -32,3 +32,5 @@ Temperature sensing with a thermistor integrated inside the monitoring device ra
 - Exact thermistor type, package, resistance curve, conditioning network, and physical location inside the product are not stated.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90005; duplicate value is intentionally not reserved here.
