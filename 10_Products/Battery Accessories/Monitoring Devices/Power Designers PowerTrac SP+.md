@@ -34,6 +34,7 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[Reverse-Polarity Protection]]"
 hasPart:
+  - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Amp-Hour Accumulator Firmware]]"
