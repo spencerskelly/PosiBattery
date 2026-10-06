@@ -40,6 +40,8 @@ hasDesign:  - "[[Low-Current Electrolyte Level Input]]"
   - "[[CAN-LIN and Battery Bus Interface]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
+hasPart:
+  - "[[Low-Current Electrolyte Level Input Circuit]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
