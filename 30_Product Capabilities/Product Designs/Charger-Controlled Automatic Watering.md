@@ -2,7 +2,7 @@
 type: Design
 subtype:
 id: DES-90928
-uid: 20261006191500004skellyspencer
+uid: 20261006203800003skellyspencer
 status: Draft
 tags:
   - battery
