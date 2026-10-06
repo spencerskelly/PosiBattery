@@ -90,25 +90,31 @@ for p,d in notes.items():
         if not (relfields & alts):
             legacy.append((p,typ,label,alts))
 
-# Active engineering anchors are current product-scoped Requirements.
+# Active engineering anchors follow the explicit BMID Step-88/89 product-model
+# decisions rather than every market feature mapped onto PosiGuard.
 active_req={p for p,d in notes.items()
             if d.get("type")=="Requirement"
             and (vals(d.get("appliesTo")) or "product-requirement" in {str(x) for x in vals(d.get("tags"))})}
-active_products=set()
-for p in active_req:
-    active_products.update(q for q in linkset(p,"appliesTo") if notes[q].get("type")=="Object")
 
+STEP89=ROOT/"80_Decisions and Planning"/"BMID Function Design Traceability Step 89 0.1.yaml"
+step89=load(STEP89)
 active_functions=set()
 active_designs=set()
-for obj in active_products:
-    active_functions.update(q for q in linkset(obj,"performs") if notes[q].get("type")=="Function")
-    active_designs.update(q for q in linkset(obj,"hasDesign") if notes[q].get("type")=="Design")
-for req in active_req:
-    active_functions.update(q for q in linkset(req,"satisfiedBy") if notes[q].get("type")=="Function")
-    active_designs.update(q for q in linkset(req,"satisfiedBy") if notes[q].get("type")=="Design")
-for fn in list(active_functions):
-    active_designs.update(q for q in linkset(fn,"realizedBy") if notes[q].get("type")=="Design")
-    active_designs.update(q for q in linkset(fn,"dependsOn") if notes[q].get("type")=="Design")
+for row in step89.get("direct_realization_links") or []:
+    fp=resolve(str(row.get("function") or ""))
+    if fp: active_functions.add(fp)
+    for name in row.get("realizedBy") or []:
+        dp=resolve(str(name))
+        if dp: active_designs.add(dp)
+for row in step89.get("existing_design_dependencies") or []:
+    fp=resolve(str(row.get("function") or ""))
+    if fp: active_functions.add(fp)
+    for name in row.get("dependsOn") or []:
+        dp=resolve(str(name))
+        if dp: active_designs.add(dp)
+for row in step89.get("open_design_gaps") or []:
+    fp=resolve(str(row.get("function") or ""))
+    if fp: active_functions.add(fp)
 
 active_by_type={"Design":active_designs,"Function":active_functions,"Requirement":active_req}
 
@@ -117,15 +123,16 @@ def classify_weak(p,typ):
     if p in active_by_type.get(typ,set()):
         return "active_engineering"
     d=notes[p]
+    tags={str(x) for x in vals(d.get("tags"))}
     if typ=="Function":
         performers={q for f,q in incoming[p] if f=="performs" and notes[q].get("type")=="Object"}
-        # General/root functions without direct product performer are reusable support.
-        if not performers or vals(d.get("supertypeOf")) or vals(d.get("hasChild")):
+        if "general-function" in tags or not performers or vals(d.get("supertypeOf")) or vals(d.get("hasChild")):
             return "engineering_support"
         return "reference_content"
     if typ=="Design":
         owners={q for f,q in incoming[p] if f=="hasDesign" and notes[q].get("type")=="Object"}
-        if not owners or vals(d.get("supertypeOf")) or vals(d.get("hasChild")):
+        active_dependency=any(q in active_functions for f,q in outgoing[p] if f=="dependencyOf")
+        if "general-design" in tags or active_dependency or not owners or vals(d.get("supertypeOf")) or vals(d.get("hasChild")):
             return "engineering_support"
         return "reference_content"
     if typ=="Requirement":
@@ -158,21 +165,23 @@ for typ,paths in active_by_type.items():
             if alts and not (relfields & alts):
                 active_dimension_gaps.append((p,typ,dim,sorted(alts)))
 
-# Known acceptable/unresolved active gaps.
+# Named active unresolved decisions are carried from the authoritative earlier
+# reviews even when the coarse matrix has another qualifying relationship.
+named_active_unresolved=[]
+for row in step89.get("open_design_gaps") or []:
+    fp=resolve(str(row.get("function") or ""))
+    if fp:
+        named_active_unresolved.append((fp,"Function","implementation","EXC-ARCH-UNRESOLVED"))
+preserve=resolve("BMID - Preserve Battery Association")
+if preserve:
+    named_active_unresolved.append((preserve,"Requirement","satisfaction","EXC-ARCH-UNRESOLVED"))
+
 def expected_exception(p,typ,dim):
-    name=Path(p).stem
-    if typ=="Requirement" and name=="BMID - Preserve Battery Association" and dim=="downstream":
-        return ("unresolved","EXC-ARCH-UNRESOLVED")
-    if typ=="Function" and name in {"Estimate State of Charge","Identify Battery to Charger","Measure Battery Voltage"} and dim=="downstream":
-        return ("unresolved","EXC-ARCH-UNRESOLVED")
-    # Active Functions may have implementation represented by dependsOn, realizedBy,
-    # satisfies or child behavior. If the matrix still finds no downstream link, that
-    # is not silently excepted here.
     return None
 
 records=(load(DISP).get("records") or {})
 active_registry_findings=[]
-active_unresolved=[]
+active_unresolved=list(named_active_unresolved)
 for p,typ,dim,alts in active_dimension_gaps:
     exp=expected_exception(p,typ,dim)
     rec=records.get(p)
@@ -184,8 +193,6 @@ for p,typ,dim,alts in active_dimension_gaps:
         state,code=exp
         if not isinstance(g,dict) or g.get("disposition")!=state or g.get("exception")!=code:
             active_registry_findings.append((p,typ,dim,f"expected {state}/{code}"))
-        else:
-            active_unresolved.append((p,typ,dim,code))
     else:
         active_registry_findings.append((p,typ,dim,"unexplained active dimension gap"))
 
@@ -210,7 +217,12 @@ for p,typ,dim,code in active_unresolved:
     print(f"  ACTIVE_UNRESOLVED {typ} {dim}: {p}: {code}")
 for p,labels in sorted(weak_notes.items()):
     typ=notes[p].get("type"); cls=classify_weak(p,typ)
-    print(f"  WEAK {cls} {typ}: {p}: {', '.join(labels)}")
+    relfields={f for f,_ in outgoing[p]} | {f for f,_ in incoming[p]}
+    missing=[]
+    for dim,alts in (matrix.get(typ) or {}).items():
+        if alts and not (relfields & set(alts)):
+            missing.append(dim)
+    print(f"  WEAK {cls} {typ}: {p}: {', '.join(labels)} | matrix_missing={','.join(missing) or 'none'}")
 print(f"  report: {REPORT.relative_to(ROOT)}")
 
 lines=["# Weak Traceability Priority Review","",
