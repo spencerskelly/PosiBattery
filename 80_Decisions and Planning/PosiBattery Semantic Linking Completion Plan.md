@@ -475,3 +475,29 @@ Evidence: `80_Decisions and Planning/Semantic Linking Requirement Applicability 
 **Validation:** applicability workflow `37395229966`, job `112049502116`, success; Vault Audit `37395229689`, job `112049501287`, success.
 
 **Result:** Step 13 complete. The next step is **Step 14 — Review Requirement-to-Function satisfaction**.
+
+
+---
+
+## Step 14 completion evidence — Requirement satisfaction
+
+Reviewed all **6 governed Requirements** for a valid satisfaction path through Function, Design, Object, or Result.
+
+Results:
+- **5/6 Requirements** now have a valid satisfaction path;
+- **4** are satisfied by Functions;
+- **1** is satisfied by an Object;
+- **1** remains an explicit unresolved satisfaction gap;
+- **0 Step 14 findings**.
+
+This step resolved one real gap: `PosiGuard - Support Lead-Acid and Lithium Battery Fleets` is now satisfied by the `PosiCharge PosiGuard` Object. This is a better semantic fit than forcing a Function because the obligation is product/application coverage, and the product note explicitly establishes lead-acid and lithium support. The governed `satisfies/satisfiedBy` pair was persisted bidirectionally.
+
+`BMID - Preserve Battery Association` remains intentionally unresolved as `EXC-ARCH-UNRESOLVED`. The current model does not yet contain a Function, Design, Object, or Result that demonstrates preservation of the battery association without inferring an implementation mechanism. The existing Verification intent explicitly preserves that open decision.
+
+Final relationship validation passes with **6,075 governed assertions**, **0 unresolved targets**, **0 missing inverses**, and **0 relationship findings**. The legacy weak-traceability count dropped from 221 to **220**.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Requirement Satisfaction Review Step 14 0.1.yaml`.
+
+**Validation:** satisfaction workflow `37395704790`, job `112051021177`; Vault Audit `37395705076`, job `112051022064`; both successful.
+
+**Result:** Step 14 complete. The next step is **Step 15 — Review Function ownership and decomposition**.
