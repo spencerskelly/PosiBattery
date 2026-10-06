@@ -20,7 +20,6 @@ performs:
   - "[[Measure Battery Temperature]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Estimate State of Charge]]"
-  - "[[Estimate State of Health]]"
   - "[[Log Battery Events and Usage]]"
   - "[[Track Equalization]]"
   - "[[Alert on Abnormal Condition]]"
@@ -28,6 +27,8 @@ performs:
   - "[[Detect Battery Weight]]"
 hasDesign:
   - "[[Cloud Portal Integration]]"
+integratesWith:
+  - "[[Raymond iWAREHOUSE]]"
 offeredBy:
   - "[[Raymond]]"
 ---
@@ -74,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Sources used for the mapping above:** Raymond iBATTERY launch release (2010, dated) <https://raymondcorp.com/news/2010/ibattery-launch>; M H&L Raymond Battery Module (2010, dated) <https://mhlnews.com/archive/article/22045964/raymond-battery-module>; Raymond iBATTERY page (on a test subdomain, caution) <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
 - The iBATTERY page says it gives timely data on temperature, water levels, charge intervals and state of charge, alerts on low water, temperature condition, weight and overcharges, shows a battery state-of-health chart that targets batteries needing replacement, and forwards data through the iWAREHOUSE system. Source: Raymond iBATTERY page (test subdomain) (T1 (caution)), retrieved 2026-10-02. <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Scope correction — state of health (2026-10-06):** the battery-mounted iBattery module collects and forwards battery measurements/history, while Raymond's published SOH dashboard and cycle-contributor analysis reside in [[Raymond iWAREHOUSE]]. This note therefore no longer directly performs [[Estimate State of Health]]; it supplies the battery data used by the analytics layer.
 
 ## Aliases
 
