@@ -33,6 +33,7 @@ partOf:
   - "[[Low Electrolyte Alert Output Assembly]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Alert on Low Electrolyte Level]]"
