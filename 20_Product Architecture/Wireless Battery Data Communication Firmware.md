@@ -17,6 +17,12 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Wireless Communication Circuit]]"
 performs:
+partOf:
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[HOPPECKE trak collect]]"
   - "[[Transmit Battery Data Wirelessly]]"
 ---
 
