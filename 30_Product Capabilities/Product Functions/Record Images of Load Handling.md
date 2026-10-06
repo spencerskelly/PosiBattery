@@ -11,8 +11,15 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 performedBy:
   - "[[Toyota Twistlock Snapshot Camera System]]"
+  - "[[Load-Handling Camera Assembly]]"
+  - "[[Load-Handling Image Capture Logic]]"
+  - "[[Load-Handling Image Storage]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
+dependsOn:
+  - "[[Load-Handling Image Capture Design]]"
+realizedBy:
+  - "[[Load-Handling Image Capture Design]]"
   - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 ---
 
@@ -30,6 +37,16 @@ Capture images of a load or attachment before and after it is handled, as a reco
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
   - [[Toyota Twistlock Snapshot Camera System]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
+## Implementation Allocation
+
+The reusable realization is [[Load-Handling Image Capture Design]].
+
+[[Load-Handling Camera Assembly]] provides the camera hardware, while [[Load-Handling Image Capture Logic]] determines when images are taken and associates them with the handling event. [[Load-Handling Image Storage]] retains the resulting records.
+
+This separation matters because a camera by itself does not satisfy the Function. The system must also trigger capture at the correct point in the handling cycle and retain the image as an event record.
+
+[[Toyota Twistlock Snapshot Camera System]] is the verified product implementation: Toyota states that images are captured before and after each container is handled. The exact trigger source, camera count, image format, storage medium, and review/export workflow are not published.
 
 ## Aliases
 
