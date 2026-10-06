@@ -212,3 +212,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Remote Vehicle Diagnostics Design]] | [[TUG Endurance Baggage Tractor]], [[TUG ALPHA 1 Pushback]] | - | - |
 | [[Truck Telemetry Reporting Design]] | [[Crown InfoLink]], [[Hyster Tracker Telemetry]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Operator Access Authorization Design]] | [[Toyota PIN Code Access Pad]], [[Panacea Smart Start]], [[Crown InfoLink]] | - | - |
+
+| [[Adaptive Charge Profile Control Design]] | [[Fronius Selectiva 4.0]], [[EnerSys IMPAQ Charger]] | - | - |
+| [[Ri-Based Adaptive Charging]] | [[Fronius Selectiva 4.0]] | - | - |
+| [[Diagnostic-Loop Adaptive Charging]] | [[EnerSys IMPAQ Charger]] | - | - |
