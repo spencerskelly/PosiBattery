@@ -43,7 +43,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 
 | Function | Host kind | Maker groups offering | Of | Prevalence | Delivered by (designs it depends on) | Accessory or software notes | Third-party makers | Status |
 |---|---|---|---|---|---|---|---|---|
-| [[Complete Missed Equalization Automatically]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
+| [[Complete Missed Equalization Automatically]] | battery | 0 | 21 | 0% | [[Missed Equalization Recovery Design]] | 1 | 1 | Extra |
 | [[Detect Cell Failure]] | battery | 0 | 21 | 0% | [[Cell Failure Diagnostic Design]] | 1 | 1 | Extra |
 | [[Export Battery Data to PC]] | battery | 0 | 21 | 0% | [[PC Battery Data Export Design]] | 3 | 2 | Extra |
 | [[Measure Electrolyte Specific Gravity]] | battery | 0 | 21 | 0% | [[In-Cell Specific Gravity Probe]] | 1 | 1 | Extra |
