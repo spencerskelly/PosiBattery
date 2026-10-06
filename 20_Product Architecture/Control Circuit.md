@@ -29,6 +29,7 @@ dependencyOf:
   - "[[Cell Failure Diagnostic Firmware]]"
   - "[[Battery Temperature Measurement Circuit]]"
   - "[[Battery Abuse Cycle Analytics Firmware]]"
+  - "[[Equalization Event Tracking Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
