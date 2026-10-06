@@ -2,7 +2,7 @@
 type: Object
 subtype: component
 id: OBJ-90122
-uid: 20261006193000003skellyspencer
+uid: 20261006203800004skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -15,11 +15,11 @@ hasDesign:
 dependencyOf:
   - "[[Battery Event Logger Firmware]]"
 performs:
+  - "[[Log Battery Events and Usage]]"
 partOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[HOPPECKE trak collect]]"
   - "[[EnerSys Wi-iQ]]"
-  - "[[Log Battery Events and Usage]]"
 ---
 
 # Event Log Memory
