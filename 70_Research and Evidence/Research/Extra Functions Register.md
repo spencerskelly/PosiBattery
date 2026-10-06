@@ -63,7 +63,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Track Equalization]] | battery | 3 | 21 | 14% | [[Equalization Event Tracking Design]] | 6 | 3 | Extra |
 | [[Water Battery Cells]] | battery | 3 | 21 | 14% | - | 6 | 2 | Extra |
 | [[Accumulate Amp-Hours]] | battery | 4 | 21 | 19% | [[Current Integration Amp-Hour Accumulation]] | 12 | 4 | Extra |
-| [[Circulate Electrolyte]] | battery | 4 | 21 | 19% | [[Forced Electrolyte Circulation]] | 3 | 0 | Extra |
+| [[Circulate Electrolyte]] | battery | 4 | 21 | 19% | [[Air Injection Electrolyte Circulation]] | 3 | 0 | Extra |
 | [[Communicate with Charger]] | battery | 4 | 21 | 19% | - | 10 | 3 | Extra |
 | [[Estimate State of Charge]] | battery | 4 | 21 | 19% | [[State of Charge Estimation Design]] | 11 | 4 | Extra |
 | [[Indicate Battery Status Locally]] | battery | 4 | 21 | 19% | [[Warning and Display Device Design]] | 17 | 5 | Extra |
