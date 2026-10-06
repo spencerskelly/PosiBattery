@@ -17,6 +17,7 @@ performs:
 hasDesign:
   - "[[CAN Interface]]"
   - "[[Hibernation Mode]]"
+  - "[[CAN Battery State Communication Design]]"
 madeBy:
   - "[[Stryten Energy]]"
 offeredWith:
@@ -41,6 +42,8 @@ Stryten LFP battery for Class I, II and III trucks with CANbus, remote monitorin
   - [[Stryten X-3 Charger]]: no difference stated in the sources.
 - **Functions performed, with citations (round 40, gap review 2026-10-03):**
   - [[Communicate Battery State over CAN]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
+
+- **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
 
 ## Aliases
 
