@@ -22,6 +22,7 @@ partOf:
 dependencyOf:
   - "[[Vehicle Operating Limit Command Firmware]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"
+  - "[[CAN Battery State Communication Firmware]]"
   - "[[PosiCharge PosiGuard]]"
 ---
 
