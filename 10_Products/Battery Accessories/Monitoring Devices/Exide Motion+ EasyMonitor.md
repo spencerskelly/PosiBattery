@@ -27,14 +27,19 @@ performs:
   - "[[Indicate Battery Status Locally]]"
   - "[[Detect Voltage Imbalance]]"
   - "[[Transmit Battery Data Wirelessly]]"
-hasDesign:  - "[[Cell-Connector Electrolyte Level Sensing]]"
-
+hasDesign:
+  - "[[Cell-Connector Electrolyte Level Sensing]]"
   - "[[Local LED Indicator]]"
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
   - "[[Wrap-Around Cell Connector Probe]]"
   - "[[Cell-Connector Temperature Sensing]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[LCD Status Display Module]]"
+  - "[[LCD Display Interface Circuit]]"
+  - "[[Local Status Presentation Firmware]]"
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
 madeBy:
   - "[[Exide Technologies]]"
@@ -87,6 +92,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cell-Connector Temperature Sensing]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Cell-Connector Electrolyte Level Sensing]] (V): <https://www.exidegroup.com/en/product/easymonitor>
 - **Sources used for the mapping above:** Exide Motion+ EasyMonitor product page <https://www.exidegroup.com/en/product/easymonitor>; Exide Easy Monitor leaflet <https://www.exidegroup.com/en/document/easy-monitor-leaflet>; Exide GNB PRO 2.0 brochure (search excerpt; page returned 404 on direct fetch) <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
+- **Implementation assumption — local status presentation:** [[LCD Status Display Module]] and [[LED Status Indicator Element]] are directly supported by the published icon-based LCD and traffic-light LED. [[LCD Display Interface Circuit]], [[Status Indicator Driver Circuit]], and [[Local Status Presentation Firmware]] are allocated at **>=95% engineering confidence** because the internal electronics/software partition is not published.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
