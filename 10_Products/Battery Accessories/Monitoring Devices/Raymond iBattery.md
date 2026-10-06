@@ -27,6 +27,12 @@ performs:
   - "[[Detect Battery Weight]]"
 hasDesign:
   - "[[Cloud Portal Integration]]"
+  - "[[Stored Battery Weight Compatibility Verification]]"
+  - "[[DC-Cable Power-Line Communication]]"
+hasPart:
+  - "[[Control Circuit]]"
+  - "[[Battery Specification Memory]]"
+  - "[[Power-Line Communication Circuit]]"
 integratesWith:
   - "[[Raymond iWAREHOUSE]]"
 dependencyOf:
@@ -73,10 +79,13 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Detect Battery Weight]] (V): <https://mhlnews.com/archive/article/22045964/raymond-battery-module>
 - **Design characteristics, with citations:**
   - [[Cloud Portal Integration]] (V): <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
+  - [[Stored Battery Weight Compatibility Verification]] (V): Raymond patent CA2733079A1 describes a battery sensor module memory holding battery manufacturer specification data including battery weight, transmission of that data to the vehicle controller, and comparison against the vehicle minimum weight. <https://patents.google.com/patent/CA2733079A1/en>
+  - [[DC-Cable Power-Line Communication]] (V): the same patent explicitly identifies a power-line communication circuit in the battery sensor module for bidirectional communication with the vehicle and charger over the battery connection. <https://patents.google.com/patent/CA2733079A1/en>
 - **Sources used for the mapping above:** Raymond iBATTERY launch release (2010, dated) <https://raymondcorp.com/news/2010/ibattery-launch>; M H&L Raymond Battery Module (2010, dated) <https://mhlnews.com/archive/article/22045964/raymond-battery-module>; Raymond iBATTERY page (on a test subdomain, caution) <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
 - The iBATTERY page says it gives timely data on temperature, water levels, charge intervals and state of charge, alerts on low water, temperature condition, weight and overcharges, shows a battery state-of-health chart that targets batteries needing replacement, and forwards data through the iWAREHOUSE system. Source: Raymond iBATTERY page (test subdomain) (T1 (caution)), retrieved 2026-10-02. <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
+- **Battery-weight architecture correction (2026-10-06):** Raymond's patent resolves the previously open implementation mechanism. iBATTERY does not need to physically weigh the battery. The battery sensor module stores the manufacturer's battery-weight value in [[Battery Specification Memory]], communicates specification data through [[Power-Line Communication Circuit]], and the vehicle-side [[Battery Weight Verification Firmware]] compares the stored value with the truck minimum. The patent also explicitly identifies a microcomputer in the battery sensor module, supporting the [[Control Circuit]] allocation.
 - **Scope correction — state of health (2026-10-06):** the battery-mounted iBattery module collects and forwards battery measurements/history, while Raymond's published SOH dashboard and cycle-contributor analysis reside in [[Raymond iWAREHOUSE]]. This note therefore no longer directly performs [[Estimate State of Health]]; it supplies the battery data used by the analytics layer.
 
 ## Aliases
