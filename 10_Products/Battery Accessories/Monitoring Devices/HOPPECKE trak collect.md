@@ -31,6 +31,7 @@ performs:
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Remaining Runtime Estimation Design]]"
   - "[[Low-Current Electrolyte Level Input]]"
   - "[[Bluetooth Interface]]"
@@ -42,6 +43,8 @@ hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[State of Charge Estimation Firmware]]"
+  - "[[Control Circuit]]"
   - "[[Remaining Runtime Estimation Software]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[LED Status Indicator Element]]"
