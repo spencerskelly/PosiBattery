@@ -12,6 +12,9 @@ tags:
 reuseScope: cross-product
 dependsOn:
   - "[[Electrolyte Level Measurement Circuit]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
+  - "[[PosiCharge Battery Rx]]"
 performs:
   - "[[Sense Electrolyte Level]]"
 ---
@@ -27,5 +30,6 @@ Firmware that reads an electrolyte-level measurement, applies qualification or d
 - This role applies to controller-based monitors; it is not required for every standalone level indicator.
 - Possible responsibilities include sampling, debouncing, time qualification, threshold handling, diagnostic checking, event logging, and reporting.
 - [[Philadelphia Scientific SmartBlinky Pro]] publicly identifies SmartDELAY behavior, but its internal hardware/firmware partition is not published, so that feature alone is not used to assert this firmware Object as a verified SmartBlinky component.
+- Allocation to [[PosiCharge PosiGuard]] and [[PosiCharge Battery Rx]] is an **>=95% engineering-confidence assumption** because both are electronic monitoring devices that acquire and report electrolyte/water-level state; the public sources do not disclose firmware partitioning.
 
 ## Former ids
