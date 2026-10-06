@@ -40,6 +40,7 @@ hasDesign:
   - "[[Mobile App Interface]]"
   - "[[LoRa Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
+  - "[[Battery Voltage Measurement Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -57,6 +58,8 @@ hasPart:
   - "[[Serial Communication Circuit]]"
   - "[[BLE Communication Circuit]]"
   - "[[LoRa Communication Circuit]]"
+  - "[[Battery Voltage Measurement Circuit]]"
+  - "[[Battery Voltage Acquisition Firmware]]"
 ---
 
 # PosiCharge PosiGuard
