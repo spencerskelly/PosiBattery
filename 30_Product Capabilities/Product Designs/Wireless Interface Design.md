@@ -24,6 +24,8 @@ dependencyOf:
   - "[[Upload Battery Data to Cloud Portal]]"
 supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
+designOf:
+  - "[[Wireless Communication Circuit]]"
 ---
 
 # Wireless Interface Design
