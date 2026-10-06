@@ -9,8 +9,12 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Battery Sensor Mounting Design]]"
+  - "[[Battery Temperature Measurement Design]]"
 designOf:
+  - "[[Wrap-Around Cell Connector Sensor Assembly]]"
   - "[[Exide Motion+ EasyMonitor]]"
+realizes:
+  - "[[Measure Battery Temperature]]"
 ---
 
 # Wrap-Around Cell Connector Probe
@@ -21,7 +25,8 @@ Sensor assembly that is wrapped around a cell connector to read level, temperatu
 
 ## Notes
 
-- Stated for Exide Motion+ EasyMonitor ('1-click installation').
+- Stated for [[Exide Motion+ EasyMonitor]] ('1-click installation').
+- This Design is both a sensor-mounting concept and a concrete battery-temperature measurement implementation because Exide explicitly states that the 3-in-1 probe measures temperature at the cell connector.
 - Citations are listed under Sources below. A design characteristic found in products, not a decision by us.
 - **Sources** (product, evidence level, web page):
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor>
