@@ -15,7 +15,10 @@ performs:
   - "[[Protect Battery from Deep Discharge]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
+  - "[[BMS Discharge Limitation]]"
 madeBy:
+hasPart:
+  - "[[BMS Discharge Protection Logic]]"
   - "[[EnerSys]]"
 ---
 
@@ -36,6 +39,8 @@ EnerSys lithium-ion battery line for material handling.
   - [[Integrated Battery Management System]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
 - EnerSys says NexSys iON is maintenance free with no long equalize charges, and that its BMS performs voltage limitation on charge and discharge and can integrate with the truck over CAN. Source: MH&L News (2023-07-26) (T2), retrieved 2026-10-03. <https://www.mhlnews.com/new-products/article/21270278/lithium-ion-battery>
 - A second trade item says fast- and opportunity-charging NexSys iON batteries are paired with high-output NexSys+ chargers. Source: Inside Logistics (T2), retrieved 2026-10-03. <https://www.insidelogistics.ca/products/80-volt-lithium-ion-battery/>
+
+- **Architecture realization — deep discharge protection:** the integrated BMS and published discharge-voltage limitation support [[BMS Discharge Limitation]] and [[BMS Discharge Protection Logic]]. The exact final enforcement mechanism is not published, so no specific contactor or truck-command path is asserted.
 
 ## Aliases
 
