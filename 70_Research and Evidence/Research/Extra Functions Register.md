@@ -76,7 +76,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Sense Electrolyte Level]] | battery | 6 | 21 | 29% | [[Electrolyte Level Sensing Design]] | 26 | 9 | Extra |
 | [[Charge Battery Wirelessly]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
 | [[Charge in Cold Storage]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
-| [[Desulfate Battery During Charge]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
+| [[Desulfate Battery During Charge]] | charger | 2 | 18 | 11% | [[Lead-Acid Desulfation Charge Control Design]] | 0 | 0 | Extra |
 | [[Detect Foreign and Live Objects]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
 | [[Diagnose Battery During Charge]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
 | [[Float Charge Battery]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
