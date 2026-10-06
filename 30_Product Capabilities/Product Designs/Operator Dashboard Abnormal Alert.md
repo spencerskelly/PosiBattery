@@ -12,6 +12,7 @@ tags:
 subtypeOf:
   - "[[Abnormal Condition Alert Design]]"
 designOf:
+  - "[[Yale ERC050-060VGL]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Operator Display HMI Firmware]]"
 ---
@@ -25,6 +26,7 @@ Abnormal battery condition presented to the vehicle operator on a truck-mounted 
 ## Notes
 
 - [[EnerSys Truck iQ]] explicitly displays battery alerts, alarms and other Wi-iQ battery parameters on its truck-mounted touchscreen.
+- [[Yale ERC050-060VGL]] explicitly shows low-state-of-charge and early-shutdown warnings on the truck display.
 - The Design reuses the existing vehicle/operator display architecture rather than creating another display technology.
 - The battery-to-display transport is product-specific; Truck iQ explicitly uses BLE.
 
