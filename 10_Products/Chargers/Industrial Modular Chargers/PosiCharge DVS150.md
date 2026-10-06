@@ -17,7 +17,11 @@ performs:
   - "[[Log Battery Events and Usage]]"
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Direct Temperature Input Charge Compensation]]"
 madeBy:
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[PosiCharge]]"
 ---
 
@@ -38,6 +42,8 @@ PosiCharge dual-port fast charger for 24 to 80 V material handling batteries.
 - **Design characteristics, with citations:**
   - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://posicharge.com/products/dvs150/>
 - The public DVS150 page lists equalization scheduling, an electrolyte-immersed thermistor and thermal foldback or shutdown among its controls and protections. Source: PosiCharge DVS150 page (T1), retrieved 2026-10-03. <https://posicharge.com/products/dvs150/>
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Direct Temperature Input Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
