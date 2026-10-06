@@ -61,7 +61,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Measure Battery Voltage]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Accumulate Amp-Hours]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Estimate State of Charge]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
-  - [[Estimate State of Health]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
+  - [[Display Battery Status to Operator]] (V): <https://inventuspower.com/wp-content/uploads/IP_User_Manual_SBM-01_2023-08-04_V1.9.pdf>
   - [[Estimate Remaining Run Time]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Alert on Abnormal Condition]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Communicate Battery State over CAN]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
@@ -73,6 +73,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - **Scope correction — state of health (2026-10-06):** Inventus states that SBM-01 uses integrated intelligence to **receive important information from the battery system**, while the data sheet/user manual say it reports/displays SOH. Inventus separately states that PROformance batteries communicate battery SOH. Accordingly, SBM-01 no longer performs [[Estimate State of Health]]; it performs [[Display Battery Status to Operator]] as a panel-mounted CAN display of battery-supplied SOH.
 - The underlying Inventus battery/BMS SOH estimator is not added as a product performer because no PROformance battery product note currently exists in the vault.
+
+- **Evidence clarification — SOH locus:** Inventus states that the SBM-01 receives battery-system information and displays battery SOH; Inventus separately states that PROformance batteries communicate SOH. This supports the display role, not local SOH estimation in the SBM-01.
 
 ## Aliases
 
