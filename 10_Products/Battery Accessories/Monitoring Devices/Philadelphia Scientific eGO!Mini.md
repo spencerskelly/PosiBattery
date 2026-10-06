@@ -28,12 +28,16 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
+  - "[[PC Battery Data Export Design]]"
+  - "[[USB Battery Data Export]]"
 hasPart:
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Local Abnormal Alert Output Assembly]]"
   - "[[Status Indicator Driver Circuit]]"
   - "[[Audible Alarm Transducer]]"
   - "[[LED Status Indicator Element]]"
+  - "[[Battery Data Export Firmware]]"
+  - "[[PC Battery Data Retrieval Software]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
@@ -82,6 +86,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — abnormal-condition alert:** eGO!Mini explicitly provides LED indication, an audible low-electrolyte alarm and an over-temperature warning. The alert-evaluation logic is allocated at **>=95% engineering confidence** because the internal electronics/software partition is not published.
+
+- **Architecture realization — PC data export:** the published transfer method supports [[PC Battery Data Export Design]] with [[USB Battery Data Export]]. [[Battery Data Export Firmware]] and [[PC Battery Data Retrieval Software]] are modeled as reusable roles; their exact implementation and application names are not published.
 
 ## Aliases
 
