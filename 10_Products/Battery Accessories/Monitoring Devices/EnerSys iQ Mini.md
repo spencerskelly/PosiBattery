@@ -23,10 +23,13 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Sense Electrolyte Level]]"
 hasDesign:
+  - "[[Local Abnormal Condition Alert]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
 hasPart:
+  - "[[Abnormal Condition Evaluation Logic]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"
   - "[[Local Status Presentation Firmware]]"
@@ -99,6 +102,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Conflict-visible (C49):** the earlier note carries '12-80 V' from the seed text; the flyer states no voltage range, so the figure stays 'carried, not verified'. The iQ Gateway is a product not yet modeled (see [[Unidentified Products Review]]).
 - **Implementation assumption — local status presentation:** the color status indicators are verified. [[LED Status Indicator Element]] captures the physical LEDs; [[Status Indicator Driver Circuit]] and [[Local Status Presentation Firmware]] are allocated at **>=95% engineering confidence** because their internal implementation is not published.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** iQ Mini explicitly detects over-temperature, low electrolyte and over-discharge and shows the alerts on the unit. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because the internal evaluation implementation is not published.
 
 ## Aliases
 
