@@ -19,6 +19,7 @@ hasDesign:
   - "[[Operator Touch Display]]"
   - "[[Operator Access Authorization Design]]"
   - "[[Pre-Shift Checklist Enforcement Design]]"
+  - "[[Truck Telemetry Reporting Design]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -29,6 +30,8 @@ hasPart:
   - "[[Operator Access Authorization Logic]]"
   - "[[Pre-Shift Checklist Enforcement Logic]]"
   - "[[Vehicle Enable Interlock]]"
+  - "[[Truck Telemetry Acquisition Logic]]"
+  - "[[Truck Telemetry Reporting Service]]"
   - "[[Crown Gena Operating System]]"
 ---
 
@@ -55,6 +58,8 @@ Crown wireless fleet and operator management system, paired with on-truck InfoPo
 - **Architecture realization — operator access:** [[Operator Access Authorization Design]] is allocated because the product explicitly restricts truck use to authorized operators. [[Operator Access Authorization Logic]] is allocated at **>=95% engineering confidence** where the internal authorization software partition is unpublished. The exact credential database, controller, relay/CAN path, and synchronization method remain product-specific.
 
 - **Architecture realization — pre-shift checklist:** published material explicitly describes electronic inspection checklists tied to truck access/lockout behavior, supporting [[Pre-Shift Checklist Enforcement Design]]. [[Pre-Shift Checklist Enforcement Logic]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. [[Vehicle Enable Interlock]] captures the enforcement consequence when the checklist policy is not satisfied.
+
+- **Architecture realization — truck telemetry:** published behavior establishes vehicle operating data and event reporting to a fleet-management system, supporting [[Truck Telemetry Reporting Design]]. [[Truck Telemetry Acquisition Logic]] and [[Truck Telemetry Reporting Service]] are allocated at **>=95% engineering confidence** where the vendor does not publish the internal software partition. Exact signal sources, CAN/J1939 mapping, buffering, wireless transport, and cloud protocol remain product-specific.
 
 ## Aliases
 
