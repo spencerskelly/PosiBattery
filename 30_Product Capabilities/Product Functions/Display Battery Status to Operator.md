@@ -13,6 +13,7 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle Operator Display Design]]"
 performedBy:
+  - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Operator Display HMI Firmware]]"
   - "[[Vehicle-Mounted Display Module]]"
@@ -58,6 +59,7 @@ The reusable realization is [[Vehicle Operator Display Design]] implemented by [
 - **BLE-fed touchscreen dashboard:** [[EnerSys Truck iQ]] receives Wi-iQ battery data over its verified BLE link using [[BLE Communication Circuit]], then presents state of charge, remaining work time, warnings and other values through [[Operator Touchscreen Display Module]]. The display controller and HMI firmware are **>=95% engineering-confidence assumptions** because the internal architecture is unpublished.
 - **CAN-fed factory battery-discharge indicator:** [[Hyster Power Cellect]] uses a verified CAN link between battery and truck and presents battery information on the factory [[Battery Discharge Indicator Module]]. [[CAN Communication Circuit]] is the reusable physical-layer abstraction; exact transceiver/controller placement is not published.
 - **Integrated multifunction display:** [[Linde MT18 Multifunction Display]] directly contains a multifunction vehicle display and battery-discharge indication. Its controller/HMI implementation is **>=95% engineering confidence**; the battery-data transport is not stated.
+- **Crown truck display:** [[Crown RC 5700 Series]] explicitly includes a battery-discharge indicator on the Crown display. The visible display/BDI roles are verified; the controller/HMI implementation and signal transport remain **>=95% engineering-confidence assumptions**.
 - **Integrated truck display:** [[Yale ERC050-060VGL]] shows state of charge and low-charge warnings on the truck display. The display module is verified while its controller, HMI software and input transport remain implementation assumptions.
 - **Touchscreen operating system:** [[Crown Gena Operating System]] presents battery capacity on its verified 7-inch touchscreen. Because Gena is software, the physical touchscreen and controller are modeled as dependencies while [[Operator Display HMI Firmware]] represents the battery-status HMI role within the operating system.
 
