@@ -65,6 +65,7 @@ hasPart:
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Battery Current Acquisition Firmware]]"
+  - "[[CAN Battery State Communication Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 ---
 
