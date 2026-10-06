@@ -39,6 +39,7 @@ hasDesign:
   - "[[Battery Replacement Timing Prediction Design]]"
   - "[[Battery Event and Usage Logging Design]]"
   - "[[Wireless Battery Data Communication Design]]"
+  - "[[Cloud Battery Data Upload Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
   - "[[Battery Event Logger Firmware]]"
@@ -127,6 +128,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
 
 - **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
+
+- **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
 
 ## Aliases
 
