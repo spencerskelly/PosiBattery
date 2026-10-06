@@ -13,6 +13,10 @@ subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:
   - "[[Estimate Remaining Run Time]]"
+hasDesign:
+  - "[[Remaining Runtime Estimation Design]]"
+hasPart:
+  - "[[Remaining Runtime Estimation Software]]"
 madeBy:
   - "[[Linde Material Handling]]"
 offeredWith:
@@ -33,6 +37,8 @@ Linde high-capacity electric forklifts (6.0, 7.0 and 8.0 t) with 90 V lithium-io
 - The KION North America catalog says the Linde energy management system on the Series 1279 (E60 to E80) calculates the projected remaining operating time for the operator automatically. Source: KION North America catalog 2023 (in repo) (T1), retrieved 2026-10-03. <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 - **Functions performed, with citations:**
   - [[Estimate Remaining Run Time]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
+
+- **Architecture realization — remaining runtime:** Linde states that the truck energy-management system calculates projected remaining operating time automatically. [[Remaining Runtime Estimation Design]] and [[Remaining Runtime Estimation Software]] capture that verified calculation role; the internal algorithm and data sources are not published.
 
 ## Aliases
 
