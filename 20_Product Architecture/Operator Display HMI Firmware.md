@@ -13,10 +13,13 @@ reuseScope: cross-product
 dependsOn:
   - "[[Operator Display Controller Circuit]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 dependencyOf:
   - "[[Komatsu Operator Presence Sensing System]]"
+hasDesign:
+  - "[[Operator Dashboard Abnormal Alert]]"
 partOf:
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
