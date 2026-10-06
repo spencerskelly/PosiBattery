@@ -5,7 +5,7 @@ id: DES-90004
 uid: 20261005213400002skellyspencer
 status: Draft
 tags:
-  - product-design
+  - general-design
   - battery-monitoring
   - voltage
 subtypeOf:
