@@ -39,6 +39,7 @@ performedBy:
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
+  - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
 realizedBy:
