@@ -8,6 +8,9 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: datasheet
+sourceUrl: "https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf"
+sourceRevision: "PDS-PT3 11-2025"
 describes:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers REVOLUTION X]]"
