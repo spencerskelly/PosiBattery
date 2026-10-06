@@ -37,8 +37,12 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Exide Solition Light Traction Battery]]"
+  - "[[Battery Voltage Measurement Circuit]]"
+  - "[[Battery Voltage Acquisition Firmware]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
+realizedBy:
+  - "[[Battery Voltage Measurement Design]]"
 ---
 
 # Measure Battery Voltage
