@@ -15,6 +15,7 @@ designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Power Designers PowerTrac DT3]]"
+  - "[[Magnetic Current Measurement Assembly]]"
 dependsOn:
   - "[[Hall-Effect Current Sensor]]"
 ---
