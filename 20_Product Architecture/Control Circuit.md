@@ -35,6 +35,7 @@ dependencyOf:
   - "[[Battery Event Logger Firmware]]"
   - "[[CAN Battery State Communication Firmware]]"
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[Battery-Charger Communication Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
