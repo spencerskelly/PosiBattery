@@ -71,6 +71,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Sources used for the mapping above:** DC Velocity (undated) <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
+- **Architecture boundary — cell failure detection:** the available source explicitly states that TruBID detects cell failures, and separately states that its in-cell probe monitors electrolyte temperature and specific gravity. Neither the source nor Prestolite's public description explains how those measurements are converted into a cell-failure diagnosis. Accordingly, no [[Cell Failure Diagnostic Firmware]] or [[Cell Failure Threshold Circuit]] is assigned as a product part, and no cell-voltage / impedance / specific-gravity diagnostic method is asserted.
+
 ## Aliases
 
 - TruBid
