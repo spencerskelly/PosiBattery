@@ -27,7 +27,8 @@ performs:
   - "[[Indicate Battery Status Locally]]"
   - "[[Detect Voltage Imbalance]]"
   - "[[Transmit Battery Data Wirelessly]]"
-hasDesign:
+hasDesign:  - "[[Cell-Connector Electrolyte Level Sensing]]"
+
   - "[[Local LED Indicator]]"
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
