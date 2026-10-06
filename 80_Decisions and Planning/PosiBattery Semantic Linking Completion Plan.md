@@ -450,3 +450,28 @@ Evidence: `80_Decisions and Planning/Semantic Linking Requirement Rationale Revi
 **Validation:** workflow `37394863534`, job `112048301630`, success.
 
 **Result:** Step 12 complete. The next step is **Step 13 — Review Requirement applicability**.
+
+
+---
+
+## Step 13 completion evidence — Requirement applicability
+
+Reviewed all **6 governed Requirements** for explicit engineering applicability using the governed `appliesTo/applies` relationship.
+
+Results:
+- **6/6 Requirements** have explicit `appliesTo` scope;
+- **4 family-level Requirements** correctly target the abstract `PosiCharge BMID` product family;
+- **2 variant-specific Requirements** correctly target the concrete `PosiCharge PosiGuard` offering;
+- **0 missing inverse relationships**;
+- **0 family/variant scope mismatches**;
+- **0 Step 13 findings**.
+
+The review makes the scope rule explicit: product specialization does **not** automatically inherit Requirement applicability. Family-level requirements remain scoped to the BMID family definition and were not duplicated onto BMID 1, BMID 3, Battery Rx, or PosiGuard without explicit evidence. This avoids turning taxonomy inheritance into an unsupported compliance claim.
+
+No model relationships, Requirement notes, or product notes were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Requirement Applicability Review Step 13 0.1.yaml`.
+
+**Validation:** applicability workflow `37395229966`, job `112049502116`, success; Vault Audit `37395229689`, job `112049501287`, success.
+
+**Result:** Step 13 complete. The next step is **Step 14 — Review Requirement-to-Function satisfaction**.
