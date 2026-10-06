@@ -38,11 +38,13 @@ hasDesign:
   - "[[Equalization Event Tracking Design]]"
   - "[[Battery Replacement Timing Prediction Design]]"
   - "[[Battery Event and Usage Logging Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
   - "[[Battery Event Logger Firmware]]"
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
+  - "[[Wireless Battery Data Communication Firmware]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -123,6 +125,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — replacement timing:** the product is allocated [[Battery Replacement Timing Prediction Design]] because published material states battery life-expectancy or replacement prediction. The execution locus and forecast model are not disclosed, so neither [[Device-Resident Replacement Forecasting]] nor [[Fleet-Service Replacement Forecasting]] is selected.
 
 - **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
+
+- **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
 
 ## Aliases
 
