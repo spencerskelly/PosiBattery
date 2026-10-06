@@ -12,6 +12,7 @@ reuseScope: cross-product
 hasDesign:
   - "[[Local LED Indicator]]"
 partOf:
+  - "[[Status Indicator Driver Circuit]]"
   - "[[Charger Status LED Bar Assembly]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
