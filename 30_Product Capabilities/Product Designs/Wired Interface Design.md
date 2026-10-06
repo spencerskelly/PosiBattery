@@ -14,6 +14,8 @@ supertypeOf:
   - "[[Infrared Data Port]]"
   - "[[RS-232 and RS-485 Serial Interface]]"
   - "[[USB Data Download]]"
+designOf:
+  - "[[Wired Communication Circuit]]"
 ---
 
 # Wired Interface Design
