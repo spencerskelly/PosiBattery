@@ -18,6 +18,7 @@ partOf:
 dependencyOf:
   - "[[Crown Gena Operating System]]"
 performs:
+  - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 ---
 
