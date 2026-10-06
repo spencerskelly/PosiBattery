@@ -35,6 +35,7 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
+  - "[[Midpoint Voltage Symmetry Detection]]"
   - "[[Local Abnormal Condition Alert]]"
   - "[[Hall-Effect Current Sensing]]"
   - "[[External Thermistor Temperature Sensor]]"
@@ -49,6 +50,9 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[Mid-Battery Voltage Tap Harness]]"
+  - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
+  - "[[Voltage Imbalance Evaluation Firmware]]"
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Local Abnormal Alert Output Assembly]]"
   - "[[Audible Alarm Transducer]]"
@@ -184,6 +188,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 - **Architecture realization — abnormal-condition alert:** Wi-iQ explicitly provides battery warnings/alarms using its LCD, LEDs and low-voltage buzzer. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because EnerSys publishes the evaluated alert behavior but not the internal firmware partition.
+
+- **Architecture realization — voltage imbalance:** the midpoint / half-battery voltage input is verified and supports [[Midpoint Voltage Symmetry Detection]]. [[Mid-Battery Voltage Tap Harness]] and [[Mid-Battery Differential Voltage Measurement Circuit]] capture the physical sensing path. [[Voltage Imbalance Evaluation Firmware]] is allocated at **>=95% engineering confidence** because the product electronically determines imbalance while its internal evaluation implementation is not published.
 
 ## Aliases
 
