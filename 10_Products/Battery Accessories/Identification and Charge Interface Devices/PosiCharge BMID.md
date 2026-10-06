@@ -31,6 +31,7 @@ describedBy:
   - "[[PosiCharge BMID Variants]]"
   - "[[PosiCharge BMID Product Assembly Local Model]]"
   - "[[Document - PosiCharge BMID FAQ]]"
+  - "[[Document - PosiCharge GSE BMID Page]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
@@ -45,6 +46,7 @@ hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
+  - "[[State of Charge Estimation Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -63,6 +65,7 @@ hasPart:
   - "[[Battery Identification and Charger Communication Firmware]]"
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
+  - "[[State of Charge Estimation Firmware]]"
 ---
 
 # PosiCharge BMID
