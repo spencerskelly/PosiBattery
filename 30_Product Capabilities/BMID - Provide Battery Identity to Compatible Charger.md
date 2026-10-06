@@ -17,6 +17,8 @@ satisfiedBy:
   - "[[Identify Battery to Charger]]"
 verifiedBy:
   - "[[Verify BMID Battery Identity Delivery]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # BMID - Provide Battery Identity to Compatible Charger
