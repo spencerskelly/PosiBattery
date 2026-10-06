@@ -13,6 +13,9 @@ subtypeOf:
   - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Operator Access Authorization Logic]]"
+  - "[[Toyota PIN Code Access Pad]]"
+  - "[[Panacea Smart Start]]"
+  - "[[Crown InfoLink]]"
 realizes:
   - "[[Control Operator Access]]"
 dependencyOf:
