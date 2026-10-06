@@ -23,6 +23,10 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Vehicle Energy Interface Design]]
 - [[Fuel Cell Power Design]]
 
+### Protection and control
+
+- [[Deep Discharge Protection Design]]
+
 ### Sensing, state, and data
 
 - [[Battery Abuse Cycle Analytics]]
