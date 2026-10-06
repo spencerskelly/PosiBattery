@@ -27,6 +27,10 @@ performs:
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+hasDesign:
+  - "[[Temperature-Compensated Charge Control Design]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[EnerSys Wi-iQ]]"
 ---
 
@@ -59,6 +63,8 @@ EnerSys wireless charger for AGVs and other vehicles, compatible with all EnerSy
 | Controls | intuitive touchscreen; easily integrated charging pad in vertical or horizontal orientation |
 | Chart | efficiency 94% or greater; automatic temperature adjustment via Wi-iQ; cold storage profile; TPPL and iON profiles |
 | Ratings | not given (n/s) |
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
