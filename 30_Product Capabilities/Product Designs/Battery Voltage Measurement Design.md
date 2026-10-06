@@ -17,6 +17,7 @@ realizes:
 designOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
+  - "[[Battery Voltage Measurement Circuit]]"
 supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
