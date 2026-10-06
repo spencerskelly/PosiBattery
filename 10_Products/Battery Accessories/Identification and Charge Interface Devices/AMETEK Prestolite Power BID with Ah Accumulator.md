@@ -21,8 +21,14 @@ performs:
   - "[[Report Battery Temperature to Charger]]"
   - "[[Log Battery Events and Usage]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
+hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 offeredWith:
@@ -74,6 +80,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 | Accumulator functions on | Ultra Maxx, PowerStar Plus, Eclipse II controls |
 | Warranty | 1 year |
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
