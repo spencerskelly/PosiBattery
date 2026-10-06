@@ -13,6 +13,8 @@ supertypeOf:
   - "[[Diagnostic-Loop Adaptive Charging]]"
 designOf:
   - "[[Adaptive Charge Profile Control Firmware]]"
+  - "[[Fronius Selectiva 4.0]]"
+  - "[[EnerSys IMPAQ Charger]]"
 realizes:
   - "[[Adapt Charge to Battery Condition]]"
 dependencyOf:
