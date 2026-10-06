@@ -26,6 +26,10 @@ hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[Local Status Presentation Firmware]]"
 madeBy:
   - "[[EnerSys]]"
 ---
@@ -93,6 +97,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 | System | battery-mounted iQ Mini devices with iQ Gateway battery data transmitters; online portal |
 | Electrical specifications | none given in the flyer |
 - **Conflict-visible (C49):** the earlier note carries '12-80 V' from the seed text; the flyer states no voltage range, so the figure stays 'carried, not verified'. The iQ Gateway is a product not yet modeled (see [[Unidentified Products Review]]).
+- **Implementation assumption — local status presentation:** the color status indicators are verified. [[LED Status Indicator Element]] captures the physical LEDs; [[Status Indicator Driver Circuit]] and [[Local Status Presentation Firmware]] are allocated at **>=95% engineering confidence** because their internal implementation is not published.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 ## Aliases
