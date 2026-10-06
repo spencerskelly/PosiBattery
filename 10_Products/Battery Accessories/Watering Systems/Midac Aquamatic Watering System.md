@@ -18,6 +18,8 @@ performs:
 offeredBy:
   - "[[Midac]]"
 offeredWith:
+hasDesign:
+  - "[[Battery Cell Watering Design]]"
   - "[[Midac PzS Traction Battery]]"
 ---
 
@@ -44,6 +46,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.batterie-siems.de/en-gb/2-pzs-280-2mdl140>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery watering:** [[Battery Cell Watering Design]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
