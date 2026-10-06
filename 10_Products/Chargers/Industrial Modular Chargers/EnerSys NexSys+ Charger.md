@@ -27,10 +27,14 @@ hasDesign:
   - "[[Modular Power Modules]]"
   - "[[Outdoor-Rated Charger Enclosure]]"
   - "[[Dual-Cable and Parallel Charging Configuration]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[EnerSys NexSys TPPL Battery]]"
 ---
 
@@ -80,6 +84,8 @@ EnerSys programmable modular high-frequency charger for mixed lead and lithium f
 - **Conflict-visible (C50):** earlier notes said Wi-iQ supplies battery type and voltage; the guide adds capacity. The earlier APAC guide said IP-54 only; the AMER guide says NEMA 3R / IP54 (a refinement, not a contradiction).
 - Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 - The NexSys+ charger manuals list the same profile code family as IMPAQ (P07, P19, P21, P22, P25, P29, P30, P31), with a unique profile for NexSys TPPL, chemistry coverage of TPPL, flooded and gel, a weekly equalize, an opportunity option, an external START/STOP and EQUALIZE input and refresh charging. Source: EnerSys NexSys+ charger owner's manuals (T1), retrieved 2026-10-03. <https://www.enersys.com/4aefff/globalassets/documents/product-documentation/nexsys/_multi/emea/emea-en-om-nex-plch-1022.pdf>
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
