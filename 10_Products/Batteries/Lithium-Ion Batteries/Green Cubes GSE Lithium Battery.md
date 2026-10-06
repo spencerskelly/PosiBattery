@@ -19,6 +19,7 @@ hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[CAN Interface]]"
   - "[[Integrated Battery Heater]]"
+  - "[[CAN Battery State Communication Design]]"
 madeBy:
   - "[[Green Cubes Technology]]"
 offeredWith:
@@ -44,6 +45,8 @@ Green Cubes lithium battery for ground support equipment with heaters and a CANb
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
   - [[Integrated Battery Heater]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
+
+- **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
 
 ## Aliases
 
