@@ -743,3 +743,1206 @@ records:
         disposition: not_applicable
         exception: EXC-FRAMING
         note: "The context note summarizes evidence-backed boundaries but is not itself the governed evidence source."
+  "30_Product Capabilities/BMID - Preserve Battery Association.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/BMID - Provide Battery Identity to Compatible Charger.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/BMID - Provide Supported Battery Condition Information to Charger.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/BMID - Retain Battery-Specific Usage History.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/PosiGuard - Support Lead-Acid and Lithium Battery Fleets.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/PosiGuard - Support Local Service Configuration.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/900 MHz Industrial Wireless Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/AC Drive Motor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Acid-Resistant Sealed Housing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Active Stability Actuator.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Aircraft Proximity Indicator Light.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Audible Alarm.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Battery Integrated Feature Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Battery Onboard Charger.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Battery Sensor Element Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Battery Sensor Mounting Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Battery-Top Mounting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Belt-Worn Remote Control.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Bluetooth Class 1 Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Bluetooth Interface.md":
+    classification: engineering_support
+
+  "30_Product Capabilities/Product Designs/Bluetooth Low Energy Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Breakaway Connector.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Cable-Mounted Indicator Placement.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/CAN Interface.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/CAN-LIN and Battery Bus Interface.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Capacitive Electrolyte Level Probe.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Cellular Communication Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Charger Operator Interface Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Charger Power Stage Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Charger Status LED Bar.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Cloud Portal Integration.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Copper Inserted Posts.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Current Sensing Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Data Handling Design.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/DC-Cable Power-Line Communication.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Display Device Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Dual-Cable and Parallel Charging Configuration.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Electric Mast Thrust Drive.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Electric Parking Brake.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Electric Power Steering.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Electrolyte-Immersed Temperature Sensor.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Emergency Cut-Off Switch.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Enclosure and Mounting Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Extended Watering Interval.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/External Shunt Current Sensing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Fingerprint Reader.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Flat Plate Construction.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Flexible Bolt-On Intercell Connector.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Floor-Projected Warning Light.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Forced Electrolyte Circulation.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Fork Laser Guide.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Fuel Cell Hybrid Power Stage.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Fuel Cell Power Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Gel Electrolyte.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Hall-Effect Current Sensing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Harness Ring-Terminal Mounting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Heavy-Duty Intercell Connectors.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Hibernation Mode.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Hydraulic Pressure Load Sensor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Hydrogen Storage Tank.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Impact Sensor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Indicator and Alarm Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Individual Plate Formation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Infrared Data Port.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Ingress-Protected Drive Components.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Integrated Battery Heater.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Integrated Battery Management System.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Integrated LCD Display.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Interactive Warning Vest.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Lead-Acid Battery Construction Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/LiDAR Object Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Light-Beam Compartment Sensor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Light-Triggered Data Upload.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Local LED Indicator.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/LoRa Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Magnetic Field Detection Sensor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Mast Lift Limit Switch.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Mid-Battery Voltage Tap.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Mobile App Interface.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Modular Power Modules.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Multi-Voltage Output.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/NFC Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Non-Volatile Event Memory.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Object and Proximity Sensing Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Onboard Charger Mounting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Onboard Fuel Level Gauge.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Operator Identification Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Operator Presence Pedal.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Operator Presence Sensing Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Operator Sensing Floor Mat.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Operator Touch Display.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Outdoor-Rated Charger Enclosure.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Panel-Mount Gauge Form Factor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Pedestrian Detection Camera.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Programmable Motor Controller.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Proximity Tag System.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Quick-Change Battery Compartment.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Radar Object Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Regenerative Braking.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Reverse-Polarity Protection.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Reference Design/Function is not adopted into the active engineering chain."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/RFID or PIN Access Reader.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/RS-232 and RS-485 Serial Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Seat Belt Interlock.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Shuntless Current Sensing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Silicon-Carbide Power Stage.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Split-Core Current Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Stereoscopic Vision Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Thin Plate Pure Lead Plates.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Touchscreen Interface.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Truck Charging Port.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Tubular Plate Construction.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Ultrasonic Distance Sensor.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/USB Data Download.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Vehicle Control Device Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Vehicle Drive Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Vehicle Energy Interface Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Vehicle State Sensing Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Vehicle-Mounted Display.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Warning and Display Device Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Wi-Fi Interface.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/Wired Interface Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Designs/Wireless Interface Design.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Wrap-Around Cell Connector Probe.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Designs/ZigBee 2.4 GHz Interface.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Functions/Accumulate Amp-Hours.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Charge Battery Conventionally.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Functions/Charge Battery Wirelessly.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Charge Battery.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Circulate Electrolyte.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Communicate Battery and Vehicle Data.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Communicate Battery State over CAN.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Complete Missed Equalization Automatically.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Configure Device from Mobile App or PC.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Connect Battery Power Path.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Control Charge Profile.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Cushion Fork Lowering.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Cut Lift at Programmed Height.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Cut Power in an Emergency.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Damp Mast Oscillation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Deliver Energy to Vehicles.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Desulfate Battery During Charge.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Detect Battery Weight.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Detect Foreign and Live Objects.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Diagnose Battery During Charge.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Equalize Battery on Schedule.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Estimate State of Charge.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Estimate State of Health.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Export Battery Data to PC.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Float Charge Battery.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Follow Operator Automatically.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Hold or Stop Vehicle Automatically.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Hold Truck on Slope.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Identify Battery by Voltage.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Functions/Identify Battery to Charger.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Inform Operator of Truck Condition.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Inform Users of Battery Condition.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Keep Charging Available and Safe.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Keep Equipment Working in Its Environment.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Know and Protect Battery Condition.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Limit Vehicle Speed Automatically.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Log Battery Events and Usage.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Maintain Battery Electrolyte.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Maintain Vehicle Stability and Load Awareness.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Manage Fleet Use and Data.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Manage Fleet Use.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Measure Battery Current.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Functions/Measure Battery Voltage.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Measure Electrolyte Specific Gravity.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Operate in Harsh Conditions.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Program Travel, Lift and Tilt Speeds.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Protect Battery from Harm.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Protect People and Equipment Near Vehicles.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Reduce Operator Effort.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Reduce Speed When Seat Belt Is Unfastened.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Reduce Wheel Slip.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Report Battery Temperature to Charger.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Report Fuel Cell State to Truck.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Rotate Operator Workstation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Sense Battery State.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Sense Collision Risk and Events.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Sense Load Weight and Lift Height.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Steer with Electric Power Assist.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
+
+  "30_Product Capabilities/Product Functions/Supply Vehicle Energy Without Charging.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Support Operator View and Positioning.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Support the Operator.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
+  "30_Product Capabilities/Product Functions/Transmit Battery Data Wirelessly.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Upload Battery Data to Cloud Portal.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Functions/Warn People of Hazards.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+
