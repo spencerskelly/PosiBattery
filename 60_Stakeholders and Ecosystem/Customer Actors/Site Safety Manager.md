@@ -8,6 +8,13 @@ tags:
   - customer-role
   - actor
   - role-hypothesis
+hasNeed:
+  - "[[Control Who Operates Each Truck]]"
+  - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Keep Trucks Slow in Hazardous Zones]]"
+  - "[[Prevent Tip-Overs and Overloads]]"
+  - "[[Warn Pedestrians of an Approaching Truck]]"
+  - "[[Warn the Operator of People and Objects Near the Truck]]"
 ---
 
 # Site Safety Manager
