@@ -13,10 +13,12 @@ reuseScope: cross-product
 hasDesign:
   - "[[Wrap-Around Cell Connector Probe]]"
   - "[[Cell-Connector Temperature Sensing]]"
+  - "[[Cell-Connector Electrolyte Level Sensing]]"
 partOf:
   - "[[Exide Motion+ EasyMonitor]]"
 performs:
   - "[[Measure Battery Temperature]]"
+  - "[[Sense Electrolyte Level]]"
 ---
 
 # Wrap-Around Cell Connector Sensor Assembly
