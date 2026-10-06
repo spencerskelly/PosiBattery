@@ -8,10 +8,12 @@ tags:
   - truck-design
   - design-characteristic
 subtypeOf:
-  - "[[Display Device Design]]"
+  - "[[Vehicle Operator Display Design]]"
 describedBy:
   - "[[Metric - Operator Feedback]]"
 designOf:
+  - "[[Operator Touchscreen Display Module]]"
+  - "[[EnerSys Truck iQ]]"
   - "[[Crown InfoLink]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Crown Gena Operating System]]"
