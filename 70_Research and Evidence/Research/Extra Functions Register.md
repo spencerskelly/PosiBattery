@@ -69,7 +69,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Upload Battery Data to Cloud Portal]] | battery | 4 | 21 | 19% | [[Wireless Interface Design]], [[Cloud Portal Integration]] | 18 | 6 | Extra |
 | [[Alert on Abnormal Condition]] | battery | 5 | 21 | 24% | [[Warning and Display Device Design]] | 18 | 7 | Extra |
 | [[Log Battery Events and Usage]] | battery | 5 | 21 | 24% | [[Data Handling Design]] | 23 | 4 | Extra |
-| [[Measure Battery Temperature]] | battery | 6 | 21 | 29% | - | 27 | 8 | Extra |
+| [[Measure Battery Temperature]] | battery | 6 | 21 | 29% | [[Battery Temperature Measurement Design]] | 27 | 8 | Extra |
 | [[Measure Battery Voltage]] | battery | 6 | 21 | 29% | - | 20 | 8 | Extra |
 | [[Sense Electrolyte Level]] | battery | 6 | 21 | 29% | [[Battery Sensor Element Design]] | 26 | 9 | Extra |
 | [[Charge Battery Wirelessly]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
