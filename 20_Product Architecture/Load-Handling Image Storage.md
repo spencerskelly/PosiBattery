@@ -13,6 +13,8 @@ reuseScope: cross-product
 dependencyOf:
   - "[[Load-Handling Image Capture Logic]]"
 performs:
+partOf:
+  - "[[Toyota Twistlock Snapshot Camera System]]"
   - "[[Record Images of Load Handling]]"
 ---
 
