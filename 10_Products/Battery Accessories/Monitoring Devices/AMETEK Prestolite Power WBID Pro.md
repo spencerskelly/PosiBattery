@@ -26,6 +26,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
+  - "[[Ambient Temperature Sensor]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
 madeBy:
@@ -81,8 +82,10 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Upload Battery Data to Cloud Portal]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
 - **Design characteristics, with citations:**
   - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+  - [[Ambient Temperature Sensor]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
   - [[ZigBee 2.4 GHz Interface]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
   - [[Local LED Indicator]] (V): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
+- **Temperature sensing allocation:** the product explicitly distinguishes electrolyte and ambient temperature sensors, so both Designs are retained. Sensor technology for the ambient channel is not stated and remains intentionally unassigned.
 - **Sources used for the mapping above:** Prestolite WBID Pro page <https://www.prestolitepower.com/products/datadevices/wbid-pro>; Seed note (cites the WBID Pro page for these) <https://www.prestolitepower.com/products/datadevices/wbid-pro>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
