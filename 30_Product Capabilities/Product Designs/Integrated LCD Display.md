@@ -10,6 +10,8 @@ tags:
 subtypeOf:
   - "[[Display Device Design]]"
 designOf:
+  - "[[LCD Status Display Module]]"
+  - "[[LCD Display Interface Circuit]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
 ---
