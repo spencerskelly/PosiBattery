@@ -17,6 +17,7 @@ partOf:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Low Electrolyte Alert Output Assembly]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Alert on Low Electrolyte Level]]"
