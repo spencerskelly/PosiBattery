@@ -26,6 +26,7 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
 hasPart:
+  - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Amp-Hour Accumulator Firmware]]"
