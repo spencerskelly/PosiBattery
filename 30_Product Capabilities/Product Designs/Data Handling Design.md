@@ -13,6 +13,7 @@ supertypeOf:
   - "[[Usage-History State of Health Analytics]]"
   - "[[Cloud Portal Integration]]"
   - "[[Non-Volatile Event Memory]]"
+  - "[[Battery Abuse Cycle Analytics]]"
 dependencyOf:
   - "[[Log Battery Events and Usage]]"
   - "[[Predict Battery Replacement Timing]]"
