@@ -14,6 +14,9 @@ reuseScope: cross-product
 hasDesign:
   - "[[Charger-Controlled Automatic Watering]]"
 performs:
+partOf:
+  - "[[PosiCharge Single-Point Automatic Battery Watering]]"
+  - "[[PosiCharge SVS200]]"
   - "[[Water Battery Cells]]"
 ---
 
