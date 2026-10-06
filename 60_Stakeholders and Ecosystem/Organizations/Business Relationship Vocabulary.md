@@ -7,7 +7,7 @@ status: Draft
 tags:
   - organization
   - vocabulary
-  - provisional
+  - governed-business-vocabulary
 describedBy:
   - "[[Business Relationship Ledger]]"
 ---
@@ -16,17 +16,17 @@ describedBy:
 
 ## Definition
 
-Provisional relationship fields for connecting organizations, roles and products, mapped to ArchiMate and TOGAF concepts, to be refined into a standard later.
+Governed relationship vocabulary for connecting organizations, reusable business roles, and products while preserving distinct maker, offer, channel, supply, ownership, partnership, integration, and product-association meanings.
 
 ## Notes
 
-- **Status:** provisional. The governed schema (`relationships.yaml` 1.35) has no organization relationships. These fields are listed in `99_System/03_Schemas/business-relationships.provisional.yaml`, mirroring the schema's format with `provisional: true`. No tool reads that file yet, so Nodian will not generate inverses; this vault writes forward and inverse fields by hand (the schema says the forward field wins).
+- **Status:** governed. `99_System/03_Schemas/relationships.yaml` 1.36 is authoritative for these predicates, including legacy Info endpoints for existing organization records. Normal inverse synchronization and relationship audit tooling apply. `business-relationships.provisional.yaml` is historical design evidence only and is not semantic authority.
 - **Class choices:** organizations and roles are Info notes tagged `organization`; products are Objects. ArchiMate's Business Actor, Business Role and Product map onto these; TOGAF's Organization/Actor and Product catalogs are the closest reference. Neither is adopted as a standard here.
 - **Evidence rule:** no business link without a row in [[Business Relationship Ledger]] that gives the source URL and whether the link is stated or inferred. `makes` is used only where the vendor presents the product as its own; otherwise `offers`.
 - **Governed alternatives (decision pending, Q9):** `includes` (membership without ownership) could model bundles and dealer networks; `dependsOn` could model supply; `copyOf` could model rebrands; `supersedes` could model successors. Using them would need no schema change but loses the business meaning.
 - **Not defined yet:** `competesWith` (analyst judgement, needs a market definition), `licensedFrom`, `acquiredBy` with dates, `resellerOf`. Listed in [[Investigation Backlog]].
 
-| Provisional relationship | Endpoints | Nearest ArchiMate or TOGAF concept | Governed alternative today |
+| Governed relationship | Endpoints | Nearest ArchiMate or TOGAF concept | Related generic relationship |
 |---|---|---|---|
 | playsRole / rolePlayedBy | org -> role note | Business Actor assigned to Business Role (ArchiMate); Actor and Role catalog (TOGAF) | none; governed alternative: tags |
 | makes / madeBy | org -> Object | Business Actor realizes Product | hasPart is Object-only; none fits |
