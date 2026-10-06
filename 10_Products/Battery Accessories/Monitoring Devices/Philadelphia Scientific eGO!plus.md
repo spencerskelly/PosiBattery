@@ -23,6 +23,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Local LED Indicator]]"
+  - "[[Internal Temperature Sensor]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
