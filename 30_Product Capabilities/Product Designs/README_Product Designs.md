@@ -52,6 +52,8 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 ### Communications and interfaces
 
+- [[Battery-Charger Data Communication Design]]
+
 - [[CAN Battery State Communication Design]]
 - [[CAN Vehicle Operating Limit Command]]
 - [[Wired Interface Design]]
