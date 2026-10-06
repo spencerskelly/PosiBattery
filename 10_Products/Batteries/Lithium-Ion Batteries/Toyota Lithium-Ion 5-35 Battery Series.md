@@ -14,6 +14,7 @@ performs:
   - "[[Communicate with Charger]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
+  - "[[Battery-Charger Data Communication Design]]"
 offeredBy:
   - "[[Toyota Material Handling]]"
 offeredWith:
@@ -34,6 +35,8 @@ Toyota lithium-ion battery series in 24, 36 and 48 V for a broad range of Toyota
   - [[Communicate with Charger]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
