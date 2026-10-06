@@ -8,6 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Custom RF Interface]]"
   - "[[900 MHz Industrial Wireless Interface]]"
   - "[[Bluetooth Interface]]"
   - "[[Cellular Communication Interface]]"
