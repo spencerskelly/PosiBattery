@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[CAN Interface]]"
+  - "[[CAN Battery State Communication Design]]"
 describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 performedBy:
@@ -22,8 +23,11 @@ performedBy:
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[HOPPECKE trak collect]]"
+  - "[[CAN Battery State Communication Firmware]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+realizedBy:
+  - "[[CAN Battery State Communication Design]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
@@ -46,7 +50,21 @@ Provide battery state to other equipment over a CAN network.
   - [[Stryten M-Series Li600 Battery]] (V): <https://www.foodlogistics.com/sustainability/carbon-footprint/news/22891172/stryten-energy-lithium-batteries-for-cold-chain>
   - [[Green Cubes GSE Lithium Battery]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
   - [[HOPPECKE trak collect]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
-- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent), delivered by devices or software (CAN Interface); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 1 of 21 battery maker groups (5 percent); [[CAN Interface]] remains the transport dependency, while [[CAN Battery State Communication Design]] represents the application behavior.
+
+## Implementation Allocation
+
+The reusable realization is [[CAN Battery State Communication Design]] -> [[CAN Battery State Communication Firmware]].
+
+[[CAN Interface]] and [[CAN Communication Circuit]] provide the physical/protocol transport. The firmware selects battery state, encodes it according to the product's CAN application protocol, and exchanges it with the connected equipment.
+
+### Product allocation
+
+Products with explicit CAN battery-state communication can use this common application-layer Design even when their protocol differs. Published examples include [[EnerSys Wi-iQ]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]], [[Hyster Power Cellect]], [[Stryten M-Series Li600 Battery]], [[Green Cubes GSE Lithium Battery]], and [[HOPPECKE trak collect]].
+
+The internal firmware allocation is **>=95% engineering confidence** where the product literature establishes CAN state exchange but does not expose the software partition.
+
+CAN message IDs, PGNs, CANopen objects, signal scaling, update rates, heartbeats, node addressing, and timeout behavior remain product-specific.
 
 ## Aliases
 
