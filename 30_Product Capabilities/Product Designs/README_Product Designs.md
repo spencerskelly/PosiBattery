@@ -123,3 +123,5 @@ Use a Design note for a reusable implementation pattern, not for a single produc
 - [[Remote Charger Management Design]]
 
 - [[Load-Handling Image Capture Design]]
+
+- [[Impact-Triggered Vehicle Lockout Design]]
