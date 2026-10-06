@@ -19,6 +19,8 @@ hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
   - "[[Local LED Indicator]]"
   - "[[Acid-Resistant Sealed Housing]]"
+hasPart:
+  - "[[Capacitive Electrolyte Level Sensor Assembly]]"
 madeBy:
   - "[[Flow-Rite]]"
 ---
