@@ -16,6 +16,7 @@ partOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
 dependsOn:
   - "[[LCD Display Interface Circuit]]"
