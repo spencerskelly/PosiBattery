@@ -19,6 +19,8 @@ performs:
   - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
+hasPart:
+  - "[[Capacitive Electrolyte Level Sensor Assembly]]"
 madeBy:
   - "[[Flow-Rite]]"
 ---
