@@ -12,6 +12,7 @@ subtypeOf:
 dependencyOf:
   - "[[Detect and Record Impacts]]"
   - "[[Lock Out Vehicle After Impact]]"
+  - "[[Impact-Triggered Vehicle Lockout Design]]"
 designOf:
   - "[[Linde connect]]"
   - "[[Logisnext Lift Link]]"
