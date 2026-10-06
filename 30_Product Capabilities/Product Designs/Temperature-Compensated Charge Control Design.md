@@ -13,6 +13,21 @@ supertypeOf:
   - "[[Communicated Battery Temperature Charge Compensation]]"
 designOf:
   - "[[Temperature Compensation Charge Control Firmware]]"
+  - "[[AMETEK Prestolite Power Eclipse II]]"
+  - "[[AMETEK Prestolite Power ULTRA]]"
+  - "[[Crown V-HFM3 Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys+ Charger]]"
+  - "[[Fronius Selectiva 4.0]]"
+  - "[[HOPPECKE trak charger HF premium]]"
+  - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS150]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[Stryten EHI Charger]]"
+  - "[[Stryten X-7 Charger]]"
+  - "[[Lester Summit Series II]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
 realizes:
   - "[[Compensate Charge for Battery Temperature]]"
 dependencyOf:
