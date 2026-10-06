@@ -107,7 +107,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Assist Lift Positioning]] | truck | 2 | 10 | 20% | - | 7 | 0 | Extra |
 | [[Charge Battery from Standard Power Outlet]] | truck | 2 | 10 | 20% | [[Battery Onboard Charger]] | 0 | 0 | Extra |
 | [[Damp Mast Oscillation]] | truck | 2 | 10 | 20% | - | 2 | 0 | Extra |
-| [[Display Battery Status to Operator]] | truck | 2 | 10 | 20% | [[Display Device Design]] | 2 | 1 | Extra |
+| [[Display Battery Status to Operator]] | truck | 2 | 10 | 20% | [[Vehicle Operator Display Design]] | 2 | 1 | Extra |
 | [[Display Truck Status to Operator]] | truck | 2 | 10 | 20% | [[Display Device Design]] | 0 | 0 | Extra |
 | [[Hold Truck on Slope]] | truck | 2 | 10 | 20% | - | 0 | 0 | Extra |
 | [[Protect Battery from Deep Discharge]] | truck | 2 | 10 | 20% | - | 1 | 0 | Extra |
