@@ -13,6 +13,7 @@ tags:
 subtypeOf:
   - "[[Abnormal Condition Alert Design]]"
 designOf:
+  - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Remote Alert Notification Service]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
