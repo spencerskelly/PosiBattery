@@ -1,0 +1,87 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 12
+status: "Complete"
+title: "Requirement upstream rationale review"
+
+scope:
+  governed_type: "Requirement"
+  review_focus:
+    - "why the Requirement exists"
+    - "drivenBy rationale from Customer Need or operational Use Case"
+    - "derivedFrom/refinedBy/childOf hierarchy when applicable"
+    - "references to formal Requirement/Document when applicable"
+    - "appliesTo as explicit engineering scope"
+
+implementation:
+  review_script: "99_System/09_Tools/review-requirement-rationale.py"
+  script_commit: "e627ecd2"
+  workflow: ".github/workflows/semantic-linking-requirement-rationale-review.yml"
+  workflow_commit: "721b66de"
+  trigger_commit: "aac49609"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37394863534
+  job_id: 112048301630
+  result: "success"
+  requirements_reviewed: 6
+  requirements_with_upstream_rationale: 6
+  requirements_with_defensible_rationale_path: 6
+  requirements_with_scope: 6
+  appliesTo_assertions: 6
+  drivenBy_assertions: 10
+  rationale_paths:
+    operational_use_case: 8
+    customer_need: 2
+  findings: 0
+
+requirement_review:
+  - requirement: "BMID - Preserve Battery Association"
+    rationale:
+      - "Inspect Battery Condition Through a BMID"
+      - "Review BMID Battery History and Exceptions"
+    scope: "PosiCharge BMID"
+  - requirement: "BMID - Provide Battery Identity to Compatible Charger"
+    rationale:
+      - "Charge a BMID-Equipped Battery Using Battery Information"
+      - "Integrate the Battery with Truck and Charger Controls"
+    scope: "PosiCharge BMID"
+  - requirement: "BMID - Provide Supported Battery Condition Information to Charger"
+    rationale:
+      - "Charge a BMID-Equipped Battery Using Battery Information"
+      - "Inspect Battery Condition Through a BMID"
+    scope: "PosiCharge BMID"
+  - requirement: "BMID - Retain Battery-Specific Usage History"
+    rationale:
+      - "Review BMID Battery History and Exceptions"
+      - "Document Battery Care for Warranty Compliance"
+    scope: "PosiCharge BMID"
+  - requirement: "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+    rationale:
+      - "Integrate a BMID with Charger Vehicle and Fleet Systems"
+    scope: "PosiCharge PosiGuard"
+  - requirement: "PosiGuard - Support Local Service Configuration"
+    rationale:
+      - "Configure and Service a Supported BMID"
+    scope: "PosiCharge PosiGuard"
+
+semantic_interpretation:
+  drivenBy: "Valid causal/upstream rationale when the Requirement exists because of a Customer Need or operational Use Case."
+  appliesTo: "Explicit scope; it does not by itself explain why the Requirement exists."
+  hierarchy: "No derivedFrom/refinedBy/childOf Requirement hierarchy is currently required for these six requirements."
+  references: "No formal references relationship was required to make current rationale defensible."
+  body_links: "Prose/body links do not replace governed upstream rationale."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  requirement_notes_changed: 0
+
+conclusion:
+  unexplained_requirement_rationale_gaps: 0
+  unexplained_requirement_scope_gaps: 0
+  next_step: "Step 13 — Review Requirement applicability"
