@@ -15,6 +15,10 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+partOf:
+  - "[[Toyota PIN Code Access Pad]]"
+  - "[[Panacea Smart Start]]"
+  - "[[Crown InfoLink]]"
   - "[[Control Operator Access]]"
 ---
 
