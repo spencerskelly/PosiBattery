@@ -58,7 +58,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Restrict Lift When Load Exceeds Limit]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing | needs a load sensor |
 | [[Recover Energy by Regeneration]] | [[Regenerative Braking]] | analyst inference (necessity) | strong | no gap | is the design |
 | [[Refuel Truck Power Source in Minutes]] | [[Hydrogen Storage Tank]] | analyst inference (necessity) | strong | no gap | needs on-truck fuel storage (fuel cell trucks) |
-| [[Circulate Electrolyte]] | [[Forced Electrolyte Circulation]] | analyst inference (necessity) | strong | no gap | is the mechanism |
+| [[Circulate Electrolyte]] | [[Air Injection Electrolyte Circulation]] | implementation review | strong | current products identify air agitation/circulation; Midac explicitly identifies charger-mounted pump and in-cell tubes, HAWKER an air pump, HOPPECKE air delivered into each cell | requires an air source and cell distribution path; exact pump/control topology remains product-specific |
 | [[Log Battery Events and Usage]] | [[Data Handling Design]] | analyst inference (necessity) | strong | sources do not name the storage | needs storage that survives power loss; retargeted to the design class in round 28 because sources name different or no implementations |
 | [[Continue Charging Through Module Fault]] | [[Modular Power Modules]] | analyst inference (necessity) | typical | module count not named in two sources | needs a modular power stage |
 | [[Charge Under BMS Control]] | [[Integrated Battery Management System]] | analyst inference (necessity) | strong | cross-product: chargers perform the function and the design lives on the battery | needs a BMS |
