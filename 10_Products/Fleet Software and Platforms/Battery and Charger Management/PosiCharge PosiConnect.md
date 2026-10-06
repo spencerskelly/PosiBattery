@@ -19,6 +19,9 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
+hasDesign:
+  - "[[Device Configuration and Service Design]]"
+  - "[[Mobile App Interface]]"
   - "[[PosiCharge PosiGuard]]"
 ---
 
@@ -34,6 +37,8 @@ PosiCharge mobile app that connects to PosiGuard for on-site configuration and s
 - **Baseline confidence (PosiConnect):** Verified public—product level. **Still needed:** Supported OS/device versions; authentication/identity lifecycle; role permissions; update security; offline behavior; data export and synchronization; service and support ownership.
 - **Functions performed, with citations:**
   - [[Configure Device from Mobile App or PC]] (V): <https://posicharge.com/products/posiconnect/>
+
+- **Architecture realization — configuration and service:** published material supports [[Device Configuration and Service Design]] with the specific front-end path [[Mobile App Interface]]. Transport details remain represented by the product's verified communication interfaces.
 
 ## Aliases
 
