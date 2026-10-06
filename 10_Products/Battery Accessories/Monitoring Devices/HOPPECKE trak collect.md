@@ -46,6 +46,7 @@ hasDesign:
   - "[[Battery Event and Usage Logging Design]]"
   - "[[CAN Battery State Communication Design]]"
   - "[[Wireless Battery Data Communication Design]]"
+  - "[[Cloud Battery Data Upload Design]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -166,6 +167,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
 
 - **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
+
+- **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
 
 ## Aliases
 
