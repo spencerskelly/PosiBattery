@@ -32,6 +32,8 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
   - "[[Wrap-Around Cell Connector Probe]]"
+hasPart:
+  - "[[Wrap-Around Cell Connector Sensor Assembly]]"
 madeBy:
   - "[[Exide Technologies]]"
 ---
