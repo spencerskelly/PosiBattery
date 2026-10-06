@@ -35,6 +35,7 @@ hasDesign:
   - "[[External Thermistor Temperature Sensor]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Equalization Event Tracking Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
 madeBy:
@@ -111,6 +112,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Smart Equalize with REVOLUTION:** completes any missed equalization during the next charge cycle and continues until finished.
 - **Conflicts (C47):** the product page says shuntless and lists 24/36/48 V; the sheet says shuntless intercell sensing or Hall effect and lists 24/36/48/72/80 V by charger rating. Every number in this sheet's spec table (900 MHz, 150 ft, 10,000 events, 1/2 W, 4.25 x 1.5 x 0.6 in, +/-500 A) matches the 2018 PowerTrac DT3 data sheet, so the two may share a platform or the table may be reused.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 ## Aliases
 
