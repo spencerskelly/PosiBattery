@@ -104,4 +104,6 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
 
 - **Implementation assumption — control and identification firmware:** [[Control Circuit]], [[Battery Identification and Charger Communication Firmware]], and [[Battery Identification and Charger Communication Software Design]] are allocated to the BMID family as >=95% engineering assumptions. The published product behavior requires electronic storage of identity/profile/history plus charger communication, making a controller/firmware implementation highly likely, but no internal schematic, MCU, or firmware architecture has been publicly verified.
 
+- **Implementation assumption — battery voltage measurement:** [[Battery Voltage Measurement Circuit]], [[Battery Voltage Acquisition Firmware]], and [[Battery Voltage Measurement Design]] are allocated to the BMID family at >=95% confidence because the product is publicly documented as measuring/recognizing battery voltage. The exact circuit topology is unknown; no resistive-divider, ADC, isolation, or component part-number claim is made.
+
 ## Former ids
