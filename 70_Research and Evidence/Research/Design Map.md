@@ -55,7 +55,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
 | [[Communicated Watering Need Alert]] | [[Crown V-Force BMID]] | - | - |
 | [[Copper Inserted Posts]] | [[Deka FastCharge Battery]] | - | - |
-| [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
+| [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Raymond iBattery]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
+| [[Stored Battery Weight Compatibility Verification]] | [[Raymond iBattery]] | - | - |
 | [[Dual-Cable and Parallel Charging Configuration]] | [[Deka FastCharge Battery]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Electric Mast Thrust Drive]] | [[Linde Dynamic Mast Control]] | - | - |
 | [[Electric Parking Brake]] | [[Crown RC 5700 Series]], [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Doosan Bobcat NXE Series Electric Forklifts]] | - | - |
