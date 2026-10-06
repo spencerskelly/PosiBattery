@@ -12,6 +12,7 @@ reuseScope: cross-product
 supertypeOf:
   - "[[Operator Display Controller Circuit]]"
 dependencyOf:
+  - "[[Amp-Hour Accumulator Firmware]]"
   - "[[Specific Gravity Measurement Circuit]]"
   - "[[Specific Gravity Acquisition Firmware]]"
   - "[[Battery Identification and Charger Communication Firmware]]"
@@ -22,6 +23,10 @@ dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 partOf:
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
+  - "[[Access Control Group CellTrac]]"
+  - "[[Power Designers PowerTrac DT3]]"
+  - "[[Power Designers PowerTrac SP+]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[EnerSys Wi-iQ]]"
