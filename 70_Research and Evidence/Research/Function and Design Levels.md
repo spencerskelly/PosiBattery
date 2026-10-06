@@ -78,6 +78,7 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Operator Identification Design]]**: [[Fingerprint Reader]], [[RFID or PIN Access Reader]]
 - **[[Vehicle Drive Design]]**: [[AC Drive Motor]], [[Electric Parking Brake]], [[Electric Power Steering]], [[Regenerative Braking]]
 - **[[Vehicle Energy Interface Design]]**: [[Quick-Change Battery Compartment]], [[Truck Charging Port]]
+- **[[State of Charge Estimation Design]]**: [[Battery-Monitor State of Charge Estimation]], [[Integrated BMS State of Charge Estimation]]
 - **[[Voltage Imbalance Detection Design]]**: [[Midpoint Voltage Symmetry Detection]]
 - **[[Vehicle State Sensing Design]]**: [[Hydraulic Pressure Load Sensor]], [[Impact Sensor]]
   - **[[Operator Presence Sensing Design]]**: [[Light-Beam Compartment Sensor]], [[Operator Presence Pedal]], [[Operator Sensing Floor Mat]]
