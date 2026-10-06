@@ -6,7 +6,7 @@ and context relationships: hasDesign/designOf, realizedBy/realizes,
 appliesTo/applies, satisfies/satisfiedBy, and supported dependsOn/dependencyOf.
 Report-only; unresolved choices are recorded rather than filled.
 """
-from pathlib import Path
+# Step 10 governed review entry point\nfrom pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
 
