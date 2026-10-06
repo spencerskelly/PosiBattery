@@ -14,7 +14,6 @@ supertypeOf:
   - "[[Battery Status Gauge]]"
   - "[[Integrated LCD Display]]"
 dependencyOf:
-  - "[[Display Truck Status to Operator]]"
   - "[[Enforce Pre-Shift Checklist]]"
   - "[[Show Camera View to Operator]]"
 ---
