@@ -13,6 +13,12 @@ subtypeOf:
 dependsOn:
   - "[[Warning and Display Device Design]]"
 performedBy:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[LCD Status Display Module]]"
+  - "[[LCD Display Interface Circuit]]"
+  - "[[Battery Status Gauge Display Element]]"
+  - "[[Local Status Presentation Firmware]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
