@@ -18,12 +18,10 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac Monitor]]"
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
-  - "[[EnerSys Truck iQ]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[HOPPECKE trak collect]]"
   - "[[State of Charge Estimation Firmware]]"
@@ -53,13 +51,11 @@ Estimate the battery's state of charge from measurements.
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
   - [[AMETEK Prestolite Power WBID Pro]] (C): <https://www.prestolitepower.com/products/datadevices/wbid-pro>
   - [[EnerSys Wi-iQ]] (V): <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
-  - [[EnerSys Truck iQ]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
   - [[Power Designers PowerTrac DT3]] (V): <https://www.materialhandling247.com/product/powertrac_dt_battery_diagnostics_tool>
   - [[Power Designers PowerTrac Monitor]] (V): <https://powerdesignerssibex.com/powertrac-monitor/>
   - [[Raymond iBattery]] (V): <https://mhlnews.com/archive/article/22045964/raymond-battery-module>
   - [[Hyster Battery Tracker]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
-  - [[Inventus Smart Battery Monitor SBM-01]] (V): <https://inventuspower.com/wp-content/uploads/TDS_Smart-Battery-Monitor_2023-Aug_V1.pdf>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
   - [[TUG ALPHA 1 Pushback]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
@@ -80,6 +76,12 @@ Concrete algorithm alternatives:
 - [[Hybrid State of Charge Estimation]]
   - depends on voltage measurement, current sensing, and temperature information;
   - may combine coulomb counting, voltage lookup, temperature compensation, capacity/aging correction, and model-based correction.
+
+### Presentation-only endpoints
+
+- [[EnerSys Truck iQ]] reads Wi-iQ data over BLE and displays SOC; it is not modeled as the estimator.
+- [[Inventus Smart Battery Monitor SBM-01]] receives battery-system data over CAN and displays SOC; it is not modeled as the estimator.
+- Both remain represented through [[Display Battery Status to Operator]].
 
 ### Product allocation
 
