@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[Data Handling Design]]"
+  - "[[Battery Event and Usage Logging Design]]"
 describedBy:
   - "[[Metric - Data Storage]]"
 performedBy:
@@ -43,6 +44,9 @@ performedBy:
   - "[[Energywith withBMS BMU]]"
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"
+  - "[[Battery Event Logger Firmware]]"
+  - "[[Event Log Memory]]"
+  - "[[Event Time Base]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"
@@ -50,6 +54,8 @@ realizes:
 satisfies:
   - "[[BMID - Retain Battery-Specific Usage History]]"
 supportedBy:
+realizedBy:
+  - "[[Battery Event and Usage Logging Design]]"
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
@@ -94,7 +100,26 @@ Record charge, discharge, temperature and fault events with time stamps for late
   - [[Energywith withBMS BMU]] (V): <https://www.energy-with.com/en/solutions/forklift-battery-monitoring/>
   - [[Hyster Battery Tracker]] (V): <https://www.hyster.com/4a9a28/globalassets/coms/hyster/north-america/documents/telematics/0109het6fc001_e_en-us_battery-tracker-flyer.pdf>
   - [[Yale Battery Vision]] (V): <https://www.mhlnews.com/new-products/forklift-battery-monitor-new-products>
-- **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent), delivered by devices or software (Data Handling Design); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent); the broad [[Data Handling Design]] dependency has been refined to [[Battery Event and Usage Logging Design]].
+
+## Implementation Allocation
+
+The reusable realization is [[Battery Event and Usage Logging Design]] -> [[Battery Event Logger Firmware]].
+
+The logger depends on [[Event Log Memory]] for persistent record retention and on [[Event Time Base]] for timestamp, duration, or sequence association. [[Non-Volatile Event Memory]] remains the storage Design used by the memory component.
+
+This structure intentionally separates:
+- **event recognition and record creation** — firmware/software behavior,
+- **persistent retention** — memory/storage,
+- **time association** — RTC, synchronized time, timer/epoch, or sequence source.
+
+### Product evidence boundaries
+
+Many current products explicitly state event logs, cycle histories, battery history, or retained usage data, which is sufficient to support the generic logging Design. Some products additionally publish memory capacity or a real-time clock; those details can support the concrete storage/time roles individually.
+
+Cloud upload and fleet reporting are downstream behaviors and remain separate Functions. Logging does not require a cloud connection.
+
+The common event schema, sampling interval, timestamp resolution, memory technology, rollover behavior, and retention policy are not asserted across products.
 
 ## Aliases
 
