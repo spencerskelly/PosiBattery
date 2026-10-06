@@ -13,6 +13,11 @@ supertypeOf:
   - "[[CAN BMS-Directed Charging]]"
 designOf:
   - "[[BMS-Directed Charge Control Firmware]]"
+  - "[[PosiCharge ProCore Edge]]"
+  - "[[Delta-Q IC650]]"
+  - "[[Fronius SelectION]]"
+  - "[[Lester Summit Series II]]"
+  - "[[Exide Motion+ Lithium Charger]]"
 realizes:
   - "[[Charge Under BMS Control]]"
 dependencyOf:
