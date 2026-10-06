@@ -20,7 +20,6 @@ designOf:
   - "[[PosiCharge DVS150]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
 realizes:
-  - "[[Report Battery Temperature to Charger]]"
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
