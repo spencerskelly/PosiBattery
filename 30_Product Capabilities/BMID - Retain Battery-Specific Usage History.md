@@ -17,6 +17,8 @@ satisfiedBy:
   - "[[Log Battery Events and Usage]]"
 verifiedBy:
   - "[[Verify BMID Usage History Retention]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # BMID - Retain Battery-Specific Usage History
