@@ -17,6 +17,8 @@ dependsOn:
   - "[[Communication Interface Circuit]]"
 realizes:
   - "[[Identify Battery to Charger]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Battery Identification and Charger Communication Software Design
