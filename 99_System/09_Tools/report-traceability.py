@@ -238,10 +238,41 @@ for path,rec in records.items():
 
 unreviewed_notes=sorted(set(notes)-reviewed_paths)
 
+# Step 25: distinguish raw graph isolation from unexplained isolation.
+# A deliberately non-semantic framing/reference note may remain graph-isolated
+# only when every Step-2 dimension has a reviewed, non-unresolved exception.
+explained_orphans=[]
+unexplained_orphans=[]
+for path in orphans:
+    typ=str(notes[path].get("type") or "")
+    dims=set((matrix.get(typ) or {}).keys())
+    rec=records.get(path)
+    ok=isinstance(rec,dict) and rec.get("classification") in allowed_classes
+    gaps=(rec.get("gaps") or {}) if isinstance(rec,dict) else {}
+    if not isinstance(gaps,dict):
+        ok=False
+        gaps={}
+    for dim in dims:
+        g=gaps.get(dim)
+        if not isinstance(g,dict):
+            ok=False
+            break
+        state=g.get("disposition")
+        code=g.get("exception")
+        if state not in {"intentionally_absent","not_applicable"} or code not in allowed_codes or code in unresolved_codes:
+            ok=False
+            break
+    if ok:
+        explained_orphans.append(path)
+    else:
+        unexplained_orphans.append(path)
+
 summary={
     "model_notes":len(notes),
     "semantic_relationship_assertions":sum(len(v) for v in outgoing.values()),
     "isolated_model_elements":len(orphans),
+    "explained_isolated_model_elements":len(explained_orphans),
+    "unexplained_isolated_model_elements":len(unexplained_orphans),
     "legacy_product_development_focus_notes":len(focus_notes),
     "legacy_isolated_focus_elements":len(focus_orphans),
     "legacy_weak_traceability_findings":len(legacy_weak),
@@ -273,11 +304,12 @@ lines += ["","## Contract","",
 ""]
 
 lines += ["## Isolated model elements","",
-"| Path | Type |","|---|---|"]
+"| Path | Type | Review state |","|---|---|---|"]
 for path in orphans[:400]:
-    lines.append(f"| {path} | {notes[path].get('type','')} |")
+    state="explained intentional exception" if path in explained_orphans else "UNEXPLAINED"
+    lines.append(f"| {path} | {notes[path].get('type','')} | {state} |")
 if not orphans:
-    lines.append("| _None_ | |")
+    lines.append("| _None_ | | |")
 
 lines += ["","## Matrix-driven raw dimension findings","",
 "These are unfiltered Step 2 expectation gaps before Step 3 classification and Step 4 exception review. They are a review queue, not defect counts.","",
@@ -336,8 +368,10 @@ for typ,count in sorted(legacy_by_type.items()):
     print(f"  legacy weak {typ}: {count}")
 for typ,count in sorted(raw_by_type.items()):
     print(f"  matrix raw {typ}: {count}")
-for path in orphans:
-    print(f"  isolated: {path}")
+for path in explained_orphans:
+    print(f"  isolated explained: {path}")
+for path in unexplained_orphans:
+    print(f"  isolated unexplained: {path}")
 for err in registry_errors:
     print(f"  registry error: {err}")
 print(f"  report: {REPORT.relative_to(ROOT)}")
