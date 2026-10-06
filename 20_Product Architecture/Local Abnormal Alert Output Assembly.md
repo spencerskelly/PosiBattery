@@ -19,6 +19,11 @@ hasPart:
   - "[[LCD Status Display Module]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
+partOf:
+  - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys iQ Mini]]"
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
 ---
 
 # Local Abnormal Alert Output Assembly
