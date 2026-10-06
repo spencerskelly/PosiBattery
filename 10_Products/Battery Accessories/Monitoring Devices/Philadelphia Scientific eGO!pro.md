@@ -27,6 +27,7 @@ performs:
   - "[[Calculate Battery Abuse Cycles]]"
 hasDesign:
   - "[[Hall-Effect Current Sensing]]"
+  - "[[Internal Temperature Sensor]]"
   - "[[Split-Core Current Sensor]]"
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
