@@ -45,7 +45,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Detect Cell Failure]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
 | [[Export Battery Data to PC]] | battery | 0 | 21 | 0% | - | 3 | 2 | Extra |
 | [[Measure Electrolyte Specific Gravity]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
-| [[Alert on Low Electrolyte Level]] | battery | 1 | 21 | 5% | [[Battery Sensor Element Design]], [[Indicator and Alarm Design]] | 1 | 0 | Extra |
+| [[Alert on Low Electrolyte Level]] | battery | 1 | 21 | 5% | [[Electrolyte Level Sensing Design]], [[Indicator and Alarm Design]] | 1 | 0 | Extra |
 | [[Calculate Battery Abuse Cycles]] | battery | 1 | 21 | 5% | - | 1 | 0 | Extra |
 | [[Command Vehicle Operating Limits over CAN]] | battery | 1 | 21 | 5% | [[CAN Interface]] | 1 | 0 | Extra |
 | [[Communicate Battery State over CAN]] | battery | 1 | 21 | 5% | [[CAN Interface]] | 4 | 3 | Extra |
@@ -71,7 +71,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Log Battery Events and Usage]] | battery | 5 | 21 | 24% | [[Data Handling Design]] | 23 | 4 | Extra |
 | [[Measure Battery Temperature]] | battery | 6 | 21 | 29% | [[Battery Temperature Measurement Design]] | 27 | 8 | Extra |
 | [[Measure Battery Voltage]] | battery | 6 | 21 | 29% | - | 20 | 8 | Extra |
-| [[Sense Electrolyte Level]] | battery | 6 | 21 | 29% | [[Battery Sensor Element Design]] | 26 | 9 | Extra |
+| [[Sense Electrolyte Level]] | battery | 6 | 21 | 29% | [[Electrolyte Level Sensing Design]] | 26 | 9 | Extra |
 | [[Charge Battery Wirelessly]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
 | [[Charge in Cold Storage]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
 | [[Desulfate Battery During Charge]] | charger | 1 | 18 | 6% | - | 0 | 0 | Extra |
