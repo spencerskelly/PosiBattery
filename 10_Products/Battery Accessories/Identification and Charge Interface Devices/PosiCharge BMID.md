@@ -109,4 +109,6 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
 
 - **Implementation assumption — battery voltage measurement:** [[Battery Voltage Measurement Circuit]], [[Battery Voltage Acquisition Firmware]], and [[Battery Voltage Measurement Design]] are allocated to the BMID family at >=95% confidence because the product is publicly documented as measuring/recognizing battery voltage. The exact circuit topology is unknown; no resistive-divider, ADC, isolation, or component part-number claim is made.
 
+- **Implementation assumption — state of charge estimation:** [[State of Charge Estimation Firmware]] and [[State of Charge Estimation Design]] are allocated to the BMID family at >=95% confidence because PosiCharge publicly states that the BMID recognizes state of charge. The internal algorithm is unknown; voltage-based, coulomb-counting, and hybrid/model-based methods remain explicit alternatives rather than selected product implementations.
+
 ## Former ids
