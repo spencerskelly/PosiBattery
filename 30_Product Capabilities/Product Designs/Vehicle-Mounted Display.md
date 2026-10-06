@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Vehicle Operator Display Design]]"
 designOf:
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Crown RC 5700 Series]]"
