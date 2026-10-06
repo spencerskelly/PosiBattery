@@ -39,6 +39,7 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Cloud Portal Integration]]"
   - "[[Battery Replacement Timing Prediction Design]]"
+  - "[[Cloud Battery Data Upload Design]]"
 hasPart:
   - "[[Remote Alert Notification Service]]"
   - "[[Electrolyte Level Acquisition Firmware]]"
