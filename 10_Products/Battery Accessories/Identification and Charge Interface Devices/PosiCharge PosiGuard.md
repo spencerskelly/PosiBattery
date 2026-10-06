@@ -20,6 +20,7 @@ subtypeOf:
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
