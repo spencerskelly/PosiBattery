@@ -13,6 +13,8 @@ realizedBy:
   - "[[Deliver Constant Power Through Shift]]"
 participants:
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Fleet Operations Manager]]"
 ---
 
 # Stretch Truck Run Time per Charge
