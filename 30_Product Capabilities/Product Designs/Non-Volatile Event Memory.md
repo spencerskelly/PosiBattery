@@ -20,6 +20,7 @@ designOf:
   - "[[AMETEK Prestolite Power BID]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
+  - "[[Event Log Memory]]"
 dependencyOf:
   - "[[Equalization Event Tracking Firmware]]"
   - "[[Equalization Status Recording Software]]"
