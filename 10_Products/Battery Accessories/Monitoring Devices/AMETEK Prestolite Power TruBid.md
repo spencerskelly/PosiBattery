@@ -29,6 +29,7 @@ hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
 hasPart:
+  - "[[Control Circuit]]"
   - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
   - "[[Specific Gravity Measurement Circuit]]"
   - "[[Specific Gravity Acquisition Firmware]]"
