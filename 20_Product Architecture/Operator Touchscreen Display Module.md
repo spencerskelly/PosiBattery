@@ -17,6 +17,7 @@ partOf:
   - "[[EnerSys Truck iQ]]"
 dependencyOf:
   - "[[Crown Gena Operating System]]"
+  - "[[Pre-Shift Checklist Enforcement Logic]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Display Truck Status to Operator]]"
