@@ -1,0 +1,100 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 10
+status: "Complete"
+title: "Architecture-to-design linking review"
+
+scope:
+  governed_types:
+    - "Object"
+    - "Design"
+    - "Function"
+  review_focus:
+    - "hasDesign/designOf ownership"
+    - "realizedBy/realizes implementation"
+    - "appliesTo/applies scope"
+    - "satisfies/satisfiedBy fulfillment context"
+    - "dependsOn/dependencyOf enabling design context"
+    - "active BMID unresolved architecture choices"
+
+implementation:
+  review_script: "99_System/09_Tools/review-architecture-design-linking.py"
+  script_commits:
+    - "89010072"
+    - "a0b2b2f9"
+    - "dc0117bf"
+    - "c05b62f6"
+    - "2beeb870"
+  workflow: ".github/workflows/semantic-linking-architecture-design-review.yml"
+  workflow_commit: "fd8f22a2"
+  behavior: "Report-only."
+  note: "Initial workflow failures exposed script-classification/newline issues; both were corrected before final validation."
+
+validation:
+  workflow_run: 37393157746
+  job_id: 112042757349
+  result: "success"
+  designs_reviewed: 118
+  abstract_designs_flagged: 1
+  specific_designs_by_abstract_flag_only: 117
+  designs_with_any_implementation_context: 109
+  designs_with_ownership_context: 96
+  designs_with_dependency_context: 30
+  designs_with_realization_context: 2
+  general_design_families_without_direct_implementation_context: 9
+  findings: 0
+
+design_family_interpretation:
+  rule: "General reusable Design families may legitimately have no direct product/function implementation context."
+  recognition:
+    - "abstract: true"
+    - "general-design tag"
+    - "supertypeOf hierarchy"
+  reason: "Legacy/general family notes are taxonomy roots; products normally link to specific Designs rather than the family root."
+
+active_bmid_review:
+  active_functions_reviewed: 8
+  bmid_object_owned_designs: 2
+  direct_design_realization: 1
+  design_dependency_only: 2
+  functions_without_required_direct_design_mapping: 2
+  explicit_open_design_gaps: 3
+  explicit_gap_source: "80_Decisions and Planning/BMID Function Design Traceability Step 89 0.1.yaml"
+  unresolved:
+    - function: "Estimate State of Charge"
+      exception: "EXC-ARCH-UNRESOLVED"
+      reason: "No supported SOC-estimation Design is selected."
+    - function: "Identify Battery to Charger"
+      exception: "EXC-ARCH-UNRESOLVED"
+      reason: "No specific Design has semantics strong enough to claim direct realization."
+    - function: "Measure Battery Voltage"
+      exception: "EXC-ARCH-UNRESOLVED"
+      reason: "No specific voltage-measurement Design is selected."
+  interpretation:
+    - "The three unresolved choices remain intentional and visible."
+    - "Communicate with Charger and Measure Battery Temperature are not automatically treated as Design gaps merely because they lack a direct Function-to-Design edge; their active product context is represented elsewhere and Step 89 did not designate them as unresolved architecture choices."
+    - "No nearby Design was substituted by inference."
+
+relationship_semantics:
+  hasDesign_designOf: "ownership/context only"
+  realizedBy_realizes: "direct implementation only"
+  dependsOn_dependencyOf: "enabling dependency only"
+  appliesTo_applies: "scope/applicability"
+  satisfies_satisfiedBy: "fulfillment"
+  rule: "These meanings are not interchangeable for gap closure."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  design_notes_changed: 0
+  function_notes_changed: 0
+  object_notes_changed: 0
+
+conclusion:
+  unexplained_architecture_design_findings: 0
+  explicit_unresolved_architecture_choices: 3
+  speculative_links_added: 0
+  next_step: "Step 11 — Review Use Case participation and need links"
