@@ -66,12 +66,9 @@ specs=[
     "need":"Integrate the Battery with Truck and Charger Controls",
     "satisfier":"Identify Battery to Charger",
     "satisfier_type":"Function",
-    "implementation":None,
-    "implementation_relation":None,
-    "known_gap":"function_implementation",
-    "gap_code":"EXC-ARCH-UNRESOLVED",
-    "gap_owner":"BMID product/system architecture",
-    "gap_reason":"No existing specific Design is strong enough to claim implementation of battery identification to the charger.",
+    "implementation":"Battery Identification and Charger Communication Software Design",
+    "implementation_relation":"realizedBy",
+    "known_gap":None,
     "architecture":"PosiCharge BMID Product Assembly Local Model",
   },
   {
@@ -274,7 +271,6 @@ for spec in specs:
 
 # Cross-chain expected unresolved decisions.
 expected_unresolved={
-    ("BMID - Provide Battery Identity to Compatible Charger","Function -> Design/Architecture","EXC-ARCH-UNRESOLVED"),
     ("BMID - Preserve Battery Association","Requirement satisfaction","EXC-ARCH-UNRESOLVED"),
     ("PosiGuard - Support Local Service Configuration","Need -> Use Case","EXC-EVIDENCE-PENDING"),
 }
@@ -282,7 +278,7 @@ actual_unresolved={(x["requirement"],x["stage"],x["code"]) for x in unresolved}
 if actual_unresolved!=expected_unresolved:
     findings.append(("Step 27","unresolved_set",f"Expected {sorted(expected_unresolved)}, found {sorted(actual_unresolved)}"))
 
-# The two other Step-89 architecture gaps are active supporting-function gaps, not
+# The remaining Step-89 architecture gaps are active supporting-function gaps, not
 # requirement-satisfaction-chain breaks. Preserve them as supplemental unresolved
 # architecture decisions in the report.
 supplemental=[
