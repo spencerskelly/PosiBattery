@@ -8,6 +8,9 @@ tags:
   - customer-role
   - actor
   - role-source-stated
+hasNeed:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Equipment Installer
