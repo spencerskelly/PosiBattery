@@ -36,6 +36,7 @@ performs:
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
   - "[[Hall-Effect Current Sensing]]"
+  - "[[External Thermistor Temperature Sensor]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[CAN Interface]]"
