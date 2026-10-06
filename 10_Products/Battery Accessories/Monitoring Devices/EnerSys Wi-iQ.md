@@ -54,6 +54,7 @@ hasDesign:
   - "[[Mid-Battery Voltage Tap]]"
   - "[[Equalization Event Tracking Design]]"
   - "[[CAN Vehicle Operating Limit Command]]"
+  - "[[Battery Event and Usage Logging Design]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -75,6 +76,9 @@ hasPart:
   - "[[Local Status Presentation Firmware]]"
   - "[[CAN Communication Circuit]]"
   - "[[Vehicle Operating Limit Command Firmware]]"
+  - "[[Battery Event Logger Firmware]]"
+  - "[[Event Log Memory]]"
+  - "[[Event Time Base]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
@@ -212,6 +216,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 - **Architecture realization — vehicle operating limits:** the optional CAN module and OEM-specific operating-limit behavior support [[CAN Vehicle Operating Limit Command]]. [[CAN Communication Circuit]] and [[Vehicle Operating Limit Command Firmware]] are allocated at **>=95% engineering confidence** because the product must provide a CAN physical layer and executable message/control logic to perform the published behavior. The exact transceiver IC, protocol object/message, trigger thresholds, and truck-side enforcement path are not published.
+
+- **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
 
 ## Aliases
 
