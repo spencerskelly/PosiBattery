@@ -39,6 +39,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 ### Operator, warning, and control
 
+- [[Abnormal Condition Alert Design]]
 - [[Low Electrolyte Alert Design]]
 - [[Warning and Display Device Design]]
   - [[Display Device Design]]
