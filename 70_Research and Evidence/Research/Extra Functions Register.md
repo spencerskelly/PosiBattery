@@ -59,7 +59,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Detect Voltage Imbalance]] | battery | 2 | 21 | 10% | [[Voltage Imbalance Detection Design]] | 3 | 0 | Extra |
 | [[Identify Battery to Charger]] | battery | 2 | 21 | 10% | - | 5 | 2 | Extra |
 | [[Report Battery Temperature to Charger]] | battery | 2 | 21 | 10% | - | 5 | 2 | Extra |
-| [[Transmit Battery Data Wirelessly]] | battery | 2 | 21 | 10% | [[Wireless Interface Design]] | 21 | 6 | Extra |
+| [[Transmit Battery Data Wirelessly]] | battery | 2 | 21 | 10% | [[Wireless Battery Data Communication Design]] | 21 | 6 | Extra |
 | [[Track Equalization]] | battery | 3 | 21 | 14% | [[Equalization Event Tracking Design]] | 6 | 3 | Extra |
 | [[Water Battery Cells]] | battery | 3 | 21 | 14% | [[Battery Cell Watering Design]] | 6 | 2 | Extra |
 | [[Accumulate Amp-Hours]] | battery | 4 | 21 | 19% | [[Current Integration Amp-Hour Accumulation]] | 12 | 4 | Extra |
