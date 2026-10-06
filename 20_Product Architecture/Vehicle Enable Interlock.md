@@ -17,6 +17,8 @@ performs:
 partOf:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[Panacea Smart Start]]"
+  - "[[Crown InfoLink]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Control Operator Access]]"
 ---
 
