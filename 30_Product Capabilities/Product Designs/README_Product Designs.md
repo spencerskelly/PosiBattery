@@ -126,5 +126,6 @@ Use a Design note for a reusable implementation pattern, not for a single produc
 
 - [[Impact-Triggered Vehicle Lockout Design]]
 
+- [[Temperature-Compensated Charge Control Design]]
 - [[BMS-Directed Charge Control Design]]
 - [[Adaptive Charge Profile Control Design]]
