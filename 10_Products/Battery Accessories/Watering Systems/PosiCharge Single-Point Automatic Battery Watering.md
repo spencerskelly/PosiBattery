@@ -15,6 +15,10 @@ subtypeOf:
 performs:
   - "[[Water Battery Cells]]"
 madeBy:
+hasDesign:
+  - "[[Charger-Controlled Automatic Watering]]"
+hasPart:
+  - "[[Automatic Watering Control Logic]]"
   - "[[PosiCharge]]"
 ---
 
@@ -43,6 +47,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://posicharge.com/accessories/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery watering:** [[Charger-Controlled Automatic Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
