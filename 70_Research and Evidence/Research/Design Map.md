@@ -46,6 +46,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cable-Mounted Indicator Placement]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Capacitive Electrolyte Level Probe]] | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite Eagle Eye Elite IV]] | - |
 | [[Cellular Communication Interface]] | [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge Battery Rx]], [[PosiCharge E-Meter]], [[PosiCharge PosiNet]], [[Yale Battery Vision]] | - | - |
+| [[Cell-Connector Electrolyte Level Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Cell-Connector Temperature Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Charger Status LED Bar]] | [[ACT Quantum 2]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[PosiCharge ProCore Edge]] | - | - |
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
@@ -55,6 +56,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Electric Mast Thrust Drive]] | [[Linde Dynamic Mast Control]] | - | - |
 | [[Electric Parking Brake]] | [[Crown RC 5700 Series]], [[Doosan Bobcat 7-Series Plus Electric Forklifts]], [[Doosan Bobcat NXE Series Electric Forklifts]] | - | - |
 | [[Electric Power Steering]] | [[Mitsubishi FB 3-Wheel Electric Forklifts]], [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
+| [[Electronic In-Cell Electrolyte Probe]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge DVS150]] | - | - |
 | [[Emergency Cut-Off Switch]] | [[Hangcha XC Series Electric Forklifts]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
@@ -88,6 +90,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Light-Beam Compartment Sensor]] | [[Toyota Compartment Sensing System]] | - | - |
 | [[Light-Triggered Data Upload]] | [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[LoRa Interface]] | [[PosiCharge PosiGuard]] | - | - |
+| [[Low-Current Electrolyte Level Input]] | [[HOPPECKE trak collect]] | - | - |
 | [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Crown V-HFM3 Tower Light Kit]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Magnetic Field Detection Sensor]] | [[Raymond iWAREHOUSE Fieldsense]] | - | - |
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
@@ -124,6 +127,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Tubular Plate Construction]] | [[Banner Traction Bull Bloc PzF]], [[Crown V-Force Lead-Acid Battery]], [[HAWKER Perfect Plus Battery]], [[Leoch PzS Traction Battery]], [[Midac PzS Traction Battery]], [[Stryten M-Series T310 Battery]], [[Stryten M-Series T330 Battery]] | - | - |
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Textron Smart Sense]] | - | - |
+| [[Variable-Length Electrolyte Level Probe]] | [[Power Designers PowerTrac 3]] | - | - |
 | [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
 | [[Wi-Fi Interface]] | [[ACT ACTview]], [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
