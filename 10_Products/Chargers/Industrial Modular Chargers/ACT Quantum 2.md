@@ -14,6 +14,7 @@ describedBy:
   - "[[Document - ACT Battview Sheet (2023)]]"
   - "[[Document - ACT Quantum Charger Sheet (2023)]]"
 performs:
+  - "[[Indicate Charger Status Locally]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Equalize Battery on Schedule]]"
@@ -23,6 +24,8 @@ hasDesign:
   - "[[Touchscreen Interface]]"
   - "[[Charger Status LED Bar]]"
   - "[[Multi-Voltage Output]]"
+hasPart:
+  - "[[Charger Status LED Bar Assembly]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredBy:
