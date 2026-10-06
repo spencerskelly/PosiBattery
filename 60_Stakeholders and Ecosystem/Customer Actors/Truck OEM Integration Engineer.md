@@ -8,6 +8,8 @@ tags:
   - customer-role
   - actor
   - role-source-implied
+hasNeed:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Truck OEM Integration Engineer
