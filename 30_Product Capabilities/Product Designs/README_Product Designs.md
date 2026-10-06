@@ -116,3 +116,5 @@ Step 55 found that all **95 specific Designs** are product-backed and source-bac
 ## Maintenance
 
 Use a Design note for a reusable implementation pattern, not for a single product claim. Preserve product evidence through `designOf`; link to Functions only where a supported dependency exists; link to metrics only where the metric meaningfully characterizes the Design.
+
+- [[Remote Charger Management Design]]
