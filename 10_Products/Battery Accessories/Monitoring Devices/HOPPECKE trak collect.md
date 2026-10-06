@@ -31,6 +31,7 @@ performs:
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Remaining Runtime Estimation Design]]"
   - "[[Low-Current Electrolyte Level Input]]"
   - "[[Bluetooth Interface]]"
   - "[[Local LED Indicator]]"
@@ -41,6 +42,7 @@ hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[Remaining Runtime Estimation Software]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[LED Status Indicator Element]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
@@ -140,6 +142,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The trak collect data sheet (in repo as Downloads/trak_collect_data_sheet_en.pdf) lists supply 17 to 150 VDC, a current measuring range of maximum 500 A permanent by shunt with battery current readings to +/-2,100 A, temperature -30 to 100 C, 8 MB memory with a 30-day ring buffer at a 10 s interval, NFC, Bluetooth 4.0 Low Energy and 2.0 and a HOPPECKE battery bus at 60 baud, 340 g, use range -30 to 80 C and chemical resistance to 60 percent sulfuric acid at 50 C. Source: HOPPECKE trak collect data sheet (read round 20) (T1), retrieved 2026-10-03. <https://www.hoppecke.com/uk/product/trak-collect-premium/>
 - **C39 update (round 20):** the data sheet gives both current figures with their meaning (500 A permanent measuring range, readings to +/-2,100 A); interfaces are NFC, Bluetooth and the battery bus.
 - **Truck parts (round 31):** stated by the source: connects to [[Truck Controller and CAN Bus]] (links to the vehicle over LIN and battery bus) | typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — remaining runtime:** HOPPECKE explicitly publishes remaining-driving-time information generated from processed battery data. [[Remaining Runtime Estimation Design]] and [[Remaining Runtime Estimation Software]] therefore capture the estimation role. The exact algorithm and input weighting are not published.
 
 ## Aliases
 
