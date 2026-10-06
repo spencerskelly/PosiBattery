@@ -398,3 +398,31 @@ Evidence: `80_Decisions and Planning/Semantic Linking Architecture Design Review
 **Final validation:** workflow `37393157746`, job `112042757349`, success.
 
 **Result:** Step 10 complete. The next step is **Step 11 — Review Use Case participation and need links**.
+
+
+---
+
+## Step 11 completion evidence — Use Case participation and need links
+
+Reviewed all **42 Use Cases** across the vault:
+
+- **22 Customer Needs**
+- **12 operational Use Cases**
+- **8 context Use Cases**
+- **42/42** with participants
+- **22/22 Customer Needs** with an Actor/Organization holder
+- **22/22 Customer Needs** with `realizedBy` capability/function coverage
+- **12/12 operational Use Cases** with an Actor/Organization participant
+- **12/12 operational Use Cases** with `realizedBy` behavior coverage
+
+The review identified a real semantic improvement: Customer Need ownership had previously been represented only by `participants`, even though `relationships.yaml` now provides the stronger governed `hasNeed/needOf` pair. I added **43 Actor/Organization→Customer Need pairs**, persisted bidirectionally as **86 relationship assertions**, while retaining `participants` because participation and need ownership are distinct meanings.
+
+Final validation shows **0 missing/unsynchronized need pairs**, **0 other Step 11 findings**, **0 unresolved relationship targets**, and **0 missing inverses**. Governed relationship assertions increased from 5,987 at the Step 1 baseline to **6,073**.
+
+During the batch edit, seven Customer Need frontmatter blocks were temporarily malformed. Those were repaired before completion; the final Vault Audit and relationship validation both pass cleanly.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Use Case Need Review Step 11 0.1.yaml`.
+
+**Final validation:** Use Case review workflow `37394086394`, job `112045779563`; Vault Audit `37394086612`, job `112045780093`; both successful.
+
+**Result:** Step 11 complete. The next step is **Step 12 — Review Requirement upstream rationale**.
