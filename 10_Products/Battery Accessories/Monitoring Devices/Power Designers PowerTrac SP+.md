@@ -34,12 +34,16 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[Reverse-Polarity Protection]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[PC Battery Data Export Design]]"
+  - "[[Serial and Infrared PC Data Export]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Amp-Hour Accumulator Firmware]]"
   - "[[Control Circuit]]"
+  - "[[Battery Data Export Firmware]]"
+  - "[[PC Battery Data Retrieval Software]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -99,6 +103,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — amp-hour accumulation:** PowerTrac SP+ explicitly measures battery current through an external shunt and reports charge/discharge Ah since installation and per event. [[Current Integration Amp-Hour Accumulation]] is therefore verified at the implementation-principle level. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
+
+- **Architecture realization — PC data export:** the published transfer method supports [[PC Battery Data Export Design]] with [[Serial and Infrared PC Data Export]]. [[Battery Data Export Firmware]] and [[PC Battery Data Retrieval Software]] are modeled as reusable roles; their exact implementation and application names are not published.
 
 ## Aliases
 
