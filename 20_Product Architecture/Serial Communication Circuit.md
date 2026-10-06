@@ -15,6 +15,8 @@ hasPart:
   - "[[Serial Transceiver]]"
 hasDesign:
   - "[[RS-232 and RS-485 Serial Interface]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Serial Communication Circuit
