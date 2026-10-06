@@ -17,6 +17,10 @@ offeredBy:
 offeredWith:
   - "[[HOPPECKE trak collect]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
+hasDesign:
+  - "[[Temperature-Compensated Charge Control Design]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[HOPPECKE trak uplift air Battery]]"
 ---
 
@@ -36,6 +40,8 @@ HOPPECKE high-frequency charger sold with trak lead-acid batteries and the trak 
   - [[HOPPECKE trak collect]]: no difference stated in the sources.
   - [[HOPPECKE trak uplift iQ Battery]]: no difference stated in the sources.
   - [[HOPPECKE trak uplift air Battery]]: no difference stated in the sources.
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
