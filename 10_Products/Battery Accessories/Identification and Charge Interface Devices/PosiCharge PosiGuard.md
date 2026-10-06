@@ -41,6 +41,7 @@ hasDesign:
   - "[[LoRa Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
+  - "[[Current Sensing Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
