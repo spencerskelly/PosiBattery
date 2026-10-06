@@ -167,7 +167,8 @@ print("market reference leaf review")
 for k,v in sorted(counts.items()): print(f"  {k}: {v}")
 print(f"  findings: {len(findings)}")
 for p,k,msg in findings: print(f"  FINDING {k}: {p}: {msg}")
-for p,cls,n,fam,mkt,ev,missing in rows:\n    print(f"  LEAF {cls}: {p} extra_context={n} family={fam} market={mkt} evidence={ev} missing={\',\'.join(missing) or \'none\'}")
+for p,cls,n,fam,mkt,ev,missing in rows:
+    print(f"  LEAF {cls}: {p} extra_context={n} family={fam} market={mkt} evidence={ev} missing={','.join(missing) or 'none'}")
 print(f"  report: {REPORT.relative_to(ROOT)}")
 
 lines=["# Market / Reference Catalog Leaf Review","",
@@ -176,8 +177,10 @@ lines=["# Market / Reference Catalog Leaf Review","",
 "| Metric | Count |","|---|---:|"]
 for k,v in sorted(counts.items()): lines.append(f"| {k} | {v} |")
 lines += [f"| findings | {len(findings)} |","","## Reference leaves","",
-"| Path | Classification | Extra contextual relationships | Family identity | Market attribution | Provenance | Missing Step 2 dimensions |",\n"|---|---|---:|---|---|---|---|"]
-for p,cls,n,fam,mkt,ev,missing in rows:\n    lines.append(f"| {p} | {cls} | {n} | {fam} | {mkt} | {ev} | {\', \'.join(missing) or \'none\'} |")
+"| Path | Classification | Extra contextual relationships | Family identity | Market attribution | Provenance | Missing Step 2 dimensions |",
+"|---|---|---:|---|---|---|---|"]
+for p,cls,n,fam,mkt,ev,missing in rows:
+    lines.append(f"| {p} | {cls} | {n} | {fam} | {mkt} | {ev} | {', '.join(missing) or 'none'} |")
 if not rows: lines.append("| _None_ | | | | | | |")
 
 lines += ["","## Findings","",
