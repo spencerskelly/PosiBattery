@@ -31,6 +31,7 @@ performs:
   - "[[Communicate Battery State over CAN]]"
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Configure Device from Mobile App or PC]]"
+  - "[[Identify Battery to Charger]]"
 hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[CAN Interface]]"
@@ -38,6 +39,7 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Mobile App Interface]]"
   - "[[LoRa Interface]]"
+  - "[[Battery Identification and Charger Communication Software Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -48,6 +50,13 @@ applies:
   - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
 satisfies:
   - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
+hasPart:
+  - "[[Control Circuit]]"
+  - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[CAN Communication Circuit]]"
+  - "[[Serial Communication Circuit]]"
+  - "[[BLE Communication Circuit]]"
+  - "[[LoRa Communication Circuit]]"
 ---
 
 # PosiCharge PosiGuard
