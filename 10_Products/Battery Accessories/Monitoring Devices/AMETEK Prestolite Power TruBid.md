@@ -24,6 +24,7 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Detect Cell Failure]]"
 hasDesign:
+  - "[[Cell Failure Diagnostic Design]]"
   - "[[In-Cell Specific Gravity Probe]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Local LED Indicator]]"
@@ -71,6 +72,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Transmit Battery Data Wirelessly]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
   - [[Detect Cell Failure]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 - **Design characteristics, with citations:**
+  - [[Cell Failure Diagnostic Design]] (V at generic method level): TruBID is explicitly described as providing a cell-fail alert/detecting cell failures, but the diagnostic mechanism is not disclosed. <https://industrialbatterypittsburgh.com/ametek-prestolite-power-battery-motive-power-chargers/data-devices/> <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
   - [[Electrolyte-Immersed Temperature Sensor]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
   - [[Local LED Indicator]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
   - [[Battery-Top Mounting]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
@@ -78,7 +80,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — specific gravity measurement:** the in-cell probe and continuous specific-gravity measurement are verified. [[In-Cell Electrolyte Measurement Probe Assembly]] captures the physical probe, while [[Specific Gravity Sensing Element]] remains technology-neutral because the transduction principle is not published. [[Specific Gravity Measurement Circuit]] and [[Specific Gravity Acquisition Firmware]] are allocated at **>=95% engineering confidence** because TruBID electronically reports/uses a continuous specific-gravity value while its internal circuit and firmware partition are not disclosed.
-- **Architecture boundary — cell failure detection:** the available source explicitly states that TruBID detects cell failures, and separately states that its in-cell probe monitors electrolyte temperature and specific gravity. Neither the source nor Prestolite's public description explains how those measurements are converted into a cell-failure diagnosis. Accordingly, no [[Cell Failure Diagnostic Firmware]] or [[Cell Failure Threshold Circuit]] is assigned as a product part, and no cell-voltage / impedance / specific-gravity diagnostic method is asserted.
+- **Architecture boundary — cell failure detection:** the available sources explicitly state that TruBID detects cell failures / provides a cell-fail alert, and separately state that its in-cell probe monitors electrolyte temperature and specific gravity. Neither the source nor Prestolite's public description explains how those measurements are converted into a cell-failure diagnosis. Accordingly, TruBID is allocated only the method-neutral [[Cell Failure Diagnostic Design]]. No [[Algorithmic Cell Failure Diagnosis]], [[Dedicated Threshold Cell Failure Detection]], [[Cell Failure Diagnostic Firmware]], or [[Cell Failure Threshold Circuit]] is assigned to the product, and no cell-voltage / impedance / specific-gravity causal diagnostic method is asserted.
 
 ## Aliases
 
