@@ -8,6 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Usage-History State of Health Analytics]]"
   - "[[Cloud Portal Integration]]"
   - "[[Non-Volatile Event Memory]]"
 dependencyOf:
@@ -21,7 +22,7 @@ supportedBy:
 
 ## Definition
 
-General design class: How a device stores or hands data to a service.
+General design class: How a device or service stores, processes, analyzes, or hands data to another service.
 
 ## Notes
 
