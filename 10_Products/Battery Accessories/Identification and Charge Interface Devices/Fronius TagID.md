@@ -23,9 +23,12 @@ performs:
 hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Device Configuration and Service Design]]"
+  - "[[Mobile App Interface]]"
 hasPart:
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"
+  - "[[Device Configuration and Service Firmware]]"
 madeBy:
   - "[[Fronius International]]"
 offeredWith:
@@ -75,6 +78,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
+
+- **Architecture realization — configuration and service:** published material supports [[Device Configuration and Service Design]] with the specific front-end path [[Mobile App Interface]]. [[Device Configuration and Service Firmware]] is allocated at **>=95% engineering confidence** because the internal service-command firmware partition is not published. Transport details remain represented by the product's verified communication interfaces.
 
 ## Aliases
 
