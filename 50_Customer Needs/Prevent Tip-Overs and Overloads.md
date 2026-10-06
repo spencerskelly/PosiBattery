@@ -16,6 +16,9 @@ realizedBy:
 participants:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
+needOf:
+  - "[[Forklift Operator]]"
+  - "[[Site Safety Manager]]"
 ---
 
 # Prevent Tip-Overs and Overloads
