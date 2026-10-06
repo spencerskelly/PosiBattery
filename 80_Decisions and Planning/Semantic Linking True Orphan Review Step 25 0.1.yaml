@@ -1,0 +1,109 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 25
+status: "Complete"
+title: "True orphan element resolution"
+
+scope:
+  whole_vault: true
+  starting_raw_isolated_model_elements: 2
+  review_rule: "Review every raw graph-isolated model element individually. Add a semantic relationship when supported; otherwise use a controlled intentional exception. Unresolved exceptions do not close an orphan."
+
+isolated_elements_reviewed:
+  - path: "20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md"
+    type: "Info"
+    classification: "reference_content"
+    role: "Product framing / navigation authority"
+    disposition: "Intentionally graph-isolated"
+    exception: "EXC-FRAMING"
+    reasons:
+      - "The body explicitly describes the note as the concise product-framing authority."
+      - "It directs later engineering links to the canonical PosiCharge BMID product and governed engineering notes rather than to this framing note."
+      - "The Step 4 exception vocabulary explicitly names this note as an EXC-FRAMING example."
+      - "Adding describes/supports/ownership links merely to eliminate isolation would make the framing note look like a semantic engineering node."
+    gap_dispositions:
+      upstream: "not_applicable / EXC-FRAMING"
+      downstream: "not_applicable / EXC-FRAMING"
+      ownership_use: "not_applicable / EXC-FRAMING"
+      evidence: "not_applicable / EXC-FRAMING"
+
+  - path: "20_Product Architecture/PosiCharge BMID Product Context.md"
+    type: "Info"
+    classification: "reference_content"
+    role: "External product-context framing / navigation"
+    disposition: "Intentionally graph-isolated"
+    exception: "EXC-FRAMING"
+    reasons:
+      - "The note defines external systems, actors, environments, and product boundaries for reader understanding."
+      - "It explicitly states that canvas/context edges are explanatory and not authoritative MDSE relationship assertions."
+      - "Canonical external elements and Use Cases already own the actual engineering relationships."
+      - "Adding structural/dependency relations from the context note would blur explanatory context with authoritative architecture."
+    gap_dispositions:
+      upstream: "not_applicable / EXC-FRAMING"
+      downstream: "not_applicable / EXC-FRAMING"
+      ownership_use: "not_applicable / EXC-FRAMING"
+      evidence: "not_applicable / EXC-FRAMING"
+
+implementation:
+  disposition_registry: "80_Decisions and Planning/Semantic Linking Review Dispositions 0.1.yaml"
+  disposition_commit: "e9626d4d"
+  traceability_reporter: "99_System/09_Tools/report-traceability.py"
+  reporter_commit: "44cc6281"
+  orphan_validator: "99_System/09_Tools/review-true-orphans.py"
+  validator_commit: "74f0521c"
+  workflow: ".github/workflows/semantic-linking-true-orphan-review.yml"
+  workflow_commit: "279edfda"
+  trigger_commit: "8cc258cd"
+
+reporting_change:
+  raw_metric_preserved: "isolated_model_elements"
+  new_metrics:
+    - "explained_isolated_model_elements"
+    - "unexplained_isolated_model_elements"
+  rule:
+    - "A raw isolated element remains visible even when intentionally isolated."
+    - "It is counted as explained only when every Step-2 dimension has a reviewed non-unresolved controlled disposition."
+    - "Unresolved exception codes never count as orphan closure."
+    - "This prevents the program from manufacturing links merely to make raw orphan count zero."
+
+validation:
+  true_orphan_workflow_run: 37402110744
+  true_orphan_job_id: 112071380018
+  true_orphan_result: "success"
+  vault_audit_run: 37402110812
+  vault_audit_job_id: 112071379827
+  vault_audit_result: "success"
+  raw_isolated_model_elements: 2
+  explained_isolated_model_elements: 2
+  unexplained_isolated_model_elements: 0
+  model_notes: 948
+  semantic_relationship_assertions: 6112
+  reviewed_completeness_classifications: 47
+  unreviewed_completeness_classifications: 901
+  applicable_unexplained_findings: 0
+  unresolved_exception_findings: 0
+  disposition_registry_errors: 0
+
+semantic_changes:
+  model_relationship_assertions_added: 0
+  model_relationship_assertions_removed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+  reviewed_classifications_added: 2
+  controlled_gap_dispositions_added: 8
+
+completion_semantics:
+  raw_orphans_zero_required: false
+  unexplained_orphans_zero_required: true
+  result: "zero unexplained true orphans"
+  rationale: "Intentional framing notes may remain graph-isolated when their non-semantic role is explicit and fully dispositioned."
+
+conclusion:
+  raw_graph_isolates: 2
+  explained_intentional_isolates: 2
+  unexplained_true_orphans: 0
+  artificial_links_added: 0
+  next_step: "Step 26 — Resolve weak-traceability findings by priority"
