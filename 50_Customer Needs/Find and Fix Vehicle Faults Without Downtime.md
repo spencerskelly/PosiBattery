@@ -20,6 +20,10 @@ participants:
   - "[[Maintenance Technician]]"
   - "[[Dealer Service Technician]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Maintenance Technician]]"
+  - "[[Dealer Service Technician]]"
+  - "[[Fleet Operations Manager]]"
 
 ---
 
