@@ -1,0 +1,30 @@
+name: Semantic Linking Local Model Review
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+      - '99_System/03_Schemas/local-model.yaml'
+      - '99_System/09_Tools/review-local-model-linking.py'
+      - '.github/workflows/semantic-linking-local-model-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review Local Model contexts and occurrence use
+        run: python 99_System/09_Tools/review-local-model-linking.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: local-model-linking-review
+          path: local-model-linking-review.md
