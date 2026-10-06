@@ -16,6 +16,9 @@ performs:
   - "[[Identify Battery to Charger]]"
 hasDesign:
   - "[[Battery Identification and Charger Communication Software Design]]"
+partOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Battery Identification and Charger Communication Firmware
