@@ -1,0 +1,80 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 13
+status: "Complete"
+title: "Requirement applicability review"
+
+scope:
+  governed_type: "Requirement"
+  review_focus:
+    - "explicit appliesTo scope"
+    - "reciprocal applies inverse"
+    - "family-level versus variant-specific targeting"
+    - "separation of product specialization from requirement applicability"
+    - "avoid reliance on folder placement or prose alone"
+
+implementation:
+  review_script: "99_System/09_Tools/review-requirement-applicability.py"
+  script_commit: "a4df52cc"
+  workflow: ".github/workflows/semantic-linking-requirement-applicability-review.yml"
+  workflow_commit: "b08985b1"
+  trigger_commit: "411b1ab4"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37395229966
+  job_id: 112049502116
+  result: "success"
+  vault_audit_run: 37395229689
+  vault_audit_job: 112049501287
+  vault_audit_result: "success"
+  requirements_reviewed: 6
+  requirements_with_explicit_scope: 6
+  appliesTo_assertions: 6
+  family_level_requirements: 4
+  variant_specific_requirements: 2
+  unique_family_scope_targets: 1
+  unique_variant_scope_targets: 1
+  findings: 0
+
+applicability_map:
+  family_level:
+    target: "PosiCharge BMID"
+    target_productClass: "product-family"
+    target_abstract: true
+    requirements:
+      - "BMID - Preserve Battery Association"
+      - "BMID - Provide Battery Identity to Compatible Charger"
+      - "BMID - Provide Supported Battery Condition Information to Charger"
+      - "BMID - Retain Battery-Specific Usage History"
+  variant_specific:
+    target: "PosiCharge PosiGuard"
+    target_productClass: "specific-offering"
+    target_abstract: false
+    requirements:
+      - "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+      - "PosiGuard - Support Local Service Configuration"
+
+semantic_interpretation:
+  appliesTo_applies: "Authoritative explicit Requirement applicability relationship."
+  family_scope: "Family-level Requirements correctly target the PosiCharge BMID family definition."
+  variant_scope: "PosiGuard-only Requirements correctly target PosiCharge PosiGuard."
+  specialization: "subtypeOf/supertypeOf does not automatically copy or assert Requirement applicability."
+  child_products: "Family Requirements were not duplicated onto BMID 1, BMID 3, Battery Rx, or PosiGuard because that would assert child applicability/compliance beyond the current explicit model."
+  folder_placement: "Not used as an applicability mechanism."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  requirement_notes_changed: 0
+  product_notes_changed: 0
+
+conclusion:
+  unexplained_requirement_applicability_gaps: 0
+  missing_applies_inverses: 0
+  family_variant_scope_mismatches: 0
+  speculative_child_scope_links_added: 0
+  next_step: "Step 14 — Review Requirement-to-Function satisfaction"
