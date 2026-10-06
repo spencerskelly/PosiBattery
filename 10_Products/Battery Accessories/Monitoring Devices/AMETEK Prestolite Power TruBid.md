@@ -27,6 +27,8 @@ hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 ---
