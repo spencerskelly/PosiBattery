@@ -50,6 +50,7 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[State of Charge Estimation Firmware]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
@@ -191,6 +192,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — abnormal-condition alert:** Wi-iQ explicitly provides battery warnings/alarms using its LCD, LEDs and low-voltage buzzer. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because EnerSys publishes the evaluated alert behavior but not the internal firmware partition.
 
 - **Architecture realization — voltage imbalance:** the midpoint / half-battery voltage input is verified and supports [[Midpoint Voltage Symmetry Detection]]. [[Mid-Battery Voltage Tap Harness]] and [[Mid-Battery Differential Voltage Measurement Circuit]] capture the physical sensing path. [[Voltage Imbalance Evaluation Firmware]] is allocated at **>=95% engineering confidence** because the product electronically determines imbalance while its internal evaluation implementation is not published.
+
+- **Architecture realization — state of charge:** [[State of Charge Estimation Firmware]] is allocated at **>=95% engineering confidence** because this product locally acquires battery measurements and reports/uses SOC. The exact algorithm is not published, so no voltage-only, coulomb-counting, or hybrid child Design is selected.
 
 ## Aliases
 
