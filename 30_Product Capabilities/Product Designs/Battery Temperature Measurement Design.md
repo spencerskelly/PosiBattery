@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90001
+id: DES-90901
 uid: 20261006060500001skellyspencer
 status: Draft
 tags:
@@ -45,3 +45,5 @@ General design class for measuring battery temperature and delivering a controll
 - The generic Design separates the function from the exact sensor technology, mounting location, conditioning circuit, and acquisition method.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90001; duplicate value is intentionally not reserved here.
