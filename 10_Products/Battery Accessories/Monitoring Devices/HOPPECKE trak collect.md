@@ -30,8 +30,8 @@ performs:
   - "[[Configure Device from Mobile App or PC]]"
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
-hasDesign:  - "[[Low-Current Electrolyte Level Input]]"
-
+hasDesign:
+  - "[[Low-Current Electrolyte Level Input]]"
   - "[[Bluetooth Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
@@ -41,6 +41,7 @@ hasDesign:  - "[[Low-Current Electrolyte Level Input]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[LED Status Indicator Element]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
 madeBy:
