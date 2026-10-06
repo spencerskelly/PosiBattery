@@ -12,6 +12,8 @@ tags:
 subtypeOf:
   - "[[Data Handling Design]]"
 designOf:
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Amp-Hour Accumulator Firmware]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[Access Control Group CellTrac]]"
