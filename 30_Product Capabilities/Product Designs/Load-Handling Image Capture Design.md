@@ -12,6 +12,7 @@ tags:
 designOf:
   - "[[Load-Handling Camera Assembly]]"
   - "[[Load-Handling Image Capture Logic]]"
+  - "[[Toyota Twistlock Snapshot Camera System]]"
 realizes:
   - "[[Record Images of Load Handling]]"
 dependencyOf:
