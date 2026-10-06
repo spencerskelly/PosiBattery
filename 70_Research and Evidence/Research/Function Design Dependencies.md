@@ -53,7 +53,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Detect Pedestrians and Objects Near Truck]] | [[Object and Proximity Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing element | needs a sensing technology |
 | [[Slow and Stop Near Aircraft]] | [[Object and Proximity Sensing Design]] | analyst inference (necessity) | strong | no gap | needs distance sensing |
 | [[Detect and Record Impacts]] | [[Impact Sensor]] | analyst inference (necessity) | strong | sources do not name the sensor | needs an impact sensor |
-| [[Control Operator Access]] | [[Operator Identification Design]] | analyst inference (necessity) | strong | sources do not name the reader | needs a way to identify the operator |
+| [[Control Operator Access]] | [[Operator Access Authorization Design]] | implementation review | strong | products explicitly restrict operation to authorized users using PIN, fingerprint, RFID or fleet-managed credentials | requires operator identification plus authorization logic and a vehicle enable/inhibit mechanism |
 | [[Stop Vehicle When Operator Is Out of Position]] | [[Operator Presence Sensing Design]] | analyst inference (necessity) | strong | sources name the presence system or seat-leave protection but not the sensing method | needs a way to sense the operator |
 | [[Sense Load Weight and Lift Height]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing | needs a load or height sensor |
 | [[Restrict Lift When Load Exceeds Limit]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing | needs a load sensor |
@@ -105,7 +105,7 @@ Each row is a dependency where at least one product that performs the function h
 | [[Alert on Low Electrolyte Level]] | [[Electrolyte Level Sensing Design]] | strong | products without a concrete child Design remain intentionally on the general family | sources often identify the alert but not the sensor implementation |
 | [[Charge Under BMS Control]] | [[Integrated Battery Management System]] | strong | 5 of 5 | cross-product: chargers perform the function and the design lives on the battery |
 | [[Continue Charging Through Module Fault]] | [[Modular Power Modules]] | typical | 2 of 5 | module count not named in two sources |
-| [[Control Operator Access]] | [[Operator Identification Design]] | strong | 8 of 15 | sources do not name the reader |
+| [[Control Operator Access]] | [[Operator Access Authorization Design]] | strong | 8 of 15 | credential mechanism varies; authorization/interlock implementation often unpublished |
 | [[Detect Pedestrians and Objects Near Truck]] | [[Object and Proximity Sensing Design]] | strong | 6 of 24 | sources do not name the sensing element |
 | [[Detect and Record Impacts]] | [[Impact Sensor]] | strong | 5 of 10 | sources do not name the sensor |
 | [[Display Battery Status to Operator]] | [[Display Device Design]] | strong | 1 of 3 | sources do not name the display |
