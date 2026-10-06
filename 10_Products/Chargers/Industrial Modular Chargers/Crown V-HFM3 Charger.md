@@ -25,10 +25,13 @@ hasDesign:
   - "[[Charger Status LED Bar]]"
   - "[[Remote Charger Management Design]]"
   - "[[Wired Remote Charger Control Design]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
   - "[[Charger Remote Management Agent]]"
   - "[[Remote Charger I-O Expansion Board]]"
+  - "[[Temperature Compensation Charge Control Firmware]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -97,6 +100,8 @@ Crown V-Force modular charger for lead-acid and lithium-ion batteries that ident
 - **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 - **Architecture realization — wired remote panel:** the V-HFM3 supports the optional [[Crown V-HFM3 Wired Remote Control Kit]]. [[Wired Remote Charger Control Design]] and the charger-side [[Remote Charger I-O Expansion Board]] capture the interface needed for the remote accessory; the remote panel itself remains part of the accessory kit rather than the charger base unit.
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
