@@ -13,6 +13,8 @@ subtypeOf:
   - "[[Charger Operator Interface Design]]"
 designOf:
   - "[[Wired Remote Charger Control Assembly]]"
+  - "[[Crown V-HFM3 Wired Remote Control Kit]]"
+  - "[[Crown V-HFM3 Charger]]"
 realizes:
   - "[[Control Charger from Remote Panel]]"
 dependencyOf:
