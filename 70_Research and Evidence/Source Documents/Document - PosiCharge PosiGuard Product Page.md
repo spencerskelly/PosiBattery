@@ -15,6 +15,7 @@ describes:
   - "[[PosiCharge PosiGuard]]"
 supports:
   - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"  - "[[Wireless Interface Design]]"
+  - "[[Cloud Portal Integration]]"
 
 ---
 
