@@ -15,6 +15,8 @@ drivenBy:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 verifiedBy:
   - "[[Verify PosiGuard Lead-Acid and Lithium Application Support]]"
+satisfiedBy:
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # PosiGuard - Support Lead-Acid and Lithium Battery Fleets
