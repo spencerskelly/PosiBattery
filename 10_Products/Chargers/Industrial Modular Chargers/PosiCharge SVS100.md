@@ -17,6 +17,11 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
+hasDesign:
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[PosiCharge BMID]]"
 ---
 
@@ -38,6 +43,8 @@ PosiCharge compact outdoor GSE fast and opportunity charger for 24 to 80 V elect
 - **Baseline confidence (SVS100):** Verified public, with P0 rating conflict. **Still needed:** Resolve whether rated power is 10 kW, 40 kW, or configuration-dependent; obtain current controlled spec sheet, part-number structure, approved eGSE applications, certifications, and accessory/interface list.
 - The current SVS100 sheet (in repo as Downloads/SVS-100.pdf) says it delivers up to 10 kW single-port for small electric belt loaders, carts and people movers; table: 10 kW, 480 or 600 VAC 3-phase, full-load draw 15 or 12 A, breaker 20 or 15 A, power factor 0.98, efficiency 91 percent, battery 24 to 80 V, maximum output 250 A, 388 lb, 39.4 x 22 x 19.3 in; works with all PosiCharge BMIDs, automatic start and stop, anti-arcing disconnect, auto-thermal shutdown, Euro and Burton output connectors; the footer says PosiCharge is a product line of Ampure. Source: PosiCharge SVS100 sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/SVS-100.pdf>
 - **C77 update (round 20):** the sheet states 10 kW in both its text and its table; the 40 kW table on the PosiCharge web page was not rechecked.
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
