@@ -29,6 +29,8 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Voltage Imbalance Detection Design]]
 - [[Vehicle State Sensing Design]]
 - [[Data Handling Design]]
+  - [[Remaining Runtime Estimation Design]]
+  - [[Usage-History State of Health Analytics]]
 - [[Object and Proximity Sensing Design]]
 
 ### Communications and interfaces
