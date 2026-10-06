@@ -1,7 +1,7 @@
 ---
 type: Info
 subtype:
-id: DES-00080
+id: INFO-00900
 uid: 20261003101711539skellyspencer
 status: Superseded
 tags:
@@ -29,3 +29,5 @@ Legacy general Design class that previously grouped electrolyte-level and temper
 ## Aliases
 
 ## Former ids
+
+- DES-00080
