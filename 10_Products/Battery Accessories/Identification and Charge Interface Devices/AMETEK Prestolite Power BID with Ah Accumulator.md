@@ -15,6 +15,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)]]"
 performs:
+  - "[[Measure Battery Current]]"
   - "[[Measure Battery Temperature]]"
   - "[[Accumulate Amp-Hours]]"
   - "[[Identify Battery to Charger]]"
@@ -59,6 +60,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Verification 2026-10-02 (verified):** the vendor lists a BID with Amp Hour Accumulator that adds current monitoring to track amp hours, in addition to BID features; the 2018 data sheet says it samples charge and discharge amp hours including fast transients and gives access to discharge-cycle counts based on 80 percent of the BID amp-hour setting. Source: AMETEK Prestolite Power data devices page and BID data sheet (Aug 2018) (T1) <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
 - **Not stated in retrieved sources:** current-measurement range, chemistry coverage.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
+  - [[Measure Battery Current]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
   - [[Measure Battery Temperature]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
   - [[Accumulate Amp-Hours]] (V): <https://www.prestolitepower.com/products/datadevices> <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
   - [[Identify Battery to Charger]] (V): <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>
@@ -82,6 +84,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Current-measurement traceability correction (2026-10-06):** Prestolite explicitly states that this BID variant adds current monitoring and samples charge/discharge current more than 100 times per second.
 
 ## Aliases
 
