@@ -152,6 +152,7 @@ disp=yaml.safe_load(DISP.read_text(encoding="utf-8")) or {}
 records=disp.get("records") or {}
 reviewed_thin=0
 bad_registry=[]
+expected_missing={p:set(missing) for p,cls,n,fam,mkt,ev,missing in rows}
 for p in thin:
     rec=records.get(p)
     if not rec:
@@ -159,6 +160,22 @@ for p in thin:
     reviewed_thin+=1
     if rec.get("classification")!="reference_content":
         bad_registry.append((p,rec.get("classification")))
+        continue
+    gaps=rec.get("gaps") or {}
+    for dim in expected_missing.get(p,set()):
+        g=gaps.get(dim)
+        if not isinstance(g,dict):
+            findings.append((p,"reference-leaf-missing-disposition",f"Missing registry disposition for {dim}."))
+            continue
+        if dim=="evidence":
+            if g.get("disposition")!="not_applicable" or g.get("exception")!="EXC-NOT-APPLICABLE":
+                findings.append((p,"reference-leaf-evidence-disposition",f"Expected evidence not_applicable / EXC-NOT-APPLICABLE, found {g}."))
+        else:
+            if g.get("disposition")!="intentionally_absent" or g.get("exception")!="EXC-REFERENCE-LEAF":
+                findings.append((p,"reference-leaf-gap-disposition",f"Expected {dim} intentionally_absent / EXC-REFERENCE-LEAF, found {g}."))
+    unexpected=set(gaps)-expected_missing.get(p,set())
+    if unexpected:
+        findings.append((p,"reference-leaf-unexpected-disposition",f"Registry has dispositions for linked/nonmissing dimensions: {sorted(unexpected)}."))
 counts["thin_with_reference_content_registry_classification"]=reviewed_thin
 for p,cls in bad_registry:
     findings.append((p,"reference-leaf-registry-classification",f"Expected reference_content, found {cls!r}."))
