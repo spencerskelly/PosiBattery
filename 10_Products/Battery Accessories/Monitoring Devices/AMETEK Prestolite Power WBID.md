@@ -25,6 +25,7 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -77,6 +78,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — amp-hour accumulation:** this battery-mounted device records amp-hours in/out over long-term battery history. [[Current Integration Amp-Hour Accumulation]] and [[Amp-Hour Accumulator Firmware]] are allocated at **>=95% engineering confidence** because producing persistent Ah-in/out totals requires current integration, while the internal current-sensing topology and firmware partition are not published.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
