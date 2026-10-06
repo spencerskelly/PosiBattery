@@ -36,6 +36,7 @@ hasDesign:
   - "[[Wrap-Around Cell Connector Probe]]"
   - "[[Cell-Connector Temperature Sensing]]"
 hasPart:
+  - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
   - "[[Voltage Imbalance Evaluation Firmware]]"
