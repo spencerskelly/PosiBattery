@@ -16,6 +16,8 @@ performs:
 hasDesign:
   - "[[Extended Watering Interval]]"
   - "[[Local LED Indicator]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
