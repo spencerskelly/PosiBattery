@@ -16,6 +16,9 @@ realizedBy:
 participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
+needOf:
+  - "[[Forklift Operator]]"
+  - "[[Maintenance Technician]]"
 arisesIn:
   - "[[Inspect Battery Condition Through a BMID]]"
 ---
