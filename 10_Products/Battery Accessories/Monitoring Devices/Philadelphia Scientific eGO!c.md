@@ -26,6 +26,8 @@ hasDesign:
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
   - "[[Cloud Portal Integration]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
