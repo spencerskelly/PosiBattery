@@ -17,7 +17,12 @@ performs:
   - "[[Report Truck Telemetry]]"
   - "[[Adapt Truck to Battery Chemistry]]"
 hasDesign:
+  - "[[Battery Discharge Indicator]]"
   - "[[CAN Interface]]"
+hasPart:
+  - "[[CAN Communication Circuit]]"
+dependsOn:
+  - "[[Battery Discharge Indicator Module]]"
 madeBy:
   - "[[Hyster-Yale]]"
 integratesWith:
@@ -64,6 +69,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Display Battery Status to Operator]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
   - [[Report Truck Telemetry]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
   - [[Adapt Truck to Battery Chemistry]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
+
+- **Architecture realization — operator battery display:** Hyster explicitly identifies a CAN link between battery and truck and presentation of battery data on the factory Battery Discharge Indicator. [[CAN Communication Circuit]] is allocated at **>=95% engineering confidence** as the reusable physical-layer role; [[Battery Discharge Indicator Module]] is modeled as a dependency because the factory indicator belongs to the truck rather than to the Power Cellect option package.
 
 ## Aliases
 
