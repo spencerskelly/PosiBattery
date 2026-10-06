@@ -32,6 +32,7 @@ dependencyOf:
   - "[[Equalization Event Tracking Firmware]]"
   - "[[Battery Replacement Prediction Firmware]]"
   - "[[Vehicle Operating Limit Command Firmware]]"
+  - "[[Battery Event Logger Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
