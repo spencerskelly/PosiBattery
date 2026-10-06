@@ -8,6 +8,8 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: datasheet
+sourceUrl: "https://og.mhi.org/media/members/41607/133717589840217692.pdf"
 describes:
   - "[[ACT Quantum 3]]"
   - "[[Advanced Charging Technologies BATTview]]"
