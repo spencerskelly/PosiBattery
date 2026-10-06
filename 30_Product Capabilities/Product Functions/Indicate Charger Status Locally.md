@@ -13,6 +13,9 @@ subtypeOf:
 dependsOn:
   - "[[Local Charger Status Indication]]"
 performedBy:
+  - "[[Charger Status LED Bar Assembly]]"
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum Outdoor]]"
   - "[[Crown V-HFM3 Charger]]"
@@ -36,6 +39,12 @@ Show charger or charge-process status locally at the charger or on a nearby char
 - Remote visual indicators are represented by [[Remote Charger Status Stack Light]].
 - No Requirement or customer-need link is assigned yet; the function is retained as verified product behavior.
 - **Sources** are carried on the performing product and Design notes.
+
+## Implementation Allocation
+
+- **Integrated charger LED bar:** [[Charger Status LED Bar]] -> [[Charger Status LED Bar Assembly]] -> [[LED Status Indicator Element]].
+- **Remote stack/tower light:** [[Remote Charger Status Stack Light]] -> commercial tower/stack-light Objects. [[Crown V-HFM3 Tower Light Kit]] includes an I/O expansion board; [[PosiCharge Three-Color Stack Light]] requires a separate Accessory Driver Kit.
+- [[Status Indicator Driver Circuit]] represents the reusable output-driver role where it is inside the modeled product or assembly. It is not assigned as an internal part of the PosiCharge stack light because PosiCharge explicitly places that role in a separate driver kit.
 
 ## Aliases
 
