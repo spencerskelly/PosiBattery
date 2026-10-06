@@ -2,7 +2,7 @@
 type: Object
 subtype: firmware
 id: OBJ-90121
-uid: 20261006193000002skellyspencer
+uid: 20261006203800005skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -17,11 +17,11 @@ dependsOn:
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
 performs:
+  - "[[Log Battery Events and Usage]]"
 partOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[HOPPECKE trak collect]]"
   - "[[EnerSys Wi-iQ]]"
-  - "[[Log Battery Events and Usage]]"
 ---
 
 # Battery Event Logger Firmware
