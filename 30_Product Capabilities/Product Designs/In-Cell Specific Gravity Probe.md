@@ -14,7 +14,9 @@ subtypeOf:
 designOf:
   - "[[AMETEK Prestolite Power TruBid]]"
   - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
-describedBy:
+realizes:
+  - "[[Measure Electrolyte Specific Gravity]]"
+dependencyOf:
   - "[[Measure Electrolyte Specific Gravity]]"
 ---
 
