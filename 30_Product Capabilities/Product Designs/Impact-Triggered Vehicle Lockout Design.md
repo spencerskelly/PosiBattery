@@ -11,6 +11,7 @@ tags:
   - safety
 designOf:
   - "[[Impact Lockout Decision Logic]]"
+  - "[[TLD Aircraft Safety Docking]]"
 realizes:
   - "[[Lock Out Vehicle After Impact]]"
 dependencyOf:
