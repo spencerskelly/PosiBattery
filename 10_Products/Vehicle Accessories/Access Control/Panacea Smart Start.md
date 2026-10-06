@@ -17,7 +17,11 @@ performs:
   - "[[Control Operator Access]]"
 hasDesign:
   - "[[Fingerprint Reader]]"
+  - "[[Operator Access Authorization Design]]"
 madeBy:
+hasPart:
+  - "[[Operator Access Authorization Logic]]"
+  - "[[Vehicle Enable Interlock]]"
   - "[[Panacea Aftermarket Co.]]"
 ---
 
@@ -48,6 +52,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Fingerprint Reader]] (V): <https://www.dcvelocity.com/articles/28818-spotlight-on-forklift-safety-products>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — operator access:** [[Operator Access Authorization Design]] is allocated because the product explicitly restricts truck use to authorized operators. [[Operator Access Authorization Logic]] is allocated at **>=95% engineering confidence** where the internal authorization software partition is unpublished. [[Vehicle Enable Interlock]] captures the vehicle enable/start inhibition role supported by the published behavior. The exact credential database, controller, relay/CAN path, and synchronization method remain product-specific.
 
 ## Aliases
 
