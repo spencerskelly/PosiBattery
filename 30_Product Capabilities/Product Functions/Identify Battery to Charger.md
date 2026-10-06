@@ -22,6 +22,8 @@ performedBy:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Fronius TagID]]"
   - "[[PosiCharge Battery Rx]]"
+  - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[PosiCharge PosiGuard]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
@@ -29,6 +31,8 @@ satisfies:
   - "[[BMID - Provide Battery Identity to Compatible Charger]]"
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
+realizedBy:
+  - "[[Battery Identification and Charger Communication Software Design]]"
 ---
 
 # Identify Battery to Charger
