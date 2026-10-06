@@ -19,8 +19,11 @@ performs:
   - "[[Alert on Low Electrolyte Level]]"
 hasDesign:
   - "[[Capacitive Electrolyte Level Probe]]"
+  - "[[Local Low Electrolyte Alert]]"
+  - "[[Local LED Indicator]]"
 hasPart:
   - "[[Capacitive Electrolyte Level Sensor Assembly]]"
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[Flow-Rite]]"
 ---
@@ -63,6 +66,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert on Low Electrolyte Level]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
 - **Design characteristics, with citations:**
   - [[Capacitive Electrolyte Level Probe]] (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
+  - [[Local Low Electrolyte Alert]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf>
+  - [[Local LED Indicator]] (V): <https://www.flow-rite.com/wp-content/uploads/2023/07/MM-001-EE-ELITE-IV-0723.pdf> (C): <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 - **Sources used for the mapping above:** Seed note (cites the Flow-Rite monitoring page) <https://www.flow-rite.com/category/application/battery-monitoring/>; ETL notice describes the Eagle Eye range; Elite IV membership comes from the seed note <https://www.bestmag.co.uk/flow-rite-receives-etl-standard-electrolyte-sensor-range/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
