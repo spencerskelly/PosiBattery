@@ -61,6 +61,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cell-Connector Electrolyte Level Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Cell-Connector Temperature Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Charger Status LED Bar]] | [[ACT Quantum 2]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[PosiCharge ProCore Edge]] | - | - |
+| [[Cloud Battery Data Upload Design]] | [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Power Designers PowerTrac 3]], [[Philadelphia Scientific eGO!gateway]] | - | - |
+| [[Gateway-Mediated Cloud Upload]] | [[Philadelphia Scientific eGO!gateway]] | - | - |
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
 | [[Communicated Watering Need Alert]] | [[Crown V-Force BMID]] | - | - |
 | [[Copper Inserted Posts]] | [[Deka FastCharge Battery]] | - | - |
