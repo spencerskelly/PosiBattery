@@ -12,6 +12,7 @@ tags:
 reuseScope: cross-product
 hasDesign:
   - "[[Wrap-Around Cell Connector Probe]]"
+  - "[[Cell-Connector Temperature Sensing]]"
 partOf:
   - "[[Exide Motion+ EasyMonitor]]"
 performs:
