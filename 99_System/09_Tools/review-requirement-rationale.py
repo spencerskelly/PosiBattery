@@ -6,6 +6,7 @@ Accepted rationale paths are governed semantic relationships such as drivenBy,
 derivedFrom, refinedBy/childOf, references, plus appliesTo as scope/context.
 This step does not infer new requirements or source claims.
 """
+# Governed Step 12 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
