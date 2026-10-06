@@ -33,11 +33,13 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Predict Battery Replacement Timing]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Cellular Communication Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Cloud Portal Integration]]"
 hasPart:
+  - "[[Remote Alert Notification Service]]"
   - "[[Electrolyte Level Acquisition Firmware]]"
   - "[[Electrolyte Level Measurement Circuit]]"
 madeBy:
