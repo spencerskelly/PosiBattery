@@ -25,11 +25,13 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
+  - "[[Non-Volatile Event Memory]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Ambient Temperature Sensor]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
 hasPart:
+  - "[[Amp-Hour Counter State Memory]]"
   - "[[LED Status Indicator Element]]"
   - "[[Ambient Temperature Sensor Element]]"
 madeBy:
