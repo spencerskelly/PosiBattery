@@ -13,6 +13,7 @@ subtypeOf:
 dependsOn:
   - "[[Wireless Interface Design]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Cloud Battery Data Upload Design]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"
@@ -34,11 +35,15 @@ performedBy:
   - "[[PosiCharge PosiNet]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Power Designers PowerTrac 3]]"
+  - "[[Cloud Battery Data Upload Service]]"
+  - "[[Battery Data Gateway Upload Service]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+realizedBy:
+  - "[[Cloud Battery Data Upload Design]]"
   - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
@@ -74,7 +79,29 @@ Send battery data to a hosted portal for fleet reporting.
   - [[PosiCharge PosiNet]] (V): <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
   - [[Philadelphia Scientific eGO!plus]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
   - [[Power Designers PowerTrac 3]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
-- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Wireless Interface Design, Cloud Portal Integration); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent); [[Cloud Portal Integration]] remains the hosted-service dependency, while [[Cloud Battery Data Upload Design]] represents the actual upload behavior.
+
+## Implementation Allocation
+
+The reusable realization is [[Cloud Battery Data Upload Design]].
+
+### Direct device path
+
+[[Direct Device Cloud Upload]] -> [[Cloud Battery Data Upload Service]]
+
+A field device can authenticate and send battery data directly to a hosted service over a WAN-capable connection such as cellular, Wi-Fi, or Ethernet. No product is assigned to this child Design unless the source establishes a direct device-to-cloud path.
+
+### Gateway-mediated path
+
+[[Gateway-Mediated Cloud Upload]] -> [[Battery Data Gateway Upload Service]]
+
+[[Philadelphia Scientific eGO!gateway]] is the clearest verified implementation: it collects eGO! monitor data locally over Bluetooth and uploads it to batterymanagement.net over cellular.
+
+### Cloud-service boundary
+
+[[Cloud Portal Integration]] represents the hosted portal relationship and remains a dependency. Upload behavior is modeled separately because a product can integrate with a cloud portal through different field architectures.
+
+Products that state cloud/portal reporting but do not expose whether they connect directly or through a gateway remain at the generic [[Cloud Battery Data Upload Design]] level.
 
 ## Aliases
 
