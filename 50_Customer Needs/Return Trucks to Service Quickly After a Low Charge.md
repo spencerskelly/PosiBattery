@@ -17,6 +17,9 @@ realizedBy:
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
+needOf:
+  - "[[Fleet Operations Manager]]"
+  - "[[Forklift Operator]]"
 ---
 
 # Return Trucks to Service Quickly After a Low Charge
