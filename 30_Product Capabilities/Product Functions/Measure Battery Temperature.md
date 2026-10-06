@@ -51,6 +51,7 @@ performedBy:
   - "[[Integrated Temperature Sensor Element]]"
   - "[[Ambient Temperature Sensor Element]]"
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
+  - "[[BMS Temperature Sensor Network]]"
 realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:
@@ -97,9 +98,9 @@ Measure battery temperature, either of the electrolyte or of the surroundings.
   - [[Access Control Group CellTrac]] (V): <https://www.mhlnews.com/archive/celltrac>
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
   - [[Advanced Charging Technologies BATTview]] (V): <https://og.mhi.org/media/members/41607/133717592244521430.pdf>
-  - [[Stryten M-Series Li610 Battery]] (V): <https://www.businesswire.com/news/home/20260413514429/en/Stryten-Energy-Launches-New-MSeries-Li610-LithiumIon-Battery-at-MODEX>
+  - [[Stryten M-Series Li610 Battery]] (V): <https://www.stryten.com/motive-power-solutions/m-series-li610/> <https://www.stryten.com/wp-content/uploads/2026/04/M-Series-Li610-Installation-Operational-Manual-SE2070_Final.pdf>
   - [[TUG ALPHA 1 Pushback]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
-  - [[Green Cubes SAFEFlex Battery]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
+  - [[Green Cubes SAFEFlex Battery]] (V): <https://greencubes.com/resources/faq/> <https://greencubes.com/industries/material-handling-batteries/>
 - **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Implementation Allocation
@@ -114,6 +115,7 @@ The reusable realization is [[Battery Temperature Measurement Design]]. Dependin
 - **Integrated sensor, technology undisclosed:** [[Internal Temperature Sensor]] -> [[Integrated Temperature Sensor Element]]. Verified for [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], and [[Philadelphia Scientific eGO!pro]].
 - **Ambient sensor, technology undisclosed:** [[Ambient Temperature Sensor]] -> [[Ambient Temperature Sensor Element]]. Verified for [[AMETEK Prestolite Power WBID Pro]] in addition to its electrolyte-temperature sensing.
 - **Cell-connector multi-function sensor:** [[Wrap-Around Cell Connector Probe]] -> [[Wrap-Around Cell Connector Sensor Assembly]]. Verified for [[Exide Motion+ EasyMonitor]], whose 3-in-1 probe measures temperature, electrolyte level, and voltage symmetry at the cell connector.
+- **BMS internal temperature sensing:** [[BMS Internal Temperature Sensing]] -> [[BMS Temperature Sensor Network]]. Verified for [[Green Cubes SAFEFlex Battery]]; allocated to [[TUG ALPHA 1 Pushback]] and [[Stryten M-Series Li610 Battery]] at **>=95% engineering confidence** because their BMS-based systems explicitly monitor/report battery temperature while sensor hardware details remain unpublished.
 
 ### Product allocation and unresolved topology
 
@@ -121,7 +123,7 @@ The reusable realization is [[Battery Temperature Measurement Design]]. Dependin
 - [[Fronius TagID]] explicitly includes a temperature sensor, but the retrieved source does not establish whether that sensor is internal, external, immersed, or a thermistor.
 - [[Crown V-Force BMID]], [[Advanced Charging Technologies BATTview]], [[HOPPECKE trak collect]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac Monitor]], [[EnerSys iQ Mini]], [[Philadelphia Scientific eGO!Mini]], [[Raymond iBattery]], [[Access Control Group CellTrac]], [[Hyster Battery Tracker]], and [[Yale Battery Vision]] state temperature measurement but do not establish enough sensor technology or placement detail for a more specific Design.
 - [[Hyster Battery Tracker]] and [[Yale Battery Vision]] are described as using PosiCharge technology, but that does **not** establish that they use the PosiCharge BMID immersed-thermistor topology, so that relationship is not inferred.
-- Lithium-battery and vehicle products that perform this Function remain unspecialized until evidence identifies their cell/module temperature-sensing architecture.
+- Other lithium-battery products that perform this Function remain unspecialized until evidence identifies their BMS/sensor architecture. The modeled BMS path intentionally does not distinguish cell-, module-, or pack-level placement without evidence.
 
 ## Aliases
 
