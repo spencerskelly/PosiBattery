@@ -142,3 +142,5 @@ Each row is a dependency where at least one product that performs the function h
 ## Former ids
 
 | [[Water Battery Cells]] | [[Battery Cell Watering Design]] | implementation review | strong | current products show float-valve single-point, injector level-sensing, charger-controlled automatic, and generic automatic watering variants | requires a controlled water-distribution/fill method; child Designs preserve distinct shutoff and control architectures |
+
+| [[Record Images of Load Handling]] | [[Load-Handling Image Capture Design]] | implementation review | strong | Toyota explicitly states that the Twistlock Snapshot Camera System captures images before and after each container is handled | requires camera hardware, event-triggered capture logic, and retained image storage; pedestrian-detection cameras are a different sensing use |
