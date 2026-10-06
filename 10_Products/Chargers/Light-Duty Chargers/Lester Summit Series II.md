@@ -23,7 +23,10 @@ performs:
 hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Onboard Charger Mounting]]"
+  - "[[Remote Charger Management Design]]"
 madeBy:
+hasPart:
+  - "[[Charger Remote Management Agent]]"
   - "[[Lester Electrical]]"
 ---
 
@@ -63,6 +66,8 @@ Lester multi-voltage 24, 36 and 48 V charger family (650, 1050 and 1425 W) for l
 | Safety | UL recognized/listed; cUL/CSA; FCC Part 15; ICES-003; EN; CE; RCM; DOE and CEC efficiency (CEC-approved lab in Lincoln, NE) |
 - **Conflicts (C46):** the sheet lists Bluetooth apps and says nothing of cloud connectivity, which earlier notes took from a reseller; earlier notes said CAN bus (CANopen), the sheet adds SAE J1939. The sheet also invites readers to ask about 'Sigma', a product not yet identified (see [[Unidentified Products Review]]).
 - **Round 12 (650 W sheet in the repo, Downloads/summit-series-ii_650w_data-sheet_060223.pdf):** 650 W models 48 V / 13.5 A, 36 V / 18 A, 24 V / 25 A, and 36-48 V multi-voltage; above 90% peak efficiency (DOE test, 115 Vac); 287 x 183 x 93 mm; IP66 and NEMA 4; Bluetooth apps, CANopen and SAE J1939; battery temperature input. Comparison with the Delta-Q IC650 is logged as C58. A distributor listing earlier cited for the 650 W (Akkusys) gives 252 x 186 x 80 mm, which matches the Delta-Q figure, not Lester's sheet, so that listing may mix products (not relied on for size).
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
