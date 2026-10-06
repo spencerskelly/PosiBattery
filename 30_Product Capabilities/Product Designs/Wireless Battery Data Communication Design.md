@@ -13,6 +13,11 @@ subtypeOf:
   - "[[Wireless Interface Design]]"
 designOf:
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Transmit Battery Data Wirelessly]]"
 dependencyOf:
