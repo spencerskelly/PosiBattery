@@ -35,7 +35,7 @@ Measure the specific gravity of the electrolyte as a charge-state indicator.
 - Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
-  - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+  - [[AMETEK Prestolite Power TruBid]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge> <https://www.prestolitepower.com/aboutus/news/2016/april/100>
 - **Extra (round 30):** documented for 0 of 21 battery maker groups (0 percent), currently delivered by the verified [[In-Cell Specific Gravity Probe]] implementation; rule and caveats remain in [[Extra Functions Register]].
 
 ## Implementation Allocation
