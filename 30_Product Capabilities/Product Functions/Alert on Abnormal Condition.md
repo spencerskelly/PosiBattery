@@ -11,8 +11,19 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Warning and Display Device Design]]"
+  - "[[Abnormal Condition Alert Design]]"
 performedBy:
+  - "[[Abnormal Condition Evaluation Logic]]"
+  - "[[Abnormal Condition Threshold Circuit]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
+  - "[[Remote Alert Notification Service]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[LED Status Indicator Element]]"
+  - "[[Audible Alarm Transducer]]"
+  - "[[LCD Status Display Module]]"
+  - "[[Local Status Presentation Firmware]]"
+  - "[[Operator Display HMI Firmware]]"
+  - "[[Operator Touchscreen Display Module]]"
   - "[[Access Control Group CellTrac]]"
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Crown Battery Health Monitor]]"
@@ -36,6 +47,8 @@ performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
+realizedBy:
+  - "[[Abnormal Condition Alert Design]]"
 realizes:
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
@@ -76,7 +89,28 @@ Raise an alarm or notification when a measured quantity crosses a threshold or a
   - [[PosiCharge Battery Rx]] (V): <https://www.posicharge.com/source/PDF/BatteryRx.pdf>
   - [[Philadelphia Scientific eGO!core]] (V): <https://phlsci.com/product-lines/ego-battery-performance-monitors/ego-core>
   - [[Philadelphia Scientific eGO!plus]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
-- **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent), delivered by devices or software (Warning and Display Device Design); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 5 of 21 battery maker groups (24 percent); the implementation dependency has since been refined from [[Warning and Display Device Design]] to [[Abnormal Condition Alert Design]]. Rule and caveats remain in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+The reusable realization is [[Abnormal Condition Alert Design]]. The alert chain is intentionally separated into **condition evaluation** and **alert delivery**.
+
+### Condition-evaluation alternatives
+
+- **Programmable/software path:** [[Abnormal Condition Evaluation Logic]] evaluates measurements, timers, histories, diagnostic flags or state transitions and decides when an abnormal condition becomes an alert. It is allocated to several electronic monitors at **>=95% engineering confidence** where the published product behavior proves threshold/state evaluation but not the internal software partition.
+- **Hardware-only path:** [[Abnormal Condition Threshold Circuit]] represents a comparator/reference/hysteresis implementation for simple devices. It remains a valid reusable alternative, but no current product is assigned because the public evidence does not prove a hardware-only topology.
+
+### Alert-delivery alternatives
+
+- **Local device alert:** [[Local Abnormal Condition Alert]] -> [[Local Abnormal Alert Output Assembly]], using some combination of [[LED Status Indicator Element]], [[Audible Alarm Transducer]], [[LCD Status Display Module]], [[Status Indicator Driver Circuit]], and [[Local Status Presentation Firmware]]. Verified examples include [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Philadelphia Scientific eGO!Mini]], and [[Philadelphia Scientific eGO!pro]].
+- **Operator-dashboard alert:** [[Operator Dashboard Abnormal Alert]] reuses the vehicle HMI architecture. [[EnerSys Truck iQ]] is the verified example: alerts and alarms received from Wi-iQ are shown on the truck-mounted touchscreen over the product's verified BLE link.
+- **Remote exception notification:** [[Remote Exception Notification]] -> [[Remote Alert Notification Service]], depending on the product's existing [[Cloud Portal Integration]] / communication path. Verified examples include [[Hyster Battery Tracker]], [[Yale Battery Vision]], [[PosiCharge Battery Rx]], [[Crown Battery Health Monitor]], [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], and [[Philadelphia Scientific eGO!pro]].
+
+### Products intentionally left at the generic alert level
+
+Several products explicitly state alarms, alerts, exceptions, fault diagnostics, or abnormal-condition detection but do not establish whether the user is notified locally, on a vehicle display, remotely, or only through recorded/reporting software. These include [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac SP+]], [[Power Designers PowerTrac DT3]], [[HOPPECKE trak collect]], [[Raymond iBattery]], [[Access Control Group CellTrac]], [[Energywith withBMS BMU]], and others. No delivery Design is inferred from the word "alert" alone.
+
+[[Philadelphia Scientific SmartBlinky Pro]] remains primarily modeled through the more specific [[Alert on Low Electrolyte Level]] architecture rather than being duplicated into this generic abnormal-condition family.
 
 ## Aliases
 
