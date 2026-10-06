@@ -123,4 +123,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **C83 (round 20):** the card's operating voltage reads 18 to 20 V where the web page says 18 to 120 V.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
+- **Implementation assumption — battery identification path:** PosiGuard is treated as performing [[Identify Battery to Charger]] with >=95% confidence because it is identified as a BMID-family device and publicly supports charger communication. The exact identification-message implementation is not published.
+- **Implementation assumption — communication hardware:** the modeled [[Control Circuit]], [[Battery Identification and Charger Communication Firmware]], [[CAN Communication Circuit]], [[Serial Communication Circuit]], [[BLE Communication Circuit]], and [[LoRa Communication Circuit]] are circuit-level abstractions inferred from the published functions/interfaces. The vendor evidence supports CAN, Serial, Bluetooth, and optional LoRa interfaces, but not the exact transceiver/module topology or part numbers.
+
 ## Former ids
