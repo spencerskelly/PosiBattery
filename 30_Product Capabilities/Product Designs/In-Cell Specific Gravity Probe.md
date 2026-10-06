@@ -33,4 +33,9 @@ Specific-gravity measurement using a probe inserted into a flooded battery cell 
 - This Design is placed under [[Battery Sensor Mounting Design]] because the strongest verified design characteristic is the in-cell probe arrangement. If a second, materially different specific-gravity sensing principle is found, create a dedicated general specific-gravity measurement Design family and re-parent the implementations.
 - The Design does not imply that the temperature and specific-gravity channels use the same sensing element, only that the published TruBID probe assembly performs both measurements.
 
+## Evidence
+
+- In-cell probe placement and continuous specific-gravity measurement: DC Velocity (T2), retrieved 2026-10-04. <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+- Direct specific-gravity measurement by TruBID: AMETEK Prestolite Power (T1), rechecked 2026-10-06. <https://www.prestolitepower.com/aboutus/news/2016/april/100>
+
 ## Former ids
