@@ -42,6 +42,7 @@ dependencyOf:
   - "[[Charger Remote Management Agent]]"
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
+  - "[[Load-Handling Image Capture Logic]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
