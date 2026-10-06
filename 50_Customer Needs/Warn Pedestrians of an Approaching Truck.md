@@ -14,6 +14,9 @@ realizedBy:
 participants:
   - "[[Pedestrian Near Trucks]]"
   - "[[Site Safety Manager]]"
+needOf:
+  - "[[Pedestrian Near Trucks]]"
+  - "[[Site Safety Manager]]"
 ---
 
 # Warn Pedestrians of an Approaching Truck
