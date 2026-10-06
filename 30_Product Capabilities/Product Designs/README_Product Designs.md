@@ -36,6 +36,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 - [[Battery Abuse Cycle Analytics]]
 - [[Battery Event and Usage Logging Design]]
+- [[Cloud Battery Data Upload Design]]
 - [[Battery Replacement Timing Prediction Design]]
 - [[Cell Failure Diagnostic Design]]
 - [[Current Sensing Design]]
