@@ -11,7 +11,7 @@ tags:
 subtypeOf:
   - "[[Sense Battery State]]"
 dependsOn:
-  - "[[Battery Sensor Element Design]]"
+  - "[[Electrolyte Level Sensing Design]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:
@@ -44,6 +44,15 @@ performedBy:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[EnerSys iQ Mini]]"
+  - "[[Electrolyte Level Measurement Circuit]]"
+  - "[[Electrolyte Level Acquisition Firmware]]"
+  - "[[Capacitive Electrolyte Level Sensor Assembly]]"
+  - "[[Electronic Electrolyte Probe Assembly]]"
+  - "[[Variable-Length Electrolyte Probe Assembly]]"
+  - "[[Wrap-Around Cell Connector Sensor Assembly]]"
+  - "[[Low-Current Electrolyte Level Input Circuit]]"
+realizedBy:
+  - "[[Electrolyte Level Sensing Design]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
@@ -90,6 +99,22 @@ Sense whether the electrolyte level in a flooded lead-acid cell is adequate.
   - [[Exide Automatic Watering System and Level Sensor]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[EnerSys iQ Mini]] (V): <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf>
 - **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (Battery Sensor Element Design); rule and caveats in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+The reusable realization is [[Electrolyte Level Sensing Design]]. Physical implementations range from standalone probe assemblies to multi-function sensor assemblies and controller sensor-input circuits. [[Electrolyte Level Measurement Circuit]] represents the general electronic readout role, while [[Electrolyte Level Acquisition Firmware]] applies to controller-based monitors that qualify, log, or report the level state.
+
+### Known implementation paths
+
+- **Capacitive probe:** [[Capacitive Electrolyte Level Probe]] -> [[Capacitive Electrolyte Level Sensor Assembly]] -> [[Capacitive Electrolyte Probe Element]]. Verified for the Flow-Rite Eagle Eye sensor family; Flow-Rite states that capacitive sensing avoids sensing current through the probe.
+- **Electronic in-cell probe:** [[Electronic In-Cell Electrolyte Probe]] -> [[Electronic Electrolyte Probe Assembly]]. Verified for [[Philadelphia Scientific SmartBlinky Pro]]. The maker identifies an electronic probe and patented Smart Sensing but does not publish the transduction principle.
+- **Variable-length probe:** [[Variable-Length Electrolyte Level Probe]] -> [[Variable-Length Electrolyte Probe Assembly]]. Verified for [[Power Designers PowerTrac 3]].
+- **Cell-connector multi-function sensor:** [[Cell-Connector Electrolyte Level Sensing]] + [[Wrap-Around Cell Connector Probe]] -> [[Wrap-Around Cell Connector Sensor Assembly]]. Verified for [[Exide Motion+ EasyMonitor]].
+- **Low-current electrical input:** [[Low-Current Electrolyte Level Input]] -> [[Low-Current Electrolyte Level Input Circuit]]. Verified for [[HOPPECKE trak collect]] from its published 11.3 V / 55 µA trigger / 100 µA maximum electrolyte-level input.
+
+### Products intentionally left unspecialized
+
+Products that state only "electrolyte sensor," "level sensor," "water-level detector," or equivalent remain linked to the Function without a more specific child Design unless the available evidence establishes probe form, mounting, or electrical behavior. This includes several BMID-class products and monitoring devices; no conductive, capacitive, optical, or other mechanism is inferred solely from the presence of level sensing.
 
 ## Aliases
 
