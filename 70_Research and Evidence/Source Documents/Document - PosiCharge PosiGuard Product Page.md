@@ -20,6 +20,7 @@ supports:
   - "[[Bluetooth Interface]]"
   - "[[Battery Voltage Measurement Design]]"
   - "[[Current Sensing Design]]"
+  - "[[Measure Battery Current]]"
 ---
 
 # Document - PosiCharge PosiGuard Product Page
