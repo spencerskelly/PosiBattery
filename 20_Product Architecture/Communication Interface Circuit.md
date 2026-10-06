@@ -12,6 +12,9 @@ reuseScope: cross-product
 supertypeOf:
   - "[[Wired Communication Circuit]]"
   - "[[Wireless Communication Circuit]]"
+dependencyOf:
+  - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[Battery Identification and Charger Communication Software Design]]"
 ---
 
 # Communication Interface Circuit
