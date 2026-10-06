@@ -44,6 +44,10 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Battery Temperature Measurement Circuit]]"
+  - "[[Battery Temperature Acquisition Firmware]]"
+realizedBy:
+  - "[[Battery Temperature Measurement Design]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
 ---
@@ -92,6 +96,18 @@ Measure battery temperature, either of the electrolyte or of the surroundings.
   - [[TUG ALPHA 1 Pushback]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
   - [[Green Cubes SAFEFlex Battery]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
 - **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+The reusable realization is [[Battery Temperature Measurement Design]], performed by [[Battery Temperature Measurement Circuit]] and [[Battery Temperature Acquisition Firmware]] using shared [[Control Circuit]] resources.
+
+Known concrete path:
+- [[Electrolyte-Immersed Temperature Sensor]] -> [[Thermistor Temperature Measurement Circuit]] with [[Thermistor Temperature Sensor]] for products whose evidence identifies an immersed thermistor.
+
+### Product allocation
+
+- [[PosiCharge BMID]] is allocated the thermistor circuit and temperature-acquisition firmware. The **thermistor technology and electrolyte immersion are verified** by PosiCharge; the surrounding measurement circuit and firmware partition are modeled at **>=95% engineering confidence** because the exact electronics are not published.
+- Other temperature-sensing products remain linked only to the Function or existing Design evidence until their sensor technology and placement are established.
 
 ## Aliases
 
