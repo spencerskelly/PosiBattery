@@ -26,6 +26,7 @@ dependencyOf:
   - "[[Voltage Imbalance Evaluation Firmware]]"
   - "[[Voltage Imbalance Comparator Circuit]]"
 performs:
+  - "[[Detect Voltage Imbalance]]"
   - "[[Measure Battery Voltage]]"
 ---
 
