@@ -47,7 +47,6 @@ hasDesign:
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
   - "[[State of Charge Estimation Design]]"
-  - "[[Battery Temperature Measurement Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -114,6 +113,6 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
 
 - **Implementation assumption — state of charge estimation:** [[State of Charge Estimation Firmware]] and [[State of Charge Estimation Design]] are allocated to the BMID family at >=95% confidence because PosiCharge publicly states that the BMID recognizes state of charge. The internal algorithm is unknown; voltage-based, coulomb-counting, and hybrid/model-based methods remain explicit alternatives rather than selected product implementations.
 
-- **Implementation allocation — battery temperature measurement:** [[Battery Temperature Measurement Design]] is the generic realization. PosiCharge explicitly identifies an [[Electrolyte-Immersed Temperature Sensor]] and thermistor technology, so [[Thermistor Temperature Measurement Circuit]] is allocated to the family. [[Battery Temperature Acquisition Firmware]] is a >=95% engineering assumption required to turn that sensor signal into the reported digital temperature behavior; exact circuitry, calibration, and firmware partitioning are not public.
+- **Implementation allocation — battery temperature measurement:** [[Battery Temperature Measurement Design]] is the generic Function-level realization and dependency, while this product links to the specific [[Electrolyte-Immersed Temperature Sensor]] Design. PosiCharge explicitly identifies an electrolyte-immersed thermistor, so [[Thermistor Temperature Measurement Circuit]] is allocated to the family. [[Battery Temperature Acquisition Firmware]] is a >=95% engineering assumption required to turn that sensor signal into the reported digital temperature behavior; exact circuitry, calibration, and firmware partitioning are not public.
 
 ## Former ids
