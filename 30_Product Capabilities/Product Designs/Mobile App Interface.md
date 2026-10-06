@@ -17,6 +17,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!core]]"
 realizes:
   - "[[Configure Device from Mobile App or PC]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiConnect Product Page]]"
 ---
 
 # Mobile App Interface
