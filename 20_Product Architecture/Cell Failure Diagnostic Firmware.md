@@ -10,6 +10,8 @@ tags:
   - battery-monitoring
   - diagnostics
 reuseScope: cross-product
+hasDesign:
+  - "[[Algorithmic Cell Failure Diagnosis]]"
 dependsOn:
   - "[[Control Circuit]]"
 performs:
@@ -27,6 +29,6 @@ Candidate reusable firmware implementation that evaluates battery measurements o
 - Possible inputs include specific gravity, temperature, cell/section voltage, current, charge response, state-of-charge behavior, or historical patterns.
 - The firmware can implement filtering, persistence, hysteresis, trend detection, plausibility checks, and failure classification.
 - **Candidate implementation, not a product claim.** No product is allocated because the current TruBID source does not state that its cell-failure detection is performed in firmware.
-- This Object is retained as one concrete realization option for [[Detect Cell Failure]], but it does not establish a Product Design until product-backed implementation evidence exists.
+- This Object is the reusable performer for [[Algorithmic Cell Failure Diagnosis]]. The Design exists as an engineering alternative even though no current product is allocated to it.
 
 ## Former ids
