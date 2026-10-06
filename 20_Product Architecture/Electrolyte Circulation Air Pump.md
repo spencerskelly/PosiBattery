@@ -13,6 +13,8 @@ tags:
 reuseScope: cross-product
 partOf:
   - "[[Electrolyte Air Circulation Assembly]]"
+  - "[[Midac EUW Electrolyte Circulation System]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 performs:
   - "[[Circulate Electrolyte]]"
 ---
