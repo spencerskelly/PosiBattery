@@ -25,6 +25,11 @@ madeBy:
   - "[[TLD Group]]"
 offeredWith:
   - "[[TLD RBL Electric Regional Belt Loader]]"
+hasDesign:
+  - "[[Impact-Triggered Vehicle Lockout Design]]"
+hasPart:
+  - "[[Impact Lockout Decision Logic]]"
+  - "[[Vehicle Enable Interlock]]"
   - "[[TLD NBL-E Belt Loader]]"
 ---
 
@@ -65,6 +70,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Alert Operator of Hazards]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
   - [[Stop Truck for Detected Obstacle]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
   - [[Lock Out Vehicle After Impact]] (V): <https://www.aerospecialties.com/product/tld-rbl/>
+
+- **Architecture realization — impact lockout:** the published ASD behavior explicitly measures impact strength and locks the GSE until a manager unlocks it after inspection, supporting [[Impact-Triggered Vehicle Lockout Design]]. [[Impact Lockout Decision Logic]] and [[Vehicle Enable Interlock]] represent the decision and enforcement roles. Exact thresholds, manager authentication, persistence, and controller handoff remain unpublished.
 
 ## Aliases
 
