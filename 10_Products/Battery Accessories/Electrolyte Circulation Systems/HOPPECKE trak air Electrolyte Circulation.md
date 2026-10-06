@@ -17,9 +17,13 @@ performs:
   - "[[Circulate Electrolyte]]"
 hasDesign:
   - "[[Forced Electrolyte Circulation]]"
+  - "[[Air Injection Electrolyte Circulation]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
+hasPart:
+  - "[[Electrolyte Air Circulation Assembly]]"
+  - "[[Cell Air Distribution Tubing]]"
   - "[[HOPPECKE trak uplift air Battery]]"
 ---
 
@@ -50,6 +54,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
 ## Aliases
 
