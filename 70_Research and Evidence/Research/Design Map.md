@@ -32,6 +32,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
 | [[Ambient Temperature Sensor]] | [[AMETEK Prestolite Power WBID Pro]] | - | - |
+| [[Air Injection Electrolyte Circulation]] | [[Exide AIR Electrolyte Agitation System]], [[HOPPECKE trak air Electrolyte Circulation]], [[Midac EUW Electrolyte Circulation System]], [[HOPPECKE trak uplift air Battery]], [[GS Yuasa Traction Battery (Europe)]], [[HAWKER Perfect Plus Battery]] | - | - |
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Abuse Cycle Analytics]] | [[EnerSys iQ Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
