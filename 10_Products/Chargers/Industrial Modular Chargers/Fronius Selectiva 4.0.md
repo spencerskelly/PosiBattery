@@ -20,8 +20,11 @@ offeredWith:
   - "[[Fronius TagID]]"
 hasDesign:
   - "[[Remote Charger Management Design]]"
+  - "[[Adaptive Charge Profile Control Design]]"
+  - "[[Ri-Based Adaptive Charging]]"
 hasPart:
   - "[[Charger Remote Management Agent]]"
+  - "[[Adaptive Charge Profile Control Firmware]]"
   - "[[Fronius Charge & Connect]]"
 ---
 
@@ -43,6 +46,8 @@ Fronius lead-acid charger family with the Ri charging process, offered in 2 to 3
   - [[Adapt Charge to Battery Condition]] (V): <https://www.fronius.com/en/perfect-charging/our-solutions/technologies/ri-charging-process>
 
 - **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
+
+- **Architecture realization — adaptive charge profile:** published behavior supports [[Adaptive Charge Profile Control Design]] with [[Ri-Based Adaptive Charging]]. [[Adaptive Charge Profile Control Firmware]] is allocated at **>=95% engineering confidence** because the adaptive control behavior is explicit while the internal firmware partition is unpublished.
 
 ## Aliases
 
