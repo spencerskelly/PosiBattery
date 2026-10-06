@@ -17,10 +17,13 @@ performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
 hasDesign:
+  - "[[Integrated BMS State of Charge Estimation]]"
   - "[[Hibernation Mode]]"
   - "[[Integrated Battery Management System]]"
   - "[[BMS Internal Temperature Sensing]]"
 hasPart:
+  - "[[State of Charge Estimation Firmware]]"
+  - "[[Control Circuit]]"
   - "[[BMS Temperature Sensor Network]]"
 madeBy:
   - "[[Stryten Energy]]"
