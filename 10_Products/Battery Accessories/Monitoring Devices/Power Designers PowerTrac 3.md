@@ -35,6 +35,8 @@ hasDesign:  - "[[Variable-Length Electrolyte Level Probe]]"
   - "[[External Thermistor Temperature Sensor]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
+hasPart:
+  - "[[Variable-Length Electrolyte Probe Assembly]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
