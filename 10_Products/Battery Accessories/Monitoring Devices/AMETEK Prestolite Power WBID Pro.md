@@ -32,6 +32,7 @@ hasDesign:
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Equalization Event Tracking Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -40,6 +41,7 @@ hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[LED Status Indicator Element]]"
   - "[[Ambient Temperature Sensor Element]]"
+  - "[[Wireless Battery Data Communication Firmware]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 ---
@@ -103,6 +105,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — amp-hour accumulation:** this battery-mounted device records amp-hours in/out over long-term battery history. [[Current Integration Amp-Hour Accumulation]] and [[Amp-Hour Accumulator Firmware]] are allocated at **>=95% engineering confidence** because producing persistent Ah-in/out totals requires current integration, while the internal current-sensing topology and firmware partition are not published.
 
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
+
+- **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
 
 ## Aliases
 
