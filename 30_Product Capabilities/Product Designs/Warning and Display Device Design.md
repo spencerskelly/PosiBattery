@@ -10,6 +10,8 @@ tags:
 supertypeOf:
   - "[[Display Device Design]]"
   - "[[Indicator and Alarm Design]]"
+realizes:
+  - "[[Indicate Battery Status Locally]]"
 dependencyOf:
   - "[[Alert Operator of Hazards]]"
   - "[[Alert on Abnormal Condition]]"
