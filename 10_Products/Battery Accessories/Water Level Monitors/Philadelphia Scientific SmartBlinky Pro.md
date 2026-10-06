@@ -18,14 +18,18 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Alert on Low Electrolyte Level]]"
-hasDesign:  - "[[Electronic In-Cell Electrolyte Probe]]"
-
+hasDesign:
+  - "[[Electronic In-Cell Electrolyte Probe]]"
+  - "[[Local Low Electrolyte Alert]]"
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Reverse-Polarity Protection]]"
 hasPart:
   - "[[Electronic Electrolyte Probe Assembly]]"
+  - "[[LED Status Indicator Element]]"
+  - "[[Audible Alarm Transducer]]"
+  - "[[Low Electrolyte Alert Logic]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
@@ -75,6 +79,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cable-Mounted Indicator Placement]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Reverse-Polarity Protection]] (V): <https://www.mhwmag.com/?p=7981>
 - **Sources used for the mapping above:** M H&W magazine item (undated, likely older) <https://www.mhwmag.com/?p=7981>
+- **Implementation assumption — low electrolyte alert logic:** [[Low Electrolyte Alert Logic]] is allocated at **>=95% engineering confidence** because SmartBlinky Pro publishes SmartDELAY, multi-state LED alerting, and SmartBEEP behavior. The public source does not disclose whether this behavior is firmware, programmable logic, or dedicated electronics, so the reusable software-role Object captures the decision behavior rather than a specific MCU implementation.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 ## Aliases
