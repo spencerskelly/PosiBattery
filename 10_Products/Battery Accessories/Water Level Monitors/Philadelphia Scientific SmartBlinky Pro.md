@@ -24,6 +24,8 @@ hasDesign:  - "[[Electronic In-Cell Electrolyte Probe]]"
   - "[[Audible Alarm]]"
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Reverse-Polarity Protection]]"
+hasPart:
+  - "[[Electronic Electrolyte Probe Assembly]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
