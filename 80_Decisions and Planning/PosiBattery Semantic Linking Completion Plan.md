@@ -798,3 +798,53 @@ Evidence: `80_Decisions and Planning/Semantic Linking Product Market Ecosystem R
 **Validation:** product ecosystem workflow `37400831318`, job `112067403694`, success; Vault Audit `37400831441`, success.
 
 **Result:** Step 23 complete. The next step is **Step 24 — Review market/reference catalog leaves**.
+
+
+
+---
+
+## Step 24 completion evidence — Market/reference catalog leaves
+
+Reviewed the concrete catalog population specifically for notes that stop before direct engineering behavior/design/requirement structure.
+
+Results:
+- **398 Product Objects** total;
+- **56 abstract product definitions**;
+- **342 concrete product offerings**;
+- **297 concrete products** already have a direct engineering-entry relationship;
+- **45 thin reference candidates** have no direct engineering-entry relationship;
+- **45/45** retain valid family identity;
+- **45/45** retain maker/offerer market attribution;
+- **45/45** retain provenance;
+- **45/45** are reused elsewhere in market/reference context;
+- **0/45** have an active-engineering consumer signal;
+- **0 accidentally disconnected reference leaves**;
+- **0 Step 24 findings**.
+
+The 45 reviewed notes are therefore **engineering-chain leaves, not graph orphans**. They remain connected through family identity, commercial attribution, provenance, and other market/reference context. No downstream Function, Design, Requirement, Verification, architecture, or other engineering relationship was invented simply to increase connectivity.
+
+All **45 leaves** are now formally classified as `reference_content` in `Semantic Linking Review Dispositions 0.1.yaml`. Their missing Step-2 dimensions are explicitly dispositioned:
+- **45 downstream gaps** → `intentionally_absent / EXC-REFERENCE-LEAF`;
+- **45 ownership/use gaps** → `intentionally_absent / EXC-REFERENCE-LEAF`;
+- **44 evidence-relationship gaps** → `not_applicable / EXC-NOT-APPLICABLE`, because source provenance exists but no active engineering claim requires a governed evidence relationship.
+
+`PosiCharge BMID 1` already has a governed evidence relationship, so it needs only the downstream and ownership/use dispositions.
+
+This adds **45 reviewed completeness classifications** and **134 explicit controlled gap dispositions**, with no model relationship changes.
+
+Whole-vault traceability after Step 24:
+- **948 model notes**;
+- **6,112 semantic relationship assertions**;
+- **2 isolated model elements** remaining for Step 25;
+- **220 legacy weak-traceability findings**;
+- **1,085 raw matrix-dimension findings**;
+- **45 reviewed completeness classifications**;
+- **0 applicable unexplained findings**;
+- **0 unresolved exception findings**;
+- **0 disposition-registry errors**.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Market Reference Leaf Review Step 24 0.1.yaml`.
+
+**Validation:** market/reference leaf workflow `37401622464`, job `112069866322`, success; Vault Audit `37401622421`, job `112069866416`, success.
+
+**Result:** Step 24 complete. The next step is **Step 25 — Resolve true orphan elements**.
