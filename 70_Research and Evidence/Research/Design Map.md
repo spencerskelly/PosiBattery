@@ -108,7 +108,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Modular Power Modules]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Multi-Voltage Output]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[Exide Element HF Charger]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]] | - | - |
 | [[NFC Interface]] | [[HOPPECKE trak collect]] | - | - |
-| [[Non-Volatile Event Memory]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
+| [[Non-Volatile Event Memory]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Onboard Charger Mounting]] | [[Delta-Q IC650]], [[EnerSys NexSys COMpact Charger]], [[Lester Summit Series II]] | - | - |
 | [[Onboard Fuel Level Gauge]] | [[Plug Power GenDrive]] | - | - |
 | [[Operator Presence Pedal]] | [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
