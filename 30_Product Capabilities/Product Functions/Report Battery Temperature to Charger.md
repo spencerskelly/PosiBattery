@@ -20,13 +20,16 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Crown V-Force BMID]]"
+  - "[[Battery-Charger Communication Firmware]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
 satisfies:
   - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
 realizedBy:
-  - "[[Electrolyte-Immersed Temperature Sensor]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 supportedBy:
+dependsOn:
+  - "[[Battery Temperature Reporting to Charger]]"
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
@@ -49,7 +52,24 @@ Give the charger the battery temperature so the charger can adjust its charge.
   - [[HOPPECKE trak collect]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
   - [[EnerSys Wi-iQ]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>
   - [[Crown V-Force BMID]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
-- **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent); the implementation is now separated into temperature measurement plus charger communication through [[Battery Temperature Reporting to Charger]].
+
+## Implementation Allocation
+
+The reusable realization is [[Battery Temperature Reporting to Charger]].
+
+This Design composes two existing capabilities:
+
+- [[Battery Temperature Measurement Design]] provides the measured battery-temperature value.
+- [[Battery-Charger Data Communication Design]] / [[Battery-Charger Communication Firmware]] delivers that value to the charger.
+
+The previous direct realization through [[Electrolyte-Immersed Temperature Sensor]] was too narrow and semantically incorrect: a sensor can measure temperature but does not, by itself, report that value to a charger.
+
+### Product allocation
+
+[[PosiCharge BMID]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[Fronius TagID]], [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], and [[Crown V-Force BMID]] are allocated the generic reporting Design because each explicitly provides battery temperature to a charger.
+
+Where the product already has a modeled charger-communication firmware role, that firmware also performs this Function. The exact temperature message, transport, update rate, and charger compensation behavior remain product-specific.
 
 ## Aliases
 
