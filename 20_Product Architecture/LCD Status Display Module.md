@@ -15,6 +15,7 @@ hasDesign:
 partOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
