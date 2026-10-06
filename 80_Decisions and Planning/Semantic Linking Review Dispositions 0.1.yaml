@@ -920,12 +920,7 @@ records:
         note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
 
   "30_Product Capabilities/Product Designs/Current Sensing Design.md":
-    classification: engineering_support
-    gaps:
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reusable/general supporting abstraction does not make a standalone sourced implementation claim; evidence remains on the specific child/product decisions when material."
+    classification: active_engineering
 
   "30_Product Capabilities/Product Designs/Data Handling Design.md":
     classification: active_engineering
