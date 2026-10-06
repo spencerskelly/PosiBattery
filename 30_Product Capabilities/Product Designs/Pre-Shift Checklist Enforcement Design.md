@@ -13,6 +13,8 @@ subtypeOf:
   - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Pre-Shift Checklist Enforcement Logic]]"
+  - "[[Crown InfoLink]]"
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 realizes:
   - "[[Enforce Pre-Shift Checklist]]"
 dependencyOf:
