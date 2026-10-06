@@ -1,0 +1,29 @@
+name: Semantic Linking Port Flow Review
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+      - '99_System/09_Tools/review-port-item-flow-linking.py'
+      - '.github/workflows/semantic-linking-port-flow-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review Ports and Item Flows
+        run: python 99_System/09_Tools/review-port-item-flow-linking.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: port-item-flow-linking-review
+          path: port-item-flow-linking-review.md
