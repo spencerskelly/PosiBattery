@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Operator Identification Design]]"
+  - "[[Operator Access Authorization Design]]"
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
@@ -28,9 +29,13 @@ performedBy:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[STILL Safety Assist]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
+  - "[[Operator Access Authorization Logic]]"
+  - "[[Vehicle Enable Interlock]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
+realizedBy:
+  - "[[Operator Access Authorization Design]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
@@ -61,6 +66,22 @@ Allow only authorized operators to start a truck, by PIN or RFID card.
   - [[Crown RC 5700 Series]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
   - [[Raymond 8000 Series Pallet Trucks]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
   - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
+
+## Implementation Allocation
+
+The reusable realization is [[Operator Access Authorization Design]].
+
+[[Operator Identification Design]] provides the credential mechanism. [[Operator Access Authorization Logic]] validates the credential against access rules, and [[Vehicle Enable Interlock]] enforces the resulting authorized/unauthorized state at the vehicle.
+
+This separation is important because a PIN pad, RFID reader, fingerprint reader, or touch display only identifies an operator; it does not by itself decide access or inhibit the truck.
+
+### Product examples
+
+- [[Toyota PIN Code Access Pad]]: verified PIN-based credential entry; authorization and interlock logic are required at **>=95% engineering confidence**, while the exact controller/relay implementation is unpublished.
+- [[Panacea Smart Start]]: verified fingerprint-based starter authorization; the starter-interlock enforcement role is directly supported.
+- Fleet systems such as [[Crown InfoLink]] can apply centrally managed operator permissions while the truck-side system still performs the final enable/inhibit action.
+
+No specific credential database, relay topology, CAN command, or access-policy synchronization method is asserted unless product evidence supports it.
 
 ## Aliases
 
