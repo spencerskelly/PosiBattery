@@ -20,6 +20,7 @@ realizes:
   - "[[Display Battery Status to Operator]]"
 dependencyOf:
   - "[[Display Battery Status to Operator]]"
+  - "[[Display Truck Status to Operator]]"
 designOf:
   - "[[Vehicle Operator Display Assembly]]"
 ---
