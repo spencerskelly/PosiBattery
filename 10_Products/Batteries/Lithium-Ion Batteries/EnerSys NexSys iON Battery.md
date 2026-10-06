@@ -16,9 +16,11 @@ performs:
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[BMS Discharge Limitation]]"
+  - "[[Battery-Charger Data Communication Design]]"
 madeBy:
 hasPart:
   - "[[BMS Discharge Protection Logic]]"
+  - "[[Battery-Charger Communication Firmware]]"
   - "[[EnerSys]]"
 ---
 
@@ -41,6 +43,8 @@ EnerSys lithium-ion battery line for material handling.
 - A second trade item says fast- and opportunity-charging NexSys iON batteries are paired with high-output NexSys+ chargers. Source: Inside Logistics (T2), retrieved 2026-10-03. <https://www.insidelogistics.ca/products/80-volt-lithium-ion-battery/>
 
 - **Architecture realization — deep discharge protection:** the integrated BMS and published discharge-voltage limitation support [[BMS Discharge Limitation]] and [[BMS Discharge Protection Logic]]. The exact final enforcement mechanism is not published, so no specific contactor or truck-command path is asserted.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
 
 ## Aliases
 
