@@ -21,8 +21,11 @@ performs:
 hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Charger Status LED Bar]]"
+  - "[[BMS-Directed Charge Control Design]]"
+  - "[[CAN BMS-Directed Charging]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
+  - "[[BMS-Directed Charge Control Firmware]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -54,6 +57,8 @@ PosiCharge opportunity charger with automatic modes for CAN/lithium, BMID and vo
 - The ProCore Edge manual says the charger controls charging current and voltage through PosiCharge proprietary charging algorithms, works in BMID mode or voltage mode (no BMID), schedules an equalization (an extended low-current charge once a week) after a regular charge to 100 percent state of charge, shows the equalization schedule in BMID mode, and lets the operator schedule or cancel an equalization with a button during the EQ window. Source: PosiCharge ProCore Edge IOMM (in repo) (T1), retrieved 2026-10-03. <https://www.posicharge.com/procoreedge>
 - **Functions performed, with citations:**
   - [[Equalize Battery on Schedule]] (V): <https://www.posicharge.com/procoreedge>
+
+- **Architecture realization — BMS-directed charging:** published behavior supports [[BMS-Directed Charge Control Design]] and the CAN-specific [[CAN BMS-Directed Charging]] path. [[BMS-Directed Charge Control Firmware]] is allocated at **>=95% engineering confidence** because charger-side executable control is required while the internal software partition is unpublished. The exact BMS message set, timeout/fallback behavior, and safety handoff remain product-specific.
 
 ## Aliases
 
