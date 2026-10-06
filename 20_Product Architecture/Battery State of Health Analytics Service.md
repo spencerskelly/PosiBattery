@@ -15,6 +15,8 @@ hasDesign:
   - "[[Usage-History State of Health Analytics]]"
 partOf:
   - "[[Raymond iWAREHOUSE]]"
+dependsOn:
+  - "[[Raymond iBattery]]"
 performs:
   - "[[Estimate State of Health]]"
 ---
