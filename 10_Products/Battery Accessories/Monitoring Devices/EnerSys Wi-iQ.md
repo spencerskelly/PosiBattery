@@ -55,6 +55,7 @@ hasDesign:
   - "[[Equalization Event Tracking Design]]"
   - "[[CAN Vehicle Operating Limit Command]]"
   - "[[Battery Event and Usage Logging Design]]"
+  - "[[CAN Battery State Communication Design]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -218,6 +219,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — vehicle operating limits:** the optional CAN module and OEM-specific operating-limit behavior support [[CAN Vehicle Operating Limit Command]]. [[CAN Communication Circuit]] and [[Vehicle Operating Limit Command Firmware]] are allocated at **>=95% engineering confidence** because the product must provide a CAN physical layer and executable message/control logic to perform the published behavior. The exact transceiver IC, protocol object/message, trigger thresholds, and truck-side enforcement path are not published.
 
 - **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
+
+- **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
 
 ## Aliases
 
