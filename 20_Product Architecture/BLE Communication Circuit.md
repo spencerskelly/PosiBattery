@@ -15,6 +15,8 @@ hasPart:
   - "[[BLE Radio Module]]"
 hasDesign:
   - "[[Bluetooth Interface]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # BLE Communication Circuit
