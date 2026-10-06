@@ -20,6 +20,11 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Configure Device from Mobile App or PC]]"
+hasDesign:
+  - "[[Local LED Indicator]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
 madeBy:
   - "[[Fronius International]]"
 offeredWith:
@@ -62,6 +67,9 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Identify Battery to Charger]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
   - [[Indicate Battery Status Locally]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
   - [[Configure Device from Mobile App or PC]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+- **Design characteristics, with citations:**
+  - [[Local LED Indicator]] (V): <https://manuals.fronius.com/html/4204102645/en-US.html>
+- **Implementation assumption — LED driver:** [[LED Status Indicator Element]] is verified by the published LED status. [[Status Indicator Driver Circuit]] is allocated at **>=95% engineering confidence** because the internal LED-driver topology is not published.
 - **Sources used for the mapping above:** Fronius TagID product page <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
