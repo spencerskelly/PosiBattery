@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Battery Abuse Cycle Analytics]]"
   - "[[Equalization Event Tracking Design]]"
   - "[[Battery Replacement Timing Prediction Design]]"
+  - "[[Battery Event and Usage Logging Design]]"
 dependencyOf:
   - "[[Log Battery Events and Usage]]"
   - "[[Predict Battery Replacement Timing]]"
