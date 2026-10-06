@@ -19,7 +19,13 @@ performs:
   - "[[Accumulate Amp-Hours]]"
   - "[[Alert on Abnormal Condition]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Shuntless Current Sensing]]"
+hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
 madeBy:
   - "[[Access Control Group]]"
 ---
@@ -58,6 +64,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Shuntless Current Sensing]] (V): <https://www.mhlnews.com/archive/celltrac>
 - **Sources used for the mapping above:** M H&L archive item (undated) <https://www.mhlnews.com/archive/celltrac>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
