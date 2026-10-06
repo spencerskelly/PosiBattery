@@ -10,7 +10,10 @@ tags:
   - temperature
 subtypeOf:
   - "[[Battery Temperature Measurement Design]]"
+supertypeOf:
+  - "[[Internal Thermistor Temperature Sensor]]"
 designOf:
+  - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Philadelphia Scientific eGO!pro]]"
 describedBy:
@@ -25,7 +28,7 @@ Temperature sensor integrated inside the monitoring device rather than connected
 
 ## Notes
 
-- Philadelphia Scientific explicitly identifies an internal temperature sensor for [[Philadelphia Scientific eGO!plus]] and [[Philadelphia Scientific eGO!pro]].
+- Philadelphia Scientific explicitly identifies an internal temperature sensor for [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], and [[Philadelphia Scientific eGO!pro]].
 - The published product pages do not identify the sensor technology, exact sensing location inside the enclosure, or thermal coupling to the battery.
 - Therefore this Design is intentionally separate from [[External Thermistor Temperature Sensor]] and [[Electrolyte-Immersed Temperature Sensor]].
 - No concrete component or circuit subtype is assigned until the sensing technology is established.
