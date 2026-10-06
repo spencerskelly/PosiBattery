@@ -12,6 +12,7 @@ tags:
 reuseScope: cross-product
 dependencyOf:
   - "[[Operator Access Authorization Logic]]"
+  - "[[Pre-Shift Checklist Enforcement Logic]]"
 performs:
 partOf:
   - "[[Toyota PIN Code Access Pad]]"
