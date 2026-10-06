@@ -22,6 +22,7 @@ supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
 dependencyOf:
   - "[[State of Charge Estimation Design]]"
+  - "[[Voltage-Based State of Charge Estimation]]"
 ---
 
 # Battery Voltage Measurement Design
