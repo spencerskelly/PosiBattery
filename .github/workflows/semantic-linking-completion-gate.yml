@@ -69,7 +69,7 @@ jobs:
         run: python 99_System/09_Tools/review-local-model-linking.py
 
       - name: Port and Item Flow review
-        run: python 99_System/09_Tools/review-port-flow-linking.py
+        run: python 99_System/09_Tools/review-port-item-flow-linking.py
 
       - name: Workbench syntax
         run: node --check .obsidian/plugins/mdse-workbench/main.js
@@ -94,5 +94,5 @@ jobs:
             curated-source-document-review.md
             high-value-evidence-review.md
             local-model-linking-review.md
-            port-flow-linking-review.md
+            port-item-flow-linking-review.md
             workbench-model-review.md
