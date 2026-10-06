@@ -33,6 +33,7 @@ dependencyOf:
   - "[[Battery Replacement Prediction Firmware]]"
   - "[[Vehicle Operating Limit Command Firmware]]"
   - "[[Battery Event Logger Firmware]]"
+  - "[[CAN Battery State Communication Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
