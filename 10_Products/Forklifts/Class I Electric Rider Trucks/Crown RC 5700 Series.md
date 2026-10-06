@@ -31,11 +31,13 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Floor-Projected Warning Light]]"
   - "[[Vehicle-Mounted Display]]"
+  - "[[Truck Battery Discharge Interlock]]"
 hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Battery Discharge Indicator Module]]"
   - "[[Operator Display Controller Circuit]]"
   - "[[Operator Display HMI Firmware]]"
+  - "[[Battery Discharge Interlock Logic]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -77,6 +79,8 @@ Crown three-wheel stand-up electric counterbalance forklift, 1.5 to 1.8 t, V-For
 
 - **Architecture realization — truck status display:** Crown explicitly publishes event-code display and Access 1 2 3 diagnostics on the Crown display. The existing [[Vehicle-Mounted Display Module]], [[Operator Display Controller Circuit]], and [[Operator Display HMI Firmware]] realization is therefore reused for [[Display Truck Status to Operator]]; controller/HMI internals remain **>=95% engineering-confidence assumptions**.
 - **Architecture realization — operator battery display:** the Crown display and battery-discharge indicator are verified. [[Vehicle-Mounted Display Module]] and [[Battery Discharge Indicator Module]] represent those physical roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Crown does not publish the internal display electronics, software partition, or battery-data transport.
+
+- **Architecture realization — deep discharge protection:** Crown explicitly publishes a battery-discharge indicator with lift interrupt and re-key. [[Truck Battery Discharge Interlock]] is therefore verified at the behavior/design level, and [[Battery Discharge Interlock Logic]] is allocated at **>=95% engineering confidence** because the internal controller/software partition is not published.
 
 ## Aliases
 
