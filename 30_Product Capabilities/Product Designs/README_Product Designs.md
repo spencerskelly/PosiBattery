@@ -125,3 +125,5 @@ Use a Design note for a reusable implementation pattern, not for a single produc
 - [[Load-Handling Image Capture Design]]
 
 - [[Impact-Triggered Vehicle Lockout Design]]
+
+- [[Adaptive Charge Profile Control Design]]
