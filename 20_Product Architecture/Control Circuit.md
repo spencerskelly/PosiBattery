@@ -15,6 +15,8 @@ dependencyOf:
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[State of Charge Estimation Firmware]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Battery Current Measurement Circuit]]"
 partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"

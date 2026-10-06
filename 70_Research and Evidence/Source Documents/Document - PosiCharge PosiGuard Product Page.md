@@ -19,7 +19,7 @@ supports:
   - "[[Cloud Portal Integration]]"
   - "[[Bluetooth Interface]]"
   - "[[Battery Voltage Measurement Design]]"
-
+  - "[[Current Sensing Design]]"
 ---
 
 # Document - PosiCharge PosiGuard Product Page

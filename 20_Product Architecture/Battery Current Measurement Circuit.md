@@ -18,6 +18,8 @@ partOf:
   - "[[PosiCharge PosiGuard]]"
 dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
+performs:
+  - "[[Measure Battery Current]]"
 ---
 
 # Battery Current Measurement Circuit

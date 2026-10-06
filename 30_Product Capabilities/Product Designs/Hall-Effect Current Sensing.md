@@ -15,6 +15,8 @@ designOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Power Designers PowerTrac DT3]]"
+dependsOn:
+  - "[[Hall-Effect Current Sensor]]"
 ---
 
 # Hall-Effect Current Sensing

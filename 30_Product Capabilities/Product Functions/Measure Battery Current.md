@@ -32,6 +32,10 @@ performedBy:
   - "[[Yale Battery Vision]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Exide Solition Light Traction Battery]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Battery Current Measurement Circuit]]"
+realizedBy:
+  - "[[Current Sensing Design]]"
 ---
 
 # Measure Battery Current

@@ -60,6 +60,8 @@ hasPart:
   - "[[LoRa Communication Circuit]]"
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Battery Current Measurement Circuit]]"
 ---
 
 # PosiCharge PosiGuard

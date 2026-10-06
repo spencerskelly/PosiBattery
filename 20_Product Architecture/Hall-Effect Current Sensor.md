@@ -8,8 +8,8 @@ tags:
   - reusable-architecture
   - current-measurement-component
 reuseScope: cross-product
-partOf:
-  - "[[Hall-Effect Current Measurement Assembly]]"
+dependencyOf:
+  - "[[Hall-Effect Current Sensing]]"
 ---
 
 # Hall-Effect Current Sensor
