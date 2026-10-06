@@ -53,6 +53,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 ### Communications and interfaces
 
+- [[PC Battery Data Export Design]]
 - [[Device Configuration and Service Design]]
 
 - [[Battery-Charger Data Communication Design]]
