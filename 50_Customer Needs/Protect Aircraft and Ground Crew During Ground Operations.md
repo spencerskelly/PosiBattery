@@ -17,6 +17,9 @@ realizedBy:
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[GSE Operator]]"
+  - "[[Fleet Operations Manager]]"
 ---
 
 # Protect Aircraft and Ground Crew During Ground Operations
