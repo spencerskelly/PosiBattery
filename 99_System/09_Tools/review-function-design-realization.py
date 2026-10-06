@@ -5,6 +5,7 @@ Reviews all Function realizedBy->Design and Function dependsOn->Design claims,
 checks inverse synchronization and semantic overlap, and validates the active
 BMID decisions against the governed Step 89 record. Report-only.
 """
+# Governed Step 16 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
