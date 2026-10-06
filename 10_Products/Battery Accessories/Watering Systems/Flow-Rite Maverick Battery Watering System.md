@@ -16,6 +16,12 @@ subtypeOf:
 performs:
   - "[[Water Battery Cells]]"
 madeBy:
+hasDesign:
+  - "[[Float-Valve Single-Point Watering]]"
+hasPart:
+  - "[[Single-Point Watering Manifold Assembly]]"
+  - "[[Cell Watering Shutoff Valve]]"
+  - "[[Battery Watering Distribution Tubing]]"
   - "[[Flow-Rite]]"
 ---
 
@@ -50,6 +56,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Water Battery Cells]] (V): <https://www.flow-rite.com/battery-care/>
+
+- **Architecture realization — battery watering:** [[Float-Valve Single-Point Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
