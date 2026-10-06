@@ -14,7 +14,6 @@ realizes:
   - "[[Indicate Battery Status Locally]]"
 dependencyOf:
   - "[[Alert Operator of Hazards]]"
-  - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
 ---
 
