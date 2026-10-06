@@ -29,8 +29,8 @@ performs:
   - "[[Complete Missed Equalization Automatically]]"
   - "[[Predict Battery Replacement Timing]]"
   - "[[Upload Battery Data to Cloud Portal]]"
-hasDesign:  - "[[Variable-Length Electrolyte Level Probe]]"
-
+hasDesign:
+  - "[[Variable-Length Electrolyte Level Probe]]"
   - "[[Shuntless Current Sensing]]"
   - "[[External Thermistor Temperature Sensor]]"
   - "[[Non-Volatile Event Memory]]"
