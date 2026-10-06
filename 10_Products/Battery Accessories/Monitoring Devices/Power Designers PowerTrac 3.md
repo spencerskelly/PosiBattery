@@ -82,6 +82,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Predict Battery Replacement Timing]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
   - [[Upload Battery Data to Cloud Portal]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
 - **Design characteristics, with citations:**
+  - [[Variable-Length Electrolyte Level Probe]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>
   - [[Shuntless Current Sensing]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
   - [[Non-Volatile Event Memory]] (V): <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
 - **Sources used for the mapping above:** PowerTrac 3 product page <https://powerdesignerssibex.com/powertrac-3-wireless-battery-monitor/>
