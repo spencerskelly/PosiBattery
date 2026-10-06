@@ -61,7 +61,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Cut Power in an Emergency]] | [[Hangcha XC Series Electric Forklifts]] | - | - |
 | [[Damp Mast Oscillation]] | [[Doosan Bobcat Mast Sway Control]], [[Linde Dynamic Mast Control]] | - | - |
 | [[Deliver Constant Power Through Shift]] | [[Hyster J1.5-3.0UT(L)]], [[Nuvera PowerEdge]], [[Plug Power GenDrive]], [[Yale ERC080VHL]] | - | - |
-| [[Desulfate Battery During Charge]] | [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]] | - | - |
+| [[Desulfate Battery During Charge]] | [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]] | - | - |
 | [[Detect Battery Weight]] | [[Raymond iBattery]] | - | - |
 | [[Detect Cell Failure]] | [[AMETEK Prestolite Power TruBid]] | - | - |
 | [[Detect Foreign and Live Objects]] | [[EnerSys NexSys AIR Wireless Charger]] | - | - |
