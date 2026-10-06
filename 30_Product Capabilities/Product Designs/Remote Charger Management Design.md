@@ -12,6 +12,14 @@ tags:
 designOf:
   - "[[Remote Charger Management Service]]"
   - "[[Charger Remote Management Agent]]"
+  - "[[ACT ACTview]]"
+  - "[[PosiCharge SkyLink]]"
+  - "[[ACT Quantum 2]]"
+  - "[[ACT Quantum 3]]"
+  - "[[ACT Quantum Outdoor]]"
+  - "[[Crown V-HFM3 Charger]]"
+  - "[[Fronius Selectiva 4.0]]"
+  - "[[Lester Summit Series II]]"
 realizes:
   - "[[Manage Chargers Remotely]]"
 dependencyOf:
