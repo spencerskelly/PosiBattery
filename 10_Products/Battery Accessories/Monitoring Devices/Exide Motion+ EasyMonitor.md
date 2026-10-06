@@ -36,6 +36,7 @@ hasDesign:
   - "[[Wrap-Around Cell Connector Probe]]"
   - "[[Cell-Connector Temperature Sensing]]"
 hasPart:
+  - "[[Control Circuit]]"
   - "[[State of Charge Estimation Firmware]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
