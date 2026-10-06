@@ -21,6 +21,7 @@ hasDesign:
 dependencyOf:
   - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Truck Telemetry Reporting Service]]"
+  - "[[Remote Vehicle Diagnostic Service]]"
   - "[[Wireless Interface Design]]"
 ---
 
