@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
+  - "[[Truck Telemetry Reporting Design]]"
 performedBy:
   - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"
@@ -32,10 +33,14 @@ performedBy:
   - "[[Yale Vision Telemetry]]"
   - "[[Hyster Power Cellect]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
+  - "[[Truck Telemetry Acquisition Logic]]"
+  - "[[Truck Telemetry Reporting Service]]"
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
+realizedBy:
+  - "[[Truck Telemetry Reporting Design]]"
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
 
@@ -70,6 +75,16 @@ Send truck usage, status and events to a fleet portal.
   - [[Komatsu KOMTRAX]] (V): <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb>
   - [[Hyster Power Cellect]] (V): <https://www.enersys.com/de/about-us/news/fleet-managers-get-powerful-flexibility-combining-enersys-technology-breadth-with-yale-power-key-and-hyster-power-cellect/>
   - [[Powerfleet Pedestrian Proximity Detection]] (V): <https://www.powerfleet.com/us/na-iwh-cus-pedestrian-proximity/>
+
+## Implementation Allocation
+
+The reusable realization is [[Truck Telemetry Reporting Design]].
+
+[[Truck Telemetry Acquisition Logic]] handles vehicle-side signal/event acquisition and record formation. [[Truck Telemetry Reporting Service]] handles buffering, packaging, and upstream delivery to a fleet portal.
+
+[[Wireless Interface Design]] remains the transport-family dependency; the telemetry behavior itself is separated from cellular, Wi-Fi, Bluetooth/gateway, proprietary RF, or other network choices.
+
+Representative fleet systems such as [[Crown InfoLink]], [[Hyster Tracker Telemetry]], [[Powerfleet Forklift Gateway]], and [[Toyota MyInsights Telematics]] clearly combine vehicle data acquisition with fleet reporting. Internal firmware/software partitions are modeled at **>=95% engineering confidence** where the vendor does not publish them.
 
 ## Aliases
 
