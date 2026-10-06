@@ -10,8 +10,6 @@ tags:
   - diagnostics
   - circuit
 reuseScope: cross-product
-hasDesign:
-  - "[[Hardware Threshold Cell Failure Detection]]"
 performs:
   - "[[Detect Cell Failure]]"
 ---
@@ -20,12 +18,13 @@ performs:
 
 ## Definition
 
-Dedicated hardware circuit that detects a cell-failure condition by comparing one or more sensed battery parameters against diagnostic thresholds.
+Candidate reusable hardware circuit that detects a cell-failure condition by comparing one or more sensed battery parameters against diagnostic thresholds.
 
 ## Notes
 
 - Possible building blocks include comparators, references, resistor networks, signal conditioning, filters, hysteresis, timers, latches, and dedicated monitor ICs.
 - This circuit is an implementation alternative to [[Cell Failure Diagnostic Firmware]].
-- No product is allocated because the available evidence does not establish a hardware-only diagnostic topology.
+- **Candidate implementation, not a product claim.** No product is allocated because the available evidence does not establish a hardware-only diagnostic topology.
+- This Object remains a concrete realization option for [[Detect Cell Failure]] without creating an unsupported Product Design.
 
 ## Former ids
