@@ -95,8 +95,10 @@ for p,d in sorted(designs.items()):
         counts["designs_with_any_implementation_context"]+=1
     else:
         counts["designs_without_any_implementation_context"]+=1
-        # Generic abstract Design roots are allowed to exist primarily as taxonomy.
-        if not abstract:
+        general_family = abstract or "general-design" in set(str(x) for x in vals(d.get("tags"))) or bool(vals(d.get("supertypeOf")))
+        if general_family:
+            counts["general_design_families_without_direct_implementation_context"]+=1
+        else:
             findings.append((p,"specific-design-context-gap","Specific Design has no ownership, realization, applicability, satisfaction, or dependency context."))
 
 # Verify Object<->Design reciprocal ownership wherever asserted.
