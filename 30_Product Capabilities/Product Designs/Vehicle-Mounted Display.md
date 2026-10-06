@@ -8,8 +8,9 @@ tags:
   - battery-monitoring
   - design-characteristic
 subtypeOf:
-  - "[[Display Device Design]]"
+  - "[[Vehicle Operator Display Design]]"
 designOf:
+  - "[[Vehicle-Mounted Display Module]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
