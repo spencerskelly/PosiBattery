@@ -99,4 +99,6 @@ PosiCharge Battery Monitor and Identifier installed on a battery to identify bat
   - [[PosiCharge DVS100]]: the DVS100 page lists the BMID as a feature of the charger (with an electrolytic thermistor).
   - [[PosiCharge ProCore Edge]]: ProCore Edge communicates with wireless BMIDs over Bluetooth and has a BMID automatic mode, so the BMID here is the wireless variant.
 
+- **Implementation assumption — control and identification firmware:** [[Control Circuit]], [[Battery Identification and Charger Communication Firmware]], and [[Battery Identification and Charger Communication Software Design]] are allocated to the BMID family as >=95% engineering assumptions. The published product behavior requires electronic storage of identity/profile/history plus charger communication, making a controller/firmware implementation highly likely, but no internal schematic, MCU, or firmware architecture has been publicly verified.
+
 ## Former ids
