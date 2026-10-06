@@ -16,6 +16,10 @@ performs:
   - "[[Display Truck Status to Operator]]"
 hasDesign:
   - "[[Vehicle-Mounted Display]]"
+hasPart:
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Operator Display Controller Circuit]]"
+  - "[[Operator Display HMI Firmware]]"
 madeBy:
   - "[[Mallaghan]]"
 offeredWith:
@@ -36,6 +40,8 @@ Mallaghan first fully electric standard belt loader with lithium-ion batteries, 
   - [[Display Truck Status to Operator]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
 - **Design characteristics, with citations:**
   - [[Vehicle-Mounted Display]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/article/55018081/mallaghan-expands-into-the-belt-loader-market>
+
+- **Architecture realization — truck status display:** the on-board diagnostics screen is verified. [[Vehicle-Mounted Display Module]] captures the display role. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because the internal display electronics, software partition, and vehicle-data interface are not published.
 
 ## Aliases
 
