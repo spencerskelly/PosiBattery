@@ -20,6 +20,9 @@ designOf:
   - "[[AMETEK Prestolite Power BID]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
+dependencyOf:
+  - "[[Equalization Event Tracking Firmware]]"
+  - "[[Equalization Status Recording Software]]"
   - "[[Power Designers PowerTrac SP+]]"
 ---
 
