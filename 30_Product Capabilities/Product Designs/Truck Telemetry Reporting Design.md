@@ -12,6 +12,10 @@ tags:
 designOf:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"
+  - "[[Crown InfoLink]]"
+  - "[[Hyster Tracker Telemetry]]"
+  - "[[Powerfleet Forklift Gateway]]"
+  - "[[Toyota MyInsights Telematics]]"
 realizes:
   - "[[Report Truck Telemetry]]"
 dependencyOf:
