@@ -7,6 +7,9 @@ status: Superseded
 tags:
   - legacy-model
   - superseded
+describes:
+  - "[[Electrolyte Level Sensing Design]]"
+  - "[[Battery Temperature Measurement Design]]"
 
 ---
 
