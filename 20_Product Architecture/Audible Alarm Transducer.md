@@ -12,9 +12,13 @@ reuseScope: cross-product
 hasDesign:
   - "[[Audible Alarm]]"
 partOf:
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Low Electrolyte Alert Output Assembly]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Alert on Low Electrolyte Level]]"
 ---
 
