@@ -53,6 +53,7 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
   - "[[Equalization Event Tracking Design]]"
+  - "[[CAN Vehicle Operating Limit Command]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -72,6 +73,8 @@ hasPart:
   - "[[LCD Status Display Module]]"
   - "[[LCD Display Interface Circuit]]"
   - "[[Local Status Presentation Firmware]]"
+  - "[[CAN Communication Circuit]]"
+  - "[[Vehicle Operating Limit Command Firmware]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
@@ -207,6 +210,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
+
+- **Architecture realization — vehicle operating limits:** the optional CAN module and OEM-specific operating-limit behavior support [[CAN Vehicle Operating Limit Command]]. [[CAN Communication Circuit]] and [[Vehicle Operating Limit Command Firmware]] are allocated at **>=95% engineering confidence** because the product must provide a CAN physical layer and executable message/control logic to perform the published behavior. The exact transceiver IC, protocol object/message, trigger thresholds, and truck-side enforcement path are not published.
 
 ## Aliases
 
