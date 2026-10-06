@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Operator Touch Display]]"
   - "[[Battery Discharge Indicator]]"
 realizes:
+  - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 dependencyOf:
   - "[[Display Battery Status to Operator]]"
@@ -27,7 +28,7 @@ designOf:
 
 ## Definition
 
-General design family for displaying battery or vehicle state to an operator on a vehicle-side display.
+General design family for displaying battery state, vehicle state, diagnostics, warnings, or other operating information to an operator on a vehicle-side display.
 
 ## Notes
 
