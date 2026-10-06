@@ -30,9 +30,9 @@ dimensions:
     ownership_use: [flowOf, hasFlow, transmits, receives, exchanges, localModelDefinition]
     evidence: [describedBy, supportedBy, contradictedBy]
   Function:
-    upstream: [performedBy, childOf, realizes, satisfiedBy, drivenBy, triggeredBy, follows]
-    downstream: [realizedBy, dependsOn, hasChild, precedes, satisfies]
-    ownership_use: [performedBy, childOf, realizes, realizedBy]
+    upstream: [performedBy, subtypeOf, childOf, realizes, satisfiedBy, drivenBy, triggeredBy, follows]
+    downstream: [supertypeOf, realizedBy, dependsOn, hasChild, precedes, satisfies]
+    ownership_use: [performedBy, subtypeOf, supertypeOf, childOf, realizes, realizedBy]
     evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
   Functional_Flow:
     upstream: [childOf, includedIn, dependsOn, describedBy]
