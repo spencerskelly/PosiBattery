@@ -18,6 +18,7 @@ dependencyOf:
   - "[[Device Configuration and Service Firmware]]"
   - "[[Battery Data Export Firmware]]"
   - "[[Charger Remote Management Agent]]"
+  - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
 ---
 
