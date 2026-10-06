@@ -15,6 +15,7 @@ subtypeOf:
 supertypeOf:
   - "[[CAN Communication Circuit]]"
   - "[[Serial Communication Circuit]]"
+  - "[[Power-Line Communication Circuit]]"
 hasDesign:
   - "[[Wired Interface Design]]"
 ---
@@ -27,6 +28,6 @@ Reusable wired communication electronics between a controller and an external ch
 
 ## Notes
 
-- CAN and serial are modeled as alternative/specialized implementations, not mandatory simultaneous parts.
+- CAN, serial, and power-line communication are modeled as alternative/specialized implementations, not mandatory simultaneous parts.
 
 ## Former ids
