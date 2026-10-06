@@ -14,8 +14,6 @@ subtypeOf:
 designOf:
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
   - "[[Exide Motion+ EasyMonitor]]"
-realizes:
-  - "[[Measure Battery Temperature]]"
 describedBy:
   - "[[Metric - Temperature Sensing]]"
 ---
