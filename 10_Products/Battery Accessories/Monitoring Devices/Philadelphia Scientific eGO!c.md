@@ -27,6 +27,7 @@ hasDesign:
   - "[[Mobile App Interface]]"
   - "[[Cloud Portal Integration]]"
   - "[[Battery Abuse Cycle Analytics]]"
+  - "[[Battery Replacement Timing Prediction Design]]"
 hasPart:
   - "[[LED Status Indicator Element]]"
 madeBy:
@@ -75,6 +76,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — battery abuse analytics:** the product is allocated [[Battery Abuse Cycle Analytics]] because its published feature set explicitly reports abuse cycles / abuse analytics. The calculation location and algorithm are not published, so neither [[Device-Resident Abuse Cycle Analytics]] nor [[Cloud-Based Abuse Cycle Analytics]] is selected.
+
+- **Architecture realization — replacement timing:** the product is allocated [[Battery Replacement Timing Prediction Design]] because published material states battery life-expectancy or replacement prediction. The execution locus and forecast model are not disclosed, so neither [[Device-Resident Replacement Forecasting]] nor [[Fleet-Service Replacement Forecasting]] is selected.
 
 ## Aliases
 
