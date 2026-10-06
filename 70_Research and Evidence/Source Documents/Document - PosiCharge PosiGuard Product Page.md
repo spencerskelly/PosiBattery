@@ -18,6 +18,7 @@ supports:
   - "[[Wireless Interface Design]]"
   - "[[Cloud Portal Integration]]"
   - "[[Bluetooth Interface]]"
+  - "[[Battery Voltage Measurement Design]]"
 
 ---
 
