@@ -41,6 +41,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Battery Replacement Timing Prediction Design]]
 - [[Cell Failure Diagnostic Design]]
 - [[Current Sensing Design]]
+- [[Missed Equalization Recovery Design]]
 - [[Equalization Event Tracking Design]]
 - [[State of Charge Estimation Design]]
 - [[Voltage Imbalance Detection Design]]
