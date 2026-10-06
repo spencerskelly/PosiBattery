@@ -16,6 +16,13 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+partOf:
+  - "[[ACT Quantum 2]]"
+  - "[[ACT Quantum 3]]"
+  - "[[ACT Quantum Outdoor]]"
+  - "[[Crown V-HFM3 Charger]]"
+  - "[[Fronius Selectiva 4.0]]"
+  - "[[Lester Summit Series II]]"
   - "[[Manage Chargers Remotely]]"
 ---
 
