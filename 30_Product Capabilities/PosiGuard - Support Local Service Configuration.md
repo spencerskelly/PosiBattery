@@ -17,6 +17,8 @@ satisfiedBy:
   - "[[Configure Device from Mobile App or PC]]"
 verifiedBy:
   - "[[Verify PosiGuard Local Service Configuration]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiConnect Product Page]]"
 ---
 
 # PosiGuard - Support Local Service Configuration
