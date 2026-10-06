@@ -10,6 +10,8 @@ tags:
   - battery-monitoring
   - analytics
   - runtime
+subtypeOf:
+  - "[[Data Handling Design]]"
 realizes:
   - "[[Estimate Remaining Run Time]]"
 dependencyOf:
