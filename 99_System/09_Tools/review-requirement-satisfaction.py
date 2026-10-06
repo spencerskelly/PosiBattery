@@ -5,6 +5,7 @@ Reviews every active Requirement for at least one valid satisfaction path from
 Function, Design, Object, or Result. Known gaps are preserved explicitly rather
 than closed with semantically weak links.
 """
+# Governed Step 14 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
