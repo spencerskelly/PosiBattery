@@ -15,6 +15,11 @@ performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge Under BMS Control]]"
 madeBy:
+hasDesign:
+  - "[[BMS-Directed Charge Control Design]]"
+  - "[[CAN BMS-Directed Charging]]"
+hasPart:
+  - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Fronius International]]"
 ---
 
@@ -31,6 +36,8 @@ Fronius lithium-ion charger family with Plug & Charge.
 - **Functions performed, with citations** (V = verified this pass):
   - [[Charge Lithium-Ion Battery]] (V): <https://www.fronius.com/en/battery-charging-technology/product-list>
   - [[Charge Under BMS Control]] (V): <https://www.fronius.com/en/battery-charging-technology/info-centre/news/lead-acid-lithium-ion>
+
+- **Architecture realization — BMS-directed charging:** published behavior supports [[BMS-Directed Charge Control Design]] and the CAN-specific [[CAN BMS-Directed Charging]] path. [[BMS-Directed Charge Control Firmware]] is allocated at **>=95% engineering confidence** because charger-side executable control is required while the internal software partition is unpublished. The exact BMS message set, timeout/fallback behavior, and safety handoff remain product-specific.
 
 ## Aliases
 
