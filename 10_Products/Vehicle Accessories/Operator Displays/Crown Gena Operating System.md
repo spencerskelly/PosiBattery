@@ -20,6 +20,11 @@ performs:
   - "[[Program Travel, Lift and Tilt Speeds]]"
 hasDesign:
   - "[[Operator Touch Display]]"
+hasPart:
+  - "[[Operator Display HMI Firmware]]"
+dependsOn:
+  - "[[Operator Touchscreen Display Module]]"
+  - "[[Operator Display Controller Circuit]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -61,6 +66,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Display Battery Status to Operator]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Display Truck Status to Operator]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Program Travel, Lift and Tilt Speeds]] (V): <https://www.crown.com/en-la/forklifts/esr-reach-truck.html>
+
+- **Architecture realization — operator battery display:** Gena's 7-inch touch screen and battery-capacity widget are verified. Because Gena is modeled as software, [[Operator Display HMI Firmware]] is a software role within it while [[Operator Touchscreen Display Module]] and [[Operator Display Controller Circuit]] are hardware dependencies. The source does not identify the battery-data transport used by the Gena display.
 
 ## Aliases
 
