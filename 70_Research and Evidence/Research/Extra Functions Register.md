@@ -26,6 +26,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 - **How to read battery and charger rows:** nearly every battery-side function is delivered by aftermarket devices (monitors, watering, circulation), which are not offered by battery makers themselves, so they come out as Extra by nature; charger functions are software or hardware inside the charger that few makers document.
 - **Limits (read before using the tags):** prevalence is counted in the vault's documentation, not in the market; a function with few maker groups may only be thinly researched (see the documentation depth in [[Truck Feature Comparison Matrix]]). The tags should be re-run when coverage changes; the numbers below are generated.
 - **Host links added in round 30:** 9 accessory and host pairs were linked where the accessory's own source names the host; most of the other unlinked accessories are maker-level options or aftermarket devices with no named host, so they stay unlinked rather than guessed.
+- **2026-10-06 SOC scope correction:** [[EnerSys Truck iQ]] and [[Inventus Smart Battery Monitor SBM-01]] were reclassified as SOC display endpoints rather than estimators. The generated prevalence/count fields below have not been regenerated in this edit; only the now-known [[State of Charge Estimation Design]] dependency was updated.
 - **Host scope:** every accessory note now carries `scope-oem-option` (its maker also makes hosts of that kind) or `scope-aftermarket`; counts below.
 
 **Host scope by accessory type**
@@ -63,7 +64,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Accumulate Amp-Hours]] | battery | 4 | 21 | 19% | - | 12 | 4 | Extra |
 | [[Circulate Electrolyte]] | battery | 4 | 21 | 19% | [[Forced Electrolyte Circulation]] | 3 | 0 | Extra |
 | [[Communicate with Charger]] | battery | 4 | 21 | 19% | - | 10 | 3 | Extra |
-| [[Estimate State of Charge]] | battery | 4 | 21 | 19% | - | 11 | 4 | Extra |
+| [[Estimate State of Charge]] | battery | 4 | 21 | 19% | [[State of Charge Estimation Design]] | 11 | 4 | Extra |
 | [[Indicate Battery Status Locally]] | battery | 4 | 21 | 19% | [[Warning and Display Device Design]] | 17 | 5 | Extra |
 | [[Measure Battery Current]] | battery | 4 | 21 | 19% | [[Current Sensing Design]] | 14 | 5 | Extra |
 | [[Upload Battery Data to Cloud Portal]] | battery | 4 | 21 | 19% | [[Wireless Interface Design]], [[Cloud Portal Integration]] | 18 | 6 | Extra |
