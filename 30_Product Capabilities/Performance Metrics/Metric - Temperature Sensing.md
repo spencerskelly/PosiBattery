@@ -12,6 +12,11 @@ describes:
   - "[[Battery Monitoring and Identification Device]]"
   - "[[Measure Battery Temperature]]"
   - "[[Battery Temperature Measurement Design]]"
+  - "[[External Thermistor Temperature Sensor]]"
+  - "[[Ambient Temperature Sensor]]"
+  - "[[Internal Temperature Sensor]]"
+  - "[[Cell-Connector Temperature Sensing]]"
+  - "[[Internal Thermistor Temperature Sensor]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
 ---
 
