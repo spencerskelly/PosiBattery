@@ -124,7 +124,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Detect and Record Impacts]] | truck | 5 | 10 | 50% | [[Impact Sensor]] | 10 | 3 | Core |
 | [[Enforce Pre-Shift Checklist]] | truck | 5 | 10 | 50% | [[Display Device Design]] | 5 | 1 | Core |
 | [[Warn Pedestrians of Approaching Truck]] | truck | 5 | 10 | 50% | [[Indicator and Alarm Design]] | 14 | 4 | Core |
-| [[Control Operator Access]] | truck | 6 | 10 | 60% | [[Operator Identification Design]] | 10 | 2 | Core |
+| [[Control Operator Access]] | truck | 6 | 10 | 60% | [[Operator Access Authorization Design]] | 10 | 2 | Core |
 | [[Detect Pedestrians and Objects Near Truck]] | truck | 6 | 10 | 60% | [[Object and Proximity Sensing Design]] | 24 | 6 | Core |
 | [[Operate in Cold Storage]] | truck | 6 | 10 | 60% | - | 2 | 0 | physical, chemical or enclosure (not device-controlled) |
 | [[Operate in Wet or Dusty Conditions]] | truck | 6 | 10 | 60% | - | 0 | 0 | physical, chemical or enclosure (not device-controlled) |
