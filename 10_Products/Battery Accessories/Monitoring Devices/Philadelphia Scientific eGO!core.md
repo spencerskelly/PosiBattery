@@ -25,6 +25,7 @@ hasDesign:
   - "[[Remote Exception Notification]]"
   - "[[Internal Temperature Sensor]]"
   - "[[Mobile App Interface]]"
+  - "[[Battery Abuse Cycle Analytics]]"
 hasPart:
   - "[[Remote Alert Notification Service]]"
   - "[[Integrated Temperature Sensor Element]]"
@@ -74,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — abnormal-condition alert:** Philadelphia Scientific explicitly publishes eGO!alerts and Critical Alert Service through batterymanagement.net. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
+
+- **Architecture realization — battery abuse analytics:** the product is allocated [[Battery Abuse Cycle Analytics]] because its published feature set explicitly reports abuse cycles / abuse analytics. The calculation location and algorithm are not published, so neither [[Device-Resident Abuse Cycle Analytics]] nor [[Cloud-Based Abuse Cycle Analytics]] is selected.
 
 ## Aliases
 
