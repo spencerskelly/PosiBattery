@@ -20,6 +20,7 @@ hasDesign:
   - "[[Local LED Indicator]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
   - "[[Capacitive Electrolyte Level Sensor Assembly]]"
 madeBy:
   - "[[Flow-Rite]]"
