@@ -19,8 +19,11 @@ performs:
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[BMS Internal Temperature Sensing]]"
+  - "[[Remote Vehicle Diagnostics Design]]"
 hasPart:
   - "[[BMS Temperature Sensor Network]]"
+  - "[[Vehicle Diagnostic Data Acquisition Logic]]"
+  - "[[Remote Vehicle Diagnostic Service]]"
 madeBy:
   - "[[Textron GSE]]"
 ---
@@ -43,6 +46,8 @@ Textron lithium pushback, CE certified.
   - [[Diagnose Vehicle Remotely]] (V): <https://fortbrand.com/products/tug-alpha-1-electric/>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/pushbacks-tractors-utility-vehicles/press-release/21160222/textron-gse-textron-gse-introduces-the-tug-alpha-1>
+
+- **Architecture realization — remote vehicle diagnostics:** published behavior supports [[Remote Vehicle Diagnostics Design]]. [[Vehicle Diagnostic Data Acquisition Logic]] and [[Remote Vehicle Diagnostic Service]] are allocated at **>=95% engineering confidence** because the internal diagnostic software partition is not published. The exact diagnostic protocol, controller coverage, snapshot content, wireless session, and technician tool remain product-specific.
 
 ## Aliases
 
