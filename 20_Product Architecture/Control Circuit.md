@@ -39,6 +39,7 @@ dependencyOf:
   - "[[Device Configuration and Service Firmware]]"
   - "[[Battery Data Export Firmware]]"
   - "[[Operator Access Authorization Logic]]"
+  - "[[Charger Remote Management Agent]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
