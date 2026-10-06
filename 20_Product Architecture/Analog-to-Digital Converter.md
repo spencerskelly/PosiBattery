@@ -12,6 +12,7 @@ partOf:
   - "[[Resistive Divider ADC Voltage Measurement Circuit]]"
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
   - "[[Magnetic Current Measurement Assembly]]"
+  - "[[Resistive Current Measurement Circuit]]"
 ---
 
 # Analog-to-Digital Converter
