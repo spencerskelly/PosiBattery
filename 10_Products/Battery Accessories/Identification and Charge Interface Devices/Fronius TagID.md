@@ -22,6 +22,7 @@ performs:
   - "[[Configure Device from Mobile App or PC]]"
 hasDesign:
   - "[[Local LED Indicator]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 hasPart:
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"
@@ -72,6 +73,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Implementation assumption — LED driver:** [[LED Status Indicator Element]] is verified by the published LED status. [[Status Indicator Driver Circuit]] is allocated at **>=95% engineering confidence** because the internal LED-driver topology is not published.
 - **Sources used for the mapping above:** Fronius TagID product page <https://www.fronius.com/en/battery-charging-technology/our-solutions/individual-battery-charging-solutions/battery-sensor-tagid>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
