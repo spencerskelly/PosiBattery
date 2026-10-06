@@ -66,16 +66,16 @@ Estimate the battery's state of charge from measurements.
 
 The primary reusable realization is [[State of Charge Estimation Design]], performed by [[State of Charge Estimation Firmware]] on the shared [[Control Circuit]].
 
-Concrete algorithm alternatives:
-- [[Voltage-Based State of Charge Estimation]]
-  - depends on [[Battery Voltage Measurement Design]];
-  - may use open-circuit-voltage lookup, loaded-voltage compensation, chemistry-specific curves, and temperature correction.
-- [[Coulomb Counting State of Charge Estimation]]
-  - depends on [[Current Sensing Design]];
-  - integrates charge into/out of the battery and requires an initial or periodically corrected SOC reference.
-- [[Hybrid State of Charge Estimation]]
-  - depends on voltage measurement, current sensing, and temperature information;
-  - may combine coulomb counting, voltage lookup, temperature compensation, capacity/aging correction, and model-based correction.
+Product-backed implementation loci:
+- [[Battery-Monitor State of Charge Estimation]] for battery-mounted monitor/controller products.
+- [[Integrated BMS State of Charge Estimation]] for batteries whose integrated BMS supplies the SOC estimate.
+
+Candidate algorithm implementations are represented at the firmware/Object layer:
+- [[Voltage-Based State of Charge Estimator Firmware]] — voltage/SOC mapping and optional loaded-voltage/temperature compensation.
+- [[Coulomb Counting State of Charge Estimator Firmware]] — integrates battery current from a known/corrected SOC reference.
+- [[Hybrid State of Charge Estimator Firmware]] — combines voltage, current, temperature, capacity/aging or model-based corrections.
+
+These candidate firmware implementations are intentionally unallocated until a product source establishes the algorithm.
 
 ### Presentation-only endpoints
 
@@ -90,7 +90,7 @@ Concrete algorithm alternatives:
 - [[EnerSys Wi-iQ]] is allocated [[State of Charge Estimation Firmware]] at **>=95% engineering confidence** because it locally measures battery voltage/current/temperature and supplies usable SOC to charger/truck interfaces; the exact algorithm is not published.
 - [[Exide Motion+ EasyMonitor]] is allocated [[State of Charge Estimation Firmware]] at **>=95% engineering confidence** because it locally acquires battery state/usage data and reports SOC; the exact algorithm is not published.
 - Other battery-side products remain Function-linked until their upstream measurement/processing architecture is sufficiently modeled to support a concrete firmware allocation.
-- No child SOC algorithm is assigned to BMID until stronger product-specific evidence or an explicit engineering decision exists.
+- No algorithm-specific SOC firmware subtype is assigned to BMID, Wi-iQ, EasyMonitor, HOPPECKE, or Stryten until stronger product-specific evidence or an explicit engineering decision exists.
 - [[PosiCharge PosiGuard]] is **not** allocated this Function or SOC implementation in this pass because the current PosiGuard evidence set does not explicitly establish SOC estimation.
 
 ## Aliases
