@@ -44,6 +44,7 @@ dependencyOf:
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Load-Handling Image Capture Logic]]"
   - "[[Impact Lockout Decision Logic]]"
+  - "[[Adaptive Charge Profile Control Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
