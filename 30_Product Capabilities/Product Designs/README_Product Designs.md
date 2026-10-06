@@ -42,6 +42,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Low Electrolyte Alert Design]]
 - [[Warning and Display Device Design]]
   - [[Display Device Design]]
+    - [[Vehicle Operator Display Design]]
   - [[Indicator and Alarm Design]]
 - [[Vehicle Control Device Design]]
   - [[Operator Identification Design]]
