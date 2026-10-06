@@ -6,6 +6,7 @@ specialization, inverse synchronization, and explicit behavior-context entry.
 Ordering/triggering is inventoried but not required here; Step 17 owns actual
 sequence/state semantics.
 """
+# Governed Step 15 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
