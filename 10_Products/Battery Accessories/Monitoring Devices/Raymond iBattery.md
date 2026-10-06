@@ -66,7 +66,6 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Measure Battery Temperature]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Sense Electrolyte Level]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Estimate State of Charge]] (V): <https://mhlnews.com/archive/article/22045964/raymond-battery-module>
-  - [[Estimate State of Health]] (V): <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
   - [[Log Battery Events and Usage]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Track Equalization]] (V): <https://raymondcorp.com/news/2010/ibattery-launch>
   - [[Alert on Abnormal Condition]] (V): <https://test-iwarehouseknows.raymondcorp.com/products/battery-monitoring>
