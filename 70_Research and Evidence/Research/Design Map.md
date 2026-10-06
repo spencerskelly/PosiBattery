@@ -50,6 +50,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cell-Connector Temperature Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Charger Status LED Bar]] | [[ACT Quantum 2]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[PosiCharge ProCore Edge]] | - | - |
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
+| [[Communicated Watering Need Alert]] | [[Crown V-Force BMID]] | - | - |
 | [[Copper Inserted Posts]] | [[Deka FastCharge Battery]] | - | - |
 | [[DC-Cable Power-Line Communication]] | [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[Power Designers PowerTrac 3]], [[Stryten EHI Charger]], [[Stryten X-3 Charger]] | - | - |
 | [[Dual-Cable and Parallel Charging Configuration]] | [[Deka FastCharge Battery]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
@@ -91,6 +92,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Light-Triggered Data Upload]] | [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[LoRa Interface]] | [[PosiCharge PosiGuard]] | - | - |
 | [[Low-Current Electrolyte Level Input]] | [[HOPPECKE trak collect]] | - | - |
+| [[Local Low Electrolyte Alert]] | [[Crown Battery Acid Indicators]], [[Flow-Rite Eagle Eye Elite IV]], [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Crown V-HFM3 Tower Light Kit]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Magnetic Field Detection Sensor]] | [[Raymond iWAREHOUSE Fieldsense]] | - | - |
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
