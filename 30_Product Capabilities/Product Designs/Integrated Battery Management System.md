@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Battery Integrated Feature Design]]"
 dependencyOf:
   - "[[Charge Under BMS Control]]"
+  - "[[BMS-Directed Charge Control Design]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
 designOf:
