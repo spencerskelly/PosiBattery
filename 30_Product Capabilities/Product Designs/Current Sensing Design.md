@@ -13,8 +13,6 @@ supertypeOf:
   - "[[Shuntless Current Sensing]]"
   - "[[Split-Core Current Sensor]]"
 dependencyOf:
-  - "[[Coulomb Counting State of Charge Estimation]]"
-  - "[[Hybrid State of Charge Estimation]]"
 realizes:
   - "[[Measure Battery Current]]"
 designOf:
