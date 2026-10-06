@@ -528,3 +528,30 @@ Evidence: `80_Decisions and Planning/Semantic Linking Function Ownership Review 
 **Validation:** Function ownership workflow `37396139705`, job `112052435774`, success; Vault Audit `37396139641`, job `112052436041`, success.
 
 **Result:** Step 15 complete. The next step is **Step 16 — Review Function-to-Design realization**.
+
+
+---
+
+## Step 16 completion evidence — Function-to-Design realization
+
+Reviewed all Function→Design realization and Function→Design dependency relationships across the vault.
+
+Results:
+- **129 Functions reviewed**;
+- **2 direct Function→Design realizations**;
+- **48 Function→Design dependency assertions across 46 Functions**;
+- **0 realization/dependency overlap findings**;
+- **0 inverse findings**;
+- **0 Step 16 findings**.
+
+The two direct realizations are `Configure Device from Mobile App or PC → Mobile App Interface` and `Report Battery Temperature to Charger → Electrolyte-Immersed Temperature Sensor`. All other reviewed Design links remain dependencies where the Design enables the Function without claiming to implement the full behavior.
+
+The governed BMID Step 89 record also remains intact: 2 approved direct realizations, 4 approved Design dependencies, and 3 explicit `EXC-ARCH-UNRESOLVED` design gaps — **Estimate State of Charge**, **Identify Battery to Charger**, and **Measure Battery Voltage**. No dependency was promoted to `realizedBy`, and no Design was invented to close those gaps.
+
+No model relationships, Function notes, or Design notes were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Function Design Review Step 16 0.1.yaml`.
+
+**Validation:** Function Design workflow `37396609766`, job `112053996081`, success; Vault Audit `37396609569`, job `112053995816`, success.
+
+**Result:** Step 16 complete. The next step is **Step 17 — Review behavioral sequencing and state links**.
