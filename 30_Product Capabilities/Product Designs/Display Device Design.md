@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Warning and Display Device Design]]"
 supertypeOf:
+  - "[[Battery Status Gauge]]"
   - "[[Integrated LCD Display]]"
   - "[[Operator Touch Display]]"
   - "[[Vehicle-Mounted Display]]"
