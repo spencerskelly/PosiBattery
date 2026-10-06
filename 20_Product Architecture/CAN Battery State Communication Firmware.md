@@ -17,6 +17,11 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[CAN Communication Circuit]]"
 performs:
+partOf:
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Hyster Power Cellect]]"
   - "[[Communicate Battery State over CAN]]"
 ---
 
