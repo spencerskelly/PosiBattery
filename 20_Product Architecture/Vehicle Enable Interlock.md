@@ -13,6 +13,9 @@ reuseScope: cross-product
 dependencyOf:
   - "[[Operator Access Authorization Logic]]"
 performs:
+partOf:
+  - "[[Toyota PIN Code Access Pad]]"
+  - "[[Panacea Smart Start]]"
   - "[[Control Operator Access]]"
 ---
 
