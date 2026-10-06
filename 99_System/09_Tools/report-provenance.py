@@ -47,10 +47,12 @@ for rel,text,data in notes:
 
 source_rows=[]
 for rel,text,data in source_records:
-    missing_struct=[]
-    for key in ("sourceClass","sourceUrl","accessed"):
-        if not data.get(key): missing_struct.append(key)
-    if not data.get("sourceRevision"): missing_struct.append("sourceRevision")
+    missing_required=[]
+    for key in ("sourceClass","sourceUrl"):
+        if not data.get(key): missing_required.append(key)
+    optional_unknown=[]
+    for key in ("sourceRevision","accessed"):
+        if not data.get(key): optional_unknown.append(key)
     body_checks={
         "local artifact": bool(re.search(r"(?im)^- \*\*Local artifact:\*\*",text)),
         "source identity": bool(re.search(r"(?im)^- \*\*Source identity:\*\*",text)),
@@ -60,7 +62,7 @@ for rel,text,data in source_records:
     }
     missing_body=[k for k,v in body_checks.items() if not v]
     unknown_access=bool(re.search(r"(?im)Original web access/download date:\*\*\s*Not recorded",text))
-    source_rows.append((rel,missing_struct,missing_body,unknown_access))
+    source_rows.append((rel,missing_required,optional_unknown,missing_body,unknown_access))
 
 claim_rows=[]
 for rel,text,data in claim_notes:
@@ -74,9 +76,11 @@ for rel,text,data in claim_notes:
 summary={
     "model_notes":len(notes),
     "source_records":len(source_records),
-    "source_records_missing_structured_provenance":sum(1 for _,m,_,__ in source_rows if m),
-    "source_records_missing_body_provenance":sum(1 for _,_,m,__ in source_rows if m),
-    "source_records_unknown_original_access_date":sum(1 for *_,u in source_rows if u),
+    "source_records_missing_required_structured_provenance":sum(1 for _,m,___,____,_____ in source_rows if m),
+    "source_records_without_optional_source_revision":sum(1 for _,__,u,___,____ in source_rows if "sourceRevision" in u),
+    "source_records_without_recorded_accessed":sum(1 for _,__,u,___,____ in source_rows if "accessed" in u),
+    "source_records_missing_legacy_body_provenance_signals":sum(1 for _,__,___,m,____ in source_rows if m),
+    "source_records_explicitly_unknown_original_access_date":sum(1 for *_,u in source_rows if u),
     "evidence_signal_notes":len(claim_notes),
     "evidence_signal_notes_without_curated_link":sum(1 for _,_,h,_ in claim_rows if not h),
     "evidence_signal_notes_with_curated_link":sum(1 for _,_,h,_ in claim_rows if h),
@@ -89,10 +93,10 @@ lines=["# PosiBattery Provenance Quality Report","",
 for k,v in summary.items(): lines.append(f"| {k.replace('_',' ')} | {v} |")
 
 lines += ["","## Curated Source Document records","",
-"| Source record | Missing structured fields | Missing provenance body signals | Original web access date unknown |",
-"|---|---|---|---|"]
-for rel,ms,mb,u in source_rows:
-    lines.append(f"| {rel} | {', '.join(ms) if ms else 'None'} | {', '.join(mb) if mb else 'None'} | {'Yes' if u else 'No'} |")
+"| Source record | Missing required structured fields | Optional structured fields not recorded | Missing legacy body signals | Original web access explicitly unknown |",
+"|---|---|---|---|---|"]
+for rel,mr,ou,mb,u in source_rows:
+    lines.append(f"| {rel} | {', '.join(mr) if mr else 'None'} | {', '.join(ou) if ou else 'None'} | {', '.join(mb) if mb else 'None'} | {'Yes' if u else 'No'} |")
 
 lines += ["","## Evidence-bearing notes without curated evidence linkage","",
 "These notes contain source/URL evidence signals but do not currently expose `supportedBy`, `referencedBy`, or `describedBy` in frontmatter. A raw URL may still be valid evidence; this section identifies candidates for later curation, not errors.","",
@@ -103,8 +107,8 @@ for rel,count,_,__ in unlinked[:300]:
 if len(unlinked)>300: lines.append(f"| … | {len(unlinked)-300} additional notes omitted from display |")
 
 lines += ["","## Interpretation","",
-"- Structured provenance fields are sparse metadata. Legacy notes remain valid when these fields are absent.",
-"- Existing body provenance is recognized separately from structured YAML so migration quality can be measured without rewriting records.",
+"- For curated Source Documents, sourceClass and sourceUrl are the required structured provenance fields used by the semantic-linking review. sourceRevision and accessed are optional when the source/repository history does not establish them.",
+"- Legacy body-provenance labels are recognized separately from structured YAML. Missing legacy body labels are diagnostic only when required structured provenance is present.",
 "- Evidence-bearing notes are detected heuristically from source labels and URLs; this does not prove every URL is a material engineering claim.",
 "- Do not invent access dates, revisions, or source identity. Add them only when supported by the source or repository history.",
 ""]
