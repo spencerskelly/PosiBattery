@@ -300,3 +300,30 @@ Evidence: `80_Decisions and Planning/Semantic Linking Product Identity Review St
 **Commits:** `48261f1b`, `1dd198ca`, `98b3bf0e`.
 
 **Result:** Step 6 complete. The next step is **Step 7 — Review product architecture ownership and composition**.
+
+
+---
+
+## Step 7 completion evidence — Product architecture ownership and composition
+
+Reviewed the reusable architecture Objects under `20_Product Architecture` and the BMID Local Model boundary with a dedicated architecture-linking review.
+
+Results:
+- **26 architecture Objects reviewed**, all abstract;
+- **2 reusable assembly roots** with `hasPart`;
+- **24 reusable subsystem Objects** with reciprocal `partOf`;
+- **2 architecture roots** with specialization context;
+- **0 reusable composition/inverse findings**;
+- **0 unsupported note-level `hasPort` or `hasDesign` obligations**;
+- BMID Local Model: **9 definition uses across 7 unique reusable definitions**, with all expected definitions present;
+- **0 cases** where contextual Local Model occurrence topology was duplicated as direct `hasPart` composition.
+
+The review confirms the intended split: Industrial Truck Anatomy and GSE Vehicle Anatomy use definition-level reusable composition, while the BMID integration context uses Local Model occurrences for product-specific topology. Battery and charger context therefore correctly remain external occurrences rather than BMID parts.
+
+No model relationships or identities were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Product Architecture Review Step 7 0.1.yaml`.
+
+**Commits:** `380a4c39`, `8f3d32e9`, `bb1d2d53`.
+
+**Result:** Step 7 complete. The next step is **Step 8 — Review Local Model contexts and occurrence usage**.
