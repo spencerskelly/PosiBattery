@@ -11,6 +11,13 @@ tags:
   - temperature
 designOf:
   - "[[Battery-Charger Communication Firmware]]"
+  - "[[PosiCharge BMID]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Fronius TagID]]"
+  - "[[AMETEK Prestolite Power BID]]"
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
+  - "[[Crown V-Force BMID]]"
 realizes:
   - "[[Report Battery Temperature to Charger]]"
 dependencyOf:
