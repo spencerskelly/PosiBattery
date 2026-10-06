@@ -35,6 +35,7 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
+  - "[[Non-Volatile Event Memory]]"
   - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Midpoint Voltage Symmetry Detection]]"
@@ -52,6 +53,7 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Amp-Hour Accumulator Firmware]]"
