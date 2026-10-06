@@ -13,9 +13,13 @@ tags:
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:
-  - "[[Indicate Battery Status Locally]]"
+  - "[[Indicate Charger Status Locally]]"
 hasDesign:
+  - "[[Remote Charger Status Stack Light]]"
   - "[[Local LED Indicator]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -48,6 +52,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Indicate Battery Status Locally]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 - **Design characteristics, with citations:**
   - [[Local LED Indicator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
+
+- **Architecture realization:** [[Remote Charger Status Stack Light]] is verified by the tower-light implementation. [[LED Status Indicator Element]] is verified by Crown's explicit LED description. [[Status Indicator Driver Circuit]] is supported by the included I/O expansion board; the generic circuit abstraction does not claim Crown's exact schematic.
 
 ## Aliases
 
