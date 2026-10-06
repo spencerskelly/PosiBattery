@@ -18,6 +18,7 @@ dependencyOf:
   - "[[Alert on Low Electrolyte Level]]"
 designOf:
   - "[[Low Electrolyte Alert Logic]]"
+  - "[[Low Electrolyte Threshold Circuit]]"
 ---
 
 # Low Electrolyte Alert Design
