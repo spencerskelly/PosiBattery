@@ -1,0 +1,218 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 26
+status: "Complete"
+title: "Weak-traceability findings resolved by product-development priority"
+
+scope:
+  review_order:
+    - "active Designs"
+    - "active Functions"
+    - "active Requirements"
+    - "engineering-support weak notes"
+    - "lower-value reference weak notes"
+  completion_rule: "Zero unexplained active-engineering weak-traceability gaps; lower-value reference/support sparsity is classified and dispositioned rather than force-linked."
+  legacy_metric_role: "The Step-97 legacy weak count is retained unchanged as a compatibility metric and is not the final completeness contract."
+
+authoritative_active_scope:
+  source:
+    requirements: "BMID Requirement Function Traceability Step 88 0.1.yaml"
+    function_design: "BMID Function Design Traceability Step 89 0.1.yaml"
+  active_designs: 6
+  active_functions: 9
+  active_requirements: 6
+  rationale: "Use the explicitly governed BMID Step-88/89 development chain rather than treating every market feature mapped onto a PosiGuard/BMID product note as an active architecture decision."
+
+active_designs:
+  - "Electrolyte-Immersed Temperature Sensor"
+  - "Mobile App Interface"
+  - "Data Handling Design"
+  - "CAN Interface"
+  - "Wireless Interface Design"
+  - "Cloud Portal Integration"
+
+active_functions:
+  direct_realization:
+    - "Report Battery Temperature to Charger"
+    - "Configure Device from Mobile App or PC"
+  design_dependency:
+    - "Log Battery Events and Usage"
+    - "Communicate Battery State over CAN"
+    - "Transmit Battery Data Wirelessly"
+    - "Upload Battery Data to Cloud Portal"
+  explicit_architecture_gap:
+    - "Identify Battery to Charger"
+    - "Measure Battery Voltage"
+    - "Estimate State of Charge"
+
+active_requirements:
+  total: 6
+  satisfaction_unresolved:
+    - "BMID - Preserve Battery Association"
+
+legacy_weak_queue:
+  legacy_weak_findings: 220
+  unique_weak_notes: 172
+  legacy_breakdown:
+    Design: 138
+    Function: 81
+    Requirement: 1
+  current_use_classification:
+    active_engineering_notes: 5
+    engineering_support_notes: 47
+    reference_content_notes: 120
+  active_legacy_weak:
+    findings: 7
+    notes: 5
+    interpretation:
+      - "Four active Design notes are legacy false positives because the old metric does not count dependencyOf as behavior/use trace."
+      - "The single active Requirement weak finding is the already-known Preserve Battery Association satisfaction gap."
+      - "Legacy metrics remain frozen for historical comparability rather than being rewritten."
+
+traceability_contract_alignment:
+  expectation_matrix: "80_Decisions and Planning/Semantic Linking Expectation Matrix Step 2 0.1.yaml"
+  machine_rules: "99_System/09_Tools/semantic-linking-report-rules.yaml"
+  changes:
+    Function:
+      - "Recognize subtypeOf/supertypeOf specialization as legitimate reusable behavior context."
+      - "Recognize specialization in Function ownership/use where appropriate."
+    Design:
+      - "Recognize subtypeOf/supertypeOf specialization as legitimate reusable design context."
+      - "Recognize dependencyOf as a valid where-used/behavior-rationale path when a Function depends on the Design."
+  commits:
+    expectation_matrix: "d5f32d17"
+    function_rules: "517f34a2"
+    design_rules: "72527833"
+  effect:
+    matrix_dimension_findings_before: 1085
+    matrix_dimension_findings_after: 913
+    reduction: 172
+    Design_raw_before: 228
+    Design_raw_after: 76
+    Function_raw_before: 127
+    Function_raw_after: 107
+  interpretation: "The reduction removes reporting false positives caused by semantics already approved in earlier Function ownership and Function-to-Design reviews; no product relationship was invented to reduce counts."
+
+evidence_strengthening:
+  new_support_pairs:
+    - source: "Document - PosiCharge BMID FAQ"
+      target: "Data Handling Design"
+      rationale: "The first-party BMID evidence directly supports stored identity/history handling used by the active logging Function without claiming a specific memory implementation."
+    - source: "Document - PosiCharge PosiGuard Product Page"
+      target: "Wireless Interface Design"
+      rationale: "The first-party PosiGuard source directly publishes wireless communication capability."
+    - source: "Document - PosiCharge PosiGuard Product Page"
+      target: "Cloud Portal Integration"
+      rationale: "The first-party PosiGuard source directly states connection of captured battery data to PosiLink."
+    - source: "Document - PosiCharge PosiGuard Product Page"
+      target: "Bluetooth Interface"
+      rationale: "The first-party source directly publishes Bluetooth support; this is retained as engineering-support evidence rather than promoted into an unsupported direct Function realization."
+  new_support_pairs_count: 4
+  new_governed_relationship_assertions: 8
+  speculative_realization_or_dependency_links_added: 0
+  final_governed_relationship_assertions: 6120
+
+formal_disposition_registry:
+  registry: "80_Decisions and Planning/Semantic Linking Review Dispositions 0.1.yaml"
+  step_26_records_added: 188
+  classifications_added:
+    active_engineering: 21
+    engineering_support: 47
+    reference_content: 120
+  lower_priority_controlled_dispositions_added:
+    engineering_support_evidence_not_applicable: 46
+    reference_evidence_not_applicable: 81
+    reference_downstream_intentionally_absent: 1
+    total: 128
+  engineering_support_evidence_rule: "Generic/reusable abstraction does not make a standalone sourced implementation claim; evidence remains on specific child/product decisions when material."
+  reference_rule: "Reference Designs/Functions are retained for market comparison and are not promoted into the active engineering chain merely to remove legacy weak signals."
+  registry_commit: "3d56fd63"
+  total_reviewed_classifications_after_step: 235
+  disposition_registry_errors: 0
+
+active_completion:
+  active_strict_step2_dimension_gaps: 0
+  active_registry_or_unexplained_findings: 0
+  weak_queue_registry_findings: 0
+  accepted_named_unresolved_decisions: 4
+  accepted_unresolved:
+    - element: "Identify Battery to Charger"
+      type: "Function"
+      dimension: "implementation"
+      exception: "EXC-ARCH-UNRESOLVED"
+      source_decision: "BMID Function Design Traceability Step 89"
+    - element: "Measure Battery Voltage"
+      type: "Function"
+      dimension: "implementation"
+      exception: "EXC-ARCH-UNRESOLVED"
+      source_decision: "BMID Function Design Traceability Step 89"
+    - element: "Estimate State of Charge"
+      type: "Function"
+      dimension: "implementation"
+      exception: "EXC-ARCH-UNRESOLVED"
+      source_decision: "BMID Function Design Traceability Step 89"
+    - element: "BMID - Preserve Battery Association"
+      type: "Requirement"
+      dimension: "satisfaction"
+      exception: "EXC-ARCH-UNRESOLVED"
+      source_decision: "BMID Requirement Function Traceability Step 88 / Semantic Linking Step 14"
+  interpretation:
+    - "These four are named engineering decisions with explicit rationale; they are not unexplained weak-traceability gaps."
+    - "They remain visible for Step 27 end-to-end chain audit and the final Step 28 handoff."
+    - "No substitute Design, Function, or satisfier was invented."
+
+validation:
+  step_26_validator: "99_System/09_Tools/review-weak-traceability-priority.py"
+  validator_initial_commit: "3122c342"
+  validator_final_commit: "5eb114e4"
+  workflow: ".github/workflows/semantic-linking-weak-traceability-priority-review.yml"
+  workflow_commit: "749bb220"
+  final_step_26_run: 37405061930
+  final_step_26_job: 112080666853
+  final_step_26_result: "success"
+  final_vault_audit_run: 37405061944
+  final_vault_audit_job: 112080666977
+  final_vault_audit_result: "success"
+  relationship_change_regression:
+    curated_source_document_run: 37404864585
+    curated_source_document_job: 112080054656
+    high_value_evidence_run: 37404864618
+    high_value_evidence_job: 112080055039
+    function_design_run: 37404864541
+    function_design_job: 112080054719
+    workbench_run: 37404864698
+    workbench_job: 112080055817
+    result: "all success"
+
+whole_vault_after_step_26:
+  model_notes: 948
+  semantic_relationship_assertions: 6120
+  raw_isolated_model_elements: 2
+  explained_isolated_model_elements: 2
+  unexplained_isolated_model_elements: 0
+  legacy_weak_traceability_findings: 220
+  matrix_dimension_findings: 913
+  reviewed_completeness_classifications: 235
+  unreviewed_completeness_classifications: 713
+  applicable_unexplained_findings: 0
+  explained_exception_findings: 46
+  unresolved_exception_findings_in_matrix_reporter: 0
+  named_active_unresolved_decisions_outside_coarse_matrix_dimensions: 4
+  disposition_registry_errors: 0
+
+semantic_changes:
+  source_support_pairs_added: 4
+  governed_relationship_assertions_added: 8
+  speculative_links_added: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+
+conclusion:
+  zero_unexplained_active_weak_traceability_findings: true
+  lower_priority_weak_queue_classified: true
+  legacy_metric_preserved: true
+  named_unresolved_engineering_decisions_preserved: 4
+  next_step: "Step 27 — Run end-to-end product chain audits"
