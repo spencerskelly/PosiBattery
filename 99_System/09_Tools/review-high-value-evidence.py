@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 21 high-value evidence-bearing note review.
 
+Governed Step 21 review entry point.
+
 Prioritizes evidence curation for the active BMID engineering chain rather than
 bulk-linking every URL-bearing market/reference note. Validates curated source
 Document relationships and direct source support for the highest-value active
