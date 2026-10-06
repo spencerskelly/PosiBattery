@@ -20,12 +20,15 @@ hasDesign:
   - "[[Modular Power Modules]]"
   - "[[Touchscreen Interface]]"
   - "[[Multi-Voltage Output]]"
+  - "[[Remote Charger Management Design]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
   - "[[Advanced Charging Technologies BATTview]]"
+hasPart:
+  - "[[Charger Remote Management Agent]]"
   - "[[ACT ACTview]]"
 ---
 
@@ -59,6 +62,8 @@ ACT next-generation Quantum charger with a 7 inch touchscreen and 24 to 120 V ra
 | Operating temperature | -40 to 50 C |
 | Marks | UL/cUL; CE and RCM coming soon |
 | Chemistries | lithium-ion, VRLA, flooded lead-acid |
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
