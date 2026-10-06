@@ -13,6 +13,7 @@ describedBy:
   - "[[Metric - Current Measurement]]"
 designOf:
   - "[[Philadelphia Scientific eGO!pro]]"
+  - "[[Clamp-On Current Measurement Assembly]]"
 ---
 
 # Split-Core Current Sensor
