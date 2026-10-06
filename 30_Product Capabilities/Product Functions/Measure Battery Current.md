@@ -10,8 +10,6 @@ tags:
   - product-function
 subtypeOf:
   - "[[Sense Battery State]]"
-dependsOn:
-  - "[[Current Sensing Design]]"
 describedBy:
   - "[[Metric - Current Measurement]]"
 performedBy:
@@ -36,6 +34,8 @@ performedBy:
   - "[[Battery Current Measurement Circuit]]"
 realizedBy:
   - "[[Current Sensing Design]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Measure Battery Current
@@ -68,6 +68,22 @@ Measure current into and out of the battery.
   - [[Green Cubes SAFEFlex Battery]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
   - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (Current Sensing Design); rule and caveats in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+The reusable realization is [[Current Sensing Design]], performed by [[Battery Current Measurement Circuit]] and [[Battery Current Acquisition Firmware]] using shared [[Control Circuit]] resources.
+
+Concrete sensing alternatives:
+- [[External Shunt Current Sensing]] -> [[Resistive Current Measurement Circuit]] with [[Current Measurement Resistor]], [[Differential Measurement Amplifier]], and [[Analog-to-Digital Converter]].
+- [[Hall-Effect Current Sensing]] -> [[Magnetic Current Measurement Assembly]] with [[Hall-Effect Current Sensor]].
+- [[Split-Core Current Sensor]] -> [[Clamp-On Current Measurement Assembly]] with [[Conductor-Mounted Current Sensor Module]].
+- [[Shuntless Current Sensing]] remains Design-only because available product sources do not establish one physical implementation principle.
+
+### Product allocation
+
+- [[PosiCharge PosiGuard]] is allocated the generic current-measurement circuit, acquisition firmware, and [[Current Sensing Design]] at **>=95% engineering confidence** because PosiCharge publicly specifies current monitoring and 100 mA resolution.
+- The exact internal sensing topology is not published, so no child sensing Design is selected for PosiGuard.
+- The generic [[PosiCharge BMID]] family is not allocated this Function in this pass because the current BMID evidence set does not explicitly establish current measurement.
 
 ## Aliases
 
