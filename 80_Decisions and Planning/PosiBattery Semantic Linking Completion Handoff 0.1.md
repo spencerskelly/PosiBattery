@@ -1,13 +1,3 @@
----
-type: Info
-subtype:
-status: Complete
-tags:
-  - semantic-linking
-  - completion-handoff
-  - governance
----
-
 # PosiBattery Semantic Linking Completion Handoff 0.1
 
 ## Purpose
