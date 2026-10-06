@@ -14,6 +14,11 @@ supertypeOf:
   - "[[Mid-Battery Differential Voltage Measurement]]"
 realizes:
   - "[[Measure Battery Voltage]]"
+designOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Battery Voltage Measurement Design
