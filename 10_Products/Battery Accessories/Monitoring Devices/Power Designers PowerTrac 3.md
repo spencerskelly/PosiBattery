@@ -31,6 +31,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
   - "[[Shuntless Current Sensing]]"
+  - "[[External Thermistor Temperature Sensor]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
 madeBy:
