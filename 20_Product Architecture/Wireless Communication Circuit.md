@@ -20,6 +20,7 @@ supertypeOf:
 hasDesign:
 dependencyOf:
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[Truck Telemetry Reporting Service]]"
   - "[[Wireless Interface Design]]"
 ---
 
