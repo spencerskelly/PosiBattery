@@ -14,6 +14,7 @@ hasDesign:
   - "[[Electrolyte Level Sensing Design]]"
 dependencyOf:
   - "[[Electrolyte Level Acquisition Firmware]]"
+  - "[[Low Electrolyte Threshold Circuit]]"
 partOf:
   - "[[Crown V-Force BMID]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
