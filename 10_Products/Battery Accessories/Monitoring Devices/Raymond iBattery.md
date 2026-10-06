@@ -29,6 +29,7 @@ hasDesign:
   - "[[Cloud Portal Integration]]"
   - "[[Stored Battery Weight Compatibility Verification]]"
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Equalization Event Tracking Design]]"
 hasPart:
   - "[[Control Circuit]]"
   - "[[Battery Specification Memory]]"
@@ -87,6 +88,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - **Battery-weight architecture correction (2026-10-06):** Raymond's patent resolves the previously open implementation mechanism. iBATTERY does not need to physically weigh the battery. The battery sensor module stores the manufacturer's battery-weight value in [[Battery Specification Memory]], communicates specification data through [[Power-Line Communication Circuit]], and the vehicle-side [[Battery Weight Verification Firmware]] compares the stored value with the truck minimum. The patent also explicitly identifies a microcomputer in the battery sensor module, supporting the [[Control Circuit]] allocation.
 - **Scope correction — state of health (2026-10-06):** the battery-mounted iBattery module collects and forwards battery measurements/history, while Raymond's published SOH dashboard and cycle-contributor analysis reside in [[Raymond iWAREHOUSE]]. This note therefore no longer directly performs [[Estimate State of Health]]; it supplies the battery data used by the analytics layer.
+
+- **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 ## Aliases
 
