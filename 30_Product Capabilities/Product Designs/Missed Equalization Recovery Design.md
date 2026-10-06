@@ -11,6 +11,8 @@ tags:
   - scheduling
 designOf:
   - "[[Missed Equalization Recovery Firmware]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[Power Designers REVOLUTION X]]"
 realizes:
   - "[[Complete Missed Equalization Automatically]]"
 dependencyOf:
