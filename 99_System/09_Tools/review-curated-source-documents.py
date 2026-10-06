@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 20 curated Source Document relationship and provenance review.
 
+Governed Step 20 review entry point.
+
 Reviews every governed Document note (currently the eight curated Source
 Documents), validates describes/describedBy and evidence relationships, and
 checks structured provenance migration without inventing unknown access dates.
