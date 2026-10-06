@@ -16,6 +16,7 @@ hasPart:
   - "[[Thermistor Temperature Sensor]]"
 hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
+  - "[[External Thermistor Temperature Sensor]]"
 partOf:
   - "[[PosiCharge BMID]]"
 performs:
@@ -33,6 +34,7 @@ Temperature-measurement circuit using a thermistor as the sensing element.
 ## Notes
 
 - [[PosiCharge BMID]] is allocated this circuit at **>=95% engineering confidence** because PosiCharge explicitly identifies an electrolyte-immersed thermistor in the BMID.
-- The source establishes the sensor type and placement, but not the exact bias network, ADC topology, linearization method, or component part number.
+- [[Power Designers PowerTrac 3]] and [[EnerSys Wi-iQ]] explicitly identify external thermistors, so they map to this reusable circuit family through [[External Thermistor Temperature Sensor]]; their exact conditioning circuitry is not published.
+- The public sources establish thermistor technology and placement class, but not the exact bias network, ADC topology, linearization method, or component part number.
 
 ## Former ids
