@@ -43,7 +43,7 @@ Estimate the battery's state of charge from measurements.
 
 ## Notes
 
-- Estimation method is not stated by any retrieved source.
+- Estimation method is not stated by the retrieved product sources for the current commercial allocations; product notes therefore use the generic estimation firmware unless a specific algorithm is established.
 - Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.
 - **Sources** (product, evidence level, web page):
@@ -85,8 +85,11 @@ Concrete algorithm alternatives:
 
 ### Product allocation
 
-- [[PosiCharge BMID]] is allocated [[State of Charge Estimation Firmware]] and [[State of Charge Estimation Design]] as a **>=95% engineering assumption** because PosiCharge publicly states that the BMID recognizes state of charge. The exact algorithm is not published.
+- [[PosiCharge BMID]] is allocated [[State of Charge Estimation Firmware]] as a **>=95% engineering assumption** because PosiCharge publicly states that the BMID recognizes state of charge. [[State of Charge Estimation Design]] remains the Function-level general family; the exact algorithm is not published.
 - The current BMID evidence establishes voltage measurement, but does not establish whether BMID SOC uses voltage only, current integration, or a hybrid algorithm.
+- [[EnerSys Wi-iQ]] is allocated [[State of Charge Estimation Firmware]] at **>=95% engineering confidence** because it locally measures battery voltage/current/temperature and supplies usable SOC to charger/truck interfaces; the exact algorithm is not published.
+- [[Exide Motion+ EasyMonitor]] is allocated [[State of Charge Estimation Firmware]] at **>=95% engineering confidence** because it locally acquires battery state/usage data and reports SOC; the exact algorithm is not published.
+- Other battery-side products remain Function-linked until their upstream measurement/processing architecture is sufficiently modeled to support a concrete firmware allocation.
 - No child SOC algorithm is assigned to BMID until stronger product-specific evidence or an explicit engineering decision exists.
 - [[PosiCharge PosiGuard]] is **not** allocated this Function or SOC implementation in this pass because the current PosiGuard evidence set does not explicitly establish SOC estimation.
 
