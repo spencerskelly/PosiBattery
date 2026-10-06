@@ -29,6 +29,7 @@ hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Control Circuit]]"
   - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
@@ -81,6 +82,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - **Architecture realization — specific gravity measurement:** the in-cell probe and continuous specific-gravity measurement are verified. [[In-Cell Electrolyte Measurement Probe Assembly]] captures the physical probe, while [[Specific Gravity Sensing Element]] remains technology-neutral because the transduction principle is not published. [[Specific Gravity Measurement Circuit]] and [[Specific Gravity Acquisition Firmware]] are allocated at **>=95% engineering confidence** because TruBID electronically reports/uses a continuous specific-gravity value while its internal circuit and firmware partition are not disclosed.
 - **Architecture boundary — cell failure detection:** the available sources explicitly state that TruBID detects cell failures / provides a cell-fail alert, and separately state that its in-cell probe monitors electrolyte temperature and specific gravity. Neither the source nor Prestolite's public description explains how those measurements are converted into a cell-failure diagnosis. Accordingly, TruBID is allocated only the method-neutral [[Cell Failure Diagnostic Design]]. No [[Algorithmic Cell Failure Diagnosis]], [[Dedicated Threshold Cell Failure Detection]], [[Cell Failure Diagnostic Firmware]], or [[Cell Failure Threshold Circuit]] is assigned to the product, and no cell-voltage / impedance / specific-gravity causal diagnostic method is asserted.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
