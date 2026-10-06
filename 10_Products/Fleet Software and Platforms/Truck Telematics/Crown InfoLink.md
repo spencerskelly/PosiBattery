@@ -18,6 +18,7 @@ performs:
 hasDesign:
   - "[[Operator Touch Display]]"
   - "[[Operator Access Authorization Design]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -26,6 +27,8 @@ offeredWith:
   - "[[Crown Battery Health Monitor]]"
 hasPart:
   - "[[Operator Access Authorization Logic]]"
+  - "[[Pre-Shift Checklist Enforcement Logic]]"
+  - "[[Vehicle Enable Interlock]]"
   - "[[Crown Gena Operating System]]"
 ---
 
@@ -50,6 +53,8 @@ Crown wireless fleet and operator management system, paired with on-truck InfoPo
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — operator access:** [[Operator Access Authorization Design]] is allocated because the product explicitly restricts truck use to authorized operators. [[Operator Access Authorization Logic]] is allocated at **>=95% engineering confidence** where the internal authorization software partition is unpublished. The exact credential database, controller, relay/CAN path, and synchronization method remain product-specific.
+
+- **Architecture realization — pre-shift checklist:** published material explicitly describes electronic inspection checklists tied to truck access/lockout behavior, supporting [[Pre-Shift Checklist Enforcement Design]]. [[Pre-Shift Checklist Enforcement Logic]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. [[Vehicle Enable Interlock]] captures the enforcement consequence when the checklist policy is not satisfied.
 
 ## Aliases
 
