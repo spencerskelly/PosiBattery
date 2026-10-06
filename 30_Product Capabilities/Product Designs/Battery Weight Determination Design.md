@@ -13,6 +13,8 @@ supertypeOf:
   - "[[Direct Load-Cell Battery Weight Measurement]]"
 realizes:
   - "[[Detect Battery Weight]]"
+dependencyOf:
+  - "[[Detect Battery Weight]]"
 ---
 
 # Battery Weight Determination Design
