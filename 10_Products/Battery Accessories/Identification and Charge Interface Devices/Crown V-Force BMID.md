@@ -29,6 +29,8 @@ hasDesign:
   - "[[Battery-Top Mounting]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[Electrolyte Level Acquisition Firmware]]"
+  - "[[Electrolyte Level Measurement Circuit]]"
   - "[[Low Electrolyte Alert Logic]]"
 offeredBy:
   - "[[Crown Equipment]]"
