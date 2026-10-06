@@ -16,7 +16,11 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Dealer Service Technician]]"
+  - "[[Fleet Operations Manager]]"needOf:
+  - "[[Maintenance Technician]]"
+  - "[[Dealer Service Technician]]"
   - "[[Fleet Operations Manager]]"
+
 ---
 
 # Find and Fix Vehicle Faults Without Downtime
