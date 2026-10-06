@@ -39,7 +39,7 @@ An organization that designs or manufactures industrial batteries (lead-acid or 
 
 ## Notes
 
-- Role notes group organizations by what they do in this survey. A role is a working label and an organization can play several. Linked with `playsRole` (provisional); see [[Business Relationship Vocabulary]].
+- Role notes group organizations by what they do in this survey. A role is a working label and an organization can play several. Linked with governed `playsRole / rolePlayedBy`; see [[Business Relationship Vocabulary]].
 
 ## Aliases
 
