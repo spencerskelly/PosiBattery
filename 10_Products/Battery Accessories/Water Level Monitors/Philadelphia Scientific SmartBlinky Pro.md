@@ -62,13 +62,14 @@ Maker or publisher marketing claims as stated, not independently verified.
 - Vendor states compatibility with industrial lead-acid batteries and multiple battery connection types.
 - Evidence: https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/
 - **Verification 2026-10-02 (partly re-verified (dated source)):** the LED indicator is mounted on the battery cable near the connector, with an audible SmartBEEP alarm and universal voltage and polarity, aimed at fast and opportunity charging where the battery stays in the truck. Source: M H&W magazine product item and award entry (undated, likely older) (T2) <https://www.mhwmag.com/?p=7981>
-- **Refinement vs text above:** the text above describes an electronic probe sensing electrolyte in a cell; the retrieved sources describe the LED and cable placement. The probe was not re-verified.
+- **Refinement 2026-10-05:** Philadelphia Scientific's current product page explicitly states that SmartBlinky Pro is an electronic probe that senses electrolyte in a cell. The page names patented Smart Sensing Technology but does not disclose whether the underlying principle is conductive, capacitive, optical, or another method. This supports [[Electronic In-Cell Electrolyte Probe]] and [[Electronic Electrolyte Probe Assembly]].
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Sense Electrolyte Level]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Alert on Abnormal Condition]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Indicate Battery Status Locally]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Alert on Low Electrolyte Level]] (V): <https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/>
 - **Design characteristics, with citations:**
+  - [[Electronic In-Cell Electrolyte Probe]] (V): <https://www.phlsci.com/products/blinky-battery-watering-monitors/smartblinky-pro/>
   - [[Local LED Indicator]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Audible Alarm]] (V): <https://www.mhwmag.com/?p=7981>
   - [[Cable-Mounted Indicator Placement]] (V): <https://www.mhwmag.com/?p=7981>
