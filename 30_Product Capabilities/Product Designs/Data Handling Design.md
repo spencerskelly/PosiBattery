@@ -8,6 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Remaining Runtime Estimation Design]]"
   - "[[Usage-History State of Health Analytics]]"
   - "[[Cloud Portal Integration]]"
