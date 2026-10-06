@@ -12,6 +12,7 @@ tags:
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:
+  - "[[Indicate Charger Status Locally]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Identify Battery by Voltage]]"
@@ -20,6 +21,8 @@ performs:
 hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Charger Status LED Bar]]"
+hasPart:
+  - "[[Charger Status LED Bar Assembly]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
