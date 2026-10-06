@@ -1,0 +1,133 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 20
+status: "Complete"
+title: "Curated Source Document relationship and provenance review"
+
+scope:
+  governed_type: "Document"
+  source_document_folder: "70_Research and Evidence/Source Documents"
+  review_focus:
+    - "describes/describedBy subject traceability"
+    - "supports/contradicts evidence relationships where specifically justified"
+    - "Requirement references to Documents where actually cited"
+    - "structured sourceClass/sourceUrl/sourceRevision/accessed provenance"
+    - "distinguish reference-product evidence from active-engineering evidence"
+
+implementation:
+  review_script: "99_System/09_Tools/review-curated-source-documents.py"
+  script_commit: "e85ce12c"
+  workflow: ".github/workflows/semantic-linking-curated-source-document-review.yml"
+  workflow_commit: "af1f1927"
+  trigger_commit: "35c1bc38"
+  behavior: "Review plus evidence-backed structured-provenance migration."
+
+validation:
+  workflow_run: 37398262932
+  job_id: 112059319482
+  result: "success"
+  vault_audit_run: 37398262615
+  vault_audit_result: "success"
+  governed_documents: 8
+  curated_source_documents: 8
+  source_documents_reviewed: 8
+  describes_assertions: 25
+  describes_targets:
+    Object: 17
+    Info: 8
+  documents_with_sourceClass: 8
+  documents_with_sourceUrl: 8
+  documents_with_sourceRevision: 5
+  documents_with_accessed: 0
+  supports_assertions_added: 0
+  contradicts_assertions_added: 0
+  requirement_references_added: 0
+  findings: 0
+
+structured_provenance_migration:
+  all_documents:
+    added:
+      - "sourceClass"
+      - "sourceUrl"
+  revisions_added_when_explicit:
+    - document: "Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)"
+      sourceRevision: "GLOB-EN-FLY-IQM 0924"
+    - document: "Document - Lester Summit Series II 1425 W Data Sheet (06-2023)"
+      sourceRevision: "06-2023"
+    - document: "Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)"
+      sourceRevision: "AMER-EN-PG-ENS-MPCHARGER-0125"
+    - document: "Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)"
+      sourceRevision: "PDS-PT3 11-2025"
+    - document: "Document - Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)"
+      sourceRevision: "Data Sheet 1336 08/18"
+  revision_omissions:
+    - "The three ACT sheets expose PDF creation dates in current vault evidence but no separate publication/revision identity; PDF creation time was not promoted to sourceRevision."
+  accessed_omission:
+    count: 8
+    reason: "Original web access/download date is not recorded. Local-copy review date 2026-10-02 is a different fact and was not substituted."
+  commits:
+    - "a53fd4b4"
+    - "0203022b"
+    - "30b0abd4"
+    - "5ddb90a9"
+    - "ec4272b2"
+    - "bf5714d5"
+    - "04a54f59"
+    - "c818164b"
+
+relationship_assessment:
+  describes:
+    status: "Complete and synchronized for all 25 existing subject relationships."
+    meaning: "The Document directly describes the named vendor product or organization."
+  supports:
+    status: "No additions justified in Step 20."
+    reason: "The curated documents primarily describe competitor/reference products. Their facts do not directly substantiate active PosiCharge BMID Requirements, Functions, or Designs merely because similar features exist."
+  contradicts:
+    status: "No direct Document contradiction links justified."
+    reason: "Known comparison/conflict handling remains in research/conflict synthesis; no specific governed engineering target required a direct contradiction assertion from these source records."
+  references:
+    status: "No Requirement-to-Document references added."
+    reason: "The six active BMID/PosiGuard Requirements are not based on these competitor/reference documents."
+
+source_classification:
+  datasheet:
+    count: 6
+    documents:
+      - "ACT Battview Sheet (2023)"
+      - "ACT Quantum 3 Sheet (2024)"
+      - "ACT Quantum Charger Sheet (2023)"
+      - "Lester Summit Series II 1425 W Data Sheet (06-2023)"
+      - "Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)"
+      - "Prestolite BID and BID with Ah Accumulator Data Sheet 1336 (08-18)"
+  brochure:
+    count: 2
+    documents:
+      - "EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)"
+      - "EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)"
+
+semantic_rules_confirmed:
+  - "describes identifies what the source is directly about; it is not automatically an engineering-evidence claim."
+  - "supports is used when a source materially supports a specific engineering claim or decision."
+  - "references is used when a Requirement actually cites a Document; it is not a generic source backlink."
+  - "External competitor evidence must not be projected onto active product obligations or implementations without an explicit reasoning/evidence dependency."
+  - "Structured provenance fields are migrated only from known source facts; unknown values remain absent."
+
+semantic_changes:
+  model_relationship_assertions_added: 0
+  model_relationship_assertions_removed: 0
+  document_notes_with_metadata_updates: 8
+  sourceClass_fields_added: 8
+  sourceUrl_fields_added: 8
+  sourceRevision_fields_added: 5
+  accessed_fields_added: 0
+  ids_changed: 0
+  uids_changed: 0
+
+conclusion:
+  unexplained_source_document_relationship_findings: 0
+  unsynchronized_describes_pairs: 0
+  structured_provenance_known_values_migrated: true
+  unknown_access_dates_preserved_as_unknown: true
+  next_step: "Step 21 — Review high-value evidence-bearing notes"
