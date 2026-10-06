@@ -26,6 +26,8 @@ performs:
   - "[[Export Battery Data to PC]]"
 hasDesign:
   - "[[External Shunt Current Sensing]]"
+  - "[[External Thermistor Temperature Sensor]]"
+  - "[[Internal Thermistor Temperature Sensor]]"
   - "[[RS-232 and RS-485 Serial Interface]]"
   - "[[Infrared Data Port]]"
   - "[[Non-Volatile Event Memory]]"
@@ -76,6 +78,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Transmit Battery Data Wirelessly]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[Export Battery Data to PC]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
 - **Design characteristics, with citations:**
+  - [[External Thermistor Temperature Sensor]] (V, option): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
+  - [[Internal Thermistor Temperature Sensor]] (V, option): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[External Shunt Current Sensing]] (V): <https://www.powerdesignerssibex.com/powertrac-sp/> <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[RS-232 and RS-485 Serial Interface]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
   - [[Infrared Data Port]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
