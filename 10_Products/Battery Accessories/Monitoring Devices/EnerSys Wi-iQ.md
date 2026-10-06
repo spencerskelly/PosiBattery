@@ -35,6 +35,7 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
+  - "[[Local Abnormal Condition Alert]]"
   - "[[Hall-Effect Current Sensing]]"
   - "[[External Thermistor Temperature Sensor]]"
   - "[[Bluetooth Low Energy Interface]]"
@@ -48,6 +49,9 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[Abnormal Condition Evaluation Logic]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
+  - "[[Audible Alarm Transducer]]"
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"
   - "[[LCD Status Display Module]]"
@@ -178,6 +182,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 - **Implementation assumption — local status presentation:** the LCD and three LEDs are verified. [[LCD Status Display Module]] and [[LED Status Indicator Element]] therefore represent verified physical output roles; [[LCD Display Interface Circuit]], [[Status Indicator Driver Circuit]], and [[Local Status Presentation Firmware]] are **>=95% engineering-confidence assumptions** because EnerSys does not publish the internal interface/driver/firmware partition.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Wi-iQ explicitly provides battery warnings/alarms using its LCD, LEDs and low-voltage buzzer. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because EnerSys publishes the evaluated alert behavior but not the internal firmware partition.
 
 ## Aliases
 
