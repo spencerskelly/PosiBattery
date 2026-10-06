@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:
+  - "[[Indicate Charger Status Locally]]"
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Fast]]"
@@ -22,6 +23,8 @@ hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Modular Power Modules]]"
   - "[[Charger Status LED Bar]]"
+hasPart:
+  - "[[Charger Status LED Bar Assembly]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
