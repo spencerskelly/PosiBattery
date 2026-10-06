@@ -5,7 +5,7 @@ id: DES-90005
 uid: 20261005213400003skellyspencer
 status: Draft
 tags:
-  - product-design
+  - general-design
   - battery-monitoring
   - voltage
   - isolation
