@@ -26,10 +26,13 @@ hasDesign:
   - "[[Remote Charger Management Design]]"
   - "[[BMS-Directed Charge Control Design]]"
   - "[[CAN BMS-Directed Charging]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Direct Temperature Input Charge Compensation]]"
 madeBy:
 hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[BMS-Directed Charge Control Firmware]]"
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Lester Electrical]]"
 ---
 
@@ -73,6 +76,8 @@ Lester multi-voltage 24, 36 and 48 V charger family (650, 1050 and 1425 W) for l
 - **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 - **Architecture realization — BMS-directed charging:** published behavior supports [[BMS-Directed Charge Control Design]] and the CAN-specific [[CAN BMS-Directed Charging]] path. [[BMS-Directed Charge Control Firmware]] is allocated at **>=95% engineering confidence** because charger-side executable control is required while the internal software partition is unpublished. The exact BMS message set, timeout/fallback behavior, and safety handoff remain product-specific.
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Direct Temperature Input Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
