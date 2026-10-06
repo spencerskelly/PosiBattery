@@ -1,7 +1,7 @@
 ---
 type: Object
 subtype: circuit
-id: OBJ-90040
+id: OBJ-90902
 uid: 20261006060500003skellyspencer
 status: Draft
 tags:
@@ -39,3 +39,5 @@ Temperature-measurement circuit using a thermistor as the sensing element.
 - The public sources establish thermistor technology and placement class, but not the exact bias network, ADC topology, linearization method, or component part number.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate OBJ-90040; duplicate value is intentionally not reserved here.
