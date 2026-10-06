@@ -1,0 +1,81 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 7
+status: "Complete"
+title: "Product architecture ownership and composition review"
+
+scope:
+  domain: "20_Product Architecture"
+  focus:
+    - "reusable architecture Object ownership"
+    - "definition-level hasPart/partOf composition"
+    - "subtypeOf/supertypeOf specialization"
+    - "hasPort and hasDesign only where explicitly modeled"
+    - "Local Model definition use as contextual where-used"
+    - "avoid duplication of Local Model occurrence topology as note-level hasPart"
+
+implementation:
+  review_script: "99_System/09_Tools/review-product-architecture-linking.py"
+  script_commit: "380a4c39"
+  workflow: ".github/workflows/semantic-linking-architecture-review.yml"
+  workflow_commit: "8f3d32e9"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37391689492
+  job_id: 112038000091
+  result: "success"
+  architecture_objects_reviewed: 26
+  abstract_architecture_objects: 26
+  concrete_architecture_objects: 0
+  objects_with_hasPart: 2
+  objects_with_partOf: 24
+  objects_with_specialization: 2
+  objects_with_hasPort: 0
+  objects_with_hasDesign: 0
+  findings: 0
+
+architecture_pattern:
+  reusable_assemblies:
+    - "Industrial Truck Anatomy"
+    - "GSE Vehicle Anatomy"
+  reusable_parts: 24
+  structure:
+    - "Each reusable assembly owns 12 subsystem definitions with hasPart."
+    - "Each subsystem definition returns partOf to its assembly."
+    - "The two assembly roots specialize Battery-Connected Product."
+  interpretation: "This is definition-level reusable structure, not product-specific occurrence topology."
+
+local_model_boundary:
+  context_note: "20_Product Architecture/PosiCharge BMID Product Assembly Local Model.md"
+  definition_uses: 9
+  unique_reusable_definitions: 7
+  expected_definitions_present: true
+  context_describes: "PosiCharge BMID"
+  context_hasPart_assertions: 0
+  duplicate_contextual_occurrence_as_hasPart_findings: 0
+  interpretation:
+    - "Battery and charger in the BMID assembly are contextual external occurrences and correctly do not become BMID parts."
+    - "Reusable Object/Port/Item Flow definitions remain authoritative in their own notes."
+    - "Repeated definition use is expected because the same logical Port definitions appear on both sides of connections."
+
+relationship_interpretation:
+  hasPort: "No Step-7 gap: Ports are modeled contextually in the BMID Local Model; note-level ownership should not be invented."
+  hasDesign: "No Step-7 gap: architecture Objects do not require design ownership unless a supported design claim exists."
+  specialization: "No unresolved specialization or inverse finding."
+  composition: "No unresolved reusable composition or inverse finding."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+
+conclusion:
+  reusable_architecture_ownership: "pass"
+  reusable_composition: "pass"
+  local_model_boundary_separation: "pass"
+  unexplained_architecture_ownership_gaps: 0
+  next_step: "Step 8 — Review Local Model contexts and occurrence usage"
