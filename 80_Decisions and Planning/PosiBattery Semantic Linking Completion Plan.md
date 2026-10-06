@@ -377,3 +377,24 @@ Evidence: `80_Decisions and Planning/Semantic Linking Port and Item Flow Review 
 **Commits:** `d2144fea`, `8ab4c966`, `fa35a523`.
 
 **Result:** Step 9 complete. The next step is **Step 10 — Review architecture-to-design links**.
+
+
+---
+
+## Step 10 completion evidence — Architecture-to-design links
+
+Reviewed all **118 Design notes** plus their Object/Function implementation context using the governed meanings of `hasDesign/designOf`, `realizedBy/realizes`, `appliesTo/applies`, `satisfies/satisfiedBy`, and `dependsOn/dependencyOf`.
+
+The final review found **0 unexplained architecture-to-design findings**. Of the 118 Designs, 109 have direct implementation/context relationships; the remaining 9 are legitimate general reusable Design-family roots identified by their general-design role/hierarchy rather than treated as missing product links.
+
+For the active BMID product, the review preserved the existing governed decision record from Step 89 rather than inferring new Design links. Three architecture choices remain explicitly unresolved with `EXC-ARCH-UNRESOLVED`: **Estimate State of Charge**, **Identify Battery to Charger**, and **Measure Battery Voltage**. No nearby Design was substituted merely to close those gaps.
+
+The review also confirms that missing direct Function→Design edges are not automatically defects when implementation context is carried elsewhere and no direct realization decision has been approved.
+
+No model relationships, IDs, UIDs, Design notes, Function notes, or Object notes were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Architecture Design Review Step 10 0.1.yaml`.
+
+**Final validation:** workflow `37393157746`, job `112042757349`, success.
+
+**Result:** Step 10 complete. The next step is **Step 11 — Review Use Case participation and need links**.
