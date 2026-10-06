@@ -38,6 +38,7 @@ hasDesign:
   - "[[Cellular Communication Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Battery Replacement Timing Prediction Design]]"
 hasPart:
   - "[[Remote Alert Notification Service]]"
   - "[[Electrolyte Level Acquisition Firmware]]"
