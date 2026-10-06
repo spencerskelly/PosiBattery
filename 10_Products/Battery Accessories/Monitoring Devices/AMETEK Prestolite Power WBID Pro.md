@@ -30,6 +30,7 @@ hasDesign:
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
   - "[[Ambient Temperature Sensor Element]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
