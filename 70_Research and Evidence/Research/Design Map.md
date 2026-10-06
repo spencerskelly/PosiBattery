@@ -48,6 +48,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[CAN-LIN and Battery Bus Interface]] | [[HOPPECKE trak collect]] | - | - |
 | [[Cable-Mounted Indicator Placement]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Capacitive Electrolyte Level Probe]] | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite Eagle Eye Elite IV]] | - |
+| [[Cell Failure Diagnostic Design]] | [[AMETEK Prestolite Power TruBid]] | - | - |
 | [[Cellular Communication Interface]] | [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge Battery Rx]], [[PosiCharge E-Meter]], [[PosiCharge PosiNet]], [[Yale Battery Vision]] | - | - |
 | [[Cell-Connector Electrolyte Level Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Cell-Connector Temperature Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
