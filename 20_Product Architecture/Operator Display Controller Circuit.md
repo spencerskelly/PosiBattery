@@ -13,6 +13,7 @@ reuseScope: cross-product
 subtypeOf:
   - "[[Control Circuit]]"
 dependencyOf:
+  - "[[Crown Gena Operating System]]"
   - "[[Operator Display HMI Firmware]]"
 partOf:
   - "[[EnerSys Truck iQ]]"
