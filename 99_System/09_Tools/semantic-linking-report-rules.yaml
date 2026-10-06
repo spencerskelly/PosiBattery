@@ -55,9 +55,9 @@ dimensions:
     ownership_use: [appliesTo, drivenBy, derivedFrom, refinedBy, childOf]
     evidence: [referencedBy, supportedBy, contradictedBy, verifiedBy]
   Design:
-    upstream: [designOf, realizes, drivenBy, appliesTo, dependsOn]
-    downstream: [hasChild, satisfies, triggeredBy, precedes]
-    ownership_use: [designOf, realizes, appliesTo]
+    upstream: [designOf, subtypeOf, dependencyOf, realizes, drivenBy, appliesTo, dependsOn]
+    downstream: [supertypeOf, hasChild, satisfies, triggeredBy, precedes]
+    ownership_use: [designOf, subtypeOf, supertypeOf, dependencyOf, realizes, appliesTo]
     evidence: [verifiedBy, describedBy, supportedBy, contradictedBy]
   Use_Case:
     upstream: [needOf, includedIn, hasOption, childOf, drivenBy]
