@@ -8,6 +8,9 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: datasheet
+sourceUrl: "https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf"
+sourceRevision: "Data Sheet 1336 08/18"
 describes:
   - "[[AMETEK Prestolite Power BID]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
