@@ -1,7 +1,7 @@
 ---
 type: Object
 subtype: firmware
-id: OBJ-90042
+id: OBJ-90904
 uid: 20261006060500005skellyspencer
 status: Draft
 tags:
@@ -31,3 +31,5 @@ Firmware that samples, converts, calibrates, and reports battery-temperature mea
 - The public evidence does not disclose the acquisition algorithm, filtering, calibration coefficients, ADC implementation, or firmware partitioning.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate OBJ-90042; duplicate value is intentionally not reserved here.
