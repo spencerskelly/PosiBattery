@@ -44,6 +44,7 @@ hasDesign:
   - "[[Current Sensing Design]]"
   - "[[CAN Battery State Communication Design]]"
   - "[[Wireless Battery Data Communication Design]]"
+  - "[[Cloud Battery Data Upload Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
