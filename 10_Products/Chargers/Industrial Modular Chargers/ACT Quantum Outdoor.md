@@ -12,6 +12,7 @@ tags:
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:
+  - "[[Indicate Charger Status Locally]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Equalize Battery on Schedule]]"
@@ -19,6 +20,8 @@ hasDesign:
   - "[[Outdoor-Rated Charger Enclosure]]"
   - "[[Charger Status LED Bar]]"
   - "[[Multi-Voltage Output]]"
+hasPart:
+  - "[[Charger Status LED Bar Assembly]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredBy:
