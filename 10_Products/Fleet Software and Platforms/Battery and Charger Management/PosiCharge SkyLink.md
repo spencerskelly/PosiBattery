@@ -15,6 +15,10 @@ subtypeOf:
 performs:
   - "[[Manage Chargers Remotely]]"
 madeBy:
+hasDesign:
+  - "[[Remote Charger Management Design]]"
+hasPart:
+  - "[[Remote Charger Management Service]]"
   - "[[PosiCharge]]"
 ---
 
@@ -30,6 +34,8 @@ PosiCharge cloud platform for charger performance, energy and charge-session rep
 - **Baseline confidence (SkyLink):** Verified public—product level. **Still needed:** Define relationship to PosiLink; supported chargers/BMID generations; deployment/onboarding; data retention; API/export; security/cyber model; user-role and commercial model.
 - **Functions performed, with citations:**
   - [[Manage Chargers Remotely]] (V): <https://posicharge.com/products/skylink/>
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Remote Charger Management Service]] represents the remote portal/application role. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
