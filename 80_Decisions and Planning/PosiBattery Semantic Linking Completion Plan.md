@@ -426,3 +426,27 @@ Evidence: `80_Decisions and Planning/Semantic Linking Use Case Need Review Step 
 **Final validation:** Use Case review workflow `37394086394`, job `112045779563`; Vault Audit `37394086612`, job `112045780093`; both successful.
 
 **Result:** Step 11 complete. The next step is **Step 12 — Review Requirement upstream rationale**.
+
+
+---
+
+## Step 12 completion evidence — Requirement upstream rationale
+
+Reviewed all **6 governed Requirements** for a defensible reason to exist and an explicit engineering scope.
+
+Results:
+- **6/6** have governed upstream rationale;
+- **6/6** have a defensible rationale path;
+- **6/6** have explicit `appliesTo` scope;
+- **10 `drivenBy` assertions** provide rationale: 8 from operational Use Cases and 2 from Customer Needs;
+- **0 Step 12 findings**.
+
+The review confirms that `appliesTo` supplies scope but is not treated as a substitute for rationale. The current six requirements do not need synthetic `derivedFrom`, `refinedBy`, `childOf`, or `references` links because their existing `drivenBy` paths already explain why they exist.
+
+No Requirement relationships, IDs, UIDs, or note content were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Requirement Rationale Review Step 12 0.1.yaml`.
+
+**Validation:** workflow `37394863534`, job `112048301630`, success.
+
+**Result:** Step 12 complete. The next step is **Step 13 — Review Requirement applicability**.
