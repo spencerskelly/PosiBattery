@@ -17,6 +17,7 @@ partOf:
   - "[[Linde MT18 Multifunction Display]]"
   - "[[Yale ERC050-060VGL]]"
 performs:
+  - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 ---
 
@@ -24,7 +25,7 @@ performs:
 
 ## Definition
 
-Technology-neutral display module mounted on the vehicle and used to present battery or truck status to the operator.
+Technology-neutral display module mounted on the vehicle and used to present battery, vehicle, diagnostic, or subsystem status to the operator.
 
 ## Notes
 
