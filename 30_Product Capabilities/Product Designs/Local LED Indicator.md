@@ -26,6 +26,7 @@ designOf:
   - "[[Philadelphia Scientific eGO!pro]]"
   - "[[Crown Battery Acid Indicators]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
+  - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
 ---
