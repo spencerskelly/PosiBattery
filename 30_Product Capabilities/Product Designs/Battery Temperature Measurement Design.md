@@ -15,6 +15,8 @@ supertypeOf:
   - "[[Ambient Temperature Sensor]]"
 realizes:
   - "[[Measure Battery Temperature]]"
+dependencyOf:
+  - "[[Measure Battery Temperature]]"
 designOf:
   - "[[Battery Temperature Measurement Circuit]]"
   - "[[PosiCharge BMID]]"
