@@ -26,6 +26,7 @@ hasDesign:
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Battery Abuse Cycle Analytics]]"
 hasPart:
   - "[[LED Status Indicator Element]]"
 madeBy:
@@ -72,6 +73,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cloud Portal Integration]] (V): <https://warehousenews.co.uk/?p=68147>
 - **Sources used for the mapping above:** iPE feature on eGO!c <https://www.ipesearch.co.uk/iOT-technology-for-batteries>; Warehouse News eGO! feature (undated) <https://warehousenews.co.uk/?p=68147>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — battery abuse analytics:** the product is allocated [[Battery Abuse Cycle Analytics]] because its published feature set explicitly reports abuse cycles / abuse analytics. The calculation location and algorithm are not published, so neither [[Device-Resident Abuse Cycle Analytics]] nor [[Cloud-Based Abuse Cycle Analytics]] is selected.
 
 ## Aliases
 
