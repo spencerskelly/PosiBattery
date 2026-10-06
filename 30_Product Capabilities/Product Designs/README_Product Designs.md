@@ -54,6 +54,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[CAN Battery State Communication Design]]
 - [[CAN Vehicle Operating Limit Command]]
 - [[Wired Interface Design]]
+- [[Wireless Battery Data Communication Design]]
 - [[Wireless Interface Design]]
 
 [[Bluetooth Interface]] is intentionally a nested reusable family under Wireless Interface Design because it can represent unspecified Bluetooth evidence while also specializing into BLE and Class 1 variants.
