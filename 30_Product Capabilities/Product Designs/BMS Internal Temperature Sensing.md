@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90007
+id: DES-90906
 uid: 20261006073000001skellyspencer
 status: Draft
 tags:
@@ -33,3 +33,5 @@ Battery temperature sensing implemented by one or more sensors inside a lithium 
 - This Design does not imply individual-cell sensing versus module-level or pack-level sensing; that distinction remains open until product evidence establishes it.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90007; duplicate value is intentionally not reserved here.
