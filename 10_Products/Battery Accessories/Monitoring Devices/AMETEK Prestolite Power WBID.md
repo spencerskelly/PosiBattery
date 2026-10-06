@@ -21,8 +21,11 @@ performs:
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Non-Volatile Event Memory]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[DC-Cable Power-Line Communication]]"
+hasPart:
+  - "[[Amp-Hour Counter State Memory]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 ---
