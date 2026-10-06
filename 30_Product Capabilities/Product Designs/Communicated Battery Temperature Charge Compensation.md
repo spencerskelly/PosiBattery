@@ -11,6 +11,14 @@ tags:
 subtypeOf:
   - "[[Temperature-Compensated Charge Control Design]]"
 dependsOn:
+designOf:
+  - "[[Crown V-HFM3 Charger]]"
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys+ Charger]]"
+  - "[[Fronius Selectiva 4.0]]"
+  - "[[PosiCharge DVS100]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge SVS100]]"
   - "[[Battery Temperature Reporting to Charger]]"
 ---
 
