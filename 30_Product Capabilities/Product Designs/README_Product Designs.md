@@ -42,6 +42,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 - [[Cell Failure Diagnostic Design]]
 - [[Current Sensing Design]]
 - [[Missed Equalization Recovery Design]]
+- [[Lead-Acid Desulfation Charge Control Design]]
 - [[Equalization Event Tracking Design]]
 - [[State of Charge Estimation Design]]
 - [[Voltage Imbalance Detection Design]]
