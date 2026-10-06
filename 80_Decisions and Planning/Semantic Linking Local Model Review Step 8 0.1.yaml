@@ -1,0 +1,109 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 8
+status: "Complete"
+title: "Local Model contexts and occurrence-use review"
+
+scope:
+  governed_local_model_regions: "all"
+  review_focus:
+    - "Local Model owner"
+    - "part occurrences"
+    - "endpoint occurrences"
+    - "connections"
+    - "flows"
+    - "definition references"
+    - "usage modes"
+    - "definition where-used visibility"
+    - "separation of contextual topology from note-level composition"
+
+implementation:
+  review_script: "99_System/09_Tools/review-local-model-linking.py"
+  script_commit: "6fa95c81"
+  workflow: ".github/workflows/semantic-linking-local-model-review.yml"
+  workflow_commit: "77ed4931"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37392271558
+  job_id: 112039892177
+  result: "success"
+  vault_audit_run_for_script_commit: 37392260632
+  vault_audit_result: "success"
+  owners_with_local_model: 1
+  local_model_schema_0_2_regions: 1
+  local_records: 11
+  unique_local_tokens: 11
+  parts: 3
+  endpoints: 4
+  connections: 2
+  flows: 2
+  implicit_standard_usages: 4
+  explicit_variant_usages: 3
+  variant_or_option_concrete_candidates_total: 105
+  unique_reusable_definitions_used: 7
+  findings: 0
+
+where_used:
+  "10_Products/Batteries/Industrial Traction Battery.md": 1
+  "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID.md": 1
+  "10_Products/Chargers/Industrial Battery Charger.md": 1
+  "20_Product Architecture/BMID Battery Sensing Data.md": 1
+  "20_Product Architecture/BMID Charger Battery Information.md": 1
+  "20_Product Architecture/iBMID - Battery Interaction.md": 2
+  "20_Product Architecture/iBMID - Charger Communication.md": 2
+
+usage_review:
+  part_occurrences:
+    count: 3
+    usage: "variant"
+    result: "pass"
+    interpretation: "Each abstract reusable family has at least one concrete specialization candidate."
+  endpoint_occurrences:
+    count: 4
+    usage: "implicit standard"
+    result: "pass"
+    interpretation: "Both reusable Port definitions are concrete and therefore valid as standard occurrences."
+  connections:
+    count: 2
+    usage_present: false
+    endpoint_resolution: "pass"
+  flows:
+    count: 2
+    usage_present: false
+    definition_type: "Item Flow"
+    parent_connection_resolution: "pass"
+    endpoint_role_resolution: "pass"
+
+identity_and_reference_review:
+  global_local_token_uniqueness: "pass"
+  note_uid_collisions: 0
+  unresolved_definition_links: 0
+  invalid_local_block_references: 0
+  invalid_definition_types: 0
+  temporary_equals_findings: 0
+
+composition_boundary:
+  contextual_part_definitions_duplicated_as_owner_hasPart: 0
+  interpretation:
+    - "Local Model occurrence links provide valid contextual where-used coverage for reusable Object, Port, and Item Flow definitions."
+    - "BMID, traction battery, and compatible charger remain contextual occurrences in the integration model rather than becoming note-level BMID parts."
+    - "The two Port definitions are used twice each because each logical interaction boundary appears on both ends of its connection."
+    - "No physical connector, protocol, internal electronics, or product BOM detail is inferred."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  local_model_tokens_changed: 0
+  local_model_records_changed: 0
+
+conclusion:
+  local_model_owner_and_region: "pass"
+  occurrence_usage_semantics: "pass"
+  definition_where_used: "pass"
+  contextual_vs_definition_structure: "pass"
+  unexplained_local_model_linking_gaps: 0
+  next_step: "Step 9 — Review Ports and Item Flows"
