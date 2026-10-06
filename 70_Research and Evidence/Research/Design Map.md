@@ -189,3 +189,5 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Injector Level-Sensing Watering]] | [[Philadelphia Scientific Water Injector System]] | - | - |
 | [[Charger-Controlled Automatic Watering]] | [[PosiCharge Single-Point Automatic Battery Watering]], [[PosiCharge SVS200]] | - | - |
 | [[Battery Event and Usage Logging Design]] | [[Power Designers PowerTrac 3]], [[HOPPECKE trak collect]], [[EnerSys Wi-iQ]] | - | - |
+
+| [[Wireless Battery Data Communication Design]] | [[PosiCharge PosiGuard]], [[EnerSys Wi-iQ]], [[AMETEK Prestolite Power WBID Pro]], [[Power Designers PowerTrac 3]], [[HOPPECKE trak collect]] | - | - |
