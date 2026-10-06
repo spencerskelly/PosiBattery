@@ -50,6 +50,7 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[Control Circuit]]"
   - "[[State of Charge Estimation Firmware]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Mid-Battery Voltage Tap Harness]]"
