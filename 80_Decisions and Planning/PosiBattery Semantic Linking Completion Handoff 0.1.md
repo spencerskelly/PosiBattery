@@ -75,13 +75,14 @@ Semantic-linking completion does **not** mean these engineering questions are so
 
 | Open decision | Disposition | Owner / next work |
 |---|---|---|
-| Implementation Design for `Identify Battery to Charger` | `EXC-ARCH-UNRESOLVED` | BMID product/system architecture |
-| Implementation Design for `Measure Battery Voltage` | `EXC-ARCH-UNRESOLVED` | BMID product/system architecture |
-| Implementation Design for `Estimate State of Charge` | `EXC-ARCH-UNRESOLVED` | BMID product/system architecture |
 | Satisfaction mechanism for `BMID - Preserve Battery Association` | `EXC-ARCH-UNRESOLVED` | BMID product/system architecture |
 | Customer Need upstream of `Configure and Service a Supported BMID` | `EXC-EVIDENCE-PENDING` | Product requirements / customer discovery |
 
 In addition, the five modeled Customer Need stages used by the audited requirement chains remain **need hypotheses** until customer-side evidence validates or ranks them.
+
+### Post-completion implementation progress
+
+The original Function→Design gaps for `Identify Battery to Charger`, `Measure Battery Voltage`, and `Estimate State of Charge` have now been resolved at the reusable implementation-family level. Product-specific component/topology choices remain intentionally narrower where evidence is unavailable.
 
 ## Verification and Validation Maturity
 
@@ -95,11 +96,11 @@ Future execution should preserve the established pattern:
 
 ## Evidence and Provenance State
 
-There are **11 curated Source Documents**.
+There are **12 curated Source Documents**.
 
 Required structured provenance is complete:
-- **11/11** have `sourceClass`;
-- **11/11** have `sourceUrl`;
+- **12/12** have `sourceClass`;
+- **12/12** have `sourceUrl`;
 - **0** Source Documents are missing required structured provenance.
 
 Optional/unknown metadata remains intentionally sparse:
