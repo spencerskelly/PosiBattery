@@ -17,6 +17,10 @@ performs:
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
+hasDesign:
+  - "[[BMS-Directed Charge Control Design]]"
+hasPart:
+  - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Exide Solition Light Traction Battery]]"
 ---
 
@@ -32,6 +36,8 @@ Exide charger controlled by the Solition lithium battery management system.
 - **Functions performed, with citations** (V = verified this pass):
   - [[Charge Lithium-Ion Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
   - [[Charge Under BMS Control]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+
+- **Architecture realization — BMS-directed charging:** published behavior supports [[BMS-Directed Charge Control Design]]. [[BMS-Directed Charge Control Firmware]] is allocated at **>=95% engineering confidence** because charger-side executable control is required while the internal software partition is unpublished. The exact BMS message set, timeout/fallback behavior, and safety handoff remain product-specific.
 
 ## Aliases
 
