@@ -26,7 +26,7 @@ An organization that makes or sells devices and parts added to batteries, charge
 
 ## Notes
 
-- Role notes group organizations by what they do. Linked with `playsRole` (provisional); see [[Business Relationship Vocabulary]].
+- Role notes group organizations by what they do. Linked with governed `playsRole / rolePlayedBy`; see [[Business Relationship Vocabulary]].
 
 ## Aliases
 
