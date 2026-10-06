@@ -8,6 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
+  - "[[In-Cell Specific Gravity Probe]]"
   - "[[Battery-Top Mounting]]"
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Harness Ring-Terminal Mounting]]"
