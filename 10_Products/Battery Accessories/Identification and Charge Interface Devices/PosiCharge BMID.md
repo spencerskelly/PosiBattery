@@ -30,6 +30,7 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
   - "[[PosiCharge BMID Product Assembly Local Model]]"
+  - "[[Document - PosiCharge BMID FAQ]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
