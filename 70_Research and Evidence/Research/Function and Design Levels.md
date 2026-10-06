@@ -73,6 +73,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Temperature-Compensated Charge Control Design]]**: [[Direct Temperature Input Charge Compensation]], [[Communicated Battery Temperature Charge Compensation]]
 - **[[BMS-Directed Charge Control Design]]**: [[CAN BMS-Directed Charging]]
 - **[[Adaptive Charge Profile Control Design]]**: [[Ri-Based Adaptive Charging]], [[Diagnostic-Loop Adaptive Charging]]
+- **[[Lead-Acid Desulfation Charge Control Design]]**: reusable charger-control realization of a lead-acid desulfation cycle/profile; depends on [[Charger Power Stage Design]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
 - **[[Current Sensing Design]]**: [[External Shunt Current Sensing]], [[Hall-Effect Current Sensing]], [[Shuntless Current Sensing]], [[Split-Core Current Sensor]]
 - **[[Deep Discharge Protection Design]]**: [[BMS Discharge Limitation]], [[CAN-Coordinated Deep Discharge Shutdown]], [[Truck Battery Discharge Interlock]]
