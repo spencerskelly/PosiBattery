@@ -15,6 +15,9 @@ realizedBy:
 participants:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
+needOf:
+  - "[[Forklift Operator]]"
+  - "[[Site Safety Manager]]"
 ---
 
 # Warn the Operator of People and Objects Near the Truck
