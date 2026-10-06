@@ -18,6 +18,8 @@ dependsOn:
 dependencyOf:
   - "[[Amp-Hour Counter State Memory]]"
 partOf:
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[Access Control Group CellTrac]]"
   - "[[EnerSys Wi-iQ]]"
@@ -39,7 +41,7 @@ Firmware that numerically integrates battery current over time to maintain charg
 
 - The reusable implementation consumes calibrated current samples from [[Battery Current Acquisition Firmware]].
 - Typical responsibilities include sample-time handling, sign convention, numerical integration, offset/deadband handling, counter rollover, event boundaries, and forwarding accumulated values to logging or reporting functions.
-- Allocation to the listed products is **>=95% engineering confidence** where the product explicitly combines electronic current sensing/monitoring with accumulated Ah values while the internal firmware partition is unpublished.
+- Allocation to the listed products is **>=95% engineering confidence** where the product explicitly combines current monitoring or persistent Ah-in/out accumulation with battery-side electronic processing while the internal firmware partition is unpublished.
 - [[AMETEK Prestolite Power BID with Ah Accumulator]] provides especially strong evidence because Prestolite states that it samples charge and discharge current more than 100 times per second and stores every amp-hour including regeneration.
 - The exact integration algorithm and sampling architecture are not asserted.
 
