@@ -69,7 +69,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Detect Voltage Imbalance]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[Hyster Battery Tracker]] | - | - |
 | [[Detect and Record Impacts]] | [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Hyster Tracker Telemetry]], [[Linde connect]], [[Logisnext Lift Link]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Raymond iWAREHOUSE]], [[STILL Smart Portal]], [[TLD Aircraft Safety Docking]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Diagnose Battery During Charge]] | [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]] | - | - |
-| [[Display Battery Status to Operator]] | [[Crown Gena Operating System]], [[EnerSys Truck iQ]], [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]] | - | - |
+| [[Display Battery Status to Operator]] | [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]] | - | - |
 | [[Display Truck Status to Operator]] | [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[Hangcha A Series Electric Forklifts]], [[Komatsu Operator Presence Sensing System]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
 | [[Dock Automatically at Aircraft]] | [[Oshkosh AeroTech JetDock]], [[TLD ASD+ Assisted Docking]] | - | - |
 | [[Enforce Pre-Shift Checklist]] | [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Hyster Tracker Telemetry]], [[Jungheinrich ISM Online]], [[Logisnext Lift Link]], [[Powerfleet Forklift Gateway]], [[STILL RX 60 Electric Forklift]], [[STILL Safety Assist]] | - | - |
