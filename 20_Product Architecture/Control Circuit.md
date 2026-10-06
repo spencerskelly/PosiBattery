@@ -9,6 +9,12 @@ tags:
   - control
 abstract: true
 reuseScope: cross-product
+dependencyOf:
+  - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[Battery Identification and Charger Communication Software Design]]"
+partOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # Control Circuit
