@@ -14,6 +14,7 @@ describedBy:
 designOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Serial Communication Circuit]]"
 ---
 
 # RS-232 and RS-485 Serial Interface
