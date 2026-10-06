@@ -12,6 +12,8 @@ reuseScope: cross-product
 dependencyOf:
   - "[[Battery Identification and Charger Communication Firmware]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
+  - "[[Battery Voltage Measurement Circuit]]"
+  - "[[Battery Voltage Acquisition Firmware]]"
 partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
