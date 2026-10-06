@@ -43,6 +43,8 @@ Raymond fleet management system with operator assist modules ObjectSense, Fields
 - **Functions performed, with citations:**
   - [[Report Truck Telemetry]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
   - [[Detect and Record Impacts]] (V): <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
+  - [[Estimate State of Health]] (V): <https://www.raymondcorp.com/-/media/raymond/literature/iwarehouse/ibatterysellsheetsipl1030_0513.pdf>
+- Raymond's iBATTERY/iWAREHOUSE sell sheet shows an iWAREHOUSE Gateway battery state-of-health dashboard and a Battery Cycles Detail chart that lists contributors such as over/under-discharge, water level and other critical factors; the collected data also includes capacity/efficiency, current, temperature, SOC, water level and fault codes. Source: Raymond iBATTERY sell sheet (T1), retrieved 2026-10-06. <https://www.raymondcorp.com/-/media/raymond/literature/iwarehouse/ibatterysellsheetsipl1030_0513.pdf>
 - The options sheet says iWAREHOUSE telematics shows key and deadman hours, fault codes and impact data. Source: Raymond options sell sheet (T1), retrieved 2026-10-03. <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-stand-up-counterbalanced-options-sell-sheet.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
