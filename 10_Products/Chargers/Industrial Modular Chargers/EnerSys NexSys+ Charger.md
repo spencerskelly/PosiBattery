@@ -24,6 +24,7 @@ performs:
   - "[[Equalize Battery on Schedule]]"
   - "[[Identify Battery to Charger]]"
 hasDesign:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
   - "[[Modular Power Modules]]"
   - "[[Outdoor-Rated Charger Enclosure]]"
   - "[[Dual-Cable and Parallel Charging Configuration]]"
@@ -34,6 +35,7 @@ madeBy:
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
 hasPart:
+  - "[[Desulfation Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[EnerSys NexSys TPPL Battery]]"
 ---
@@ -86,6 +88,8 @@ EnerSys programmable modular high-frequency charger for mixed lead and lithium f
 - The NexSys+ charger manuals list the same profile code family as IMPAQ (P07, P19, P21, P22, P25, P29, P30, P31), with a unique profile for NexSys TPPL, chemistry coverage of TPPL, flooded and gel, a weekly equalize, an opportunity option, an external START/STOP and EQUALIZE input and refresh charging. Source: EnerSys NexSys+ charger owner's manuals (T1), retrieved 2026-10-03. <https://www.enersys.com/4aefff/globalassets/documents/product-documentation/nexsys/_multi/emea/emea-en-om-nex-plch-1022.pdf>
 
 - **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
+
+- **Architecture realization — desulfation:** published product behavior explicitly includes a desulfation cycle/profile. [[Lead-Acid Desulfation Charge Control Design]] is therefore allocated directly; [[Desulfation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because profile execution requires controller logic while the internal software partition is unpublished. No proprietary waveform or dedicated desulfation hardware is assumed.
 
 ## Aliases
 
