@@ -47,6 +47,7 @@ hasDesign:
   - "[[CAN Battery State Communication Design]]"
   - "[[Wireless Battery Data Communication Design]]"
   - "[[Cloud Battery Data Upload Design]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -61,6 +62,7 @@ hasPart:
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[Battery-Charger Communication Firmware]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
@@ -169,6 +171,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
 
 - **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
 
 ## Aliases
 
