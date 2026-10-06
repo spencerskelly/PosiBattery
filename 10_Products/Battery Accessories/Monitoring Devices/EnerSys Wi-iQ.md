@@ -52,6 +52,7 @@ hasDesign:
   - "[[Mobile App Interface]]"
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
+  - "[[Equalization Event Tracking Design]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -204,6 +205,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — state of charge:** [[State of Charge Estimation Firmware]] is allocated at **>=95% engineering confidence** because this product locally acquires battery measurements and reports/uses SOC. The exact algorithm is not published, so no voltage-only, coulomb-counting, or hybrid child Design is selected.
 
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 ## Aliases
 
