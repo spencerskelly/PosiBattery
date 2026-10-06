@@ -21,6 +21,7 @@ partOf:
   - "[[EnerSys Wi-iQ]]"
 dependencyOf:
   - "[[Vehicle Operating Limit Command Firmware]]"
+  - "[[CAN Deep Discharge Shutdown Logic]]"
   - "[[PosiCharge PosiGuard]]"
 ---
 
