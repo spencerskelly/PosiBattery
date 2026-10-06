@@ -34,6 +34,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Ambient Temperature Sensor]] | [[AMETEK Prestolite Power WBID Pro]] | - | - |
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
+| [[Battery Status Gauge]] | [[Access Control Group CellVue]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
 | [[BMS Internal Temperature Sensing]] | [[Green Cubes SAFEFlex Battery]] | - | - |
@@ -93,7 +94,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[LoRa Interface]] | [[PosiCharge PosiGuard]] | - | - |
 | [[Low-Current Electrolyte Level Input]] | [[HOPPECKE trak collect]] | - | - |
 | [[Local Low Electrolyte Alert]] | [[Crown Battery Acid Indicators]], [[Flow-Rite Eagle Eye Elite IV]], [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
-| [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Crown V-HFM3 Tower Light Kit]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[Flow-Rite Eagle Eye Elite IV]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Crown V-HFM3 Tower Light Kit]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[Flow-Rite Eagle Eye Elite IV]], [[Fronius TagID]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Magnetic Field Detection Sensor]] | [[Raymond iWAREHOUSE Fieldsense]] | - | - |
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
 | [[Mid-Battery Voltage Tap]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]] | - | - |
@@ -117,6 +118,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Radar Object Sensor]] | [[Oshkosh AeroTech APD Forward Radar and Controller]], [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Crown RC 5700 Series]], [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
+| [[Remote Charger Status Stack Light]] | [[Crown V-HFM3 Tower Light Kit]], [[PosiCharge Three-Color Stack Light]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Seat Belt Interlock]] | [[STILL EasyBelt]] | - | - |
 | [[Shuntless Current Sensing]] | [[Access Control Group CellTrac]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac Monitor]] | - | - |
