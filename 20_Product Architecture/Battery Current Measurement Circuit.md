@@ -15,6 +15,13 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 partOf:
+  - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
+  - "[[Access Control Group CellTrac]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Exide Motion+ EasyMonitor]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Power Designers PowerTrac DT3]]"
+  - "[[Power Designers PowerTrac SP+]]"
   - "[[PosiCharge PosiGuard]]"
 dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
@@ -38,5 +45,6 @@ Reusable hardware family for measuring battery charge and discharge current and 
 - The concrete sensing method remains a product-specific choice.
 - [[Control Circuit]] provides acquisition and control infrastructure but is not the sensing element itself.
 - [[PosiCharge PosiGuard]] is publicly documented as measuring battery current, so some member of this family is assigned at >=95% confidence; the exact sensor topology is unknown.
+- The products added for amp-hour accumulation are allocated this generic circuit role at **>=95% engineering confidence** because they explicitly combine electronic current sensing/monitoring with accumulated Ah values; product-specific sensing Designs remain authoritative where known.
 
 ## Former ids
