@@ -148,3 +148,5 @@ Each row is a dependency where at least one product that performs the function h
 | [[Adapt Charge to Battery Condition]] | [[Adaptive Charge Profile Control Design]] | implementation review | strong | Fronius explicitly adapts charge from effective internal resistance and EnerSys IMPAQ adapts using diagnostic current-loop behavior | requires battery-condition evaluation plus charge-profile control driving the charger power stage |
 
 | [[Compensate Charge for Battery Temperature]] | [[Temperature-Compensated Charge Control Design]] | implementation review | strong | many chargers explicitly adjust charge behavior from battery temperature using direct sensors or communicated monitor/BMS temperature | requires a temperature source plus charger-side compensation logic driving the charger power stage |
+
+| [[Complete Missed Equalization Automatically]] | [[Missed Equalization Recovery Design]] | implementation review | strong | Power Designers explicitly states that missed equalization is automatically completed on a later charge cycle and continued until finished | requires equalization history/state tracking plus persistent recovery scheduling/control logic |
