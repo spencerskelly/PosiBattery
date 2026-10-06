@@ -8,6 +8,8 @@ tags:
   - customer-role
   - actor
   - role-source-implied
+hasNeed:
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Dealer Sales Representative
