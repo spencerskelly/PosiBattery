@@ -1,7 +1,7 @@
 ---
 type: Object
 subtype: component
-id: OBJ-90041
+id: OBJ-90903
 uid: 20261006060500004skellyspencer
 status: Draft
 tags:
@@ -30,3 +30,5 @@ Thermistor sensing element whose resistance varies with temperature and is read 
 - Exact thermistor type, resistance curve, package, supplier, and part number are not established by the public source.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate OBJ-90041; duplicate value is intentionally not reserved here.
