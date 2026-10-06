@@ -19,6 +19,7 @@ hasPart:
   - "[[Battery Discharge Indicator Module]]"
   - "[[Operator Display Controller Circuit]]"
 performs:
+  - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
 ---
 
@@ -26,7 +27,7 @@ performs:
 
 ## Definition
 
-Reusable vehicle-side HMI assembly that receives battery or truck state and presents it to the operator.
+Reusable vehicle-side HMI assembly that receives battery, vehicle, diagnostic, or subsystem state and presents it to the operator.
 
 ## Notes
 
