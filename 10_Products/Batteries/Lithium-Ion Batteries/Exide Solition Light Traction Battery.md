@@ -17,6 +17,7 @@ performs:
   - "[[Communicate with Charger]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
+  - "[[Battery-Charger Data Communication Design]]"
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
@@ -41,6 +42,8 @@ Exide lithium-ion battery for cleaning machines, pallet trucks and wheelchairs, 
   - [[Communicate with Charger]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
