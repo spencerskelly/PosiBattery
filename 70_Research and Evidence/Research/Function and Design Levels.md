@@ -78,6 +78,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Fuel Cell Power Design]]**: [[Fuel Cell Hybrid Power Stage]], [[Hydrogen Storage Tank]], [[Onboard Fuel Level Gauge]]
 - **[[Low Electrolyte Alert Design]]**: [[Communicated Watering Need Alert]], [[Local Low Electrolyte Alert]]
 - **[[Forced Electrolyte Circulation]]**: [[Air Injection Electrolyte Circulation]]
+- **[[Battery Cell Watering Design]]**: [[Charger-Controlled Automatic Watering]], [[Float-Valve Single-Point Watering]], [[Injector Level-Sensing Watering]]
 - **[[Lead-Acid Battery Construction Design]]**: [[Copper Inserted Posts]], [[Extended Watering Interval]], [[Flat Plate Construction]], [[Flexible Bolt-On Intercell Connector]], [[Forced Electrolyte Circulation]], [[Gel Electrolyte]], [[Heavy-Duty Intercell Connectors]], [[Individual Plate Formation]], [[Thin Plate Pure Lead Plates]], [[Tubular Plate Construction]]
 - **[[Object and Proximity Sensing Design]]**: [[LiDAR Object Sensor]], [[Magnetic Field Detection Sensor]], [[Pedestrian Detection Camera]], [[Proximity Tag System]], [[Radar Object Sensor]], [[Stereoscopic Vision Sensor]], [[Ultrasonic Distance Sensor]]
 - **[[Vehicle Control Device Design]]**: [[Active Stability Actuator]], [[Belt-Worn Remote Control]], [[Electric Mast Thrust Drive]], [[Emergency Cut-Off Switch]], [[Fork Laser Guide]], [[Mast Lift Limit Switch]], [[Programmable Motor Controller]], [[Seat Belt Interlock]]
