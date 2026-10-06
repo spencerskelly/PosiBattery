@@ -8,7 +8,7 @@ tags:
   - general-design
   - design-characteristic
 supertypeOf:
-  - "[[Charger Status LED Bar]]"
+  - "[[Local Charger Status Indication]]"
   - "[[Touchscreen Interface]]"
 dependencyOf:
   - "[[Control Charger from Remote Panel]]"
