@@ -93,6 +93,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Hibernation Mode]] | [[Stryten M-Series Li600 Battery]], [[Stryten M-Series Li610 Battery]] | - | - |
 | [[Hydraulic Pressure Load Sensor]] | [[Toyota Load Weight Sensing]] | - | - |
 | [[Hydrogen Storage Tank]] | [[Nuvera PowerEdge]], [[Plug Power GenDrive]] | - | - |
+| [[Impact-Triggered Vehicle Lockout Design]] | [[TLD Aircraft Safety Docking]] | - | - |
 | [[Impact Sensor]] | [[Linde connect]], [[Logisnext Lift Link]], [[Panacea Cam-DVR with Impact Sensors]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Individual Plate Formation]] | [[Deka D-Series Battery]] | - | - |
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
