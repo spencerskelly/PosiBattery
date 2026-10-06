@@ -12,6 +12,8 @@ tags:
 reuseScope: cross-product
 partOf:
   - "[[Single-Point Watering Manifold Assembly]]"
+  - "[[Philadelphia Scientific Stealth Watering System]]"
+  - "[[Flow-Rite Maverick Battery Watering System]]"
 performs:
   - "[[Water Battery Cells]]"
 ---
