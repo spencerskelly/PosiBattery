@@ -31,6 +31,7 @@ performs:
   - "[[Communicate Battery State over CAN]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Remaining Runtime Estimation Design]]"
   - "[[Low-Current Electrolyte Level Input]]"
@@ -43,6 +44,9 @@ hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
   - "[[State of Charge Estimation Firmware]]"
   - "[[Control Circuit]]"
   - "[[Remaining Runtime Estimation Software]]"
@@ -147,6 +151,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** stated by the source: connects to [[Truck Controller and CAN Bus]] (links to the vehicle over LIN and battery bus) | typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — remaining runtime:** HOPPECKE explicitly publishes remaining-driving-time information generated from processed battery data. [[Remaining Runtime Estimation Design]] and [[Remaining Runtime Estimation Software]] therefore capture the estimation role. The exact algorithm and input weighting are not published.
+
+- **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
