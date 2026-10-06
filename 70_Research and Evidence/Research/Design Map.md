@@ -204,4 +204,5 @@ Matrix of design characteristics against the products that use them, split by ev
 
 | [[Battery Temperature Reporting to Charger]] | [[PosiCharge BMID]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[Fronius TagID]], [[AMETEK Prestolite Power BID]], [[AMETEK Prestolite Power BID with Ah Accumulator]], [[Crown V-Force BMID]] | - | - |
 
+| [[Pre-Shift Checklist Enforcement Design]] | [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]] | - | - |
 | [[Operator Access Authorization Design]] | [[Toyota PIN Code Access Pad]], [[Panacea Smart Start]], [[Crown InfoLink]] | - | - |
