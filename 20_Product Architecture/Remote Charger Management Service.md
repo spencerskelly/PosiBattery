@@ -13,6 +13,9 @@ reuseScope: cross-product
 hasDesign:
   - "[[Remote Charger Management Design]]"
 performs:
+partOf:
+  - "[[ACT ACTview]]"
+  - "[[PosiCharge SkyLink]]"
   - "[[Manage Chargers Remotely]]"
 ---
 
