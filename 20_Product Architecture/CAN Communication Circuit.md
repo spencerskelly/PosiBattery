@@ -15,6 +15,8 @@ hasPart:
   - "[[CAN Transceiver]]"
 hasDesign:
   - "[[CAN Interface]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
 ---
 
 # CAN Communication Circuit
