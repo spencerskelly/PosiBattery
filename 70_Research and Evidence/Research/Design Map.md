@@ -193,3 +193,5 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Battery Event and Usage Logging Design]] | [[Power Designers PowerTrac 3]], [[HOPPECKE trak collect]], [[EnerSys Wi-iQ]] | - | - |
 
 | [[Wireless Battery Data Communication Design]] | [[PosiCharge PosiGuard]], [[EnerSys Wi-iQ]], [[AMETEK Prestolite Power WBID Pro]], [[Power Designers PowerTrac 3]], [[HOPPECKE trak collect]] | - | - |
+
+| [[Battery-Charger Data Communication Design]] | [[EnerSys NexSys iON Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID]], [[Advanced Charging Technologies BATTview]], [[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac SP+]], [[Stryten inCOMMAND]], [[Exide Solition Light Traction Battery]], [[Crown V-Force BMID]] | - | - |
