@@ -16,6 +16,9 @@ realizedBy:
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Maintenance Technician]]"
+  - "[[Fleet Operations Manager]]"
 ---
 
 # Keep Trucks Working Without Battery Maintenance Labor
