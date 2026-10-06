@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Electronic In-Cell Electrolyte Probe]]"
   - "[[Variable-Length Electrolyte Level Probe]]"
   - "[[Cell-Connector Electrolyte Level Sensing]]"
+  - "[[Low-Current Electrolyte Level Input]]"
 realizes:
   - "[[Sense Electrolyte Level]]"
 dependencyOf:
