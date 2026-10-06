@@ -29,6 +29,8 @@ hasDesign:
   - "[[Cloud Portal Integration]]"
 integratesWith:
   - "[[Raymond iWAREHOUSE]]"
+dependencyOf:
+  - "[[Battery State of Health Analytics Service]]"
 offeredBy:
   - "[[Raymond]]"
 ---
