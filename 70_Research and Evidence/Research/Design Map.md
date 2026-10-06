@@ -213,6 +213,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Truck Telemetry Reporting Design]] | [[Crown InfoLink]], [[Hyster Tracker Telemetry]], [[Powerfleet Forklift Gateway]], [[Toyota MyInsights Telematics]] | - | - |
 | [[Operator Access Authorization Design]] | [[Toyota PIN Code Access Pad]], [[Panacea Smart Start]], [[Crown InfoLink]] | - | - |
 
+| [[BMS-Directed Charge Control Design]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]], [[Exide Motion+ Lithium Charger]] | - | - |
+| [[CAN BMS-Directed Charging]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]] | - | - |
 | [[Adaptive Charge Profile Control Design]] | [[Fronius Selectiva 4.0]], [[EnerSys IMPAQ Charger]] | - | - |
 | [[Ri-Based Adaptive Charging]] | [[Fronius Selectiva 4.0]] | - | - |
 | [[Diagnostic-Loop Adaptive Charging]] | [[EnerSys IMPAQ Charger]] | - | - |
