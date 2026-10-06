@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90004
+id: DES-90904
 uid: 20261006062500001skellyspencer
 status: Draft
 tags:
@@ -32,3 +32,5 @@ Temperature sensing of the air or local environment surrounding the battery or m
 - No concrete circuit subtype is assigned until the sensor technology is established.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90004; duplicate value is intentionally not reserved here.
