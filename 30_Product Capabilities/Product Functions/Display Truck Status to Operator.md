@@ -13,6 +13,7 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle Operator Display Design]]"
 performedBy:
+  - "[[Operator Display Controller Circuit]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Operator Display HMI Firmware]]"
   - "[[Vehicle-Mounted Display Module]]"
