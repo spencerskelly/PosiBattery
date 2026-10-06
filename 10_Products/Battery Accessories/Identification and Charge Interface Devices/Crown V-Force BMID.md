@@ -30,10 +30,14 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Battery-Charger Data Communication Design]]"
   - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Device Configuration and Service Design]]"
+  - "[[PC Service Tool Interface]]"
 hasPart:
   - "[[Electrolyte Level Acquisition Firmware]]"
   - "[[Electrolyte Level Measurement Circuit]]"
   - "[[Low Electrolyte Alert Logic]]"
+  - "[[Device Configuration and Service Firmware]]"
+  - "[[PC Service Tool Software]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -93,6 +97,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 - **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
+
+- **Architecture realization — configuration and service:** published material supports [[Device Configuration and Service Design]] with the specific front-end path [[PC Service Tool Interface]]. [[Device Configuration and Service Firmware]] is allocated at **>=95% engineering confidence** because the internal service-command firmware partition is not published. Transport details remain represented by the product's verified communication interfaces.
 
 ## Aliases
 
