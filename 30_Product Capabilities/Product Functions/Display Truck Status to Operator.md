@@ -11,14 +11,20 @@ tags:
 subtypeOf:
   - "[[Inform Operator of Truck Condition]]"
 dependsOn:
-  - "[[Display Device Design]]"
+  - "[[Vehicle Operator Display Design]]"
 performedBy:
+  - "[[Vehicle Operator Display Assembly]]"
+  - "[[Operator Display HMI Firmware]]"
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Operator Touchscreen Display Module]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
   - "[[Komatsu Operator Presence Sensing System]]"
   - "[[Crown Gena Operating System]]"
   - "[[Linde MT18 Multifunction Display]]"
+realizedBy:
+  - "[[Vehicle Operator Display Design]]"
 realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
@@ -40,7 +46,24 @@ Show the operator the truck's own status, such as diagnostics and warnings, on a
   - [[Komatsu Operator Presence Sensing System]] (V): <https://www.bkforklift.com/uploaded/images/1640141725202112226BR-EX50emi-004.pdf>
   - [[Crown Gena Operating System]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Linde MT18 Multifunction Display]] (V): <https://www.linde-mh.us/content/dam/linde/en/images/products/pallet-trucks/1133-03/Linde_MT18_Spec_Sheet_V2.pdf>
-- **Extra (round 30):** documented for 2 of 10 truck maker groups (20 percent), delivered by devices or software (Display Device Design); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 2 of 10 truck maker groups (20 percent); the implementation dependency has since been refined from the broad [[Display Device Design]] to [[Vehicle Operator Display Design]]. Rule and caveats remain in [[Extra Functions Register]].
+
+## Implementation Allocation
+
+This Function reuses the same vehicle-side HMI architecture as [[Display Battery Status to Operator]]: [[Vehicle Operator Display Design]] -> [[Vehicle Operator Display Assembly]] with [[Operator Display Controller Circuit]], a visible display module, and [[Operator Display HMI Firmware]]. The difference is the **source information**, not necessarily the display hardware.
+
+### Verified implementation paths
+
+- **Crown RC 5700:** [[Vehicle-Mounted Display Module]] presents event codes and Access 1 2 3 diagnostics on the Crown display. The controller/HMI implementation is **>=95% engineering confidence**; the internal vehicle-data transport is not published.
+- **Hangcha A Series:** a verified multi-function dashboard is represented by [[Vehicle-Mounted Display Module]]. Controller and HMI firmware are **>=95% engineering-confidence assumptions**.
+- **Mallaghan SkyBelt:** a verified on-board diagnostics screen is represented by [[Vehicle-Mounted Display Module]]. Controller/HMI internals and data transport are not published.
+- **Crown Gena:** [[Operator Touchscreen Display Module]] plus [[Operator Display HMI Firmware]] presents widgets, safety messages, operating guidance, and truck state on the verified 7-inch touchscreen. No specific internal bus is inferred.
+- **Linde MT18:** [[Vehicle-Mounted Display Module]] plus HMI logic presents hour meter, maintenance state, and internal fault codes; internal electronics and transport are not published.
+- **Komatsu Operator Presence Sensing System:** the interlock state is verified as appearing on the truck display/color monitor. Because the display is not part of the sensing accessory, the system depends on [[Vehicle-Mounted Display Module]] and [[Operator Display HMI Firmware]] rather than containing them.
+
+### Data-source boundary
+
+The display Function does not imply that every source uses CAN. Truck state may originate in a vehicle controller, safety/interlock controller, diagnostics subsystem, sensor controller, or other ECU. No CAN, LIN, Ethernet, serial, or proprietary transport is assigned unless a product source establishes it.
 
 ## Aliases
 
