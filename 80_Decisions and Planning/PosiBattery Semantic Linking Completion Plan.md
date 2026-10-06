@@ -354,3 +354,26 @@ Evidence: `80_Decisions and Planning/Semantic Linking Local Model Review Step 8 
 **Commits:** `6fa95c81`, `77ed4931`, `69295486`.
 
 **Result:** Step 8 complete. The next step is **Step 9 — Review Ports and Item Flows**.
+
+
+---
+
+## Step 9 completion evidence — Ports and Item Flows
+
+Reviewed every first-class Port and Item Flow and their Local Model occurrences.
+
+Results:
+- **2 Ports**, both used contextually in the BMID Local Model;
+- **2 Item Flows**, both used contextually in the BMID Local Model;
+- **4 endpoint occurrences** across **2 local connections**;
+- **2 flow occurrences**, each with valid transmit/receive direction;
+- **0 semantic dead ends**;
+- **0 Step 9 findings**.
+
+No definition-level `interfaces`, `exposes`, `hasFlow`, `transmits`, `receives`, or `exchanges` relationships were added because the existing Local Model already provides the correct contextual semantics. Adding those links at definition level would incorrectly globalize occurrence-specific topology or direction.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Port and Item Flow Review Step 9 0.1.yaml`.
+
+**Commits:** `d2144fea`, `8ab4c966`, `fa35a523`.
+
+**Result:** Step 9 complete. The next step is **Step 10 — Review architecture-to-design links**.
