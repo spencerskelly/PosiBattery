@@ -29,8 +29,11 @@ performs:
   - "[[Detect Voltage Imbalance]]"
   - "[[Track Equalization]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Cellular Communication Interface]]"
   - "[[Cloud Portal Integration]]"
+hasPart:
+  - "[[Remote Alert Notification Service]]"
 offeredBy:
   - "[[Hyster-Yale]]"
 poweredBy:
@@ -81,6 +84,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cloud Portal Integration]] (V): <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Sources used for the mapping above:** Trade press listing (undated) <https://refrigeratedfrozenfood.com/articles/91289-forklift-battery-management-solution-monitors-health-usage>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Hyster explicitly publishes email alerts for high temperature, overdue equalization, deep discharge, electrolyte high/low and imbalance. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
 ## Aliases
 
