@@ -30,8 +30,8 @@ Register of which designs each function depends on, with the basis for each depe
 | Function | Design or class | Basis | Strength | Gap handling | Why |
 |---|---|---|---|---|---|
 | [[Display Battery Status to Operator]] | [[Display Device Design]] | owner-stated example | strong | sources do not name the display | owner example: displaying state of charge depends on a display |
-| [[Alert on Low Electrolyte Level]] | [[Battery Sensor Element Design]], [[Indicator and Alarm Design]] | owner-stated example | strong | owner example (a level sensor); Crown Battery Acid Indicators are visual indicators without a named sensor | owner example: a low water alert depends on a water level sensor; the probe is the only level-sensing design found so far, so the dependency sits on it (generalize when a second appears); retargeted to the design class in round 28 because sources name different or no implementations |
-| [[Sense Electrolyte Level]] | [[Battery Sensor Element Design]] | analyst inference (necessity) | weak | sources do not name the sensing element; class is broad because only the capacitive probe is modeled | needs a level sensing element; only one design found so far; retargeted to the design class in round 28 because sources name different or no implementations |
+| [[Alert on Low Electrolyte Level]] | [[Electrolyte Level Sensing Design]], [[Indicator and Alarm Design]] | owner-stated example | strong | many products identify a low-level indication but not the sensing principle | a low-water alert needs both an electrolyte-level sensing implementation and an indication/alarm path |
+| [[Sense Electrolyte Level]] | [[Electrolyte Level Sensing Design]] | analyst inference (necessity) | strong | many products state level sensing without publishing the physical principle | needs an electrolyte-level sensing implementation; verified implementations now include capacitive, electronic in-cell, variable-length probe, cell-connector, and low-current input approaches |
 | [[Indicate Battery Status Locally]] | [[Warning and Display Device Design]] | analyst inference (necessity) | strong | sources do not name the indicator | needs either an indicator or a display |
 | [[Alert on Abnormal Condition]] | [[Warning and Display Device Design]] | analyst inference (necessity) | strong | sources do not name the device | needs a way to signal the condition |
 | [[Alert Operator of Hazards]] | [[Warning and Display Device Design]] | analyst inference (necessity) | strong | sources do not name the device | needs a light, sound or display |
@@ -87,7 +87,7 @@ Each row is a dependency where at least one product that performs the function h
 | [[Adapt Speed to Load and Lift Height]] | [[Vehicle State Sensing Design]] | strong | 3 of 3 | sources do not name the sensing |
 | [[Alert Operator of Hazards]] | [[Warning and Display Device Design]] | strong | 12 of 15 | sources do not name the device |
 | [[Alert on Abnormal Condition]] | [[Warning and Display Device Design]] | strong | 11 of 19 | sources do not name the device |
-| [[Alert on Low Electrolyte Level]] | [[Battery Sensor Element Design]] | strong | 1 of 1 | owner example (a level sensor); Crown Battery Acid Indicators are visual indicators without a named sensor |
+| [[Alert on Low Electrolyte Level]] | [[Electrolyte Level Sensing Design]] | strong | products without a concrete child Design remain intentionally on the general family | sources often identify the alert but not the sensor implementation |
 | [[Charge Under BMS Control]] | [[Integrated Battery Management System]] | strong | 5 of 5 | cross-product: chargers perform the function and the design lives on the battery |
 | [[Continue Charging Through Module Fault]] | [[Modular Power Modules]] | typical | 2 of 5 | module count not named in two sources |
 | [[Control Operator Access]] | [[Operator Identification Design]] | strong | 8 of 15 | sources do not name the reader |
@@ -103,7 +103,7 @@ Each row is a dependency where at least one product that performs the function h
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | typical | 18 of 18 | sources do not name the interface |
 | [[Diagnose Vehicle Remotely]] | [[Wireless Interface Design]] | typical | 1 of 2 | TUG ALPHA 1 does not name the interface; TUG Endurance links Bluetooth Interface |
 | [[Restrict Lift When Load Exceeds Limit]] | [[Vehicle State Sensing Design]] | strong | 3 of 3 | sources do not name the sensing |
-| [[Sense Electrolyte Level]] | [[Battery Sensor Element Design]] | weak | 24 of 28 | sources do not name the sensing element; class is broad because only the capacitive probe is modeled |
+| [[Sense Electrolyte Level]] | [[Electrolyte Level Sensing Design]] | strong | performing products without a concrete child Design remain intentionally on the general family | sources often identify electrolyte monitoring without publishing the sensing principle |
 | [[Sense Load Weight and Lift Height]] | [[Vehicle State Sensing Design]] | strong | 6 of 7 | sources do not name the sensing |
 | [[Show Camera View to Operator]] | [[Display Device Design]] | strong | 7 of 8 | sources name the camera option but not the display |
 | [[Stop Vehicle When Operator Is Out of Position]] | [[Operator Presence Sensing Design]] | strong | 10 of 12 | sources name the presence system or seat-leave protection but not the sensing method |
