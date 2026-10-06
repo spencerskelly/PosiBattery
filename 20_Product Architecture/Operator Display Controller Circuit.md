@@ -15,6 +15,9 @@ subtypeOf:
 dependencyOf:
   - "[[Crown Gena Operating System]]"
   - "[[Operator Display HMI Firmware]]"
+performs:
+  - "[[Display Battery Status to Operator]]"
+  - "[[Display Truck Status to Operator]]"
 partOf:
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
