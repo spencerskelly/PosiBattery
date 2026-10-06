@@ -93,7 +93,7 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Display Device Design]]**: [[Battery Status Gauge]], [[Integrated LCD Display]], [[Vehicle Operator Display Design]]
     - **[[Vehicle Operator Display Design]]**: [[Battery Discharge Indicator]], [[Operator Touch Display]], [[Vehicle-Mounted Display]]
   - **[[Indicator and Alarm Design]]**: [[Aircraft Proximity Indicator Light]], [[Audible Alarm]], [[Floor-Projected Warning Light]], [[Interactive Warning Vest]], [[Local LED Indicator]]
-- **[[Wired Interface Design]]**: [[CAN Interface]], [[CAN Vehicle Operating Limit Command]], [[CAN-LIN and Battery Bus Interface]], [[DC-Cable Power-Line Communication]], [[Infrared Data Port]], [[RS-232 and RS-485 Serial Interface]], [[USB Data Download]]
+- **[[Wired Interface Design]]**: [[CAN Battery State Communication Design]], [[CAN Interface]], [[CAN Vehicle Operating Limit Command]], [[CAN-LIN and Battery Bus Interface]], [[DC-Cable Power-Line Communication]], [[Infrared Data Port]], [[RS-232 and RS-485 Serial Interface]], [[USB Data Download]]
 - **[[Wireless Interface Design]]**: [[900 MHz Industrial Wireless Interface]], [[Bluetooth Interface]], [[Cellular Communication Interface]], [[Light-Triggered Data Upload]], [[LoRa Interface]], [[Mobile App Interface]], [[NFC Interface]], [[Wi-Fi Interface]], [[ZigBee 2.4 GHz Interface]]
 
 **Derived function to design association (general level)**
