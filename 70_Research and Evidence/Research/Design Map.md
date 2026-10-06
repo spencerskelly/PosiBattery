@@ -100,6 +100,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Magnetic Field Detection Sensor]] | [[Raymond iWAREHOUSE Fieldsense]] | - | - |
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
 | [[Mid-Battery Voltage Tap]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]] | - | - |
+| [[Midpoint Voltage Symmetry Detection]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Mobile App Interface]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!core]], [[PosiCharge PosiGuard]] | - | - |
 | [[Modular Power Modules]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Multi-Voltage Output]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[Exide Element HF Charger]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]] | - | - |
