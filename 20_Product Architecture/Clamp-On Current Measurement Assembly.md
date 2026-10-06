@@ -12,7 +12,7 @@ reuseScope: cross-product
 subtypeOf:
   - "[[Battery Current Measurement Circuit]]"
 hasPart:
-  - "[[Clamp-On Current Sensor Module]]"
+  - "[[Conductor-Mounted Current Sensor Module]]"
 hasDesign:
   - "[[Split-Core Current Sensor]]"
 ---
