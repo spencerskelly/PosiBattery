@@ -13,7 +13,10 @@ realizedBy:
   - "[[Limit Truck Speed Automatically]]"
 participants:
   - "[[Site Safety Manager]]"
+  - "[[Pedestrian Near Trucks]]"needOf:
+  - "[[Site Safety Manager]]"
   - "[[Pedestrian Near Trucks]]"
+
 ---
 
 # Keep Trucks Slow in Hazardous Zones
