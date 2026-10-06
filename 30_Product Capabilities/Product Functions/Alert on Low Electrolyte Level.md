@@ -11,7 +11,7 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Battery Sensor Element Design]]"
+  - "[[Electrolyte Level Sensing Design]]"
   - "[[Indicator and Alarm Design]]"
 performedBy:
   - "[[Crown Battery Acid Indicators]]"
