@@ -29,6 +29,7 @@ hasDesign:
   - "[[Battery-Top Mounting]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 hasPart:
   - "[[Electrolyte Level Acquisition Firmware]]"
   - "[[Electrolyte Level Measurement Circuit]]"
@@ -90,6 +91,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
