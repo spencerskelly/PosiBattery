@@ -2,7 +2,7 @@
 type: Object
 subtype: firmware
 id: OBJ-90125
-uid: 20261006195500002skellyspencer
+uid: 20261006203800006skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -17,13 +17,13 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Wireless Communication Circuit]]"
 performs:
+  - "[[Transmit Battery Data Wirelessly]]"
 partOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[Power Designers PowerTrac 3]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[Transmit Battery Data Wirelessly]]"
 ---
 
 # Wireless Battery Data Communication Firmware
