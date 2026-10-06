@@ -18,6 +18,13 @@ partOf:
 performs:
   - "[[Record Images of Load Handling]]"
 madeBy:
+hasDesign:
+  - "[[Load-Handling Image Capture Design]]"
+hasPart:
+  - "[[Load-Handling Camera Assembly]]"
+  - "[[Load-Handling Image Capture Logic]]"
+  - "[[Load-Handling Image Storage]]"
+  - "[[Load-Handling Image Sensor Module]]"
   - "[[Toyota Material Handling]]"
 ---
 
@@ -46,6 +53,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Forks]]; connects to [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Record Images of Load Handling]] (V): <https://www.toyotaforklift.com/content/dam/tmh/marketing/es/pdf/about-toyota/2025_Toyota%20Assist%20Brochure_Digital.pdf>
+
+- **Architecture realization — load-handling image recording:** Toyota explicitly states that the system captures images before and after each container is handled, supporting [[Load-Handling Image Capture Design]]. The camera assembly, image sensor, capture logic, and persistent storage roles are allocated; the internal electronics/software partition and storage technology remain unpublished.
 
 ## Aliases
 
