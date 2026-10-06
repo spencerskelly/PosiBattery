@@ -22,6 +22,7 @@ supports:
   - "[[Log Battery Events and Usage]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Data Handling Design]]"
+  - "[[Battery Identification and Charger Communication Software Design]]"
 
 ---
 
