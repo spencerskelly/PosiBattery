@@ -15,6 +15,8 @@ hasDesign:
 dependencyOf:
   - "[[Electrolyte Level Acquisition Firmware]]"
 partOf:
+  - "[[Crown V-Force BMID]]"
+  - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[PosiCharge PosiGuard]]"
   - "[[PosiCharge Battery Rx]]"
 performs:
@@ -33,6 +35,6 @@ Reusable electronic circuit family that excites, reads, conditions, or threshold
 - Some simple standalone level indicators may implement the entire decision in hardware without firmware.
 - More capable battery monitors can pass the conditioned signal to [[Electrolyte Level Acquisition Firmware]].
 - Exact resistor networks, comparators, ADCs, oscillators, excitation voltages, and protection components remain product-specific unless evidence establishes them.
-- Allocation to [[PosiCharge PosiGuard]] and [[PosiCharge Battery Rx]] is an **>=95% engineering-confidence assumption**: both products publicly monitor electrolyte/water level electronically, but their internal sensor-input circuitry is not published.
+- Allocation to [[PosiCharge PosiGuard]], [[PosiCharge Battery Rx]], [[Philadelphia Scientific SmartBlinky Pro]], and [[Crown V-Force BMID]] is an **>=95% engineering-confidence assumption**: each product electronically senses electrolyte/water level, but the internal sensor-input circuitry is not published.
 
 ## Former ids
