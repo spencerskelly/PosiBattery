@@ -14,6 +14,12 @@ supertypeOf:
   - "[[PC Service Tool Interface]]"
 designOf:
   - "[[Device Configuration and Service Firmware]]"
+  - "[[Crown V-Force BMID]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[PosiCharge PosiConnect]]"
+  - "[[Fronius TagID]]"
+  - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Configure Device from Mobile App or PC]]"
 dependencyOf:
