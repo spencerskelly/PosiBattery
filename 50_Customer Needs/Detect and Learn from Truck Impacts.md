@@ -17,6 +17,9 @@ participants:
   - "[[Fleet Operations Manager]]"needOf:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Site Safety Manager]]"
+  - "[[Fleet Operations Manager]]"
 
 ---
 
