@@ -6,6 +6,12 @@ status: "Complete"
 product_family: "PosiCharge BMID"
 
 direct_realization_links:
+  - function: "Measure Battery Voltage"
+    realizedBy:
+      - "Battery Voltage Measurement Design"
+    inverse_persisted: true
+    assessment: "Post-completion architecture allocation: terminal voltage measurement is realized by a reusable voltage-measurement design family with circuit and acquisition-firmware performers. Exact product topology remains intentionally unselected."
+
   - function: "Identify Battery to Charger"
     realizedBy:
       - "Battery Identification and Charger Communication Software Design"
@@ -47,9 +53,6 @@ existing_design_dependencies:
 
 open_design_gaps:
 
-  - function: "Measure Battery Voltage"
-    gap: "No existing specific voltage-measurement Design is selected in the governed model."
-    decision: "Do not substitute a nearby sensing design."
 
   - function: "Estimate State of Charge"
     gap: "No existing specific SOC-estimation Design is selected in the governed model."
@@ -63,10 +66,10 @@ traceability_rules_applied:
   - "Unsupported architecture choices remain explicit gaps."
 
 integrity:
-  new_direct_realization_pairs: 3
+  new_direct_realization_pairs: 4
   new_direct_realization_inverses_synchronized: true
   existing_design_dependencies_reused: 4
-  explicit_design_gaps_recorded: 2
+  explicit_design_gaps_recorded: 1
   speculative_links_added: 0
 
 next_step:
@@ -76,4 +79,9 @@ next_step:
 post_completion_revision:
   date: "2026-10-05"
   change: "Resolved Identify Battery to Charger implementation gap with Battery Identification and Charger Communication Software Design plus reusable Control Circuit / communication-interface architecture."
-  remaining_open_design_gaps: 2
+  remaining_open_design_gaps: 1
+
+post_completion_revision_voltage_measurement:
+  date: "2026-10-05"
+  change: "Resolved Measure Battery Voltage implementation gap with Battery Voltage Measurement Design and reusable circuit/firmware solution family."
+  selected_product_topology: "Unresolved by design; product links remain at the generic voltage-measurement family."
