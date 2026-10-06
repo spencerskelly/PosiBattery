@@ -44,6 +44,7 @@ hasDesign:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Bluetooth Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
+  - "[[Battery Voltage Measurement Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -60,6 +61,8 @@ applies:
 hasPart:
   - "[[Control Circuit]]"
   - "[[Battery Identification and Charger Communication Firmware]]"
+  - "[[Battery Voltage Measurement Circuit]]"
+  - "[[Battery Voltage Acquisition Firmware]]"
 ---
 
 # PosiCharge BMID
