@@ -21,6 +21,8 @@ realizes:
   - "[[Report Battery Temperature to Charger]]"
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
+dependencyOf:
+  - "[[Hybrid State of Charge Estimation]]"
 ---
 
 # Electrolyte-Immersed Temperature Sensor
