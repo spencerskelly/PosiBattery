@@ -46,6 +46,7 @@ dependencyOf:
   - "[[Impact Lockout Decision Logic]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
   - "[[BMS-Directed Charge Control Firmware]]"
+  - "[[Temperature Compensation Charge Control Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
