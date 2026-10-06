@@ -16,6 +16,9 @@ hasPart:
   - "[[Cell Watering Shutoff Valve]]"
   - "[[Battery Watering Distribution Tubing]]"
 performs:
+partOf:
+  - "[[Philadelphia Scientific Stealth Watering System]]"
+  - "[[Flow-Rite Maverick Battery Watering System]]"
   - "[[Water Battery Cells]]"
 ---
 
