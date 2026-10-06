@@ -18,7 +18,13 @@ performs:
   - "[[Display Truck Status to Operator]]"
   - "[[Indicate Maintenance Due]]"
 hasDesign:
+  - "[[Battery Discharge Indicator]]"
   - "[[Vehicle-Mounted Display]]"
+hasPart:
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Battery Discharge Indicator Module]]"
+  - "[[Operator Display Controller Circuit]]"
+  - "[[Operator Display HMI Firmware]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -50,6 +56,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Display Battery Status to Operator]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
 - **Design characteristics, with citations:**
   - [[Vehicle-Mounted Display]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
+- **Architecture realization — operator battery display:** the multifunction display and battery-discharge indication are verified. [[Vehicle-Mounted Display Module]] and [[Battery Discharge Indicator Module]] capture those physical roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are **>=95% engineering-confidence assumptions**; the source does not publish the internal electronics, software partition, or battery-data transport.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controls and Display]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Display Truck Status to Operator]] (V): <https://www.linde-mh.us/content/dam/linde/en/images/products/pallet-trucks/1133-03/Linde_MT18_Spec_Sheet_V2.pdf>
