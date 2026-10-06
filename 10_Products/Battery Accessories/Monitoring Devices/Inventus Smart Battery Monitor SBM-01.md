@@ -22,10 +22,12 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Communicate Battery State over CAN]]"
 hasDesign:
+  - "[[Vehicle-Mounted Display]]"
   - "[[Battery Status Gauge]]"
   - "[[CAN Interface]]"
   - "[[Panel-Mount Gauge Form Factor]]"
 hasPart:
+  - "[[Vehicle-Mounted Display Module]]"
   - "[[Battery Status Gauge Display Element]]"
   - "[[CAN Communication Circuit]]"
 madeBy:
