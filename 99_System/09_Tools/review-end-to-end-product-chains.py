@@ -283,11 +283,6 @@ if actual_unresolved!=expected_unresolved:
 # architecture decisions in the report.
 supplemental=[
   {
-    "element":"Measure Battery Voltage","stage":"Function -> Design/Architecture",
-    "code":"EXC-ARCH-UNRESOLVED","owner":"BMID product/system architecture",
-    "reason":"No existing specific voltage-measurement Design is selected."
-  },
-  {
     "element":"Estimate State of Charge","stage":"Function -> Design/Architecture",
     "code":"EXC-ARCH-UNRESOLVED","owner":"BMID product/system architecture",
     "reason":"No existing specific SOC-estimation Design is selected."
