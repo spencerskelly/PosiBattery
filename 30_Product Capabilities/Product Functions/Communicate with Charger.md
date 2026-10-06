@@ -28,9 +28,14 @@ performedBy:
   - "[[Stryten inCOMMAND]]"
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Crown V-Force BMID]]"
+  - "[[Battery-Charger Communication Firmware]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+dependsOn:
+  - "[[Battery-Charger Data Communication Design]]"
+realizedBy:
+  - "[[Battery-Charger Data Communication Design]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
@@ -61,7 +66,23 @@ Exchange data with a charger in either direction.
   - [[EnerSys NexSys iON Battery]] (V): <https://www.enersys.com/en/about-us/news/enersys_now_offering_lithium_ion_li_ion_battery_to_global_portfolio_of_power_solutions/>
   - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
   - [[Crown V-Force BMID]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
-- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent); the reusable behavioral realization is now [[Battery-Charger Data Communication Design]].
+
+## Implementation Allocation
+
+The reusable realization is [[Battery-Charger Data Communication Design]] -> [[Battery-Charger Communication Firmware]].
+
+This behavior is intentionally transport-neutral. Depending on product, the battery-to-charger link may use [[DC-Cable Power-Line Communication]], [[CAN Interface]], serial communication, Bluetooth/BLE, ZigBee, proprietary RF, or another concrete communication interface.
+
+[[Battery Identification and Charger Communication Software Design]] is a specialized child for the narrower case where the primary purpose is to provide battery identity and charge-configuration information.
+
+### Product allocation
+
+Products that explicitly exchange data with a charger can be allocated the generic communication Design even when the published source does not reveal the message set. Concrete transport Designs remain separate and are linked only where published.
+
+The reusable firmware role is allocated at **>=95% engineering confidence** only for electronic monitors/BMS products where charger data exchange necessarily requires executable message/session handling and the internal software partition is not published.
+
+This Function does not imply that the battery controls the charger. Directionality and command authority remain product-specific.
 
 ## Aliases
 
