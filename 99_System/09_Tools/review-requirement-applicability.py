@@ -6,6 +6,7 @@ reciprocity, target identity, and family-vs-variant scope consistency.
 Report-only: product-family scope is not expanded onto child offerings unless
 the model has evidence that each child inherits/satisfies the obligation.
 """
+# Governed Step 13 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
