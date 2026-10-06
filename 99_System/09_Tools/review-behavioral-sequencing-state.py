@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 17 behavioral sequencing and state-link review.
 
+Governed Step 17 review entry point.
+
 Reviews State, State Machine, Functional Flow, Function, and Design notes for
 governed sequencing, triggering, ownership, and initial/final-state semantics.
 Report-only: absence of sequence/state modeling is not treated as a defect.
