@@ -47,6 +47,7 @@ hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
+  - "[[Battery-Charger Data Communication Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -67,6 +68,7 @@ hasPart:
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[State of Charge Estimation Firmware]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
+  - "[[Battery-Charger Communication Firmware]]"
   - "[[Battery Temperature Acquisition Firmware]]"
 ---
 
