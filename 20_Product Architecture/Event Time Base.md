@@ -2,7 +2,7 @@
 type: Object
 subtype: component
 id: OBJ-90123
-uid: 20261006193000004skellyspencer
+uid: 20261006203800007skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -13,11 +13,11 @@ reuseScope: cross-product
 dependencyOf:
   - "[[Battery Event Logger Firmware]]"
 performs:
+  - "[[Log Battery Events and Usage]]"
 partOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[HOPPECKE trak collect]]"
   - "[[EnerSys Wi-iQ]]"
-  - "[[Log Battery Events and Usage]]"
 ---
 
 # Event Time Base
