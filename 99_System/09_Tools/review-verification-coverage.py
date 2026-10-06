@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 18 Verification coverage review.
 
+Governed Step 18 review entry point.
+
 Reviews every Verification intent, validates verifies/verifiedBy synchronization,
 checks active Requirement coverage, and distinguishes requirement-level
 verification intent from Function/Design implementation detail and from
