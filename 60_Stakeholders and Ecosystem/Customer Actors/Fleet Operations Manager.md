@@ -8,6 +8,20 @@ tags:
   - customer-role
   - actor
   - role-source-stated
+hasNeed:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
+  - "[[Charge Without a Ventilated Battery Room]]"
+  - "[[Control Who Operates Each Truck]]"
+  - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
+  - "[[Stretch Truck Run Time per Charge]]"
 ---
 
 # Fleet Operations Manager
