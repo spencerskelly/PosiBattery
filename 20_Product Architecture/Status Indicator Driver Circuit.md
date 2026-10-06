@@ -15,9 +15,12 @@ hasDesign:
 hasPart:
   - "[[LED Status Indicator Element]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Indicate Charger Status Locally]]"
 partOf:
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys iQ Mini]]"
   - "[[Exide Motion+ EasyMonitor]]"
