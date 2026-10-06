@@ -53,6 +53,8 @@ applies:
 satisfies:
   - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
 hasPart:
+  - "[[Electrolyte Level Acquisition Firmware]]"
+  - "[[Electrolyte Level Measurement Circuit]]"
   - "[[Control Circuit]]"
   - "[[Battery Identification and Charger Communication Firmware]]"
   - "[[CAN Communication Circuit]]"
@@ -135,5 +137,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Implementation assumption — voltage measurement hardware:** [[Battery Voltage Measurement Circuit]], [[Battery Voltage Acquisition Firmware]], and [[Battery Voltage Measurement Design]] are allocated at >=95% confidence from the published 18–120 V operating range, voltage monitoring, and 30 mV resolution. The internal topology is not published, so none of the concrete child circuits is selected for PosiGuard.
 
 - **Implementation assumption — current measurement hardware:** [[Battery Current Measurement Circuit]], [[Battery Current Acquisition Firmware]], and [[Current Sensing Design]] are allocated at >=95% confidence because PosiGuard publicly specifies current monitoring and 100 mA resolution. The exact sensing topology is not published, so resistive, Hall-effect, split-core, and shuntless implementations remain alternatives rather than selected product architecture.
+
+- **Implementation assumption — electrolyte level sensing:** [[Electrolyte Level Measurement Circuit]] and [[Electrolyte Level Acquisition Firmware]] are allocated at **>=95% engineering confidence** because this product publicly monitors electrolyte/water level electronically. The exact probe technology, input circuit, thresholds, and firmware partition are not published, so no specific child [[Electrolyte Level Sensing Design]] is selected from this evidence alone.
 
 ## Former ids
