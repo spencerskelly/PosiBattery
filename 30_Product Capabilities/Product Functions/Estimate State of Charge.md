@@ -26,10 +26,15 @@ performedBy:
   - "[[EnerSys Truck iQ]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[HOPPECKE trak collect]]"
+  - "[[State of Charge Estimation Firmware]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Inspect Battery Condition Through a BMID]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
+realizedBy:
+  - "[[State of Charge Estimation Design]]"
+supportedBy:
+  - "[[Document - PosiCharge GSE BMID Page]]"
 ---
 
 # Estimate State of Charge
