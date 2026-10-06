@@ -84,6 +84,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Ingress-Protected Drive Components]] | [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Heli G Series Lithium Forklifts]], [[Heli Lithium-Ion Battery]] | - | - |
+| [[In-Cell Specific Gravity Probe]] | [[AMETEK Prestolite Power TruBid]] | - | - |
 | [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Godrej Lithium-Ion Forklift Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]], [[Stryten M-Series Li610 Battery]] | - | - |
 | [[Integrated LCD Display]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Internal Temperature Sensor]] | [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
