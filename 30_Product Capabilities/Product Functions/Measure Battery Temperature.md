@@ -53,6 +53,8 @@ performedBy:
   - "[[Ambient Temperature Sensor Element]]"
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
   - "[[BMS Temperature Sensor Network]]"
+  - "[[Thermistor Temperature Sensor]]"
+  - "[[Thermistor Temperature Measurement Circuit]]"
 realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:
