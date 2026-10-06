@@ -2,7 +2,7 @@
 type: Object
 subtype: assembly
 id: OBJ-90116
-uid: 20261006191500005skellyspencer
+uid: 20261006203800008skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -16,10 +16,10 @@ hasPart:
   - "[[Cell Watering Shutoff Valve]]"
   - "[[Battery Watering Distribution Tubing]]"
 performs:
+  - "[[Water Battery Cells]]"
 partOf:
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Flow-Rite Maverick Battery Watering System]]"
-  - "[[Water Battery Cells]]"
 ---
 
 # Single-Point Watering Manifold Assembly
