@@ -12,6 +12,7 @@ reuseScope: cross-product
 hasDesign:
   - "[[Vehicle-Mounted Display]]"
 partOf:
+  - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
   - "[[Yale ERC050-060VGL]]"
