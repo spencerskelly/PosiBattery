@@ -23,9 +23,13 @@ performs:
   - "[[Equalize Battery on Schedule]]"
 hasDesign:
   - "[[Dual-Cable and Parallel Charging Configuration]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[EnerSys Wi-iQ]]"
 ---
 
@@ -59,6 +63,8 @@ EnerSys charger line described as charging quickly and safely, with units equipp
 | Marks | California Energy Commission compliant; UL certified |
 | Battery compatibility (chart) | flooded lead-acid opportunity and fast charging only |
 - **Related-product note:** the guide ties this charger to the Express battery line, which is not yet modeled (see [[Unidentified Products Review]]).
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
