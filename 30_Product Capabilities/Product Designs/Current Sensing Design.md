@@ -16,6 +16,12 @@ dependencyOf:
   - "[[Measure Battery Current]]"
   - "[[Coulomb Counting State of Charge Estimation]]"
   - "[[Hybrid State of Charge Estimation]]"
+realizes:
+  - "[[Measure Battery Current]]"
+designOf:
+  - "[[Battery Current Measurement Circuit]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Current Sensing Design
