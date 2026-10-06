@@ -58,6 +58,7 @@ hasDesign:
   - "[[CAN Battery State Communication Design]]"
   - "[[Wireless Battery Data Communication Design]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -230,6 +231,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The existing [[Battery-Charger Communication Firmware]] is reused as the communication performer; its allocation remains a **>=95% engineering-confidence** abstraction where the internal software partition is unpublished. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
