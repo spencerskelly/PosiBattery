@@ -12,7 +12,8 @@ from collections import Counter, defaultdict
 import re, yaml
 
 ROOT=Path(__file__).resolve().parents[2]
-REPORT=ROOT/"architecture-design-linking-review.md"\nBMID_TRACE=ROOT/"80_Decisions and Planning"/"BMID Function Design Traceability Step 89 0.1.yaml"
+REPORT=ROOT/"architecture-design-linking-review.md"
+BMID_TRACE=ROOT/"80_Decisions and Planning"/"BMID Function Design Traceability Step 89 0.1.yaml"
 
 def fm(text):
     if not text.startswith("---\n"): return {}
