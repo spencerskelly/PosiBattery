@@ -13,6 +13,13 @@ subtypeOf:
   - "[[Wired Interface Design]]"
 designOf:
   - "[[CAN Battery State Communication Firmware]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Hyster Power Cellect]]"
+  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[HOPPECKE trak collect]]"
 realizes:
   - "[[Communicate Battery State over CAN]]"
 dependencyOf:
