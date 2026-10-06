@@ -16,6 +16,9 @@ supertypeOf:
 designOf:
   - "[[Battery Data Export Firmware]]"
   - "[[PC Battery Data Retrieval Software]]"
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Power Designers PowerTrac DT3]]"
+  - "[[Power Designers PowerTrac SP+]]"
 realizes:
   - "[[Export Battery Data to PC]]"
 dependencyOf:
