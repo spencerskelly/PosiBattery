@@ -85,6 +85,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Mid-Battery Voltage Tap]] (V): <https://www.exidegroup.com/en/product/easymonitor> <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[Wrap-Around Cell Connector Probe]] (V): <https://www.exidegroup.com/en/product/easymonitor>
   - [[Cell-Connector Temperature Sensing]] (V): <https://www.exidegroup.com/en/product/easymonitor>
+  - [[Cell-Connector Electrolyte Level Sensing]] (V): <https://www.exidegroup.com/en/product/easymonitor>
 - **Sources used for the mapping above:** Exide Motion+ EasyMonitor product page <https://www.exidegroup.com/en/product/easymonitor>; Exide Easy Monitor leaflet <https://www.exidegroup.com/en/document/easy-monitor-leaflet>; Exide GNB PRO 2.0 brochure (search excerpt; page returned 404 on direct fetch) <https://exidegroup.com/it/en/document/gnb-pro-20-battery-protection-brochure>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
