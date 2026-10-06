@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 performedBy:
@@ -40,7 +41,10 @@ performedBy:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!c]]"
+  - "[[Wireless Battery Data Communication Firmware]]"
 realizes:
+realizedBy:
+  - "[[Wireless Battery Data Communication Design]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 ---
 
@@ -81,7 +85,21 @@ Send battery data wirelessly to a gateway, app, truck module or charger.
   - [[Exide Motion+ EasyMonitor]] (V): <https://www.exidegroup.com/en/document/easy-monitor-leaflet>
   - [[HOPPECKE trak collect]] (V): <https://www.HOPPECKE.com/fileadmin/Redakteur/Hoppecke-Main/Products-Import/trak_collect_brochure_en.pdf>
   - [[Philadelphia Scientific eGO!c]] (V): <https://www.ipesearch.co.uk/iOT-technology-for-batteries>
-- **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent), delivered by devices or software (Wireless Interface Design); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 2 of 21 battery maker groups (10 percent); [[Wireless Interface Design]] remains the transport-family dependency, while [[Wireless Battery Data Communication Design]] represents the application behavior.
+
+## Implementation Allocation
+
+The reusable realization is [[Wireless Battery Data Communication Design]] -> [[Wireless Battery Data Communication Firmware]].
+
+[[Wireless Interface Design]] and the selected descendant of [[Wireless Communication Circuit]] provide the radio/interface transport. The firmware selects battery data, serializes or frames it, and manages transmission to a charger, gateway, mobile device, truck module, or network peer.
+
+The realization is intentionally transport-neutral. Products may use BLE/Bluetooth, ZigBee, 900 MHz industrial RF, LoRa, Wi-Fi, cellular, or proprietary radio while sharing the same higher-level data-transmission role.
+
+### Evidence boundary
+
+A published wireless capability is sufficient to allocate the generic communication Design when the product explicitly sends battery information wirelessly. Specific radio circuits are allocated only where the radio technology is known. Internal firmware partitions remain **>=95% engineering-confidence abstractions** unless published.
+
+Cloud upload remains a separate Function because a wireless link can terminate locally without reaching a cloud service.
 
 ## Aliases
 
