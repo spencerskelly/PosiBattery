@@ -8,6 +8,9 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: datasheet
+sourceUrl: "https://www.rjbatt.com.au/media/somkvf25/summit-series-ii_1425w_v2_data-sheet_060223.pdf"
+sourceRevision: "06-2023"
 describes:
   - "[[Lester Summit Series II]]"
   - "[[Lester Electrical]]"
