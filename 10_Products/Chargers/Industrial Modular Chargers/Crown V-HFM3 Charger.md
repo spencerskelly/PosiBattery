@@ -24,9 +24,11 @@ hasDesign:
   - "[[Modular Power Modules]]"
   - "[[Charger Status LED Bar]]"
   - "[[Remote Charger Management Design]]"
+  - "[[Wired Remote Charger Control Design]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
   - "[[Charger Remote Management Agent]]"
+  - "[[Remote Charger I-O Expansion Board]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -93,6 +95,8 @@ Crown V-Force modular charger for lead-acid and lithium-ion batteries that ident
   - [[Compensate Charge for Battery Temperature]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
 
 - **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
+
+- **Architecture realization — wired remote panel:** the V-HFM3 supports the optional [[Crown V-HFM3 Wired Remote Control Kit]]. [[Wired Remote Charger Control Design]] and the charger-side [[Remote Charger I-O Expansion Board]] capture the interface needed for the remote accessory; the remote panel itself remains part of the accessory kit rather than the charger base unit.
 
 ## Aliases
 
