@@ -12,6 +12,8 @@ tags:
   - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
+describedBy:
+  - "[[Document - PosiCharge PosiConnect Product Page]]"
 performs:
   - "[[Configure Device from Mobile App or PC]]"
 madeBy:
