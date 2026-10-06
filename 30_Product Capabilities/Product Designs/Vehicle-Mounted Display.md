@@ -25,11 +25,11 @@ designOf:
 
 ## Definition
 
-Display mounted on the vehicle, powered from the truck, showing battery data.
+Display mounted on the vehicle and powered from the vehicle, presenting battery, vehicle, diagnostic, camera, or other operator information.
 
 ## Notes
 
-- Stated for EnerSys Truck iQ.
+- This Design captures vehicle-mounted display placement and does not constrain the content to battery data.
 - Product links are made only where a source states it. This note records a design characteristic found in products, not a decision by us. Overview: [[Design Map]].
 - No Requirement is linked and nothing is satisfied; see the note on Functions for why.
 - **Sources** (product, evidence level, web page):
