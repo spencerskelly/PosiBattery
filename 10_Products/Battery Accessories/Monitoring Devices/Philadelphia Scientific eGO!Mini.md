@@ -27,6 +27,8 @@ hasDesign:
   - "[[Audible Alarm]]"
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
