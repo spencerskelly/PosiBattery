@@ -6,6 +6,12 @@ status: "Complete"
 product_family: "PosiCharge BMID"
 
 direct_realization_links:
+  - function: "Identify Battery to Charger"
+    realizedBy:
+      - "Battery Identification and Charger Communication Software Design"
+    inverse_persisted: true
+    assessment: "Post-completion architecture allocation: battery identification is realized by firmware/software running on a Control Circuit and using a selected wired or wireless Communication Interface Circuit. Product-internal implementation is an explicitly documented >=95% engineering assumption, not a teardown claim."
+
   - function: "Report Battery Temperature to Charger"
     realizedBy:
       - "Electrolyte-Immersed Temperature Sensor"
@@ -40,9 +46,6 @@ existing_design_dependencies:
     assessment: "Existing governed dependency for cloud upload behavior."
 
 open_design_gaps:
-  - function: "Identify Battery to Charger"
-    gap: "No existing specific Design has semantics strong enough to claim it realizes battery identification to the charger."
-    decision: "Leave the Function-to-Design realization open."
 
   - function: "Measure Battery Voltage"
     gap: "No existing specific voltage-measurement Design is selected in the governed model."
@@ -60,12 +63,17 @@ traceability_rules_applied:
   - "Unsupported architecture choices remain explicit gaps."
 
 integrity:
-  new_direct_realization_pairs: 2
+  new_direct_realization_pairs: 3
   new_direct_realization_inverses_synchronized: true
   existing_design_dependencies_reused: 4
-  explicit_design_gaps_recorded: 3
+  explicit_design_gaps_recorded: 2
   speculative_links_added: 0
 
 next_step:
   step: 90
   title: "Build Product Assembly using Local Model"
+
+post_completion_revision:
+  date: "2026-10-05"
+  change: "Resolved Identify Battery to Charger implementation gap with Battery Identification and Charger Communication Software Design plus reusable Control Circuit / communication-interface architecture."
+  remaining_open_design_gaps: 2
