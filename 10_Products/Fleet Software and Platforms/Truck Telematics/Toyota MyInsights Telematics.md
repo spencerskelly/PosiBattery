@@ -15,9 +15,13 @@ performs:
   - "[[Detect and Record Impacts]]"
 hasDesign:
   - "[[Impact Sensor]]"
+  - "[[Truck Telemetry Reporting Design]]"
 madeBy:
   - "[[Toyota Material Handling]]"
 offeredWith:
+hasPart:
+  - "[[Truck Telemetry Acquisition Logic]]"
+  - "[[Truck Telemetry Reporting Service]]"
   - "[[Toyota 3-Wheel Electric Forklift]]"
 ---
 
@@ -38,6 +42,8 @@ Toyota's telematics solution, pre-installed on its three-wheel electric forklift
   - [[Impact Sensor]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
 - Toyota says MyInsights provides visibility into impact events and equipment tracking. Source: Toyota forklift site (T1), retrieved 2026-10-03. <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — truck telemetry:** published behavior establishes vehicle operating data and event reporting to a fleet-management system, supporting [[Truck Telemetry Reporting Design]]. [[Truck Telemetry Acquisition Logic]] and [[Truck Telemetry Reporting Service]] are allocated at **>=95% engineering confidence** where the vendor does not publish the internal software partition. Exact signal sources, CAN/J1939 mapping, buffering, wireless transport, and cloud protocol remain product-specific.
 
 ## Aliases
 
