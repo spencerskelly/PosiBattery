@@ -20,6 +20,11 @@ hasDesign:
   - "[[Battery Voltage Measurement Design]]"
 dependsOn:
   - "[[Control Circuit]]"
+partOf:
+  - "[[PosiCharge BMID]]"
+  - "[[PosiCharge PosiGuard]]"
+dependencyOf:
+  - "[[Battery Voltage Acquisition Firmware]]"
 ---
 
 # Battery Voltage Measurement Circuit
