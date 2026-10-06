@@ -25,7 +25,7 @@ Register of which designs each function depends on, with the basis for each depe
 - **Rule:** depend on the most specific design that every known implementation of the function uses; if the implementations differ, depend on their general design class; if only one implementation is known, depend on that design and flag it for generalizing when a second appears.
 - **Strength (round 28):** strong = the function cannot work without the design or a design in the class, whatever the implementation; typical = the common implementation found, others possible; weak = broad class target because implementations are unknown. **Gap handling** records why a performing product lacks the design link.
 - **Basis:** 'owner-stated example' is the owner's wording; 'analyst inference (necessity)' is engineering logic that the function cannot work without that kind of design. Neither is a vendor claim; the vendor evidence for each product is on the product notes.
-- **Not written (no design note yet):** managing temperature during fast charging, recording images of load handling and illuminating the work area (2026-10-04); voltage and temperature measurement (needs a general temperature sensor design when two are found), stop on operator out of position for seat switches, charging wirelessly, estimating state of charge.
+- **Not written (no design note yet):** managing temperature during fast charging, recording images of load handling and illuminating the work area (2026-10-04); stop on operator out of position for seat switches, charging wirelessly. Battery voltage, battery temperature, and state-of-charge estimation now have reusable Design families.
 
 | Function | Design or class | Basis | Strength | Gap handling | Why |
 |---|---|---|---|---|---|
@@ -39,6 +39,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Indicate Aircraft Proximity to Operator]] | [[Aircraft Proximity Indicator Light]] | analyst inference (necessity) | typical | no gap | only implementation found |
 | [[Show Camera View to Operator]] | [[Display Device Design]] | analyst inference (necessity) | strong | sources name the camera option but not the display | needs a display |
 | [[Measure Battery Current]] | [[Current Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing method | needs a current sensing method |
+| [[Measure Battery Temperature]] | [[Battery Temperature Measurement Design]] | analyst inference (necessity) | strong | many products state temperature measurement without naming sensor technology or locus | needs a temperature sensing implementation; known implementations now include immersed, external thermistor, internal, and ambient sensing |
 | [[Detect Pedestrians and Objects Near Truck]] | [[Object and Proximity Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing element | needs a sensing technology |
 | [[Slow and Stop Near Aircraft]] | [[Object and Proximity Sensing Design]] | analyst inference (necessity) | strong | no gap | needs distance sensing |
 | [[Detect and Record Impacts]] | [[Impact Sensor]] | analyst inference (necessity) | strong | sources do not name the sensor | needs an impact sensor |
@@ -97,6 +98,7 @@ Each row is a dependency where at least one product that performs the function h
 | [[Indicate Battery Status Locally]] | [[Warning and Display Device Design]] | strong | 3 of 18 | sources do not name the indicator |
 | [[Log Battery Events and Usage]] | [[Data Handling Design]] | strong | 16 of 25 | sources do not name the storage |
 | [[Measure Battery Current]] | [[Current Sensing Design]] | strong | 9 of 15 | sources do not name the sensing method |
+| [[Measure Battery Temperature]] | [[Battery Temperature Measurement Design]] | strong | performing products without a concrete child Design remain intentionally on the general family | sources often name temperature behavior but not sensor technology or placement |
 | [[Program Travel, Lift and Tilt Speeds]] | [[Programmable Motor Controller]] | typical | 3 of 5 | sources name modes or electronic control, not a programmable controller |
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | typical | 18 of 18 | sources do not name the interface |
 | [[Diagnose Vehicle Remotely]] | [[Wireless Interface Design]] | typical | 1 of 2 | TUG ALPHA 1 does not name the interface; TUG Endurance links Bluetooth Interface |
