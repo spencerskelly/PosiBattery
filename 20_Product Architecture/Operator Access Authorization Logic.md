@@ -2,7 +2,7 @@
 type: Object
 subtype: firmware
 id: OBJ-90133
-uid: 20261006212000002skellyspencer
+uid: 20261006203800002skellyspencer
 status: Draft
 tags:
   - reusable-architecture
@@ -15,11 +15,11 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Control Operator Access]]"
 partOf:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[Panacea Smart Start]]"
   - "[[Crown InfoLink]]"
-  - "[[Control Operator Access]]"
 ---
 
 # Operator Access Authorization Logic
