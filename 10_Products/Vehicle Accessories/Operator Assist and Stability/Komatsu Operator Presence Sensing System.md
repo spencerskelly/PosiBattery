@@ -16,6 +16,9 @@ subtypeOf:
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Display Truck Status to Operator]]"
+dependsOn:
+  - "[[Vehicle-Mounted Display Module]]"
+  - "[[Operator Display HMI Firmware]]"
 madeBy:
   - "[[Komatsu]]"
 offeredWith:
@@ -53,6 +56,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Mast]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Drive and Brakes]]. See [[Truck Part Connection Register]].
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Display Truck Status to Operator]] (V): <https://www.bkforklift.com/uploaded/images/1640141725202112226BR-EX50emi-004.pdf>
+
+- **Architecture realization — truck status display:** Komatsu's operator-presence interlock state is explicitly shown on the truck display/color monitor. Because the display belongs to the truck rather than to the sensing-system accessory, this note **depends on** [[Vehicle-Mounted Display Module]] and [[Operator Display HMI Firmware]] instead of owning them. The signal path and bus are not published.
 
 ## Aliases
 
