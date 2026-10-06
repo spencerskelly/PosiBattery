@@ -8,10 +8,11 @@ tags:
   - battery-monitoring
   - design-characteristic
 subtypeOf:
-  - "[[Battery Sensor Element Design]]"
+  - "[[Electrolyte Level Sensing Design]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 designOf:
+  - "[[Capacitive Electrolyte Level Sensor Assembly]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Flow-Rite Eagle Eye Essential IV]]"
 ---
