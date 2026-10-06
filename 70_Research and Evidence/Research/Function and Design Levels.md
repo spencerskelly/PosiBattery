@@ -78,7 +78,8 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Deep Discharge Protection Design]]**: [[BMS Discharge Limitation]], [[CAN-Coordinated Deep Discharge Shutdown]], [[Truck Battery Discharge Interlock]]
 - **[[Data Handling Design]]**: [[Battery Abuse Cycle Analytics]], [[Battery Event and Usage Logging Design]], [[Battery Replacement Timing Prediction Design]], [[Cloud Portal Integration]], [[Current Integration Amp-Hour Accumulation]], [[Equalization Event Tracking Design]], [[Non-Volatile Event Memory]], [[Remaining Runtime Estimation Design]], [[Usage-History State of Health Analytics]]
   - **[[Battery Replacement Timing Prediction Design]]**: [[Device-Resident Replacement Forecasting]], [[Fleet-Service Replacement Forecasting]]
-  - **[[Equalization Event Tracking Design]]**: [[Local Equalization Event Classification]], [[Reported Equalization Status Tracking]]
+  - **[[Missed Equalization Recovery Design]]**: depends on [[Equalization Event Tracking Design]] and coordinates later equalization execution
+- **[[Equalization Event Tracking Design]]**: [[Local Equalization Event Classification]], [[Reported Equalization Status Tracking]]
   - **[[Battery Abuse Cycle Analytics]]**: [[Cloud-Based Abuse Cycle Analytics]], [[Device-Resident Abuse Cycle Analytics]]
 - **[[Enclosure and Mounting Design]]**: [[Acid-Resistant Sealed Housing]], [[Breakaway Connector]], [[Ingress-Protected Drive Components]], [[Onboard Charger Mounting]], [[Outdoor-Rated Charger Enclosure]]
 - **[[Fuel Cell Power Design]]**: [[Fuel Cell Hybrid Power Stage]], [[Hydrogen Storage Tank]], [[Onboard Fuel Level Gauge]]
