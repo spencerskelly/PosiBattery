@@ -49,6 +49,8 @@ realizes:
   - "[[Review Battery Care and Warranty Compliance]]"
 satisfies:
   - "[[BMID - Retain Battery-Specific Usage History]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Log Battery Events and Usage
