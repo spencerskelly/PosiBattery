@@ -20,8 +20,10 @@ hasDesign:
   - "[[Outdoor-Rated Charger Enclosure]]"
   - "[[Charger Status LED Bar]]"
   - "[[Multi-Voltage Output]]"
+  - "[[Remote Charger Management Design]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
+  - "[[Charger Remote Management Agent]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredBy:
@@ -48,6 +50,8 @@ ACT NEMA 3R outdoor Quantum charger, also sold as Quantum GSE for ground support
   - [[Outdoor-Rated Charger Enclosure]] (V): <https://og.mhi.org/media/members/41607/133717591287578074.pdf>
   - [[Charger Status LED Bar]] (V): <https://og.mhi.org/media/members/41607/133717591287578074.pdf>
   - [[Multi-Voltage Output]] (V): <https://og.mhi.org/media/members/41607/133717591287578074.pdf>
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
