@@ -123,6 +123,7 @@ classes:
     upstream:
       normal:
         - "performedBy / performs for performer context"
+        - "subtypeOf / supertypeOf for functional specialization where the behavior is intentionally modeled as a reusable hierarchy"
         - "childOf / hasChild for functional decomposition"
         - "realizes / realizedBy when a Use Case is realized by the Function"
         - "satisfiedBy / satisfies when a Requirement or Use Case is fulfilled by the Function"
@@ -132,12 +133,13 @@ classes:
       normal:
         - "realizedBy to implementing Function or Design where supported"
         - "dependsOn for enabling prerequisite/design"
+        - "supertypeOf for specialized child Functions where generalization is the intended reusable structure"
         - "hasChild for sub-functions"
         - "precedes for defined behavioral order"
         - "satisfies for Requirements/Use Cases"
     ownership_use:
       normal:
-        - "performedBy, parent Function, Use Case realization, or explicit generic/platform reuse context"
+        - "performedBy, parent Function, subtypeOf/supertypeOf specialization, Use Case realization, or explicit generic/platform reuse context"
     evidence:
       normal:
         - "verifiedBy"
@@ -243,7 +245,9 @@ classes:
     upstream:
       normal:
         - "designOf / hasDesign for owning Object or Document context"
+        - "subtypeOf / supertypeOf for reusable Design specialization"
         - "realizes / realizedBy from Function"
+        - "dependencyOf when an active Function depends on the Design as an enabling implementation concept"
         - "satisfies Requirements/Use Cases where fulfillment is supported"
         - "appliesTo for scoped design rules/choices"
         - "dependsOn for enabling prerequisites"
@@ -251,12 +255,13 @@ classes:
     downstream:
       normal:
         - "hasChild for design decomposition"
+        - "supertypeOf for specialized child Designs where reusable generalization is the intended structure"
         - "realizes through inverse of Function realizedBy"
         - "satisfies"
         - "triggeredBy / precedes only where design behavior is explicitly modeled"
     ownership_use:
       normal:
-        - "designOf, realizes, appliesTo, or a supported platform/reuse context"
+        - "designOf, realizes, dependencyOf, subtypeOf/supertypeOf specialization, appliesTo, or another supported platform/reuse context"
     evidence:
       normal:
         - "verifiedBy"
