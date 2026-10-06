@@ -20,6 +20,8 @@ designOf:
   - "[[Battery Voltage Measurement Circuit]]"
 supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
+dependencyOf:
+  - "[[State of Charge Estimation Design]]"
 ---
 
 # Battery Voltage Measurement Design
