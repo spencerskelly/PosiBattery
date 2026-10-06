@@ -31,12 +31,17 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Reverse-Polarity Protection]]"
+  - "[[PC Battery Data Export Design]]"
+  - "[[USB Battery Data Export]]"
+  - "[[Wireless PC Data Export]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Amp-Hour Accumulator Firmware]]"
   - "[[Control Circuit]]"
+  - "[[Battery Data Export Firmware]]"
+  - "[[PC Battery Data Retrieval Software]]"
 madeBy:
   - "[[Power Designers]]"
 ---
@@ -87,6 +92,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
+
+- **Architecture realization — PC data export:** the published transfer method supports [[PC Battery Data Export Design]] with [[USB Battery Data Export]] and [[Wireless PC Data Export]]. [[Battery Data Export Firmware]] and [[PC Battery Data Retrieval Software]] are modeled as reusable roles; their exact implementation and application names are not published.
 
 ## Aliases
 
