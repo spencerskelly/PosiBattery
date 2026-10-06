@@ -26,6 +26,8 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Calculate Battery Abuse Cycles]]"
 hasDesign:
+  - "[[Local Abnormal Condition Alert]]"
+  - "[[Remote Exception Notification]]"
   - "[[Hall-Effect Current Sensing]]"
   - "[[Internal Temperature Sensor]]"
   - "[[Split-Core Current Sensor]]"
@@ -34,6 +36,11 @@ hasDesign:
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Light-Triggered Data Upload]]"
 hasPart:
+  - "[[Abnormal Condition Evaluation Logic]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[Audible Alarm Transducer]]"
+  - "[[Remote Alert Notification Service]]"
   - "[[LED Status Indicator Element]]"
   - "[[Integrated Temperature Sensor Element]]"
 madeBy:
@@ -100,6 +107,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The sales sheet says eGO!pro has a precision bi-directional Hall-effect split-core current sensor, measures energy in and out, uploads data through the eGO!cloudlink battery-room gateway, integrates with eGO!alerts, gives audible alerts, and supports light-triggered data upload using a phone torch. Source: PhilSci eGO!pro sales sheet (T1), retrieved 2026-10-02. <https://www.phlsci.com/media/vbohieng/egopro-ssh-ps-us-en-doc0642.pdf>
 - **Verification 2026-10-02:** the seed claims above (split-core current sensor, flooded and VRLA models, alerts, data upload) are re-verified. **Conflict (C22):** the US page gives power as 2 W initial Bluetooth connection and 1.2 W nominal, while the UK page gives 200-24 mA at 24-80 V (radio transmitting) and 100-13 mA (not transmitting). Units and magnitudes differ <https://www.phlsci.co.uk/ego/ego-pro/>.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** eGO!pro explicitly provides local LEDs/audible alerts plus eGO!alerts for topping and out-of-spec use. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence**; alert evaluation location and firmware partition are not published.
 
 ## Aliases
 
