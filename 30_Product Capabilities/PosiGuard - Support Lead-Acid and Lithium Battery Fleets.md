@@ -17,6 +17,8 @@ verifiedBy:
   - "[[Verify PosiGuard Lead-Acid and Lithium Application Support]]"
 satisfiedBy:
   - "[[PosiCharge PosiGuard]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # PosiGuard - Support Lead-Acid and Lithium Battery Fleets
