@@ -10,6 +10,8 @@ tags:
 reuseScope: cross-product
 dependencyOf:
   - "[[Hall-Effect Current Sensing]]"
+partOf:
+  - "[[Magnetic Current Measurement Assembly]]"
 ---
 
 # Hall-Effect Current Sensor
