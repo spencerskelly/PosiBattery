@@ -84,7 +84,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Manage Charging Cables]] | charger | 2 | 18 | 11% | - | 2 | 0 | Extra |
 | [[Equalize Battery on Schedule]] | charger | 4 | 18 | 22% | - | 0 | 0 | Extra |
 | [[Identify Battery by Voltage]] | charger | 4 | 18 | 22% | - | 0 | 0 | Extra |
-| [[Charge Under BMS Control]] | charger | 5 | 18 | 28% | [[Integrated Battery Management System]] | 0 | 0 | Extra |
+| [[Charge Under BMS Control]] | charger | 5 | 18 | 28% | [[BMS-Directed Charge Control Design]] | 0 | 0 | Extra |
 | [[Manage Chargers Remotely]] | charger | 5 | 18 | 28% | [[Remote Charger Management Design]] | 2 | 0 | Extra |
 | [[Charge Battery Conventionally]] | charger | 8 | 18 | 44% | - | 0 | 0 | Extra |
 | [[Charge Battery Fast]] | charger | 8 | 18 | 44% | - | 0 | 0 | Extra |
