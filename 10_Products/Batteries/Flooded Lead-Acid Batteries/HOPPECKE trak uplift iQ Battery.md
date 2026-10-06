@@ -14,6 +14,8 @@ performs:
   - "[[Indicate Battery Status Locally]]"
 hasDesign:
   - "[[Local LED Indicator]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
