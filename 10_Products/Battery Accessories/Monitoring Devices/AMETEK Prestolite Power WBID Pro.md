@@ -25,12 +25,17 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Ambient Temperature Sensor]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[Local LED Indicator]]"
 hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
   - "[[Amp-Hour Counter State Memory]]"
   - "[[LED Status Indicator Element]]"
   - "[[Ambient Temperature Sensor Element]]"
@@ -93,6 +98,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Temperature sensing allocation:** the product explicitly distinguishes electrolyte and ambient temperature sensors, so both Designs are retained. Sensor technology for the ambient channel is not stated and remains intentionally unassigned.
 - **Sources used for the mapping above:** Prestolite WBID Pro page <https://www.prestolitepower.com/products/datadevices/wbid-pro>; Seed note (cites the WBID Pro page for these) <https://www.prestolitepower.com/products/datadevices/wbid-pro>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** this battery-mounted device records amp-hours in/out over long-term battery history. [[Current Integration Amp-Hour Accumulation]] and [[Amp-Hour Accumulator Firmware]] are allocated at **>=95% engineering confidence** because producing persistent Ah-in/out totals requires current integration, while the internal current-sensing topology and firmware partition are not published.
 
 ## Aliases
 
