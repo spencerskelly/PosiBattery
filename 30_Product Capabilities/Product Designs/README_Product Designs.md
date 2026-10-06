@@ -25,6 +25,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 ### Sensing, state, and data
 
+- [[Cell Failure Diagnostic Design]]
 - [[Current Sensing Design]]
 - [[State of Charge Estimation Design]]
 - [[Voltage Imbalance Detection Design]]
