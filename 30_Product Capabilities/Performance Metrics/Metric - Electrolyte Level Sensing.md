@@ -12,6 +12,10 @@ describes:
   - "[[Battery Monitoring and Identification Device]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Electrolyte Level Sensing Design]]"
+  - "[[Low-Current Electrolyte Level Input]]"
+  - "[[Variable-Length Electrolyte Level Probe]]"
+  - "[[Electronic In-Cell Electrolyte Probe]]"
+  - "[[Cell-Connector Electrolyte Level Sensing]]"
   - "[[Capacitive Electrolyte Level Probe]]"
 ---
 
