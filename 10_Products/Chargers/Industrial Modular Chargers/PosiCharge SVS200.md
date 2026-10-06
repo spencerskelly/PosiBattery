@@ -14,6 +14,10 @@ subtypeOf:
 performs:
   - "[[Water Battery Cells]]"
 madeBy:
+hasDesign:
+  - "[[Charger-Controlled Automatic Watering]]"
+hasPart:
+  - "[[Automatic Watering Control Logic]]"
   - "[[PosiCharge]]"
 ---
 
@@ -29,6 +33,8 @@ PosiCharge heavy-duty fast charger for 24 to 96 V with an automatic watering opt
 - The DVS100 page lists the SVS200 as a heavy-duty companion model. Source: PosiCharge DVS100 page (T1), retrieved 2026-10-02. <https://www.posicharge.com/dvs100/>
 - **Functions performed, with citations:**
   - [[Water Battery Cells]] (V): <https://www.posicharge.com/svs200/>
+
+- **Architecture realization — battery watering:** [[Charger-Controlled Automatic Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
 
 ## Aliases
 
