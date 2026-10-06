@@ -893,3 +893,26 @@ Evidence: `80_Decisions and Planning/Semantic Linking True Orphan Review Step 25
 **Validation:** true-orphan workflow `37402110744`, job `112071380018`, success; Vault Audit `37402110812`, job `112071379827`, success.
 
 **Result:** Step 25 complete. The next step is **Step 26 — Resolve weak-traceability findings by priority**.
+
+
+
+---
+
+## Step 26 completion evidence — Weak-traceability closure
+
+Step 26 is complete.
+
+- Legacy comparison metric remains **220 findings across 172 notes** and is intentionally preserved for baseline comparability.
+- Current-use review classifies those weak notes as **5 active engineering**, **47 engineering support**, and **120 reference content**.
+- The governed Step-88/89 active scope contains **6 Designs, 9 Functions, and 6 Requirements**.
+- Active scope has **0 strict Step-2 gaps**, **0 unexplained active weak findings**, and **0 registry findings**.
+- Four previously documented decisions remain `EXC-ARCH-UNRESOLVED`: implementation of `Identify Battery to Charger`, `Measure Battery Voltage`, and `Estimate State of Charge`, plus satisfaction of `BMID - Preserve Battery Association`.
+- Function/Design specialization and Design `dependencyOf` are now recognized by the automated contract, reducing raw matrix findings from **1,085 to 913** without artificial links.
+- Four first-party source-support pairs were added for active/supporting Designs, adding **8 synchronized relationship assertions**.
+- The disposition registry gained **188 reviewed classifications**; the vault now has **235 reviewed classifications**, **0 applicable unexplained findings**, and **0 registry errors**.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Weak Traceability Review Step 26 0.1.yaml`.
+
+Validation: weak-traceability workflow `37405061930` / job `112080666853` passed; Vault Audit `37405061944` / job `112080666977` passed. Related curated-source, high-value-evidence, Function/Design, and Workbench checks also passed.
+
+**Result:** Step 26 complete. The next step is **Step 27 — Run end-to-end product chain audits**.
