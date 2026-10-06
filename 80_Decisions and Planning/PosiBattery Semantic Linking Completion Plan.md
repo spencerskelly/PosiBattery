@@ -501,3 +501,30 @@ Evidence: `80_Decisions and Planning/Semantic Linking Requirement Satisfaction R
 **Validation:** satisfaction workflow `37395704790`, job `112051021177`; Vault Audit `37395705076`, job `112051022064`; both successful.
 
 **Result:** Step 14 complete. The next step is **Step 15 — Review Function ownership and decomposition**.
+
+
+---
+
+## Step 15 completion evidence — Function ownership and decomposition
+
+Reviewed all **129 Functions** for performer ownership, generic/goal decomposition, behavioral specialization, Use Case realization, Requirement satisfaction, and any existing sequence/trigger semantics.
+
+Results:
+- **103 specific Functions**, and **103/103** have at least one Object performer;
+- **26 generic/goal Functions**, all with meaningful decomposition and/or specialization structure;
+- **26 Functions** participate in `hasChild/childOf` decomposition;
+- **123 Functions** participate in `subtypeOf/supertypeOf` specialization;
+- **74 Functions** have Use Case realization context;
+- **4 Functions** directly satisfy Requirements;
+- all **8 active BMID Functions** have synchronized `performedBy` inverses;
+- **0 Step 15 findings**.
+
+No `precedes/follows` or `triggeredBy/triggers` relationships currently exist on Functions. This is not treated as a gap here: sequence and trigger links should only be created when actual behavior supports them, and Step 17 explicitly owns that review.
+
+No Function relationships, IDs, UIDs, or notes were changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Function Ownership Review Step 15 0.1.yaml`.
+
+**Validation:** Function ownership workflow `37396139705`, job `112052435774`, success; Vault Audit `37396139641`, job `112052436041`, success.
+
+**Result:** Step 15 complete. The next step is **Step 16 — Review Function-to-Design realization**.
