@@ -44,7 +44,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Complete Missed Equalization Automatically]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
 | [[Detect Cell Failure]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
 | [[Export Battery Data to PC]] | battery | 0 | 21 | 0% | - | 3 | 2 | Extra |
-| [[Measure Electrolyte Specific Gravity]] | battery | 0 | 21 | 0% | - | 1 | 1 | Extra |
+| [[Measure Electrolyte Specific Gravity]] | battery | 0 | 21 | 0% | [[In-Cell Specific Gravity Probe]] | 1 | 1 | Extra |
 | [[Alert on Low Electrolyte Level]] | battery | 1 | 21 | 5% | [[Electrolyte Level Sensing Design]], [[Low Electrolyte Alert Design]] | 1 | 0 | Extra |
 | [[Calculate Battery Abuse Cycles]] | battery | 1 | 21 | 5% | - | 1 | 0 | Extra |
 | [[Command Vehicle Operating Limits over CAN]] | battery | 1 | 21 | 5% | [[CAN Interface]] | 1 | 0 | Extra |
