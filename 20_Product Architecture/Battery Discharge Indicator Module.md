@@ -12,6 +12,7 @@ reuseScope: cross-product
 hasDesign:
   - "[[Battery Discharge Indicator]]"
 partOf:
+  - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
 dependencyOf:
