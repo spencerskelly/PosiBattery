@@ -20,11 +20,14 @@ performs:
 hasDesign:
   - "[[Silicon-Carbide Power Stage]]"
   - "[[Modular Power Modules]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
 offeredBy:
   - "[[Stryten Energy]]"
 offeredWith:
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Stryten inCOMMAND]]"
 ---
 
@@ -54,6 +57,8 @@ Stryten M-Series modular silicon-carbide charger for lead and lithium forklift b
 - **Conflict-visible (C55):** the earlier page says 24/36/48 V; the 2026 article says the DC range was expanded to 72-96 V. Both are kept as the product's history, not as a disagreement of the same date. Sources: <https://www.stryten.com/motive-power-solutions/m-series-x-7/>; <https://www.nacleanenergy.com/energy-storage/unlocking-fleet-versatility-while-simplifying-charging-infrastructure>.
 - **Functions performed, with citations (article):**
   - [[Compensate Charge for Battery Temperature]] (V): <https://stryten.com/?p=173790>
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
