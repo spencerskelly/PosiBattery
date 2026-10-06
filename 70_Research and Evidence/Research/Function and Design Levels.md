@@ -80,7 +80,8 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Vehicle State Sensing Design]]**: [[Hydraulic Pressure Load Sensor]], [[Impact Sensor]]
   - **[[Operator Presence Sensing Design]]**: [[Light-Beam Compartment Sensor]], [[Operator Presence Pedal]], [[Operator Sensing Floor Mat]]
 - **[[Warning and Display Device Design]]**: 
-  - **[[Display Device Design]]**: [[Battery Status Gauge]], [[Integrated LCD Display]], [[Operator Touch Display]], [[Vehicle-Mounted Display]]
+  - **[[Display Device Design]]**: [[Battery Status Gauge]], [[Integrated LCD Display]], [[Vehicle Operator Display Design]]
+    - **[[Vehicle Operator Display Design]]**: [[Battery Discharge Indicator]], [[Operator Touch Display]], [[Vehicle-Mounted Display]]
   - **[[Indicator and Alarm Design]]**: [[Aircraft Proximity Indicator Light]], [[Audible Alarm]], [[Floor-Projected Warning Light]], [[Interactive Warning Vest]], [[Local LED Indicator]]
 - **[[Wired Interface Design]]**: [[CAN Interface]], [[CAN-LIN and Battery Bus Interface]], [[DC-Cable Power-Line Communication]], [[Infrared Data Port]], [[RS-232 and RS-485 Serial Interface]], [[USB Data Download]]
 - **[[Wireless Interface Design]]**: [[900 MHz Industrial Wireless Interface]], [[Bluetooth Interface]], [[Cellular Communication Interface]], [[Light-Triggered Data Upload]], [[LoRa Interface]], [[Mobile App Interface]], [[NFC Interface]], [[Wi-Fi Interface]], [[ZigBee 2.4 GHz Interface]]
