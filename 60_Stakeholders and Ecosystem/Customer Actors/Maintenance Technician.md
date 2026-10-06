@@ -8,6 +8,12 @@ tags:
   - customer-role
   - actor
   - role-source-stated
+hasNeed:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
+  - "[[Know Battery State Before and During the Shift]]"
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Maintenance Technician
