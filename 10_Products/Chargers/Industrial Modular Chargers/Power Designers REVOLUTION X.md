@@ -13,6 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Power Designers PowerTrac 3 Specification (PDS-PT3 11-2025)]]"
 performs:
+  - "[[Desulfate Battery During Charge]]"
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Fast]]"
@@ -21,6 +22,7 @@ performs:
   - "[[Complete Missed Equalization Automatically]]"
   - "[[Equalize Battery on Schedule]]"
 hasDesign:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
   - "[[Modular Power Modules]]"
   - "[[Multi-Voltage Output]]"
   - "[[Missed Equalization Recovery Design]]"
@@ -32,6 +34,7 @@ rebrandedAs:
 offeredWith:
   - "[[Power Designers PowerTrac 3]]"
 hasPart:
+  - "[[Desulfation Charge Control Firmware]]"
   - "[[Missed Equalization Recovery Firmware]]"
   - "[[Power Designers PowerTrac SP+]]"
 ---
@@ -69,6 +72,8 @@ Power Designers modular high-frequency charger series for conventional, opportun
 - **Commercial relationship note:** `rebrandedAs` records marketed product identity and does not imply product composition or specialization.
 
 - **Architecture realization — missed equalization recovery:** published behavior supports [[Missed Equalization Recovery Design]]. [[Missed Equalization Recovery Firmware]] is allocated at **>=95% engineering confidence** because the automatic carry-forward/recovery behavior requires persistent executable logic while the internal software partition is unpublished. Exact persistence, retry, eligibility, and completion rules remain product-specific.
+
+- **Architecture realization — desulfation:** the vendor's current REVOLUTION material explicitly states a built-in desulfation cycle. [[Lead-Acid Desulfation Charge Control Design]] is therefore evidence-backed; [[Desulfation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is unpublished. No specific pulse/waveform implementation is asserted.
 
 ## Aliases
 
