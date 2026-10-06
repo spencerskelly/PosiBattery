@@ -47,6 +47,12 @@ hasDesign:
   - "[[Mobile App Interface]]"
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[LCD Status Display Module]]"
+  - "[[LCD Display Interface Circuit]]"
+  - "[[Local Status Presentation Firmware]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
@@ -170,6 +176,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Upgrade (2026-10-02):** this makes Wi-iQ a BMID-class device in function: it identifies the battery to EnerSys chargers and enables temperature compensation. The earlier classification under Battery Monitoring Device only understates this; see conflicts C20 and the competitor table.
 - The charger guide says all NexSys+ chargers are Wi-iQ enabled to provide battery type, voltage and capacity data to the charger, and Express chargers are equipped with a Wi-iQ for battery voltage and capacity data. Source: [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]] (T1, local copy; original <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>), absorbed 2026-10-02.
 - Listed in the Logisnext Promatch parts program for Mitsubishi, Cat, Jungheinrich and UniCarriers trucks (2025). Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
+- **Implementation assumption — local status presentation:** the LCD and three LEDs are verified. [[LCD Status Display Module]] and [[LED Status Indicator Element]] therefore represent verified physical output roles; [[LCD Display Interface Circuit]], [[Status Indicator Driver Circuit]], and [[Local Status Presentation Firmware]] are **>=95% engineering-confidence assumptions** because EnerSys does not publish the internal interface/driver/firmware partition.
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
 
 ## Aliases
