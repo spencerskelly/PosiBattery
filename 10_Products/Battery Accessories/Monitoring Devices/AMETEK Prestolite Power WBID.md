@@ -21,10 +21,15 @@ performs:
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[ZigBee 2.4 GHz Interface]]"
   - "[[DC-Cable Power-Line Communication]]"
 hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
   - "[[Amp-Hour Counter State Memory]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
@@ -70,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[DC-Cable Power-Line Communication]] (V): <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>
 - **Sources used for the mapping above:** Prestolite obsolete-products WBID page <https://www.prestolitepower.com/products/obsolete-products/wbid>; Marketwired release via Yahoo Finance (2014, dated) <https://finance.yahoo.com/news/ametek-prestolite-power-launches-wireless-142836825.html>; M H&L New Products (2017, dated) <https://mhlnews.com/new-products/article/22054269/wireless-forklift-battery-monitor-new-products>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** this battery-mounted device records amp-hours in/out over long-term battery history. [[Current Integration Amp-Hour Accumulation]] and [[Amp-Hour Accumulator Firmware]] are allocated at **>=95% engineering confidence** because producing persistent Ah-in/out totals requires current integration, while the internal current-sensing topology and firmware partition are not published.
 
 ## Aliases
 
