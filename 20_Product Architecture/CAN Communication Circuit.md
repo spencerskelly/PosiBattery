@@ -16,6 +16,7 @@ hasPart:
 hasDesign:
   - "[[CAN Interface]]"
 partOf:
+  - "[[Hyster Power Cellect]]"
   - "[[PosiCharge PosiGuard]]"
 ---
 
@@ -29,5 +30,6 @@ CAN physical-layer communication circuit between a controller and an external CA
 
 - A typical implementation includes a CAN transceiver plus controller CAN peripheral, termination/protection as required, and the product connector.
 - The controller peripheral and exact protocol are not asserted here.
+- Allocation to [[Hyster Power Cellect]] is an **>=95% engineering-confidence abstraction** from Hyster's explicit CAN link between the qualified battery and truck; the exact transceiver/controller placement inside the option package is not published.
 
 ## Former ids
