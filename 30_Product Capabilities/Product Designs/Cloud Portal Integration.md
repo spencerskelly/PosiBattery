@@ -12,6 +12,7 @@ subtypeOf:
 dependencyOf:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Remote Alert Notification Service]]"
+  - "[[Battery Abuse Analytics Service]]"
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Crown Battery Health Monitor]]"
