@@ -13,6 +13,9 @@ subtypeOf:
   - "[[Data Handling Design]]"
 designOf:
   - "[[Battery Event Logger Firmware]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[EnerSys Wi-iQ]]"
 realizes:
   - "[[Log Battery Events and Usage]]"
 dependencyOf:
