@@ -117,6 +117,8 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
 | [[Mid-Battery Voltage Tap]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]], [[HOPPECKE trak collect]] | - | - |
 | [[Midpoint Voltage Symmetry Detection]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
+| [[Device Configuration and Service Design]] | [[Crown V-Force BMID]], [[PosiCharge PosiGuard]], [[EnerSys Wi-iQ]], [[PosiCharge PosiConnect]], [[Fronius TagID]], [[HOPPECKE trak collect]] | - | - |
+| [[PC Service Tool Interface]] | [[Crown V-Force BMID]], [[HOPPECKE trak collect]] | - | - |
 | [[Mobile App Interface]] | [[EnerSys Wi-iQ]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!core]], [[PosiCharge PosiGuard]] | - | - |
 | [[Modular Power Modules]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[Crown Battery EVOLUTION Series]], [[Crown V-HFM3 Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]], [[Raymond Red Charger]], [[Stryten X-3 Charger]], [[Stryten X-7 Charger]] | - | - |
 | [[Multi-Voltage Output]] | [[ACT Quantum 2]], [[ACT Quantum 3]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[Exide Element HF Charger]], [[Lester Summit Series II]], [[PosiCharge ProCore Edge]], [[Power Designers REVOLUTION X]] | - | - |
