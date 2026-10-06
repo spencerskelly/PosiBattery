@@ -42,6 +42,7 @@ performs:
   - "[[Communicate with Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Bluetooth Interface]]"
   - "[[Battery Identification and Charger Communication Software Design]]"
