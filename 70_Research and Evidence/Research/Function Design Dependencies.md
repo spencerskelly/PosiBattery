@@ -67,7 +67,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Steer with Electric Power Assist]] | [[Electric Power Steering]] | analyst inference (necessity) | strong | no gap | is the mechanism |
 | [[Cut Power in an Emergency]] | [[Emergency Cut-Off Switch]] | analyst inference (necessity) | strong | no gap | needs a cut-off switch |
 | [[Program Travel, Lift and Tilt Speeds]] | [[Programmable Motor Controller]] | analyst inference (necessity) | typical | sources name modes or electronic control, not a programmable controller | needs a programmable controller |
-| [[Display Truck Status to Operator]] | [[Display Device Design]] | analyst inference (necessity) | strong | no gap | needs a display |
+| [[Display Truck Status to Operator]] | [[Vehicle Operator Display Design]] | analyst inference (necessity) | strong | no gap | needs a display |
 | [[Reduce Speed When Seat Belt Is Unfastened]] | [[Seat Belt Interlock]] | analyst inference (necessity) | strong | no gap | needs a belt interlock |
 | [[Cut Lift at Programmed Height]] | [[Mast Lift Limit Switch]] | analyst inference (necessity) | strong | no gap | needs a limit switch |
 **Withdrawn in round 27 (a source shows another mechanism)**
