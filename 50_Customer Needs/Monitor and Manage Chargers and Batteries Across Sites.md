@@ -15,6 +15,8 @@ realizedBy:
   - "[[Control Charger from Remote Panel]]"
 participants:
   - "[[Fleet Operations Manager]]"
+needOf:
+  - "[[Fleet Operations Manager]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
 ---
