@@ -24,6 +24,8 @@ performs:
 hasDesign:
   - "[[Internal Temperature Sensor]]"
   - "[[Mobile App Interface]]"
+hasPart:
+  - "[[Integrated Temperature Sensor Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
 ---
