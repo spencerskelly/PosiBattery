@@ -95,6 +95,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[LoRa Interface]] | [[PosiCharge PosiGuard]] | - | - |
 | [[Low-Current Electrolyte Level Input]] | [[HOPPECKE trak collect]] | - | - |
 | [[Local Low Electrolyte Alert]] | [[Crown Battery Acid Indicators]], [[Flow-Rite Eagle Eye Elite IV]], [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
+| [[Local Abnormal Condition Alert]] | [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Local LED Indicator]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[Crown Battery Acid Indicators]], [[Crown V-HFM3 Tower Light Kit]], [[Deka HydraSaver Battery]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Exide Motion+ EasyMonitor]], [[Flow-Rite Eagle Eye Essential IV]], [[Flow-Rite Eagle Eye Elite IV]], [[Fronius TagID]], [[HOPPECKE trak collect]], [[HOPPECKE trak uplift iQ Battery]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Magnetic Field Detection Sensor]] | [[Raymond iWAREHOUSE Fieldsense]] | - | - |
 | [[Mast Lift Limit Switch]] | [[Raymond Mast Lift Limit Switch with Bypass]] | - | - |
@@ -108,6 +109,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Onboard Fuel Level Gauge]] | [[Plug Power GenDrive]] | - | - |
 | [[Operator Presence Pedal]] | [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
 | [[Operator Sensing Floor Mat]] | [[Toyota Compartment Sensing System]] | - | - |
+| [[Operator Dashboard Abnormal Alert]] | [[EnerSys Truck iQ]] | - | - |
 | [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Crown ProximityAssist System]], [[EnerSys Truck iQ]], [[Hyster J1.5-3.0UT(L)]] | - | - |
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
@@ -119,6 +121,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Radar Object Sensor]] | [[Oshkosh AeroTech APD Forward Radar and Controller]], [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Crown RC 5700 Series]], [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
+| [[Remote Exception Notification]] | [[Crown Battery Health Monitor]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[Yale Battery Vision]] | - | - |
 | [[Remote Charger Status Stack Light]] | [[Crown V-HFM3 Tower Light Kit]], [[PosiCharge Three-Color Stack Light]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Seat Belt Interlock]] | [[STILL EasyBelt]] | - | - |
