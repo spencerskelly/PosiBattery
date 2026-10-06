@@ -8,6 +8,10 @@ tags:
   - customer-role
   - actor
   - role-source-stated
+hasNeed:
+  - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
+  - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
 ---
 
 # Dealer Service Technician
