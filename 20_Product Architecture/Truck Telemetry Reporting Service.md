@@ -16,12 +16,12 @@ hasDesign:
 dependsOn:
   - "[[Wireless Communication Circuit]]"
 performs:
+  - "[[Report Truck Telemetry]]"
 partOf:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
-  - "[[Report Truck Telemetry]]"
 ---
 
 # Truck Telemetry Reporting Service
