@@ -19,7 +19,11 @@ performs:
 hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Cellular Communication Interface]]"
+  - "[[Cloud Battery Data Upload Design]]"
+  - "[[Gateway-Mediated Cloud Upload]]"
 madeBy:
+hasPart:
+  - "[[Battery Data Gateway Upload Service]]"
   - "[[Philadelphia Scientific]]"
 ---
 
@@ -56,6 +60,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cellular Communication Interface]] (V): <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
 - **Sources used for the mapping above:** PhilSci eGO!gateway page <https://www.phlsci.com/products/ego-battery-performance-monitors/ego-gateway/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — cloud battery upload:** this gateway explicitly receives eGO! monitor data over Bluetooth and forwards it to batterymanagement.net over cellular. It therefore implements both [[Cloud Battery Data Upload Design]] and [[Gateway-Mediated Cloud Upload]], with [[Battery Data Gateway Upload Service]] representing the reusable gateway software role.
 
 ## Aliases
 
