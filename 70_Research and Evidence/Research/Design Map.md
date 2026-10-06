@@ -47,6 +47,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
 | [[Breakaway Connector]] | [[Deka PowerForce Charger]] | - | - |
 | [[CAN Interface]] | [[Deka Ready Power Lithium Battery]], [[EnerSys Wi-iQ]], [[Exide Motion+ Premium Charger]], [[Green Cubes GSE Lithium Battery]], [[Hyster Power Cellect]], [[Inventus Smart Battery Monitor SBM-01]], [[PosiCharge PosiGuard]], [[Stryten M-Series Li600 Battery]] | - | [[PosiCharge BMID 3]] |
+| [[CAN Vehicle Operating Limit Command]] | [[EnerSys Wi-iQ]] | - | - |
 | [[CAN-LIN and Battery Bus Interface]] | [[HOPPECKE trak collect]] | - | - |
 | [[Cable-Mounted Indicator Placement]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Capacitive Electrolyte Level Probe]] | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite Eagle Eye Elite IV]] | - |
