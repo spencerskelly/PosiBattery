@@ -13,6 +13,8 @@ tags:
 reuseScope: cross-product
 partOf:
   - "[[Electrolyte Air Circulation Assembly]]"
+  - "[[Midac EUW Electrolyte Circulation System]]"
+  - "[[HOPPECKE trak air Electrolyte Circulation]]"
 performs:
   - "[[Circulate Electrolyte]]"
 ---
