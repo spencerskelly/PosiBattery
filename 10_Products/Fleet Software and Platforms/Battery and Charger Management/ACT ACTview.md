@@ -16,11 +16,14 @@ performs:
   - "[[Manage Chargers Remotely]]"
 hasDesign:
   - "[[Wi-Fi Interface]]"
+  - "[[Remote Charger Management Design]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredWith:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
+hasPart:
+  - "[[Remote Charger Management Service]]"
   - "[[Advanced Charging Technologies BATTview]]"
 ---
 
@@ -37,6 +40,8 @@ ACT cloud analytics and reporting platform for Quantum chargers and Battview mon
   - [[Manage Chargers Remotely]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
 - **Design characteristics, with citations:**
   - [[Wi-Fi Interface]] (V): <https://og.mhi.org/media/members/41607/133717591610794845.pdf>
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Remote Charger Management Service]] represents the remote portal/application role. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
