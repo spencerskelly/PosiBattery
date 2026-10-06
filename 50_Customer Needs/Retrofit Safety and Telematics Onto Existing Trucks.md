@@ -16,6 +16,10 @@ participants:
   - "[[Dealer Sales Representative]]"
   - "[[Dealer Service Technician]]"
   - "[[Equipment Installer]]"
+needOf:
+  - "[[Dealer Sales Representative]]"
+  - "[[Dealer Service Technician]]"
+  - "[[Equipment Installer]]"
 ---
 
 # Retrofit Safety and Telematics Onto Existing Trucks
