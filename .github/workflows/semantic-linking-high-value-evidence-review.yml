@@ -1,0 +1,26 @@
+name: Semantic Linking High-Value Evidence Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '70_Research and Evidence/Source Documents/**'
+      - '30_Product Capabilities/**'
+      - '10_Products/**'
+      - '20_Product Architecture/**'
+      - '99_System/09_Tools/review-high-value-evidence.py'
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review high-value evidence
+        run: python 99_System/09_Tools/review-high-value-evidence.py
