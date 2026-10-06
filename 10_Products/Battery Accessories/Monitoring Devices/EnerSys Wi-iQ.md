@@ -35,6 +35,7 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Midpoint Voltage Symmetry Detection]]"
   - "[[Local Abnormal Condition Alert]]"
@@ -51,6 +52,9 @@ hasDesign:
   - "[[Integrated LCD Display]]"
   - "[[Mid-Battery Voltage Tap]]"
 hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
   - "[[Control Circuit]]"
   - "[[State of Charge Estimation Firmware]]"
   - "[[Battery Voltage Acquisition Firmware]]"
@@ -196,6 +200,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — voltage imbalance:** the midpoint / half-battery voltage input is verified and supports [[Midpoint Voltage Symmetry Detection]]. [[Mid-Battery Voltage Tap Harness]] and [[Mid-Battery Differential Voltage Measurement Circuit]] capture the physical sensing path. [[Voltage Imbalance Evaluation Firmware]] is allocated at **>=95% engineering confidence** because the product electronically determines imbalance while its internal evaluation implementation is not published.
 
 - **Architecture realization — state of charge:** [[State of Charge Estimation Firmware]] is allocated at **>=95% engineering confidence** because this product locally acquires battery measurements and reports/uses SOC. The exact algorithm is not published, so no voltage-only, coulomb-counting, or hybrid child Design is selected.
+
+- **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
