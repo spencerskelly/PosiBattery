@@ -22,6 +22,8 @@ dependencyOf:
   - "[[Report Truck Telemetry]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Wireless Interface Design
