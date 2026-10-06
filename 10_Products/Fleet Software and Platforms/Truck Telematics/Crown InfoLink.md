@@ -17,12 +17,15 @@ performs:
   - "[[Enforce Pre-Shift Checklist]]"
 hasDesign:
   - "[[Operator Touch Display]]"
+  - "[[Operator Access Authorization Design]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Crown Battery Health Monitor]]"
+hasPart:
+  - "[[Operator Access Authorization Logic]]"
   - "[[Crown Gena Operating System]]"
 ---
 
@@ -45,6 +48,8 @@ Crown wireless fleet and operator management system, paired with on-truck InfoPo
   - [[Detect and Record Impacts]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
   - [[Enforce Pre-Shift Checklist]] (V): <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — operator access:** [[Operator Access Authorization Design]] is allocated because the product explicitly restricts truck use to authorized operators. [[Operator Access Authorization Logic]] is allocated at **>=95% engineering confidence** where the internal authorization software partition is unpublished. The exact credential database, controller, relay/CAN path, and synchronization method remain product-specific.
 
 ## Aliases
 
