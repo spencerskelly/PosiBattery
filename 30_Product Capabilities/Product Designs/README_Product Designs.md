@@ -41,6 +41,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 ### Communications and interfaces
 
+- [[CAN Vehicle Operating Limit Command]]
 - [[Wired Interface Design]]
 - [[Wireless Interface Design]]
 
