@@ -1,0 +1,30 @@
+name: Semantic Linking Use Case Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '40_Use and Operations/**'
+      - '50_Customer Needs/**'
+      - '60_Stakeholders and Ecosystem/**'
+      - '99_System/09_Tools/review-use-case-need-linking.py'
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review Use Case participation and need links
+        run: python 99_System/09_Tools/review-use-case-need-linking.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: use-case-need-linking-review
+          path: use-case-participation-need-review.md
