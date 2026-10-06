@@ -18,6 +18,8 @@ supertypeOf:
   - "[[Wi-Fi Communication Circuit]]"
   - "[[Custom RF Communication Circuit]]"
 hasDesign:
+dependencyOf:
+  - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Wireless Interface Design]]"
 ---
 
