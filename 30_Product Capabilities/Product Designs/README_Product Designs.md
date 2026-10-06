@@ -76,7 +76,8 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
   - [[Indicator and Alarm Design]]
 - [[Vehicle Control Device Design]]
   - [[Operator Identification Design]]
-  - [[Operator Access Authorization Design]]
+  - [[Pre-Shift Checklist Enforcement Design]]
+- [[Operator Access Authorization Design]]
   - [[Operator Presence Sensing Design]]
 - [[Vehicle Drive Design]]
 
