@@ -15,6 +15,7 @@ performs:
   - "[[Circulate Electrolyte]]"
 hasDesign:
   - "[[Forced Electrolyte Circulation]]"
+  - "[[Air Injection Electrolyte Circulation]]"
 madeBy:
   - "[[GS Yuasa]]"
 ---
@@ -34,6 +35,8 @@ GS Yuasa 24, 48 and 80 V traction batteries built from 2 V cells in European DIN
   - [[Circulate Electrolyte]] (V): <https://www.logisticsbusiness.com/?p=40376>
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://www.logisticsbusiness.com/?p=40376>
+
+- **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
 ## Aliases
 
