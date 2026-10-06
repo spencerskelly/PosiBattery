@@ -17,6 +17,16 @@ hasPart:
   - "[[Analog-to-Digital Converter]]"
 hasDesign:
   - "[[Mid-Battery Differential Voltage Measurement]]"
+dependsOn:
+  - "[[Mid-Battery Voltage Tap Harness]]"
+partOf:
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Exide Motion+ EasyMonitor]]"
+dependencyOf:
+  - "[[Voltage Imbalance Evaluation Firmware]]"
+  - "[[Voltage Imbalance Comparator Circuit]]"
+performs:
+  - "[[Measure Battery Voltage]]"
 ---
 
 # Mid-Battery Differential Voltage Measurement Circuit
