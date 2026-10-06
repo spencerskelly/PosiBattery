@@ -70,6 +70,7 @@ How functions and designs are generalized into levels, which relationships conne
   - **[[Wired Remote Charger Control Design]]**: child of [[Charger Operator Interface Design]]; remote panel plus charger I/O interface
 - **[[Remote Charger Management Design]]**: remote service plus charger-side management agent
 - **[[Local Charger Status Indication]]**: [[Charger Status LED Bar]], [[Remote Charger Status Stack Light]]
+- **[[Adaptive Charge Profile Control Design]]**: [[Ri-Based Adaptive Charging]], [[Diagnostic-Loop Adaptive Charging]]
 - **[[Charger Power Stage Design]]**: [[Dual-Cable and Parallel Charging Configuration]], [[Modular Power Modules]], [[Multi-Voltage Output]], [[Silicon-Carbide Power Stage]]
 - **[[Current Sensing Design]]**: [[External Shunt Current Sensing]], [[Hall-Effect Current Sensing]], [[Shuntless Current Sensing]], [[Split-Core Current Sensor]]
 - **[[Deep Discharge Protection Design]]**: [[BMS Discharge Limitation]], [[CAN-Coordinated Deep Discharge Shutdown]], [[Truck Battery Discharge Interlock]]
