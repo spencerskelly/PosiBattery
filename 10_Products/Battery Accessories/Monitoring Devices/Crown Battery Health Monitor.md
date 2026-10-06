@@ -22,8 +22,11 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Bluetooth Interface]]"
   - "[[Cloud Portal Integration]]"
+hasPart:
+  - "[[Remote Alert Notification Service]]"
 offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -67,6 +70,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Cloud Portal Integration]] (V): <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
 - **Sources used for the mapping above:** M H&L New Products (undated) <https://www.mhlnews.com/new-products/forklift-battery-performance-monitor-new-products>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Crown explicitly publishes cloud dashboards with email or text alerts. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
 ## Aliases
 
