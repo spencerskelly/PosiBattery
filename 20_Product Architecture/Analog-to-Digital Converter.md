@@ -11,6 +11,7 @@ reuseScope: cross-product
 partOf:
   - "[[Resistive Divider ADC Voltage Measurement Circuit]]"
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
+  - "[[Magnetic Current Measurement Assembly]]"
 ---
 
 # Analog-to-Digital Converter
