@@ -187,3 +187,4 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Float-Valve Single-Point Watering]] | [[Crown V-Force Single Point Watering System]], [[Flow-Rite Maverick Battery Watering System]], [[Philadelphia Scientific Stealth Watering System]], [[HAWKER Perfect Plus Battery]] | - | - |
 | [[Injector Level-Sensing Watering]] | [[Philadelphia Scientific Water Injector System]] | - | - |
 | [[Charger-Controlled Automatic Watering]] | [[PosiCharge Single-Point Automatic Battery Watering]], [[PosiCharge SVS200]] | - | - |
+| [[Battery Event and Usage Logging Design]] | [[Power Designers PowerTrac 3]], [[HOPPECKE trak collect]], [[EnerSys Wi-iQ]] | - | - |
