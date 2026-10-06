@@ -23,6 +23,7 @@ designOf:
 dependencyOf:
   - "[[Equalization Event Tracking Firmware]]"
   - "[[Equalization Status Recording Software]]"
+  - "[[Battery Replacement Prediction Firmware]]"
   - "[[Power Designers PowerTrac SP+]]"
 ---
 
