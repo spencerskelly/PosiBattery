@@ -12,8 +12,6 @@ tags:
 reuseScope: cross-product
 hasDesign:
   - "[[Non-Volatile Event Memory]]"
-dependsOn:
-  - "[[Amp-Hour Accumulator Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[AMETEK Prestolite Power WBID]]"
@@ -36,5 +34,6 @@ Non-volatile storage used to retain accumulated amp-hour counters and related ev
 - [[AMETEK Prestolite Power BID with Ah Accumulator]], [[Power Designers PowerTrac DT3]], and [[Power Designers PowerTrac SP+]] explicitly publish non-volatile memory.
 - [[AMETEK Prestolite Power WBID]] stores data for the life of the battery; WBID Pro records long-term battery operating history; [[EnerSys Wi-iQ]] publishes an onboard event-log memory.
 - Products can perform [[Accumulate Amp-Hours]] without being linked to this Object when persistence location is not established.
+- This memory supports [[Amp-Hour Accumulator Firmware]] but is not modeled as depending on the firmware; the storage relationship is optional and product-specific.
 
 ## Former ids
