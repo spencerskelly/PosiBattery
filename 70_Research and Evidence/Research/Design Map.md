@@ -22,6 +22,7 @@ Matrix of design characteristics against the products that use them, split by ev
 ## Notes
 
 - Same evidence levels and reading rules as [[Function Map]]. The authoritative link is `hasDesign` on each product note.
+- **Assumption-only design allocations:** this legacy matrix has Verified / Carried / User-stated columns but no assumption column. Explicit engineering-assumption links remain authoritative on the product and Design notes and are intentionally omitted here rather than misclassified.
 
 | Design | Verified this pass | Carried from seed text | User-stated |
 |---|---|---|---|
@@ -30,10 +31,12 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Acid-Resistant Sealed Housing]] | [[Crown V-Force BMID]], [[EnerSys Wi-iQ]], [[Flow-Rite Eagle Eye Essential IV]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[PosiCharge PosiGuard]], [[Power Designers PowerTrac DT3]] | - | - |
 | [[Active Stability Actuator]] | [[Toyota System of Active Stability]] | - | - |
 | [[Aircraft Proximity Indicator Light]] | [[Textron Smart Sense]] | - | - |
+| [[Ambient Temperature Sensor]] | [[AMETEK Prestolite Power WBID Pro]] | - | - |
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
+| [[BMS Internal Temperature Sensing]] | [[Green Cubes SAFEFlex Battery]] | - | - |
 | [[Bluetooth Class 1 Interface]] | [[Crown V-Force BMID]] | - | - |
 | [[Bluetooth Interface]] | [[Crown Battery Health Monitor]], [[HOPPECKE trak collect]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge BMID]], [[PosiCharge PosiGuard]], [[Stryten X-3 Charger]] | - | - |
 | [[Bluetooth Low Energy Interface]] | [[EnerSys Truck iQ]], [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]] | - | [[PosiCharge BMID 3]] |
@@ -43,6 +46,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Cable-Mounted Indicator Placement]] | [[Philadelphia Scientific SmartBlinky Pro]] | - | - |
 | [[Capacitive Electrolyte Level Probe]] | [[Flow-Rite Eagle Eye Essential IV]] | [[Flow-Rite Eagle Eye Elite IV]] | - |
 | [[Cellular Communication Interface]] | [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!gateway]], [[PosiCharge Battery Rx]], [[PosiCharge E-Meter]], [[PosiCharge PosiNet]], [[Yale Battery Vision]] | - | - |
+| [[Cell-Connector Temperature Sensing]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[Charger Status LED Bar]] | [[ACT Quantum 2]], [[ACT Quantum Outdoor]], [[Crown V-HFM3 Charger]], [[PosiCharge ProCore Edge]] | - | - |
 | [[Cloud Portal Integration]] | [[Crown Battery Health Monitor]], [[EnerSys iQ Mini]], [[HOPPECKE trak collect]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Raymond iBattery]], [[Yale Battery Vision]] | - | - |
 | [[Copper Inserted Posts]] | [[Deka FastCharge Battery]] | - | - |
@@ -55,6 +59,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Emergency Cut-Off Switch]] | [[Hangcha XC Series Electric Forklifts]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
+| [[External Thermistor Temperature Sensor]] | [[EnerSys Wi-iQ]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Fingerprint Reader]] | [[Panacea Smart Start]] | - | - |
 | [[Flat Plate Construction]] | [[Stryten M-Series F100 Battery]] | - | - |
 | [[Flexible Bolt-On Intercell Connector]] | [[Crown V-Force Lead-Acid Battery]] | - | - |
@@ -74,8 +79,10 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Infrared Data Port]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Ingress-Protected Drive Components]] | [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]] | - | - |
 | [[Integrated Battery Heater]] | [[Green Cubes GSE Lithium Battery]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Heli G Series Lithium Forklifts]], [[Heli Lithium-Ion Battery]] | - | - |
-| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Godrej Lithium-Ion Forklift Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]] | - | - |
+| [[Integrated Battery Management System]] | [[Crown V-Force Lithium-Ion ESS]], [[Deka Ready Power Lithium Battery]], [[EnerSys NexSys iON Battery]], [[Exide GNB Lithium Battery 2.0]], [[Exide Solition Light Traction Battery]], [[Flux Power S-Series Battery]], [[Godrej Lithium-Ion Forklift Battery]], [[Green Cubes GSE Lithium Battery]], [[Green Cubes SAFEFlex Battery]], [[HOPPECKE trak power Lithium Battery]], [[Jungheinrich Lithium-Ion Battery]], [[Toyota Lithium-Ion 5-35 Battery Series]], [[Stryten M-Series Li610 Battery]] | - | - |
 | [[Integrated LCD Display]] | [[EnerSys Wi-iQ]], [[Exide Motion+ EasyMonitor]] | - | - |
+| [[Internal Temperature Sensor]] | [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]] | - | - |
+| [[Internal Thermistor Temperature Sensor]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[Interactive Warning Vest]] | [[Linde Safety Guard]], [[Linde Safety Guard Portable Unit]] | - | - |
 | [[LiDAR Object Sensor]] | [[Crown ProximityAssist System]], [[Hyster Reaction]], [[Raymond In-Aisle Detection System]], [[Raymond iWAREHOUSE ObjectSense]] | - | - |
 | [[Light-Beam Compartment Sensor]] | [[Toyota Compartment Sensing System]] | - | - |
