@@ -13,6 +13,7 @@ supertypeOf:
   - "[[Fingerprint Reader]]"
   - "[[RFID or PIN Access Reader]]"
 dependencyOf:
+  - "[[Operator Access Authorization Design]]"
   - "[[Control Operator Access]]"
 ---
 
