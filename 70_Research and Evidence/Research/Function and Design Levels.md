@@ -62,6 +62,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Electrolyte Level Sensing Design]]**: [[Capacitive Electrolyte Level Probe]], [[Cell-Connector Electrolyte Level Sensing]], [[Electronic In-Cell Electrolyte Probe]], [[Low-Current Electrolyte Level Input]], [[Variable-Length Electrolyte Level Probe]]
 - **[[Battery Sensor Mounting Design]]**: [[Battery-Top Mounting]], [[Cable-Mounted Indicator Placement]], [[Harness Ring-Terminal Mounting]], [[In-Cell Specific Gravity Probe]], [[Mid-Battery Voltage Tap]], [[Panel-Mount Gauge Form Factor]], [[Wrap-Around Cell Connector Probe]]
 - **[[Abnormal Condition Alert Design]]**: [[Local Abnormal Condition Alert]], [[Operator Dashboard Abnormal Alert]], [[Remote Exception Notification]]
+- **[[Battery Temperature Reporting to Charger]]**: combines [[Battery Temperature Measurement Design]] with [[Battery-Charger Data Communication Design]]
 - **[[Battery Temperature Measurement Design]]**: [[Ambient Temperature Sensor]], [[BMS Internal Temperature Sensing]], [[Cell-Connector Temperature Sensing]], [[Electrolyte-Immersed Temperature Sensor]], [[External Thermistor Temperature Sensor]], [[Internal Temperature Sensor]]
   - **[[Internal Temperature Sensor]]**: [[Internal Thermistor Temperature Sensor]]
 - **[[Cell Failure Diagnostic Design]]**: [[Algorithmic Cell Failure Diagnosis]], [[Dedicated Threshold Cell Failure Detection]]
