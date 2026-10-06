@@ -26,6 +26,7 @@ hasDesign:
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Reverse-Polarity Protection]]"
 hasPart:
+  - "[[Status Indicator Driver Circuit]]"
   - "[[Electrolyte Level Acquisition Firmware]]"
   - "[[Electrolyte Level Measurement Circuit]]"
   - "[[Electronic Electrolyte Probe Assembly]]"
