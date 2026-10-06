@@ -28,6 +28,7 @@ performs:
   - "[[Detect Voltage Imbalance]]"
   - "[[Transmit Battery Data Wirelessly]]"
 hasDesign:
+  - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Midpoint Voltage Symmetry Detection]]"
   - "[[Cell-Connector Electrolyte Level Sensing]]"
   - "[[Local LED Indicator]]"
