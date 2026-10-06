@@ -8,6 +8,9 @@ tags:
   - source-document
   - datasheet
   - tier-T1
+sourceClass: brochure
+sourceUrl: "https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf"
+sourceRevision: "GLOB-EN-FLY-IQM 0924"
 describes:
   - "[[EnerSys iQ Mini]]"
   - "[[EnerSys]]"
