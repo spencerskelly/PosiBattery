@@ -34,6 +34,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Ambient Temperature Sensor]] | [[AMETEK Prestolite Power WBID Pro]] | - | - |
 | [[Audible Alarm]] | [[Crown Battery Acid Indicators]], [[Crown RC 5700 Series]], [[EnerSys Wi-iQ]], [[Hangcha A Series Electric Forklifts]], [[Linde Safety Guard Static Unit]], [[Philadelphia Scientific SmartBlinky Pro]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!pro]] | - | - |
 | [[Battery Onboard Charger]] | [[Charlatte Belt Loaders]], [[Deka ChargeMate Battery]], [[Deka Gel-Mate Battery]], [[Deka PowrMate Battery]], [[Heli A3 Series Lithium Forklifts]], [[Heli Built-In Lithium Charger]], [[Stryten M-Series AGM220 Battery]], [[Yale ERC050-060VGL]] | - | - |
+| [[Battery Discharge Indicator]] | [[Hyster Power Cellect]], [[Linde MT18 Multifunction Display]] | - | - |
 | [[Battery Status Gauge]] | [[Access Control Group CellVue]] | - | - |
 | [[Battery-Top Mounting]] | [[AMETEK Prestolite Power TruBid]], [[Crown V-Force BMID]], [[Philadelphia Scientific eGO!Mini]], [[Philadelphia Scientific eGO!c]] | - | - |
 | [[Belt-Worn Remote Control]] | [[Jungheinrich easyPILOT]] | - | - |
@@ -107,7 +108,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Onboard Fuel Level Gauge]] | [[Plug Power GenDrive]] | - | - |
 | [[Operator Presence Pedal]] | [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | - | - |
 | [[Operator Sensing Floor Mat]] | [[Toyota Compartment Sensing System]] | - | - |
-| [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Crown ProximityAssist System]], [[Hyster J1.5-3.0UT(L)]] | - | - |
+| [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Crown ProximityAssist System]], [[EnerSys Truck iQ]], [[Hyster J1.5-3.0UT(L)]] | - | - |
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
 | [[Pedestrian Detection Camera]] | [[Doosan Bobcat Pedestrian Detection Camera]], [[Hyster Pedestrian Awareness Camera]] | - | - |
@@ -132,7 +133,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[USB Data Download]] | [[Delta-Q IC650]], [[Exide Motion+ Premium Charger]], [[Philadelphia Scientific eGO!Mini]], [[Power Designers PowerTrac DT3]], [[Stryten X-3 Charger]] | - | - |
 | [[Ultrasonic Distance Sensor]] | [[Oshkosh AeroTech APD Engine Cowling Sensors]], [[Oshkosh AeroTech Powered Handrail with Distance Sensor]], [[Textron Smart Sense]] | - | - |
 | [[Variable-Length Electrolyte Level Probe]] | [[Power Designers PowerTrac 3]] | - | - |
-| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]] | - | - |
+| [[Vehicle-Mounted Display]] | [[Blaxtair Pedestrian Detection System]], [[Crown RC 5700 Series]], [[EnerSys Truck iQ]], [[Hangcha A Series Electric Forklifts]], [[Jungheinrich addedVIEW Camera Systems]], [[Linde MT18 Multifunction Display]], [[Mallaghan SkyBelt]], [[Yale ERC050-060VGL]] | - | - |
 | [[Wi-Fi Interface]] | [[ACT ACTview]], [[Advanced Charging Technologies BATTview]], [[Stryten X-3 Charger]] | - | - |
 | [[Wrap-Around Cell Connector Probe]] | [[Exide Motion+ EasyMonitor]] | - | - |
 | [[ZigBee 2.4 GHz Interface]] | [[AMETEK Prestolite Power WBID]], [[AMETEK Prestolite Power WBID Pro]], [[EnerSys Wi-iQ]] | - | - |
