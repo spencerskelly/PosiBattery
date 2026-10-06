@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Internal Temperature Sensor]]"
   - "[[Ambient Temperature Sensor]]"
   - "[[Wrap-Around Cell Connector Probe]]"
+  - "[[BMS Internal Temperature Sensing]]"
 realizes:
   - "[[Measure Battery Temperature]]"
 dependencyOf:
@@ -40,7 +41,8 @@ General design class for measuring battery temperature and delivering a controll
 - [[Internal Temperature Sensor]] captures products that explicitly integrate the sensor inside the monitor but do not disclose the sensing technology.
 - [[Ambient Temperature Sensor]] captures products that explicitly distinguish surrounding-air temperature from direct battery temperature.
 - [[Wrap-Around Cell Connector Probe]] captures the Exide 3-in-1 sensor arrangement where temperature is measured at a cell connector.
-- Case/surface-mounted and cell-integrated temperature sensing remain unmodeled because the current product evidence does not establish a specific implementation.
+- [[BMS Internal Temperature Sensing]] captures lithium systems whose BMS monitors temperature from sensors inside the battery system; it does not imply cell-level versus module-level placement unless the source states it.
+- A distinct case/surface-mounted sensing Design remains unmodeled because the current product evidence does not establish one.
 - The generic Design separates the function from the exact sensor technology, mounting location, conditioning circuit, and acquisition method.
 
 ## Former ids
