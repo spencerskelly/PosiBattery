@@ -51,6 +51,7 @@ performedBy:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
+  - "[[Capacitive Electrolyte Probe Element]]"
 realizedBy:
   - "[[Electrolyte Level Sensing Design]]"
 realizes:
