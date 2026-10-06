@@ -8,6 +8,9 @@ tags:
   - customer-role
   - actor
   - role-source-stated
+hasNeed:
+  - "[[Keep Trucks Slow in Hazardous Zones]]"
+  - "[[Warn Pedestrians of an Approaching Truck]]"
 ---
 
 # Pedestrian Near Trucks
