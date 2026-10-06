@@ -17,6 +17,8 @@ partOf:
   - "[[Exide Motion+ EasyMonitor]]"
 performs:
   - "[[Indicate Battery Status Locally]]"
+dependsOn:
+  - "[[LCD Display Interface Circuit]]"
 ---
 
 # LCD Status Display Module
