@@ -15,7 +15,11 @@ dependsOn:
 performs:
   - "[[Display Truck Status to Operator]]"
   - "[[Display Battery Status to Operator]]"
+dependencyOf:
+  - "[[Komatsu Operator Presence Sensing System]]"
 partOf:
+  - "[[Hangcha A Series Electric Forklifts]]"
+  - "[[Mallaghan SkyBelt]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
@@ -35,6 +39,7 @@ Firmware or embedded HMI software that converts battery, vehicle, diagnostic, or
 - Allocation to [[EnerSys Truck iQ]] is an **>=95% engineering-confidence assumption** because it is an electronic touchscreen dashboard with multiple live battery values and alerts, while EnerSys does not publish its internal firmware architecture.
 - Allocation to [[Crown Gena Operating System]] is functionally direct because Gena is itself the truck operating/HMI software; this reusable note represents the battery-status presentation role within that software.
 - The firmware does not imply the source transport. Product-specific battery data can arrive through BLE, CAN, or internal vehicle signals.
-- Allocation to [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]], and [[Crown RC 5700 Series]] is **>=95% engineering confidence** because they present dynamic battery state and warnings on electronic vehicle displays; their software partition is not published.
+- Allocation to [[Linde MT18 Multifunction Display]], [[Yale ERC050-060VGL]], [[Crown RC 5700 Series]], [[Hangcha A Series Electric Forklifts]], and [[Mallaghan SkyBelt]] is **>=95% engineering confidence** because they present dynamic battery, vehicle, diagnostic, or warning information on electronic vehicle displays; their software partition is not published.
+- [[Komatsu Operator Presence Sensing System]] depends on this HMI role rather than containing it because the interlock state is shown on the truck's display/color monitor.
 
 ## Former ids
