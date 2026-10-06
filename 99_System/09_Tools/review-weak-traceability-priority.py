@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 26 weak-traceability priority review.
 
+Governed Step 26 review entry point.
+
 Classifies the legacy weak-traceability queue by current engineering use, with
 strict attention to active BMID/PosiGuard Designs, Functions, and Requirements.
 Reference/support content is counted separately and is not force-linked.
