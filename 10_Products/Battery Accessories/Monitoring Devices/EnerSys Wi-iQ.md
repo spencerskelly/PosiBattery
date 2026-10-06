@@ -80,6 +80,7 @@ hasPart:
   - "[[Battery Event Logger Firmware]]"
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
+  - "[[CAN Battery State Communication Firmware]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
