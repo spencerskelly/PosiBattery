@@ -16,7 +16,10 @@ performs:
   - "[[Compensate Charge for Battery Temperature]]"
 hasDesign:
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
 madeBy:
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Stryten Energy]]"
 ---
 
@@ -36,6 +39,8 @@ Stryten software-programmable charger family that receives battery temperature a
   - [[Compensate Charge for Battery Temperature]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - **Design characteristics, with citations:**
   - [[DC-Cable Power-Line Communication]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
