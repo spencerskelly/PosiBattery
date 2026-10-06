@@ -16,6 +16,13 @@ supertypeOf:
   - "[[Gateway-Mediated Cloud Upload]]"
 designOf:
   - "[[Cloud Battery Data Upload Service]]"
+  - "[[PosiCharge Battery Rx]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
+  - "[[EnerSys iQ Mini]]"
+  - "[[HOPPECKE trak collect]]"
+  - "[[Power Designers PowerTrac 3]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
 realizes:
   - "[[Upload Battery Data to Cloud Portal]]"
 dependencyOf:
