@@ -13,6 +13,7 @@ designOf:
   - "[[Advanced Charging Technologies BATTview]]"
   - "[[Stryten X-3 Charger]]"
   - "[[ACT ACTview]]"
+  - "[[Wi-Fi Communication Circuit]]"
 ---
 
 # Wi-Fi Interface
