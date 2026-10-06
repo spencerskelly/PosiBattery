@@ -8,7 +8,7 @@ tags:
   - charger
   - design-characteristic
 subtypeOf:
-  - "[[Charger Operator Interface Design]]"
+  - "[[Local Charger Status Indication]]"
 designOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum Outdoor]]"
