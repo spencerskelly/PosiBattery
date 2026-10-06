@@ -7,6 +7,7 @@ links. Customer Needs are subtype/tagged Use Cases whose participants represent
 people/orgs who hold the need; the governed hasNeed/needOf pair is preferred for
 that semantic statement.
 """
+# Governed Step 11 review entry point
 from pathlib import Path
 from collections import Counter, defaultdict
 import re, yaml
