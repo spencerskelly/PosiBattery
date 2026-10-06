@@ -16,7 +16,6 @@ supertypeOf:
   - "[[Interactive Warning Vest]]"
   - "[[Local LED Indicator]]"
 dependencyOf:
-  - "[[Alert on Low Electrolyte Level]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
 ---
 
