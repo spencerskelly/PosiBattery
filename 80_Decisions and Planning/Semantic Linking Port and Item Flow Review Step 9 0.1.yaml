@@ -1,0 +1,78 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 9
+status: "Complete"
+title: "Port and Item Flow semantic-linking review"
+
+scope:
+  governed_types:
+    - "Port"
+    - "Item Flow"
+  review_focus:
+    - "note-level ownership"
+    - "interfaces/exposure"
+    - "transmits/receives/exchanges semantics"
+    - "Local Model endpoint/flow occurrence use"
+    - "semantic dead-end detection"
+
+implementation:
+  review_script: "99_System/09_Tools/review-port-item-flow-linking.py"
+  script_commit: "d2144fea"
+  workflow: ".github/workflows/semantic-linking-port-flow-review.yml"
+  workflow_commit: "8ab4c966"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37392604212
+  job_id: 112040964789
+  result: "success"
+  ports_reviewed: 2
+  item_flows_reviewed: 2
+  port_endpoint_occurrences: 4
+  flow_occurrences: 2
+  local_connections: 2
+  ports_with_local_model_use: 2
+  item_flows_with_local_model_use: 2
+  findings: 0
+
+where_used:
+  "20_Product Architecture/iBMID - Battery Interaction.md": 2
+  "20_Product Architecture/iBMID - Charger Communication.md": 2
+  "20_Product Architecture/BMID Battery Sensing Data.md": 1
+  "20_Product Architecture/BMID Charger Battery Information.md": 1
+
+semantic_interpretation:
+  note_level_ownership:
+    result: "No gap."
+    reason: "The current Port and Item Flow definitions are reusable logical definitions whose authoritative use is contextual in the BMID Local Model."
+  interfaces:
+    result: "No gap."
+    reason: "Endpoint occurrences participate in explicit Local Model connections, which provide contextual interface semantics. Duplicating those as definition-level interfaces would globalize context unnecessarily."
+  exposure:
+    result: "Not applicable in current model."
+    reason: "The BMID integration Local Model is flat; there is no outer-to-inner endpoint hierarchy requiring exposes/exposedBy."
+  flow_ownership:
+    result: "No gap."
+    reason: "Item Flow occurrences are authoritative under their Local Model connections. hasFlow/flowOf is definition-level ownership and is not required here."
+  direction:
+    result: "Pass."
+    reason: "Each flow occurrence has a valid transmit/receive endpoint role pair."
+  dead_ends:
+    result: "None."
+    reason: "Every Port and Item Flow has governed Local Model occurrence use."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  port_definitions_changed: 0
+  item_flow_definitions_changed: 0
+  local_model_records_changed: 0
+
+conclusion:
+  unexplained_port_gaps: 0
+  unexplained_item_flow_gaps: 0
+  artificial_definition_level_links_added: 0
+  next_step: "Step 10 — Review architecture-to-design links"
