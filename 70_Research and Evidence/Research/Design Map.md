@@ -218,6 +218,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Direct Temperature Input Charge Compensation]] | [[PosiCharge DVS150]], [[Lester Summit Series II]] | - | - |
 | [[Communicated Battery Temperature Charge Compensation]] | [[Crown V-HFM3 Charger]], [[EnerSys Express Charger]], [[EnerSys NexSys+ Charger]], [[Fronius Selectiva 4.0]], [[PosiCharge DVS100]], [[PosiCharge DVS300 Series]], [[PosiCharge SVS100]] | - | - |
 | [[BMS-Directed Charge Control Design]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]], [[Exide Motion+ Lithium Charger]] | - | - |
+| [[Lead-Acid Desulfation Charge Control Design]] | [[EnerSys Express Charger]], [[EnerSys IMPAQ Charger]], [[EnerSys NexSys+ Charger]], [[Power Designers REVOLUTION X]] | - | - |
 | [[CAN BMS-Directed Charging]] | [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], [[Lester Summit Series II]] | - | - |
 | [[Adaptive Charge Profile Control Design]] | [[Fronius Selectiva 4.0]], [[EnerSys IMPAQ Charger]] | - | - |
 | [[Ri-Based Adaptive Charging]] | [[Fronius Selectiva 4.0]] | - | - |
