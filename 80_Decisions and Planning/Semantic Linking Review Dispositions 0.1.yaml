@@ -32,4 +32,675 @@ rules:
   - "intentionally_absent, unresolved, and not_applicable require one controlled exception code."
   - "linked does not require an exception code and normally need not be recorded because the reporter derives links."
   - "Do not use this registry to override relationship-integrity findings."
-records: {}
+records:
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/Amaron Brute Hi-Life Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/Banner Traction Bull PzS.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/Deka MaxPowr Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/EnerSys IRONCLAD Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/Stryten M-Series F110 Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Flooded Lead-Acid Batteries/Stryten M-Series T300 Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Exide Sonnenschein Lithium Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Flux Power GSE Pack.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Godrej Multi-Ion Forklift Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Green Cubes SAFEFlex PLUS Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Linde 90 V Lithium-Ion Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Raymond 8250 Lithium-Ion Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Raymond Energy Essentials Lithium-Ion Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Lithium-Ion Batteries/Triathlon Lithium-Ion Battery for UniCarriers.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries/Stryten M-Series AGM200 Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries/Stryten M-Series AGM210 Battery.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID 1.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+  "10_Products/Charger Accessories/Stands and Mounting/Crown V-HFM3 Charger Stand.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Chargers/Industrial Modular Chargers/Linde Lithium-Ion Charger (9, 17 and 30 kW).md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Chargers/Industrial Modular Chargers/PosiCharge High Voltage Power Station (AC).md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Chargers/Industrial Modular Chargers/Triathlon Lithium-Ion Charger for UniCarriers.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Fleet Software and Platforms/Battery and Charger Management/Fronius Charge & Connect.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Fleet Software and Platforms/Battery and Charger Management/Philadelphia Scientific iBOS.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/Cat EP14-20 Electric Counterbalance Forklifts.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/Crown SC Series.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/Linde 1293 Series (E20BHP and E25BHP).md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/Linde Ei Series.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/UniCarriers MX2 and MXL Series.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class I Electric Rider Trucks/UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class II Electric Narrow Aisle Trucks/Crown RM-RMD 6000 Series.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class II Electric Narrow Aisle Trucks/Jungheinrich ETV C16 and C20.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Forklifts/Class II Electric Narrow Aisle Trucks/Raymond Orderpickers.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Baggage and Tow Tractors/Charlatte CBT350 AC Tow Tractor.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Baggage and Tow Tractors/Charlatte T137-V3.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Baggage and Tow Tractors/Linde P250 Electric Baggage Tractor.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Baggage and Tow Tractors/Oshkosh AeroTech B80E Electric Baggage Tractor.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Belt Loaders/TLD NBL-E Belt Loader.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Belt Loaders/TLD RBL Electric Regional Belt Loader.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Cargo Loaders/Oshkosh AeroTech Commander 30i Cargo Loader.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Cargo Loaders/Oshkosh AeroTech Ranger 15E Cargo Loader.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Pushback Tractors/Charlatte CPB35E Pushback Tractor.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Ground Support Equipment/Pushback Tractors/Oshkosh AeroTech Pushback B350E and B650E.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Vehicle Accessories/Operator Convenience/Linde Smartphone Holder.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Vehicle Accessories/Operator Convenience/UniCarriers In-Cab Accessories.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "10_Products/Vehicle Accessories/Power Source Interfaces/PosiCharge DIY Fast Charge Kit.md":
+    classification: reference_content
+    gaps:
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Market/catalog reference is retained without downstream engineering adoption."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
