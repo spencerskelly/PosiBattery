@@ -134,7 +134,15 @@ for p,d in sorted(concrete.items()):
         counts["thin_intentionally_sparse"]+=1
         cls="intentionally_sparse_reference_leaf"
 
-    rows.append((p,cls,len(extra),family,market,evidence))
+    present_fields={field for field,_ in outgoing[p]} | {field for field,_ in incoming[p]}
+    object_dims={
+        "upstream":{"subtypeOf","supertypeOf","partOf","hasPart","offeredBy","madeBy","poweredBy","suppliedBy","rebrandOf","applies","drivenBy","describedBy","supportedBy"},
+        "downstream":{"hasPart","hasPort","performs","hasDesign","hasState","satisfies"},
+        "ownership_use":{"partOf","hasPart","performs","hasDesign","participants","localModelDefinition"},
+        "evidence":{"describedBy","supportedBy","contradictedBy"},
+    }
+    missing_dims=[dim for dim,alts in object_dims.items() if not (present_fields & alts)]
+    rows.append((p,cls,len(extra),family,market,evidence,missing_dims))
 
 counts["abstract_product_definitions"]=len(abstract)
 counts["product_objects"]=len(products)
@@ -159,8 +167,7 @@ print("market reference leaf review")
 for k,v in sorted(counts.items()): print(f"  {k}: {v}")
 print(f"  findings: {len(findings)}")
 for p,k,msg in findings: print(f"  FINDING {k}: {p}: {msg}")
-for p,cls,n,fam,mkt,ev in rows:
-    print(f"  LEAF {cls}: {p} extra_context={n} family={fam} market={mkt} evidence={ev}")
+for p,cls,n,fam,mkt,ev,missing in rows:\n    print(f"  LEAF {cls}: {p} extra_context={n} family={fam} market={mkt} evidence={ev} missing={\',\'.join(missing) or \'none\'}")
 print(f"  report: {REPORT.relative_to(ROOT)}")
 
 lines=["# Market / Reference Catalog Leaf Review","",
@@ -169,11 +176,9 @@ lines=["# Market / Reference Catalog Leaf Review","",
 "| Metric | Count |","|---|---:|"]
 for k,v in sorted(counts.items()): lines.append(f"| {k} | {v} |")
 lines += [f"| findings | {len(findings)} |","","## Reference leaves","",
-"| Path | Classification | Extra contextual relationships | Family identity | Market attribution | Provenance |",
-"|---|---|---:|---|---|---|"]
-for p,cls,n,fam,mkt,ev in rows:
-    lines.append(f"| {p} | {cls} | {n} | {fam} | {mkt} | {ev} |")
-if not rows: lines.append("| _None_ | | | | | |")
+"| Path | Classification | Extra contextual relationships | Family identity | Market attribution | Provenance | Missing Step 2 dimensions |",\n"|---|---|---:|---|---|---|---|"]
+for p,cls,n,fam,mkt,ev,missing in rows:\n    lines.append(f"| {p} | {cls} | {n} | {fam} | {mkt} | {ev} | {\', \'.join(missing) or \'none\'} |")
+if not rows: lines.append("| _None_ | | | | | | |")
 
 lines += ["","## Findings","",
 "| Path | Kind | Detail |","|---|---|---|"]
