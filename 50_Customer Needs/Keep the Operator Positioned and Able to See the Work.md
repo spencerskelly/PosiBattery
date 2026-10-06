@@ -15,6 +15,8 @@ realizedBy:
   - "[[Illuminate Work Area]]"
 participants:
   - "[[Forklift Operator]]"
+needOf:
+  - "[[Forklift Operator]]"
 ---
 
 # Keep the Operator Positioned and Able to See the Work
