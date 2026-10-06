@@ -12,11 +12,13 @@ tags:
 reuseScope: cross-product
 hasDesign:
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
   - "[[Communicate with Charger]]"
+  - "[[Report Battery Temperature to Charger]]"
 partOf:
   - "[[EnerSys NexSys iON Battery]]"
   - "[[Power Designers PowerTrac 3]]"
