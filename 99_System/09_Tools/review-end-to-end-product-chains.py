@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 27 end-to-end product chain audit.
 
+Governed Step 27 review entry point.
+
 Systematically audits the six governed BMID/PosiGuard requirement chains in
 both directions. Known architecture/customer-discovery gaps are explicit and
 do not authorize substitute semantic links.
