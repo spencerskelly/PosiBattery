@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Non-Volatile Event Memory]]"
   - "[[Battery Abuse Cycle Analytics]]"
   - "[[Equalization Event Tracking Design]]"
+  - "[[Battery Replacement Timing Prediction Design]]"
 dependencyOf:
   - "[[Log Battery Events and Usage]]"
   - "[[Predict Battery Replacement Timing]]"
