@@ -64,6 +64,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Charge Under BMS Control]] | [[Integrated Battery Management System]] | analyst inference (necessity) | strong | cross-product: chargers perform the function and the design lives on the battery | needs a BMS |
 | [[Communicate Battery State over CAN]] | [[CAN Interface]] | analyst inference (necessity) | strong | no gap | needs a CAN interface |
 | [[Command Vehicle Operating Limits over CAN]] | [[CAN Interface]] | analyst inference (necessity) | strong | no gap | needs a CAN interface |
+| [[Track Equalization]] | [[Equalization Event Tracking Design]] | implementation review | strong | products publish equalization status/history but usually do not disclose whether the event is inferred locally or reported by another system | requires an equalization-event recognition/recording method; local classification and reported-status tracking remain concrete unallocated alternatives |
 | [[Transmit Battery Data Wirelessly]] | [[Wireless Interface Design]] | analyst inference (necessity) | strong | sources do not name the radio | needs a radio interface |
 | [[Upload Battery Data to Cloud Portal]] | [[Wireless Interface Design]], [[Cloud Portal Integration]] | analyst inference (necessity) | typical | sources do not name the portal integration | needs a radio path and a portal |
 | [[Report Truck Telemetry]] | [[Wireless Interface Design]] | analyst inference (necessity) | typical | sources do not name the interface | needs a radio path to the portal |
