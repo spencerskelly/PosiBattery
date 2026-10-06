@@ -23,6 +23,7 @@ performs:
 hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 offeredWith:
@@ -84,6 +85,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 | Recommendation | strongly suggested on all opportunity or fast charge applications |
 - **Gap closed:** earlier notes said how the BID reaches the charger was not stated; it is power line communication over the charging cables (see [[DC-Cable Power-Line Communication]]). How temperature is sensed is still not stated (battery average temperature).
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
