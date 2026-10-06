@@ -19,6 +19,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 partOf:
   - "[[Philadelphia Scientific eGO!gateway]]"
+  - "[[Philadelphia Scientific eGO!gateway]]"
 ---
 
 # Battery Data Gateway Upload Service
