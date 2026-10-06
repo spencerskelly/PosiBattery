@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 19 validation execution relationship review.
 
+Governed Step 19 review entry point.
+
 Reviews Procedure, Setup, Plan, Result, and Step notes and inventories the
 governed relationships that connect reusable Verification intent to execution
 capability, campaign selection, ordered activity, and result evidence.
