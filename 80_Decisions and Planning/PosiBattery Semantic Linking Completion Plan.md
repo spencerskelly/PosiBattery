@@ -848,3 +848,48 @@ Evidence: `80_Decisions and Planning/Semantic Linking Market Reference Leaf Revi
 **Validation:** market/reference leaf workflow `37401622464`, job `112069866322`, success; Vault Audit `37401622421`, job `112069866416`, success.
 
 **Result:** Step 24 complete. The next step is **Step 25 — Resolve true orphan elements**.
+
+
+
+---
+
+## Step 25 completion evidence — True orphan elements
+
+Reviewed every remaining raw graph-isolated model element individually.
+
+Exactly **2 raw isolated elements** remained:
+- `PosiCharge BMID Product Abstract and Definition`;
+- `PosiCharge BMID Product Context`.
+
+Both are `Info` framing/navigation notes rather than missing engineering-chain elements.
+
+`PosiCharge BMID Product Abstract and Definition` explicitly acts as the concise product-framing authority and directs actual use-case, requirement, function, design, Local Model, and verification relationships to the canonical `PosiCharge BMID` product and governed engineering notes. Step 4 already names this note as the canonical `EXC-FRAMING` example.
+
+`PosiCharge BMID Product Context` provides explanatory external-system, actor, environment, and boundary context. Its body explicitly states that the context/canvas edges are explanatory and are not authoritative MDSE relationship assertions. The canonical external elements and Use Cases already own the actual engineering semantics.
+
+Adding `describes`, structural, ownership, or dependency links merely to make these notes non-isolated would incorrectly turn framing/navigation artifacts into authoritative engineering nodes. Therefore both notes remain graph-isolated intentionally.
+
+Both are now formally classified as `reference_content`, with all four missing Info dimensions—upstream, downstream, ownership/use, and evidence—recorded as `not_applicable / EXC-FRAMING`.
+
+The global traceability reporter now distinguishes:
+- **raw isolated model elements**;
+- **explained isolated model elements**;
+- **unexplained isolated model elements**.
+
+An isolated element counts as explained only when every Step-2 dimension has a reviewed, valid, non-unresolved controlled disposition. Unresolved exceptions never close an orphan.
+
+Final Step 25 status:
+- **2 raw isolated model elements**;
+- **2 explained intentional framing isolates**;
+- **0 unexplained true orphans**;
+- **0 artificial semantic links added**;
+- **47 reviewed completeness classifications** total;
+- **0 applicable unexplained findings**;
+- **0 unresolved exception findings**;
+- **0 disposition-registry errors**.
+
+Evidence: `80_Decisions and Planning/Semantic Linking True Orphan Review Step 25 0.1.yaml`.
+
+**Validation:** true-orphan workflow `37402110744`, job `112071380018`, success; Vault Audit `37402110812`, job `112071379827`, success.
+
+**Result:** Step 25 complete. The next step is **Step 26 — Resolve weak-traceability findings by priority**.
