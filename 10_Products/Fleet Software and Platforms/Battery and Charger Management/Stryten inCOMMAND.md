@@ -20,6 +20,8 @@ madeBy:
 offeredWith:
   - "[[Stryten X-7 Charger]]"
   - "[[Stryten X-3 Charger]]"
+hasDesign:
+  - "[[Battery-Charger Data Communication Design]]"
   - "[[Stryten M-Series Li610 Battery]]"
 ---
 
@@ -36,6 +38,8 @@ Stryten energy performance management software for its batteries and chargers.
 - **Functions performed, with citations:**
   - [[Compensate Charge for Battery Temperature]] (V): <https://stryten.com/?p=173790>
   - [[Communicate with Charger]] (V): <https://stryten.com/?p=173790>
+
+- **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
 
 ## Aliases
 
