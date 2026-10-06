@@ -24,8 +24,10 @@ hasDesign:
   - "[[Touchscreen Interface]]"
   - "[[Charger Status LED Bar]]"
   - "[[Multi-Voltage Output]]"
+  - "[[Remote Charger Management Design]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
+  - "[[Charger Remote Management Agent]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 offeredBy:
@@ -68,6 +70,8 @@ ACT cloud-connected modular charger paired with the BATTview monitor.
 | Marks | UL/cUL/CE; CEL; RCM |
 | Features | touchscreen; LED status bar; plug-and-play modules; auto bypass of faulty modules; Wi-Fi to ACTview and ACTintelligent; remote firmware updates |
 - **Naming (C45):** the sheet is titled 'Quantum'; the label 'Quantum 2' in this vault comes from the member-site listing, not from the sheet.
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
