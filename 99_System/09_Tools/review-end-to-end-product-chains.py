@@ -282,11 +282,6 @@ if actual_unresolved!=expected_unresolved:
 # requirement-satisfaction-chain breaks. Preserve them as supplemental unresolved
 # architecture decisions in the report.
 supplemental=[
-  {
-    "element":"Estimate State of Charge","stage":"Function -> Design/Architecture",
-    "code":"EXC-ARCH-UNRESOLVED","owner":"BMID product/system architecture",
-    "reason":"No existing specific SOC-estimation Design is selected."
-  },
 ]
 counts["supplemental_active_architecture_gaps"]=len(supplemental)
 
