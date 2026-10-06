@@ -1,0 +1,26 @@
+name: Semantic Linking Curated Source Document Review
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '70_Research and Evidence/Source Documents/**'
+      - '10_Products/**'
+      - '60_Stakeholders and Ecosystem/**'
+      - '30_Product Capabilities/**'
+      - '99_System/09_Tools/review-curated-source-documents.py'
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyYAML
+      - name: Review curated Source Documents
+        run: python 99_System/09_Tools/review-curated-source-documents.py
