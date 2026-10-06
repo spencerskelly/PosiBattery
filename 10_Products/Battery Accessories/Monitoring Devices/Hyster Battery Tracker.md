@@ -87,6 +87,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - **Architecture realization — abnormal-condition alert:** Hyster explicitly publishes email alerts for high temperature, overdue equalization, deep discharge, electrolyte high/low and imbalance. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
+- **Architecture boundary — voltage imbalance:** the Hyster flyer explicitly includes imbalance among the monitored exception / alert conditions, so [[Detect Voltage Imbalance]] remains verified. The source does not state midpoint wiring, cell-level sensing, measurement topology, or whether the evaluation occurs in the battery device or hosted analytics. No [[Midpoint Voltage Symmetry Detection]] or specific imbalance hardware is assigned.
+
 ## Aliases
 
 - Battery Tracker
