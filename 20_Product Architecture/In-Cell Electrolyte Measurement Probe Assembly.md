@@ -19,6 +19,8 @@ partOf:
   - "[[AMETEK Prestolite Power TruBid]]"
 performs:
   - "[[Measure Electrolyte Specific Gravity]]"
+dependencyOf:
+  - "[[Specific Gravity Measurement Circuit]]"
   - "[[Measure Battery Temperature]]"
 ---
 
