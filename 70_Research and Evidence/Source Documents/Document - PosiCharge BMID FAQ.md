@@ -20,7 +20,8 @@ supports:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
   - "[[Log Battery Events and Usage]]"
-  - "[[Electrolyte-Immersed Temperature Sensor]]"
+  - "[[Electrolyte-Immersed Temperature Sensor]]"  - "[[Data Handling Design]]"
+
 ---
 
 # Document - PosiCharge BMID FAQ
