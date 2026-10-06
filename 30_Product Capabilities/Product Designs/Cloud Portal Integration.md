@@ -20,6 +20,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Cloud Portal Integration
