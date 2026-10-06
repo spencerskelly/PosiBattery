@@ -136,6 +136,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Operator Touch Display]] | [[Crown Gena Operating System]], [[Crown InfoLink]], [[Crown InfoLink 7-inch Touch Display]], [[Crown ProximityAssist System]], [[EnerSys Truck iQ]], [[Hyster J1.5-3.0UT(L)]] | - | - |
 | [[Outdoor-Rated Charger Enclosure]] | [[ACT Quantum Outdoor]], [[EnerSys NexSys+ Charger]] | - | - |
 | [[Panel-Mount Gauge Form Factor]] | [[Inventus Smart Battery Monitor SBM-01]] | - | - |
+| [[Load-Handling Image Capture Design]] | [[Toyota Twistlock Snapshot Camera System]] | - | - |
 | [[Pedestrian Detection Camera]] | [[Doosan Bobcat Pedestrian Detection Camera]], [[Hyster Pedestrian Awareness Camera]] | - | - |
 | [[Programmable Motor Controller]] | [[Crown FC 5700 Series]], [[Komatsu FB Series Electric Forklifts]] | - | - |
 | [[Proximity Tag System]] | [[Hyster Reaction]], [[Jungheinrich zoneCONTROL]], [[Linde Safety Guard]], [[Linde Safety Guard Truck Unit]], [[Yale Reliant Portfolio]] | - | - |
