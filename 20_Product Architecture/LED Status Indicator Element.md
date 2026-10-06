@@ -12,6 +12,7 @@ reuseScope: cross-product
 hasDesign:
   - "[[Local LED Indicator]]"
 partOf:
+  - "[[Charger Status LED Bar Assembly]]"
   - "[[Deka HydraSaver Battery]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[AMETEK Prestolite Power TruBid]]"
@@ -28,10 +29,6 @@ partOf:
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[Fronius TagID]]"
-  - "[[ACT Quantum 2]]"
-  - "[[ACT Quantum Outdoor]]"
-  - "[[Crown V-HFM3 Charger]]"
-  - "[[PosiCharge ProCore Edge]]"
   - "[[Low Electrolyte Alert Output Assembly]]"
   - "[[Flow-Rite Eagle Eye Elite IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
