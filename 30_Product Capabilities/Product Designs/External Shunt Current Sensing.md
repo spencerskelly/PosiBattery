@@ -13,6 +13,7 @@ describedBy:
   - "[[Metric - Current Measurement]]"
 designOf:
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Resistive Current Measurement Circuit]]"
 ---
 
 # External Shunt Current Sensing
