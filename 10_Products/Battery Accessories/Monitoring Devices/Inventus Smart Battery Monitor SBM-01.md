@@ -25,6 +25,9 @@ hasDesign:
   - "[[Battery Status Gauge]]"
   - "[[CAN Interface]]"
   - "[[Panel-Mount Gauge Form Factor]]"
+hasPart:
+  - "[[Battery Status Gauge Display Element]]"
+  - "[[CAN Communication Circuit]]"
 madeBy:
   - "[[Inventus Power]]"
 ---
