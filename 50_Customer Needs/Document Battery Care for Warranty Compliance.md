@@ -15,6 +15,9 @@ realizedBy:
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Dealer Service Technician]]"
+needOf:
+  - "[[Fleet Operations Manager]]"
+  - "[[Dealer Service Technician]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
 drives:
