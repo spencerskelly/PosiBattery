@@ -23,6 +23,8 @@ satisfies:
   - "[[PosiGuard - Support Local Service Configuration]]"
 realizedBy:
   - "[[Mobile App Interface]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiConnect Product Page]]"
 ---
 
 # Configure Device from Mobile App or PC
