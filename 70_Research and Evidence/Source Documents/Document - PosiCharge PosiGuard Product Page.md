@@ -14,7 +14,8 @@ accessed: 2026-10-03
 describes:
   - "[[PosiCharge PosiGuard]]"
 supports:
-  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
+  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"  - "[[Wireless Interface Design]]"
+
 ---
 
 # Document - PosiCharge PosiGuard Product Page
