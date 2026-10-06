@@ -18,6 +18,10 @@ madeBy:
   - "[[Fronius International]]"
 offeredWith:
   - "[[Fronius TagID]]"
+hasDesign:
+  - "[[Remote Charger Management Design]]"
+hasPart:
+  - "[[Charger Remote Management Agent]]"
   - "[[Fronius Charge & Connect]]"
 ---
 
@@ -37,6 +41,8 @@ Fronius lead-acid charger family with the Ri charging process, offered in 2 to 3
 - Fronius says its Ri charging process (in series production since 2013) does not follow a fixed characteristic: it determines the battery's condition from its effective internal resistance Ri, which depends on age, temperature and state of charge, and adapts the characteristic, so every charge has an individual curve, the battery receives only the current it needs, overcharging, gassing and warming are reduced, and overall efficiency reaches up to 84 percent (device 93 percent times charging 90 percent); the Selectiva brochure adds a calendar function for time-controlled charges, a special characteristic for opportunity and fast charging at the push of a button, a refresh characteristic for weak batteries and a deep discharge characteristic for deeply discharged batteries. Source: Fronius Ri charging process page and Selectiva 4.0 brochure (T1), retrieved 2026-10-03. <https://www.fronius.com/en/perfect-charging/our-solutions/technologies/ri-charging-process>
 - **Functions performed, with citations:**
   - [[Adapt Charge to Battery Condition]] (V): <https://www.fronius.com/en/perfect-charging/our-solutions/technologies/ri-charging-process>
+
+- **Architecture realization — remote charger management:** published material supports [[Remote Charger Management Design]]. [[Charger Remote Management Agent]] is allocated at **>=95% engineering confidence** because remote management requires a charger-side executable endpoint while the internal software partition is unpublished. The exact commands, permissions, network protocol, and safety handoff remain product-specific.
 
 ## Aliases
 
