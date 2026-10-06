@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Vehicle Operator Display Design]]"
 designOf:
+  - "[[Crown RC 5700 Series]]"
   - "[[Battery Discharge Indicator Module]]"
   - "[[Hyster Power Cellect]]"
   - "[[Linde MT18 Multifunction Display]]"
