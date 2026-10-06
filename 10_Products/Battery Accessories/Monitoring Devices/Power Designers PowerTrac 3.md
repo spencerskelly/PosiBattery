@@ -36,6 +36,7 @@ hasDesign:
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
   - "[[Equalization Event Tracking Design]]"
+  - "[[Battery Replacement Timing Prediction Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
 madeBy:
@@ -114,6 +115,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
+
+- **Architecture realization — replacement timing:** the product is allocated [[Battery Replacement Timing Prediction Design]] because published material states battery life-expectancy or replacement prediction. The execution locus and forecast model are not disclosed, so neither [[Device-Resident Replacement Forecasting]] nor [[Fleet-Service Replacement Forecasting]] is selected.
 
 ## Aliases
 
