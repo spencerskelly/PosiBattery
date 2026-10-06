@@ -22,6 +22,8 @@ dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 partOf:
+  - "[[HOPPECKE trak collect]]"
+  - "[[Stryten M-Series Li610 Battery]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[AMETEK Prestolite Power TruBid]]"
