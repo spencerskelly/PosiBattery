@@ -24,6 +24,7 @@ hasDesign:
 hasPart:
   - "[[CAN Communication Circuit]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"
+  - "[[CAN Battery State Communication Firmware]]"
 dependsOn:
   - "[[Battery Discharge Indicator Module]]"
 madeBy:
