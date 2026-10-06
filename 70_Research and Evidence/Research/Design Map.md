@@ -76,6 +76,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[Electrolyte-Immersed Temperature Sensor]] | [[AMETEK Prestolite Power TruBid]], [[AMETEK Prestolite Power WBID Pro]], [[PosiCharge BMID]], [[PosiCharge Battery Rx]], [[PosiCharge DVS150]] | - | - |
 | [[Emergency Cut-Off Switch]] | [[Hangcha XC Series Electric Forklifts]] | - | - |
 | [[Extended Watering Interval]] | [[Deka HydraSaver Battery]], [[Deka MaintenanceSaver Battery]], [[Exide MARATHON Battery]], [[Stryten M-Series T310 Battery]] | - | - |
+| [[Missed Equalization Recovery Design]] | [[Power Designers PowerTrac 3]], [[Power Designers REVOLUTION X]] | - | - |
 | [[Equalization Event Tracking Design]] | [[AMETEK Prestolite Power WBID Pro]], [[Advanced Charging Technologies BATTview]], [[Crown Battery Health Monitor]], [[EnerSys Wi-iQ]], [[Power Designers PowerTrac 3]], [[Raymond iBattery]], [[Hyster Battery Tracker]] | - | - |
 | [[External Shunt Current Sensing]] | [[Power Designers PowerTrac SP+]] | - | - |
 | [[External Thermistor Temperature Sensor]] | [[EnerSys Wi-iQ]], [[Power Designers PowerTrac 3]], [[Power Designers PowerTrac SP+]] | - | - |
