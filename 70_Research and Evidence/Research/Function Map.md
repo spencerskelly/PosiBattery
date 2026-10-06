@@ -102,7 +102,7 @@ Matrix of reusable monitoring and charger-interface functions against the produc
 | [[Measure Electrolyte Specific Gravity]] | [[AMETEK Prestolite Power TruBid]] | - | - |
 | [[Operate in Cold Storage]] | [[Crown RC 5700 Series]], [[Doosan Bobcat NXE Series Electric Forklifts]], [[Hangcha Lithium Iron Phosphate Battery Pack]], [[Hangcha XC Series Electric Forklifts]], [[Heli G Series Lithium Forklifts]], [[Heli Lithium-Ion Battery]], [[Toyota Cold Conditioning Package]], [[UniCarriers Freezer Option]] | - | - |
 | [[Operate in Wet or Dusty Conditions]] | [[Crown RC 5700 Series]], [[Doosan Bobcat NXE Series Electric Forklifts]], [[Heli A3 Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]], [[Raymond 8000 Series Pallet Trucks]] | - | - |
-| [[Predict Battery Replacement Timing]] | [[Energywith withBMS BMU]], [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Power Designers PowerTrac 3]] | - | - |
+| [[Predict Battery Replacement Timing]] | [[Philadelphia Scientific eGO!c]], [[PosiCharge Battery Rx]], [[Power Designers PowerTrac 3]] | - | - |
 | [[Program Travel, Lift and Tilt Speeds]] | [[Crown FC 5700 Series]], [[Crown Gena Operating System]], [[Crown RC 5700 Series]], [[Heli G Series Lithium Forklifts]], [[Komatsu FB Series Electric Forklifts]], [[Linde E Series Electric Counterbalance Forklifts]] | - | - |
 | [[Protect Battery from Deep Discharge]] | [[Crown RC 5700 Series]], [[EnerSys NexSys iON Battery]], [[Hyster Power Cellect]] | - | - |
 | [[Record Images of Load Handling]] | [[Toyota Twistlock Snapshot Camera System]] | - | - |
