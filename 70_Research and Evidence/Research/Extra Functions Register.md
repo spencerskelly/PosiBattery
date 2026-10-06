@@ -50,7 +50,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Alert on Low Electrolyte Level]] | battery | 1 | 21 | 5% | [[Electrolyte Level Sensing Design]], [[Low Electrolyte Alert Design]] | 1 | 0 | Extra |
 | [[Calculate Battery Abuse Cycles]] | battery | 1 | 21 | 5% | [[Battery Abuse Cycle Analytics]] | 1 | 0 | Extra |
 | [[Command Vehicle Operating Limits over CAN]] | battery | 1 | 21 | 5% | [[CAN Vehicle Operating Limit Command]] | 1 | 0 | Extra |
-| [[Communicate Battery State over CAN]] | battery | 1 | 21 | 5% | [[CAN Interface]] | 4 | 3 | Extra |
+| [[Communicate Battery State over CAN]] | battery | 1 | 21 | 5% | [[CAN Battery State Communication Design]] | 4 | 3 | Extra |
 | [[Detect Battery Weight]] | battery | 1 | 21 | 5% | [[Battery Weight Determination Design]] | 1 | 0 | Extra |
 | [[Estimate Remaining Run Time]] | battery | 1 | 21 | 5% | [[Remaining Runtime Estimation Design]] | 1 | 0 | Extra |
 | [[Estimate State of Health]] | battery | 1 | 21 | 5% | [[Usage-History State of Health Analytics]] | 1 | 0 | Extra |
