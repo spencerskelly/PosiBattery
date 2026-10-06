@@ -15,6 +15,7 @@ performs:
   - "[[Circulate Electrolyte]]"
 hasDesign:
   - "[[Forced Electrolyte Circulation]]"
+  - "[[Air Injection Electrolyte Circulation]]"
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
@@ -37,6 +38,8 @@ HOPPECKE flooded battery with trak | air electrolyte circulation.
   - [[Circulate Electrolyte]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Forced Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
+
+- **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
 ## Aliases
 
