@@ -649,3 +649,33 @@ Evidence: `80_Decisions and Planning/Semantic Linking Validation Execution Revie
 **Validation:** validation execution workflow `37397876214`, job `112058053971`, success; Vault Audit `37397876295`, job `112058054207`, success.
 
 **Result:** Step 19 complete. The next step is **Step 20 — Review curated Source Document relationships**.
+
+
+
+---
+
+## Step 20 completion evidence — Curated Source Document relationships
+
+Reviewed the entire governed Document population: the **8 curated Source Documents** under `70_Research and Evidence/Source Documents`.
+
+Results:
+- **8/8 governed Documents** are curated Source Documents;
+- **25 existing `describes/describedBy` subject pairs** are valid and synchronized;
+- those targets comprise **17 Objects** and **8 organization Info notes**;
+- **8/8 Documents** now have structured `sourceClass`;
+- **8/8 Documents** now have structured `sourceUrl`;
+- **5/8 Documents** have structured `sourceRevision` where the source itself supplies a useful document code/date;
+- **0/8 Documents** have `accessed`, because the original web access/download date is not recorded;
+- **0 Step 20 findings**.
+
+The local-copy review date of 2026-10-02 was deliberately **not** substituted for the unknown original web access date. Likewise, PDF creation dates on the three ACT sheets were not promoted to `sourceRevision` because the current evidence explicitly says no separate publication/revision identity is known.
+
+No new `supports`, `contradicts`, or Requirement `references` relationships were added. These eight sources primarily describe competitor/reference products and their organizations; their feature evidence does not directly prove active PosiCharge BMID Requirements, Functions, or Designs merely because similar capabilities exist. Their existing `describes` links are therefore the correct semantic relationship at this stage.
+
+No relationship assertions, IDs, or UIDs changed. Eight Document notes received structured provenance metadata only.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Curated Source Document Review Step 20 0.1.yaml`.
+
+**Validation:** curated Source Document workflow `37398262932`, job `112059319482`, success; Vault Audit `37398262615`, success.
+
+**Result:** Step 20 complete. The next step is **Step 21 — Review high-value evidence-bearing notes**.
