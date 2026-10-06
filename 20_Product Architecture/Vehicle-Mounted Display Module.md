@@ -14,6 +14,7 @@ hasDesign:
 dependencyOf:
   - "[[Komatsu Operator Presence Sensing System]]"
 partOf:
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Mallaghan SkyBelt]]"
   - "[[Crown RC 5700 Series]]"
