@@ -29,7 +29,12 @@ performedBy:
   - "[[Lester Summit Series II]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Stryten inCOMMAND]]"
+  - "[[Temperature Compensation Charge Control Firmware]]"
 realizes:
+dependsOn:
+  - "[[Temperature-Compensated Charge Control Design]]"
+realizedBy:
+  - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
@@ -61,7 +66,20 @@ Adjust charge current or end point to the battery temperature supplied by a sens
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[Stryten inCOMMAND]] (V): <https://stryten.com/?p=173790>
   - [[Crown V-HFM3 Charger]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/vhfm3-chargers.pdf>
-- **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 8 of 18 charger maker groups (44 percent); the charger-side realization is now [[Temperature-Compensated Charge Control Design]].
+
+## Implementation Allocation
+
+The reusable realization is [[Temperature-Compensated Charge Control Design]] -> [[Temperature Compensation Charge Control Firmware]].
+
+Two implementation paths are modeled:
+
+- [[Direct Temperature Input Charge Compensation]] for chargers that receive temperature from a charger-connected sensor/input.
+- [[Communicated Battery Temperature Charge Compensation]] for chargers that receive temperature from a battery monitor, ID device, or BMS through [[Battery Temperature Reporting to Charger]].
+
+The temperature measurement/reporting path provides the input; the charger-side firmware applies the compensation rule; the charger power stage executes the resulting current/voltage commands.
+
+[[Lester Summit Series II]] is the clearest direct-input example because its published data sheet lists a battery-temperature input and optional sensor. Systems using BMID, TagID, Wi-iQ, or similar battery-mounted devices are allocated to the communicated-temperature path only where the product evidence supports that architecture.
 
 ## Aliases
 
