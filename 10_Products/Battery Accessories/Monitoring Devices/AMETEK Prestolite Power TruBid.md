@@ -24,10 +24,14 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Detect Cell Failure]]"
 hasDesign:
+  - "[[In-Cell Specific Gravity Probe]]"
   - "[[Electrolyte-Immersed Temperature Sensor]]"
   - "[[Local LED Indicator]]"
   - "[[Battery-Top Mounting]]"
 hasPart:
+  - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
+  - "[[Specific Gravity Measurement Circuit]]"
+  - "[[Specific Gravity Acquisition Firmware]]"
   - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[AMETEK Prestolite Power]]"
@@ -71,6 +75,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Sources used for the mapping above:** DC Velocity (undated) <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
 
+- **Architecture realization — specific gravity measurement:** the in-cell probe and continuous specific-gravity measurement are verified. [[In-Cell Electrolyte Measurement Probe Assembly]] captures the physical probe, while [[Specific Gravity Sensing Element]] remains technology-neutral because the transduction principle is not published. [[Specific Gravity Measurement Circuit]] and [[Specific Gravity Acquisition Firmware]] are allocated at **>=95% engineering confidence** because TruBID electronically reports/uses a continuous specific-gravity value while its internal circuit and firmware partition are not disclosed.
 - **Architecture boundary — cell failure detection:** the available source explicitly states that TruBID detects cell failures, and separately states that its in-cell probe monitors electrolyte temperature and specific gravity. Neither the source nor Prestolite's public description explains how those measurements are converted into a cell-failure diagnosis. Accordingly, no [[Cell Failure Diagnostic Firmware]] or [[Cell Failure Threshold Circuit]] is assigned as a product part, and no cell-voltage / impedance / specific-gravity diagnostic method is asserted.
 
 ## Aliases
