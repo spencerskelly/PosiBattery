@@ -17,6 +17,8 @@ satisfiedBy:
   - "[[Report Battery Temperature to Charger]]"
 verifiedBy:
   - "[[Verify BMID Battery Condition Information Delivery]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # BMID - Provide Supported Battery Condition Information to Charger
