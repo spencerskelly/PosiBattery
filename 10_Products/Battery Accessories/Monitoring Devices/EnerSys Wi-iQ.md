@@ -56,6 +56,7 @@ hasDesign:
   - "[[CAN Vehicle Operating Limit Command]]"
   - "[[Battery Event and Usage Logging Design]]"
   - "[[CAN Battery State Communication Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -81,6 +82,7 @@ hasPart:
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
   - "[[CAN Battery State Communication Firmware]]"
+  - "[[Wireless Battery Data Communication Firmware]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
@@ -222,6 +224,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
 
 - **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
+
+- **Architecture realization — wireless battery data:** the product explicitly transmits battery information over a published wireless interface, supporting [[Wireless Battery Data Communication Design]]. [[Wireless Battery Data Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published. The specific radio/interface remains represented separately by the product's verified wireless Design(s).
 
 ## Aliases
 
