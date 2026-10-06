@@ -17,6 +17,7 @@ partOf:
   - "[[Linde MT18 Multifunction Display]]"
 dependencyOf:
   - "[[Hyster Power Cellect]]"
+  - "[[Battery Discharge Interlock Logic]]"
 performs:
   - "[[Display Battery Status to Operator]]"
 ---
