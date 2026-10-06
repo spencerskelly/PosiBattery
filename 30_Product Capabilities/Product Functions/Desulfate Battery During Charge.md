@@ -14,6 +14,12 @@ performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
+  - "[[Power Designers REVOLUTION X]]"
+dependsOn:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
+realizedBy:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
+  - "[[Desulfation Charge Control Firmware]]"
 ---
 
 # Desulfate Battery During Charge
@@ -30,7 +36,9 @@ Run a desulfation cycle or profile during charging of lead-acid batteries.
   - [[EnerSys IMPAQ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
   - [[EnerSys NexSys+ Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])
-- **Extra (round 30):** documented for 1 of 18 charger maker groups (6 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
+- [[Power Designers REVOLUTION X]] also publishes a built-in desulfation cycle; this adds a second charger maker group with verified support.
+- **Implementation allocation:** [[Lead-Acid Desulfation Charge Control Design]] is the reusable behavior design. [[Desulfation Charge Control Firmware]] is the >=95% engineering-confidence controller realization; [[Charger Power Stage Design]] executes the commanded electrical output. Exact waveform/algorithm remains unknown.
+- **Extra (round 30, corrected 2026-10-06):** documented for 2 of 18 charger maker groups (11 percent), delivered by charger control software and the existing power stage; rule and caveats in [[Extra Functions Register]].
 
 ## Aliases
 
