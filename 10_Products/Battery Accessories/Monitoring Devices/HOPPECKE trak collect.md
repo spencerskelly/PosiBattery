@@ -48,6 +48,7 @@ hasDesign:
   - "[[Wireless Battery Data Communication Design]]"
   - "[[Cloud Battery Data Upload Design]]"
   - "[[Battery-Charger Data Communication Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 hasPart:
   - "[[Battery Current Measurement Circuit]]"
   - "[[Battery Current Acquisition Firmware]]"
@@ -173,6 +174,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — cloud battery upload:** published material establishes battery-data delivery to a hosted portal/service, supporting [[Cloud Battery Data Upload Design]]. The current source does not establish whether this product uploads directly or through a separate gateway, so neither child upload architecture is selected.
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific. [[Battery-Charger Communication Firmware]] is allocated at **>=95% engineering confidence** because the internal software partition is not published.
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The existing [[Battery-Charger Communication Firmware]] is reused as the communication performer; its allocation remains a **>=95% engineering-confidence** abstraction where the internal software partition is unpublished. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
