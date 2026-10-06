@@ -89,7 +89,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Charge Battery Conventionally]] | charger | 8 | 18 | 44% | - | 0 | 0 | Extra |
 | [[Charge Battery Fast]] | charger | 8 | 18 | 44% | - | 0 | 0 | Extra |
 | [[Charge Battery by Opportunity]] | charger | 8 | 18 | 44% | - | 0 | 0 | Extra |
-| [[Compensate Charge for Battery Temperature]] | charger | 8 | 18 | 44% | - | 1 | 0 | Extra |
+| [[Compensate Charge for Battery Temperature]] | charger | 8 | 18 | 44% | [[Temperature-Compensated Charge Control Design]] | 1 | 0 | Extra |
 | [[Charge Lithium-Ion Battery]] | charger | 11 | 18 | 61% | - | 0 | 0 | Core |
 | [[Report Fuel Cell State to Truck]] | fuel cell | 1 | 2 | 50% | - | 0 | 0 | insufficient data (fewer than 5 maker groups) |
 | [[Refuel Truck Power Source in Minutes]] | fuel cell | 2 | 2 | 100% | [[Hydrogen Storage Tank]] | 0 | 0 | physical, chemical or enclosure (not device-controlled) |
