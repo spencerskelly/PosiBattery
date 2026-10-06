@@ -37,8 +37,12 @@ hasDesign:
   - "[[DC-Cable Power-Line Communication]]"
   - "[[Equalization Event Tracking Design]]"
   - "[[Battery Replacement Timing Prediction Design]]"
+  - "[[Battery Event and Usage Logging Design]]"
 hasPart:
   - "[[Variable-Length Electrolyte Probe Assembly]]"
+  - "[[Battery Event Logger Firmware]]"
+  - "[[Event Log Memory]]"
+  - "[[Event Time Base]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -117,6 +121,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — equalization tracking:** the product is allocated [[Equalization Event Tracking Design]] because published evidence establishes equalization status, history, or accumulated equalization information. The evidence does not establish whether the product locally classifies charge behavior or records an explicit status from another system, so neither concrete child Design is selected.
 
 - **Architecture realization — replacement timing:** the product is allocated [[Battery Replacement Timing Prediction Design]] because published material states battery life-expectancy or replacement prediction. The execution locus and forecast model are not disclosed, so neither [[Device-Resident Replacement Forecasting]] nor [[Fleet-Service Replacement Forecasting]] is selected.
+
+- **Architecture realization — event and usage logging:** the product explicitly retains event/history data, supporting [[Battery Event and Usage Logging Design]], [[Battery Event Logger Firmware]], and [[Event Log Memory]]. Published clock/timekeeping capability also supports [[Event Time Base]]. The internal record schema, memory technology, and firmware partition remain unpublished.
 
 ## Aliases
 
