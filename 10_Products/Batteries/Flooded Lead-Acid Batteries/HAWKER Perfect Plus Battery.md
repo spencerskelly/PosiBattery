@@ -17,9 +17,13 @@ performs:
 hasDesign:
   - "[[Tubular Plate Construction]]"
   - "[[Forced Electrolyte Circulation]]"
+  - "[[Air Injection Electrolyte Circulation]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+hasPart:
+  - "[[Electrolyte Air Circulation Assembly]]"
+  - "[[Electrolyte Circulation Air Pump]]"
   - "[[EnerSys Wi-iQ]]"
 ---
 
@@ -40,6 +44,8 @@ EnerSys HAWKER Perfect Plus flooded lead-acid traction battery with positive tub
   - [[Tubular Plate Construction]] (V): <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
   - [[Forced Electrolyte Circulation]] (V): <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
 - The manual says: charge with direct current only, start only if the electrolyte is below 45 C and at least 10 C (it rises about 10 C during charge), a charge is finished when the specific gravity and the battery voltage stay constant for 2 hours, equalizing charges follow deep discharges, repeated incomplete recharges and IU-characteristic charges at no more than 5 A per 100 Ah, 55 C is the upper temperature limit, avoid operating discharges beyond 80 percent of rated capacity (1.14 kg/l at 30 C), the specific gravity correction is -0.0007 kg/l per C, and for storage either a monthly equalizing charge or float charging at 2.27 V per cell. Source: EnerSys Perfect Plus owner's manual (T1), retrieved 2026-10-03. <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
+
+- **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
 ## Aliases
 
