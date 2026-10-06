@@ -35,6 +35,7 @@ performs:
   - "[[Identify Battery to Charger]]"
   - "[[Report Battery Temperature to Charger]]"
 hasDesign:
+  - "[[Battery-Monitor State of Charge Estimation]]"
   - "[[Midpoint Voltage Symmetry Detection]]"
   - "[[Local Abnormal Condition Alert]]"
   - "[[Hall-Effect Current Sensing]]"
