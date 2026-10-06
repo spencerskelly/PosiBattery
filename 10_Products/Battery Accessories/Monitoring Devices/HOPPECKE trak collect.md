@@ -41,6 +41,7 @@ hasDesign:  - "[[Low-Current Electrolyte Level Input]]"
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Acid-Resistant Sealed Housing]]"
 hasPart:
+  - "[[LED Status Indicator Element]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
 madeBy:
   - "[[HOPPECKE]]"
