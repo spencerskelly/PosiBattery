@@ -15,7 +15,10 @@ realizedBy:
   - "[[Shelter Operator from Weather]]"
 participants:
   - "[[Fleet Operations Manager]]"
+  - "[[Forklift Operator]]"needOf:
+  - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
+
 ---
 
 # Keep Equipment Working in Cold, Wet and Dusty Conditions
