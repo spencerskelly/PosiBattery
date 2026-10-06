@@ -10,6 +10,7 @@ tags:
 subtypeOf:
   - "[[Indicator and Alarm Design]]"
 designOf:
+  - "[[Audible Alarm Transducer]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!pro]]"
