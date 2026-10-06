@@ -20,11 +20,13 @@ performs:
   - "[[Equalize Battery on Schedule]]"
   - "[[Adapt Charge to Battery Condition]]"
 hasDesign:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
   - "[[Modular Power Modules]]"
   - "[[Adaptive Charge Profile Control Design]]"
   - "[[Diagnostic-Loop Adaptive Charging]]"
 madeBy:
 hasPart:
+  - "[[Desulfation Charge Control Firmware]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
   - "[[EnerSys]]"
 ---
@@ -65,6 +67,8 @@ EnerSys modular high-frequency charger line for material handling and floor-care
   - [[Equalize Battery on Schedule]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
 
 - **Architecture realization — adaptive charge profile:** published behavior supports [[Adaptive Charge Profile Control Design]] with [[Diagnostic-Loop Adaptive Charging]]. [[Adaptive Charge Profile Control Firmware]] is allocated at **>=95% engineering confidence** because the adaptive control behavior is explicit while the internal firmware partition is unpublished.
+
+- **Architecture realization — desulfation:** published product behavior explicitly includes a desulfation cycle/profile. [[Lead-Acid Desulfation Charge Control Design]] is therefore allocated directly; [[Desulfation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because profile execution requires controller logic while the internal software partition is unpublished. No proprietary waveform or dedicated desulfation hardware is assumed.
 
 ## Aliases
 
