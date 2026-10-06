@@ -14,6 +14,8 @@ dependsOn:
   - "[[Mid-Battery Voltage Tap]]"
 designOf:
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
+dependencyOf:
+  - "[[Midpoint Voltage Symmetry Detection]]"
 ---
 
 # Mid-Battery Differential Voltage Measurement
