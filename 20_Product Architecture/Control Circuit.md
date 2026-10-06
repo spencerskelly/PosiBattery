@@ -23,6 +23,8 @@ dependencyOf:
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 partOf:
+  - "[[AMETEK Prestolite Power WBID]]"
+  - "[[AMETEK Prestolite Power WBID Pro]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
   - "[[Access Control Group CellTrac]]"
   - "[[Power Designers PowerTrac DT3]]"
