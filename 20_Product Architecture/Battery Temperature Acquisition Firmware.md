@@ -15,6 +15,8 @@ dependsOn:
   - "[[Battery Temperature Measurement Circuit]]"
 performs:
   - "[[Measure Battery Temperature]]"
+dependencyOf:
+  - "[[Hybrid State of Charge Estimator Firmware]]"
 partOf:
   - "[[PosiCharge BMID]]"
 ---
