@@ -26,6 +26,8 @@ hasDesign:
   - "[[Cable-Mounted Indicator Placement]]"
   - "[[Reverse-Polarity Protection]]"
 hasPart:
+  - "[[Electrolyte Level Acquisition Firmware]]"
+  - "[[Electrolyte Level Measurement Circuit]]"
   - "[[Electronic Electrolyte Probe Assembly]]"
   - "[[LED Status Indicator Element]]"
   - "[[Audible Alarm Transducer]]"
