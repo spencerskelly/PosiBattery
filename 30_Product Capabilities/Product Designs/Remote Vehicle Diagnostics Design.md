@@ -12,6 +12,8 @@ tags:
 designOf:
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Remote Vehicle Diagnostic Service]]"
+  - "[[TUG Endurance Baggage Tractor]]"
+  - "[[TUG ALPHA 1 Pushback]]"
 realizes:
   - "[[Diagnose Vehicle Remotely]]"
 dependencyOf:
