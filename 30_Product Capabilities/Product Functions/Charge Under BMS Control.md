@@ -12,13 +12,17 @@ subtypeOf:
   - "[[Control Charge Profile]]"
 dependsOn:
   - "[[Integrated Battery Management System]]"
+  - "[[BMS-Directed Charge Control Design]]"
 performedBy:
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Fronius SelectION]]"
   - "[[PosiCharge ProCore Edge]]"
   - "[[Delta-Q IC650]]"
   - "[[Lester Summit Series II]]"
+  - "[[BMS-Directed Charge Control Firmware]]"
 realizes:
+realizedBy:
+  - "[[BMS-Directed Charge Control Design]]"
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
@@ -38,7 +42,17 @@ Take charge limits from the battery's BMS (often over CAN), with the charger act
   - [[Fronius SelectION]] (V): <https://www.fronius.com/en/battery-charging-technology/info-centre/news/lead-acid-lithium-ion>
   - [[Lester Summit Series II]] (V): <https://www.rjbatt.com.au/media/nufe2twh/summit-series-ii_650w_data-sheet_060223.pdf>
   - [[Delta-Q IC650]] (V): <https://eepower.com/new-industry-products/delta-q-introduces-can-bus-functionality-to-the-ic650-charger/>
-- **Extra (round 30):** documented for 5 of 18 charger maker groups (28 percent), delivered by devices or software (Integrated Battery Management System); rule and caveats in [[Extra Functions Register]].
+- **Extra (round 30):** documented for 5 of 18 charger maker groups (28 percent); the reusable charger-side realization is now [[BMS-Directed Charge Control Design]].
+
+## Implementation Allocation
+
+The reusable realization is [[BMS-Directed Charge Control Design]] -> [[BMS-Directed Charge Control Firmware]].
+
+[[Integrated Battery Management System]] supplies battery-specific charge permission, voltage/current limits, targets, or stop conditions. The charger-side firmware validates those inputs and converts them into commands for the charger power stage while retaining local safety ownership.
+
+[[CAN BMS-Directed Charging]] captures the common CAN implementation. It is allocated to [[PosiCharge ProCore Edge]], [[Delta-Q IC650]], [[Fronius SelectION]], and [[Lester Summit Series II]] because their published material explicitly identifies CAN-based lithium/BMS communication.
+
+[[Exide Motion+ Lithium Charger]] receives the generic BMS-directed Design because Exide states that the Solition battery BMS controls the charger, but the retrieved source does not establish the transport.
 
 ## Aliases
 
