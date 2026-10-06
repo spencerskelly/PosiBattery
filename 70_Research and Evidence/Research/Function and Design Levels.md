@@ -84,6 +84,7 @@ How functions and designs are generalized into levels, which relationships conne
 - **[[Object and Proximity Sensing Design]]**: [[LiDAR Object Sensor]], [[Magnetic Field Detection Sensor]], [[Pedestrian Detection Camera]], [[Proximity Tag System]], [[Radar Object Sensor]], [[Stereoscopic Vision Sensor]], [[Ultrasonic Distance Sensor]]
 - **[[Vehicle Control Device Design]]**: [[Active Stability Actuator]], [[Belt-Worn Remote Control]], [[Electric Mast Thrust Drive]], [[Emergency Cut-Off Switch]], [[Fork Laser Guide]], [[Mast Lift Limit Switch]], [[Programmable Motor Controller]], [[Seat Belt Interlock]]
   - **[[Operator Identification Design]]**: [[Fingerprint Reader]], [[RFID or PIN Access Reader]]
+  - **[[Operator Access Authorization Design]]**: depends on [[Operator Identification Design]]
 - **[[Vehicle Drive Design]]**: [[AC Drive Motor]], [[Electric Parking Brake]], [[Electric Power Steering]], [[Regenerative Braking]]
 - **[[Vehicle Energy Interface Design]]**: [[Quick-Change Battery Compartment]], [[Truck Charging Port]]
 - **[[State of Charge Estimation Design]]**: [[Battery-Monitor State of Charge Estimation]], [[Integrated BMS State of Charge Estimation]]
