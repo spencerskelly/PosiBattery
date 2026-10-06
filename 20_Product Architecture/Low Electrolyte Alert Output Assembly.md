@@ -9,6 +9,7 @@ tags:
   - battery-monitoring
   - electrolyte
   - alert
+abstract: true
 reuseScope: cross-product
 hasDesign:
   - "[[Local Low Electrolyte Alert]]"
