@@ -19,6 +19,10 @@ participants:
   - "[[Fleet Operations Manager]]"
   - "[[Site Safety Manager]]"
   - "[[Forklift Operator]]"
+needOf:
+  - "[[Fleet Operations Manager]]"
+  - "[[Site Safety Manager]]"
+  - "[[Forklift Operator]]"
 
 ---
 
