@@ -10,6 +10,8 @@ tags:
   - role-source-stated
 subtypeOf:
   - "[[Vehicle Operator]]"
+hasNeed:
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # GSE Operator
