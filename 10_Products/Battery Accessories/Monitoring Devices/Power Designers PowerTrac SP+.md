@@ -25,6 +25,7 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Export Battery Data to PC]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[External Shunt Current Sensing]]"
   - "[[External Thermistor Temperature Sensor]]"
   - "[[Internal Thermistor Temperature Sensor]]"
@@ -32,6 +33,11 @@ hasDesign:
   - "[[Infrared Data Port]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[Reverse-Polarity Protection]]"
+hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
 madeBy:
   - "[[Power Designers]]"
 offeredWith:
@@ -87,6 +93,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Reverse-Polarity Protection]] (V): <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
 - **Sources used for the mapping above:** PowerTrac SP+ page <https://www.powerdesignerssibex.com/powertrac-sp/>; PowerTrac SP+ data sheet (10/2014, dated) <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf>
 - **GSE parts (round 32):** typical (inferred from the device type, not from a source): mounts on [[GSE Battery Compartment]]. The same device also fits trucks: typical mount [[Truck Battery Compartment]] (see [[Truck Part Connection Register]]). See [[GSE Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** PowerTrac SP+ explicitly measures battery current through an external shunt and reports charge/discharge Ah since installation and per event. [[Current Integration Amp-Hour Accumulation]] is therefore verified at the implementation-principle level. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
