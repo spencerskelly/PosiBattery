@@ -43,6 +43,7 @@ dependencyOf:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Load-Handling Image Capture Logic]]"
+  - "[[Impact Lockout Decision Logic]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
