@@ -122,7 +122,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Sense Load Weight and Lift Height]] | truck | 4 | 10 | 40% | [[Vehicle State Sensing Design]] | 7 | 0 | Extra |
 | [[Show Camera View to Operator]] | truck | 4 | 10 | 40% | [[Display Device Design]] | 7 | 1 | Extra |
 | [[Detect and Record Impacts]] | truck | 5 | 10 | 50% | [[Impact Sensor]] | 10 | 3 | Core |
-| [[Enforce Pre-Shift Checklist]] | truck | 5 | 10 | 50% | [[Display Device Design]] | 5 | 1 | Core |
+| [[Enforce Pre-Shift Checklist]] | truck | 5 | 10 | 50% | [[Pre-Shift Checklist Enforcement Design]] | 5 | 1 | Core |
 | [[Warn Pedestrians of Approaching Truck]] | truck | 5 | 10 | 50% | [[Indicator and Alarm Design]] | 14 | 4 | Core |
 | [[Control Operator Access]] | truck | 6 | 10 | 60% | [[Operator Access Authorization Design]] | 10 | 2 | Core |
 | [[Detect Pedestrians and Objects Near Truck]] | truck | 6 | 10 | 60% | [[Object and Proximity Sensing Design]] | 24 | 6 | Core |
