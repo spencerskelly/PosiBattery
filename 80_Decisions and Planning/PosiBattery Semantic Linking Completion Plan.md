@@ -715,3 +715,45 @@ Evidence: `80_Decisions and Planning/Semantic Linking High-Value Evidence Review
 **Validation:** high-value evidence workflow `37399126391`, job `112062074277`, success; Vault Audit `37399126424`, job `112062074836`, success.
 
 **Result:** Step 21 complete. The next step is **Step 22 — Review Actors, Organizations, and customer needs**.
+
+
+
+---
+
+## Step 22 completion evidence — Actors, Organizations, and customer needs
+
+Reviewed the full stakeholder/organization/customer-need layer and the governed business-relationship network.
+
+Results:
+- **11 Actors**;
+- **10 Actors with direct Customer Need ownership**;
+- **1 generic Actor without duplicate direct needs**: `Vehicle Operator`, which generalizes `Forklift Operator` and `GSE Operator`;
+- **22/22 Customer Needs** have governed need owners;
+- **22/22 Customer Needs** retain downstream `realizedBy` coverage;
+- **43 Actor→Customer Need `hasNeed/needOf` pairs**, all synchronized;
+- **0 Organization→Customer Need pairs**, intentionally, because no customer institution has yet been modeled strongly enough to own a need;
+- **73 organization identities**, all currently retained as legacy `Info` notes tagged `organization`;
+- **0 typed `Organization` identities** in the current data set;
+- **8 reusable business-role notes**;
+- **499 governed business relationship assertions** reviewed;
+- **0 Step 22 findings**.
+
+The 73 established organization identities were **not** bulk-migrated from `Info` to `Organization`. `relationships.yaml` 1.36 explicitly supports legacy Info organization endpoints, so a mass identity/type migration would add risk without improving semantic completeness.
+
+The review also closed a live-governance documentation mismatch. Earlier organization notes and guidance still described `playsRole`, `makes`, `offers`, `supplierOf`, `distributedBy`, `subsidiaryOf`, `partnerOf`, `integratesWith`, and related business predicates as provisional even though they are now governed by `relationships.yaml` 1.36. The live Business Relationship Vocabulary, ledger, Organizations README, eight role notes, and the stale PosiCharge wording were updated to reflect the current governed state. Historical planning records retain their at-the-time wording.
+
+The semantic boundaries remain explicit:
+- `hasNeed/needOf` means ownership/experience of a Customer Need; `participants` remains separate participation context;
+- Actors remain human/stakeholder roles rather than Organizations;
+- `playsRole` is for durable market identity, not temporary supplier/partner/competitor context;
+- `makes/madeBy` remains distinct from `offers/offeredBy`;
+- `poweredBy/powers` is technology provenance, not manufacturing;
+- business/ecosystem links do not imply product composition, Design ownership, Function performance, or interface architecture.
+
+No model relationships, IDs, UIDs, or element types changed.
+
+Evidence: `80_Decisions and Planning/Semantic Linking Actor Organization Customer Need Review Step 22 0.1.yaml`.
+
+**Validation:** stakeholder ecosystem workflow `37400167622`, job `112065337459`, success; Vault Audit `37400167705`, job `112065337965`, success.
+
+**Result:** Step 22 complete. The next step is **Step 23 — Review product-to-market ecosystem links**.
