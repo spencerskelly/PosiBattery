@@ -1,0 +1,131 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 22
+status: "Complete"
+title: "Actors, Organizations, and customer needs review"
+
+scope:
+  governed_types:
+    - "Actor"
+    - "Organization"
+    - "Use Case subtype why"
+    - "Object"
+    - "Info legacy organization identity"
+  review_focus:
+    - "Actor/Organization hasNeed and Customer Need needOf"
+    - "Customer Need participants and realizedBy"
+    - "Actor versus Organization concept boundary"
+    - "durable organization roles"
+    - "maker versus offer/channel semantics"
+    - "supplier/distributor/partner/subsidiary/integration relationships"
+    - "business relationship inverse and mirror synchronization"
+    - "separation of business context from product architecture"
+
+implementation:
+  review_script: "99_System/09_Tools/review-actor-organization-customer-needs.py"
+  script_commit: "2d2b1346"
+  workflow: ".github/workflows/semantic-linking-stakeholder-ecosystem-review.yml"
+  workflow_commit: "6db7ba6c"
+  trigger_commit: "983600ef"
+  final_documentation_commit: "04cd03ea"
+  behavior: "Review plus governance-document alignment; no organization identity type migration."
+
+validation:
+  final_workflow_run: 37400167622
+  final_job_id: 112065337459
+  final_result: "success"
+  final_vault_audit_run: 37400167705
+  final_vault_audit_job: 112065337965
+  final_vault_audit_result: "success"
+  actors: 11
+  actors_with_direct_needs: 10
+  generic_actors_without_direct_needs: 1
+  generic_actor: "Vehicle Operator"
+  customer_needs: 22
+  customer_needs_with_holder: 22
+  customer_needs_with_realizedBy: 22
+  actor_need_pairs: 43
+  organization_need_pairs: 0
+  typed_organizations: 0
+  legacy_info_organization_identities: 73
+  organization_identities_total: 73
+  business_role_notes: 8
+  organization_folder_nonidentity_notes: 5
+  business_relationship_assertions_reviewed: 499
+  findings: 0
+
+business_relationship_assertions:
+  playsRole: 105
+  makes: 312
+  offers: 38
+  supplierOf: 3
+  distributedBy: 10
+  subsidiaryOf: 12
+  successorOf: 2
+  poweredBy: 3
+  partnerOf: 4
+  integratesWith: 10
+  note: "Symmetric partnerOf and integratesWith assertions are stored on both endpoints, so their counts are assertions rather than unique semantic pairs."
+
+need_semantics:
+  hasNeed_needOf: "Explicit ownership/experience of a Customer Need by an Actor or Organization."
+  participants: "Use Case participation; retained separately because participation is not the same as owning the need."
+  generic_actor_rule: "Vehicle Operator is a generalization of Forklift Operator and GSE Operator and does not need duplicate direct hasNeed links when the specialized roles own the needs."
+  customer_organization_rule: "No customer organization is currently modeled strongly enough to own a need. Do not invent institutional customer records from Actor roles."
+
+organization_identity_decision:
+  current_identity_type: "Info tagged organization"
+  count: 73
+  migration_to_Organization_performed: false
+  reason:
+    - "These are established canonical identities with stable IDs/UIDs."
+    - "relationships.yaml 1.36 explicitly permits legacy Info organization endpoints for the governed business predicates."
+    - "Bulk type conversion is unnecessary for semantic linking completeness and would introduce migration risk without improving the current graph."
+  future_rule: "New organization identity work may use the governed Organization class according to current templates/rules; legacy identities can be migrated only through a separate controlled identity migration if value justifies it."
+
+governance_alignment:
+  issue_closed: "Live organization documentation still described business predicates as provisional even though relationships.yaml 1.36 had already governed them."
+  files_updated:
+    - "60_Stakeholders and Ecosystem/Organizations/Business Relationship Vocabulary.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Business Relationship Ledger.md"
+    - "60_Stakeholders and Ecosystem/Organizations/README_Organizations.md"
+    - "60_Stakeholders and Ecosystem/Organizations/PosiCharge.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Battery Maker.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Charger Maker.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Monitor Maker.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Truck OEM.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Dealer or Distributor.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Software Vendor.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Accessory Maker.md"
+    - "60_Stakeholders and Ecosystem/Organizations/Brand Owner.md"
+  business_vocabulary_governance_aligned: true
+  business_ledger_governance_aligned: true
+  historical_planning_records_rewritten: false
+  rule: "Historical Step 64-75 records retain their at-the-time provisional wording; live governance documents now reflect the current schema."
+
+semantic_boundaries_confirmed:
+  - "playsRole is for durable organization identity in the market, not a contextual relationship."
+  - "supplierOf, distributedBy, partnerOf, integratesWith, and similar predicates preserve relationship-specific context."
+  - "makes/madeBy and offers/offeredBy remain distinct; seller/brand/channel status does not prove manufacture."
+  - "poweredBy/powers records technology provenance and does not assert physical manufacture."
+  - "Actors are human/stakeholder roles and are not converted into organizations."
+  - "Commercial/business relationships do not imply engineering composition, design ownership, behavior performance, or interface structure."
+
+semantic_changes:
+  model_relationship_assertions_added: 0
+  model_relationship_assertions_removed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+  organization_type_migrations: 0
+  governance_documentation_updated: 12
+
+conclusion:
+  unexplained_actor_need_gaps: 0
+  unexplained_customer_need_holder_gaps: 0
+  invalid_or_unsynchronized_business_relationships: 0
+  misleading_actor_organization_product_structural_links: 0
+  current_business_relationship_governance_documented: true
+  next_step: "Step 23 — Review product-to-market ecosystem links"
