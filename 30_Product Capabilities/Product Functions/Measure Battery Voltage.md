@@ -83,6 +83,27 @@ Measure the battery's overall terminal voltage (some products also measure half-
   - [[Exide Solition Light Traction Battery]] (V): <https://exidegroup.com/us/en/document/solition-light-traction-battery-leaflet>
 - **Extra (round 30):** documented for 6 of 21 battery maker groups (29 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
+## Implementation Allocation
+
+The primary reusable realization is [[Battery Voltage Measurement Design]], performed jointly by [[Battery Voltage Measurement Circuit]] and [[Battery Voltage Acquisition Firmware]] using shared [[Control Circuit]] resources.
+
+Concrete solution alternatives:
+- [[Resistive Divider ADC Voltage Measurement]]
+  - [[Precision Resistive Divider Network]]
+  - [[Voltage Input Protection and Filter]]
+  - [[Analog-to-Digital Converter]]
+- [[Isolated Voltage Measurement]]
+  - [[Isolated Voltage Measurement Device]]
+- [[Mid-Battery Differential Voltage Measurement]]
+  - requires [[Mid-Battery Voltage Tap]]
+  - uses additional scaled/conditioned ADC measurement to compare battery halves.
+
+### Product allocation
+
+- [[PosiCharge BMID]]: a battery-voltage measurement circuit plus acquisition/scaling firmware is modeled as a **>=95% engineering assumption** because PosiCharge publicly states the BMID recognizes/measures battery voltage. The exact divider, ADC, isolation, and protection topology is not public.
+- [[PosiCharge PosiGuard]]: a battery-voltage measurement circuit plus acquisition/scaling firmware is modeled as a **>=95% engineering assumption** because PosiGuard publicly specifies battery-voltage monitoring, an 18–120 V operating range, and 30 mV voltage resolution. The published data does not establish whether the internal circuit is a resistive divider, isolated front end, dedicated monitor IC, or another topology.
+- No concrete child topology is assigned to either PosiCharge product until stronger product-specific evidence exists.
+
 ## Aliases
 
 
