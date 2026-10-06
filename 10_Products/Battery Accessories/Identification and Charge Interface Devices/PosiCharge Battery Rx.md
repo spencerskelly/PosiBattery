@@ -40,6 +40,7 @@ hasDesign:
   - "[[Cloud Portal Integration]]"
   - "[[Battery Replacement Timing Prediction Design]]"
   - "[[Cloud Battery Data Upload Design]]"
+  - "[[Battery-Charger Data Communication Design]]"
 hasPart:
   - "[[Remote Alert Notification Service]]"
   - "[[Electrolyte Level Acquisition Firmware]]"
