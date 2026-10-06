@@ -1,0 +1,120 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 14
+status: "Complete"
+title: "Requirement satisfaction review"
+
+scope:
+  governed_type: "Requirement"
+  allowed_satisfier_types:
+    - "Function"
+    - "Design"
+    - "Object"
+    - "Result"
+  review_focus:
+    - "satisfiedBy/satisfies completeness"
+    - "satisfier type validity"
+    - "inverse synchronization"
+    - "distinguish scope, verification, enabling dependencies, and true satisfaction"
+    - "preserve explicit gaps where no defensible satisfier exists"
+
+implementation:
+  review_script: "99_System/09_Tools/review-requirement-satisfaction.py"
+  script_commit: "ad02efda"
+  workflow: ".github/workflows/semantic-linking-requirement-satisfaction-review.yml"
+  workflow_commit: "98600a1c"
+  trigger_commit: "0d1fa851"
+  behavior: "Review plus one evidence-backed semantic repair."
+
+semantic_repair:
+  requirement: "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+  satisfier: "PosiCharge PosiGuard"
+  satisfier_type: "Object"
+  relationship:
+    forward: "satisfies"
+    inverse: "satisfiedBy"
+  commits:
+    requirement_side: "fd623cb3"
+    object_side: "14b56a9a"
+  rationale:
+    - "The Requirement is an application/product-coverage obligation rather than one discrete Function behavior."
+    - "The PosiGuard product note explicitly states lead-acid and lithium support."
+    - "The schema permits Object -> Requirement satisfaction."
+    - "Using CAN, voltage sensing, or charger communication as the satisfier would overstate those Functions."
+
+validation:
+  workflow_run: 37395704790
+  job_id: 112051021177
+  result: "success"
+  requirements_reviewed: 6
+  requirements_with_satisfaction: 5
+  satisfier_types:
+    Function: 4
+    Object: 1
+    Design: 0
+    Result: 0
+  requirements_with_explicit_gap: 1
+  findings: 0
+
+explicit_gap:
+  requirement: "BMID - Preserve Battery Association"
+  exception: "EXC-ARCH-UNRESOLVED"
+  reason: "No Function, Design, Object, or Result currently demonstrates preservation of the battery association without inferring the implementation mechanism."
+  preserved_from: "BMID Requirement Function Traceability Step 88 0.1.yaml"
+  verification_context: "Verify BMID Battery Association Preservation explicitly preserves the open implementation decision."
+  action: "Do not use PosiCharge BMID itself, Identify Battery to Charger, or Log Battery Events and Usage as a satisfier until a real implementation/satisfaction mechanism is defined."
+
+satisfaction_map:
+  - requirement: "BMID - Provide Battery Identity to Compatible Charger"
+    satisfiedBy: "Identify Battery to Charger"
+    type: "Function"
+  - requirement: "BMID - Provide Supported Battery Condition Information to Charger"
+    satisfiedBy: "Report Battery Temperature to Charger"
+    type: "Function"
+  - requirement: "BMID - Retain Battery-Specific Usage History"
+    satisfiedBy: "Log Battery Events and Usage"
+    type: "Function"
+  - requirement: "BMID - Preserve Battery Association"
+    satisfiedBy: null
+    disposition: "EXC-ARCH-UNRESOLVED"
+  - requirement: "PosiGuard - Support Lead-Acid and Lithium Battery Fleets"
+    satisfiedBy: "PosiCharge PosiGuard"
+    type: "Object"
+  - requirement: "PosiGuard - Support Local Service Configuration"
+    satisfiedBy: "Configure Device from Mobile App or PC"
+    type: "Function"
+
+relationship_validation:
+  vault_audit_run: 37395705076
+  job_id: 112051022064
+  result: "success"
+  governed_relationship_assertions: 6075
+  unresolved_targets: 0
+  missing_inverses: 0
+  relationship_findings: 0
+  semantic_relationship_assertions_plus_local_model_definition_uses: 6084
+  legacy_weak_traceability_findings: 220
+  matrix_dimension_findings: 1088
+
+semantic_interpretation:
+  satisfies_satisfiedBy: "Fulfillment of the Requirement by Function, Design, Object, or Result."
+  appliesTo_applies: "Scope only; not satisfaction."
+  verifies_verifiedBy: "Verification intent/evidence relationship; not satisfaction."
+  dependsOn_dependencyOf: "Enabling dependency; not satisfaction."
+  rule: "Do not force a Function satisfier when the obligation is better fulfilled by an Object/Design, and do not use nearby behavior merely to close a gap."
+
+semantic_changes:
+  satisfies_assertions_added: 1
+  satisfiedBy_assertions_added: 1
+  speculative_links_added: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+
+conclusion:
+  unexplained_requirement_satisfaction_gaps: 0
+  explicit_unresolved_satisfaction_gaps: 1
+  valid_satisfaction_paths: 5
+  next_step: "Step 15 — Review Function ownership and decomposition"
