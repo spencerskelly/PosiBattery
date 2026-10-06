@@ -23,6 +23,7 @@ hasDesign:
   - "[[Battery Status Gauge]]"
   - "[[CAN Interface]]"
   - "[[Panel-Mount Gauge Form Factor]]"
+  - "[[CAN Battery State Communication Design]]"
 hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Battery Status Gauge Display Element]]"
@@ -74,6 +75,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - The underlying Inventus battery/BMS SOH estimator is not added as a product performer because no PROformance battery product note currently exists in the vault.
 
 - **Evidence clarification — SOH locus:** Inventus states that the SBM-01 receives battery-system information and displays battery SOH; Inventus separately states that PROformance batteries communicate SOH. This supports the display role, not local SOH estimation in the SBM-01.
+
+- **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
 
 ## Aliases
 
