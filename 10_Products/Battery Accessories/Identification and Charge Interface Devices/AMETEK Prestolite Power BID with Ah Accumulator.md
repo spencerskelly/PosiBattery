@@ -25,6 +25,7 @@ hasDesign:
   - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[DC-Cable Power-Line Communication]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 hasPart:
   - "[[Amp-Hour Counter State Memory]]"
   - "[[Battery Current Measurement Circuit]]"
@@ -87,6 +88,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 - **Current-measurement traceability correction (2026-10-06):** Prestolite explicitly states that this BID variant adds current monitoring and samples charge/discharge current more than 100 times per second.
+
+- **Architecture realization — temperature reporting to charger:** published evidence establishes that this product provides battery temperature to a compatible charger, supporting [[Battery Temperature Reporting to Charger]]. The exact transport, message encoding, reporting cadence, and charger response remain product-specific.
 
 ## Aliases
 
