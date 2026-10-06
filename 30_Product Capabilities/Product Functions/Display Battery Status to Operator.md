@@ -13,6 +13,7 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle Operator Display Design]]"
 performedBy:
+  - "[[Operator Display Controller Circuit]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Operator Display HMI Firmware]]"
