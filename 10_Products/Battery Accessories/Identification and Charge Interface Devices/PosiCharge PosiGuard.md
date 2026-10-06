@@ -45,6 +45,7 @@ hasDesign:
   - "[[CAN Battery State Communication Design]]"
   - "[[Wireless Battery Data Communication Design]]"
   - "[[Cloud Battery Data Upload Design]]"
+  - "[[Battery-Charger Data Communication Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
@@ -69,6 +70,7 @@ hasPart:
   - "[[Battery Current Acquisition Firmware]]"
   - "[[CAN Battery State Communication Firmware]]"
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[Battery-Charger Communication Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
 ---
 
