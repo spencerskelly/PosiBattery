@@ -12,6 +12,7 @@ reuseScope: cross-product
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Alert on Abnormal Condition]]"
   - "[[Indicate Battery Status Locally]]"
 partOf:
   - "[[EnerSys Wi-iQ]]"
