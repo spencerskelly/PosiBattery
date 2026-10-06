@@ -60,6 +60,7 @@ Maker or publisher marketing claims as stated, not independently verified.
 - DC Velocity (T2), retrieved 2026-10-04. <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
 
 - Trade press says TruBid sits on top of the battery, inserts a probe into a cell, continuously monitors electrolyte temperature and specific gravity, extends the charge with the charger to meet the manufacturer's recommendation, detects cell failures, shows status on six LEDs, and wirelessly downloads data to the charger and to DataLink software. Source: DC Velocity (undated) (T2), retrieved 2026-10-02. <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
+- Prestolite itself describes TruBID as a charging-system advancement that accurately measures specific gravity, identifies an undercharged battery, and reports an accurate specific-gravity measurement. Source: AMETEK Prestolite Power (2016) (T1), rechecked 2026-10-06. <https://www.prestolitepower.com/aboutus/news/2016/april/100>
 - **Status unclear:** TruBid does not appear on the current Prestolite Data Devices page (which lists WBID Pro, BID, BID with Ah Accumulator, Site Probe and WID2). It may be discontinued; not confirmed.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
   - [[Measure Battery Temperature]] (V): <https://dcvelocity.com/articles/31462-ametek-s-trubid-system-accurately-measures-battery-charge>
