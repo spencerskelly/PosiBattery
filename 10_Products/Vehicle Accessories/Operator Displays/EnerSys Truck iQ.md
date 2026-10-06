@@ -14,7 +14,6 @@ tags:
 subtypeOf:
   - "[[Operator Display]]"
 performs:
-  - "[[Estimate State of Charge]]"
   - "[[Display Battery Status to Operator]]"
   - "[[Alert on Abnormal Condition]]"
 hasDesign:
@@ -61,7 +60,6 @@ Maker or publisher marketing claims as stated, not independently verified.
 - EnerSys describes the Wi-iQ data as communicated by Bluetooth to the Truck iQ dashboard. Source: EnerSys news release (T2), retrieved 2026-10-02. <https://www.enersys.com/en-gb/about-us/news/enersys_suite_of_power_management_tools_elevate_fleet_performance/>
 - **Locus:** vehicle-mounted; adjacent, not battery-installed.
 - **Functions performed, with citations** (V = verified this pass, C = carried from seed text, U = user-stated):
-  - [[Estimate State of Charge]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
   - [[Display Battery Status to Operator]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard> <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
   - [[Alert on Abnormal Condition]] (V): <https://www.enersys.com/en-gb/about-us/news/enersys_suite_of_power_management_tools_elevate_fleet_performance/>
 - **Design characteristics, with citations:**
@@ -69,6 +67,7 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Vehicle-Mounted Display]] (V): <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>
 - **Sources used for the mapping above:** EnerSys Truck iQ page <https://enersys.com/en/products/monitoring-and-fleet-management/data-logger/enersys/truck-iqsuptradesup-smart-battery-dashboard>; EnerSys Wi-iQ4 owner's manual (Truck iQ section) <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
 - The Wi-iQ4 manual says the Truck iQ is a display powered by the battery via the truck cables that reads Wi-iQ4 data in real time over BLE and shows alerts, alarms, state of charge and other parameters. Source: EnerSys Wi-iQ4 owner's manual (T1), retrieved 2026-10-02. <https://enersys.com/4a788d/globalassets/documents/product-documentation/_misc/wi-iq/emea/emea-en-om-ens-wiq-0524.pdf>
+- **Scope correction — state of charge (2026-10-06):** EnerSys describes Truck iQ as reading Wi-iQ battery data wirelessly and showing state of charge. That establishes presentation of a battery-side SOC value, not local SOC estimation. Truck iQ therefore remains under [[Display Battery Status to Operator]] and no longer directly performs [[Estimate State of Charge]].
 - **Scope correction — remaining runtime (2026-10-06):** EnerSys describes Truck iQ as reading Wi-iQ battery data wirelessly and showing remaining work time. That establishes a display role, not that Truck iQ performs the runtime calculation. Truck iQ therefore remains under [[Display Battery Status to Operator]] and no longer directly performs [[Estimate Remaining Run Time]].
 - **Scope correction — voltage imbalance (2026-10-06):** EnerSys states that Truck iQ **shows** cell imbalance received from Wi-iQ. This is modeled through [[Display Battery Status to Operator]] rather than [[Detect Voltage Imbalance]]; the battery-mounted Wi-iQ is the verified measurement/detection source.
 - **Architecture realization — operator battery display:** the 4.3-inch touchscreen and BLE link to Wi-iQ are verified. [[Operator Touchscreen Display Module]] and [[BLE Communication Circuit]] therefore capture verified implementation roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because the internal controller/software architecture is not published.
