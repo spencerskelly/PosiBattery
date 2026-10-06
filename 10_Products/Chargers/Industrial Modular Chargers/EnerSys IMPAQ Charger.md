@@ -21,7 +21,11 @@ performs:
   - "[[Adapt Charge to Battery Condition]]"
 hasDesign:
   - "[[Modular Power Modules]]"
+  - "[[Adaptive Charge Profile Control Design]]"
+  - "[[Diagnostic-Loop Adaptive Charging]]"
 madeBy:
+hasPart:
+  - "[[Adaptive Charge Profile Control Firmware]]"
   - "[[EnerSys]]"
 ---
 
@@ -59,6 +63,8 @@ EnerSys modular high-frequency charger line for material handling and floor-care
   - [[Adapt Charge to Battery Condition]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
   - [[Charge Battery by Opportunity]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
   - [[Equalize Battery on Schedule]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
+
+- **Architecture realization — adaptive charge profile:** published behavior supports [[Adaptive Charge Profile Control Design]] with [[Diagnostic-Loop Adaptive Charging]]. [[Adaptive Charge Profile Control Firmware]] is allocated at **>=95% engineering confidence** because the adaptive control behavior is explicit while the internal firmware partition is unpublished.
 
 ## Aliases
 
