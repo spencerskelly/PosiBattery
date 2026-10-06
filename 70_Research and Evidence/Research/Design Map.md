@@ -123,6 +123,7 @@ Matrix of design characteristics against the products that use them, split by ev
 | [[RS-232 and RS-485 Serial Interface]] | [[PosiCharge PosiGuard]], [[Power Designers PowerTrac SP+]] | - | - |
 | [[Radar Object Sensor]] | [[Oshkosh AeroTech APD Forward Radar and Controller]], [[Toyota Assist]], [[Toyota Object Detection Radar]] | - | - |
 | [[Regenerative Braking]] | [[Crown RC 5700 Series]], [[Raymond 7000 Series Reach-Fork Trucks]], [[Toyota Assist]] | - | - |
+| [[Remaining Runtime Estimation Design]] | [[HOPPECKE trak collect]], [[Linde 6-8 t Electric Counterbalance Forklifts]] | - | - |
 | [[Remote Exception Notification]] | [[Crown Battery Health Monitor]], [[Hyster Battery Tracker]], [[Philadelphia Scientific eGO!core]], [[Philadelphia Scientific eGO!plus]], [[Philadelphia Scientific eGO!pro]], [[PosiCharge Battery Rx]], [[Yale Battery Vision]] | - | - |
 | [[Remote Charger Status Stack Light]] | [[Crown V-HFM3 Tower Light Kit]], [[PosiCharge Three-Color Stack Light]] | - | - |
 | [[Reverse-Polarity Protection]] | [[Philadelphia Scientific SmartBlinky Pro]], [[Power Designers PowerTrac DT3]], [[Power Designers PowerTrac SP+]] | - | - |
