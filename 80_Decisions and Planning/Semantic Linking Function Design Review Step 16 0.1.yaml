@@ -1,0 +1,80 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 16
+status: "Complete"
+title: "Function-to-Design realization review"
+
+scope:
+  governed_types:
+    - "Function"
+    - "Design"
+  review_focus:
+    - "realizedBy/realizes direct implementation"
+    - "dependsOn/dependencyOf enabling design dependencies"
+    - "inverse synchronization"
+    - "semantic overlap between realization and dependency"
+    - "active BMID design decisions from Step 89"
+    - "explicit unresolved design choices"
+
+implementation:
+  review_script: "99_System/09_Tools/review-function-design-realization.py"
+  script_commit: "e9314eaa"
+  workflow: ".github/workflows/semantic-linking-function-design-review.yml"
+  workflow_commit: "c52a84ae"
+  trigger_commit: "95c55069"
+  behavior: "Report-only."
+
+validation:
+  workflow_run: 37396609766
+  job_id: 112053996081
+  result: "success"
+  vault_audit_run: 37396609569
+  vault_audit_job: 112053995816
+  vault_audit_result: "success"
+  functions_reviewed: 129
+  function_to_design_realization_assertions: 2
+  functions_with_design_realization: 2
+  function_to_design_dependency_assertions: 48
+  functions_with_design_dependency: 46
+  findings: 0
+
+direct_realizations:
+  - function: "Configure Device from Mobile App or PC"
+    design: "Mobile App Interface"
+  - function: "Report Battery Temperature to Charger"
+    design: "Electrolyte-Immersed Temperature Sensor"
+
+bmid_step_89_validation:
+  approved_direct_realizations: 2
+  approved_design_dependencies: 4
+  explicit_unresolved_design_gaps: 3
+  gap_disposition: "EXC-ARCH-UNRESOLVED"
+  gaps:
+    - "Estimate State of Charge"
+    - "Identify Battery to Charger"
+    - "Measure Battery Voltage"
+  result: "No drift from the governed Step 89 decision record."
+
+relationship_semantics:
+  realizedBy_realizes: "Direct implementation of a Function by a Design."
+  dependsOn_dependencyOf: "Enabling or required Design dependency that does not claim the Design realizes the full Function."
+  overlap_rule: "The same Function/Design pair should not carry both meanings unless a reviewed semantic reason explicitly justifies both."
+  function_to_function_realizedBy: "Schema-valid but outside the Function-to-Design focus of this step."
+  rule: "Do not promote a dependency to realization merely to improve traceability counts."
+
+semantic_changes:
+  model_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  function_notes_changed: 0
+  design_notes_changed: 0
+  speculative_links_added: 0
+
+conclusion:
+  unexplained_function_design_realization_findings: 0
+  realization_dependency_overlap_findings: 0
+  inverse_findings: 0
+  explicit_unresolved_bmid_design_gaps: 3
+  next_step: "Step 17 — Review behavioral sequencing and state links"
