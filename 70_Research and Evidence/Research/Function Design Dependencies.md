@@ -75,7 +75,7 @@ Register of which designs each function depends on, with the basis for each depe
 | [[Diagnose Vehicle Remotely]] | [[Wireless Interface Design]] | analyst inference (necessity) | typical | TUG Endurance names Bluetooth; TUG ALPHA 1 does not name the link | remote diagnostics need a radio or portal path to the technician (added round 40) |
 | [[Follow Operator Automatically]] | [[Belt-Worn Remote Control]] | analyst inference (necessity) | typical | no gap | the operator's signal comes from a worn remote (easyPILOT) |
 | [[Adapt Speed to Load and Lift Height]] | [[Vehicle State Sensing Design]] | analyst inference (necessity) | strong | sources do not name the sensing | needs the load and height measured |
-| [[Enforce Pre-Shift Checklist]] | [[Display Device Design]] | analyst inference (necessity) | strong | sources do not name the display | the checklist is shown on a display (keypad or touch) |
+| [[Enforce Pre-Shift Checklist]] | [[Pre-Shift Checklist Enforcement Design]] | implementation review | strong | products publish electronic inspection checklists tied to vehicle authorization/lockout; exact software and interlock partition varies | requires operator display/input, checklist validation logic, and an inhibit/release path such as [[Vehicle Enable Interlock]] |
 | [[Change Battery Quickly]] | [[Quick-Change Battery Compartment]] | analyst inference (necessity) | strong | no gap | needs a side door, sideways change or roller pack |
 | [[Charge Battery from Standard Power Outlet]] | [[Battery Onboard Charger]] | analyst inference (necessity) | strong | no gap | needs a built-in charger |
 | [[Steer with Electric Power Assist]] | [[Electric Power Steering]] | analyst inference (necessity) | strong | no gap | is the mechanism |
