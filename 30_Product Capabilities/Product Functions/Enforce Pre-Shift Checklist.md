@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Display Device Design]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"
@@ -20,8 +21,11 @@ performedBy:
   - "[[STILL RX 60 Electric Forklift]]"
   - "[[STILL Safety Assist]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
+  - "[[Pre-Shift Checklist Enforcement Logic]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
+realizedBy:
+  - "[[Pre-Shift Checklist Enforcement Design]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
@@ -44,6 +48,20 @@ Require the operator to complete a vehicle inspection checklist before the truck
   - [[STILL RX 60 Electric Forklift]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
   - [[STILL Safety Assist]] (V): <https://www.still.co.uk/forklift-trucks/driver-assistance/safety-assist.html>
   - [[Crown InfoLink 7-inch Touch Display]] (V): <https://www.crown.com/en-us/fleet-management/infolink.html>
+
+## Implementation Allocation
+
+The reusable realization is [[Pre-Shift Checklist Enforcement Design]] -> [[Pre-Shift Checklist Enforcement Logic]].
+
+The implementation separates three roles:
+
+- [[Display Device Design]] presents the checklist and captures operator responses.
+- [[Pre-Shift Checklist Enforcement Logic]] evaluates completion, defects, blocking rules, and authorization state.
+- [[Vehicle Enable Interlock]] prevents truck operation when the checklist is incomplete or contains a blocking condition.
+
+A display alone does not enforce the checklist; enforcement requires both decision logic and a vehicle-use consequence.
+
+[[Crown InfoLink]] and [[Crown InfoLink 7-inch Touch Display]] provide the clearest currently modeled example of the full workflow. Other fleet-management products remain valid Function performers even where the exact lockout/software partition is unpublished.
 
 ## Aliases
 
