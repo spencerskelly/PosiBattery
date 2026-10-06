@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Step 25 true-orphan semantic review.
 
+Governed Step 25 review entry point.
+
 A graph-isolated note is acceptable only when every Step-2 expectation
 dimension has a reviewed intentional/non-applicable disposition. Unresolved
 exceptions do not close an orphan.
