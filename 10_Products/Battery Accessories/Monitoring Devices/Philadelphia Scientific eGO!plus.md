@@ -22,9 +22,11 @@ performs:
   - "[[Alert on Abnormal Condition]]"
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:
+  - "[[Remote Exception Notification]]"
   - "[[Local LED Indicator]]"
   - "[[Internal Temperature Sensor]]"
 hasPart:
+  - "[[Remote Alert Notification Service]]"
   - "[[LED Status Indicator Element]]"
   - "[[Integrated Temperature Sensor Element]]"
 madeBy:
@@ -70,6 +72,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Local LED Indicator]] (V): <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Sources used for the mapping above:** PhilSci eGO!plus page <https://www.phlsci.com/product-lines/battery-performance-monitors/ego-plus/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** Philadelphia Scientific explicitly publishes configurable eGO!alerts and Critical Alert Service. [[Remote Exception Notification]] and [[Remote Alert Notification Service]] capture the verified end-to-end notification role without asserting where the alert rule executes or which hosted software component sends the message.
 
 ## Aliases
 
