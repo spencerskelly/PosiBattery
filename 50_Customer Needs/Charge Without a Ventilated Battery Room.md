@@ -13,7 +13,10 @@ realizedBy:
   - "[[Charge Lithium-Ion Battery]]"
 participants:
   - "[[Fleet Operations Manager]]"
+  - "[[Forklift Operator]]"needOf:
+  - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
+
 ---
 
 # Charge Without a Ventilated Battery Room
