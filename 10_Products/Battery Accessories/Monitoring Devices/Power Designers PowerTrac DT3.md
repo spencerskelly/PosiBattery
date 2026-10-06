@@ -24,12 +24,18 @@ performs:
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Export Battery Data to PC]]"
 hasDesign:
+  - "[[Current Integration Amp-Hour Accumulation]]"
   - "[[Hall-Effect Current Sensing]]"
   - "[[900 MHz Industrial Wireless Interface]]"
   - "[[USB Data Download]]"
   - "[[Non-Volatile Event Memory]]"
   - "[[Acid-Resistant Sealed Housing]]"
   - "[[Reverse-Polarity Protection]]"
+hasPart:
+  - "[[Battery Current Measurement Circuit]]"
+  - "[[Battery Current Acquisition Firmware]]"
+  - "[[Amp-Hour Accumulator Firmware]]"
+  - "[[Control Circuit]]"
 madeBy:
   - "[[Power Designers]]"
 ---
@@ -78,6 +84,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Reverse-Polarity Protection]] (V): <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>
 - **Sources used for the mapping above:** PowerTrac DT3 data sheet (03/2018, dated) <https://www.powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-DT3_PowerTracDT3.pdf>; Material Handling 24/7 listing for PowerTrac DT <https://www.materialhandling247.com/product/powertrac_dt_battery_diagnostics_tool>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — amp-hour accumulation:** this product combines battery-current sensing/monitoring with accumulated amp-hour information, supporting [[Current Integration Amp-Hour Accumulation]]. [[Amp-Hour Accumulator Firmware]] and the prerequisite current-acquisition/controller roles are allocated at **>=95% engineering confidence** because the internal firmware partition is not published.
 
 ## Aliases
 
