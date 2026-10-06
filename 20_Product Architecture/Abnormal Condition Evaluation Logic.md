@@ -13,6 +13,11 @@ abstract: true
 reuseScope: cross-product
 hasDesign:
   - "[[Abnormal Condition Alert Design]]"
+partOf:
+  - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys iQ Mini]]"
+  - "[[Philadelphia Scientific eGO!Mini]]"
+  - "[[Philadelphia Scientific eGO!pro]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
 ---
@@ -27,6 +32,7 @@ Reusable logic that evaluates measurements, states, timers, histories, or diagno
 
 - Typical responsibilities can include threshold comparison, hysteresis, time qualification, debounce, persistence, fault classification, severity, suppression, escalation and alert clearing.
 - The inputs are product-specific and may come from voltage, current, temperature, electrolyte, state-of-charge, imbalance, equalization, communication or diagnostic functions.
+- Allocation to [[EnerSys Wi-iQ]], [[EnerSys iQ Mini]], [[Philadelphia Scientific eGO!Mini]], and [[Philadelphia Scientific eGO!pro]] is **>=95% engineering confidence** because each explicitly evaluates one or more abnormal battery conditions, while the internal firmware/software partition is not published.
 - Product allocation requires evidence or an explicit engineering-confidence assumption because public literature rarely exposes the internal firmware/software partition.
 
 ## Former ids
