@@ -18,6 +18,8 @@ partOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[PosiCharge Battery Rx]]"
 performs:
+dependencyOf:
+  - "[[Low Electrolyte Alert Logic]]"
   - "[[Sense Electrolyte Level]]"
 ---
 
