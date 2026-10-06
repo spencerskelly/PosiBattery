@@ -133,7 +133,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Alert Operator of Hazards]] | truck | 7 | 10 | 70% | [[Warning and Display Device Design]] | 15 | 1 | Core |
 | [[Slow Truck in Curves]] | truck | 7 | 10 | 70% | - | 8 | 0 | Core |
 | [[Limit Truck Speed Automatically]] | truck | 8 | 10 | 80% | - | 13 | 3 | Core |
-| [[Report Truck Telemetry]] | truck | 10 | 10 | 100% | [[Wireless Interface Design]] | 18 | 3 | Core |
+| [[Report Truck Telemetry]] | truck | 10 | 10 | 100% | [[Truck Telemetry Reporting Design]] | 18 | 3 | Core |
 
 **Extras (uncommon, device or software controlled)**
 
