@@ -1,0 +1,105 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 23
+status: "Complete"
+title: "Product-to-market ecosystem relationship review"
+
+scope:
+  product_domain: "10_Products"
+  review_focus:
+    - "maker/manufacturer attribution"
+    - "commercial offer/channel attribution"
+    - "technology provenance"
+    - "rebrand identity"
+    - "offered-together option/bundle context"
+    - "integration/compatibility context"
+    - "supplier/distributor/private-label/partner organization context"
+    - "customer-need reach through direct behavior versus offered option"
+    - "separation of market context from technical composition"
+
+implementation:
+  review_script: "99_System/09_Tools/review-product-market-ecosystem.py"
+  script_commit: "9984186a"
+  workflow: ".github/workflows/semantic-linking-product-ecosystem-review.yml"
+  workflow_commit: "abb3218a"
+  trigger_commit: "f711910c"
+  trigger_note_updated: "10_Products/Chargers/Industrial Modular Chargers/Power Designers REVOLUTION X.md"
+  trigger_note_change: "Added a semantic clarification that rebrandedAs is commercial identity context and does not imply composition or specialization."
+  behavior: "Report-only relationship validation plus one explanatory body-note clarification."
+
+validation:
+  workflow_run: 37400831318
+  job_id: 112067403694
+  result: "success"
+  vault_audit_run: 37400831441
+  vault_audit_result: "success"
+  product_objects: 398
+  abstract_product_objects: 56
+  concrete_product_objects: 342
+  concrete_products_without_maker_or_offerer: 0
+  findings: 0
+  review_prompts: 0
+
+product_market_relationships:
+  products_with_madeBy: 312
+  madeBy_assertions: 312
+  products_with_offeredBy: 38
+  offeredBy_assertions: 38
+  products_with_poweredBy: 3
+  poweredBy_assertions: 3
+  products_with_rebrandOf: 2
+  rebrandOf_assertions: 2
+  products_with_offeredWith: 174
+  offeredWith_assertions: 294
+  products_with_integratesWith: 7
+  integratesWith_assertions_on_product_notes: 8
+  products_distinguishing_maker_and_offerer: 7
+  poweredBy_without_manufacturer_claim: 2
+
+organization_ecosystem_context:
+  supplierOf_assertions: 3
+  distributedBy_assertions: 10
+  partnerOf_assertions: 4
+  privateLabelFor_assertions: 0
+  interpretation:
+    - "Absence of privateLabelFor is not treated as a gap; no current organization pair has evidence strong enough to require that assertion."
+    - "Supplier, distributor, and partnership relationships remain organization ecosystem context rather than product composition."
+
+customer_and_environment_context:
+  concrete_products_with_direct_customer_need_behavior_route: 245
+  concrete_products_with_offeredWith_customer_need_route: 136
+  interpretation:
+    - "A direct route through performs -> Function -> Customer Need realization is stronger than an offeredWith option route."
+    - "offeredWith indicates market/configuration availability and does not imply that the option is installed on every product instance."
+    - "No product-to-need relationship was invented merely to improve coverage."
+
+semantic_boundaries_confirmed:
+  madeBy_makes: "Maker/manufacturer identity."
+  offeredBy_offers: "Commercial/channel/brand availability; does not prove manufacture."
+  poweredBy_powers: "Named technology/platform provenance; does not prove physical manufacture."
+  rebrandOf_rebrandedAs: "Commercial product identity relationship; not copyOf, subtypeOf, or hasPart."
+  offeredWith: "Market/configuration/bundle association; not composition and not universal installation."
+  integratesWith: "Compatibility/integration context; does not itself define interfaces, ownership, or internal architecture."
+  supplierOf_distributedBy_partnerOf_privateLabelFor: "Organization ecosystem relationships; do not substitute for engineering relationships."
+  customer_need_routes: "Direct product behavior is stronger evidence than option/bundle context."
+
+step_24_handoff:
+  market_attribution_candidates: 0
+  implication: "Step 24 does not need to chase missing maker/offerer attribution among the 342 concrete product offerings. It can focus on whether broad market/reference leaves are intentionally sparse, reused, or accidentally disconnected."
+  reference_leaf_policy: "Do not add engineering-chain relationships solely because a concrete market product is commercially attributed."
+
+semantic_changes:
+  model_relationship_assertions_added: 0
+  model_relationship_assertions_removed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+  product_notes_with_explanatory_text_change: 1
+
+conclusion:
+  broken_or_unsynchronized_product_market_links: 0
+  unattributed_concrete_product_offerings: 0
+  commercial_technical_semantic_conflations_found: 0
+  next_step: "Step 24 — Review market/reference catalog leaves"
