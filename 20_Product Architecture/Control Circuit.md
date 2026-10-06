@@ -40,6 +40,7 @@ dependencyOf:
   - "[[Battery Data Export Firmware]]"
   - "[[Operator Access Authorization Logic]]"
   - "[[Charger Remote Management Agent]]"
+  - "[[Truck Telemetry Acquisition Logic]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"
