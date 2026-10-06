@@ -26,6 +26,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 ### Sensing, state, and data
 
 - [[Current Sensing Design]]
+- [[Voltage Imbalance Detection Design]]
 - [[Vehicle State Sensing Design]]
 - [[Data Handling Design]]
 - [[Object and Proximity Sensing Design]]
