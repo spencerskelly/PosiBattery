@@ -21,6 +21,8 @@ hasDesign:
   - "[[Local Low Electrolyte Alert]]"
   - "[[Audible Alarm]]"
   - "[[Local LED Indicator]]"
+hasPart:
+  - "[[LED Status Indicator Element]]"
 offeredBy:
   - "[[Crown Equipment]]"
 ---
