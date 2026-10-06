@@ -135,3 +135,5 @@ Each row is a dependency where at least one product that performs the function h
 - Function dependencies
 
 ## Former ids
+
+| [[Water Battery Cells]] | [[Battery Cell Watering Design]] | implementation review | strong | current products show float-valve single-point, injector level-sensing, charger-controlled automatic, and generic automatic watering variants | requires a controlled water-distribution/fill method; child Designs preserve distinct shutoff and control architectures |
