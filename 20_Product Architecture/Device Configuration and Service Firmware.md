@@ -16,6 +16,12 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+partOf:
+  - "[[Crown V-Force BMID]]"
+  - "[[PosiCharge PosiGuard]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Fronius TagID]]"
+  - "[[HOPPECKE trak collect]]"
   - "[[Configure Device from Mobile App or PC]]"
 ---
 
