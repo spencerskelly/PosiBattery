@@ -10,17 +10,14 @@ tags:
   - current
 abstract: true
 reuseScope: cross-product
-supertypeOf:
-  - "[[External Shunt Current Measurement Circuit]]"
-  - "[[Hall-Effect Current Measurement Assembly]]"
-  - "[[Shuntless Current Measurement Assembly]]"
-  - "[[Split-Core Current Measurement Assembly]]"
-performs:
-  - "[[Measure Battery Current]]"
 hasDesign:
   - "[[Current Sensing Design]]"
 dependsOn:
   - "[[Control Circuit]]"
+partOf:
+  - "[[PosiCharge PosiGuard]]"
+dependencyOf:
+  - "[[Battery Current Acquisition Firmware]]"
 ---
 
 # Battery Current Measurement Circuit
