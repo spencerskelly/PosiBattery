@@ -704,3 +704,42 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+
+  "20_Product Architecture/PosiCharge BMID Product Abstract and Definition.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "Concise product-framing authority; canonical engineering relationships belong on PosiCharge BMID and its governed engineering elements."
+      downstream:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "The note summarizes the active model but is intentionally not an engineering-chain node."
+      ownership_use:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "Framing/navigation purpose is explicit in the note body; ordinary body links provide reader navigation without claiming governed ownership."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "The note summarizes evidence already held by canonical product and source records and is not itself an evidence-bearing model assertion."
+  "20_Product Architecture/PosiCharge BMID Product Context.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "Context-framing note identifies external systems and boundaries without asserting governed architecture relationships."
+      downstream:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "The note explicitly states that its context and canvas edges are explanatory rather than authoritative MDSE assertions."
+      ownership_use:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "External context remains on canonical reusable elements and Use Cases rather than being owned by this framing note."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-FRAMING
+        note: "The context note summarizes evidence-backed boundaries but is not itself the governed evidence source."
