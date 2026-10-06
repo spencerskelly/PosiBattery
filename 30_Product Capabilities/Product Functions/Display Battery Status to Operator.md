@@ -13,6 +13,8 @@ subtypeOf:
 dependsOn:
   - "[[Vehicle Operator Display Design]]"
 performedBy:
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
+  - "[[Battery Status Gauge Display Element]]"
   - "[[Operator Display Controller Circuit]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
@@ -56,6 +58,8 @@ Show battery status to the vehicle operator on a vehicle-side display.
 The reusable realization is [[Vehicle Operator Display Design]] implemented by [[Vehicle Operator Display Assembly]], visible display modules, and [[Operator Display HMI Firmware]]. [[Operator Display Controller Circuit]] provides the shared controller electronics inside the display architecture.
 
 ### Known implementation paths
+
+- **CAN-fed panel battery monitor:** [[Inventus Smart Battery Monitor SBM-01]] receives battery-system information over CAN and presents SOC, SOH, runtime, voltage and fault data through [[Battery Status Gauge Display Element]]. [[CAN Communication Circuit]] captures the wired data interface; the underlying battery computes the SOH value.
 
 - **BLE-fed touchscreen dashboard:** [[EnerSys Truck iQ]] receives Wi-iQ battery data over its verified BLE link using [[BLE Communication Circuit]], then presents state of charge, remaining work time, warnings and other values through [[Operator Touchscreen Display Module]]. The display controller and HMI firmware are **>=95% engineering-confidence assumptions** because the internal architecture is unpublished.
 - **CAN-fed factory battery-discharge indicator:** [[Hyster Power Cellect]] uses a verified CAN link between battery and truck and presents battery information on the factory [[Battery Discharge Indicator Module]]. [[CAN Communication Circuit]] is the reusable physical-layer abstraction; exact transceiver/controller placement is not published.
