@@ -1,7 +1,7 @@
 ---
 type: Design
 subtype:
-id: DES-90002
+id: DES-90902
 uid: 20261006061500001skellyspencer
 status: Draft
 tags:
@@ -35,3 +35,5 @@ Battery-temperature sensing using a thermistor located external to the monitorin
 - Both products can therefore share the same reusable [[Thermistor Temperature Measurement Circuit]] implementation family without implying identical physical packaging.
 
 ## Former ids
+
+- Identity corrected 2026-10-06 from duplicate DES-90002; duplicate value is intentionally not reserved here.
