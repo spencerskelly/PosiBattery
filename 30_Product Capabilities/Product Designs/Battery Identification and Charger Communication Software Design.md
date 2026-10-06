@@ -18,6 +18,8 @@ dependsOn:
 realizes:
   - "[[Identify Battery to Charger]]"
 supportedBy:
+subtypeOf:
+  - "[[Battery-Charger Data Communication Design]]"
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
