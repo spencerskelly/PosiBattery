@@ -1,0 +1,127 @@
+schema_version: "1.0"
+generated_date: "2026-10-05"
+repository: "spencerskelly/PosiBattery"
+program: "PosiBattery Semantic Linking Completion Plan"
+step: 24
+status: "Complete"
+title: "Market/reference catalog leaf review"
+
+scope:
+  domain: "10_Products"
+  focus:
+    - "concrete product notes with no direct engineering-entry relationship"
+    - "family/specialization identity"
+    - "maker/offerer market attribution"
+    - "source/provenance presence"
+    - "market/reference reuse"
+    - "active-engineering consumer detection"
+    - "controlled reference-leaf dispositions"
+
+implementation:
+  review_script: "99_System/09_Tools/review-market-reference-leaves.py"
+  workflow: ".github/workflows/semantic-linking-market-reference-leaf-review.yml"
+  workflow_commit: "aaa35115"
+  initial_script_commit: "d0127c48"
+  dimensional_reporting_commit: "f99d09d1"
+  formatting_fix_commit: "26539c45"
+  disposition_validation_commit: "89a4279d"
+  disposition_registry: "80_Decisions and Planning/Semantic Linking Review Dispositions 0.1.yaml"
+  disposition_commit: "c16ddf33"
+
+review_result:
+  product_objects: 398
+  abstract_product_definitions: 56
+  concrete_product_objects: 342
+  concrete_products_with_direct_engineering_entry: 297
+  thin_reference_candidates: 45
+  thin_with_family_identity: 45
+  thin_with_market_attribution: 45
+  thin_with_provenance_signal: 45
+  thin_with_active_engineering_consumer_signal: 0
+  thin_reused_in_market_or_reference_context: 45
+  thin_intentionally_sparse_with_no_other_context: 0
+  accidentally_disconnected_reference_leaves: 0
+  findings: 0
+
+formal_classification:
+  reviewed_records_added: 45
+  classification: "reference_content"
+  controlled_gap_dispositions:
+    downstream:
+      count: 45
+      disposition: "intentionally_absent"
+      exception: "EXC-REFERENCE-LEAF"
+      reason: "The market/catalog product is retained without downstream engineering adoption."
+    ownership_use:
+      count: 45
+      disposition: "intentionally_absent"
+      exception: "EXC-REFERENCE-LEAF"
+      reason: "The market/catalog product is not selected into active product architecture or execution."
+    evidence:
+      count: 44
+      disposition: "not_applicable"
+      exception: "EXC-NOT-APPLICABLE"
+      reason: "Source provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  note:
+    - "PosiCharge BMID 1 already has a governed evidence relationship, so only downstream and ownership_use are dispositioned."
+    - "All other reviewed leaves have the three missing Step-2 dimensions above."
+  explicit_gap_dispositions_total: 134
+  EXC_REFERENCE_LEAF_records: 90
+  EXC_NOT_APPLICABLE_records: 44
+
+interpretation:
+  - "These 45 notes are engineering-chain leaves, not graph orphans."
+  - "Every reviewed leaf remains connected through product-family identity and maker/offerer context."
+  - "Every reviewed leaf preserves direct provenance through a URL or governed evidence relationship."
+  - "All 45 are reused elsewhere in market/reference context; none is a completely disconnected catalog stub."
+  - "No active Requirement, Verification, Use Case participation, Local Model use, or equivalent active-engineering consumer was found for these leaves."
+  - "Downstream engineering links must not be created merely to make a reference product look more complete."
+  - "If one of these products is later adopted into active engineering, its reference_content classification and EXC-REFERENCE-LEAF dispositions must be reconsidered."
+
+domain_breakdown:
+  Batteries: 16
+  Battery_Accessories: 1
+  Charger_Accessories: 1
+  Chargers: 3
+  Fleet_Software_and_Platforms: 2
+  Forklifts: 9
+  Ground_Support_Equipment: 10
+  Vehicle_Accessories: 3
+
+validation:
+  step_24_workflow_run: 37401622464
+  step_24_job_id: 112069866322
+  step_24_result: "success"
+  vault_audit_run: 37401622421
+  vault_audit_job_id: 112069866416
+  vault_audit_result: "success"
+  final_step_24_findings: 0
+  final_registry_errors: 0
+
+whole_vault_traceability_after_classification:
+  model_notes: 948
+  semantic_relationship_assertions: 6112
+  isolated_model_elements: 2
+  legacy_weak_traceability_findings: 220
+  matrix_dimension_findings: 1085
+  reviewed_completeness_classifications: 45
+  unreviewed_completeness_classifications: 903
+  applicable_unexplained_findings: 0
+  unresolved_exception_findings: 0
+  disposition_registry_errors: 0
+  reporter_note: "The reporter's explained_exception_findings summary remains 0 because reference_content dimensions are non-required under Step 3; the 134 explicit Step-24 gap dispositions remain stored in the registry for auditability."
+
+semantic_changes:
+  model_relationship_assertions_added: 0
+  model_relationship_assertions_removed: 0
+  product_note_relationships_changed: 0
+  ids_changed: 0
+  uids_changed: 0
+  element_types_changed: 0
+  disposition_registry_records_added: 45
+
+conclusion:
+  legitimate_reference_leaves_classified: 45
+  accidental_reference_disconnects: 0
+  artificial_engineering_links_added: 0
+  next_step: "Step 25 — Resolve true orphan elements"
