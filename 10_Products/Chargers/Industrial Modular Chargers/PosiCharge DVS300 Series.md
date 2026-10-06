@@ -17,6 +17,11 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
+hasDesign:
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Communicated Battery Temperature Charge Compensation]]"
+hasPart:
+  - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[PosiCharge BMID]]"
 ---
 
@@ -38,6 +43,8 @@ PosiCharge outdoor GSE chargers (DVS300, DVS330, DVS400) for 24 to 96 V that cha
 - **Baseline confidence (DVS300/330/400):** Verified public—family level. **Still needed:** Resolve 300/330/400 configuration mapping; confirm current/output limits, power-sharing conditions, GBT board scope, eGSE/OEM compatibility, connectors, certifications, current BMID generation/protocol, and geographic availability.
 - The current DVS sheet (Downloads/DVS-300-400.pdf) says DVS300 and DVS400 are stand-alone chargers for one vehicle up to 500 A or two at 250 A each, with an integrated AC-to-DC power server, CAN for lithium batteries, BMID support, up to 3 times the equipment throughput of conventional chargers, NEMA 3R, Euro and Burton connectors; table: DVS300 30 kW, 480/600 VAC 3-phase, 40/32 A draw, breaker 50/40 A, power factor 0.96, efficiency 90 percent, 24 to 96 V, 250 A dual or 500 A single mode, 905 lb, 60 x 32.4 x 21.9 in, RS232; DVS400 40 kW, same draw as DVS300 (40/32 A, see C80), breaker 70/60 A, 915 lb. Source: PosiCharge DVS 300/400 sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/DVS-300-400.pdf>
 - The same sheet file has pages for a DVS330 and a DVS330 IP55 (stand-alone, same 500 A or 2 x 250 A, GBT CAN add-on kit, Euro or Burton connectors); the eGSE catalog also lists a DVS330 II and an MVS330 (names only in the retrieved text). Source: PosiCharge DVS sheet and eGSE catalog (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/06/eGSE-Catalog.pdf>
+
+- **Architecture realization — temperature-compensated charging:** published behavior supports [[Temperature-Compensated Charge Control Design]] with [[Communicated Battery Temperature Charge Compensation]]. [[Temperature Compensation Charge Control Firmware]] is allocated at **>=95% engineering confidence** because the charger must apply temperature-dependent control while its internal software partition is unpublished. Compensation slope, thresholds, filtering, and fault fallback remain product-specific.
 
 ## Aliases
 
