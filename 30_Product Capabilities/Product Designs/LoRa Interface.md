@@ -13,6 +13,7 @@ describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[PosiCharge PosiGuard]]"
+  - "[[LoRa Communication Circuit]]"
 ---
 
 # LoRa Interface
