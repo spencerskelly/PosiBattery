@@ -14,6 +14,9 @@ dependsOn:
   - "[[Battery Current Measurement Circuit]]"
 performs:
   - "[[Measure Battery Current]]"
+dependencyOf:
+  - "[[Coulomb Counting State of Charge Estimator Firmware]]"
+  - "[[Hybrid State of Charge Estimator Firmware]]"
 partOf:
   - "[[PosiCharge PosiGuard]]"
 ---
