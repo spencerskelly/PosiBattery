@@ -11,7 +11,11 @@ tags:
 reuseScope: cross-product
 hasDesign:
   - "[[Vehicle-Mounted Display]]"
+dependencyOf:
+  - "[[Komatsu Operator Presence Sensing System]]"
 partOf:
+  - "[[Hangcha A Series Electric Forklifts]]"
+  - "[[Mallaghan SkyBelt]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Vehicle Operator Display Assembly]]"
   - "[[Linde MT18 Multifunction Display]]"
