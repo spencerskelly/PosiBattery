@@ -24,6 +24,8 @@ designOf:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
 supportedBy:
+supertypeOf:
+  - "[[Cloud Battery Data Upload Design]]"
   - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
