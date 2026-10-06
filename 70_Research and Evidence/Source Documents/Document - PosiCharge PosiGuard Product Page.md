@@ -14,7 +14,8 @@ accessed: 2026-10-03
 describes:
   - "[[PosiCharge PosiGuard]]"
 supports:
-  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"  - "[[Wireless Interface Design]]"
+  - "[[PosiGuard - Support Lead-Acid and Lithium Battery Fleets]]"
+  - "[[Wireless Interface Design]]"
   - "[[Cloud Portal Integration]]"
 
 ---
@@ -36,7 +37,7 @@ Official PosiCharge product-page evidence for PosiGuard, including lead-acid and
 ## Traceability
 
 - `describes` identifies PosiGuard as the primary product subject.
-- `supports` is limited here to the active chemistry/application Requirement directly stated by the product evidence.
+- `supports` is limited to engineering claims directly stated by the product evidence: the chemistry/application Requirement plus the wireless-interface and cloud-integration Design concepts evidenced by the published communications and PosiLink connection.
 - Detailed CAN/BMS protocol coverage, responsibility boundaries, cybersecurity, and service behavior remain open and are not inferred from this page.
 
 ## Former ids
