@@ -42,6 +42,7 @@ hasDesign:
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Design]]"
   - "[[Current Sensing Design]]"
+  - "[[CAN Battery State Communication Design]]"
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
