@@ -27,6 +27,7 @@ hasDesign:
   - "[[Bluetooth Low Energy Interface]]"
   - "[[Local LED Indicator]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Battery Abuse Cycle Analytics]]"
 hasPart:
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Local Abnormal Alert Output Assembly]]"
@@ -104,6 +105,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Controller and CAN Bus]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — abnormal-condition alert:** iQ Mini explicitly detects over-temperature, low electrolyte and over-discharge and shows the alerts on the unit. [[Abnormal Condition Evaluation Logic]] is allocated at **>=95% engineering confidence** because the internal evaluation implementation is not published.
+
+- **Architecture realization — battery abuse analytics:** the product is allocated [[Battery Abuse Cycle Analytics]] because its published feature set explicitly reports abuse cycles / abuse analytics. The calculation location and algorithm are not published, so neither [[Device-Resident Abuse Cycle Analytics]] nor [[Cloud-Based Abuse Cycle Analytics]] is selected.
 
 ## Aliases
 
