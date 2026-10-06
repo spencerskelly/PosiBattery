@@ -22,12 +22,17 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Export Battery Data to PC]]"
 hasDesign:
+  - "[[Local Abnormal Condition Alert]]"
   - "[[USB Data Download]]"
   - "[[Local LED Indicator]]"
   - "[[Audible Alarm]]"
   - "[[Battery-Top Mounting]]"
   - "[[Mobile App Interface]]"
 hasPart:
+  - "[[Abnormal Condition Evaluation Logic]]"
+  - "[[Local Abnormal Alert Output Assembly]]"
+  - "[[Status Indicator Driver Circuit]]"
+  - "[[Audible Alarm Transducer]]"
   - "[[LED Status Indicator Element]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
@@ -75,6 +80,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Mobile App Interface]] (V): <https://warehousenews.co.uk/?p=68147>
 - **Sources used for the mapping above:** PhilSci eGO!mini sheet <https://www.phlsci.com/media/151762/ego-mini-egou-ps-ssh-doc0184-eng.pdf>; Warehouse News eGO! feature (undated) <https://warehousenews.co.uk/?p=68147>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Architecture realization — abnormal-condition alert:** eGO!Mini explicitly provides LED indication, an audible low-electrolyte alarm and an over-temperature warning. The alert-evaluation logic is allocated at **>=95% engineering confidence** because the internal electronics/software partition is not published.
 
 ## Aliases
 
