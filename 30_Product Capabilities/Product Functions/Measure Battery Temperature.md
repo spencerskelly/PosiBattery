@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Sense Battery State]]"
 describedBy:
   - "[[Metric - Temperature Sensing]]"
+dependsOn:
+  - "[[Battery Temperature Measurement Design]]"
 performedBy:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[AMETEK Prestolite Power BID with Ah Accumulator]]"
