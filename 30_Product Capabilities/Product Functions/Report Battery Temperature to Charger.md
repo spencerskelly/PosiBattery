@@ -26,6 +26,8 @@ satisfies:
   - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
 realizedBy:
   - "[[Electrolyte-Immersed Temperature Sensor]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Report Battery Temperature to Charger
