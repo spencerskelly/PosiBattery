@@ -16,6 +16,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Communicate with Charger]]"
 partOf:
   - "[[EnerSys NexSys iON Battery]]"
   - "[[Power Designers PowerTrac 3]]"
@@ -23,7 +24,6 @@ partOf:
   - "[[HOPPECKE trak collect]]"
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[Communicate with Charger]]"
 ---
 
 # Battery-Charger Communication Firmware
