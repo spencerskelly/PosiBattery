@@ -54,7 +54,7 @@ Which functions are 'Extra': controlled by devices or software and offered by fe
 | [[Estimate State of Health]] | battery | 1 | 21 | 5% | - | 2 | 1 | Extra |
 | [[Configure Device from Mobile App or PC]] | battery | 2 | 21 | 10% | - | 4 | 1 | Extra |
 | [[Connect Battery to Charger or Vehicle]] | battery | 2 | 21 | 10% | - | 3 | 1 | Extra |
-| [[Detect Voltage Imbalance]] | battery | 2 | 21 | 10% | - | 3 | 0 | Extra |
+| [[Detect Voltage Imbalance]] | battery | 2 | 21 | 10% | [[Voltage Imbalance Detection Design]] | 3 | 0 | Extra |
 | [[Identify Battery to Charger]] | battery | 2 | 21 | 10% | - | 5 | 2 | Extra |
 | [[Report Battery Temperature to Charger]] | battery | 2 | 21 | 10% | - | 5 | 2 | Extra |
 | [[Transmit Battery Data Wirelessly]] | battery | 2 | 21 | 10% | [[Wireless Interface Design]] | 21 | 6 | Extra |
