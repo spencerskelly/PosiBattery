@@ -66,6 +66,28 @@ Estimate the battery's state of charge from measurements.
   - [[HOPPECKE trak collect]] (V): <https://warehousenews.co.uk/?p=103814>
 - **Extra (round 30):** documented for 4 of 21 battery maker groups (19 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
+## Implementation Allocation
+
+The primary reusable realization is [[State of Charge Estimation Design]], performed by [[State of Charge Estimation Firmware]] on the shared [[Control Circuit]].
+
+Concrete algorithm alternatives:
+- [[Voltage-Based State of Charge Estimation]]
+  - depends on [[Battery Voltage Measurement Design]];
+  - may use open-circuit-voltage lookup, loaded-voltage compensation, chemistry-specific curves, and temperature correction.
+- [[Coulomb Counting State of Charge Estimation]]
+  - depends on [[Current Sensing Design]];
+  - integrates charge into/out of the battery and requires an initial or periodically corrected SOC reference.
+- [[Hybrid State of Charge Estimation]]
+  - depends on voltage measurement, current sensing, and temperature information;
+  - may combine coulomb counting, voltage lookup, temperature compensation, capacity/aging correction, and model-based correction.
+
+### Product allocation
+
+- [[PosiCharge BMID]] is allocated [[State of Charge Estimation Firmware]] and [[State of Charge Estimation Design]] as a **>=95% engineering assumption** because PosiCharge publicly states that the BMID recognizes state of charge. The exact algorithm is not published.
+- The current BMID evidence establishes voltage measurement, but does not establish whether BMID SOC uses voltage only, current integration, or a hybrid algorithm.
+- No child SOC algorithm is assigned to BMID until stronger product-specific evidence or an explicit engineering decision exists.
+- [[PosiCharge PosiGuard]] is **not** allocated this Function or SOC implementation in this pass because the current PosiGuard evidence set does not explicitly establish SOC estimation.
+
 ## Aliases
 
 
