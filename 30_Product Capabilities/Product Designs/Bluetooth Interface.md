@@ -21,6 +21,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[Stryten X-3 Charger]]"
   - "[[TUG Endurance Baggage Tractor]]"
+supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 ---
 
 # Bluetooth Interface
