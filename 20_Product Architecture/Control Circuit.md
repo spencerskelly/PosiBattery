@@ -14,6 +14,7 @@ dependencyOf:
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
+  - "[[State of Charge Estimation Firmware]]"
 partOf:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiGuard]]"
