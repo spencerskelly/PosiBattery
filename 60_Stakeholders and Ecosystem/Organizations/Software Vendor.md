@@ -20,7 +20,7 @@ An organization that sells software or cloud platforms for trucks, batteries, ch
 
 ## Notes
 
-- Role notes group organizations by what they do. Linked with `playsRole` (provisional); see [[Business Relationship Vocabulary]].
+- Role notes group organizations by what they do. Linked with governed `playsRole / rolePlayedBy`; see [[Business Relationship Vocabulary]].
 
 ## Aliases
 
