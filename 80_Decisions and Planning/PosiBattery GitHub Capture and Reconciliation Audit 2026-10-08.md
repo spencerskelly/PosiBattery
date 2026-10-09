@@ -53,9 +53,10 @@ The previous `99_System/10_Docs/PosiBattery Runtime Handoff State.md` passed at 
 
 1. Review and classify all 331 CI relationship errors; separate invalid endpoint semantics from valid but unsynchronized pairs.
 2. Repair model records in bounded batches, keeping IDs, UIDs, evidence and sanctioned Local Model usage intact. Avoid manufacturing physical composition, function implementation, or product applicability.
-3. Require both blocking workflows to pass on **the same commit** after re-running the supporting model reviews.
-4. Update the current runtime handoff with exact successful commit, run IDs, counts, and remaining nonblocking quality items.
-5. Resolve superseded PR/branches without losing any unique authoritative content.
-6. For each active workstation, separately check for local uncommitted/unpushed changes; no remote-only audit can prove these are absent.
+3. Record the independent function-by-function completeness work in [issue #3](https://github.com/spencerskelly/PosiBattery/issues/3); do not mistake partial implementation evidence for an exhaustive review.
+4. Require both blocking workflows to pass on **the same commit** after re-running the supporting model reviews.
+5. Update the current runtime handoff with exact successful commit, run IDs, counts, and remaining nonblocking quality items.
+6. Resolve superseded PR/branches without losing any unique authoritative content.
+7. For each active workstation, separately check for local uncommitted/unpushed changes; no remote-only audit can prove these are absent.
 
 **Capture status:** substantial project work is committed to the remote repository; **GitHub integrity status is not green**. Treat `main` as a preserved working model, **not a verified golden state**, until issue #2 is closed by a passing audit.
