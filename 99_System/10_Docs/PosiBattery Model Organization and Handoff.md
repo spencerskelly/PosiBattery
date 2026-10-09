@@ -41,11 +41,11 @@ The repository has already been reorganized substantially into the numbered Posi
 99_System/
 ```
 
-This numbered structure is the authoritative vault-level information architecture for PosiBattery and the required destination framework for new stable content and future migrations. It is still being reconciled: some folders contain mixed artifact classes, some navigation files retain pre-migration paths, and the root still contains temporary/migration-source areas such as `Downloads`, `_Cost Driver Research`, `_EMS Research`, and `_Power Conversion Research`.
+This numbered structure is the authoritative vault-level information architecture for PosiBattery. The 100-step architecture-improvement roadmap was completed on 2026-10-05. The former root migration-source areas `_Cost Driver Research`, `_EMS Research`, and `_Power Conversion Research` have been migrated out of the root; `Downloads` remains as a raw-source/attachment holding area governed by the recorded Downloads reviews. Some folders deliberately contain multiple content classes, and future navigation changes must preserve the numbered taxonomy, IDs, UIDs, and explicit relationships.
 
 Do not interpret current placement as semantic proof. Existing links, note identity, explicit relationships, schemas, and evidence provenance remain more important than cosmetic folder uniformity.
 
-The controlled incremental cleanup sequence is `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`. Follow that plan one approved step at a time rather than performing an ad hoc bulk reorganization.
+The completed 100-step historical cleanup sequence is `80_Decisions and Planning/PosiBattery Architecture Improvement Plan.md`; all 100 steps have completion records. Do not restart broad migration. For current verification blockers, use `99_System/10_Docs/PosiBattery Runtime Handoff State.md`, the project chat traceability audit dated 2026-10-08, and GitHub issue #2. Future changes should be small, evidence-led engineering/model updates with checks after each bounded batch.
 
 ## Product-context navigation pattern
 
