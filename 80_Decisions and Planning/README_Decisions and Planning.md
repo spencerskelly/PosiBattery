@@ -10,6 +10,7 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[PosiBattery Model Organizat
 
 ## Start here
 
+- [[PosiBattery Project Chat to GitHub Traceability Audit 2026-10-08]] — chronological chat-to-commit/model evidence and documented verification limits.
 - [[PosiBattery GitHub Capture and Reconciliation Audit 2026-10-08]] — current remote capture, validation, branch/PR reconciliation, and recovery status; see [[PosiBattery Runtime Handoff State]] and [issue #2](https://github.com/spencerskelly/PosiBattery/issues/2).
 - [[PosiBattery Architecture Improvement Plan]] — historical 100/100 completed vault-improvement roadmap (2026-10-05), retained for evidence.
 - [[Knowledge Base Backlog]] — repository-native backlog for taxonomy, model, evidence, integrity, migration, and validation work.
