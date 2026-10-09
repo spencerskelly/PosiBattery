@@ -22,9 +22,11 @@ performedBy:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Electrolyte Circulation Air Pump]]"
   - "[[Cell Air Distribution Tubing]]"
+  - "[[HOPPECKE trak uplift air Battery]]"
 realizedBy:
   - "[[Air Injection Electrolyte Circulation]]"
   - "[[HOPPECKE trak uplift air Battery]]"
+  - "[[Forced Electrolyte Circulation]]"
 ---
 
 # Circulate Electrolyte

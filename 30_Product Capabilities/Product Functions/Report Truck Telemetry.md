@@ -39,6 +39,7 @@ realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 realizedBy:
   - "[[Truck Telemetry Reporting Design]]"
   - "[[Find and Fix Vehicle Faults Without Downtime]]"

@@ -34,6 +34,7 @@ madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys NexSys TPPL Battery]]"
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"

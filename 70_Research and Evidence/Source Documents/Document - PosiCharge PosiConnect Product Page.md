@@ -17,6 +17,8 @@ supports:
   - "[[PosiGuard - Support Local Service Configuration]]"
   - "[[Configure Device from Mobile App or PC]]"
   - "[[Mobile App Interface]]"
+dependencyOf:
+  - "[[Configure Device from Mobile App or PC]]"
 ---
 
 # Document - PosiCharge PosiConnect Product Page

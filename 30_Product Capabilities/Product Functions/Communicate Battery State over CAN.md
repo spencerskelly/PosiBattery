@@ -26,6 +26,7 @@ performedBy:
   - "[[CAN Battery State Communication Firmware]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 realizedBy:
   - "[[CAN Battery State Communication Design]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"

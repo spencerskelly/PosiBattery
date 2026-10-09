@@ -15,6 +15,7 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Adapt Charge to Battery Condition]]"
 partOf:
   - "[[Fronius Selectiva 4.0]]"
   - "[[EnerSys IMPAQ Charger]]"

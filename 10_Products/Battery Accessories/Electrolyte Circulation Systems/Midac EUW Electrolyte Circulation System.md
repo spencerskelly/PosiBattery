@@ -21,6 +21,7 @@ hasDesign:
 offeredBy:
   - "[[Midac]]"
 offeredWith:
+  - "[[Midac PzS Traction Battery]]"
 hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Electrolyte Circulation Air Pump]]"

@@ -21,11 +21,13 @@ designOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Event Log Memory]]"
+  - "[[Power Designers PowerTrac SP+]]"
 dependencyOf:
   - "[[Equalization Event Tracking Firmware]]"
   - "[[Equalization Status Recording Software]]"
   - "[[Battery Replacement Prediction Firmware]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Battery Event and Usage Logging Design]]"
 ---
 
 # Non-Volatile Event Memory

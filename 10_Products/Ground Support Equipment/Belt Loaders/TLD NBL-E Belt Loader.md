@@ -16,6 +16,8 @@ madeBy:
 offeredWith:
   - "[[TLD ASD+ Assisted Docking]]"
   - "[[TLD Aircraft Safety Docking]]"
+partOf:
+  - "[[TLD Aircraft Safety Docking]]"
 ---
 
 # TLD NBL-E Belt Loader

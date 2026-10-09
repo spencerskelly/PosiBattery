@@ -16,6 +16,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Manage Chargers Remotely]]"
 partOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"

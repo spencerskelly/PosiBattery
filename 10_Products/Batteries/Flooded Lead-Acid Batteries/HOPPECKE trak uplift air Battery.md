@@ -21,6 +21,9 @@ madeBy:
 offeredWith:
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
+partOf:
+  - "[[HOPPECKE trak charger HF premium]]"
+  - "[[HOPPECKE trak air Electrolyte Circulation]]"
 ---
 
 # HOPPECKE trak uplift air Battery

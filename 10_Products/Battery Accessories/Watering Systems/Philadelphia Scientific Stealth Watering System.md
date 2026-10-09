@@ -18,6 +18,7 @@ performs:
 madeBy:
   - "[[Philadelphia Scientific]]"
 integratesWith:
+  - "[[Crown V-Force Single Point Watering System]]"
 hasDesign:
   - "[[Float-Valve Single-Point Watering]]"
 hasPart:

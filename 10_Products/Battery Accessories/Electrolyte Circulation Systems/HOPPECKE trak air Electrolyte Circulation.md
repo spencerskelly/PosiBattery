@@ -21,6 +21,7 @@ hasDesign:
 madeBy:
   - "[[HOPPECKE]]"
 offeredWith:
+  - "[[HOPPECKE trak uplift air Battery]]"
 hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Cell Air Distribution Tubing]]"

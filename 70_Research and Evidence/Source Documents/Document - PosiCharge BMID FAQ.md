@@ -27,6 +27,8 @@ supports:
   - "[[Thermistor Temperature Measurement Circuit]]"
   - "[[Battery Temperature Measurement Design]]"
 
+dependencyOf:
+  - "[[Report Battery Temperature to Charger]]"
 ---
 
 # Document - PosiCharge BMID FAQ

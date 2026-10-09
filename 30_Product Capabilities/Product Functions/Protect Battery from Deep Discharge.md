@@ -18,6 +18,7 @@ performedBy:
   - "[[Battery Discharge Interlock Logic]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"
 realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 dependsOn:
   - "[[Deep Discharge Protection Design]]"
 realizedBy:

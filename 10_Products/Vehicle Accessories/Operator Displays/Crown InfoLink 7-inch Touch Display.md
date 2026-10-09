@@ -24,6 +24,7 @@ hasDesign:
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
+  - "[[Crown ProximityAssist System]]"
 hasPart:
   - "[[Pre-Shift Checklist Enforcement Logic]]"
   - "[[Vehicle Enable Interlock]]"

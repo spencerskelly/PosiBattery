@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Sense Battery State]]"
 dependsOn:
   - "[[Electrolyte Level Sensing Design]]"
+  - "[[Electrolyte Level Acquisition Firmware]]"
 describedBy:
   - "[[Metric - Electrolyte Level Sensing]]"
 performedBy:

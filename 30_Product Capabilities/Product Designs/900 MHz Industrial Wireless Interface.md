@@ -13,6 +13,8 @@ describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 designOf:
   - "[[Power Designers PowerTrac DT3]]"
+dependencyOf:
+  - "[[Wireless PC Data Export]]"
 ---
 
 # 900 MHz Industrial Wireless Interface

@@ -17,6 +17,7 @@ offeredBy:
 offeredWith:
   - "[[HOPPECKE trak collect]]"
   - "[[HOPPECKE trak uplift iQ Battery]]"
+  - "[[HOPPECKE trak uplift air Battery]]"
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
 hasPart:

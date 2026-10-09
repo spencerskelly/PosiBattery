@@ -16,6 +16,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Charge Under BMS Control]]"
 partOf:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Delta-Q IC650]]"

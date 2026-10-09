@@ -12,6 +12,11 @@ supertypeOf:
   - "[[Modular Power Modules]]"
   - "[[Multi-Voltage Output]]"
   - "[[Silicon-Carbide Power Stage]]"
+dependencyOf:
+  - "[[Lead-Acid Desulfation Charge Control Design]]"
+  - "[[BMS-Directed Charge Control Design]]"
+  - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Adaptive Charge Profile Control Design]]"
 ---
 
 # Charger Power Stage Design

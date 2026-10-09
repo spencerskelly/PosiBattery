@@ -15,6 +15,8 @@ designOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Serial Communication Circuit]]"
+dependencyOf:
+  - "[[Serial and Infrared PC Data Export]]"
 ---
 
 # RS-232 and RS-485 Serial Interface

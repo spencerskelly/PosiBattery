@@ -48,6 +48,10 @@ madeBy:
   - "[[Power Designers]]"
 offeredWith:
   - "[[Power Designers REVOLUTION X]]"
+dependsOn:
+  - "[[Non-Volatile Event Memory]]"
+partOf:
+  - "[[Power Designers REVOLUTION X]]"
 ---
 
 # Power Designers PowerTrac SP+

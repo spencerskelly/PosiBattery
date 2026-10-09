@@ -29,6 +29,8 @@ designOf:
 realizes:
   - "[[Communicate with Charger]]"
 dependencyOf:
+  - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Communicate with Charger]]"
 supertypeOf:
   - "[[Battery Identification and Charger Communication Software Design]]"
   - "[[Communicate with Charger]]"

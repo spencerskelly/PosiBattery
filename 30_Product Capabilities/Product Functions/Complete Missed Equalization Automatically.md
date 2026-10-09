@@ -13,6 +13,7 @@ subtypeOf:
 performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Missed Equalization Recovery Firmware]]"
+  - "[[Power Designers REVOLUTION X]]"
 dependsOn:
   - "[[Missed Equalization Recovery Design]]"
 realizedBy:

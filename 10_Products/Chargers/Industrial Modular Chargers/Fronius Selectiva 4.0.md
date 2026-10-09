@@ -18,6 +18,7 @@ madeBy:
   - "[[Fronius International]]"
 offeredWith:
   - "[[Fronius TagID]]"
+  - "[[Fronius Charge & Connect]]"
 hasDesign:
   - "[[Remote Charger Management Design]]"
   - "[[Adaptive Charge Profile Control Design]]"

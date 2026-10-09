@@ -12,6 +12,10 @@ subtypeOf:
 dependencyOf:
   - "[[Command Vehicle Operating Limits over CAN]]"
   - "[[Communicate Battery State over CAN]]"
+  - "[[CAN Battery State Communication Design]]"
+  - "[[CAN BMS-Directed Charging]]"
+  - "[[CAN Vehicle Operating Limit Command]]"
+  - "[[CAN-Coordinated Deep Discharge Shutdown]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
   - "[[Metric - Wired and Vehicle Interfaces]]"

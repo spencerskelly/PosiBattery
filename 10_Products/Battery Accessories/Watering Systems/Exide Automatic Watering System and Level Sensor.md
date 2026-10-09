@@ -19,6 +19,7 @@ performs:
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
+  - "[[Exide MARATHON Battery]]"
 hasDesign:
   - "[[Battery Cell Watering Design]]"
   - "[[Exide MARATHON Battery]]"

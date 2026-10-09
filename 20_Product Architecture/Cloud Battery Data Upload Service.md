@@ -12,6 +12,7 @@ tags:
 reuseScope: cross-product
 hasDesign:
   - "[[Cloud Battery Data Upload Design]]"
+  - "[[Direct Device Cloud Upload]]"
 dependsOn:
   - "[[Cloud Portal Integration]]"
 performs:

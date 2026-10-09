@@ -17,6 +17,7 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
+  - "[[PosiCharge BMID]]"
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Communicated Battery Temperature Charge Compensation]]"

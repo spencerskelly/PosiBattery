@@ -13,6 +13,8 @@ describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 designOf:
   - "[[Power Designers PowerTrac SP+]]"
+dependencyOf:
+  - "[[Serial and Infrared PC Data Export]]"
 ---
 
 # Infrared Data Port

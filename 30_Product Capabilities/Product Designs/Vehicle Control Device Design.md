@@ -17,6 +17,8 @@ supertypeOf:
   - "[[Operator Identification Design]]"
   - "[[Programmable Motor Controller]]"
   - "[[Seat Belt Interlock]]"
+  - "[[Operator Access Authorization Design]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
 ---
 
 # Vehicle Control Device Design

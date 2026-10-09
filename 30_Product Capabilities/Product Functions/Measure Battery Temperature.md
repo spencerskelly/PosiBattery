@@ -14,6 +14,7 @@ describedBy:
   - "[[Metric - Temperature Sensing]]"
 dependsOn:
   - "[[Battery Temperature Measurement Design]]"
+  - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
 performedBy:
   - "[[In-Cell Electrolyte Measurement Probe Assembly]]"
   - "[[Stryten M-Series Li610 Battery]]"

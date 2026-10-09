@@ -54,6 +54,7 @@ realizes:
 satisfies:
   - "[[BMID - Retain Battery-Specific Usage History]]"
 supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 realizedBy:
   - "[[Battery Event and Usage Logging Design]]"
   - "[[Document - PosiCharge BMID FAQ]]"

@@ -19,6 +19,7 @@ hasDesign:
 madeBy:
   - "[[Toyota Material Handling]]"
 offeredWith:
+  - "[[Toyota 3-Wheel Electric Forklift]]"
 hasPart:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"

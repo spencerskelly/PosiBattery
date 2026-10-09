@@ -18,14 +18,20 @@ supertypeOf:
   - "[[NFC Interface]]"
   - "[[Wi-Fi Interface]]"
   - "[[ZigBee 2.4 GHz Interface]]"
+  - "[[Wireless Battery Data Communication Design]]"
 dependencyOf:
   - "[[Diagnose Vehicle Remotely]]"
   - "[[Report Truck Telemetry]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Truck Telemetry Reporting Design]]"
+  - "[[Wireless Battery Data Communication Design]]"
+  - "[[Remote Vehicle Diagnostics Design]]"
 supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
 designOf:
+  - "[[Wireless Communication Circuit]]"
+dependsOn:
   - "[[Wireless Communication Circuit]]"
 ---
 

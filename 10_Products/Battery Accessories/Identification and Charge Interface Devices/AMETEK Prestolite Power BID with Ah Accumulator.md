@@ -36,6 +36,8 @@ madeBy:
   - "[[AMETEK Prestolite Power]]"
 offeredWith:
   - "[[AMETEK Prestolite Power Eclipse II]]"
+partOf:
+  - "[[AMETEK Prestolite Power Eclipse II]]"
 ---
 
 # AMETEK Prestolite Power BID with Ah Accumulator

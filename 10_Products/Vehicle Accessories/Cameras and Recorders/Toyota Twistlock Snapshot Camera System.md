@@ -18,6 +18,7 @@ partOf:
 performs:
   - "[[Record Images of Load Handling]]"
 madeBy:
+  - "[[Toyota Material Handling]]"
 hasDesign:
   - "[[Load-Handling Image Capture Design]]"
 hasPart:

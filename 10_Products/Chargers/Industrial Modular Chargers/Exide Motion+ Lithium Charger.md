@@ -17,6 +17,7 @@ performs:
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
+  - "[[Exide Solition Light Traction Battery]]"
 hasDesign:
   - "[[BMS-Directed Charge Control Design]]"
 hasPart:

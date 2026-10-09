@@ -29,6 +29,7 @@ hasDesign:
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+  - "[[EnerSys Wi-iQ]]"
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"

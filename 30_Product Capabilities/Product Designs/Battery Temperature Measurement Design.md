@@ -19,10 +19,14 @@ realizes:
   - "[[Measure Battery Temperature]]"
 dependencyOf:
   - "[[Measure Battery Temperature]]"
+  - "[[Battery Temperature Reporting to Charger]]"
 designOf:
   - "[[Battery Temperature Measurement Circuit]]"
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
+describedBy:
+  - "[[Battery Sensor Element Design]]"
+  - "[[Metric - Temperature Sensing]]"
 ---
 
 # Battery Temperature Measurement Design

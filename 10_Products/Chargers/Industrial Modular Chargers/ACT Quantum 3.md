@@ -27,6 +27,7 @@ offeredBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
   - "[[Advanced Charging Technologies BATTview]]"
+  - "[[ACT ACTview]]"
 hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[ACT ACTview]]"

@@ -15,6 +15,8 @@ partOf:
   - "[[Crown V-HFM3 Wired Remote Control Kit]]"
 performs:
   - "[[Control Charger from Remote Panel]]"
+dependsOn:
+  - "[[Remote Charger I-O Expansion Board]]"
 ---
 
 # Remote Charger Control Panel

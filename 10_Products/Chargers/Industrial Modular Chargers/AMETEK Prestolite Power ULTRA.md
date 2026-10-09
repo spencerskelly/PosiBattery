@@ -19,6 +19,7 @@ performs:
 madeBy:
   - "[[AMETEK Prestolite Power]]"
 offeredWith:
+  - "[[AMETEK Prestolite Power BID]]"
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
 hasPart:

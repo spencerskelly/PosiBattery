@@ -15,6 +15,7 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Diagnose Vehicle Remotely]]"
 partOf:
   - "[[TUG Endurance Baggage Tractor]]"
   - "[[TUG ALPHA 1 Pushback]]"

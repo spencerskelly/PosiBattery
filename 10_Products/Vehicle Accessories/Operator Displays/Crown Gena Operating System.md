@@ -30,6 +30,8 @@ madeBy:
 offeredWith:
   - "[[Crown InfoLink]]"
   - "[[Crown ProximityAssist System]]"
+partOf:
+  - "[[Crown InfoLink]]"
 ---
 
 # Crown Gena Operating System

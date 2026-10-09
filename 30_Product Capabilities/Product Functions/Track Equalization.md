@@ -22,6 +22,7 @@ performedBy:
   - "[[Equalization Status Recording Software]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 dependsOn:
   - "[[Equalization Event Tracking Design]]"
 realizedBy:

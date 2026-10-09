@@ -27,6 +27,7 @@ performs:
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+  - "[[EnerSys Wi-iQ]]"
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
 hasPart:

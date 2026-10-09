@@ -16,6 +16,7 @@ subtypeOf:
 performs:
   - "[[Water Battery Cells]]"
 madeBy:
+  - "[[Flow-Rite]]"
 hasDesign:
   - "[[Float-Valve Single-Point Watering]]"
 hasPart:

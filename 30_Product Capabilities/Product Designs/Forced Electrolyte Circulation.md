@@ -20,6 +20,7 @@ designOf:
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
+  - "[[Midac EUW Electrolyte Circulation System]]"
 supertypeOf:
   - "[[Air Injection Electrolyte Circulation]]"
 realizes:

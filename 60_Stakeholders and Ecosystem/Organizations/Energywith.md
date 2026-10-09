@@ -12,6 +12,8 @@ playsRole:
   - "[[Monitor Maker]]"
 makes:
   - "[[Energywith withBMS BMU]]"
+dependsOn:
+  - "[[Energywith withBMS BMU]]"
 ---
 
 # Energywith

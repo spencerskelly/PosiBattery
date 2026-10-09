@@ -33,6 +33,8 @@ integratesWith:
   - "[[EnerSys NexSys TPPL Battery]]"
 offeredWith:
   - "[[Hyster Tracker Telemetry]]"
+partOf:
+  - "[[Hyster Tracker Telemetry]]"
 ---
 
 # Hyster Power Cellect

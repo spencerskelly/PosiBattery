@@ -22,6 +22,8 @@ designOf:
   - "[[Electrolyte Air Circulation Assembly]]"
 realizes:
   - "[[Circulate Electrolyte]]"
+dependencyOf:
+  - "[[Circulate Electrolyte]]"
 ---
 
 # Air Injection Electrolyte Circulation

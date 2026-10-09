@@ -16,6 +16,7 @@ realizes:
 designOf:
   - "[[State of Charge Estimation Firmware]]"
 supportedBy:
+  - "[[Document - PosiCharge GSE BMID Page]]"
 dependsOn:
   - "[[Battery Voltage Measurement Design]]"
   - "[[Document - PosiCharge GSE BMID Page]]"
