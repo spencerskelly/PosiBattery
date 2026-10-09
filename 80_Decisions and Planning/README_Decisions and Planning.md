@@ -10,7 +10,8 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[PosiBattery Model Organizat
 
 ## Start here
 
-- [[PosiBattery Architecture Improvement Plan]] — active controlled roadmap for the current vault-improvement program.
+- [[PosiBattery GitHub Capture and Reconciliation Audit 2026-10-08]] — current remote capture, validation, branch/PR reconciliation, and recovery status; see [[PosiBattery Runtime Handoff State]] and [issue #2](https://github.com/spencerskelly/PosiBattery/issues/2).
+- [[PosiBattery Architecture Improvement Plan]] — historical 100/100 completed vault-improvement roadmap (2026-10-05), retained for evidence.
 - [[Knowledge Base Backlog]] — repository-native backlog for taxonomy, model, evidence, integrity, migration, and validation work.
 - [[Schema and Relationship Implementation Decisions 0.1]] — decision framework for schema and relationship changes; currently documentation-only unless later approvals authorize implementation.
 - [[Legacy Content Inventory and Migration Map 0.1]] — preserved historical migration baseline; useful for rationale, not current placement authority.
