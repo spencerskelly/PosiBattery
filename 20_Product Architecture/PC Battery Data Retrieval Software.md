@@ -13,11 +13,11 @@ reuseScope: cross-product
 hasDesign:
   - "[[PC Battery Data Export Design]]"
 performs:
+  - "[[Export Battery Data to PC]]"
 partOf:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
-  - "[[Export Battery Data to PC]]"
 ---
 
 # PC Battery Data Retrieval Software
