@@ -17,9 +17,9 @@ dependsOn:
   - "[[Load-Handling Camera Assembly]]"
   - "[[Load-Handling Image Storage]]"
 performs:
+  - "[[Record Images of Load Handling]]"
 partOf:
   - "[[Toyota Twistlock Snapshot Camera System]]"
-  - "[[Record Images of Load Handling]]"
 ---
 
 # Load-Handling Image Capture Logic

@@ -24,11 +24,11 @@ performedBy:
   - "[[Remote Charger Management Service]]"
   - "[[Charger Remote Management Agent]]"
 realizes:
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 dependsOn:
   - "[[Remote Charger Management Design]]"
 realizedBy:
   - "[[Remote Charger Management Design]]"
-  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 ---
 
 # Manage Chargers Remotely

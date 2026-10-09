@@ -25,10 +25,10 @@ hasDesign:
   - "[[Adaptive Charge Profile Control Design]]"
   - "[[Diagnostic-Loop Adaptive Charging]]"
 madeBy:
+  - "[[EnerSys]]"
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
-  - "[[EnerSys]]"
 ---
 
 # EnerSys IMPAQ Charger

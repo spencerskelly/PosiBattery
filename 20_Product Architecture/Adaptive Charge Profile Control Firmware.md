@@ -15,10 +15,11 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Adapt Charge to Battery Condition]]"
 partOf:
   - "[[Fronius Selectiva 4.0]]"
   - "[[EnerSys IMPAQ Charger]]"
-  - "[[Adapt Charge to Battery Condition]]"
+
 ---
 
 # Adaptive Charge Profile Control Firmware

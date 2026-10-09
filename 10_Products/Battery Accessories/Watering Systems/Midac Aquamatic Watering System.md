@@ -18,9 +18,9 @@ performs:
 offeredBy:
   - "[[Midac]]"
 offeredWith:
+  - "[[Midac PzS Traction Battery]]"
 hasDesign:
   - "[[Battery Cell Watering Design]]"
-  - "[[Midac PzS Traction Battery]]"
 ---
 
 # Midac Aquamatic Watering System

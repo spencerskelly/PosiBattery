@@ -18,10 +18,10 @@ hasDesign:
   - "[[BMS Discharge Limitation]]"
   - "[[Battery-Charger Data Communication Design]]"
 madeBy:
+  - "[[EnerSys]]"
 hasPart:
   - "[[BMS Discharge Protection Logic]]"
   - "[[Battery-Charger Communication Firmware]]"
-  - "[[EnerSys]]"
 ---
 
 # EnerSys NexSys iON Battery

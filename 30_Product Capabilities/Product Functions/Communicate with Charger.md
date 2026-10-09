@@ -32,11 +32,11 @@ performedBy:
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 dependsOn:
   - "[[Battery-Charger Data Communication Design]]"
 realizedBy:
   - "[[Battery-Charger Data Communication Design]]"
-  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Communicate with Charger

@@ -29,11 +29,11 @@ hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Direct Temperature Input Charge Compensation]]"
 madeBy:
+  - "[[Lester Electrical]]"
 hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[Lester Electrical]]"
 ---
 
 # Lester Summit Series II

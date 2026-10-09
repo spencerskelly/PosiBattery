@@ -16,6 +16,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Manage Chargers Remotely]]"
 partOf:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
@@ -23,7 +24,6 @@ partOf:
   - "[[Crown V-HFM3 Charger]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[Lester Summit Series II]]"
-  - "[[Manage Chargers Remotely]]"
 ---
 
 # Charger Remote Management Agent

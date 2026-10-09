@@ -18,9 +18,9 @@ performedBy:
   - "[[Vehicle Enable Interlock]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 realizedBy:
   - "[[Impact-Triggered Vehicle Lockout Design]]"
-  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # Lock Out Vehicle After Impact

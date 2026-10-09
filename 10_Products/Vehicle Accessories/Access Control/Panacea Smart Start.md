@@ -19,10 +19,10 @@ hasDesign:
   - "[[Fingerprint Reader]]"
   - "[[Operator Access Authorization Design]]"
 madeBy:
+  - "[[Panacea Aftermarket Co.]]"
 hasPart:
   - "[[Operator Access Authorization Logic]]"
   - "[[Vehicle Enable Interlock]]"
-  - "[[Panacea Aftermarket Co.]]"
 ---
 
 # Panacea Smart Start

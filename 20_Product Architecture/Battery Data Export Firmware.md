@@ -16,11 +16,11 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Export Battery Data to PC]]"
 partOf:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
-  - "[[Export Battery Data to PC]]"
 ---
 
 # Battery Data Export Firmware

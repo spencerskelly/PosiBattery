@@ -16,10 +16,10 @@ hasDesign:
 dependsOn:
   - "[[Wireless Communication Circuit]]"
 performs:
+  - "[[Diagnose Vehicle Remotely]]"
 partOf:
   - "[[TUG Endurance Baggage Tractor]]"
   - "[[TUG ALPHA 1 Pushback]]"
-  - "[[Diagnose Vehicle Remotely]]"
 ---
 
 # Remote Vehicle Diagnostic Service

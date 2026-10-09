@@ -24,10 +24,10 @@ hasDesign:
 madeBy:
   - "[[Powerfleet]]"
 offeredBy:
+  - "[[Mitsubishi Logisnext Americas]]"
 hasPart:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"
-  - "[[Mitsubishi Logisnext Americas]]"
 ---
 
 # Powerfleet Forklift Gateway

@@ -16,13 +16,13 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Charge Under BMS Control]]"
 partOf:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Delta-Q IC650]]"
   - "[[Fronius SelectION]]"
   - "[[Lester Summit Series II]]"
   - "[[Exide Motion+ Lithium Charger]]"
-  - "[[Charge Under BMS Control]]"
 ---
 
 # BMS-Directed Charge Control Firmware

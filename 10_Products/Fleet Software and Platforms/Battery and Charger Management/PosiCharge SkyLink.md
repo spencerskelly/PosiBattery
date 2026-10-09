@@ -15,11 +15,11 @@ subtypeOf:
 performs:
   - "[[Manage Chargers Remotely]]"
 madeBy:
+  - "[[PosiCharge]]"
 hasDesign:
   - "[[Remote Charger Management Design]]"
 hasPart:
   - "[[Remote Charger Management Service]]"
-  - "[[PosiCharge]]"
 ---
 
 # PosiCharge SkyLink

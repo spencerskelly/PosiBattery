@@ -19,10 +19,10 @@ hasDesign:
   - "[[RFID or PIN Access Reader]]"
   - "[[Operator Access Authorization Design]]"
 madeBy:
+  - "[[Toyota Material Handling]]"
 hasPart:
   - "[[Operator Access Authorization Logic]]"
   - "[[Vehicle Enable Interlock]]"
-  - "[[Toyota Material Handling]]"
 ---
 
 # Toyota PIN Code Access Pad

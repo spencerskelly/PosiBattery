@@ -19,10 +19,10 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 offeredWith:
+  - "[[PosiCharge PosiGuard]]"
 hasDesign:
   - "[[Device Configuration and Service Design]]"
   - "[[Mobile App Interface]]"
-  - "[[PosiCharge PosiGuard]]"
 ---
 
 # PosiCharge PosiConnect

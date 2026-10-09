@@ -19,9 +19,9 @@ performedBy:
   - "[[Battery Replacement Forecasting Service]]"
   - "[[Energywith withBMS Analytics Service]]"
 realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 realizedBy:
   - "[[Battery Replacement Timing Prediction Design]]"
-  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Predict Battery Replacement Timing

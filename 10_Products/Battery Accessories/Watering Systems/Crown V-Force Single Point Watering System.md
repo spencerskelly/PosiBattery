@@ -19,9 +19,9 @@ offeredBy:
   - "[[Crown Equipment]]"
 integratesWith:
   - "[[Philadelphia Scientific Stealth Watering System]]"
+  - "[[Philadelphia Scientific Water Injector System]]"
 hasDesign:
   - "[[Float-Valve Single-Point Watering]]"
-  - "[[Philadelphia Scientific Water Injector System]]"
 ---
 
 # Crown V-Force Single Point Watering System
