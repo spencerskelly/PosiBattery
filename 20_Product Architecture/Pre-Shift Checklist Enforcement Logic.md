@@ -16,10 +16,11 @@ dependsOn:
   - "[[Operator Touchscreen Display Module]]"
   - "[[Vehicle Enable Interlock]]"
 performs:
+  - "[[Enforce Pre-Shift Checklist]]"
 partOf:
   - "[[Crown InfoLink]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
-  - "[[Enforce Pre-Shift Checklist]]"
+
 ---
 
 # Pre-Shift Checklist Enforcement Logic
