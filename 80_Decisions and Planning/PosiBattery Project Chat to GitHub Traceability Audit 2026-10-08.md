@@ -68,7 +68,7 @@ Full historical assistant messages for every individual `y` continuation were no
 ## Work remaining, in order
 
 1. **P0 — Restore valid engineering semantics**: classify and repair the CI-reported invalid endpoints before synchronizing legitimate inverses; preserve `uid`/`id`. Require green Vault Audit and Completion Gate together on one SHA ([issue #2](https://github.com/spencerskelly/PosiBattery/issues/2)).
-2. **P1 — Complete realization review ledger**: add an explicit per-Function review register only after the relationship baseline is safe; distinguish Verified product use, 95%-confidence engineering assumptions, unassigned alternatives, and not-yet-reviewed functions.
+2. **P1 — Complete realization review ledger**: [issue #3](https://github.com/spencerskelly/PosiBattery/issues/3) tracks the required per-Function review register after the relationship baseline is safe; distinguish Verified product use, 95%-confidence engineering assumptions, unassigned alternatives, and not-yet-reviewed functions.
 3. **P1 — Verify local upload completeness**: check workstation clones for uncommitted, ignored, or unpushed work before declaring all chat-generated files backed up.
 4. **P2 — Validate the pilot UI conditions**: if promoting candidate schema/metadata workflows further, run the explicitly deferred interactive Obsidian checks and capture outcomes; do not backdate Step 81 as unconditional.
 5. **P2 — Retire superseded branch material deliberately**: PR #1 is closed, older branches remain recoverable; do not delete or merge without a content and history review.
