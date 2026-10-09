@@ -46,6 +46,7 @@ The previous `99_System/10_Docs/PosiBattery Runtime Handoff State.md` passed at 
 - `main`: authoritative default; contains subsequent modeling and catalog development.
 - `claude/battery-product-categories`: **0 ahead, 2,255 behind** main when compared on 2026-10-08; no unique commits according to GitHub compare. Keep for historical reference or delete after explicit owner review.
 - `chatgpt/battery-installed-reference-foundation`: **1 ahead, 2,260 behind** main (diverged); the seed product/family notes were incorporated and normalized, but GitHub reports one distinct historical commit. The branch also has an older architecture-alignment memo that does not exist at that pathname on main; the current governing architecture is described by the later PosiBattery handoffs and rules.
+- **2026-10-08 follow-up: PR #1 was closed as superseded, without merge or branch deletion**, after verifying that all 16 seed family/commercial product notes were present on `main`. The initial observation below is retained as a point-in-time record.
 - Draft [PR #1 — Seed battery-installed device market reference](https://github.com/spencerskelly/PosiBattery/pull/1) was open at audit time. Because the newer main contains the normalized model, do not merge its obsolete root-level structure over the current taxonomy; reconcile or close it as superseded.
 
 ## Recovery sequence and completion definition
