@@ -23,6 +23,8 @@ offeredWith:
   - "[[Stryten M-Series Li610 Battery]]"
 hasDesign:
   - "[[Battery-Charger Data Communication Design]]"
+partOf:
+  - "[[Stryten X-7 Charger]]"
 ---
 
 # Stryten inCOMMAND
