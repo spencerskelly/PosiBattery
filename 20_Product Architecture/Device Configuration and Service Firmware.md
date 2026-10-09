@@ -16,6 +16,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[Communication Interface Circuit]]"
 performs:
+  - "[[Configure Device from Mobile App or PC]]"
 partOf:
   - "[[Crown V-Force BMID]]"
   - "[[PosiCharge PosiGuard]]"

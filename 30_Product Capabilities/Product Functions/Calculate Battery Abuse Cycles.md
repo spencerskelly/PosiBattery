@@ -20,6 +20,7 @@ performedBy:
   - "[[Battery Abuse Analytics Service]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 dependsOn:
   - "[[Battery Abuse Cycle Analytics]]"
 realizedBy:

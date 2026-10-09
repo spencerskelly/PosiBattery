@@ -41,6 +41,8 @@ offeredWith:
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
   - "[[ACT ACTview]]"
+partOf:
+  - "[[ACT ACTview]]"
 ---
 
 # Advanced Charging Technologies BATTview

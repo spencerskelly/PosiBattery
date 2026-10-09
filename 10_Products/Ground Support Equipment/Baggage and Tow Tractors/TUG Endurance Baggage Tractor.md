@@ -21,6 +21,7 @@ hasDesign:
   - "[[Bluetooth Interface]]"
   - "[[Remote Vehicle Diagnostics Design]]"
 madeBy:
+  - "[[Textron GSE]]"
 hasPart:
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Remote Vehicle Diagnostic Service]]"

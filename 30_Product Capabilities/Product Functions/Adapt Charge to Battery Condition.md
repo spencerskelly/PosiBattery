@@ -14,6 +14,7 @@ performedBy:
   - "[[Fronius Selectiva 4.0]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
 realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 dependsOn:
   - "[[Adaptive Charge Profile Control Design]]"
 realizedBy:

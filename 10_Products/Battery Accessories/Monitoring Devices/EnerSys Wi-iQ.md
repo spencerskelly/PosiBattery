@@ -98,6 +98,10 @@ offeredWith:
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[HAWKER Perfect Plus Battery]]"
+partOf:
+  - "[[EnerSys Express Charger]]"
+  - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[HAWKER Perfect Plus Battery]]"
 ---
 
 # EnerSys Wi-iQ

@@ -17,6 +17,7 @@ hasPart:
   - "[[Electrolyte Circulation Air Pump]]"
   - "[[Cell Air Distribution Tubing]]"
 performs:
+  - "[[Circulate Electrolyte]]"
 partOf:
   - "[[Midac EUW Electrolyte Circulation System]]"
   - "[[HAWKER Perfect Plus Battery]]"

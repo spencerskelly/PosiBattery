@@ -19,6 +19,7 @@ partOf:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Hyster Power Cellect]]"
   - "[[EnerSys Wi-iQ]]"
+  - "[[PosiCharge PosiGuard]]"
 dependencyOf:
   - "[[Vehicle Operating Limit Command Firmware]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"

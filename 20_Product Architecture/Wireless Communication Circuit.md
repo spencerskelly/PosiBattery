@@ -18,6 +18,7 @@ supertypeOf:
   - "[[Wi-Fi Communication Circuit]]"
   - "[[Custom RF Communication Circuit]]"
 hasDesign:
+  - "[[Wireless Interface Design]]"
 dependencyOf:
   - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Truck Telemetry Reporting Service]]"

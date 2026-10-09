@@ -29,6 +29,8 @@ madeBy:
 offeredWith:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"
+partOf:
+  - "[[AMETEK Prestolite Power ULTRA]]"
 ---
 
 # AMETEK Prestolite Power BID

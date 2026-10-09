@@ -18,6 +18,7 @@ performedBy:
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Remote Vehicle Diagnostic Service]]"
 realizes:
+  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 realizedBy:
   - "[[Remote Vehicle Diagnostics Design]]"
   - "[[Find and Fix Vehicle Faults Without Downtime]]"

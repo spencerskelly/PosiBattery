@@ -17,6 +17,7 @@ offeredBy:
 offeredWith:
   - "[[Crown V-HFM3 Charger]]"
 performs:
+  - "[[Control Charger from Remote Panel]]"
 hasDesign:
   - "[[Wired Remote Charger Control Design]]"
 hasPart:

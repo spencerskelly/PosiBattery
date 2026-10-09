@@ -22,6 +22,7 @@ hasDesign:
   - "[[Cloud Battery Data Upload Design]]"
   - "[[Gateway-Mediated Cloud Upload]]"
 madeBy:
+  - "[[Philadelphia Scientific]]"
 hasPart:
   - "[[Battery Data Gateway Upload Service]]"
   - "[[Philadelphia Scientific]]"

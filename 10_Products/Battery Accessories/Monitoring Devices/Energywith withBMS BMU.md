@@ -23,6 +23,7 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Log Battery Events and Usage]]"
 madeBy:
+  - "[[Energywith]]"
 dependencyOf:
   - "[[Energywith withBMS Analytics Service]]"
   - "[[Energywith]]"

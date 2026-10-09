@@ -16,6 +16,8 @@ madeBy:
   - "[[Fronius International]]"
 offeredWith:
   - "[[Fronius Selectiva 4.0]]"
+partOf:
+  - "[[Fronius Selectiva 4.0]]"
 ---
 
 # Fronius Charge & Connect

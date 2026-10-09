@@ -15,6 +15,7 @@ performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge Under BMS Control]]"
 madeBy:
+  - "[[Fronius International]]"
 hasDesign:
   - "[[BMS-Directed Charge Control Design]]"
   - "[[CAN BMS-Directed Charging]]"

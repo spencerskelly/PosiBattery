@@ -71,6 +71,10 @@ hasPart:
   - "[[Thermistor Temperature Measurement Circuit]]"
   - "[[Battery-Charger Communication Firmware]]"
   - "[[Battery Temperature Acquisition Firmware]]"
+partOf:
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge SVS100]]"
+  - "[[PosiCharge DVS100]]"
 ---
 
 # PosiCharge BMID

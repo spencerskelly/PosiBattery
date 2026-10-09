@@ -22,6 +22,9 @@ integratesWith:
 hasDesign:
   - "[[Float-Valve Single-Point Watering]]"
   - "[[Philadelphia Scientific Water Injector System]]"
+partOf:
+  - "[[Philadelphia Scientific Water Injector System]]"
+  - "[[Philadelphia Scientific Stealth Watering System]]"
 ---
 
 # Crown V-Force Single Point Watering System

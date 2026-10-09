@@ -15,6 +15,8 @@ designOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Delta-Q IC650]]"
   - "[[Exide Motion+ Premium Charger]]"
+dependencyOf:
+  - "[[USB Battery Data Export]]"
 ---
 
 # USB Data Download

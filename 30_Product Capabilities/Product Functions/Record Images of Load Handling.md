@@ -14,8 +14,10 @@ performedBy:
   - "[[Load-Handling Camera Assembly]]"
   - "[[Load-Handling Image Capture Logic]]"
   - "[[Load-Handling Image Storage]]"
+  - "[[Load-Handling Image Sensor Module]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 dependsOn:
   - "[[Load-Handling Image Capture Design]]"
 realizedBy:

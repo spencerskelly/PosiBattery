@@ -17,6 +17,7 @@ dependsOn:
   - "[[Control Circuit]]"
   - "[[CAN Communication Circuit]]"
 performs:
+  - "[[Communicate Battery State over CAN]]"
 partOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[EnerSys Wi-iQ]]"

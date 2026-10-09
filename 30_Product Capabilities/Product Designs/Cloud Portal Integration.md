@@ -14,6 +14,8 @@ dependencyOf:
   - "[[Remote Alert Notification Service]]"
   - "[[Battery Abuse Analytics Service]]"
   - "[[Battery Replacement Forecasting Service]]"
+  - "[[Cloud Battery Data Upload Service]]"
+  - "[[Battery Data Gateway Upload Service]]"
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Crown Battery Health Monitor]]"
@@ -24,6 +26,7 @@ designOf:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
 supportedBy:
+  - "[[Document - PosiCharge PosiGuard Product Page]]"
 supertypeOf:
   - "[[Cloud Battery Data Upload Design]]"
   - "[[Document - PosiCharge PosiGuard Product Page]]"

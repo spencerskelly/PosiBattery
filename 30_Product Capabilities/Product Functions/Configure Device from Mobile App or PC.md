@@ -26,6 +26,7 @@ satisfies:
 realizedBy:
   - "[[Device Configuration and Service Design]]"
 supportedBy:
+  - "[[Document - PosiCharge PosiConnect Product Page]]"
 dependsOn:
   - "[[Device Configuration and Service Design]]"
   - "[[Document - PosiCharge PosiConnect Product Page]]"

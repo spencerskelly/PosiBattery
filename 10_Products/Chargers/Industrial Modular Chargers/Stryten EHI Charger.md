@@ -18,6 +18,7 @@ hasDesign:
   - "[[DC-Cable Power-Line Communication]]"
   - "[[Temperature-Compensated Charge Control Design]]"
 madeBy:
+  - "[[Stryten Energy]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Stryten Energy]]"

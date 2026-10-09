@@ -14,8 +14,11 @@ dependencyOf:
   - "[[Operator Access Authorization Logic]]"
   - "[[Pre-Shift Checklist Enforcement Logic]]"
   - "[[Impact Lockout Decision Logic]]"
+  - "[[Impact-Triggered Vehicle Lockout Design]]"
+  - "[[Pre-Shift Checklist Enforcement Design]]"
 performs:
   - "[[Control Operator Access]]"
+  - "[[Lock Out Vehicle After Impact]]"
 partOf:
   - "[[Toyota PIN Code Access Pad]]"
   - "[[Panacea Smart Start]]"

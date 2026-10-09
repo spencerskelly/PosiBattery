@@ -25,6 +25,8 @@ madeBy:
 offeredWith:
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Crown Gena Operating System]]"
+partOf:
+  - "[[Crown InfoLink 7-inch Touch Display]]"
 ---
 
 # Crown ProximityAssist System

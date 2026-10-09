@@ -26,6 +26,7 @@ performedBy:
   - "[[Water Injector Shutoff Assembly]]"
   - "[[Automatic Watering Control Logic]]"
 realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 dependsOn:
   - "[[Battery Cell Watering Design]]"
 realizedBy:

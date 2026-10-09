@@ -20,6 +20,8 @@ integratesWith:
 offeredWith:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys Wi-iQ]]"
+partOf:
+  - "[[EnerSys NexSys+ Charger]]"
 ---
 
 # EnerSys NexSys TPPL Battery

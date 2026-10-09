@@ -22,9 +22,12 @@ madeBy:
 offeredWith:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
+  - "[[Advanced Charging Technologies BATTview]]"
 hasPart:
   - "[[Remote Charger Management Service]]"
   - "[[Advanced Charging Technologies BATTview]]"
+partOf:
+  - "[[ACT Quantum 3]]"
 ---
 
 # ACT ACTview

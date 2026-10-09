@@ -25,6 +25,7 @@ madeBy:
   - "[[TLD Group]]"
 offeredWith:
   - "[[TLD RBL Electric Regional Belt Loader]]"
+  - "[[TLD NBL-E Belt Loader]]"
 hasDesign:
   - "[[Impact-Triggered Vehicle Lockout Design]]"
 hasPart:

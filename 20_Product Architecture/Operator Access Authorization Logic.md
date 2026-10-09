@@ -14,6 +14,7 @@ hasDesign:
   - "[[Operator Access Authorization Design]]"
 dependsOn:
   - "[[Control Circuit]]"
+  - "[[Vehicle Enable Interlock]]"
 performs:
   - "[[Control Operator Access]]"
 partOf:

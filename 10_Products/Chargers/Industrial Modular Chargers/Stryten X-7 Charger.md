@@ -26,6 +26,7 @@ offeredBy:
 offeredWith:
   - "[[Stryten M-Series Li600 Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"
+  - "[[Stryten inCOMMAND]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[Stryten inCOMMAND]]"

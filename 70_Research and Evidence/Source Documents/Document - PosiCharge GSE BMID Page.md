@@ -15,6 +15,8 @@ describes:
 supports:
   - "[[Estimate State of Charge]]"
   - "[[State of Charge Estimation Design]]"
+dependencyOf:
+  - "[[State of Charge Estimation Design]]"
 ---
 
 # Document - PosiCharge GSE BMID Page

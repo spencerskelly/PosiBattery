@@ -17,6 +17,7 @@ performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Vehicle Operating Limit Command Firmware]]"
 realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 realizedBy:
   - "[[CAN Vehicle Operating Limit Command]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"

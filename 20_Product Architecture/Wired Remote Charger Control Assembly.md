@@ -16,6 +16,7 @@ hasPart:
   - "[[Remote Charger Control Panel]]"
   - "[[Remote Charger I-O Expansion Board]]"
 performs:
+  - "[[Control Charger from Remote Panel]]"
 partOf:
   - "[[Crown V-HFM3 Wired Remote Control Kit]]"
   - "[[Control Charger from Remote Panel]]"

@@ -26,6 +26,7 @@ offeredWith:
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"
   - "[[Crown Battery Health Monitor]]"
+  - "[[Crown Gena Operating System]]"
 hasPart:
   - "[[Operator Access Authorization Logic]]"
   - "[[Pre-Shift Checklist Enforcement Logic]]"

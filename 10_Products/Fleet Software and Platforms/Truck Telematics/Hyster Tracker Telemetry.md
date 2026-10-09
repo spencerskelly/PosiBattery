@@ -18,6 +18,7 @@ performs:
 madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
+  - "[[Hyster Power Cellect]]"
 hasDesign:
   - "[[Truck Telemetry Reporting Design]]"
 hasPart:

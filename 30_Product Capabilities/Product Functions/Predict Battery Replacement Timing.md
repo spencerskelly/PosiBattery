@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
   - "[[Battery Replacement Timing Prediction Design]]"
+  - "[[Data Handling Design]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[Philadelphia Scientific eGO!c]]"
@@ -19,6 +20,7 @@ performedBy:
   - "[[Battery Replacement Forecasting Service]]"
   - "[[Energywith withBMS Analytics Service]]"
 realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 realizedBy:
   - "[[Battery Replacement Timing Prediction Design]]"
   - "[[Prevent Battery Abuse and Premature Replacement]]"

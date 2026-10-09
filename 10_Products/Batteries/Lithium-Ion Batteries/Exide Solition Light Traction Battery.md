@@ -23,6 +23,8 @@ madeBy:
 offeredWith:
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Exide Motion+ Premium Charger]]"
+partOf:
+  - "[[Exide Motion+ Lithium Charger]]"
 ---
 
 # Exide Solition Light Traction Battery

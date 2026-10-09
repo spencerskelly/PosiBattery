@@ -15,6 +15,7 @@ subtypeOf:
 performs:
   - "[[Water Battery Cells]]"
 madeBy:
+  - "[[PosiCharge]]"
 hasDesign:
   - "[[Charger-Controlled Automatic Watering]]"
 hasPart:

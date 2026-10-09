@@ -15,6 +15,7 @@ performedBy:
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Battery Data Export Firmware]]"
   - "[[PC Battery Data Retrieval Software]]"
+  - "[[Power Designers PowerTrac SP+]]"
 dependsOn:
   - "[[PC Battery Data Export Design]]"
 realizedBy:

@@ -33,6 +33,7 @@ rebrandedAs:
   - "[[Raymond Red Charger]]"
 offeredWith:
   - "[[Power Designers PowerTrac 3]]"
+  - "[[Power Designers PowerTrac SP+]]"
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Missed Equalization Recovery Firmware]]"

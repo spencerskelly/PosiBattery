@@ -22,6 +22,9 @@ dependencyOf:
   - "[[Alert on Low Electrolyte Level]]"
 designOf:
   - "[[Electrolyte Level Measurement Circuit]]"
+describedBy:
+  - "[[Battery Sensor Element Design]]"
+  - "[[Metric - Electrolyte Level Sensing]]"
 ---
 
 # Electrolyte Level Sensing Design

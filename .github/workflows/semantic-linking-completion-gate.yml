@@ -30,54 +30,71 @@ jobs:
       - run: python -m pip install --quiet PyYAML
 
       - name: Identity validation
+        if: always()
         run: python 99_System/09_Tools/check-identities.py
 
       - name: Relationship validation
+        if: always()
         run: python 99_System/09_Tools/check-relationships.py
 
       - name: Structural vault audit
+        if: always()
         run: python 99_System/09_Tools/audit-vault.py
 
       - name: Provenance report
+        if: always()
         run: python 99_System/09_Tools/report-provenance.py
 
       - name: Traceability report
+        if: always()
         run: python 99_System/09_Tools/report-traceability.py
 
       - name: Completion acceptance metrics
+        if: always()
         run: python 99_System/09_Tools/check-semantic-linking-completion.py
 
       - name: Dependency validation
+        if: always()
         run: python 99_System/check-dependencies.py --strict
 
       - name: True orphan review
+        if: always()
         run: python 99_System/09_Tools/review-true-orphans.py
 
       - name: Weak traceability priority review
+        if: always()
         run: python 99_System/09_Tools/review-weak-traceability-priority.py
 
       - name: End-to-end product chain audit
+        if: always()
         run: python 99_System/09_Tools/review-end-to-end-product-chains.py
 
       - name: Curated source document review
+        if: always()
         run: python 99_System/09_Tools/review-curated-source-documents.py
 
       - name: High-value evidence review
+        if: always()
         run: python 99_System/09_Tools/review-high-value-evidence.py
 
       - name: Local Model review
+        if: always()
         run: python 99_System/09_Tools/review-local-model-linking.py
 
       - name: Port and Item Flow review
+        if: always()
         run: python 99_System/09_Tools/review-port-item-flow-linking.py
 
       - name: Workbench syntax
+        if: always()
         run: node --check .obsidian/plugins/mdse-workbench/main.js
 
       - name: Workbench model review
+        if: always()
         run: python 99_System/09_Tools/check-workbench-model.py
 
       - name: Name validation
+        if: always()
         run: python 99_System/check-names.py
 
       - uses: actions/upload-artifact@v4

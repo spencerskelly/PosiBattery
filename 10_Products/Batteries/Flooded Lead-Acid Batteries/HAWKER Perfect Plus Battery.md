@@ -22,6 +22,7 @@ hasDesign:
 madeBy:
   - "[[EnerSys]]"
 offeredWith:
+  - "[[EnerSys Wi-iQ]]"
 hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Electrolyte Circulation Air Pump]]"

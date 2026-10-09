@@ -19,6 +19,8 @@ offeredWith:
   - "[[Midac Aquamatic Watering System]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
   - "[[Midac End Leads]]"
+partOf:
+  - "[[Midac EUW Electrolyte Circulation System]]"
 ---
 
 # Midac PzS Traction Battery

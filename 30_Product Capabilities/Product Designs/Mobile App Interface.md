@@ -16,6 +16,8 @@ designOf:
   - "[[Philadelphia Scientific eGO!Mini]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Philadelphia Scientific eGO!core]]"
+  - "[[Fronius TagID]]"
+  - "[[PosiCharge PosiConnect]]"
 realizes:
 supportedBy:
   - "[[Document - PosiCharge PosiConnect Product Page]]"

@@ -20,6 +20,8 @@ madeBy:
 offeredWith:
   - "[[Toyota MyInsights Telematics]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
+partOf:
+  - "[[Toyota MyInsights Telematics]]"
 ---
 
 # Toyota 3-Wheel Electric Forklift

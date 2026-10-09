@@ -74,6 +74,8 @@ hasPart:
   - "[[Battery-Charger Communication Firmware]]"
   - "[[Device Configuration and Service Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
+dependsOn:
+  - "[[CAN Communication Circuit]]"
 ---
 
 # PosiCharge PosiGuard
