@@ -29,6 +29,25 @@ Baseline log patterns:
 
 **Expected reduction: 17 relationship errors** (5 incompatible endpoints + 12 missing inverses), targeting **143** (13 endpoint + 130 inverse) if no other model state changes. Independently verify actual log counts for both MDSE Vault Audit and Semantic Linking Completion Gate at the same new modeling commit before claiming success. Full-vault validation will still fail with remaining defects.
 
+## Verified Batch 05 GitHub Actions result
+
+**Validated model SHA:** [`090c6388c7950643ce82c1d769556202b9023f5f`](https://github.com/spencerskelly/PosiBattery/commit/090c6388c7950643ce82c1d769556202b9023f5f).
+
+| Independent gate | Run | Outcome |
+| --- | --- | --- |
+| MDSE Vault Audit | [37889878822](https://github.com/spencerskelly/PosiBattery/actions/runs/37889878822) | **FAIL globally**: **13** `endpoint_incompatible` and **130** `missing_inverse`, **143** total |
+| Semantic Linking Completion Gate | [37889878785](https://github.com/spencerskelly/PosiBattery/actions/runs/37889878785) | **FAIL globally**: identical **13+130=143** |
+| MDSE Workbench Model Review | [37889878819](https://github.com/spencerskelly/PosiBattery/actions/runs/37889878819) | **PASS** |
+| Semantic Linking Port Flow Review | [37889878774](https://github.com/spencerskelly/PosiBattery/actions/runs/37889878774) | **PASS** |
+| Semantic Linking True Orphan Review | [37889879005](https://github.com/spencerskelly/PosiBattery/actions/runs/37889879005) | **PASS** |
+| Semantic Linking Local Model Review | [37889878916](https://github.com/spencerskelly/PosiBattery/actions/runs/37889878916) | Initially processing; confirm final outcome separately |
+
+The five `hasDesign: Object -> Object` endpoint violations are absent from the resulting logs. Measured improvement from Batch 04: **160 → 143**, a **17-error reduction** comprising **five endpoint errors plus twelve inverse errors**, exactly matching the predicted change. **Cumulative five-batch change relative to original `main`: 331 → 143 (-188)**. The repair is accepted for its *bounded scope*, **not** for a golden release. The remaining 13 endpoint errors and 130 inverse errors require more work; both core relationship workflows remain failing.
+
+GitHub comparison confirmed exactly **seven model notes**, each with one YAML link moved and no other note-content changes, plus this recovery log.
+
+---
+
 ## Handoff
 
 1. Verify the five `Object.hasDesign -> Object` endpoint violations are gone, and no new `integratesWith` / `offeredWith` mirror defects appeared. Preserve full source fidelity.
