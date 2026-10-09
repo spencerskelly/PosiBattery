@@ -65,7 +65,7 @@ The [Semantic Linking Completion Gate run 37889149542](https://github.com/spence
 - **Cumulative improvement vs October 8 `main` baseline:** 331 → **211** errors = **120** fewer diagnostics across three recovery batches.
 - **No remaining `Function.realizedBy -> Use Case` endpoint violations** are reported by this gate.
 - The broader Semantic Linking Completion Gate still **fails** because there are 211 unrelated relationship errors; this is **not** a golden vault acceptance.
-- [MDSE Vault Audit run 37889149443](https://github.com/spencerskelly/PosiBattery/actions/runs/37889149443) was still processing when this result was first recorded. Await its independent category counts before calling both gates aligned on Batch 03.
+- [MDSE Vault Audit run 37889149443](https://github.com/spencerskelly/PosiBattery/actions/runs/37889149443) independently completed, **FAIL** at Check relationship invariants, with **35 endpoint_incompatible + 176 missing_inverse = 211**. It exactly matches the Semantic Linking Completion Gate on the same model SHA.
 - [Port Flow 37889149563](https://github.com/spencerskelly/PosiBattery/actions/runs/37889149563) and [True Orphan 37889149462](https://github.com/spencerskelly/PosiBattery/actions/runs/37889149462) passed on this modeling SHA. Additional supporting checks should be read directly from their runs.
 
 **Bounded batch decision:** The expected predicate-direction/inverse correction is independently confirmed by the completed completion gate. The global validator remains blocked, and the draft PR is not ready for merge.
