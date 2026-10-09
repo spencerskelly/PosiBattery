@@ -4818,37 +4818,37 @@ Evidence: `80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 
 
 **Date:** 2026-10-05. These seven steps have individual authoritative YAML records but lacked the consolidated main-plan completion entries until the 2026-10-08 chronological GitHub capture audit. This section restores their audit trail; it does not change the 2026-10-05 technical decisions.
 
-### Step 75 — Relationship reconciliation
+## Step 75 completion evidence — Relationship reconciliation
 Completed the governed/proposed relationship comparison and retained named YAML predicate properties with synchronized inverses as the single authoritative relationship storage representation. Five high-value traceability/evidence predicate candidates and distinct business relationships were documented for controlled schema work; no schema or model relationships were modified in this decision step.
 
 Evidence: `Relationship Reconciliation Matrix Step 75 0.1.yaml` and `Step 75 Completion Record 0.1.yaml`. The latter explicitly records status `Complete` and commit `e49d8fe2`.
 
-### Step 76 — Vocabulary conflict resolution
+## Step 76 completion evidence — Vocabulary conflict resolution
 Resolved competing or ambiguous field/relationship names, preserving `type`, immutable `uid`, human-readable `id`, lifecycle-only `status`, and governed relationship semantics. The decision did not add parallel `element_type` or `relationships[]` model fields.
 
 Evidence: `Vocabulary Conflict Resolution Step 76 0.1.yaml`.
 
-### Step 77 — Minimum metadata extension
+## Step 77 completion evidence — Minimum metadata extension
 Selected sparse optional metadata for alternate names, reuse scope, product classification, measure representation, and source provenance; kept ownership, evidence claims, applicability, and relationship semantics out of redundant scalar fields. This was a contract-selection step, not immediate migration.
 
 Evidence: `Minimum Metadata Extension Step 77 0.1.yaml`.
 
-### Step 78 — Candidate schemas
+## Step 78 completion evidence — Candidate schemas
 Produced versioned schema candidates `element-types.1.18.yaml`, `relationships.1.36.yaml`, and `metadata.1.0.yaml` under `99_System/03_Schemas/`. Existing IDs and UIDs and backward compatibility were preserved. The step record explicitly states the production baseline was not changed by this candidate authoring step.
 
 Evidence: `Controlled Schema Update Step 78 0.1.yaml`.
 
-### Step 79 — Candidate template and FileClass generation
+## Step 79 completion evidence — Candidate template and FileClass generation
 Created four pilot templates and ten pilot FileClasses, with isolated pilot views and generator/snippet compatibility. The documented generator `build-plugin-config.py` was absent, so the step did **not** claim that production authoring assets had been fully regenerated automatically. Active production FileClasses were unchanged.
 
 Evidence: `Template and FileClass Regeneration Step 79 0.1.yaml`.
 
-### Step 80 — Revised-contract pilot
+## Step 80 completion evidence — Revised-contract pilot
 Trialed Organization and product metadata/evidence on a minimal canonical-note slice and kept wider fixtures non-canonical. Preserved IDs and UIDs and noted a deliberately unresolved pilot source-document inverse relation for Step 81 scrutiny. Pilot changes were not bulk-applied.
 
 Evidence: `Revised Contract Pilot Step 80 0.1.yaml`.
 
-### Step 81 — Validate the pilot (conditional outcome)
+## Step 81 completion evidence — Validate the pilot (conditional outcome)
 Candidate-schema parsing, basic Workbench compatibility, fixture isolation, identity stability, and production rollback passed. The canonical pilot notes were restored to the production-compatible representation. Interactive Obsidian UI verification was **not executed**, and candidate activation plus external metadata validation remained required. The record states `conditional-pass-for-contract; not-yet-activated`; it **does not authorize** bulk migration.
 
 Evidence: `Pilot Validation Step 81 0.1.yaml`.
