@@ -25,7 +25,6 @@ hasPart:
   - "[[Single-Point Watering Manifold Assembly]]"
   - "[[Cell Watering Shutoff Valve]]"
   - "[[Battery Watering Distribution Tubing]]"
-  - "[[Crown V-Force Single Point Watering System]]"
 ---
 
 # Philadelphia Scientific Stealth Watering System

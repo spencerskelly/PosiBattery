@@ -23,7 +23,6 @@ madeBy:
   - "[[PosiCharge]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[PosiCharge]]"
 ---
 
 # PosiCharge DVS150

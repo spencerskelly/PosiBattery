@@ -23,7 +23,6 @@ hasPart:
   - "[[Single-Point Watering Manifold Assembly]]"
   - "[[Cell Watering Shutoff Valve]]"
   - "[[Battery Watering Distribution Tubing]]"
-  - "[[Flow-Rite]]"
 ---
 
 # Flow-Rite Maverick Battery Watering System

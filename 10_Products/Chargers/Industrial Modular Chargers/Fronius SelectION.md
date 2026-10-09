@@ -21,7 +21,6 @@ hasDesign:
   - "[[CAN BMS-Directed Charging]]"
 hasPart:
   - "[[BMS-Directed Charge Control Firmware]]"
-  - "[[Fronius International]]"
 ---
 
 # Fronius SelectION

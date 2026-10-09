@@ -25,7 +25,6 @@ madeBy:
 hasPart:
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Remote Vehicle Diagnostic Service]]"
-  - "[[Textron GSE]]"
 ---
 
 # TUG Endurance Baggage Tractor

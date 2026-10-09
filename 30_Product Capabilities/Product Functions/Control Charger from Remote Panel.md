@@ -21,7 +21,6 @@ realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 realizedBy:
   - "[[Wired Remote Charger Control Design]]"
-  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 ---
 
 # Control Charger from Remote Panel
