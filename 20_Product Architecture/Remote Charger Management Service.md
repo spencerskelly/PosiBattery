@@ -17,7 +17,7 @@ performs:
 partOf:
   - "[[ACT ACTview]]"
   - "[[PosiCharge SkyLink]]"
-  - "[[Manage Chargers Remotely]]"
+
 ---
 
 # Remote Charger Management Service

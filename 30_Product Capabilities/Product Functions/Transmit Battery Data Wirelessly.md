@@ -46,7 +46,6 @@ realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 realizedBy:
   - "[[Wireless Battery Data Communication Design]]"
-  - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 ---
 
 # Transmit Battery Data Wirelessly

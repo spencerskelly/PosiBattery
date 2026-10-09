@@ -37,7 +37,6 @@ realizes:
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
 realizedBy:
   - "[[Operator Access Authorization Design]]"
-  - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
 # Control Operator Access

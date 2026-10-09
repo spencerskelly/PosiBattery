@@ -20,7 +20,6 @@ realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 realizedBy:
   - "[[CAN Vehicle Operating Limit Command]]"
-  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Command Vehicle Operating Limits over CAN

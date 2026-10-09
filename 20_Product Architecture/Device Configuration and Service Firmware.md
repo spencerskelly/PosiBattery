@@ -23,7 +23,6 @@ partOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Fronius TagID]]"
   - "[[HOPPECKE trak collect]]"
-  - "[[Configure Device from Mobile App or PC]]"
 ---
 
 # Device Configuration and Service Firmware

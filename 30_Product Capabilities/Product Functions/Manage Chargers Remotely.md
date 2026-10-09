@@ -29,7 +29,6 @@ dependsOn:
   - "[[Remote Charger Management Design]]"
 realizedBy:
   - "[[Remote Charger Management Design]]"
-  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 ---
 
 # Manage Chargers Remotely

@@ -36,7 +36,6 @@ dependsOn:
   - "[[Temperature-Compensated Charge Control Design]]"
 realizedBy:
   - "[[Temperature-Compensated Charge Control Design]]"
-  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Compensate Charge for Battery Temperature

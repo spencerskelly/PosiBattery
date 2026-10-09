@@ -25,7 +25,6 @@ madeBy:
   - "[[Philadelphia Scientific]]"
 hasPart:
   - "[[Battery Data Gateway Upload Service]]"
-  - "[[Philadelphia Scientific]]"
 ---
 
 # Philadelphia Scientific eGO!gateway

@@ -23,7 +23,6 @@ offeredWith:
 hasDesign:
   - "[[Device Configuration and Service Design]]"
   - "[[Mobile App Interface]]"
-  - "[[PosiCharge PosiGuard]]"
 ---
 
 # PosiCharge PosiConnect

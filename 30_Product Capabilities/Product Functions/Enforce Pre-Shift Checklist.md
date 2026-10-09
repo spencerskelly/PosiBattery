@@ -27,7 +27,6 @@ realizes:
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
 realizedBy:
   - "[[Pre-Shift Checklist Enforcement Design]]"
-  - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
 # Enforce Pre-Shift Checklist

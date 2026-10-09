@@ -23,7 +23,6 @@ realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
 realizedBy:
   - "[[Battery Replacement Timing Prediction Design]]"
-  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Predict Battery Replacement Timing

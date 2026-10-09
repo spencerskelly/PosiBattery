@@ -21,7 +21,6 @@ realizes:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 realizedBy:
   - "[[Impact-Triggered Vehicle Lockout Design]]"
-  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
 ---
 
 # Lock Out Vehicle After Impact

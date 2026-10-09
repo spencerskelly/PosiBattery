@@ -24,7 +24,6 @@ realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 realizedBy:
   - "[[BMS-Directed Charge Control Design]]"
-  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Charge Under BMS Control

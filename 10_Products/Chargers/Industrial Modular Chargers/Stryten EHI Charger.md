@@ -21,7 +21,6 @@ madeBy:
   - "[[Stryten Energy]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[Stryten Energy]]"
 ---
 
 # Stryten EHI Charger

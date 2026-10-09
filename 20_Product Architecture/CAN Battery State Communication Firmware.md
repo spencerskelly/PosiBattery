@@ -23,7 +23,6 @@ partOf:
   - "[[EnerSys Wi-iQ]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Hyster Power Cellect]]"
-  - "[[Communicate Battery State over CAN]]"
 ---
 
 # CAN Battery State Communication Firmware
