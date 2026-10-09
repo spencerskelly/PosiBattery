@@ -4,6 +4,20 @@
 
 Updated 2026-10-05 after completion of the PosiBattery architecture-improvement roadmap. This file supersedes the prior 2026-10-04 snapshot for current-state claims.
 
+## Live GitHub validation status — 2026-10-08 (supersedes earlier PASS for current state)
+
+The 2026-10-05 verification below is a **historical stabilization baseline**, not the current passing state. The subsequent October 6 modeling/realization commits are captured on `main`, but relationship integrity has regressed.
+
+Remote model baseline: commit `5d82a6295059efe6ebd6503115374598535a790e` (2026-10-06). Of six workflows on that SHA, four passed (Workbench, True Orphan, Local Model, Port/Item Flow) and two failed:
+- MDSE Vault Audit: [run 37548146519](https://github.com/spencerskelly/PosiBattery/actions/runs/37548146519) — relationship-invariants failure.
+- Semantic Linking Completion Gate: [run 37548146533](https://github.com/spencerskelly/PosiBattery/actions/runs/37548146533) — relationship-validation failure.
+
+The blocking log reports **256 missing inverses** and **75 incompatible relationship endpoints** (331 errors total). Do not bulk-fill inverses: some links misuse `hasPart`, `partOf`, or `hasDesign` with incorrect endpoint types. Resolve [issue #2](https://github.com/spencerskelly/PosiBattery/issues/2) with evidence-backed relationship repair, then record a new passing baseline.
+
+The historical 100-step architecture roadmap and 28-step semantic-linking program remain *completed work programs*, but neither proves that later model edits validate.
+
+See [PosiBattery GitHub Capture and Reconciliation Audit 2026-10-08](../../80_Decisions%20and%20Planning/PosiBattery%20GitHub%20Capture%20and%20Reconciliation%20Audit%202026-10-08.md) for the complete remote-capture and branch/PR audit. Remote GitHub cannot establish whether local workstation changes remain uncommitted or unpushed.
+
 ## Current controlled state
 
 - Repository: `spencerskelly/PosiBattery`
