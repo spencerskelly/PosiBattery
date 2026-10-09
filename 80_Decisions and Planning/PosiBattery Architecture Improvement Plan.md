@@ -4693,6 +4693,13 @@ Record completed steps below. Do not remove completed steps from the roadmap.
 | 72 | 2026-10-05 | Complete | Improved reusable-reference navigation around the content that actually exists: added a semantic Properties guide for 45 controlled definitions, enhanced recursive Base columns, expanded the curated Canvas to schema/evidence boundaries, and deliberately avoided empty Technologies/Protocols/Units/Interfaces scaffolding. No model semantics or schemas changed. Evidence: `Reusable Reference Navigation Improvement Step 72 0.1.yaml`. |
 | 73 | 2026-10-05 | Complete | Completed field reconciliation between the active MDSE runtime and Common Element Metadata Standard 0.1. Preserved the canonical `uid`/`id`/`type` contract, rejected parallel duplicate fields, redirected relationship-like metadata toward governed relationships, documented 8 direct conflicts, and bounded the remaining intrinsic metadata candidates for Steps 74-77. No schemas/templates/model notes changed. Evidence: `Field Reconciliation Matrix Step 73 0.1.yaml`. |
 | 74 | 2026-10-05 | Complete | Reconciled the formal element-type model. Retained Product as `Object`, Customer Need as `Use Case/why`, Metrics as `Info` plus future measure classification, source/research as `Document`/`Info`, and planning as `Plan`/`Issue`/`Info`; identified `Organization` as the sole high-confidence new formal type candidate. No schema, template, type, ID, UID, or model-note changes were made. Evidence: `Element Type Reconciliation Matrix Step 74 0.1.yaml`. |
+| 75 | 2026-10-05 | Complete | Reconciled governed and proposed relationship predicates, kept named YAML relationship fields as the single assertion representation, and deferred storage redesign. Evidence: `Step 75 Completion Record 0.1.yaml`, `Relationship Reconciliation Matrix Step 75 0.1.yaml`. |
+| 76 | 2026-10-05 | Complete | Resolved vocabulary/alias overlaps around `type`, `uid`, `id`, status, applicability, and predicate names without implementing speculative parallel metadata. Evidence: `Vocabulary Conflict Resolution Step 76 0.1.yaml`. |
+| 77 | 2026-10-05 | Complete | Selected a minimal optional metadata extension for aliases, reuse scope, product class, measure semantics, and source provenance; no production schema changed in this decision step. Evidence: `Minimum Metadata Extension Step 77 0.1.yaml`. |
+| 78 | 2026-10-05 | Complete | Produced isolated versioned schema candidates for element types 1.18, relationships 1.36, and metadata 1.0, preserving backward compatibility and existing identities. Evidence: `Controlled Schema Update Step 78 0.1.yaml`. |
+| 79 | 2026-10-05 | Complete | Created four pilot templates and ten pilot FileClasses plus supporting pilot surfaces; did not redirect active FileClass configuration or claim full automated generation. Evidence: `Template and FileClass Regeneration Step 79 0.1.yaml`. |
+| 80 | 2026-10-05 | Complete | Piloted selected Organization/product metadata and relationship behavior using two temporary canonical-note edits and isolated fixtures; an inverse-sync finding was explicitly carried to validation. Evidence: `Revised Contract Pilot Step 80 0.1.yaml`. |
+| 81 | 2026-10-05 | Complete (conditional contract pass) | Validated candidate parsing and compatibility, restored production notes after pilot, and deferred interactive Obsidian verification and bulk migration. Completion of the test step did not mean unconditional production readiness. Evidence: `Pilot Validation Step 81 0.1.yaml`. |
 
 ---
 
@@ -4804,6 +4811,49 @@ Evidence: `80_Decisions and Planning/Element Type Reconciliation Matrix Step 74 
 
 **Result:** Step 74 complete. The next incomplete roadmap item is **Step 75 — Relationship reconciliation**.
 
+
+---
+
+## Steps 75–81 consolidated completion evidence — Schema reconciliation and controlled pilot
+
+**Date:** 2026-10-05. These seven steps have individual authoritative YAML records but lacked the consolidated main-plan completion entries until the 2026-10-08 chronological GitHub capture audit. This section restores their audit trail; it does not change the 2026-10-05 technical decisions.
+
+### Step 75 — Relationship reconciliation
+Completed the governed/proposed relationship comparison and retained named YAML predicate properties with synchronized inverses as the single authoritative relationship storage representation. Five high-value traceability/evidence predicate candidates and distinct business relationships were documented for controlled schema work; no schema or model relationships were modified in this decision step.
+
+Evidence: `Relationship Reconciliation Matrix Step 75 0.1.yaml` and `Step 75 Completion Record 0.1.yaml`. The latter explicitly records status `Complete` and commit `e49d8fe2`.
+
+### Step 76 — Vocabulary conflict resolution
+Resolved competing or ambiguous field/relationship names, preserving `type`, immutable `uid`, human-readable `id`, lifecycle-only `status`, and governed relationship semantics. The decision did not add parallel `element_type` or `relationships[]` model fields.
+
+Evidence: `Vocabulary Conflict Resolution Step 76 0.1.yaml`.
+
+### Step 77 — Minimum metadata extension
+Selected sparse optional metadata for alternate names, reuse scope, product classification, measure representation, and source provenance; kept ownership, evidence claims, applicability, and relationship semantics out of redundant scalar fields. This was a contract-selection step, not immediate migration.
+
+Evidence: `Minimum Metadata Extension Step 77 0.1.yaml`.
+
+### Step 78 — Candidate schemas
+Produced versioned schema candidates `element-types.1.18.yaml`, `relationships.1.36.yaml`, and `metadata.1.0.yaml` under `99_System/03_Schemas/`. Existing IDs and UIDs and backward compatibility were preserved. The step record explicitly states the production baseline was not changed by this candidate authoring step.
+
+Evidence: `Controlled Schema Update Step 78 0.1.yaml`.
+
+### Step 79 — Candidate template and FileClass generation
+Created four pilot templates and ten pilot FileClasses, with isolated pilot views and generator/snippet compatibility. The documented generator `build-plugin-config.py` was absent, so the step did **not** claim that production authoring assets had been fully regenerated automatically. Active production FileClasses were unchanged.
+
+Evidence: `Template and FileClass Regeneration Step 79 0.1.yaml`.
+
+### Step 80 — Revised-contract pilot
+Trialed Organization and product metadata/evidence on a minimal canonical-note slice and kept wider fixtures non-canonical. Preserved IDs and UIDs and noted a deliberately unresolved pilot source-document inverse relation for Step 81 scrutiny. Pilot changes were not bulk-applied.
+
+Evidence: `Revised Contract Pilot Step 80 0.1.yaml`.
+
+### Step 81 — Validate the pilot (conditional outcome)
+Candidate-schema parsing, basic Workbench compatibility, fixture isolation, identity stability, and production rollback passed. The canonical pilot notes were restored to the production-compatible representation. Interactive Obsidian UI verification was **not executed**, and candidate activation plus external metadata validation remained required. The record states `conditional-pass-for-contract; not-yet-activated`; it **does not authorize** bulk migration.
+
+Evidence: `Pilot Validation Step 81 0.1.yaml`.
+
+**Result:** Steps 75–81 have documented artifacts and are complete as *bounded roadmap activities*. Step 81's conditional result is not an unconditional runtime acceptance. Later Step 82 adoption and Step 100/semantic-linking handoffs must be consulted for subsequent production state; the October 6 CI regression is tracked separately in GitHub issue #2.
 
 ---
 
