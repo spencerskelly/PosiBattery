@@ -22,9 +22,9 @@ hasDesign:
   - "[[BMS-Directed Charge Control Design]]"
   - "[[CAN BMS-Directed Charging]]"
 madeBy:
+  - "[[Delta-Q Technologies]]"
 hasPart:
   - "[[BMS-Directed Charge Control Firmware]]"
-  - "[[Delta-Q Technologies]]"
 ---
 
 # Delta-Q IC650
