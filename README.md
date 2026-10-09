@@ -55,6 +55,12 @@ Existing exceptions do not create competing root taxonomies. The 100-step archit
 
 Folder authority here determines where knowledge is organized for navigation. It does not create engineering semantics; element types, governed properties, relationships, evidence provenance, and Local Model records remain authoritative for meaning.
 
+## Current project capture and validation (2026-10-08)
+
+The known PosiBattery project chats have been reconciled against repository artifacts in `80_Decisions and Planning/PosiBattery Project Chat to GitHub Traceability Audit 2026-10-08.md`. See also `80_Decisions and Planning/PosiBattery GitHub Capture and Reconciliation Audit 2026-10-08.md` and `99_System/10_Docs/PosiBattery Runtime Handoff State.md`.
+
+The 100-step architecture and 28-step semantic-linking programs were completed and validated on their **historical October 5** snapshots. Later October 6 implementation edits are committed but have **current relationship-integrity failures** (256 missing inverse assertions and 75 incompatible endpoints on the audited model commit). Track recovery in [GitHub issue #2](https://github.com/spencerskelly/PosiBattery/issues/2). Do not claim the current branch is a passing/golden baseline before both blocking workflows pass on one revision. Local unpushed changes cannot be certified by a remote audit.
+
 ## Opening the vault
 
 1. Clone the repository and open the folder as a vault in Obsidian 1.13.0 or later.
