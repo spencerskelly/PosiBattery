@@ -20,9 +20,9 @@ hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Direct Temperature Input Charge Compensation]]"
 madeBy:
+  - "[[PosiCharge]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[PosiCharge]]"
 ---
 
 # PosiCharge DVS150
