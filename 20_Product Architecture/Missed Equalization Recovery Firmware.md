@@ -15,10 +15,10 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Complete Missed Equalization Automatically]]"
 partOf:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Power Designers REVOLUTION X]]"
-  - "[[Complete Missed Equalization Automatically]]"
 ---
 
 # Missed Equalization Recovery Firmware
