@@ -42,9 +42,9 @@ realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 realizedBy:
   - "[[Cloud Battery Data Upload Design]]"
-  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Upload Battery Data to Cloud Portal
