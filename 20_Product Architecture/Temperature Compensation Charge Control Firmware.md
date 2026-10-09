@@ -15,6 +15,7 @@ hasDesign:
 dependsOn:
   - "[[Control Circuit]]"
 performs:
+  - "[[Compensate Charge for Battery Temperature]]"
 partOf:
   - "[[AMETEK Prestolite Power Eclipse II]]"
   - "[[AMETEK Prestolite Power ULTRA]]"
@@ -31,7 +32,6 @@ partOf:
   - "[[Stryten X-7 Charger]]"
   - "[[Lester Summit Series II]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
-  - "[[Compensate Charge for Battery Temperature]]"
 ---
 
 # Temperature Compensation Charge Control Firmware
