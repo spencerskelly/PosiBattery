@@ -65,7 +65,14 @@ CI references for the model SHA:
 - [MDSE Vault Audit run 37889549809](https://github.com/spencerskelly/PosiBattery/actions/runs/37889549809)
 - [Semantic Linking Completion Gate run 37889549813](https://github.com/spencerskelly/PosiBattery/actions/runs/37889549813)
 
-The above runs were queued when the initial batch record was created; update the result after they finish.
+**Verified CI result for model SHA `2e25f5b2daffd4fca2a930b54f9c8619aba2d077`:**
+
+- [MDSE Vault Audit run 37889549809](https://github.com/spencerskelly/PosiBattery/actions/runs/37889549809): **FAIL** (Check relationship invariants), with **18 endpoint_incompatible + 142 missing_inverse = 160**.
+- [Semantic Linking Completion Gate run 37889549813](https://github.com/spencerskelly/PosiBattery/actions/runs/37889549813): **FAIL** (Relationship validation), with the same **18 endpoint_incompatible + 142 missing_inverse = 160**.
+- This is an **exact 51-error reduction** from the incoming Batch 03 result of 211. All 17 invalid `hasPart: Object -> Info` endpoints disappeared, as did their corresponding 34 inverse findings.
+- **Cumulative four-batch improvement against `main`: 331 -> 160 = 171 errors corrected.**
+- Workbench, Local Model, and True Orphan checks passed on the model SHA. Port Flow was still in progress when the counts were recorded.
+- **Acceptance:** PASS for the narrowly scoped 17-note relationship correction, **FAIL** for release/golden baseline. PR #4 remains draft and `main` is not modified.
 
 ## Next recovery work
 
