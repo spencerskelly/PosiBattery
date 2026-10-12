@@ -27,7 +27,6 @@ dependsOn:
   - "[[Equalization Event Tracking Design]]"
 realizedBy:
   - "[[Equalization Event Tracking Design]]"
-  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Track Equalization

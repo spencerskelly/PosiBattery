@@ -23,7 +23,6 @@ partOf:
   - "[[Fronius SelectION]]"
   - "[[Lester Summit Series II]]"
   - "[[Exide Motion+ Lithium Charger]]"
-  - "[[Charge Under BMS Control]]"
 ---
 
 # BMS-Directed Charge Control Firmware

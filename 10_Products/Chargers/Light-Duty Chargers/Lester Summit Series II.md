@@ -34,7 +34,6 @@ hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[BMS-Directed Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[Lester Electrical]]"
 ---
 
 # Lester Summit Series II

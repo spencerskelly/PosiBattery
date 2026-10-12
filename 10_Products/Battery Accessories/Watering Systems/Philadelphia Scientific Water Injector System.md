@@ -18,11 +18,11 @@ performs:
 madeBy:
   - "[[Philadelphia Scientific]]"
 integratesWith:
+  - "[[Crown V-Force Single Point Watering System]]"
 hasDesign:
   - "[[Injector Level-Sensing Watering]]"
 hasPart:
   - "[[Water Injector Shutoff Assembly]]"
-  - "[[Crown V-Force Single Point Watering System]]"
 ---
 
 # Philadelphia Scientific Water Injector System

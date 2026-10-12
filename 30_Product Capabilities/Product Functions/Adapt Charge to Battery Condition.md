@@ -19,7 +19,6 @@ dependsOn:
   - "[[Adaptive Charge Profile Control Design]]"
 realizedBy:
   - "[[Adaptive Charge Profile Control Design]]"
-  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Adapt Charge to Battery Condition

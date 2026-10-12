@@ -20,7 +20,6 @@ performs:
 partOf:
   - "[[TUG Endurance Baggage Tractor]]"
   - "[[TUG ALPHA 1 Pushback]]"
-  - "[[Diagnose Vehicle Remotely]]"
 ---
 
 # Remote Vehicle Diagnostic Service

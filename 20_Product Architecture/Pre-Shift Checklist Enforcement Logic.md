@@ -20,7 +20,7 @@ performs:
 partOf:
   - "[[Crown InfoLink]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
-  - "[[Enforce Pre-Shift Checklist]]"
+
 ---
 
 # Pre-Shift Checklist Enforcement Logic

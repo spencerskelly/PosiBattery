@@ -42,7 +42,6 @@ realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
 realizedBy:
   - "[[Truck Telemetry Reporting Design]]"
-  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
 
 # Report Truck Telemetry

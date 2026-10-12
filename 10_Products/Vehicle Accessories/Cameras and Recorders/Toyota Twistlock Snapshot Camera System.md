@@ -26,7 +26,6 @@ hasPart:
   - "[[Load-Handling Image Capture Logic]]"
   - "[[Load-Handling Image Storage]]"
   - "[[Load-Handling Image Sensor Module]]"
-  - "[[Toyota Material Handling]]"
 ---
 
 # Toyota Twistlock Snapshot Camera System

@@ -20,7 +20,6 @@ hasDesign:
   - "[[Remote Charger Management Design]]"
 hasPart:
   - "[[Remote Charger Management Service]]"
-  - "[[PosiCharge]]"
 ---
 
 # PosiCharge SkyLink

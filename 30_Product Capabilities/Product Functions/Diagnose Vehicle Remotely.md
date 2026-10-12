@@ -21,7 +21,6 @@ realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
 realizedBy:
   - "[[Remote Vehicle Diagnostics Design]]"
-  - "[[Find and Fix Vehicle Faults Without Downtime]]"
 ---
 
 # Diagnose Vehicle Remotely

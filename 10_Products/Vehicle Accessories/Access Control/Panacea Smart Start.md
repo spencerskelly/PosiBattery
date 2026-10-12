@@ -23,7 +23,6 @@ madeBy:
 hasPart:
   - "[[Operator Access Authorization Logic]]"
   - "[[Vehicle Enable Interlock]]"
-  - "[[Panacea Aftermarket Co.]]"
 ---
 
 # Panacea Smart Start

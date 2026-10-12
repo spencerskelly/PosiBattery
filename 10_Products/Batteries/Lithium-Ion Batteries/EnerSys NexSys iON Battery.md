@@ -22,7 +22,6 @@ madeBy:
 hasPart:
   - "[[BMS Discharge Protection Logic]]"
   - "[[Battery-Charger Communication Firmware]]"
-  - "[[EnerSys]]"
 ---
 
 # EnerSys NexSys iON Battery

@@ -22,7 +22,6 @@ dependsOn:
   - "[[Load-Handling Image Capture Design]]"
 realizedBy:
   - "[[Load-Handling Image Capture Design]]"
-  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 ---
 
 # Record Images of Load Handling

@@ -19,7 +19,6 @@ hasDesign:
   - "[[Charger-Controlled Automatic Watering]]"
 hasPart:
   - "[[Automatic Watering Control Logic]]"
-  - "[[PosiCharge]]"
 ---
 
 # PosiCharge SVS200

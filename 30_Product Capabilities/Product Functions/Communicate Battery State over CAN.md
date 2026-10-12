@@ -29,7 +29,6 @@ realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 realizedBy:
   - "[[CAN Battery State Communication Design]]"
-  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Communicate Battery State over CAN

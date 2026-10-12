@@ -24,7 +24,6 @@ partOf:
   - "[[Crown V-HFM3 Charger]]"
   - "[[Fronius Selectiva 4.0]]"
   - "[[Lester Summit Series II]]"
-  - "[[Manage Chargers Remotely]]"
 ---
 
 # Charger Remote Management Agent

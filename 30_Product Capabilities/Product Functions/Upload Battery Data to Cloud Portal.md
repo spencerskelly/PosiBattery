@@ -45,7 +45,6 @@ realizes:
   - "[[Review Battery Care and Warranty Compliance]]"
 realizedBy:
   - "[[Cloud Battery Data Upload Design]]"
-  - "[[Review Battery Care and Warranty Compliance]]"
 ---
 
 # Upload Battery Data to Cloud Portal

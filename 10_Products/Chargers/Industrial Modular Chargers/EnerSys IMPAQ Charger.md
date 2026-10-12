@@ -29,7 +29,6 @@ madeBy:
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
-  - "[[EnerSys]]"
 ---
 
 # EnerSys IMPAQ Charger
