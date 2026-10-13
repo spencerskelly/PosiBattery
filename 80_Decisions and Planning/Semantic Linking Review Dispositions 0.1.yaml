@@ -2489,3 +2489,24 @@ records:
         disposition: intentionally_absent
         exception: EXC-RESEARCH-ONLY
         note: "Source register for demand-side evidence; no model relationship is asserted until individual items are adopted by Customer Need notes."
+
+  # Added 2026-10-12: research conflict log, kept unlinked on purpose.
+  "70_Research and Evidence/Research/Demand Evidence Conflict Log.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Conflict log for demand-side sources; no model relationship is asserted until items are adopted by Customer Need or Issue notes."
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Conflict log for demand-side sources; no model relationship is asserted until items are adopted by Customer Need or Issue notes."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Conflict log for demand-side sources; no model relationship is asserted until items are adopted by Customer Need or Issue notes."
+      evidence:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Conflict log for demand-side sources; no model relationship is asserted until items are adopted by Customer Need or Issue notes."
