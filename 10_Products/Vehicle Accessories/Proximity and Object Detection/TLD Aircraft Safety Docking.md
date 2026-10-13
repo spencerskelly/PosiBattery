@@ -31,7 +31,6 @@ hasDesign:
 hasPart:
   - "[[Impact Lockout Decision Logic]]"
   - "[[Vehicle Enable Interlock]]"
-  - "[[TLD NBL-E Belt Loader]]"
 ---
 
 # TLD Aircraft Safety Docking

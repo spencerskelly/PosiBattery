@@ -29,7 +29,6 @@ hasPart:
   - "[[Charger Remote Management Agent]]"
   - "[[Adaptive Charge Profile Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"
-  - "[[Fronius Charge & Connect]]"
 ---
 
 # Fronius Selectiva 4.0
