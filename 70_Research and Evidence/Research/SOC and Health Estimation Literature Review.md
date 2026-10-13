@@ -31,9 +31,9 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 1 | `Research_on_the_State_of_Charge_Estimation_of_Elec` | Wang, Zhang, Hu, Batteries 2026, 12, 41: SOC of an LFP electric forklift pack with a Transformer | reviewed below |
 | 2 | `Battery_Model_Identification_Approach_for_Electric` | da Silva et al., Energies 2021: battery model identification for an electric forklift (tested on a LiFePO4 cell) | reviewed below |
 | 3 | `Battery_studypaper` | Alshaebi et al., ISERC 2017 (Raymond Corp co-author): lead-acid vs lithium reach trucks, measured data plus simulation | reviewed below |
-| 4 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | pending, likely out of scope |
-| 5 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | reviewed below |
-| 6 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | pending |
+| 4 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | reviewed below |
+| 5 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | reviewed below |
+| 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | deferred, likely out of scope |
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | pending |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | pending |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a neural network | pending |
@@ -63,6 +63,9 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 4 Pop 2005 | SOC | book-keeping: Coulomb counting with compensation for discharge efficiency, self-discharge and capacity loss | current through a shunt (accuracy and offset critical), voltage, temperature, cell characterization data in EEPROM, cycle history, register set (SOC counter, charge accumulator, discharge accumulator) | dedicated gauge IC with its own processor and EEPROM; the host reads the result over a serial bus | Coulomb counting and hybrid candidates, [[Amp-Hour Accumulator Firmware]] |
 | 4 Pop 2005 | SOC and SOH | adaptive: Kalman or extended Kalman filter on a battery model, neural network, fuzzy logic | voltage, current, temperature (impedance data for fuzzy); the EKF can carry series resistance as a state, which gives a health indicator; a neural network needs training data | the review does not say; the EKF is sequential, needing only the previous sample; one neural network was trained on 2,860 discharge curves | no candidate; extends hybrid |
 | 4 Pop 2005 | SOH | internal resistance from a current step; impedance spectroscopy; capacity tracked against initial capacity | current step and voltage response; small-signal ac excitation not above 10 mV; capacity measured at full charge or discharge | impedance sweeps judged impractical for SOC in a portable device but used for health | [[Resistance-Trend State of Health Estimator]], [[Capacity-Retention State of Health Estimator]] |
+| 5 Margal 2025 | SOC | extended Kalman filter on a two-RC (dual polarization) Thevenin model; SOC-dependent parameters from fifth-order polynomials | battery current and terminal voltage; six polynomial parameter curves (R0, R1, C1, R2, C2, open-circuit voltage; 36 coefficients); noise covariances Q and R; initial state | simulation only (Matlab); not stated | hybrid-type candidate (voltage and current), no model-based candidate yet |
+| 5 Margal 2025 | SOC | adaptive Luenberger observer, gain adapted by stochastic gradient | same model, current and voltage; learning rate | simulation only | same |
+| 5 Margal 2025 | SOC | NARX recurrent neural network: 5 hidden units, 1 hidden layer, delay 2, Adam optimizer, 1,000 training epochs | past and present current, past SOC and voltage outputs fed back; needs data covering all operating points (the paper's own caveat) | training offline; the network is small enough to suggest on-device inference, but no inference cost is given | none; data-driven candidate |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -225,6 +228,36 @@ Source: Measurement Science and Technology 16 (2005) R93 to R110, IOP Publishing
 - The review's three ways to store the EMF curve (lookup table, piecewise linear function, fitted function) match the three ways source 2 says it tested for the OCV-SOC curve in the BMS microcontroller.
 - The review's EKF and book-keeping text does not say Coulomb counting is unsuitable for variable load; see the extension to C142.
 - The review is not the primary source for any figure marked "reported from"; those should be traced to the cited works before the vault relies on them.
+
+### Source 5: Margal, El Daoudi, Khallouq, Karama (2025), "Comparative Analysis of Battery State of Charge Estimation Methods"
+
+Source: E3S Web of Conferences 601, 00033 (2025), ICEGC'2024, EDP Sciences, open access (CC BY 4.0), doi:10.1051/e3sconf/202560100033; Cadi Ayyad University, Morocco; 11 pages. Conference paper. The PDF is `Comparative_Analysis_of_Battery_State_of_Charge_Es.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Methods compared | extended Kalman filter (EKF), adaptive Luenberger observer (ALO), NARX recurrent neural network | simulation on a Thevenin dual-polarization model; Coulomb counting used as the reference | 1, 3, 4 |
+| Test cell | Turnigy Graphene 5000 mAh 3S 65C Li-polymer; Table 1: 5000 mAh, 3.7 V nominal, 4.2 V and 2.8 V cut-offs; voltage plot spans about 3.9 to 4.15 V | data from the cited work (ref 18) at a battery tester; "3S" conflicts with the single-cell voltages, see C149 | 2.2, 4 |
+| Test cycle | LA92 driving schedule (light-vehicle dynamometer), 7,478 s = 2.08 h; current swings about +5 A to -15 A | passenger-vehicle cycle, not forklift duty | 4 |
+| Parameter identification | hybrid pulse power characterization; fifth-order polynomial of SOC for each of R0, R1, C1, R2, C2 and open-circuit voltage | 36 coefficients (Table 2) | 2.2 |
+| Coulombic efficiency | 0.9 to 1, depending on temperature and charge rate | stated range | 2.1 |
+| NARX settings | learning rate 0.001, 5 hidden units, 1 hidden layer, ReLU and tanh activations, delay 2, Adam, mean squared error loss, 1,000 epochs | Table 3 | 3.3 |
+| SOC error, abstract | NARX RMSE 0.33%, EKF 5.34%, ALO 5.94% | abstract | Abstract |
+| SOC error, Table 5 | RMSE: KF 5.349e-1, ALO 5.948e-1, NARX 3.3288e-2; MAE: 4.4996e-1, 4.9046e-1, 2.3208e-2; MSE: 2.8612e-1, 3.5379e-1, 1.1081e-3; units not stated | Table 5; MSE and RMSE are consistent (the square root of 2.8612e-1 is 0.5349) | 4 |
+| Voltage error, Table 4 | MSE: KF 1.4377e-6, ALO 2.6794e-6, NARX 6.5442e-7; MAE 7.4787e-4, 8.9792e-4, 4.8831e-4; the RMSE row repeats the Table 5 SOC RMSE values | the square root of 1.4377e-6 is 1.2e-3, not 5.349e-1; see C149 | 4 |
+| Convergence | EKF and ALO converge more slowly than NARX but without oscillation; NARX oscillates at the start; no times given | Figure 8 | 4 |
+| Claimed limits | direct methods: open-circuit voltage needs long rest and depends on temperature and hysteresis; Coulomb counting is inaccurate from sensor noise; EIS is precise but costly. Kalman filters need noise characterization and are sensitive to initial conditions. Data-driven methods need heavy compute and training data | introduction, no data | 1 |
+| CC reference caveat | CC "is not suitable for use in real-life conditions" because it needs the exact initial SOC; it is used here as the ideal reference | the reference for all SOC errors is a Coulomb-counted trajectory | 4 |
+
+**Approach and dependencies.** All three methods need only current and terminal voltage as measurements; temperature is not an input, and the parameter curves are for one test temperature (not stated). The model-based pair needs a stored parameter set (36 polynomial coefficients) and tuned noise or gain settings. The NARX needs only a small network and past values, but a training set that covers the operating range.
+
+**Engineering inference (not a source claim).** The NARX at 5 hidden units and delay 2 is small enough that inference on a battery-mounted microcontroller looks plausible, but the paper gives no memory, time or fixed-point figure. Training would be offline or in the cloud. The EKF and observer run per sample and are embedded by nature; their parameter set would be loaded at commissioning.
+
+**Gaps in the evidence.**
+
+- Errors are measured against a Coulomb-counted SOC, not a true SOC. The NARX is also fed its own previous SOC outputs. Whether training and test data come from the same cycle is not stated. The 0.33% is therefore a measure of agreement with Coulomb counting on one cycle, not independent accuracy.
+- The abstract's RMSE figures are ten times Table 5's (see C148).
+- One cell, one cycle, no temperature or aging variation; a passenger-vehicle cycle, not forklift duty.
+- ALO is expanded as "Adaptive Luenberger Observer" in the abstract and "Ant Lion Optimizer" in the discussion (see C149).
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
