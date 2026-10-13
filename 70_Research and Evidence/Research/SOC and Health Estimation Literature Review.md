@@ -38,7 +38,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | reviewed below |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a small feedforward neural network ("Corny") | reviewed below, low weight |
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from cell strain sensing and a small neural network | reviewed below |
-| 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | pending |
+| 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | reviewed below, results contradict themselves |
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | pending |
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al.: SOH machine learning review | pending |
 | 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., McMaster: Transformer transfer learning for SOH | pending |
@@ -70,6 +70,10 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 8 Lakhdari 2026 | SOC, with resistance as a health indicator | joint extended Kalman filter on a fractional-order equivalent circuit; the filter state holds SOC, a short voltage history (memory length 4), ohmic resistance and leakage resistance | current and terminal voltage at 1 Hz; open-circuit-voltage table by SOC (piecewise linear); nominal capacity; offline-identified polarization parameters (R1, Q1, alpha) and memory length; noise covariances | identification offline on a bench; the filter is described as real-time but run in simulation or post-processing; embedded hardware implementation is listed as future work | none; extends the voltage-and-current hybrid and, through the resistance state, the [[Resistance-Trend State of Health Estimator]] |
 | 9 Ismail 2024 | SOC | small feedforward neural network ("Corny"): 5 inputs, two 55-unit layers, 1 output | voltage, current, temperature, and 500-second averages of voltage and current (5 channels); training data from a public data set | training offline; no deployment statement for this network | none; same data-driven candidate as Wang and Margal |
 | 10 Anthony 2025 | SOC (discharge only) | small multilayer perceptron on windowed features of cell hoop strain (maximum, minimum, standard deviation, slope, mean) | a strain gauge bonded to the cell casing (plus a thermocouple on the cell); strain sampled at 1 Hz; a capacity-derived SOC label for training | training offline; no deployment statement | none; needs a strain-measurement function and element that the vault does not have |
+| 11 Yunusoglu | SOH | capacity ratio: measured capacity of each cycle over nominal capacity, end of life at 80% | charge and discharge capacity per cycle (Ah accumulation over a full cycle), nominal capacity, cycle count | not stated; simple enough for the device | [[Capacity-Retention State of Health Estimator]] (no dependency recorded yet; this adds Accumulate Amp-Hours and a cycle boundary) |
+| 11 Yunusoglu | SOH trend and remaining useful life | quadratic fit of SOH against cycle number, solved for the cycle where SOH reaches 80% | the history of per-cycle SOH values | not stated; needs a history store, suits a service | [[Battery Replacement Forecasting Service]] |
+| 11 Yunusoglu | SOH features | differential voltage analysis: capacity change per volt, tracked in a voltage window | high-resolution voltage and charge over a controlled charge or discharge | not stated | none; needs a controlled-cycle condition |
+| 11 Yunusoglu | SOH (claimed) | BERT-based regression on text-serialized data rows, 109 million parameters | voltage, current, capacity (and temperature) rows turned into text | the paper proposes edge inference with cloud fine-tuning, and reports no edge test | none; evidence does not support allocation |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -390,6 +394,42 @@ Source: IMECE 2025 (ASME), doi:10.1115/imece2025-168119; this PDF is the uncopyr
 - "Non-invasive" is claimed, but the method needs a gauge bonded to the cell casing.
 - Not applicable to lead-acid as written: the mechanism is graphite intercalation in a cylindrical lithium-ion cell. No lead-acid strain result appears in the paper.
 - The vault's existing strain-gauge mentions (see [[Detect Battery Weight]]) concern load measurement, not cell deformation.
+
+### Source 11: Yunusoglu, Le, Isik, Tiwari, Dikmen, Karadag, "Battery State of Health Estimation Using LLM Framework"
+
+Source: preprint-style conference paper, undated in the file (the PDF is `126_Paper.pdf` in the repo `Downloads` folder; the file name does not identify the paper); Purdue, Drexel, Stanford, IISc Bangalore and Temsa R&D Center (Turkey); 8 pages. Venue and review status not stated in the file. Its results contradict each other (see below), so it is carried at low weight. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Test cells | eight lithium titanate (LTO) cells, various cycling conditions, 500 cycles; dataset released in the paper's ref 24 | cycle-based plus instantaneous discharge data | Abstract, IV |
+| SOH definition | current charge capacity (mAh) divided by nominal capacity (mAh) x 100 | measured per cycle | III |
+| End of life | SOH of 80% | | III, IV |
+| RUL method | quadratic fit of SOH against cycle number, solved for the cycle where SOH = 80%; described as done by "the LLM" but is a polynomial regression | | III |
+| DVA example | between 2.25 V and 2.30 V the stored charge falls from 40 mAh at cycle 50 to 28 mAh at cycle 500 | a 30% drop, derived by the note author | III |
+| Model actually trained | BERT with a linear regression head on the [CLS] output; each data row turned into a text string, 128 tokens maximum; AdamW; mean squared error; 80/20 split; 5 epochs | the label is the charge or discharge capacity | IV, V |
+| Model size | 109,483,009 trainable parameters, about 438 MB at 4 bytes each | the 438 MB is derived by the note author | VI |
+| Evaluation result at epoch 5 | training loss (MSE) 655,290; test loss (MSE) 654,173; R2 negative; 122 batches at 13.3 batches per second | the paper says the model "unable to capture accurate relationships" and "failed to generalize" | VI |
+| Table I (MAE %, time) | GPR 21.00, 34.50; RD 8.74, 27.50; SVR 4.27, 22.00; CNN 10.31, 30.00; the LLM 0.81, 61.17; units of "time" and the meaning of "RD" not stated | | VI, Table I |
+| Abstract result | MAE "as low as 0.87%" | | Abstract |
+| Deployment statement | "pruning, quantization, and TensorRT acceleration enable real-time inference on edge computing devices"; "hybrid deployment strategy: running estimations at edge nodes (BMS units) while fine-tuning on cloud platforms"; "offline pretraining, online inference" | proposal; no pruning, quantization or edge test is reported | V, VII |
+| Conclusion on speed | best suited to applications "where precision is more critical than real-time speed" | | VII |
+
+**Approach and dependencies.** Strip away the language model and the paper's usable content is three simple estimators: SOH as a capacity ratio, a quadratic trend to 80% for remaining life, and differential-voltage features. Their dependencies are concrete:
+
+- the capacity ratio needs a complete-cycle Ah accumulation, a cycle boundary rule and a nominal capacity (see [[Accumulate Amp-Hours]], [[Log Battery Events and Usage]]);
+- the trend needs a stored history of SOH per cycle, which suits a service such as [[Battery Replacement Forecasting Service]] or the cloud side of [[Battery State of Health Analytics Service]];
+- differential voltage needs high-resolution voltage and charge during a controlled cycle.
+
+**Where the software runs, per the paper.** The paper proposes a split: edge inference on the BMS, cloud fine-tuning and periodic analysis. It tests neither; the only model it trains runs on a GPU and is too large for a BMS (about 438 MB of weights).
+
+**Engineering inference (not a source claim).** The capacity ratio is embedded-sized (counters and one division) but needs complete cycles, which a forklift with opportunity charging may rarely produce. The quadratic trend and replacement forecast are naturally cloud. The language-model part adds nothing the capacity ratio does not already supply, since its label is the capacity itself.
+
+**Gaps in the evidence.**
+
+- The reported accuracy cannot be relied on: the paper's own evaluation shows a negative R2 and a test loss of about 654,000, while the abstract and Table I claim an MAE under 1% (see C156).
+- Figures 1, 2 and 3 and most of the methods text describe a state-of-charge pipeline, while the abstract and conclusion are about state of health (see C157).
+- Cells are LTO, not lead-acid or the lithium chemistries in the other sources; the cycle conditions are not tabulated.
+- The comparison methods (GPR, "RD", SVR, CNN) have no stated settings.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 

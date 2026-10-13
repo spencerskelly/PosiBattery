@@ -264,6 +264,9 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 
 - **C155 - Anthony 2025 internal inconsistencies.** The cell is cycled "approximately 650 cycles" but the data set is "631 files" and "roughly 631 cycles"; the model has "a single input as strain" while the method uses five windowed strain features; the best cycle (578) has RMSE 0.0475 while the text says tests reached "as low as 0.0478"; RMSE units are not stated. See [[SOC and Health Estimation Literature Review]].
 
+- **C156 - Yunusoglu: reported accuracy versus the paper's own evaluation.** The abstract says MAE "as low as 0.87%", Table I says 0.81%, and the abstract says latency metrics "support efficient processing"; the evaluation section reports a test loss (MSE) of 654,173 with a negative R2, says the model "failed to generalize", and Table I gives the LLM the longest time (61.17 against 22.00 to 34.50 for the others). See [[SOC and Health Estimation Literature Review]].
+- **C157 - Yunusoglu: deployment and scope claims versus evidence.** The paper says pruning, quantization and TensorRT enable real-time edge inference and proposes edge inference with cloud fine-tuning, but the trained model has 109,483,009 parameters, no edge or compression test is reported, and the conclusion says it suits applications where precision matters more than real-time speed. Its figures and methods describe state-of-charge prediction while its title, abstract and conclusion are about state of health.
+
 ## Aliases
 
 - Landscape conflicts register
