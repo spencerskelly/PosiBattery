@@ -26,6 +26,8 @@ dependencyOf:
 dependsOn:
   - "[[Battery Temperature Measurement Design]]"
   - "[[Battery-Charger Data Communication Design]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Battery Temperature Reporting to Charger

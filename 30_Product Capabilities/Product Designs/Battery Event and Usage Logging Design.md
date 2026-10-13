@@ -22,6 +22,8 @@ dependencyOf:
   - "[[Log Battery Events and Usage]]"
 dependsOn:
   - "[[Non-Volatile Event Memory]]"
+supportedBy:
+  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Battery Event and Usage Logging Design

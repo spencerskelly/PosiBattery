@@ -26,6 +26,8 @@ supports:
   - "[[Thermistor Temperature Sensor]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
   - "[[Battery Temperature Measurement Design]]"
+  - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Battery Event and Usage Logging Design]]"
 
 dependencyOf:
   - "[[Report Battery Temperature to Charger]]"
@@ -50,5 +52,7 @@ Official PosiCharge FAQ evidence for the battery-mounted BMID, including stored 
 - `describes` identifies the PosiCharge BMID as the primary product subject.
 - `supports` is limited to active BMID engineering claims directly grounded in the captured FAQ evidence.
 - The source does not establish the unresolved battery-association lifecycle mechanism and therefore does not support that Requirement here.
+
+- **Added 2026-10-12:** `supports` extended to [[Battery Temperature Reporting to Charger]] (FAQ states: "The BMID constantly communicates battery temperature to the PosiCharge PowerStation where the vehicle is charging.") and [[Battery Event and Usage Logging Design]] (FAQ states the BMID is "documenting and storing charging event information including dates and times, begin and end voltages and currents"). Scope limit: the FAQ evidences charge-event records only; fault, alarm and electrolyte-alert logging named in the Design remain product-specific and are not evidenced here. Page re-read 2026-10-12.
 
 ## Former ids
