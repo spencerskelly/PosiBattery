@@ -41,7 +41,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | reviewed below, results contradict themselves |
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | reviewed below, single 11 Ah cell, parameter labels and one table value inconsistent |
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al., WEVJ 2025: SOH machine learning review with a four-model test on NASA cells | reviewed below, secondary source |
-| 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., McMaster: Transformer transfer learning for SOH | pending |
+| 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., Energies 2025: Transformer transfer learning for SOH (NASA to Oxford cells) | reviewed below, test design weaknesses |
 | 15 | `main` | Ahmed et al., Huddersfield: lifecycle-aware SOH evaluation, LightGBM, edge-deployable | pending |
 | 16 | `1_batteries` | Kafadarova et al., Batteries: surface temperature of cylindrical cells by thermal camera | pending, likely a sensing input rather than SOC or SOH |
 
@@ -79,6 +79,9 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 13 Mbagaya 2025 | SOH | SVR or random forest on summary statistics (mean, standard deviation, percentiles, voltage slopes, correlations) of a resampled discharge cycle | full constant-current discharge of voltage, current and temperature, resampled to 120 points, plus derivatives; cycle labels from capacity | training offline on a workstation (SVR 5.3 s, RF 26 s); the paper says these suit resource-constrained BMS hardware, no embedded test | none; needs a full controlled discharge, which opportunity-charged forklifts rarely give |
 | 13 Mbagaya 2025 | SOH | CNN or bidirectional LSTM on the same 6 x 120 sequences | same as above | training offline (CNN 58 s, LSTM 202 s); the paper says LSTM is hard to run on embedded BMS hardware and lists pruning, quantisation, distillation or offline/online split as options | none; no data-driven SOH candidate in the vault yet |
 | 13 Mbagaya 2025 (reported from Chen 2024) | SOH | VMD plus Transformer in an edge-cloud collaborative framework | not given in this review | edge and cloud, per the cited title; split not described here | [[Battery State of Health Analytics Service]] (cloud side); read the primary paper before relying on it |
+| 14 Giuliano 2025 | SOH | Transformer (117,161 parameters) on a 300-step window of voltage, current, temperature, relative time, cycle number and the previous cycle's capacity; predicts the next window's capacity; output smoothed by a Savitzky-Golay filter | voltage, current and temperature acquisition; cycle counter; previous-cycle capacity from Coulomb counting (Accumulate Amp-Hours); capacity labels for training | pre-training and fine-tuning offline; the paper says the model is "poorly suited for direct, real-time deployment" on an embedded BMS and that LSTM or ANN are more pragmatic there; no inference test | none; new data-driven candidate if used; inference would sit off the pack |
+| 14 Giuliano 2025 | SOH (adaptation to a new cell type) | transfer learning: train on NASA cells for 5 epochs, fine-tune one epoch on one full-life cell of the target chemistry | a complete labeled life of at least one target cell; the pre-trained weights | cloud-side training workflow; weights could then be sent to devices | [[Battery State of Health Analytics Service]] (cloud side); needs a model and data store that the vault does not have |
+| 14 Giuliano 2025 | capacity of previous cycle (feature) | Coulomb counting, eta times integral of current | current and time | not stated; counter arithmetic, embedded-sized | [[Coulomb Counting State of Charge Estimator Firmware]] and [[Amp-Hour Accumulator Firmware]] |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -504,6 +507,44 @@ Source: peer-reviewed review, World Electric Vehicle Journal 2025, 16, 594 (MDPI
 - No inference latency, memory or hardware is reported, despite the statement that all models give "sufficient real-time SOH estimation capabilities" (see C161).
 - Training cells have different discharge cutoffs than the test cell, which the paper does not discuss as an effect on the result.
 - Lead-acid is not covered; the work is lithium-ion only.
+
+### Source 14: Giuliano, Wu, Yawney, Gadsden (2025), "Transformer-Based Transfer Learning for Battery State-of-Health Estimation"
+
+Source: peer-reviewed article, Energies 2025, 18, 5439 (MDPI, open access, doi 10.3390/en18205439), McMaster University, Canada; 21 pages; NSERC funded. The PDF is `Transformer-Based_Transfer_Learning_for_Battery_St.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Source dataset | NASA PCoE, 34 18650 cells, Table 2 says LiCoO2, 2 Ah, charge 0.75 C; discharge cutoff 2 to 2.7 V; 4 to 43 C | pre-training on B0005, B0006, B0007, B0018 | 3.1, 4.2 |
+| Target dataset | Oxford, 8 Kokam SLPB533459H4 pouch cells, LiNiCoMnO2, 740 mAh, 1C charge, 40 C | fine-tuning on Cell 6; testing on the others | 3.1, 4.2 |
+| Inputs | battery voltage, current, temperature, relative time, cycle number, and the maximum capacity of the previous cycle "approximated using the Coulomb counting method"; window of 300 steps ("the average size of a full discharge cycle") | features scaled 0 to 1 except cycle number; points beyond two standard deviations dropped | 3.2 |
+| Labels | capacity after each cycle, smoothed with a Savitzky-Golay filter (window 111, 4th order); predictions smoothed again (3rd order; windows 999, 3001, 5001; 5001 best) | smoothing "increased model performance by a factor of 10" | 3.2, 3.3, 4.2 |
+| Model sizes | transformer 117,161 parameters (4 blocks, 8 heads); ANN 133,633; LSTM 138,671 | Table 3 | 3.3 |
+| NASA only, test B0018 (RMSE) | LSTM 0.01161 (R2 0.978); ANN 0.01932 (0.938); transformer 0.02517 (0.895) | trained on B0005 to B0007 | Table 4 |
+| Oxford only, test Cell 8 (RMSE) | ANN 0.01747 (R2 0.933); transformer 0.01918 (0.919); LSTM 0.01953 (0.916) | trained on Cells 1 to 7 | Table 5 |
+| NASA to B0029 (43 C), no fine-tuning (RMSE) | transformer 0.00792 (R2 0.941), 0.00974 without smoothing; LSTM 0.01156 (0.875); ANN 0.01261 (0.851) | | Table 6 |
+| NASA to Oxford, average over test cells (RMSE) | transformer 0.01461 (R2 0.932); ANN 0.01481 (0.929); LSTM 0.02931 (0.781); transformer without smoothing 0.01781 | | Table 7 |
+| Abstract claim | transformer RMSE 0.01461 beats the best Oxford-only model (ANN, 0.01747) and a literature transformer "RMSE of 0.90170" | 0.01461 against 0.01747 is 16.4% lower (derived); the text says 17% | Abstract, 4.2 |
+| Deployment statement | "poorly suited for direct, real-time deployment on resource-constrained hardware like an embedded BMS"; attention memory is quadratic in sequence length; LSTM or ANN "more pragmatic and power-efficient" on board; pruning and quantisation are future work | no inference test | 4.2, 6 |
+| Stated limits | laboratory data only; no sensor drift, packet loss or asynchronous sampling; sensitive to pre-training length (5 epochs best); transfer between NCA-type and NMC cells only | | 6 |
+
+**Approach and dependencies.** A data-driven SOH estimator that needs a measurement chain for voltage, current and temperature, a cycle counter, and the previous cycle's capacity from Coulomb counting. So it dependsOn the same acquisition and Ah accumulation functions as the capacity-ratio approach (see [[Accumulate Amp-Hours]]), plus a model and its weights. Transfer learning adds a training workflow: pre-train on a large source dataset, fine-tune on one target cell run to end of life, then test on others.
+
+**Where the software runs, per the paper.** Training and fine-tuning are offline. Inference is not placed, but the paper rules out an embedded BMS for this model and suggests a lightweight variant as future work. The Savitzky-Golay smoothing windows (999 to 5001 steps, roughly 3 to 17 cycles of 300 steps, derived) are applied to the whole predicted curve, so the reported numbers are for after-the-fact smoothing, not a causal on-board estimate (derived by the note author).
+
+**Engineering inference (not a source claim).** The split follows the vault rule: Coulomb counting, acquisition and cycle count embedded; pre-training and fine-tuning in the cloud; inference on a gateway or in the cloud. The paper's own two best-case results come from smoothed whole-life curves with a previous-cycle capacity feature. Next-cycle capacity is close to previous-cycle capacity, so a simple persistence baseline (predict the last measured capacity) is the comparison that is missing; the paper does not report one. For a fleet, fine-tuning needs a labeled full life of a cell of the same type, which exists only after a pack has aged or from a test lab.
+
+**Checks by the note author.**
+
+- Table 4 and Table 5 RMSE values match the square roots of their MSE values (for example 0.000633 gives 0.02516).
+- 0.01461 against 0.01747 is a 16.4% reduction, not 17%. Against the transformer's own Oxford-only result (0.01918) it is 23.8%.
+- Eq 1 defines SOH as Cmax over Crated, with Cmax "the nominal battery capacity" and Crated "the estimated current battery capacity"; read literally this gives values above 100% for an aged cell, so the labels are swapped.
+- Table 6 lists eight models but five R2 values.
+
+**Gaps in the evidence.**
+
+- Table 7 averages over seven Oxford cells including Cell 6, which was also the fine-tuning cell; Cell 7 is not explained. Table 5 tests only Cell 8. The headline comparison mixes these (see C165).
+- No inference time, memory use or hardware test.
+- Lithium-ion laboratory cells at fixed temperatures; no lead-acid and no partial-discharge forklift duty.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
