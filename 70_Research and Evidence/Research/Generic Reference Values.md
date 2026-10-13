@@ -302,4 +302,128 @@ The charging-area items match the structure of 29 CFR 1910.178(g) as read in the
 | C136 | Typical battery weight | "can weigh as much as 2,000 pounds" (a maximum) | East Penn 0656 and RICO: the average lift truck battery weighs more than 2,000 lb; the Fleetman selection chart lists 42 flooded batteries from 522 to 4,960 lb | open; the maximum versus average framing is contradicted by the chart rows |
 | C137 | Nickel-iron as a forklift chemistry | "generally lead acid or nickel iron" | none of the other documents reviewed mentions nickel-iron; the vault has no nickel-chemistry notes | open; unverified, and a gap if nickel chemistries are in use in any fleet |
 
+### Batch review of seven further supplied documents (2026-10-12)
+
+Seven documents were reviewed together: two safety data sheets, two brochures, two UK care guides and one US operator training deck. Four had no extractable text (the EnerSys brochure, the HELI brochure, The Forklift Company guide and the State Fund page above) and were read by OCR or from page images; OCR figures are marked where uncertain. None of the PDFs has a confirmed public URL; they are in the repo `Downloads` folder under the names given. The conflicts they raise are C138 to C141 at the end of this section and updates to earlier rows are listed under them.
+
+#### Crown Battery SDS, "Lead Acid Batteries: Deep Cycle & Industrial" (effective 2022-11-01)
+
+Manufacturer safety data sheet (T1), Crown Battery Manufacturing Co., Fremont, Ohio. File `SDS-Deep-Cycle-Battery.pdf`, 8 pages.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Composition by weight | lead and lead compounds 50 to 75%; sulfuric acid 5 to 15%; water 23 to 25%; separator material 1 to 2%; antimony under 0.1%; arsenic under 0.1% | whole battery, flooded industrial | Chemistry and Plate Construction |
+| Electrolyte properties | specific gravity 1.215 to 1.350; boiling point 203 to 240 F (about 95 to 116 C); pH about 1 to 2; vapor pressure 10 mm Hg | electrolyte only | Full-Charge Specific Gravity |
+| Hydrogen flammability | lower explosive limit 4.1%, upper 74.2% in air | gas released during charging | Charging Gas Emissions |
+| Transport | UN2794, "Batteries, wet, filled with acid", class 8, packing group not applicable, corrosive label | US DOT 49 CFR 173.159 | none yet |
+| Exposure limits (mg/m3) | lead 0.05 in five columns and 0.15 in the sixth; sulfuric acid electrolyte 1, 0.2, 1, 1, 0.2 and 0.05; antimony 0.5; arsenic 0.1 in five columns and 0.15 in the sixth | the column headings (OSHA PEL, ACGIH, NIOSH, Quebec, Ontario, EU) are misaligned in the extract, so the value for each regime is not assigned here | none yet |
+| Charging notes | charging space ventilated; general dilution ventilation acceptable; keep vent caps on; shut off chargers when not in use; emergency eyewash and showers where acid solutions above 1% are handled | flooded | Charging Gas Emissions |
+
+The sheet also lists "Explosive Chemical, Division 1.3" as a physical hazard without explanation; this is recorded as printed and not interpreted.
+
+#### UPOWER Batteries MSDS, "Lead Acid Battery" (07/2012)
+
+Manufacturer safety data sheet (T1), UPOWER Batteries SLU, Spain, document 30.112.0013.06, 7 pages. File `Msds_Lead.pdf`.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Composition by weight | lead, lead dioxide and lead sulfate 60 to 78%; antimony 1 to 6%; arsenic under 1%; electrolyte (sulfuric acid) 25 to 40%, stated as the acid share of the electrolyte | industrial and commercial storage batteries | Chemistry and Plate Construction |
+| Electrolyte boiling point | 103 to 119 C | electrolyte | none yet |
+| Hydrogen flammability | explosive in air at 4 to 74% by volume, lower limit 4% | charging gas | Charging Gas Emissions |
+| Exposure limits | lead 0.05 mg/m3 (OSHA) and 0.15 mg/m3 (ACGIH); sulfuric acid 1 mg/m3 for both; antimony 0.5 mg/m3; arsenic 0.01 mg/m3 for both | as printed | none yet |
+
+#### EnerSys "The General" flooded battery brochure (2 pages, undated)
+
+Manufacturer brochure (T1), image-only, read by OCR. File `Forklift-and-Equipment-Batteries-General-Brochure-V2.pdf`. The ISO 9001:2004 certification, "first in our industry" and "heat seal guaranteed against leakage for life" statements are vendor claims.
+
+| Type | Ah per positive plate | Standard coverless height over lifting ear | Plate count | Derived capacity range |
+|---|---|---|---|---|
+| 55GL | 55 | 14.87 in | 5 to 33 | 110 to 880 Ah |
+| 75GL | 75 | 18.94 in | 5 to 33 | 150 to 1,200 Ah |
+| 85G | 85 | 22.81 in | 5 to 33 | 170 to 1,360 Ah |
+| 100G | 100 | 25.56 in | 5 to 33 | 200 to 1,600 Ah |
+| 125G | 125 | 30.56 in | 5 to 33 | 250 to 2,000 Ah |
+| PowerPak 85G (12 V or 24 V with built-in charger) | 85 | 23.86 in | 5 to 11 | 170 to 425 Ah |
+| PowerPak 100G | 100 | 26.30 in | 5 to 11 | 200 to 500 Ah |
+
+The capacity range is derived with the plate rule seen in the East Penn and Fleetman documents (positive plates = (plates - 1) / 2). The PowerPak charger is described as SCR technology with dv/dt termination. The 85, 100 and 125 heights agree with the Fleetman chart tray heights (about 22.6 to 23.3, 25.6 to 26.3 and 30.5 to 31.1 in), allowing for the different measuring datum. Related metric notes: Capacity; Size and Mass.
+
+#### HELI H4 series 1.5 to 3.8 t lithium-ion forklift brochure (FL(G2)002EN, print date 2023-02-09)
+
+Manufacturer brochure (T1 for stated specifications; claims are vendor claims). Image-only, read by OCR; page 8's long capacity matrix was too garbled to record and is left out. File `H4-1.5-3.8t-Lithium-battery-forklift-FLH4002-EN.pdf`. Existing vault notes cover this truck line; only product-agnostic values are recorded here.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Cell chemistry | square iron phosphate (LFP) cells and modules, aluminum alloy plate frame | HELI H4 | Chemistry and Plate Construction |
+| Pack voltage and capacity | 80 V with 125, 150, 202 or 250 Ah on the H4 trucks | per the characteristics tables | Nominal Voltage Range; Capacity |
+| Pack weight | 163 to 240 kg; pairs recovered from the truck tables (weight with minus without battery): 80 V 125 Ah = 163 kg; 150 Ah = 165 to 180 kg; 202 Ah = 190 to 210 kg; 250 Ah = 240 kg | CPD15 to CPD38 | Size and Mass |
+| Derived specific weight | about 12 to 16 kg per nominal kWh (volts x Ah), against about 36 to 44 kg per kWh for flooded lead-acid derived from the Fleetman chart | nominal lithium kWh versus the chart's 1.94 V per cell kWh; the two are not on the same usable-energy basis | Size and Mass |
+| Fast charge | "can be filled in 2 hours" | HELI H4 | Charge Time |
+| Efficiency | charge and discharge efficiency up to 98% | vendor claim | Full-Cycle Efficiency |
+| Thermal runaway | temperature of thermal runaway over 600 C | vendor claim; overcharge and short-circuit tests are pictured, no data | none yet |
+| Cycle life | more than 3,000 cycles or 5 years, capacity retention above 75% | vendor claim | Cycle Life and Warranty |
+| Low temperature | heating function standard; truck ran 6 hours continuously alternating in a -20 C cold store plus 12 hours parked | vendor test | Operating Temperature Range |
+| Charger | three-phase four-wire, 380 V +/-15%, 10 kVA, input under 20 A, 32 A air switch, 100 A output example, working ambient -20 to +45 C, indoor use | HELI built-in lithium charger | Maximum Continuous Charge Current; Input Voltage and Phase |
+| Full charge time | required charging capacity / charging current + 0.2 h; example 80 V 250 Ah, alarm state, 100 A charger: 250 x 0.9 / 100 + 0.2 = 2.45 h | HELI formula | Charge Time |
+| Truck tests | rain test 15 minutes at IPx4; 800-hour reliability endurance test | vendor test | none yet |
+
+The brochure's pack sizes agree with the vault's Heli Lithium-Ion Battery note (80 V 150 Ah on the CPD18, 80 V 250 Ah on the CPD35). The vault's dealer-sourced 4-year warranty is a different quantity from the brochure's cycle and year life claim.
+
+#### Industrial Battery and Charger Services Ltd (UK), "Battery Care and Operating Instructions" (4 pages, undated)
+
+Service company handout (tier not set). File `battery-care-instructions.pdf`. Specific gravities are referred to 30 C.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Ready for service | put into service at once if specific gravities are above 1.250; charge if below | at 30 C | Full-Charge Specific Gravity |
+| Discharge limit | do not discharge beyond 80% of normal capacity; recharge a deeply discharged battery as soon as possible | flooded | Depth of Discharge Limit |
+| Charging temperature | avoid gassing at high currents and high acid temperatures; maximum recommended 43 C | flooded | Charge Temperature Limits |
+| Water | distilled, deionised or approved water; keep the visible components just covered; "do this before charge so that the water and acid are thoroughly mixed whilst cells are gassing" | flooded | Watering Interval |
+| Idle batteries | store on open circuit and charge monthly (preparation section); "every week check the acid levels and give a charge" and charge monthly for irregular use (out-of-service section) | flooded | none yet |
+| Connections | smear bolted terminal and intercell connections with petroleum jelly; remove corrosion with water and bicarbonate or dilute ammonia | flooded | none yet |
+
+#### The Forklift Company (UK), "Forklift Battery Care and Maintenance" (12 pages, undated)
+
+Service company guide (tier not set), image-only, read by OCR. File `Battery-Care-Maintenance.pdf`. It carries a "potassium hydroxide" electrolyte mention in its safety text without naming an alkaline chemistry.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Cycle definition | one full discharge and one full recharge (80% depth of discharge); about 5 hours of continuous use to reach 80%, roughly one 8-hour shift; a 500 Ah battery has 400 Ah usable | flooded | Cycle Life and Warranty; Depth of Discharge Limit |
+| Opportunity charging | "Opportune charging should be avoided", for example at break and lunch | flooded | Opportunity Charging Window |
+| Operating temperature | continuous use above 38 degrees reduces life (the unit is not printed, read as C) | flooded | Operating Temperature Range |
+| Charging practice | recharge as soon as possible; do not interrupt the charge; allow a full charge before disconnecting; discharge to 80% before charging, as shown by the truck's battery display indicator | flooded | Depth of Discharge Limit |
+| Water | distilled, deionised or approved water; top up only when fully charged and not before charge; manual fill covers the plates and separators; never top up with acid | flooded | Watering Interval |
+| Automatic filling | weekly after charge or when the level indicator shows low; charger-controlled systems pulse water near end of charge and the main water supply is on 2 days a week by timer; water cart uses a 12 V pump with a pressure sensor; gravity bottle sits above battery height | flooded, battery fill system | Electrolyte Level Sensing |
+| Charger checks | monthly check of output cables, plug and cabinet | flooded | none yet |
+
+#### Carolina Industrial Products, "Operator Battery Training" (38 slides, undated)
+
+Distributor training deck (tier not set). File `Operator-Training-PPT.pdf`. Several passages repeat East Penn's manual wording (37% acid, "eat holes in many types of fabrics", the 1/4 inch rule), so it is not independent of East Penn.
+
+| Quantity | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Battery weight | average battery weight 2,000 lb (1 ton) | flooded | Size and Mass |
+| Cycle definition | one cycle is discharge, charge and cool within a 24-hour period | flooded | Cycle Life and Warranty |
+| Discharge limit | limit depth of discharge to 80% before recharging; the truck's discharge indicator is meant to prevent over-discharge | flooded | Depth of Discharge Limit |
+| Charger matching | charger should match the battery's voltage and ampere-hour capacity within 10% plus or minus | flooded | Charger Link |
+| Equalize | about 3 extra hours at a low rate, weekly | flooded | Equalize Scheduling |
+| Watering | add water only after a full charge; level never below the separator protector during discharge; 1/4 inch below the bottom of the vent well when fully charged; check weekly | flooded | Watering Interval; Electrolyte Level Sensing |
+| Acid content | about 37% | electrolyte | Full-Charge Specific Gravity |
+
+| # | Topic | Position | Other source | Status |
+|---|---|---|---|---|
+| C138 | Watering before or after charge | Industrial Battery and Charger Services Ltd (UK): top up before charge so water mixes while gassing | The Forklift Company (UK), Carolina, IBA, RICO and Fleetman: after full charge, never before; East Penn 0656 states both | open; two UK service companies disagree |
+| C139 | Idle battery charging interval | Industrial Battery and Charger Services Ltd: monthly charge in one section, weekly acid check and charge in another | East Penn 0656: freshening charge when specific gravity falls below 1.240 or every 6 weeks; IBA: monthly equalize or float at 2.27 V per cell; Fleetman: no more than a month without charge | open; the same document disagrees with itself |
+| C140 | What counts as a cycle | Carolina: discharge, charge and cool in 24 hours; The Forklift Company: full discharge to 80% and full recharge | East Penn: any discharge followed by a recharge; Fleetman: a full recharge after any depth of discharge | open; cycle-life figures (1,500 to 1,800, about 1,500) are not on one basis |
+| C141 | Composition and electrolyte properties | Crown SDS: antimony under 0.1%, arsenic under 0.1%, lead 50 to 75%, acid 5 to 15% of the battery, boiling 203 to 240 F | UPOWER MSDS: antimony 1 to 6%, arsenic under 1%, lead 60 to 78%, electrolyte acid 25 to 40% (share of electrolyte, a different basis), boiling 103 to 119 C; East Penn 0656: antimony alloyed in grids (amount not stated); RICO and Carolina: about 40% and 37% acid | open; the antimony difference may reflect alloy choice, not an error; arsenic limits were not checked against the regulation |
+
+Updates to earlier rows from this batch (the original rows above are unchanged):
+- **C118 equalize interval:** Carolina says weekly (about 3 extra hours at a low rate).
+- **C119 watering timing:** see C138; Carolina and The Forklift Company side with after-charge watering.
+- **C128 recharge trigger:** The Forklift Company says to discharge to 80% before charging, which matches Fleetman and not IBA's "charge after every discharge".
+- **C129 opportunity charging:** The Forklift Company says to avoid it.
+- **C130 temperature limits:** Industrial Battery and Charger Services Ltd gives 43 C as the maximum recommended charging temperature; The Forklift Company gives continuous operation above 38 degrees (unit unprinted) as life-shortening.
+- **C131 rating reference:** Industrial Battery and Charger Services Ltd also refers gravities to 30 C.
+- **C136 battery weight:** Carolina says the average is 2,000 lb (1 ton).
+
 ## Former ids

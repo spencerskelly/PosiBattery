@@ -233,8 +233,13 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C134 - Equalize rate and timing.** RICO: end of each workweek at a very low rate for about 3 hours; East Penn 0656: at the finish rate, minimum 3 A per 100 Ah; IBA: up to 5 A per 100 Ah; Fleetman: every 5 to 10 cycles. Relates to C118.
 - **C135 - Open-circuit cell voltage.** RICO's automotive glossary says 2.11 V per cell fully charged; East Penn 0656 says about 2 V for flooded and 2.15 to 2.18 V for gel at 100%.
 
-- **C136 - Typical lift truck battery weight.** State Fund's 2014 handout says batteries can weigh as much as 2,000 lb; East Penn 0656 and RICO say the average exceeds 2,000 lb; the Fleetman chart lists flooded batteries from 522 to 4,960 lb. See [[Generic Reference Values]].
+- **C136 - Typical lift truck battery weight.** State Fund's 2014 handout says batteries can weigh as much as 2,000 lb; East Penn 0656 and RICO say the average exceeds 2,000 lb; the Fleetman chart lists flooded batteries from 522 to 4,960 lb. See [[Generic Reference Values]]. Carolina's training deck says the average is 2,000 lb (1 ton).
 - **C137 - Nickel-iron forklift batteries.** State Fund says forklift batteries are generally lead acid or nickel iron. No other reviewed document mentions nickel-iron and the vault has no nickel-chemistry notes. Unverified; needs a source before any chemistry note is created.
+
+- **C138 - Watering before or after charge, UK suppliers.** Industrial Battery and Charger Services Ltd says top up before charge so water and acid mix while gassing; The Forklift Company says only when fully charged and not before charge. Relates to C119. See [[Generic Reference Values]].
+- **C139 - Idle battery charge interval.** Industrial Battery and Charger Services Ltd gives a monthly charge in one section and a weekly check and charge in another; East Penn 0656 gives 6 weeks or specific gravity below 1.240; IBA gives monthly equalize or 2.27 V per cell float; Fleetman gives one month.
+- **C140 - Cycle definition.** Carolina counts discharge, charge and cool in 24 hours; The Forklift Company counts a full discharge to 80% and a full recharge; East Penn counts any discharge and recharge; Fleetman counts a full recharge after any depth. Cycle-life numbers are not comparable until the definition is.
+- **C141 - Battery composition and electrolyte properties.** Crown's SDS gives antimony and arsenic under 0.1% and lead 50 to 75%; UPOWER's gives antimony 1 to 6%, arsenic under 1% and lead 60 to 78%. Electrolyte boiling ranges differ (203 to 240 F versus 103 to 119 C). Acid shares are on different bases (battery weight versus electrolyte).
 
 ## Aliases
 
