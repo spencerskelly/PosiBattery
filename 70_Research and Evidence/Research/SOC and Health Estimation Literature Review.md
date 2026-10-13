@@ -37,7 +37,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | reviewed below |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | reviewed below |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a small feedforward neural network ("Corny") | reviewed below, low weight |
-| 10 | `author_version` | Anthony et al., IMECE 2025: SOC from strain sensing and machine learning | pending |
+| 10 | `author_version` | Anthony et al., IMECE 2025: SOC from cell strain sensing and a small neural network | reviewed below |
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | pending |
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | pending |
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al.: SOH machine learning review | pending |
@@ -69,6 +69,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 7 GM patent US 8,922,217 | SOC | robust observer (minimizes an upper bound on the estimation error covariance) estimating open-circuit voltage while the battery is loaded, on a two-RC model with bounded, time-varying parameters; SOC then read from an open-circuit-voltage table that depends on temperature | terminal voltage, terminal current and temperature at every time step; nominal model matrices and parameter-variation bounds; tolerance levels; the voltage-to-SOC table | the vehicle's control module (processing unit); output goes to a display or an electronic control unit | no model-based candidate; closest is the hybrid candidate |
 | 8 Lakhdari 2026 | SOC, with resistance as a health indicator | joint extended Kalman filter on a fractional-order equivalent circuit; the filter state holds SOC, a short voltage history (memory length 4), ohmic resistance and leakage resistance | current and terminal voltage at 1 Hz; open-circuit-voltage table by SOC (piecewise linear); nominal capacity; offline-identified polarization parameters (R1, Q1, alpha) and memory length; noise covariances | identification offline on a bench; the filter is described as real-time but run in simulation or post-processing; embedded hardware implementation is listed as future work | none; extends the voltage-and-current hybrid and, through the resistance state, the [[Resistance-Trend State of Health Estimator]] |
 | 9 Ismail 2024 | SOC | small feedforward neural network ("Corny"): 5 inputs, two 55-unit layers, 1 output | voltage, current, temperature, and 500-second averages of voltage and current (5 channels); training data from a public data set | training offline; no deployment statement for this network | none; same data-driven candidate as Wang and Margal |
+| 10 Anthony 2025 | SOC (discharge only) | small multilayer perceptron on windowed features of cell hoop strain (maximum, minimum, standard deviation, slope, mean) | a strain gauge bonded to the cell casing (plus a thermocouple on the cell); strain sampled at 1 Hz; a capacity-derived SOC label for training | training offline; no deployment statement | none; needs a strain-measurement function and element that the vault does not have |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -353,6 +354,42 @@ Source: International Journal of Recent Technology and Engineering (IJRTE), vol.
 - The text calls SOC "soil organic carbon" once and "HOC" in the results and conclusion; Table 1 is titled as a convolutional model although the text says there is no convolution; the text says "ReLU" where Table 1 shows leaky and clipped ReLU; the data set is described with different inputs in different places (see C153).
 - The abstract and introduction open with lead-acid and "Li-ion" interchangeably; the data and results are lithium-ion only.
 - No comparison against another estimator, no separate test of generalization, no run-time figure.
+
+### Source 10: Anthony, Yount, Downey, Sado (2025), "Inferring Battery State of Charge using Strain Sensing and Machine Learning"
+
+Source: IMECE 2025 (ASME), doi:10.1115/imece2025-168119; this PDF is the uncopyrighted author version dated 2026-02-28; University of South Carolina; funded by the Office of Naval Research; approved for public release (Distribution A); 7 pages. Conference paper. The PDF is `author_version.pdf` in the repo `Downloads` folder (the file name does not identify the paper). The data set is cited as a public GitHub repository of the ARTS Laboratory (cycling with strain monitoring for a Samsung 30Q cell). Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Cell and sensor | Samsung 30Q 18650 NMC cell; strain gauge measuring hoop (circumferential) strain at the middle of the cell, thermocouple fastened beside it | single cell | Abstract, 2.1 |
+| Cycling | 1C (3 A) charge and discharge at a 20 C constant chamber temperature, 100% depth of discharge, about 650 cycles; charge to 4.2 V then constant voltage down to 0.15 A; discharge at constant 3 A to 2.5 V with no constant-voltage stage | NHR 9200 battery test system | 2.1 |
+| Signals logged | voltage, current, temperature, strain | 1 Hz | 2.1 |
+| Why 1C only | above 2C lithium plating causes excessive strain | reported from ref 7 | 2.1 |
+| SOC label | capacity determined from the data to give "an accurate baseline estimate of SOC" for training | derived from the test, not an independent SOC | 2.1 |
+| Strain mechanism | reversible expansion from graphite intercalation plus non-reversible expansion from SEI growth and other factors | | 1 |
+| Model | multilayer perceptron, three hidden layers of 64, 32 and 32 nodes, ReLU, Adam with a constant learning rate of 0.001, L2 regularization 0.0001, mean squared error loss, at most 1,000 epochs with early stopping | text says "a single input as strain", windowed features are five numbers | 2.2 |
+| Parameter count | about 3,300 weights and biases for one input, about 3,550 for five inputs | derived by the note author from the layer sizes | 2.2 |
+| Features | window of strain data reduced to maximum, minimum, standard deviation, slope and mean; the maximum is the most important | window length not stated | 2.2, 3 |
+| Split | 80% training and 20% testing, apparently by whole cycles | | 2.2, 3 |
+| Result by data volume | 10 cycles (8 train, 2 test): RMSE 0.1291; 100 cycles: average 0.1008; all about 631 cycles: 0.0886 | RMSE units not stated; if SOC fraction, 0.0886 is 8.9% of full scale | 3 |
+| Best cycle | cycle 578: MSE 0.002254, RMSE 0.047477, MAE 0.033308; the text also says some tests reached "as low as 0.0478" | the square root of 0.002254 is 0.04748, consistent | 3, Table 1 |
+| Error pattern | error spikes for cycles 50 to 350 and is better for later cycles; cause not determined | | 3 |
+| Stated benefit | adds a mechanical measurement to voltage and current; "non-invasive and simplified"; could be combined with traditional methods in a BMS | no combined test | Abstract, 4 |
+| Stated limits | one cell only; more cells needed to show the method is not specific to this cell | | 4 |
+
+**Approach and dependencies.** A new measurement quantity: casing strain. The vault has measurement functions for voltage, current, temperature, weight and specific gravity but none for strain of a cell. The estimator also needs a window buffer of strain samples and a trained network. The training label depends on measured capacity per cycle, so a capacity measurement at commissioning or from cycle data is a dependency of the training, not of the live estimate.
+
+**Where the software runs, per the paper.** Not stated. Training time is "less than 40 iterations" on an unspecified computer.
+
+**Engineering inference (not a source claim).** Feature extraction over a window and a 3,000-parameter network would be embedded-sized. The strain gauge and its signal conditioning would be new hardware on every instrumented cell; for a pack of many cells, the cost and wiring are a deployment question the paper does not address.
+
+**Gaps in the evidence.**
+
+- One cell, one temperature (20 C), one rate (1C constant-current discharge), discharge only; no dynamic load, no charge-direction result, no temperature variation. Forklift duty is dynamic and mixed.
+- The error is reported against a capacity-derived SOC and the paper does not say whether the held-out cycles come from the same aging period as the training cycles; the unexplained error spike in cycles 50 to 350 is not explained.
+- "Non-invasive" is claimed, but the method needs a gauge bonded to the cell casing.
+- Not applicable to lead-acid as written: the mechanism is graphite intercalation in a cylindrical lithium-ion cell. No lead-acid strain result appears in the paper.
+- The vault's existing strain-gauge mentions (see [[Detect Battery Weight]]) concern load measurement, not cell deformation.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 

@@ -262,6 +262,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C153 - Ismail 2024 internal inconsistencies.** Test temperatures are listed as 0, 10, 25, 20 and 40 C in the method and shown as -10, 0, 10 and 25 C in Figures 18 and 19; the data set has "voltage, current, temperature and capacity" in one place and a five-channel input including 500 s averages in another; the Table 1 caption says convolutional while the text says no convolution; the network is "ReLU" in the text and leaky and clipped ReLU in Table 1.
 - **C154 - Extended Kalman filter SOC error across sources.** Ismail 2024 reports an EKF error of "about 5% to 10%" (reported from ref 8, not checked); Margal 2025 reports EKF RMSE 5.34% in the abstract and 5.349e-1 (units unstated) in Table 5 (C148); Lakhdari 2026 reports about 3.5% for a joint EKF (C151); Pop 2005 calls the EKF the best long-term solution without a figure. The data sets, references and test conditions differ and are not reconciled.
 
+- **C155 - Anthony 2025 internal inconsistencies.** The cell is cycled "approximately 650 cycles" but the data set is "631 files" and "roughly 631 cycles"; the model has "a single input as strain" while the method uses five windowed strain features; the best cycle (578) has RMSE 0.0475 while the text says tests reached "as low as 0.0478"; RMSE units are not stated. See [[SOC and Health Estimation Literature Review]].
+
 ## Aliases
 
 - Landscape conflicts register
