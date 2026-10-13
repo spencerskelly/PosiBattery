@@ -42,7 +42,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | reviewed below, single 11 Ah cell, parameter labels and one table value inconsistent |
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al., WEVJ 2025: SOH machine learning review with a four-model test on NASA cells | reviewed below, secondary source |
 | 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., Energies 2025: Transformer transfer learning for SOH (NASA to Oxford cells) | reviewed below, test design weaknesses |
-| 15 | `main` | Ahmed et al., Huddersfield: lifecycle-aware SOH evaluation, LightGBM, edge-deployable | pending |
+| 15 | `main` | Ahmed, Aagela, Geth, Iqbal (University of Huddersfield): lifecycle-aware SOH evaluation, LightGBM baseline, 10k-parameter CNN preview | reviewed below, preprint-style, no on-target test |
 | 16 | `1_batteries` | Kafadarova et al., Batteries: surface temperature of cylindrical cells by thermal camera | pending, likely a sensing input rather than SOC or SOH |
 
 ### How the vault models an estimation approach
@@ -82,6 +82,9 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 14 Giuliano 2025 | SOH | Transformer (117,161 parameters) on a 300-step window of voltage, current, temperature, relative time, cycle number and the previous cycle's capacity; predicts the next window's capacity; output smoothed by a Savitzky-Golay filter | voltage, current and temperature acquisition; cycle counter; previous-cycle capacity from Coulomb counting (Accumulate Amp-Hours); capacity labels for training | pre-training and fine-tuning offline; the paper says the model is "poorly suited for direct, real-time deployment" on an embedded BMS and that LSTM or ANN are more pragmatic there; no inference test | none; new data-driven candidate if used; inference would sit off the pack |
 | 14 Giuliano 2025 | SOH (adaptation to a new cell type) | transfer learning: train on NASA cells for 5 epochs, fine-tune one epoch on one full-life cell of the target chemistry | a complete labeled life of at least one target cell; the pre-trained weights | cloud-side training workflow; weights could then be sent to devices | [[Battery State of Health Analytics Service]] (cloud side); needs a model and data store that the vault does not have |
 | 14 Giuliano 2025 | capacity of previous cycle (feature) | Coulomb counting, eta times integral of current | current and time | not stated; counter arithmetic, embedded-sized | [[Coulomb Counting State of Charge Estimator Firmware]] and [[Amp-Hour Accumulator Firmware]] |
+| 15 Ahmed | SOH | LightGBM regression on 61 features per discharge cycle (statistics, dwell times, curve-shape, dV/dt) from voltage, current and temperature; leave-one-battery-out testing | a complete discharge cycle of voltage, current and temperature held in memory, a cycle segmenter, a first-cycle capacity reference for the label | the paper wants SOH "on or near the asset" but argues its own model is "structurally non-deployable" on a Cortex-M class target; no port attempted | none; new data-driven candidate; needs a cycle buffer and feature extraction |
+| 15 Ahmed | SOH | 1D CNN with depthwise-separable convolutions on a 3 x 200 resampled discharge cycle; 10,169 parameters, about 40 kB float32 or 10 kB INT8 | same cycle buffer, linear resampling to 200 points and per-channel normalisation | claimed quantisable to microcontroller scale (TFLM, CMSIS-NN); latency and energy not measured | none; the only source here sized for a microcontroller, claim untested |
+| 15 Ahmed | SOH band (maintenance action) | map the SOH estimate to Good (90% or more), Fair (80 to 90), Poor (70 to 80), Critical (below 70) | the SOH estimate | not stated; a threshold table | [[Battery Replacement Forecasting Service]] and [[Battery State of Health Analytics Service]]; thresholds are configurable, not standard |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -545,6 +548,47 @@ Source: peer-reviewed article, Energies 2025, 18, 5439 (MDPI, open access, doi 1
 - Table 7 averages over seven Oxford cells including Cell 6, which was also the fine-tuning cell; Cell 7 is not explained. Table 5 tests only Cell 8. The headline comparison mixes these (see C165).
 - No inference time, memory use or hardware test.
 - Lithium-ion laboratory cells at fixed temperatures; no lead-acid and no partial-discharge forklift duty.
+
+### Source 15: Ahmed, Aagela, Geth, Iqbal, "A Lifecycle-Aware Evaluation Framework for Battery State-of-Health Estimation"
+
+Source: manuscript-style paper (Springer-style layout) from the University of Huddersfield, UK; 12 pages; no venue, date or review status in the file (the PDF is `main.pdf` in the repo `Downloads` folder; the file name does not identify the paper). Treated as an unreviewed preprint. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Data | NASA PCoE, 34 cells, nine protocols, 4 to 44 C, 1 to 4 A, cutoffs 2.0 to 2.7 V; 20 cells kept after quality filters (14 dropped for artefacts such as apparent SOH up to 27.5 times initial) | filters: capacity below 0.1 Ah dropped, SOH above 1.15 dropped, fewer than 20 valid cycles excluded | 3.1, 3.2, Table 2 |
+| SOH definition | capacity at cycle n over the first recorded capacity of the same cell | not the nominal 2 Ah | 3.1 |
+| Tier 1 test | leave one cell out over B0005, B0006, B0007, B0018; 636 test cycles | | 3.3 |
+| Tier 2 test | leave one cell out over all 20 cells, so unseen protocols | | 3.3 |
+| LightGBM result, Tier 1 | MAE 0.031 +/- 0.019, R2 0.862 +/- 0.102 (3.1 points of SOH) | 61 features, deepest configuration | 5.2 |
+| LightGBM result, Tier 2 | MAE 0.049 +/- 0.043; R2 per cell "frequently negative" | bimodal; out-of-envelope cells fail | 5.4 |
+| Feature ablation | 31 features: MAE 0.0333, R2 0.838; 61: 0.031, 0.862; 134: 0.0335, 0.838 | the full 3 x 3 grid is not tabulated in the text | 5.1 |
+| Band recall, Tier 1 | Good 91.5%, Fair 81.1%, Poor 66.7%, Critical 7.1% (5 of 70); overall 72.0% | pooled predictions | 5.3, Table 3 |
+| Band recall, Tier 2 | Good 83.8%, Fair 80.6%, Poor 65.1%, Critical 5.2%; overall 69.0% | n = 628, 283, 361, 174 | Table 3 |
+| Worst Tier 1 cell | B0006, terminal SOH 0.57; predictions flatten near 0.74 in late life | the model never saw degradation that deep | 5.2 |
+| Hardware statement | the trained LightGBM artefact is "a few kilobytes", but the inference path (hundreds of tree traversals, heap and OS assumed, 61-feature scratch memory) does not fit a Cortex-M target (256 kB SRAM or less); "structurally non-deployable" | argued, "not by an attempted port" | 5.5, 7 |
+| CNN preview | 10,169 parameters; 3 x 200 input; Tier 1 MAE 0.028 +/- 0.010, R2 0.826 +/- 0.160, band accuracy 78.7%; Tier 2 MAE 0.040 +/- 0.033, R2 -2.13 +/- 5.22, band accuracy 77.0%; worst Tier 2 cell MAE 0.164, R2 -19.0 | evaluation of all folds took 314 s on a laptop CPU (training, not inference) | 6, Table 4 |
+| Design premise | cloud SOH is "unattractive: connectivity is intermittent, latency unbounded, and streaming raw cycle data conflicts with the installations' own energy budgets"; target microcontrollers with hundreds of kilobytes | stated, not tested | 1 |
+| Roadmap | on-target latency and energy, INT8 quantisation, protocol conditioning, severity-aware loss, thermal and RUL extension | future work | 7 |
+
+**Approach and dependencies.** Both models work on one completed discharge cycle of voltage, current and temperature, so they depend on acquisition of those three signals, a cycle segmenter and a buffer large enough for a full discharge (the CNN needs the cycle resampled to 200 points). The label needs a first-cycle capacity reference per cell (see [[Accumulate Amp-Hours]]). The paper's key point for dependencies is protocol: a model trained without temperature, load and cutoff context fails on cells run under other protocols, so the estimator would also depend on a record of the operating conditions (the vault's [[Log Battery Events and Usage]]).
+
+**Where the software runs, per the paper.** The paper's premise is on or near the asset. Its own measured work is offline on a laptop. The CNN is sized for a microcontroller but not put on one.
+
+**Engineering inference (not a source claim).** This is the clearest statement in the set of an embedded-first allocation, and it comes from a design argument. The part that is certainly embedded is acquisition, cycle segmentation and feature or resample steps; the model could be embedded if the CNN claim holds. The band mapping and any replacement forecast are cheap and could run in either place. For a forklift, the full-discharge requirement again applies (see Source 13). The result that matters most for the vault is the Critical-band blind spot: an estimator with good average error can still miss the region that triggers replacement, so any Requirement for Estimate State of Health should set a threshold-crossing target, not only an average error.
+
+**Checks by the note author.**
+
+- Table 3 pooled Tier 1 recalls weighted by band counts give 455 of 636 correct, or 71.5%; the paper states 72.0%. Tier 2 recomputes to 69.0%.
+- The inverted-U feature curve rests on a difference of 0.0002 in MAE between 31 and 134 features (0.0333 against 0.0335), against a fold standard deviation of 0.019.
+- The CNN's weights are 10,169 x 4 bytes = about 40.7 kB and 10 kB at one byte each, matching the stated sizes.
+- Table 4 shows CNN Tier 1 R2 of 0.826 against LightGBM 0.862 (lower), and Tier 2 R2 -2.13 against a LightGBM entry given only as "wide, often < 0".
+
+**Gaps in the evidence.**
+
+- No on-target timing, memory or energy for either model.
+- NASA lithium-ion 18650 cells only; one manufacturer; no lead-acid.
+- Early stopping is monitored on the held-out cell, disclosed by the authors as mild optimism.
+- The feature matrix and notebook are available only from the authors on request.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
