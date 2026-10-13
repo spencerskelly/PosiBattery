@@ -2468,3 +2468,24 @@ records:
         disposition: intentionally_absent
         exception: EXC-RESEARCH-ONLY
         note: "Imported market-research note awaiting selection of specific products for modeling; no model relationship is asserted until individual products are adopted and evidenced."
+
+  # Added 2026-10-12: research register, kept unlinked on purpose.
+  "70_Research and Evidence/Research/Demand Evidence Source Register.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Source register for demand-side evidence; no model relationship is asserted until individual items are adopted by Customer Need notes."
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Source register for demand-side evidence; no model relationship is asserted until individual items are adopted by Customer Need notes."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Source register for demand-side evidence; no model relationship is asserted until individual items are adopted by Customer Need notes."
+      evidence:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Source register for demand-side evidence; no model relationship is asserted until individual items are adopted by Customer Need notes."
