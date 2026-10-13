@@ -2046,26 +2046,30 @@ records:
   "30_Product Capabilities/Product Designs/State of Charge Estimation Design.md":
     classification: active_engineering
 
-  "30_Product Capabilities/Product Designs/Voltage-Based State of Charge Estimation.md":
-    classification: engineering_support
-    gaps:
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reusable SOC algorithm candidate; no product-specific voltage-only SOC claim is made."
+  # Disabled 2026-10-12: these three SOC algorithm Design notes no longer exist in the vault
+  # (retired in commits aa369a95, 7c00bd27 and df4b9a55, replaced by the candidate firmware Object
+  # State of Charge Estimation Firmware). The registry reported 'unknown note path' for each.
+  # Original entries kept below, commented out, so the history stays visible.
+  # "30_Product Capabilities/Product Designs/Voltage-Based State of Charge Estimation.md":
+  #   classification: engineering_support
+  #   gaps:
+  #     evidence:
+  #       disposition: not_applicable
+  #       exception: EXC-NOT-APPLICABLE
+  #       note: "Reusable SOC algorithm candidate; no product-specific voltage-only SOC claim is made."
 
-  "30_Product Capabilities/Product Designs/Coulomb Counting State of Charge Estimation.md":
-    classification: engineering_support
-    gaps:
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reusable SOC algorithm candidate; no product-specific coulomb-counting claim is made."
+  # "30_Product Capabilities/Product Designs/Coulomb Counting State of Charge Estimation.md":
+  #   classification: engineering_support
+  #   gaps:
+  #     evidence:
+  #       disposition: not_applicable
+  #       exception: EXC-NOT-APPLICABLE
+  #       note: "Reusable SOC algorithm candidate; no product-specific coulomb-counting claim is made."
 
-  "30_Product Capabilities/Product Designs/Hybrid State of Charge Estimation.md":
-    classification: engineering_support
-    gaps:
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reusable SOC algorithm candidate; no product-specific hybrid/model-based SOC claim is made."
+  # "30_Product Capabilities/Product Designs/Hybrid State of Charge Estimation.md":
+  #   classification: engineering_support
+  #   gaps:
+  #     evidence:
+  #       disposition: not_applicable
+  #       exception: EXC-NOT-APPLICABLE
+  #       note: "Reusable SOC algorithm candidate; no product-specific hybrid/model-based SOC claim is made."
