@@ -18,6 +18,7 @@ performedBy:
   - "[[Remote Vehicle Diagnostic Service]]"
 realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
+  - "[[Review Checklist Failures and Dispatch Service]]"
 realizedBy:
   - "[[Remote Vehicle Diagnostics Design]]"
 ---

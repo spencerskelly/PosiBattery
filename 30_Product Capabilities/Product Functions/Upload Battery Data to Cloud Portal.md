@@ -42,6 +42,8 @@ realizes:
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Review Battery Care and Warranty Compliance]]"
+  - "[[Review Fleet Battery Health and Plan Replacements]]"
+  - "[[Plan Battery Replacement and Budget Ahead]]"
 realizedBy:
   - "[[Cloud Battery Data Upload Design]]"
 ---

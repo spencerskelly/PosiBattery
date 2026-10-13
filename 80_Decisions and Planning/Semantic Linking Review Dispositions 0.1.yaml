@@ -370,10 +370,6 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Market/catalog reference is retained without downstream engineering adoption."
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
   "10_Products/Forklifts/Class I Electric Rider Trucks/Cat EP14-20 Electric Counterbalance Forklifts.md":
     classification: reference_content
     gaps:

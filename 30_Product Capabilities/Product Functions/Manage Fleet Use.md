@@ -19,6 +19,8 @@ supertypeOf:
   - "[[Indicate Charger Status Locally]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
+describedBy:
+  - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---
 
 # Manage Fleet Use

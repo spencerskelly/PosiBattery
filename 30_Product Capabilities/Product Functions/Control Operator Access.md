@@ -34,6 +34,7 @@ realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
+  - "[[Manage Fleet Portal Users and Alert Thresholds]]"
 realizedBy:
   - "[[Operator Access Authorization Design]]"
 ---

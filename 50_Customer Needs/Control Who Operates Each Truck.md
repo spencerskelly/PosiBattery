@@ -16,10 +16,14 @@ participants:
   - "[[Fleet Operations Manager]]"
   - "[[Site Safety Manager]]"
   - "[[Forklift Operator]]"
+  - "[[Fleet Software Administrator]]"
 needOf:
   - "[[Fleet Operations Manager]]"
   - "[[Site Safety Manager]]"
   - "[[Forklift Operator]]"
+  - "[[Fleet Software Administrator]]"
+arisesIn:
+  - "[[Manage Fleet Portal Users and Alert Thresholds]]"
 ---
 
 # Control Who Operates Each Truck

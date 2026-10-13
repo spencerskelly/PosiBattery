@@ -19,6 +19,8 @@ describedBy:
 supportedBy:
   - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
   - "[[Document - Giuliano et al. Transformer-Based Transfer Learning for Battery State-of-Health Estimation (2025)]]"
+realizes:
+  - "[[Act on Fleet Data Without Information Overload]]"
 ---
 
 # Report State of Health Threshold Crossings

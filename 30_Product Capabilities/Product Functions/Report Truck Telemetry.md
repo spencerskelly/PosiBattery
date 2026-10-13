@@ -39,6 +39,8 @@ realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
+  - "[[Review Fleet Utilization and Idle Capacity]]"
+  - "[[Right-Size the Fleet from Usage Data]]"
 realizedBy:
   - "[[Truck Telemetry Reporting Design]]"
 ---

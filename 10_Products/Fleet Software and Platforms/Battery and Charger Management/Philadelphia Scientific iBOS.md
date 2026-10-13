@@ -15,6 +15,8 @@ subtypeOf:
   - "[[Battery and Charger Management Software]]"
 madeBy:
   - "[[Philadelphia Scientific]]"
+describedBy:
+  - "[[Document - MMH 237K in Annual Battery Savings in a Grocery DC (2026-03-06)]]"
 ---
 
 # Philadelphia Scientific iBOS

@@ -17,6 +17,9 @@ madeBy:
 describedBy:
   - "[[Document - Flux Power LiFT Pack L-Series L48 Brochure]]"
   - "[[Document - Delta Systems Flux Power SOC Display]]"
+  - "[[Document - Charged EVs Flux Power SkyEMS 3.0 (2026-07-09)]]"
+  - "[[Document - Flux Power How Smart Battery Data Helps Manage Forklift Fleets (retrieved 2026-10-13)]]"
+  - "[[Document - Flux Power SkyEMS Fleet View Page (retrieved 2026-10-13)]]"
 ---
 
 # Flux Power LiFT Pack

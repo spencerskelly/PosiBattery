@@ -22,6 +22,11 @@ hasNeed:
   - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Stretch Truck Run Time per Charge]]"
+  - "[[Right-Size the Fleet from Usage Data]]"
+  - "[[Plan Battery Replacement and Budget Ahead]]"
+  - "[[Act on Fleet Data Without Information Overload]]"
+describedBy:
+  - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---
 
 # Fleet Operations Manager

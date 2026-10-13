@@ -26,6 +26,9 @@ supertypeOf:
 describedBy:
   - "[[SOC and SOH Decision Criteria]]"
   - "[[SOC and SOH Knowledge Base]]"
+realizes:
+  - "[[Review Fleet Battery Health and Plan Replacements]]"
+  - "[[Plan Battery Replacement and Budget Ahead]]"
 ---
 
 # Estimate State of Health

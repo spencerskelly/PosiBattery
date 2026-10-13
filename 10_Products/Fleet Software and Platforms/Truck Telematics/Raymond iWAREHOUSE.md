@@ -30,6 +30,8 @@ integratesWith:
   - "[[Raymond iBattery]]"
 madeBy:
   - "[[Raymond]]"
+describedBy:
+  - "[[Document - Raymond iWAREHOUSE Reporting and Analytics (retrieved 2026-10-13)]]"
 ---
 
 # Raymond iWAREHOUSE

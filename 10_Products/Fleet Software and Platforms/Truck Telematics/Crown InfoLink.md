@@ -34,6 +34,9 @@ hasPart:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"
   - "[[Crown Gena Operating System]]"
+describedBy:
+  - "[[Document - Crown InfoLink Fleet Management Page (retrieved 2026-10-13)]]"
+  - "[[Document - MMH Turning Fleet Data into Savings (Chicago Tribune and Crown InfoLink)]]"
 ---
 
 # Crown InfoLink

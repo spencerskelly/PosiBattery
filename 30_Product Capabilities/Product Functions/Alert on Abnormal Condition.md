@@ -51,6 +51,8 @@ realizedBy:
 realizes:
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
+  - "[[Manage Fleet Portal Users and Alert Thresholds]]"
+  - "[[Act on Fleet Data Without Information Overload]]"
 ---
 
 # Alert on Abnormal Condition

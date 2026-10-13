@@ -24,6 +24,7 @@ performedBy:
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"
+  - "[[Review Checklist Failures and Dispatch Service]]"
 realizedBy:
   - "[[Pre-Shift Checklist Enforcement Design]]"
 ---

@@ -21,6 +21,8 @@ hasDesign:
   - "[[Impact Sensor]]"
 madeBy:
   - "[[Linde Material Handling]]"
+describedBy:
+  - "[[Document - Linde connect desk Fleet Management Page (retrieved 2026-10-13)]]"
 ---
 
 # Linde connect

@@ -50,6 +50,7 @@ realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"
   - "[[Review Battery Care and Warranty Compliance]]"
+  - "[[Plan Battery Replacement and Budget Ahead]]"
 satisfies:
   - "[[BMID - Retain Battery-Specific Usage History]]"
 supportedBy:

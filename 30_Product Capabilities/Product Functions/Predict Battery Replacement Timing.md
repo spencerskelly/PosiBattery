@@ -20,6 +20,8 @@ performedBy:
   - "[[Energywith withBMS Analytics Service]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Review Fleet Battery Health and Plan Replacements]]"
+  - "[[Plan Battery Replacement and Budget Ahead]]"
 realizedBy:
   - "[[Battery Replacement Timing Prediction Design]]"
 ---
