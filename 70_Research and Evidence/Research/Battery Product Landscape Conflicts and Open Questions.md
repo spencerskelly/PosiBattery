@@ -241,6 +241,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C140 - Cycle definition.** Carolina counts discharge, charge and cool in 24 hours; The Forklift Company counts a full discharge to 80% and a full recharge; East Penn counts any discharge and recharge; Fleetman counts a full recharge after any depth. Cycle-life numbers are not comparable until the definition is.
 - **C141 - Battery composition and electrolyte properties.** Crown's SDS gives antimony and arsenic under 0.1% and lead 50 to 75%; UPOWER's gives antimony 1 to 6%, arsenic under 1% and lead 60 to 78%. Electrolyte boiling ranges differ (203 to 240 F versus 103 to 119 C). Acid shares are on different bases (battery weight versus electrolyte).
 
+- **C142 - Coulomb counting for forklift SOC.** Wang et al. 2026 say Coulomb counting is unsuitable for forklifts because of long-term variable load and large estimation errors, without data. The vault lists [[Coulomb Counting State of Charge Estimator Firmware]] as a neutral candidate. Open until the Pop 2005 review and the other supplied papers are read; see [[SOC and Health Estimation Literature Review]].
+
 ## Aliases
 
 - Landscape conflicts register
