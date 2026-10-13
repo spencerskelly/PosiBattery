@@ -20,6 +20,7 @@ realizes:
 dependencyOf:
   - "[[Measure Battery Temperature]]"
   - "[[Battery Temperature Reporting to Charger]]"
+  - "[[Direct Temperature Input Charge Compensation]]"
 designOf:
   - "[[Battery Temperature Measurement Circuit]]"
 supportedBy:

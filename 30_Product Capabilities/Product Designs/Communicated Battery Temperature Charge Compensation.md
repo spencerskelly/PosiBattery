@@ -11,6 +11,7 @@ tags:
 subtypeOf:
   - "[[Temperature-Compensated Charge Control Design]]"
 dependsOn:
+  - "[[Battery Temperature Reporting to Charger]]"
 designOf:
   - "[[Crown V-HFM3 Charger]]"
   - "[[EnerSys Express Charger]]"
@@ -19,7 +20,6 @@ designOf:
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge DVS300 Series]]"
   - "[[PosiCharge SVS100]]"
-  - "[[Battery Temperature Reporting to Charger]]"
 ---
 
 # Communicated Battery Temperature Charge Compensation

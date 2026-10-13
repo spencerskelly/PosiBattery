@@ -23,22 +23,21 @@
 
 Each edit deletes exactly one frontmatter list item. Zero lines were added. No `id`, `uid`, `status`, source, body text or other relationship was changed.
 
-## Open decision: two Design → Design `designOf` pairs (not changed)
+## Decision applied: two Design → Design `designOf` pairs retyped to `dependsOn` (user confirmed 2026-10-12)
 
 | Source Design | Entry | Target Design |
 | --- | --- | --- |
 | [[Direct Temperature Input Charge Compensation]] | `designOf` | [[Battery Temperature Measurement Design]] |
 | [[Communicated Battery Temperature Charge Compensation]] | `designOf` | [[Battery Temperature Reporting to Charger]] |
 
-`designOf` must target an Object or Document, so both are invalid. Proposed fix (awaiting confirmation): retype to `dependsOn`, with `dependencyOf` on each target Design. Evidence: the Communicated note's body states it "reuses [[Battery Temperature Reporting to Charger]]"; the Measurement design already carries `dependencyOf` for the Reporting design; the Direct Temperature Input note describes a charger-connected sensor input, which is the measurement design's scope. Alternative if the user rejects reuse semantics: `includes` / `includedIn` (any → any). Both source notes currently have an empty `dependsOn:` field.
+`designOf` must target an Object or Document, so both are invalid. Applied: each `designOf` entry removed and the same target added under `dependsOn`; `dependencyOf` added on each target Design ([[Battery Temperature Measurement Design]] → [[Direct Temperature Input Charge Compensation]]; [[Battery Temperature Reporting to Charger]] → [[Communicated Battery Temperature Charge Compensation]]). Four files changed (4 additions, 2 deletions). Evidence: the Communicated note's body states it "reuses [[Battery Temperature Reporting to Charger]]"; the Measurement design already carries `dependencyOf` for the Reporting design; the Direct Temperature Input note describes a charger-connected sensor input, which is the measurement design's scope. Considered and not used: `includes` / `includedIn`.
 
 ## Local verification (before push)
 - Identity check: PASS.
-- Relationship findings: **26 → 4** (2 endpoint + 2 missing inverse, all from the two pairs above).
+- Relationship findings: **26 → 0** (4 remained after the removals; the two pairs above cleared them).
 - Vault audit blocking findings: **13 → 2**.
 - CI results to be added below after push.
 
 ## Handoff
-1. Decide the two Design → Design pairs above.
-2. Remaining gate failures outside this batch: 3 disposition registry errors, 2 end-to-end Function ↔ Design inverse pairs, 3 Designs without curated sources, 1 active weak-traceability item.
-3. README and Runtime Handoff State still cite the older 256 missing-inverse / 75 incompatible-endpoint baseline; keep those numbers visible as the conflict record when updating.
+1. Remaining gate failures outside this batch: 3 disposition registry errors, 2 end-to-end Function ↔ Design inverse pairs, 3 Designs without curated sources, 1 active weak-traceability item.
+2. README and Runtime Handoff State still cite the older 256 missing-inverse / 75 incompatible-endpoint baseline; keep those numbers visible as the conflict record when updating.

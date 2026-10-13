@@ -11,10 +11,10 @@ tags:
 subtypeOf:
   - "[[Temperature-Compensated Charge Control Design]]"
 dependsOn:
+  - "[[Battery Temperature Measurement Design]]"
 designOf:
   - "[[PosiCharge DVS150]]"
   - "[[Lester Summit Series II]]"
-  - "[[Battery Temperature Measurement Design]]"
 ---
 
 # Direct Temperature Input Charge Compensation
