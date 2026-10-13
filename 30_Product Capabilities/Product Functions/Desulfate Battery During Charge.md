@@ -20,7 +20,6 @@ dependsOn:
   - "[[Lead-Acid Desulfation Charge Control Design]]"
 realizedBy:
   - "[[Lead-Acid Desulfation Charge Control Design]]"
-  - "[[Desulfation Charge Control Firmware]]"
 ---
 
 # Desulfate Battery During Charge

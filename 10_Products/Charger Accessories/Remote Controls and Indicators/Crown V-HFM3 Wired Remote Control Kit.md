@@ -24,7 +24,6 @@ hasPart:
   - "[[Wired Remote Charger Control Assembly]]"
   - "[[Remote Charger Control Panel]]"
   - "[[Remote Charger I-O Expansion Board]]"
-  - "[[Control Charger from Remote Panel]]"
 ---
 
 # Crown V-HFM3 Wired Remote Control Kit

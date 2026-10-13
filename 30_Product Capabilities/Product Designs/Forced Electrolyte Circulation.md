@@ -25,7 +25,6 @@ supertypeOf:
   - "[[Air Injection Electrolyte Circulation]]"
 realizes:
   - "[[Circulate Electrolyte]]"
-  - "[[Midac EUW Electrolyte Circulation System]]"
 ---
 
 # Forced Electrolyte Circulation

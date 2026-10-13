@@ -57,7 +57,6 @@ supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
 realizedBy:
   - "[[Battery Event and Usage Logging Design]]"
-  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Log Battery Events and Usage

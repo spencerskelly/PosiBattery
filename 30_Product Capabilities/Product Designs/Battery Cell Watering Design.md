@@ -20,7 +20,6 @@ dependencyOf:
 designOf:
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Midac Aquamatic Watering System]]"
-  - "[[Water Battery Cells]]"
 ---
 
 # Battery Cell Watering Design

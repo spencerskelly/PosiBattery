@@ -21,7 +21,6 @@ supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
 subtypeOf:
   - "[[Battery-Charger Data Communication Design]]"
-  - "[[Document - PosiCharge BMID FAQ]]"
 ---
 
 # Battery Identification and Charger Communication Software Design

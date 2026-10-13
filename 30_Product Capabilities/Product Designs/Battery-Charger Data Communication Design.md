@@ -33,7 +33,6 @@ dependencyOf:
   - "[[Communicate with Charger]]"
 supertypeOf:
   - "[[Battery Identification and Charger Communication Software Design]]"
-  - "[[Communicate with Charger]]"
 ---
 
 # Battery-Charger Data Communication Design

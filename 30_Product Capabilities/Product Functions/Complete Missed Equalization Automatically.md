@@ -18,7 +18,6 @@ dependsOn:
   - "[[Missed Equalization Recovery Design]]"
 realizedBy:
   - "[[Missed Equalization Recovery Design]]"
-  - "[[Power Designers REVOLUTION X]]"
 ---
 
 # Complete Missed Equalization Automatically

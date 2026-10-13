@@ -25,7 +25,6 @@ performedBy:
   - "[[HOPPECKE trak uplift air Battery]]"
 realizedBy:
   - "[[Air Injection Electrolyte Circulation]]"
-  - "[[HOPPECKE trak uplift air Battery]]"
   - "[[Forced Electrolyte Circulation]]"
 ---
 

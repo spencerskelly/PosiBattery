@@ -20,7 +20,6 @@ dependsOn:
   - "[[PC Battery Data Export Design]]"
 realizedBy:
   - "[[PC Battery Data Export Design]]"
-  - "[[Power Designers PowerTrac SP+]]"
 ---
 
 # Export Battery Data to PC
