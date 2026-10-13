@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Wireless Interface Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
+  - "[[LoRa]]"
 designOf:
   - "[[PosiCharge PosiGuard]]"
   - "[[LoRa Communication Circuit]]"

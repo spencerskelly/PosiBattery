@@ -2447,3 +2447,24 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  # Added 2026-10-12: research note converted from the _Industrial Wireless Communication folder; kept unlinked on purpose.
+  "70_Research and Evidence/Research/Industrial Wireless Communication/LoRa Products.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Imported market-research note awaiting selection of specific products for modeling; no model relationship is asserted until individual products are adopted and evidenced."
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Imported market-research note awaiting selection of specific products for modeling; no model relationship is asserted until individual products are adopted and evidenced."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Imported market-research note awaiting selection of specific products for modeling; no model relationship is asserted until individual products are adopted and evidenced."
+      evidence:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Imported market-research note awaiting selection of specific products for modeling; no model relationship is asserted until individual products are adopted and evidenced."
