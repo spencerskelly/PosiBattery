@@ -24,6 +24,21 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 
 **Evidence limit.** These are academic papers and one patent. None is a product document, and most never say where the estimator runs. Any embedded or cloud allocation drawn from them is an engineering inference by the note author, not a source claim. The vault convention for inferred allocations (an engineering-confidence statement on the Object) applies.
 
+**Chemistry scope.** The approach register is written as general estimation approaches, not lithium-only ones: each row names the measurements and functions it needs, and those do not depend on chemistry. The evidence behind the rows is almost entirely lithium. Accuracy figures, model sizes and test results in this note come from lithium cells and should not be read as results for lead-acid or any other chemistry. Per source, as stated in each paper:
+
+| Chemistry in the evidence | Sources |
+|---|---|
+| Lithium iron phosphate (LFP) | 1 Wang; 2 da Silva |
+| Lithium-ion 18650 cells and packs (NASA, CALCE, LG data sets) | 8 Lakhdari; 9 Ismail; 13 Mbagaya; 14 Giuliano (also Oxford NMC pouch cells); 15 Ahmed; 16 Kafadarova |
+| Lithium polymer | 5 Margal; 12 Sarikurt |
+| Lithium titanate (LTO) | 11 Yunusoglu |
+| Cylindrical lithium-ion cell (graphite intercalation) | 10 Anthony |
+| Several chemistries (review): lead, lithium, NiCd, NiMH and others, with some methods tagged per chemistry | 4 Pop |
+| Lithium-ion preferred, other batteries by changing the model | 7 GM patent |
+| Lead-acid and lithium compared as truck batteries, no estimator tested | 3 Alshaebi |
+
+Where a chemistry difference already affects a row it is logged in the conflict register: OCV hysteresis differs between LiCoO2 and LiFePO4 (C147) and the rest time before an OCV reading differs between a lithium patent and a gel lead-acid datasheet (C150). Lead-acid evidence in this set is limited to Pop's review, Alshaebi's fleet data and the East Penn datasheet in [[Generic Reference Values]]. Each candidate created from this register therefore needs its parameters (OCV-SOC curve, resistance, fade curve, rest time) supplied for the chemistry it is applied to; that is a commissioning input, not something these sources provide.
+
 **Files supplied (commit e11b7953, 19 PDFs, 16 distinct by checksum).** Three files each have a byte-identical "(1)" copy: `Battery_studypaper`, `ISIE2014`, `Transformer-Based_Transfer_Learning_for_Battery_St`. Copies are kept in `Downloads/` and counted once. `Battery_state-of-charge_observer.pdf` is an image-only scan (US 8,922,217 B2, GM, Dec 30, 2014), read from the page image.
 
 | # | File | What it is | Review status |
