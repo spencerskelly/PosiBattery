@@ -30,7 +30,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 |---|---|---|---|
 | 1 | `Research_on_the_State_of_Charge_Estimation_of_Elec` | Wang, Zhang, Hu, Batteries 2026, 12, 41: SOC of an LFP electric forklift pack with a Transformer | reviewed below |
 | 2 | `Battery_Model_Identification_Approach_for_Electric` | da Silva et al., Energies 2021: battery model identification for an electric forklift (tested on a LiFePO4 cell) | reviewed below |
-| 3 | `Battery_studypaper` | Alshaebi et al., ISERC 2017 (Raymond Corp co-author): forklift battery systems compared by simulation | pending |
+| 3 | `Battery_studypaper` | Alshaebi et al., ISERC 2017 (Raymond Corp co-author): lead-acid vs lithium reach trucks, measured data plus simulation | reviewed below |
 | 4 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | pending, likely out of scope |
 | 5 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | pending |
 | 6 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | pending |
@@ -57,6 +57,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 |---|---|---|---|---|---|
 | 1 Wang 2026 | SOC | learned model (Improved Transformer 2) on Kalman-filtered, PCA-reduced inputs | pack voltage, system current, cell voltages (total, max, min, average), cumulative charge and discharge energy and capacity counters | not stated; training time only | none yet; needs a data-driven SOC candidate |
 | 2 da Silva 2021 | SOC (model only; SOC estimator is future work) | equivalent-circuit model, nonlinear grey box, parameters fitted by nonlinear least squares, OCV-SOC curve | terminal voltage and current to fit parameters; nominal capacity; the OCV-SOC curve | parameter fitting offline on test data; the OCV-SOC curve is stated to be stored in the BMS microcontroller as a lookup table, polynomial or piecewise linear function | none yet; closest are the voltage-based and hybrid candidates |
+| 3 Alshaebi 2017 | SOC (simulation only) and usage-history capacity | SOC read from the battery voltage curve while the truck is idle; delivered Ah per discharge cycle compared with rated Ah ("practical capacity") | terminal voltage and current sampled at 10 Hz; truck travel and lift speed; rated capacity | analysis offline in a statistics package and a Demo3D simulation; the 10 Hz logging device is on the truck | SOC: closest is the voltage-based candidate; usage history: [[Amp-Hour Accumulator Firmware]], [[Log Battery Events and Usage]], cloud side [[Battery State of Health Analytics Service]] |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -134,6 +135,45 @@ Source: Energies 2021, 14, 6221, MDPI, open access, published 2021-09-29, <https
 - "Forklift" enters only through the shape of the current pulses. Figure 9 shows an actual forklift current profile; the paper does not state the truck, battery or voltage.
 - No temperature variation in the tests; the abstract's "more than 80% of fit" is not the figure the conclusion gives (see C143).
 - Fit percentages, not SOC error, are the result. The paper cannot yet say how accurate an SOC estimate from this model would be.
+
+### Source 3: Alshaebi, Dauod, Weiss, Yoon (2017), "Evaluation of Different Forklift Battery Systems Using Statistical Analysis and Discrete Event Simulation"
+
+Source: Proceedings of the 2017 Industrial and Systems Engineering Conference (Coperich, Cudney, Nembhard, eds.), Binghamton University with a co-author from The Raymond Corporation; 6 pages. Conference paper, no DOI printed. The PDF is `Battery_studypaper.pdf` in the repo `Downloads` folder (a byte-identical `(1)` copy is also there). Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Test setup | two identical reach trucks in a cold warehouse: one with a new 700 Ah lithium-ion battery, one with a 1240 Ah lead-acid battery; five weeks of data | the intro prints "1240 lead acid" without a unit; section 3.1 says 1240 Ah | 1, 3.1 |
+| Logged signals | voltage, current, reach, retract, travel speed (mph), lift speed (ft/s), timestamp | instrumented battery and truck | 1, 3.1, Table 1 |
+| Sample rate | 10 samples per second | | 3.1 |
+| Sample voltage readings | 39.37 V and 39.39 V (under load); nominal pack voltage not stated | Table 1 | 3.1 |
+| Cold storage temperature | not stated; no temperature signal is in the logged list | | 1 |
+| Discharge cycle, lithium | the period of consuming 80% of nominal capacity | author assumption | 3.1 |
+| Discharge cycle, lead-acid | from fully charged until the battery is changed | author assumption | 3.1 |
+| Internal resistance | assumed constant for both batteries | simplifies energy-waste calculation | 3.1 |
+| Productivity | lead-acid 3,991 pallet moves in 221 h = 18.1 per hour; lithium 4,008 in 190 h = 21.1 per hour | derived check: 3,991 / 221 = 18.06; 4,008 / 190 = 21.09 | 4.1, Table 2 |
+| Workload difference | travel and lift distances differ between the trucks (p = 0.001, 95% confidence), so productivity is not a like-for-like comparison | the paper's own caveat | 4.1 |
+| Delivered energy per cycle | about 500 Ah on average for both batteries | 32 discharge cycles in total; Figure 5 shows roughly 30 points per battery, range about 230 to 740 Ah for lead-acid | 4.2, Fig 5 |
+| Share of rated capacity used | lithium about 70%; lead-acid "around 45%" in section 4.2, 46% in Table 3 and the conclusion | see C144 | 4.2, 5 |
+| Heat | lithium generates half the heat of lead-acid, attributed to lower internal resistance | no temperature or heat measurement is in the logged signals | 4.2 |
+| Battery changes | lead-acid replaced at 20% SOC; replacement time uniform 8 to 20 min in the simulation; 1.5 h per truck per week saved with lithium (measured) | Figure 7 shows 27 replacement events at about 6 to 21 min | 3.3, 4.3 |
+| SOC method in the model | state of charge "estimated according to the voltage curve when the truck is idle" | simulation input only, no accuracy given | 3.3 |
+| Simulation | 20 trucks, six shifts (two days), 10 replications, Demo3D | | 3.3, 4.4 |
+| Simulation outputs | lead-acid / lithium: energy efficiency 46% / 73%; productivity 18.5 / 21 per truck-hour; downtime 26 / 0 h per truck per week (Table 3); "around 25 labor hours" a week for 20 trucks in the text | see C145 | 4.4, Table 3 |
+| Cost | lithium is "more expensive"; no figure; left to future work | | 5 |
+
+**Approach and dependencies.** This paper does not propose an estimator. Two things in it bear on the functions:
+
+- SOC is read from a voltage curve when the truck is idle. That is a rest-voltage method that depends only on terminal voltage and an idle-state flag, with no current integration. It matches the voltage-based candidate and shows its limit: it only works when the truck is idle.
+- "Practical capacity" (delivered Ah in a cycle divided by rated Ah) is a usage-history metric. It depends on integrating current over each discharge cycle ([[Accumulate Amp-Hours]]) and on a rule for where a cycle starts and ends ([[Log Battery Events and Usage]]). The two cycle rules in this paper differ by chemistry (see C140), so any shared cycle counter would need one rule.
+
+**Engineering inference (not a source claim).** The 10 Hz logging and cycle segmentation run on the battery or truck device. The cross-truck, cross-chemistry comparison, the five-week statistics and the simulation are fleet-level analysis that fits the cloud side, where the vault already models [[Battery State of Health Analytics Service]].
+
+**Gaps in the evidence.**
+
+- One truck of each chemistry for five weeks; the authors state the workloads differ significantly.
+- The heat claim has no supporting measurement in the stated signals.
+- No SOH is measured. Rated-capacity use is a utilization figure, not a health figure, and the lead-acid battery's age is not given.
+- Raymond is a co-author, so the lead-acid truck and logger may be Raymond equipment, but the paper does not name the logging device.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
