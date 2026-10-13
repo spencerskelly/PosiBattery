@@ -33,7 +33,7 @@ Score each item qualitatively against: customer impact, strategic fit, evidence 
 | High | Establish offer-scoped partner/competitor classifications | Ecosystem strategy | Avoid treating relevant OEMs, battery makers, dealers, and software providers as globally competitive or noncompetitive | [[PosiCharge Competitive and Partner Landscape]] |
 | Medium | Map PosiCharge interfaces and interoperability claims | Integration research | Identify support boundaries for batteries, connectors, vehicle interfaces, protocols, apps, cloud, and service workflows | [[PosiCharge Capability Gap Assessment]] |
 | Medium | Separate MHE and eGSE decision criteria | Segment research | Prevent invalid transfer of product positioning and gap conclusions across different operating environments | [[PosiCharge Market Segments and Jobs-to-Be-Done]] |
-| Medium | Audit Downloads-to-Source Documents traceability for PosiCharge-relevant materials | Evidence quality | Make comparator and PosiCharge claims reviewable and source-backed | [[README_Downloads|Downloads]], [[README_Source Documents|Source Documents]] |
+| Medium | Audit Downloads-to-Source Documents traceability for PosiCharge-relevant materials | Evidence quality | Make comparator and PosiCharge claims reviewable and source-backed | [[README_Reference Files|Reference Files]], [[README_Source Documents|Source Documents]] |
 | Medium | Identify PosiCharge positioning claims that lack comparator evidence | Positioning | Differentiate verified advantages from marketing assertions or untested assumptions | [[PosiCharge Capability Gap Assessment]] |
 
 ### Ampure group alignment (added 2026-10-03)

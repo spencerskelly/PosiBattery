@@ -22,7 +22,7 @@ This folder contains curated metadata notes for authoritative external documents
 
 ## Related areas
 
-- [[README_Downloads|Downloads]] — incoming PDFs and other acquired source files.
+- [[README_Reference Files|Reference Files]] — kept copies of source files with no recoverable web address.
 - [[README_Organizations|Organizations]] — entities referenced by source documents.
 - [[README_Products|Products]] — products and categories supported by the evidence.
 - [[README_Research|Research]] — synthesis, matrices, audits, conflicts, and future work derived from sources.

@@ -1,0 +1,66 @@
+---
+type: Info
+subtype:
+id: INFO-90034
+uid: 20261013190000004skellyspencer
+status: Draft
+tags:
+  - research
+  - soc-soh
+  - decision-support
+describedBy:
+describes:
+  - "[[Estimate State of Charge]]"
+  - "[[Estimate State of Health]]"
+---
+
+# SOC and SOH Decision Criteria
+
+## Definition
+
+Criteria and candidate approach families for an engineer building the SOC and SOH decision matrix. It states what the evidence in the vault says for each criterion and what is missing. It does not score anything: weights and the target accuracy are product decisions that need the owner's input.
+
+## Notes
+
+### Candidate approach families
+
+| Id | Family | Basis in the vault |
+|---|---|---|
+| A | Embedded counting with OCV recalibration in our own firmware | M3, M5; [[Coulomb Counting State of Charge Estimator Firmware]], [[Voltage-Based State of Charge Estimator Firmware]] |
+| B | Gauge IC (Impedance Track or ModelGauge type) | M5, M6; product table in [[SOC and SOH Product Landscape]] |
+| C | Model-based filter firmware | M7; [[Model-Based State of Charge Estimator Firmware]] |
+| D | Cloud data-driven SOH from fleet history | M8, H6; [[Learned State of Health Service]] |
+| E | Periodic test with an instrument (conductance or impedance) | H3, H4 |
+| F | Read SOC and SOH from the battery maker's BMS over CAN | Flux Power, EnerSys products in the landscape note |
+| G | Full-cycle capacity test as the SOH reference | H1 |
+
+### Criteria with the evidence and gaps
+
+| Criterion | What the evidence says | Gap or input needed |
+|---|---|---|
+| Chemistry coverage | gauge IC claims lead-acid and lithium (S2); Peukert and specific gravity apply to lead-acid only (S7, S11); LFP needs flat-curve handling (S1, S14) | which chemistries are in scope, and whether one design must serve both |
+| Voltage range | TI examples reach 65 V with external scaling (S2, S4); forklift packs go to 80 V and above (C193) | the highest pack voltage in scope |
+| Current range and shunt | 25 A max at 5 mOhm on the example gauge; 400 A packs exist (S18); offset error grows as shunt resistance falls (derived) | the maximum and typical current, and the allowed offset error |
+| SOC accuracy | claims are not comparable (C191); no forklift-specific requirement exists | the accuracy target, the test profile and the error definition (see [[Estimate State of Charge and Health - Declare Accuracy Basis]]) |
+| SOH definition and threshold | capacity, resistance and energy versions exist (S9); thresholds of 80%, 90%, 70%, 30% appear with different meanings (C192) | which SOH, which threshold, and who acts on it |
+| Rest and relearn opportunities | OCV methods need hours of rest (C190); the TI gauge needs low-current relaxation (S3); forklift duty may have little rest (opportunity charging is not in the sources' test profiles) | typical rest and charge pattern in the target fleets |
+| Start-up and fault behaviour | Orion defaults to 50% after reset and cannot compute SOC without a current sensor (S14); TI MaxError is 100% after reset (S3) | what the product must show after a reset or sensor fault |
+| Calibration and commissioning | OCV tables and drift points (S14), vendor cell characterization for a model (S1), Peukert exponent (S7), learned Qmax and Ra (S3) | who characterizes each battery model, and how often |
+| Compute location | embedded versus cloud split is in [[SOC and Health Estimation Literature Review]]; vendor gauges are embedded | whether a gateway or cloud link is always present |
+| Interfaces | I2C, HDQ (gauge ICs); CANopen and J1939 (truck displays, S15, S19); Bluetooth (S6, S15) | the truck-side message set required |
+| Standards | EN IEC 62485-6 has BMS and monitoring clauses (S24); no SOC accuracy standard found | read the standard; confirm UL and EN 1175-1 applicability |
+| Intellectual property and supplier lock-in | Impedance Track and ModelGauge are vendor algorithms; Midtronics and Cadex methods are patented (S17 cites two US patents) | licence and supply terms (not in the sources) |
+| Cost, lead time, availability | not in the sources | quotes |
+
+### Questions for the owner (needed before scoring)
+
+1. Which battery chemistries and voltage range must the design cover?
+2. What is the target SOC accuracy, over which duty cycle and temperature range, and who verifies it?
+3. Is SOH needed for replacement planning (a threshold such as 80%), for warranty evidence, or for charger control?
+4. Is the estimator on the battery-side device (such as the BMID), in the charger, or in the cloud?
+
+## Sources
+
+See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].
+
+## Former ids

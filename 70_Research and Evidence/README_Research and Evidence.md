@@ -10,7 +10,7 @@ See [[Canonical Vault Top-Level Taxonomy 0.1]] and [[PosiBattery Model Organizat
 
 ### Raw or acquired source artifacts
 
-[[README_Downloads|Downloads]] is the temporary intake/staging area for externally acquired PDFs and other files.
+`Downloads` is the temporary intake area for externally acquired files; [[README_Reference Files|Reference Files]] holds the copies kept long term.
 
 A downloaded file is not, by itself, the canonical evidence record. Files may be duplicated, renamed, superseded, incomplete, or awaiting identity review.
 

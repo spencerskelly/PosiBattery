@@ -28,7 +28,7 @@ EnerSys charger portfolio guide: IMPAQ, Express, NexSys+, NexSys AIR, with a fea
 
 ## Provenance
 
-- **Local artifact:** [[impaq-nexsys-plus-modular-charger-product-guide-1020.pdf]] in `Downloads`.
+- **Local artifact:** `impaq-nexsys-plus-modular-charger-product-guide-1020.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** EnerSys manufacturer document.
 - **Original web address:** <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf>.
 - **Document date / revision:** Document code AMER-EN-PG-ENS-MPCHARGER-0125; PDF created 2025-01-31.

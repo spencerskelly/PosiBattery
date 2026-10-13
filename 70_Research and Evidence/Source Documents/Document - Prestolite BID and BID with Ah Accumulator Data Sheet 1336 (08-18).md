@@ -25,7 +25,7 @@ Battery Identification Device and its Ah Accumulator variant: what is stored, ho
 
 ## Provenance
 
-- **Local artifact:** [[bid-ah-accumulator-datasheet-aug-2018.pdf]] in `Downloads`.
+- **Local artifact:** `bid-ah-accumulator-datasheet-aug-2018.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** AMETEK Prestolite Power manufacturer data sheet.
 - **Original web address:** <https://www.prestolitepower.com/-/media/ametekprestolite/documentation/bid/bid-ah-accumulator-datasheet-aug-2018.pdf>.
 - **Document date / revision:** Data Sheet No. 1336; index 08/18.

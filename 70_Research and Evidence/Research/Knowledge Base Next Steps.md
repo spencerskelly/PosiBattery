@@ -79,7 +79,7 @@ Research working note: Knowledge Base Next Steps.
 - [ ] **Acquire the highest-value missing primary documents.** Prioritize manuals, wiring/interface documents, application guides, certification records, warranty/service documents, compatibility lists, and official product catalogs required to resolve P0 conflicts and populate the canonical facts layer.  
   **Initial acquisition order:** SVS100 spec/configuration record; MVS400/MVS800 topology and spec documentation; High Voltage Power Station AC/DC spec sheets; PosiLink and Battery Rx product sheets; ProCore Edge controlled manuals/tool documents; DVS100 current official evidence.  
   **Completion criteria:** The document wishlist is ranked by decision impact and each P0 dependency has a source-acquisition path or documented access limitation.  
-  **Related:** [[PosiCharge and Power Designers Public Evidence Register]], [[PosiCharge and Power Designers Evidence Gaps and Conflicts]], [[Document Wishlist]], [[README_Source Documents|Source Documents]], [[README_Downloads|Downloads]]
+  **Related:** [[PosiCharge and Power Designers Public Evidence Register]], [[PosiCharge and Power Designers Evidence Gaps and Conflicts]], [[Document Wishlist]], [[README_Source Documents|Source Documents]], [[README_Reference Files|Reference Files]]
 
 ### P2 — Commercial intelligence and operating system
 

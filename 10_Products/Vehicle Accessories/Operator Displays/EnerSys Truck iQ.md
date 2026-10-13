@@ -30,6 +30,8 @@ madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
+describedBy:
+  - "[[Document - EnerSys Truck iQ Operating Manual (GLOB-EN-OM-TIQ-APAC 0324)]]"
 ---
 
 # EnerSys Truck iQ

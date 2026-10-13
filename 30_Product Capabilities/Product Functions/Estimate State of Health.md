@@ -23,6 +23,8 @@ realizedBy:
   - "[[Usage-History State of Health Analytics]]"
 supertypeOf:
   - "[[Report State of Health Threshold Crossings]]"
+describedBy:
+  - "[[SOC and SOH Decision Criteria]]"
 ---
 
 # Estimate State of Health

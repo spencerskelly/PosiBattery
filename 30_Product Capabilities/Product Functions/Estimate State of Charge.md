@@ -37,6 +37,8 @@ realizedBy:
   - "[[State of Charge Estimation Design]]"
 supportedBy:
   - "[[Document - PosiCharge GSE BMID Page]]"
+describedBy:
+  - "[[SOC and SOH Decision Criteria]]"
 ---
 
 # Estimate State of Charge

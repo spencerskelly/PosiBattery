@@ -24,7 +24,7 @@ Lester Summit Series II 1425 W data sheet: models, AC input, DC output, interfac
 
 ## Provenance
 
-- **Local artifact:** [[summit-series-ii_1425w_v2_data-sheet_060223.pdf]] in `Downloads`.
+- **Local artifact:** `summit-series-ii_1425w_v2_data-sheet_060223.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** Lester Electrical manufacturer data sheet, hosted by RJ Batteries.
 - **Original web address:** <https://www.rjbatt.com.au/media/somkvf25/summit-series-ii_1425w_v2_data-sheet_060223.pdf>.
 - **Document date / revision:** PDF created 2023-06-02; filename/title identify 06-2023.

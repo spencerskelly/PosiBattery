@@ -14,6 +14,9 @@ hasDesign:
   - "[[Integrated Battery Heater]]"
 madeBy:
   - "[[Flux Power]]"
+describedBy:
+  - "[[Document - Flux Power LiFT Pack L-Series L48 Brochure]]"
+  - "[[Document - Delta Systems Flux Power SOC Display]]"
 ---
 
 # Flux Power LiFT Pack

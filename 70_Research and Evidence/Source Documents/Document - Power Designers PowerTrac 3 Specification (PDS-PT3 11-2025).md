@@ -25,7 +25,7 @@ PowerTrac 3 features and specification table, with REVOLUTION charger integratio
 
 ## Provenance
 
-- **Local artifact:** [[PDS-PT-PT3_PowerTrac-3.pdf]] in `Downloads`.
+- **Local artifact:** `PDS-PT-PT3_PowerTrac-3.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** Power Designers / SIBEX manufacturer document.
 - **Original web address:** <https://powerdesignerssibex.com/wp-content/uploads/2024/04/PDS-PT-PT3_PowerTrac-3.pdf>.
 - **Document date / revision:** Document identifier PDS-PT3; dated 11/2025.

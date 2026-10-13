@@ -24,7 +24,7 @@ Battview monitor sheet: data and alerts, specifications, communication interface
 
 ## Provenance
 
-- **Local artifact:** [[133717592244521430.pdf]] in `Downloads`.
+- **Local artifact:** `133717592244521430.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** Advanced Charging Technologies / MHI-hosted manufacturer document.
 - **Original web address:** <https://og.mhi.org/media/members/41607/133717592244521430.pdf>.
 - **Document date / revision:** PDF created 2023-09-18; no separate publication/revision date is recorded in the current vault evidence.

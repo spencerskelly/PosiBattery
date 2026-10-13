@@ -35,7 +35,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 
 ## Related areas
 
-- [[README_Downloads|Downloads]] — acquired raw material awaiting or supporting review.
+- [[README_Reference Files|Reference Files]] — kept copies of source files that support review.
 - [[README_Source Documents|Source Documents]] — curated primary-source records.
 - [[README_Organizations|Organizations]] and [[README_Products|Products]] — entity and offering records used by research.
 - [[README_Product Functions|Product Functions]], [[README_Product Designs|Product Designs]], and [[README_Performance Metrics|Performance Metrics]] — reusable analytical dimensions.

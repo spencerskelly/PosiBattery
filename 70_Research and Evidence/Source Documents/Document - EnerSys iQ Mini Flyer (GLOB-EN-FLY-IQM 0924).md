@@ -24,7 +24,7 @@ iQ Mini flyer: purpose, alerts, abuse cycles, usage recording, portal and gatewa
 
 ## Provenance
 
-- **Local artifact:** [[glob-en-fly-iqm-0924-apac.pdf]] in `Downloads`.
+- **Local artifact:** `glob-en-fly-iqm-0924-apac.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** EnerSys manufacturer document.
 - **Original web address:** <https://www.enersys.com/496a7c/globalassets/documents/product-documentation/_enersys/glob/legacy/battery-management/iq-mini/glob-en-fly-iqm-0924-apac.pdf>.
 - **Document date / revision:** Document code GLOB-EN-FLY-IQM 0924; no separate publication date is recorded in the current vault evidence.

@@ -24,7 +24,7 @@ ACT Quantum 3 sheet with specifications for Q4, Q8 and dual-port models.
 
 ## Provenance
 
-- **Local artifact:** [[133717589840217692.pdf]] in `Downloads`.
+- **Local artifact:** `133717589840217692.pdf` (local copy deleted 2026-10-13; re-fetch from the source address above).
 - **Source identity:** Advanced Charging Technologies / MHI-hosted manufacturer document.
 - **Original web address:** <https://og.mhi.org/media/members/41607/133717589840217692.pdf>.
 - **Document date / revision:** PDF created 2024-09-20; no separate publication/revision date is recorded in the current vault evidence.
