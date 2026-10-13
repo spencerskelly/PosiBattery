@@ -2510,3 +2510,24 @@ records:
         disposition: intentionally_absent
         exception: EXC-RESEARCH-ONLY
         note: "Conflict log for demand-side sources; no model relationship is asserted until items are adopted by Customer Need or Issue notes."
+
+  # Added 2026-10-12: generic reference values, kept unlinked on purpose.
+  "70_Research and Evidence/Research/Generic Reference Values.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Generic reference values from supplied documents; no model relationship is asserted until values are merged into Metric notes."
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Generic reference values from supplied documents; no model relationship is asserted until values are merged into Metric notes."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Generic reference values from supplied documents; no model relationship is asserted until values are merged into Metric notes."
+      evidence:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Generic reference values from supplied documents; no model relationship is asserted until values are merged into Metric notes."
