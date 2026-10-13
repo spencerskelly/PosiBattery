@@ -39,7 +39,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a small feedforward neural network ("Corny") | reviewed below, low weight |
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from cell strain sensing and a small neural network | reviewed below |
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | reviewed below, results contradict themselves |
-| 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | pending |
+| 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | reviewed below, single 11 Ah cell, parameter labels and one table value inconsistent |
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al.: SOH machine learning review | pending |
 | 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., McMaster: Transformer transfer learning for SOH | pending |
 | 15 | `main` | Ahmed et al., Huddersfield: lifecycle-aware SOH evaluation, LightGBM, edge-deployable | pending |
@@ -74,6 +74,8 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 11 Yunusoglu | SOH trend and remaining useful life | quadratic fit of SOH against cycle number, solved for the cycle where SOH reaches 80% | the history of per-cycle SOH values | not stated; needs a history store, suits a service | [[Battery Replacement Forecasting Service]] |
 | 11 Yunusoglu | SOH features | differential voltage analysis: capacity change per volt, tracked in a voltage window | high-resolution voltage and charge over a controlled charge or discharge | not stated | none; needs a controlled-cycle condition |
 | 11 Yunusoglu | SOH (claimed) | BERT-based regression on text-serialized data rows, 109 million parameters | voltage, current, capacity (and temperature) rows turned into text | the paper proposes edge inference with cloud fine-tuning, and reports no edge test | none; evidence does not support allocation |
+| 12 Sarikurt 2014 | cycle number (input to SOH) | fit y = a/(x+b) to a voltage dip of the cell's response to a fixed urban driving current profile (ECE 15); two points on a dip give a and b; two fitted polynomials map a or b to cycle number | cell voltage and time during a known load profile; a pre-built equivalent-circuit model that generated the reference curves | not stated; two-point arithmetic, embedded-sized | none; needs a repeatable load profile, which a forklift does not have |
+| 12 Sarikurt 2014 | SOH | percent capacity read from the manufacturer's capacity-versus-cycle curve (8th order polynomial), via the estimated cycle number; SoH = (capacity% - 80) x 5 | estimated cycle number; manufacturer fade curve | not stated; a polynomial lookup, embedded-sized | [[Capacity-Retention State of Health Estimator]] (a cycle-count variant, no measured capacity); dependency on cycle count from [[Log Battery Events and Usage]] |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -430,6 +432,42 @@ Source: preprint-style conference paper, undated in the file (the PDF is `126_Pa
 - Figures 1, 2 and 3 and most of the methods text describe a state-of-charge pipeline, while the abstract and conclusion are about state of health (see C157).
 - Cells are LTO, not lead-acid or the lithium chemistries in the other sources; the cycle conditions are not tabulated.
 - The comparison methods (GPR, "RD", SVR, CNN) have no stated settings.
+
+### Source 12: Sarikurt, Ceylan, Balikci (2014), "An Analytical Battery State of Health Estimation Method"
+
+Source: IEEE ISIE 2014 conference paper (978-1-4799-2399-1/14), Gebze Institute of Technology, Turkey; 5 pages; funded by TUBITAK project 110E209. The PDF is `ISIE2014.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Test cell | Kokam SLBP55205130H lithium polymer, 11 Ah (the Fig. 1 caption prints the model as SLBP5520510H) | single cell | I, IV-B |
+| SOH definition | percent of initial condition; 100% is initial; battery unusable below 80% relative capacity | manufacturer's capacity-versus-cycle curve (Fig. 1) | I |
+| Test rig | Chroma 62050P programmable DC supply, Chroma 63297 electronic load, NI 9206 and NI 9213 data acquisition cards, LabVIEW; measures voltage, current, temperature | used to build the cell model, run aging and record ECE 15 responses | II |
+| Cycle number method | the voltage dips ("slopes") of the cell's ECE 15 response are fitted with y = a/(x+b); a and b from two points on a dip, then polynomials map a or b to cycle number | reference curves come from an equivalent-circuit model with an analytical open-circuit voltage, from the authors' ref 33 (in Turkish); aging at other cycle numbers is simulated, not tested | III-A |
+| Cycle number results, 400-cycle cell | 397.7 to 407.1 cycles across three dips and two parameters; mean error 4.60 cycles or 1.15% | Table 2 | IV-A |
+| Cycle number results, dip 3 | parameter a: 104.77, 303.43, 502.47 for true 100, 300, 500 (errors 4.77%, 1.14%, 0.49%); parameter b: 113.57, 309.68, 506.95 (13.58%, 3.23%, 1.39%) | Table 1 | IV-A |
+| SOH method | capacity % = A x b/a with an aging coefficient A of 23.971, 23.583, 23.821 for dips 1, 2, 3; then SoH % = (capacity % - 80) x 5 | Eq 14, 15 | III-B |
+| Capacity fade curve | 8th order polynomial in cycle number, moving-average smoothed, coefficients printed | Eq 13 | III-B |
+| SOH results | estimated capacity 99.194, 98.694, 67.194 % versus measured 101.58, 95.50, 96.50 % at cycles 100, 300, 500; errors 2.348, 3.344, 0.719; mean 2.137% | Table 3; measured from discharge time at 1C (11 A): 3659, 3438, 3474 s | IV-B |
+
+**Approach and dependencies.** The method does two things. It estimates cycle number from how the voltage dips under a fixed driving-current profile, then it looks up capacity on the manufacturer's fade curve. It therefore dependsOn: voltage and time acquisition at a high enough rate to fit a dip, a load profile that repeats exactly, and a stored fade polynomial for the specific cell. A device that already counts cycles needs no estimator to get the cycle number.
+
+**Where the software runs, per the paper.** Not stated. The arithmetic is two-point fitting and polynomial evaluation, so it would fit in firmware. Nothing in the paper needs cloud processing.
+
+**Engineering inference (not a source claim).** The SOH result is a cycle-count lookup on a manufacturer curve, not a measurement of the cell's own capacity. It cannot see cells that age faster or slower than the datasheet curve, which the paper itself says depends on temperature and internal dynamics. For a forklift, whose load is not a repeatable profile, the cycle-number step does not apply; counting cycles directly (see [[Log Battery Events and Usage]]) and applying a fade curve gives the same SOH output with no voltage fitting.
+
+**Checks by the note author.**
+
+- Table 1 and Table 2 errors recompute from their own columns (for example 404.745 against 400 is 1.19%); the mean errors in the conclusion (4.1%, 6.813 cycles, 4.5955 cycles, 1.1485%, 2.137%) recompute from the tables.
+- Table 3 row 3 lists estimated capacity 67.194 against measured 96.50 with error 0.719. A 67.194 estimate would be a 30% error. 97.194 gives 0.719% and keeps the 2.137% mean, so 67.194 looks like a typo (derived).
+- Recomputing Eq 14 with the Table 1 parameters (a = 11832.95, b = 49284.283 at cycle 100) gives 99.21, 98.33, 97.83 for cycles 100, 300, 500, against the printed 99.194, 98.694 and 97.194 (if corrected). The differences are up to 0.65 points.
+- 3659 s at 11 A is 101.64% of 11 Ah, the paper prints 101.58%.
+
+**Gaps in the evidence.**
+
+- One cell, three tested cycle counts for SOH and no temperature or rate variation.
+- The "measured" capacities are non-monotonic (95.5% at 300, 96.5% at 500) and exceed 100% at cycle 100, so they say little about fade.
+- Eq 13 coefficients cannot be evaluated as printed (0.0096 C^8 at C = 100 is about 1e14), so a scaled cycle variable is implied but not defined.
+- No embedded implementation, timing, memory or noise tolerance is reported.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
