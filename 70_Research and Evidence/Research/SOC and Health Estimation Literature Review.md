@@ -54,7 +54,7 @@ Where a chemistry difference already affects a row it is logged in the conflict 
 | 3 | `Battery_studypaper` | Alshaebi et al., ISERC 2017 (Raymond Corp co-author): lead-acid vs lithium reach trucks, measured data plus simulation | reviewed below |
 | 4 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | reviewed below |
 | 5 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | reviewed below |
-| 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | skipped for now at the user's request (forklift design and fabrication, not SOC or SOH estimation) |
+| 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | reviewed below at the user's request; no estimation content, low value, internal inconsistencies |
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | reviewed below |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | reviewed below |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a small feedforward neural network ("Corny") | reviewed below, low weight |
@@ -299,6 +299,36 @@ Source: E3S Web of Conferences 601, 00033 (2025), ICEGC'2024, EDP Sciences, open
 - The abstract's RMSE figures are ten times Table 5's (see C148).
 - One cell, one cycle, no temperature or aging variation; a passenger-vehicle cycle, not forklift duty.
 - ALO is expanded as "Adaptive Luenberger Observer" in the abstract and "Ant Lion Optimizer" in the discussion (see C149).
+
+### Source 6: Sequeira, Mohammed, Kumar, Sameer, Kareem, Sachidananda (2019), "Design and Fabrication of Battery Operated Forklift"
+
+Source: Journal Europeen des Systemes Automatises, Vol. 52, No. 6, December 2019, pp. 569-574 (doi 10.18280/jesa.520604), Manipal Academy of Higher Education, Dubai; 6 pages; a small prototype built for a 100 kg load. The PDF is `DesignandFabricationofForklift.pdf` in the repo `Downloads` folder. It contains no SOC or SOH estimation and no battery monitoring. It was reviewed because it was supplied with the set, and it adds no row to the approach register. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Rated load | 100 kg | prototype; the results say the vehicle handles about 70 kg "without compromising performance" because of insufficient motor torque above that | Abstract, 4.4, 5 |
+| Battery (Table 1) | two lithium-ion batteries, 12 V, 12 Ah each | "car lithium ion batteries" | 2, Table 1 |
+| Battery (text) | 12 V, 38 Ah, "capable to run for 20 hrs", two batteries | | 3.2 |
+| Motor (Table 1) | DC motor, 500 W, 36 V, one; two 36 V motor controllers | | Table 1 |
+| Motor (text) | one motor, 500 rpm, 36 W; electrical input taken as 0.22 A x 12 V = 2.64 W, efficiency 10%, mechanical output 0.263 W | | 2 |
+| Peak power | 150 A x 12 V = 1800 W, "assuming 100% efficient" | | 4.1 |
+| Starting torque | T = 0.05 x 1500 x 10 x 0.17 / 2 = 63.75 N m; wheel speed 78 to 93 rpm at 2.5 to 3 km/h | | 4.1 |
+| Runtime | 9 to 10 h on a full charge (results); 8 to 10 h (conclusion); 20 h (3.2) | measured, conditions not stated | 3.2, 4.1, 5 |
+| Charging | on-board AC to DC charger from 230 V AC | no charge profile, time or current given | 3.2 |
+| Battery placement | the battery takes the place of the counterweight | | 4.3 |
+
+**Approach and dependencies.** None for estimation. The only battery facts are the pack ratings and a runtime claim.
+
+**Checks by the note author.**
+
+- Two 12 V batteries in series give 24 V, not the 36 V of the motor and controllers in Table 1; a series or parallel arrangement is not stated.
+- Two 12 V, 12 Ah batteries hold about 288 Wh (derived); at the 36 W motor in the text that is 8 h, in line with the 8 to 10 h claim. The same pack at the 500 W motor of Table 1 would last under 35 minutes at full power (derived) and at the 1800 W peak about 10 minutes (derived). With 2 x 12 V x 38 Ah the energy is 912 Wh (derived), and 20 h would imply about 46 W average.
+- The torque and wheel speed calculations recompute correctly.
+- Volumes: the fork volume 2 x (82 x 10.5 x 0.7) is 1205 cm3, but the text then writes a base volume of 2400 cm3 (double counted), and the two side plates are given 340 cm3 in total although each is 340 cm3 (27 x 18 x 0.7); the total 4650 cm3 does not equal the sum of its listed parts (4710 cm3). These do not affect the battery figures.
+
+**Engineering inference (not a source claim).** Not representative of industrial forklifts: the pack here is a few hundred watt-hours at 100 kg; industrial traction batteries in the vault's sources are in the range of hundreds of amp-hours (for example the 700 Ah lithium and 1240 Ah lead-acid trucks in source 3). The paper is not a basis for sizing, voltage or runtime in the vault.
+
+**Gaps in the evidence.** No battery chemistry detail, charge profile, load cycle behind the runtime, or measurement method for the runtime.
 
 ### Source 7: Mao and Tang, GM Global Technology Operations, US 8,922,217 B2, "Battery State-of-Charge Observer"
 

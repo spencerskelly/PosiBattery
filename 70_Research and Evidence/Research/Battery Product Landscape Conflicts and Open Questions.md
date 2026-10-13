@@ -285,6 +285,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 
 - **C170 - Kafadarova: thermocouple claim and discharge data.** The paper says thermocouples measure "purely relative temperature changes". A manufacturer note ([Analog Devices](https://www.analog.com/en/resources/technical-articles/cold-junction-compensation-in-thermocouple-guide.html)) says the loop voltage depends on the difference between two junctions and that, with the cold junction known and compensated, the actual hot-junction temperature is obtained, and the paper itself says a cold junction element is needed. The paper says the discharge runs at 2200 mA to 3.5 V and describes a rise at the end of discharge as strongly exothermic, but Fig 19 covers about 72 s (about 2% of the capacity), 24 to 31 C. It claims "high accuracy" while giving only a view-angle error relative to the camera's own reading (below 0.25 C), against a camera accuracy of +/-2% of reading, and it also says the method is for laboratory use while listing diagnostics and quality control as applications.
 
+- **C171 - Sequeira: battery, motor and runtime figures disagree.** Table 1 lists two 12 V, 12 Ah lithium-ion batteries; section 3.2 gives 12 V, 38 Ah and 20 h of running; results and conclusion give 9 to 10 h and 8 to 10 h. Table 1 lists a 500 W, 36 V motor and two 36 V controllers; section 2 gives a 36 W, 500 rpm motor and an input of 0.22 A x 12 V = 2.64 W; section 4.1 uses 150 A x 12 V = 1800 W. Two 12 V batteries are 24 V (series) or 12 V (parallel), not 36 V. Rated load is 100 kg in the abstract and conclusion, while section 4.4 says the vehicle handles about 70 kg without compromising performance.
+
 ## Aliases
 
 - Landscape conflicts register
