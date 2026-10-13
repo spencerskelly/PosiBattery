@@ -38,6 +38,10 @@ describedBy:
   - "[[Document - OTTO Motors Mauser Packaging Solutions Case Study]]"
   - "[[Document - Green Cubes SAFEFlex AGV Opportunity Charging Case Study (2017-06-22)]]"
   - "[[Document - Inside Logistics Rockwell Automation Buys OTTO Motors]]"
+  - "[[Document - HELI H4 Series 1.5-3.8t Lithium Battery Forklift Brochure (FLH4002-EN)]]"
+  - "[[Document - The Forklift Company Battery Care and Maintenance Guide]]"
+  - "[[Document - Safety Meeting Topic Forklift Battery Use and Maintenance (2014)]]"
+  - "[[Document - EnerSys The General Flooded Battery Brochure]]"
 ---
 
 # Industry Data Register from Downloads Articles
@@ -137,6 +141,15 @@ Related: [[Downloads Value Screening Register]], [[Demand Evidence Source Regist
 
 - **Source address verified or matched:** BlitzNXT posts (DOC-00021 to DOC-00025: website posts of the same topics found, dates differ from the saved LinkedIn copies, text not compared), Flux Power guide (DOC-00027, fetched, date matches), ITW GSE Scale Electric post (DOC-00029, fetched, title and date match), ITW GSE charging page (DOC-00028).
 - **No public address recoverable:** the eight Zhang LinkedIn posts, the ENEROC LinkedIn article and the eleven market-report posts. A governed Document needs a source address, so these ten are now Info notes (INFO-90017 to INFO-90027, former ids DOC-00013 to DOC-00020, DOC-00026 and DOC-00030) tagged `unlinked-capture`. Their content and tier T4 are unchanged.
+
+## Data from image-only PDFs (OCR, 2026-10-13)
+
+Four image-only PDFs were read by OCR; the observer patent (US 8,922,217) was already reviewed as source 7 of [[SOC and Health Estimation Literature Review]] and was not re-read.
+
+- [[Document - HELI H4 Series 1.5-3.8t Lithium Battery Forklift Brochure (FLH4002-EN)]] (T1): 80 V battery options, LFP cells, 98% efficiency claim, charger D80V100ALI-438 and charge-time formula (conflicts C186, C188).
+- [[Document - The Forklift Company Battery Care and Maintenance Guide]] (T4): lead-acid care rules, 80% depth-of-discharge cycle, 38 degree limit (C187).
+- [[Document - Safety Meeting Topic Forklift Battery Use and Maintenance (2014)]] (T4): safety practice (C189).
+- [[Document - EnerSys The General Flooded Battery Brochure]] (T1, no address): flooded battery design claims; the Ah-per-plate column was unreadable (open).
 
 ## Aliases
 

@@ -20,6 +20,8 @@ madeBy:
 offeredWith:
   - "[[Heli G Series Lithium Forklifts]]"
   - "[[Heli A3 Series Lithium Forklifts]]"
+describedBy:
+  - "[[Document - HELI H4 Series 1.5-3.8t Lithium Battery Forklift Brochure (FLH4002-EN)]]"
 ---
 
 # Heli Lithium-Ion Battery

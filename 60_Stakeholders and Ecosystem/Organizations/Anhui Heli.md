@@ -17,6 +17,8 @@ makes:
   - "[[Heli Fleet Management System]]"
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Heli Lithium-Ion Battery]]"
+describedBy:
+  - "[[Document - HELI H4 Series 1.5-3.8t Lithium Battery Forklift Brochure (FLH4002-EN)]]"
 ---
 
 # Anhui Heli

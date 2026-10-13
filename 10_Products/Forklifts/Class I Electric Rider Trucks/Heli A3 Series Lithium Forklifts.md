@@ -22,6 +22,8 @@ offeredWith:
   - "[[Heli Lithium-Ion Battery]]"
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Heli Operator Presence Sensing System]]"
+describedBy:
+  - "[[Document - HELI H4 Series 1.5-3.8t Lithium Battery Forklift Brochure (FLH4002-EN)]]"
 ---
 
 # Heli A3 Series Lithium Forklifts
