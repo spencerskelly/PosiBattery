@@ -17,6 +17,8 @@ dependsOn:
   - "[[Cloud Portal Integration]]"
 performs:
   - "[[Upload Battery Data to Cloud Portal]]"
+dependencyOf:
+  - "[[Learned State of Health Service]]"
 ---
 
 # Cloud Battery Data Upload Service

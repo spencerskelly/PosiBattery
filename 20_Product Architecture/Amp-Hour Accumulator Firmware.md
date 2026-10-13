@@ -27,6 +27,8 @@ partOf:
   - "[[Power Designers PowerTrac SP+]]"
 performs:
   - "[[Accumulate Amp-Hours]]"
+dependencyOf:
+  - "[[Capacity-Retention State of Health Estimator]]"
 ---
 
 # Amp-Hour Accumulator Firmware

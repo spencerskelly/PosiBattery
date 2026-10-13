@@ -23,6 +23,9 @@ dependencyOf:
   - "[[Voltage-Based State of Charge Estimator Firmware]]"
   - "[[Hybrid State of Charge Estimator Firmware]]"
   - "[[Voltage Imbalance Evaluation Firmware]]"
+  - "[[Model-Based State of Charge Estimator Firmware]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+  - "[[Resistance-Trend State of Health Estimator]]"
 ---
 
 # Battery Voltage Acquisition Firmware

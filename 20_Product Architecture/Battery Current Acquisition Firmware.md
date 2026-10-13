@@ -18,6 +18,9 @@ dependencyOf:
   - "[[Amp-Hour Accumulator Firmware]]"
   - "[[Coulomb Counting State of Charge Estimator Firmware]]"
   - "[[Hybrid State of Charge Estimator Firmware]]"
+  - "[[Model-Based State of Charge Estimator Firmware]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+  - "[[Resistance-Trend State of Health Estimator]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"

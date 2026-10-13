@@ -16,9 +16,14 @@ performedBy:
   - "[[Battery State of Health Analytics Service]]"
   - "[[Capacity-Retention State of Health Estimator]]"
   - "[[Resistance-Trend State of Health Estimator]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+  - "[[Learned State of Health Service]]"
 dependsOn:
 realizedBy:
   - "[[Usage-History State of Health Analytics]]"
+applies:
+  - "[[Estimate State of Health - Report Configured Threshold Crossings]]"
+  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
 ---
 
 # Estimate State of Health
@@ -60,7 +65,18 @@ Raymond's iBATTERY/iWAREHOUSE material identifies contributors to battery SOH in
 
 Inventus defines battery SOH as battery capacity relative to initial capacity and states that PROformance batteries communicate SOH. [[Inventus Smart Battery Monitor SBM-01]] receives battery information over CAN and displays that SOH value. Because no PROformance battery product note currently exists in this vault, the underlying Inventus battery/BMS estimator is not added as a performer here.
 
-## Aliases
+### Candidate data-driven path
 
+[[Data-Driven State of Health Estimator Firmware]] is an unallocated engineering option that applies a model trained offline to features of one complete discharge cycle. It depends on [[Segment Discharge Cycles]]. Evidence and caveats are in [[SOC and Health Estimation Literature Review]].
+
+### Candidate learned-service path
+
+[[Learned State of Health Service]] is an unallocated engineering option for training, fine-tuning and running learned SOH models on uploaded cycle data.
+
+### Requirements (added 2026-10-13)
+
+[[Estimate State of Health - Report Configured Threshold Crossings]] and [[Estimate State of Charge and Health - Declare Accuracy Basis]] apply to this Function. Both are Draft proposals from the literature review with no stakeholder source, and neither sets numeric values. This supersedes the earlier statement above that no Requirement is linked; the gap is no longer empty, but no Requirement is satisfied or verified yet.
+
+## Aliases
 
 ## Former ids

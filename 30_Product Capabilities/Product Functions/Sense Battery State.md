@@ -20,6 +20,7 @@ supertypeOf:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Electrolyte Specific Gravity]]"
   - "[[Sense Electrolyte Level]]"
+  - "[[Segment Discharge Cycles]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

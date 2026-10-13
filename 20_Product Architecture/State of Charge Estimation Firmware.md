@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Voltage-Based State of Charge Estimator Firmware]]"
   - "[[Coulomb Counting State of Charge Estimator Firmware]]"
   - "[[Hybrid State of Charge Estimator Firmware]]"
+  - "[[Model-Based State of Charge Estimator Firmware]]"
 partOf:
   - "[[HOPPECKE trak collect]]"
   - "[[Stryten M-Series Li610 Battery]]"

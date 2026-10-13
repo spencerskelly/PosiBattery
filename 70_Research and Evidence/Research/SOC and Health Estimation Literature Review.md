@@ -11,7 +11,13 @@ tags:
   - state-of-charge
   - state-of-health
   - embedded-cloud-allocation
-describes: []
+describes:
+  - "[[Model-Based State of Charge Estimator Firmware]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+  - "[[Learned State of Health Service]]"
+  - "[[Segment Discharge Cycles]]"
+  - "[[Capacity-Retention State of Health Estimator]]"
+  - "[[Resistance-Trend State of Health Estimator]]"
 ---
 
 # SOC and Health Estimation Literature Review
@@ -642,6 +648,10 @@ Source: peer-reviewed article, Batteries 2023, 9, 519 (MDPI, open access, doi 10
 - No comparison of the camera result with a contact sensor, so "high accuracy" is not shown.
 - One cell, one rate (about 1C), one ambient, free air; no pack, no cooling, no ageing.
 - Emissivity at view angles above 45 degrees is stated as unknown, yet the cut limits are defined by angle.
+
+### Vault changes made from this review (2026-10-13)
+
+Created as Draft, with no product allocation: [[Segment Discharge Cycles]] (Function), [[Model-Based State of Charge Estimator Firmware]], [[Data-Driven State of Health Estimator Firmware]], [[Learned State of Health Service]], [[Estimate State of Health - Report Configured Threshold Crossings]] and [[Estimate State of Charge and Health - Declare Accuracy Basis]] (the last two are proposed Requirements with no stakeholder source and no numeric values). Edited: dependencies added to [[Capacity-Retention State of Health Estimator]] and [[Resistance-Trend State of Health Estimator]]; candidate paths added to [[Estimate State of Charge]] and [[Estimate State of Health]]; band mapping noted in [[Battery Replacement Forecasting Service]]. Not created, by decision: a candidate for the BERT approach (results contradict themselves), the cycle-number method (needs a fixed load profile) and strain sensing (one low-confidence source). The skipped forklift design paper (file 6) is not reviewed.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 

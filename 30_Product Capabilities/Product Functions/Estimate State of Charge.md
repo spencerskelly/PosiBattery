@@ -28,6 +28,7 @@ performedBy:
   - "[[Hybrid State of Charge Estimator Firmware]]"
   - "[[Coulomb Counting State of Charge Estimator Firmware]]"
   - "[[Voltage-Based State of Charge Estimator Firmware]]"
+  - "[[Model-Based State of Charge Estimator Firmware]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Inspect Battery Condition Through a BMID]]"
@@ -36,6 +37,8 @@ realizedBy:
   - "[[State of Charge Estimation Design]]"
 supportedBy:
   - "[[Document - PosiCharge GSE BMID Page]]"
+applies:
+  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
 ---
 
 # Estimate State of Charge
@@ -96,7 +99,14 @@ These candidate firmware implementations are intentionally unallocated until a p
 - No algorithm-specific SOC firmware subtype is assigned to BMID, Wi-iQ, EasyMonitor, HOPPECKE, or Stryten until stronger product-specific evidence or an explicit engineering decision exists.
 - [[PosiCharge PosiGuard]] is **not** allocated this Function or SOC implementation in this pass because the current PosiGuard evidence set does not explicitly establish SOC estimation.
 
-## Aliases
+### Candidate model-based path
 
+[[Model-Based State of Charge Estimator Firmware]] is an unallocated engineering option that runs a filter or observer on an equivalent-circuit model. It is a subtype of [[State of Charge Estimation Firmware]]. Evidence and caveats are in [[SOC and Health Estimation Literature Review]].
+
+### Requirements (added 2026-10-13)
+
+[[Estimate State of Charge and Health - Declare Accuracy Basis]] applies to this Function. It is a Draft proposal from the literature review with no stakeholder source and sets no numeric value. This supersedes the earlier statement above that no Requirement is linked; no Requirement is satisfied or verified yet.
+
+## Aliases
 
 ## Former ids

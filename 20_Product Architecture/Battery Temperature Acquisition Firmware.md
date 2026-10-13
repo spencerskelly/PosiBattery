@@ -17,6 +17,7 @@ performs:
   - "[[Measure Battery Temperature]]"
 dependencyOf:
   - "[[Hybrid State of Charge Estimator Firmware]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
 partOf:
   - "[[PosiCharge BMID]]"
 ---
