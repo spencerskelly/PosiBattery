@@ -133,7 +133,7 @@ expected_deps={}
 for rec in trace.get("existing_design_dependencies",[]):
     if not isinstance(rec,dict): continue
     expected_deps[str(rec.get("function"))]=set(str(x) for x in vals(rec.get("dependsOn")))
-gap_names={str(rec.get("function")) for rec in trace.get("open_design_gaps",[]) if isinstance(rec,dict)}
+gap_names={str(rec.get("function")) for rec in (trace.get("open_design_gaps") or []) if isinstance(rec,dict)}
 
 for name,targets in expected_direct.items():
     p=resolve(name)

@@ -119,7 +119,7 @@ for p,d in designs.items():
 
 # Review active BMID implementation choices against the explicit Step 89 decision record.
 trace=yaml.safe_load(BMID_TRACE.read_text(encoding="utf-8")) or {}
-gap_names={str(x.get("function")) for x in trace.get("open_design_gaps",[]) if isinstance(x,dict)}
+gap_names={str(x.get("function")) for x in (trace.get("open_design_gaps") or []) if isinstance(x,dict)}
 direct_names={str(x.get("function")) for x in trace.get("direct_realization_links",[]) if isinstance(x,dict)}
 dependency_names={str(x.get("function")) for x in trace.get("existing_design_dependencies",[]) if isinstance(x,dict)}
 
