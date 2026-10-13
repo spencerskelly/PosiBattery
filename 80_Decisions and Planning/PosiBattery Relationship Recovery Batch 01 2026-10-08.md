@@ -10,7 +10,7 @@ This is the first bounded engineering repair of [issue #2](https://github.com/sp
 
 - `partOf` is the inverse of `hasPart` and has legal endpoints **Object -> Object** only.
 - `performs` is a forward **Object -> Function** relationship, inverse `performedBy` on the Function.
-- In each of the six cases below, an implementation Object incorrectly asserted `partOf: [[Function]]` and had an empty `performs:` field. The matching Function already named that Object as `performedBy`.
+- In each of the six cases below, an implementation Object incorrectly asserted `partOf: <a Function note>` and had an empty `performs:` field. The matching Function already named that Object as `performedBy`.
 - Correct each Object by moving the Function link from `partOf` to `performs`. **Retain** its valid `partOf` links to product Objects, `hasPart` links to components, Design links, IDs, UIDs, evidence, and note body.
 
 | Implementation Object | Function | Semantics |
@@ -33,7 +33,7 @@ GitHub Actions baseline logs contained **exactly 18** diagnostics mentioning the
 
 ## Validation and restrictions
 
-1. Verify all six changed Object YAML headers with no `partOf: [[Function]]`, `performs: [[Function]]`, and preserved product `partOf` links; verify all six Function `performedBy` links already exist.
+1. Verify all six changed Object YAML headers with no `partOf: <a Function note>`, `performs: <a Function note>`, and preserved product `partOf` links; verify all six Function `performedBy` links already exist.
 2. Compare GitHub Actions relationship diagnostics to baseline by **category and file/target**, not only by total count.
 3. Ensure unrelated identity, traceability, Local Model, Port/Item Flow, and Workbench reviews remain passing.
 4. Do not create a false `hasPart` on Functions, nor infer additional physical product implementations from the generic design.

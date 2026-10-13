@@ -14,3 +14,16 @@ Workbench Views/
 .trash/
 .DS_Store
 Thumbs.db
+
+# Reports written to the repo root by 99_System/09_Tools gate scripts (CI uploads them as artifacts; never commit).
+/audit-report.md
+/curated-source-document-review.md
+/end-to-end-product-chain-audit.md
+/high-value-evidence-review.md
+/local-model-linking-review.md
+/port-item-flow-linking-review.md
+/provenance-quality-report.md
+/traceability-quality-report.md
+/true-orphan-review.md
+/weak-traceability-priority-review.md
+/workbench-model-review.md

@@ -16,7 +16,7 @@ This third bounded repair continues [draft PR #4](https://github.com/spencerskel
 - `Function.realizes -> Use Case` (the synchronized inverse);
 - `Function.realizedBy -> Design` is separately valid for a Function's implementation design.
 
-The previous generated modeling work incorrectly appended existing Customer Need/operational Use Case references to `Function.realizedBy`, alongside legitimate Design targets. That caused endpoint type violations and inverse mismatch findings. **In each of the 21 cases below, the target Use Case was independently fetched and verified to already carry the exact `realizedBy: [[Function]]` assertion.** No new requirement, Use Case, or customer evidence relationship was inferred.
+The previous generated modeling work incorrectly appended existing Customer Need/operational Use Case references to `Function.realizedBy`, alongside legitimate Design targets. That caused endpoint type violations and inverse mismatch findings. **In each of the 21 cases below, the target Use Case was independently fetched and verified to already carry the exact `realizedBy: <a Function note>` assertion.** No new requirement, Use Case, or customer evidence relationship was inferred.
 
 For each source Function, move the single Use Case link from `realizedBy:` to `realizes:`. Preserve all real Design targets in `realizedBy`, all preexisting other `realizes` links, source evidence, IDs, UIDs, status, and note body. The Use Case note needs no edit; its forward assertion is already correct.
 

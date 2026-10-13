@@ -44,7 +44,7 @@ The specific realization is [[CAN Vehicle Operating Limit Command]] -> [[Vehicle
 
 For [[EnerSys Wi-iQ]], the firmware and CAN circuit allocations are **>=95% engineering-confidence assumptions** based on the published optional CAN module and OEM-specific operating-limit communication. The internal IC, message layout, software partition, and truck-side enforcement logic are not published.
 
-No product-specific [[Interface]] or [[Connection]] is created because the evidence does not identify a specific receiving truck/controller endpoint. The model therefore stops at the Wi-iQ CAN boundary rather than inventing a paired vehicle architecture.
+No product-specific Interface or Connection is created because the evidence does not identify a specific receiving truck/controller endpoint. The model therefore stops at the Wi-iQ CAN boundary rather than inventing a paired vehicle architecture.
 
 ## Aliases
 

@@ -13,7 +13,7 @@ Per `99_System/03_Schemas/relationships.yaml` 1.36:
 - `partOf/hasPart`: Object-to-Object physical or logical composition; **never** an Object part of a Function.
 - `performs/performedBy`: Object-to-Function behavior realization.
 
-For every row below, the implementation Object carried `partOf: [[Function]]` but an empty `performs:`. The corresponding Function note already contained `performedBy: [[Object]]`, establishing the existing implementation claim. Therefore, move exactly the Function link from `partOf` to `performs`; keep all product-to-Object `partOf` links, existing `hasDesign`/component/dependency relations, model identity and evidence unchanged.
+For every row below, the implementation Object carried `partOf: <a Function note>` but an empty `performs:`. The corresponding Function note already contained `performedBy: <an Object note>`, establishing the existing implementation claim. Therefore, move exactly the Function link from `partOf` to `performs`; keep all product-to-Object `partOf` links, existing `hasDesign`/component/dependency relations, model identity and evidence unchanged.
 
 | Object edited | Function already containing reciprocal `performedBy` |
 | --- | --- |
