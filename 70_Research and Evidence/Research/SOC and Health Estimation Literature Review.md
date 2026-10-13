@@ -40,7 +40,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from cell strain sensing and a small neural network | reviewed below |
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | reviewed below, results contradict themselves |
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | reviewed below, single 11 Ah cell, parameter labels and one table value inconsistent |
-| 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al.: SOH machine learning review | pending |
+| 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al., WEVJ 2025: SOH machine learning review with a four-model test on NASA cells | reviewed below, secondary source |
 | 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., McMaster: Transformer transfer learning for SOH | pending |
 | 15 | `main` | Ahmed et al., Huddersfield: lifecycle-aware SOH evaluation, LightGBM, edge-deployable | pending |
 | 16 | `1_batteries` | Kafadarova et al., Batteries: surface temperature of cylindrical cells by thermal camera | pending, likely a sensing input rather than SOC or SOH |
@@ -76,6 +76,9 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 11 Yunusoglu | SOH (claimed) | BERT-based regression on text-serialized data rows, 109 million parameters | voltage, current, capacity (and temperature) rows turned into text | the paper proposes edge inference with cloud fine-tuning, and reports no edge test | none; evidence does not support allocation |
 | 12 Sarikurt 2014 | cycle number (input to SOH) | fit y = a/(x+b) to a voltage dip of the cell's response to a fixed urban driving current profile (ECE 15); two points on a dip give a and b; two fitted polynomials map a or b to cycle number | cell voltage and time during a known load profile; a pre-built equivalent-circuit model that generated the reference curves | not stated; two-point arithmetic, embedded-sized | none; needs a repeatable load profile, which a forklift does not have |
 | 12 Sarikurt 2014 | SOH | percent capacity read from the manufacturer's capacity-versus-cycle curve (8th order polynomial), via the estimated cycle number; SoH = (capacity% - 80) x 5 | estimated cycle number; manufacturer fade curve | not stated; a polynomial lookup, embedded-sized | [[Capacity-Retention State of Health Estimator]] (a cycle-count variant, no measured capacity); dependency on cycle count from [[Log Battery Events and Usage]] |
+| 13 Mbagaya 2025 | SOH | SVR or random forest on summary statistics (mean, standard deviation, percentiles, voltage slopes, correlations) of a resampled discharge cycle | full constant-current discharge of voltage, current and temperature, resampled to 120 points, plus derivatives; cycle labels from capacity | training offline on a workstation (SVR 5.3 s, RF 26 s); the paper says these suit resource-constrained BMS hardware, no embedded test | none; needs a full controlled discharge, which opportunity-charged forklifts rarely give |
+| 13 Mbagaya 2025 | SOH | CNN or bidirectional LSTM on the same 6 x 120 sequences | same as above | training offline (CNN 58 s, LSTM 202 s); the paper says LSTM is hard to run on embedded BMS hardware and lists pruning, quantisation, distillation or offline/online split as options | none; no data-driven SOH candidate in the vault yet |
+| 13 Mbagaya 2025 (reported from Chen 2024) | SOH | VMD plus Transformer in an edge-cloud collaborative framework | not given in this review | edge and cloud, per the cited title; split not described here | [[Battery State of Health Analytics Service]] (cloud side); read the primary paper before relying on it |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -468,6 +471,39 @@ Source: IEEE ISIE 2014 conference paper (978-1-4799-2399-1/14), Gebze Institute 
 - The "measured" capacities are non-monotonic (95.5% at 300, 96.5% at 500) and exceed 100% at cycle 100, so they say little about fade.
 - Eq 13 coefficients cannot be evaluated as printed (0.0096 C^8 at C = 100 is about 1e14), so a scaled cycle variable is implied but not defined.
 - No embedded implementation, timing, memory or noise tolerance is reported.
+
+### Source 13: Mbagaya, Reddy, Botes (2025), "Machine Learning Techniques for Battery State of Health Prediction: A Comparative Review"
+
+Source: peer-reviewed review, World Electric Vehicle Journal 2025, 16, 594 (MDPI, open access, doi 10.3390/wevj16110594), Nelson Mandela University, South Africa; 26 pages. The PDF is `Machine_Learning_Techniques_for_Battery_State_of_H.pdf` in the repo `Downloads` folder. This is a secondary source: its literature claims are reported from the papers it cites and are not checked here. Only its own simulation counts as a primary result. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| SOH definition | current discharge capacity over initial nominal capacity x 100% | Eq 17; nominal 2 Ah | 1, 4.1 |
+| Dataset | NASA PCoE cells B0005, B0006, B0007, B0018; 2 Ah, 3.7 V; CC-CV charge at 1.5 A to 4.2 V, 2 A constant-current discharge, 24 C; discharge cutoff 2.7 V (B0005), 2.5 V (B0006), 2.2 V (B0007), 2.5 V (B0018); end of life at 70% of nominal | trained on B0006, B0007, B0018; tested on B0005 only | 4.1 |
+| Inputs | voltage, current, temperature and their time derivatives, each resampled to 120 points over a normalised discharge; CNN and LSTM take the 6 x 120 array; SVR and RF take summary statistics (Table 3) | no feature selection | 4.2 |
+| Result, LSTM (bidirectional) | RMSE 0.0146, MAE 0.0118, R2 0.980, MAPE 1.39% | test cell B0005; SOH as a fraction | 4.5.1, Table 5 |
+| Result, CNN | RMSE 0.0194, MAE 0.0160, R2 0.964, MAPE 1.84% | | Table 5 |
+| Result, random forest | RMSE 0.0207, MAE 0.0172, R2 0.959, MAPE 2.15% | 600 trees, minimum leaf 2 | Table 5 |
+| Result, SVR | RMSE 0.0457, MAE 0.0392, R2 0.800, MAPE 4.80% | RBF kernel, C 10, epsilon 0.03 | Table 5 |
+| Training time | CNN 57.95 s, SVR 5.29 s, RF 26.11 s, LSTM 201.59 s | "typical workstation"; hardware not specified | 4.5.3, Table 6 |
+| Inference time, memory, parameter count | not reported | | |
+| Deployment statement | LSTM's computational and memory demands "make direct deployment on embedded BMS hardware challenging"; RF and SVR "remain relevant in resource-constrained applications"; pruning, quantisation, knowledge distillation or hybrid offline-online frameworks suggested | no test | 4.5.2, 5 |
+| Edge-cloud claim (reported from Chen et al., 2024, ref 64) | Transformer with VMD in an edge-cloud collaborative SOH framework, MAE < 0.6% across NASA, CALCE, MIT and EV field data | not checked here | 3 |
+| Pack-level claim (reported from Lamprecht et al., 2020, ref 55) | random forest on a simulated 96S74P pack: 1.94% error for capacity SOH, 4.28% for resistance SOH | simulation | Table 2 |
+| Stated limits | NASA data only, 25 C, fixed protocols; not representative of fluctuating temperature, dynamic load or irregular charging | | 5 |
+
+**Approach and dependencies.** All four tested models rest on the same input: a full constant-current discharge of voltage, current and temperature, resampled to a fixed length. They depend on a measurement chain for voltage, current and temperature at a steady rate, a cycle segmentation that finds each full discharge, and a capacity label for training. That label comes from Ah accumulation over complete cycles (see [[Accumulate Amp-Hours]]). Cells with different discharge cutoffs sit in the same training set, so the models see normalised curves, not equal voltage windows.
+
+**Where the software runs, per the paper.** Training is offline on a workstation. For inference the paper only says the heavier models are hard to embed and that the lighter ones are candidates. It describes a hybrid offline-online split as a possibility and cites an edge-cloud Transformer paper without detail.
+
+**Engineering inference (not a source claim).** This fits the vault's allocation rule: acquisition, cycle segmentation and feature extraction embedded; training and fleet-wide retraining in the cloud; inference embedded for random forest or SVR and probably cloud or gateway for LSTM until a compressed version is shown. The vault has no data-driven SOH candidate, so this would be a new Object with dependsOn on voltage, current and temperature measurement, a cycle segmenter and Accumulate Amp-Hours. The full-discharge requirement is the weak point for forklifts, which use partial discharges and opportunity charging.
+
+**Gaps in the evidence.**
+
+- One test cell (B0005); the SOH range is about 100% to 70%, so errors in points of SOH are the figures to read: LSTM RMSE 0.0146 is about 1.5 points.
+- No inference latency, memory or hardware is reported, despite the statement that all models give "sufficient real-time SOH estimation capabilities" (see C161).
+- Training cells have different discharge cutoffs than the test cell, which the paper does not discuss as an effect on the result.
+- Lead-acid is not covered; the work is lithium-ion only.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
