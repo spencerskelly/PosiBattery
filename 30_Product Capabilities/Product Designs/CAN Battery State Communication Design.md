@@ -23,7 +23,6 @@ designOf:
 realizes:
   - "[[Communicate Battery State over CAN]]"
 dependencyOf:
-  - "[[Communicate Battery State over CAN]]"
 dependsOn:
   - "[[CAN Interface]]"
 ---

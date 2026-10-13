@@ -18,7 +18,6 @@ designOf:
 realizes:
   - "[[Command Vehicle Operating Limits over CAN]]"
 dependencyOf:
-  - "[[Command Vehicle Operating Limits over CAN]]"
 dependsOn:
   - "[[CAN Interface]]"
 ---

@@ -18,7 +18,6 @@ designOf:
 realizes:
   - "[[Adapt Charge to Battery Condition]]"
 dependencyOf:
-  - "[[Adapt Charge to Battery Condition]]"
 dependsOn:
   - "[[Charger Power Stage Design]]"
 ---

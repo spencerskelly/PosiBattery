@@ -18,7 +18,6 @@ designOf:
 realizes:
   - "[[Control Charger from Remote Panel]]"
 dependencyOf:
-  - "[[Control Charger from Remote Panel]]"
 ---
 
 # Wired Remote Charger Control Design

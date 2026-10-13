@@ -17,7 +17,6 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[Desulfation Charge Control Firmware]]"
 dependsOn:
-  - "[[Lead-Acid Desulfation Charge Control Design]]"
 realizedBy:
   - "[[Lead-Acid Desulfation Charge Control Design]]"
 ---

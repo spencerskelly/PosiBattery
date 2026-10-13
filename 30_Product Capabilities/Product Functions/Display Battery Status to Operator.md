@@ -11,7 +11,6 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Vehicle Operator Display Design]]"
 performedBy:
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[Battery Status Gauge Display Element]]"

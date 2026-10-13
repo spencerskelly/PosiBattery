@@ -28,7 +28,6 @@ realizedBy:
 supportedBy:
   - "[[Document - PosiCharge PosiConnect Product Page]]"
 dependsOn:
-  - "[[Device Configuration and Service Design]]"
   - "[[Document - PosiCharge PosiConnect Product Page]]"
 ---
 

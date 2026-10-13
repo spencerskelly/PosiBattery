@@ -26,7 +26,6 @@ performedBy:
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 dependsOn:
-  - "[[Remote Charger Management Design]]"
 realizedBy:
   - "[[Remote Charger Management Design]]"
 ---

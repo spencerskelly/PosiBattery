@@ -15,7 +15,6 @@ supertypeOf:
 realizes:
   - "[[Alert on Low Electrolyte Level]]"
 dependencyOf:
-  - "[[Alert on Low Electrolyte Level]]"
 designOf:
   - "[[Low Electrolyte Alert Logic]]"
   - "[[Low Electrolyte Threshold Circuit]]"

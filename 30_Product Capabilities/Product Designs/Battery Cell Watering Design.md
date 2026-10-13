@@ -16,7 +16,6 @@ supertypeOf:
 realizes:
   - "[[Water Battery Cells]]"
 dependencyOf:
-  - "[[Water Battery Cells]]"
 designOf:
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Midac Aquamatic Watering System]]"

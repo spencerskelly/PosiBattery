@@ -15,7 +15,6 @@ performedBy:
   - "[[Missed Equalization Recovery Firmware]]"
   - "[[Power Designers REVOLUTION X]]"
 dependsOn:
-  - "[[Missed Equalization Recovery Design]]"
 realizedBy:
   - "[[Missed Equalization Recovery Design]]"
 ---

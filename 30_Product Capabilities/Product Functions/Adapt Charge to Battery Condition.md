@@ -16,7 +16,6 @@ performedBy:
 realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 dependsOn:
-  - "[[Adaptive Charge Profile Control Design]]"
 realizedBy:
   - "[[Adaptive Charge Profile Control Design]]"
 ---

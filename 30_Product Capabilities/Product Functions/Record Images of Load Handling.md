@@ -19,7 +19,6 @@ realizes:
   - "[[Detect and Learn from Truck Impacts]]"
   - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 dependsOn:
-  - "[[Load-Handling Image Capture Design]]"
 realizedBy:
   - "[[Load-Handling Image Capture Design]]"
 ---

@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Display Device Design]]"
-  - "[[Pre-Shift Checklist Enforcement Design]]"
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"

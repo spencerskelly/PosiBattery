@@ -16,7 +16,6 @@ supertypeOf:
 realizes:
   - "[[Alert on Abnormal Condition]]"
 dependencyOf:
-  - "[[Alert on Abnormal Condition]]"
 designOf:
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Abnormal Condition Threshold Circuit]]"

@@ -23,7 +23,6 @@ designOf:
 realizes:
   - "[[Circulate Electrolyte]]"
 dependencyOf:
-  - "[[Circulate Electrolyte]]"
 ---
 
 # Air Injection Electrolyte Circulation

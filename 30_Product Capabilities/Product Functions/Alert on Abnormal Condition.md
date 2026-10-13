@@ -11,7 +11,6 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Abnormal Condition Alert Design]]"
 performedBy:
   - "[[Abnormal Condition Evaluation Logic]]"
   - "[[Abnormal Condition Threshold Circuit]]"

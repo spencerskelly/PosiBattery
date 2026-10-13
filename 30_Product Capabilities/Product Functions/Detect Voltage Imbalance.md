@@ -18,7 +18,6 @@ performedBy:
   - "[[Exide Motion+ EasyMonitor]]"
   - "[[Hyster Battery Tracker]]"
 dependsOn:
-  - "[[Voltage Imbalance Detection Design]]"
 realizedBy:
   - "[[Voltage Imbalance Detection Design]]"
 realizes:

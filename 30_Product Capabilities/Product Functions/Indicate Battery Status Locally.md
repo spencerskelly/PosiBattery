@@ -11,7 +11,6 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Warning and Display Device Design]]"
 performedBy:
   - "[[LED Status Indicator Element]]"
   - "[[Status Indicator Driver Circuit]]"

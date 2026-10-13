@@ -30,7 +30,6 @@ realizedBy:
 supportedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
 dependsOn:
-  - "[[Battery Temperature Reporting to Charger]]"
   - "[[Document - PosiCharge BMID FAQ]]"
 ---
 

@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Impact Sensor]]"
-  - "[[Impact-Triggered Vehicle Lockout Design]]"
 performedBy:
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Impact Lockout Decision Logic]]"

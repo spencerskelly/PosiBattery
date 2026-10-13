@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
   - "[[Electrolyte Level Sensing Design]]"
-  - "[[Low Electrolyte Alert Design]]"
 performedBy:
   - "[[Crown Battery Acid Indicators]]"
   - "[[Crown V-Force BMID]]"

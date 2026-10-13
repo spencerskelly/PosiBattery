@@ -18,7 +18,6 @@ supertypeOf:
 realizes:
   - "[[Measure Battery Temperature]]"
 dependencyOf:
-  - "[[Measure Battery Temperature]]"
   - "[[Battery Temperature Reporting to Charger]]"
   - "[[Direct Temperature Input Charge Compensation]]"
 designOf:

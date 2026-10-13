@@ -16,7 +16,6 @@ designOf:
 realizes:
   - "[[Record Images of Load Handling]]"
 dependencyOf:
-  - "[[Record Images of Load Handling]]"
 ---
 
 # Load-Handling Image Capture Design

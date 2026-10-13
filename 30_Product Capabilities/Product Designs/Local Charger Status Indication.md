@@ -17,7 +17,6 @@ supertypeOf:
 realizes:
   - "[[Indicate Charger Status Locally]]"
 dependencyOf:
-  - "[[Indicate Charger Status Locally]]"
 ---
 
 # Local Charger Status Indication

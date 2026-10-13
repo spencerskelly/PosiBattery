@@ -34,7 +34,6 @@ realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"
 dependsOn:
-  - "[[Battery-Charger Data Communication Design]]"
 realizedBy:
   - "[[Battery-Charger Data Communication Design]]"
 ---

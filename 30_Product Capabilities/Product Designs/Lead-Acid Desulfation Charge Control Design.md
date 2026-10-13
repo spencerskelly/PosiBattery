@@ -18,7 +18,6 @@ designOf:
 realizes:
   - "[[Desulfate Battery During Charge]]"
 dependencyOf:
-  - "[[Desulfate Battery During Charge]]"
 dependsOn:
   - "[[Charger Power Stage Design]]"
 ---

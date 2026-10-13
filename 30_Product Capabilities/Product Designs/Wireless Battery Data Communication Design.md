@@ -21,7 +21,6 @@ designOf:
 realizes:
   - "[[Transmit Battery Data Wirelessly]]"
 dependencyOf:
-  - "[[Transmit Battery Data Wirelessly]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
 ---

@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[CAN Interface]]"
-  - "[[CAN Battery State Communication Design]]"
 describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
 performedBy:

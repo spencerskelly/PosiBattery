@@ -15,7 +15,6 @@ subtypeOf:
 realizes:
   - "[[Estimate Remaining Run Time]]"
 dependencyOf:
-  - "[[Estimate Remaining Run Time]]"
 designOf:
   - "[[Remaining Runtime Estimation Software]]"
   - "[[HOPPECKE trak collect]]"

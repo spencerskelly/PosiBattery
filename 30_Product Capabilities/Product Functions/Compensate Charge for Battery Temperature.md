@@ -33,7 +33,6 @@ performedBy:
 realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 dependsOn:
-  - "[[Temperature-Compensated Charge Control Design]]"
 realizedBy:
   - "[[Temperature-Compensated Charge Control Design]]"
 ---

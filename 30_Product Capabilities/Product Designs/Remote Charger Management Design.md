@@ -23,7 +23,6 @@ designOf:
 realizes:
   - "[[Manage Chargers Remotely]]"
 dependencyOf:
-  - "[[Manage Chargers Remotely]]"
 ---
 
 # Remote Charger Management Design

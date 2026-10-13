@@ -973,8 +973,9 @@ records:
         exception: EXC-NOT-APPLICABLE
         note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
 
+  # 2026-10-12: reclassified from active_engineering; no longer named in the Step 89 realization record (see revision notes there).
   "30_Product Capabilities/Product Designs/Electrolyte-Immersed Temperature Sensor.md":
-    classification: active_engineering
+    classification: reference_content
 
   "30_Product Capabilities/Product Designs/Emergency Cut-Off Switch.md":
     classification: reference_content
@@ -1212,8 +1213,9 @@ records:
         exception: EXC-NOT-APPLICABLE
         note: "Reference Design/Function is retained for market comparison; no active engineering claim currently requires a standalone governed evidence relationship."
 
+  # 2026-10-12: reclassified from active_engineering; no longer named in the Step 89 realization record (see revision notes there).
   "30_Product Capabilities/Product Designs/Mobile App Interface.md":
-    classification: active_engineering
+    classification: reference_content
 
   # Added 2026-10-12: the end-to-end chain audit now names these as the realizing Designs for the two Functions.
   "30_Product Capabilities/Product Designs/Battery Temperature Reporting to Charger.md":

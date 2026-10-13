@@ -17,7 +17,6 @@ designOf:
 realizes:
   - "[[Measure Electrolyte Specific Gravity]]"
 dependencyOf:
-  - "[[Measure Electrolyte Specific Gravity]]"
 ---
 
 # In-Cell Specific Gravity Probe

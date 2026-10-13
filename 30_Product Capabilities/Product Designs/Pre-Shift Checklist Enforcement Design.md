@@ -18,7 +18,6 @@ designOf:
 realizes:
   - "[[Enforce Pre-Shift Checklist]]"
 dependencyOf:
-  - "[[Enforce Pre-Shift Checklist]]"
 dependsOn:
   - "[[Display Device Design]]"
   - "[[Vehicle Enable Interlock]]"

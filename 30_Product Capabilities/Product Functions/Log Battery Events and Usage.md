@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[Data Handling Design]]"
-  - "[[Battery Event and Usage Logging Design]]"
 describedBy:
   - "[[Metric - Data Storage]]"
 performedBy:

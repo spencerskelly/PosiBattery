@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Control Charge Profile]]"
 dependsOn:
   - "[[Integrated Battery Management System]]"
-  - "[[BMS-Directed Charge Control Design]]"
 performedBy:
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Fronius SelectION]]"

@@ -15,7 +15,6 @@ designOf:
 realizes:
   - "[[Lock Out Vehicle After Impact]]"
 dependencyOf:
-  - "[[Lock Out Vehicle After Impact]]"
 dependsOn:
   - "[[Impact Sensor]]"
   - "[[Vehicle Enable Interlock]]"

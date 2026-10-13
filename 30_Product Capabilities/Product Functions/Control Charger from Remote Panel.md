@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Charger Operator Interface Design]]"
-  - "[[Wired Remote Charger Control Design]]"
 performedBy:
   - "[[Crown V-HFM3 Wired Remote Control Kit]]"
   - "[[Wired Remote Charger Control Assembly]]"

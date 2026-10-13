@@ -16,7 +16,6 @@ performedBy:
   - "[[Load-Cell Battery Weight Measurement Assembly]]"
   - "[[Battery Weight Acquisition Firmware]]"
 dependsOn:
-  - "[[Battery Weight Determination Design]]"
 realizedBy:
   - "[[Battery Weight Determination Design]]"
 ---

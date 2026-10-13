@@ -24,7 +24,6 @@ performedBy:
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
 dependsOn:
-  - "[[Current Integration Amp-Hour Accumulation]]"
 realizedBy:
   - "[[Current Integration Amp-Hour Accumulation]]"
 ---

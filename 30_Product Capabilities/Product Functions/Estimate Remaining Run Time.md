@@ -15,7 +15,6 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Linde 6-8 t Electric Counterbalance Forklifts]]"
 dependsOn:
-  - "[[Remaining Runtime Estimation Design]]"
 realizedBy:
   - "[[Remaining Runtime Estimation Design]]"
 realizes:

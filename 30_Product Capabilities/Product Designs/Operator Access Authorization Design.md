@@ -19,7 +19,6 @@ designOf:
 realizes:
   - "[[Control Operator Access]]"
 dependencyOf:
-  - "[[Control Operator Access]]"
 dependsOn:
   - "[[Operator Identification Design]]"
 ---

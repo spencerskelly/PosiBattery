@@ -20,7 +20,6 @@ performedBy:
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
 dependsOn:
-  - "[[Deep Discharge Protection Design]]"
 realizedBy:
   - "[[Deep Discharge Protection Design]]"
 ---

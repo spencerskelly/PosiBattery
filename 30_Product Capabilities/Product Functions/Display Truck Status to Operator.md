@@ -11,7 +11,6 @@ tags:
 subtypeOf:
   - "[[Inform Operator of Truck Condition]]"
 dependsOn:
-  - "[[Vehicle Operator Display Design]]"
 performedBy:
   - "[[Operator Display Controller Circuit]]"
   - "[[Vehicle Operator Display Assembly]]"

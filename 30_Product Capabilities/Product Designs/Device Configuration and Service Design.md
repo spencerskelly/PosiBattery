@@ -23,7 +23,6 @@ designOf:
 realizes:
   - "[[Configure Device from Mobile App or PC]]"
 dependencyOf:
-  - "[[Configure Device from Mobile App or PC]]"
 supportedBy:
   - "[[Document - PosiCharge PosiConnect Product Page]]"
 ---

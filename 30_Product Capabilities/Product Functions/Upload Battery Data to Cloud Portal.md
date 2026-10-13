@@ -13,7 +13,6 @@ subtypeOf:
 dependsOn:
   - "[[Wireless Interface Design]]"
   - "[[Cloud Portal Integration]]"
-  - "[[Cloud Battery Data Upload Design]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[PosiCharge PosiGuard]]"

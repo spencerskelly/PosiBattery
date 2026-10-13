@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Communicate Battery and Vehicle Data]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
-  - "[[Wireless Battery Data Communication Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
 performedBy:

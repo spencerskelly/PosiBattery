@@ -17,7 +17,6 @@ performedBy:
   - "[[Capacity-Retention State of Health Estimator]]"
   - "[[Resistance-Trend State of Health Estimator]]"
 dependsOn:
-  - "[[Usage-History State of Health Analytics]]"
 realizedBy:
   - "[[Usage-History State of Health Analytics]]"
 ---

@@ -19,7 +19,6 @@ designOf:
 realizes:
   - "[[Log Battery Events and Usage]]"
 dependencyOf:
-  - "[[Log Battery Events and Usage]]"
 dependsOn:
   - "[[Non-Volatile Event Memory]]"
 supportedBy:

@@ -26,15 +26,17 @@ direct_realization_links:
 
   - function: "Report Battery Temperature to Charger"
     realizedBy:
-      - "Electrolyte-Immersed Temperature Sensor"
+      - "Battery Temperature Reporting to Charger"
     inverse_persisted: true
     assessment: "Direct implementation match for the BMID temperature value reported to the charger."
+    revision_note: "2026-10-12: originally recorded as realizedBy Electrolyte-Immersed Temperature Sensor. Superseded by user decision that supporting sensor designs are not linked directly to the next element type; the sensor supports this Function through Battery Temperature Measurement Design, which the Reporting Design dependsOn."
 
   - function: "Configure Device from Mobile App or PC"
     realizedBy:
-      - "Mobile App Interface"
+      - "Device Configuration and Service Design"
     inverse_persisted: true
     assessment: "Direct implementation match for PosiGuard local configuration/service behavior."
+    revision_note: "2026-10-12: originally recorded as realizedBy Mobile App Interface. Superseded by user decision; Mobile App Interface is a subtype of the service Design and supports this Function through it."
 
 existing_design_dependencies:
   - function: "Log Battery Events and Usage"

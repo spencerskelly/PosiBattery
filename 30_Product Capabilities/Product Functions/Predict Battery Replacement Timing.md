@@ -10,7 +10,6 @@ tags:
 subtypeOf:
   - "[[Inform Users of Battery Condition]]"
 dependsOn:
-  - "[[Battery Replacement Timing Prediction Design]]"
   - "[[Data Handling Design]]"
 performedBy:
   - "[[PosiCharge Battery Rx]]"

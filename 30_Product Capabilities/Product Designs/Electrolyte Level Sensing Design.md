@@ -18,7 +18,6 @@ supertypeOf:
 realizes:
   - "[[Sense Electrolyte Level]]"
 dependencyOf:
-  - "[[Sense Electrolyte Level]]"
   - "[[Alert on Low Electrolyte Level]]"
 designOf:
   - "[[Electrolyte Level Measurement Circuit]]"

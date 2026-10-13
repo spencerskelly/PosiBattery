@@ -14,7 +14,6 @@ supertypeOf:
 realizes:
   - "[[Detect Voltage Imbalance]]"
 dependencyOf:
-  - "[[Detect Voltage Imbalance]]"
 designOf:
   - "[[Voltage Imbalance Evaluation Firmware]]"
   - "[[Voltage Imbalance Comparator Circuit]]"

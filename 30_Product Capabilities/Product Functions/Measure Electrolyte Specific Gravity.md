@@ -17,7 +17,6 @@ performedBy:
   - "[[Specific Gravity Acquisition Firmware]]"
   - "[[AMETEK Prestolite Power TruBid]]"
 dependsOn:
-  - "[[In-Cell Specific Gravity Probe]]"
 realizedBy:
   - "[[In-Cell Specific Gravity Probe]]"
 ---

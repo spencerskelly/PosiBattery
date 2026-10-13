@@ -16,7 +16,6 @@ designOf:
 realizes:
   - "[[Complete Missed Equalization Automatically]]"
 dependencyOf:
-  - "[[Complete Missed Equalization Automatically]]"
 dependsOn:
   - "[[Equalization Event Tracking Design]]"
 ---

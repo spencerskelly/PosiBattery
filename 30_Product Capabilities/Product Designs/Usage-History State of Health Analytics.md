@@ -17,7 +17,6 @@ designOf:
 realizes:
   - "[[Estimate State of Health]]"
 dependencyOf:
-  - "[[Estimate State of Health]]"
 ---
 
 # Usage-History State of Health Analytics

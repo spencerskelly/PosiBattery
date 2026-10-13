@@ -11,8 +11,6 @@ tags:
 subtypeOf:
   - "[[Maintain Battery Electrolyte]]"
 dependsOn:
-  - "[[Forced Electrolyte Circulation]]"
-  - "[[Air Injection Electrolyte Circulation]]"
 performedBy:
   - "[[GS Yuasa Traction Battery (Europe)]]"
   - "[[HAWKER Perfect Plus Battery]]"

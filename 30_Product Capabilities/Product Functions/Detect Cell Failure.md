@@ -15,7 +15,6 @@ performedBy:
   - "[[Cell Failure Threshold Circuit]]"
   - "[[AMETEK Prestolite Power TruBid]]"
 dependsOn:
-  - "[[Cell Failure Diagnostic Design]]"
 realizedBy:
   - "[[Cell Failure Diagnostic Design]]"
 realizes:

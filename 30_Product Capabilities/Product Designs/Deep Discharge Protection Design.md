@@ -15,7 +15,6 @@ supertypeOf:
 realizes:
   - "[[Protect Battery from Deep Discharge]]"
 dependencyOf:
-  - "[[Protect Battery from Deep Discharge]]"
 ---
 
 # Deep Discharge Protection Design

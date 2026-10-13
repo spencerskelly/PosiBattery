@@ -17,7 +17,6 @@ designOf:
 realizes:
   - "[[Detect Cell Failure]]"
 dependencyOf:
-  - "[[Detect Cell Failure]]"
 ---
 
 # Cell Failure Diagnostic Design

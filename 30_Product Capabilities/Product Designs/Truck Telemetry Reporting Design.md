@@ -19,7 +19,6 @@ designOf:
 realizes:
   - "[[Report Truck Telemetry]]"
 dependencyOf:
-  - "[[Report Truck Telemetry]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
 ---

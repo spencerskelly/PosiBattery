@@ -14,7 +14,6 @@ realizes:
   - "[[Indicate Battery Status Locally]]"
 dependencyOf:
   - "[[Alert Operator of Hazards]]"
-  - "[[Indicate Battery Status Locally]]"
 ---
 
 # Warning and Display Device Design

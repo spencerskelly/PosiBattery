@@ -12,7 +12,6 @@ subtypeOf:
   - "[[Protect Battery from Harm]]"
 dependsOn:
   - "[[CAN Interface]]"
-  - "[[CAN Vehicle Operating Limit Command]]"
 performedBy:
   - "[[EnerSys Wi-iQ]]"
   - "[[Vehicle Operating Limit Command Firmware]]"

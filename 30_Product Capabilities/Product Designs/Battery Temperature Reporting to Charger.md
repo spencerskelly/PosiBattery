@@ -21,7 +21,6 @@ designOf:
 realizes:
   - "[[Report Battery Temperature to Charger]]"
 dependencyOf:
-  - "[[Report Battery Temperature to Charger]]"
   - "[[Communicated Battery Temperature Charge Compensation]]"
 dependsOn:
   - "[[Battery Temperature Measurement Design]]"

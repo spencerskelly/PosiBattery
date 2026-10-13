@@ -14,7 +14,6 @@ supertypeOf:
 realizes:
   - "[[Detect Battery Weight]]"
 dependencyOf:
-  - "[[Detect Battery Weight]]"
 ---
 
 # Battery Weight Determination Design

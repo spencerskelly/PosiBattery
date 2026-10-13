@@ -21,7 +21,6 @@ designOf:
 realizes:
   - "[[Charge Under BMS Control]]"
 dependencyOf:
-  - "[[Charge Under BMS Control]]"
 dependsOn:
   - "[[Integrated Battery Management System]]"
   - "[[Charger Power Stage Design]]"

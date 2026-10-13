@@ -22,7 +22,6 @@ designOf:
 realizes:
   - "[[Predict Battery Replacement Timing]]"
 dependencyOf:
-  - "[[Predict Battery Replacement Timing]]"
 ---
 
 # Battery Replacement Timing Prediction Design

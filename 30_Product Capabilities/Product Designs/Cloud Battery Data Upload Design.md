@@ -26,7 +26,6 @@ designOf:
 realizes:
   - "[[Upload Battery Data to Cloud Portal]]"
 dependencyOf:
-  - "[[Upload Battery Data to Cloud Portal]]"
 ---
 
 # Cloud Battery Data Upload Design

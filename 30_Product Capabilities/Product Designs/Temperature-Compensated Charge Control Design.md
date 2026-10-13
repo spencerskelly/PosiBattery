@@ -31,7 +31,6 @@ designOf:
 realizes:
   - "[[Compensate Charge for Battery Temperature]]"
 dependencyOf:
-  - "[[Compensate Charge for Battery Temperature]]"
 dependsOn:
   - "[[Charger Power Stage Design]]"
 ---

@@ -17,7 +17,6 @@ designOf:
 realizes:
   - "[[Diagnose Vehicle Remotely]]"
 dependencyOf:
-  - "[[Diagnose Vehicle Remotely]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
 ---

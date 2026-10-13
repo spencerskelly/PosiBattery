@@ -24,7 +24,6 @@ designOf:
 realizes:
   - "[[Calculate Battery Abuse Cycles]]"
 dependencyOf:
-  - "[[Calculate Battery Abuse Cycles]]"
 ---
 
 # Battery Abuse Cycle Analytics

@@ -22,7 +22,6 @@ designOf:
 realizes:
   - "[[Export Battery Data to PC]]"
 dependencyOf:
-  - "[[Export Battery Data to PC]]"
 ---
 
 # PC Battery Data Export Design

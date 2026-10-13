@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
-  - "[[Remote Vehicle Diagnostics Design]]"
 performedBy:
   - "[[TUG Endurance Baggage Tractor]]"
   - "[[TUG ALPHA 1 Pushback]]"

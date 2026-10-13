@@ -26,7 +26,6 @@ realizes:
   - "[[Track Equalization]]"
 dependencyOf:
   - "[[Missed Equalization Recovery Design]]"
-  - "[[Track Equalization]]"
 ---
 
 # Equalization Event Tracking Design

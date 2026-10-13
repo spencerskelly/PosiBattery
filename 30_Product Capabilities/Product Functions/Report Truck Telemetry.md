@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
-  - "[[Truck Telemetry Reporting Design]]"
 performedBy:
   - "[[Adveez Asset and Operations Monitoring System]]"
   - "[[Crown InfoLink]]"

@@ -11,7 +11,6 @@ subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
   - "[[Operator Identification Design]]"
-  - "[[Operator Access Authorization Design]]"
 performedBy:
   - "[[Crown InfoLink]]"
   - "[[Hyster Tracker Telemetry]]"

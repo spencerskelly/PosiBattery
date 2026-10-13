@@ -11,7 +11,6 @@ tags:
 subtypeOf:
   - "[[Manage Fleet Use]]"
 dependsOn:
-  - "[[Local Charger Status Indication]]"
 performedBy:
   - "[[Charger Status LED Bar Assembly]]"
   - "[[LED Status Indicator Element]]"

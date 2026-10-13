@@ -25,7 +25,6 @@ designOf:
 realizes:
   - "[[Accumulate Amp-Hours]]"
 dependencyOf:
-  - "[[Accumulate Amp-Hours]]"
 ---
 
 # Current Integration Amp-Hour Accumulation
