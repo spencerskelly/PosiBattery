@@ -66,7 +66,7 @@ Only one of the 24 is in the Demand Evidence Source Register ("When Does a Smart
 
 ### 4. Image-only or unreadable files
 
-Five PDFs have almost no extractable text: `Battery_state-of-charge_observer.pdf`, `Battery-Care-Maintenance.pdf`, `SA-2014-Forklift-Battery.pdf`, `Forklift-and-Equipment-Batteries-General-Brochure-V2.pdf` and `H4-1.5-3.8t-Lithium-battery-forklift-FLH4002-EN.pdf`. Each is referenced by one vault note, so they are not unseen, but their figures were not checked here. An OCR pass is the only way to confirm nothing is missing; the observer paper is the one estimation paper that was not read in full text and should be OCRed first.
+Five PDFs have almost no extractable text: `Battery_state-of-charge_observer.pdf`, `Battery-Care-Maintenance.pdf`, `SA-2014-Forklift-Battery.pdf`, `Forklift-and-Equipment-Batteries-General-Brochure-V2.pdf` and `H4-1.5-3.8t-Lithium-battery-forklift-FLH4002-EN.pdf`. Each is referenced by one vault note, so they are not unseen, but their figures were not checked here. An OCR pass is the only way to confirm nothing is missing. The observer file is the GM patent US 8,922,217, already reviewed as source 7 of the literature review, so it is the lowest priority.
 
 ### 5. Open questions for the vault owner
 
