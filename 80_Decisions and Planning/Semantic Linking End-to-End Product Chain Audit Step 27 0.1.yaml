@@ -60,8 +60,10 @@ chains:
       element: "Report Battery Temperature to Charger"
     design_architecture:
       type: "Design"
-      element: "Electrolyte-Immersed Temperature Sensor"
+      element: "Battery Temperature Reporting to Charger"
       relationship: "realizedBy / realizes"
+      supporting_designs_not_directly_linked: "Electrolyte-Immersed Temperature Sensor (via Battery Temperature Measurement Design)"
+      revision_note: "2026-10-12: earlier text named Electrolyte-Immersed Temperature Sensor as the direct realizing Design. Superseded: a sensor supports the Function through the Reporting Design rather than realizing it directly."
       contextual_architecture: "PosiCharge BMID Product Assembly Local Model"
     verification: "Verify BMID Battery Condition Information Delivery"
     result: "complete modeled chain"
@@ -119,8 +121,10 @@ chains:
       element: "Configure Device from Mobile App or PC"
     design_architecture:
       type: "Design"
-      element: "Mobile App Interface"
+      element: "Device Configuration and Service Design"
       relationship: "realizedBy / realizes"
+      supporting_designs_not_directly_linked: "Mobile App Interface (subtype of the service Design)"
+      revision_note: "2026-10-12: earlier text named Mobile App Interface as the direct realizing Design. Superseded: it supports the Function through the service Design rather than realizing it directly."
     verification: "Verify PosiGuard Local Service Configuration"
     result: "accepted unresolved upstream Customer Need; downstream engineering chain complete"
 

@@ -38,6 +38,18 @@ Each edit deletes exactly one frontmatter list item. Zero lines were added. No `
 - Vault audit blocking findings: **13 → 2**.
 - CI results to be added below after push.
 
+## Follow-on gate work (2026-10-12, same session)
+
+| Item | Change | Evidence |
+| --- | --- | --- |
+| 3 disposition registry errors | Entries for three retired SOC algorithm Designs commented out in `Semantic Linking Review Dispositions 0.1.yaml`, text preserved | Notes no longer exist (retired in `aa369a95`, `7c00bd27`, `df4b9a55`); registry errors 3 → 0 |
+| 3 realizing Designs without curated source | `supportedBy` added on the Designs; `supports` added on [[Document - PosiCharge BMID FAQ]] and [[Document - PosiCharge PosiConnect Product Page]], with scope limits written on those notes | Quotes from the live pages, re-read 2026-10-12; high-value evidence findings 3 → 0 |
+| 2 end-to-end Function ↔ Design inverse findings | User decision: supporting designs need not link directly to the next element type. Chain spec in `review-end-to-end-product-chains.py` and Step 27 YAML now name the Designs that realize the Functions ([[Battery Temperature Reporting to Charger]], [[Device Configuration and Service Design]]); the earlier names ([[Electrolyte-Immersed Temperature Sensor]], [[Mobile App Interface]]) are kept as revision notes. Both new Designs classified `active_engineering` in the dispositions registry | Functions are already `realizedBy` those Designs with inverses; findings 2 → 0 |
+
+Conflict record: the Step 27 YAML (2026-10-05) named the sensor and the app interface as direct realizing Designs. That text is superseded, not erased. The same YAML file already fails to parse (a `note:` key under a list, near the `supplemental_active_architecture_gaps` block); this was true before the edit and is not yet repaired.
+
+Still failing locally: weak-traceability priority review (51 weak-queue registry findings, plus the legacy weak findings).
+
 ## Handoff
 1. Remaining gate failures outside this batch: 3 disposition registry errors, 2 end-to-end Function ↔ Design inverse pairs, 3 Designs without curated sources, 1 active weak-traceability item.
 2. README and Runtime Handoff State still cite the older 256 missing-inverse / 75 incompatible-endpoint baseline; keep those numbers visible as the conflict record when updating.

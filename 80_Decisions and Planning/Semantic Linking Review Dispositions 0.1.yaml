@@ -1215,6 +1215,13 @@ records:
   "30_Product Capabilities/Product Designs/Mobile App Interface.md":
     classification: active_engineering
 
+  # Added 2026-10-12: the end-to-end chain audit now names these as the realizing Designs for the two Functions.
+  "30_Product Capabilities/Product Designs/Battery Temperature Reporting to Charger.md":
+    classification: active_engineering
+
+  "30_Product Capabilities/Product Designs/Device Configuration and Service Design.md":
+    classification: active_engineering
+
   "30_Product Capabilities/Product Designs/Modular Power Modules.md":
     classification: reference_content
 

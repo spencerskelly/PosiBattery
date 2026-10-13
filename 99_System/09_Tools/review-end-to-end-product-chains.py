@@ -78,7 +78,9 @@ specs=[
     "need":"Charge Each Battery Correctly for Its Chemistry and Condition",
     "satisfier":"Report Battery Temperature to Charger",
     "satisfier_type":"Function",
-    "implementation":"Electrolyte-Immersed Temperature Sensor",
+    # 2026-10-12: was "Electrolyte-Immersed Temperature Sensor". That sensor is a supporting sub-Design
+    # (via Battery Temperature Measurement Design); the Function is realized by the Reporting Design.
+    "implementation":"Battery Temperature Reporting to Charger",
     "implementation_relation":"realizedBy",
     "known_gap":None,
     "architecture":"PosiCharge BMID Product Assembly Local Model",
@@ -131,7 +133,8 @@ specs=[
     "need":None,
     "satisfier":"Configure Device from Mobile App or PC",
     "satisfier_type":"Function",
-    "implementation":"Mobile App Interface",
+    # 2026-10-12: was "Mobile App Interface". That interface is a supporting sub-Design of the service Design.
+    "implementation":"Device Configuration and Service Design",
     "implementation_relation":"realizedBy",
     "known_gap":"upstream_customer_need",
     "gap_code":"EXC-EVIDENCE-PENDING",
