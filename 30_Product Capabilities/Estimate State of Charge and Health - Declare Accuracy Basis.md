@@ -10,8 +10,18 @@ tags:
   - state-of-health
   - candidate-from-research
 appliesTo:
-  - "[[Estimate State of Charge]]"
-  - "[[Estimate State of Health]]"
+  - "[[Model-Based State of Charge Estimator Firmware]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+satisfiedBy:
+  - "[[Declare Estimator Accuracy Basis]]"
+verifiedBy:
+  - "[[Verify Estimator Accuracy Basis Declaration]]"
+supportedBy:
+  - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
+  - "[[Document - Margal et al. Comparative Analysis of Battery State of Charge Estimation Methods (2025)]]"
+references:
+  - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
+  - "[[Document - Margal et al. Comparative Analysis of Battery State of Charge Estimation Methods (2025)]]"
 ---
 
 # Estimate State of Charge and Health - Declare Accuracy Basis

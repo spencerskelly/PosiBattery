@@ -18,6 +18,9 @@ describes:
   - "[[Segment Discharge Cycles]]"
   - "[[Capacity-Retention State of Health Estimator]]"
   - "[[Resistance-Trend State of Health Estimator]]"
+  - "[[Report State of Health Threshold Crossings]]"
+  - "[[Declare Estimator Accuracy Basis]]"
+  - "[[Discharge Cycle Segmentation Firmware]]"
 ---
 
 # SOC and Health Estimation Literature Review

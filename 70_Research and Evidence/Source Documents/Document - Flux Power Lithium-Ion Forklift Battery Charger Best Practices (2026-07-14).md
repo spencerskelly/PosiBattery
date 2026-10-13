@@ -9,7 +9,9 @@ tags:
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
+sourceClass: web-page
+sourceUrl: "https://www.fluxpower.com/blog/fleet-battery-charger-best-practices"
+accessed: 2026-10-13
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[Flux Power]]"
@@ -26,7 +28,7 @@ Charger matching, opportunity charging, temperature and maintenance guidance fro
 - **Local artifact:** `Lithium-Ion Forklift Battery Chargers_ Best Practices Guide.pdf` in `Downloads`.
 - **Author or publisher:** Flux Power (manufacturer blog post; Flux Power makes lithium forklift and GSE batteries).
 - **Date:** 2026-07-14.
-- **Original web address:** not captured in the saved copy.
+- **Original web address:** https://www.fluxpower.com/blog/fleet-battery-charger-best-practices (fetched 2026-10-13; page title 'Lithium-Ion Forklift Battery Chargers: Best Practices Guide', published July 14, 2026, matching the saved copy's date).
 - **Evidence tier:** T4 (third-party blog, vendor marketing or templated post; see [[Landscape Evidence and Modeling Conventions]]). The author or publisher has a commercial interest in the subject unless stated otherwise.
 - **Local copy reviewed:** 2026-10-13 (full text read).
 

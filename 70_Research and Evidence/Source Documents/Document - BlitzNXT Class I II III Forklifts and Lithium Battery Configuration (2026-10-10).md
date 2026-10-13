@@ -9,7 +9,9 @@ tags:
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
+sourceClass: web-page
+sourceUrl: "https://www.blitznxt.com/class-i-ii-iii-forklifts-and-the-right-lithium-battery-configuration/"
+accessed: 2026-10-13
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[BlitzNXT LiFePO4 Forklift Battery]]"
@@ -27,7 +29,7 @@ Maps OSHA truck classes to typical voltage and capacity and lists BlitzNXT model
 - **Local artifact:** `(3) Class I, II, III Forklifts and the Right Lithium Battery Configuration _ LinkedIn.pdf` in `Downloads`.
 - **Author or publisher:** LinkedIn page 'blitznxt' (3 followers at capture). BlitzNXT sells LiFePO4 forklift batteries and each post ends with a product pitch, so the posts are supplier-authored.
 - **Date:** 2026-10-10.
-- **Original web address:** not captured in the saved copy.
+- **Original web address:** https://www.blitznxt.com/class-i-ii-iii-forklifts-and-the-right-lithium-battery-configuration/ (matches the BlitzNXT website post of the same topic (title and subject matched; dates differ because the saved copy is the LinkedIn post, the website shows the original post date; text not compared line by line)).
 - **Evidence tier:** T4 (third-party blog, vendor marketing or templated post; see [[Landscape Evidence and Modeling Conventions]]). The author or publisher has a commercial interest in the subject unless stated otherwise.
 - **Local copy reviewed:** 2026-10-13 (full text read).
 

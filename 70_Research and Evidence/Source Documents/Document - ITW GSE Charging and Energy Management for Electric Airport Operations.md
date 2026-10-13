@@ -9,7 +9,9 @@ tags:
   - tier-T4
   - industry-data
   - vendor-webpage
-sourceClass: vendor-webpage
+sourceUrl: "https://itwgse.com/gse-charging-and-energy-management-for-electric-airport-operations/"
+sourceClass: web-page
+accessed: 2026-10-13
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[ITW GSE]]"
@@ -27,7 +29,7 @@ Manufacturer page on coordinated GSE charging and gate power sharing.
 - **Local artifact:** `GSE Charging & Energy Management for Airports.pdf` in `Downloads`.
 - **Author or publisher:** ITW GSE (manufacturer web page; copyright 2026, undated).
 - **Date:** undated (2026).
-- **Original web address:** not captured in the saved copy.
+- **Original web address:** https://itwgse.com/gse-charging-and-energy-management-for-electric-airport-operations/ (matched by exact page title in a web search on 2026-10-13; the page itself was not fetched, so the saved PDF remains the reviewed copy).
 - **Evidence tier:** T4 (third-party blog, vendor marketing or templated post; see [[Landscape Evidence and Modeling Conventions]]). The author or publisher has a commercial interest in the subject unless stated otherwise.
 - **Local copy reviewed:** 2026-10-13 (full text read).
 

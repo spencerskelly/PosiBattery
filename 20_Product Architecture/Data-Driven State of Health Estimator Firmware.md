@@ -17,8 +17,15 @@ dependsOn:
   - "[[Segment Discharge Cycles]]"
 performs:
   - "[[Estimate State of Health]]"
+  - "[[Report State of Health Threshold Crossings]]"
+  - "[[Declare Estimator Accuracy Basis]]"
 describedBy:
   - "[[SOC and Health Estimation Literature Review]]"
+  - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
+  - "[[Document - Giuliano et al. Transformer-Based Transfer Learning for Battery State-of-Health Estimation (2025)]]"
+applies:
+  - "[[Estimate State of Health - Report Configured Threshold Crossings]]"
+  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
 ---
 
 # Data-Driven State of Health Estimator Firmware

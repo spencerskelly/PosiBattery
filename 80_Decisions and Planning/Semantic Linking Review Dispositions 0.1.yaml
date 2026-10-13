@@ -2531,3 +2531,37 @@ records:
         disposition: intentionally_absent
         exception: EXC-RESEARCH-ONLY
         note: "Generic reference values from supplied documents; no model relationship is asserted until values are merged into Metric notes."
+  "30_Product Capabilities/Estimate State of Health - Report Configured Threshold Crossings.md":
+    classification: active_engineering
+  "30_Product Capabilities/Estimate State of Charge and Health - Declare Accuracy Basis.md":
+    classification: active_engineering
+  "70_Research and Evidence/Research/Downloads Value Screening Register.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Screening record of which Downloads files hold industry data; it asserts no model relationship."
+      downstream:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Screening record of which Downloads files hold industry data; it asserts no model relationship."
+      evidence:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Screening record of which Downloads files hold industry data; it asserts no model relationship."
+      ownership_use:
+        disposition: intentionally_absent
+        exception: EXC-RESEARCH-ONLY
+        note: "Screening record of which Downloads files hold industry data; it asserts no model relationship."
+  "30_Product Capabilities/Product Functions/Segment Discharge Cycles.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Candidate function from research; no Requirement or Use Case needs it yet."
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Candidate function from research; the literature review describes it and no product claim depends on it."

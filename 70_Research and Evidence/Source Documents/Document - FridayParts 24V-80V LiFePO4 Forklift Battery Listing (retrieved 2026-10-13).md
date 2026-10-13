@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T3
   - industry-data
-sourceClass: reseller-listing
+sourceClass: web-page
 sourceUrl: "https://www.fridayparts.com/24v-80v-lifepo4-forklift-battery-230ah-920ah-lithium-power-solutions-100a-175a-discharge-ip67-rated-2000-3000-cycles-for-industrial-use"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

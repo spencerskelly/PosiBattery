@@ -15,6 +15,8 @@ dependencyOf:
   - "[[Data-Driven State of Health Estimator Firmware]]"
 describedBy:
   - "[[SOC and Health Estimation Literature Review]]"
+performedBy:
+  - "[[Discharge Cycle Segmentation Firmware]]"
 ---
 
 # Segment Discharge Cycles

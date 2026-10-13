@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00013
+id: INFO-90020
 uid: 20261013150000001skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -49,3 +48,4 @@ Checklist for replacing lead-acid with lithium in heavy-duty vehicles and fleets
 
 
 ## Former ids
+- DOC-00013

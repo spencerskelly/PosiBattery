@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00018
+id: INFO-90026
 uid: 20261013150000006skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -46,3 +45,4 @@ Short post asking whether every added battery feature is needed.
 
 
 ## Former ids
+- DOC-00018

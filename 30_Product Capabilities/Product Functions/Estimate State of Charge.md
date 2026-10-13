@@ -37,8 +37,6 @@ realizedBy:
   - "[[State of Charge Estimation Design]]"
 supportedBy:
   - "[[Document - PosiCharge GSE BMID Page]]"
-applies:
-  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
 ---
 
 # Estimate State of Charge
@@ -105,7 +103,7 @@ These candidate firmware implementations are intentionally unallocated until a p
 
 ### Requirements (added 2026-10-13)
 
-[[Estimate State of Charge and Health - Declare Accuracy Basis]] applies to this Function. It is a Draft proposal from the literature review with no stakeholder source and sets no numeric value. This supersedes the earlier statement above that no Requirement is linked; no Requirement is satisfied or verified yet.
+[[Estimate State of Charge and Health - Declare Accuracy Basis]] is related to this Function by subject but is scoped to the estimator candidates ([[Model-Based State of Charge Estimator Firmware]], [[Data-Driven State of Health Estimator Firmware]]), not to this Function (a Requirement's appliesTo must name an Object). It is a Draft proposal from the literature review with no stakeholder source and sets no numeric value; it is satisfied on paper by the candidate Function [[Declare Estimator Accuracy Basis]] and has verification intent only.
 
 ## Aliases
 

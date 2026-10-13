@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00019
+id: INFO-90023
 uid: 20261013150000007skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -50,3 +49,4 @@ Five maintenance areas for lithium forklift batteries.
 
 
 ## Former ids
+- DOC-00019

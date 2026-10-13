@@ -9,7 +9,9 @@ tags:
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
+sourceClass: web-page
+sourceUrl: "https://itwgse.com/news/charging-bottlenecks-arent-about-fleet-size-theyre-about-system-design/"
+accessed: 2026-10-13
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[ITW GSE]]"
@@ -27,7 +29,7 @@ Manufacturer post arguing that GSE charging bottlenecks come from system design,
 - **Local artifact:** `Scale Electric GSE Charging Without Bottlenecks.pdf` in `Downloads`.
 - **Author or publisher:** ITW GSE (manufacturer post dated 2026-04-23).
 - **Date:** 2026-04-23.
-- **Original web address:** not captured in the saved copy.
+- **Original web address:** https://itwgse.com/news/charging-bottlenecks-arent-about-fleet-size-theyre-about-system-design/ (fetched 2026-10-13; HTML title 'Scale Electric GSE Charging Without Bottlenecks', dated April 23, 2026, matching the saved copy).
 - **Evidence tier:** T4 (third-party blog, vendor marketing or templated post; see [[Landscape Evidence and Modeling Conventions]]). The author or publisher has a commercial interest in the subject unless stated otherwise.
 - **Local copy reviewed:** 2026-10-13 (full text read).
 

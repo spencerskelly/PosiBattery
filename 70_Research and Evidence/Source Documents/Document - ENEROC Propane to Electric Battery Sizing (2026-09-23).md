@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00026
+id: INFO-90017
 uid: 20261013150000014skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[ENEROC]]"
@@ -52,3 +51,4 @@ Method for sizing a lithium battery to replace a propane forklift.
 
 
 ## Former ids
+- DOC-00026

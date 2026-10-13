@@ -21,6 +21,7 @@ dependencyOf:
   - "[[Model-Based State of Charge Estimator Firmware]]"
   - "[[Data-Driven State of Health Estimator Firmware]]"
   - "[[Resistance-Trend State of Health Estimator]]"
+  - "[[Discharge Cycle Segmentation Firmware]]"
 partOf:
   - "[[AMETEK Prestolite Power WBID]]"
   - "[[AMETEK Prestolite Power WBID Pro]]"

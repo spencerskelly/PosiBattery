@@ -26,6 +26,7 @@ dependencyOf:
   - "[[Model-Based State of Charge Estimator Firmware]]"
   - "[[Data-Driven State of Health Estimator Firmware]]"
   - "[[Resistance-Trend State of Health Estimator]]"
+  - "[[Discharge Cycle Segmentation Firmware]]"
 ---
 
 # Battery Voltage Acquisition Firmware

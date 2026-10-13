@@ -21,9 +21,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[Usage-History State of Health Analytics]]"
-applies:
-  - "[[Estimate State of Health - Report Configured Threshold Crossings]]"
-  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
+supertypeOf:
+  - "[[Report State of Health Threshold Crossings]]"
 ---
 
 # Estimate State of Health
@@ -75,7 +74,7 @@ Inventus defines battery SOH as battery capacity relative to initial capacity an
 
 ### Requirements (added 2026-10-13)
 
-[[Estimate State of Health - Report Configured Threshold Crossings]] and [[Estimate State of Charge and Health - Declare Accuracy Basis]] apply to this Function. Both are Draft proposals from the literature review with no stakeholder source, and neither sets numeric values. This supersedes the earlier statement above that no Requirement is linked; the gap is no longer empty, but no Requirement is satisfied or verified yet.
+[[Estimate State of Health - Report Configured Threshold Crossings]] and [[Estimate State of Charge and Health - Declare Accuracy Basis]] are Draft proposals from the literature review with no stakeholder source, and neither sets numeric values. They are scoped to the estimator candidate Objects (a Requirement's appliesTo must name an Object), satisfied on paper by the candidate Functions [[Report State of Health Threshold Crossings]] and [[Declare Estimator Accuracy Basis]], and have verification intent only.
 
 ## Aliases
 

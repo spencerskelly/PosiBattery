@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T2
   - industry-data
-sourceClass: trade-press
+sourceClass: article
 sourceUrl: "https://www.insidelogistics.ca/mergers-acquisitions/rockwell-automation-buys-otto-motors-187629/"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

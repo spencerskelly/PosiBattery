@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T1
   - industry-data
-sourceClass: manufacturer-page
+sourceClass: web-page
 sourceUrl: "https://greencubes.com/blog/lithium-safeflex-case-study-agv-opportunity-charging/"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

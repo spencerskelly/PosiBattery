@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T2
   - industry-data
-sourceClass: press-release
+sourceClass: article
 sourceUrl: "https://about.bnef.com/insights/clean-energy/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

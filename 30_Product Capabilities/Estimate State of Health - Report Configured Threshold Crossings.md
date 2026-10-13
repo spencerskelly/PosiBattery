@@ -9,7 +9,17 @@ tags:
   - state-of-health
   - candidate-from-research
 appliesTo:
-  - "[[Estimate State of Health]]"
+  - "[[Data-Driven State of Health Estimator Firmware]]"
+satisfiedBy:
+  - "[[Report State of Health Threshold Crossings]]"
+verifiedBy:
+  - "[[Verify State of Health Threshold Crossing Reporting]]"
+supportedBy:
+  - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
+  - "[[Document - Giuliano et al. Transformer-Based Transfer Learning for Battery State-of-Health Estimation (2025)]]"
+references:
+  - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
+  - "[[Document - Giuliano et al. Transformer-Based Transfer Learning for Battery State-of-Health Estimation (2025)]]"
 ---
 
 # Estimate State of Health - Report Configured Threshold Crossings

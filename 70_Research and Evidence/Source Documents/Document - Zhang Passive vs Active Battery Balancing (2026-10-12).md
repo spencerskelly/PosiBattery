@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00020
+id: INFO-90024
 uid: 20261013150000008skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -48,3 +47,4 @@ Compares passive and active cell balancing for AGV, AMR and UGV packs.
 
 
 ## Former ids
+- DOC-00020

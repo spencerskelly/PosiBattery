@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00015
+id: INFO-90027
 uid: 20261013150000003skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -49,3 +48,4 @@ Sets out when lithium makes economic sense for forklifts and why communication a
 
 
 ## Former ids
+- DOC-00015

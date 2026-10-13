@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T1
   - industry-data
-sourceClass: manufacturer-page
+sourceClass: web-page
 sourceUrl: "https://ottomotors.com/resources/case-studies/mauser/"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

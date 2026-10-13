@@ -9,7 +9,9 @@ tags:
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
+sourceClass: web-page
+sourceUrl: "https://www.blitznxt.com/how-lithium-forklift-batteries-free-up-warehouse-floor-space/"
+accessed: 2026-10-13
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[BlitzNXT LiFePO4 Forklift Battery]]"
@@ -27,7 +29,7 @@ Argues lithium and opportunity charging remove the need for a battery room.
 - **Local artifact:** `(3) How Lithium Forklift Batteries Free Up Warehouse Floor Space _ LinkedIn.pdf` in `Downloads`.
 - **Author or publisher:** LinkedIn page 'blitznxt' (3 followers at capture). BlitzNXT sells LiFePO4 forklift batteries and each post ends with a product pitch, so the posts are supplier-authored.
 - **Date:** 2026-10-03.
-- **Original web address:** not captured in the saved copy.
+- **Original web address:** https://www.blitznxt.com/how-lithium-forklift-batteries-free-up-warehouse-floor-space/ (matches the BlitzNXT website post of the same topic (title and subject matched; dates differ because the saved copy is the LinkedIn post, the website shows the original post date; text not compared line by line)).
 - **Evidence tier:** T4 (third-party blog, vendor marketing or templated post; see [[Landscape Evidence and Modeling Conventions]]). The author or publisher has a commercial interest in the subject unless stated otherwise.
 - **Local copy reviewed:** 2026-10-13 (full text read).
 

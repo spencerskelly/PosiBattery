@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00016
+id: INFO-90022
 uid: 20261013150000004skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -51,3 +50,4 @@ Explains AGV battery selection by duty cycle, current, opportunity charging, BMS
 
 
 ## Former ids
+- DOC-00016

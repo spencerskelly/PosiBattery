@@ -133,6 +133,11 @@ Lead-acid battery makers listed: Johnson Controls, Exide Technologies, East Penn
 
 Related: [[Downloads Value Screening Register]], [[Demand Evidence Source Register]], [[Generic Reference Values]], [[Battery Product Landscape Conflicts and Open Questions]], [[Flux Power]]
 
+## Evidence status of the captured posts (2026-10-13 CI fix)
+
+- **Source address verified or matched:** BlitzNXT posts (DOC-00021 to DOC-00025: website posts of the same topics found, dates differ from the saved LinkedIn copies, text not compared), Flux Power guide (DOC-00027, fetched, date matches), ITW GSE Scale Electric post (DOC-00029, fetched, title and date match), ITW GSE charging page (DOC-00028).
+- **No public address recoverable:** the eight Zhang LinkedIn posts, the ENEROC LinkedIn article and the eleven market-report posts. A governed Document needs a source address, so these ten are now Info notes (INFO-90017 to INFO-90027, former ids DOC-00013 to DOC-00020, DOC-00026 and DOC-00030) tagged `unlinked-capture`. Their content and tier T4 are unchanged.
+
 ## Aliases
 
 - Industry articles register

@@ -21,6 +21,7 @@ supertypeOf:
   - "[[Measure Electrolyte Specific Gravity]]"
   - "[[Sense Electrolyte Level]]"
   - "[[Segment Discharge Cycles]]"
+  - "[[Declare Estimator Accuracy Basis]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

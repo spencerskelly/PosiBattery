@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00017
+id: INFO-90021
 uid: 20261013150000005skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -51,3 +50,4 @@ Argues that AMR and AGV batteries are part of the automation data loop and that 
 
 
 ## Former ids
+- DOC-00017

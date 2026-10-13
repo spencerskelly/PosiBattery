@@ -8,7 +8,7 @@ tags:
   - source-document
   - tier-T2
   - industry-data
-sourceClass: trade-press
+sourceClass: article
 sourceUrl: "https://www.supplychain247.com/article/lithium_battery_company_eneroc_usa_launches_operations_in_north_america"
 describes:
   - "[[Industry Data Register from Downloads Articles]]"

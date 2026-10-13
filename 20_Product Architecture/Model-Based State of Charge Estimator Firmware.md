@@ -17,8 +17,12 @@ dependsOn:
   - "[[Battery Current Acquisition Firmware]]"
 performs:
   - "[[Estimate State of Charge]]"
+  - "[[Declare Estimator Accuracy Basis]]"
 describedBy:
   - "[[SOC and Health Estimation Literature Review]]"
+  - "[[Document - Margal et al. Comparative Analysis of Battery State of Charge Estimation Methods (2025)]]"
+applies:
+  - "[[Estimate State of Charge and Health - Declare Accuracy Basis]]"
 ---
 
 # Model-Based State of Charge Estimator Firmware

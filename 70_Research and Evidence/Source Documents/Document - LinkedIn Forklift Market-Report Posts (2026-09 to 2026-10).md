@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00030
+id: INFO-90019
 uid: 20261013150000018skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - market-report-posts
-sourceClass: market-report-posts
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -66,3 +65,4 @@ Eleven near-templated market-report posts about forklift batteries and chargers.
 
 
 ## Former ids
+- DOC-00030

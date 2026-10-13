@@ -1,15 +1,14 @@
 ---
-type: Document
+type: Info
 subtype:
-id: DOC-00014
+id: INFO-90025
 uid: 20261013150000002skellyspencer
 status: Draft
 tags:
-  - source-document
+  - unlinked-capture
   - tier-T4
   - industry-data
   - vendor-article
-sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
 ---
@@ -49,3 +48,4 @@ Argues that battery competition will move from price to total cost of ownership 
 
 
 ## Former ids
+- DOC-00014
