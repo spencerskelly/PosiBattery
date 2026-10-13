@@ -31,7 +31,7 @@ A person in the customer's organization who waters, services, repairs and checks
 - **Evidence:**
   - [[Deka Dominator Battery]]: Correction: East Penn's forklift products page describes Dominator as a maintenance-free gel design to save maintenance hours, designed for conventional and opportunity charging, spillproof and leakproof. Source: East Penn forklift products page (T1), retrieved 2026-10-02. <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Leoch PzS Traction Battery]]: Leoch's page lists PzS cells of 2 V from 2PzS200 to 5PzS400 (200 to 400 Ah at 5 h), with tubular positive plates, lower water loss and fewer maintenance visits ('half maintenance'), for forklifts, tractors, carriers and similar equipment. Source: Leoch motive power page (T1), retrieved 2026-10-03. <https://leoch.com/product/power/127.html>
-  - PosiCharge E-Meter sheet (Downloads/E-Meter.pdf) (T1): says the device collects fleet data automatically without operator or maintenance staff management.
+  - PosiCharge E-Meter sheet (Reference Files/E-Meter.pdf) (T1): says the device collects fleet data automatically without operator or maintenance staff management.
 
 ## Aliases
 

@@ -26,7 +26,7 @@ A qualified electrician or installation contractor who mounts chargers and conne
 - **Relation to the product (analyst classification, hypothesis):** user (during installation).
 - **Needs this role takes part in:** see the Use Case notes that list this Actor as a participant (query `participants` in [[README_Customer Needs|Customer Needs]]); the product to need route is in [[Product to Customer Need Map]].
 - **Evidence:**
-  - PosiCharge ProCore Edge North America Installation Guide (Rev 05-10-23, in repo: Downloads/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf) (T1): states that only authorized, trained and qualified personnel should install and service the charger, that installation must follow the NEC and be done by suitably qualified personnel, and that only a qualified electrician makes electrical connections; the IOMM (Downloads/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf) repeats these statements, and also warns that changes not made by an authorized service provider could void the warranty.
+  - PosiCharge ProCore Edge North America Installation Guide (Rev 05-10-23, in repo: Reference Files/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf) (T1): states that only authorized, trained and qualified personnel should install and service the charger, that installation must follow the NEC and be done by suitably qualified personnel, and that only a qualified electrician makes electrical connections; the IOMM (Reference Files/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf) repeats these statements, and also warns that changes not made by an authorized service provider could void the warranty.
 
 ## Aliases
 

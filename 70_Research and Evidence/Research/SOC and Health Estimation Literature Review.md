@@ -113,7 +113,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
-Source: Batteries 2026, 12, 41, MDPI, open access (CC BY), published 2026-01-23, <https://doi.org/10.3390/batteries12020041>. Peer-reviewed journal article, 14 pages. The PDF is `Research_on_the_State_of_Charge_Estimation_of_Elec.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+Source: Batteries 2026, 12, 41, MDPI, open access (CC BY), published 2026-01-23, <https://doi.org/10.3390/batteries12020041>. Peer-reviewed journal article, 14 pages. The PDF is `Research_on_the_State_of_Charge_Estimation_of_Elec.pdf` in the repo `Reference Files` folder. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -159,7 +159,7 @@ Source: Batteries 2026, 12, 41, MDPI, open access (CC BY), published 2026-01-23,
 
 ### Source 2: da Silva, Dias, Araujo, Pellini, Lagana (2021), "Battery Model Identification Approach for Electric Forklift Application"
 
-Source: Energies 2021, 14, 6221, MDPI, open access, published 2021-09-29, <https://doi.org/10.3390/en14196221>. Peer-reviewed journal article, 26 pages. The PDF is `Battery_Model_Identification_Approach_for_Electric.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+Source: Energies 2021, 14, 6221, MDPI, open access, published 2021-09-29, <https://doi.org/10.3390/en14196221>. Peer-reviewed journal article, 26 pages. The PDF is `Battery_Model_Identification_Approach_for_Electric.pdf` in the repo `Reference Files` folder. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -190,7 +190,7 @@ Source: Energies 2021, 14, 6221, MDPI, open access, published 2021-09-29, <https
 
 ### Source 3: Alshaebi, Dauod, Weiss, Yoon (2017), "Evaluation of Different Forklift Battery Systems Using Statistical Analysis and Discrete Event Simulation"
 
-Source: Proceedings of the 2017 Industrial and Systems Engineering Conference (Coperich, Cudney, Nembhard, eds.), Binghamton University with a co-author from The Raymond Corporation; 6 pages. Conference paper, no DOI printed. The PDF is `Battery_studypaper.pdf` in the repo `Downloads` folder (a byte-identical `(1)` copy is also there). Section numbers are the paper's own.
+Source: Proceedings of the 2017 Industrial and Systems Engineering Conference (Coperich, Cudney, Nembhard, eds.), Binghamton University with a co-author from The Raymond Corporation; 6 pages. Conference paper, no DOI printed. The PDF is `Battery_studypaper.pdf` in the repo `Reference Files` folder (a byte-identical `(1)` copy is also there). Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -229,7 +229,7 @@ Source: Proceedings of the 2017 Industrial and Systems Engineering Conference (C
 
 ### Source 4: Pop, Bergveld, Notten, Regtien (2005), "State-of-the-art of battery state-of-charge determination"
 
-Source: Measurement Science and Technology 16 (2005) R93 to R110, IOP Publishing, doi:10.1088/0957-0233/16/12/R01, published 2005-10-31. Peer-reviewed review article, 18 pages, authors at University of Twente and Philips Research. The PDF is `State-of-the-art_of_battery_state-of-charge_determ.pdf` in the repo `Downloads` folder. Page numbers are the journal's R-numbers; section numbers are the paper's own. Everything below about other works (patents, other papers) is as the review reports it, not checked.
+Source: Measurement Science and Technology 16 (2005) R93 to R110, IOP Publishing, doi:10.1088/0957-0233/16/12/R01, published 2005-10-31. Peer-reviewed review article, 18 pages, authors at University of Twente and Philips Research. The PDF is `State-of-the-art_of_battery_state-of-charge_determ.pdf` in the repo `Reference Files` folder. Page numbers are the journal's R-numbers; section numbers are the paper's own. Everything below about other works (patents, other papers) is as the review reports it, not checked.
 
 **Scope.** Portable electronics (phones, notebooks, power tools) and NiCd, NiMH and Li-ion batteries. Lead-acid appears in the history and in a few method rows, forklift traction batteries not at all. The review's worked examples are a Sony Li-ion cell (US18500G3, LiCoO2).
 
@@ -305,7 +305,7 @@ Source: E3S Web of Conferences 601, 00033 (2025), ICEGC'2024, EDP Sciences, open
 
 ### Source 6: Sequeira, Mohammed, Kumar, Sameer, Kareem, Sachidananda (2019), "Design and Fabrication of Battery Operated Forklift"
 
-Source: Journal Europeen des Systemes Automatises, Vol. 52, No. 6, December 2019, pp. 569-574 (doi 10.18280/jesa.520604), Manipal Academy of Higher Education, Dubai; 6 pages; a small prototype built for a 100 kg load. The PDF is `DesignandFabricationofForklift.pdf` in the repo `Downloads` folder. It contains no SOC or SOH estimation and no battery monitoring. It was reviewed because it was supplied with the set, and it adds no row to the approach register. Section numbers are the paper's own.
+Source: Journal Europeen des Systemes Automatises, Vol. 52, No. 6, December 2019, pp. 569-574 (doi 10.18280/jesa.520604), Manipal Academy of Higher Education, Dubai; 6 pages; a small prototype built for a 100 kg load. The PDF is `DesignandFabricationofForklift.pdf` in the repo `Reference Files` folder. It contains no SOC or SOH estimation and no battery monitoring. It was reviewed because it was supplied with the set, and it adds no row to the approach register. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -335,7 +335,7 @@ Source: Journal Europeen des Systemes Automatises, Vol. 52, No. 6, December 2019
 
 ### Source 7: Mao and Tang, GM Global Technology Operations, US 8,922,217 B2, "Battery State-of-Charge Observer"
 
-Source: United States patent, application 13/466,394 filed 2012-05-08, published as US 2013/0300190 A1 on 2013-11-14, granted 2014-12-30; inventors Xiaofeng Mao and Xidong Tang; assignee GM Global Technology Operations LLC; 20 claims, 2 drawing sheets; classes G01N 27/416 and G01R 31/36 (CPC G01R 31/3648). The PDF is `Battery_state-of-charge_observer.pdf` in the repo `Downloads` folder; it is an image-only scan, read by optical character recognition and checked against page 1 as an image, so some equations and symbols are not legible. Patent text states what the applicant claims and describes. It reports no test data. This note records technical content only and is not a freedom-to-operate or validity assessment.
+Source: United States patent, application 13/466,394 filed 2012-05-08, published as US 2013/0300190 A1 on 2013-11-14, granted 2014-12-30; inventors Xiaofeng Mao and Xidong Tang; assignee GM Global Technology Operations LLC; 20 claims, 2 drawing sheets; classes G01N 27/416 and G01R 31/36 (CPC G01R 31/3648). The PDF is `Battery_state-of-charge_observer.pdf` in the repo `Reference Files` folder; it is an image-only scan, read by optical character recognition and checked against page 1 as an image, so some equations and symbols are not legible. Patent text states what the applicant claims and describes. It reports no test data. This note records technical content only and is not a freedom-to-operate or validity assessment.
 
 | Quantity or statement | Value | Basis and conditions | Location |
 |---|---|---|---|
@@ -365,7 +365,7 @@ Source: United States patent, application 13/466,394 filed 2012-05-08, published
 
 ### Source 8: Lakhdari (2026), "Joint Fractional-Order Modeling and Kalman Filtering for Battery State-of-Charge Estimation"
 
-Source: Revue Roumaine des Sciences Techniques, Serie Electrotechnique et Energetique, vol. 71, no. 3, pp. 415 to 420, Bucharest, 2026, doi:10.59277/RRST-EE.2026.3.13; received 2026-03-22; single author, LEPESA laboratory, University of Science and Technology of Oran (USTO), Algeria; 6 pages. Peer-reviewed journal article. The PDF is `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+Source: Revue Roumaine des Sciences Techniques, Serie Electrotechnique et Energetique, vol. 71, no. 3, pp. 415 to 420, Bucharest, 2026, doi:10.59277/RRST-EE.2026.3.13; received 2026-03-22; single author, LEPESA laboratory, University of Science and Technology of Oran (USTO), Algeria; 6 pages. Peer-reviewed journal article. The PDF is `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI.pdf` in the repo `Reference Files` folder. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -396,7 +396,7 @@ Source: Revue Roumaine des Sciences Techniques, Serie Electrotechnique et Energe
 
 ### Source 9: Ismail, Firdaus, Rakiman, Budiman, Sardani (2024), "The Estimation of Battery State of Charge using Corny Network"
 
-Source: International Journal of Recent Technology and Engineering (IJRTE), vol. 12, issue 6, March 2024, pp. 5 to 11, doi:10.35940/ijrte.F7999.12060324; Politeknik Negeri Padang, Indonesia; published by Blue Eyes Intelligence Engineering and Sciences Publication; open access (CC BY-NC-ND). Journal article; its indexing and peer-review standing were not checked here. The text has many terminology and consistency errors (listed below), so this source is carried at low weight. The PDF is `The_Estimation_of_Battery_State_of_Charge_using_Co.pdf` in the repo `Downloads` folder. Section numbers are the paper's own; Table 1, Figure 18 and Figure 19 were read from the page images.
+Source: International Journal of Recent Technology and Engineering (IJRTE), vol. 12, issue 6, March 2024, pp. 5 to 11, doi:10.35940/ijrte.F7999.12060324; Politeknik Negeri Padang, Indonesia; published by Blue Eyes Intelligence Engineering and Sciences Publication; open access (CC BY-NC-ND). Journal article; its indexing and peer-review standing were not checked here. The text has many terminology and consistency errors (listed below), so this source is carried at low weight. The PDF is `The_Estimation_of_Battery_State_of_Charge_using_Co.pdf` in the repo `Reference Files` folder. Section numbers are the paper's own; Table 1, Figure 18 and Figure 19 were read from the page images.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -427,7 +427,7 @@ Source: International Journal of Recent Technology and Engineering (IJRTE), vol.
 
 ### Source 10: Anthony, Yount, Downey, Sado (2025), "Inferring Battery State of Charge using Strain Sensing and Machine Learning"
 
-Source: IMECE 2025 (ASME), doi:10.1115/imece2025-168119; this PDF is the uncopyrighted author version dated 2026-02-28; University of South Carolina; funded by the Office of Naval Research; approved for public release (Distribution A); 7 pages. Conference paper. The PDF is `author_version.pdf` in the repo `Downloads` folder (the file name does not identify the paper). The data set is cited as a public GitHub repository of the ARTS Laboratory (cycling with strain monitoring for a Samsung 30Q cell). Section numbers are the paper's own.
+Source: IMECE 2025 (ASME), doi:10.1115/imece2025-168119; this PDF is the uncopyrighted author version dated 2026-02-28; University of South Carolina; funded by the Office of Naval Research; approved for public release (Distribution A); 7 pages. Conference paper. The PDF is `author_version.pdf` in the repo `Reference Files` folder (the file name does not identify the paper). The data set is cited as a public GitHub repository of the ARTS Laboratory (cycling with strain monitoring for a Samsung 30Q cell). Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -463,7 +463,7 @@ Source: IMECE 2025 (ASME), doi:10.1115/imece2025-168119; this PDF is the uncopyr
 
 ### Source 11: Yunusoglu, Le, Isik, Tiwari, Dikmen, Karadag, "Battery State of Health Estimation Using LLM Framework"
 
-Source: preprint-style conference paper, undated in the file (the PDF is `126_Paper.pdf` in the repo `Downloads` folder; the file name does not identify the paper); Purdue, Drexel, Stanford, IISc Bangalore and Temsa R&D Center (Turkey); 8 pages. Venue and review status not stated in the file. Its results contradict each other (see below), so it is carried at low weight. Section numbers are the paper's own.
+Source: preprint-style conference paper, undated in the file (the PDF is `126_Paper.pdf` in the repo `Reference Files` folder; the file name does not identify the paper); Purdue, Drexel, Stanford, IISc Bangalore and Temsa R&D Center (Turkey); 8 pages. Venue and review status not stated in the file. Its results contradict each other (see below), so it is carried at low weight. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -499,7 +499,7 @@ Source: preprint-style conference paper, undated in the file (the PDF is `126_Pa
 
 ### Source 12: Sarikurt, Ceylan, Balikci (2014), "An Analytical Battery State of Health Estimation Method"
 
-Source: IEEE ISIE 2014 conference paper (978-1-4799-2399-1/14), Gebze Institute of Technology, Turkey; 5 pages; funded by TUBITAK project 110E209. The PDF is `ISIE2014.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+Source: IEEE ISIE 2014 conference paper (978-1-4799-2399-1/14), Gebze Institute of Technology, Turkey; 5 pages; funded by TUBITAK project 110E209. The PDF is `ISIE2014.pdf` in the repo `Reference Files` folder. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -606,7 +606,7 @@ Source: peer-reviewed article, Energies 2025, 18, 5439 (MDPI, open access, doi 1
 
 ### Source 15: Ahmed, Aagela, Geth, Iqbal, "A Lifecycle-Aware Evaluation Framework for Battery State-of-Health Estimation"
 
-Source: manuscript-style paper (Springer-style layout) from the University of Huddersfield, UK; 12 pages; no venue, date or review status in the file (the PDF is `main.pdf` in the repo `Downloads` folder; the file name does not identify the paper). Treated as an unreviewed preprint. Section numbers are the paper's own.
+Source: manuscript-style paper (Springer-style layout) from the University of Huddersfield, UK; 12 pages; no venue, date or review status in the file (the PDF is `main.pdf` in the repo `Reference Files` folder; the file name does not identify the paper). Treated as an unreviewed preprint. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|
@@ -647,7 +647,7 @@ Source: manuscript-style paper (Springer-style layout) from the University of Hu
 
 ### Source 16: Kafadarova, Sotirov, Herbst, Stoynova, Rizanov (2023), "A System for Determining the Surface Temperature of Cylindrical Lithium-Ion Batteries Using a Thermal Imaging Camera"
 
-Source: peer-reviewed article, Batteries 2023, 9, 519 (MDPI, open access, doi 10.3390/batteries9100519), Plovdiv University, Technical University of Sofia and BioInterface GmbH; 19 pages. The PDF is `1_batteries.pdf` in the repo `Downloads` folder. This paper does not estimate SOC or SOH. It is kept because temperature is an input to the Hybrid SOC and the learned SOH approaches in the register, and because it argues about where cell temperature can be measured. Section numbers are the paper's own.
+Source: peer-reviewed article, Batteries 2023, 9, 519 (MDPI, open access, doi 10.3390/batteries9100519), Plovdiv University, Technical University of Sofia and BioInterface GmbH; 19 pages. The PDF is `1_batteries.pdf` in the repo `Reference Files` folder. This paper does not estimate SOC or SOH. It is kept because temperature is an input to the Hybrid SOC and the learned SOH approaches in the register, and because it argues about where cell temperature can be measured. Section numbers are the paper's own.
 
 | Quantity or statement | Value | Basis and conditions | Section |
 |---|---|---|---|

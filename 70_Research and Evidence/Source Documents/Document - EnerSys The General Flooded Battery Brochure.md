@@ -21,7 +21,7 @@ Manufacturer brochure for EnerSys The General flooded battery line and PowerPak 
 
 ## Provenance
 
-- **Local artifact:** `Forklift-and-Equipment-Batteries-General-Brochure-V2.pdf` in `Downloads`; image-only PDF read by OCR on 2026-10-13.
+- **Local artifact:** `Forklift-and-Equipment-Batteries-General-Brochure-V2.pdf` in `Reference Files`; image-only PDF read by OCR on 2026-10-13.
 - **Author or publisher:** EnerSys (named on the cover); no web address printed on the pages read.
 - **Original web address:** not captured in the saved copy.
 - **Evidence tier:** T1 (see [[Landscape Evidence and Modeling Conventions]]).

@@ -28,7 +28,7 @@ A technician employed by a dealer or the maker who installs, retrofits, services
 - **Needs this role takes part in:** see the Use Case notes that list this Actor as a participant (query `participants` in [[README_Customer Needs|Customer Needs]]); the product to need route is in [[Product to Customer Need Map]].
 - **Evidence:**
   - [[Linde connect]]: Linde lists connect:ac access control (PIN or RFID), connect:an usage analysis, connect:dt crash detection, operating hours and trouble codes; impacts are recorded with time stamp, vehicle and driver reference and sent to the myLinde customer portal. Source: Linde dealer brochure, Linde retrofit page and KION story (T1/T3), retrieved 2026-10-03. <https://www.kiongroup.com/en/Newsroom/Story-Categories/Innovation/Article/7-solutions-that-make-the-warehouse-safer.html>
-  - Hyster solutions brochure (Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf) (T1): advertises more than 11,000 certified service technicians and prompt access to them.
+  - Hyster solutions brochure (Reference Files/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf) (T1): advertises more than 11,000 certified service technicians and prompt access to them.
 
 ## Aliases
 

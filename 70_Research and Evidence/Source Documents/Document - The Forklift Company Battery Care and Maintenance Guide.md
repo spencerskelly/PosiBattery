@@ -20,7 +20,7 @@ Care and maintenance guide for lead-acid motive-power batteries from a UK forkli
 
 ## Provenance
 
-- **Local artifact:** `Battery-Care-Maintenance.pdf` in `Downloads`; image-only PDF read by OCR on 2026-10-13.
+- **Local artifact:** `Battery-Care-Maintenance.pdf` in `Reference Files`; image-only PDF read by OCR on 2026-10-13.
 - **Author or publisher:** The Forklift Company (UK service company; the guide prints a service-office address and email, not a web address). Reseller or service company, not the battery maker.
 - **Original web address:** not captured in the saved copy.
 - **Evidence tier:** T4 (see [[Landscape Evidence and Modeling Conventions]]).

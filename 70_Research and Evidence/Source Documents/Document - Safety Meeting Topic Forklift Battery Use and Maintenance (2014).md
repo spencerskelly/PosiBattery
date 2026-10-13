@@ -20,7 +20,7 @@ One-page safety-meeting topic sheet on forklift battery use and maintenance.
 
 ## Provenance
 
-- **Local artifact:** `SA-2014-Forklift-Battery.pdf` in `Downloads`; image-only PDF read by OCR on 2026-10-13.
+- **Local artifact:** `SA-2014-Forklift-Battery.pdf` in `Reference Files`; image-only PDF read by OCR on 2026-10-13.
 - **Author or publisher:** Safety talk sheet headed STATE FUND (publisher not otherwise identified).
 - **Original web address:** not captured in the saved copy.
 - **Evidence tier:** T4 (see [[Landscape Evidence and Modeling Conventions]]).

@@ -28,3 +28,8 @@ This folder is the intake and staging area for externally acquired files. It cur
 ## Maintenance
 
 Use descriptive filenames where practical. When a downloaded document has been cataloged, retain its provenance through a source-document record and links to the relevant product, organization, and research notes.
+
+
+## Keep or delete (2026-10-13)
+
+Files without a recoverable public address were moved to `Reference Files/`. The 20 files that remain here have a URL-backed Source Document and are marked deletable in `80_Decisions and Planning/Downloads Keep Decision 0.1.yaml`.

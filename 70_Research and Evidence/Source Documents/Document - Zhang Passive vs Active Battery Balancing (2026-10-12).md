@@ -21,7 +21,7 @@ Compares passive and active cell balancing for AGV, AMR and UGV packs.
 
 ## Provenance
 
-- **Local artifact:** `(1) Passive vs. Active Battery Balancing_ How to Choose the Right Strategy for Mobile Robots _ LinkedIn.pdf` in `Downloads`.
+- **Local artifact:** `(1) Passive vs. Active Battery Balancing_ How to Choose the Right Strategy for Mobile Robots _ LinkedIn.pdf` in `Reference Files`.
 - **Author or publisher:** Maggie Zhang, LinkedIn newsletter 'Powering Industrial Mobility'. Author headline: Battery Solutions for AMR, AGV, UGV and Mobile Robotics, custom Li-ion battery packs, OEM/ODM, BMS and CAN. One article in the series names the author's company as RuiDeJin New Energy, a maker of customized lithium packs, so the series is supplier-authored.
 - **Date:** 2026-10-12.
 - **Original web address:** not captured in the saved copy.

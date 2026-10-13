@@ -21,7 +21,7 @@ Checklist for replacing lead-acid with lithium in heavy-duty vehicles and fleets
 
 ## Provenance
 
-- **Local artifact:** `(1) 5 Things Fleet Owners Should Check Before Switching from Lead-Acid to Lithium Batteries _ LinkedIn.pdf` in `Downloads`.
+- **Local artifact:** `(1) 5 Things Fleet Owners Should Check Before Switching from Lead-Acid to Lithium Batteries _ LinkedIn.pdf` in `Reference Files`.
 - **Author or publisher:** Maggie Zhang, LinkedIn newsletter 'Powering Industrial Mobility'. Author headline: Battery Solutions for AMR, AGV, UGV and Mobile Robotics, custom Li-ion battery packs, OEM/ODM, BMS and CAN. One article in the series names the author's company as RuiDeJin New Energy, a maker of customized lithium packs, so the series is supplier-authored.
 - **Date:** 2026-08-09.
 - **Original web address:** not captured in the saved copy.

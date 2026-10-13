@@ -22,7 +22,7 @@ Method for sizing a lithium battery to replace a propane forklift.
 
 ## Provenance
 
-- **Local artifact:** `(3) Propane to Electric_ How to Size the Battery for Your Forklift Fleet _ LinkedIn.pdf` in `Downloads`.
+- **Local artifact:** `(3) Propane to Electric_ How to Size the Battery for Your Forklift Fleet _ LinkedIn.pdf` in `Reference Files`.
 - **Author or publisher:** Max Khabur, Marketing Director, ENEROC USA (LinkedIn article). ENEROC sells lithium forklift batteries, so the article is supplier-authored.
 - **Date:** 2026-09-23.
 - **Original web address:** not captured in the saved copy.

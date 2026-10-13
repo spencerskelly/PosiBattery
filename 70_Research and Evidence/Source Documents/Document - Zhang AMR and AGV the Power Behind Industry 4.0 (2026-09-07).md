@@ -21,7 +21,7 @@ Argues that AMR and AGV batteries are part of the automation data loop and that 
 
 ## Provenance
 
-- **Local artifact:** `(1) AMR & AGV_ The Power Behind the Industrial 4.0 Revolution _ LinkedIn.pdf` in `Downloads`.
+- **Local artifact:** `(1) AMR & AGV_ The Power Behind the Industrial 4.0 Revolution _ LinkedIn.pdf` in `Reference Files`.
 - **Author or publisher:** Maggie Zhang, LinkedIn newsletter 'Powering Industrial Mobility'. Author headline: Battery Solutions for AMR, AGV, UGV and Mobile Robotics, custom Li-ion battery packs, OEM/ODM, BMS and CAN. One article in the series names the author's company as RuiDeJin New Energy, a maker of customized lithium packs, so the series is supplier-authored.
 - **Date:** 2026-09-07.
 - **Original web address:** not captured in the saved copy.

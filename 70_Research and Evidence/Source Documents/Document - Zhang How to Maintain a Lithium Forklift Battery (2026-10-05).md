@@ -21,7 +21,7 @@ Five maintenance areas for lithium forklift batteries.
 
 ## Provenance
 
-- **Local artifact:** `(1) How to Maintain a Lithium Battery for a Forklift_ 5 Things That Can Make a Real Difference to Battery Life _ LinkedIn.pdf` in `Downloads`.
+- **Local artifact:** `(1) How to Maintain a Lithium Battery for a Forklift_ 5 Things That Can Make a Real Difference to Battery Life _ LinkedIn.pdf` in `Reference Files`.
 - **Author or publisher:** Maggie Zhang, LinkedIn newsletter 'Powering Industrial Mobility'. Author headline: Battery Solutions for AMR, AGV, UGV and Mobile Robotics, custom Li-ion battery packs, OEM/ODM, BMS and CAN. One article in the series names the author's company as RuiDeJin New Energy, a maker of customized lithium packs, so the series is supplier-authored.
 - **Date:** 2026-10-05.
 - **Original web address:** not captured in the saved copy.

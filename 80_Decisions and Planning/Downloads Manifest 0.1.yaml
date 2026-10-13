@@ -69,7 +69,7 @@ exact_sha_duplicate_hints:
 
 files:
   - filename: "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
-    path: "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
+    path: "Reference Files/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view (1).pdf"
     size_bytes: 1719868
     git_blob_sha: "bc0ed79080ff4d10f335ff33e006ec157cfb5614"
     likely_source_identity: "Hyster product/solutions literature"
@@ -79,7 +79,7 @@ files:
     known_model_links:
       []
   - filename: "0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
-    path: "Downloads/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
+    path: "Reference Files/0000hbxxbc001_e_en-us_hyster-solutions-brochure-view.pdf"
     size_bytes: 1719868
     git_blob_sha: "bc0ed79080ff4d10f335ff33e006ec157cfb5614"
     likely_source_identity: "Hyster product/solutions literature"
@@ -89,7 +89,7 @@ files:
     known_model_links:
       []
   - filename: "0071het4bc001_e_en-gb_v1r0_042025_pedestrian-awareness-camera-brochure.pdf"
-    path: "Downloads/0071het4bc001_e_en-gb_v1r0_042025_pedestrian-awareness-camera-brochure.pdf"
+    path: "Reference Files/0071het4bc001_e_en-gb_v1r0_042025_pedestrian-awareness-camera-brochure.pdf"
     size_bytes: 2157115
     git_blob_sha: "9208009efb8694c37761fb6b9fdcbaeb2760909f"
     likely_source_identity: "Hyster/Yale pedestrian-awareness camera brochure"
@@ -99,7 +99,7 @@ files:
     known_model_links:
       []
   - filename: "131261341460139117.pdf"
-    path: "Downloads/131261341460139117.pdf"
+    path: "Reference Files/131261341460139117.pdf"
     size_bytes: 1409481
     git_blob_sha: "f5627f4a71d26b90764f4f2fd2fcfe75265fe863"
     likely_source_identity: "unknown_from_filename"
@@ -109,7 +109,7 @@ files:
     known_model_links:
       []
   - filename: "131261342052642309.pdf"
-    path: "Downloads/131261342052642309.pdf"
+    path: "Reference Files/131261342052642309.pdf"
     size_bytes: 1830350
     git_blob_sha: "c798547d6985395d7622bae4d35fa75cad1c8904"
     likely_source_identity: "unknown_from_filename"
@@ -119,7 +119,7 @@ files:
     known_model_links:
       []
   - filename: "131261342583679925.pdf"
-    path: "Downloads/131261342583679925.pdf"
+    path: "Reference Files/131261342583679925.pdf"
     size_bytes: 1726462
     git_blob_sha: "14a2daf31a4320714d95d73118efae1d194d74eb"
     likely_source_identity: "unknown_from_filename"
@@ -129,7 +129,7 @@ files:
     known_model_links:
       []
   - filename: "131261342940149065 (1).pdf"
-    path: "Downloads/131261342940149065 (1).pdf"
+    path: "Reference Files/131261342940149065 (1).pdf"
     size_bytes: 1718637
     git_blob_sha: "72a5230045d2845462dd18de98c0013c0047ed39"
     likely_source_identity: "unknown_from_filename"
@@ -139,7 +139,7 @@ files:
     known_model_links:
       []
   - filename: "131261342940149065.pdf"
-    path: "Downloads/131261342940149065.pdf"
+    path: "Reference Files/131261342940149065.pdf"
     size_bytes: 1718637
     git_blob_sha: "72a5230045d2845462dd18de98c0013c0047ed39"
     likely_source_identity: "unknown_from_filename"
@@ -149,7 +149,7 @@ files:
     known_model_links:
       []
   - filename: "133294183726805278 (1).pdf"
-    path: "Downloads/133294183726805278 (1).pdf"
+    path: "Reference Files/133294183726805278 (1).pdf"
     size_bytes: 2182285
     git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
     likely_source_identity: "unknown_from_filename"
@@ -159,7 +159,7 @@ files:
     known_model_links:
       []
   - filename: "133294183726805278 (2).pdf"
-    path: "Downloads/133294183726805278 (2).pdf"
+    path: "Reference Files/133294183726805278 (2).pdf"
     size_bytes: 2182285
     git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
     likely_source_identity: "unknown_from_filename"
@@ -169,7 +169,7 @@ files:
     known_model_links:
       []
   - filename: "133294183726805278.pdf"
-    path: "Downloads/133294183726805278.pdf"
+    path: "Reference Files/133294183726805278.pdf"
     size_bytes: 2182285
     git_blob_sha: "170894bc3b26b056d1796633564588315417873c"
     likely_source_identity: "unknown_from_filename"
@@ -191,7 +191,7 @@ files:
       - "Advanced Charging Technologies BATTview"
       - "Advanced Charging Technologies"
   - filename: "133717591287578074.pdf"
-    path: "Downloads/133717591287578074.pdf"
+    path: "Reference Files/133717591287578074.pdf"
     size_bytes: 445664
     git_blob_sha: "2bb5361ceb724d5099f111ef3a1537fc7d01d3b7"
     likely_source_identity: "unknown_from_filename"
@@ -225,7 +225,7 @@ files:
       - "ACT Quantum 2"
       - "Advanced Charging Technologies"
   - filename: "133723547947804003.pdf"
-    path: "Downloads/133723547947804003.pdf"
+    path: "Reference Files/133723547947804003.pdf"
     size_bytes: 1225480
     git_blob_sha: "d11451eb1c31c26a21370e8f217f5394c3be33af"
     likely_source_identity: "unknown_from_filename"
@@ -235,7 +235,7 @@ files:
     known_model_links:
       []
   - filename: "2018_GD2000SpecSheet_F1Digi.pdf"
-    path: "Downloads/2018_GD2000SpecSheet_F1Digi.pdf"
+    path: "Reference Files/2018_GD2000SpecSheet_F1Digi.pdf"
     size_bytes: 609484
     git_blob_sha: "19b84916cda2ab04d18fe12269f850dace28ea55"
     likely_source_identity: "GD2000 specification sheet"
@@ -245,7 +245,7 @@ files:
     known_model_links:
       []
   - filename: "2025_Toyota Assist Brochure_Digital (1).pdf"
-    path: "Downloads/2025_Toyota Assist Brochure_Digital (1).pdf"
+    path: "Reference Files/2025_Toyota Assist Brochure_Digital (1).pdf"
     size_bytes: 1810957
     git_blob_sha: "8036e4a589d4ed8907ceaf64ab36186b788b5d4e"
     likely_source_identity: "Toyota Assist brochure"
@@ -255,7 +255,7 @@ files:
     known_model_links:
       []
   - filename: "2025_Toyota Assist Brochure_Digital.pdf"
-    path: "Downloads/2025_Toyota Assist Brochure_Digital.pdf"
+    path: "Reference Files/2025_Toyota Assist Brochure_Digital.pdf"
     size_bytes: 1810957
     git_blob_sha: "8036e4a589d4ed8907ceaf64ab36186b788b5d4e"
     likely_source_identity: "Toyota Assist brochure"
@@ -265,7 +265,7 @@ files:
     known_model_links:
       []
   - filename: "250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
-    path: "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
+    path: "Reference Files/250311_e_motion-easy_monitor_leaflet_en_rz (1).pdf"
     size_bytes: 1690410
     git_blob_sha: "7ab7ee4d69216fc00420020cf4fc6aa20289c23d"
     likely_source_identity: "HOPPECKE e.motion easy monitor literature"
@@ -275,7 +275,7 @@ files:
     known_model_links:
       []
   - filename: "250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
-    path: "Downloads/250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
+    path: "Reference Files/250311_e_motion-easy_monitor_leaflet_en_rz.pdf"
     size_bytes: 1690410
     git_blob_sha: "7ab7ee4d69216fc00420020cf4fc6aa20289c23d"
     likely_source_identity: "HOPPECKE e.motion easy monitor literature"
@@ -285,7 +285,7 @@ files:
     known_model_links:
       []
   - filename: "3002005771_Mobile Electric Airport Ground Support Equipment.pdf"
-    path: "Downloads/3002005771_Mobile Electric Airport Ground Support Equipment.pdf"
+    path: "Reference Files/3002005771_Mobile Electric Airport Ground Support Equipment.pdf"
     size_bytes: 298691
     git_blob_sha: "71b53717b4a15d341be926e4429fa467c25ad22b"
     likely_source_identity: "Mobile electric airport ground support equipment document"
@@ -295,7 +295,7 @@ files:
     known_model_links:
       []
   - filename: "31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf"
-    path: "Downloads/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf"
+    path: "Reference Files/31241-03-02-ProCore-Edge-NA-IOMM-English-French-Spanish.pdf"
     size_bytes: 3827657
     git_blob_sha: "b6b3a85c369970740555aab9486bcb05533a903d"
     likely_source_identity: "PosiCharge ProCore product literature"
@@ -305,7 +305,7 @@ files:
     known_model_links:
       []
   - filename: "31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf"
-    path: "Downloads/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf"
+    path: "Reference Files/31241-76-0104-ProCore-Edge-NA-IG-Eng-Fre-Spa-Rev-05-10-23.pdf"
     size_bytes: 2561595
     git_blob_sha: "d005d986e5d64329d186dd29a18f96004267da6e"
     likely_source_identity: "PosiCharge ProCore product literature"
@@ -315,7 +315,7 @@ files:
     known_model_links:
       []
   - filename: "5x7_ProCore-Solo-1.pdf"
-    path: "Downloads/5x7_ProCore-Solo-1.pdf"
+    path: "Reference Files/5x7_ProCore-Solo-1.pdf"
     size_bytes: 261402
     git_blob_sha: "9f1f3b8ef7c754837e6c89d1c57bec788509bc8a"
     likely_source_identity: "PosiCharge ProCore product literature"
@@ -325,7 +325,7 @@ files:
     known_model_links:
       []
   - filename: "BatteryRX.pdf"
-    path: "Downloads/BatteryRX.pdf"
+    path: "Reference Files/BatteryRX.pdf"
     size_bytes: 332303
     git_blob_sha: "58c7018c7a7061ef89e11cdb17901fb7867c808c"
     likely_source_identity: "BatteryRX product literature"
@@ -335,7 +335,7 @@ files:
     known_model_links:
       []
   - filename: "DQIC650-48_13.5.pdf"
-    path: "Downloads/DQIC650-48_13.5.pdf"
+    path: "Reference Files/DQIC650-48_13.5.pdf"
     size_bytes: 1244490
     git_blob_sha: "d0f47fab2109d9e4188fb4f499f4860757470a52"
     likely_source_identity: "DQIC650 charger/product document"
@@ -345,7 +345,7 @@ files:
     known_model_links:
       []
   - filename: "DVS-300-400.pdf"
-    path: "Downloads/DVS-300-400.pdf"
+    path: "Reference Files/DVS-300-400.pdf"
     size_bytes: 1516266
     git_blob_sha: "8b6635bd1193c295208a03a8bdd44400e8fedb13"
     likely_source_identity: "PosiCharge charger product literature"
@@ -355,7 +355,7 @@ files:
     known_model_links:
       []
   - filename: "E-Meter.pdf"
-    path: "Downloads/E-Meter.pdf"
+    path: "Reference Files/E-Meter.pdf"
     size_bytes: 1201265
     git_blob_sha: "e6c5987aadac32a6886ab28496b130a1b642bc10"
     likely_source_identity: "E-Meter product literature"
@@ -365,7 +365,7 @@ files:
     known_model_links:
       []
   - filename: "GNB_MP_Overview_EN_web (1).pdf"
-    path: "Downloads/GNB_MP_Overview_EN_web (1).pdf"
+    path: "Reference Files/GNB_MP_Overview_EN_web (1).pdf"
     size_bytes: 3745104
     git_blob_sha: "355cd0e4ff3d6782001712edc250c8ac9f2bc599"
     likely_source_identity: "GNB motive power overview"
@@ -375,7 +375,7 @@ files:
     known_model_links:
       []
   - filename: "GNB_MP_Overview_EN_web.pdf"
-    path: "Downloads/GNB_MP_Overview_EN_web.pdf"
+    path: "Reference Files/GNB_MP_Overview_EN_web.pdf"
     size_bytes: 3745104
     git_blob_sha: "355cd0e4ff3d6782001712edc250c8ac9f2bc599"
     likely_source_identity: "GNB motive power overview"
@@ -385,7 +385,7 @@ files:
     known_model_links:
       []
   - filename: "GenDrive-Series-1000-Spec-Sheet.pdf"
-    path: "Downloads/GenDrive-Series-1000-Spec-Sheet.pdf"
+    path: "Reference Files/GenDrive-Series-1000-Spec-Sheet.pdf"
     size_bytes: 869867
     git_blob_sha: "5ffed61f10c98c7ce7749295f74b373ec67513ae"
     likely_source_identity: "Plug Power GenDrive Series 1000 spec sheet"
@@ -395,7 +395,7 @@ files:
     known_model_links:
       []
   - filename: "High-Voltage-Power-Station-Product-Card-1.pdf"
-    path: "Downloads/High-Voltage-Power-Station-Product-Card-1.pdf"
+    path: "Reference Files/High-Voltage-Power-Station-Product-Card-1.pdf"
     size_bytes: 502552
     git_blob_sha: "21f1076e90bca794674766684b469e91d520ccab"
     likely_source_identity: "High Voltage Power Station product card"
@@ -405,7 +405,7 @@ files:
     known_model_links:
       []
   - filename: "MVS-400.pdf"
-    path: "Downloads/MVS-400.pdf"
+    path: "Reference Files/MVS-400.pdf"
     size_bytes: 587047
     git_blob_sha: "3778b779454f38392809cae5a9535c1f1438aca9"
     likely_source_identity: "PosiCharge charger product literature"
@@ -415,7 +415,7 @@ files:
     known_model_links:
       []
   - filename: "MVS-800.pdf"
-    path: "Downloads/MVS-800.pdf"
+    path: "Reference Files/MVS-800.pdf"
     size_bytes: 533768
     git_blob_sha: "4f8414d414c6e5a753d9994073da2fbac38ef762"
     likely_source_identity: "PosiCharge charger product literature"
@@ -425,7 +425,7 @@ files:
     known_model_links:
       []
   - filename: "PC_BRO_Selectiva40_UL_EN.pdf"
-    path: "Downloads/PC_BRO_Selectiva40_UL_EN.pdf"
+    path: "Reference Files/PC_BRO_Selectiva40_UL_EN.pdf"
     size_bytes: 559169
     git_blob_sha: "dc1b1b84bbf8a9604d557efd20053ab3b2681124"
     likely_source_identity: "Fronius Selectiva charger brochure"
@@ -435,7 +435,7 @@ files:
     known_model_links:
       []
   - filename: "PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf"
-    path: "Downloads/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf"
+    path: "Reference Files/PD-TRA-SP_PowerTrac_SP_BatteryDataLogger.pdf"
     size_bytes: 333090
     git_blob_sha: "115802580fe1abc55bf14ca942ca295e4943fc2b"
     likely_source_identity: "Power Designers PowerTrac battery data logger literature"
@@ -445,7 +445,7 @@ files:
     known_model_links:
       []
   - filename: "PDS-PT-DT3_PowerTracDT3.pdf"
-    path: "Downloads/PDS-PT-DT3_PowerTracDT3.pdf"
+    path: "Reference Files/PDS-PT-DT3_PowerTracDT3.pdf"
     size_bytes: 689142
     git_blob_sha: "bf4922fb3f5180dc412c0164861fe33ff26e6c22"
     likely_source_identity: "Power Designers PowerTrac DT3 literature"
@@ -467,7 +467,7 @@ files:
       - "Power Designers REVOLUTION X"
       - "Power Designers"
   - filename: "PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf"
-    path: "Downloads/PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf"
+    path: "Reference Files/PDS-REV_Revolution_Series_Overview_Modular_Battery_Charger.pdf"
     size_bytes: 990734
     git_blob_sha: "cf596a1f925c7f51bfd18381424ba7fc833fc6d8"
     likely_source_identity: "Power Designers REVOLUTION Series overview"
@@ -477,7 +477,7 @@ files:
     known_model_links:
       []
   - filename: "PosiGuard_Product-Card.pdf-2.pdf"
-    path: "Downloads/PosiGuard_Product-Card.pdf-2.pdf"
+    path: "Reference Files/PosiGuard_Product-Card.pdf-2.pdf"
     size_bytes: 309015
     git_blob_sha: "14668259d32fa6fc9c0ceec2b0cc940f357f3e83"
     likely_source_identity: "PosiCharge PosiGuard product card"
@@ -487,7 +487,7 @@ files:
     known_model_links:
       []
   - filename: "Posilink-2-Pager.pdf"
-    path: "Downloads/Posilink-2-Pager.pdf"
+    path: "Reference Files/Posilink-2-Pager.pdf"
     size_bytes: 1038939
     git_blob_sha: "9c1d5b830f04afdb4d1b50fbc1f5d19d84ad6581"
     likely_source_identity: "PosiCharge PosiLink literature"
@@ -497,7 +497,7 @@ files:
     known_model_links:
       []
   - filename: "ProCore-Edge-Spec-Sheet-Updated.pdf"
-    path: "Downloads/ProCore-Edge-Spec-Sheet-Updated.pdf"
+    path: "Reference Files/ProCore-Edge-Spec-Sheet-Updated.pdf"
     size_bytes: 2599011
     git_blob_sha: "a3179fdffaefc9f294f63ad3989a0f2710eec86a"
     likely_source_identity: "PosiCharge ProCore product literature"
@@ -507,7 +507,7 @@ files:
     known_model_links:
       []
   - filename: "Raymond Stand-Up Counterbalanced Options Sell Sheet.pdf"
-    path: "Downloads/Raymond Stand-Up Counterbalanced Options Sell Sheet.pdf"
+    path: "Reference Files/Raymond Stand-Up Counterbalanced Options Sell Sheet.pdf"
     size_bytes: 363734
     git_blob_sha: "9ba070b53f75cfe50f017788c08acbba66fc2ec7"
     likely_source_identity: "Raymond forklift/options literature"
@@ -517,7 +517,7 @@ files:
     known_model_links:
       []
   - filename: "SP-1500-Broch-APAC.pdf"
-    path: "Downloads/SP-1500-Broch-APAC.pdf"
+    path: "Reference Files/SP-1500-Broch-APAC.pdf"
     size_bytes: 5486190
     git_blob_sha: "7c3b5834acf86bfa24a4a46227cbbf40a69a8a5c"
     likely_source_identity: "SP-1500 product brochure"
@@ -527,7 +527,7 @@ files:
     known_model_links:
       []
   - filename: "SVS-100.pdf"
-    path: "Downloads/SVS-100.pdf"
+    path: "Reference Files/SVS-100.pdf"
     size_bytes: 430898
     git_blob_sha: "6f58858a1fc7b53191f72b93f6ef7952dc6c6eca"
     likely_source_identity: "PosiCharge charger product literature"
@@ -549,7 +549,7 @@ files:
       - "AMETEK Prestolite Power BID with Ah Accumulator"
       - "AMETEK Prestolite Power"
   - filename: "broschuere_safety_.pdf"
-    path: "Downloads/broschuere_safety_.pdf"
+    path: "Reference Files/broschuere_safety_.pdf"
     size_bytes: 3664024
     git_blob_sha: "beebf9c28bf1c6a15c1f64468f5f87d9e69ca0eb"
     likely_source_identity: "Warehouse/forklift safety brochure"
@@ -559,7 +559,7 @@ files:
     known_model_links:
       []
   - filename: "ciotto_infrastructure_for_emerging_markets.pdf"
-    path: "Downloads/ciotto_infrastructure_for_emerging_markets.pdf"
+    path: "Reference Files/ciotto_infrastructure_for_emerging_markets.pdf"
     size_bytes: 2600131
     git_blob_sha: "7e46f92421c1968660fe243b5c4e411da59bfcee"
     likely_source_identity: "Infrastructure for emerging markets paper"
@@ -569,7 +569,7 @@ files:
     known_model_links:
       []
   - filename: "d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
-    path: "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
+    path: "Reference Files/d0631ac8-a3f8-4b21-8640-bf6f41154ae8 (1).pdf"
     size_bytes: 34012189
     git_blob_sha: "5658584052baff4200850d6e530792ab5122b9ea"
     likely_source_identity: "unknown_from_filename"
@@ -579,7 +579,7 @@ files:
     known_model_links:
       []
   - filename: "d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
-    path: "Downloads/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
+    path: "Reference Files/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf"
     size_bytes: 34012189
     git_blob_sha: "5658584052baff4200850d6e530792ab5122b9ea"
     likely_source_identity: "unknown_from_filename"
@@ -589,7 +589,7 @@ files:
     known_model_links:
       []
   - filename: "eGSE-Catalog.pdf"
-    path: "Downloads/eGSE-Catalog.pdf"
+    path: "Reference Files/eGSE-Catalog.pdf"
     size_bytes: 26511395
     git_blob_sha: "3b6710017920d68f4a92352747fdff449e038464"
     likely_source_identity: "eGSE catalog"
@@ -599,7 +599,7 @@ files:
     known_model_links:
       []
   - filename: "egocore-om-ps-en-us-doc0652.pdf"
-    path: "Downloads/egocore-om-ps-en-us-doc0652.pdf"
+    path: "Reference Files/egocore-om-ps-en-us-doc0652.pdf"
     size_bytes: 11114950
     git_blob_sha: "ad5974d0b4cc28af68d77b31553e50611a4735aa"
     likely_source_identity: "EgoCore product/operator manual"
@@ -609,7 +609,7 @@ files:
     known_model_links:
       []
   - filename: "emea-en-om-ens-wiq-0524.pdf"
-    path: "Downloads/emea-en-om-ens-wiq-0524.pdf"
+    path: "Reference Files/emea-en-om-ens-wiq-0524.pdf"
     size_bytes: 3697949
     git_blob_sha: "caaf773f93a5dbbf75ba39cdfab9fec3b166085c"
     likely_source_identity: "EnerSys Wi-iQ documentation"
@@ -619,7 +619,7 @@ files:
     known_model_links:
       []
   - filename: "forklift-rc5700-spec-GB.pdf"
-    path: "Downloads/forklift-rc5700-spec-GB.pdf"
+    path: "Reference Files/forklift-rc5700-spec-GB.pdf"
     size_bytes: 268822
     git_blob_sha: "a3381a48f47d5998418958ef7e08d630160e441b"
     likely_source_identity: "Crown forklift literature"
@@ -629,7 +629,7 @@ files:
     known_model_links:
       []
   - filename: "forklift-truck-fc5700-brochure-GB.pdf"
-    path: "Downloads/forklift-truck-fc5700-brochure-GB.pdf"
+    path: "Reference Files/forklift-truck-fc5700-brochure-GB.pdf"
     size_bytes: 7240366
     git_blob_sha: "85c9583418d102046450e53154b9d14f0ccf9e02"
     likely_source_identity: "Crown forklift literature"
@@ -676,7 +676,7 @@ files:
       - "Lester Summit Series II"
       - "Lester Electrical"
   - filename: "summit-series-ii_650w_data-sheet_060223.pdf"
-    path: "Downloads/summit-series-ii_650w_data-sheet_060223.pdf"
+    path: "Reference Files/summit-series-ii_650w_data-sheet_060223.pdf"
     size_bytes: 1335279
     git_blob_sha: "afd803d7bebeaacd6e7812e149358a22e44a85e2"
     likely_source_identity: "Lester Summit Series II 650 W data sheet"
@@ -686,7 +686,7 @@ files:
     known_model_links:
       []
   - filename: "trak_collect_brochure_en (1).pdf"
-    path: "Downloads/trak_collect_brochure_en (1).pdf"
+    path: "Reference Files/trak_collect_brochure_en (1).pdf"
     size_bytes: 2475003
     git_blob_sha: "986bc7a0e1d615df4d677c4c2be48889b30bc514"
     likely_source_identity: "HOPPECKE trak | collect literature"
@@ -696,7 +696,7 @@ files:
     known_model_links:
       []
   - filename: "trak_collect_brochure_en.pdf"
-    path: "Downloads/trak_collect_brochure_en.pdf"
+    path: "Reference Files/trak_collect_brochure_en.pdf"
     size_bytes: 2475003
     git_blob_sha: "986bc7a0e1d615df4d677c4c2be48889b30bc514"
     likely_source_identity: "HOPPECKE trak | collect literature"
@@ -706,7 +706,7 @@ files:
     known_model_links:
       []
   - filename: "trak_collect_data_sheet_en.pdf"
-    path: "Downloads/trak_collect_data_sheet_en.pdf"
+    path: "Reference Files/trak_collect_data_sheet_en.pdf"
     size_bytes: 191638
     git_blob_sha: "0551b5bf630dc1c1fedb0cbbf5e2a3c058abe4f5"
     likely_source_identity: "HOPPECKE trak | collect literature"
@@ -716,7 +716,7 @@ files:
     known_model_links:
       []
   - filename: "vhfm3-chargers.pdf"
-    path: "Downloads/vhfm3-chargers.pdf"
+    path: "Reference Files/vhfm3-chargers.pdf"
     size_bytes: 501240
     git_blob_sha: "ab325cd0a7ebe30ed37b2c4439ab20550fcbba4e"
     likely_source_identity: "VHFM3 charger literature"
@@ -726,7 +726,7 @@ files:
     known_model_links:
       []
   - filename: "wbid-and-bid-data-sheet.pdf"
-    path: "Downloads/wbid-and-bid-data-sheet.pdf"
+    path: "Reference Files/wbid-and-bid-data-sheet.pdf"
     size_bytes: 6865997
     git_blob_sha: "920321c38969de504d04ed11dff5022ddac645dc"
     likely_source_identity: "Prestolite WBID/BID data sheet"
@@ -736,7 +736,7 @@ files:
     known_model_links:
       []
   - filename: "wbid-owners-manual-821.pdf"
-    path: "Downloads/wbid-owners-manual-821.pdf"
+    path: "Reference Files/wbid-owners-manual-821.pdf"
     size_bytes: 467896
     git_blob_sha: "d0d2c182158e7280191c2d1c84ca8e92ab6de242"
     likely_source_identity: "Prestolite WBID owner's manual"
