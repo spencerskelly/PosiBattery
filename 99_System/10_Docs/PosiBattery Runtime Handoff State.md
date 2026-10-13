@@ -2,9 +2,30 @@
 
 ## Authority
 
-Updated 2026-10-05 after completion of the PosiBattery architecture-improvement roadmap. This file supersedes the prior 2026-10-04 snapshot for current-state claims.
+Updated 2026-10-12 (current-state section added); body below otherwise as of 2026-10-05, after completion of the PosiBattery architecture-improvement roadmap. This file supersedes the prior 2026-10-04 snapshot for current-state claims.
 
-## Live GitHub validation status — 2026-10-08 (supersedes earlier PASS for current state)
+## Live validation status — 2026-10-12 (supersedes the 2026-10-08 section below for current state)
+
+Model commit `e1ba6642` on `main`, the only branch. Local run of every script the 28 workflows call: all pass. On GitHub, [MDSE Vault Audit run 38330730909](https://github.com/spencerskelly/PosiBattery/actions/runs/38330730909) and [Semantic Linking Completion Gate run 38330730826](https://github.com/spencerskelly/PosiBattery/actions/runs/38330730826) were listed as successful for this commit; the Actions page shows no per-run status icon to a text reader, so confirm in the Actions tab before relying on this.
+
+| Measure | 2026-10-08 section below | 2026-10-12 |
+| --- | --- | --- |
+| Relationship errors | 256 missing inverses + 75 incompatible endpoints (331) | 0 missing inverses, 0 incompatible endpoints |
+| Vault audit blocking findings | failing | 0 |
+| Broken / ambiguous wikilinks | not recorded | 0 / 0 |
+| Markdown files / model notes | not recorded (1,126 / 945 at the 2026-10-05 baseline) | 1,391 / 1,196 |
+| Governed relationship assertions | 5,987 at the 2026-10-05 baseline | 8,452 |
+| Disposition registry errors | not recorded | 0 |
+| Legacy weak-traceability findings | 221 at the 2026-10-05 baseline | 260 across 217 notes (Design 170, Function 46, Requirement 1); all classified in the dispositions registry, none force-linked |
+| Active weak findings | not recorded | 6 (5 notes); 1 accepted unresolved: `BMID - Preserve Battery Association` (EXC-ARCH-UNRESOLVED) |
+| Evidence-signal notes without a curated source link | 620 of 740 at the 2026-10-05 baseline | 623 of 749 |
+| Workbench model review | passed | passed, 0 blocking, same Info-owned Local Model limitation |
+
+How the 331 relationship errors were cleared is recorded in `80_Decisions and Planning/PosiBattery Relationship Recovery Batch 01` through `Batch 07 2026-10-12`, the consolidation of all other branches into `main` (2026-10-12), and the Node 24 / `ubuntu-24.04` workflow updates. Decisions made on 2026-10-12: realization takes priority over dependency where both exist; supporting sensor/interface Designs are not linked directly to the next element type (the Step 27 and Step 89 records keep the earlier statements as revision notes); independent commercial products are not parts of each other.
+
+Open items: README/Handoff numbers elsewhere in this file are historical; the Step 27 YAML (`Semantic Linking End-to-End Product Chain Audit Step 27 0.1.yaml`) does not parse as YAML and no script reads it; `99_System/check-links.py` still uses a legacy path; `70_Research and Evidence/Research/Industrial Wireless Communication/` holds two notes without frontmatter, `uid` or `id` pending conversion; the repository contains third-party and marked-confidential PDFs under `Downloads/` and has no LICENSE (owner is handling these separately).
+
+## Live GitHub validation status — 2026-10-08 (historical; superseded by the 2026-10-12 section above)
 
 The 2026-10-05 verification below is a **historical stabilization baseline**, not the current passing state. The subsequent October 6 modeling/realization commits are captured on `main`, but relationship integrity has regressed.
 
