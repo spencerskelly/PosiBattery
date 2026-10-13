@@ -233,6 +233,9 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C134 - Equalize rate and timing.** RICO: end of each workweek at a very low rate for about 3 hours; East Penn 0656: at the finish rate, minimum 3 A per 100 Ah; IBA: up to 5 A per 100 Ah; Fleetman: every 5 to 10 cycles. Relates to C118.
 - **C135 - Open-circuit cell voltage.** RICO's automotive glossary says 2.11 V per cell fully charged; East Penn 0656 says about 2 V for flooded and 2.15 to 2.18 V for gel at 100%.
 
+- **C136 - Typical lift truck battery weight.** State Fund's 2014 handout says batteries can weigh as much as 2,000 lb; East Penn 0656 and RICO say the average exceeds 2,000 lb; the Fleetman chart lists flooded batteries from 522 to 4,960 lb. See [[Generic Reference Values]].
+- **C137 - Nickel-iron forklift batteries.** State Fund says forklift batteries are generally lead acid or nickel iron. No other reviewed document mentions nickel-iron and the vault has no nickel-chemistry notes. Unverified; needs a source before any chemistry note is created.
+
 ## Aliases
 
 - Landscape conflicts register

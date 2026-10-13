@@ -280,4 +280,26 @@ Conflicts raised by the RICO document are added to C118, C119, C121, C129 and C1
 | C134 | Equalize rate and timing | end of each workweek; about 3 hours at a very low rate | East Penn 0656: 3-hour continuation at no more than the finish rate and at least 3 A per 100 Ah, or until specific gravity is steady; IBA: up to 5 A per 100 Ah, weekly only with IU-curve charging; Fleetman: every 5 to 10 cycles | open |
 | C135 | Open-circuit cell voltage | 2.11 V fully charged (automotive glossary) | East Penn 0656: about 2 V flooded; gel 2.15 to 2.18 V at 100% | open; likely different chemistry or reference conditions, not reconciled |
 
+### State Compensation Insurance Fund, "Safety Meeting Topic: Forklift Battery Use and Maintenance"
+
+Source: State Fund (State Compensation Insurance Fund, a workers' compensation insurer), one-page safety meeting handout with instructor, date and location lines to fill in; the PDF was created 2014-09-28 and the page is a scan (no embedded text, read from the page image). Insurer training material (tier not set; not a manufacturer document). The PDF is `SA-2014-Forklift-Battery.pdf` in the repo `Downloads` folder; no public URL was found. It carries one number and no thresholds; the rest is qualitative practice, recorded here because it shows what an insurer tells crews to check and does not duplicate the maker manuals.
+
+| Quantity or statement | Value | Basis and conditions | Related metric note |
+|---|---|---|---|
+| Battery weight | batteries "can weigh as much as 2,000 pounds" and counterweight the truck | forklift batteries generally | Size and Mass |
+| Chemistries named | "lead acid or nickel iron"; no lithium (2014 document) | forklift batteries "generally"; unverified, see C137 | Chemistry and Plate Construction |
+| Charger arrangement | charged by plugging the truck into a fixed station, or an "on-board" charger brought to the truck | forklift fleets | Charger Link |
+| Charging area | well-ventilated; signage and floor striping outlining the station; emergency eyewash and shower near the charging area; spill kit with acid neutralizing materials and posted instructions; firefighting or suppression equipment | charging gases are oxygen and hydrogen | Charging Gas Emissions |
+| Inspection checkpoints | fluid levels; cables intact, insulated and connected; contact posts clean without crystallization or corrosion; cracks in the casing | before use | none yet |
+| Handling steps | emergency brake engaged before charging; charger OFF before connecting or disconnecting; vent caps in place so gas vents out of the truck; no metal jewelry, funnels or containers near the battery; add acid to water, never the reverse | charging and watering | none yet |
+| Moving a battery | only with a properly rated and rigged battery cart or forklift; strap it into the moving equipment and the destination truck | battery changes | none yet |
+| Protective equipment | rubber gloves, safety goggles and face shield, apron, steel-toe boots | handling and watering | none yet |
+
+The charging-area items match the structure of 29 CFR 1910.178(g) as read in the Demand Evidence Source Register (designated area, spill facilities, fire protection, ventilation). The handout names no chemistry-specific ventilation requirement.
+
+| # | Topic | State Fund | Other source | Status |
+|---|---|---|---|---|
+| C136 | Typical battery weight | "can weigh as much as 2,000 pounds" (a maximum) | East Penn 0656 and RICO: the average lift truck battery weighs more than 2,000 lb; the Fleetman selection chart lists 42 flooded batteries from 522 to 4,960 lb | open; the maximum versus average framing is contradicted by the chart rows |
+| C137 | Nickel-iron as a forklift chemistry | "generally lead acid or nickel iron" | none of the other documents reviewed mentions nickel-iron; the vault has no nickel-chemistry notes | open; unverified, and a gap if nickel chemistries are in use in any fleet |
+
 ## Former ids
