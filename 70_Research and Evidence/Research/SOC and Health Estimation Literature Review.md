@@ -35,7 +35,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 5 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | reviewed below |
 | 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | deferred, likely out of scope |
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | reviewed below |
-| 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | pending |
+| 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | reviewed below |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a neural network | pending |
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from strain sensing and machine learning | pending |
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | pending |
@@ -67,6 +67,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 5 Margal 2025 | SOC | adaptive Luenberger observer, gain adapted by stochastic gradient | same model, current and voltage; learning rate | simulation only | same |
 | 5 Margal 2025 | SOC | NARX recurrent neural network: 5 hidden units, 1 hidden layer, delay 2, Adam optimizer, 1,000 training epochs | past and present current, past SOC and voltage outputs fed back; needs data covering all operating points (the paper's own caveat) | training offline; the network is small enough to suggest on-device inference, but no inference cost is given | none; data-driven candidate |
 | 7 GM patent US 8,922,217 | SOC | robust observer (minimizes an upper bound on the estimation error covariance) estimating open-circuit voltage while the battery is loaded, on a two-RC model with bounded, time-varying parameters; SOC then read from an open-circuit-voltage table that depends on temperature | terminal voltage, terminal current and temperature at every time step; nominal model matrices and parameter-variation bounds; tolerance levels; the voltage-to-SOC table | the vehicle's control module (processing unit); output goes to a display or an electronic control unit | no model-based candidate; closest is the hybrid candidate |
+| 8 Lakhdari 2026 | SOC, with resistance as a health indicator | joint extended Kalman filter on a fractional-order equivalent circuit; the filter state holds SOC, a short voltage history (memory length 4), ohmic resistance and leakage resistance | current and terminal voltage at 1 Hz; open-circuit-voltage table by SOC (piecewise linear); nominal capacity; offline-identified polarization parameters (R1, Q1, alpha) and memory length; noise covariances | identification offline on a bench; the filter is described as real-time but run in simulation or post-processing; embedded hardware implementation is listed as future work | none; extends the voltage-and-current hybrid and, through the resistance state, the [[Resistance-Trend State of Health Estimator]] |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -289,6 +290,37 @@ Source: United States patent, application 13/466,394 filed 2012-05-08, published
 - Lithium-ion vehicle (hybrid) context; the plate surface-charge explanation is the lead-acid mechanism, yet the claimed model is for Li-ion.
 - OCR left some equations unreadable; the claim wording above is read from the scan.
 - "About 24 hours" for equilibrium is stated for a vehicle battery with no source; compare with the unspecified "long time" in the Pop review (source 4) and with East Penn 0656 in [[Generic Reference Values]], which says to measure gel open-circuit voltage no earlier than 4 hours after charge (see C150).
+
+### Source 8: Lakhdari (2026), "Joint Fractional-Order Modeling and Kalman Filtering for Battery State-of-Charge Estimation"
+
+Source: Revue Roumaine des Sciences Techniques, Serie Electrotechnique et Energetique, vol. 71, no. 3, pp. 415 to 420, Bucharest, 2026, doi:10.59277/RRST-EE.2026.3.13; received 2026-03-22; single author, LEPESA laboratory, University of Science and Technology of Oran (USTO), Algeria; 6 pages. Peer-reviewed journal article. The PDF is `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI.pdf` in the repo `Downloads` folder. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Method | fractional-order equivalent circuit (open-circuit voltage source, ohmic resistor, leakage resistor, one resistor and constant-phase element branch) with a joint state-and-parameter extended Kalman filter | lithium-ion | 3, 5 |
+| Filter state | SOC, the fractional-branch voltage history (L past values), ohmic resistance R0 and leakage resistance; with L = 4 this is 7 states | the 7 is derived by the note author from equation 36 | 5, 6.1 |
+| Why a joint filter | model parameters drift with age and temperature, so fixed offline models degrade | the paper's stated gap | 1 |
+| Memory length | Akaike criterion picks 5, Bayesian criterion picks 4; going from 4 to 5 improves RMSE by only 3.2% (ratio 0.968 against a 0.95 threshold), so 4 is chosen "balancing model fidelity against computational complexity" | candidates 1 to 20 | 6.1 |
+| Identification procedure | open-circuit voltage by a piecewise linear fit to low-current rest data; R0 as the median of voltage step over current step; leakage resistance by regression on self-discharge during long rests; polarization parameters by an autoregressive fit then a grid search over alpha and gradient refinement | offline, from a discharge-and-rest protocol | 4 |
+| OCV curve | linear over a wide range with a slope change near 20% SOC | bench cell | 6, Fig 3 |
+| Bench | commercial 18650 packs, 2.5 Ah, 14.8 V, programmable electronic load; voltage and current recorded at 1 Hz | laboratory | 6 |
+| Benchmark data | CALCE 2 Ah INR18650 cells, DST and FUDS profiles; DST at 25 C, FUDS at 45 C; 1% Gaussian noise added to current and voltage | published data set | 6.3 |
+| SOC accuracy | "average RMSE of 3.5% (vs. Coulomb counting)" on the bench; "about 3.5% across all test conditions" on the benchmarks; the abstract says "consistently below 3.5%" | reference is Coulomb counting on the bench; the reference for the benchmark runs is not stated | Abstract, 6.2, 6.3, 7 |
+| Resistance tracking | R0 "converging rapidly to a stable low value"; leakage resistance "maintains its characteristic high value"; the paper says this "enables effective State-of-Health tracking without separate estimation routines" | no SOH reference or aging test | 6.2 |
+| Embedded status | "embedded hardware implementation" and "long-term aging studies" are future work; no run time, memory or processor given | | 7 |
+
+**Approach and dependencies.** Only current and terminal voltage are measured; temperature is neither a measured input nor an estimated state (adding it as a state is future work). The filter needs an OCV table, capacity, identified polarization parameters and a memory length, all produced offline, plus covariance tuning that the paper plans to automate later.
+
+**Where the software runs, per the paper.** The identification (autoregressive fit, grid search, criteria for memory length) is offline. The filter is called "real-time" and "computationally efficient" but is evaluated on recorded data and no device is named.
+
+**Engineering inference (not a source claim).** With L = 4 the filter has 7 states, so its per-step matrices are small; running it on a battery-side microcontroller looks plausible but is unproven by the paper. The offline identification fits a commissioning step or a cloud job, and the R0 and leakage-resistance states are natural outputs to log and trend in a fleet service for the [[Resistance-Trend State of Health Estimator]] role.
+
+**Gaps in the evidence.**
+
+- The abstract says the method adapts "to aging and temperature changes" and was "validated under ... varying temperatures". The tests are two fixed temperatures (25 C and 45 C), no cold, no aging, no temperature ramp (see C151).
+- Reported accuracy is against Coulomb counting on the bench; the reference on the benchmarks is not stated.
+- The SOH claim rests on two resistance traces from a short run, with no health reference.
+- Small lithium-ion cells and packs (2 to 2.5 Ah); no forklift-scale data and no lead-acid.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 

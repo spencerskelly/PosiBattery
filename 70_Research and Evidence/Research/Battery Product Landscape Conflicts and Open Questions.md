@@ -256,6 +256,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 
 - **C150 - Rest time before an open-circuit voltage reading.** The GM patent US 8,922,217 says an accurate open-circuit voltage is typically available about 24 hours after charging stops (vehicle battery, plate surface charge); East Penn manual 0656 says to measure gel open-circuit voltage no earlier than 4 hours after charge; Pop et al. 2005 say relaxation can take a long time, longer when nearly empty, cold or after high current, with no figure. Chemistries and conditions differ and are not reconciled; a rest-time rule for a lead-acid forklift battery is not established by these sources. See [[SOC and Health Estimation Literature Review]].
 
+- **C151 - Lakhdari 2026 claims versus tests.** The abstract says SOC RMSE is "consistently below 3.5%" and that the method adapts to temperature changes and was validated under varying temperatures; the body gives "average RMSE of 3.5%" and "about 3.5%", and the tests are two fixed temperatures (25 C and 45 C) with no temperature variation within a run. The reference for the bench result is Coulomb counting. See [[SOC and Health Estimation Literature Review]].
+
 ## Aliases
 
 - Landscape conflicts register
