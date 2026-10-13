@@ -258,6 +258,10 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 
 - **C151 - Lakhdari 2026 claims versus tests.** The abstract says SOC RMSE is "consistently below 3.5%" and that the method adapts to temperature changes and was validated under varying temperatures; the body gives "average RMSE of 3.5%" and "about 3.5%", and the tests are two fixed temperatures (25 C and 45 C) with no temperature variation within a run. The reference for the bench result is Coulomb counting. See [[SOC and Health Estimation Literature Review]].
 
+- **C152 - Ismail 2024 accuracy claims versus figures.** The abstract and results say the estimate is "very high" accuracy with "RMSE and MAX very low" and training "accuracy of 100%"; Figure 19 shows RMSE of about 1.2% to 1.6% and maximum error of about 6.5% to 11% across temperatures (read by eye). See [[SOC and Health Estimation Literature Review]].
+- **C153 - Ismail 2024 internal inconsistencies.** Test temperatures are listed as 0, 10, 25, 20 and 40 C in the method and shown as -10, 0, 10 and 25 C in Figures 18 and 19; the data set has "voltage, current, temperature and capacity" in one place and a five-channel input including 500 s averages in another; the Table 1 caption says convolutional while the text says no convolution; the network is "ReLU" in the text and leaky and clipped ReLU in Table 1.
+- **C154 - Extended Kalman filter SOC error across sources.** Ismail 2024 reports an EKF error of "about 5% to 10%" (reported from ref 8, not checked); Margal 2025 reports EKF RMSE 5.34% in the abstract and 5.349e-1 (units unstated) in Table 5 (C148); Lakhdari 2026 reports about 3.5% for a joint EKF (C151); Pop 2005 calls the EKF the best long-term solution without a figure. The data sets, references and test conditions differ and are not reconciled.
+
 ## Aliases
 
 - Landscape conflicts register

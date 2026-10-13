@@ -36,7 +36,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | deferred, likely out of scope |
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | reviewed below |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | reviewed below |
-| 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a neural network | pending |
+| 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a small feedforward neural network ("Corny") | reviewed below, low weight |
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from strain sensing and machine learning | pending |
 | 11 | `126_Paper` | Yunusoglu et al.: SOH and RUL with an LLM framework, LTO cells | pending |
 | 12 | `ISIE2014` | Sarikurt et al., ISIE 2014: analytical SOH method | pending |
@@ -68,6 +68,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 5 Margal 2025 | SOC | NARX recurrent neural network: 5 hidden units, 1 hidden layer, delay 2, Adam optimizer, 1,000 training epochs | past and present current, past SOC and voltage outputs fed back; needs data covering all operating points (the paper's own caveat) | training offline; the network is small enough to suggest on-device inference, but no inference cost is given | none; data-driven candidate |
 | 7 GM patent US 8,922,217 | SOC | robust observer (minimizes an upper bound on the estimation error covariance) estimating open-circuit voltage while the battery is loaded, on a two-RC model with bounded, time-varying parameters; SOC then read from an open-circuit-voltage table that depends on temperature | terminal voltage, terminal current and temperature at every time step; nominal model matrices and parameter-variation bounds; tolerance levels; the voltage-to-SOC table | the vehicle's control module (processing unit); output goes to a display or an electronic control unit | no model-based candidate; closest is the hybrid candidate |
 | 8 Lakhdari 2026 | SOC, with resistance as a health indicator | joint extended Kalman filter on a fractional-order equivalent circuit; the filter state holds SOC, a short voltage history (memory length 4), ohmic resistance and leakage resistance | current and terminal voltage at 1 Hz; open-circuit-voltage table by SOC (piecewise linear); nominal capacity; offline-identified polarization parameters (R1, Q1, alpha) and memory length; noise covariances | identification offline on a bench; the filter is described as real-time but run in simulation or post-processing; embedded hardware implementation is listed as future work | none; extends the voltage-and-current hybrid and, through the resistance state, the [[Resistance-Trend State of Health Estimator]] |
+| 9 Ismail 2024 | SOC | small feedforward neural network ("Corny"): 5 inputs, two 55-unit layers, 1 output | voltage, current, temperature, and 500-second averages of voltage and current (5 channels); training data from a public data set | training offline; no deployment statement for this network | none; same data-driven candidate as Wang and Margal |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -321,6 +322,37 @@ Source: Revue Roumaine des Sciences Techniques, Serie Electrotechnique et Energe
 - Reported accuracy is against Coulomb counting on the bench; the reference on the benchmarks is not stated.
 - The SOH claim rests on two resistance traces from a short run, with no health reference.
 - Small lithium-ion cells and packs (2 to 2.5 Ah); no forklift-scale data and no lead-acid.
+
+### Source 9: Ismail, Firdaus, Rakiman, Budiman, Sardani (2024), "The Estimation of Battery State of Charge using Corny Network"
+
+Source: International Journal of Recent Technology and Engineering (IJRTE), vol. 12, issue 6, March 2024, pp. 5 to 11, doi:10.35940/ijrte.F7999.12060324; Politeknik Negeri Padang, Indonesia; published by Blue Eyes Intelligence Engineering and Sciences Publication; open access (CC BY-NC-ND). Journal article; its indexing and peer-review standing were not checked here. The text has many terminology and consistency errors (listed below), so this source is carried at low weight. The PDF is `The_Estimation_of_Battery_State_of_Charge_using_Co.pdf` in the repo `Downloads` folder. Section numbers are the paper's own; Table 1, Figure 18 and Figure 19 were read from the page images.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Method | feedforward neural network with narrow layers, called "Corny"; no convolution, pooling or batch normalization | regression of SOC | III, IV |
+| Layer sizes | input of 5 channels, fully connected 55, tanh, fully connected 55, leaky ReLU (scale 0.3), fully connected 1, clipped ReLU (ceiling 1), regression output | Table 1 | III |
+| Parameter count | about 3,466 weights and biases (5 x 55 + 55, 55 x 55 + 55, 55 + 1) | derived by the note author from Table 1 | III |
+| Inputs | voltage, current, temperature, average voltage and average current over the last 500 s | the text also says the data set holds "voltage, current, temperature and capacity" | III, IV |
+| Data | LG 18650HG2 Li-ion data set (Kollmeyer et al., Mendeley Data, 2020), cited as reference 17 with an example deep-network SOC estimator script; the paper does not say what it changed from that example | driving-cycle data at several temperatures | IV, refs |
+| Training settings | 1,200 epochs, mini-batch of 1, Adam, gradient threshold 1, learning rate 0.01 dropped by 0.1 every 400 epochs, validation every 30 iterations | | III |
+| Test temperatures | method text: 0, 10, 25, 20 and 40 C; Figure 18: -10, 0, 10, 25 C | see C153 | III, IV |
+| RMSE by temperature | about 1.2% to 1.6% (bar heights read by eye): about 1.55% at -10 C, 1.3% at 0 C, 1.6% at 10 C, 1.2% at 25 C | Figure 19, axis labeled percent | IV |
+| Maximum error by temperature | about 11% at -10 C, 7.5% at 0 C, 8% at 10 C, 6.5% at 25 C (read by eye) | Figure 19 | IV |
+| Claimed accuracy | "very high", "predicted and targeted values are almost merged", RMSE and MAX "very low"; training "accuracy of 100%" with loss "very close to zero and might be zero" | abstract and results | Abstract, IV |
+| Claims about the architecture | low computational cost, avoids overfitting, "easily understood by individuals with no prior experience in deep learning" | no run time, memory or overfitting test | Abstract, IV |
+| Literature figures it repeats | a dual H-infinity filter about 1.5% error [3]; an extended Kalman filter "about 5% to 10%, depending on battery characteristics" [8]; a fractional Kalman filter terminal-voltage error 0.014 V [4]; a self-supervised transformer RMS of 0.9 [12] | reported from the cited works, not checked | I, II |
+| BMS data path described in the introduction | cell voltage, module current and each cell's temperature sampled by the microcontroller's ADC and sent to a neural network that estimates SOC and SOH | describes cited work [2] (interleaved pulse charging with NARX), not this paper's network | I |
+
+**Approach and dependencies.** Same data-driven class as Wang (source 1) and Margal (source 5): voltage, current and temperature, plus 500-second rolling averages of voltage and current, which are the only memory the network has. A rolling-average buffer is therefore the embedded state this approach needs. The paper says nothing about where the network runs.
+
+**Engineering inference (not a source claim).** At about 3,500 parameters, inference is small enough for a microcontroller, and training with a pooled data set suits the cloud or a workstation. Neither is shown in the paper.
+
+**Gaps and consistency problems.**
+
+- The accuracy claims are not supported by the paper's own figures: RMSE of about 1.2% to 1.6% and maximum errors of about 6.5% to 11% are not "very low" for a charge gauge, and the "100% accuracy" refers to training loss (see C152).
+- The text calls SOC "soil organic carbon" once and "HOC" in the results and conclusion; Table 1 is titled as a convolutional model although the text says there is no convolution; the text says "ReLU" where Table 1 shows leaky and clipped ReLU; the data set is described with different inputs in different places (see C153).
+- The abstract and introduction open with lead-acid and "Li-ion" interchangeably; the data and results are lithium-ion only.
+- No comparison against another estimator, no separate test of generalization, no run-time figure.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
