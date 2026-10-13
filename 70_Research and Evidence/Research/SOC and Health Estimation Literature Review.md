@@ -43,7 +43,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 13 | `Machine_Learning_Techniques_for_Battery_State_of_H` | Mbagaya et al., WEVJ 2025: SOH machine learning review with a four-model test on NASA cells | reviewed below, secondary source |
 | 14 | `Transformer-Based_Transfer_Learning_for_Battery_St` | Giuliano et al., Energies 2025: Transformer transfer learning for SOH (NASA to Oxford cells) | reviewed below, test design weaknesses |
 | 15 | `main` | Ahmed, Aagela, Geth, Iqbal (University of Huddersfield): lifecycle-aware SOH evaluation, LightGBM baseline, 10k-parameter CNN preview | reviewed below, preprint-style, no on-target test |
-| 16 | `1_batteries` | Kafadarova et al., Batteries: surface temperature of cylindrical cells by thermal camera | pending, likely a sensing input rather than SOC or SOH |
+| 16 | `1_batteries` | Kafadarova et al., Batteries 2023: surface temperature of cylindrical cells by thermal camera | reviewed below, a laboratory temperature measurement method, not an SOC or SOH estimator |
 
 ### How the vault models an estimation approach
 
@@ -85,6 +85,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 15 Ahmed | SOH | LightGBM regression on 61 features per discharge cycle (statistics, dwell times, curve-shape, dV/dt) from voltage, current and temperature; leave-one-battery-out testing | a complete discharge cycle of voltage, current and temperature held in memory, a cycle segmenter, a first-cycle capacity reference for the label | the paper wants SOH "on or near the asset" but argues its own model is "structurally non-deployable" on a Cortex-M class target; no port attempted | none; new data-driven candidate; needs a cycle buffer and feature extraction |
 | 15 Ahmed | SOH | 1D CNN with depthwise-separable convolutions on a 3 x 200 resampled discharge cycle; 10,169 parameters, about 40 kB float32 or 10 kB INT8 | same cycle buffer, linear resampling to 200 points and per-channel normalisation | claimed quantisable to microcontroller scale (TFLM, CMSIS-NN); latency and energy not measured | none; the only source here sized for a microcontroller, claim untested |
 | 15 Ahmed | SOH band (maintenance action) | map the SOH estimate to Good (90% or more), Fair (80 to 90), Poor (70 to 80), Critical (below 70) | the SOH estimate | not stated; a threshold table | [[Battery Replacement Forecasting Service]] and [[Battery State of Health Analytics Service]]; thresholds are configurable, not standard |
+| 16 Kafadarova 2023 | temperature input (not an estimator) | infrared thermography of a rotating cylindrical cell, view-angle correction, 3D surface temperature map and average surface temperature | thermal camera, a motor-driven rotating fixture, thermographic paint, electronic load and voltmeter; offline Python image processing | laboratory only; the authors say the method is "for testing batteries in laboratory conditions"; no embedded or cloud split | none; it is a characterization method, not a candidate for [[Battery Temperature Acquisition Firmware]]; could inform where thermistors go |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -589,6 +590,43 @@ Source: manuscript-style paper (Springer-style layout) from the University of Hu
 - NASA lithium-ion 18650 cells only; one manufacturer; no lead-acid.
 - Early stopping is monitored on the held-out cell, disclosed by the authors as mild optimism.
 - The feature matrix and notebook are available only from the authors on request.
+
+### Source 16: Kafadarova, Sotirov, Herbst, Stoynova, Rizanov (2023), "A System for Determining the Surface Temperature of Cylindrical Lithium-Ion Batteries Using a Thermal Imaging Camera"
+
+Source: peer-reviewed article, Batteries 2023, 9, 519 (MDPI, open access, doi 10.3390/batteries9100519), Plovdiv University, Technical University of Sofia and BioInterface GmbH; 19 pages. The PDF is `1_batteries.pdf` in the repo `Downloads` folder. This paper does not estimate SOC or SOH. It is kept because temperature is an input to the Hybrid SOC and the learned SOH approaches in the register, and because it argues about where cell temperature can be measured. Section numbers are the paper's own.
+
+| Quantity or statement | Value | Basis and conditions | Section |
+|---|---|---|---|
+| Method | the cell rotates about its axis, synchronised to the camera frame rate (1 frame per second); frames are cut into segments within a chosen viewing angle; segments are combined into a 3D surface temperature map and an average surface temperature | Eq 6 to 12 | 2, 3 |
+| Camera and rig | FLIR E8, 320 x 240 pixels, thermal sensitivity below 0.050 C, accuracy listed as +/-2% of reading; TENMA 72-13510 electronic load; Keithley 2010 voltmeter; 1.8 degree stepper motor; thermally insulated chamber | Table 1 | 2 |
+| Surface preparation | thermographic paint HERP-LT-MWIR-BK-11, emissivity 0.94 for viewing angles 0 to 45 degrees | the emissivity at other angles is "unknown" | 2, 3 |
+| View-angle error (reported from refs 26, 27, 31) | recorded temperature starts to drop between 40 and 60 degrees and drops more above 60; 60 degrees gives a 4 to 5% error | not tested here | 1.3, 3 |
+| Claim for the method | pixels whose view-angle error exceeds a limit are cut; within the kept angle the angular error is below 0.25 C | error is relative to the camera's own 0-degree reading, not to a reference sensor | 3 |
+| Resolution | fourfold upscaling of thermograms by the EDSR image-super-resolution method | image quality, no measurement check | 3 |
+| Non-radiometric images | temperature recovered from the colour bar in a JPEG by nearest-neighbour search in a k-d tree | | 3 |
+| Test cell | Samsung ICR18650-22F, 2200 mAh, pre-charged to 4.2 V, rested 4 h, discharged at constant 2200 mA to 3.5 V; ambient 22 C, 65% humidity; camera 500 mm from the cell axis | one cell, one test | 3 |
+| Result | average surface temperature rises from about 24 C to 31 C over about 72 s (7 points, Fig 19) | the text calls the end of discharge "exothermic" | 3, Fig 19 |
+| Contact-sensor critique | thermocouples "limited to measuring purely relative temperature changes", need a cold junction and analogue conditioning, cannot be multiplexed on a single conductor; fibre-optic (FBG) sensors are mechanically sensitive and costly; embedded thermistors have long-term stability problems | 1.1, 1.4 | |
+| Scope statement | the method "is for testing batteries in laboratory conditions" and suits development, diagnostics, quality control and testing | | 1, 4 |
+
+**Approach and dependencies.** Nothing in the paper depends on, or feeds, an SOC or SOH algorithm. It describes how to measure the surface temperature field of a cylindrical cell in a lab. The vault's [[Battery Temperature Acquisition Firmware]] and its sensor elements (see [[Thermistor Temperature Sensor]] and [[BMS Temperature Sensor Network]]) are the on-board counterpart; the paper offers no data for choosing between them.
+
+**Where the software runs, per the paper.** Offline Python image processing on a computer. The camera, rotating fixture and paint exclude on-board use.
+
+**Engineering inference (not a source claim).** The useful content for the vault is the finding that surface temperature varies with view angle and across the surface, so one contact sensor sees one point. It does not show how large the spread is on a cell in a pack: the paper's 3D maps cover one cell in free air, with 7 C of change but no measured spread across the surface. Not usable as a requirement for pack temperature sensing.
+
+**Checks by the note author.**
+
+- A discharge at 2200 mA for 72 s removes 44 mAh, about 2% of the 2200 mAh capacity (derived). The test is said to run to 3.5 V, which at about 1C takes on the order of an hour, so Fig 19 shows only the first minute or so, and the "end of discharge" rise the text describes is not in the plotted data.
+- A rise from about 24 C to 31 C in the first 72 s at 1C is larger than this note can confirm from any other source in the set; no reference sensor reading is given for comparison.
+- Camera accuracy of +/-2% of reading is 0.6 C at 30 C (derived), larger than the 0.25 C view-angle bound the paper reports.
+- The thermocouple critique is contradicted by a manufacturer application note: a thermocouple's voltage depends on the difference between its two junctions, and with the cold junction temperature measured and compensated, it reads the actual (absolute) hot-junction temperature ([Analog Devices, Cold Junction Compensation in Thermocouple Guide](https://www.analog.com/en/resources/technical-articles/cold-junction-compensation-in-thermocouple-guide.html)). The paper's own sentence, that thermocouples "require a cold junction element", describes the same mechanism.
+
+**Gaps in the evidence.**
+
+- No comparison of the camera result with a contact sensor, so "high accuracy" is not shown.
+- One cell, one rate (about 1C), one ambient, free air; no pack, no cooling, no ageing.
+- Emissivity at view angles above 45 degrees is stated as unknown, yet the cut limits are defined by angle.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
