@@ -243,6 +243,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 
 - **C142 - Coulomb counting for forklift SOC.** Wang et al. 2026 say Coulomb counting is unsuitable for forklifts because of long-term variable load and large estimation errors, without data. The vault lists [[Coulomb Counting State of Charge Estimator Firmware]] as a neutral candidate. Open until the Pop 2005 review and the other supplied papers are read; see [[SOC and Health Estimation Literature Review]].
 
+- **C143 - Validation fit and chemistry, da Silva 2021.** The abstract says "more than 80% of fit in different validation data"; Table 5 gives 78.98% for the chosen model against validation data, 93.13% against estimation data, and the conclusion says "more than 86% in most validation data sets" for the chosen experiment. The abstract also names lead-acid as the common forklift battery while every experiment is on a 6 Ah LiFePO4 cell. Not reconciled; see [[SOC and Health Estimation Literature Review]].
+
 ## Aliases
 
 - Landscape conflicts register
