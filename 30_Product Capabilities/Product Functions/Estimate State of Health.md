@@ -25,6 +25,7 @@ supertypeOf:
   - "[[Report State of Health Threshold Crossings]]"
 describedBy:
   - "[[SOC and SOH Decision Criteria]]"
+  - "[[SOC and SOH Knowledge Base]]"
 ---
 
 # Estimate State of Health

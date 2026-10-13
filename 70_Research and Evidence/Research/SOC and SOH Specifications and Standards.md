@@ -103,4 +103,16 @@ Not available free in this session; please obtain if you want the matrix to cite
 - **S23** [[Document - ISO 12405-4:2018 Standard Page (retrieved 2026-10-13)]] <https://www.iso.org/standard/71407.html>
 - **S24** [[Document - SIST EN IEC 62485-6:2021 Catalog Page (retrieved 2026-10-13)]] <https://iteh.es/catalog/standards/sist/323f4ad1-1c3c-498a-a61a-059a70066d3e/sist-en-iec-62485-6-2021>
 
+## Aliases
+
+- SOC accuracy
+- SOH threshold
+- 80% end of life
+- EN IEC 62485-6
+- IEEE 1188
+- ISO 12405-4
+- measurement chain
+- shunt resistor error
+- SOC standards
+
 ## Former ids

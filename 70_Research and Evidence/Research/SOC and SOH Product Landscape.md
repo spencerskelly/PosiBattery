@@ -93,4 +93,18 @@ Products that provide SOC or SOH today, grouped by what they are: gauge ICs, shu
 - **S18** [[Document - Flux Power LiFT Pack L-Series L48 Brochure]] <https://www.fluxpower.com/hubfs/L48%20Battery%20Pack%20-%20Brochure-2.pdf>
 - **S19** [[Document - Delta Systems Flux Power SOC Display]] <https://deltasystemsinc.com/capabilities/how-we-innovate/flux-power-charges-on-with-new-soc-display-from-delta-systems>
 
+## Aliases
+
+- fuel gauge IC
+- gas gauge
+- SOC battery monitors
+- battery shunt
+- SOC display
+- battery tester
+- bq34z110
+- MAX17320
+- ModelGauge
+- Victron SmartShunt
+- Orion BMS
+
 ## Former ids

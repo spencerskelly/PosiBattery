@@ -63,4 +63,11 @@ Criteria and candidate approach families for an engineer building the SOC and SO
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].
 
+## Aliases
+
+- SOC SOH decision matrix inputs
+- approach families
+- estimator selection criteria
+- SOC SOH owner questions
+
 ## Former ids

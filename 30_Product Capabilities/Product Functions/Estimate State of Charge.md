@@ -39,6 +39,7 @@ supportedBy:
   - "[[Document - PosiCharge GSE BMID Page]]"
 describedBy:
   - "[[SOC and SOH Decision Criteria]]"
+  - "[[SOC and SOH Knowledge Base]]"
 ---
 
 # Estimate State of Charge

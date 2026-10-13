@@ -15,6 +15,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 
 ## Key information
 
+- [[SOC and SOH Knowledge Base]] — index of state of charge and state of health methods, products, standards, sources and wanted documents.
 - [[Battery Product Landscape]] — consolidated view of battery-related offerings.
 - [[Battery Product Landscape Conflicts and Open Questions]] — unresolved or conflicting product-landscape evidence.
 - [[Catalog Review 2026-10-02]] — catalog review findings.

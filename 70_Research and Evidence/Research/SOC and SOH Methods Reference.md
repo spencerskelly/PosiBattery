@@ -86,4 +86,20 @@ Engineer-facing reference of the methods used to find battery state of charge (S
 - **S21** [[Document - Paizulamu et al. LiFePO4 SOC Estimation under OCV-SOC Curve Error (arXiv 2024)]] <https://arxiv.org/abs/2410.23646>
 - **S22** [[Document - Berecibar et al. Critical Review of State of Health Estimation Methods of Li-ion Batteries for Real Applications (2016)]] <https://ideas.repec.org/a/eee/rensus/v56y2016icp572-587.html>
 
+## Aliases
+
+- state of charge methods
+- state of health methods
+- coulomb counting
+- ampere-hour counting
+- open-circuit voltage method
+- OCV-SOC curve
+- Peukert
+- Kalman filter SOC
+- impedance tracking
+- fuel gauge algorithm
+- SOHc
+- SOHr
+- SOHe
+
 ## Former ids
