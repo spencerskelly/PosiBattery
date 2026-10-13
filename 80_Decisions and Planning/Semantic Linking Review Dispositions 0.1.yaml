@@ -2080,3 +2080,368 @@ records:
   #       disposition: not_applicable
   #       exception: EXC-NOT-APPLICABLE
   #       note: "Reusable SOC algorithm candidate; no product-specific hybrid/model-based SOC claim is made."
+
+  # Added 2026-10-12: classification records for 51 Designs that entered the weak-traceability queue without a registry entry.
+  # Classes and gap dispositions follow the rules in review-weak-traceability-priority.py; no relationships were added to make counts pass.
+  "30_Product Capabilities/Product Designs/Algorithmic Cell Failure Diagnosis.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Ambient Temperature Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/BMS Discharge Limitation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/BMS Internal Temperature Sensing.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Battery Discharge Indicator.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Battery Status Gauge.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Battery Weight Determination Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Battery-Monitor State of Charge Estimation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/CAN BMS-Directed Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/CAN-Coordinated Deep Discharge Shutdown.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Cell-Connector Electrolyte Level Sensing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Cell-Connector Temperature Sensing.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Charger-Controlled Automatic Watering.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Cloud-Based Abuse Cycle Analytics.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Communicated Battery Temperature Charge Compensation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Communicated Watering Need Alert.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Dedicated Threshold Cell Failure Detection.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Deep Discharge Protection Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Device-Resident Abuse Cycle Analytics.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Device-Resident Replacement Forecasting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Diagnostic-Loop Adaptive Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Direct Device Cloud Upload.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Direct Load-Cell Battery Weight Measurement.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Direct Temperature Input Charge Compensation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Electronic In-Cell Electrolyte Probe.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/External Thermistor Temperature Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Fleet-Service Replacement Forecasting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Float-Valve Single-Point Watering.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Gateway-Mediated Cloud Upload.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Injector Level-Sensing Watering.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Integrated BMS State of Charge Estimation.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Internal Temperature Sensor.md":
+    classification: engineering_support
+
+  "30_Product Capabilities/Product Designs/Internal Thermistor Temperature Sensor.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Local Abnormal Condition Alert.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Local Charger Status Indication.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Local Equalization Event Classification.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Local Low Electrolyte Alert.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Low-Current Electrolyte Level Input.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Midpoint Voltage Symmetry Detection.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Operator Dashboard Abnormal Alert.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/PC Service Tool Interface.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Remote Charger Status Stack Light.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Remote Exception Notification.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Reported Equalization Status Tracking.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Ri-Based Adaptive Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Serial and Infrared PC Data Export.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Stored Battery Weight Compatibility Verification.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Truck Battery Discharge Interlock.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/USB Battery Data Export.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
+
+  "30_Product Capabilities/Product Designs/Variable-Length Electrolyte Level Probe.md":
+    classification: reference_content
+
+  "30_Product Capabilities/Product Designs/Wireless PC Data Export.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "No curated source is linked to this Design; it is retained as reference or support content and no evidence claim is made."
