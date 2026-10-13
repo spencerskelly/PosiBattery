@@ -27,6 +27,11 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>added for BMS work | UL 2580 (batteries for use in electric vehicles), clauses on BMS, functional safety and forklift scope | no direct file found | paid standard; <https://www.ul.com/insights/what-ul-2580-understanding-ev-battery-safety-requirements> | Which BMS behaviours the forklift battery listing requires (C201) | - | R42 |
+| **high priority**<br>added for BMS work | IEC 62619 (industrial lithium cells and batteries), safety function of the BMS annex | no direct file found | paid standard; the VDE preview page refuses automated fetches | Clause text behind the 'stricter BMS integration' claim (C201) | - | R42 |
+| **helpful**<br>added for BMS work | CiA 419 device profile for battery chargers (charger and BMS CAN profile) | no direct file found | CAN in Automation site; the page could not be fetched | The charger to battery message set (RD5; backlog IB-040) | - | R42 |
+| **helpful**<br>added for BMS work | EnerSys NexSys iON product guide (English) | https://www.ltcenter.com/wp-content/uploads/2023/06/NexSys-iON-Product-Guide.pdf | address from search results, not opened | English wording and limits table for the BMS; the manual read was in Spanish | - | R42 |
+| **helpful**<br>added for BMS work | Green Cubes SAFEFlex and Flux Power L-Series BMS data sheets (protections, balancing, CAN message set) | no direct file found | maker sites; the brochures read state no cell-level limits | Cell-level limits and CAN message sets (BF1 to BF5) | - | R42 |
 | **high priority**<br>not found; paid standard; added for SOC and SOH work | EN IEC 62485-6:2021, safe operation of lithium-ion batteries in traction applications (BMS clause 10.1, inspection and monitoring clause 14) | no direct file found | <https://iteh.es/catalog/standards/sist/323f4ad1-1c3c-498a-a61a-059a70066d3e/sist-en-iec-62485-6-2021> | What monitoring a lithium truck battery must provide; BMS definition text ([[SOC and SOH Specifications and Standards]]) | - | R41 |
 | **high priority**<br>not found; paid standard; IEEE store address not checked; added for SOC and SOH work | IEEE 1188-2005 and IEEE 450 (lead-acid battery testing, maintenance and replacement) | no direct file found | IEEE Xplore or the IEEE standards store (address not checked) | Capacity-test and ohmic-trend rules for lead-acid SOH; the 80% replacement point ([[SOC and SOH Methods Reference]], C192) | - | R41 |
 | **high priority**<br>page found; application notes not opened; added for SOC and SOH work | TI Impedance Track application notes (theory and implementation; lead-acid configuration) and the bq34z110 data sheet | no direct file found | <https://www.ti.com/product/BQ34Z100-G1> | How Qmax and resistance are learned, lead-acid settings, accuracy conditions behind the 1% claim (C191) | - | R41 |
@@ -270,6 +275,7 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 37 2026-10-03:** 6 rows for VRLA and cold-store charging sources (the ZVEI low-temperature leaflet read in full).
 - **Round 38 2026-10-03:** 6 rows for lithium-ion charge profile sources.
 - **Round 41 2026-10-13:** 10 rows added for SOC and SOH work (standards, TI and ADI notes, Victron and tester data sheets, Flux Power patent, two reviews, truck CAN specifications). Counts: high priority +5, helpful +5. Ongoing: add rows here as documents are identified and mark them in repo when they arrive; the SOC and SOH index is [[SOC and SOH Knowledge Base]].
+- **Round 42 2026-10-13:** 5 rows added for BMS work (UL 2580, IEC 62619, CiA 419, EnerSys iON product guide, BMS data sheets). Counts: high priority +2, helpful +3. See [[BMS Product Function and Requirement Driver Map]].
 
 ## Aliases
 

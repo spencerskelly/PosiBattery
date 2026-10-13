@@ -14,6 +14,7 @@ dependencyOf:
   - "[[BMS-Directed Charge Control Design]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
+  - "[[BMS Product Function and Requirement Driver Map]]"
 designOf:
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"

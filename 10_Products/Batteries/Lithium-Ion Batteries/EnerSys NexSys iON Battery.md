@@ -22,6 +22,9 @@ madeBy:
 hasPart:
   - "[[BMS Discharge Protection Logic]]"
   - "[[Battery-Charger Communication Firmware]]"
+describedBy:
+  - "[[Document - EnerSys UL Listing Release for NexSys iON (2022-03-08)]]"
+  - "[[Document - EnerSys NexSys iON Operating Manual (Spanish, GLOB-ES-OM-NEX-ION 0323)]]"
 ---
 
 # EnerSys NexSys iON Battery
