@@ -254,6 +254,8 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C148 - Margal 2025 abstract versus Table 5.** The abstract gives SOC RMSE of 0.33% (NARX), 5.34% (EKF) and 5.94% (ALO). Table 5 gives 3.3288e-2, 5.349e-1 and 5.948e-1 with units unstated, which is one tenth of the abstract in each case if read as percent. See [[SOC and Health Estimation Literature Review]].
 - **C149 - Margal 2025 internal inconsistencies.** The Table 4 voltage RMSE row repeats the Table 5 SOC RMSE values and does not match its own MSE row (the square root of 1.4377e-6 is about 1.2e-3); the text beside Figure 9 quotes MSE values (1.1081e3, 3.3288e2, 2.3208e2) that match no table entry as printed; ALO is the Adaptive Luenberger Observer in the abstract and the Ant Lion Optimizer in the discussion; the cell is named a "3S" pack while Table 1 and the voltage plot are single-cell values.
 
+- **C150 - Rest time before an open-circuit voltage reading.** The GM patent US 8,922,217 says an accurate open-circuit voltage is typically available about 24 hours after charging stops (vehicle battery, plate surface charge); East Penn manual 0656 says to measure gel open-circuit voltage no earlier than 4 hours after charge; Pop et al. 2005 say relaxation can take a long time, longer when nearly empty, cold or after high current, with no figure. Chemistries and conditions differ and are not reconciled; a rest-time rule for a lead-acid forklift battery is not established by these sources. See [[SOC and Health Estimation Literature Review]].
+
 ## Aliases
 
 - Landscape conflicts register

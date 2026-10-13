@@ -34,7 +34,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 4 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | reviewed below |
 | 5 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | reviewed below |
 | 6 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | deferred, likely out of scope |
-| 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | pending |
+| 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | reviewed below |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | pending |
 | 9 | `The_Estimation_of_Battery_State_of_Charge_using_Co` | Ismail et al., IJRTE 2024: SOC with a neural network | pending |
 | 10 | `author_version` | Anthony et al., IMECE 2025: SOC from strain sensing and machine learning | pending |
@@ -66,6 +66,7 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 5 Margal 2025 | SOC | extended Kalman filter on a two-RC (dual polarization) Thevenin model; SOC-dependent parameters from fifth-order polynomials | battery current and terminal voltage; six polynomial parameter curves (R0, R1, C1, R2, C2, open-circuit voltage; 36 coefficients); noise covariances Q and R; initial state | simulation only (Matlab); not stated | hybrid-type candidate (voltage and current), no model-based candidate yet |
 | 5 Margal 2025 | SOC | adaptive Luenberger observer, gain adapted by stochastic gradient | same model, current and voltage; learning rate | simulation only | same |
 | 5 Margal 2025 | SOC | NARX recurrent neural network: 5 hidden units, 1 hidden layer, delay 2, Adam optimizer, 1,000 training epochs | past and present current, past SOC and voltage outputs fed back; needs data covering all operating points (the paper's own caveat) | training offline; the network is small enough to suggest on-device inference, but no inference cost is given | none; data-driven candidate |
+| 7 GM patent US 8,922,217 | SOC | robust observer (minimizes an upper bound on the estimation error covariance) estimating open-circuit voltage while the battery is loaded, on a two-RC model with bounded, time-varying parameters; SOC then read from an open-circuit-voltage table that depends on temperature | terminal voltage, terminal current and temperature at every time step; nominal model matrices and parameter-variation bounds; tolerance levels; the voltage-to-SOC table | the vehicle's control module (processing unit); output goes to a display or an electronic control unit | no model-based candidate; closest is the hybrid candidate |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -258,6 +259,36 @@ Source: E3S Web of Conferences 601, 00033 (2025), ICEGC'2024, EDP Sciences, open
 - The abstract's RMSE figures are ten times Table 5's (see C148).
 - One cell, one cycle, no temperature or aging variation; a passenger-vehicle cycle, not forklift duty.
 - ALO is expanded as "Adaptive Luenberger Observer" in the abstract and "Ant Lion Optimizer" in the discussion (see C149).
+
+### Source 7: Mao and Tang, GM Global Technology Operations, US 8,922,217 B2, "Battery State-of-Charge Observer"
+
+Source: United States patent, application 13/466,394 filed 2012-05-08, published as US 2013/0300190 A1 on 2013-11-14, granted 2014-12-30; inventors Xiaofeng Mao and Xidong Tang; assignee GM Global Technology Operations LLC; 20 claims, 2 drawing sheets; classes G01N 27/416 and G01R 31/36 (CPC G01R 31/3648). The PDF is `Battery_state-of-charge_observer.pdf` in the repo `Downloads` folder; it is an image-only scan, read by optical character recognition and checked against page 1 as an image, so some equations and symbols are not legible. Patent text states what the applicant claims and describes. It reports no test data. This note records technical content only and is not a freedom-to-operate or validity assessment.
+
+| Quantity or statement | Value | Basis and conditions | Location |
+|---|---|---|---|
+| Problem addressed | open-circuit voltage normally needs a rest period; existing online estimators ignore parameter uncertainty (resistances, capacitances) that changes with age and temperature | vehicle batteries | Background |
+| Rest time for an accurate open-circuit voltage | "typically about 24 hours" after charging stops | vehicle battery; surface charge on the plates gives false voltage readings until it dissipates | Detailed description |
+| Measurements used | terminal voltage, terminal current, battery temperature, each at a plurality of time steps | | Claim 1 |
+| Model | two-RC pair equivalent circuit with an ohmic resistance; parameters (R, double-layer and diffusion resistances and capacitances) are time-varying and "bounded in practice" | lithium-ion preferred; other batteries by changing the model | FIG. 2, claims 2 to 6 |
+| Estimator | robust observer: nominal matrices plus norm-bounded uncertainty; observer gains solved online each step by minimizing an upper bound of the error covariance (first-order derivatives set to zero) | recursive, per time step | FIG. 3, claims 7 to 12 |
+| Configuration inputs | initial estimate and covariance; scalar tolerance levels for uncertainty and noise that set how tight the bound is | block 30 and block 32 | FIG. 3 |
+| SOC step | open-circuit voltage looked up in a Voc-to-SOC table that is a function of battery temperature | after the observer | Description, FIG. 3 block 39 |
+| Outputs | SOC to a display for the vehicle user (claim 13); to an electronic control unit regulating the battery terminal voltage (claim 14); to an electronic control unit for fuel economy (claim 15) | claim 1 ends with "regulating the battery in response to the state of charge" | Claims 1, 13 to 15 |
+| Stated advantages | robustness to battery age, variation, operating conditions and current sensor noise; reduced calibration time; no rest needed | stated without data | Description |
+| Test results | none: no experiment, accuracy or computation figure | | |
+
+**Where the software runs, per the document.** On the vehicle: a control module with a processing unit receives the sensor signals and executes the algorithm. No server or off-vehicle step appears.
+
+**Approach and dependencies.** The estimator needs voltage, current and temperature at the same time steps, a stored voltage-to-SOC table by temperature, and the model bounds and tolerance settings fixed at design time. The model bounds are the part that depends on the chemistry and would have to be set for a lead-acid battery.
+
+**Engineering inference (not a source claim).** The per-step matrix computation is heavier than a lookup or a Coulomb counter, and the patent gives no cost figure; whether it fits a battery-mounted microcontroller is unknown. The bounds and the voltage-to-SOC table are chemistry data that could be produced offline and loaded.
+
+**Gaps in the evidence.**
+
+- No results anywhere, so accuracy is unknown; the advantages are assertions.
+- Lithium-ion vehicle (hybrid) context; the plate surface-charge explanation is the lead-acid mechanism, yet the claimed model is for Li-ion.
+- OCR left some equations unreadable; the claim wording above is read from the scan.
+- "About 24 hours" for equilibrium is stated for a vehicle battery with no source; compare with the unspecified "long time" in the Pop review (source 4) and with East Penn 0656 in [[Generic Reference Values]], which says to measure gel open-circuit voltage no earlier than 4 hours after charge (see C150).
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
