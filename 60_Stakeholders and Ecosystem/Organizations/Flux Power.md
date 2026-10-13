@@ -11,6 +11,7 @@ tags:
   - lithium
   - private-label-documented
 describedBy:
+  - "[[Document - Flux Power Lithium-Ion Forklift Battery Charger Best Practices (2026-07-14)]]"
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"

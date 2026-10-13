@@ -426,4 +426,6 @@ Updates to earlier rows from this batch (the original rows above are unchanged):
 - **C131 rating reference:** Industrial Battery and Charger Services Ltd also refers gravities to 30 C.
 - **C136 battery weight:** Carolina says the average is 2,000 lb (1 ton).
 
+Industry reference statements from vendor articles (truck class voltages, Ah rating basis, LFP charge limits, propane-to-electric sizing, BlitzNXT product data) are kept in [[Industry Data Register from Downloads Articles]] with their conflicts against the Fleetman chart above (C174, C177, C180, C182).
+
 ## Former ids
