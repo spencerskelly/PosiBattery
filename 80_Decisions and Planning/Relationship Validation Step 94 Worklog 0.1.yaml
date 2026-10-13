@@ -49,10 +49,10 @@ full_relationship_gate_attempts:
   - run: 37380704147
     head_commit: "f12b6e3f"
     result: "startup failure before runner execution"
-  github_job_observation:
-    runner_id: 0
-    steps: 0
-    interpretation: "The jobs did not execute the repository checker; this is an Actions runner/startup limitation rather than a relationship-validation finding."
+github_job_observation:
+  runner_id: 0
+  steps: 0
+  interpretation: "The jobs did not execute the repository checker; this is an Actions runner/startup limitation rather than a relationship-validation finding."
 
 current_assessment:
   unresolved_targets_known: 0

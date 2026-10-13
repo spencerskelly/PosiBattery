@@ -158,7 +158,7 @@ contextual_role_classification:
     internal_noncompetitors:
       - "Power Designers"
       - "Ampure Automotive and Aftermarket EVSE"
-      note: "Ampure internal portfolio; explicitly excluded from external competitor classification."
+    note: "Ampure internal portfolio; explicitly excluded from external competitor classification."
   customers_or_operators:
     clear_organization_records: 0
     note: "Customer Actors exist as Actor notes, but no buying/operating organization has yet been modeled strongly enough to receive a Customer role."

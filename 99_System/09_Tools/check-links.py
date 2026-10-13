@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check every web address cited in the vault's model notes.
 
-Usage:   python3 99_System/09_Tools/check-links.py            # test all addresses, write Research/Link Check Report.md
+Usage:   python3 99_System/09_Tools/check-links.py            # test all addresses, write 70_Research and Evidence/Research/Link Check Report.md
          python3 99_System/09_Tools/check-links.py --list     # only list and classify addresses (no network)
 Needs only the Python standard library. Run it from the vault root on a machine with internet access.
 A result is OK when the server answers 200 and, for a file address, returns a document type (not an HTML page).
@@ -9,7 +9,11 @@ It flags: HTTP errors, redirects that land on a home page, and 'file' addresses 
 """
 import re, sys, glob, os, urllib.request, urllib.parse, urllib.error, collections, datetime
 ROOT = os.getcwd()
-FOLDERS = ["Battery Products", "Research", "Product Functions", "Product Designs", "Organizations", "Performance Metrics", "Source Documents"]
+# Numbered vault roots (Canonical Vault Top-Level Taxonomy); 99_System is excluded. Updated 2026-10-12: the old
+# pre-migration folder names ("Battery Products", "Research", ...) no longer exist and matched no files.
+FOLDERS = ["10_Products", "20_Product Architecture", "30_Product Capabilities", "40_Use and Operations", "50_Customer Needs",
+           "60_Stakeholders and Ecosystem", "70_Research and Evidence", "80_Decisions and Planning", "90_Definitions and Reusable Reference"]
+REPORT = os.path.join("70_Research and Evidence", "Research", "Link Check Report.md")
 URLRE = re.compile(r"https?://[^\s<>)\]|]+")
 LANDSEG = {"products", "product", "batteries-and-chargers", "applications", "solutions", "trak", "company", "about", "motive-power", "motive-power-solutions"}
 def classify(u):
@@ -44,5 +48,5 @@ for i, u in enumerate(urls, 1):
 bad = [r for r in rows if r[0] != "OK"]
 out = ["# Link Check Report", "", "Generated " + datetime.date.today().isoformat() + " by check-links.py. " + str(len(rows)) + " addresses; " + str(len(bad)) + " need attention.", "", "| Status | Address | Content type | Note | Used in |", "|---|---|---|---|---|"]
 for s, u, ct, n, used in sorted(rows, key=lambda r: (r[0] == "OK", r[0])): out.append("| %s | <%s> | %s | %s | %s |" % (s, u, ct, n, ", ".join("[[%s]]" % x for x in used[:5])))
-open(os.path.join("Research", "Link Check Report.md"), "w", encoding="utf-8").write("\n".join(out) + "\n")
+open(REPORT, "w", encoding="utf-8").write("\n".join(out) + "\n")
 print("Wrote Research/Link Check Report.md")

@@ -141,7 +141,7 @@ supplemental_active_architecture_gaps:
     exception: "EXC-ARCH-UNRESOLVED"
     owner: "BMID product/system architecture"
     reason: "No existing specific SOC-estimation Design is selected."
-  note: "These are active supporting-function architecture decisions from Step 89. They are not additional Requirement-satisfaction-chain breaks because neither Function is the approved satisfier for the audited Requirement."
+note: "These are active supporting-function architecture decisions from Step 89. They are not additional Requirement-satisfaction-chain breaks because neither Function is the approved satisfier for the audited Requirement."
 
 customer_need_quality:
   modeled_need_stages_present_in_requirement_chains: 5

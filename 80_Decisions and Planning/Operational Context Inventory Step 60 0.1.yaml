@@ -35,7 +35,7 @@ reused_surrounding_equipment_and_systems:
   - "Battery monitoring and identification products"
   - "Vehicle architecture elements"
   - "Fleet and cloud software products"
-  rationale: "These already exist as canonical Objects/products and should be linked from scenarios rather than duplicated as context notes."
+rationale: "These already exist as canonical Objects/products and should be linked from scenarios rather than duplicated as context notes."
 
 deferred_external_context_candidates:
   - candidate: "Facility Electrical Supply / Utility Grid Connection"

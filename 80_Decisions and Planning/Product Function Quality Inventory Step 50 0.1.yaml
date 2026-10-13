@@ -44,7 +44,7 @@ top_level_goal_functions:
     observed_children: 5
   - name: "Support the Operator"
     observed_children: 3
-  interpretation: "These are coherent goal-level decomposition roots using hasChild; they intentionally have no direct performers or source URLs."
+interpretation: "These are coherent goal-level decomposition roots using hasChild; they intentionally have no direct performers or source URLs."
 
 intermediate_general_function_families:
   count: 20
