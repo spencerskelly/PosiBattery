@@ -223,6 +223,11 @@ Register of conflicting, ambiguous or unverified evidence and open modeling ques
 - **C126 - Partial and opportunity charging on flooded D-Series.** 0656 says to recharge fully after each duty cycle and avoid partial recharging and does not mention opportunity charging; a dealer (Western Materials, T3) says the D-Series is designed for opportunity charging, as recorded in [[Deka D-Series Battery]].
 - **C127 - Energy basis for kWh.** 0656 uses 1.930 V per cell at the 6-hour rate; the Fleetman chart implies about 1.94 V per cell with no stated discharge rate.
 
+- **C128 - When to recharge flooded batteries.** IBA's CEIL manual says charge after every discharge, recharge partial discharges immediately and recharge at about 25% state of charge; Fleetman says do not charge daily for light use and charge as close to 20% as possible. See [[Generic Reference Values]].
+- **C129 - Opportunity charging, IBA.** IBA bars opportunity charging except on its Hybrid Charger range but recommends an electrolyte circulation system for opportunity charging in the same manual; RICO allows it with a specialized charger; East Penn 0656 says avoid partial recharging; lithium vendors call it lithium-only. Relates to C126.
+- **C130 - Charging temperature limits across makers.** IBA: start below 45 C, 55 C limit; East Penn 0656: 115 F (46 C); Samuk: above 38 C continuous operation shortens life. Relates to C123.
+- **C131 - Capacity rating reference.** IBA rates to AS 2402-1994 at 30 C with the discharge rate unstated; East Penn rates at 25 C and the 6-hour rate; Fleetman's chart states neither. Capacity figures are not comparable across these until rate and temperature are known. Relates to C127.
+
 ## Aliases
 
 - Landscape conflicts register
