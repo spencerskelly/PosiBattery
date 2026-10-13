@@ -37,6 +37,7 @@ supertypeOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
+  - "[[BlitzNXT LiFePO4 Forklift Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

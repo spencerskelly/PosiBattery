@@ -31,6 +31,13 @@ describedBy:
   - "[[Document - ITW GSE Charging and Energy Management for Electric Airport Operations]]"
   - "[[Document - ITW GSE Scale Electric GSE Charging Without Bottlenecks (2026-04-23)]]"
   - "[[Document - LinkedIn Forklift Market-Report Posts (2026-09 to 2026-10)]]"
+  - "[[Document - FridayParts 24V-80V LiFePO4 Forklift Battery Listing (retrieved 2026-10-13)]]"
+  - "[[Document - Supply Chain 24-7 ENEROC USA Launches Operations in North America (2026-03-10)]]"
+  - "[[Document - ITW GSE EcoGate Page (retrieved 2026-10-13)]]"
+  - "[[Document - BloombergNEF Lithium-Ion Battery Pack Prices Fall to 108 USD per kWh (2025-12-09)]]"
+  - "[[Document - OTTO Motors Mauser Packaging Solutions Case Study]]"
+  - "[[Document - Green Cubes SAFEFlex AGV Opportunity Charging Case Study (2017-06-22)]]"
+  - "[[Document - Inside Logistics Rockwell Automation Buys OTTO Motors]]"
 ---
 
 # Industry Data Register from Downloads Articles
@@ -45,7 +52,7 @@ One place for the industry data found in the LinkedIn articles, vendor blog post
 
 **How to read the tiers.** Every source here is T4 (vendor marketing, blog or templated post; [[Landscape Evidence and Modeling Conventions]]). A figure marked *verified* was checked against a primary page on 2026-10-13. A figure marked *stated* is the source's own claim. A figure marked *do not use* failed an internal check; it is kept so the failure is visible.
 
-### 1. Checked against primary sources
+### 1. Checked against primary sources (source notes DOC-00034 to DOC-00036)
 
 | Claim (where it appears) | Primary source | Result |
 |---|---|---|
@@ -71,7 +78,7 @@ One place for the industry data found in the LinkedIn articles, vendor blog post
 | Lead-acid and lithium discharge limits | Lead-acid not below 40 percent of rated capacity; LFP 80 percent depth of discharge or 80 to 90 percent usable | ENEROC; How to Choose | stated; conflicts with vault values, see C177 |
 | Cost trend | Pack prices at record low; differentiation moving to BMS, SOC and SOH accuracy, remote monitoring, CAN, OTA, traceability | Zhang price-war post | opinion plus verified price (section 1) |
 | Charger partners | Flux Power names Stanbury, Delta-Q and PosiCharge as certified charger partners | [[Document - Flux Power Lithium-Ion Forklift Battery Charger Best Practices (2026-07-14)]] | stated by manufacturer; also recorded on [[Flux Power]] |
-| GSE charging | ITW GSE offers Power Share, EcoGate, DC Charger and Intelligent Power Management to share gate power between GPU, PCA and GSE charging | [[Document - ITW GSE Charging and Energy Management for Electric Airport Operations]]; [[Document - ITW GSE Scale Electric GSE Charging Without Bottlenecks (2026-04-23)]] | stated; no specifications |
+| GSE charging | ITW GSE offers Power Share, Intelligent Power Management and a 60 kW per outlet CCS2 DC Charger, and describes EcoGate as a design approach, not a product, to share gate power between GPU, PCA and GSE charging | [[Document - ITW GSE EcoGate Page (retrieved 2026-10-13)]]; [[Document - ITW GSE Charging and Energy Management for Electric Airport Operations]] | stated by manufacturer; only the DC Charger has figures |
 | BMS data for automation | SOC, SOH, pack and cell voltage, current, temperature, charging status, faults over CAN, RS485 or UART; fleet systems use them for charging and mission decisions | Zhang AMR and AGV posts | stated; supports the SOC and SOH estimation functions |
 
 ### 3. Vendor product data: BlitzNXT LiFePO4 forklift batteries
@@ -110,12 +117,19 @@ The arithmetic is internally consistent (the numbers were generated from a ten-y
 
 Lead-acid battery makers listed: Johnson Controls, Exide Technologies, East Penn Manufacturing, EnerSys, GS Yuasa, Crown Battery, Clarios, Hoppecke Batterien, Leoch International, Narada Power. Lithium list adds BYD, Samsung SDI, LG Chem, Panasonic, Toshiba and (in a competitive-strategies post) Tesla and LG Energy Solution. Commercial electric list: EnerSys, Hoppecke, East Penn Manufacturing, Exide Technologies, Hitachi Chemical, GS Yuasa, Systems Sunlight, Saft, Electrovaya, FAAM. Charger list: Proterra, EnerSys, Crown Equipment Corporation, Hyster-Yale, Toyota Material Handling, JLG, Plug Power, East Penn, Ametek, Delta-Q. Proterra, Tesla and Systems Sunlight have no vault note and no vault source shows them supplying forklift batteries or chargers (C175).
 
-### 7. Open questions
+### 7. Entities created from this register (2026-10-13)
 
-- Should BlitzNXT, ENEROC and OTTO Motors get Organization notes, and the BlitzNXT batteries product notes? (They are batteries, not accessories.)
-- Should ITW GSE Power Share, EcoGate, DC Charger and Intelligent Power Management get product notes? Their page has no specifications; the product pages would be needed.
+- Organizations: [[BlitzNXT]], [[ENEROC]], [[OTTO Motors]], [[ITW GSE]].
+- Products: [[BlitzNXT LiFePO4 Forklift Battery]] (one line note with a model table, not one note per model, because the evidence is vendor posts and a reseller listing), [[ITW GSE DC Charger]].
+- Not created: product notes for ITW GSE Power Share, Intelligent Power Management and EcoGate. ITW's own page says EcoGate is 'a design approach ... not a single product', IPM is hosted in the 3500 PCA, and none of the three has published specifications; they are recorded as offerings in [[ITW GSE]].
+- Primary-source notes added for the verification in section 1 and for the new entities: DOC-00031 to DOC-00037.
+- Cross-check with the reseller listing: the BlitzNXT pack sizes appear on a FridayParts listing with different voltage labels, cycle life and warranty, and with the truck models each pack is sold for (C185).
+
+### 8. Open questions
+
 - Can the original LinkedIn addresses be recorded? The saved PDFs do not carry them.
 - Is there a named market study the stakeholders want used in place of the market-report posts?
+- The BlitzNXT truck-fit data (Toyota 7FB and 8FB, Lonking, TCM, Doosan, Hyundai, Mitsubishi, Linde, Jungheinrich) could feed the truck-compartment notes if a data sheet confirms it.
 
 Related: [[Downloads Value Screening Register]], [[Demand Evidence Source Register]], [[Generic Reference Values]], [[Battery Product Landscape Conflicts and Open Questions]], [[Flux Power]]
 

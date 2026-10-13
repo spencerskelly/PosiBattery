@@ -23,6 +23,8 @@ rolePlayedBy:
   - "[[Power Designers]]"
   - "[[Stryten Energy]]"
   - "[[Triathlon USA]]"
+  - "[[ENEROC]]"
+  - "[[ITW GSE]]"
 ---
 
 # Charger Maker

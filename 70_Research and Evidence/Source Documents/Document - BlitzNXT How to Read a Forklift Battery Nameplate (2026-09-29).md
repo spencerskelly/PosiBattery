@@ -12,6 +12,8 @@ tags:
 sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[BlitzNXT LiFePO4 Forklift Battery]]"
+  - "[[BlitzNXT]]"
 ---
 
 # Document - BlitzNXT How to Read a Forklift Battery Nameplate (2026-09-29)

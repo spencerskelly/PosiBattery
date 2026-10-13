@@ -12,6 +12,8 @@ tags:
 sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[BlitzNXT LiFePO4 Forklift Battery]]"
+  - "[[BlitzNXT]]"
 ---
 
 # Document - BlitzNXT How Lithium Forklift Batteries Free Up Floor Space (2026-10-03)

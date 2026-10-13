@@ -12,6 +12,7 @@ tags:
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Document - Green Cubes SAFEFlex AGV Opportunity Charging Case Study (2017-06-22)]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"

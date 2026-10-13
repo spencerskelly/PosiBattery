@@ -29,6 +29,8 @@ rolePlayedBy:
   - "[[Stryten Energy]]"
   - "[[Triathlon Battery Solutions]]"
   - "[[Triathlon USA]]"
+  - "[[BlitzNXT]]"
+  - "[[ENEROC]]"
 ---
 
 # Battery Maker

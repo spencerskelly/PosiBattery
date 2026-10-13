@@ -47,6 +47,7 @@ supertypeOf:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
+  - "[[ITW GSE DC Charger]]"
 describedBy:
   - "[[Metric - Charge Adaptation Method]]"
   - "[[Metric - Charge Profile Types Offered]]"

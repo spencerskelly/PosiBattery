@@ -12,6 +12,8 @@ tags:
 sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[ITW GSE]]"
+  - "[[ITW GSE DC Charger]]"
 ---
 
 # Document - ITW GSE Scale Electric GSE Charging Without Bottlenecks (2026-04-23)

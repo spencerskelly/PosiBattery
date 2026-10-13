@@ -12,6 +12,8 @@ tags:
 sourceClass: vendor-webpage
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[ITW GSE]]"
+  - "[[ITW GSE DC Charger]]"
 ---
 
 # Document - ITW GSE Charging and Energy Management for Electric Airport Operations

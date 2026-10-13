@@ -12,6 +12,8 @@ tags:
 sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[BlitzNXT LiFePO4 Forklift Battery]]"
+  - "[[BlitzNXT]]"
 ---
 
 # Document - BlitzNXT Class I II III Forklifts and Lithium Battery Configuration (2026-10-10)

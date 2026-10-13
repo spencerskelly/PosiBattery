@@ -12,6 +12,7 @@ tags:
 sourceClass: vendor-article
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
+  - "[[ENEROC]]"
 ---
 
 # Document - ENEROC Propane to Electric Battery Sizing (2026-09-23)
