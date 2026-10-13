@@ -32,7 +32,7 @@ File-by-file review of the papers and patents supplied for the [[Estimate State 
 | 2 | `Battery_Model_Identification_Approach_for_Electric` | da Silva et al., Energies 2021: battery model identification for an electric forklift (tested on a LiFePO4 cell) | reviewed below |
 | 3 | `Battery_studypaper` | Alshaebi et al., ISERC 2017 (Raymond Corp co-author): lead-acid vs lithium reach trucks, measured data plus simulation | reviewed below |
 | 4 | `DesignandFabricationofForklift` | Sequeira et al., JESA 2019: design and fabrication of a battery-operated forklift | pending, likely out of scope |
-| 5 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | pending |
+| 5 | `State-of-the-art_of_battery_state-of-charge_determ` | Pop et al., Meas. Sci. Technol. 2005: SOC determination review | reviewed below |
 | 6 | `Comparative_Analysis_of_Battery_State_of_Charge_Es` | Margal et al., E3S Web Conf. 2025: SOC methods compared | pending |
 | 7 | `Battery_state-of-charge_observer` | US 8,922,217 B2, GM: robust SOC observer from open-circuit voltage | pending |
 | 8 | `JOINT_FRACTIONAL-ORDER_MODELING_AND_KALMAN_FILTERI` | Lakhdari, Rev. Roum. Sci. Techn. 2026: fractional-order model with EKF for SOC | pending |
@@ -58,6 +58,11 @@ Embedded or cloud is a property of the candidate implementation, not of the func
 | 1 Wang 2026 | SOC | learned model (Improved Transformer 2) on Kalman-filtered, PCA-reduced inputs | pack voltage, system current, cell voltages (total, max, min, average), cumulative charge and discharge energy and capacity counters | not stated; training time only | none yet; needs a data-driven SOC candidate |
 | 2 da Silva 2021 | SOC (model only; SOC estimator is future work) | equivalent-circuit model, nonlinear grey box, parameters fitted by nonlinear least squares, OCV-SOC curve | terminal voltage and current to fit parameters; nominal capacity; the OCV-SOC curve | parameter fitting offline on test data; the OCV-SOC curve is stated to be stored in the BMS microcontroller as a lookup table, polynomial or piecewise linear function | none yet; closest are the voltage-based and hybrid candidates |
 | 3 Alshaebi 2017 | SOC (simulation only) and usage-history capacity | SOC read from the battery voltage curve while the truck is idle; delivered Ah per discharge cycle compared with rated Ah ("practical capacity") | terminal voltage and current sampled at 10 Hz; truck travel and lift speed; rated capacity | analysis offline in a statistics package and a Demo3D simulation; the 10 Hz logging device is on the truck | SOC: closest is the voltage-based candidate; usage history: [[Amp-Hour Accumulator Firmware]], [[Log Battery Events and Usage]], cloud side [[Battery State of Health Analytics Service]] |
+| 4 Pop 2005 (review) | SOC | loaded-voltage timing: time elapsed since the loaded voltage fell below a set value (Curtis traction-battery gauge, 1963), with a discharge-rate compensation | loaded terminal voltage, elapsed time, discharge rate | not stated; a gauge in the vehicle | closest: voltage-based candidate, in its loaded (not rest) form |
+| 4 Pop 2005 | SOC | EMF or open-circuit voltage method, stored as a lookup table, piecewise linear function or fitted function | terminal voltage after rest or extrapolated to zero current; temperature | on the battery-side device; the review notes lookup tables cost memory and piecewise linear needs only interval limits | voltage-based candidate |
+| 4 Pop 2005 | SOC | book-keeping: Coulomb counting with compensation for discharge efficiency, self-discharge and capacity loss | current through a shunt (accuracy and offset critical), voltage, temperature, cell characterization data in EEPROM, cycle history, register set (SOC counter, charge accumulator, discharge accumulator) | dedicated gauge IC with its own processor and EEPROM; the host reads the result over a serial bus | Coulomb counting and hybrid candidates, [[Amp-Hour Accumulator Firmware]] |
+| 4 Pop 2005 | SOC and SOH | adaptive: Kalman or extended Kalman filter on a battery model, neural network, fuzzy logic | voltage, current, temperature (impedance data for fuzzy); the EKF can carry series resistance as a state, which gives a health indicator; a neural network needs training data | the review does not say; the EKF is sequential, needing only the previous sample; one neural network was trained on 2,860 discharge curves | no candidate; extends hybrid |
+| 4 Pop 2005 | SOH | internal resistance from a current step; impedance spectroscopy; capacity tracked against initial capacity | current step and voltage response; small-signal ac excitation not above 10 mV; capacity measured at full charge or discharge | impedance sweeps judged impractical for SOC in a portable device but used for health | [[Resistance-Trend State of Health Estimator]], [[Capacity-Retention State of Health Estimator]] |
 
 ### Source 1: Wang, Zhang, Hu (2026), "Research on the State of Charge Estimation of Electric Forklift Batteries Based on an Improved Transformer Model"
 
@@ -174,6 +179,52 @@ Source: Proceedings of the 2017 Industrial and Systems Engineering Conference (C
 - The heat claim has no supporting measurement in the stated signals.
 - No SOH is measured. Rated-capacity use is a utilization figure, not a health figure, and the lead-acid battery's age is not given.
 - Raymond is a co-author, so the lead-acid truck and logger may be Raymond equipment, but the paper does not name the logging device.
+
+### Source 4: Pop, Bergveld, Notten, Regtien (2005), "State-of-the-art of battery state-of-charge determination"
+
+Source: Measurement Science and Technology 16 (2005) R93 to R110, IOP Publishing, doi:10.1088/0957-0233/16/12/R01, published 2005-10-31. Peer-reviewed review article, 18 pages, authors at University of Twente and Philips Research. The PDF is `State-of-the-art_of_battery_state-of-charge_determ.pdf` in the repo `Downloads` folder. Page numbers are the journal's R-numbers; section numbers are the paper's own. Everything below about other works (patents, other papers) is as the review reports it, not checked.
+
+**Scope.** Portable electronics (phones, notebooks, power tools) and NiCd, NiMH and Li-ion batteries. Lead-acid appears in the history and in a few method rows, forklift traction batteries not at all. The review's worked examples are a Sony Li-ion cell (US18500G3, LiCoO2).
+
+| Quantity or statement | Value | Basis and conditions | Section, page |
+|---|---|---|---|
+| Method families | direct measurement (voltage, EMF, impedance, relaxation), book-keeping (current integration), adaptive systems (Kalman filter, neural network, fuzzy logic) built on one or both | | 5, R101 |
+| Voltage-only SOC | "can be very misleading": the voltage-to-charge relation varies greatly with temperature and discharge rate; cheaper and lighter on the processor than Coulomb counting | Li-ion; correcting for rate and temperature makes it costlier than Coulomb counting | 5.1.1, R101 |
+| EMF by relaxation | the battery voltage relaxes to the EMF after current stops; this may take a long time when nearly empty, cold, or after a high discharge current | Li-ion | 5.1.2, R102 |
+| EMF versus SOC | the relation does not change during cycling if SOC is expressed in relative capacity; temperature dependence small except near fully discharged or fully charged | Li-ion (LiCoO2) | 5.1.2, R102 |
+| EMF curve in a table | 11 voltage intervals from 4.24 V (100%) down to 2.5 V (0%), for example 4.08 to 4.24 V = 85 to 100% and 3.8 to 3.88 V = 22 to 58.4% | Sony US18500G3 at 25 C; interpolation by equation 5.1 | 5.1.2, Table 3, R102 |
+| Impedance excitation | amplitude not above about 10 mV to stay linear; high-capacity cells need several amps of ac current | any cell | 5.1.3, R103 |
+| Lead-acid impedance shape | inductive above 100 Hz; high-frequency resistance in the milliohm range; small loop 0.1 to 100 Hz; large loop below 0.1 Hz | large-capacity lead-acid cell | 5.1.3, Fig 10, R103 |
+| Impedance for SOC | not practical in a portable device because a frequency sweep is needed; impedance depends more on temperature than on SOC; used mainly for health | | 5.1.3, R104 |
+| Health from resistance | wear-out shows as rising internal resistance; a current step can test whether the battery should be replaced | | 5.1.3, R104 |
+| Coulomb counting accuracy | depends on current-measurement accuracy over the full range in both directions; shunt voltage drop is very small at large currents; offset errors accumulate | shunt-based measurement | 5.2, R104 |
+| Book-keeping compensations | discharge efficiency, self-discharge (not seen by a Coulomb counter because no net current flows), capacity loss; the maximum capacity is usually updated from a voltage measurement | Li-ion | 5.2, R104 |
+| Book-keeping registers | current register, SOC counter (reset at low-battery indication), charge accumulator and discharge accumulator over battery life | mobile-phone example; accumulators give end-of-life information | 5.2, R105 |
+| Gauge IC self-discharge counter | one count per hour at 25 C, doubling about every 10 C up to 60 C and halving every 10 C below 25 C down to 0 C | Texas Instruments gauge ICs as described | 6, R107 |
+| Cell characterization data | full, standby-empty and active-empty capacity measured per temperature (0 to 40 C) and stored in the gauge IC EEPROM; data collected on assembled packs rather than cells | Maxim-style gauge; example full capacity 554 to 588 mAh | 6, Table 6, R108 |
+| EKF verdict | "EKF provides the best solution for the long-term SoC estimation" | reported from Plett (ref 51), LiPB hybrid-vehicle cells | 5.3, R105 |
+| Neural network result | mean error about 3%; trained on 2,860 discharge curves (260 cycles of 11 batteries) | reported from Gerard et al. (ref 38), remaining-time prediction | 5.3, R106 |
+| Fuzzy logic result | maximum error +/-5% on a limited data set | reported from Salkind et al. (ref 39), Li-SO2 and NiMH | 5.3, R106 |
+| Reported Coulomb-plus-OCV accuracy | 99% accuracy (1% error) for charge detection "but at a high cost" | reported from ref 37 about Aylor's lead-acid method (ref 32) | 3, R98 |
+| Loaded-voltage gauge example | discharged from 24.25 V for 3 min lowers remaining capacity from 100% to 90% | Curtis traction-battery gauge, 1963 | 3 |
+| Table 4 method summary | Coulomb counting: all systems, accurate with enough recalibration points and good current measurement, sensitive to parasitic reactions. OCV: lead, lithium, zinc-bromine, needs long rest. EMF: lead, lithium, needs long rest. Impedance spectroscopy: all systems, gives health information, temperature sensitive and costly. DC internal resistance: lead, NiCd, short-interval accuracy only. Neural network: all systems, needs training data of a similar battery. Kalman filter: all systems, hard to implement for nonlinearities | read from the page image | 5.4, Table 4, R107 |
+| Commercial gauges | none of the commercial gauge ICs reviewed is adaptive, so none copes with spread, wide temperature and current ranges and ageing | 2005 survey | 6, 7, R108 to R109 |
+
+**What it says about where the software runs.** Embedded throughout: the gauge IC or processor on the battery pack runs the algorithm and the host reads the result over a serial bus (I2C or one-wire). Cell characterization data is stored in the pack. The review says nothing about a server or any off-device processing; the neural-network example trains offline and then adapts, without saying where.
+
+**What it adds to the allocation (engineering inference, not a source claim).** The review supports a split that the vault can use as a default for any approach:
+
+- Acquisition (voltage, current, temperature) and the fast accumulation loop are embedded.
+- Per-pack constants (characterization table, capacity) are produced in a lab or factory step and loaded into the device.
+- Learned parameters (neural weights, Kalman filter model parameters) are the part that could be produced elsewhere and updated.
+
+**Gaps and cross-checks.**
+
+- Written in 2005 about consumer Li-ion packs; none of the numeric results is for a forklift battery, and the review's lead-acid coverage is brief.
+- The review's examples use LiCoO2. The da Silva paper (source 2) finds hysteresis in the OCV-SOC relation of a LiFePO4 cell, which the review does not discuss; see C147.
+- The review's three ways to store the EMF curve (lookup table, piecewise linear function, fitted function) match the three ways source 2 says it tested for the OCV-SOC curve in the BMS microcontroller.
+- The review's EKF and book-keeping text does not say Coulomb counting is unsuitable for variable load; see the extension to C142.
+- The review is not the primary source for any figure marked "reported from"; those should be traced to the cited works before the vault relies on them.
 
 Related: [[Estimate State of Charge]], [[Estimate State of Health]], [[State of Charge Estimation Firmware]], [[Coulomb Counting State of Charge Estimator Firmware]], [[Hybrid State of Charge Estimator Firmware]], [[Battery State of Health Analytics Service]], [[Cloud Battery Data Upload Service]].
 
