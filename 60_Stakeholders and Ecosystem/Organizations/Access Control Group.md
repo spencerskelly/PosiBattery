@@ -13,6 +13,7 @@ playsRole:
 makes:
   - "[[Access Control Group CellTrac]]"
   - "[[Access Control Group CellVue]]"
+  - "[[Access Control Group SMARTIE]]"
 ---
 
 # Access Control Group

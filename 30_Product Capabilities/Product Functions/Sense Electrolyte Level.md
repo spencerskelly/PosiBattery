@@ -56,6 +56,8 @@ performedBy:
   - "[[Midac Electrolyte Level Sensor]]"
   - "[[Exide MARATHON Excell Battery]]"
   - "[[GS Yuasa LED Level Indicator]]"
+  - "[[Access Control Group SMARTIE]]"
+  - "[[Philadelphia Scientific Blinky Watering Monitors]]"
 realizedBy:
   - "[[Electrolyte Level Sensing Design]]"
 realizes:

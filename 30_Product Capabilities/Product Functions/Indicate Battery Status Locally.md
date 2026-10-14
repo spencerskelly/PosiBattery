@@ -36,6 +36,7 @@ performedBy:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Fronius TagID]]"
   - "[[Philadelphia Scientific eGO!core]]"
+  - "[[Philadelphia Scientific Blinky Watering Monitors]]"
 realizedBy:
   - "[[Warning and Display Device Design]]"
 realizes:

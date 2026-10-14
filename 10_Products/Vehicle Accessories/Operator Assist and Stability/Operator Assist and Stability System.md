@@ -47,6 +47,7 @@ supertypeOf:
   - "[[Toyota System of Active Stability]]"
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
+  - "[[RCT Muirhead Forklift Speed Limiter Kits]]"
 ---
 
 # Operator Assist and Stability System

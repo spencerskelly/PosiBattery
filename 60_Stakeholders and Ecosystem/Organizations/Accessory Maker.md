@@ -19,6 +19,7 @@ rolePlayedBy:
   - "[[ELOKON]]"
   - "[[Litum]]"
   - "[[Liftow]]"
+  - "[[RCT]]"
 ---
 
 # Accessory Maker

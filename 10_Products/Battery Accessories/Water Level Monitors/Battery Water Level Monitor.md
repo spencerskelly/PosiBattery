@@ -18,6 +18,8 @@ supertypeOf:
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Midac Electrolyte Level Sensor]]"
   - "[[GS Yuasa LED Level Indicator]]"
+  - "[[Access Control Group SMARTIE]]"
+  - "[[Philadelphia Scientific Blinky Watering Monitors]]"
 ---
 
 # Battery Water Level Monitor

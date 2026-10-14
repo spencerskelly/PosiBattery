@@ -36,6 +36,7 @@ performedBy:
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[ELOKON ELOfleet]]"
   - "[[Litum PathAware]]"
+  - "[[RCT Muirhead Forklift Speed Limiter Kits]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---

@@ -21,6 +21,7 @@ makes:
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[Philadelphia Scientific iBOS]]"
+  - "[[Philadelphia Scientific Blinky Watering Monitors]]"
 ---
 
 # Philadelphia Scientific

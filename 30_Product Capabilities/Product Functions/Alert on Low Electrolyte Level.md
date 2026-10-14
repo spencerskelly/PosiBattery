@@ -22,6 +22,8 @@ performedBy:
   - "[[Low Electrolyte Alert Output Assembly]]"
   - "[[LED Status Indicator Element]]"
   - "[[Audible Alarm Transducer]]"
+  - "[[Access Control Group SMARTIE]]"
+  - "[[Philadelphia Scientific Blinky Watering Monitors]]"
 realizedBy:
   - "[[Low Electrolyte Alert Design]]"
 realizes:

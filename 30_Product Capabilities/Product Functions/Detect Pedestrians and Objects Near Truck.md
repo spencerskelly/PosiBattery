@@ -44,6 +44,7 @@ performedBy:
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Litum PathAware]]"
+  - "[[Powerfleet Forklift Gateway]]"
 realizes:
   - "[[Warn the Operator of People and Objects Near the Truck]]"
 ---

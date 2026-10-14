@@ -13,11 +13,14 @@ tags:
   - vehicle-accessory
 subtypeOf:
   - "[[Truck Telematics Software]]"
+describedBy:
+  - "[[Document - Fleet Complete Forklift Gateway Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Control Operator Access]]"
   - "[[Detect and Record Impacts]]"
   - "[[Report Truck Telemetry]]"
   - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Detect Pedestrians and Objects Near Truck]]"
 hasDesign:
   - "[[Impact Sensor]]"
   - "[[Truck Telemetry Reporting Design]]"
@@ -52,6 +55,11 @@ Powerfleet forklift gateway (VAC) that handles driver access control, an impact 
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
 - **Architecture realization — truck telemetry:** published behavior establishes vehicle operating data and event reporting to a fleet-management system, supporting [[Truck Telemetry Reporting Design]]. [[Truck Telemetry Acquisition Logic]] and [[Truck Telemetry Reporting Service]] are allocated at **>=95% engineering confidence** where the vendor does not publish the internal software partition. Exact signal sources, CAN/J1939 mapping, buffering, wireless transport, and cloud protocol remain product-specific.
+
+- **Update 2026-10-13:** the product page is now hosted by Fleet Complete ([[Fleet Complete]], which Powerfleet announced it would acquire on 2024-09-20) and says the unit fits virtually any industrial material handling equipment, supports nearly all wireless ID types with a keypad, enforces multilingual electronic pre-use checklists after login and runs access control and checks offline; optional AI impact sensor, GPS, speed/distance, loaded/unloaded sensing, pedestrian proximity detection and DVR; reports to Unity. Sources: <https://www.fleetcomplete.com/products/forklift-telematics/features/forklift-gateway/>; <https://www.sdcexec.com/home/news/22920934/powerfleet-powerfleet-to-acquire-fleet-complete> (T1/T2, second-hand). This is a third-party retrofit unit as well as a Mitsubishi/Cat/Jungheinrich factory option.
+- **Functions performed, with citations:**
+  - [[Enforce Pre-Shift Checklist]] (V): <https://www.fleetcomplete.com/products/forklift-telematics/features/forklift-gateway/>
+  - [[Detect Pedestrians and Objects Near Truck]] (V, optional): <https://www.fleetcomplete.com/products/forklift-telematics/features/forklift-gateway/>
 
 ## Aliases
 

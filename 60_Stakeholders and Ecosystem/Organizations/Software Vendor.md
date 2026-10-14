@@ -13,6 +13,7 @@ rolePlayedBy:
   - "[[ELOKON]]"
   - "[[Litum]]"
   - "[[CLARK Material Handling Company]]"
+  - "[[Fleet Complete]]"
 ---
 
 # Software Vendor
