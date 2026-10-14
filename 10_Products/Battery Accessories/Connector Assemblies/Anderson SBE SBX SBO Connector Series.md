@@ -19,12 +19,14 @@ describedBy:
   - "[[Document - Anderson SBX350 Housing Page (retrieved 2026-10-14)]]"
   - "[[Document - Anderson SBE320 Housing Page (retrieved 2026-10-14)]]"
   - "[[Document - Anderson SBE SBX SBO Product Line Page (retrieved 2026-10-14)]]"
+  - "[[Document - Crown Parts Shop Battery Connectors Category (retrieved 2026-10-14)]]"
 madeBy:
   - "[[Anderson Power Products]]"
 hasDesign:
   - "[[Manual Plug-In Charging]]"
 integratesWith:
   - "[[Anderson SB Connector Series]]"
+  - "[[Anderson Double Stack Manual Assist Brackets]]"
 ---
 
 # Anderson SBE SBX SBO Connector Series

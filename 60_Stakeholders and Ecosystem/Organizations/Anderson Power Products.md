@@ -16,6 +16,8 @@ makes:
   - "[[Anderson IBC Industrial Battery Connector]]"
   - "[[Anderson EBC Euro Battery Connector]]"
   - "[[Anderson SBE SBX SBO Connector Series]]"
+  - "[[Anderson A Series Euro Connector]]"
+  - "[[Anderson Double Stack Manual Assist Brackets]]"
 ---
 
 # Anderson Power Products

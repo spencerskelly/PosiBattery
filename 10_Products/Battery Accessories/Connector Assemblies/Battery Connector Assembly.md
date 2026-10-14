@@ -19,6 +19,8 @@ supertypeOf:
   - "[[Anderson IBC Industrial Battery Connector]]"
   - "[[Anderson EBC Euro Battery Connector]]"
   - "[[Anderson SBE SBX SBO Connector Series]]"
+  - "[[Anderson A Series Euro Connector]]"
+  - "[[Anderson Double Stack Manual Assist Brackets]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

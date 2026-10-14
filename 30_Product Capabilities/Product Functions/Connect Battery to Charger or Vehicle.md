@@ -20,6 +20,7 @@ performedBy:
   - "[[Anderson IBC Industrial Battery Connector]]"
   - "[[Anderson EBC Euro Battery Connector]]"
   - "[[Anderson SBE SBX SBO Connector Series]]"
+  - "[[Anderson A Series Euro Connector]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"

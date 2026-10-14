@@ -13,6 +13,8 @@ designOf:
   - "[[Deka FastCharge Battery]]"
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
+  - "[[Anderson Double Stack Manual Assist Brackets]]"
+  - "[[Yale ERC045-070VG Electric Forklifts]]"
 ---
 
 # Dual-Cable and Parallel Charging Configuration

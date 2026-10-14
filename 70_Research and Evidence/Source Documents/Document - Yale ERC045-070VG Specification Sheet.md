@@ -12,6 +12,7 @@ sourceUrl: "https://yale.com/globalassets/coms/yale/latin-america/documents/4-wh
 accessed: 2026-10-14
 describes:
   - "[[Yale ERC045-070VG Electric Forklifts]]"
+  - "[[Connector Configuration Options Register]]"
 ---
 
 # Document - Yale ERC045-070VG Specification Sheet

@@ -14,6 +14,7 @@ describedBy:
   - "[[Document - Yale ERC045-070VG Specification Sheet]]"
 hasDesign:
   - "[[Drop-In Battery Cavity]]"
+  - "[[Dual-Cable and Parallel Charging Configuration]]"
 madeBy:
   - "[[Hyster-Yale]]"
 ---

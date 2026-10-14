@@ -15,6 +15,7 @@ designOf:
   - "[[Anderson EBC Euro Battery Connector]]"
   - "[[REMA Euro DIN Battery Connector]]"
   - "[[Anderson SBE SBX SBO Connector Series]]"
+  - "[[Anderson A Series Euro Connector]]"
 ---
 
 # Manual Plug-In Charging

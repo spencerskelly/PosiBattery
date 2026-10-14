@@ -23,6 +23,7 @@ madeBy:
   - "[[Anderson Power Products]]"
 integratesWith:
   - "[[Anderson IBC Industrial Battery Connector]]"
+  - "[[Anderson A Series Euro Connector]]"
 ---
 
 # Anderson EBC Euro Battery Connector
