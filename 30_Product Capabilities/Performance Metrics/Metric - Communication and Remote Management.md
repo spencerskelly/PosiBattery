@@ -34,7 +34,7 @@ Communication and Remote Management: Local and cloud interfaces for configuratio
   - [[Exide Motion+ Premium Charger]]: CAN-board for lithium; optional USB data download
   - [[Fronius Selectiva 4.0]]: Charge & Connect; USB interface (reseller listing); earlier note: Fronius Charge & Connect
   - [[Lester Summit Series II]]: Bluetooth apps; CANopen and SAE J1939; wake-up signal (cloud only per reseller, C46); earlier note: Bluetooth app; cloud profiles
-  - [[PosiCharge High Voltage Power Station]]: cellular 4G LTE and Wi-Fi; 7 inch color LCD; card: DIN 70121 and OCPP 1.6J compliant, AC page: DIN 70121 and LTE, Wi-Fi with no OCPP (C210)
+  - [[PosiCharge High Voltage Power Station (AC)]]: cellular 4G LTE and Wi-Fi; 7 inch color LCD; card: DIN 70121 and OCPP 1.6J compliant, AC page: DIN 70121 and LTE, Wi-Fi with no OCPP (C210)
   - [[PosiCharge ProCore Edge]]: Bluetooth; phone control
   - [[Power Designers REVOLUTION X]]: LCD/keypad; Ethernet optional (dealer page)
   - [[Stryten EHY Charger]]: alphanumeric display and keypad; charge history logger (250 cycles)

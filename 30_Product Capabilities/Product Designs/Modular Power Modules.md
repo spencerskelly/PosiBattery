@@ -20,7 +20,7 @@ designOf:
   - "[[Crown V-HFM3 Charger]]"
   - "[[EnerSys IMPAQ Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
-  - "[[PosiCharge High Voltage Power Station]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-3 Charger]]"

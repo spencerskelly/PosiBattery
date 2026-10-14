@@ -76,7 +76,7 @@ Record of the pass that turned features stated in product notes into function an
 | [[PosiCharge BMID 1]] | Battery Accessories | no feature stated in any source yet |
 | [[PosiCharge Cooling Fan Box]] | Charger Accessories | source names the accessory without describing what it does; PosiCharge accessory pages not retrievable |
 | [[PosiCharge DIY Fast Charge Kit]] | Vehicle Accessories | convenience item or contents not described in the source |
-| [[PosiCharge High Voltage Power Station]] | Chargers | source gives ratings only, or contents not described (maker unknown, or the DC card conflicts with the AC listing, C82) |
+| [[PosiCharge High Voltage Power Station (AC)]] | Chargers | source gives ratings only, or contents not described (maker unknown, or the DC card conflicts with the AC listing, C82) |
 | [[PosiCharge Modular Charge Cables]] | Charger Accessories | source names the accessory without describing what it does; PosiCharge accessory pages not retrievable |
 | [[Raymond 8250 Lithium-Ion Battery]] | Batteries | its only feature was a property; moved to metric values in round 27 (Watering Interval, Charge Regimes Supported, Charging Gas Emissions) |
 | [[Raymond Energy Essentials Lithium-Ion Battery]] | Batteries | properties only (chemistry, voltage, capacity, warranty, charge regimes) belong in the metric notes; Flux and Green Cubes feature pages not found in round 26 |

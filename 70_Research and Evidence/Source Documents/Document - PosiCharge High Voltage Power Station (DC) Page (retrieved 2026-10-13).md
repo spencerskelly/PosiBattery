@@ -12,7 +12,7 @@ sourceClass: web-page
 sourceUrl: "https://posicharge.com/products/high-voltage-power-station-dc/"
 accessed: 2026-10-13
 describes:
-  - "[[PosiCharge High Voltage Power Station]]"
+  - "[[PosiCharge High Voltage Power Station (DC)]]"
 ---
 
 # Document - PosiCharge High Voltage Power Station (DC) Page (retrieved 2026-10-13)
@@ -39,7 +39,7 @@ Official PosiCharge product page for the High Voltage Power Station (DC): headli
 
 ## Traceability
 
-- `describes` links the page to the merged product note, which also carries the AC listing.
+- `describes` links the page to the DC listing note. The owner says the DC variant includes a kit that the AC variant does not; this page was not read for that kit (IB-162).
 
 ## Aliases
 

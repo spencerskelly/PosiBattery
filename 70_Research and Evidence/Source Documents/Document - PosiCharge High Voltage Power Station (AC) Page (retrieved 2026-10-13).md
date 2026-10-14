@@ -12,7 +12,7 @@ sourceClass: web-page
 sourceUrl: "https://posicharge.com/products/high-voltage-power-station-ac/"
 accessed: 2026-10-13
 describes:
-  - "[[PosiCharge High Voltage Power Station]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
 ---
 
 # Document - PosiCharge High Voltage Power Station (AC) Page (retrieved 2026-10-13)

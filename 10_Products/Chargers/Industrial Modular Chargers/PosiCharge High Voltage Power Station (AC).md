@@ -9,15 +9,11 @@ tags:
   - commercial-product
   - posicharge-baseline
   - charger
-  - gse
 subtypeOf:
   - "[[Industrial Modular Charger]]"
-supersedes:
-  - "[[PosiCharge High Voltage Power Station (DC)]]"
 describedBy:
   - "[[Document - PosiCharge High Voltage Power Station Product Card (2026)]]"
   - "[[Document - PosiCharge High Voltage Power Station (AC) Page (retrieved 2026-10-13)]]"
-  - "[[Document - PosiCharge High Voltage Power Station (DC) Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Charge Battery Fast]]"
 hasDesign:
@@ -34,11 +30,11 @@ integratesWith:
   - "[[PosiCharge MVS400 and MVS800]]"
 ---
 
-# PosiCharge High Voltage Power Station
+# PosiCharge High Voltage Power Station (AC)
 
 ## Definition
 
-PosiCharge High Voltage Power Station: a DC fast charger for eGSE and road EVs (CCS1 or NACS) that runs on the PosiCharge DC bus or on AC input. posicharge.com lists it twice, as High Voltage Power Station (AC) under material handling charging and as High Voltage Power Station (DC) under airport GSE charging, and both listings share one product card. One note covers both listings (owner decision 2026-10-13).
+PosiCharge High Voltage Power Station listed under material handling charging (AC); shares a spec sheet file with the DC listing.
 
 ## Notes
 
@@ -58,25 +54,9 @@ PosiCharge High Voltage Power Station: a DC fast charger for eGSE and road EVs (
   - [[Cellular Communication Interface]] (V, partial): the network row lists cellular 4G LTE. The design is defined as a cellular modem for sending data from the battery device; here it is on the charger, and the card does not say what it carries. <https://posicharge.com/wp-content/uploads/2026/01/High-Voltage-Power-Station-Product-Card-1.pdf>
 - **Integrates with (T1):** the card says it is backwards compatible with DVS and MVS systems with a required software update, and that it runs on the PosiCharge DC bus. It names no models, so the links go to every vault note named for those families: [[PosiCharge DVS100]], [[PosiCharge DVS150]], [[PosiCharge DVS300 Series]] and [[PosiCharge MVS400 and MVS800]]. Whether each model qualifies, and which software version is required, is open (IB-159). <https://posicharge.com/wp-content/uploads/2026/01/High-Voltage-Power-Station-Product-Card-1.pdf>
 - **Not linked, and why:** [[Manage Chargers Remotely]] and [[Remote Charger Management Design]] (the card lists OCPP 1.6J and cellular or Wi-Fi but states no portal or remote management; OCPP is a protocol between a charger and a central system per [[Document - Wikipedia Open Charge Point Protocol (retrieved 2026-10-13)]], which is about the protocol and not this product; IB-157); [[Charge Under BMS Control]] and [[Identify Battery to Charger]] (DIN 70121 is listed, but the card does not describe BMS-directed charging or battery identification); [[Indicate Charger Status Locally]] (the role of the 7 inch LCD is not stated; touch is not stated, so [[Touchscreen Interface]] is not linked); [[Multi-Voltage Output]] (the card gives one output range of 250 to 920 Vdc, not several fixed battery voltages); [[Silicon-Carbide Power Stage]] (not stated).
-- **One note for both listings (owner decision 2026-10-13):** the former AC note kept its id and uid and took the surviving name; the former DC note [[PosiCharge High Voltage Power Station (DC)]] (OBJ-00301) is Retired and linked by `supersedes`. Its former definitions were: AC, "PosiCharge High Voltage Power Station listed under material handling charging (AC); shares a spec sheet file with the DC listing."; DC, "PosiCharge High Voltage Power Station listed under airport GSE charging (DC); shares a spec sheet file with the AC listing." The DC listing name is not an alias here because the retired DC note keeps its own name. Both listings, the card and both pages show the same specification table, which supports one product; the evidence does not define the AC and DC configurations, so mapping them to AC input and the DC bus below is an analyst inference.
-- **Configurations kept apart (card page 2 and both listing pages; the AC and DC names for each row are inferred):**
-
-| Configuration | Input | Maximum output power | cETLus listing | Listing and address |
-|---|---|---|---|---|
-| AC configuration (AC input) | 240 Vac single phase; 208 or 240 Vac three-phase delta; 480/277 Vac three-phase wye | 30 kW | listed to UL 2202, UL 2231-1 and -2, CSA C22.2 No. 281.1, 281.2 and 346 | High Voltage Power Station (AC), <https://posicharge.com/products/high-voltage-power-station-ac/> |
-| DC configuration (PosiCharge DC bus) | PosiCharge DC bus; the card also says it can run stand-alone | 20 kW | listing pending | High Voltage Power Station (DC), <https://posicharge.com/products/high-voltage-power-station-dc/> |
-
-- **Carried unchanged from the retired DC listing note (OBJ-00301):**
-  - Listed as a current eGSE product; resource library lists a DC spec sheet. Ampure’s 2025 announcement describes the High Voltage Power Station as part of the expanded eGSE offering. Source: official PosiCharge page for High Voltage Power Station—DC, as summarized in the vault's Public Evidence Register (PUB-001 and PUB-002, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/high-voltage-power-station-dc/>
-  - **Baseline confidence (High Voltage Power Station—DC):** Verified public—listing level. **Still needed:** Obtain and extract controlled/current spec sheet; define ratings, AC/DC boundary, interfaces, application, certification, option structure, and commercialization status.
-  - The product card (Reference Files/High-Voltage-Power-Station-Product-Card-1.pdf) calls it a 20 kW DC fast charger for eGSE and EVs, with 30 kW quick charge via CCS1 and NACS; it runs on a PosiCharge DC bus or stand-alone, is backwards compatible with DVS and MVS systems with a required software update, replaces a standard power station without a new utility drop, has a 5 m CCS1 or NACS single-port output and a NEMA 3S enclosure. Source: High Voltage Power Station product card (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/High-Voltage-Power-Station-Product-Card-1.pdf>
-  - **Conflicts (round 20):** the card gives 20 kW and 30 kW (C81); the same card is linked for the AC listing (C82).
-  - **Functions performed, with citations:**
-    - [[Charge Battery Fast]] (V): <https://posicharge.com/products/high-voltage-power-station-dc/>
+- **Sibling listing:** [[PosiCharge High Voltage Power Station (DC)]] is built on the same card and the same page content. The card's certification row separates an AC configuration from a DC configuration, which suggests the AC and DC names refer to the input source (AC input or the PosiCharge DC bus) and not to the output, which is DC in both; this is an analyst inference, not a source statement. The schema has no variant link, so the two notes are tied by the shared source document and by this paragraph (IB-156). The DC note was changed only by the inverse link to the shared card. **Owner correction 2026-10-13:** the two listings stay separate notes because the DC variant includes a kit that the AC variant does not (kit not yet identified, IB-162); the reading above, that AC and DC only name the input source, is therefore not confirmed and may be wrong.
 
 ## Aliases
 
-- PosiCharge High Voltage Power Station (AC)
-- High Voltage Power Station
 
 ## Former ids

@@ -48,7 +48,7 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[Inventus Smart Battery Monitor SBM-01]]: -30 to 70 C; storage -40 to 80 C
   - [[Lester Summit Series II]]: -25 to 60 C; storage -40 to 85 C
   - [[PosiCharge Battery Rx]]: sensor -20 to 165 F (sheet); earlier note: electrolyte sensor -20 to 165 F (-29 to 74 C)
-  - [[PosiCharge High Voltage Power Station]]: operation -30 to +50 C; storage -40 to +80 C; humidity up to 95 percent non-condensing; altitude 2000 m (card)
+  - [[PosiCharge High Voltage Power Station (AC)]]: operation -30 to +50 C; storage -40 to +80 C; humidity up to 95 percent non-condensing; altitude 2000 m (card)
   - [[PosiCharge PosiGuard]]: -25 to 75 C (sheet); earlier note: -25 to 75 C
   - [[Power Designers PowerTrac 3]]: -25 to 60 C (-13 to 140 F) (sheet)
   - [[Power Designers PowerTrac DT3]]: -25 to 60 C

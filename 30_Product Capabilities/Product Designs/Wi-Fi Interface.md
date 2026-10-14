@@ -11,7 +11,7 @@ subtypeOf:
   - "[[Wireless Interface Design]]"
 designOf:
   - "[[Advanced Charging Technologies BATTview]]"
-  - "[[PosiCharge High Voltage Power Station]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
   - "[[Stryten X-3 Charger]]"
   - "[[ACT ACTview]]"
   - "[[Wi-Fi Communication Circuit]]"

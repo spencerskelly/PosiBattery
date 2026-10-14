@@ -272,8 +272,8 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[PosiCharge DVS150]] | [[PosiCharge]] | charger | 4 | 0 | 8 | defined |
 | [[PosiCharge DVS300 Series]] | [[PosiCharge]] | charger | 2 | 1 | 30 | defined |
 | [[PosiCharge E-Meter]] | [[PosiCharge]] | accessory | 3 | 0 | 4 | defined |
-| [[PosiCharge High Voltage Power Station]] | [[PosiCharge]] | charger | 0 | 0 | 2 | partial |
-| [[PosiCharge High Voltage Power Station]] | [[PosiCharge]] | charger | 1 | 0 | 5 | defined |
+| [[PosiCharge High Voltage Power Station (AC)]] | [[PosiCharge]] | charger | 0 | 0 | 2 | partial |
+| [[PosiCharge High Voltage Power Station (DC)]] | [[PosiCharge]] | charger | 1 | 0 | 5 | defined |
 | [[PosiCharge MVS400 and MVS800]] | [[PosiCharge]] | charger | 1 | 1 | 39 | defined |
 | [[PosiCharge Modular Charge Cables]] | [[PosiCharge]] | accessory | 0 | 0 | 3 | defined |
 | [[PosiCharge PosiConnect]] | [[PosiCharge]] | accessory | 1 | 1 | 0 | none |

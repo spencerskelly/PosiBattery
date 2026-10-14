@@ -17,7 +17,7 @@ performs:
 madeBy:
   - "[[PosiCharge]]"
 integratesWith:
-  - "[[PosiCharge High Voltage Power Station]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
 offeredWith:
   - "[[PosiCharge BMID]]"
 hasDesign:
