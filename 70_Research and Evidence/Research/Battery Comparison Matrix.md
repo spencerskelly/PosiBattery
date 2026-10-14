@@ -37,15 +37,18 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[EnerSys NexSys TPPL Battery]] | thin plate pure lead (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[EnerSys NexSys TPPL Battery]] |
 | [[Exide GNB Lithium Battery 2.0]] | n/s | n/s | n/s | n/s | n/s | BMS; GNB Cloud option | n/s | [[Exide GNB Lithium Battery 2.0]] |
 | [[Exide MARATHON Battery]] | n/s | n/s | n/s | MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging | n/s | n/s | n/s | [[Exide MARATHON Battery]] |
+| [[Exide Sonnenschein Lithium Battery]] | lithium-ion (subtype n/s) | 25.6, 38.4, 51.2, 76.8 V classes | 80-966 Ah across classes | n/s | fast; opportunity | BMS with balancing and SOC; GNB Fleet | n/s (plant ISO only) | [[Exide Sonnenschein Lithium Battery]] |
 | [[Exide TENSOR xGEL Battery]] | gel (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[Exide TENSOR xGEL Battery]] |
 | [[Flux Power GSE Pack]] | LiFePO4 (2023 sheet); lithium-ion (2021) | 72 V (2016); 80 V (76.8 V) (2021, 2023) | 300-600 Ah (2016); 210-630 Ah (2021); GSE3 315 Ah (2023) | n/s | n/s | BMS 2.0, CANbus; SkyBMS Telematics | IP56 (GSE3) | [[Flux Power GSE Pack]] |
 | [[Flux Power LiFT Pack]] | n/s | 24 V (first unit) | 250 Ahe | n/s | n/s | n/s | UL 2271 Listed (first) | [[Flux Power LiFT Pack]] |
 | [[Flux Power S-Series Battery]] | n/s | n/s | n/s | n/s | n/s | BMS and telemetry | UL Type EE | [[Flux Power S-Series Battery]] |
+| [[Godrej Multi-Ion Forklift Battery]] | Multi-Ion (as worded) | n/s | n/s | n/s | fast; opportunity | n/s | n/s | [[Godrej Multi-Ion Forklift Battery]] |
 | [[Green Cubes GSE Lithium Battery]] | lithium iron phosphate | 80 V (FBP-1000) | n/s | n/s | n/s | BMS on top; CANbus | n/s | [[Green Cubes GSE Lithium Battery]] |
 | [[Green Cubes SAFEFlex Battery]] | n/s | 48 V (FBP-1000) | n/s | n/s | n/s | n/s | n/s | [[Green Cubes SAFEFlex Battery]] |
 | [[Green Cubes SAFEFlex PLUS Battery]] | lithium iron phosphate | 24, 36, 48, 80 V classes (25.6 to 83.2 V nominal) | 315-945 Ah across classes | n/s | n/s | modular BMS; CAN, USB, Wi-Fi | UL 2580:2020, Type EE (pending in 2025 datasheet) | [[Green Cubes SAFEFlex PLUS Battery]] |
 | [[Jungheinrich Lithium-Ion Battery]] | n/s | n/s | 360 Ah cells | n/s | n/s | n/s | n/s | [[Jungheinrich Lithium-Ion Battery]] |
-| [[Stryten M-Series AGM200 Battery]] | AGM (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[Stryten M-Series AGM200 Battery]] |
+| [[Raymond Energy Essentials Lithium-Ion Battery]] | NMC (2020); LFP (2025) (C217) | 24, 36, 48 V (2025) | 1,056 Ah (2020) | n/s | fast; opportunity (2025) | active cell balancing; truck-battery data exchange; Energy Asset Manager | UL Listed; UL 2580 (2025) | [[Raymond Energy Essentials Lithium-Ion Battery]] |
+| [[Stryten M-Series AGM200 Battery]] | AGM (valve-regulated) | n/s | 45-105 Ah per positive at 6 h | none (valve-regulated) | CC-CV-CC; opportunity only in approved VGA | audible discharge alarm | n/s | [[Stryten M-Series AGM200 Battery]] |
 | [[Stryten M-Series AGM220 Battery]] | n/s | 24 V (four 6 V AGM210) | n/s | n/s | n/s | n/s | n/s | [[Stryten M-Series AGM220 Battery]] |
 | [[Stryten M-Series F100 Battery]] | flooded; flat plate | n/s | n/s | n/s | conventional | n/s | n/s | [[Stryten M-Series F100 Battery]] |
 | [[Stryten M-Series F110 Battery]] | flooded; flat plate | n/s | n/s | n/s | opportunity | n/s | n/s | [[Stryten M-Series F110 Battery]] |

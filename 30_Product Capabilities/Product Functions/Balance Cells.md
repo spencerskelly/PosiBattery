@@ -17,6 +17,8 @@ performedBy:
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Orion BMS 2]]"
   - "[[REC Active BMS]]"
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 describedBy:
   - "[[BMS Function Definitions]]"
 ---

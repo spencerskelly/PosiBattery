@@ -15,6 +15,7 @@ designOf:
   - "[[Battery Discharge Indicator Module]]"
   - "[[Hyster Power Cellect]]"
   - "[[Linde MT18 Multifunction Display]]"
+  - "[[Stryten M-Series AGM200 Battery]]"
 ---
 
 # Battery Discharge Indicator

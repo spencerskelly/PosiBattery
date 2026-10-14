@@ -55,6 +55,7 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
   - [[PosiCharge ProCore Solo]]: UL and cUL listed; CEC compliant (sheet)
   - [[PosiCharge SVS100]]: CEC certification
   - [[Power Designers REVOLUTION X]]: CEC compliant
+  - [[Raymond Energy Essentials Lithium-Ion Battery]]: UL Listed (whitepaper page); UL 2580 listed (2025 release)
   - [[Stryten EHY Charger]]: UL 1564; CSA 22.2 107.2-01; CEC marking
   - [[Stryten M-Series Li600 Battery]]: designed to meet UL2580; certification in process
   - [[Stryten M-Series Li610 Battery]]: UL2580 certification being pursued

@@ -20,6 +20,8 @@ supertypeOf:
   - "[[PosiCharge PosiNet]]"
   - "[[PosiCharge SkyLink]]"
   - "[[Stryten inCOMMAND]]"
+  - "[[Raymond Energy Asset Manager]]"
+  - "[[Exide GNB Fleet]]"
 ---
 
 # Battery and Charger Management Software

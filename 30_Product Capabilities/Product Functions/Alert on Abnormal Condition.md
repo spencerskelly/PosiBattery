@@ -47,6 +47,8 @@ performedBy:
   - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
   - "[[Flux SkyBMS]]"
+  - "[[Exide GNB Fleet]]"
+  - "[[Stryten M-Series AGM200 Battery]]"
 realizedBy:
   - "[[Abnormal Condition Alert Design]]"
 realizes:

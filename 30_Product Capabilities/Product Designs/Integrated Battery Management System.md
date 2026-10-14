@@ -33,6 +33,7 @@ designOf:
   - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[TUG ALPHA 1 Pushback]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 ---
 
 # Integrated Battery Management System

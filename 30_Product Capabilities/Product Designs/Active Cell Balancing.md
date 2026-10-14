@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Battery Management System Design]]"
 designOf:
   - "[[REC Active BMS]]"
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
 describedBy:
   - "[[External BMS Product Landscape]]"
   - "[[BMS Function Definitions]]"

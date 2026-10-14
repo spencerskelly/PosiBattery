@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
   - "[[Battery Monitoring Device]]"
   - "[[Battery Watering System]]"
+  - "[[Exide Retrofitting Communicator]]"
 describedBy:
   - "[[Battery Installed Device Market Reference]]"
   - "[[Battery Product Landscape]]"

@@ -28,6 +28,9 @@ performedBy:
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Godrej Multi-Ion Forklift Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

@@ -30,6 +30,10 @@ makes:
   - "[[Exide Motion+ Premium Charger]]"
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[Exide Automatic Watering System and Level Sensor]]"
+  - "[[Exide GNB Fleet]]"
+  - "[[Exide Retrofitting Communicator]]"
+  - "[[Exide Opus Display]]"
+  - "[[Exide HC-LC Logger]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:

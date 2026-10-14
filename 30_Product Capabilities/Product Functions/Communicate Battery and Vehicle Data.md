@@ -17,6 +17,8 @@ supertypeOf:
   - "[[Report Battery Temperature to Charger]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Upload Battery Data to Cloud Portal]]"
+performedBy:
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

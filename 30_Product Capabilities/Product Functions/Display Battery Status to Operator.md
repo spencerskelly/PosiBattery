@@ -26,6 +26,7 @@ performedBy:
   - "[[Linde MT18 Multifunction Display]]"
   - "[[Crown Gena Operating System]]"
   - "[[Hyster Power Cellect]]"
+  - "[[Exide Retrofitting Communicator]]"
 realizedBy:
   - "[[Vehicle Operator Display Design]]"
 realizes:

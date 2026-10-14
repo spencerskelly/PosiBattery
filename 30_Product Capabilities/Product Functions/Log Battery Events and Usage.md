@@ -48,6 +48,7 @@ performedBy:
   - "[[Power Designers PowerTrac SP+]]"
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
+  - "[[Exide HC-LC Logger]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"

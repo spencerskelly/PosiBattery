@@ -39,6 +39,8 @@ supertypeOf:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
   - "[[Battery Water Level Monitor]]"
+  - "[[Exide Opus Display]]"
+  - "[[Exide HC-LC Logger]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
   - "[[Design Map]]"

@@ -17,6 +17,7 @@ performedBy:
   - "[[BMS Discharge Protection Logic]]"
   - "[[Battery Discharge Interlock Logic]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
 dependsOn:

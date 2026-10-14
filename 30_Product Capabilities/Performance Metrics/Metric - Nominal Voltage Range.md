@@ -46,6 +46,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[EnerSys Wi-iQ]]: 24-80 V and 96-120 V (nominal and operating)
   - [[EnerSys iQ Mini]]: 12-80 V (carried from seed)
   - [[Exide Motion+ EasyMonitor]]: 18-120 V
+  - [[Exide Sonnenschein Lithium Battery]]: classes 25.6, 38.4, 51.2 and 76.8 V nominal (24, 36, 48 and 80 V)
   - [[Flow-Rite Eagle Eye Essential IV]]: 4-12 V DC supply
   - [[Flux Power GSE Pack]]: 72 V (2016 report); 80 V (76.8 V), up to 400 V on request (2021 brochure); 80 V (76.8 V) on the GSE3 (2023 sheet) (C212)
   - [[Flux Power LiFT Pack]]: 24 V (first unit)
@@ -75,6 +76,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Power Designers PowerTrac DT3]]: 24-84 V nominal; operating 18-120 V
   - [[Power Designers PowerTrac SP+]]: 12-84 V nominal
   - [[Power Designers REVOLUTION X]]: multi-voltage modules; with PowerTrac 24/36/48 recognition
+  - [[Raymond Energy Essentials Lithium-Ion Battery]]: 24, 36 and 48 V options (2025 release); not stated in 2020
   - [[Stryten EHF Charger]]: 24 V and 36 V models (more in the brochure)
   - [[Stryten EHY Charger]]: nominal 24, 36, 48, 72, 80 VDC
   - [[Stryten M-Series AGM220 Battery]]: 24 V (four 6 V AGM210)

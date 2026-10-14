@@ -13,6 +13,7 @@ subtypeOf:
 designOf:
   - "[[Crown RC 5700 Series]]"
   - "[[Battery Discharge Interlock Logic]]"
+  - "[[Exide Retrofitting Communicator]]"
 ---
 
 # Truck Battery Discharge Interlock

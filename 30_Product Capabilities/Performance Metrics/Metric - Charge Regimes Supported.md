@@ -27,7 +27,11 @@ Charge Regimes Supported: Conventional, opportunity or fast charge capability.
   - [[Crown V-Force Lithium-Ion ESS]]: one battery handles one or multiple shifts, no battery swapping; true opportunity charging
   - [[Deka D-Series Battery]]: conventional and opportunity
   - [[Deka FastCharge Battery]]: fast
+  - [[Exide Sonnenschein Lithium Battery]]: fast charge and opportunity charge; works with recuperation
+  - [[Godrej Multi-Ion Forklift Battery]]: fast and opportunity charging (release, no rates)
   - [[Linde 6-8 t Electric Counterbalance Forklifts]]: 90 V lithium-ion removes battery changes (truck-level note)
+  - [[Raymond Energy Essentials Lithium-Ion Battery]]: fast charging (2020); fast and opportunity charging (2025)
+  - [[Stryten M-Series AGM200 Battery]]: constant current, constant voltage, constant current; opportunity charging not allowed except approved VGA applications (manual SE1045)
   - [[Stryten M-Series F100 Battery]]: conventional
   - [[Stryten M-Series F110 Battery]]: opportunity
   - [[Stryten M-Series T300 Battery]]: conventional; opportunity capable

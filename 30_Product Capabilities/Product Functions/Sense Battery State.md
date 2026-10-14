@@ -27,6 +27,8 @@ childOf:
 performedBy:
   - "[[Flux Power GSE Pack]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 ---
 
 # Sense Battery State

@@ -27,6 +27,7 @@ Full-Cycle Efficiency: Efficiency averaged over a whole charge cycle.
   - [[ACT Quantum 2]]: above 93.5% (table) or 'exceeding 93%' (text) (C44); earlier note: over 93%
   - [[ACT Quantum 3]]: 96% (requires high-efficiency module); earlier note: over 96%
   - [[ACT Quantum Outdoor]]: 93.5% total cycle
+  - [[Exide Sonnenschein Lithium Battery]]: Ah charge efficiency above 98 percent (basis not stated; not a full-cycle energy figure)
   - [[Power Designers REVOLUTION X]]: above 90% throughout the charge
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 4 product(s) have a value; document-based values to be added as documents are supplied.

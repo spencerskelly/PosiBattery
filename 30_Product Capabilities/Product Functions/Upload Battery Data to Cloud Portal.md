@@ -36,6 +36,8 @@ performedBy:
   - "[[Power Designers PowerTrac 3]]"
   - "[[Cloud Battery Data Upload Service]]"
   - "[[Battery Data Gateway Upload Service]]"
+  - "[[Raymond Energy Asset Manager]]"
+  - "[[Exide GNB Fleet]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"

@@ -38,6 +38,7 @@ offers:
   - "[[Raymond iBattery]]"
   - "[[Raymond Red Charger]]"
   - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
+  - "[[Raymond Energy Asset Manager]]"
 distributedBy:
   - "[[Raymond Handling Consultants]]"
   - "[[Carolina Handling]]"

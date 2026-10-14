@@ -26,6 +26,7 @@ Depth of Discharge Limit: percent of rated capacity or specific gravity
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[HAWKER Perfect Plus Battery]]: avoid operating discharges of more than 80 percent of rated capacity (specific gravity 1.14 kg/l at 30 C at the end of discharge); recharge immediately
   - [[Deka MaxPowr Battery]]: discharging below a specific gravity of 1.155 can be harmful (text cut off after 'can')
+  - [[Stryten M-Series AGM200 Battery]]: 80 percent; cutoff 1.86 V per cell under load or 2.02 V per cell open circuit (manual SE1045)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** Add other makers.
 

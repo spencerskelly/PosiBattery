@@ -26,6 +26,8 @@ performs:
   - "[[Detect and Record Impacts]]"
 hasDesign:
   - "[[Usage-History State of Health Analytics]]"
+offeredWith:
+  - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
 integratesWith:
   - "[[Raymond iBattery]]"
 madeBy:

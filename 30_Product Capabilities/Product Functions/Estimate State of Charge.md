@@ -32,6 +32,7 @@ performedBy:
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Voltage-Based State of Charge Estimator Firmware]]"
   - "[[Yale Battery Vision]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Inspect Battery Condition Through a BMID]]"

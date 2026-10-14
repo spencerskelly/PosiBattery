@@ -31,11 +31,13 @@ Chemistry and Plate Construction: Chemistry and plate type.
   - [[Banner Traction Bull PzV Gel]]: gel, valve-regulated
   - [[Deka Dominator Battery]]: gel (maintenance-free); corrected from flooded (C53)
   - [[EnerSys NexSys TPPL Battery]]: thin plate pure lead (valve-regulated)
+  - [[Exide Sonnenschein Lithium Battery]]: lithium-ion, subtype not stated
   - [[Exide TENSOR xGEL Battery]]: gel (valve-regulated)
   - [[Green Cubes GSE Lithium Battery]]: lithium iron phosphate
   - [[Green Cubes SAFEFlex PLUS Battery]]: lithium iron phosphate (product page and datasheets)
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: LiFePO4, square cells
   - [[Leoch PzS Traction Battery]]: flooded, tubular positive plates
+  - [[Raymond Energy Essentials Lithium-Ion Battery]]: NMC lithium-ion (2020); lithium iron phosphate (2025) (C217)
   - [[Stryten M-Series AGM200 Battery]]: AGM (valve-regulated)
   - [[Stryten M-Series F100 Battery]]: flooded; flat plate
   - [[Stryten M-Series F110 Battery]]: flooded; flat plate

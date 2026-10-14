@@ -29,6 +29,7 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
   - [[Deka Ready Power Lithium Battery]]: multi-module BMS over CAN
   - [[EnerSys NexSys iON Battery]]: BMS limits charge and discharge voltage; optional CAN to the truck; ISO 26262 design
   - [[Exide GNB Lithium Battery 2.0]]: BMS; GNB Cloud option
+  - [[Exide Sonnenschein Lithium Battery]]: BMS monitors V, I and T, balances cells, calculates state of charge, controls the GNB Lithium Charger; optional Opus Display, HC-/LC-Logger, Retrofitting Communicator; GNB Fleet
   - [[Flux Power GSE Pack]]: BMS 2.0 with cell monitoring and sleep mode, isolated external CANbus (2021 brochure); integral BMS with SkyBMS Telematics (2023 sheet)
   - [[Flux Power LiFT Pack]]: patented BMS limits charging; CAN integration with the truck; onboard charger
   - [[Flux Power S-Series Battery]]: BMS and telemetry
@@ -36,6 +37,7 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
   - [[Green Cubes SAFEFlex Battery]]: internal BMS balancing; CAN voltage auto-detect at the Lithium SAFEFlex charger
   - [[Green Cubes SAFEFlex PLUS Battery]]: modular distributed BMS with cell monitoring and data logging; CAN bus (separate truck and charger buses), USB, Wi-Fi, OTA firmware; Ethernet in the 2025 datasheet (C215)
   - [[Hyster Power Cellect]]: BMS adjusts charge current with the charger over a custom CAN protocol and opens the charge contactor on an unsafe cell; only recommended chargers
+  - [[Raymond Energy Essentials Lithium-Ion Battery]]: active cell balancing and thermal control; constant truck-battery data exchange, state of charge and fault codes; iWAREHOUSE; Energy Asset Manager
   - [[Stryten M-Series Li600 Battery]]: configurable CANbus; remote monitoring; touchscreen diagnostics
   - [[Stryten M-Series Li610 Battery]]: onboard display; inCOMMAND
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.

@@ -29,6 +29,7 @@ performedBy:
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Crown V-Force BMID]]"
   - "[[Battery-Charger Communication Firmware]]"
+  - "[[Exide Sonnenschein Lithium Battery]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
