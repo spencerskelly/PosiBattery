@@ -12,6 +12,7 @@ sourceUrl: "https://www.mhwmag.com/?p=102503"
 accessed: 2026-10-14
 describes:
   - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Inductive Wireless Charging Product Register]]"
 ---
 
 # Document - Delta 30 kW Wireless Charging Article (2024-03-21)

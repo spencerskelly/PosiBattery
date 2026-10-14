@@ -14,6 +14,10 @@ designOf:
   - "[[Wiferion etaTRAY Battery Tray]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Wiferion CW1000 Wireless Charging System]]"
+  - "[[WiBotic 1kW Wireless Charging System]]"
+  - "[[Xnergy Wireless Charging Series]]"
+  - "[[Daihen D-Broad Wireless Charging System]]"
 ---
 
 # Inductive Wireless Charging

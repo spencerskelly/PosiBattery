@@ -14,6 +14,7 @@ describes:
   - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
   - "[[Wiferion etaTRAY Battery Tray]]"
   - "[[Charger-Vehicle Interface Register]]"
+  - "[[Inductive Wireless Charging Product Register]]"
 ---
 
 # Document - Wiferion Products Page (retrieved 2026-10-14)

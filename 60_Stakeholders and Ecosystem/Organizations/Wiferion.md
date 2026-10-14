@@ -12,6 +12,7 @@ tags:
 makes:
   - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
   - "[[Wiferion etaTRAY Battery Tray]]"
+  - "[[Wiferion CW1000 Wireless Charging System]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Battery Maker]]"

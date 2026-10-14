@@ -10,7 +10,7 @@ tags:
 makes:
   - "[[Delta MOOVair Wireless Charging Series]]"
 playsRole:
-  - "[[Accessory Maker]]"
+  - "[[Charger Maker]]"
 ---
 
 # Delta Energy Systems

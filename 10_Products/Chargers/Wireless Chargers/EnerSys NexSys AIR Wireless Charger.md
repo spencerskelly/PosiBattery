@@ -14,6 +14,8 @@ subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:
   - "[[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]]"
+  - "[[Document - EnerSys NexSys AIR Product Page (retrieved 2026-10-14)]]"
+  - "[[Document - EnerSys NexSys AIR Owner's Manual (0624)]]"
 performs:
   - "[[Charge Battery Wirelessly]]"
   - "[[Continue Charging Through Module Fault]]"
@@ -44,6 +46,7 @@ EnerSys wireless charger for AGVs and other vehicles, compatible with all EnerSy
 
 ## Notes
 
+- **Update 2026-10-14 (owner's manual and product page):** four secondary converters - 24 V 7 kW 250 A, 36 V 10 kW 250 A, 48 V 10 kW 200 A, 80 V 10 kW 120 A; input 3-phase 400/480 V AC; air gap 20-50 mm, misalignment +/-20 mm; about 100 kHz; IP23 primary converter, IP54 pads; foreign object detection; Ethernet Modbus TCP, CANopen, Wi-Fi; no efficiency stated (the earlier brochure row says 94% or more). Sources: <https://enersys.com/4965da/globalassets/documents/product-documentation/nexsys/nexsys-air-wireless-charger/apac/glob-nexsys-air-owners-manual-english-0624.pdf>; <https://www.enersys.com/en-gb/products/chargers/battery-chargers/nexsys/nexsys-air/> (T1, second-hand).
 - The brochure says NexSys AIR wireless chargers can charge multiple battery technologies including flooded lead-acid, are compatible with all EnerSys battery technologies, and can reduce AGV waiting time for charging. Source: EnerSys NexSys AIR brochure (T1), retrieved 2026-10-02. <https://www.enersys.com/493367/globalassets/documents/product-documentation/_enersys/apac/apac_en-imp-nex-com-air-0623.pdf>
 - **Functions performed, with citations** (V = verified this pass):
   - [[Charge Battery Wirelessly]] (V): <https://www.enersys.com/493367/globalassets/documents/product-documentation/_enersys/apac/apac_en-imp-nex-com-air-0623.pdf>

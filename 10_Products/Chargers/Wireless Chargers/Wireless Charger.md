@@ -14,6 +14,10 @@ supertypeOf:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
   - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Wiferion CW1000 Wireless Charging System]]"
+  - "[[WiBotic 1kW Wireless Charging System]]"
+  - "[[Xnergy Wireless Charging Series]]"
+  - "[[Daihen D-Broad Wireless Charging System]]"
 ---
 
 # Wireless Charger

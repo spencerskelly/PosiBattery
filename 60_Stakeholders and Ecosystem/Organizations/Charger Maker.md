@@ -26,6 +26,10 @@ rolePlayedBy:
   - "[[ENEROC]]"
   - "[[ITW GSE]]"
   - "[[Wiferion]]"
+  - "[[WiBotic]]"
+  - "[[Xnergy]]"
+  - "[[Daihen]]"
+  - "[[Delta Energy Systems]]"
 ---
 
 # Charger Maker

@@ -52,7 +52,7 @@ Register of how energy gets from charger to vehicle or battery: two axes, where 
 | Conductive auto-contact | [[Conductix-Wampfler Enduro+ Charging Contacts]] | 100-600 A, 12-60 V DC | +/-15 mm X and Y | optional CAN pilots; dry interior | Conductix page (T1) |
 | Automated connector | [[Staubli QCC Quick Charging Connection]] | up to 1,500 V DC, 1,440 A peak, 670 A continuous | angular and positional, no figure | over 100,000 cycles (trade item); IP55; SAE J3105/3 | Staubli page (T1), trade item (T2) |
 | Inductive | [[Wiferion etaLINK 3000 Wireless Charging System]] | 3 kW (6 kW series) | not stated | CAN, IP65 | Wiferion page (T1) |
-| Inductive | [[EnerSys NexSys AIR Wireless Charger]] | not stated | not stated | efficiency 94% or more | EnerSys brochure (T1) |
+| Inductive | [[EnerSys NexSys AIR Wireless Charger]] | 7-10 kW; 24/36/48/80 V (80 V: 120 A) | 20-50 mm gap, +/-20 mm | efficiency 94% or more (brochure); none in manual | EnerSys manual (T1) |
 | Conductive auto-contact | [[Raymond Courier AutoCharge System]] | station 120 V in, 150 A max | two vehicle plates; drive-thru | opportunity, partial, full modes | Raymond sell sheet (T1) |
 | Conductive auto-contact | [[Grenzebach AGV Contact Charging Station]] | 48 V DC, 80 A, contacts to 200 A | not stated | 93% efficiency | Grenzebach data sheet (T1) |
 | Inductive | [[Delta MOOVair Wireless Charging Series]] | 1 kW (24/36/48 V, 41.7/27.7/20.8 A); 30 kW | 1 kW: 0-20 mm gap, 20 mm lateral; 30 kW: 20-150 mm gap | 93-95% efficiency; CAN | Delta data sheet and article (T1/T2) |
@@ -62,7 +62,7 @@ Register of how energy gets from charger to vehicle or battery: two axes, where 
 ### Observations
 
 - The contact products found publish standard ratings up to 60 V DC, while many counterbalance trucks in the truck register run 80 V; no source found shows 80 V or 96 V automatic contact charging for forklifts (IB-206). Raymond's AutoCharge and Grenzebach are 48 V-class AGV/automated-truck systems; Vahle offers custom 230/400 V.
-- Wireless: published voltages stop at 48 V (Delta 1 kW data sheet; ranges to 60 V). The Delta 30 kW and Wiferion ranges give no voltage.
+- Wireless: EnerSys' NexSys AIR manual lists an 80 V, 10 kW converter (120 A); Delta 1 kW, Wiferion CW1000 and WiBotic stop at 48-60 V; Delta 30 kW and etaLINK give no voltage. Product comparison: [[Inductive Wireless Charging Product Register]].
 - Standards: SAE J3105 (pin-and-socket, pantograph, rail) targets transit buses at 250-1000 V DC; EN 50696:2021 covers automated connection devices up to 1,500 V DC and does not mention industrial trucks. Neither is shown to apply to 24-96 V truck batteries, so no hands-free standard for forklifts has been found (IB-206).
 - EN 1175 Annex A covers connectors for energy sources; no charging-specific connector standard was named by the article (IB-206).
 - Jungheinrich's case study shows a site removing battery changing stations in favour of on-the-spot lithium charging, the opposite direction from [[Automated Battery Swap]].

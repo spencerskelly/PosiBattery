@@ -12,6 +12,7 @@ sourceUrl: "https://psu.deltaww.com/en/products/download/Datasheet/MOOVair%2001%
 accessed: 2026-10-14
 describes:
   - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Inductive Wireless Charging Product Register]]"
 ---
 
 # Document - Delta MOOVair01 48V Data Sheet (Rev 3.1)

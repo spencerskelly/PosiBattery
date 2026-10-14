@@ -25,7 +25,6 @@ rolePlayedBy:
   - "[[Staubli Electrical Connectors]]"
   - "[[Concentric]]"
   - "[[REMA Lipprandt]]"
-  - "[[Delta Energy Systems]]"
   - "[[Grenzebach]]"
 ---
 
