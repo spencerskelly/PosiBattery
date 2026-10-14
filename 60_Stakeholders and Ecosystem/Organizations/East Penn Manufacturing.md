@@ -35,6 +35,7 @@ offers:
   - "[[ACT Quantum 2]]"
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
+  - "[[Deka Ready Power BDI]]"
 distributedBy:
   - "[[Western Materials]]"
 distributorOf:

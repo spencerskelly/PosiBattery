@@ -10,6 +10,8 @@ tags:
   - charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge Battery Conventionally]]"

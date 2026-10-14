@@ -27,6 +27,9 @@ performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Stryten M-Series F100 Battery]]"
   - "[[Stryten M-Series T300 Battery]]"
+  - "[[Deka D-Series Battery]]"
+  - "[[Deka Dominator Battery]]"
+  - "[[Deka MaxPowr Battery]]"
 ---
 
 # Charge Battery Conventionally

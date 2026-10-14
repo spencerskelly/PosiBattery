@@ -10,6 +10,10 @@ tags:
   - battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
+performs:
+  - "[[Charge Battery Fast]]"
 hasDesign:
   - "[[Heavy-Duty Intercell Connectors]]"
   - "[[Copper Inserted Posts]]"
@@ -34,6 +38,9 @@ Deka battery built for fast charge conditions.
   - [[Heavy-Duty Intercell Connectors]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Copper Inserted Posts]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
   - [[Dual-Cable and Parallel Charging Configuration]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+
+- **Functions performed, with citations (2026-10-13):**
+  - [[Charge Battery Fast]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 
 ## Aliases
 

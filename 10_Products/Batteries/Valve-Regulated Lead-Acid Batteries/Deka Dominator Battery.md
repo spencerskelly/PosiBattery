@@ -10,6 +10,11 @@ tags:
   - battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
+performs:
+  - "[[Charge Battery Conventionally]]"
+  - "[[Charge Battery by Opportunity]]"
 hasDesign:
   - "[[Gel Electrolyte]]"
 madeBy:
@@ -31,6 +36,10 @@ Deka maintenance-free gel battery for conventional and opportunity charging, spi
 - **Design characteristics, with citations:**
   - [[Gel Electrolyte]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 - **Correction note (C53):** an earlier draft filed Dominator under flooded batteries from a list entry that carried no description. The family link now points to valve-regulated lead-acid.
+
+- **Functions performed, with citations (2026-10-13):**
+  - [[Charge Battery Conventionally]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
+  - [[Charge Battery by Opportunity]] (V): <https://www.eastpennmanufacturing.com/forklift-products/>
 
 ## Aliases
 

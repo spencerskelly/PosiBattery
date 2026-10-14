@@ -37,6 +37,7 @@ performedBy:
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
   - "[[EnerSys NexSys TPPL Battery]]"
+  - "[[Deka FastCharge Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

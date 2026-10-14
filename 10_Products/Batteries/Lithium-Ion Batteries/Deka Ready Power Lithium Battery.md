@@ -11,6 +11,11 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
+  - "[[Document - East Penn Deka Ready Power Launch (ProMat 2019)]]"
+performs:
+  - "[[Communicate Battery State over CAN]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[CAN Interface]]"
@@ -18,6 +23,7 @@ madeBy:
   - "[[East Penn Manufacturing]]"
 offeredWith:
   - "[[Deka PowerForce Charger]]"
+  - "[[Deka Ready Power BDI]]"
 ---
 
 # Deka Ready Power Lithium Battery
@@ -35,6 +41,11 @@ Deka lithium-ion forklift battery with a multi-module BMS design communicating o
   - [[CAN Interface]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
+
+- **Functions performed, with citations (2026-10-13):**
+  - [[Communicate Battery State over CAN]] (V): <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
+
+- **Update 2026-10-13:** launch text: "a ten Battery Management System (BMS) design monitors each one of the battery's nine modules" (unclear), 4/0 copper cabling, CAN to each BMS; no voltage, kWh, Ah or cycle figures. Documents listed but not read: specifications 2503, BDI functionality flyer 2535, user manual 2699, service manual 2708 (IB-188). Source: <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>
 
 ## Aliases
 

@@ -18,6 +18,7 @@ performedBy:
   - "[[Yale ERC050-060VGL]]"
   - "[[Deka Gel-Mate Battery]]"
   - "[[Deka PowrMate Battery]]"
+  - "[[Deka ChargeMate Battery]]"
 realizes:
   - "[[Charge Without a Ventilated Battery Room]]"
 ---

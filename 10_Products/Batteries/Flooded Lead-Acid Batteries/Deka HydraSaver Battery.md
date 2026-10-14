@@ -11,6 +11,8 @@ tags:
   - watering
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Sense Electrolyte Level]]"
 hasDesign:

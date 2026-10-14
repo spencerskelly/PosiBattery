@@ -18,6 +18,7 @@ supertypeOf:
   - "[[Flux Power GSE3 Truck Adapter]]"
   - "[[Banner Traction Bull Battery Controller]]"
   - "[[Amaron DIY Rx]]"
+  - "[[Deka Ready Power BDI]]"
 describedBy:
   - "[[Battery Installed Device Market Reference]]"
   - "[[Battery Product Landscape]]"

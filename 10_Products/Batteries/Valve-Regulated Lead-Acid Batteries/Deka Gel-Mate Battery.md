@@ -12,6 +12,8 @@ tags:
   - onboard-charger
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - East Penn Forklift Products Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Charge Battery from Standard Power Outlet]]"
 hasDesign:

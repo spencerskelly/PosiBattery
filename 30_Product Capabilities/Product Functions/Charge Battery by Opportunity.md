@@ -38,6 +38,8 @@ performedBy:
   - "[[Stryten M-Series AGM220 Battery]]"
   - "[[EnerSys NexSys TPPL Bloc Battery]]"
   - "[[EnerSys NexSys TPPL Battery]]"
+  - "[[Deka D-Series Battery]]"
+  - "[[Deka Dominator Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"
