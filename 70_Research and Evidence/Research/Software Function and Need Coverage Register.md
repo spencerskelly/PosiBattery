@@ -22,6 +22,7 @@ What the 57 fleet, battery, charger and warehouse software products in the vault
 
 - **Counts:** 57 software products; 51 perform at least one function; 29 distinct functions; 102 product-to-function links; 17 of 30 needs and 12 of 16 operational Use Cases have a software function.
 - **Update 2026-10-14 (IB-221):** five load-management software products were added ([[Linde connect charger]], [[Jungheinrich Active Load Management]], [[Toyota Peak Load Management]], [[Fronius PV Connect]], [[ACT ACTenergy]]), giving 62 software products, 56 with a function, and 108 product-to-function links before the Crown V-HFM3 charger link (a charger, not counted). No new need is covered; the site-power need now rests on forklift-charger sources as well as EV software ([[Forklift Charger Load Management Register]]).
+- **Update 2026-10-14 (IB-226):** [[Exide GNB Fleet]] is now linked to [[Show Battery and Charger State in Fleet Software]] (availability and dashboard; state of charge not stated), so that function has 3 performers. E-Meter, Midac Mobile App and Raymond Energy Asset Manager stay unlinked because no page states a battery-state display (C267, C268, IB-229).
 - **Method:** the chain product, function, Use Case, actor was read from the notes' relationships by script. Function-to-need links were made by the analyst (see each need note); functions linked to products only where a source states the behavior.
 
 ### Needs covered by software functions
