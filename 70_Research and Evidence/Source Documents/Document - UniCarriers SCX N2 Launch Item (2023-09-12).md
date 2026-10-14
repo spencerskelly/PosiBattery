@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://www.dcvelocity.com/articles/58532-mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ DC Velocity item of 2023-09-12 on the UniCarriers SCX N2 series.
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.dcvelocity.com/articles/58532-mitsubishi-logisnext-americas-group-launches-new-unicarriers-forklift-scx-n2-series>.
 - **Access date:** 2026-10-13. **Revision:** 2023-09-12

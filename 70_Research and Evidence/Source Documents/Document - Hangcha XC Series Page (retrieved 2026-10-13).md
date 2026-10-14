@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Hangcha XC series page (thin).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

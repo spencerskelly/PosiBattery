@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.catlifttruck.com/sites/default/files/documents/cebc2177.pdf"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Cat electric counterbalance brochure CEBC2177 (model codes with A: EP25AN, EP25A
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.catlifttruck.com/sites/default/files/documents/cebc2177.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

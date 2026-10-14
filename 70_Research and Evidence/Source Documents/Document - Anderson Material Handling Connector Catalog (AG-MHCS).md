@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer catalog
+sourceClass: brochure
 sourceUrl: "https://www.mouser.lt/pdfDocs/AG-MHCS.pdf"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Anderson Power Products material handling connector catalog (AG-MHCS).
 
 ## Provenance
 
+- **Source type:** manufacturer catalog.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.mouser.lt/pdfDocs/AG-MHCS.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

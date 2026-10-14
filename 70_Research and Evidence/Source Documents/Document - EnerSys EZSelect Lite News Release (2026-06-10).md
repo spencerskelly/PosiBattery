@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.enersys.com/en/about-us/news/enersys-has-introduced-ezselect-lite-system.-real-time-battery-monitoring-performance-optimisation-features-prevention-over-correction/"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ EnerSys news release announcing EZSelect Lite, dated 2026-06-10 (Zug).
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.enersys.com/en/about-us/news/enersys-has-introduced-ezselect-lite-system.-real-time-battery-monitoring-performance-optimisation-features-prevention-over-correction/>.
 - **Access date:** 2026-10-13. **Revision:** published 2026-06-10, retrieved 2026-10-13

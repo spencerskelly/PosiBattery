@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.hyster.com/nl-nl/emea/elektrische-vorkheftrucks-met-4-wielen/j1.5-3.5ut"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Hyster EMEA page for the J1.5-3.5UT electric trucks.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hyster.com/nl-nl/emea/elektrische-vorkheftrucks-met-4-wielen/j1.5-3.5ut>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

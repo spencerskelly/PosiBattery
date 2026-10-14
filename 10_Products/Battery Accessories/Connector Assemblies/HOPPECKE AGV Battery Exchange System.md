@@ -10,6 +10,8 @@ tags:
   - hands-free
   - battery-swap
   - unnamed-in-source
+subtypeOf:
+  - "[[Automated Battery Exchange System]]"
 describedBy:
   - "[[Document - HOPPECKE Automated AGV Battery Exchange Story (DIMOS)]]"
 performs:

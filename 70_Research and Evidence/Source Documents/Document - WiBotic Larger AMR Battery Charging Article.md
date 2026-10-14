@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.uncrewed-systems.com/?p=11976"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ WiBotic Larger AMR Battery Charging Article (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.uncrewed-systems.com/?p=11976>.
 - **Access date:** 2026-10-14. **Revision:** undated

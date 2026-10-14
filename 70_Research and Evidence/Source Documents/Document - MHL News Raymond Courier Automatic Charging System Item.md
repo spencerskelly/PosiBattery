@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press item
+sourceClass: article
 sourceUrl: "https://www.mhlnews.com/new-products/product/55251828/automatic-charging-system"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ MHL News Raymond Courier Automatic Charging System Item (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press item.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://www.mhlnews.com/new-products/product/55251828/automatic-charging-system>.
 - **Access date:** 2026-10-14. **Revision:** undated

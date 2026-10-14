@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news
+sourceClass: article
 sourceUrl: "https://www.linde-mh.com/en/technical/News-Detail_3919105.html"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Linde Automated Trucks News (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer news.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.linde-mh.com/en/technical/News-Detail_3919105.html>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-SeriesProductBrochure_AGM220_SE1043_FINAL.pdf"
 accessed: 2026-10-13
 describes:
@@ -32,6 +32,7 @@ Stryten AGM220 product brochure SE1043.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-SeriesProductBrochure_AGM220_SE1043_FINAL.pdf>.
 - **Access date:** 2026-10-13. **Revision:** SE1043

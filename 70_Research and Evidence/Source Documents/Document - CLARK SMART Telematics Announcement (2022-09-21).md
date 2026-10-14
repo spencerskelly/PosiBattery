@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://liftandaccess.com/article/clark-material-handling-company-releases-telematics-and-fleet-management-offerings"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Lift and Access article of 2022-09-21 on the launch of CLARK SMART telematics.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://liftandaccess.com/article/clark-material-handling-company-releases-telematics-and-fleet-management-offerings>.
 - **Access date:** 2026-10-13. **Revision:** 2022-09-21

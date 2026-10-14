@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ STILL UK page for the EXH-SF 16C/20C low lift pallet truck.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

@@ -61,7 +61,6 @@ Delta MOOVair inductive charging series from 1 kW (24/36/48 V, 0-20 mm gap) to 3
 ## Aliases
 
 - MOOVair
-- MOOVair
 
 
 ## Former ids

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.worktruckonline.com/products/fb16pnt-fb20pnt-series"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Work Truck item (announced 2012-06-27) on the Mitsubishi FB16PNT-FB20PNT three-w
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.worktruckonline.com/products/fb16pnt-fb20pnt-series>.
 - **Access date:** 2026-10-13. **Revision:** 2012-06-27

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.logisnextamericas.com/-/media/logisnext/sites/public/documents/unicarriers/sales-literature/lift linkspecsheet final 72523.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Logisnext Lift Link specification sheet (file dated 7/25/23).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisnextamericas.com/-/media/logisnext/sites/public/documents/unicarriers/sales-literature/lift linkspecsheet final 72523.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2023 (from file name)

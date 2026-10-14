@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.mhlnews.com/powered-vehicles/lithium-battery-packs-forklifts-new-product"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MHL News item of 2014-02-12 on the Flux Power 24 V LiFT Pack for Class III walki
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.mhlnews.com/powered-vehicles/lithium-battery-packs-forklifts-new-product>.
 - **Access date:** 2026-10-13. **Revision:** 2014-02-12

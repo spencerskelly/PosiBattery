@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://mobile-industrial-robots.com/products/software/mir-fleet"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** Mobile Industrial Robots.
 - **Original web address:** <https://mobile-industrial-robots.com/products/software/mir-fleet>.
 - **Access date:** 2026-10-14. **Revision:** undated

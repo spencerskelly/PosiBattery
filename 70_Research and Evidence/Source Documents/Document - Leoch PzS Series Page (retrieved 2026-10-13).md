@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://leoch.com/product/power/127.html"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ Leoch product page for PzS series traction batteries.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://leoch.com/product/power/127.html>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.linde-mh.com/en/Products/Automated-Trucks/L-MATIC-AC-k/"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Linde L-MATIC AC-k Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.linde-mh.com/en/Products/Automated-Trucks/L-MATIC-AC-k/>.
 - **Access date:** 2026-10-14. **Revision:** undated

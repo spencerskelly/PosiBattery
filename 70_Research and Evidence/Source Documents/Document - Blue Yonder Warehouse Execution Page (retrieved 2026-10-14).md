@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://blueyonder.com/resources/maximizing-warehouse-execution-with-blue-yonder"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** Blue Yonder.
 - **Original web address:** <https://blueyonder.com/resources/maximizing-warehouse-execution-with-blue-yonder>.
 - **Access date:** 2026-10-14. **Revision:** undated

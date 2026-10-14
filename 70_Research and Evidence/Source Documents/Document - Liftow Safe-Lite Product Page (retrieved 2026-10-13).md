@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: retailer web page
+sourceClass: web-page
 sourceUrl: "https://liftow.com/products/safe-lite-pedestrian-warning-spotlight"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Liftow product page for the Safe-Lite pedestrian warning spotlight.
 
 ## Provenance
 
+- **Source type:** retailer web page.
 - **Source identity:** retailer (Liftow).
 - **Original web address:** <https://liftow.com/products/safe-lite-pedestrian-warning-spotlight>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

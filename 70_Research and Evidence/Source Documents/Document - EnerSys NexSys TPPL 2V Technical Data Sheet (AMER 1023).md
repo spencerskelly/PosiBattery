@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.enersys.com/4aa968/globalassets/documents/product-documentation/nexsys/pure-2v/amer/amer-en-td-nex-tppl-2v-1023.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ EnerSys NexSys TPPL 2V technical data sheet (AMER, 10/2023).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.enersys.com/4aa968/globalassets/documents/product-documentation/nexsys/pure-2v/amer/amer-en-td-nex-tppl-2v-1023.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 1023

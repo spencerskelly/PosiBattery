@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: standards publisher listing
+sourceClass: standard
 sourceUrl: "https://www.vde-verlag.de/standards/0623020/din-vde-0623-589-vde-0623-589-2011-06.html"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ VDE Verlag listing for DIN VDE 0623-589.
 
 ## Provenance
 
+- **Source type:** standards publisher listing.
 - **Source identity:** standards body.
 - **Original web address:** <https://www.vde-verlag.de/standards/0623020/din-vde-0623-589-vde-0623-589-2011-06.html>.
 - **Access date:** 2026-10-14. **Revision:** 2011-06 or 2023-06 (see C249)

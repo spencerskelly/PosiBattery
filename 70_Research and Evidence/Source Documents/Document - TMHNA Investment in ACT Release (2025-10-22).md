@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: company press release
+sourceClass: article
 sourceUrl: "https://www.raymondcorp.com/news/2025/tmhna-announces-strategic-investment"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ TMHNA Investment in ACT Release (2025-10-22) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** company press release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.raymondcorp.com/news/2025/tmhna-announces-strategic-investment>.
 - **Access date:** 2026-10-14. **Revision:** undated

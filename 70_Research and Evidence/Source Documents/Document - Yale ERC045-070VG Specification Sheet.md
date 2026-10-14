@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://yale.com/globalassets/coms/yale/latin-america/documents/4-wheel-electric/1015ybc1sp001_e_en-us_erc045-070vg-spec-sheet_view.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Yale ERC045-070VG specification sheet (Latin America hosting).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://yale.com/globalassets/coms/yale/latin-america/documents/4-wheel-electric/1015ybc1sp001_e_en-us_erc045-070vg-spec-sheet_view.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

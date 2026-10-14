@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Crown RD 5700 specification sheet.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

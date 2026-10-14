@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press item
+sourceClass: article
 sourceUrl: "https://www.mhwmag.com/products/uk-forklift-battery-dealer-touts-bsl-battery/"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Material Handling World item on the UK dealer Windsor and the BSL lithium batter
 
 ## Provenance
 
+- **Source type:** trade press item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.mhwmag.com/products/uk-forklift-battery-dealer-touts-bsl-battery/>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

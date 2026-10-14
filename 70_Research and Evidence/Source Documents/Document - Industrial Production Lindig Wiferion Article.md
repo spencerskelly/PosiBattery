@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.industrial-production.de/materials-handling/lindig-relies-on-battery-charging-system-from-wiferion.htm"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Industrial Production Lindig Wiferion Article (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.industrial-production.de/materials-handling/lindig-relies-on-battery-charging-system-from-wiferion.htm>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://jungheinrich.co.uk/products/batteries-charging-technology"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Jungheinrich Batteries and Charging Technology Page (retrieved 2026-10-14) (read
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://jungheinrich.co.uk/products/batteries-charging-technology>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.logisnextamericas.com:443/en/cat/material-handling-equipment/cat-lift-trucks/classi/midsizepneumatictrucks/ep25an-ep35an"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Logisnext Americas page listing Cat electric lift truck series in North America.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisnextamericas.com:443/en/cat/material-handling-equipment/cat-lift-trucks/classi/midsizepneumatictrucks/ep25an-ep35an>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

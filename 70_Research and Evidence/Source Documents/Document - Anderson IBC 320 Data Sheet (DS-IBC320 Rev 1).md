@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.mouser.com/catalog/specsheets/Anderson%20Power%20Products_09-08-2025_IBC-Series.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson IBC 320 data sheet (DS-IBC320 Rev 1).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.mouser.com/catalog/specsheets/Anderson%20Power%20Products_09-08-2025_IBC-Series.pdf>.
 - **Access date:** 2026-10-14. **Revision:** Rev 1

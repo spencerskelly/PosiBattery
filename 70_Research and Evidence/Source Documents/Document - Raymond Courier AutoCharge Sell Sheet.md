@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer sell sheet
+sourceClass: brochure
 sourceUrl: "https://raymondcorp.com/Products/-/media/raymond/Literature/Truck-Literature/Courier/SIPB-1093-Courier-AutoCharge-Sell-Sheet_Final"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Raymond Courier AutoCharge Sell Sheet (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer sell sheet.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://raymondcorp.com/Products/-/media/raymond/Literature/Truck-Literature/Courier/SIPB-1093-Courier-AutoCharge-Sell-Sheet_Final>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press item
+sourceClass: article
 sourceUrl: "https://www.mouser.in/en/new/anderson-power-products/anderson-pp-double-stack-brackets/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Mouser new-product item on Anderson double stack manual assist brackets.
 
 ## Provenance
 
+- **Source type:** trade press item.
 - **Source identity:** distributor or publisher.
 - **Original web address:** <https://www.mouser.in/en/new/anderson-power-products/anderson-pp-double-stack-brackets/>.
 - **Access date:** 2026-10-14. **Revision:** undated

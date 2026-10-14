@@ -22,6 +22,8 @@ describedBy:
   - "[[PosiCharge and Power Designers Evidence Gaps and Conflicts]]"
   - "[[PosiCharge and Power Designers Public Evidence Register]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+offers:
+  - "[[HVPS Communications Kit]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Monitor Maker]]"

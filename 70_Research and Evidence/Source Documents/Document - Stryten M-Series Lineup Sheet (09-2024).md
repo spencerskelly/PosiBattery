@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer lineup sheet
+sourceClass: datasheet
 sourceUrl: "https://og.mhi.org/media/members/14502/133723547947804003.pdf"
 accessed: 2026-10-13
 describes:
@@ -44,6 +44,7 @@ Stryten M-Series lineup sheet dated 09/2024 (hosted by MHI).
 
 ## Provenance
 
+- **Source type:** manufacturer lineup sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://og.mhi.org/media/members/14502/133723547947804003.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 09/2024

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer-data listing
+sourceClass: web-page
 sourceUrl: "https://shop.jungheinrich.co.uk/en/etv-c20---91614936"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Jungheinrich UK shop listing for a used or stock ETV C20.
 
 ## Provenance
 
+- **Source type:** dealer-data listing.
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://shop.jungheinrich.co.uk/en/etv-c20---91614936>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

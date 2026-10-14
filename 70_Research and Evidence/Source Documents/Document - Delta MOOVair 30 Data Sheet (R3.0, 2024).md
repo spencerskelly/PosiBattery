@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://psu.deltaww.com/en/file/marketing_resources/Delta-MOOVair-30-30kW-Wireless-Charging-System-R3.0_2024.106987138b24f82.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Delta MOOVair 30 Data Sheet (R3.0, 2024) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://psu.deltaww.com/en/file/marketing_resources/Delta-MOOVair-30-30kW-Wireless-Charging-System-R3.0_2024.106987138b24f82.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

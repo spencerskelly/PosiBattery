@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.plantengineering.com/?p=15282"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Plant Engineering item of 2012-03-13 on the Cat 2EPC5000-2EP6500 80 V electric p
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.plantengineering.com/?p=15282>.
 - **Access date:** 2026-10-13. **Revision:** 2012-03-13

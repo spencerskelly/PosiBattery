@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://psu.deltaww.com/en/products/download/Datasheet/MOOVair%2001%2048V"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Delta MOOVair01 48V Data Sheet (Rev 3.1) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://psu.deltaww.com/en/products/download/Datasheet/MOOVair%2001%2048V>.
 - **Access date:** 2026-10-14. **Revision:** undated

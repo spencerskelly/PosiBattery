@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: standards catalog record
+sourceClass: standard
 sourceUrl: "https://genorma.com/en/standards/en-50696-2021"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ EN 50696 2021 Record (Genorma) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** standards catalog record.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://genorma.com/en/standards/en-50696-2021>.
 - **Access date:** 2026-10-14. **Revision:** undated

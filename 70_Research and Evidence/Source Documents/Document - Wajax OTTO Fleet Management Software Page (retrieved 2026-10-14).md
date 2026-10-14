@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer web page
+sourceClass: web-page
 sourceUrl: "https://wajax.com/?p=72138"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** dealer web page.
 - **Source identity:** Wajax (dealer).
 - **Original web address:** <https://wajax.com/?p=72138>.
 - **Access date:** 2026-10-14. **Revision:** undated

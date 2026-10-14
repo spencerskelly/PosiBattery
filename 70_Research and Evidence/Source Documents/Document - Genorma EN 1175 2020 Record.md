@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: standards catalog listing
+sourceClass: standard
 sourceUrl: "https://genorma.com/en/standards/en-1175-2020"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Genorma record for EN 1175:2020.
 
 ## Provenance
 
+- **Source type:** standards catalog listing.
 - **Source identity:** standards body.
 - **Original web address:** <https://genorma.com/en/standards/en-1175-2020>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

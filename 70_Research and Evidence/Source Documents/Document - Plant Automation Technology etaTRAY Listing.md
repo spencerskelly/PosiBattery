@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: distributor listing
+sourceClass: web-page
 sourceUrl: "https://www.plantautomation-technology.com/products/wiferion/etatray"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Plant Automation Technology etaTRAY Listing (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** distributor listing.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.plantautomation-technology.com/products/wiferion/etatray>.
 - **Access date:** 2026-10-14. **Revision:** undated

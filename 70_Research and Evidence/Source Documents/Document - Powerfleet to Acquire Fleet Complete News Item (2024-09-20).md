@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://www.sdcexec.com/home/news/22920934/powerfleet-powerfleet-to-acquire-fleet-complete"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ SDC Executive item of 2024-09-20 on Powerfleet's plan to acquire Fleet Complete.
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication.
 - **Original web address:** <https://www.sdcexec.com/home/news/22920934/powerfleet-powerfleet-to-acquire-fleet-complete>.
 - **Access date:** 2026-10-13. **Revision:** 2024-09-20

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: public contract page
+sourceClass: web-page
 sourceUrl: "https://www.sourcewell-mn.gov/cooperative-purchasing/053024-MCF"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Sourcewell contract 053024-MCF page for Mitsubishi Logisnext Americas.
 
 ## Provenance
 
+- **Source type:** public contract page.
 - **Source identity:** contracting agency.
 - **Original web address:** <https://www.sourcewell-mn.gov/cooperative-purchasing/053024-MCF>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

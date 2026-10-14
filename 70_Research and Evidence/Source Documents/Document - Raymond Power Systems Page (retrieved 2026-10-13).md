@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.raymondcorp.com:443/products/power-systems"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Raymond power systems page describing Power Source Integrated (PSI) and naming t
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.raymondcorp.com:443/products/power-systems>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer folder
+sourceClass: brochure
 sourceUrl: "https://www.bannerbatterien.com/energysolutions/upload/files/FolderTractionBullGelPzVB_gb.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Banner Traction Bull Gel PzV/PzVB product folder.
 
 ## Provenance
 
+- **Source type:** manufacturer folder.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.bannerbatterien.com/energysolutions/upload/files/FolderTractionBullGelPzVB_gb.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated folder

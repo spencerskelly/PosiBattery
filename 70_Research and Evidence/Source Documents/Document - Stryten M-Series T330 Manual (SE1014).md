@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.stryten.com/wp-content/uploads/2023/03/T330_Installation-Operation_Manual_SE1014.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Stryten T330 installation and operation manual SE1014.
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.stryten.com/wp-content/uploads/2023/03/T330_Installation-Operation_Manual_SE1014.pdf>.
 - **Access date:** 2026-10-13. **Revision:** SE1014

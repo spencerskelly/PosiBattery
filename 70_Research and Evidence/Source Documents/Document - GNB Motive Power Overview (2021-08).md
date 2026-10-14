@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf"
 accessed: 2026-10-13
 describes:
@@ -42,6 +42,7 @@ GNB (Exide) motive power overview, August 2021.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2021-08

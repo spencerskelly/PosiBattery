@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer-hosted manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.ltcenter.com/wp-content/uploads/2022/10/2022_3-Wheel-Electric_Spec-Sheet_Digital.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Toyota 3-wheel electric (8FBE15U-20U) spec sheet hosted by a dealer.
 
 ## Provenance
 
+- **Source type:** dealer-hosted manufacturer data sheet.
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://www.ltcenter.com/wp-content/uploads/2022/10/2022_3-Wheel-Electric_Spec-Sheet_Digital.pdf>.
 - **Access date:** 2026-10-14. **Revision:** 2022 edition

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer web page
+sourceClass: web-page
 sourceUrl: "https://adaptalift.com.au/new-equipment/j2-2-3-5xn-series-electric-forklifts-2-3-tonne"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Adaptalift (Australia) page for the Hyster J2.2-3.5XN.
 
 ## Provenance
 
+- **Source type:** dealer web page.
 - **Source identity:** dealer.
 - **Original web address:** <https://adaptalift.com.au/new-equipment/j2-2-3-5xn-series-electric-forklifts-2-3-tonne>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.stryten.com/wp-content/uploads/2023/03/F110-T310-T330_FastCharge_Manual_SE1005.pdf"
 accessed: 2026-10-13
 describes:
@@ -32,6 +32,7 @@ Stryten fast charge manual SE1005 for F110, T310 and T330.
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.stryten.com/wp-content/uploads/2023/03/F110-T310-T330_FastCharge_Manual_SE1005.pdf>.
 - **Access date:** 2026-10-13. **Revision:** SE1005

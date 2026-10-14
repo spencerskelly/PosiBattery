@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.bannerbatterien.com/en/Products/Industrial-Batteries/Traction-Bull/244-Wet"
 accessed: 2026-10-13
 describes:
@@ -32,6 +32,7 @@ Banner product page for the wet Traction Bull batteries.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.bannerbatterien.com/en/Products/Industrial-Batteries/Traction-Bull/244-Wet>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

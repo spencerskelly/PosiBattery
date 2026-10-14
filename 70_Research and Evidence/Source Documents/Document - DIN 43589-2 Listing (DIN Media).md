@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: standards body listing
+sourceClass: standard
 sourceUrl: "https://www.dinmedia.de/en/standard/din-43589-2/2255065"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ DIN Media listing for DIN 43589-2:1980-07.
 
 ## Provenance
 
+- **Source type:** standards body listing.
 - **Source identity:** standards body.
 - **Original web address:** <https://www.dinmedia.de/en/standard/din-43589-2/2255065>.
 - **Access date:** 2026-10-14. **Revision:** 1980-07 edition

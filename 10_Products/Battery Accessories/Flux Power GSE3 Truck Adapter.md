@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Battery-Installed Device]]"
 describedBy:
   - "[[Document - Flux Power GSE3 Product Brochure (SA-808, 2023-12-18)]]"
+offeredBy:
+  - "[[Flux Power]]"
 offeredWith:
   - "[[Flux Power GSE3]]"
   - "[[Flux Power S-Series Battery]]"
@@ -25,6 +27,7 @@ Optional adapter offered with the Flux Power GSE3 pack "to meet OEM weight requi
 
 ## Notes
 
+- **Update 2026-10-14:** offeredBy Flux Power added because the Flux brochures that mention the adapters are Flux's own.
 - **Working name given by the analyst; the source gives none.** The 2023 GSE3 brochure says only "truck adapters available to meet OEM weight requirements". Nature (ballast, tray, mounting frame), sizes and part numbers are not stated. Source: Flux GSE3 brochure SA-808 (T1, second-hand). Class is provisional (IB-184).
 - Searches of the Flux investor-relations site found no further mention (the 2018 order release mentions customized units only).
 

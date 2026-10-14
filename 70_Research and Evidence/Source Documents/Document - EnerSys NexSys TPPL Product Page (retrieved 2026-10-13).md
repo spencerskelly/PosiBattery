@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://enersys.com/en/products/batteries/nexsys/nexsys-tppl-amer"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ EnerSys NexSys TPPL product page (AMER).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://enersys.com/en/products/batteries/nexsys/nexsys-tppl-amer>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.evinfrastructurenews.com/ev-technology/electreon-acquires-us-based-inductev-to-expand-wireless-ev-charging"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ EV Infrastructure News Electreon InductEV Article (2026-03-10) (read 2026-10-14)
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.evinfrastructurenews.com/ev-technology/electreon-acquires-us-based-inductev-to-expand-wireless-ev-charging>.
 - **Access date:** 2026-10-14. **Revision:** undated

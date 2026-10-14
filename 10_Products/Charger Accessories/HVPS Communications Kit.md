@@ -16,6 +16,8 @@ performs:
   - "[[Share Power Between Charging Stations]]"
 partOf:
   - "[[PosiCharge High Voltage Power Station (DC)]]"
+offeredBy:
+  - "[[PosiCharge]]"
 ---
 
 # HVPS Communications Kit
@@ -26,6 +28,7 @@ Communication kit included with the DC variant of the PosiCharge High Voltage Po
 
 ## Notes
 
+- **Update 2026-10-14:** maker link offeredBy PosiCharge is inferred from the kit being part of the PosiCharge High Voltage Power Station; no web page names the maker (IB-162).
 - **Source:** owner statement 2026-10-13 (U), which also gave the name "HVPS Communications Kit" ("HVPS" read as High Voltage Power Station). No web page names or describes the kit; the product card and both listing pages do not mention it (IB-162).
 - The AC variant does not need the kit because it does not share power (owner statement, U): [[PosiCharge High Voltage Power Station (AC)]] is not linked.
 - **Part of the DC variant (owner statement 2026-10-13, U):** the DC unit is configured to use the kit and would need to be reconfigured to run without it. This says configuration dependence; whether the kit is separate hardware, firmware or both is not stated.

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer catalog
+sourceClass: brochure
 sourceUrl: "https://vahle.com/fileadmin/cavok_upload/Energie%C3%BCbertragung/Ladekontakte/Ladekontakte/Englisch/Cat_10a_en_Charging_Contacts.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Vahle charging contacts catalog (Cat 10a).
 
 ## Provenance
 
+- **Source type:** manufacturer catalog.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://vahle.com/fileadmin/cavok_upload/Energie%C3%BCbertragung/Ladekontakte/Ladekontakte/Englisch/Cat_10a_en_Charging_Contacts.pdf>.
 - **Access date:** 2026-10-14. **Revision:** Cat 10a

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T4
-sourceClass: knowledge-base article
+sourceClass: article
 sourceUrl: "https://industrialmonitordirect.com/zh-hans/blogs/knowledgebase/anderson-sb-175-to-sb-350-battery-connector-adapter-guide"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Industrial Monitor Direct article on adapting SB 175 to SB 350 connectors.
 
 ## Provenance
 
+- **Source type:** knowledge-base article.
 - **Source identity:** distributor or publisher.
 - **Original web address:** <https://industrialmonitordirect.com/zh-hans/blogs/knowledgebase/anderson-sb-175-to-sb-350-battery-connector-adapter-guide>.
 - **Access date:** 2026-10-14. **Revision:** undated

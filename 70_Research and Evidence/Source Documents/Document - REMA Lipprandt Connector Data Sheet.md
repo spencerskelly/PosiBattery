@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://assets.rs-online.com/v1698978199/Datasheets/18d662b92011f77aacf08eec76685c31.pdf"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ REMA Lipprandt data sheet for twin plug and socket connectors for electric indus
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://assets.rs-online.com/v1698978199/Datasheets/18d662b92011f77aacf08eec76685c31.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

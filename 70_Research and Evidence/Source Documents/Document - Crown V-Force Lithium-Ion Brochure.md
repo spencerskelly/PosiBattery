@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ Crown V-Force lithium-ion energy storage system brochure.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

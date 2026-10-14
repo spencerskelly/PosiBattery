@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.hoppecke.com/uk/applications/trak/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ HOPPECKE trak applications page (UK).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hoppecke.com/uk/applications/trak/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

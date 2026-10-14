@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer flyer
+sourceClass: brochure
 sourceUrl: "https://www.hyster.com/globalassets/coms/hyster/north-america/documents/power-sources/hys-0074_onboard-charging-flyer_091125.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Hyster Onboard Charging Flyer (HYS-0074 2025-09-11) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer flyer.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hyster.com/globalassets/coms/hyster/north-america/documents/power-sources/hys-0074_onboard-charging-flyer_091125.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: encyclopedia entry
+sourceClass: article
 sourceUrl: "https://en.wikipedia.org/wiki/SAE_J3105"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ SAE J3105 Wikipedia Entry (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** encyclopedia entry.
 - **Source identity:** encyclopedia.
 - **Original web address:** <https://en.wikipedia.org/wiki/SAE_J3105>.
 - **Access date:** 2026-10-14. **Revision:** undated

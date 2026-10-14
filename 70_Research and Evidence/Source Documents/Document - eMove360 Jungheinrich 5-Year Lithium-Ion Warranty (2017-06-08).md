@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://emove360.com/?p=59644"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Trade article of 2017-06-08 on Jungheinrich's free 5-year warranty for its own l
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://emove360.com/?p=59644>.
 - **Access date:** 2026-10-13. **Revision:** 2017-06-08

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.andersonpower.com/?p=974"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson SBE320 housing, black, SKU 2-8171G5.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.andersonpower.com/?p=974>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

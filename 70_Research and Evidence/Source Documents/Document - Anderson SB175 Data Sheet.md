@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.farnell.com/datasheets/2892209.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson SB175 data sheet hosted by Farnell.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.farnell.com/datasheets/2892209.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

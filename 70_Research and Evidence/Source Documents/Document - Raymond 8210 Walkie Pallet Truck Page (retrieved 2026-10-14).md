@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Raymond product page for the 8210 walkie pallet truck (read from a Raymond devel
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.mhlnews.com/new-products/product/55250822/forklift-battery-retrofit-kit"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ MHL News new-products item of 2024-12-19 on the Green Cubes Forklift Battery Ret
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.mhlnews.com/new-products/product/55250822/forklift-battery-retrofit-kit>.
 - **Access date:** 2026-10-13. **Revision:** 2024-12-19

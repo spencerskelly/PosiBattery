@@ -7,6 +7,9 @@ status: Draft
 tags:
   - organization
   - battery-maker
+offers:
+  - "[[Amaron DIY Rx]]"
+  - "[[Amaron AFS System]]"
 playsRole:
   - "[[Battery Maker]]"
 makes:

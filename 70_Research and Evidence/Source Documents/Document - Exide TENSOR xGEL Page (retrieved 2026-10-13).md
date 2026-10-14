@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://exidegroup.com/en/document/tensor-xgel-brochure"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Exide web page labelled as the TENSOR xGEL brochure (it is a marketing overview)
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://exidegroup.com/en/document/tensor-xgel-brochure>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

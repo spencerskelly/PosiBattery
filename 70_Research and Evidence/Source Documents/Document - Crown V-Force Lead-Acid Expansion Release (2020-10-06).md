@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.crown.com/en-us/newsroom/articles/product-news/power-solutions-for-every-forklift-application.html"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Crown release of 2020-10-06 expanding the V-Force battery line with lead-acid ba
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/en-us/newsroom/articles/product-news/power-solutions-for-every-forklift-application.html>.
 - **Access date:** 2026-10-13. **Revision:** 2020-10-06

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news item
+sourceClass: article
 sourceUrl: "https://www.linde-mh.com/en/technical/News-Detail_5359296.html"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Linde news item on the Ei series with a permanently integrated battery.
 
 ## Provenance
 
+- **Source type:** manufacturer news item.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>.
 - **Access date:** 2026-10-13. **Revision:** undated

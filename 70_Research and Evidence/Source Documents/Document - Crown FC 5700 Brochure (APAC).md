@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Crown FC 5700 brochure (APAC).
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

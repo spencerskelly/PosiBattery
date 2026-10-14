@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.logisticsbusiness.com/?p=40376"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ Logistics Business article of 2021-10-11 on GS Yuasa's European traction battery
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisticsbusiness.com/?p=40376>.
 - **Access date:** 2026-10-13. **Revision:** 2021-10-11

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.farnell.com/datasheets/3799502.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson A Series (A80, A160, A320) battery connector data sheet hosted by Farne
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.farnell.com/datasheets/3799502.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.still.co.uk/forklift-trucks/new-forklifts/electric-forklift-trucks/rx-20-14-20-t.html"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ STILL UK page for the RX 20 1.4-2.0 t electric forklift.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.still.co.uk/forklift-trucks/new-forklifts/electric-forklift-trucks/rx-20-14-20-t.html>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.therobotreport.com/wibotic-commander-offers-energy-management-robot-fleets/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** The Robot Report.
 - **Original web address:** <https://www.therobotreport.com/wibotic-commander-offers-energy-management-robot-fleets/>.
 - **Access date:** 2026-10-14. **Revision:** 2021-02-10

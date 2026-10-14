@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.manualslib.com/manual/1605951/Exide-Gnb-Element-Series.html"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Excerpt of the Exide GNB Element series installation and operating manual (charg
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manual host (manualslib) relaying Exide.
 - **Original web address:** <https://www.manualslib.com/manual/1605951/Exide-Gnb-Element-Series.html>.
 - **Access date:** 2026-10-13. **Revision:** undated

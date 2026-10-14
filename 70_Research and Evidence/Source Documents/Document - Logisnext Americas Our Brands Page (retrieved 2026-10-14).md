@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://logisnextamericas.com/es-mx/logisnext/our-brands"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Logisnext Americas brands page (Spanish-Mexico edition).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://logisnextamericas.com/es-mx/logisnext/our-brands>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

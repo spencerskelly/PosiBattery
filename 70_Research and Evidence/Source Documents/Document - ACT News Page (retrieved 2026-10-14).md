@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://act-chargers.com/news/"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ ACT News Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://act-chargers.com/news/>.
 - **Access date:** 2026-10-14. **Revision:** undated

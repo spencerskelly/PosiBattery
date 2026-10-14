@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: vendor blog
+sourceClass: article
 sourceUrl: "https://www.phihong.com/why-ai-powered-fleet-management-platforms-are-integrating-with-robotic-charging-stations-for-predictive-maintenance-and-auto-docking/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** vendor blog.
 - **Source identity:** Phihong USA.
 - **Original web address:** <https://www.phihong.com/why-ai-powered-fleet-management-platforms-are-integrating-with-robotic-charging-stations-for-predictive-maintenance-and-auto-docking/>.
 - **Access date:** 2026-10-14. **Revision:** 2025-08-07

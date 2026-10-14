@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.wiferion.com/us/products/cw-1000-wireless-charging-1000w/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Wiferion CW1000 Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.wiferion.com/us/products/cw-1000-wireless-charging-1000w/>.
 - **Access date:** 2026-10-14. **Revision:** undated

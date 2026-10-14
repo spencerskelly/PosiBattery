@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer web page
+sourceClass: web-page
 sourceUrl: "https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Aviation spares dealer page for the STILL RX 60 25-35 t electric forklift.
 
 ## Provenance
 
+- **Source type:** dealer web page.
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

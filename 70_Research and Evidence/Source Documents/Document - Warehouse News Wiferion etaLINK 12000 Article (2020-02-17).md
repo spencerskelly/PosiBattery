@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://warehousenews.co.uk/?p=73509"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Warehouse News Wiferion etaLINK 12000 Article (2020-02-17) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://warehousenews.co.uk/?p=73509>.
 - **Access date:** 2026-10-14. **Revision:** undated

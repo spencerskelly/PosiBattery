@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://docs.rs-online.com/a386/A700000013352650.pdf"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Anderson Euro Battery Connector (EBC) data sheet hosted by RS.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://docs.rs-online.com/a386/A700000013352650.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.mhwmag.com/products/wireless-battery-monitoring-and-on-demand-watering/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MHW item of 2016-04-25 on Access SMARTIE.
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.mhwmag.com/products/wireless-battery-monitoring-and-on-demand-watering/>.
 - **Access date:** 2026-10-13. **Revision:** 2016-04-25

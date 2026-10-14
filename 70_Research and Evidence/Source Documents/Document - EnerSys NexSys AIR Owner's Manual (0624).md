@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://enersys.com/4965da/globalassets/documents/product-documentation/nexsys/nexsys-air-wireless-charger/apac/glob-nexsys-air-owners-manual-english-0624.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ EnerSys NexSys AIR Owner's Manual (0624) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://enersys.com/4965da/globalassets/documents/product-documentation/nexsys/nexsys-air-wireless-charger/apac/glob-nexsys-air-owners-manual-english-0624.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

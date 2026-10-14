@@ -194,10 +194,6 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Market/catalog reference is retained without downstream engineering adoption."
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
   "10_Products/Batteries/Lithium-Ion Batteries/Raymond 8250 Lithium-Ion Battery.md":
     classification: reference_content
     gaps:
@@ -239,10 +235,6 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Market/catalog reference is retained without downstream engineering adoption."
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
   "10_Products/Batteries/Valve-Regulated Lead-Acid Batteries/Stryten M-Series AGM200 Battery.md":
     classification: reference_content
     gaps:
@@ -269,10 +261,6 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Market/catalog reference is retained without downstream engineering adoption."
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
   "10_Products/Battery Accessories/Identification and Charge Interface Devices/PosiCharge BMID 1.md":
     classification: reference_content
     gaps:
@@ -381,10 +369,6 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Market/catalog reference is retained without downstream engineering adoption."
-      evidence:
-        disposition: not_applicable
-        exception: EXC-NOT-APPLICABLE
-        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
   "10_Products/Forklifts/Class I Electric Rider Trucks/Crown SC Series.md":
     classification: reference_content
     gaps:
@@ -2599,3 +2583,66 @@ records:
     classification: reference_content
   "30_Product Capabilities/Product Designs/Battery Management System Design.md":
     classification: engineering_support
+  "30_Product Capabilities/Product Designs/Automated Battery Swap.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Automated Connector Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Battery-Direct Charge Connection.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Conductive Auto-Contact Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Drop-In Battery Cavity.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Inductive Wireless Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Manual Plug-In Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Vehicle-Integrated Battery.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Functions/Operate Truck Remotely.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."

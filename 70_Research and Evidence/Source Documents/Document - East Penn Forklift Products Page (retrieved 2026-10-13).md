@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.eastpennmanufacturing.com/forklift-products/"
 accessed: 2026-10-13
 describes:
@@ -41,6 +41,7 @@ East Penn forklift products page listing Deka motive power batteries, chargers a
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.eastpennmanufacturing.com/forklift-products/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

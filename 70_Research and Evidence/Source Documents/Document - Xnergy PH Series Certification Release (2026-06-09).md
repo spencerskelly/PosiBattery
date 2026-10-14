@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: press release
+sourceClass: article
 sourceUrl: "https://www.aap.com.au/aapreleases/cision20260609ae79134/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Xnergy PH Series Certification Release (2026-06-09) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** press release.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.aap.com.au/aapreleases/cision20260609ae79134/>.
 - **Access date:** 2026-10-14. **Revision:** undated

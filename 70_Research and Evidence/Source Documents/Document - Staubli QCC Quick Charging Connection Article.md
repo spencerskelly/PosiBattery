@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://electronicspecifier.com/cables-and-connecting/quick-charging-connector-system-for-autonomous-agvs"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Trade item on the Staubli QCC quick charging connection for AGVs.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade publication.
 - **Original web address:** <https://electronicspecifier.com/cables-and-connecting/quick-charging-connector-system-for-autonomous-agvs>.
 - **Access date:** 2026-10-14. **Revision:** undated

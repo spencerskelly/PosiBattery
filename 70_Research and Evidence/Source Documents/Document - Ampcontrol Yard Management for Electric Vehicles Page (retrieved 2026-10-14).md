@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://ampcontrol.io/product-details/yard-management-for-electric-vehicles"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** Ampcontrol.
 - **Original web address:** <https://ampcontrol.io/product-details/yard-management-for-electric-vehicles>.
 - **Access date:** 2026-10-14. **Revision:** undated

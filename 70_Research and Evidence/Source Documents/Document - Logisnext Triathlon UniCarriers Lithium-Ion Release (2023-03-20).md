@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Mitsubishi Logisnext Americas release of 2023-03-20 announcing Triathlon lithium
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions>.
 - **Access date:** 2026-10-13. **Revision:** 2023-03-20

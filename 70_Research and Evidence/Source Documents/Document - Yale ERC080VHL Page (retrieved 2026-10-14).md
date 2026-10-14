@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Yale page for the ERC080VHL lithium-ion forklift.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

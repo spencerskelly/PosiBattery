@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Banner Bloc PzF data sheet (2016).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2016

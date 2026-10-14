@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://hoppecke.com/en/stories/show/completely-automated-operation-of-driverless-transport-systems"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ HOPPECKE story on a fully automated AGV battery exchange system built by DIMOS f
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://hoppecke.com/en/stories/show/completely-automated-operation-of-driverless-transport-systems>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

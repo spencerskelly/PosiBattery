@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer-data listing
+sourceClass: web-page
 sourceUrl: "https://www.allmachines.com/forklifts/view-all?brand=mitsubishi&category=stackers&page=1&sortBy=default"
 accessed: 2026-10-13
 describes:
@@ -32,6 +32,7 @@ AllMachines listing of Mitsubishi forklifts (153 models claimed).
 
 ## Provenance
 
+- **Source type:** dealer-data listing.
 - **Source identity:** aggregator.
 - **Original web address:** <https://www.allmachines.com/forklifts/view-all?brand=mitsubishi&category=stackers&page=1&sortBy=default>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

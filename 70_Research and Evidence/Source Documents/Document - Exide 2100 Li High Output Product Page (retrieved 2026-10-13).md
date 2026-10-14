@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.exidegroup.com/en/product/2100-li-high-output"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Exide product page for the 2100 Li High Output charger.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.exidegroup.com/en/product/2100-li-high-output>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

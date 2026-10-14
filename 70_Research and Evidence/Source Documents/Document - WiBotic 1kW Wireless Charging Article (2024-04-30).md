@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.automatedwarehouseonline.com/wibotic-release-higher-power-wireless-charging-system-mobile-robots/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ WiBotic 1kW Wireless Charging Article (2024-04-30) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.automatedwarehouseonline.com/wibotic-release-higher-power-wireless-charging-system-mobile-robots/>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer-hosted manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.summithandling.com/wp-content/uploads/2019/05/2019_Large-Electric_Spec-Sheet_Digital.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Toyota large electric (7FBCU35, 45, 55) spec sheet hosted by a dealer.
 
 ## Provenance
 
+- **Source type:** dealer-hosted manufacturer data sheet.
 - **Source identity:** dealer hosting manufacturer content.
 - **Original web address:** <https://www.summithandling.com/wp-content/uploads/2019/05/2019_Large-Electric_Spec-Sheet_Digital.pdf>.
 - **Access date:** 2026-10-14. **Revision:** 2019 edition

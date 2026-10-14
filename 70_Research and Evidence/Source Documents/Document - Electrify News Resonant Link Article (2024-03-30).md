@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://electrifynews.com/news/ev-chargers/resonant-link-unveils-fastest-wireless-charger-saving-millions-in-operational-costs"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Electrify News Resonant Link Article (2024-03-30) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://electrifynews.com/news/ev-chargers/resonant-link-unveils-fastest-wireless-charger-saving-millions-in-operational-costs>.
 - **Access date:** 2026-10-14. **Revision:** undated

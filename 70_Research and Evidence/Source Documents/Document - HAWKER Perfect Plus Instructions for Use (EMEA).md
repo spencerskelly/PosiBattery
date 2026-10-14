@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ HAWKER Perfect Plus instructions for use (EMEA).
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

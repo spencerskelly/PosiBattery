@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.hangchaeurope.com/upload/files/XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Hangcha European XC series Li-ion forklift datasheet (1.5 to 3.5 t).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hangchaeurope.com/upload/files/XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: company press release
+sourceClass: article
 sourceUrl: "https://www.globenewswire.com/news-release/2024/03/11/2843598/0/en/Resonant-Link-Demonstrates-Automated-Wireless-Charging-at-MODEX.html"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Resonant Link MODEX 2024 Release (2024-03-11) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** company press release.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.globenewswire.com/news-release/2024/03/11/2843598/0/en/Resonant-Link-Demonstrates-Automated-Wireless-Charging-at-MODEX.html>.
 - **Access date:** 2026-10-14. **Revision:** undated

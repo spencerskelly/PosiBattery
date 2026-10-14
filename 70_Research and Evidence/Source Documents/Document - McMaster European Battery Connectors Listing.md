@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: distributor catalog
+sourceClass: brochure
 sourceUrl: "https://www.mcmaster.com/european-battery-connectors"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ McMaster-Carr listing of European battery connectors.
 
 ## Provenance
 
+- **Source type:** distributor catalog.
 - **Source identity:** distributor or publisher.
 - **Original web address:** <https://www.mcmaster.com/european-battery-connectors>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

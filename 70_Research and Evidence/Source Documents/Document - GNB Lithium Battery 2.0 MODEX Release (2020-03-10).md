@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ GNB Industrial Power release of 2020-03-10 for the Lithium Battery 2.0 shown at 
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>.
 - **Access date:** 2026-10-13. **Revision:** 2020-03-10

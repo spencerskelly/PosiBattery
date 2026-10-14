@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.catlifttruck.com/news/li-ion-technology-80v"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Cat EAME release of 2020-06-30 on the 80 V EP25-35(C)N range with Li-ion.
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.catlifttruck.com/news/li-ion-technology-80v>.
 - **Access date:** 2026-10-13. **Revision:** 2020-06-30

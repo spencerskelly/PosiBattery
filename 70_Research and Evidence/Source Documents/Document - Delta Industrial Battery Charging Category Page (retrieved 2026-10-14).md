@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.deltaww.com/en-US/products/Industrial-Battery-Charging"
 accessed: 2026-10-14
 describes:
@@ -31,6 +31,7 @@ Delta Industrial Battery Charging Category Page (retrieved 2026-10-14) (read 202
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.deltaww.com/en-US/products/Industrial-Battery-Charging>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Linde E25-E35 datasheet.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf>.
 - **Access date:** 2026-10-14. **Revision:** 10/2015 edition

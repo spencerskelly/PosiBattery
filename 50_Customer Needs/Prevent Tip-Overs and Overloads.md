@@ -8,6 +8,8 @@ tags:
   - customer-need
   - need-hypothesis
   - vendor-stated
+describedBy:
+  - "[[Document - OSHA Summaries of Selected Forklift Fatalities (retrieved 2026-10-14)]]"
 realizedBy:
   - "[[Slow Truck in Curves]]"
   - "[[Adapt Speed to Load and Lift Height]]"

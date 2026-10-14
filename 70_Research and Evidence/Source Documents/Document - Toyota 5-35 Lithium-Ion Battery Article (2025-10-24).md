@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ MM Desk article of 2025-10-24 on the Toyota 5/35 lithium-ion battery series.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>.
 - **Access date:** 2026-10-13. **Revision:** 2025-10-24

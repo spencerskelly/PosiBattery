@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T4
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.agvnetwork.com/wireless-charging-for-agv-and-autonomous-mobile-robots"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ AGV Network Wireless Charging Suppliers Article (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.agvnetwork.com/wireless-charging-for-agv-and-autonomous-mobile-robots>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.operationsengineer.org.uk/content/news/jungheinrich-launches-stronger-faster-lithium-ion-battery"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Trade article on a Jungheinrich 48 V lithium-ion battery (undated, about 2017).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.operationsengineer.org.uk/content/news/jungheinrich-launches-stronger-faster-lithium-ion-battery>.
 - **Access date:** 2026-10-13. **Revision:** undated

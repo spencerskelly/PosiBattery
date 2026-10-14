@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.fleetcomplete.com/products/forklift-telematics/features/forklift-gateway/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Fleet Complete page for the Forklift Gateway (Powerfleet product).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.fleetcomplete.com/products/forklift-telematics/features/forklift-gateway/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

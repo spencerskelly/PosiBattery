@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://themachinemaker.com/news/mitsubishi-forklift-trucks-introduces-fbc20q-fbc40q-series-of-electric-cushion-forklifts/"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Machine Maker item of 2026-01-06 on the Mitsubishi FBC20Q-FBC40Q electric cushio
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://themachinemaker.com/news/mitsubishi-forklift-trucks-introduces-fbc20q-fbc40q-series-of-electric-cushion-forklifts/>.
 - **Access date:** 2026-10-13. **Revision:** 2026-01-06

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.raymondcorp.com/forklifts/reach-fork-trucks/7500-universal-stance"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ Raymond product page for the 7500 universal stance reach truck.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.raymondcorp.com/forklifts/reach-fork-trucks/7500-universal-stance>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

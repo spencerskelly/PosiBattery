@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.bestmag.co.uk/?p=26740"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ BEST Magazine article of 2017-03-27 on a Jungheinrich 48 V lithium-ion battery.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.bestmag.co.uk/?p=26740>.
 - **Access date:** 2026-10-13. **Revision:** 2017-03-27

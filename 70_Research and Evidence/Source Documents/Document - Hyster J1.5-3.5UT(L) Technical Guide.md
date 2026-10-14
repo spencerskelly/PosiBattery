@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.hyster.com/globalassets/coms/hyster/emea/documents/trucks-literature/4-wheel-electric-forklift-trucks/j1.5-3.5ut/3991097-j1.5-3.5utl-a3c4-tg-rev01-fr-online.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Hyster J1.5-3.5UTL technical guide (French edition).
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hyster.com/globalassets/coms/hyster/emea/documents/trucks-literature/4-wheel-electric-forklift-trucks/j1.5-3.5ut/3991097-j1.5-3.5utl-a3c4-tg-rev01-fr-online.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

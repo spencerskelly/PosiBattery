@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://chargedevs.com/newswire/concentrics-autonomous-forklift-battery-management-system-has-performed-250000-two-minute-battery-swaps/"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Charged item on Concentric PowerHIVE having done 250,000 two-minute swaps.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade publication.
 - **Original web address:** <https://chargedevs.com/newswire/concentrics-autonomous-forklift-battery-management-system-has-performed-250000-two-minute-battery-swaps/>.
 - **Access date:** 2026-10-14. **Revision:** undated

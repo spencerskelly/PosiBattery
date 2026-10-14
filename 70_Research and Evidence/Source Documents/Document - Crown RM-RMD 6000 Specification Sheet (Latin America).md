@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.crown.com/content/dam/crown/pdfs/es-lat/specifications/hoja-de-especificaciones-rm-rmd6000-LA.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Crown RM/RMD 6000 specification sheet (Spanish, Latin America).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/content/dam/crown/pdfs/es-lat/specifications/hoja-de-especificaciones-rm-rmd6000-LA.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

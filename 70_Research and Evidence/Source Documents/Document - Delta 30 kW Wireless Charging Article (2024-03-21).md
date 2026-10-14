@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.mhwmag.com/?p=102503"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Delta 30 kW Wireless Charging Article (2024-03-21) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://www.mhwmag.com/?p=102503>.
 - **Access date:** 2026-10-14. **Revision:** undated

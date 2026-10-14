@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.logisnextamericas.com/en/logisnext/news/articles/unicarriers/2022/MLA-Launches-Two-New-UniCarriers-80V-Electric-Pneumatic-Forklifts"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Logisnext Americas release of 2022-06-21 launching UniCarriers MX2 and MXL.
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisnextamericas.com/en/logisnext/news/articles/unicarriers/2022/MLA-Launches-Two-New-UniCarriers-80V-Electric-Pneumatic-Forklifts>.
 - **Access date:** 2026-10-13. **Revision:** 2022-06-21

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/network-and-softwares/enersys/bsi40"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ EnerSys product page for the BSI40 battery status indicator.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.enersys.com/en-gb/products/monitoring-and-fleet-management/network-and-softwares/enersys/bsi40>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

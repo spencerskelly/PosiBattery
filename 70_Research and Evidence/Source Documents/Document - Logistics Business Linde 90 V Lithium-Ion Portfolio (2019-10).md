@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.logisticsbusiness.com/materials-handling-warehousing/forklift-technology/linde-material-handling-expands-lithium-ion-portfolio/"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Logistics Business article (October 2019) on Linde's expanded 90 V lithium-ion p
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisticsbusiness.com/materials-handling-warehousing/forklift-technology/linde-material-handling-expands-lithium-ion-portfolio/>.
 - **Access date:** 2026-10-13. **Revision:** 2019-10

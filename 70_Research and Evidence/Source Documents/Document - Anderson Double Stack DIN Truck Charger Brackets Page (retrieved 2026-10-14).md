@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.andersonpower.com/product/double-stack-din-truck-charger-brackets-for-a320-and-e320-series/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson page for double stack DIN truck charger brackets (A320/E320), SKU 994G6
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.andersonpower.com/product/double-stack-din-truck-charger-brackets-for-a320-and-e320-series/>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

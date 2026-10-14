@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: vendor blog
+sourceClass: article
 sourceUrl: "https://fleetrabbit.com/industry/manufacturing-fleet/connecting-forklift-telematics-warehouse-management-systems"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** vendor blog.
 - **Source identity:** FleetRabbit AI.
 - **Original web address:** <https://fleetrabbit.com/industry/manufacturing-fleet/connecting-forklift-telematics-warehouse-management-systems>.
 - **Access date:** 2026-10-14. **Revision:** 2026-08-05

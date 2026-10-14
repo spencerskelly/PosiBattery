@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: distributor catalog
+sourceClass: brochure
 sourceUrl: "https://intellaparts.com/c/battery-connectors.html"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Intella Parts battery connector category.
 
 ## Provenance
 
+- **Source type:** distributor catalog.
 - **Source identity:** distributor or publisher.
 - **Original web address:** <https://intellaparts.com/c/battery-connectors.html>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

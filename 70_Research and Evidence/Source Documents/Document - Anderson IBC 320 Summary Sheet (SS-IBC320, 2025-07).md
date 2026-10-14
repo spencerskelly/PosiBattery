@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer summary sheet
+sourceClass: datasheet
 sourceUrl: "https://www.mouser.lt/pdfDocs/af358045-4432-4ad4-8159-7c8ce2014460_SS-IBC320.pdf"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson IBC 320 summary sheet (SS-IBC320, July 2025).
 
 ## Provenance
 
+- **Source type:** manufacturer summary sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.mouser.lt/pdfDocs/af358045-4432-4ad4-8159-7c8ce2014460_SS-IBC320.pdf>.
 - **Access date:** 2026-10-14. **Revision:** 2025-07

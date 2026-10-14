@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Yale ERC050-060VGL specification sheet.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

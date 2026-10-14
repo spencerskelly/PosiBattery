@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ East Penn announcement of the Deka Ready Power lithium-ion battery at ProMat 201
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.eastpennmanufacturing.com/east-penn-launches-new-li-ion-product-at-promat-2019/>.
 - **Access date:** 2026-10-13. **Revision:** 2019

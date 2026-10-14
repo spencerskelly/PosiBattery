@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://psu.deltaww.com/en/products/wireless-charging-system/MOOVair%2010%2036V"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Delta MOOVair 10 36V Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://psu.deltaww.com/en/products/wireless-charging-system/MOOVair%2010%2036V>.
 - **Access date:** 2026-10-14. **Revision:** undated

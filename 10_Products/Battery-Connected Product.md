@@ -20,6 +20,7 @@ supertypeOf:
   - "[[Industrial Battery Charger]]"
   - "[[Industrial Truck Anatomy]]"
   - "[[GSE Vehicle Anatomy]]"
+  - "[[Automated Battery Exchange System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[Catalog Review 2026-10-02]]"

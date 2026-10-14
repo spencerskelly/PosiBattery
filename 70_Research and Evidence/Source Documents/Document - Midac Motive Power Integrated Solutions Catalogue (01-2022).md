@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer catalogue
+sourceClass: brochure
 sourceUrl: "https://midacbatteries.com/wp-content/uploads/2025/04/1_CAT-INTEGRATED-SOLUTIONS_MOTIVE_EN_IT_DE_FR-01_2022-5011820-0967_21.pdf"
 accessed: 2026-10-13
 describes:
@@ -49,6 +49,7 @@ Midac motive power integrated solutions catalogue (01/2022).
 
 ## Provenance
 
+- **Source type:** manufacturer catalogue.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://midacbatteries.com/wp-content/uploads/2025/04/1_CAT-INTEGRATED-SOLUTIONS_MOTIVE_EN_IT_DE_FR-01_2022-5011820-0967_21.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 01/2022

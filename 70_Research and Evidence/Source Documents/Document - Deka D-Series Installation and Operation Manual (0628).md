@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.eastpennmanufacturing.com/wp-content/uploads/D-Series-IO-Manual-0628.pdf"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Deka D-Series operating and maintenance instructions (0628).
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.eastpennmanufacturing.com/wp-content/uploads/D-Series-IO-Manual-0628.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 0628

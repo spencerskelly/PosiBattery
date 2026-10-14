@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: vendor blog
+sourceClass: article
 sourceUrl: "https://www.fabrico.io/blog/best-fleet-maintenance-software-material-handling-forklifts-review/"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** vendor blog.
 - **Source identity:** Fabrico.
 - **Original web address:** <https://www.fabrico.io/blog/best-fleet-maintenance-software-material-handling-forklifts-review/>.
 - **Access date:** 2026-10-14. **Revision:** 2026

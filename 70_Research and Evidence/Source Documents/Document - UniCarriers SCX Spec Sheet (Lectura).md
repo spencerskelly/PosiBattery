@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: aggregator-hosted data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.lectura-specs.bg/datasheet-downloads/scx30-40-en--1-(763).pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ SCX 30-40 36 V spec sheet; the SCX N2 successor is not confirmed to share it.
 
 ## Provenance
 
+- **Source type:** aggregator-hosted data sheet.
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://www.lectura-specs.bg/datasheet-downloads/scx30-40-en--1-(763).pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

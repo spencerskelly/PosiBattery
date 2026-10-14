@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.hoppecke.com/uk/product/trak-uplift-iq/"
 accessed: 2026-10-13
 describes:
@@ -32,6 +32,7 @@ HOPPECKE product page for trak | uplift iQ.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hoppecke.com/uk/product/trak-uplift-iq/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

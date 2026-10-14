@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: manufacturer case study
+sourceClass: article
 sourceUrl: "https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ HOPPECKE customer story (2021, brewery) using trak | uplift air.
 
 ## Provenance
 
+- **Source type:** manufacturer case study.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>.
 - **Access date:** 2026-10-13. **Revision:** 2021

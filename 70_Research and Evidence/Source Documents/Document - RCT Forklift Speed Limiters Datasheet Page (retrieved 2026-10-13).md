@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://rct-global.com/datasheet/forklift-speed-limiters"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ RCT datasheet page for the Muirhead forklift speed limiter (ref SBMH0507057).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://rct-global.com/datasheet/forklift-speed-limiters>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

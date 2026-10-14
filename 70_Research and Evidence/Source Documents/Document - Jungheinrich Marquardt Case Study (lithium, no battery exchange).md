@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer case study
+sourceClass: article
 sourceUrl: "https://www.jungheinrich.co.uk/your-solutions/case-studies/marquardt-1810386"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Jungheinrich case study of a customer using lithium-ion trucks.
 
 ## Provenance
 
+- **Source type:** manufacturer case study.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.jungheinrich.co.uk/your-solutions/case-studies/marquardt-1810386>.
 - **Access date:** 2026-10-14. **Revision:** undated

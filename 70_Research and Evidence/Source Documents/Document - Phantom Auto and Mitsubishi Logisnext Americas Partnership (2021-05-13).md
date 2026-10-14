@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://www.mmh.com/article/phantom_auto_partners_with_mitsubishi_logisnext_americas_group"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MMH item (byline 2021-05-13) on the Phantom Auto and Mitsubishi Logisnext Americ
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication.
 - **Original web address:** <https://www.mmh.com/article/phantom_auto_partners_with_mitsubishi_logisnext_americas_group>.
 - **Access date:** 2026-10-13. **Revision:** 2021-05-13

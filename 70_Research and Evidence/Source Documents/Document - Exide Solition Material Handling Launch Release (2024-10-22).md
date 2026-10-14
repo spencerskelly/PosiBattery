@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.prnewswire.com/news-releases/exide-technologies-launches-innovative-lithium-ion-solition-material-handling-battery-302281691.html"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Exide release of 2024-10-22 launching the Solition Material Handling lithium-ion
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.prnewswire.com/news-releases/exide-technologies-launches-innovative-lithium-ion-solition-material-handling-battery-302281691.html>.
 - **Access date:** 2026-10-13. **Revision:** 2024-10-22

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.catlifttruck.com/sites/default/files/documents/cat-visr-brochure-oebc2563.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Cat VISR telematics brochure OEBC2563 (06/26).
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.catlifttruck.com/sites/default/files/documents/cat-visr-brochure-oebc2563.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 06/26

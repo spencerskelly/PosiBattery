@@ -61,6 +61,6 @@ Hangcha A series electric forklifts (1.0 to 3.5 t) with LiFePO4 batteries and an
 
 ## Aliases
 
-- A Series
+- Hangcha A Series
 
 ## Former ids

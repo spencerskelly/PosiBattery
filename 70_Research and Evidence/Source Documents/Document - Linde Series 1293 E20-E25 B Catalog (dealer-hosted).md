@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer-hosted manufacturer catalog
+sourceClass: brochure
 sourceUrl: "https://plic.co.th/wp-content/uploads/2024/08/Linde-series-1293-E20-E25B-01-Electric-catalog.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Linde Series 1293 E20/E25 B catalog hosted by a Thai dealer.
 
 ## Provenance
 
+- **Source type:** dealer-hosted manufacturer catalog.
 - **Source identity:** dealer hosting manufacturer content.
 - **Original web address:** <https://plic.co.th/wp-content/uploads/2024/08/Linde-series-1293-E20-E25B-01-Electric-catalog.pdf>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

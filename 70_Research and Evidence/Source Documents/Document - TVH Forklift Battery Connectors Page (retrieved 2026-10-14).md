@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: distributor web page
+sourceClass: web-page
 sourceUrl: "https://www.tvh.com/en-us/parts/parts-for/forklifts/electrical-parts/forklift-battery-connectors"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ TVH page on forklift battery connectors.
 
 ## Provenance
 
+- **Source type:** distributor web page.
 - **Source identity:** distributor or publisher.
 - **Original web address:** <https://www.tvh.com/en-us/parts/parts-for/forklifts/electrical-parts/forklift-battery-connectors>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

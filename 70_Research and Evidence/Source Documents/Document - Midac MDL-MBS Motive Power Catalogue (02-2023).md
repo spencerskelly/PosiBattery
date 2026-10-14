@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer catalogue
+sourceClass: brochure
 sourceUrl: "https://midacbatteries.com/wp-content/uploads/2026/02/CAT-MDL-MBS_MOTIVE_EN_IT-02_2023-5011742-0312-00.pdf"
 accessed: 2026-10-13
 describes:
@@ -34,6 +34,7 @@ Midac MDL and MBS motive power catalogue (02/2023).
 
 ## Provenance
 
+- **Source type:** manufacturer catalogue.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://midacbatteries.com/wp-content/uploads/2026/02/CAT-MDL-MBS_MOTIVE_EN_IT-02_2023-5011742-0312-00.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 02/2023

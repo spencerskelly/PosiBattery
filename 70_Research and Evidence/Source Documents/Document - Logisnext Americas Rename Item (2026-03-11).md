@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://www.mmh.com/article/mitsubishi_logisnext_americas_will_rebrand_as_logisnext_americas"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MMH item on the rename of Mitsubishi Logisnext Americas to Logisnext Americas.
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication.
 - **Original web address:** <https://www.mmh.com/article/mitsubishi_logisnext_americas_will_rebrand_as_logisnext_americas>.
 - **Access date:** 2026-10-13. **Revision:** 2026-03-11

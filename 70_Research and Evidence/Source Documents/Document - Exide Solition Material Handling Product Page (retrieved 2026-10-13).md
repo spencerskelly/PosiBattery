@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.exidegroup.com/eu/en/product/solition-material-handling"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Exide product page for Solition Material Handling.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.exidegroup.com/eu/en/product/solition-material-handling>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

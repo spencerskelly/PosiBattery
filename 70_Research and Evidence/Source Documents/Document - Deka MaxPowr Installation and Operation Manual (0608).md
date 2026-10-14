@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.eastpennmanufacturing.com/wp-content/uploads/Max-Powr-IO-Manual-0608.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Deka MaxPowr operating and maintenance instructions (0608).
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.eastpennmanufacturing.com/wp-content/uploads/Max-Powr-IO-Manual-0608.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 0608

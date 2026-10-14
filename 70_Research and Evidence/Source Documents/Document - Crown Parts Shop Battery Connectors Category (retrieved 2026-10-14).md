@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: OEM parts shop page
+sourceClass: web-page
 sourceUrl: "https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ Crown parts shop category for battery connectors.
 
 ## Provenance
 
+- **Source type:** OEM parts shop page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

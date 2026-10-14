@@ -20,7 +20,7 @@ performs:
   - "[[Charge Battery by Opportunity]]"
 hasDesign:
   - "[[Battery Onboard Charger]]"
-hasPart:
+integratesWith:
   - "[[Stryten AGM220 Onboard Charger]]"
 madeBy:
   - "[[Stryten Energy]]"

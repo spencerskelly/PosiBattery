@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer-data listing
+sourceClass: web-page
 sourceUrl: "https://www.allmachines.com/forklifts/unicarriers-mx2-25l"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ AllMachines page for the UniCarriers MX2-25L.
 
 ## Provenance
 
+- **Source type:** dealer-data listing.
 - **Source identity:** aggregator.
 - **Original web address:** <https://www.allmachines.com/forklifts/unicarriers-mx2-25l>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

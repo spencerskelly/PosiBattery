@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer manual
+sourceClass: manual
 sourceUrl: "https://www.stryten.com/wp-content/uploads/2023/03/Stryten-M-Series-I-O-Manual-AGM220-SE1041-April-2023.pdf"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Stryten installation and operating manual SE1041 (April 2023) for the AGM220 int
 
 ## Provenance
 
+- **Source type:** manufacturer manual.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.stryten.com/wp-content/uploads/2023/03/Stryten-M-Series-I-O-Manual-AGM220-SE1041-April-2023.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2023-04

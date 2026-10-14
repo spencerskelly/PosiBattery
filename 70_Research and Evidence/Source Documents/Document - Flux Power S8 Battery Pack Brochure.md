@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.fluxpower.com/hubfs/S8%20Battery%20Pack%20-%20Brochure.pdf"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Flux Power S8 (S-Series) battery pack brochure.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.fluxpower.com/hubfs/S8%20Battery%20Pack%20-%20Brochure.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://hub.seegrid.com/product-brochure-seegrid-auto-charge"
 accessed: 2026-10-14
 describes:
@@ -31,6 +31,7 @@ Facts below were read through the fetch tool's summary of the page, not from the
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** Seegrid.
 - **Original web address:** <https://hub.seegrid.com/product-brochure-seegrid-auto-charge>.
 - **Access date:** 2026-10-14. **Revision:** undated

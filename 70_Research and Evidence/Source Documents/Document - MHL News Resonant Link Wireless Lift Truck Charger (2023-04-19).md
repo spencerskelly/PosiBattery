@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press item
+sourceClass: article
 sourceUrl: "https://mhlnews.com/new-products/article/21264239/wireless-lift-truck-charger"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ MHL News Resonant Link Wireless Lift Truck Charger (2023-04-19) (read 2026-10-14
 
 ## Provenance
 
+- **Source type:** trade press item.
 - **Source identity:** publisher.
 - **Original web address:** <https://mhlnews.com/new-products/article/21264239/wireless-lift-truck-charger>.
 - **Access date:** 2026-10-14. **Revision:** undated

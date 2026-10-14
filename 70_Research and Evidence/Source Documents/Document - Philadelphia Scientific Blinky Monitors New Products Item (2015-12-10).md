@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press new-product item
+sourceClass: article
 sourceUrl: "https://www.mhlnews.com/new-products/forklift-battery-watering-monitors-new-products"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MHL News item of 2015-12-10 on the Philadelphia Scientific Blinky watering monit
 
 ## Provenance
 
+- **Source type:** trade press new-product item.
 - **Source identity:** trade publication relaying vendor text.
 - **Original web address:** <https://www.mhlnews.com/new-products/forklift-battery-watering-monitors-new-products>.
 - **Access date:** 2026-10-13. **Revision:** 2015-12-10

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press item
+sourceClass: article
 sourceUrl: "https://www.mhlnews.com/new-products/article/22051812/wireless-power-transfer-for-agvs-new-products"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ MHL News Daihen D-Broad Item (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** trade press item.
 - **Source identity:** publisher.
 - **Original web address:** <https://www.mhlnews.com/new-products/article/22051812/wireless-power-transfer-for-agvs-new-products>.
 - **Access date:** 2026-10-14. **Revision:** undated

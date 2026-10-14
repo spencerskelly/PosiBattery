@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.exidegroup.com/eu/en/document/solition-light-traction-battery-datasheet"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Exide EU data sheet for the Solition Light traction battery.
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.exidegroup.com/eu/en/document/solition-light-traction-battery-datasheet>.
 - **Access date:** 2026-10-13. **Revision:** EU data sheet

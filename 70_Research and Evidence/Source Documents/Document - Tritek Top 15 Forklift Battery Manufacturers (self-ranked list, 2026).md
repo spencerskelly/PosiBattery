@@ -7,7 +7,9 @@ status: Draft
 tags:
   - source-document
   - tier-T4
-sourceClass: seller blog ranking
+describes:
+  - "[[Coverage Plan]]"
+sourceClass: article
 sourceUrl: "https://tritekbattery.com/top-15-forklift-battery-manufacturers/"
 accessed: 2026-10-14
 ---
@@ -26,6 +28,7 @@ Tritek blog ranking of 15 forklift battery makers; Tritek lists itself first, so
 
 ## Provenance
 
+- **Source type:** seller blog ranking.
 - **Source identity:** battery seller blog.
 - **Original web address:** <https://tritekbattery.com/top-15-forklift-battery-manufacturers/>.
 - **Access date:** 2026-10-14. **Revision:** 2026

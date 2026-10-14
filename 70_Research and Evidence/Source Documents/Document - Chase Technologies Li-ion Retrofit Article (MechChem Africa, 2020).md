@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.crown.co.za/images/Latest_news_2020/mechchem-africa/Li-ion_batteries_the_cost-effective_retrofit.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ MechChem Africa article (Sept-Oct 2020), hosted on crown.co.za, on lithium-ion b
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade publication hosted on a Crown Equipment regional site.
 - **Original web address:** <https://www.crown.co.za/images/Latest_news_2020/mechchem-africa/Li-ion_batteries_the_cost-effective_retrofit.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2020

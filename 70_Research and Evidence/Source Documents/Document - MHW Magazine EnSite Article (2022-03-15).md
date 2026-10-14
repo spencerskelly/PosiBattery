@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.mhwmag.com/?p=85539"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Trade-magazine article (EnerSys marketing material) introducing EnSite modeling 
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade press relaying EnerSys.
 - **Original web address:** <https://www.mhwmag.com/?p=85539>.
 - **Access date:** 2026-10-13. **Revision:** published 2022-03-15, retrieved 2026-10-13

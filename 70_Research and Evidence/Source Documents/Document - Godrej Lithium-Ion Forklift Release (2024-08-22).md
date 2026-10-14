@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Godrej & Boyce release of 2024-08-22 for lithium-ion forklifts with an Indian-de
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system>.
 - **Access date:** 2026-10-13. **Revision:** 2024-08-22

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: company press release
+sourceClass: article
 sourceUrl: "https://www.prnewswire.com/news-releases/act-expands-charging-portfolio-with-next-generation-wireless-power-technology-302372050.html"
 accessed: 2026-10-14
 describes:
@@ -30,6 +30,7 @@ ACT Resonant Link Wireless Release (2025-02-10) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** company press release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.prnewswire.com/news-releases/act-expands-charging-portfolio-with-next-generation-wireless-power-technology-302372050.html>.
 - **Access date:** 2026-10-14. **Revision:** undated

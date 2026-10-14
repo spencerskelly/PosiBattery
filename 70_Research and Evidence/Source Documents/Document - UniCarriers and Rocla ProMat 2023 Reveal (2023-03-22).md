@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press news item
+sourceClass: article
 sourceUrl: "https://www.mmh.com/article/unicarriers_and_rocla_reveal_5_forklifts"
 accessed: 2026-10-13
 describes:
@@ -31,6 +31,7 @@ MMH report of the UniCarriers and Rocla reveal of five forklifts at ProMat 2023.
 
 ## Provenance
 
+- **Source type:** trade press news item.
 - **Source identity:** trade publication.
 - **Original web address:** <https://www.mmh.com/article/unicarriers_and_rocla_reveal_5_forklifts>.
 - **Access date:** 2026-10-13. **Revision:** 2023-03-22

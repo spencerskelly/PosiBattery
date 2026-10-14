@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Hangcha A series Li-ion forklift brochure.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

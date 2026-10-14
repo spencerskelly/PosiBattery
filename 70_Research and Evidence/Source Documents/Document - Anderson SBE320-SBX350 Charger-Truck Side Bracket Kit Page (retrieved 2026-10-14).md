@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.andersonpower.com/product/sbe320-sbx350-manual-release-charger-truck-side/"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Anderson product page for the SBE320/SBX350 manual release bracket and hardware 
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.andersonpower.com/product/sbe320-sbx350-manual-release-charger-truck-side/>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

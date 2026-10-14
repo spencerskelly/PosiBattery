@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: dealer-data listing
+sourceClass: web-page
 sourceUrl: "https://www.allmachines.com/forklifts/mitsubishi-fbcs18n"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ AllMachines page for the Mitsubishi FBCS18N.
 
 ## Provenance
 
+- **Source type:** dealer-data listing.
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

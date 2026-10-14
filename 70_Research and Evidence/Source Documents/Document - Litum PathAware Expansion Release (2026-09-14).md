@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer press release
+sourceClass: article
 sourceUrl: "https://www.newswire.com/news/litum-expands-pathaware-from-collision-warning-to-forklift-safety-intelligence"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Litum press release of 2026-09-14 on PathAware tiers and add-ons.
 
 ## Provenance
 
+- **Source type:** manufacturer press release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.newswire.com/news/litum-expands-pathaware-from-collision-warning-to-forklift-safety-intelligence>.
 - **Access date:** 2026-10-13. **Revision:** 2026-09-14

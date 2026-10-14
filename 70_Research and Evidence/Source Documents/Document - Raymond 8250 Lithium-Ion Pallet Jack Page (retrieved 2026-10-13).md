@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack"
 accessed: 2026-10-13
 describes:
@@ -35,6 +35,7 @@ Raymond product page for the 8250 lithium-ion pallet jack.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

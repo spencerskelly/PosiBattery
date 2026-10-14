@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: company press release
+sourceClass: article
 sourceUrl: "https://2023.promatshow.com/press/release/7262"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Resonant Link ProMat 2023 Release (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** company press release.
 - **Source identity:** company.
 - **Original web address:** <https://2023.promatshow.com/press/release/7262>.
 - **Access date:** 2026-10-14. **Revision:** undated

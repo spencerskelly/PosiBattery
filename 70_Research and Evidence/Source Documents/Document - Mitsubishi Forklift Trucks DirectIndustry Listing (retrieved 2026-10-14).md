@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T3
-sourceClass: product catalog listing
+sourceClass: brochure
 sourceUrl: "https://www.directindustry.com/prod/mitsubishi-forklift-trucks-17797.html"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ DirectIndustry listing of Mitsubishi Forklift Trucks products (34 entries, globa
 
 ## Provenance
 
+- **Source type:** product catalog listing.
 - **Source identity:** aggregator (DirectIndustry hosting Mitsubishi catalogs).
 - **Original web address:** <https://www.directindustry.com/prod/mitsubishi-forklift-trucks-17797.html>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14

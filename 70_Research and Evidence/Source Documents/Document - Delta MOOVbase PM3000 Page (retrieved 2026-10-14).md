@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.deltaww.com/en-US/products/Industrial-Battery-Charging/5779"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Delta MOOVbase PM3000 Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.deltaww.com/en-US/products/Industrial-Battery-Charging/5779>.
 - **Access date:** 2026-10-14. **Revision:** undated

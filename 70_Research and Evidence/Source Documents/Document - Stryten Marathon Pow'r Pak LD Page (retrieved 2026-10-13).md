@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://stryten.com/marathon-powr-pak-ld/"
 accessed: 2026-10-13
 describes:
@@ -30,6 +30,7 @@ Stryten product page listing Marathon Pow'r Pak LD as the former name of the M-S
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://stryten.com/marathon-powr-pak-ld/>.
 - **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-13

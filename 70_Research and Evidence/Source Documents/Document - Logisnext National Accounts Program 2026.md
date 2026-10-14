@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer brochure
+sourceClass: brochure
 sourceUrl: "https://www.logisnextamericas.com/globalassets/solutions/national-accounts/logisnext-national-accounts-program-2026.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Logisnext National Accounts Program 2026 PDF.
 
 ## Provenance
 
+- **Source type:** manufacturer brochure.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.logisnextamericas.com/globalassets/solutions/national-accounts/logisnext-national-accounts-program-2026.pdf>.
 - **Access date:** 2026-10-13. **Revision:** 2026

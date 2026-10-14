@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer sell sheet
+sourceClass: brochure
 sourceUrl: "https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond_4000_series_sit_down_sell_sheet.pdf"
 accessed: 2026-10-13
 describes:
@@ -28,6 +28,7 @@ Raymond 4000 Series sit-down sell sheet hosted by a Raymond dealer.
 
 ## Provenance
 
+- **Source type:** manufacturer sell sheet.
 - **Source identity:** Raymond literature hosted on a dealer site.
 - **Original web address:** <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond_4000_series_sit_down_sell_sheet.pdf>.
 - **Access date:** 2026-10-13. **Revision:** undated

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer news release
+sourceClass: article
 sourceUrl: "https://www.aviationpros.com/ground-support-worldwide/gse/press-release/55139765/green-cubes-technology-green-cubes-technology-unveils-new-li-ion-battery-for-ground-support-equipment"
 accessed: 2026-10-13
 describes:
@@ -29,6 +29,7 @@ Green Cubes release of 2024-09-13 on a lithium battery for ground support equipm
 
 ## Provenance
 
+- **Source type:** manufacturer news release.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.aviationpros.com/ground-support-worldwide/gse/press-release/55139765/green-cubes-technology-green-cubes-technology-unveils-new-li-ion-battery-for-ground-support-equipment>.
 - **Access date:** 2026-10-13. **Revision:** 2024-09-13

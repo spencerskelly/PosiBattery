@@ -10,6 +10,8 @@ tags:
   - scope-aftermarket
   - hands-free
   - battery-swap
+subtypeOf:
+  - "[[Automated Battery Exchange System]]"
 describedBy:
   - "[[Document - Concentric PowerHIVE 250,000 Swaps Item]]"
   - "[[Document - MHL News Concentric Automated Forklift Battery System Item]]"

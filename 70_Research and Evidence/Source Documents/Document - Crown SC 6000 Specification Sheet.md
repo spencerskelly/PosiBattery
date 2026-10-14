@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/counterbalance-trucks/sc-6000-specifications-d4.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Crown SC 6000 specification sheet (SCF 604X/606X).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/counterbalance-trucks/sc-6000-specifications-d4.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

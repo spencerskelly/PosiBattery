@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://staubli.com/ch/en/electrical-connectors/products/multi-pole-connectors/qcc.html"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Staubli QCC Product Page (retrieved 2026-10-14) (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://staubli.com/ch/en/electrical-connectors/products/multi-pole-connectors/qcc.html>.
 - **Access date:** 2026-10-14. **Revision:** undated

@@ -9,6 +9,8 @@ tags:
   - scope
   - plan
   - conventions
+describedBy:
+  - "[[Document - Tritek Top 15 Forklift Battery Manufacturers (self-ranked list, 2026)]]"
 describes:
   - "[[Battery-Connected Product]]"
 ---

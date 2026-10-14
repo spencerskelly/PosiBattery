@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.conductix.ch/en/ch/charging-solutions/charging-systems/charging-contacts/enduro-charging-contact-series"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Conductix-Wampfler Enduro+ charging contact series page.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.conductix.ch/en/ch/charging-solutions/charging-systems/charging-contacts/enduro-charging-contact-series>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

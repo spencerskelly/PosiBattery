@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer data sheet
+sourceClass: datasheet
 sourceUrl: "https://www.grenzebach.com/fileadmin/Grenzebach_Group/Intralogistics/Grenzebach_Intralogistics_Data_Sheet_Charging-Energy-Management_en.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Grenzebach Charging Energy Management Data Sheet (read 2026-10-14).
 
 ## Provenance
 
+- **Source type:** manufacturer data sheet.
 - **Source identity:** manufacturer or standards body.
 - **Original web address:** <https://www.grenzebach.com/fileadmin/Grenzebach_Group/Intralogistics/Grenzebach_Intralogistics_Data_Sheet_Charging-Energy-Management_en.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

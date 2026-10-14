@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: trade press article
+sourceClass: article
 sourceUrl: "https://www.electronicdesign.com/technologies/industrial/article/55409932/electronic-design-what-en-1175-means-for-connector-design-in-electrified-material-handling-equipment"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Electronic Design article on EN 1175 connector requirements.
 
 ## Provenance
 
+- **Source type:** trade press article.
 - **Source identity:** trade publication.
 - **Original web address:** <https://www.electronicdesign.com/technologies/industrial/article/55409932/electronic-design-what-en-1175-means-for-connector-design-in-electrified-material-handling-equipment>.
 - **Access date:** 2026-10-14. **Revision:** 2025

@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer-hosted manufacturer sell sheet
+sourceClass: brochure
 sourceUrl: "https://www.carolinahandling.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-counterbalanced---4750-8k-10k-12k-sell-sheet.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Raymond 4750 (8-12k) counterbalanced sell sheet hosted by a dealer.
 
 ## Provenance
 
+- **Source type:** dealer-hosted manufacturer sell sheet.
 - **Source identity:** dealer hosting manufacturer content.
 - **Original web address:** <https://www.carolinahandling.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-counterbalanced---4750-8k-10k-12k-sell-sheet.pdf>.
 - **Access date:** 2026-10-14. **Revision:** undated

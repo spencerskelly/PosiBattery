@@ -7,10 +7,11 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: government agency
+sourceClass: web-page
 sourceUrl: "https://www.osha.gov/training/library/powered-industrial-trucks/fatalities-summary"
 accessed: 2026-10-14
 describes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Document - OSHA Summaries of Selected Forklift Fatalities (retrieved 2026-10-14)
@@ -31,6 +32,7 @@ Government safety agency case summaries; they show the hazard exists, not how of
 
 ## Provenance
 
+- **Source type:** government agency.
 - **Source identity:** U.S. Department of Labor, OSHA.
 - **Original web address:** <https://www.osha.gov/training/library/powered-industrial-trucks/fatalities-summary>.
 - **Access date:** 2026-10-14. **Revision:** undated (cases from 1997 and 1998)

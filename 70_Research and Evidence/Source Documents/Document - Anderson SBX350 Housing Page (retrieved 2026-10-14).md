@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T1
-sourceClass: manufacturer web page
+sourceClass: web-page
 sourceUrl: "https://www.andersonpower.com/zh-hans/product/sbx350-housing-gray-also-sbe-320/"
 accessed: 2026-10-14
 describes:
@@ -29,6 +29,7 @@ Anderson SBX350 housing, gray (also listed as SBE320), SKU 6350.
 
 ## Provenance
 
+- **Source type:** manufacturer web page.
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.andersonpower.com/zh-hans/product/sbx350-housing-gray-also-sbe-320/>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14

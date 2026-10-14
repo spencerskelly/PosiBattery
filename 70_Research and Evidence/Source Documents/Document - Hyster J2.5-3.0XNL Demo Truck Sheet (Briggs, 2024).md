@@ -7,7 +7,7 @@ status: Draft
 tags:
   - source-document
   - tier-T2
-sourceClass: dealer-hosted manufacturer sheet
+sourceClass: web-page
 sourceUrl: "https://www.briggsequipment.co.uk/wp-content/uploads/2024/04/hysterxnldemotrucks-public-new-landscape-en.pdf"
 accessed: 2026-10-14
 describes:
@@ -28,6 +28,7 @@ Briggs Equipment UK demo sheet for the Hyster J2.5-3.0XNL integrated lithium-ion
 
 ## Provenance
 
+- **Source type:** dealer-hosted manufacturer sheet.
 - **Source identity:** dealer.
 - **Original web address:** <https://www.briggsequipment.co.uk/wp-content/uploads/2024/04/hysterxnldemotrucks-public-new-landscape-en.pdf>.
 - **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14
