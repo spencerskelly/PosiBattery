@@ -27,6 +27,10 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>added for the High Voltage Power Station (owner-held) | PosiCharge High Voltage Power Station installation and operation manual, DVS and MVS compatibility software release notes, and part-number list | not for this repository as raw files | owner | Output current, DC bus topology, compatible models, display role, AC and DC configuration (IB-156, IB-159, IB-161) | - | R45 |
+| **high priority**<br>wanted; paid standard | UL 2202, UL 2231-1 and -2, and CSA C22.2 No. 281.1, 281.2 and 346 (the card's certification list) | no direct file found | the standards bodies' store pages | What the AC configuration listing covers (IB-160) | - | R45 |
+| **helpful**<br>wanted; paid standard | DIN 70121 (DC charging communication between charger and vehicle) | no direct file found | standards store pages | The charger to vehicle layer behind the card's protocol row (C210, C211) | - | R45 |
+| **helpful**<br>wanted; free download may need registration | OCPP 1.6J specification (Open Charge Alliance) | no direct file found | Open Charge Alliance downloads page | What OCPP 1.6J compliance means for the High Voltage Power Station (IB-157) | - | R45 |
 | **high priority**<br>added for interface mapping | PosiCharge internal CAN protocol specifications and message definitions (owner-held) | not for this repository as raw files | owner; see the plan's three detail levels. This repository is public | Our side of every battery, charger and truck interface (L3, L4) | - | R43 |
 | **high priority**<br>added for interface mapping | Interface definitions for BMID, PosiGuard, ProCore Edge, E-Meter and PosiLink (owner-held) | not for this repository as raw files | owner; same rule | Per-product interface list for the Port notes | - | R43 |
 | **high priority**<br>added for interface mapping | CiA 418 v1.2.0 and CiA 419 v1.2.0 specifications (public specifications, login needed) | no direct file found | CAN in Automation pages for CiA 418 and CiA 419 (login) | Exact message set behind the charger to battery link (C204) | - | R43 |
@@ -299,6 +303,8 @@ Running list of documents identified as useful, what each would fill, and whethe
 - **Round 42 2026-10-13:** 5 rows added for BMS work (UL 2580, IEC 62619, CiA 419, EnerSys iON product guide, BMS data sheets). Counts: high priority +2, helpful +3. See [[BMS Product Function and Requirement Driver Map]].
 - **Round 43 2026-10-13:** 16 rows added for BMS function definitions and the interface layers (internal protocols held by the owner, CAN and CANopen specifications, safety standards, neutral BMS texts, charging, grid and cloud protocols). Counts: high priority +5, helpful +11. The two owner-held rows are not to be committed as raw files; see [[Interface and Protocol Layer Reference]] and the plan.
 - **Round 44 2026-10-13:** 5 rows added for external BMS products (Orion, REC, Batrium, Nuvation, Flux SkyBMS and Elithion). Counts: helpful +5. See [[External BMS Product Landscape]].
+
+- **Round 45 2026-10-13:** 4 rows added for the High Voltage Power Station (owner-held manual and release notes, UL and CSA standards, DIN 70121, OCPP 1.6J). Counts: high priority +2, helpful +2. The product card row (round 20) is unchanged; its page 2 is an image and was read in round 45.
 
 ## Aliases
 

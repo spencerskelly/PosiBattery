@@ -43,6 +43,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Philadelphia Scientific eGO!pro]]: IP65
   - [[PosiCharge Battery Rx]]: acid immersion and pressure-wash tolerance
   - [[PosiCharge DVS300 Series]]: NEMA 3R (sheet); DVS330 IP55 variant
+  - [[PosiCharge High Voltage Power Station (AC)]]: NEMA 3S and IP54; impact IK10 (card)
   - [[PosiCharge MVS400 and MVS800]]: NEMA 3R (MVS800 sheet)
   - [[PosiCharge PosiGuard]]: IP65 (sheet); earlier note: IP65 sealed against water and acid
   - [[PosiCharge SVS100]]: outdoor fast charge system (Averest item); rating not stated

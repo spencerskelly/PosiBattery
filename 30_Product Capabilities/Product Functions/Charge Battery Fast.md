@@ -21,6 +21,7 @@ performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[PosiCharge DVS100]]"
   - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
   - "[[PosiCharge High Voltage Power Station (DC)]]"
   - "[[PosiCharge MVS400 and MVS800]]"
   - "[[PosiCharge SVS100]]"

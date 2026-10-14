@@ -17,6 +17,8 @@ performs:
   - "[[Compensate Charge for Battery Temperature]]"
 madeBy:
   - "[[PosiCharge]]"
+integratesWith:
+  - "[[PosiCharge High Voltage Power Station (AC)]]"
 offeredWith:
   - "[[PosiCharge BMID]]"
 hasDesign:

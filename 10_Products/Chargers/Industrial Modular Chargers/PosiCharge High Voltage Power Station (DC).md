@@ -12,6 +12,8 @@ tags:
   - gse
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - PosiCharge High Voltage Power Station Product Card (2026)]]"
 performs:
   - "[[Charge Battery Fast]]"
 madeBy:
