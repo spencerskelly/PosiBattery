@@ -10,6 +10,7 @@ tags:
 subtypeOf: []
 satisfies: []
 performedBy:
+  - "[[HVPS Communications Kit]]"
   - "[[PosiCharge High Voltage Power Station (DC)]]"
   - "[[PosiCharge MVS400 and MVS800]]"
 ---
@@ -27,6 +28,7 @@ Balance or divide the energy delivered among several charging stations (or among
 - ITW GSE's "Power Share" (surplus grid power distributed to eGPUs and other eGSE) is a site-level load offering from another maker and is not linked here (see [[ITW GSE]]).
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
+  - [[HVPS Communications Kit]] (U): owner statement 2026-10-13; no web page found.
   - [[PosiCharge High Voltage Power Station (DC)]] (U): owner statement 2026-10-13 in this vault's working session; no web page found. The AC listing does not share power, per the same statement.
   - [[PosiCharge MVS400 and MVS800]] (V): <https://posicharge.com/wp-content/uploads/2026/01/MVS-400.pdf> (MVS400 sheet: up to three additional power stations, power sharing that prioritizes the lowest state of charge)
 

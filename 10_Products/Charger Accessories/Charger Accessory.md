@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Charger Remote Control and Indicator]]"
   - "[[Charger Stand and Mounting]]"
   - "[[Charger Thermal Accessory]]"
+  - "[[HVPS Communications Kit]]"
 ---
 
 # Charger Accessory
