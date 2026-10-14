@@ -17,6 +17,8 @@ performs:
   - "[[Connect Battery to Charger or Vehicle]]"
 describedBy:
   - "[[Document - Akkusys REMA Euro DIN 320A Plug Listing (retrieved 2026-10-14)]]"
+hasDesign:
+  - "[[Manual Plug-In Charging]]"
 integratesWith:
   - "[[ROYPOW LiFePO4 Forklift Batteries]]"
 ---

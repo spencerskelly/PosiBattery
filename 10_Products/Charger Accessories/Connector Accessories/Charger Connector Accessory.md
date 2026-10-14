@@ -12,6 +12,9 @@ subtypeOf:
   - "[[Charger Accessory]]"
 supertypeOf:
   - "[[PosiCharge Modular Charge Cables]]"
+  - "[[Vahle Charging Contacts]]"
+  - "[[Conductix-Wampfler Enduro+ Charging Contacts]]"
+  - "[[Staubli QCC Quick Charging Connection]]"
 ---
 
 # Charger Connector Accessory

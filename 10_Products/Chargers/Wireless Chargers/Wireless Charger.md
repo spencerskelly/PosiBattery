@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Industrial Battery Charger]]"
 supertypeOf:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
 ---
 
 # Wireless Charger

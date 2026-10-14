@@ -20,6 +20,10 @@ rolePlayedBy:
   - "[[Litum]]"
   - "[[Liftow]]"
   - "[[RCT]]"
+  - "[[Vahle]]"
+  - "[[Conductix-Wampfler]]"
+  - "[[Staubli Electrical Connectors]]"
+  - "[[Concentric]]"
 ---
 
 # Accessory Maker

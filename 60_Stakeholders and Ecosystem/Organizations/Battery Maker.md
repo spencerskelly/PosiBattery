@@ -36,6 +36,7 @@ rolePlayedBy:
   - "[[ROYPOW]]"
   - "[[Lithium Battery Solutions (BSL)]]"
   - "[[Redway Power]]"
+  - "[[Wiferion]]"
 ---
 
 # Battery Maker

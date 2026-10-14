@@ -17,8 +17,14 @@ performs:
   - "[[Connect Battery to Charger or Vehicle]]"
 describedBy:
   - "[[Document - Anderson Material Handling Page (retrieved 2026-10-14)]]"
+  - "[[Document - Anderson Material Handling Connector Catalog (AG-MHCS)]]"
+  - "[[Document - Electronic Design EN 1175 Connector Article]]"
+hasDesign:
+  - "[[Manual Plug-In Charging]]"
 madeBy:
   - "[[Anderson Power Products]]"
+integratesWith:
+  - "[[Anderson EBC Euro Battery Connector]]"
 ---
 
 # Anderson IBC Industrial Battery Connector

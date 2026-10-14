@@ -13,8 +13,14 @@ supertypeOf:
   - "[[Drop-In Battery Cavity]]"
   - "[[Vehicle-Integrated Battery]]"
   - "[[Battery-Direct Charge Connection]]"
+  - "[[Manual Plug-In Charging]]"
+  - "[[Conductive Auto-Contact Charging]]"
+  - "[[Inductive Wireless Charging]]"
+  - "[[Automated Connector Charging]]"
+  - "[[Automated Battery Swap]]"
 describedBy:
   - "[[Forklift Battery Integration and Charging Interface Register]]"
+  - "[[Charger-Vehicle Interface Register]]"
 dependencyOf:
   - "[[Adapt Truck to Battery Chemistry]]"
 ---

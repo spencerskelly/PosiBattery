@@ -1,0 +1,37 @@
+---
+type: Function
+subtype:
+id: FUNC-00136
+uid: 20261014103229564skellyspencer
+status: Draft
+tags:
+  - accessory-function
+  - extra
+  - product-function
+subtypeOf:
+  - "[[Charge Battery]]"
+performedBy:
+  - "[[Vahle Charging Contacts]]"
+  - "[[Conductix-Wampfler Enduro+ Charging Contacts]]"
+  - "[[Staubli QCC Quick Charging Connection]]"
+---
+
+# Charge Battery by Automatic Contact
+
+## Definition
+
+Charge through contacts that meet without a person plugging in.
+
+## Notes
+
+- Found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
+- No Requirement is linked (intentional gap).
+- **Sources** (product, evidence level, web page):
+  - [[Vahle Charging Contacts]] (V): <https://vahle.com/fileadmin/cavok_upload/Energie%C3%BCbertragung/Ladekontakte/Ladekontakte/Englisch/Cat_10a_en_Charging_Contacts.pdf>
+  - [[Conductix-Wampfler Enduro+ Charging Contacts]] (V): <https://www.conductix.ch/en/ch/charging-solutions/charging-systems/charging-contacts/enduro-charging-contact-series>
+  - [[Staubli QCC Quick Charging Connection]] (V): <https://electronicspecifier.com/cables-and-connecting/quick-charging-connector-system-for-autonomous-agvs>
+
+## Aliases
+
+
+## Former ids

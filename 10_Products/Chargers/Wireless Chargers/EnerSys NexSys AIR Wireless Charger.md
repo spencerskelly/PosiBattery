@@ -30,6 +30,7 @@ offeredWith:
   - "[[EnerSys Wi-iQ]]"
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
+  - "[[Inductive Wireless Charging]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[EnerSys Wi-iQ]]"

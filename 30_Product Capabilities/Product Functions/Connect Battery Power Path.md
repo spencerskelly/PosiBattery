@@ -11,6 +11,7 @@ supertypeOf:
   - "[[Connect Battery to Charger or Vehicle]]"
   - "[[Manage Charging Cables]]"
   - "[[Adapt Truck to Battery Chemistry]]"
+  - "[[Exchange Battery Automatically]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

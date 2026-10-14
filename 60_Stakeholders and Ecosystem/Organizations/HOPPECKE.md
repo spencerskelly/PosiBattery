@@ -27,6 +27,7 @@ makes:
   - "[[HOPPECKE trak collect premium]]"
   - "[[HOPPECKE trak monitor 4.0]]"
   - "[[HOPPECKE trak systemizer powercube]]"
+  - "[[HOPPECKE AGV Battery Exchange System]]"
 offers:
   - "[[HOPPECKE trak charger HF premium]]"
 partnerOf:

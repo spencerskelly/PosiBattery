@@ -15,8 +15,11 @@ subtypeOf:
   - "[[Battery Connector Assembly]]"
 describedBy:
   - "[[Document - Anderson Material Handling Page (retrieved 2026-10-14)]]"
+  - "[[Document - Anderson Material Handling Connector Catalog (AG-MHCS)]]"
 performs:
   - "[[Connect Battery to Charger or Vehicle]]"
+hasDesign:
+  - "[[Manual Plug-In Charging]]"
 madeBy:
   - "[[Anderson Power Products]]"
 offeredWith:

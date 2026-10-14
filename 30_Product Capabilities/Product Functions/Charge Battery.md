@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Charge Battery from Standard Power Outlet]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge in Cold Storage]]"
+  - "[[Charge Battery by Automatic Contact]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

@@ -25,6 +25,7 @@ rolePlayedBy:
   - "[[Triathlon USA]]"
   - "[[ENEROC]]"
   - "[[ITW GSE]]"
+  - "[[Wiferion]]"
 ---
 
 # Charger Maker

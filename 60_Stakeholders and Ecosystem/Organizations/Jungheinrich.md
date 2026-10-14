@@ -14,6 +14,7 @@ tags:
 describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Document - Jungheinrich Marquardt Case Study (lithium, no battery exchange)]]"
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
