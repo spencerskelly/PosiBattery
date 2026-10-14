@@ -18,6 +18,7 @@ performedBy:
   - "[[Battery Discharge Interlock Logic]]"
   - "[[CAN Deep Discharge Shutdown Logic]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Crown V-Force Lithium-Ion ESS]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
 dependsOn:

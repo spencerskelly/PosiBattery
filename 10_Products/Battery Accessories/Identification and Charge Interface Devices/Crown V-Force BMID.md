@@ -42,6 +42,7 @@ offeredBy:
   - "[[Crown Equipment]]"
 offeredWith:
   - "[[Crown V-HFM3 Charger]]"
+  - "[[Crown V-Force Lead-Acid Battery]]"
 ---
 
 # Crown V-Force BMID

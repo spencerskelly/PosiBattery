@@ -27,6 +27,7 @@ performedBy:
   - "[[Crown Gena Operating System]]"
   - "[[Hyster Power Cellect]]"
   - "[[Exide Retrofitting Communicator]]"
+  - "[[Crown V-Force Lithium-Ion ESS]]"
 realizedBy:
   - "[[Vehicle Operator Display Design]]"
 realizes:

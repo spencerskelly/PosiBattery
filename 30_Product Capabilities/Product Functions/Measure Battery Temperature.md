@@ -56,6 +56,7 @@ performedBy:
   - "[[Thermistor Temperature Sensor]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
   - "[[Batrium ShuntMon2]]"
+  - "[[Crown V-Force Lithium-Ion ESS]]"
 realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:

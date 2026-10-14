@@ -25,6 +25,8 @@ hasPart:
   - "[[LED Status Indicator Element]]"
 offeredBy:
   - "[[Crown Equipment]]"
+offeredWith:
+  - "[[Crown V-Force Lead-Acid Battery]]"
 ---
 
 # Crown Battery Acid Indicators
@@ -59,6 +61,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 - **Functions performed, with citations:**
   - [[Alert on Low Electrolyte Level]] (V): <https://www.crown.com/en-ca/batteries-and-chargers/>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Update 2026-10-13:** Crown's 2020-10-06 release says V-Force systems can ship with "Blinky" electrolyte monitors, so Crown offers them; whether these are the standard/smart/remote indicators here or a Philadelphia Scientific SmartBlinky is not stated (IB-189). Source: <https://www.crown.com/en-us/newsroom/articles/product-news/power-solutions-for-every-forklift-application.html>
 
 ## Aliases
 

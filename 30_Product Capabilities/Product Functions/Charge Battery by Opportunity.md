@@ -40,6 +40,7 @@ performedBy:
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[Deka D-Series Battery]]"
   - "[[Deka Dominator Battery]]"
+  - "[[Exide TENSOR xGEL Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

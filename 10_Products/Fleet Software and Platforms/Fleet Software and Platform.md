@@ -11,6 +11,7 @@ abstract: true
 supertypeOf:
   - "[[Battery and Charger Management Software]]"
   - "[[Truck Telematics Software]]"
+  - "[[Crown Service Request App]]"
 ---
 
 # Fleet Software and Platform

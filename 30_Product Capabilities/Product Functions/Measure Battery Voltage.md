@@ -43,6 +43,7 @@ performedBy:
   - "[[Orion BMS 2]]"
   - "[[Batrium CellMate-K9]]"
   - "[[Batrium ShuntMon2]]"
+  - "[[Crown V-Force Lithium-Ion ESS]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
 realizedBy:

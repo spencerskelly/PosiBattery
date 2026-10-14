@@ -213,6 +213,7 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-186 | Stryten: AGM220 Delta-Q model and input rating, meaning of PalletPro, whether Pow'r Pak LD is discontinued; T300/T310 manuals and Li600/Li610 sheets to Document notes; C225 temperature basis | <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-SeriesProductBrochure_AGM220_SE1043_FINAL.pdf> | open |
 | IB-187 | Banner PzV gel: voltage, cycle life, warranty, charging data from the full data sheet; NexSys TPPL: cycle life, warranty, TPPL Bloc naming, charge voltages, C227 partOf owner decision | <https://www.bannerbatterien.com/energysolutions/upload/files/FolderTractionBullGelPzVB_gb.pdf> | open |
 | IB-188 | Deka: read flyers/spec sheets listed on the forklift page (Ready Power specs 2503, BDI 2535, user manual 2699, service 2708; PowerForce sheets 2666/2667/2668/2760; ChargeMate manual number 0628 duplicate); other Deka Ready Power voltages; BDI meaning | <https://www.eastpennmanufacturing.com/forklift-products/> | open |
+| IB-189 | Exide TENSOR xGEL real brochure and X-profile; Crown V-Force Li voltages/Ah/warranty, lateral charge port, Service Request app; Crown lead-acid models and which "Blinky" product | <https://www.crown.com/en-us/newsroom/articles/product-news/power-solutions-for-every-forklift-application.html> | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 

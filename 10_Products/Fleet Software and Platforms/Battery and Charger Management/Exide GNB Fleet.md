@@ -20,6 +20,7 @@ madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
   - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Exide TENSOR xGEL Battery]]"
 ---
 
 # Exide GNB Fleet

@@ -11,6 +11,13 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Crown V-Force Lithium-Ion Brochure]]"
+performs:
+  - "[[Protect Battery from Deep Discharge]]"
+  - "[[Display Battery Status to Operator]]"
+  - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Temperature]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 offeredBy:
@@ -19,6 +26,7 @@ offeredWith:
   - "[[Crown V-HFM3 Charger]]"
   - "[[Crown FC 5700 Series]]"
   - "[[Crown RC 5700 Series]]"
+  - "[[Crown Service Request App]]"
 ---
 
 # Crown V-Force Lithium-Ion ESS
@@ -36,6 +44,13 @@ Crown V-Force lithium-ion energy storage system (pack, charger and BMS) for Crow
 - **Functions performed, with citations:**
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.crown.com/en-us/newsroom/articles/product-news/crown-equipment-unveils-integrated-lithium-ion-energy-storage-system-for-forklifts.html>
+
+- **Update 2026-10-13:** brochure: BMS measures cell temperature and voltage, protects against deep discharge, short circuit and overcharge; on-board display of discharge level and event codes; charger V-HFM3 up to 1C over CAN bus; "lateral charge port" on the truck; Crown Service Request app (not modeled, IB-189). No voltages, capacities, warranty or cycle life in the brochure. Source: <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf>
+- **Functions performed, with citations (2026-10-13):**
+  - [[Protect Battery from Deep Discharge]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf>
+  - [[Display Battery Status to Operator]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf>
+  - [[Measure Battery Voltage]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf> (cell level)
+  - [[Measure Battery Temperature]] (V): <https://www.crown.com/content/dam/crown/pdfs/en-us/brochures/products/lithium-ion-brochure-en.pdf> (cell level)
 
 ## Aliases
 

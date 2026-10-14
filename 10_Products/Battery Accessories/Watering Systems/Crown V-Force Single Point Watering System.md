@@ -17,6 +17,8 @@ performs:
   - "[[Water Battery Cells]]"
 offeredBy:
   - "[[Crown Equipment]]"
+offeredWith:
+  - "[[Crown V-Force Lead-Acid Battery]]"
 integratesWith:
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
