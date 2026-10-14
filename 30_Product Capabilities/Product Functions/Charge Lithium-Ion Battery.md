@@ -32,6 +32,8 @@ performedBy:
   - "[[Exide 2100 Li High Output Charger]]"
   - "[[MIDATRON HE-Lion Charger]]"
   - "[[MIDATRON HF LFPB Charger]]"
+  - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
+  - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
   - "[[Charge Without a Ventilated Battery Room]]"

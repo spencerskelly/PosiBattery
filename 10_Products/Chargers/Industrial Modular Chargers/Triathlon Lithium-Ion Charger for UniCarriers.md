@@ -11,6 +11,9 @@ tags:
   - oem-supplied
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+performs:
+  - "[[Charge Battery]]"
+  - "[[Charge Lithium-Ion Battery]]"
 madeBy:
   - "[[Triathlon USA]]"
 offeredWith:
@@ -25,6 +28,7 @@ Triathlon charger launched with the lithium-ion battery solution for UniCarriers
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Charge Battery]], [[Charge Lithium-Ion Battery]] because the Logisnext release names a lithium-ion charger solution for UniCarriers forklifts. Source: as cited on this note.
 - The same release names Triathlon lithium-ion battery and charger solutions for UniCarriers; the charger's ratings are not stated. Source: Logisnext Americas release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/unicarriers/news/mla-launches-new-lithium-ion-battery-solutions>
 
 ## Aliases

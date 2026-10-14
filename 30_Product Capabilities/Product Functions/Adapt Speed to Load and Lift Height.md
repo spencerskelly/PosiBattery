@@ -18,6 +18,7 @@ performedBy:
   - "[[Linde System Control]]"
   - "[[Raymond Travel Speed Control]]"
   - "[[Raymond Intellispeed System]]"
+  - "[[Cat Intelligent Speed and Movement Reduction]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
 ---

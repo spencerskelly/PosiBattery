@@ -16,6 +16,8 @@ supertypeOf:
   - "[[Track Equalization]]"
   - "[[Predict Battery Replacement Timing]]"
   - "[[Show Battery and Charger State in Fleet Software]]"
+performedBy:
+  - "[[Exide Opus Display]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

@@ -16,6 +16,8 @@ subtypeOf:
 describedBy:
   - "[[Document - Cat Electric Counterbalance Brochure CEBC2177]]"
   - "[[Document - Cat Electric Counterbalance Brochure CEBC2120]]"
+performs:
+  - "[[Shelter Operator from Weather]]"
 madeBy:
   - "[[Logisnext Europe]]"
 offeredWith:
@@ -31,6 +33,7 @@ Cat optional panel cabins for the EP electric counterbalance range: weather prot
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Shelter Operator from Weather]] because Cat describes optional panel cabins for weather protection indoors and outdoors. Source: as cited on this note.
 - Working name `unnamed-in-source`: the brochures call these "panel cabin options" without a product name. Sources: <https://www.catlifttruck.com/sites/default/files/documents/cebc2177.pdf>; <https://www.catlifttruck.com/sites/default/files/downloads/cebc2120.pdf> (T1, second-hand).
 - The 80 V heavy-duty range adds air conditioning, directable ventilation and heating per CEBC2120; CEBC2177 puts the climate options on the 4.0-5.5 t panel cabins (compatible).
 

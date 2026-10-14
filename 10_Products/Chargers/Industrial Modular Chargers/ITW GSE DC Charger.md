@@ -11,6 +11,8 @@ tags:
   - gse
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+performs:
+  - "[[Charge Battery]]"
 madeBy:
   - "[[ITW GSE]]"
 describedBy:
@@ -27,6 +29,7 @@ ITW GSE DC charger for high-voltage electric ground support equipment, 60 kW per
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Charge Battery]] because the ITW GSE page describes a 60 kW DC charger with CCS2 outlets; no specific method is stated, so only the general function is linked. Source: as cited on this note.
 - 60 kW per outlet, one or two outlets, CCS2 connector. Can be connected to an ITW GSE 2400 GPU, which controls how much power the charger has available. Source: ITW GSE EcoGate page (T1), read 2026-10-13. <https://itwgse.com/ecogate/>
 - **Not stated:** DC voltage and current range, efficiency, ingress rating, communication protocol, battery chemistries supported.
 - Manufacturer claim 'you do not need to upgrade your existing infrastructure' is unsubstantiated.

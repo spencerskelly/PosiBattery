@@ -15,6 +15,8 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 describedBy:
   - "[[Document - Cat Electric Counterbalance Brochure CEBC2120]]"
+performs:
+  - "[[Adapt Speed to Load and Lift Height]]"
 madeBy:
   - "[[Logisnext Europe]]"
 offeredWith:
@@ -30,6 +32,7 @@ Cat optional function that limits travel and tilt rates when the forks are above
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Adapt Speed to Load and Lift Height]] because Cat says the option limits travel and tilt rates when the forks are above free lift height. Source: as cited on this note.
 - Named in CEBC2120 as "intelligent speed and movement reduction (optional)"; CEBC2177 does not name it. Related options on the same sheets: automatic hydraulic tuning (standard from 3.5 m on some models) and passive sway control. Source: <https://www.catlifttruck.com/sites/default/files/downloads/cebc2120.pdf> (T1, second-hand).
 
 ## Aliases

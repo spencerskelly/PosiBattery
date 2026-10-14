@@ -21,6 +21,7 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Crown V-HFM3 Tower Light Kit]]"
   - "[[PosiCharge Three-Color Stack Light]]"
+  - "[[Stryten AGM220 Onboard Charger]]"
 realizedBy:
   - "[[Local Charger Status Indication]]"
 realizes:

@@ -13,6 +13,8 @@ subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:
   - "[[Document - Exide GNB Element Series Charger Manual Excerpt]]"
+performs:
+  - "[[Charge Battery]]"
 hasDesign:
   - "[[Multi-Voltage Output]]"
 madeBy:
@@ -29,6 +31,7 @@ Exide high-frequency multi-voltage, multi-capacity, multi-chemistry charger intr
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Charge Battery]] because the 2007 release describes a multi-chemistry high-frequency charger; no specific method is stated, so only the general function is linked. Source: as cited on this note.
 - Exide's 2007 release describes the Element HF series as multi-voltage, multi-capacity and multi-chemistry high-frequency chargers marketed by GNB Industrial Power with the Element valve-regulated batteries. Source: The Auto Channel (press release 2007-03-28) (T2 (dated)), retrieved 2026-10-02. <https://www2020.theautochannel.com/news/2007/03/28/041598.html>
 - **Status unclear:** the source is from 2007; current availability not checked.
 - **Design characteristics, with citations:**

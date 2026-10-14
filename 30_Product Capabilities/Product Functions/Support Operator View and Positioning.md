@@ -11,6 +11,8 @@ supertypeOf:
   - "[[Assist Lift Positioning]]"
   - "[[Show Camera View to Operator]]"
   - "[[Illuminate Work Area]]"
+performedBy:
+  - "[[Raymond Secondary Control Handle]]"
 childOf:
   - "[[Support the Operator]]"
 ---

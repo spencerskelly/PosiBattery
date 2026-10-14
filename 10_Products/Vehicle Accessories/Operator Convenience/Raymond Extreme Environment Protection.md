@@ -15,6 +15,8 @@ subtypeOf:
   - "[[Operator Convenience Accessory]]"
 describedBy:
   - "[[Document - Raymond 8250 Lithium-Ion Pallet Jack Page (retrieved 2026-10-13)]]"
+performs:
+  - "[[Operate in Wet or Dusty Conditions]]"
 offeredBy:
   - "[[Raymond]]"
 offeredWith:
@@ -30,6 +32,7 @@ Raymond package of hot-dip galvanization and electronics coatings for wet or cor
 
 ## Notes
 
+- **Update 2026-10-14 (priority 5, unlinked-product review):** linked to [[Operate in Wet or Dusty Conditions]] because Raymond lists hot-dip galvanization and electronics coatings for wet or corrosive environments. Source: as cited on this note.
 - Source: Raymond 8250 page (T1, second-hand), <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>. Listed as an accessory of the 8250 walkie pallet jack; the truck itself has no note yet, so the link is to the battery and the maker only. Class provisional: it is a protection package, not an operator convenience item (IB-191).
 
 ## Aliases

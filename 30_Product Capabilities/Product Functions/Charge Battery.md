@@ -23,6 +23,12 @@ supertypeOf:
 performedBy:
   - "[[Delta MOOVon Onboard Charger and Converters]]"
   - "[[Delta MOOVbase Modular Charging Systems]]"
+  - "[[Exide Element HF Charger]]"
+  - "[[ITW GSE DC Charger]]"
+  - "[[EnerSys NexSys COMpact Charger]]"
+  - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
+  - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
+  - "[[Stryten AGM220 Onboard Charger]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

@@ -23,6 +23,7 @@ performedBy:
   - "[[Anderson A Series Euro Connector]]"
   - "[[ROYPOW LiFePO4 Forklift Batteries]]"
   - "[[BlitzNXT LiFePO4 Forklift Battery]]"
+  - "[[Anderson Double Stack Manual Assist Brackets]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"

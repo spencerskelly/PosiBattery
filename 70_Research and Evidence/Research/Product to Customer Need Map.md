@@ -25,7 +25,7 @@ Derived map from each catalog product to the customer needs it serves, and from 
 - **Status: derived and hypothesis.** The map is generated from links already in the vault. Needs are what makers and dealers say their products do, not what customers say they need; a need becomes validated only with customer-side evidence (the ruleset's path from source research to hypothesis to validated need). Evidence and conflicts: C101 to C110, Q20 in [[Battery Product Landscape Conflicts and Open Questions]].
 - **Routes.** F = by performed function. D = by design: the product has a design that a function realizing the need depends on (the product may not perform the function; other designs may also be required). O = by option: the vehicle or battery is offered with a product that reaches the need by F, so the need is reached only if the option is bought. M = by metric: the product has a value on a property metric that informs the need (analyst crosswalk, hypothesis; batteries are described by properties, which the vault keeps as metrics, not functions).
 - **Regenerated 2026-10-14 (priority 4).** All counts and tables below were recomputed from the vault's links after the traceability, leaf-function and software passes. Rules: universe = every Object note under `10_Products` (README excluded); abstract class and category notes are counted apart; F = the product `performs` a Function that a need is `realizedBy`; D = the product `hasDesign` a Design that a Function realizing the need is `realizedBy` or `dependsOn` (not already F); O = a battery, forklift or GSE vehicle is `offeredWith` a product that reaches the need by F (not already F or D). The M column is carried over unchanged from the 2026-10-03 map and was not recomputed. The earlier generator is not in the repository, so these counts are not strictly comparable with round 40 (C269).
-- **Reached (owner decision, round 40): a product counts as reached through route F, D or O. M stays a hypothesis column and is not counted as reached.** Of 509 concrete products (61 abstract class and category notes excluded): 428 are reached; 400 of those perform a realizing function (F); 7 more are added by design (D) and 21 more by option (O). The carried-over metric route adds 0 products that are not counted. 81 concrete products have no route at all.
+- **Reached (owner decision, round 40): a product counts as reached through route F, D or O. M stays a hypothesis column and is not counted as reached.** Of 509 concrete products (61 abstract class and category notes excluded): 438 are reached; 410 of those perform a realizing function (F); 7 more are added by design (D) and 21 more by option (O). The carried-over metric route adds 0 products that are not counted. 71 concrete products have no route at all.
 - **GSE vehicles and batteries (2026-10-14 recount):** Ground Support Equipment 16 products, 5 by F, 10 reached (F + D + O); batteries 87 products, 57 by F, 74 reached. Most remaining gaps are source gaps (listings that state only properties), not modeling gaps.
 - **The counts are lower bounds.** A product reaches a need only through links a source states.
 - **2026-10-06 voltage-imbalance correction:** [[EnerSys Truck iQ]] no longer reaches [[Prevent Battery Abuse and Premature Replacement]] through [[Detect Voltage Imbalance]] because its source establishes display of the Wi-iQ imbalance result, not detection by Truck iQ itself.
@@ -35,27 +35,27 @@ Derived map from each catalog product to the customer needs it serves, and from 
 
 | Need (Use Case, why) | Who has it | Operating segments (analyst crosswalk, hypothesis) | Products reached (F + D + O) | of which by F | Added by metric (M, hypothesis) | Functions | Evidence kinds |
 |---|---|---|---|---|---|---|---|
-| [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 104 | 74 | 5 | 5 | V |
-| [[Charge Without a Ventilated Battery Room]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Distributed and opportunity charging; Mixed-chemistry fleets | 54 | 28 | 1 | 2 | V |
-| [[Return Trucks to Service Quickly After a Low Charge]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets; Distributed and opportunity charging | 82 | 63 | 6 | 8 | V |
+| [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 111 | 78 | 5 | 5 | V |
+| [[Charge Without a Ventilated Battery Room]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Distributed and opportunity charging; Mixed-chemistry fleets | 59 | 30 | 0 | 2 | V |
+| [[Return Trucks to Service Quickly After a Low Charge]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets; Distributed and opportunity charging | 84 | 64 | 6 | 8 | V |
 | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Mixed-chemistry fleets; Battery-room and centralized charging | 83 | 46 | 0 | 9 | V |
-| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 82 | 68 | 5 | 15 | V |
-| [[Know Battery State Before and During the Shift]] | [[Forklift Operator]], [[Maintenance Technician]] | Material-handling fleets; Airport eGSE fleets | 78 | 67 | 0 | 12 | V |
+| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 85 | 70 | 5 | 15 | V |
+| [[Know Battery State Before and During the Shift]] | [[Forklift Operator]], [[Maintenance Technician]] | Material-handling fleets; Airport eGSE fleets | 79 | 68 | 0 | 12 | V |
 | [[Document Battery Care for Warranty Compliance]] | [[Fleet Operations Manager]], [[Dealer Service Technician]] | Material-handling fleets; Battery-room and centralized charging | 48 | 39 | 0 | 4 | V |
 | [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets; Battery-room and centralized charging | 62 | 52 | 0 | 6 | V |
 | [[Control Who Operates Each Truck]] | [[Fleet Operations Manager]], [[Site Safety Manager]], [[Forklift Operator]], [[Fleet Software Administrator]] | Material-handling fleets | 27 | 22 | 0 | 2 | V |
 | [[Detect and Learn from Truck Impacts]] | [[Site Safety Manager]], [[Fleet Operations Manager]] | Material-handling fleets | 23 | 15 | 0 | 3 | V |
 | [[Warn the Operator of People and Objects Near the Truck]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets; Airport eGSE fleets | 46 | 37 | 0 | 3 | V + G |
 | [[Warn Pedestrians of an Approaching Truck]] | [[Pedestrian Near Trucks]], [[Site Safety Manager]] | Material-handling fleets | 63 | 50 | 0 | 2 | V + G |
-| [[Prevent Tip-Overs and Overloads]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets | 42 | 32 | 0 | 9 | V + G |
+| [[Prevent Tip-Overs and Overloads]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets | 45 | 33 | 0 | 9 | V + G |
 | [[Keep Trucks Slow in Hazardous Zones]] | [[Site Safety Manager]], [[Pedestrian Near Trucks]] | Material-handling fleets | 41 | 32 | 0 | 2 | V + G |
 | [[Protect Aircraft and Ground Crew During Ground Operations]] | [[GSE Operator]], [[Fleet Operations Manager]] | Airport eGSE fleets | 21 | 9 | 0 | 5 | V |
 | [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 42 | 31 | 0 | 5 | V |
-| [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 27 | 20 | 22 | 4 | V |
+| [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 31 | 22 | 22 | 4 | V |
 | [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
 | [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 45 | 32 | 4 | 7 | V |
 | [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 51 | 37 | 0 | 4 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 34 | 24 | 0 | 7 | V + manual |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 35 | 25 | 0 | 7 | V + manual |
 | [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 17 | 12 | 0 | 3 | V |
 | [[Act on Fleet Data Without Information Overload]] | [[Fleet Operations Manager]], [[Fleet Software Administrator]] | not yet assigned | 35 | 28 | 0 | 3 | V |
 | [[Charge Within Site Power Limits and Utility Costs]] | [[Fleet Operations Manager]] | not yet assigned | 11 | 9 | 0 | 1 | V |
@@ -129,8 +129,8 @@ Concrete products only (abstract class and category notes excluded).
 | Batteries/Valve-Regulated Lead-Acid Batteries | 16 | 9 | 10 | 10 |
 | Battery Accessories | 1 | 0 | 0 | 0 |
 | Battery Accessories/Battery Management Systems | 9 | 6 | 6 | 6 |
-| Battery Accessories/Connector Assemblies | 11 | 10 | 10 | 10 |
-| Battery Accessories/Electrolyte Circulation Systems | 8 | 6 | 6 | 6 |
+| Battery Accessories/Connector Assemblies | 11 | 11 | 11 | 11 |
+| Battery Accessories/Electrolyte Circulation Systems | 8 | 8 | 8 | 8 |
 | Battery Accessories/Identification and Charge Interface Devices | 8 | 6 | 7 | 7 |
 | Battery Accessories/Monitoring Devices | 34 | 28 | 28 | 28 |
 | Battery Accessories/Protection and Disconnect Units | 0 | 0 | 0 | 0 |
@@ -145,9 +145,9 @@ Concrete products only (abstract class and category notes excluded).
 | Charger Accessories/Stands and Mounting | 2 | 1 | 1 | 1 |
 | Charger Accessories/Thermal Accessories | 1 | 1 | 1 | 1 |
 | Chargers | 6 | 6 | 6 | 6 |
-| Chargers/Industrial Modular Chargers | 40 | 36 | 36 | 36 |
+| Chargers/Industrial Modular Chargers | 40 | 38 | 38 | 38 |
 | Chargers/Light-Duty Chargers | 3 | 3 | 3 | 3 |
-| Chargers/On-board Chargers | 5 | 3 | 3 | 3 |
+| Chargers/On-board Chargers | 5 | 4 | 4 | 4 |
 | Chargers/Wireless Chargers | 10 | 10 | 10 | 10 |
 | Fleet Software and Platforms | 13 | 11 | 11 | 11 |
 | Fleet Software and Platforms/Battery and Charger Management | 25 | 22 | 22 | 22 |
@@ -170,10 +170,10 @@ Concrete products only (abstract class and category notes excluded).
 | Vehicle Accessories/Access Control | 3 | 3 | 3 | 3 |
 | Vehicle Accessories/Cameras and Recorders | 7 | 7 | 7 | 7 |
 | Vehicle Accessories/Cold Storage Packages | 4 | 4 | 4 | 4 |
-| Vehicle Accessories/Operator Assist and Stability | 42 | 38 | 38 | 38 |
-| Vehicle Accessories/Operator Convenience | 11 | 4 | 4 | 4 |
+| Vehicle Accessories/Operator Assist and Stability | 42 | 39 | 39 | 39 |
+| Vehicle Accessories/Operator Convenience | 11 | 6 | 6 | 6 |
 | Vehicle Accessories/Operator Displays | 5 | 5 | 5 | 5 |
-| Vehicle Accessories/Power Source Interfaces | 4 | 1 | 1 | 1 |
+| Vehicle Accessories/Power Source Interfaces | 4 | 2 | 2 | 2 |
 | Vehicle Accessories/Proximity and Object Detection | 29 | 29 | 29 | 29 |
 | Vehicle Accessories/Warning Lights and Alerts | 15 | 15 | 15 | 15 |
 
@@ -187,7 +187,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 |---|---|---|---|---|
 | [[Amaron Brute Hi-Life Battery]] | - | - | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - |
 | [[Banner Traction Bull Bloc PzF]] | - | - | - | - |
-| [[Banner Traction Bull PzS]] | - | - | [[Keep Trucks Working Without Battery Maintenance Labor]] | - |
+| [[Banner Traction Bull PzS]] | - | - | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - |
 | [[Crown V-Force Lead-Acid Battery]] | - | - | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Within Site Power Limits and Utility Costs]]; [[Charge Without a Ventilated Battery Room]]; [[Document Battery Care for Warranty Compliance]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]]; [[Monitor and Manage Chargers and Batteries Across Sites]]; [[Plan Battery Replacement and Budget Ahead]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[Deka ChargeMate Battery]] | [[Charge Without a Ventilated Battery Room]] | - | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[Deka D-Series Battery]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Prevent Battery Abuse and Premature Replacement]] |
@@ -249,7 +249,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Hangcha Lithium Iron Phosphate Battery Pack]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | [[Control Who Operates Each Truck]]; [[Find and Fix Vehicle Faults Without Downtime]]; [[Handle Loads Without Damaging Them]]; [[Keep the Operator Positioned and Able to See the Work]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Prevent Tip-Overs and Overloads]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Warn Pedestrians of an Approaching Truck]] | - |
 | [[Heli Lithium-Ion Battery]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Prevent Tip-Overs and Overloads]] | - |
 | [[Jungheinrich Lithium-Ion Battery]] | [[Return Trucks to Service Quickly After a Low Charge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | - | [[Return Trucks to Service Quickly After a Low Charge]] |
-| [[Linde 90 V Lithium-Ion Battery]] | - | - | [[Know Battery State Before and During the Shift]] | - |
+| [[Linde 90 V Lithium-Ion Battery]] | - | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]] | - |
 | [[Midac LFPblock Battery]] | [[Monitor and Manage Chargers and Batteries Across Sites]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - |
 | [[Midac Li-Ion Battery]] | [[Integrate the Battery with Truck and Charger Controls]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - |
 | [[ROYPOW LiFePO4 Forklift Batteries]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
@@ -259,7 +259,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Stryten M-Series Li600 Battery]] | [[Integrate the Battery with Truck and Charger Controls]] | - | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[Stryten M-Series Li610 Battery]] | [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Charge Without a Ventilated Battery Room]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Integrate the Battery with Truck and Charger Controls]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Find and Fix Vehicle Faults Without Downtime]] | - |
-| [[Triathlon Lithium-Ion Battery for UniCarriers]] | - | - | [[Prevent Tip-Overs and Overloads]] | [[Charge Without a Ventilated Battery Room]]; [[Return Trucks to Service Quickly After a Low Charge]] |
+| [[Triathlon Lithium-Ion Battery for UniCarriers]] | - | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Tip-Overs and Overloads]] | [[Charge Without a Ventilated Battery Room]]; [[Return Trucks to Service Quickly After a Low Charge]] |
 | [[Wiferion etaTRAY Battery Tray]] | [[Charge Without Anyone Plugging In]] | - | - | - |
 
 #### Batteries/Valve-Regulated Lead-Acid Batteries
@@ -308,7 +308,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
 | [[Anderson A Series Euro Connector]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
-| [[Anderson Double Stack Manual Assist Brackets]] | - | - | - | - |
+| [[Anderson Double Stack Manual Assist Brackets]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
 | [[Anderson EBC Euro Battery Connector]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
 | [[Anderson IBC Industrial Battery Connector]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
 | [[Anderson SB Connector Series]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
@@ -324,12 +324,12 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
 | [[Amaron Electrolyte Circulation System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
-| [[Banner Traction Bull Electrolyte Circulation Pump Module]] | - | - | - | - |
+| [[Banner Traction Bull Electrolyte Circulation Pump Module]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[EnerSys Aeromatic Circulation System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[Exide AIR Electrolyte Agitation System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[GS Yuasa Air-Mix System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[HOPPECKE trak air Electrolyte Circulation]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
-| [[Midac Air-Tech Air-Mixing System]] | - | - | - | - |
+| [[Midac Air-Tech Air-Mixing System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[Midac EUW Electrolyte Circulation System]] | [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 
 #### Battery Accessories/Identification and Charge Interface Devices
@@ -502,7 +502,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Green Cubes SAFEFlex Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[HOPPECKE trak charger HF premium]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | - | - | - |
 | [[ITW GSE DC Charger]] | - | - | - | - |
-| [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | - | - | - | - |
+| [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[PosiCharge DVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge DVS150]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Document Battery Care for Warranty Compliance]]; [[Plan Battery Replacement and Budget Ahead]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[PosiCharge DVS300 Series]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
@@ -520,7 +520,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Stryten EHY Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | - | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] |
 | [[Stryten X-3 Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] |
 | [[Stryten X-7 Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
-| [[Triathlon Lithium-Ion Charger for UniCarriers]] | - | - | - | - |
+| [[Triathlon Lithium-Ion Charger for UniCarriers]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 
 #### Chargers/Light-Duty Chargers
 
@@ -538,7 +538,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[EnerSys NexSys COMpact Charger]] | - | - | - | - |
 | [[Heli Built-In Lithium Charger]] | [[Charge Without a Ventilated Battery Room]] | - | - | - |
 | [[Hyster Onboard Charging Solution]] | [[Charge Without a Ventilated Battery Room]] | - | - | - |
-| [[Stryten AGM220 Onboard Charger]] | - | - | - | - |
+| [[Stryten AGM220 Onboard Charger]] | [[Know Battery State Before and During the Shift]] | - | - | - |
 
 #### Chargers/Wireless Chargers
 
@@ -649,8 +649,8 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
 | [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep Trucks Slow in Hazardous Zones]]; [[Keep the Operator Positioned and Able to See the Work]] | - | - | - |
-| [[Cat EP14-20 Electric Counterbalance Forklifts]] | - | - | [[Keep the Operator Positioned and Able to See the Work]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
-| [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | - | - | [[Return Trucks to Service Quickly After a Low Charge]]; [[Warn Pedestrians of an Approaching Truck]] | - |
+| [[Cat EP14-20 Electric Counterbalance Forklifts]] | - | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep the Operator Positioned and Able to See the Work]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Prevent Tip-Overs and Overloads]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
+| [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] | - | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Prevent Tip-Overs and Overloads]]; [[Return Trucks to Service Quickly After a Low Charge]]; [[Warn Pedestrians of an Approaching Truck]] | - |
 | [[Cat Electric Lift Trucks (North America Series List)]] | - | - | - | - |
 | [[Crown FC 5700 Series]] | [[Keep Trucks Slow in Hazardous Zones]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Prevent Tip-Overs and Overloads]] | - | [[Control Who Operates Each Truck]]; [[Detect and Learn from Truck Impacts]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Right-Size the Fleet from Usage Data]] | - |
 | [[Crown RC 5700 Series]] | [[Control Who Operates Each Truck]]; [[Find and Fix Vehicle Faults Without Downtime]]; [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep Trucks Slow in Hazardous Zones]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Prevent Tip-Overs and Overloads]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Stretch Truck Run Time per Charge]]; [[Warn Pedestrians of an Approaching Truck]] | - | [[Detect and Learn from Truck Impacts]]; [[Right-Size the Fleet from Usage Data]] | - |
@@ -666,14 +666,14 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]] | - | - | - | - |
 | [[Komatsu FB Series Electric Forklifts]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep Trucks Slow in Hazardous Zones]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | - | [[Find and Fix Vehicle Faults Without Downtime]]; [[Keep the Operator Positioned and Able to See the Work]]; [[Prevent Tip-Overs and Overloads]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Right-Size the Fleet from Usage Data]] | - |
 | [[Linde 1293 Series (E20BHP and E25BHP)]] | - | - | - | - |
-| [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Know Battery State Before and During the Shift]] | - | - | [[Return Trucks to Service Quickly After a Low Charge]] |
+| [[Linde 6-8 t Electric Counterbalance Forklifts]] | [[Know Battery State Before and During the Shift]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Return Trucks to Service Quickly After a Low Charge]] |
 | [[Linde E Series Electric Counterbalance Forklifts]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | - | - | - |
 | [[Linde Ei Series]] | - | [[Charge Without a Ventilated Battery Room]] | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] |
 | [[Mitsubishi FB 3-Wheel Electric Forklifts]] | [[Reduce Operator Effort and Fatigue]] | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - |
 | [[Mitsubishi FBC Cushion Tire Electric Forklifts]] | [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
 | [[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]] | - | - | - | - |
 | [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | [[Keep the Operator Positioned and Able to See the Work]]; [[Reduce Operator Effort and Fatigue]] | - | - | - |
-| [[Raymond 4000 Series Counterbalanced Trucks]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep the Operator Positioned and Able to See the Work]] | - | [[Keep Trucks Slow in Hazardous Zones]]; [[Prevent Tip-Overs and Overloads]] | - |
+| [[Raymond 4000 Series Counterbalanced Trucks]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep the Operator Positioned and Able to See the Work]] | - | [[Keep Trucks Slow in Hazardous Zones]]; [[Prevent Tip-Overs and Overloads]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[STILL RX 20 Electric Forklift]] | - | [[Charge Without a Ventilated Battery Room]] | - | - |
 | [[STILL RX 60 Electric Forklift]] | [[Control Who Operates Each Truck]]; [[Retrofit Safety and Telematics Onto Existing Trucks]] | - | [[Keep the Operator Positioned and Able to See the Work]]; [[Prevent Tip-Overs and Overloads]]; [[Right-Size the Fleet from Usage Data]]; [[Warn Pedestrians of an Approaching Truck]] | - |
 | [[Toyota 3-Wheel Electric Forklift]] | [[Find and Fix Vehicle Faults Without Downtime]] | - | [[Detect and Learn from Truck Impacts]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Return Trucks to Service Quickly After a Low Charge]]; [[Right-Size the Fleet from Usage Data]] | - |
@@ -778,7 +778,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
-| [[Cat Intelligent Speed and Movement Reduction]] | - | - | - | - |
+| [[Cat Intelligent Speed and Movement Reduction]] | [[Prevent Tip-Overs and Overloads]] | - | - | - |
 | [[Cat Presence Detection System]] | [[Keep the Operator Positioned and Able to See the Work]]; [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | - | - | - |
 | [[Crown Capacity Data Monitor]] | [[Prevent Tip-Overs and Overloads]] | - | - | - |
 | [[Doosan Bobcat Mast Sway Control]] | [[Keep Trucks Slow in Hazardous Zones]]; [[Prevent Tip-Overs and Overloads]] | - | - | - |
@@ -825,12 +825,12 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
-| [[Cat Panel Cabin Options]] | - | - | - | - |
+| [[Cat Panel Cabin Options]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | - | - | - |
 | [[Jungheinrich easyPILOT]] | [[Reduce Operator Effort and Fatigue]] | - | - | - |
 | [[Linde Rotating Operator Workstation]] | [[Keep the Operator Positioned and Able to See the Work]] | - | - | - |
 | [[Linde Smartphone Holder]] | - | - | - | - |
 | [[Raymond Accessory Bar]] | - | - | - | - |
-| [[Raymond Extreme Environment Protection]] | - | - | - | - |
+| [[Raymond Extreme Environment Protection]] | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | - | - | - |
 | [[Raymond Large Storage Tote]] | - | - | - | - |
 | [[Raymond Light and Fan Package]] | [[Keep the Operator Positioned and Able to See the Work]] | - | - | - |
 | [[Raymond Secondary Control Handle]] | - | - | - | - |
@@ -854,7 +854,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Hyster Power Cellect]] | [[Integrate the Battery with Truck and Charger Controls]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Right-Size the Fleet from Usage Data]] | - | - | - |
 | [[PosiCharge DIY Fast Charge Kit]] | - | - | - | - |
 | [[Purkeys Trailer Auxiliary Power System]] | - | - | - | - |
-| [[Raymond Right-Hand Battery Rollout]] | - | - | - | - |
+| [[Raymond Right-Hand Battery Rollout]] | [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 
 #### Vehicle Accessories/Proximity and Object Detection
 
@@ -912,21 +912,19 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 ### Products with no route to a need
 
-- **Concrete products with no route (81):**
+- **Concrete products with no route (71):**
   - **Batteries/Flooded Lead-Acid Batteries** (4): [[Banner Traction Bull Bloc PzF]], [[Midac FORCEblock Battery]], [[Midac MBS Traction Battery]], [[Midac MLMx Battery]]
   - **Batteries/Lithium-Ion Batteries** (3): [[BSL Lithium Forklift Battery]], [[Green Cubes Forklift Battery Retrofit Kit]], [[Redway Lithium Forklift Batteries]]
   - **Batteries/Valve-Regulated Lead-Acid Batteries** (6): [[Banner Traction Bull PzV Gel]], [[Exide Element VRLA Battery]], [[Sonnenschein AF Battery]], [[Sonnenschein EPzV Battery]], [[Sonnenschein GF-V Battery]], [[Sonnenschein GF-Y Battery]]
   - **Battery Accessories** (1): [[Flux Power GSE3 Truck Adapter]]
   - **Battery Accessories/Battery Management Systems** (3): [[Midac Battery Management (MBM)]], [[Nuvation Energy G5 BMS]], [[REC 2Q BMS]]
-  - **Battery Accessories/Connector Assemblies** (1): [[Anderson Double Stack Manual Assist Brackets]]
-  - **Battery Accessories/Electrolyte Circulation Systems** (2): [[Banner Traction Bull Electrolyte Circulation Pump Module]], [[Midac Air-Tech Air-Mixing System]]
   - **Battery Accessories/Identification and Charge Interface Devices** (1): [[PosiCharge BMID 1]]
   - **Battery Accessories/Monitoring Devices** (6): [[Amaron DIY Rx]], [[Banner Traction Bull Battery Controller]], [[Deka Ready Power BDI]], [[Exide Opus Display]], [[HOPPECKE trak collect premium]], [[Midac MB2 Battery Brain]]
   - **Battery Accessories/Watering Systems** (2): [[Amaron AFS System]], [[Amaron Aqua Filling Plug]]
   - **Charger Accessories** (1): [[HOPPECKE trak systemizer powercube]]
   - **Charger Accessories/Stands and Mounting** (1): [[Crown V-HFM3 Charger Stand]]
-  - **Chargers/Industrial Modular Chargers** (4): [[Exide Element HF Charger]], [[ITW GSE DC Charger]], [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]], [[Triathlon Lithium-Ion Charger for UniCarriers]]
-  - **Chargers/On-board Chargers** (2): [[EnerSys NexSys COMpact Charger]], [[Stryten AGM220 Onboard Charger]]
+  - **Chargers/Industrial Modular Chargers** (2): [[Exide Element HF Charger]], [[ITW GSE DC Charger]]
+  - **Chargers/On-board Chargers** (1): [[EnerSys NexSys COMpact Charger]]
   - **Fleet Software and Platforms** (2): [[Crown Service Request App]], [[Phantom Auto Remote Operation Software]]
   - **Fleet Software and Platforms/Battery and Charger Management** (3): [[Exide BattID]], [[HOPPECKE trak monitor 4.0]], [[Philadelphia Scientific iBOS]]
   - **Fleet Software and Platforms/Truck Telematics** (2): [[Raymond Power Source Integrated]], [[Raymond iWAREHOUSE GATEWAY]]
@@ -935,11 +933,11 @@ Generated list. A dash means no product in that route. M is carried over unchang
   - **Forklifts/Class II Electric Narrow Aisle Trucks** (2): [[Crown RM-RMD 6000 Series]], [[Jungheinrich ETV C16 and C20]]
   - **Ground Support Equipment/Baggage and Tow Tractors** (4): [[Charlatte CBT350 AC Tow Tractor]], [[Charlatte T137-V3]], [[Linde P250 Electric Baggage Tractor]], [[Oshkosh AeroTech B80E Electric Baggage Tractor]]
   - **Ground Support Equipment/Pushback Tractors** (2): [[Charlatte CPB35E Pushback Tractor]], [[Oshkosh AeroTech Pushback B350E and B650E]]
-  - **Vehicle Accessories/Operator Assist and Stability** (4): [[Cat Intelligent Speed and Movement Reduction]], [[Raymond Auto-Locking Pallet Clamp]], [[Raymond Intelliguide Wire Guidance]], [[Raymond Slope Sensing]]
-  - **Vehicle Accessories/Operator Convenience** (7): [[Cat Panel Cabin Options]], [[Linde Smartphone Holder]], [[Raymond Accessory Bar]], [[Raymond Extreme Environment Protection]], [[Raymond Large Storage Tote]], [[Raymond Secondary Control Handle]], [[UniCarriers In-Cab Accessories]]
-  - **Vehicle Accessories/Power Source Interfaces** (3): [[PosiCharge DIY Fast Charge Kit]], [[Purkeys Trailer Auxiliary Power System]], [[Raymond Right-Hand Battery Rollout]]
+  - **Vehicle Accessories/Operator Assist and Stability** (3): [[Raymond Auto-Locking Pallet Clamp]], [[Raymond Intelliguide Wire Guidance]], [[Raymond Slope Sensing]]
+  - **Vehicle Accessories/Operator Convenience** (5): [[Linde Smartphone Holder]], [[Raymond Accessory Bar]], [[Raymond Large Storage Tote]], [[Raymond Secondary Control Handle]], [[UniCarriers In-Cab Accessories]]
+  - **Vehicle Accessories/Power Source Interfaces** (2): [[PosiCharge DIY Fast Charge Kit]], [[Purkeys Trailer Auxiliary Power System]]
 - **Abstract class and category notes (61):** not expected to link.
-- **Functions performed by products but realizing no need yet (product count):** [[Sense Battery State]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Protect Battery from Harm]] (2), [[Charge Battery]] (2), [[Operate Truck Remotely]] (1), [[Detect Isolation Fault]] (1)
+- **Functions performed by products but realizing no need yet (product count):** [[Charge Battery]] (8), [[Sense Battery State]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Protect Battery from Harm]] (2), [[Operate Truck Remotely]] (1), [[Detect Isolation Fault]] (1), [[Inform Users of Battery Condition]] (1), [[Support Operator View and Positioning]] (1)
 
 ### Challenges to the current state
 
@@ -952,7 +950,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 ### Change history
 
-- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269.
+- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269. Regenerated again the same day after 15 products were linked to functions (priority 5).
 - 2026-10-03: first generated map (round 39).
 - 2026-10-03: owner decision (Q20): design and option routes count as reached; metric route stays a hypothesis column.
 - 2026-10-03: round 40 gap review. Added routes D, O and M; linked 21 product notes to functions, designs or options from cited sources; added function [[Diagnose Vehicle Remotely]] and need [[Find and Fix Vehicle Faults Without Downtime]]; conflicts C107 to C110; backlog IB-136 to IB-140. See [[Research Change and Decision Tracker]].
