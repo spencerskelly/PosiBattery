@@ -18,6 +18,9 @@ describedBy:
 performs:
   - "[[Schedule Charging Around Vehicle Readiness]]"
   - "[[Dispatch Vehicles to Tasks]]"
+hasDesign:
+  - "[[Charge Scheduling and Prioritization Design]]"
+  - "[[Vehicle Task Dispatch Design]]"
 madeBy:
   - "[[Seegrid]]"
 ---

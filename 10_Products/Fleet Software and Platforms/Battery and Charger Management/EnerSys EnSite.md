@@ -15,6 +15,8 @@ describedBy:
   - "[[Document - MHW Magazine EnSite Article (2022-03-15)]]"
 performs:
   - "[[Size Battery and Charger Fleet]]"
+hasDesign:
+  - "[[Fleet Sizing Analytics Design]]"
 offeredBy:
   - "[[EnerSys]]"
 offeredWith:

@@ -17,6 +17,9 @@ describedBy:
   - "[[Document - Flip Turn Energy Management Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Balance Charging Power Across Site Capacity]]"
+hasDesign:
+  - "[[Platform Load Management over Charger Network]]"
+  - "[[Time-of-Use Charge Shifting]]"
 madeBy:
   - "[[Flip Turn]]"
 ---

@@ -31,6 +31,7 @@ hasDesign:
   - "[[Wired Remote Charger Control Design]]"
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Communicated Battery Temperature Charge Compensation]]"
+  - "[[Charger-Group Peer Load Management]]"
 hasPart:
   - "[[Charger Status LED Bar Assembly]]"
   - "[[Charger Remote Management Agent]]"

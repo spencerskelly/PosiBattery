@@ -17,6 +17,8 @@ describedBy:
   - "[[Document - Blue Yonder Warehouse Execution Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Dispatch Vehicles to Tasks]]"
+hasDesign:
+  - "[[Vehicle Task Dispatch Design]]"
 madeBy:
   - "[[Blue Yonder]]"
 ---

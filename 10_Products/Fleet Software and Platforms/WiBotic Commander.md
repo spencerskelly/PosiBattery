@@ -18,6 +18,8 @@ describedBy:
 performs:
   - "[[Schedule Charging Around Vehicle Readiness]]"
   - "[[Manage Chargers Remotely]]"
+hasDesign:
+  - "[[Charge Scheduling and Prioritization Design]]"
 madeBy:
   - "[[WiBotic]]"
 ---

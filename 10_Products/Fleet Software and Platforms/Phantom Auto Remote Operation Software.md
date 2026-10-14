@@ -16,6 +16,8 @@ describedBy:
   - "[[Document - Phantom Auto and Mitsubishi Logisnext Americas Partnership (2021-05-13)]]"
 performs:
   - "[[Operate Truck Remotely]]"
+hasDesign:
+  - "[[Remote Vehicle Operation Link Design]]"
 madeBy:
   - "[[Phantom Auto]]"
 offeredBy:

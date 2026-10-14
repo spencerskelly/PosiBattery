@@ -18,6 +18,9 @@ describedBy:
 performs:
   - "[[Dispatch Vehicles to Tasks]]"
   - "[[Exchange Vehicle and Order Data with Warehouse System]]"
+hasDesign:
+  - "[[Vehicle Task Dispatch Design]]"
+  - "[[Warehouse System Data Interface Design]]"
 madeBy:
   - "[[Mobile Industrial Robots]]"
 ---

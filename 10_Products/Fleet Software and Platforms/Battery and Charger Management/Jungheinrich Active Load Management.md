@@ -17,6 +17,9 @@ describedBy:
   - "[[Forklift Charger Load Management Register]]"
 performs:
   - "[[Balance Charging Power Across Site Capacity]]"
+hasDesign:
+  - "[[Charger-Group Peer Load Management]]"
+  - "[[Time-of-Use Charge Shifting]]"
 madeBy:
   - "[[Jungheinrich]]"
 ---

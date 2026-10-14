@@ -17,6 +17,8 @@ describedBy:
   - "[[Forklift Charger Load Management Register]]"
 performs:
   - "[[Balance Charging Power Across Site Capacity]]"
+hasDesign:
+  - "[[Time-of-Use Charge Shifting]]"
 madeBy:
   - "[[Advanced Charging Technologies]]"
 ---

@@ -16,6 +16,8 @@ performedBy:
 realizes:
   - "[[Act on Fleet Data Without Information Overload]]"
   - "[[Dispatch a Task to a Vehicle]]"
+dependsOn:
+  - "[[Warehouse System Data Interface Design]]"
 ---
 
 # Exchange Vehicle and Order Data with Warehouse System
@@ -26,6 +28,7 @@ Pass orders, tasks and vehicle status between the vehicle fleet software and the
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Warehouse System Data Interface Design]] (new software Design; owner asked that all aspects be modeled).
 - Stated: FleetRabbit (two-way exchange including battery charge; vendor article) and MiR Fleet (REST API for ERP, MES and WMS; whether battery or charging data is included is not stated).
 - No Requirement is linked.
 

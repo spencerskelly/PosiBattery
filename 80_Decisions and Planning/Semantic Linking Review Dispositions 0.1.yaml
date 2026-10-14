@@ -2646,3 +2646,87 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Charge Scheduling and Prioritization Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Charger-Group Peer Load Management.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Fleet Sizing Analytics Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Fleet State Dashboard Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Platform Load Management over Charger Network.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Remote Vehicle Operation Link Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Solar-Matched Charging.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Time-of-Use Charge Shifting.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Vehicle Task Dispatch Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Warehouse System Data Interface Design.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Fleet Software Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Site Power Load Management Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."

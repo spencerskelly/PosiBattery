@@ -19,6 +19,9 @@ performs:
   - "[[Balance Charging Power Across Site Capacity]]"
   - "[[Schedule Charging Around Vehicle Readiness]]"
   - "[[Manage Chargers Remotely]]"
+hasDesign:
+  - "[[Charge Scheduling and Prioritization Design]]"
+  - "[[Platform Load Management over Charger Network]]"
 madeBy:
   - "[[PowerFlex]]"
 ---

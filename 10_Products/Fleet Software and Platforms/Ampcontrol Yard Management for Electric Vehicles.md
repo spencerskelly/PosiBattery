@@ -18,6 +18,8 @@ describedBy:
   - "[[Document - Ampcontrol Compatible Vehicles Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Schedule Charging Around Vehicle Readiness]]"
+hasDesign:
+  - "[[Charge Scheduling and Prioritization Design]]"
 madeBy:
   - "[[Ampcontrol]]"
 ---

@@ -19,6 +19,8 @@ performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Alert on Abnormal Condition]]"
   - "[[Show Battery and Charger State in Fleet Software]]"
+hasDesign:
+  - "[[Fleet State Dashboard Design]]"
 madeBy:
   - "[[Exide Technologies]]"
 offeredWith:

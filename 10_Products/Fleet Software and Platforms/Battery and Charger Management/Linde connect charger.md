@@ -18,6 +18,10 @@ describedBy:
 performs:
   - "[[Balance Charging Power Across Site Capacity]]"
   - "[[Show Battery and Charger State in Fleet Software]]"
+hasDesign:
+  - "[[Charger-Group Peer Load Management]]"
+  - "[[Time-of-Use Charge Shifting]]"
+  - "[[Fleet State Dashboard Design]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
