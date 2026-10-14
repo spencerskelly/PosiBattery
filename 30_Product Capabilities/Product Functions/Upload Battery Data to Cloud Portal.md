@@ -38,6 +38,7 @@ performedBy:
   - "[[Battery Data Gateway Upload Service]]"
   - "[[Raymond Energy Asset Manager]]"
   - "[[Exide GNB Fleet]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"

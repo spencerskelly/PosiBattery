@@ -34,6 +34,12 @@ supertypeOf:
   - "[[Stryten M-Series T300 Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[Midac MBS Traction Battery]]"
+  - "[[Midac MLM Battery]]"
+  - "[[Midac MLMx Battery]]"
+  - "[[Midac MHE Battery]]"
+  - "[[Midac MDLblock Battery]]"
+  - "[[Midac FORCEblock Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

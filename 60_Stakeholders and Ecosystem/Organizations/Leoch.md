@@ -12,6 +12,7 @@ playsRole:
   - "[[Battery Maker]]"
 makes:
   - "[[Leoch PzS Traction Battery]]"
+  - "[[Leoch PzS Automatic Water Filling System]]"
 ---
 
 # Leoch

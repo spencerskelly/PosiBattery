@@ -37,6 +37,13 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 6 years or 12,000 hours (2024 and 2025 brochures)
   - [[Heli Lithium-Ion Battery]]: 48 months (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report)
+  - [[Midac LFPblock Battery]]: 4,000 cycles at 80% DoD; warranty not stated (catalogue 01/2022)
+  - [[Midac Li-Ion Battery]]: 4,000+ cycles at 80% DoD; warranty not stated (catalogue 01/2022)
+  - [[Midac MDLblock Battery]]: 1,500+ cycles; warranty not stated (catalogue 01/2022)
+  - [[Midac MHE Battery]]: up to 1,800 cycles; warranty not stated (catalogue 01/2022)
+  - [[Midac MLM Battery]]: up to 1,500 cycles; warranty not stated (catalogue 01/2022)
+  - [[Midac MLMx Battery]]: up to 1,500 cycles; warranty not stated (catalogue 01/2022)
+  - [[Midac PzS Traction Battery]]: MDL design life 1,500+ cycles (VLA), VRLA 1,200+; warranty not stated (catalogue 02/2023)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: five years or 6,000 cycles (2020 release, maker claim); not stated in 2025
   - [[Stryten M-Series AGM200 Battery]]: warranty voided by vent-cap removal, unauthorized monitoring devices or tampering; period not stated (manual SE1045)
   - [[Stryten M-Series AGM220 Battery]]: 12-month warranty; cycle life not stated (brochure SE1043)

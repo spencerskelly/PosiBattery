@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Midac EUW Electrolyte Circulation System]]"
   - "[[Amaron Electrolyte Circulation System]]"
   - "[[Banner Traction Bull Electrolyte Circulation Pump Module]]"
+  - "[[Midac Air-Tech Air-Mixing System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

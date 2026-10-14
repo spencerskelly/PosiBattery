@@ -22,6 +22,7 @@ supertypeOf:
   - "[[Amaron Aqua Filling Plug]]"
   - "[[Banner Traction Bull Filling System]]"
   - "[[Amaron AFS System]]"
+  - "[[Leoch PzS Automatic Water Filling System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

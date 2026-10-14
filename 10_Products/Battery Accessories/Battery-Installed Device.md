@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Banner Traction Bull Battery Controller]]"
   - "[[Amaron DIY Rx]]"
   - "[[Deka Ready Power BDI]]"
+  - "[[Midac MB2 Battery Brain]]"
 describedBy:
   - "[[Battery Installed Device Market Reference]]"
   - "[[Battery Product Landscape]]"

@@ -57,6 +57,7 @@ performedBy:
   - "[[Thermistor Temperature Measurement Circuit]]"
   - "[[Batrium ShuntMon2]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[MIDATRON BMU]]"
 realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:

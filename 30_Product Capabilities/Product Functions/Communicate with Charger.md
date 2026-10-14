@@ -31,6 +31,7 @@ performedBy:
   - "[[Battery-Charger Communication Firmware]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
   - "[[Exide 2100 Li High Output Charger]]"
+  - "[[MIDATRON BMU]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"

@@ -41,6 +41,7 @@ supertypeOf:
   - "[[Battery Water Level Monitor]]"
   - "[[Exide Opus Display]]"
   - "[[Exide HC-LC Logger]]"
+  - "[[MIDATRON BMU]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
   - "[[Design Map]]"

@@ -42,6 +42,8 @@ performedBy:
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Wireless Battery Data Communication Firmware]]"
   - "[[Flux SkyBMS]]"
+  - "[[Midac LFPblock Battery]]"
+  - "[[Midac Mobile App]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 realizedBy:

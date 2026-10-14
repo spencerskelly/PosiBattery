@@ -49,6 +49,7 @@ performedBy:
   - "[[Raymond iBattery]]"
   - "[[Yale Battery Vision]]"
   - "[[Exide HC-LC Logger]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"

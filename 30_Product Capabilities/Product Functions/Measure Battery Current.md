@@ -35,6 +35,7 @@ performedBy:
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
   - "[[Batrium ShuntMon2]]"
+  - "[[MIDATRON BMU]]"
 realizedBy:
   - "[[Current Sensing Design]]"
 supportedBy:

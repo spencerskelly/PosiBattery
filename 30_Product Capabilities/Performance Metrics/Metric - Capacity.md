@@ -39,6 +39,15 @@ Capacity: Rated capacity.
   - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells
   - [[Leoch PzS Traction Battery]]: 200 to 400 Ah at 5 h per 2 V cell (2PzS200 to 5PzS400)
+  - [[Midac FORCEblock Battery]]: 16 to 340 Ah; 6, 8 and 12 V (catalogue 01/2022)
+  - [[Midac LFPblock Battery]]: 20 to 300 Ah; 12 to 48 V modules (catalogue 01/2022)
+  - [[Midac Li-Ion Battery]]: up to 1,200 Ah; 24 to 120 V (catalogue 01/2022)
+  - [[Midac MBS Traction Battery]]: 110 to 1,050 Ah (C5) (catalogue 02/2023)
+  - [[Midac MDLblock Battery]]: 130 to 250 Ah, 24 V (catalogue 01/2022)
+  - [[Midac MHE Battery]]: 250 to 1,000 Ah (catalogue 01/2022)
+  - [[Midac MLM Battery]]: 100 to 1,550 Ah (catalogue 01/2022)
+  - [[Midac MLMx Battery]]: 100 to 1,550 Ah (catalogue 01/2022)
+  - [[Midac PzS Traction Battery]]: MDL range 100 to 1,550 Ah (C5) (catalogue 02/2023)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: 1,056 Ah in an 18-inch compartment (2020 release, NMC); none stated in 2025 (C217)
   - [[Stryten M-Series AGM200 Battery]]: 45 to 105 Ah per positive at the 6-hour rate across eight models (brochure SE1047); how that maps to battery Ah is not stated
   - [[Stryten M-Series AGM220 Battery]]: 184 Ah at C/6 (brochure SE1043; the Pow'r Pak LD page lists no Ah)

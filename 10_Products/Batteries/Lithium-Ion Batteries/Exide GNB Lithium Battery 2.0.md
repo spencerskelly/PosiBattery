@@ -12,6 +12,12 @@ tags:
   - status-unclear
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - GNB Lithium Battery 2.0 MODEX Release (2020-03-10)]]"
+performs:
+  - "[[Log Battery Events and Usage]]"
+  - "[[Upload Battery Data to Cloud Portal]]"
+  - "[[Communicate Battery and Vehicle Data]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 madeBy:
@@ -32,6 +38,12 @@ GNB lithium-ion battery launched at MODEX 2020 with a BMS and an option for remo
   - [[Integrated Battery Management System]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
+
+- **Update 2026-10-13:** release (2020-03-10): greater energy density and cycle life than the first generation (no figures), BMS monitors status and health of each battery, data logging, optional remote communication to GNB Cloud, accommodates vehicle CAN protocols, Class I/II/III trucks and AGVs; Sonnenschein is not mentioned. "GNB Cloud" is not the same name as [[Exide GNB Fleet]]; relation unknown (IB-190). Source: <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
+- **Functions performed, with citations:**
+  - [[Log Battery Events and Usage]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
+  - [[Upload Battery Data to Cloud Portal]] (V, optional): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html>
+  - [[Communicate Battery and Vehicle Data]] (V): <https://www.globenewswire.com/news-release/2020/03/10/1997967/32973/en/GNB-Industrial-Power-Unveils-Lithium-Battery-2-0-at-MODEX-2020.html> (CAN protocols)
 
 ## Aliases
 

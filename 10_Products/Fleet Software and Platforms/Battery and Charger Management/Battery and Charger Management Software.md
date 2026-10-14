@@ -26,6 +26,8 @@ supertypeOf:
   - "[[EnerSys EZSelect Lite]]"
   - "[[EnerSys LifeNetwork iQ]]"
   - "[[EnerSys EnSite]]"
+  - "[[Midac Service Tool]]"
+  - "[[Midac Mobile App]]"
 ---
 
 # Battery and Charger Management Software

@@ -25,6 +25,7 @@ performedBy:
   - "[[CAN Battery State Communication Firmware]]"
   - "[[Orion BMS 2]]"
   - "[[Deka Ready Power Lithium Battery]]"
+  - "[[Midac Li-Ion Battery]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"

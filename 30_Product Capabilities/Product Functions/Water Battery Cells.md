@@ -26,6 +26,7 @@ performedBy:
   - "[[Water Injector Shutoff Assembly]]"
   - "[[Automatic Watering Control Logic]]"
   - "[[Banner Traction Bull Filling System]]"
+  - "[[Leoch PzS Automatic Water Filling System]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 dependsOn:

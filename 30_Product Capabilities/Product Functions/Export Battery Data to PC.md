@@ -16,6 +16,7 @@ performedBy:
   - "[[Battery Data Export Firmware]]"
   - "[[PC Battery Data Retrieval Software]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Midac Service Tool]]"
 dependsOn:
 realizedBy:
   - "[[PC Battery Data Export Design]]"

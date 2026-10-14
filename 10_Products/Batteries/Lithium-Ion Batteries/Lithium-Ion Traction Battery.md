@@ -38,6 +38,8 @@ supertypeOf:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
   - "[[BlitzNXT LiFePO4 Forklift Battery]]"
+  - "[[Midac LFPblock Battery]]"
+  - "[[Midac Li-Ion Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

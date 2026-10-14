@@ -35,7 +35,10 @@ Watering Interval: Interval between refills for flooded batteries.
   - [[EnerSys NexSys TPPL Battery]]: never requires watering (maintenance-free) (page)
   - [[EnerSys NexSys TPPL Bloc Battery]]: never requires watering (12V sheet)
   - [[Exide MARATHON Battery]]: MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging
+  - [[Leoch PzS Traction Battery]]: "half maintenance" claim; interval not stated (page)
   - [[Linde Ei Series]]: maintenance-free integrated lithium-ion battery
+  - [[Midac MLM Battery]]: topping up up to 12 weeks (catalogue 01/2022)
+  - [[Midac MLMx Battery]]: topping up up to 8 weeks (catalogue 01/2022)
   - [[Raymond 8250 Lithium-Ion Battery]]: no watering, equalizing or cleaning
   - [[Stryten M-Series AGM200 Battery]]: never needs watering (valve-regulated)
   - [[Stryten M-Series T310 Battery]]: up to 90 days

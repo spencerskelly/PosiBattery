@@ -52,6 +52,8 @@ performedBy:
   - "[[Wrap-Around Cell Connector Sensor Assembly]]"
   - "[[Low-Current Electrolyte Level Input Circuit]]"
   - "[[Capacitive Electrolyte Probe Element]]"
+  - "[[MIDATRON BMU]]"
+  - "[[Midac Electrolyte Level Sensor]]"
 realizedBy:
   - "[[Electrolyte Level Sensing Design]]"
 realizes:

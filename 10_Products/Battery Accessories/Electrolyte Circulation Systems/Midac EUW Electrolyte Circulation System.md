@@ -58,6 +58,8 @@ Maker or publisher marketing claims as stated, not independently verified.
 
 - **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
+- **Update 2026-10-13:** carries `hasPart` of the PzS battery, the reverse of how an option relates to a battery; flagged C229. Midac's own catalogues do not use the name EUW (C228).
+
 ## Aliases
 
 

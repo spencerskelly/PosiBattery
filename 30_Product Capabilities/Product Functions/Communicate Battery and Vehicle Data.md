@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Upload Battery Data to Cloud Portal]]"
 performedBy:
   - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
+  - "[[Exide GNB Lithium Battery 2.0]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 ---

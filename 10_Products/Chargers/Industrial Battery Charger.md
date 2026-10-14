@@ -15,6 +15,12 @@ supertypeOf:
   - "[[Light-Duty Charger]]"
   - "[[On-board Charger]]"
   - "[[Wireless Charger]]"
+  - "[[MIDATRON HE Charger]]"
+  - "[[MIDATRON MTT Charger]]"
+  - "[[MIDATRON MTB Charger]]"
+  - "[[MIDATRON HF Charger]]"
+  - "[[MIDATRON HE-Lion Charger]]"
+  - "[[MIDATRON HF LFPB Charger]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

@@ -25,6 +25,7 @@ supertypeOf:
   - "[[Batrium ShuntMon2]]"
   - "[[Nuvation Energy G5 BMS]]"
   - "[[Flux SkyBMS]]"
+  - "[[Midac Battery Management (MBM)]]"
 ---
 
 # Battery Management System

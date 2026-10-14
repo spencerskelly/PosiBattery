@@ -53,6 +53,8 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
   - [[Green Cubes SAFEFlex PLUS Battery]]: UL certified with EE rating (trade item); UL 2580:2020 (MH66684), ISO 13849-1:2023 and -2:2012, UN 38.3 Rev 7, Type EE (2026 product page); UL 2580 pending (2025 datasheet) (C214, C215)
   - [[HOPPECKE trak collect]]: EN 12895; EN 55011; EN 61000-6-2 and -6-3; EN 62485-3; UL 583
   - [[Lester Summit Series II]]: UL recognized/listed; cUL/CSA; FCC Part 15; ICES-003; CE; RCM; DOE and CEC; earlier note: DOE, CEC, NRCan
+  - [[Midac Li-Ion Battery]]: IP54, IP67 optional (catalogue 01/2022)
+  - [[Midac PzS Traction Battery]]: IEC 60254-2 series L-E; EN 60254-1/2; EN 62485-3 (catalogue 02/2023)
   - [[PosiCharge DVS300 Series]]: CEC certification
   - [[PosiCharge High Voltage Power Station (AC)]]: AC configuration cETLus listed to UL 2202, UL 2231-1 and -2, CSA C22.2 No. 281.1, 281.2 and 346; DC configuration listing pending (card)
   - [[PosiCharge PosiGuard]]: UL 583 and EN1175 (sheet); earlier note: UL 583; EN 1175

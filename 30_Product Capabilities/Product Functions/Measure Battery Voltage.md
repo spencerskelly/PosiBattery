@@ -44,6 +44,7 @@ performedBy:
   - "[[Batrium CellMate-K9]]"
   - "[[Batrium ShuntMon2]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[MIDATRON BMU]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
 realizedBy:

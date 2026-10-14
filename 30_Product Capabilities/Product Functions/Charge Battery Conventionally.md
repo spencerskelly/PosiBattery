@@ -30,6 +30,10 @@ performedBy:
   - "[[Deka D-Series Battery]]"
   - "[[Deka Dominator Battery]]"
   - "[[Deka MaxPowr Battery]]"
+  - "[[MIDATRON HE Charger]]"
+  - "[[MIDATRON MTT Charger]]"
+  - "[[MIDATRON MTB Charger]]"
+  - "[[MIDATRON HF Charger]]"
 ---
 
 # Charge Battery Conventionally
