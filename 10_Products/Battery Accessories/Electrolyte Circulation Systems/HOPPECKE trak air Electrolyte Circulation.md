@@ -25,6 +25,7 @@ offeredWith:
 hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Cell Air Distribution Tubing]]"
+integratesWith:
   - "[[HOPPECKE trak uplift air Battery]]"
 ---
 

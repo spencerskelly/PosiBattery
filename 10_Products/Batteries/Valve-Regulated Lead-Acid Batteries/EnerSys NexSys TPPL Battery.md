@@ -23,12 +23,11 @@ madeBy:
   - "[[EnerSys]]"
 integratesWith:
   - "[[Hyster Power Cellect]]"
+  - "[[EnerSys NexSys+ Charger]]"
 offeredWith:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[EnerSys Wi-iQ]]"
   - "[[EnerSys NexSys TPPL Bloc Battery]]"
-partOf:
-  - "[[EnerSys NexSys+ Charger]]"
 ---
 
 # EnerSys NexSys TPPL Battery

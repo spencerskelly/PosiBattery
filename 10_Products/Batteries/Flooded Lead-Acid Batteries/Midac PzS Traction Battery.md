@@ -28,7 +28,7 @@ offeredWith:
   - "[[MIDATRON BMU]]"
   - "[[Midac Air-Tech Air-Mixing System]]"
   - "[[Midac Electrolyte Level Sensor]]"
-partOf:
+integratesWith:
   - "[[Midac EUW Electrolyte Circulation System]]"
 ---
 

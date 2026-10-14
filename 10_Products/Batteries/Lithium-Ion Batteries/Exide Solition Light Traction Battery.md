@@ -25,7 +25,7 @@ madeBy:
 offeredWith:
   - "[[Exide Motion+ Lithium Charger]]"
   - "[[Exide Motion+ Premium Charger]]"
-partOf:
+integratesWith:
   - "[[Exide Motion+ Lithium Charger]]"
 ---
 

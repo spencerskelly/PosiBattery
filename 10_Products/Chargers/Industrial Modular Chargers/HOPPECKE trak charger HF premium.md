@@ -22,6 +22,7 @@ hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
+integratesWith:
   - "[[HOPPECKE trak uplift air Battery]]"
 ---
 

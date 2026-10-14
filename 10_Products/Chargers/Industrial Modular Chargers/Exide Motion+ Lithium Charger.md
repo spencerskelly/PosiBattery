@@ -22,6 +22,7 @@ hasDesign:
   - "[[BMS-Directed Charge Control Design]]"
 hasPart:
   - "[[BMS-Directed Charge Control Firmware]]"
+integratesWith:
   - "[[Exide Solition Light Traction Battery]]"
 ---
 

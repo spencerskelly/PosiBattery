@@ -26,6 +26,7 @@ hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Electrolyte Circulation Air Pump]]"
   - "[[Cell Air Distribution Tubing]]"
+integratesWith:
   - "[[Midac PzS Traction Battery]]"
 ---
 

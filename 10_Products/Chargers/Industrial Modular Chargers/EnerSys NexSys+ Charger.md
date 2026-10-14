@@ -38,6 +38,7 @@ offeredWith:
 hasPart:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[Temperature Compensation Charge Control Firmware]]"
+integratesWith:
   - "[[EnerSys NexSys TPPL Battery]]"
 ---
 

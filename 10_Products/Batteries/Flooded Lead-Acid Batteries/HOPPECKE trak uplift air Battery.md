@@ -23,7 +23,7 @@ madeBy:
 offeredWith:
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
-partOf:
+integratesWith:
   - "[[HOPPECKE trak charger HF premium]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
 ---
