@@ -41,6 +41,7 @@ Customer need: Keep the Truck Under Control on Slopes, Slippery Floors and in Em
   - [[Heli G Series Lithium Forklifts]] and [[Komatsu FB Series Electric Forklifts]]: selectable travel, lift and tilt speeds. Source: <https://www.liftstoday.com/listing/for-sale/259364865/2026-heli-cpd15-pneumatic-tire-forklifts?print=1> (V), <https://www.komatsu.com/en-au/products/equipment/forklifts/standard-electric-powered/komatsu-fb> (V).
   - Hazard context: [[Document - OSHA Summaries of Selected Forklift Fatalities (retrieved 2026-10-14)]] describes an unloaded forklift that tipped on a 13 percent ramp slope; the page gives no rates.
 - **Gaps:** no customer or buyer source; no source says how often rollback, wheel slip or runaway events happen in electric fleets; the speed-setting function is the weakest fit and could belong with [[Prevent Tip-Overs and Overloads]]; no Requirement is linked.
+- **Products reaching this need:** 15 by function, design or option (owner decision, round 40: design and option routes count as reached); 11 of those perform a realizing function. Largest families by function: Forklifts/Class I Electric Rider Trucks (8), Forklifts/Class II Electric Narrow Aisle Trucks (1), Vehicle Accessories/Operator Assist and Stability (1), Vehicle Accessories/Operator Displays (1). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
 
 ## Operational traceability
 

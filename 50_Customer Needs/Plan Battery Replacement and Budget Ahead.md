@@ -40,6 +40,7 @@ Customer need: Plan Battery Replacement and Budget Ahead. The problem behind it:
   - F13: an unnamed German dealer customer of Exide Motion+ Fleet said it could 'monitor and plan our new battery orders much better' (reported by the vendor's trade-press item). (T2) [[Document - Logistics Matters Cloud Management for Forklift Charging (Exide Motion+ Fleet, 2022-02-18)]]
   - F9: a vendor case study says an unnamed grocer using Philadelphia Scientific iBOS cut battery-change costs by 'nearly $195K', freed about $600K of excess battery inventory and extended battery life 28%. The page does not say which reports were used. See C196. (T2, vendor-produced) [[Document - MMH 237K in Annual Battery Savings in a Grocery DC (2026-03-06)]]
 - **Gaps:** no customer-side source with a name; the savings figures are vendor-produced and unreconciled (C196). The vault has no source stating how fleets decide a battery is at end of life; see [[SOC and SOH Decision Criteria]] for the SOH threshold question.
+- **Products reaching this need:** 48 by function, design or option (owner decision, round 40: design and option routes count as reached); 39 of those perform a realizing function. Largest families by function: Battery Accessories/Monitoring Devices (23), Fleet Software and Platforms/Battery and Charger Management (5), Battery Accessories/Identification and Charge Interface Devices (4), Batteries/Lithium-Ion Batteries (3). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
 
 ## Aliases
 

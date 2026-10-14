@@ -34,6 +34,7 @@ Customer need: Handle Loads Without Damaging Them. The problem behind it: a fork
 - **Product-stated evidence:**
   - [[Hangcha A Series Electric Forklifts]] (soft landing system) and [[Hangcha XC Series Electric Forklifts]]. Source: <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf> (V), <https://www.summithandling.com/summit-product/hangcha-xc-series-mid-electric-outdoor-lithium-ion-forklift/> (V).
 - **Gaps:** one function, two products, no source stating the damage problem; the need may be too narrow to stand alone and could merge into a wider load-handling need once more functions (fork positioning, load weight) are grouped; no Requirement is linked.
+- **Products reaching this need:** 3 by function, design or option (owner decision, round 40: design and option routes count as reached); 2 of those perform a realizing function. Largest families by function: Forklifts/Class I Electric Rider Trucks (2). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
 
 ## Operational traceability
 

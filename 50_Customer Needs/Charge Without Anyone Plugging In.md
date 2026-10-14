@@ -41,6 +41,7 @@ Customer need: Charge Without Anyone Plugging In. The problem behind it: someone
   - [[Raymond Courier AutoCharge System]]: Raymond says trucks charge on a schedule, at low battery or when idle, and drive-thru stations let trucks charge while towing carts without manual unhitching. Source: [[Document - Raymond Courier AutoCharge Sell Sheet]] (T1). <https://raymondcorp.com/Products/-/media/raymond/Literature/Truck-Literature/Courier/SIPB-1093-Courier-AutoCharge-Sell-Sheet_Final>
   - [[EnerSys NexSys AIR Wireless Charger]]: EnerSys says fully automated charging with no manual intervention and no wear from mechanical contacts. Source: [[Document - EnerSys NexSys AIR Product Page (retrieved 2026-10-14)]] (T1). <https://www.enersys.com/en-gb/products/chargers/battery-chargers/nexsys/nexsys-air/>
 - **Gaps:** no customer-side source; the savings and availability figures are vendor claims without a stated basis; no Requirement is linked (the vault leaves requirements as an intentional gap).
+- **Products reaching this need:** 19 by function, design or option (owner decision, round 40: design and option routes count as reached); 19 of those perform a realizing function. Largest families by function: Chargers/Wireless Chargers (10), Charger Accessories/Connector Accessories (5), Fleet Software and Platforms (1), Fleet Software and Platforms/Battery and Charger Management (1). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
 
 ## Operational traceability
 
