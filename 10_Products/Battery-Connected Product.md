@@ -46,6 +46,7 @@ describedBy:
   - "[[Unidentified Products Review]]"
   - "[[Product to Customer Need Map]]"
   - "[[Unlinked Product Triage Register]]"
+  - "[[Function-to-Solution Coverage Register]]"
 ---
 
 # Battery-Connected Product
