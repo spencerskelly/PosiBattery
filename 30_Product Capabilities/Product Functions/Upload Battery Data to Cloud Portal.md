@@ -39,6 +39,7 @@ performedBy:
   - "[[Raymond Energy Asset Manager]]"
   - "[[Exide GNB Fleet]]"
   - "[[Exide GNB Lithium Battery 2.0]]"
+  - "[[Exide Solition Material Handling Battery]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"

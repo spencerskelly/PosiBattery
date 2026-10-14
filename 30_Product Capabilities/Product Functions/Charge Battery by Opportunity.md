@@ -44,6 +44,8 @@ performedBy:
   - "[[Raymond 8250 Lithium-Ion Battery]]"
   - "[[Sonnenschein AS Battery]]"
   - "[[Exide 2100 HP Charger]]"
+  - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
+  - "[[Cat Lithium-Ion Battery Option]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

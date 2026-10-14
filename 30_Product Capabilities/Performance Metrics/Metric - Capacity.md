@@ -34,11 +34,13 @@ Capacity: Rated capacity.
   - [[EnerSys NexSys TPPL Bloc Battery]]: 26 to 186 Ah (C6); 30 to 210 Ah (C20) (12V data sheet)
   - [[Exide MARATHON Classic Battery]]: FT 6 V 180/200 Ah, 12 V 110 Ah; FF 6 V 187-297 Ah, 12 V 40-158 Ah (C5)
   - [[Exide MARATHON Excell Battery]]: EPzS 120-1,240 Ah; EPzB 110-800 Ah (GNB overview 2021)
+  - [[Exide Solition Light Traction Battery]]: 25.6 V: 25 Ah (0.64 kWh), 50 Ah (1.28 kWh), 100 Ah (2.56 kWh) (EU data sheet)
   - [[Exide Sonnenschein Lithium Battery]]: 80-440 Ah (24 and 36 V classes), 110-552 Ah (48 V), 110-966 Ah (80 V); 2.0 to 74.2 kWh
   - [[Flux Power GSE Pack]]: 300-600 Ah modular (2016 report); 210, 315, 420 or 630 Ah (16.8 to 50.4 kWh) across GSE2, GSE3, GSE4 and GSE6 (2021 brochure); GSE3 315 Ah, 24.2 kWh (2023 sheet) (C212, C213)
   - [[Flux Power LiFT Pack]]: 250 Ahe
   - [[Flux Power S-Series Battery]]: S8: 25.6 V, 105 Ah, 2.7 kWh (S8 brochure)
   - [[Green Cubes SAFEFlex PLUS Battery]]: 420-630 Ah (24 V class), 525-945 Ah (36 V), 525-840 Ah (48 V), 315-735 Ah (80 V); 11 to 61 kWh (2026 sources); 36 V 630-840 Ah in the 2025 datasheet (C215)
+  - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 80 V packs 228 to 604 Ah (18.24 to 48.32 kWh); EVE 76.8 V 230 to 608 Ah (datasheet)
   - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells | update 2026-10-13: 48 V, 360 and 480 Ah (BEST 2017; Operations Engineer); 24, 48 and 80 V versions exist (eMove360)
   - [[Leoch PzS Traction Battery]]: 200 to 400 Ah at 5 h per 2 V cell (2PzS200 to 5PzS400)

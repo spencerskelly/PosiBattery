@@ -41,6 +41,7 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[Advanced Charging Technologies BATTview]]: -25 to 60 C
   - [[EnerSys Wi-iQ]]: -20 to 60 C
   - [[Exide Motion+ EasyMonitor]]: -10 to 60 C
+  - [[Exide Solition Light Traction Battery]]: charge 0 to 45 C; discharge and storage -20 to 55 C (EU data sheet)
   - [[Flow-Rite Eagle Eye Essential IV]]: -40 to 185 F (-40 to 85 C)
   - [[Flux Power S-Series Battery]]: -30 to 55 C (S8 brochure)
   - [[Godrej Multi-Ion Forklift Battery]]: ambient above 45 C (maker claim)

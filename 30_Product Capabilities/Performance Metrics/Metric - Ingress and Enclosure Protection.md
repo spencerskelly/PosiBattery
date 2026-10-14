@@ -38,6 +38,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Delta-Q IC650]]: IP66 (reseller listings; sealed die-cast aluminum)
   - [[EnerSys NexSys+ Charger]]: NEMA 3R / IP54 (optional Outdoor model); earlier note: IP-54 on the optional NexSys+ Outdoor model
   - [[EnerSys Wi-iQ]]: IP65; UL 94V-0; acid resistant
+  - [[Exide Solition Light Traction Battery]]: IP54 module, IP44 with display (EU data sheet)
   - [[Flux Power GSE Pack]]: IP56 on the GSE3 (2023 sheet); not stated in the 2021 brochure
   - [[Green Cubes GSE Lithium Battery]]: IP54 battery control modules (release)
   - [[Green Cubes SAFEFlex PLUS Battery]]: IP 2X (product page and datasheets)

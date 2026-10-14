@@ -47,6 +47,8 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
   - [[EnerSys Express Charger]]: CEC compliant; UL certified
   - [[EnerSys Wi-iQ]]: 2014/35/EU; EN 61010-1; EN 12895; 2014/30/EU; RoHS; radio directive
   - [[Exide Motion+ EasyMonitor]]: EU low voltage directive 2014/35/EU
+  - [[Exide Solition Light Traction Battery]]: UN38.3, CE, UKCA, IEC 62619, IEC 62133 (EU data sheet)
+  - [[Exide Solition Material Handling Battery]]: EN 1175:2020 (release)
   - [[Flow-Rite Eagle Eye Essential IV]]: ETL to UL 61010-1 (Eagle Eye range)
   - [[Flux Power LiFT Pack]]: UL 2271 Listed (first)
   - [[Flux Power S-Series Battery]]: UL Type EE

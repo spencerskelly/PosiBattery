@@ -13,8 +13,11 @@ subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:
   - "[[Document - Hangcha XC Series Page (retrieved 2026-10-13)]]"
+  - "[[Document - Hangcha XC Series Li-Ion Forklift Datasheet (1.5-3.5 t)]]"
 performs:
   - "[[Operate in Cold Storage]]"
+  - "[[Charge Battery Fast]]"
+  - "[[Charge Battery by Opportunity]]"
 hasDesign:
   - "[[Integrated Battery Heater]]"
 madeBy:
@@ -41,6 +44,11 @@ Hangcha LiFePO4 forklift battery packs for the A and XC series, with quick-chang
 - **Round 27:** the quick-change feature belongs to the truck system (compartment plus pack); the function link now sits on [[Hangcha XC Series Electric Forklifts]] and [[Hangcha A Series Electric Forklifts]]; this note keeps the roller-type pack and the heater.
 
 - **Update 2026-10-13:** the XC series page calls the battery "Li-Ion" and gives no battery data, so LiFePO4 is not confirmed there (IB-193). Source: <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
+
+- **Update 2026-10-13 (European datasheet):** 80 V packs 228 to 604 Ah (18.24 to 48.32 kWh) and EVE packs at 76.8 V 230 to 608 Ah; quick charge under 2 h; opportunity charging; low-temperature heating standard; LiFePO4; 6 years or 12,000 hours warranty; CATL packs optional plus EVE packs; charger optional. **Conflict-visible (C235):** an earlier reading said cells from CATL exclusively; this datasheet lists CATL as optional and EVE packs as well. Source: <https://www.hangchaeurope.com/upload/files/XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf>
+- **Functions performed, with citations:**
+  - [[Charge Battery Fast]] (V): <https://www.hangchaeurope.com/upload/files/XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf>
+  - [[Charge Battery by Opportunity]] (V): <https://www.hangchaeurope.com/upload/files/XC%20series%20electric%20forklift%20with%20Li-Ion%20power%201.5~3.5t.pdf>
 
 ## Aliases
 

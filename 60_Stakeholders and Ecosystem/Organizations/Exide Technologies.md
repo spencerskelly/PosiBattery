@@ -45,6 +45,7 @@ makes:
   - "[[Sonnenschein AS Battery]]"
   - "[[Exide 2100 HP Charger]]"
   - "[[Exide BattID]]"
+  - "[[Exide Solition Material Handling Battery]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:

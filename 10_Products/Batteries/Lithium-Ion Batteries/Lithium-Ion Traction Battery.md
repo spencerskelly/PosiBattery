@@ -40,6 +40,7 @@ supertypeOf:
   - "[[BlitzNXT LiFePO4 Forklift Battery]]"
   - "[[Midac LFPblock Battery]]"
   - "[[Midac Li-Ion Battery]]"
+  - "[[Exide Solition Material Handling Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

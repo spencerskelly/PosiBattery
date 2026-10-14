@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Hangcha XC Series Li-Ion Forklift Datasheet (1.5-3.5 t)]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Change Battery Quickly]]"

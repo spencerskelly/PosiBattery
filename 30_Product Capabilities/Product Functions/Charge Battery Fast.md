@@ -43,6 +43,8 @@ performedBy:
   - "[[Exide TENSOR Battery]]"
   - "[[Exide 2100 HP Charger]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
+  - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
+  - "[[Cat Lithium-Ion Battery Option]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

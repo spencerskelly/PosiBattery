@@ -33,6 +33,7 @@ Peak Efficiency: Highest AC-to-DC conversion efficiency.
   - [[Deka PowerForce Charger]]: about 95%
   - [[EnerSys IMPAQ Charger]]: up to 94% (guide)
   - [[EnerSys NexSys+ Charger]]: 94% with NexSys iON; '94% or greater' (chart)
+  - [[Exide Solition Material Handling Battery]]: Ah charge efficiency over 98% (release)
   - [[Green Cubes GSE Lithium Battery]]: up to 98% electrical efficiency claimed (release)
   - [[Lester Summit Series II]]: above 91% peak (DOE test, 115 Vac)
   - [[PosiCharge DVS300 Series]]: 90 percent (sheet)

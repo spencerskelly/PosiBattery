@@ -20,6 +20,7 @@ describedBy:
   - "[[BMS Function Definitions]]"
 performedBy:
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
+  - "[[Cat Lithium-Ion Battery Option]]"
 ---
 
 # Protect Battery from Harm

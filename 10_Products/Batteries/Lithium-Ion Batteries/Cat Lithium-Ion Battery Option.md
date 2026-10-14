@@ -11,6 +11,13 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Cat Li-ion Batteries Page (EAME, retrieved 2026-10-13)]]"
+  - "[[Document - Cat 80 V Li-ion News Release (2020-06-30)]]"
+performs:
+  - "[[Charge Battery Fast]]"
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Protect Battery from Harm]]"
 hasDesign:
   - "[[Truck Charging Port]]"
 offeredBy:
@@ -35,8 +42,15 @@ Cat lithium-ion battery option on its electric counterbalance trucks, with an ea
 
 - **Update 2026-10-13:** a search for supplier, voltage and capacity returned only Cat truck listings; nothing new was found. Left thin (IB-191).
 
+- **Update 2026-10-13:** Cat EAME page: Li-ion option on almost all Cat electric counterbalance and warehouse truck ranges; full charge in as little as 1 hour; lifespan 3 to 4 times lead-acid; optional 5-year warranty subject to annual check-ups; intelligent BMS; losses up to 30% lower. The 2020-06-30 release names a "LIBAT" option with a retrofit conversion kit for the 80 V EP25-35(C)N range. No battery maker is named on either page (footer: Logisnext Europe B.V.). Sources: <https://www.catlifttruck.com/solutions/power-sources/li-ion-batteries>; <https://www.catlifttruck.com/news/li-ion-technology-80v>
+- **Functions performed, with citations:**
+  - [[Charge Battery Fast]] (V): <https://www.catlifttruck.com/solutions/power-sources/li-ion-batteries>
+  - [[Charge Battery by Opportunity]] (V): <https://www.catlifttruck.com/solutions/power-sources/li-ion-batteries>
+  - [[Protect Battery from Harm]] (V): <https://www.catlifttruck.com/solutions/power-sources/li-ion-batteries>
+
 ## Aliases
 
 - Cat Li-ion
+- LIBAT
 
 ## Former ids

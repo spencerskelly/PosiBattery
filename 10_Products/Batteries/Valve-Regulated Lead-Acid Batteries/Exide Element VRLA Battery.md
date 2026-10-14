@@ -33,6 +33,8 @@ Exide Element gel battery blocks for light-duty motive power, introduced with th
 - **Design characteristics, with citations:**
   - [[Gel Electrolyte]] (V): <https://www2020.theautochannel.com/news/2007/03/28/041598.html>
 
+- **Update 2026-10-13:** searches found the Element charger manual ([[Exide Element HF Charger]]) and a "Relay Gel" I&O manual for R12V stationary models, which is not an Element traction battery and is not used here. Exide's Element gel bloc page blocks automated reading. Battery voltage, capacity and charging data remain unfound (IB-194).
+
 ## Aliases
 
 - Element

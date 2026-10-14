@@ -11,6 +11,8 @@ tags:
   - status-unclear
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - Exide GNB Element Series Charger Manual Excerpt]]"
 hasDesign:
   - "[[Multi-Voltage Output]]"
 madeBy:
@@ -31,6 +33,8 @@ Exide high-frequency multi-voltage, multi-capacity, multi-chemistry charger intr
 - **Status unclear:** the source is from 2007; current availability not checked.
 - **Design characteristics, with citations:**
   - [[Multi-Voltage Output]] (V): <https://www2020.theautochannel.com/news/2007/03/28/041598.html>
+
+- **Update 2026-10-13:** a manual excerpt names Element HF chargers LMT-06kW-48-xxxS (48 V 150 A), LMT-10kW-48-xxxT (48 V 250 A), LMT-10kW-80-xxxT (80 V 120 A), 480 VAC three-phase; battery voltage selectable 24/36/48 V. Dated 2007 product; current availability still unchecked. Source: <https://www.manualslib.com/manual/1605951/Exide-Gnb-Element-Series.html>
 
 ## Aliases
 
