@@ -26,6 +26,11 @@ performedBy:
   - "[[Orion BMS 2]]"
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[Midac Li-Ion Battery]]"
+  - "[[Flux Power GSE2]]"
+  - "[[Flux Power GSE3]]"
+  - "[[Flux Power GSE4]]"
+  - "[[Flux Power GSE6]]"
+  - "[[Flux Power LiFT Pack]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"

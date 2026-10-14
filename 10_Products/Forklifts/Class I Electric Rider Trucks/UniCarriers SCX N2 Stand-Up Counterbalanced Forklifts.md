@@ -13,6 +13,8 @@ subtypeOf:
 describedBy:
   - "[[Document - UniCarriers SCX N2 Launch Item (2023-09-12)]]"
   - "[[Document - UniCarriers SCX Spec Sheet (Lectura)]]"
+performs:
+  - "[[Slow Truck in Curves]]"
 madeBy:
   - "[[Logisnext Americas]]"
 offeredWith:

@@ -16,6 +16,8 @@ subtypeOf:
   - "[[Flux Power GSE Pack]]"
 describedBy:
   - "[[Document - Flux Power GSE Battery Pack V.2 Brochure (2021)]]"
+performs:
+  - "[[Communicate Battery State over CAN]]"
 madeBy:
   - "[[Flux Power]]"
 ---

@@ -14,6 +14,8 @@ describedBy:
   - "[[Document - AllMachines UniCarriers MX2-25L Page (retrieved 2026-10-14)]]"
   - "[[Document - UniCarriers MX2 and MXL Launch Release (2022-06-21)]]"
   - "[[Document - UniCarriers and Rocla ProMat 2023 Reveal (2023-03-22)]]"
+performs:
+  - "[[Slow Truck in Curves]]"
 hasDesign:
   - "[[Drop-In Battery Cavity]]"
 madeBy:

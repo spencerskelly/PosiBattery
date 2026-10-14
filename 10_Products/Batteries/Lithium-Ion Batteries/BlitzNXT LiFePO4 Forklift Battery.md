@@ -12,6 +12,8 @@ tags:
   - vendor-claims
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Connect Battery to Charger or Vehicle]]"
 madeBy:
   - "[[BlitzNXT]]"
 describedBy:

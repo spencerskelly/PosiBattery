@@ -16,6 +16,8 @@ subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:
   - "[[Document - ROYPOW LiFePO4 Forklift Batteries Brochure (Ver. 2026-09-02)]]"
+performs:
+  - "[[Connect Battery to Charger or Vehicle]]"
 madeBy:
   - "[[ROYPOW]]"
 integratesWith:

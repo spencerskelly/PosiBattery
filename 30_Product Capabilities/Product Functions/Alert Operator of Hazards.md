@@ -44,6 +44,7 @@ performedBy:
   - "[[Linde Safety Guard]]"
   - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[Mitsubishi FBC Cushion Tire Electric Forklifts]]"
 realizes:
   - "[[Warn the Operator of People and Objects Near the Truck]]"
   - "[[Warn Pedestrians of an Approaching Truck]]"

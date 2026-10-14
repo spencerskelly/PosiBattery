@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+performs:
+  - "[[Alert Operator of Hazards]]"
 hasDesign:
   - "[[AC Drive Motor]]"
 madeBy:

@@ -10,6 +10,8 @@ tags:
   - battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+performs:
+  - "[[Communicate Battery State over CAN]]"
 hasDesign:
   - "[[Integrated Battery Heater]]"
 madeBy:
