@@ -16,6 +16,9 @@ supertypeOf:
   - "[[Linde Smartphone Holder]]"
   - "[[STILL EasyBelt]]"
   - "[[UniCarriers In-Cab Accessories]]"
+  - "[[Raymond Accessory Bar]]"
+  - "[[Raymond Large Storage Tote]]"
+  - "[[Raymond Extreme Environment Protection]]"
 ---
 
 # Operator Convenience Accessory

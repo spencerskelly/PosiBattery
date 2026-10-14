@@ -11,10 +11,22 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Raymond 8250 Lithium-Ion Pallet Jack Page (retrieved 2026-10-13)]]"
+performs:
+  - "[[Charge Battery from Standard Power Outlet]]"
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Protect Battery from Deep Discharge]]"
+  - "[[Display Battery Status to Operator]]"
 madeBy:
   - "[[Raymond]]"
 offeredWith:
   - "[[Raymond 8000 Series Pallet Trucks]]"
+  - "[[Raymond Accessory Bar]]"
+  - "[[Raymond PIN Code Pad]]"
+  - "[[Raymond Large Storage Tote]]"
+  - "[[Raymond Extreme Environment Protection]]"
+  - "[[Purkeys Trailer Auxiliary Power System]]"
 ---
 
 # Raymond 8250 Lithium-Ion Battery
@@ -28,6 +40,13 @@ Raymond-built 24 V (26 V nominal) lithium-ion battery of the 8250 walkie pallet 
 - Raymond says the 8250 uses a 24 V (26 V nominal), 78 Ah lithium-ion battery (156 Ah option) manufactured in the US exclusively for Raymond, UL E/EE, UN 38.3 and UL 2271 approved, with low internal resistance, constant power, no watering, equalizing or cleaning, and better acceptance of regenerative power. Source: Raymond 8250 page and Johnston Equipment listing (T1/T3), retrieved 2026-10-03. <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 - **Not stated:** who makes the cells or the pack; relation to [[Raymond Energy Essentials Lithium-Ion Battery]] is not stated (C64).
 - **Functions performed, with citations:**
+
+- **Update 2026-10-13:** page: recharge 2.5 to 3 h (0 to 100%) from a standard 110 V outlet; onboard BMS schedules charge, alerts and prevents over-charge/over-discharge; HUD shows state of charge with low-charge alarm; four-stage over-discharge protection (low-charge warning, reserve power, manual travel restriction, dormant); plug-in without disconnecting. Option named "2 CMA Battery": 156 Ah, 6 to 8 h run, 6 h recharge. Accessories now noted: [[Raymond Accessory Bar]], [[Raymond PIN Code Pad]], [[Raymond Large Storage Tote]], [[Raymond Extreme Environment Protection]], [[Purkeys Trailer Auxiliary Power System]]. Source: <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+- **Functions performed, with citations:**
+  - [[Charge Battery from Standard Power Outlet]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+  - [[Charge Battery by Opportunity]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+  - [[Protect Battery from Deep Discharge]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+  - [[Display Battery Status to Operator]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 
 ## Aliases
 

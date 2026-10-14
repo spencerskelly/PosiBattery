@@ -19,6 +19,7 @@ performedBy:
   - "[[CAN Deep Discharge Shutdown Logic]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
 dependsOn:

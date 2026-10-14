@@ -33,6 +33,8 @@ Cat lithium-ion battery option on its electric counterbalance trucks, with an ea
 - **Design characteristics, with citations:**
   - [[Truck Charging Port]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
 
+- **Update 2026-10-13:** a search for supplier, voltage and capacity returned only Cat truck listings; nothing new was found. Left thin (IB-191).
+
 ## Aliases
 
 - Cat Li-ion

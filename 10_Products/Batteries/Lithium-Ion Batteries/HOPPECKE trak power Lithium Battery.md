@@ -11,6 +11,8 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - HOPPECKE trak Applications Page (retrieved 2026-10-13)]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 madeBy:
@@ -30,6 +32,8 @@ HOPPECKE lithium-ion systems with an integrated battery management system.
   - [[Integrated Battery Management System]] (V): <https://hoppecke.com/en-us/applications/trak>
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://hoppecke.com/en-us/applications/trak>
+
+- **Update 2026-10-13:** the UK trak page adds modular design and high cycle life (no figures); it names only trak | collect, and describes that product for lead-acid batteries. No voltage, Ah, chemistry or charger. Source: <https://www.hoppecke.com/uk/applications/trak/>
 
 ## Aliases
 

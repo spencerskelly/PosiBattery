@@ -30,6 +30,7 @@ performedBy:
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Operator Access Authorization Logic]]"
   - "[[Vehicle Enable Interlock]]"
+  - "[[Raymond PIN Code Pad]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"

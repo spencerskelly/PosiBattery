@@ -39,6 +39,7 @@ performedBy:
   - "[[EnerSys NexSys TPPL Battery]]"
   - "[[Deka FastCharge Battery]]"
   - "[[MIDATRON HE Charger]]"
+  - "[[Jungheinrich Lithium-Ion Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

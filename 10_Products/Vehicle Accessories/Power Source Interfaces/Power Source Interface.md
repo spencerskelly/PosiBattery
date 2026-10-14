@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[Hyster Power Cellect]]"
   - "[[PosiCharge DIY Fast Charge Kit]]"
+  - "[[Purkeys Trailer Auxiliary Power System]]"
 ---
 
 # Power Source Interface

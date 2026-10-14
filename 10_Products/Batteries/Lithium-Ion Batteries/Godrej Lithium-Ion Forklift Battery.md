@@ -11,6 +11,8 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Godrej Lithium-Ion Forklift Release (2024-08-22)]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
 madeBy:
@@ -29,6 +31,8 @@ Godrej lithium-ion forklift battery with a Godrej-designed battery management sy
 - **Not stated:** nominal voltages and capacities.
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system>
+
+- **Update 2026-10-13:** release of 2024-08-22 repeats 5,000 cycles vs 1,200, 20 to 80% in 2.5 h vs 6 h, 30% less energy, up to 15% more run time on 2 to 3 t trucks, opportunity charging, modular; target 100% cell localization by next year (the headline says end of next year). The 2026 Multi-Ion release also claims 5,000 cycles; whether Multi-Ion is the same battery under a new name is not stated (IB-191; see [[Godrej Multi-Ion Forklift Battery]]). Source: <https://www.godrejenterprises.com/newsroom/press-releases/godrej-and-boyce-launches-india-s-first-lithium-ion-powered-forklift-truck-with-fully-indigenous-battery-management-system>
 
 ## Aliases
 

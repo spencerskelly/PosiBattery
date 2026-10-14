@@ -31,12 +31,13 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[EnerSys IRONCLAD Battery]]: 5+1 year limited warranty (Loadhog sheet, 2020); cycle life not stated
   - [[EnerSys NexSys TPPL Battery]]: cycle life and warranty not stated (page and 2 V sheet)
   - [[Flux Power GSE Pack]]: over 3,500 cycles at 80 percent depth of discharge, no end-of-life basis stated (2023 GSE3 sheet, maker claim); warranty not stated
-  - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid
+  - [[Flux Power S-Series Battery]]: over 3,000 cycles claimed; warranty not stated (S8 brochure)
+  - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid | update 2026-10-13: 5,000 cycles claimed vs 1,200 lead-acid (release 2024-08-22)
   - [[Godrej Multi-Ion Forklift Battery]]: up to 5,000 cycles; 7-year warranty (trade report) | update 2026-10-13: see C218: Godrej's lithium-ion line also claims 5,000 cycles
   - [[Green Cubes SAFEFlex PLUS Battery]]: 4,000 cycles (maker claim, no end-of-life basis stated); warranty not stated
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 6 years or 12,000 hours (2024 and 2025 brochures)
   - [[Heli Lithium-Ion Battery]]: 48 months (dealer pages)
-  - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report)
+  - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report) | update 2026-10-13: up to 3,000 full cycles; free 5-year warranty, capacity under 65% triggers repair (BEST 2017, eMove360 2017)
   - [[Midac LFPblock Battery]]: 4,000 cycles at 80% DoD; warranty not stated (catalogue 01/2022)
   - [[Midac Li-Ion Battery]]: 4,000+ cycles at 80% DoD; warranty not stated (catalogue 01/2022)
   - [[Midac MDLblock Battery]]: 1,500+ cycles; warranty not stated (catalogue 01/2022)

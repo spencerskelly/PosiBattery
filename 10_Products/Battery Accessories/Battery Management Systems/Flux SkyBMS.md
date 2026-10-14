@@ -22,6 +22,7 @@ hasDesign:
   - "[[Integrated Battery Management System]]"
 offeredWith:
   - "[[Flux Power GSE Pack]]"
+  - "[[Flux Power S-Series Battery]]"
 ---
 
 # Flux SkyBMS

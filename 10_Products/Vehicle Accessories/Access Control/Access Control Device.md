@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[Panacea Smart Start]]"
   - "[[Toyota PIN Code Access Pad]]"
+  - "[[Raymond PIN Code Pad]]"
 ---
 
 # Access Control Device

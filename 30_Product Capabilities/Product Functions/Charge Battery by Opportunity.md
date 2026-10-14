@@ -41,6 +41,7 @@ performedBy:
   - "[[Deka D-Series Battery]]"
   - "[[Deka Dominator Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

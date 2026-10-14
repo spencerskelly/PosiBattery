@@ -28,6 +28,7 @@ performedBy:
   - "[[Hyster Power Cellect]]"
   - "[[Exide Retrofitting Communicator]]"
   - "[[Crown V-Force Lithium-Ion ESS]]"
+  - "[[Raymond 8250 Lithium-Ion Battery]]"
 realizedBy:
   - "[[Vehicle Operator Display Design]]"
 realizes:
