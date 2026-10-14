@@ -22,7 +22,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 
 - **Terms (proposed 2026-10-14):** battery installation = [[Drop-In Battery Cavity]] or [[Vehicle-Integrated Battery]]; charge access = [[Truck Charging Port]] (alias On-Vehicle Charge Inlet), [[Battery-Direct Charge Connection]], or [[Battery Onboard Charger]] (charger built into the truck, mains inlet on the vehicle). A truck can offer more than one.
 - **Rule:** a value is recorded only where a page or sheet states it. Where a source is silent the cell says "not found"; no industry default is assumed. Lead-acid trucks are very likely drop-in, but that is not recorded without a source.
-- **Result (recounted 2026-10-14, counting cells that link a term):** of 41 rows, 22 have a battery-installation value and 9 have a charge-access value. Most remaining gaps need the OEM spec sheet (IB-201).
+- **Result (recounted 2026-10-14, counting cells that link a term):** of 42 rows, 23 have a battery-installation value and 9 have a charge-access value. Most remaining gaps need the OEM spec sheet (IB-201).
 
 | Truck note | Battery installation | Evidence | Charge access | Evidence | Gap |
 |---|---|---|---|---|---|
@@ -59,6 +59,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | STILL RX 60 | [[Drop-In Battery Cavity]] (lateral change) | V (T3 dealer page) | not found | - |  |
 | STILL EXH-SF | [[Drop-In Battery Cavity]] (lateral change) | V | optional built-in onboard charger: [[Battery Onboard Charger]] | V | connector |
 | Toyota 3-Wheel | [[Drop-In Battery Cavity]] (optional roll-out or slide-out) | V (option) | not found (optional fast charge) | - | charge inlet |
+| Toyota 7FBCU35-55 | [[Drop-In Battery Cavity]] (optional slide-out) | V (option; T2 dealer-hosted sheet) | not found | - | charging; lithium |
 | Toyota Traigo48 | [[Quick-Change Battery Compartment]]; Traigo_i [[Vehicle-Integrated Battery]] | V (existing) | Traigo_i charging port in counterweight: [[Truck Charging Port]] | V (existing) |  |
 | UniCarriers MX2 and MXL | [[Drop-In Battery Cavity]] (separate 80 V 775 Ah battery, weights, connector cable) | V (spec fields, T3) | not found; Triathlon Li is a factory option | - | Triathlon integration |
 | UniCarriers SCX N2 | not found (older SCX sheet: rollers and side gates) | - | not found | - | N2 sheet |

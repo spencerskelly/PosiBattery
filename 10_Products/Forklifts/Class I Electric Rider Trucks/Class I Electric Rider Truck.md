@@ -43,6 +43,7 @@ supertypeOf:
   - "[[Cat Electric Lift Trucks (North America Series List)]]"
   - "[[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]]"
   - "[[Mitsubishi FB25-55N Electric Pneumatic Forklifts (Americas Listing)]]"
+  - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
 ---
 
 # Class I Electric Rider Truck

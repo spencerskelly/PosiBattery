@@ -28,6 +28,7 @@ designOf:
   - "[[Crown RR-RD 5700 Series]]"
   - "[[Toyota 3-Wheel Electric Forklift]]"
   - "[[Jungheinrich ETV C16 and C20]]"
+  - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
 ---
 
 # Drop-In Battery Cavity

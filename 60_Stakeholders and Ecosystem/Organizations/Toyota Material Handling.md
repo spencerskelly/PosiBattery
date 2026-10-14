@@ -30,6 +30,7 @@ makes:
   - "[[Toyota Forklift Lighting Options]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota Object Detection Radar]]"
+  - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
 offers:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 subsidiaryOf:
