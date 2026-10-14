@@ -41,7 +41,22 @@ Green Cubes lithium iron phosphate battery family for material handling and GSE 
 - A trade item says Green Cubes announced UL certification and EE rating for its whole line, including 24, 36, 48 and 80 V lithium models. Source: M H&W magazine category page (T3), retrieved 2026-10-02. <https://www.mhwmag.com/category/products/page/13/>
 
 - **Official sources found 2026-10-13 (read through a summarizing tool, IB-168):** [[Document - Green Cubes Lithium SAFEFlex PLUS Product Page (retrieved 2026-10-13)]] <https://greencubes.com/product/safeflexplus/>; [[Document - Green Cubes SAFEFlex PLUS Datasheet (2026.03.18)]] <https://greencubes.com/wp-content/uploads/2026/04/GCT_DS_SAFEFlex-Plus_2026.03.18_8.5x11.pdf>; [[Document - Green Cubes SAFEFlex PLUS Datasheet (refresh, copyright 2025)]] <https://greencubes.com/wp-content/uploads/2025/11/GCT_DS_SAFEFlex-Plus_refresh.pdf>; [[Document - Green Cubes SAFEFlex PLUS UL Listing Press Release (2025-08-15)]] <https://greencubes.com/press-releases/green-cubes-technology-secures-ul-listing-with-ee-rating-for-lithium-safeflex-plus-battery-family/>.
-- **Classes (nominal V; operating V; capacity; energy):** 24 V class 25.6; 24 to 28.8; 420 to 630 Ah; 11 to 16 kWh. 36 V class 38.4; 36 to 43.2; 525 to 945 Ah; 20 to 36 kWh. 48 V class 51.2; 48 to 57.6; 525 to 840 Ah; 26 to 43 kWh. 80 V class 83.2; 78 to 93.6; 315 to 735 Ah; 26 to 61 kWh (product page and 2026.03.18 datasheet). Source: Green Cubes product page (T1), retrieved 2026-10-13. <https://greencubes.com/product/safeflexplus/>
+- **Specifications by voltage class** (one family note, owner decision 2026-10-13; the four classes are not split into variant notes for now). Values are the 2026 product page and 2026.03.18 datasheet unless marked; "2025" is the copyright-2025 datasheet; all read through a summarizing tool (IB-168). Source: Green Cubes product page (T1), retrieved 2026-10-13. <https://greencubes.com/product/safeflexplus/>
+
+  | Item | 24 V class | 36 V class | 48 V class | 80 V class |
+  |---|---|---|---|---|
+  | Nominal voltage | 25.6 V | 38.4 V | 51.2 V | 83.2 V |
+  | Operating voltage | 24 to 28.8 V | 36 to 43.2 V (2025: 37.2 to 42.6 V) | 48 to 57.6 V (2025: 49.6 to 56.8 V) | 78 to 93.6 V |
+  | Nominal capacity | 420 to 630 Ah | 525 to 945 Ah (2025: 630 to 840 Ah) | 525 to 840 Ah | 315 to 735 Ah |
+  | Nominal energy | 11 to 16 kWh | 20 to 36 kWh (2025: 24 to 32 kWh) | 26 to 43 kWh | 26 to 61 kWh |
+  | Peak discharge | 600 A | 1,200 A | 1,200 A (2025: 636 A for 30 s and 1,200 A for 7 s) | 800 A (page: "1,200 A / 800 A" in its last column) |
+  | Continuous discharge | 250 A with SB 175 connector, 320 A with others | 320 A | not assigned in any source read | 300 A for 315 Ah, 320 A for 420 Ah and up (assignment inferred, C216) |
+  | Continuous charge | not assigned | not assigned | not assigned (2025: 320 A, column unclear) | 240 A for 315 Ah, 320 A for 420 Ah and up (assignment inferred, C216) |
+  | Operating temperature, with heater | -20 to +54 C | -20 to +55 C | -20 to +50 C | -20 to +53 C |
+  | Operating temperature, without heater | 0 to +54 C | 0 to +55 C | 0 to +50 C | 0 to +53 C |
+  | Dimensions, weight | not stated | not stated (2025 model matrix: about 736 to 1,158 lb, unpaired) | not stated (2025 model matrix: about 1,061 to 1,811 lb, unpaired) | not stated |
+
+  Common to all classes: lithium iron phosphate; 4,000 cycles (maker claim); IP 2X; storage 0 to +35 C and 70 percent RH or less; powder-coated steel tray; CAN bus, USB and Wi-Fi (2025 adds Ethernet); UL 2580:2020 (2025: pending), ISO 13849, UN 38.3 Rev 7, Type EE. Nominal voltage x capacity matches the stated energy in every class (checked). Mapping of the 2026 current and temperature rows to classes follows the order the summaries returned and is unconfirmed (C215, C216).
 - **Chemistry and life:** lithium iron phosphate; 4,000 cycles (maker claim, no end-of-life basis stated). Same source.
 - **Temperature and protection:** operating -20 to +50/55 C with heater and 0 C up with none (class-dependent upper limits 50 to 55 C); IP 2X; storage 0 to +35 C. Same source.
 - **Certifications listed:** UL 2580:2020 (MH66684), ISO 13849-1:2023 and 13849-2:2012 (MH66684), UN 38.3 Rev 7, Type EE rating. The 2025 datasheet says UL 2580 **pending**. Same source and <https://greencubes.com/wp-content/uploads/2025/11/GCT_DS_SAFEFlex-Plus_refresh.pdf>.
@@ -59,7 +74,7 @@ Green Cubes lithium iron phosphate battery family for material handling and GSE 
   - [[Wi-Fi Interface]] (V): Wi-Fi with over-the-air firmware upgrades; what data it carries is not stated. <https://greencubes.com/product/safeflexplus/>
   - [[Integrated Battery Heater]] (V, partial): the page gives "with heater" and "without heater" temperature ranges, so the heater is an option or variant; the heater itself is not specified. <https://greencubes.com/product/safeflexplus/>
 - **Not linked, and why:** [[Communicate Battery State over CAN]] and [[CAN Battery State Communication Design]] (CAN is named, battery-state messages are not); [[Transmit Battery Data Wirelessly]] (Wi-Fi is named, the data sent is not); [[Disconnect Battery on Limit Violation]] (contactors and a service disconnect exist, but tripping on a limit is not stated); [[Active Cell Balancing]] and [[Passive Cell Balancing]] (method not stated); USB (purpose not stated); [[Green Cubes SAFEFlex Charger]] (compatibility with PLUS not stated).
-- **Class split:** whether the four voltage classes become variant notes under one family note, as for [[Flux Power GSE Pack]], is open (IB-171).
+- **Class split:** decided 2026-10-13 (owner): keep one note for now with the class table above; variant notes like [[Flux Power GSE Pack]] can come later (IB-171).
 
 ## Aliases
 
