@@ -18,6 +18,8 @@ makes:
   - "[[Cat Presence Detection System]]"
   - "[[Cat Safety Lighting Options]]"
   - "[[Cat VISR]]"
+  - "[[Cat Panel Cabin Options]]"
+  - "[[Cat Intelligent Speed and Movement Reduction]]"
 offers:
   - "[[Cat Lithium-Ion Battery Option]]"
 subsidiaryOf:

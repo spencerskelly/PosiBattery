@@ -21,6 +21,7 @@ supertypeOf:
   - "[[Raymond Extreme Environment Protection]]"
   - "[[Raymond Secondary Control Handle]]"
   - "[[Raymond Light and Fan Package]]"
+  - "[[Cat Panel Cabin Options]]"
 ---
 
 # Operator Convenience Accessory

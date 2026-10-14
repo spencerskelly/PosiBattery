@@ -52,6 +52,7 @@ supertypeOf:
   - "[[Raymond Intellispeed System]]"
   - "[[Raymond Auto-Locking Pallet Clamp]]"
   - "[[Raymond Slope Sensing]]"
+  - "[[Cat Intelligent Speed and Movement Reduction]]"
 ---
 
 # Operator Assist and Stability System
