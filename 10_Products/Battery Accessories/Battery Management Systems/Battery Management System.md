@@ -13,6 +13,8 @@ subtypeOf:
 describedBy:
   - "[[Battery Product Landscape]]"
   - "[[BMS Product Function and Requirement Driver Map]]"
+  - "[[BMS Function Definitions]]"
+  - "[[Interface and Protocol Layer Reference]]"
 ---
 
 # Battery Management System

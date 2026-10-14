@@ -15,6 +15,7 @@ performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
   - "[[Measure Battery Temperature]]"
+  - "[[Balance Cells]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[BMS Internal Temperature Sensing]]"

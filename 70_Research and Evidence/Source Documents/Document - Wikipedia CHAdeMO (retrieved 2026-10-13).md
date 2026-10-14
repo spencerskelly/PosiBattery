@@ -1,0 +1,37 @@
+---
+type: Document
+subtype:
+id: DOC-00100
+uid: 20261013233000010skellyspencer
+status: Draft
+tags:
+  - source-document
+  - encyclopedia
+  - web-page
+  - bms
+  - interfaces
+sourceClass: web-page
+sourceUrl: "https://en.wikipedia.org/wiki/CHAdeMO"
+accessed: 2026-10-13
+describes:
+  - "[[Interface and Protocol Layer Reference]]"
+---
+
+# Document - Wikipedia CHAdeMO (retrieved 2026-10-13)
+
+## Definition
+
+Encyclopedia article on CHAdeMO: DC fast-charging system that uses CAN for the vehicle-to-charger data link, plus V2G and standards adoption.
+
+## Provenance
+
+- **Source address:** https://en.wikipedia.org/wiki/CHAdeMO
+- **How it was read:** fetched on 2026-10-13 through a summarising web-fetch tool, not saved as a file; wording in the notes is as returned by that summary, and anything the summary said the page does not cover is recorded as not covered.
+- **Evidence tier:** not covered by T1 to T5 in [[Landscape Evidence and Modeling Conventions]] (encyclopedia, a tertiary source: use it for definitions and orientation, not as proof of a clause).
+- **Source key:** W10.
+
+## Notes
+
+Content recorded from this source is in [[Interface and Protocol Layer Reference]].
+
+## Former ids

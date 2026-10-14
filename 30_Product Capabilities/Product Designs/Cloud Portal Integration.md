@@ -29,6 +29,8 @@ supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
 supertypeOf:
   - "[[Cloud Battery Data Upload Design]]"
+describedBy:
+  - "[[Interface and Protocol Layer Reference]]"
 ---
 
 # Cloud Portal Integration

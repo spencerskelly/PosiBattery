@@ -13,6 +13,8 @@ subtypeOf:
 performs:
   - "[[Communicate with Charger]]"
   - "[[Protect Battery from Deep Discharge]]"
+  - "[[Balance Cells]]"
+  - "[[Disconnect Battery on Limit Violation]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[BMS Discharge Limitation]]"

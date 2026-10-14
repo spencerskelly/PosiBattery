@@ -19,6 +19,7 @@ dependencyOf:
 describedBy:
   - "[[Metric - BMS and Communication]]"
   - "[[Metric - Wired and Vehicle Interfaces]]"
+  - "[[Interface and Protocol Layer Reference]]"
 designOf:
   - "[[Deka Ready Power Lithium Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"

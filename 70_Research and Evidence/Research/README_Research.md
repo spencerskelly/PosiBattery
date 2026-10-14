@@ -15,6 +15,9 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 
 ## Key information
 
+- [[BMS Function Definitions]] — neutral definitions of BMS functions.
+- [[PosiBattery Interface and Impact Mapping Plan]] — plan to map interfaces by layer and show impacted and impacting elements.
+- [[Interface and Protocol Layer Reference]] — layered list of interfaces and protocols from cell to grid, cloud and users.
 - [[BMS Product Function and Requirement Driver Map]] — BMS functions by product and the standards, interfaces and needs that drive them.
 - [[Fleet Manager and Admin Digital Access Evidence]] — what fleet managers and administrators do through portals, alerts and reports, worked back to needs, use cases and functions.
 - [[SOC and SOH Knowledge Base]] — index of state of charge and state of health methods, products, standards, sources and wanted documents.

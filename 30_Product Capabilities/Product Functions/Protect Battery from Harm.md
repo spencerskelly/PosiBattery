@@ -10,8 +10,12 @@ tags:
 supertypeOf:
   - "[[Command Vehicle Operating Limits over CAN]]"
   - "[[Protect Battery from Deep Discharge]]"
+  - "[[Balance Cells]]"
+  - "[[Disconnect Battery on Limit Violation]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
+describedBy:
+  - "[[BMS Function Definitions]]"
 ---
 
 # Protect Battery from Harm

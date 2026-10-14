@@ -16,6 +16,7 @@ performs:
   - "[[Display Battery Status to Operator]]"
   - "[[Report Truck Telemetry]]"
   - "[[Adapt Truck to Battery Chemistry]]"
+  - "[[Disconnect Battery on Limit Violation]]"
 hasDesign:
   - "[[Battery Discharge Indicator]]"
   - "[[CAN Interface]]"

@@ -95,7 +95,7 @@ Is the aim to specify a BMS PosiCharge would offer or build, or to specify what 
 
 - BMS landscape
 - battery management system products
-- BMS functions
+- BMS functions by product
 - BMS requirements
 - BMS standards
 - UL 2580

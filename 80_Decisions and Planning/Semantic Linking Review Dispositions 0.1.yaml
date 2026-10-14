@@ -2561,3 +2561,17 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Candidate function from research; the literature review describes it and no product claim depends on it."
+  "30_Product Capabilities/Product Functions/Balance Cells.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."
+  "30_Product Capabilities/Product Functions/Disconnect Battery on Limit Violation.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."
