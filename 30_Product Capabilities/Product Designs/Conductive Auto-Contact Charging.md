@@ -12,6 +12,8 @@ subtypeOf:
 designOf:
   - "[[Vahle Charging Contacts]]"
   - "[[Conductix-Wampfler Enduro+ Charging Contacts]]"
+  - "[[Raymond Courier AutoCharge System]]"
+  - "[[Grenzebach AGV Contact Charging Station]]"
 ---
 
 # Conductive Auto-Contact Charging

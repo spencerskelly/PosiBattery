@@ -34,6 +34,7 @@ makes:
   - "[[Raymond Mast Lift Limit Switch with Bypass]]"
   - "[[Raymond 8250 Lithium-Ion Battery]]"
   - "[[Raymond Zoning and Positioning]]"
+  - "[[Raymond Courier AutoCharge System]]"
 offers:
   - "[[Raymond iBattery]]"
   - "[[Raymond Red Charger]]"

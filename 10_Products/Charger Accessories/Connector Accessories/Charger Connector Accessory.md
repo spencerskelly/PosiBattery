@@ -15,6 +15,8 @@ supertypeOf:
   - "[[Vahle Charging Contacts]]"
   - "[[Conductix-Wampfler Enduro+ Charging Contacts]]"
   - "[[Staubli QCC Quick Charging Connection]]"
+  - "[[Raymond Courier AutoCharge System]]"
+  - "[[Grenzebach AGV Contact Charging Station]]"
 ---
 
 # Charger Connector Accessory

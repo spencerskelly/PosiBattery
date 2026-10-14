@@ -13,6 +13,7 @@ designOf:
   - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
   - "[[Wiferion etaTRAY Battery Tray]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Delta MOOVair Wireless Charging Series]]"
 ---
 
 # Inductive Wireless Charging

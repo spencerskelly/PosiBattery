@@ -12,6 +12,7 @@ tags:
   - battery-swap
 describedBy:
   - "[[Document - Concentric PowerHIVE 250,000 Swaps Item]]"
+  - "[[Document - MHL News Concentric Automated Forklift Battery System Item]]"
 performs:
   - "[[Exchange Battery Automatically]]"
 hasDesign:

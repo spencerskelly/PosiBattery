@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
+  - "[[Delta MOOVair Wireless Charging Series]]"
 ---
 
 # Wireless Charger
