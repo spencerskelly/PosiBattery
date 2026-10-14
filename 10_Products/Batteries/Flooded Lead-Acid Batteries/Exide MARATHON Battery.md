@@ -12,6 +12,8 @@ tags:
   - watering
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - GNB Motive Power Overview (2021-08)]]"
 performs:
   - "[[Sense Electrolyte Level]]"
 hasDesign:
@@ -39,6 +41,8 @@ Exide (GNB) flooded traction line, available with forced electrolyte circulation
 - **Design characteristics, with citations:**
   - [[Forced Electrolyte Circulation]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
   - [[Extended Watering Interval]] (V): <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
+
+- **Update 2026-10-13:** the overview splits MARATHON into [[Exide MARATHON Classic Battery]] and [[Exide MARATHON Excell Battery]]; TENSOR is [[Exide TENSOR Battery]]. Source: GNB motive power overview 2021-08 (T1, second-hand; parts garbled), <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

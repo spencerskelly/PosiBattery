@@ -26,7 +26,7 @@ Equalizing Charge Rule: when and how an equalizing charge is done
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Deka D-Series Battery]]: every one to four weeks (charger set to the equalize position); specific gravity read after the equalize
   - [[Deka MaxPowr Battery]]: every one to four weeks; specific gravity recorded monthly after an equalize
-  - [[HAWKER Perfect Plus Battery]]: after deep discharges, repeated incomplete recharges and charges to an IU characteristic curve; current not above 5 A per 100 Ah of rated capacity; watch temperature
+  - [[HAWKER Perfect Plus Battery]]: after deep discharges, repeated incomplete recharges and charges to an IU characteristic curve; current not above 5 A per 100 Ah of rated capacity; watch temperature | update 2026-10-13: needed after deep discharge, repeated incomplete charges or IU-curve charging; at most 5 A per 100 Ah (instructions)
   - [[Stryten M-Series F110 Battery]]: once a week; 3 or 4 hours at the finish rate where the manual gives the duration
   - [[Stryten M-Series T300 Battery]]: once a week; 3 or 4 hours at the finish rate where the manual gives the duration
   - [[Stryten M-Series T310 Battery]]: once a week; 3 or 4 hours at the finish rate where the manual gives the duration

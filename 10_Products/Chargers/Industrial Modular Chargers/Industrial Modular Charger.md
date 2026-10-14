@@ -49,6 +49,7 @@ supertypeOf:
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"
   - "[[ITW GSE DC Charger]]"
   - "[[Exide 2100 Li High Output Charger]]"
+  - "[[Exide 2100 HP Charger]]"
 describedBy:
   - "[[Metric - Charge Adaptation Method]]"
   - "[[Metric - Charge Profile Types Offered]]"

@@ -13,6 +13,7 @@ subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:
   - "[[Document - Exide TENSOR xGEL Page (retrieved 2026-10-13)]]"
+  - "[[Document - GNB Motive Power Overview (2021-08)]]"
 performs:
   - "[[Charge Battery by Opportunity]]"
 hasDesign:

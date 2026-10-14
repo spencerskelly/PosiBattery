@@ -40,6 +40,9 @@ performedBy:
   - "[[Deka FastCharge Battery]]"
   - "[[MIDATRON HE Charger]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
+  - "[[Exide TENSOR Battery]]"
+  - "[[Exide 2100 HP Charger]]"
+  - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

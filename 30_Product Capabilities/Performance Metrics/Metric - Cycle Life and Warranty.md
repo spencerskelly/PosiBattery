@@ -30,6 +30,8 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Banner Traction Bull PzV Gel]]: "high cyclical resistance" only; no number or warranty (folder)
   - [[EnerSys IRONCLAD Battery]]: 5+1 year limited warranty (Loadhog sheet, 2020); cycle life not stated
   - [[EnerSys NexSys TPPL Battery]]: cycle life and warranty not stated (page and 2 V sheet)
+  - [[Exide MARATHON Classic Battery]]: FT 900 cycles (IEC 60254-1); FF 300 cycles (GNB overview 2021)
+  - [[Exide Sonnenschein Lithium Battery]]: five-year lifetime stated (GNB overview 2021)
   - [[Flux Power GSE Pack]]: over 3,500 cycles at 80 percent depth of discharge, no end-of-life basis stated (2023 GSE3 sheet, maker claim); warranty not stated
   - [[Flux Power S-Series Battery]]: over 3,000 cycles claimed; warranty not stated (S8 brochure)
   - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid | update 2026-10-13: 5,000 cycles claimed vs 1,200 lead-acid (release 2024-08-22)
@@ -46,8 +48,13 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Midac MLMx Battery]]: up to 1,500 cycles; warranty not stated (catalogue 01/2022)
   - [[Midac PzS Traction Battery]]: MDL design life 1,500+ cycles (VLA), VRLA 1,200+; warranty not stated (catalogue 02/2023)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: five years or 6,000 cycles (2020 release, maker claim); not stated in 2025
+  - [[Sonnenschein AF Battery]]: 300 cycles (GNB overview 2021)
+  - [[Sonnenschein AS Battery]]: 450 cycles (GNB overview 2021)
+  - [[Sonnenschein GF-V Battery]]: 700 cycles (GNB overview 2021)
+  - [[Sonnenschein GF-Y Battery]]: 450 cycles (GNB overview 2021)
   - [[Stryten M-Series AGM200 Battery]]: warranty voided by vent-cap removal, unauthorized monitoring devices or tampering; period not stated (manual SE1045)
   - [[Stryten M-Series AGM220 Battery]]: 12-month warranty; cycle life not stated (brochure SE1043)
+  - [[Toyota Lithium-Ion 5-35 Battery Series]]: warranty covers up to 5,000 cycles (article)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 1 product(s) have a value; document-based values to be added as documents are supplied.
 

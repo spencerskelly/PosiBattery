@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Charger Stand and Mounting]]"
   - "[[Charger Thermal Accessory]]"
   - "[[HVPS Communications Kit]]"
+  - "[[HOPPECKE trak systemizer powercube]]"
 ---
 
 # Charger Accessory

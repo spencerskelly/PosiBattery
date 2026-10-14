@@ -11,6 +11,8 @@ tags:
   - lead-acid
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - HAWKER Perfect Plus Instructions for Use (EMEA)]]"
 performs:
   - "[[Circulate Electrolyte]]"
   - "[[Water Battery Cells]]"
@@ -23,6 +25,8 @@ madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys Aquamatic Water Refilling System]]"
+  - "[[EnerSys Aeromatic Circulation System]]"
 hasPart:
   - "[[Electrolyte Air Circulation Assembly]]"
   - "[[Electrolyte Circulation Air Pump]]"
@@ -50,6 +54,8 @@ EnerSys HAWKER Perfect Plus flooded lead-acid traction battery with positive tub
 - **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
 
 - **Architecture realization — battery watering:** [[Float-Valve Single-Point Watering]] is allocated from the published watering behavior. Detailed hardware is included only where the source identifies it; unverified pumps, valves, sensors, reservoirs, and control details are intentionally not inferred.
+
+- **Update 2026-10-13:** instructions give DC-only charging, 2.0 V nominal and 2.27 V float per cell, equalizing at most 5 A per 100 Ah, start charge only below 45 C (55 C upper limit), charge factor 1.07 with circulation, end of charge when gravity and voltage hold for 2 hours, rated gravity 1.29 at 30 C, at most 80% discharge, no watering for 10 cycles. Options: [[EnerSys Aquamatic Water Refilling System]], [[EnerSys Aeromatic Circulation System]], [[EnerSys Wi-iQ]]. Source: <https://enersys.com/4a6cd5/globalassets/documents/product-documentation/hawker/perfect-plus/emea/hawker-perfect-plus-instruction-for-use-english.pdf>
 
 ## Aliases
 

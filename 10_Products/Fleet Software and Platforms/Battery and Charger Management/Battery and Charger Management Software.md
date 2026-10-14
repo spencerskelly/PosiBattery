@@ -28,6 +28,8 @@ supertypeOf:
   - "[[EnerSys EnSite]]"
   - "[[Midac Service Tool]]"
   - "[[Midac Mobile App]]"
+  - "[[Exide BattID]]"
+  - "[[HOPPECKE trak monitor 4.0]]"
 ---
 
 # Battery and Charger Management Software

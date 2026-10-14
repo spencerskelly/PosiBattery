@@ -16,6 +16,7 @@ designOf:
   - "[[Deka MaintenanceSaver Battery]]"
   - "[[Exide MARATHON Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
 ---
 
 # Extended Watering Interval

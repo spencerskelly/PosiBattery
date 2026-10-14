@@ -54,6 +54,8 @@ performedBy:
   - "[[Capacitive Electrolyte Probe Element]]"
   - "[[MIDATRON BMU]]"
   - "[[Midac Electrolyte Level Sensor]]"
+  - "[[Exide MARATHON Excell Battery]]"
+  - "[[GS Yuasa LED Level Indicator]]"
 realizedBy:
   - "[[Electrolyte Level Sensing Design]]"
 realizes:

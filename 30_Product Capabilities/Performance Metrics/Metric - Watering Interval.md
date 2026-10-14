@@ -35,6 +35,7 @@ Watering Interval: Interval between refills for flooded batteries.
   - [[EnerSys NexSys TPPL Battery]]: never requires watering (maintenance-free) (page)
   - [[EnerSys NexSys TPPL Bloc Battery]]: never requires watering (12V sheet)
   - [[Exide MARATHON Battery]]: MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging
+  - [[Exide MARATHON Excell Battery]]: 16 weeks (80 cycles); up to 24 weeks (120 cycles) with AIR (GNB overview 2021; C233)
   - [[Leoch PzS Traction Battery]]: "half maintenance" claim; interval not stated (page)
   - [[Linde Ei Series]]: maintenance-free integrated lithium-ion battery
   - [[Midac MLM Battery]]: topping up up to 12 weeks (catalogue 01/2022)

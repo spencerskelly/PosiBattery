@@ -22,6 +22,8 @@ designOf:
   - "[[Amaron Brute Hi-Life Battery]]"
   - "[[Banner Traction Bull PzS]]"
   - "[[EnerSys IRONCLAD Battery]]"
+  - "[[Exide MARATHON Classic Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
 ---
 
 # Tubular Plate Construction

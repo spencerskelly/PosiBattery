@@ -23,6 +23,7 @@ supertypeOf:
   - "[[Banner Traction Bull Filling System]]"
   - "[[Amaron AFS System]]"
   - "[[Leoch PzS Automatic Water Filling System]]"
+  - "[[EnerSys Aquamatic Water Refilling System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

@@ -39,6 +39,8 @@ makes:
   - "[[EnerSys IRONCLAD Battery]]"
   - "[[HAWKER Perfect Plus Battery]]"
   - "[[EnerSys NexSys TPPL Bloc Battery]]"
+  - "[[EnerSys Aquamatic Water Refilling System]]"
+  - "[[EnerSys Aeromatic Circulation System]]"
 distributedBy:
   - "[[Western Materials]]"
 partnerOf:

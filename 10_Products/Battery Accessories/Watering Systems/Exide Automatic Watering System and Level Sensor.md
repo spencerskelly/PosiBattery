@@ -20,6 +20,7 @@ madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
   - "[[Exide MARATHON Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
 hasDesign:
   - "[[Battery Cell Watering Design]]"
 ---

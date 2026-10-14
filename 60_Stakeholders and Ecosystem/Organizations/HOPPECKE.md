@@ -24,6 +24,9 @@ makes:
   - "[[HOPPECKE trak uplift iQ Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
+  - "[[HOPPECKE trak collect premium]]"
+  - "[[HOPPECKE trak monitor 4.0]]"
+  - "[[HOPPECKE trak systemizer powercube]]"
 offers:
   - "[[HOPPECKE trak charger HF premium]]"
 partnerOf:

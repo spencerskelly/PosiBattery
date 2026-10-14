@@ -22,6 +22,8 @@ performedBy:
   - "[[Cell Air Distribution Tubing]]"
   - "[[HOPPECKE trak uplift air Battery]]"
   - "[[Amaron Electrolyte Circulation System]]"
+  - "[[EnerSys Aeromatic Circulation System]]"
+  - "[[GS Yuasa Air-Mix System]]"
 realizedBy:
   - "[[Air Injection Electrolyte Circulation]]"
   - "[[Forced Electrolyte Circulation]]"

@@ -42,6 +42,8 @@ performedBy:
   - "[[Deka Dominator Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
   - "[[Raymond 8250 Lithium-Ion Battery]]"
+  - "[[Sonnenschein AS Battery]]"
+  - "[[Exide 2100 HP Charger]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

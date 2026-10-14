@@ -40,6 +40,9 @@ supertypeOf:
   - "[[Midac MHE Battery]]"
   - "[[Midac MDLblock Battery]]"
   - "[[Midac FORCEblock Battery]]"
+  - "[[Exide MARATHON Classic Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
+  - "[[Exide TENSOR Battery]]"
 ---
 
 # Flooded Lead-Acid Traction Battery

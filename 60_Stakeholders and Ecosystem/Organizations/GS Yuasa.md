@@ -12,6 +12,8 @@ playsRole:
   - "[[Battery Maker]]"
 makes:
   - "[[GS Yuasa Traction Battery (Europe)]]"
+  - "[[GS Yuasa Air-Mix System]]"
+  - "[[GS Yuasa LED Level Indicator]]"
 ---
 
 # GS Yuasa

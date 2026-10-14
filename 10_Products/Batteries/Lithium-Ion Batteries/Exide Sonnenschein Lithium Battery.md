@@ -13,6 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Exide Sonnenschein Lithium Brochure]]"
   - "[[Document - Exide Sonnenschein Lithium Battery and GNB Fleet Sheet (MXSLITEPDF00820)]]"
+  - "[[Document - GNB Motive Power Overview (2021-08)]]"
 performs:
   - "[[Balance Cells]]"
   - "[[Estimate State of Charge]]"
@@ -59,6 +60,8 @@ Exide Sonnenschein-branded lithium battery for material handling.
   - [[Integrated Battery Management System]] (V): BMS with internal communication bus between modules, thermal management if required, optional vehicle integration. <https://exidegroup.com/en/document/sonnenschein-lithium-brochure>
 - **Offered with:** [[Exide GNB Fleet]], [[Exide Retrofitting Communicator]], [[Exide Opus Display]], [[Exide HC-LC Logger]] (all V, one brochure each, IB-176).
 - **Not linked, and why:** [[Active Cell Balancing]] and [[Passive Cell Balancing]] (method not stated); [[Communicate Battery State over CAN]] (CAN not mentioned); [[Exide 2100 Li High Output Charger]] is linked (page does not name the GNB or 2100HP labels; C224); the unnamed GNB Lithium Charger and the 2100HP charger (no separate note; the organization note lists "GNB 2100" and naming is unconfirmed, IB-175).
+
+- **Update 2026-10-13:** overview: tray batteries in DIN dimensions for 1:1 lead-acid replacement; up to 33% more pallet movements and up to 10% better total cost of ownership claimed against other lithium-ion; five-year lifetime; deep-discharge protection and state-of-charge reporting; full charge in 1 hour with GNB chargers. Claim bases not given. [[Exide 2100 HP Charger]] is the GNB charger the overview describes. Source: GNB motive power overview 2021-08 (T1, second-hand; parts garbled), <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

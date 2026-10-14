@@ -39,6 +39,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[EnerSys NexSys+ Charger]]: NEMA 3R / IP54 (optional Outdoor model); earlier note: IP-54 on the optional NexSys+ Outdoor model
   - [[EnerSys Wi-iQ]]: IP65; UL 94V-0; acid resistant
   - [[Flux Power GSE Pack]]: IP56 on the GSE3 (2023 sheet); not stated in the 2021 brochure
+  - [[Green Cubes GSE Lithium Battery]]: IP54 battery control modules (release)
   - [[Green Cubes SAFEFlex PLUS Battery]]: IP 2X (product page and datasheets)
   - [[HOPPECKE trak collect]]: IP 69K; sulfuric acid 60% at 50 C
   - [[Lester Summit Series II]]: IP66, NEMA 4 (1425 W sheet); earlier note: IP66 (650 W model, distributor listing)
@@ -53,6 +54,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Power Designers PowerTrac DT3]]: water and acid resistant (no IP code)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: "IP rating of 69" as worded (2025 release); IP69 versus IP69K unconfirmed
   - [[Stryten EHY Charger]]: IP21 standard
+  - [[Stryten M-Series Li610 Battery]]: designed to meet IP65 (product page)
   - [[Stryten X-3 Charger]]: NEMA 1
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.

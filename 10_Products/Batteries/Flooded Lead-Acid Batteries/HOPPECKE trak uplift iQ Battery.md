@@ -10,6 +10,8 @@ tags:
   - battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - HOPPECKE trak uplift iQ Product Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Indicate Battery Status Locally]]"
 hasDesign:
@@ -21,6 +23,9 @@ madeBy:
 offeredWith:
   - "[[HOPPECKE trak collect]]"
   - "[[HOPPECKE trak charger HF premium]]"
+  - "[[HOPPECKE trak collect premium]]"
+  - "[[HOPPECKE trak monitor 4.0]]"
+  - "[[HOPPECKE trak systemizer powercube]]"
 ---
 
 # HOPPECKE trak uplift iQ Battery
@@ -39,6 +44,8 @@ HOPPECKE flooded battery sold with trak | collect and a Smart Charging algorithm
 - **Related products and how they differ (offeredWith):**
   - [[HOPPECKE trak collect]]: no difference stated in the sources.
   - [[HOPPECKE trak charger HF premium]]: no difference stated in the sources.
+
+- **Update 2026-10-13:** HPzS tubular plates, low-current discharge (L), IEC-EN-DIN-60254-2, designed for the trak | charger HF premium with Smart Charging that reduces equalizing; longer refill intervals claimed without figure. Options: [[HOPPECKE trak collect premium]], [[HOPPECKE trak monitor 4.0]], [[HOPPECKE trak systemizer powercube]]. trak | optimizer is a service and is not modeled. Source: <https://www.hoppecke.com/uk/product/trak-uplift-iq/>
 
 ## Aliases
 

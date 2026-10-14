@@ -11,11 +11,14 @@ tags:
   - hibernation
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Stryten M-Series Li610 Product Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Estimate State of Charge]]"
   - "[[Measure Battery Temperature]]"
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
+  - "[[Display Battery Status to Operator]]"
 hasDesign:
   - "[[Integrated BMS State of Charge Estimation]]"
   - "[[Hibernation Mode]]"
@@ -56,6 +59,10 @@ Stryten LFP battery for Class I forklifts with an onboard display and hibernatio
 - **Related products and how they differ (offeredWith):**
   - [[Stryten X-7 Charger]]: no difference stated in the sources.
   - [[Stryten X-3 Charger]]: no difference stated in the sources.
+
+- **Update 2026-10-13:** product page: LFP, up to 0.7C charge, compatible with X-3 and X-7 chargers, IP65 design, display of state of charge/temperature/voltage/current, sleep mode, designed to meet UL2580 (certification in process), fault tolerance "coming soon". Class applicability is inconsistent on the page (C232). Source: <https://www.stryten.com/motive-power-solutions/m-series-li610/>
+- **Functions performed, with citations:**
+  - [[Display Battery Status to Operator]] (V): <https://www.stryten.com/motive-power-solutions/m-series-li610/>
 
 ## Aliases
 

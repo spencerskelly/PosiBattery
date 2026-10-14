@@ -32,6 +32,8 @@ Capacity: Rated capacity.
   - [[EnerSys IRONCLAD Battery]]: 110-2,790 Ah across the Americas line (C6, 1.75 V per cell, 77 F); Loadhog 110-1,960 Ah per cell (1.70 V per cell); EMEA PzQ 276-2,064 Ah (5 h) (C221)
   - [[EnerSys NexSys TPPL Battery]]: US page 560 to 840 Ah (C6); 2 V cell sheet 510 to 1,020 Ah (C6) (C226)
   - [[EnerSys NexSys TPPL Bloc Battery]]: 26 to 186 Ah (C6); 30 to 210 Ah (C20) (12V data sheet)
+  - [[Exide MARATHON Classic Battery]]: FT 6 V 180/200 Ah, 12 V 110 Ah; FF 6 V 187-297 Ah, 12 V 40-158 Ah (C5)
+  - [[Exide MARATHON Excell Battery]]: EPzS 120-1,240 Ah; EPzB 110-800 Ah (GNB overview 2021)
   - [[Exide Sonnenschein Lithium Battery]]: 80-440 Ah (24 and 36 V classes), 110-552 Ah (48 V), 110-966 Ah (80 V); 2.0 to 74.2 kWh
   - [[Flux Power GSE Pack]]: 300-600 Ah modular (2016 report); 210, 315, 420 or 630 Ah (16.8 to 50.4 kWh) across GSE2, GSE3, GSE4 and GSE6 (2021 brochure); GSE3 315 Ah, 24.2 kWh (2023 sheet) (C212, C213)
   - [[Flux Power LiFT Pack]]: 250 Ahe
@@ -52,6 +54,8 @@ Capacity: Rated capacity.
   - [[Midac PzS Traction Battery]]: MDL range 100 to 1,550 Ah (C5) (catalogue 02/2023)
   - [[Raymond 8250 Lithium-Ion Battery]]: 24 V (26 V nominal), 78 Ah; 2 CMA option 156 Ah (Raymond page)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: 1,056 Ah in an 18-inch compartment (2020 release, NMC); none stated in 2025 (C217)
+  - [[Sonnenschein EPzV Battery]]: up to 15 kWh (GNB overview 2021)
+  - [[Sonnenschein GF-V Battery]]: 6 and 12 V, 50-240 Ah (C5)
   - [[Stryten M-Series AGM200 Battery]]: 45 to 105 Ah per positive at the 6-hour rate across eight models (brochure SE1047); how that maps to battery Ah is not stated
   - [[Stryten M-Series AGM220 Battery]]: 184 Ah at C/6 (brochure SE1043; the Pow'r Pak LD page lists no Ah)
   - [[Stryten M-Series T330 Battery]]: up to 18% more capacity than conventional flooded

@@ -22,6 +22,9 @@ madeBy:
   - "[[Exide Technologies]]"
 offeredWith:
   - "[[Exide MARATHON Battery]]"
+  - "[[Exide MARATHON Classic Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
+  - "[[Exide TENSOR Battery]]"
 ---
 
 # Exide AIR Electrolyte Agitation System

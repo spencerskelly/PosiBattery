@@ -11,6 +11,8 @@ tags:
   - lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Hangcha XC Series Page (retrieved 2026-10-13)]]"
 performs:
   - "[[Operate in Cold Storage]]"
 hasDesign:
@@ -37,6 +39,8 @@ Hangcha LiFePO4 forklift battery packs for the A and XC series, with quick-chang
 - **Design characteristics, with citations:**
   - [[Integrated Battery Heater]] (V): <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
 - **Round 27:** the quick-change feature belongs to the truck system (compartment plus pack); the function link now sits on [[Hangcha XC Series Electric Forklifts]] and [[Hangcha A Series Electric Forklifts]]; this note keeps the roller-type pack and the heater.
+
+- **Update 2026-10-13:** the XC series page calls the battery "Li-Ion" and gives no battery data, so LiFePO4 is not confirmed there (IB-193). Source: <https://hcforklift.com/upload/files/XC%20Series%204-W%20Electric%20Forklift%20Truck%20With%20Lithium%20Iron-Phosphate%202.0-3.5t.pdf>
 
 ## Aliases
 

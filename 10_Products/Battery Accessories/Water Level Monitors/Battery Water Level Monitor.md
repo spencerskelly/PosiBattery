@@ -17,6 +17,7 @@ supertypeOf:
   - "[[Flow-Rite Eagle Eye Essential IV]]"
   - "[[Philadelphia Scientific SmartBlinky Pro]]"
   - "[[Midac Electrolyte Level Sensor]]"
+  - "[[GS Yuasa LED Level Indicator]]"
 ---
 
 # Battery Water Level Monitor

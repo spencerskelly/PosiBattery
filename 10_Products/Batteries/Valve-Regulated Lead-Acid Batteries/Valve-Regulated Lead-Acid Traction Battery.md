@@ -22,6 +22,11 @@ supertypeOf:
   - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
   - "[[EnerSys NexSys TPPL Bloc Battery]]"
+  - "[[Sonnenschein EPzV Battery]]"
+  - "[[Sonnenschein GF-Y Battery]]"
+  - "[[Sonnenschein GF-V Battery]]"
+  - "[[Sonnenschein AF Battery]]"
+  - "[[Sonnenschein AS Battery]]"
 ---
 
 # Valve-Regulated Lead-Acid Traction Battery

@@ -10,8 +10,11 @@ tags:
   - battery-market-reference
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Toyota 5-35 Lithium-Ion Battery Article (2025-10-24)]]"
 performs:
   - "[[Communicate with Charger]]"
+  - "[[Charge Battery Fast]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
   - "[[Battery-Charger Data Communication Design]]"
@@ -37,6 +40,11 @@ Toyota lithium-ion battery series in 24, 36 and 48 V for a broad range of Toyota
   - [[Integrated Battery Management System]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 
 - **Architecture realization — charger communication:** published evidence establishes data exchange with a compatible charger, supporting [[Battery-Charger Data Communication Design]]. The transport and message set remain product-specific.
+
+- **Update 2026-10-13:** article (2025-10-24): 24, 36, 48 V; warranty covers up to 5,000 cycles; rapid charge in up to one hour with dual-cable fast chargers; -22 to 122 F; dual A320 charge ports; chargers communicate with the battery's management system. Ah, kWh and chemistry not stated. Source: <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+- **Functions performed, with citations:**
+  - [[Charge Battery Fast]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
+  - [[Communicate with Charger]] (V): <https://themachinemaker.com/news/toyota-material-handling-introduces-advanced-lithium-ion-batteries-to-boost-efficiency-and-productivity/>
 
 ## Aliases
 

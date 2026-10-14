@@ -42,6 +42,7 @@ supertypeOf:
   - "[[Exide Opus Display]]"
   - "[[Exide HC-LC Logger]]"
   - "[[MIDATRON BMU]]"
+  - "[[HOPPECKE trak collect premium]]"
 describedBy:
   - "[[BMID Competitor Landscape]]"
   - "[[Design Map]]"

@@ -13,6 +13,7 @@ subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:
   - "[[Document - Exide Sonnenschein Lithium Battery and GNB Fleet Sheet (MXSLITEPDF00820)]]"
+  - "[[Document - GNB Motive Power Overview (2021-08)]]"
 performs:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Alert on Abnormal Condition]]"
@@ -21,6 +22,7 @@ madeBy:
 offeredWith:
   - "[[Exide Sonnenschein Lithium Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
+  - "[[Exide BattID]]"
 ---
 
 # Exide GNB Fleet
@@ -37,6 +39,8 @@ Exide GNB cloud fleet service for batteries and chargers, in tiers from battery 
   - [[Upload Battery Data to Cloud Portal]] (V): secure cloud solution. <https://exidegroup.com/es/sites/default/files/2020-11/GNB_MP_Sonnenschein_Lithium_MHB_GNB_Fleet_EN.pdf>
   - [[Alert on Abnormal Condition]] (V): automated alarm emails. <https://exidegroup.com/es/sites/default/files/2020-11/GNB_MP_Sonnenschein_Lithium_MHB_GNB_Fleet_EN.pdf>
 
+
+- **Update 2026-10-13 (tiers):** Essential: battery priority and availability indication, 1 user per unit, 500 managed chargers. Premium: adds cloud access, automatic email alerts, battery lifetime and warranty management with [[Exide BattID]], 3 users, 500 chargers. Ultimate: adds multi-site, multi-administrator roles, updates and remote support, 5 users, unlimited chargers. Kept as one note with a tier list. Source: GNB motive power overview 2021-08 (T1, second-hand; parts garbled), <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases
 

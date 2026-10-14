@@ -11,6 +11,8 @@ tags:
   - lead-acid
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - GS Yuasa European Traction Range Article (2021-10-11)]]"
 performs:
   - "[[Circulate Electrolyte]]"
 hasDesign:
@@ -18,6 +20,9 @@ hasDesign:
   - "[[Air Injection Electrolyte Circulation]]"
 madeBy:
   - "[[GS Yuasa]]"
+offeredWith:
+  - "[[GS Yuasa Air-Mix System]]"
+  - "[[GS Yuasa LED Level Indicator]]"
 ---
 
 # GS Yuasa Traction Battery (Europe)
@@ -37,6 +42,8 @@ GS Yuasa 24, 48 and 80 V traction batteries built from 2 V cells in European DIN
   - [[Forced Electrolyte Circulation]] (V): <https://www.logisticsbusiness.com/?p=40376>
 
 - **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
+
+- **Update 2026-10-13:** 24, 48 and 80 V solutions; Air-Mix claimed 20% less charging energy and 30% shorter charge time; accessories now noted: [[GS Yuasa Air-Mix System]], [[GS Yuasa LED Level Indicator]]. Source: <https://www.logisticsbusiness.com/?p=40376>
 
 ## Aliases
 

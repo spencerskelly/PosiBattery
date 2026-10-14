@@ -11,6 +11,8 @@ tags:
   - circulation
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - HOPPECKE trak uplift air Brewery Case Study (2021)]]"
 performs:
   - "[[Circulate Electrolyte]]"
 hasDesign:
@@ -43,6 +45,8 @@ HOPPECKE flooded battery with trak | air electrolyte circulation.
   - [[Forced Electrolyte Circulation]] (V): <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 
 - **Architecture realization — electrolyte circulation:** [[Air Injection Electrolyte Circulation]] is allocated because the published product behavior identifies air-based electrolyte mixing/circulation. More detailed hardware is allocated only where the source supports it; unverified pump, valve, sensing, and charger-control details are intentionally not inferred.
+
+- **Update 2026-10-13:** case study: air blown into each cell during charging avoids long weekend equalization; battery life up to 20% longer with premium HOPPECKE products and trak | collect (no baseline). Source: <https://hoppecke.com/en/stories/show/switch-from-gas-to-electrically-powered-forklift-trucks>
 
 ## Aliases
 

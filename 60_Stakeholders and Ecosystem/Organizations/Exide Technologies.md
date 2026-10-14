@@ -35,6 +35,16 @@ makes:
   - "[[Exide Opus Display]]"
   - "[[Exide HC-LC Logger]]"
   - "[[Exide 2100 Li High Output Charger]]"
+  - "[[Exide MARATHON Classic Battery]]"
+  - "[[Exide MARATHON Excell Battery]]"
+  - "[[Exide TENSOR Battery]]"
+  - "[[Sonnenschein EPzV Battery]]"
+  - "[[Sonnenschein GF-Y Battery]]"
+  - "[[Sonnenschein GF-V Battery]]"
+  - "[[Sonnenschein AF Battery]]"
+  - "[[Sonnenschein AS Battery]]"
+  - "[[Exide 2100 HP Charger]]"
+  - "[[Exide BattID]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:

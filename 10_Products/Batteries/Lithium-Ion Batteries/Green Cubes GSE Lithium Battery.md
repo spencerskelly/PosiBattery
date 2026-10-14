@@ -13,6 +13,8 @@ tags:
   - gse
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Green Cubes GSE Lithium Battery Release (2024-09-13)]]"
 performs:
   - "[[Communicate Battery State over CAN]]"
 hasDesign:
@@ -47,6 +49,10 @@ Green Cubes lithium battery for ground support equipment with heaters and a CANb
   - [[Integrated Battery Heater]] (V): <https://www.aviationpros.com/gse/video/55251746/green-cubes-technology-highlights-lithium-safeflex-batteries-for-gse>
 
 - **Architecture realization — CAN battery state communication:** the product is allocated [[CAN Battery State Communication Design]] because published evidence establishes battery-state exchange over CAN or a CAN-based vehicle/battery interface. Message identifiers, signal maps, update rates, and protocol details remain product-specific.
+
+- **Update 2026-10-13:** release 2024-09-13: LFP, up to 98% efficiency vs about 80% lead-acid, built-in heaters, IP54 battery control modules, isolated CAN and USB, diagnostic trouble codes. Voltage, capacity, cycles and models not stated. Source: <https://www.aviationpros.com/ground-support-worldwide/gse/press-release/55139765/green-cubes-technology-green-cubes-technology-unveils-new-li-ion-battery-for-ground-support-equipment>
+- **Functions performed, with citations:**
+  - [[Communicate Battery State over CAN]] (V): <https://www.aviationpros.com/ground-support-worldwide/gse/press-release/55139765/green-cubes-technology-green-cubes-technology-unveils-new-li-ion-battery-for-ground-support-equipment>
 
 ## Aliases
 

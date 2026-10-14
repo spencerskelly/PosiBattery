@@ -18,6 +18,7 @@ designOf:
   - "[[Deka PowrMate Battery]]"
   - "[[Exide Element VRLA Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
+  - "[[Sonnenschein GF-V Battery]]"
 ---
 
 # Gel Electrolyte
