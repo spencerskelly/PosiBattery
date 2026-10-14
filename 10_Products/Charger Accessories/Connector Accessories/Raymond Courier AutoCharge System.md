@@ -17,6 +17,7 @@ describedBy:
   - "[[Document - MHL News Raymond Courier Automatic Charging System Item]]"
 performs:
   - "[[Charge Battery by Automatic Contact]]"
+  - "[[Start and Stop Charge Automatically]]"
 hasDesign:
   - "[[Conductive Auto-Contact Charging]]"
 madeBy:

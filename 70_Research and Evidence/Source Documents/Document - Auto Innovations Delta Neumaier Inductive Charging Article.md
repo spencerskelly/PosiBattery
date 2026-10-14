@@ -13,6 +13,7 @@ accessed: 2026-10-14
 describes:
   - "[[Delta MOOVair Wireless Charging Series]]"
   - "[[Inductive Wireless Charging Product Register]]"
+  - "[[Wireless and Hands-Free Charging Market Notes]]"
 ---
 
 # Document - Auto Innovations Delta Neumaier Inductive Charging Article

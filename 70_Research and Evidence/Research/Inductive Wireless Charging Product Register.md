@@ -48,7 +48,10 @@ Inductive charging products found for industrial vehicles (forklifts, AGVs, AMRs
 | Product | Power | Voltage / current | Air gap; tolerance | Efficiency | Protection / other | Evidence |
 |---|---|---|---|---|---|---|
 | [[EnerSys NexSys AIR Wireless Charger]] | 7-10 kW | 24 V 7 kW 250 A; 36 V 10 kW 250 A; 48 V 10 kW 200 A; 80 V 10 kW 120 A | 20-50 mm; +/-20 mm | not stated | IP23 / IP54; FOD; CE UKCA MET FCC | T1 manual |
-| [[Delta MOOVair Wireless Charging Series]] | 1-30 kW (10 kW: up to 275 A) | 1 kW: 24/36/48 V (to 41.7/27.7/20.8 A); 30 kW: 80 V, up to 300 A (deployment article, C260) | 1 kW: 0-20 mm, 20 mm; 30 kW: 20-150 mm | 92-93% (1 kW); 95% (30 kW) | IP65 (1 kW); FCC CE MET | T1/T2 |
+| [[Delta MOOVair Wireless Charging Series]] - MOOVair 01 | 1 kW | 24/36/48 V; 41.7/27.7/20.8 A | 0-20 mm; up to 20 mm | 92-93% | IP65; FCC CE MET | T1 |
+| [[Delta MOOVair Wireless Charging Series]] - MOOVair 03 | 3.3 kW | 24 V 132 A; 48 V 66 A | 10-30 mm; not stated | over 92% | IP65/IP67 | T1 |
+| [[Delta MOOVair Wireless Charging Series]] - MOOVair 10 | 10 kW | 36 V 280 A; 48 V 200 A | up to 185 mm; not stated | over 92% | IP21/IP69; deployed on Linde E16 (article) | T1/T2 |
+| [[Delta MOOVair Wireless Charging Series]] - MOOVair 30 | 30 kW | 100 V (72-120 V) 300 A, lithium-ion | 105-155 mm; +/-50 mm | over 95% | IP21/IP69; deployed on Linde P180 (article) | T1/T2 |
 | [[Wiferion etaLINK 3000 Wireless Charging System]] | 3 kW (6 / 9 kW in series) | not stated (etaTRAY 24-48 V, 60-180 A) | not stated | not stated | IP65; CAN | T1 |
 | [[Wiferion CW1000 Wireless Charging System]] | 1 kW (1,250 W continuous) | 15, 24, 32, 48, 60 V; up to 42 A | 5-30 mm; +/-30 mm | up to 93% | IP65/IP68 stationary, IP54 mobile | T1 |
 | [[WiBotic 1kW Wireless Charging System]] | 1 kW (earlier 150-300 W) | 0-60 V; 0-35 A | not stated | not stated | 110 V supply | T2 |

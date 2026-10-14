@@ -26,6 +26,9 @@ performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Compensate Charge for Battery Temperature]]"
   - "[[Equalize Battery on Schedule]]"
+  - "[[Charge Wirelessly Despite Misalignment]]"
+  - "[[Start and Stop Charge Automatically]]"
+  - "[[Exchange Charge Control Data Between Pads]]"
 madeBy:
   - "[[EnerSys]]"
 offeredWith:

@@ -16,6 +16,7 @@ describedBy:
   - "[[Document - Grenzebach Charging Energy Management Data Sheet]]"
 performs:
   - "[[Charge Battery by Automatic Contact]]"
+  - "[[Start and Stop Charge Automatically]]"
 hasDesign:
   - "[[Conductive Auto-Contact Charging]]"
 madeBy:

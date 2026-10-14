@@ -50,6 +50,7 @@ supertypeOf:
   - "[[ITW GSE DC Charger]]"
   - "[[Exide 2100 Li High Output Charger]]"
   - "[[Exide 2100 HP Charger]]"
+  - "[[Delta MOOVbase Modular Charging Systems]]"
 describedBy:
   - "[[Metric - Charge Adaptation Method]]"
   - "[[Metric - Charge Profile Types Offered]]"

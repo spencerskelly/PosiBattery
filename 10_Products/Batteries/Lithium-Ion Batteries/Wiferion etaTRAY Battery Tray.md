@@ -18,6 +18,10 @@ describedBy:
   - "[[Document - Wiferion Products Page (retrieved 2026-10-14)]]"
   - "[[Document - Wiferion etaTRAY Page (retrieved 2026-10-14)]]"
   - "[[Document - Plant Automation Technology etaTRAY Listing]]"
+performs:
+  - "[[Charge Wirelessly Despite Misalignment]]"
+  - "[[Start and Stop Charge Automatically]]"
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

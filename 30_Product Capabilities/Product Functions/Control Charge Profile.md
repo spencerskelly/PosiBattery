@@ -17,6 +17,8 @@ supertypeOf:
   - "[[Equalize Battery on Schedule]]"
   - "[[Float Charge Battery]]"
   - "[[Identify Battery by Voltage]]"
+  - "[[Exchange Charge Control Data Between Pads]]"
+  - "[[Follow Vehicle Charge Setpoints over CANopen]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

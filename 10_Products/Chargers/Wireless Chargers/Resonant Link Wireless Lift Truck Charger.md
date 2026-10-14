@@ -17,6 +17,12 @@ describedBy:
   - "[[Document - MHL News Resonant Link Wireless Lift Truck Charger (2023-04-19)]]"
   - "[[Document - Electrify News Resonant Link Article (2024-03-30)]]"
   - "[[Document - Resonant Link MODEX 2024 Release (2024-03-11)]]"
+  - "[[Document - Resonant Link ProMat 2023 Release]]"
+performs:
+  - "[[Charge Wirelessly Despite Misalignment]]"
+  - "[[Start and Stop Charge Automatically]]"
+  - "[[Charge Battery Wirelessly]]"
+  - "[[Detect Foreign and Live Objects]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

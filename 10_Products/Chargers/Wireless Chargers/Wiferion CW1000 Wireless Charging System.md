@@ -14,6 +14,9 @@ subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:
   - "[[Document - Wiferion CW1000 Page (retrieved 2026-10-14)]]"
+performs:
+  - "[[Charge Wirelessly Despite Misalignment]]"
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

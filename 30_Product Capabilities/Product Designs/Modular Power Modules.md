@@ -25,6 +25,7 @@ designOf:
   - "[[Raymond Red Charger]]"
   - "[[Stryten X-3 Charger]]"
   - "[[Stryten X-7 Charger]]"
+  - "[[Delta MOOVbase Modular Charging Systems]]"
 ---
 
 # Modular Power Modules

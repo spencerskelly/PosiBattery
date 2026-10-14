@@ -15,6 +15,8 @@ subtypeOf:
 describedBy:
   - "[[Document - WiBotic 1kW Wireless Charging Article (2024-04-30)]]"
   - "[[Document - WiBotic Larger AMR Battery Charging Article]]"
+performs:
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

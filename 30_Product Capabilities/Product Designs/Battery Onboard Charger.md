@@ -27,6 +27,7 @@ designOf:
   - "[[Raymond 8000 Series Pallet Trucks]]"
   - "[[STILL RX 20 Electric Forklift]]"
   - "[[Hyster Onboard Charging Solution]]"
+  - "[[Delta MOOVon Onboard Charger and Converters]]"
 ---
 
 # Battery Onboard Charger

@@ -9,6 +9,8 @@ tags:
   - accessory-maker
 makes:
   - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Delta MOOVbase Modular Charging Systems]]"
+  - "[[Delta MOOVon Onboard Charger and Converters]]"
 playsRole:
   - "[[Charger Maker]]"
 ---

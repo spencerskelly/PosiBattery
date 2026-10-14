@@ -15,6 +15,9 @@ subtypeOf:
 describedBy:
   - "[[Document - Wiferion Products Page (retrieved 2026-10-14)]]"
   - "[[Document - Warehouse News Wiferion etaLINK 12000 Article (2020-02-17)]]"
+performs:
+  - "[[Start and Stop Charge Automatically]]"
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

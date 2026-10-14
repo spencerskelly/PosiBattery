@@ -15,6 +15,8 @@ subtypeOf:
 describedBy:
   - "[[Document - MHL News Daihen D-Broad Item]]"
   - "[[Document - AGV Network Wireless Charging Suppliers Article]]"
+performs:
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

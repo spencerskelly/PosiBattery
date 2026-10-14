@@ -15,6 +15,8 @@ subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:
   - "[[Document - Industrial Production Lindig Wiferion Article]]"
+performs:
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

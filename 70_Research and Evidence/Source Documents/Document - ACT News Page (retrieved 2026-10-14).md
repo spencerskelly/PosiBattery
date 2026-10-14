@@ -13,6 +13,7 @@ accessed: 2026-10-14
 describes:
   - "[[Advanced Charging Technologies]]"
   - "[[Inductive Wireless Charging Product Register]]"
+  - "[[Wireless and Hands-Free Charging Market Notes]]"
 ---
 
 # Document - ACT News Page (retrieved 2026-10-14)

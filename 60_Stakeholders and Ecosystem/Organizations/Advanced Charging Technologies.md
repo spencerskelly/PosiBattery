@@ -46,6 +46,8 @@ Charger and battery-monitor maker (Quantum, BATTview, ACTview) sold through the 
 
 - **Update 2026-10-14 (wireless and investors):** 2025-02-10 ACT announced it is integrating Resonant Link wireless charging ([[Resonant Link Wireless Lift Truck Charger]]); a Motive Companies quote speaks of the acquisition of Resonant Link, the release gives no deal terms (C261). 2025-10-22 Toyota Material Handling North America announced a strategic investment (stake not stated) with a board seat; neither release links the investment to wireless charging. Sources: <https://www.prnewswire.com/news-releases/act-expands-charging-portfolio-with-next-generation-wireless-power-technology-302372050.html>; <https://www.raymondcorp.com/news/2025/tmhna-announces-strategic-investment>; <https://act-chargers.com/news/> (T1).
 
+- **Owner statement 2026-10-14:** ACT is moving ahead with Resonant Link products (not yet backed by a public source; see [[Wireless and Hands-Free Charging Market Notes]]).
+
 ## Aliases
 
 - ACT

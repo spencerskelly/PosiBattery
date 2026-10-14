@@ -10,8 +10,20 @@ tags:
   - product-function
 subtypeOf:
   - "[[Charge Battery]]"
+supertypeOf:
+  - "[[Charge Wirelessly Despite Misalignment]]"
 performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Wiferion etaLINK 3000 Wireless Charging System]]"
+  - "[[Wiferion etaTRAY Battery Tray]]"
+  - "[[Wiferion CW1000 Wireless Charging System]]"
+  - "[[Wiferion etaLINK 12000 Wireless Charging System]]"
+  - "[[WiBotic 1kW Wireless Charging System]]"
+  - "[[Xnergy Wireless Charging Series]]"
+  - "[[Daihen D-Broad Wireless Charging System]]"
+  - "[[Lindig L.inductive Charging Offer]]"
+  - "[[Delta MOOVair Wireless Charging Series]]"
+  - "[[Resonant Link Wireless Lift Truck Charger]]"
 ---
 
 # Charge Battery Wirelessly

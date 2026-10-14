@@ -15,6 +15,8 @@ subtypeOf:
 describedBy:
   - "[[Document - Xnergy PH Series Certification Release (2026-06-09)]]"
   - "[[Document - AGV Network Wireless Charging Suppliers Article]]"
+performs:
+  - "[[Charge Battery Wirelessly]]"
 hasDesign:
   - "[[Inductive Wireless Charging]]"
 madeBy:

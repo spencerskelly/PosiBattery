@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Stryten AGM220 Onboard Charger]]"
   - "[[Hyster Onboard Charging Solution]]"
+  - "[[Delta MOOVon Onboard Charger and Converters]]"
 ---
 
 # On-board Charger

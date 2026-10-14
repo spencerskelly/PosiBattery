@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Keep Charging Available and Safe]]"
 performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Resonant Link Wireless Lift Truck Charger]]"
 ---
 
 # Detect Foreign and Live Objects

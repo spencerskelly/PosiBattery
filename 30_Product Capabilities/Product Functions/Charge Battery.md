@@ -16,6 +16,13 @@ supertypeOf:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge in Cold Storage]]"
   - "[[Charge Battery by Automatic Contact]]"
+  - "[[Start and Stop Charge Automatically]]"
+  - "[[Scale Charge Power by Module Count]]"
+  - "[[Charge Several Batteries from One Unit]]"
+  - "[[Convert Traction Battery Voltage for Onboard Systems]]"
+performedBy:
+  - "[[Delta MOOVon Onboard Charger and Converters]]"
+  - "[[Delta MOOVbase Modular Charging Systems]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---
