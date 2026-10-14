@@ -40,10 +40,12 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[ACT Quantum 3]]: 24-120 V (sheet); earlier note: 24-120 V
   - [[ACT Quantum Outdoor]]: 24-96 V
   - [[Advanced Charging Technologies BATTview]]: 12-80 V nominal; operating 12-110 V
-  - [[Banner Traction Bull Bloc PzF]]: 6 V and 12 V blocks
+  - [[Banner Traction Bull Bloc PzF]]: 6 V and 12 V blocks | update 2026-10-13: 6 V and 12 V monoblocs (data sheet 2016)
   - [[Crown V-HFM3 Charger]]: 24, 36, 48, 72, 80, 96 V
   - [[Delta-Q IC650]]: 24, 36, 48 V
   - [[EnerSys IRONCLAD Battery]]: 12 to 96 V across the line (Americas page, unit not shown)
+  - [[EnerSys NexSys TPPL Battery]]: 12 to 80 V (US page); 2 V cells (data sheet)
+  - [[EnerSys NexSys TPPL Bloc Battery]]: 12 V monoblocs (12V data sheet)
   - [[EnerSys Wi-iQ]]: 24-80 V and 96-120 V (nominal and operating)
   - [[EnerSys iQ Mini]]: 12-80 V (carried from seed)
   - [[Exide Motion+ EasyMonitor]]: 18-120 V

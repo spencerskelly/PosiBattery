@@ -211,6 +211,7 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-184 | Exide 2100 Li High Output specs and 2100 HP/GNB naming (C224); Raymond PSI 12 metrics, iWAREHOUSE GATEWAY form and iBattery relation; Flux GSE3 truck adapter nature | <https://www.exidegroup.com/en/product/2100-li-high-output> | open |
 | IB-185 | Banner Traction Bull options (filling system, circulation, controller, cold store, explosion protection) and Amaron AFS and DIY Rx: names, functions, whether the filling options are one system | <https://www.bannerbatterien.com/en/Products/Industrial-Batteries/Traction-Bull/244-Wet> | open |
 | IB-186 | Stryten: AGM220 Delta-Q model and input rating, meaning of PalletPro, whether Pow'r Pak LD is discontinued; T300/T310 manuals and Li600/Li610 sheets to Document notes; C225 temperature basis | <https://www.stryten.com/wp-content/uploads/2023/03/Stryten_M-SeriesProductBrochure_AGM220_SE1043_FINAL.pdf> | open |
+| IB-187 | Banner PzV gel: voltage, cycle life, warranty, charging data from the full data sheet; NexSys TPPL: cycle life, warranty, TPPL Bloc naming, charge voltages, C227 partOf owner decision | <https://www.bannerbatterien.com/energysolutions/upload/files/FolderTractionBullGelPzVB_gb.pdf> | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 

@@ -28,6 +28,8 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 |---|---|---|---|---|---|---|---|---|
 | [[Amaron Brute Hi-Life Battery]] | flooded lead-acid, tubular (type inferred, C95) | n/s | 110-1,550 Ah per cell (C5) | reduced water use claimed | n/s | n/s | IEC 60254; plant ISO | [[Amaron Brute Hi-Life Battery]] |
 | [[Banner Traction Bull PzS]] | flooded, tubular positive plates | n/s | 120-1,550 Ah per cell (C5) | optional filling system | n/s | n/s | DIN/EN 60254; explosion protection option (C222) | [[Banner Traction Bull PzS]] |
+| [[Banner Traction Bull PzV Gel]] | gel, tubular positive plates | n/s | 134-567 Ah per cell (C5) | none (zero maintenance) | n/s | n/s | EN 60254-2; Ex-protection option | [[Banner Traction Bull PzV Gel]] |
+| [[Banner Traction Bull Bloc PzF]] | flooded, tubular positive, high antimony | 6 V and 12 V | 36-320 Ah (C5) | n/s | n/s | n/s | DIN EN 60254-1 | [[Banner Traction Bull Bloc PzF]] |
 | [[Crown V-Force Lithium-Ion ESS]] | n/s | n/s | n/s | n/s | n/s | n/s | UL Listed pack | [[Crown V-Force Lithium-Ion ESS]] |
 | [[Deka D-Series Battery]] | n/s | n/s | n/s | n/s | conventional and opportunity | n/s | n/s | [[Deka D-Series Battery]] |
 | [[Deka Dominator Battery]] | gel (maintenance-free); corrected from flooded (C53) | n/s | n/s | n/s | n/s | n/s | n/s | [[Deka Dominator Battery]] |
@@ -37,7 +39,8 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Deka MaxPowr Battery]] | n/s | n/s | up to 10% more amp-hours in the same size | n/s | n/s | n/s | n/s | [[Deka MaxPowr Battery]] |
 | [[Deka Ready Power Lithium Battery]] | n/s | n/s | n/s | n/s | n/s | multi-module BMS over CAN | n/s | [[Deka Ready Power Lithium Battery]] |
 | [[EnerSys IRONCLAD Battery]] | flooded, square tubular | 12-96 V line | 110-2,790 Ah line (C221) | n/s | fast-opportunity (claim) | monitoring options (Wi-iQ and others) | n/s | [[EnerSys IRONCLAD Battery]] |
-| [[EnerSys NexSys TPPL Battery]] | thin plate pure lead (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[EnerSys NexSys TPPL Battery]] |
+| [[EnerSys NexSys TPPL Battery]] | thin plate pure lead (valve-regulated) | 12-80 V (2 V cells) | 560-840 Ah (C6, US page); 510-1,020 Ah (2 V sheet; C226) | none (maintenance-free) | fast and opportunity | integrated data communication (unspecified) | n/s | [[EnerSys NexSys TPPL Battery]] |
+| [[EnerSys NexSys TPPL Bloc Battery]] | thin plate pure lead (valve-regulated) | 12 V | 26-186 Ah (C6) | none (maintenance-free) | opportunity claimed | n/s | n/s | [[EnerSys NexSys TPPL Bloc Battery]] |
 | [[Exide GNB Lithium Battery 2.0]] | n/s | n/s | n/s | n/s | n/s | BMS; GNB Cloud option | n/s | [[Exide GNB Lithium Battery 2.0]] |
 | [[Exide MARATHON Battery]] | n/s | n/s | n/s | MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging | n/s | n/s | n/s | [[Exide MARATHON Battery]] |
 | [[Exide Sonnenschein Lithium Battery]] | lithium-ion (subtype n/s) | 25.6, 38.4, 51.2, 76.8 V classes | 80-966 Ah across classes | n/s | fast; opportunity | BMS with balancing and SOC; GNB Fleet | n/s (plant ISO only) | [[Exide Sonnenschein Lithium Battery]] |

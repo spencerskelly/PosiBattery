@@ -28,9 +28,12 @@ Watering Interval: Interval between refills for flooded batteries.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Amaron Brute Hi-Life Battery]]: reduced water use claimed (patented paste; circulation option up to 60% less water); no interval stated
   - [[Banner Traction Bull PzS]]: optional filling system replaces water automatically; interval not stated
+  - [[Banner Traction Bull PzV Gel]]: no topping up for life (folder)
   - [[Crown V-Force Lithium-Ion ESS]]: no watering (brochure: eliminates watering)
   - [[Deka HydraSaver Battery]]: ten weeks
   - [[Deka MaintenanceSaver Battery]]: four times a year
+  - [[EnerSys NexSys TPPL Battery]]: never requires watering (maintenance-free) (page)
+  - [[EnerSys NexSys TPPL Bloc Battery]]: never requires watering (12V sheet)
   - [[Exide MARATHON Battery]]: MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging
   - [[Linde Ei Series]]: maintenance-free integrated lithium-ion battery
   - [[Raymond 8250 Lithium-Ion Battery]]: no watering, equalizing or cleaning

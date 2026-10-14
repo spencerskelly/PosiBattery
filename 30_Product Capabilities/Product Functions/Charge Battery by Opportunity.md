@@ -36,6 +36,8 @@ performedBy:
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
+  - "[[EnerSys NexSys TPPL Bloc Battery]]"
+  - "[[EnerSys NexSys TPPL Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

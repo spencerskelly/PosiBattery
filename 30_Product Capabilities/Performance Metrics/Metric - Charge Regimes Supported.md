@@ -28,6 +28,8 @@ Charge Regimes Supported: Conventional, opportunity or fast charge capability.
   - [[Deka D-Series Battery]]: conventional and opportunity
   - [[Deka FastCharge Battery]]: fast
   - [[EnerSys IRONCLAD Battery]]: fast-opportunity charging up to 120% of capacity per day with high-frequency chargers (maker claim)
+  - [[EnerSys NexSys TPPL Battery]]: fast and opportunity; standard 0.2 to 0.25 C6, fast 0.26 to 0.4 C6 (2 V sheet)
+  - [[EnerSys NexSys TPPL Bloc Battery]]: opportunity charging claimed; no parameters (12V sheet)
   - [[Exide Sonnenschein Lithium Battery]]: fast charge and opportunity charge; works with recuperation
   - [[Godrej Multi-Ion Forklift Battery]]: fast and opportunity charging (release, no rates)
   - [[Linde 6-8 t Electric Counterbalance Forklifts]]: 90 V lithium-ion removes battery changes (truck-level note)

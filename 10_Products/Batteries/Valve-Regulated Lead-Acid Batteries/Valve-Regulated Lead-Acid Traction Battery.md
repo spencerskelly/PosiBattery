@@ -21,6 +21,7 @@ supertypeOf:
   - "[[Stryten M-Series AGM200 Battery]]"
   - "[[Stryten M-Series AGM210 Battery]]"
   - "[[Stryten M-Series AGM220 Battery]]"
+  - "[[EnerSys NexSys TPPL Bloc Battery]]"
 ---
 
 # Valve-Regulated Lead-Acid Traction Battery

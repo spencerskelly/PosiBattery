@@ -13,6 +13,7 @@ describedBy:
   - "[[Metric - Chemistry and Plate Construction]]"
 designOf:
   - "[[EnerSys NexSys TPPL Battery]]"
+  - "[[EnerSys NexSys TPPL Bloc Battery]]"
 ---
 
 # Thin Plate Pure Lead Plates

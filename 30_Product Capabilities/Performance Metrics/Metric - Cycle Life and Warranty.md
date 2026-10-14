@@ -25,9 +25,11 @@ Cycle Life and Warranty: Stated cycle life and warranty.
 - **Direction:** higher is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Amaron Brute Hi-Life Battery]]: 1600-1700 cycles at 80% DoD (brochure, temperature unit cut off); warranty not stated
-  - [[Banner Traction Bull Bloc PzF]]: up to 1,200 cycles at 80 percent K5 discharge
+  - [[Banner Traction Bull Bloc PzF]]: up to 1,200 cycles at 80 percent K5 discharge | update 2026-10-13: up to 1,200 cycles at 80% K5 discharge, DIN EN 60254-1 / IEC 254-1; warranty not stated (data sheet 2016)
   - [[Banner Traction Bull PzS]]: 1,500 cycles per DIN/EN 60254-1 and IEC 254-1; warranty not stated
+  - [[Banner Traction Bull PzV Gel]]: "high cyclical resistance" only; no number or warranty (folder)
   - [[EnerSys IRONCLAD Battery]]: 5+1 year limited warranty (Loadhog sheet, 2020); cycle life not stated
+  - [[EnerSys NexSys TPPL Battery]]: cycle life and warranty not stated (page and 2 V sheet)
   - [[Flux Power GSE Pack]]: over 3,500 cycles at 80 percent depth of discharge, no end-of-life basis stated (2023 GSE3 sheet, maker claim); warranty not stated
   - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid
   - [[Godrej Multi-Ion Forklift Battery]]: up to 5,000 cycles; 7-year warranty (trade report) | update 2026-10-13: see C218: Godrej's lithium-ion line also claims 5,000 cycles

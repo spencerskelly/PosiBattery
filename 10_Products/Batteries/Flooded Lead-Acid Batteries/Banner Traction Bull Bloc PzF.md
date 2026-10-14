@@ -11,6 +11,8 @@ tags:
   - lead-acid
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - Banner Bloc PzF Data Sheet (2016)]]"
 hasDesign:
   - "[[Tubular Plate Construction]]"
 madeBy:
@@ -29,6 +31,8 @@ Banner Traction Bull Bloc PzF 6 V and 12 V block batteries with positive tubular
 - **Not stated:** the full capacity range (the sheet lists types PzF 36 to PzF 320).
 - **Design characteristics, with citations:**
   - [[Tubular Plate Construction]] (V): <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf>
+
+- **Update 2026-10-13:** types PzF 36 to PzF 320 (12 V: PzF 36 to 150; 6 V: PzF 195, 205, 320); 36 to 320 Ah (C5), 50 to 425 Ah (C20); 13.5 to 51.4 kg filled; polypropylene casing; high-antimony alloy; recommended temperature 20 C; up to 1,200 cycles at 80% K5 discharge per DIN EN 60254-1 / IEC 254-1. No charging, watering or options data in the sheet. Source: <https://bannerbatterien.com/energysolutions/upload/files/Folder_TB_Bloc_PzF_gb_2016.pdf>
 
 ## Aliases
 
