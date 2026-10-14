@@ -20,6 +20,7 @@ performedBy:
   - "[[Deka PowrMate Battery]]"
   - "[[Deka ChargeMate Battery]]"
   - "[[Raymond 8250 Lithium-Ion Battery]]"
+  - "[[Hyster Onboard Charging Solution]]"
 realizes:
   - "[[Charge Without a Ventilated Battery Room]]"
 ---

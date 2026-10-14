@@ -18,6 +18,7 @@ rolePlayedBy:
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"
   - "[[Western Materials]]"
+  - "[[Lindig]]"
 ---
 
 # Dealer or Distributor

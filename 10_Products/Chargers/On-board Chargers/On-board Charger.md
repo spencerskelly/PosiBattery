@@ -14,6 +14,7 @@ supertypeOf:
   - "[[EnerSys NexSys COMpact Charger]]"
   - "[[Heli Built-In Lithium Charger]]"
   - "[[Stryten AGM220 Onboard Charger]]"
+  - "[[Hyster Onboard Charging Solution]]"
 ---
 
 # On-board Charger

@@ -30,6 +30,7 @@ makes:
   - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
   - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
   - "[[Yale ERC045-070VG Electric Forklifts]]"
+  - "[[Hyster Onboard Charging Solution]]"
 offers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"

@@ -18,6 +18,7 @@ designOf:
   - "[[WiBotic 1kW Wireless Charging System]]"
   - "[[Xnergy Wireless Charging Series]]"
   - "[[Daihen D-Broad Wireless Charging System]]"
+  - "[[Lindig L.inductive Charging Offer]]"
 ---
 
 # Inductive Wireless Charging

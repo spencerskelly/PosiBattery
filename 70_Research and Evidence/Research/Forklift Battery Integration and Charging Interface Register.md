@@ -8,6 +8,11 @@ tags:
   - research
   - register
   - forklift
+describedBy:
+  - "[[Document - Linde L-MATIC AC-k Page (retrieved 2026-10-14)]]"
+  - "[[Document - Linde Automated Trucks News (retrieved 2026-10-14)]]"
+  - "[[Document - Jungheinrich Batteries and Charging Technology Page (retrieved 2026-10-14)]]"
+  - "[[Document - Wiferion etaTRAY Page (retrieved 2026-10-14)]]"
 describes:
   - "[[Vehicle Energy Interface Design]]"
 ---
@@ -72,6 +77,22 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Jungheinrich ETV C16/C20 | [[Drop-In Battery Cavity]] (sideways change) | V, T3 single listing | not found | - | OEM sheet; charging |
 | Mitsubishi FG/FD, UniCarriers Nomad | not applicable (internal combustion) | - | not applicable | - |  |
 | Rocla ART/AWT | not found | - | not found | - | AGV data sheets |
+
+### Hands-free charging options by truck maker (found 2026-10-14)
+
+Value is what a page states; "not found" does not mean unavailable.
+
+| Maker / truck | Hands-free option found | Basis | Evidence |
+|---|---|---|---|
+| Linde (manned electric trucks, Germany) | Inductive etaLINK 3000 integrated in new trucks and etaTRAY retrofit, sold by dealer Lindig as L.inductive | dealer framework agreement, not stated as Linde factory option | [[Lindig L.inductive Charging Offer]] (T2) |
+| Linde automated trucks (L-MATIC AC k 24 V; R-MATIC; L-MATIC HD) | Automatic charging optional: truck drives to its charging station; method (contact or inductive) not stated | OEM pages | [[Document - Linde L-MATIC AC-k Page (retrieved 2026-10-14)]]; [[Document - Linde Automated Trucks News (retrieved 2026-10-14)]] (T1) |
+| STILL, Jungheinrich | etaTRAY retrofit stated compatible with standard trays; no models named, no OEM confirmation | Wiferion claim | [[Document - Wiferion etaTRAY Page (retrieved 2026-10-14)]] (T1) |
+| Jungheinrich | On-board chargers (24/48 V) and stationary chargers; no inductive or contact option on the page | OEM page | [[Document - Jungheinrich Batteries and Charging Technology Page (retrieved 2026-10-14)]] (T1) |
+| Raymond Courier automated trucks (3010, 3020, 3220, 3030) | Two-plate AutoCharge station, factory or retrofit, 150 A station | OEM sell sheet | [[Raymond Courier AutoCharge System]] (T1) |
+| Hyster | Onboard charger on many integrated Li-ion trucks (manual cable); no hands-free found | OEM flyer | [[Hyster Onboard Charging Solution]] (T1) |
+| Crown, Toyota, Yale, Cat, Mitsubishi / Logisnext, Doosan, Hangcha, Heli, UniCarriers | none found | searches 2026-10-14 | - |
+
+- Reading: hands-free charging in the vault reaches manned Class I trucks only through a third-party retrofit (etaTRAY) or a dealer offer; the OEM-stated hands-free options found are on automated trucks (Linde, Raymond).
 
 ## Traceability
 

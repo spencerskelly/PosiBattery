@@ -38,6 +38,8 @@ offers:
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"
 subsidiaryOf:
   - "[[KION Group]]"
+distributedBy:
+  - "[[Lindig]]"
 ---
 
 # Linde Material Handling
