@@ -31,7 +31,7 @@ Input Voltage and Phase: AC input range and phase.
   - [[Fronius Selectiva 4.0]]: 3 x 400 V; 31 A (16 kW) or 54 A (30 kW)
   - [[Lester Summit Series II]]: 100-240 Vac rated; 85-265 Vac operating; single-phase; earlier note: 100-240 Vac
   - [[PosiCharge DVS300 Series]]: 480/600 VAC 3-phase (sheet)
-  - [[PosiCharge High Voltage Power Station (AC)]]: PosiCharge DC bus; 240 Vac single phase (216-252 V, 150 A max); 208/240 Vac three-phase delta (190-252 V, 100 A max); 480/277 Vac three-phase wye (432-504 V, 45 A max); 60 Hz (card)
+  - [[PosiCharge High Voltage Power Station]]: PosiCharge DC bus; 240 Vac single phase (216-252 V, 150 A max); 208/240 Vac three-phase delta (190-252 V, 100 A max); 480/277 Vac three-phase wye (432-504 V, 45 A max); 60 Hz (card)
   - [[PosiCharge MVS400 and MVS800]]: 480/600 VAC 3-phase (sheets)
   - [[PosiCharge ProCore Edge]]: 440/480 V, 600 V and 380/400 V versions (sheet)
   - [[PosiCharge ProCore Solo]]: 120 or 240 VAC single-phase (sheet)

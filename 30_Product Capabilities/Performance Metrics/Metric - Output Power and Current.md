@@ -34,8 +34,7 @@ Output Power and Current: Rated output power and maximum current.
   - [[Lester Summit Series II]]: 1200 W and 1425 W; 40/40/30 A max (1425 W sheet); earlier note: 650 W (24 V 25 A, 36 V 18 A, 48 V 13.5 A), 1050 W, 1425 W
   - [[PosiCharge DVS100]]: 320 A, 20 kW (200 A and 10 kW per port)
   - [[PosiCharge DVS300 Series]]: DVS300 30 kW, DVS400 40 kW; 500 A single or 2 x 250 A (sheet); earlier note: one vehicle up to 500 A, or two vehicles at 250 A each (Airport Technology)
-  - [[PosiCharge High Voltage Power Station (AC)]]: 20 kW maximum via PosiCharge DC bus; 30 kW maximum via AC input; output 250 to 920 Vdc; current not stated (card table); the card heading says 20 kW and the next line says 30 kW quick charge (C81)
-  - [[PosiCharge High Voltage Power Station (DC)]]: 20 kW, 30 kW quick charge on the same card (C81)
+  - [[PosiCharge High Voltage Power Station]]: 20 kW maximum via PosiCharge DC bus; 30 kW maximum via AC input; output 250 to 920 Vdc; current not stated (card table); the card heading says 20 kW and the next line says 30 kW quick charge (C81); earlier DC listing note: 20 kW, 30 kW quick charge on the same card
   - [[PosiCharge MVS400 and MVS800]]: powerserver 40 kW (MVS400) or 80 kW (MVS800); powerstation 60 kW, 250 A dual or 500 A single (sheets)
   - [[PosiCharge ProCore Edge]]: 6-30 kW; 24/36/48 V up to 640/640/521 A (sheet)
   - [[PosiCharge ProCore Solo]]: 1.2 kW at 120 V; 2.7 kW at 240 V (sheet)

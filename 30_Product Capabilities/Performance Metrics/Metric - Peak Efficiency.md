@@ -35,7 +35,7 @@ Peak Efficiency: Highest AC-to-DC conversion efficiency.
   - [[EnerSys NexSys+ Charger]]: 94% with NexSys iON; '94% or greater' (chart)
   - [[Lester Summit Series II]]: above 91% peak (DOE test, 115 Vac)
   - [[PosiCharge DVS300 Series]]: 90 percent (sheet)
-  - [[PosiCharge High Voltage Power Station (AC)]]: 95 percent (card; peak or rated point not stated)
+  - [[PosiCharge High Voltage Power Station]]: 95 percent (card; peak or rated point not stated)
   - [[PosiCharge MVS400 and MVS800]]: 90 percent (MVS400 powerserver), 95 percent (MVS800 powerserver) (sheets)
   - [[PosiCharge ProCore Solo]]: up to 95 percent (sheet)
   - [[PosiCharge SVS100]]: 91 percent (sheet)

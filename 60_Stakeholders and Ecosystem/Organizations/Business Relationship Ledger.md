@@ -470,8 +470,8 @@ Evidence ledger for governed business links written in note frontmatter, preserv
 | offeredWith | [[Crown Gena Operating System]] | [[Crown InfoLink]] | Crown says Gena integrates with InfoLink | <https://crown.com/content/dam/crown/pdfs/apac/brochures/SP-1500-Broch-APAC.pdf> |
 | offeredWith | [[Crown Gena Operating System]] | [[Crown ProximityAssist System]] | ProximityAssist alerts appear on the Gena touch screen | <https://www.ivtinternational.com/?p=22917> |
 | makes | [[PosiCharge]] | [[PosiCharge DVS150]] | vendor presents the product as its own | <https://posicharge.com/products/dvs150/> |
-| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station (AC)]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-ac/> |
-| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station (DC)]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-dc/> |
+| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-ac/> |
+| makes | [[PosiCharge]] | [[PosiCharge High Voltage Power Station]] | vendor presents the product as its own | <https://posicharge.com/products/high-voltage-power-station-dc/> |
 | makes | [[PosiCharge]] | [[PosiCharge PosiConnect]] | vendor presents the product as its own | <https://posicharge.com/products/posiconnect/> |
 | makes | [[PosiCharge]] | [[PosiCharge PosiLink]] | vendor presents the product as its own | <https://posicharge.com/products/posilink/> |
 | makes | [[PosiCharge]] | [[PosiCharge SkyLink]] | vendor presents the product as its own | <https://posicharge.com/products/skylink/> |

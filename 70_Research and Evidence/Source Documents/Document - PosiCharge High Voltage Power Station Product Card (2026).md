@@ -12,8 +12,7 @@ sourceClass: datasheet
 sourceUrl: "https://posicharge.com/wp-content/uploads/2026/01/High-Voltage-Power-Station-Product-Card-1.pdf"
 sourceRevision: "PDF metadata creation date 2026-06-24; two pages; no version marking"
 describes:
-  - "[[PosiCharge High Voltage Power Station (AC)]]"
-  - "[[PosiCharge High Voltage Power Station (DC)]]"
+  - "[[PosiCharge High Voltage Power Station]]"
 ---
 
 # Document - PosiCharge High Voltage Power Station Product Card (2026)
@@ -61,7 +60,7 @@ Values are as printed. Page 2 has no extractable text (it is an image), so plain
 
 ## Traceability
 
-- `describes` links the card to both listings that share it.
+- `describes` links the card to the merged product note, which covers both listings that share it.
 - Earlier vault summaries of the card record page 1 only; the page 2 values above were not on any note before 2026-10-13.
 - Conflicts and open questions: C81, C82, C210 in [[Battery Product Landscape Conflicts and Open Questions]].
 

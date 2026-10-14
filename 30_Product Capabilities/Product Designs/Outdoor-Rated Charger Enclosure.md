@@ -14,7 +14,7 @@ describedBy:
 designOf:
   - "[[ACT Quantum Outdoor]]"
   - "[[EnerSys NexSys+ Charger]]"
-  - "[[PosiCharge High Voltage Power Station (AC)]]"
+  - "[[PosiCharge High Voltage Power Station]]"
 ---
 
 # Outdoor-Rated Charger Enclosure

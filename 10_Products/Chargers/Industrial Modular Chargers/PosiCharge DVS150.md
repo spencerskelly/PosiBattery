@@ -24,7 +24,7 @@ madeBy:
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
 integratesWith:
-  - "[[PosiCharge High Voltage Power Station (AC)]]"
+  - "[[PosiCharge High Voltage Power Station]]"
 ---
 
 # PosiCharge DVS150

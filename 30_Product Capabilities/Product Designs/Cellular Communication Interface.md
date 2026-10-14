@@ -14,7 +14,7 @@ describedBy:
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Hyster Battery Tracker]]"
-  - "[[PosiCharge High Voltage Power Station (AC)]]"
+  - "[[PosiCharge High Voltage Power Station]]"
   - "[[Yale Battery Vision]]"
   - "[[Philadelphia Scientific eGO!gateway]]"
   - "[[PosiCharge E-Meter]]"

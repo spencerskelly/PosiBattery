@@ -102,7 +102,7 @@ Carried over unchanged from the note's earlier frontmatter (the model status is 
   - rule: Preserve conflicting evidence and document resolution; do not silently overwrite or delete it.
 - **Round 20 (2026-10-03):** the owner uploaded the current PosiCharge sheets; resolutions and four new conflicts (PC-PUB-004 to 007, register C80 to C83) are recorded above and in the central register. Extraction was by AI; reviewer sign-off is still needed.
 
-- **Update 2026-10-13 (C81, C82, new C210 and C211):** card page 2 was read from its image for the first time and the AC page was read; the AC listing now has ratings, inputs, interfaces and certification recorded on [[PosiCharge High Voltage Power Station (AC)]]. PC-PUB-005 and PC-PUB-006 stay Open pending the owner's answer on whether the AC and DC listings are one product with two input configurations (IB-156).
+- **Update 2026-10-13 (C81, C82, new C210 and C211):** card page 2 was read from its image for the first time and the AC page was read; the AC listing now has ratings, inputs, interfaces and certification recorded on [[PosiCharge High Voltage Power Station]]. PC-PUB-005 and PC-PUB-006 stay Open pending data questions; the owner decided on 2026-10-13 that the AC and DC listings are one product on one note (IB-156).
 
 ## Aliases
 
