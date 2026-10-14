@@ -12,6 +12,7 @@ sourceUrl: "https://greencubes.com/product/safeflexplus/"
 accessed: 2026-10-13
 describes:
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
 ---
 
 # Document - Green Cubes Lithium SAFEFlex PLUS Product Page (retrieved 2026-10-13)

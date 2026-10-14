@@ -13,6 +13,7 @@ sourceUrl: "https://greencubes.com/blog/lithium-safeflex-case-study-agv-opportun
 describes:
   - "[[Industry Data Register from Downloads Articles]]"
   - "[[Green Cubes Technology]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
 ---
 
 # Document - Green Cubes SAFEFlex AGV Opportunity Charging Case Study (2017-06-22)

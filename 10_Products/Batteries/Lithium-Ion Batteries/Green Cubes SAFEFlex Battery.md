@@ -11,6 +11,9 @@ tags:
   - ibms
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Green Cubes Lithium SAFEFlex PLUS Product Page (retrieved 2026-10-13)]]"
+  - "[[Document - Green Cubes SAFEFlex AGV Opportunity Charging Case Study (2017-06-22)]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
@@ -49,6 +52,8 @@ Green Cubes drop-in lithium battery for material handling, 48 V FBP-1000 series.
 - **Design characteristics, with citations (round 40, gap review 2026-10-03):**
   - [[Integrated Battery Management System]] (V): <https://www.forkliftaction.com/cards/1518/green-cubes-technology/default.aspx>
   - [[BMS Internal Temperature Sensing]] (V): <https://greencubes.com/resources/faq/>
+
+- **Update 2026-10-13:** linked to the SAFEFlex PLUS product page and the 2017 AGV opportunity-charging case study as sources. Whether this older SAFEFlex note and [[Green Cubes SAFEFlex PLUS Battery]] describe one product line or two generations is not established by either source (IB-192); both notes are kept.
 
 ## Aliases
 
