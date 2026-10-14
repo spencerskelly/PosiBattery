@@ -13,6 +13,7 @@ subtypeOf:
 supertypeOf:
   - "[[Raymond 8000 Series Pallet Trucks]]"
   - "[[STILL EXH-SF Low Lift Pallet Truck]]"
+  - "[[Mitsubishi Warehouse Trucks (Americas Listing)]]"
 ---
 
 # Class III Electric Hand or Hand-Rider Truck

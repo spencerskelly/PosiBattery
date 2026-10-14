@@ -16,6 +16,7 @@ supertypeOf:
   - "[[Jungheinrich ETV C16 and C20]]"
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
   - "[[Raymond Orderpickers]]"
+  - "[[Mitsubishi EDR Reach Trucks (Americas Listing)]]"
 ---
 
 # Class II Electric Narrow Aisle Truck

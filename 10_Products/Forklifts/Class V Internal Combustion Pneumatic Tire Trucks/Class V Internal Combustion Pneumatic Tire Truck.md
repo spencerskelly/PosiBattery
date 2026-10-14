@@ -10,6 +10,9 @@ tags:
 abstract: true
 subtypeOf:
   - "[[Powered Industrial Truck]]"
+supertypeOf:
+  - "[[Mitsubishi FG and FD Internal Combustion Forklifts (Americas Listing)]]"
+  - "[[UniCarriers Nomad AF30-AF50 LP and Dual-Fuel Forklifts]]"
 ---
 
 # Class V Internal Combustion Pneumatic Tire Truck

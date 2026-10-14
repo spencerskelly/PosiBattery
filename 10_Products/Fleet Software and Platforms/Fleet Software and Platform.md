@@ -12,6 +12,7 @@ supertypeOf:
   - "[[Battery and Charger Management Software]]"
   - "[[Truck Telematics Software]]"
   - "[[Crown Service Request App]]"
+  - "[[Phantom Auto Remote Operation Software]]"
 ---
 
 # Fleet Software and Platform

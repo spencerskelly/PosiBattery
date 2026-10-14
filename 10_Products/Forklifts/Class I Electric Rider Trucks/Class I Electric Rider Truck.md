@@ -42,6 +42,7 @@ supertypeOf:
   - "[[Yale ERC080VHL]]"
   - "[[Cat Electric Lift Trucks (North America Series List)]]"
   - "[[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]]"
+  - "[[Mitsubishi FB25-55N Electric Pneumatic Forklifts (Americas Listing)]]"
 ---
 
 # Class I Electric Rider Truck

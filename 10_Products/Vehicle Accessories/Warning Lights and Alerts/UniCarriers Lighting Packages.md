@@ -20,6 +20,7 @@ madeBy:
   - "[[Mitsubishi Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
+  - "[[UniCarriers MX2 and MXL Series]]"
 ---
 
 # UniCarriers Lighting Packages

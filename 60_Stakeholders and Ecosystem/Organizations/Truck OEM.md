@@ -29,6 +29,7 @@ rolePlayedBy:
   - "[[Textron GSE]]"
   - "[[Toyota Industries Corporation]]"
   - "[[Toyota Material Handling]]"
+  - "[[Rocla]]"
 ---
 
 # Truck OEM

@@ -16,6 +16,8 @@ supertypeOf:
   - "[[Class V Internal Combustion Pneumatic Tire Truck]]"
   - "[[Class VI Tractor]]"
   - "[[Class VII Rough Terrain Forklift]]"
+  - "[[Rocla ART Automated Reach Truck]]"
+  - "[[Rocla AWT Automated Counterbalance Truck]]"
 describedBy:
   - "[[Forklift Offerings Matrix]]"
   - "[[ICE and Fuel Cell Feature Gap Review]]"
