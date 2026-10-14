@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[EnerSys NexSys iON Battery]]"
   - "[[Hyster Power Cellect]]"
+  - "[[Orion BMS 2]]"
+  - "[[Batrium WatchMonCORE]]"
 describedBy:
   - "[[BMS Function Definitions]]"
 ---

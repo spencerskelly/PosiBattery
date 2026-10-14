@@ -14,6 +14,7 @@ sourceUrl: "https://www.fluxpower.com/hubfs/Flux%20Power%20SkyBMS.pdf"
 accessed: 2026-10-13
 describes:
   - "[[BMS Product Function and Requirement Driver Map]]"
+  - "[[External BMS Product Landscape]]"
 ---
 
 # Document - Flux Power SkyBMS Brochure (2023)

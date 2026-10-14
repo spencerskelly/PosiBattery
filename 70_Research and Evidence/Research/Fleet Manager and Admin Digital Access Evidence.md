@@ -14,6 +14,7 @@ describes:
   - "[[Fleet Software Administrator]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Manage Fleet Use]]"
+  - "[[Cloud Platform Provider]]"
 describedBy:
   - "[[Document - Supply Chain 24-7 Real-Time Battery Monitoring Fills in the Data Gaps (2017-09-05)]]"
   - "[[Document - AJOT Only 45% of Fleet Operators Are Satisfied with Telematics (2026-05-12)]]"

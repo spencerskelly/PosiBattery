@@ -46,6 +46,7 @@ performedBy:
   - "[[PosiCharge Battery Rx]]"
   - "[[Philadelphia Scientific eGO!core]]"
   - "[[Philadelphia Scientific eGO!plus]]"
+  - "[[Flux SkyBMS]]"
 realizedBy:
   - "[[Abnormal Condition Alert Design]]"
 realizes:

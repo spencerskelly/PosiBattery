@@ -30,6 +30,7 @@ designOf:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Stryten M-Series Li610 Battery]]"
+  - "[[Flux SkyBMS]]"
 ---
 
 # Integrated Battery Management System

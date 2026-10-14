@@ -13,6 +13,8 @@ describes:
   - "[[Battery Management System]]"
   - "[[CAN Interface]]"
   - "[[Cloud Portal Integration]]"
+  - "[[Electric Utility or Grid Operator]]"
+  - "[[Cloud Platform Provider]]"
 describedBy:
   - "[[Document - Wikipedia Modbus (retrieved 2026-10-13)]]"
   - "[[Document - CiA 418 CANopen Device Profile for Battery Modules (retrieved 2026-10-13)]]"

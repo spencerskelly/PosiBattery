@@ -15,6 +15,16 @@ describedBy:
   - "[[BMS Product Function and Requirement Driver Map]]"
   - "[[BMS Function Definitions]]"
   - "[[Interface and Protocol Layer Reference]]"
+  - "[[External BMS Product Landscape]]"
+supertypeOf:
+  - "[[Orion BMS 2]]"
+  - "[[REC 2Q BMS]]"
+  - "[[REC Active BMS]]"
+  - "[[Batrium WatchMonCORE]]"
+  - "[[Batrium CellMate-K9]]"
+  - "[[Batrium ShuntMon2]]"
+  - "[[Nuvation Energy G5 BMS]]"
+  - "[[Flux SkyBMS]]"
 ---
 
 # Battery Management System

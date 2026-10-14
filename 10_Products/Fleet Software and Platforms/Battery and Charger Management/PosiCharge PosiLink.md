@@ -19,6 +19,8 @@ madeBy:
 offeredWith:
   - "[[PosiCharge PosiGuard]]"
   - "[[PosiCharge ProCore Edge]]"
+dependsOn:
+  - "[[Cloud Platform Provider]]"
 ---
 
 # PosiCharge PosiLink

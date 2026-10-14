@@ -55,6 +55,7 @@ performedBy:
   - "[[BMS Temperature Sensor Network]]"
   - "[[Thermistor Temperature Sensor]]"
   - "[[Thermistor Temperature Measurement Circuit]]"
+  - "[[Batrium ShuntMon2]]"
 realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:

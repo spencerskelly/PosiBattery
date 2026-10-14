@@ -12,6 +12,7 @@ Use the modeled general Design hierarchy as the primary navigation structure. Sp
 
 - [[Lead-Acid Battery Construction Design]]
 - [[Battery Integrated Feature Design]]
+- [[Battery Management System Design]]
 - [[Electrolyte Level Sensing Design]]
 - [[Battery Temperature Reporting to Charger]]
 - [[Battery Temperature Measurement Design]]

@@ -13,6 +13,9 @@ subtypeOf:
 performedBy:
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[EnerSys NexSys iON Battery]]"
+  - "[[Orion BMS 2]]"
+  - "[[REC Active BMS]]"
+  - "[[Batrium CellMate-K9]]"
 describedBy:
   - "[[BMS Function Definitions]]"
 ---

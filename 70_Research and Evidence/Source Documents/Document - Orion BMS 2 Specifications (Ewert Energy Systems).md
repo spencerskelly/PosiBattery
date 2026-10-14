@@ -14,6 +14,8 @@ sourceUrl: "https://www.orionbms.com/downloads/documents/orionbms2_specification
 accessed: 2026-10-13
 describes:
   - "[[BMS Product Function and Requirement Driver Map]]"
+  - "[[External BMS Product Landscape]]"
+  - "[[Ewert Energy Systems]]"
 ---
 
 # Document - Orion BMS 2 Specifications (Ewert Energy Systems)

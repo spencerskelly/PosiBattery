@@ -23,6 +23,7 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Power Designers PowerTrac DT3]]"
   - "[[Power Designers PowerTrac SP+]]"
+  - "[[Batrium ShuntMon2]]"
 dependsOn:
 realizedBy:
   - "[[Current Integration Amp-Hour Accumulation]]"

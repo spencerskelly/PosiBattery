@@ -34,6 +34,7 @@ performedBy:
   - "[[Exide Solition Light Traction Battery]]"
   - "[[Battery Current Acquisition Firmware]]"
   - "[[Battery Current Measurement Circuit]]"
+  - "[[Batrium ShuntMon2]]"
 realizedBy:
   - "[[Current Sensing Design]]"
 supportedBy:

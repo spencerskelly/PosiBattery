@@ -20,6 +20,8 @@ hasDesign:
   - "[[Remote Charger Management Design]]"
 hasPart:
   - "[[Remote Charger Management Service]]"
+dependsOn:
+  - "[[Cloud Platform Provider]]"
 ---
 
 # PosiCharge SkyLink

@@ -41,6 +41,7 @@ performedBy:
   - "[[HOPPECKE trak collect]]"
   - "[[Philadelphia Scientific eGO!c]]"
   - "[[Wireless Battery Data Communication Firmware]]"
+  - "[[Flux SkyBMS]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
 realizedBy:

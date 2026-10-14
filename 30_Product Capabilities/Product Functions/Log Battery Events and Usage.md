@@ -46,6 +46,7 @@ performedBy:
   - "[[Battery Event Logger Firmware]]"
   - "[[Event Log Memory]]"
   - "[[Event Time Base]]"
+  - "[[Flux SkyBMS]]"
 realizes:
   - "[[Document Battery Care for Warranty Compliance]]"
   - "[[Review BMID Battery History and Exceptions]]"

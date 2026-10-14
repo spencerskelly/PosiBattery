@@ -29,6 +29,8 @@ performedBy:
   - "[[Coulomb Counting State of Charge Estimator Firmware]]"
   - "[[Voltage-Based State of Charge Estimator Firmware]]"
   - "[[Model-Based State of Charge Estimator Firmware]]"
+  - "[[Orion BMS 2]]"
+  - "[[Batrium ShuntMon2]]"
 realizes:
   - "[[Know Battery State Before and During the Shift]]"
   - "[[Inspect Battery Condition Through a BMID]]"

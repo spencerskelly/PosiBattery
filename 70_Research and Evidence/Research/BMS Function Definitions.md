@@ -13,6 +13,13 @@ describes:
   - "[[Protect Battery from Harm]]"
   - "[[Balance Cells]]"
   - "[[Disconnect Battery on Limit Violation]]"
+  - "[[Battery Management System Design]]"
+  - "[[Active Cell Balancing]]"
+  - "[[Master and Cell Monitor BMS Topology]]"
+  - "[[Passive Cell Balancing]]"
+  - "[[Standalone Battery Management System]]"
+  - "[[Calculate Charge and Discharge Current Limits]]"
+  - "[[Detect Isolation Fault]]"
 describedBy:
   - "[[Document - MathWorks Battery Management System Overview (retrieved 2026-10-13)]]"
   - "[[Document - Wikipedia Battery Management System (retrieved 2026-10-13)]]"

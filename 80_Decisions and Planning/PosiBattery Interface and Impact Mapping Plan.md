@@ -102,11 +102,13 @@ Each phase ends with the existing gates passing and a short evidence note; do no
 | Over-modeling before the query proves useful | Pilot slice only; Phase 2 before widening |
 | Protocol notes written from encyclopedia pages only | Each protocol note states which sources were read; standards go on the wishlist and notes are upgraded when read |
 | Hub notes flood the results | Rule 3; abstract-hub list reviewed in Phase 2 |
-| Requirements written for a BMS PosiCharge does not make | Phase 4 waits for the owner's answer |
+| Requirements written for a BMS PosiCharge does not make | Settled: the BMS is external; Phase 4 writes interface requirements only |
 
-## Decisions needed
+## Decisions (settled 2026-10-13)
 
-1. **Internal protocols:** keep them out of this repository entirely (levels A and B only plus opaque references), or move the vault to private?
-2. **First slice:** battery, charger, truck, cloud and fleet user for the PosiCharge lithium and BMID path, or another chain?
-3. **Scope of the top layers:** are utilities and cloud providers in the first release or later?
-4. **BMS aim:** specify a BMS PosiCharge would offer, or what PosiCharge chargers and the BMID must do against other makers' BMS?
+Recorded in [[Research Change and Decision Tracker]].
+
+1. **Internal protocols:** none exist in the repository yet (everything is public). Only levels A and B are written; level C stays out and enters only as opaque references.
+2. **First slice:** PosiCharge lithium and BMID path, battery to charger to truck to PosiLink or SkyLink to fleet user.
+3. **Top layers:** entries now ([[Electric Utility or Grid Operator]], [[Cloud Platform Provider]]); deeper work later.
+4. **BMS aim:** the BMS is external. PosiCharge has none, so no BMS Requirements are written for PosiCharge. BMS functions and designs are defined in the model ([[Battery Management System Design]], [[BMS Function Definitions]]) and external BMS products are noted ([[External BMS Product Landscape]]). Phase 4 covers interface requirements on PosiCharge products only.

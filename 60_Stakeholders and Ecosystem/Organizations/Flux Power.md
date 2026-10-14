@@ -17,10 +17,12 @@ describedBy:
   - "[[Products Offered or Promoted with Industrial Batteries]]"
 playsRole:
   - "[[Battery Maker]]"
+  - "[[BMS Maker]]"
 makes:
   - "[[Flux Power LiFT Pack]]"
   - "[[Flux Power S-Series Battery]]"
   - "[[Flux Power GSE Pack]]"
+  - "[[Flux SkyBMS]]"
 ---
 
 # Flux Power

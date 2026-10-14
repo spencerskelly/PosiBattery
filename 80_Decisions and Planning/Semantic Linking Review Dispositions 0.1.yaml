@@ -2575,3 +2575,17 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."
+  "30_Product Capabilities/Product Functions/Calculate Charge and Discharge Current Limits.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."
+  "30_Product Capabilities/Product Functions/Detect Isolation Fault.md":
+    classification: reference_content
+    gaps:
+      upstream:
+        disposition: intentionally_absent
+        exception: EXC-REFERENCE-LEAF
+        note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."

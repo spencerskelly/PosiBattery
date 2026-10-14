@@ -16,6 +16,7 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 ## Key information
 
 - [[BMS Function Definitions]] — neutral definitions of BMS functions.
+- [[External BMS Product Landscape]] — external BMS products, their functions and designs, and the design choices a BMS owner has to make.
 - [[PosiBattery Interface and Impact Mapping Plan]] — plan to map interfaces by layer and show impacted and impacting elements.
 - [[Interface and Protocol Layer Reference]] — layered list of interfaces and protocols from cell to grid, cloud and users.
 - [[BMS Product Function and Requirement Driver Map]] — BMS functions by product and the standards, interfaces and needs that drive them.

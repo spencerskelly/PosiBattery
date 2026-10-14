@@ -40,6 +40,9 @@ performedBy:
   - "[[Battery Voltage Measurement Circuit]]"
   - "[[Battery Voltage Acquisition Firmware]]"
   - "[[Mid-Battery Differential Voltage Measurement Circuit]]"
+  - "[[Orion BMS 2]]"
+  - "[[Batrium CellMate-K9]]"
+  - "[[Batrium ShuntMon2]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
 realizedBy:

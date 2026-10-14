@@ -12,6 +12,8 @@ supertypeOf:
   - "[[Protect Battery from Deep Discharge]]"
   - "[[Balance Cells]]"
   - "[[Disconnect Battery on Limit Violation]]"
+  - "[[Calculate Charge and Discharge Current Limits]]"
+  - "[[Detect Isolation Fault]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 describedBy:
