@@ -15,6 +15,7 @@ supertypeOf:
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
   - "[[Amaron Electrolyte Circulation System]]"
+  - "[[Banner Traction Bull Electrolyte Circulation Pump Module]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

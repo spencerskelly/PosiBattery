@@ -12,6 +12,7 @@ sourceUrl: "https://bannerbatterien.com/energysolutions/upload/files/FolderTract
 accessed: 2026-10-13
 describes:
   - "[[Banner Traction Bull PzS]]"
+  - "[[Banner Traction Bull Battery Controller]]"
 ---
 
 # Document - Banner Traction Bull PzS DIN Cells Folder (1709002006)

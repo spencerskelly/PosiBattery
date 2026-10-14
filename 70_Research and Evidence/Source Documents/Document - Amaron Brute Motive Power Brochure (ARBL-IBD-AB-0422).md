@@ -14,6 +14,8 @@ describes:
   - "[[Amaron Brute Hi-Life Battery]]"
   - "[[Amaron Electrolyte Circulation System]]"
   - "[[Amaron Aqua Filling Plug]]"
+  - "[[Amaron AFS System]]"
+  - "[[Amaron DIY Rx]]"
 ---
 
 # Document - Amaron Brute Motive Power Brochure (ARBL-IBD-AB-0422)

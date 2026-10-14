@@ -209,6 +209,7 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-182 | EnerSys IRONCLAD: WorkHog status (C220); notes for BSI40, EZ Select, LifeNetwork, E Connect and EnSite (names only so far); Deserthog and Superhog data sheets; cycle life and warranty by line | <https://enersys.com/en/products/batteries/ironclad/ironclad-americas> | C220, C221 | EnerSys document library | open |
 | IB-183 | EnerSys: resolve EZ Select vs EZSelect Lite (C223); BSI software and Hawker charger models for BSI40; LifeNetwork iQ vs Xinx; EnSite official page; E Connect app note (BLE, Wi-iQ configuration) | <https://www.enersys.com/en/products/monitoring-and-fleet-management/> | open |
 | IB-184 | Exide 2100 Li High Output specs and 2100 HP/GNB naming (C224); Raymond PSI 12 metrics, iWAREHOUSE GATEWAY form and iBattery relation; Flux GSE3 truck adapter nature | <https://www.exidegroup.com/en/product/2100-li-high-output> | open |
+| IB-185 | Banner Traction Bull options (filling system, circulation, controller, cold store, explosion protection) and Amaron AFS and DIY Rx: names, functions, whether the filling options are one system | <https://www.bannerbatterien.com/en/Products/Industrial-Batteries/Traction-Bull/244-Wet> | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 

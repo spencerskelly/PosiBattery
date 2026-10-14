@@ -25,6 +25,7 @@ performedBy:
   - "[[Battery Watering Distribution Tubing]]"
   - "[[Water Injector Shutoff Assembly]]"
   - "[[Automatic Watering Control Logic]]"
+  - "[[Banner Traction Bull Filling System]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 dependsOn:

@@ -8,6 +8,10 @@ tags:
   - organization
   - battery-maker
   - europe
+offers:
+  - "[[Banner Traction Bull Filling System]]"
+  - "[[Banner Traction Bull Electrolyte Circulation Pump Module]]"
+  - "[[Banner Traction Bull Battery Controller]]"
 playsRole:
   - "[[Battery Maker]]"
 makes:

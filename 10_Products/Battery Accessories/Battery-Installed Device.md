@@ -16,6 +16,8 @@ supertypeOf:
   - "[[Battery Watering System]]"
   - "[[Exide Retrofitting Communicator]]"
   - "[[Flux Power GSE3 Truck Adapter]]"
+  - "[[Banner Traction Bull Battery Controller]]"
+  - "[[Amaron DIY Rx]]"
 describedBy:
   - "[[Battery Installed Device Market Reference]]"
   - "[[Battery Product Landscape]]"

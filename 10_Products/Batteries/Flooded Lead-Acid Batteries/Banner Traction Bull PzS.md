@@ -14,10 +14,15 @@ subtypeOf:
 describedBy:
   - "[[Document - Banner Traction Bull PzS DIN Cells Folder (1709002006)]]"
   - "[[Document - Banner Energy Solutions Traction Bull PzS and PzB Folder (1709000515)]]"
+  - "[[Document - Banner Traction Bull Wet Product Page (retrieved 2026-10-13)]]"
 hasDesign:
   - "[[Tubular Plate Construction]]"
 madeBy:
   - "[[Banner]]"
+offeredWith:
+  - "[[Banner Traction Bull Filling System]]"
+  - "[[Banner Traction Bull Electrolyte Circulation Pump Module]]"
+  - "[[Banner Traction Bull Battery Controller]]"
 ---
 
 # Banner Traction Bull PzS

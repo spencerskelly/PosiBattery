@@ -20,6 +20,8 @@ madeBy:
 offeredWith:
   - "[[Amaron Electrolyte Circulation System]]"
   - "[[Amaron Aqua Filling Plug]]"
+  - "[[Amaron AFS System]]"
+  - "[[Amaron DIY Rx]]"
 ---
 
 # Amaron Brute Hi-Life Battery

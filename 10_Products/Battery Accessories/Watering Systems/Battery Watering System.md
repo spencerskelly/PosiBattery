@@ -20,6 +20,8 @@ supertypeOf:
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[PosiCharge Single-Point Automatic Battery Watering]]"
   - "[[Amaron Aqua Filling Plug]]"
+  - "[[Banner Traction Bull Filling System]]"
+  - "[[Amaron AFS System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---
