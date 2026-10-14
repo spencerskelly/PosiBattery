@@ -12,6 +12,8 @@ performedBy:
   - "[[EnerSys BSI40]]"
   - "[[EnerSys EZSelect Lite]]"
   - "[[EnerSys LifeNetwork iQ]]"
+realizes:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Guide Battery Selection and Rotation

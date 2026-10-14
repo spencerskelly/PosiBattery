@@ -13,6 +13,9 @@ realizedBy:
   - "[[Adapt Speed to Load and Lift Height]]"
   - "[[Restrict Lift When Load Exceeds Limit]]"
   - "[[Stabilize Truck Dynamically]]"
+  - "[[Cut Lift at Programmed Height]]"
+  - "[[Sense Load Weight and Lift Height]]"
+  - "[[Damp Mast Oscillation]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
@@ -34,6 +37,7 @@ Customer need: Prevent Tip-Overs and Overloads. The problem behind it: Cornering
 - **Who has the problem:** [[Forklift Operator]], [[Site Safety Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets.
 - **Realized by (specific functions; products link to these):** [[Slow Truck in Curves]], [[Adapt Speed to Load and Lift Height]], [[Restrict Lift When Load Exceeds Limit]], [[Stabilize Truck Dynamically]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Cut Lift at Programmed Height]], [[Sense Load Weight and Lift Height]], [[Damp Mast Oscillation]] - rationale: limiting lift height, showing load limits and damping mast swing. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 25 by function, design or option (owner decision, round 40: design and option routes count as reached); 19 of those perform a realizing function. Largest families by function: Vehicle Accessories/Operator Assist and Stability (12), Forklifts/Class I Electric Rider Trucks (5), Vehicle Accessories/Proximity and Object Detection (1), Forklifts/Class II Electric Narrow Aisle Trucks (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[STILL Curve Speed Control]]: STILL says Curve Speed Control regulates driving speed automatically according to the steering angle, is available on various forklift trucks and warehouse devices (standard on the EXH-SF 16C/20C), and addresses tipping accidents whose frequent cause is excessive cornering speed. Source: STILL pages and 2021 STILL release (T1/T2), retrieved 2026-10-03. <https://www.still.co.uk/company/news-press/news/detail/safe-safer-still.html>

@@ -23,6 +23,7 @@ performedBy:
   - "[[Battery-Charger Communication Firmware]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 satisfies:
   - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
 realizedBy:

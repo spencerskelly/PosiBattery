@@ -24,6 +24,8 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Stryten M-Series T330 Battery]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Equalize Battery on Schedule

@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[EnerSys Express Charger]]"
   - "[[EnerSys NexSys+ Charger]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Diagnose Battery During Charge

@@ -14,6 +14,8 @@ dependsOn:
   - "[[Mast Lift Limit Switch]]"
 performedBy:
   - "[[Raymond Mast Lift Limit Switch with Bypass]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Cut Lift at Programmed Height

@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Charge Battery]]"
 performedBy:
   - "[[Delta MOOVbase Modular Charging Systems]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Charge Several Batteries from One Unit

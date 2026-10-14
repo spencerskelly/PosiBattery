@@ -8,6 +8,8 @@ tags:
   - customer-needs
   - product-need-map
   - derived
+describedBy:
+  - "[[Function-to-Need Gap Register]]"
 describes:
   - "[[Battery-Connected Product]]"
 ---
@@ -29,6 +31,8 @@ Derived map from each catalog product to the customer needs it serves, and from 
 - **2026-10-06 charger-status correction:** [[Crown V-HFM3 Tower Light Kit]] and [[PosiCharge Three-Color Stack Light]] no longer reach [[Know Battery State Before and During the Shift]] through [[Indicate Battery Status Locally]]; they now perform [[Indicate Charger Status Locally]], which currently has no customer-need link.
 - **2026-10-04 (not yet regenerated):** the 9 functions added on 2026-10-04 now realize needs, giving 18 product-need pairs by route F, 11 of them new for that product (the rest were already reached by another function). The counts and tables in this note and in each need note's 'Products reaching this need' line predate these links and the 91 accessory links of the same day; regenerate (IB-151). New pairs: [[Toyota Twistlock Snapshot Camera System]] to [[Detect and Learn from Truck Impacts]] via [[Record Images of Load Handling]]; [[Oshkosh AeroTech Ramp Visibility Lights]] to [[Keep the Operator Positioned and Able to See the Work]] via [[Illuminate Work Area]]; [[STILL Safety Packages]] to [[Keep the Operator Positioned and Able to See the Work]] via [[Illuminate Work Area]]; [[Toyota Forklift Lighting Options]] to [[Keep the Operator Positioned and Able to See the Work]] via [[Illuminate Work Area]]; [[UniCarriers Lighting Packages]] to [[Keep the Operator Positioned and Able to See the Work]] via [[Illuminate Work Area]]; [[Crown V-HFM3 Wired Remote Control Kit]] to [[Monitor and Manage Chargers and Batteries Across Sites]] via [[Control Charger from Remote Panel]]; [[Energywith withBMS BMU]] to [[Prevent Battery Abuse and Premature Replacement]] via [[Predict Battery Replacement Timing]]; [[PosiCharge Battery Rx]] to [[Prevent Battery Abuse and Premature Replacement]] via [[Predict Battery Replacement Timing]]; [[Power Designers PowerTrac 3]] to [[Prevent Battery Abuse and Premature Replacement]] via [[Predict Battery Replacement Timing]]; [[Oshkosh AeroTech Powered Handrail with Distance Sensor]] to [[Protect Aircraft and Ground Crew During Ground Operations]] via [[Inhibit Drive Until Equipment Is Stowed]]; [[PosiCharge Cooling Fan Box]] to [[Return Trucks to Service Quickly After a Low Charge]] via [[Manage Temperature During Fast Charging]].
 - **2026-10-13 (not yet regenerated):** [[PosiCharge High Voltage Power Station (AC)]] now performs [[Charge Battery Fast]], so it reaches [[Return Trucks to Service Quickly After a Low Charge]] and [[Opportunity-Charge a Vehicle During a Work Break]] by route F, as [[PosiCharge High Voltage Power Station (DC)]] already does. The counts and tables below were not recomputed and still list it among the unreached products.
+
+- **2026-10-14 (not yet regenerated):** new need [[Charge Without Anyone Plugging In]] (UC-00050) and 31 analyst function-to-need links across 11 existing needs; the counts and tables below predate them. Dispositions of the remaining unlinked functions are in [[Function-to-Need Gap Register]].
 
 ### Needs
 

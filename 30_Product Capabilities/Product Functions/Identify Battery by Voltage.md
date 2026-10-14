@@ -18,6 +18,8 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[Lester Summit Series II]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Identify Battery by Voltage

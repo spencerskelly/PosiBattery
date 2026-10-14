@@ -19,6 +19,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[In-Cell Specific Gravity Probe]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Measure Electrolyte Specific Gravity

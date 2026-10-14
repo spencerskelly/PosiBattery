@@ -19,6 +19,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[Lead-Acid Desulfation Charge Control Design]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Desulfate Battery During Charge

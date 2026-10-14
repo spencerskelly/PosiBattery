@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Control Charge Profile]]"
 performedBy:
   - "[[Delta MOOVair Wireless Charging Series]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Follow Vehicle Charge Setpoints over CANopen

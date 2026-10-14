@@ -13,6 +13,9 @@ subtypeOf:
 performedBy:
   - "[[Concentric PowerHIVE]]"
   - "[[HOPPECKE AGV Battery Exchange System]]"
+realizes:
+  - "[[Charge Without Anyone Plugging In]]"
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # Exchange Battery Automatically

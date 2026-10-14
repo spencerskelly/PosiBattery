@@ -40,6 +40,8 @@ realizedBy:
   - "[[Current Sensing Design]]"
 supportedBy:
   - "[[Document - PosiCharge PosiGuard Product Page]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Measure Battery Current

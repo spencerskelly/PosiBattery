@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[Doosan Bobcat Mast Sway Control]]"
   - "[[Linde Dynamic Mast Control]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Damp Mast Oscillation

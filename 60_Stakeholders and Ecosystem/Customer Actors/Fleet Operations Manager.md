@@ -25,6 +25,7 @@ hasNeed:
   - "[[Right-Size the Fleet from Usage Data]]"
   - "[[Plan Battery Replacement and Budget Ahead]]"
   - "[[Act on Fleet Data Without Information Overload]]"
+  - "[[Charge Without Anyone Plugging In]]"
 describedBy:
   - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---

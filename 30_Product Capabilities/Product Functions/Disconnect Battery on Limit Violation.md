@@ -17,6 +17,8 @@ performedBy:
   - "[[Batrium WatchMonCORE]]"
 describedBy:
   - "[[BMS Function Definitions]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Disconnect Battery on Limit Violation

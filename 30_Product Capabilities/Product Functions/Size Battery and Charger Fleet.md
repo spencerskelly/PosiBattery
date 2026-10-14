@@ -10,6 +10,8 @@ subtypeOf: []
 satisfies: []
 performedBy:
   - "[[EnerSys EnSite]]"
+realizes:
+  - "[[Right-Size the Fleet from Usage Data]]"
 ---
 
 # Size Battery and Charger Fleet

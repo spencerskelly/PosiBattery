@@ -11,6 +11,8 @@ subtypeOf:
   - "[[Reduce Operator Effort]]"
 performedBy:
   - "[[Linde Rotating Operator Workstation]]"
+realizes:
+  - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---
 
 # Rotate Operator Workstation

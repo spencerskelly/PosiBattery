@@ -27,6 +27,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[Current Integration Amp-Hour Accumulation]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Accumulate Amp-Hours

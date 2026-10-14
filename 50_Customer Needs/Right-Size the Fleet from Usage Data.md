@@ -10,6 +10,7 @@ tags:
   - vendor-stated
 realizedBy:
   - "[[Report Truck Telemetry]]"
+  - "[[Size Battery and Charger Fleet]]"
 participants:
   - "[[Fleet Operations Manager]]"
 needOf:
@@ -30,6 +31,7 @@ Customer need: Right-Size the Fleet from Usage Data. The problem behind it: A ma
 - **Problem solved (analyst wording):** A manager needs to know which trucks are idle, which are overused and when peaks occur, to decide whether to rent, buy or reallocate trucks and how to staff shifts.
 - **Who has the problem:** [[Fleet Operations Manager]].
 - **Realized by (specific functions; products link to these):** [[Report Truck Telemetry]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Size Battery and Charger Fleet]] - rationale: working out battery and charger quantities from operating data. Product counts above predate these links and are not regenerated.
 - **Evidence (by source):**
   - F1: the Chicago Tribune Freedom Center's receiving team lead says utilization data for trucks and operators informs production and staffing decisions: 'That information is vital for [us] to make decisions about the future.' Customer statement reported by a trade-press article about Crown InfoLink (T2, 2021). [[Document - MMH Turning Fleet Data into Savings (Chicago Tribune and Crown InfoLink)]]
   - F2: Raymond lists 'Equipment and Operator Utilization' with hour meters (login, travel, lift, deadman) and a Utilization Dashboard (heading only). (T1) [[Document - Raymond iWAREHOUSE Reporting and Analytics (retrieved 2026-10-13)]]

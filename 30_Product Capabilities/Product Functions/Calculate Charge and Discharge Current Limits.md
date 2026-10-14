@@ -15,6 +15,8 @@ performedBy:
 describedBy:
   - "[[BMS Function Definitions]]"
   - "[[External BMS Product Landscape]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Calculate Charge and Discharge Current Limits

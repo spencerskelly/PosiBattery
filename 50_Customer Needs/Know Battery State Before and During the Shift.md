@@ -13,6 +13,11 @@ realizedBy:
   - "[[Estimate Remaining Run Time]]"
   - "[[Display Battery Status to Operator]]"
   - "[[Indicate Battery Status Locally]]"
+  - "[[Accumulate Amp-Hours]]"
+  - "[[Measure Battery Voltage]]"
+  - "[[Measure Battery Current]]"
+  - "[[Measure Electrolyte Specific Gravity]]"
+  - "[[Declare Estimator Accuracy Basis]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
@@ -36,6 +41,7 @@ Customer need: Know Battery State Before and During the Shift. The problem behin
 - **Who has the problem:** [[Forklift Operator]], [[Maintenance Technician]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Airport eGSE fleets.
 - **Realized by (specific functions; products link to these):** [[Estimate State of Charge]], [[Estimate Remaining Run Time]], [[Display Battery Status to Operator]], [[Indicate Battery Status Locally]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Accumulate Amp-Hours]], [[Measure Battery Voltage]], [[Measure Battery Current]], [[Measure Electrolyte Specific Gravity]], [[Declare Estimator Accuracy Basis]] - rationale: measurements and counts that feed the state-of-charge estimate, and the stated accuracy basis of that estimate. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 35 by function, design or option (owner decision, round 40: design and option routes count as reached); 32 of those perform a realizing function. Largest families by function: Battery Accessories/Monitoring Devices (17), Battery Accessories/Water Level Monitors (4), Battery Accessories/Identification and Charge Interface Devices (2), Vehicle Accessories/Operator Displays (2), Forklifts/Class I Electric Rider Trucks (2), Charger Accessories/Remote Controls and Indicators (2). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **2026-10-06 scope correction:** the counts above predate the split of [[Indicate Charger Status Locally]] from [[Indicate Battery Status Locally]]. The two charger-light accessories no longer reach this need through the battery-status Function. Regenerate the derived counts rather than manually treating 35/32 as current.
 - **Vendor-stated evidence (by product):**

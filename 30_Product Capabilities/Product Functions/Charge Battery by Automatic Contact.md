@@ -16,6 +16,8 @@ performedBy:
   - "[[Staubli QCC Quick Charging Connection]]"
   - "[[Raymond Courier AutoCharge System]]"
   - "[[Grenzebach AGV Contact Charging Station]]"
+realizes:
+  - "[[Charge Without Anyone Plugging In]]"
 ---
 
 # Charge Battery by Automatic Contact

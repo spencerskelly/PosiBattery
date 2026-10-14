@@ -18,6 +18,8 @@ performedBy:
   - "[[Resonant Link Wireless Lift Truck Charger]]"
   - "[[Raymond Courier AutoCharge System]]"
   - "[[Grenzebach AGV Contact Charging Station]]"
+realizes:
+  - "[[Charge Without Anyone Plugging In]]"
 ---
 
 # Start and Stop Charge Automatically

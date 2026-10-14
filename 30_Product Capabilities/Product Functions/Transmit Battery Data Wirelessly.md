@@ -46,6 +46,7 @@ performedBy:
   - "[[Midac Mobile App]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
+  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 realizedBy:
   - "[[Wireless Battery Data Communication Design]]"
 ---

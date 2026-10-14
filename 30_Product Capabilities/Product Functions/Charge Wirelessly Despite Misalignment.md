@@ -16,6 +16,8 @@ performedBy:
   - "[[Delta MOOVair Wireless Charging Series]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Resonant Link Wireless Lift Truck Charger]]"
+realizes:
+  - "[[Charge Without Anyone Plugging In]]"
 ---
 
 # Charge Wirelessly Despite Misalignment

@@ -12,6 +12,10 @@ realizedBy:
   - "[[Connect Battery to Charger or Vehicle]]"
   - "[[Manage Charging Cables]]"
   - "[[Continue Charging Through Module Fault]]"
+  - "[[Detect Foreign and Live Objects]]"
+  - "[[Share Power Between Charging Stations]]"
+  - "[[Scale Charge Power by Module Count]]"
+  - "[[Charge Several Batteries from One Unit]]"
 participants:
   - "[[Equipment Installer]]"
   - "[[Forklift Operator]]"
@@ -33,6 +37,7 @@ Customer need: Connect Chargers and Batteries Safely at the Site. The problem be
 - **Who has the problem:** [[Equipment Installer]], [[Forklift Operator]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Battery-room and centralized charging, Distributed and opportunity charging, Airport eGSE fleets.
 - **Realized by (specific functions; products link to these):** [[Connect Battery to Charger or Vehicle]], [[Manage Charging Cables]], [[Continue Charging Through Module Fault]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Detect Foreign and Live Objects]], [[Share Power Between Charging Stations]], [[Scale Charge Power by Module Count]], [[Charge Several Batteries from One Unit]] - rationale: fitting chargers to site power limits and keeping the connection safe. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 19 by function, design or option (owner decision, round 40: design and option routes count as reached); 10 of those perform a realizing function. Largest families by function: Chargers/Industrial Modular Chargers (4), Battery Accessories/Connector Assemblies (3), Charger Accessories/Stands and Mounting (1), Charger Accessories/Cable Management (1), Chargers/Wireless Chargers (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Crown Cable Management Accessories]]: Crown's battery and charger accessories page lists cable management to secure cables during charge and protect connector life: battery pogo sticks, tender kits, cable retractors, magnetic cable holders and more. Source: Crown batteries and chargers page (T1), retrieved 2026-10-03. <https://www.crown.com/en-ca/batteries-and-chargers/>

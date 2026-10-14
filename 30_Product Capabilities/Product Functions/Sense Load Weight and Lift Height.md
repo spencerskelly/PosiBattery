@@ -20,6 +20,8 @@ performedBy:
   - "[[Raymond Load Weight Display]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Load Weight Sensing]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Sense Load Weight and Lift Height

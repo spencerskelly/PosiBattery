@@ -21,6 +21,8 @@ performedBy:
   - "[[Exide Sonnenschein Lithium Battery]]"
 describedBy:
   - "[[BMS Function Definitions]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Balance Cells

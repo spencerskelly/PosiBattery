@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Resonant Link Wireless Lift Truck Charger]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Detect Foreign and Live Objects

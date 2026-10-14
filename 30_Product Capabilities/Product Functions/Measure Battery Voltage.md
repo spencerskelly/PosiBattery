@@ -47,6 +47,7 @@ performedBy:
   - "[[MIDATRON BMU]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
+  - "[[Know Battery State Before and During the Shift]]"
 realizedBy:
   - "[[Battery Voltage Measurement Design]]"
 ---

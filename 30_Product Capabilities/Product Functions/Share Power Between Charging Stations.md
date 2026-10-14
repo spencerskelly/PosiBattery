@@ -13,6 +13,8 @@ performedBy:
   - "[[HVPS Communications Kit]]"
   - "[[PosiCharge High Voltage Power Station (DC)]]"
   - "[[PosiCharge MVS400 and MVS800]]"
+realizes:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
 ---
 
 # Share Power Between Charging Stations

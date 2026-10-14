@@ -24,6 +24,8 @@ performedBy:
   - "[[Lindig L.inductive Charging Offer]]"
   - "[[Delta MOOVair Wireless Charging Series]]"
   - "[[Resonant Link Wireless Lift Truck Charger]]"
+realizes:
+  - "[[Charge Without Anyone Plugging In]]"
 ---
 
 # Charge Battery Wirelessly

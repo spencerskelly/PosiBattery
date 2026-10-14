@@ -17,6 +17,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[Missed Equalization Recovery Design]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Complete Missed Equalization Automatically

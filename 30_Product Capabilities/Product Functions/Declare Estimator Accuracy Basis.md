@@ -20,6 +20,8 @@ describedBy:
 supportedBy:
   - "[[Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025)]]"
   - "[[Document - Margal et al. Comparative Analysis of Battery State of Charge Estimation Methods (2025)]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
 ---
 
 # Declare Estimator Accuracy Basis

@@ -62,6 +62,7 @@ realizedBy:
   - "[[Battery Temperature Measurement Design]]"
 realizes:
   - "[[Inspect Battery Condition Through a BMID]]"
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Measure Battery Temperature

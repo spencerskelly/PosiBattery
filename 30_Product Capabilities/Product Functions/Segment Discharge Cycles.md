@@ -17,6 +17,8 @@ describedBy:
   - "[[SOC and Health Estimation Literature Review]]"
 performedBy:
   - "[[Discharge Cycle Segmentation Firmware]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Segment Discharge Cycles

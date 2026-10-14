@@ -13,6 +13,8 @@ subtypeOf:
 performedBy:
   - "[[Delta MOOVair Wireless Charging Series]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
 ---
 
 # Exchange Charge Control Data Between Pads

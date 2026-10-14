@@ -20,6 +20,7 @@ hasNeed:
   - "[[Prevent Tip-Overs and Overloads]]"
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Warn the Operator of People and Objects Near the Truck]]"
+  - "[[Charge Without Anyone Plugging In]]"
 ---
 
 # Forklift Operator

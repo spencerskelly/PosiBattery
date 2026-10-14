@@ -13,6 +13,7 @@ realizedBy:
   - "[[Assist Lift Positioning]]"
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Illuminate Work Area]]"
+  - "[[Rotate Operator Workstation]]"
 participants:
   - "[[Forklift Operator]]"
 needOf:
@@ -32,6 +33,7 @@ Customer need: Keep the Operator Positioned and Able to See the Work. The proble
 - **Who has the problem:** [[Forklift Operator]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets.
 - **Realized by (specific functions; products link to these):** [[Show Camera View to Operator]], [[Assist Lift Positioning]], [[Stop Vehicle When Operator Is Out of Position]], [[Illuminate Work Area]] (added 2026-10-04).
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Rotate Operator Workstation]] - rationale: turning the operator toward the work to stay in a safe position. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 29 by function, design or option (owner decision, round 40: design and option routes count as reached); 24 of those perform a realizing function. Largest families by function: Vehicle Accessories/Operator Assist and Stability (11), Vehicle Accessories/Cameras and Recorders (6), Forklifts/Class I Electric Rider Trucks (5), Vehicle Accessories/Proximity and Object Detection (1), Forklifts/Class II Electric Narrow Aisle Trucks (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Crown RR-RD 5700 Series]]: Crown says its Smart Systems monitor the truck to control travel speed, braking, cornering speed and position hold, OnTrac anti-slip traction control reduces tire spin during acceleration, plugging and braking, optional rack height select helps operators position forks, and a camera and colour monitor option is offered; the maker's brochure also lists e-GEN braking that eliminates the friction brake. Source: Crown RR/RD Series page and Godrej dealer page (T1/T3), retrieved 2026-10-03. <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>

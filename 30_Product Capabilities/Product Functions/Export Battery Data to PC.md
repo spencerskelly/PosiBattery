@@ -20,6 +20,8 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[PC Battery Data Export Design]]"
+realizes:
+  - "[[Document Battery Care for Warranty Compliance]]"
 ---
 
 # Export Battery Data to PC

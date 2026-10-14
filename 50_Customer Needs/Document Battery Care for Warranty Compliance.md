@@ -12,6 +12,7 @@ realizedBy:
   - "[[Log Battery Events and Usage]]"
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Track Equalization]]"
+  - "[[Export Battery Data to PC]]"
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Dealer Service Technician]]"
@@ -37,6 +38,7 @@ Customer need: Document Battery Care for Warranty Compliance. The problem behind
 - **Who has the problem:** [[Fleet Operations Manager]], [[Dealer Service Technician]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Battery-room and centralized charging.
 - **Realized by (specific functions; products link to these):** [[Log Battery Events and Usage]], [[Upload Battery Data to Cloud Portal]], [[Track Equalization]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Export Battery Data to PC]] - rationale: moving logged charge data out for warranty evidence. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 35 by function, design or option (owner decision, round 40: design and option routes count as reached); 32 of those perform a realizing function. Largest families by function: Battery Accessories/Monitoring Devices (22), Battery Accessories/Identification and Charge Interface Devices (5), Fleet Software and Platforms/Battery and Charger Management (3), Chargers/Industrial Modular Chargers (1), Battery Accessories/Telematics and Connectivity Devices (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[Raymond iBattery]]: Raymond's 2010 launch release says the iBattery module reports charge and discharge cycles, high and low temperatures and low water levels, helps prevent over-discharge through voltage and state-of-charge detection, can detect battery weight against truck specifications, and gives reports on charging intervals, temperature, watering and equalization for warranty compliance; DC Velocity says the module rests on the battery itself. Source: Raymond press release (2010) and DC Velocity (T1/T2 (dated)), retrieved 2026-10-02. <https://raymondcorp.com/news/2010/ibattery-launch>

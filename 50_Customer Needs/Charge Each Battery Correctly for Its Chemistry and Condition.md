@@ -13,6 +13,9 @@ realizedBy:
   - "[[Identify Battery to Charger]]"
   - "[[Compensate Charge for Battery Temperature]]"
   - "[[Charge Under BMS Control]]"
+  - "[[Identify Battery by Voltage]]"
+  - "[[Report Battery Temperature to Charger]]"
+  - "[[Diagnose Battery During Charge]]"
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
@@ -36,6 +39,7 @@ Customer need: Charge Each Battery Correctly for Its Chemistry and Condition. Th
 - **Who has the problem:** [[Maintenance Technician]], [[Fleet Operations Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Mixed-chemistry fleets, Battery-room and centralized charging.
 - **Realized by (specific functions; products link to these):** [[Adapt Charge to Battery Condition]], [[Identify Battery to Charger]], [[Compensate Charge for Battery Temperature]], [[Charge Under BMS Control]].
+- **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Identify Battery by Voltage]], [[Report Battery Temperature to Charger]], [[Diagnose Battery During Charge]] - rationale: choosing the profile by chemistry and adjusting it to temperature and condition. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 47 by function, design or option (owner decision, round 40: design and option routes count as reached); 27 of those perform a realizing function. Largest families by function: Chargers/Industrial Modular Chargers (17), Battery Accessories/Identification and Charge Interface Devices (4), Battery Accessories/Monitoring Devices (2), Chargers/Light-Duty Chargers (2), Fleet Software and Platforms/Battery and Charger Management (1), Chargers/Wireless Chargers (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**
   - [[EnerSys NexSys AIR Wireless Charger]]: The brochure says NexSys AIR wireless chargers can charge multiple battery technologies including flooded lead-acid, are compatible with all EnerSys battery technologies, and can reduce AGV waiting time for charging. Source: EnerSys NexSys AIR brochure (T1), retrieved 2026-10-02. <https://www.enersys.com/493367/globalassets/documents/product-documentation/_enersys/apac/apac_en-imp-nex-com-air-0623.pdf>
