@@ -21,6 +21,7 @@ performs:
   - "[[Control Operator Access]]"
 offeredWith:
   - "[[Raymond 8250 Lithium-Ion Battery]]"
+  - "[[Raymond 8000 Series Pallet Trucks]]"
 ---
 
 # Raymond PIN Code Pad

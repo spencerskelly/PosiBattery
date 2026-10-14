@@ -19,6 +19,8 @@ performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond Orderpickers]]"
 ---
 
 # Raymond iWAREHOUSE Integrated Tether System

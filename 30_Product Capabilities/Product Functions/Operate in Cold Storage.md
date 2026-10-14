@@ -18,6 +18,7 @@ performedBy:
   - "[[Heli G Series Lithium Forklifts]]"
   - "[[Toyota Cold Conditioning Package]]"
   - "[[UniCarriers Freezer Option]]"
+  - "[[Raymond ThermaKit]]"
 realizes:
   - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---

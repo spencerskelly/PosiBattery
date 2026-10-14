@@ -10,12 +10,22 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
+describedBy:
+  - "[[Document - Raymond 7500 Reach Truck Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Recover Energy by Regeneration]]"
 hasDesign:
   - "[[Regenerative Braking]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond ThermaKit]]"
+  - "[[Raymond Height-Tilt Indicator]]"
+  - "[[Raymond Secondary Control Handle]]"
+  - "[[Raymond Fork-Tip Laser Guide]]"
+  - "[[Raymond Operator Compartment Sensor System]]"
+  - "[[Raymond Vantage Point System]]"
+  - "[[Raymond iWAREHOUSE ObjectSense]]"
 ---
 
 # Raymond 7000 Series Reach-Fork Trucks
@@ -32,6 +42,8 @@ Raymond reach-fork truck family on 36 V batteries, including the 7500 universal 
 - **Design characteristics, with citations:**
   - [[Regenerative Braking]] (V): <https://pdf.directindustry.com/pdf/raymond/7000-series-reach-fork-truck-universal-stance/14119-514315.html>
 - Raymond's catalog says the Model 7500 returns up to 10 percent of every amp to the battery with regenerative lowering technology and uses up to 21 percent less energy than the leading competition (vendor claims). Source: Raymond 7000 Series catalog (DirectIndustry) (T1 (catalog)), retrieved 2026-10-03. <https://pdf.directindustry.com/pdf/raymond/7000-series-reach-fork-truck-universal-stance/14119-514315.html>
+
+- **Update 2026-10-14:** 7500 page: 3,500 to 4,500 lb, 36 V, 444 in; lithium-ion offered across the Raymond family; options listed: fork-tip laser guide, height-tilt indicator, operator compartment sensor system, secondary control handle, ThermaKit, Vantage Point camera, iWAREHOUSE ObjectSense. Source: <https://www.raymondcorp.com/forklifts/reach-fork-trucks/7500-universal-stance>
 
 ## Aliases
 

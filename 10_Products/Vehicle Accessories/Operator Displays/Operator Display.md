@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[EnerSys Truck iQ]]"
   - "[[Linde MT18 Multifunction Display]]"
+  - "[[Raymond Height-Tilt Indicator]]"
 ---
 
 # Operator Display

@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Hyster Power Cellect]]"
   - "[[PosiCharge DIY Fast Charge Kit]]"
   - "[[Purkeys Trailer Auxiliary Power System]]"
+  - "[[Raymond Right-Hand Battery Rollout]]"
 ---
 
 # Power Source Interface

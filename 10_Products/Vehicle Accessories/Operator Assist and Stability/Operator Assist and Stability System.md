@@ -48,6 +48,10 @@ supertypeOf:
   - "[[UniCarriers Curve Control]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[RCT Muirhead Forklift Speed Limiter Kits]]"
+  - "[[Raymond Intelliguide Wire Guidance]]"
+  - "[[Raymond Intellispeed System]]"
+  - "[[Raymond Auto-Locking Pallet Clamp]]"
+  - "[[Raymond Slope Sensing]]"
 ---
 
 # Operator Assist and Stability System

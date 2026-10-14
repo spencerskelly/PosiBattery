@@ -23,6 +23,9 @@ hasDesign:
   - "[[LiDAR Object Sensor]]"
 madeBy:
   - "[[Raymond]]"
+offeredWith:
+  - "[[Raymond 7000 Series Reach-Fork Trucks]]"
+  - "[[Raymond Orderpickers]]"
 ---
 
 # Raymond iWAREHOUSE ObjectSense

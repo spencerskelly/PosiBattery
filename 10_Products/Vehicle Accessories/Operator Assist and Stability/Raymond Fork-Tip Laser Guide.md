@@ -21,6 +21,7 @@ madeBy:
   - "[[Raymond]]"
 offeredWith:
   - "[[Raymond 4000 Series Counterbalanced Trucks]]"
+  - "[[Raymond 7000 Series Reach-Fork Trucks]]"
 ---
 
 # Raymond Fork-Tip Laser Guide

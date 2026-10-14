@@ -17,6 +17,7 @@ performedBy:
   - "[[Linde Load Management Advanced]]"
   - "[[Linde System Control]]"
   - "[[Raymond Travel Speed Control]]"
+  - "[[Raymond Intellispeed System]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
 ---

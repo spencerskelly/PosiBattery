@@ -19,6 +19,7 @@ performedBy:
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
   - "[[Toyota Auto Height Select]]"
+  - "[[Raymond Height-Tilt Indicator]]"
 realizes:
   - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---

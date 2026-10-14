@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
+describedBy:
+  - "[[Document - Raymond 8210 Walkie Pallet Truck Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Operate in Wet or Dusty Conditions]]"
   - "[[Control Operator Access]]"
@@ -19,6 +21,10 @@ madeBy:
   - "[[Raymond]]"
 offeredWith:
   - "[[Raymond 8250 Lithium-Ion Battery]]"
+  - "[[Raymond Accessory Bar]]"
+  - "[[Raymond PIN Code Pad]]"
+  - "[[Raymond Large Storage Tote]]"
+  - "[[Raymond Extreme Environment Protection]]"
 ---
 
 # Raymond 8000 Series Pallet Trucks
@@ -36,6 +42,8 @@ Raymond walkie and rider pallet trucks including a lithium-ion pallet jack.
   - [[Control Operator Access]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 - **Design characteristics, with citations:**
   - [[RFID or PIN Access Reader]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
+
+- **Update 2026-10-14:** 8210 page: 4,500 lb, 24 V, lithium-ion compatible with Delta-Q on-board charger, accessory bar, PIN code pad, large tote, extreme environment protection, cold storage conditioning, factory weigh scales, stainless pins, Lift and Go, IP65 sealing. The page was read from a Raymond development host (caution). Source: <https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck>
 
 ## Aliases
 

@@ -14,6 +14,7 @@ performedBy:
   - "[[Oshkosh AeroTech Ramp Visibility Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
   - "[[UniCarriers Lighting Packages]]"
+  - "[[Raymond Light and Fan Package]]"
 realizes:
   - "[[Keep the Operator Positioned and Able to See the Work]]"
 ---

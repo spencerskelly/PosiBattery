@@ -19,6 +19,8 @@ supertypeOf:
   - "[[Raymond Accessory Bar]]"
   - "[[Raymond Large Storage Tote]]"
   - "[[Raymond Extreme Environment Protection]]"
+  - "[[Raymond Secondary Control Handle]]"
+  - "[[Raymond Light and Fan Package]]"
 ---
 
 # Operator Convenience Accessory

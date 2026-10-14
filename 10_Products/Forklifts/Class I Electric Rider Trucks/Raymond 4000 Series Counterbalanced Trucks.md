@@ -10,6 +10,9 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Raymond 4000 Series Sit-Down Sell Sheet (dealer-hosted)]]"
+  - "[[Document - Raymond 4460 Sit-Down Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Shelter Operator from Weather]]"
@@ -23,6 +26,8 @@ offeredWith:
   - "[[Raymond Fork Tilt Leveling]]"
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Raymond Mast Lift Limit Switch with Bypass]]"
+  - "[[Raymond Right-Hand Battery Rollout]]"
+  - "[[Raymond Slope Sensing]]"
 ---
 
 # Raymond 4000 Series Counterbalanced Trucks
@@ -39,6 +44,9 @@ Raymond stand-up and sit-down electric counterbalanced trucks including the 4460
 - **Functions performed, with citations:**
   - [[Stop Vehicle When Operator Is Out of Position]] (V): <https://www.allmachines.com/forklifts/the-raymond-corporation-4810-c110>
   - [[Shelter Operator from Weather]] (V): <https://www.allmachines.com/forklifts/the-raymond-corporation-4810-c110>
+
+- **Update 2026-10-14:** the 4460 page and sell sheet give 36 V or 48 V, 4460 3,000 to 4,000 lb, 4750 3,000 to 12,000 lb, lithium-ion option (LFP and NMC mentioned), optional right-hand battery rollout, cold-storage control protection, UL EE, slope sensing. **Conflict-visible (C241 below):** the older literature-page text above gives 3,000 to 3,500 lb for the sit-down 4460/4750 versions. Sources: <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond_4000_series_sit_down_sell_sheet.pdf>; <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
+- Accessories added: [[Raymond Right-Hand Battery Rollout]], [[Raymond Slope Sensing]].
 
 ## Aliases
 
