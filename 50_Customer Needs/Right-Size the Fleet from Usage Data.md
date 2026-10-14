@@ -11,6 +11,7 @@ tags:
 realizedBy:
   - "[[Report Truck Telemetry]]"
   - "[[Size Battery and Charger Fleet]]"
+  - "[[Dispatch Vehicles to Tasks]]"
 participants:
   - "[[Fleet Operations Manager]]"
 needOf:
@@ -27,6 +28,7 @@ Customer need: Right-Size the Fleet from Usage Data. The problem behind it: A ma
 
 ## Notes
 
+- **Added 2026-10-14 (software pass, analyst reasoning):** [[Dispatch Vehicles to Tasks]]: analyst reasoning: dispatch by availability raises utilization, which is the usage the need looks at (OTTO claims lower idle time; FleetRabbit claims 15 to 20 percent less empty travel, no method).
 - **Evidence status: need hypothesis.** The statements below are what makers, dealers and trade press say fleet managers do or want. At most one named customer source supports any need; none ranks it. Per the ruleset, source research becomes a validated need only after customer-side evidence. Full evidence is in [[Fleet Manager and Admin Digital Access Evidence]].
 - **Problem solved (analyst wording):** A manager needs to know which trucks are idle, which are overused and when peaks occur, to decide whether to rent, buy or reallocate trucks and how to staff shifts.
 - **Who has the problem:** [[Fleet Operations Manager]].

@@ -36,6 +36,8 @@ Derived map from each catalog product to the customer needs it serves, and from 
 
 - **2026-10-14 pass 2 (not yet regenerated):** three analyst-derived needs added (UC-00051 to UC-00053) and 16 more functions linked to needs; commercial products with a need-linked function rose from 354 to 377 of 484 and products with only unlinked functions fell from 24 to 1. Counts and tables below predate this. See [[Function-to-Need Gap Register]].
 
+- **2026-10-14 software pass (not yet regenerated):** new need [[Charge Within Site Power Limits and Utility Costs]] (UC-00054) and 4 new functions with 11 adjacent-market software products; counts and tables below predate them. See [[Warehouse and Business Software Landscape Register]].
+
 ### Needs
 
 | Need (Use Case, why) | Who has it | Operating segments (analyst crosswalk, hypothesis) | Products reached (F + D + O) | of which by F | Added by metric (M, hypothesis) | Functions | Evidence kinds |

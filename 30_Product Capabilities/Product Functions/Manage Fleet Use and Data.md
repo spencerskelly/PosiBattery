@@ -7,6 +7,8 @@ status: Draft
 tags:
   - goal-function
   - product-function
+supertypeOf:
+  - "[[Exchange Vehicle and Order Data with Warehouse System]]"
 hasChild:
   - "[[Communicate Battery and Vehicle Data]]"
   - "[[Manage Fleet Use]]"

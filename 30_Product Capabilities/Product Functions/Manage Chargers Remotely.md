@@ -23,6 +23,9 @@ performedBy:
   - "[[PosiCharge SkyLink]]"
   - "[[Remote Charger Management Service]]"
   - "[[Charger Remote Management Agent]]"
+  - "[[Siemens depotfinity]]"
+  - "[[PowerFlex X]]"
+  - "[[WiBotic Commander]]"
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
 dependsOn:

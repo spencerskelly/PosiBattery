@@ -11,6 +11,7 @@ supertypeOf:
   - "[[Continue Charging Through Module Fault]]"
   - "[[Detect Foreign and Live Objects]]"
   - "[[Manage Temperature During Fast Charging]]"
+  - "[[Balance Charging Power Across Site Capacity]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

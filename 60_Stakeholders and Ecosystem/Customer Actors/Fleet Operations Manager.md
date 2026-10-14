@@ -28,6 +28,7 @@ hasNeed:
   - "[[Charge Without Anyone Plugging In]]"
   - "[[Reduce Operator Effort and Fatigue]]"
   - "[[Handle Loads Without Damaging Them]]"
+  - "[[Charge Within Site Power Limits and Utility Costs]]"
 describedBy:
   - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---

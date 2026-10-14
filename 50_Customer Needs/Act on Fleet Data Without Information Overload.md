@@ -11,6 +11,7 @@ tags:
 realizedBy:
   - "[[Alert on Abnormal Condition]]"
   - "[[Report State of Health Threshold Crossings]]"
+  - "[[Exchange Vehicle and Order Data with Warehouse System]]"
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Fleet Software Administrator]]"
@@ -29,6 +30,7 @@ Customer need: Act on Fleet Data Without Information Overload. The problem behin
 
 ## Notes
 
+- **Added 2026-10-14 (software pass, analyst reasoning):** [[Exchange Vehicle and Order Data with Warehouse System]]: analyst reasoning: FleetRabbit says a single dashboard of fleet and order data reduces manual reporting (vendor article).
 - **Evidence status: need hypothesis.** The statements below are what makers, dealers and trade press say fleet managers do or want. At most one named customer source supports any need; none ranks it. Per the ruleset, source research becomes a validated need only after customer-side evidence. Full evidence is in [[Fleet Manager and Admin Digital Access Evidence]].
 - **Problem solved (analyst wording):** Managers and administrators receive more reports, alerts and metrics than they can act on, so the data that matters (exceptions, thresholds crossed) must stand out.
 - **Who has the problem:** [[Fleet Operations Manager]], [[Fleet Software Administrator]].

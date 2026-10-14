@@ -10,6 +10,7 @@ tags:
   - united-states
 makes:
   - "[[WiBotic 1kW Wireless Charging System]]"
+  - "[[WiBotic Commander]]"
 playsRole:
   - "[[Charger Maker]]"
 ---

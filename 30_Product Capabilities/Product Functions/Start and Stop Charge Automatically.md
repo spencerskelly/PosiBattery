@@ -18,6 +18,7 @@ performedBy:
   - "[[Resonant Link Wireless Lift Truck Charger]]"
   - "[[Raymond Courier AutoCharge System]]"
   - "[[Grenzebach AGV Contact Charging Station]]"
+  - "[[Seegrid Auto Charge]]"
 realizes:
   - "[[Charge Without Anyone Plugging In]]"
 ---

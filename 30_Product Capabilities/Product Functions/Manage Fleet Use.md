@@ -17,6 +17,8 @@ supertypeOf:
   - "[[Record Images of Load Handling]]"
   - "[[Lock Out Vehicle After Impact]]"
   - "[[Indicate Charger Status Locally]]"
+  - "[[Schedule Charging Around Vehicle Readiness]]"
+  - "[[Dispatch Vehicles to Tasks]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 describedBy:

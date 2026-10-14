@@ -15,6 +15,14 @@ rolePlayedBy:
   - "[[CLARK Material Handling Company]]"
   - "[[Fleet Complete]]"
   - "[[Phantom Auto]]"
+  - "[[Seegrid]]"
+  - "[[Mobile Industrial Robots]]"
+  - "[[Siemens]]"
+  - "[[PowerFlex]]"
+  - "[[Ampcontrol]]"
+  - "[[Flip Turn]]"
+  - "[[FleetRabbit AI]]"
+  - "[[Blue Yonder]]"
 ---
 
 # Software Vendor

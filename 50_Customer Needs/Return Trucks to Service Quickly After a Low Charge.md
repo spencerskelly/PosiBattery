@@ -16,6 +16,7 @@ realizedBy:
   - "[[Manage Temperature During Fast Charging]]"
   - "[[Guide Battery Selection and Rotation]]"
   - "[[Exchange Battery Automatically]]"
+  - "[[Schedule Charging Around Vehicle Readiness]]"
 participants:
   - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
@@ -32,6 +33,7 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
 
 ## Notes
 
+- **Added 2026-10-14 (software pass, analyst reasoning):** [[Schedule Charging Around Vehicle Readiness]]: analyst reasoning: the vehicle is charged before its work needs it (Ampcontrol claims lower idle time; no figures).
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** A truck waiting on a charge, or a battery swap, is a truck not working during the shift.
 - **Who has the problem:** [[Fleet Operations Manager]], [[Forklift Operator]].

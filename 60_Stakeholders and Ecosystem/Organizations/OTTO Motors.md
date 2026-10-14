@@ -11,6 +11,8 @@ tags:
 describedBy:
   - "[[Document - OTTO Motors Mauser Packaging Solutions Case Study]]"
   - "[[Document - Inside Logistics Rockwell Automation Buys OTTO Motors]]"
+makes:
+  - "[[OTTO Fleet Manager]]"
 ---
 
 # OTTO Motors

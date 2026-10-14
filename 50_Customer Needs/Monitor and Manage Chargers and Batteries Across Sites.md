@@ -14,6 +14,7 @@ realizedBy:
   - "[[Report Truck Telemetry]]"
   - "[[Control Charger from Remote Panel]]"
   - "[[Transmit Battery Data Wirelessly]]"
+  - "[[Schedule Charging Around Vehicle Readiness]]"
 participants:
   - "[[Fleet Operations Manager]]"
 needOf:
@@ -32,6 +33,7 @@ Customer need: Monitor and Manage Chargers and Batteries Across Sites. The probl
 
 ## Notes
 
+- **Added 2026-10-14 (software pass, analyst reasoning):** [[Schedule Charging Around Vehicle Readiness]]: analyst reasoning: charge plans and charger status are managed from one place (WiBotic Commander shows charger availability and usage).
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** A manager with several sites, chargers and batteries needs data and alerts without walking the floor.
 - **Who has the problem:** [[Fleet Operations Manager]].

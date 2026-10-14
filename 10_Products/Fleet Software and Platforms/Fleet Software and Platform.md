@@ -13,6 +13,9 @@ supertypeOf:
   - "[[Truck Telematics Software]]"
   - "[[Crown Service Request App]]"
   - "[[Phantom Auto Remote Operation Software]]"
+  - "[[Robot and AGV Fleet Management Software]]"
+  - "[[Fleet Charging and Energy Management Software]]"
+  - "[[Warehouse and Business Systems Software]]"
 ---
 
 # Fleet Software and Platform
