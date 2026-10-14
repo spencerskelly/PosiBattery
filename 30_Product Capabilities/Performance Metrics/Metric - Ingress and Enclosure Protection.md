@@ -38,6 +38,7 @@ Ingress and Enclosure Protection: shared metric used for monitors, chargers.
   - [[Delta-Q IC650]]: IP66 (reseller listings; sealed die-cast aluminum)
   - [[EnerSys NexSys+ Charger]]: NEMA 3R / IP54 (optional Outdoor model); earlier note: IP-54 on the optional NexSys+ Outdoor model
   - [[EnerSys Wi-iQ]]: IP65; UL 94V-0; acid resistant
+  - [[Flux Power GSE Pack]]: IP56 on the GSE3 (2023 sheet); not stated in the 2021 brochure
   - [[HOPPECKE trak collect]]: IP 69K; sulfuric acid 60% at 50 C
   - [[Lester Summit Series II]]: IP66, NEMA 4 (1425 W sheet); earlier note: IP66 (650 W model, distributor listing)
   - [[Philadelphia Scientific eGO!pro]]: IP65

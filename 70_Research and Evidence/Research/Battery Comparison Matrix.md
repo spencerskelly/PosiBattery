@@ -38,7 +38,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Exide GNB Lithium Battery 2.0]] | n/s | n/s | n/s | n/s | n/s | BMS; GNB Cloud option | n/s | [[Exide GNB Lithium Battery 2.0]] |
 | [[Exide MARATHON Battery]] | n/s | n/s | n/s | MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging | n/s | n/s | n/s | [[Exide MARATHON Battery]] |
 | [[Exide TENSOR xGEL Battery]] | gel (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[Exide TENSOR xGEL Battery]] |
-| [[Flux Power GSE Pack]] | n/s | 72 V | 300-600 Ah modular | n/s | n/s | n/s | n/s | [[Flux Power GSE Pack]] |
+| [[Flux Power GSE Pack]] | LiFePO4 (2023 sheet); lithium-ion (2021) | 72 V (2016); 80 V (76.8 V) (2021, 2023) | 300-600 Ah (2016); 210-630 Ah (2021); GSE3 315 Ah (2023) | n/s | n/s | BMS 2.0, CANbus; SkyBMS Telematics | IP56 (GSE3) | [[Flux Power GSE Pack]] |
 | [[Flux Power LiFT Pack]] | n/s | 24 V (first unit) | 250 Ahe | n/s | n/s | n/s | UL 2271 Listed (first) | [[Flux Power LiFT Pack]] |
 | [[Flux Power S-Series Battery]] | n/s | n/s | n/s | n/s | n/s | BMS and telemetry | UL Type EE | [[Flux Power S-Series Battery]] |
 | [[Green Cubes GSE Lithium Battery]] | lithium iron phosphate | 80 V (FBP-1000) | n/s | n/s | n/s | BMS on top; CANbus | n/s | [[Green Cubes GSE Lithium Battery]] |

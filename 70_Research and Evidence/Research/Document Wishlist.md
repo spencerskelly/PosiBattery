@@ -27,6 +27,8 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>read only through a summary (R46) | Flux Power GSE battery pack V.2 brochure (GSE2, GSE3, GSE4, GSE6) | <https://www.fluxpower.com/hubfs/GSE%20Battery%20Pack%20V.2%20-%20Brochure.pdf> | <https://www.fluxpower.com/> | Capacity-to-model map, GSE3 energy, charge current, temperature (C212, C213, IB-166) | - | R46 |
+| **high priority**<br>read only through a summary (R46) | Flux Power GSE3 product brochure (SA-808) | <https://www.fluxpower.com/hubfs/GSE3%20Product%20Brochure.pdf> | <https://www.fluxpower.com/> | GSE3 ratings, SkyBMS Telematics, IP56 (C213, IB-166) | - | R46 |
 | **high priority**<br>added for the High Voltage Power Station (owner-held) | PosiCharge High Voltage Power Station installation and operation manual, DVS and MVS compatibility software release notes, and part-number list | not for this repository as raw files | owner | Output current, DC bus topology, compatible models, display role, AC and DC configuration (IB-156, IB-159, IB-161) | - | R45 |
 | **high priority**<br>wanted; paid standard | UL 2202, UL 2231-1 and -2, and CSA C22.2 No. 281.1, 281.2 and 346 (the card's certification list) | no direct file found | the standards bodies' store pages | What the AC configuration listing covers (IB-160) | - | R45 |
 | **helpful**<br>wanted; paid standard | DIN 70121 (DC charging communication between charger and vehicle) | no direct file found | standards store pages | The charger to vehicle layer behind the card's protocol row (C210, C211) | - | R45 |

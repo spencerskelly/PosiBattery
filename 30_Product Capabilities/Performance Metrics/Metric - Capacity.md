@@ -25,7 +25,7 @@ Capacity: Rated capacity.
 - **Direction:** higher is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Deka MaxPowr Battery]]: up to 10% more amp-hours in the same size
-  - [[Flux Power GSE Pack]]: 300-600 Ah modular
+  - [[Flux Power GSE Pack]]: 300-600 Ah modular (2016 report); 210, 315, 420 or 630 Ah (16.8 to 50.4 kWh) across GSE2, GSE3, GSE4 and GSE6 (2021 brochure); GSE3 315 Ah, 24.2 kWh (2023 sheet) (C212, C213)
   - [[Flux Power LiFT Pack]]: 250 Ahe
   - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells

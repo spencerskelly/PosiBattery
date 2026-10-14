@@ -25,6 +25,7 @@ Cycle Life and Warranty: Stated cycle life and warranty.
 - **Direction:** higher is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Banner Traction Bull Bloc PzF]]: up to 1,200 cycles at 80 percent K5 discharge
+  - [[Flux Power GSE Pack]]: over 3,500 cycles at 80 percent depth of discharge, no end-of-life basis stated (2023 GSE3 sheet, maker claim); warranty not stated
   - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid
   - [[Godrej Multi-Ion Forklift Battery]]: up to 5,000 cycles; 7-year warranty (trade report)
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 6 years or 12,000 hours (2024 and 2025 brochures)

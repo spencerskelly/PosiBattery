@@ -21,16 +21,17 @@ describedBy:
   - "[[Metric - Wired and Vehicle Interfaces]]"
   - "[[Interface and Protocol Layer Reference]]"
 designOf:
+  - "[[CAN Communication Circuit]]"
   - "[[Deka Ready Power Lithium Battery]]"
+  - "[[EnerSys Wi-iQ]]"
+  - "[[Exide Motion+ Premium Charger]]"
+  - "[[Flux Power GSE Pack]]"
   - "[[Green Cubes GSE Lithium Battery]]"
-  - "[[Stryten M-Series Li600 Battery]]"
+  - "[[Hyster Power Cellect]]"
+  - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID 3]]"
   - "[[PosiCharge PosiGuard]]"
-  - "[[EnerSys Wi-iQ]]"
-  - "[[Inventus Smart Battery Monitor SBM-01]]"
-  - "[[Exide Motion+ Premium Charger]]"
-  - "[[Hyster Power Cellect]]"
-  - "[[CAN Communication Circuit]]"
+  - "[[Stryten M-Series Li600 Battery]]"
 ---
 
 # CAN Interface

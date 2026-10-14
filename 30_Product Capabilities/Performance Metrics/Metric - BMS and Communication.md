@@ -29,6 +29,7 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
   - [[Deka Ready Power Lithium Battery]]: multi-module BMS over CAN
   - [[EnerSys NexSys iON Battery]]: BMS limits charge and discharge voltage; optional CAN to the truck; ISO 26262 design
   - [[Exide GNB Lithium Battery 2.0]]: BMS; GNB Cloud option
+  - [[Flux Power GSE Pack]]: BMS 2.0 with cell monitoring and sleep mode, isolated external CANbus (2021 brochure); integral BMS with SkyBMS Telematics (2023 sheet)
   - [[Flux Power LiFT Pack]]: patented BMS limits charging; CAN integration with the truck; onboard charger
   - [[Flux Power S-Series Battery]]: BMS and telemetry
   - [[Green Cubes GSE Lithium Battery]]: BMS on top; CANbus

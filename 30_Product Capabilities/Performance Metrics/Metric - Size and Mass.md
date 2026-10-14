@@ -42,6 +42,7 @@ Size and Mass: shared metric used for monitors, chargers, batterys.
   - [[Deka PowerForce Charger]]: 14 x 14 x 16 in
   - [[Delta-Q IC650]]: 252 x 186 x 80 mm; 2.4 kg
   - [[EnerSys Wi-iQ]]: 40.07 x 19.5 x 107.97 mm
+  - [[Flux Power GSE Pack]]: GSE2 44.2 x 14.0 x 22.5 in, 535 lb; GSE3 35.3 x 19.9 x 26.2 in, 875 lb; GSE4 35.3 x 26.3 x 26.2 in, 925 or 1,178 lb; GSE6 35.3 x 39.0 x 26.0 in, 1,753 lb (2021 brochure)
   - [[HOPPECKE trak collect]]: 340 g (data sheet); earlier note: base 120 x 52 x 26 mm plus satellite 82 x 50 x 32 mm; 340 g
   - [[Lester Summit Series II]]: 13.438 x 8.188 x 4.531 in (341 x 208 x 115 mm); 13.4 lb (6.09 kg)
   - [[Philadelphia Scientific eGO!core]]: 100 x 30 x 18 mm; 100 g flooded, 80 g VRLA

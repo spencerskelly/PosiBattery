@@ -24,6 +24,8 @@ supertypeOf:
   - "[[Declare Estimator Accuracy Basis]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
+performedBy:
+  - "[[Flux Power GSE Pack]]"
 ---
 
 # Sense Battery State

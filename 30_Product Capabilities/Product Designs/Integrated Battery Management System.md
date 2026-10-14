@@ -21,16 +21,17 @@ designOf:
   - "[[EnerSys NexSys iON Battery]]"
   - "[[Exide GNB Lithium Battery 2.0]]"
   - "[[Exide Solition Light Traction Battery]]"
+  - "[[Flux Power GSE Pack]]"
   - "[[Flux Power S-Series Battery]]"
+  - "[[Flux SkyBMS]]"
   - "[[Godrej Lithium-Ion Forklift Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
+  - "[[Stryten M-Series Li610 Battery]]"
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[TUG ALPHA 1 Pushback]]"
-  - "[[Stryten M-Series Li610 Battery]]"
-  - "[[Flux SkyBMS]]"
 ---
 
 # Integrated Battery Management System

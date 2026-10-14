@@ -20,6 +20,8 @@ madeBy:
   - "[[Flux Power]]"
 hasDesign:
   - "[[Integrated Battery Management System]]"
+offeredWith:
+  - "[[Flux Power GSE Pack]]"
 ---
 
 # Flux SkyBMS

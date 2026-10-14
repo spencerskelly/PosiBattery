@@ -47,7 +47,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[EnerSys iQ Mini]]: 12-80 V (carried from seed)
   - [[Exide Motion+ EasyMonitor]]: 18-120 V
   - [[Flow-Rite Eagle Eye Essential IV]]: 4-12 V DC supply
-  - [[Flux Power GSE Pack]]: 72 V
+  - [[Flux Power GSE Pack]]: 72 V (2016 report); 80 V (76.8 V), up to 400 V on request (2021 brochure); 80 V (76.8 V) on the GSE3 (2023 sheet) (C212)
   - [[Flux Power LiFT Pack]]: 24 V (first unit)
   - [[Fronius Selectiva 4.0]]: 96 V and 120 V models on the flyer; 2-30 kW classes overall
   - [[GS Yuasa Traction Battery (Europe)]]: 24, 48 and 80 V (2 V cells)
