@@ -9,7 +9,7 @@ tags:
   - tier-T1
 sourceClass: manufacturer brochure
 sourceUrl: "https://www.roypow.com/uploads/ROYPOW-LiFePO4-Batteries-for-Forklifts-Brochure-Ver.-September-02-2026.pdf"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[ROYPOW LiFePO4 Forklift Batteries]]"
 ---
@@ -30,7 +30,7 @@ ROYPOW LiFePO4 forklift battery brochure, version 2026-09-02.
 
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.roypow.com/uploads/ROYPOW-LiFePO4-Batteries-for-Forklifts-Brochure-Ver.-September-02-2026.pdf>.
-- **Access date:** 2026-10-13. **Revision:** Ver. 2026-09-02
+- **Access date:** 2026-10-14. **Revision:** Ver. 2026-09-02
 - **Evidence tier:** T1 official vendor document (values second-hand through the fetch tool's summary).
 
 ## Traceability

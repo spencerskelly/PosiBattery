@@ -45,6 +45,7 @@ supertypeOf:
   - "[[Chase Technologies Li-ion Retrofit Packs]]"
   - "[[ROYPOW LiFePO4 Forklift Batteries]]"
   - "[[BSL Lithium Forklift Battery]]"
+  - "[[Redway Lithium Forklift Batteries]]"
 ---
 
 # Lithium-Ion Traction Battery

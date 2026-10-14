@@ -9,7 +9,7 @@ tags:
   - tier-T1
 sourceClass: manufacturer data sheet
 sourceUrl: "https://www.crown.com/content/dam/crown/pdfs/es-lat/specifications/hoja-de-especificaciones-rm-rmd6000-LA.pdf"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[Crown RM-RMD 6000 Series]]"
 ---
@@ -30,7 +30,7 @@ Crown RM/RMD 6000 specification sheet (Spanish, Latin America).
 
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/content/dam/crown/pdfs/es-lat/specifications/hoja-de-especificaciones-rm-rmd6000-LA.pdf>.
-- **Access date:** 2026-10-13. **Revision:** undated
+- **Access date:** 2026-10-14. **Revision:** undated
 - **Evidence tier:** T1 official vendor document (values second-hand through the fetch tool's summary).
 
 ## Traceability

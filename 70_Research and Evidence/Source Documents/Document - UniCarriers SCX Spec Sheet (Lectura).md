@@ -9,7 +9,7 @@ tags:
   - tier-T3
 sourceClass: aggregator-hosted data sheet
 sourceUrl: "https://www.lectura-specs.bg/datasheet-downloads/scx30-40-en--1-(763).pdf"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
 ---
@@ -30,7 +30,7 @@ SCX 30-40 36 V spec sheet; the SCX N2 successor is not confirmed to share it.
 
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://www.lectura-specs.bg/datasheet-downloads/scx30-40-en--1-(763).pdf>.
-- **Access date:** 2026-10-13. **Revision:** undated
+- **Access date:** 2026-10-14. **Revision:** undated
 - **Evidence tier:** T3 secondary or aggregator report (values second-hand through the fetch tool's summary).
 
 ## Traceability

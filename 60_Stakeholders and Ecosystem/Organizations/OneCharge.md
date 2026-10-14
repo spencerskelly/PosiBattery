@@ -9,6 +9,8 @@ tags:
   - battery-maker
   - lithium
   - usa
+describedBy:
+  - "[[Document - OneCharge Home Page (retrieved 2026-10-14)]]"
 playsRole:
   - "[[Battery Maker]]"
 ---
@@ -22,6 +24,8 @@ Lithium forklift battery maker whose flat-style E-box is the target of a Green C
 ## Notes
 
 - Named only in the Green Cubes kit news item; no OneCharge product or specification has been read. Source: MHL News (T2), retrieved 2026-10-13. <https://www.mhlnews.com/new-products/product/55250822/forklift-battery-retrofit-kit>
+
+- **Update 2026-10-14 (home page):** US maker of lithium-ion packs for Class I, II and III forklifts; claims 650+ models and fit for every battery-powered forklift (vendor claim); BMS, standardized installation, service network. No voltages, capacities, warranty or charge method stated. Source: OneCharge home page (T1), retrieved 2026-10-14. <https://www.onecharge.biz/>
 
 ## Aliases
 

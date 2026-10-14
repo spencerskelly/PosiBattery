@@ -9,7 +9,7 @@ tags:
   - tier-T1
 sourceClass: manufacturer data sheet
 sourceUrl: "https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
 ---
@@ -30,7 +30,7 @@ Linde E25-E35 datasheet.
 
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf>.
-- **Access date:** 2026-10-13. **Revision:** 10/2015 edition
+- **Access date:** 2026-10-14. **Revision:** 10/2015 edition
 - **Evidence tier:** T1 official vendor document (values second-hand through the fetch tool's summary).
 
 ## Traceability

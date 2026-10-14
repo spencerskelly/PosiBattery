@@ -9,7 +9,7 @@ tags:
   - tier-T1
 sourceClass: manufacturer data sheet
 sourceUrl: "https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[Crown RR-RD 5700 Series]]"
 ---
@@ -30,7 +30,7 @@ Crown RD 5700 specification sheet.
 
 - **Source identity:** manufacturer.
 - **Original web address:** <https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf>.
-- **Access date:** 2026-10-13. **Revision:** undated
+- **Access date:** 2026-10-14. **Revision:** undated
 - **Evidence tier:** T1 official vendor document (values second-hand through the fetch tool's summary).
 
 ## Traceability

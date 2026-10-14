@@ -9,7 +9,7 @@ tags:
   - tier-T3
 sourceClass: dealer-data listing
 sourceUrl: "https://shop.jungheinrich.co.uk/en/etv-c20---91614936"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[Jungheinrich ETV C16 and C20]]"
 ---
@@ -30,7 +30,7 @@ Jungheinrich UK shop listing for a used or stock ETV C20.
 
 - **Source identity:** dealer or aggregator.
 - **Original web address:** <https://shop.jungheinrich.co.uk/en/etv-c20---91614936>.
-- **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14
+- **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14
 - **Evidence tier:** T3 secondary or aggregator report (values second-hand through the fetch tool's summary).
 
 ## Traceability

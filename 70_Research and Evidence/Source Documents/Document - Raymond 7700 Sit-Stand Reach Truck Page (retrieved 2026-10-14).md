@@ -9,7 +9,7 @@ tags:
   - tier-T2
 sourceClass: dealer-hosted manufacturer page
 sourceUrl: "https://www.johnstonequipment.com/en/forklifts/raymond-lift-trucks/reach-fork-trucks/7700-sit-stand-reach"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[Raymond 7000 Series Reach-Fork Trucks]]"
 ---
@@ -30,7 +30,7 @@ Johnstone Equipment page for the Raymond 7700 sit/stand reach truck.
 
 - **Source identity:** dealer hosting manufacturer content.
 - **Original web address:** <https://www.johnstonequipment.com/en/forklifts/raymond-lift-trucks/reach-fork-trucks/7700-sit-stand-reach>.
-- **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14
+- **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14
 - **Evidence tier:** T2 official vendor document (values second-hand through the fetch tool's summary).
 
 ## Traceability

@@ -9,7 +9,7 @@ tags:
   - tier-T2
 sourceClass: retailer web page
 sourceUrl: "https://akkusys.shop/en/batteries-by-application/forklifts/accessories/2257/rema-plug-euro-din-320a-50mm2-coding-pin-grey-main-contact-strain-relief"
-accessed: 2026-10-13
+accessed: 2026-10-14
 describes:
   - "[[REMA Euro DIN Battery Connector]]"
 ---
@@ -30,7 +30,7 @@ Akkusys shop listing for a REMA Euro DIN 320 A plug (50 mm2, grey coding pin).
 
 - **Source identity:** retailer.
 - **Original web address:** <https://akkusys.shop/en/batteries-by-application/forklifts/accessories/2257/rema-plug-euro-din-320a-50mm2-coding-pin-grey-main-contact-strain-relief>.
-- **Access date:** 2026-10-13. **Revision:** retrieved 2026-10-14
+- **Access date:** 2026-10-14. **Revision:** retrieved 2026-10-14
 - **Evidence tier:** T2 secondary or aggregator report (values second-hand through the fetch tool's summary).
 
 ## Traceability

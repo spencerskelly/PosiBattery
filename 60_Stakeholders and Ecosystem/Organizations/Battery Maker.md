@@ -35,6 +35,7 @@ rolePlayedBy:
   - "[[Chase Technologies]]"
   - "[[ROYPOW]]"
   - "[[Lithium Battery Solutions (BSL)]]"
+  - "[[Redway Power]]"
 ---
 
 # Battery Maker
