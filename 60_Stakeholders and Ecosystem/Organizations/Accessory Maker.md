@@ -24,6 +24,7 @@ rolePlayedBy:
   - "[[Conductix-Wampfler]]"
   - "[[Staubli Electrical Connectors]]"
   - "[[Concentric]]"
+  - "[[REMA Lipprandt]]"
 ---
 
 # Accessory Maker

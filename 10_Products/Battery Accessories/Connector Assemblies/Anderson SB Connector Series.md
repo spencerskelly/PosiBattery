@@ -16,6 +16,9 @@ subtypeOf:
 describedBy:
   - "[[Document - Anderson Material Handling Page (retrieved 2026-10-14)]]"
   - "[[Document - Anderson Material Handling Connector Catalog (AG-MHCS)]]"
+  - "[[Document - Anderson SB350 Housing Page (retrieved 2026-10-14)]]"
+  - "[[Document - Anderson SB Series Page (retrieved 2026-10-14)]]"
+  - "[[Document - Industrial Monitor Direct SB 175 to SB 350 Article]]"
 performs:
   - "[[Connect Battery to Charger or Vehicle]]"
 hasDesign:
@@ -26,6 +29,7 @@ offeredWith:
   - "[[Crown Battery Cables and Connectors]]"
 integratesWith:
   - "[[ROYPOW LiFePO4 Forklift Batteries]]"
+  - "[[Anderson SBE SBX SBO Connector Series]]"
 ---
 
 # Anderson SB Connector Series
@@ -59,6 +63,8 @@ Maker or publisher marketing claims as stated, not independently verified.
   - [[Connect Battery to Charger or Vehicle]] (V): <https://shop.crown.com/crown/en/Batteries-and-Chargers/Battery-and-Charger-Parts-and-Accessories/Battery-Connectors/c/battery_connectors>
 - Toyota lists a Battery Connector SB-175 Blue among battery accessories on its Side Entry End Rider. Source: Toyota Side Entry End Rider brochure (T1), retrieved 2026-10-03. <https://www.summithandling.com/wp-content/uploads/2023/03/2023_Side-Entry-End-Rider_Comprehensive_Digital.pdf>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Battery Compartment]]; connects to [[Truck Battery Compartment]]. See [[Truck Part Connection Register]].
+
+- **Update 2026-10-14 (Anderson pages):** SB 50 to SB 350, 50 to 500 A; SB350 power rated 450 A on 4/0 AWG and 500 A on 350 mcm, wire 1/0 to 350 mcm; genderless; Anderson calls the colour keys "just identifiers" because all are UL rated to 600 V; SB120 gray up to 240 A; chemical-resistant PBT/PC reaches -40 C; related lines [[Anderson SBE SBX SBO Connector Series]] and [[Anderson EBC Euro Battery Connector]]. Truck practice per a Yale sheet: gray SB350 for 36 V, blue SB350 for 48 V (T1); a knowledge-base article's colour list is T4. Sources: <https://www.andersonpower.com/product/sb350-standard-housings-gray/>; <https://www.andersonpower.com/product-lines/sb-connector-series/>; <https://yale.com/globalassets/coms/yale/latin-america/documents/4-wheel-electric/1015ybc1sp001_e_en-us_erc045-070vg-spec-sheet_view.pdf>
 
 ## Aliases
 

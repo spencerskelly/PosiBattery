@@ -19,6 +19,7 @@ performedBy:
   - "[[Anderson SBE320-SBX350 Charger-Truck Side Bracket Kit]]"
   - "[[Anderson IBC Industrial Battery Connector]]"
   - "[[Anderson EBC Euro Battery Connector]]"
+  - "[[Anderson SBE SBX SBO Connector Series]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"

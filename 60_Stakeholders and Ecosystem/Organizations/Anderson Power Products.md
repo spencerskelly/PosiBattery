@@ -15,6 +15,7 @@ makes:
   - "[[Anderson SBE320-SBX350 Charger-Truck Side Bracket Kit]]"
   - "[[Anderson IBC Industrial Battery Connector]]"
   - "[[Anderson EBC Euro Battery Connector]]"
+  - "[[Anderson SBE SBX SBO Connector Series]]"
 ---
 
 # Anderson Power Products
