@@ -27,6 +27,9 @@ makes:
   - "[[Hyster Pedestrian Awareness Camera]]"
   - "[[Yale Reliant Portfolio]]"
   - "[[Hyster Dynamic Stability System]]"
+  - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
+  - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
+  - "[[Yale ERC045-070VG Electric Forklifts]]"
 offers:
   - "[[Hyster Battery Tracker]]"
   - "[[Yale Battery Vision]]"

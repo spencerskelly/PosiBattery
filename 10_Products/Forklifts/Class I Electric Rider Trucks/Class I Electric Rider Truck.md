@@ -44,6 +44,9 @@ supertypeOf:
   - "[[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]]"
   - "[[Mitsubishi FB25-55N Electric Pneumatic Forklifts (Americas Listing)]]"
   - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
+  - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
+  - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
+  - "[[Yale ERC045-070VG Electric Forklifts]]"
 ---
 
 # Class I Electric Rider Truck

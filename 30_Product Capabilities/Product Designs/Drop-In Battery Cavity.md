@@ -29,6 +29,8 @@ designOf:
   - "[[Toyota 3-Wheel Electric Forklift]]"
   - "[[Jungheinrich ETV C16 and C20]]"
   - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
+  - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
+  - "[[Yale ERC045-070VG Electric Forklifts]]"
 ---
 
 # Drop-In Battery Cavity

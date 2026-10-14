@@ -15,6 +15,7 @@ designOf:
   - "[[Toyota Traigo48]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Crown SC Series]]"
+  - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
 ---
 
 # Truck Charging Port

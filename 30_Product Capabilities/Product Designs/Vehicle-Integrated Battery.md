@@ -14,6 +14,7 @@ designOf:
   - "[[Yale ERC080VHL]]"
   - "[[Linde Ei Series]]"
   - "[[Toyota Traigo48]]"
+  - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
 ---
 
 # Vehicle-Integrated Battery
