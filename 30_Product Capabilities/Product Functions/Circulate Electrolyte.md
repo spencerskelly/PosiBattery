@@ -27,6 +27,9 @@ performedBy:
 realizedBy:
   - "[[Air Injection Electrolyte Circulation]]"
   - "[[Forced Electrolyte Circulation]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Circulate Electrolyte
@@ -37,6 +40,7 @@ Mix or circulate electrolyte during charging to limit acid stratification.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Prevent Battery Abuse and Premature Replacement]] and [[Keep Trucks Working Without Battery Maintenance Labor]]. Midac says its circulation system prevents electrolyte stratification and sulfation (damage that shortens battery life); Exide says its AIR system reduces energy and water consumption (less watering work). Customer work: charging lead-acid batteries and watering them. Sources: product notes [[Midac EUW Electrolyte Circulation System]] and [[Exide AIR Electrolyte Agitation System]].
 - Accessory behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

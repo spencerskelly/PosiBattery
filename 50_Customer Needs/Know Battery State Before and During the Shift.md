@@ -18,6 +18,8 @@ realizedBy:
   - "[[Measure Battery Current]]"
   - "[[Measure Electrolyte Specific Gravity]]"
   - "[[Declare Estimator Accuracy Basis]]"
+  - "[[Indicate Charger Status Locally]]"
+  - "[[Report Fuel Cell State to Truck]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
@@ -36,6 +38,8 @@ Customer need: Know Battery State Before and During the Shift. The problem behin
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Report Fuel Cell State to Truck]]: Plug Power says GenDrive communicates with the truck to monitor stack and system performance and has a fuel level gauge (source: [[Plug Power GenDrive]]). The fuel cell takes the battery's place, so the same question (how much energy is left) applies. Customer work: starting a shift and checking energy.
+- **Added 2026-10-14 (analyst reasoning):** [[Indicate Charger Status Locally]]: Analyst reasoning: the operator at the charger sees whether a battery is charging, finished or faulted without opening a portal. Customer work: [[Connect a Vehicle or Battery to a Charger]].
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Operators and technicians cannot plan work or avoid a mid-shift shutdown without knowing the real state of charge and remaining run time.
 - **Who has the problem:** [[Forklift Operator]], [[Maintenance Technician]].

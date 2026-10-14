@@ -14,6 +14,8 @@ dependsOn:
   - "[[Belt-Worn Remote Control]]"
 performedBy:
   - "[[Jungheinrich easyPILOT]]"
+realizes:
+  - "[[Reduce Operator Effort and Fatigue]]"
 ---
 
 # Follow Operator Automatically
@@ -24,6 +26,7 @@ Let a truck move with an operator on foot, for example in order picking, without
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Reduce Operator Effort and Fatigue]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

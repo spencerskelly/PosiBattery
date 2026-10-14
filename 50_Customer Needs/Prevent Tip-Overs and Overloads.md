@@ -16,6 +16,8 @@ realizedBy:
   - "[[Cut Lift at Programmed Height]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Damp Mast Oscillation]]"
+  - "[[Detect Battery Weight]]"
+  - "[[Reduce Speed When Seat Belt Is Unfastened]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
@@ -32,6 +34,8 @@ Customer need: Prevent Tip-Overs and Overloads. The problem behind it: Cornering
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Reduce Speed When Seat Belt Is Unfastened]]: OSHA case summaries show seat belts unused in forklift overturn deaths, including a 1998 ramp tip-over ([[Document - OSHA Summaries of Selected Forklift Fatalities (retrieved 2026-10-14)]], T1, second-hand). STILL says its seat belt control reduces speed if the belt is not used (source: [[STILL EasyBelt]]). Analyst reasoning: the feature removes the case where an operator drives without a belt. Customer work: driving the truck.
+- **Added 2026-10-14 (analyst reasoning):** [[Detect Battery Weight]]: Raymond says the iBattery module detects battery weight against truck specifications (source: [[Raymond iBattery]]). Analyst reasoning: on a counterbalanced truck the battery is part of the counterweight, so a wrong-weight battery is a stability risk; no vault source states this. Customer work: changing or installing a battery in a truck.
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Cornering too fast, or lifting too high or too heavy, tips trucks and drops loads.
 - **Who has the problem:** [[Forklift Operator]], [[Site Safety Manager]].

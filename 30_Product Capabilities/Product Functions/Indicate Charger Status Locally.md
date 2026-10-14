@@ -23,6 +23,9 @@ performedBy:
   - "[[PosiCharge Three-Color Stack Light]]"
 realizedBy:
   - "[[Local Charger Status Indication]]"
+realizes:
+  - "[[Know Battery State Before and During the Shift]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
 ---
 
 # Indicate Charger Status Locally
@@ -33,6 +36,7 @@ Show charger or charge-process status locally at the charger or on a nearby char
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Know Battery State Before and During the Shift]]. Analyst reasoning: the operator at the charger sees whether a battery is charging, finished or faulted without opening a portal. Customer work: [[Connect a Vehicle or Battery to a Charger]].
 - Created to resolve the earlier scope conflict where charger tower/stack lights were linked to [[Indicate Battery Status Locally]].
 - Integrated charger LED bars are represented by [[Charger Status LED Bar]].
 - Remote visual indicators are represented by [[Remote Charger Status Stack Light]].

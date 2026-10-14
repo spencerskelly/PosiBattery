@@ -15,6 +15,8 @@ dependsOn:
 performedBy:
   - "[[STILL EasyBelt]]"
   - "[[STILL Safety Assist]]"
+realizes:
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Reduce Speed When Seat Belt Is Unfastened
@@ -25,6 +27,7 @@ Slow the truck automatically if the operator's seat belt is not used.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Prevent Tip-Overs and Overloads]]. OSHA case summaries show seat belts unused in forklift overturn deaths, including a 1998 ramp tip-over ([[Document - OSHA Summaries of Selected Forklift Fatalities (retrieved 2026-10-14)]], T1, second-hand). STILL says its seat belt control reduces speed if the belt is not used (source: [[STILL EasyBelt]]). Analyst reasoning: the feature removes the case where an operator drives without a belt. Customer work: driving the truck.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -22,6 +22,8 @@ realizedBy:
   - "[[Equalize Battery on Schedule]]"
   - "[[Complete Missed Equalization Automatically]]"
   - "[[Desulfate Battery During Charge]]"
+  - "[[Circulate Electrolyte]]"
+  - "[[Float Charge Battery]]"
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
@@ -41,6 +43,8 @@ Customer need: Prevent Battery Abuse and Premature Replacement. The problem behi
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Float Charge Battery]]: Analyst reasoning: a battery left idle between uses is held full instead of self-discharging; the PosiCharge sheet lists the float mode but states no customer problem. Customer work: parking a truck or spare battery between shifts.
+- **Added 2026-10-14 (analyst reasoning):** [[Circulate Electrolyte]]: Midac says its circulation system prevents electrolyte stratification and sulfation (damage that shortens battery life); Exide says its AIR system reduces energy and water consumption (less watering work). Customer work: charging lead-acid batteries and watering them. Sources: product notes [[Midac EUW Electrolyte Circulation System]] and [[Exide AIR Electrolyte Agitation System]].
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Over-discharge, overheating and missed equalization shorten battery life and bring forward replacement cost.
 - **Who has the problem:** [[Maintenance Technician]], [[Fleet Operations Manager]].

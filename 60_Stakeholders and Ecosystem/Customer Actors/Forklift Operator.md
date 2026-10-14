@@ -21,6 +21,9 @@ hasNeed:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Warn the Operator of People and Objects Near the Truck]]"
   - "[[Charge Without Anyone Plugging In]]"
+  - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
+  - "[[Reduce Operator Effort and Fatigue]]"
+  - "[[Handle Loads Without Damaging Them]]"
 ---
 
 # Forklift Operator

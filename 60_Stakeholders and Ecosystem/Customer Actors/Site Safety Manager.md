@@ -15,6 +15,7 @@ hasNeed:
   - "[[Prevent Tip-Overs and Overloads]]"
   - "[[Warn Pedestrians of an Approaching Truck]]"
   - "[[Warn the Operator of People and Objects Near the Truck]]"
+  - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
 ---
 
 # Site Safety Manager

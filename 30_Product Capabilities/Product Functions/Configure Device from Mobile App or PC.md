@@ -21,6 +21,7 @@ performedBy:
   - "[[PC Service Tool Software]]"
 realizes:
   - "[[Configure and Service a Supported BMID]]"
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 satisfies:
   - "[[PosiGuard - Support Local Service Configuration]]"
 realizedBy:
@@ -39,6 +40,7 @@ Let a technician configure the device and read its logs from a phone, tablet or 
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Charge Each Battery Correctly for Its Chemistry and Condition]]. Analyst reasoning: a technician sets charge parameters and reads logs so the charger matches the battery installed. The app removes the case where a technician needs a laptop and cable or the factory. Customer work: [[Configure and Service a Supported BMID]].
 - Tools named: PosiConnect, E Connect, eGO!Tools, PowerTrac setup utilities.
 - Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.

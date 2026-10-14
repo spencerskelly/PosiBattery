@@ -12,6 +12,7 @@ realizedBy:
   - "[[Report Truck Telemetry]]"
   - "[[Detect and Record Impacts]]"
   - "[[Control Operator Access]]"
+  - "[[Convert Traction Battery Voltage for Onboard Systems]]"
 participants:
   - "[[Dealer Sales Representative]]"
   - "[[Dealer Service Technician]]"
@@ -30,6 +31,7 @@ Customer need: Retrofit Safety and Telematics Onto Existing Trucks. The problem 
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Convert Traction Battery Voltage for Onboard Systems]]: Analyst reasoning: added telematics, lights and sensors run at 13 V or 24 V, but the truck battery is 24 to 80 V; a converter removes a second battery or a custom supply. Source: [[Delta MOOVon Onboard Charger and Converters]] (converters to 13 or 24 V at 400 or 600 W). Customer work: fitting accessories to a truck.
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Fleets keep old trucks and batteries; they need monitoring and safety features without buying new equipment.
 - **Who has the problem:** [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]].

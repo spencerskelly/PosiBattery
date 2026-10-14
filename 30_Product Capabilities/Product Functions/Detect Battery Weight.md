@@ -18,6 +18,9 @@ performedBy:
 dependsOn:
 realizedBy:
   - "[[Battery Weight Determination Design]]"
+realizes:
+  - "[[Integrate the Battery with Truck and Charger Controls]]"
+  - "[[Prevent Tip-Overs and Overloads]]"
 ---
 
 # Detect Battery Weight
@@ -28,6 +31,7 @@ Determine the battery's weight or stored weight specification, for example to ve
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Integrate the Battery with Truck and Charger Controls]] and [[Prevent Tip-Overs and Overloads]]. Raymond says the iBattery module detects battery weight against truck specifications (source: [[Raymond iBattery]]). Analyst reasoning: on a counterbalanced truck the battery is part of the counterweight, so a wrong-weight battery is a stability risk; no vault source states this. Customer work: changing or installing a battery in a truck.
 - Stated only for Raymond iBattery.
 - Product links are made only where a source states the behavior; no link means unknown, not absent. Overview: [[Function Map]].
 - No Requirement is linked: nothing here is a committed requirement, so model-health will show these Functions without satisfied Requirements. That gap is intentional.

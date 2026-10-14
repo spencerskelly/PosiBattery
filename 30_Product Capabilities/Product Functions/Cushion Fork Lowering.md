@@ -12,6 +12,8 @@ subtypeOf:
 performedBy:
   - "[[Hangcha A Series Electric Forklifts]]"
   - "[[Hangcha XC Series Electric Forklifts]]"
+realizes:
+  - "[[Handle Loads Without Damaging Them]]"
 ---
 
 # Cushion Fork Lowering
@@ -22,6 +24,7 @@ Slow the last part of fork descent so loads land softly.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Handle Loads Without Damaging Them]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -19,6 +19,8 @@ performedBy:
   - "[[Komatsu FB Series Electric Forklifts]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
   - "[[Crown Gena Operating System]]"
+realizes:
+  - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
 ---
 
 # Program Travel, Lift and Tilt Speeds
@@ -29,6 +31,7 @@ Set or select travel, lift and tilt speeds to suit the operator and task.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

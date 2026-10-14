@@ -9,6 +9,7 @@ tags:
 realizedBy:
   - "[[Connect Battery to Charger or Vehicle]]"
   - "[[Manage Charging Cables]]"
+  - "[[Indicate Charger Status Locally]]"
 participants:
   - "[[Forklift Operator]]"
   - "[[GSE Operator]]"

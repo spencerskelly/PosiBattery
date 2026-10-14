@@ -26,6 +26,8 @@ hasNeed:
   - "[[Plan Battery Replacement and Budget Ahead]]"
   - "[[Act on Fleet Data Without Information Overload]]"
   - "[[Charge Without Anyone Plugging In]]"
+  - "[[Reduce Operator Effort and Fatigue]]"
+  - "[[Handle Loads Without Damaging Them]]"
 describedBy:
   - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---

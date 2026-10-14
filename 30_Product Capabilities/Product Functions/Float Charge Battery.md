@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Control Charge Profile]]"
 performedBy:
   - "[[PosiCharge ProCore Solo]]"
+realizes:
+  - "[[Prevent Battery Abuse and Premature Replacement]]"
 ---
 
 # Float Charge Battery
@@ -22,6 +24,7 @@ Hold the battery at full charge with a float charge.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Prevent Battery Abuse and Premature Replacement]]. Analyst reasoning: a battery left idle between uses is held full instead of self-discharging; the PosiCharge sheet lists the float mode but states no customer problem. Customer work: parking a truck or spare battery between shifts.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

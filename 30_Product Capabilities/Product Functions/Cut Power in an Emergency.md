@@ -14,6 +14,8 @@ dependsOn:
   - "[[Emergency Cut-Off Switch]]"
 performedBy:
   - "[[Hangcha XC Series Electric Forklifts]]"
+realizes:
+  - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
 ---
 
 # Cut Power in an Emergency
@@ -24,6 +26,7 @@ Remove drive power at once through an emergency cut-off.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

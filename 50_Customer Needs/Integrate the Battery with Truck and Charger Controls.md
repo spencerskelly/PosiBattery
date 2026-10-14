@@ -15,6 +15,7 @@ realizedBy:
   - "[[Adapt Truck to Battery Chemistry]]"
   - "[[Follow Vehicle Charge Setpoints over CANopen]]"
   - "[[Exchange Charge Control Data Between Pads]]"
+  - "[[Detect Battery Weight]]"
 participants:
   - "[[Truck OEM Integration Engineer]]"
 needOf:
@@ -34,6 +35,7 @@ Customer need: Integrate the Battery with Truck and Charger Controls. The proble
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Detect Battery Weight]]: Raymond says the iBattery module detects battery weight against truck specifications (source: [[Raymond iBattery]]). Analyst reasoning: on a counterbalanced truck the battery is part of the counterweight, so a wrong-weight battery is a stability risk; no vault source states this. Customer work: changing or installing a battery in a truck.
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** A battery that cannot tell the truck and charger its state and limits cannot be protected or used to full value.
 - **Who has the problem:** [[Truck OEM Integration Engineer]].

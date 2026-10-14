@@ -16,6 +16,8 @@ performedBy:
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[Cat Presence Detection System]]"
+realizes:
+  - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
 ---
 
 # Hold Truck on Slope
@@ -26,6 +28,7 @@ Keep the truck from rolling back or away on a slope.
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

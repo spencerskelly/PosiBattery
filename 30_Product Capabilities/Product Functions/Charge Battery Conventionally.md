@@ -34,6 +34,8 @@ performedBy:
   - "[[MIDATRON MTT Charger]]"
   - "[[MIDATRON MTB Charger]]"
   - "[[MIDATRON HF Charger]]"
+realizes:
+  - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
 ---
 
 # Charge Battery Conventionally
@@ -44,6 +46,7 @@ Recharge a battery over a full shift break or overnight at a tapering rate, typi
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Charge Each Battery Correctly for Its Chemistry and Condition]]. Analyst reasoning: the tapering overnight charge is the standard profile for a one-shift lead-acid operation, so it is one profile the customer must be able to select. Customer work: recharging between shifts.
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -15,6 +15,8 @@ dependsOn:
 performedBy:
   - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"
   - "[[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]]"
+realizes:
+  - "[[Reduce Operator Effort and Fatigue]]"
 ---
 
 # Steer with Electric Power Assist
@@ -25,6 +27,7 @@ Give the operator steering assistance from an electric motor to cut steering eff
 
 ## Notes
 
+- **Need served (analyst reasoning, 2026-10-14):** [[Reduce Operator Effort and Fatigue]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

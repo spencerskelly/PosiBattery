@@ -16,6 +16,8 @@ realizedBy:
   - "[[Identify Battery by Voltage]]"
   - "[[Report Battery Temperature to Charger]]"
   - "[[Diagnose Battery During Charge]]"
+  - "[[Charge Battery Conventionally]]"
+  - "[[Configure Device from Mobile App or PC]]"
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
@@ -34,6 +36,8 @@ Customer need: Charge Each Battery Correctly for Its Chemistry and Condition. Th
 
 ## Notes
 
+- **Added 2026-10-14 (analyst reasoning):** [[Configure Device from Mobile App or PC]]: Analyst reasoning: a technician sets charge parameters and reads logs so the charger matches the battery installed. The app removes the case where a technician needs a laptop and cable or the factory. Customer work: [[Configure and Service a Supported BMID]].
+- **Added 2026-10-14 (analyst reasoning):** [[Charge Battery Conventionally]]: Analyst reasoning: the tapering overnight charge is the standard profile for a one-shift lead-acid operation, so it is one profile the customer must be able to select. Customer work: recharging between shifts.
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Mixed fleets hold different chemistries and battery states; a wrong or uncompensated charge damages batteries or creates unsafe conditions.
 - **Who has the problem:** [[Maintenance Technician]], [[Fleet Operations Manager]].

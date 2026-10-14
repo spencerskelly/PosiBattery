@@ -34,6 +34,8 @@ Derived map from each catalog product to the customer needs it serves, and from 
 
 - **2026-10-14 (not yet regenerated):** new need [[Charge Without Anyone Plugging In]] (UC-00050) and 31 analyst function-to-need links across 11 existing needs; the counts and tables below predate them. Dispositions of the remaining unlinked functions are in [[Function-to-Need Gap Register]].
 
+- **2026-10-14 pass 2 (not yet regenerated):** three analyst-derived needs added (UC-00051 to UC-00053) and 16 more functions linked to needs; commercial products with a need-linked function rose from 354 to 377 of 484 and products with only unlinked functions fell from 24 to 1. Counts and tables below predate this. See [[Function-to-Need Gap Register]].
+
 ### Needs
 
 | Need (Use Case, why) | Who has it | Operating segments (analyst crosswalk, hypothesis) | Products reached (F + D + O) | of which by F | Added by metric (M, hypothesis) | Functions | Evidence kinds |
