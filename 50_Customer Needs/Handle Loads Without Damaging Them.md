@@ -16,6 +16,8 @@ participants:
 needOf:
   - "[[Forklift Operator]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Place a Load on a Rack or Floor]]"
 ---
 
 # Handle Loads Without Damaging Them
@@ -38,6 +40,6 @@ Customer need: Handle Loads Without Damaging Them. The problem behind it: a fork
 
 ## Operational traceability
 
-- Operational Use Cases: none yet; the operational Use Cases in the 40_Use and Operations folder cover charging and fleet-data work, not driving or load handling. Candidate operational Use Cases are named in the work line above.
+- Operational Use Cases: [[Place a Load on a Rack or Floor]] (drafted 2026-10-14 as analyst hypotheses: Place a Load on a Rack or Floor).
 
 ## Former ids

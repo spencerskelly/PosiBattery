@@ -17,6 +17,8 @@ participants:
 needOf:
   - "[[Forklift Operator]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Pick Orders on Foot Alongside the Truck]]"
 ---
 
 # Reduce Operator Effort and Fatigue
@@ -40,6 +42,6 @@ Customer need: Reduce Operator Effort and Fatigue. The problem behind it: operat
 
 ## Operational traceability
 
-- Operational Use Cases: none yet; the operational Use Cases in the 40_Use and Operations folder cover charging and fleet-data work, not driving or load handling. Candidate operational Use Cases are named in the work line above.
+- Operational Use Cases: [[Pick Orders on Foot Alongside the Truck]] (drafted 2026-10-14 as analyst hypotheses: Pick Orders on Foot Alongside the Truck).
 
 ## Former ids

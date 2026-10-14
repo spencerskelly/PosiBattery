@@ -18,6 +18,7 @@ performedBy:
   - "[[Blue Yonder Warehouse Execution]]"
 realizes:
   - "[[Right-Size the Fleet from Usage Data]]"
+  - "[[Dispatch a Task to a Vehicle]]"
 ---
 
 # Dispatch Vehicles to Tasks

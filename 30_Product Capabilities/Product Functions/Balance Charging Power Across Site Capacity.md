@@ -22,6 +22,7 @@ performedBy:
   - "[[Crown V-HFM3 Charger]]"
 realizes:
   - "[[Charge Within Site Power Limits and Utility Costs]]"
+  - "[[Limit Site Charging Power at Peak]]"
 ---
 
 # Balance Charging Power Across Site Capacity

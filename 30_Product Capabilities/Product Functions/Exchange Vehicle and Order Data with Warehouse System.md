@@ -15,6 +15,7 @@ performedBy:
   - "[[MiR Fleet]]"
 realizes:
   - "[[Act on Fleet Data Without Information Overload]]"
+  - "[[Dispatch a Task to a Vehicle]]"
 ---
 
 # Exchange Vehicle and Order Data with Warehouse System

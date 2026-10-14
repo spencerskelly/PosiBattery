@@ -18,6 +18,7 @@ performedBy:
   - "[[Cat Presence Detection System]]"
 realizes:
   - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
+  - "[[Park or Stop on a Ramp]]"
 ---
 
 # Hold Truck on Slope

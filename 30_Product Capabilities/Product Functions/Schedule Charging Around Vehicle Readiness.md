@@ -20,6 +20,7 @@ performedBy:
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+  - "[[Schedule Charging for the Next Shift]]"
 ---
 
 # Schedule Charging Around Vehicle Readiness

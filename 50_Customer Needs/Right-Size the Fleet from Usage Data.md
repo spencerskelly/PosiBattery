@@ -21,6 +21,7 @@ needOf:
   - "[[Fleet Operations Manager]]"
 arisesIn:
   - "[[Review Fleet Utilization and Idle Capacity]]"
+  - "[[Dispatch a Task to a Vehicle]]"
 ---
 
 # Right-Size the Fleet from Usage Data
@@ -47,6 +48,10 @@ Customer need: Right-Size the Fleet from Usage Data. The problem behind it: A ma
   - F12: a Crown column advises monitoring which trucks are in use or idle, then renting, buying or reallocating, and planning peak seasons by facility. Vendor-authored. (T2) [[Document - MMH Crown Other Voices Five Steps to a Healthier Forklift Fleet (2020-02-27)]]
 - **Gaps:** one named customer statement (F1); the rest is vendor-stated. No source gives a utilization target or the data a manager would need beyond hours. How many fleets actually change fleet size from this data is not stated.
 - **Products reaching this need:** 44 by function, design or option (owner decision, round 40: design and option routes count as reached); 30 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Truck Telematics (21), Fleet Software and Platforms (5), Vehicle Accessories/Proximity and Object Detection (2), Fleet Software and Platforms/Battery and Charger Management (1). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
+
+## Operational traceability
+
+- Operational Use Cases: [[Dispatch a Task to a Vehicle]] (drafted 2026-10-14 as analyst hypotheses).
 
 ## Aliases
 

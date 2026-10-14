@@ -20,6 +20,7 @@ needOf:
   - "[[Fleet Software Administrator]]"
 arisesIn:
   - "[[Manage Fleet Portal Users and Alert Thresholds]]"
+  - "[[Dispatch a Task to a Vehicle]]"
 ---
 
 # Act on Fleet Data Without Information Overload
@@ -41,6 +42,10 @@ Customer need: Act on Fleet Data Without Information Overload. The problem behin
   - F16: a trade-press item says only 45% of commercial fleet adopters strongly agree their telematics fully meets their needs, with 'a lack of broader data integration' given as an example. The page does not say whether forklifts are included, who ran the survey or the sample size. (T2, 2026) [[Document - AJOT Only 45% of Fleet Operators Are Satisfied with Telematics (2026-05-12)]]
 - **Gaps:** all voices are vendors or a survey of unknown scope; no fleet manager is quoted on overload. The vault has no Function for exception-based reporting, dashboards or report scheduling, so only alerting and threshold-crossing reports are linked.
 - **Products reaching this need:** 35 by function, design or option (owner decision, round 40: design and option routes count as reached); 28 of those perform a realizing function. Largest families by function: Battery Accessories/Monitoring Devices (19), Fleet Software and Platforms (2), Fleet Software and Platforms/Battery and Charger Management (1), Batteries/Valve-Regulated Lead-Acid Batteries (1). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
+
+## Operational traceability
+
+- Operational Use Cases: [[Dispatch a Task to a Vehicle]] (drafted 2026-10-14 as analyst hypotheses).
 
 ## Aliases
 

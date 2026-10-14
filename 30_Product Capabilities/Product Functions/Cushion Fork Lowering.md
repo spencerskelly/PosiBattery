@@ -14,6 +14,7 @@ performedBy:
   - "[[Hangcha XC Series Electric Forklifts]]"
 realizes:
   - "[[Handle Loads Without Damaging Them]]"
+  - "[[Place a Load on a Rack or Floor]]"
 ---
 
 # Cushion Fork Lowering

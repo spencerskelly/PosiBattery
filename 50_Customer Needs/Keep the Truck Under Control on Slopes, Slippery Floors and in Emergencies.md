@@ -19,6 +19,8 @@ participants:
 needOf:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
+arisesIn:
+  - "[[Park or Stop on a Ramp]]"
 ---
 
 # Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies
@@ -45,6 +47,6 @@ Customer need: Keep the Truck Under Control on Slopes, Slippery Floors and in Em
 
 ## Operational traceability
 
-- Operational Use Cases: none yet; the operational Use Cases in the 40_Use and Operations folder cover charging and fleet-data work, not driving or load handling. Candidate operational Use Cases are named in the work line above.
+- Operational Use Cases: [[Park or Stop on a Ramp]] (drafted 2026-10-14 as analyst hypotheses: Park or Stop on a Ramp).
 
 ## Former ids

@@ -17,6 +17,8 @@ participants:
   - "[[Fleet Operations Manager]]"
 needOf:
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Limit Site Charging Power at Peak]]"
 ---
 
 # Charge Within Site Power Limits and Utility Costs
@@ -42,6 +44,6 @@ Customer need: Charge Within Site Power Limits and Utility Costs. The problem be
 
 ## Operational traceability
 
-- Operational Use Cases: none yet.
+- Operational Use Cases: [[Limit Site Charging Power at Peak]] (drafted 2026-10-14 as analyst hypotheses: Limit Site Charging Power at Peak).
 
 ## Former ids

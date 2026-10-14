@@ -16,6 +16,7 @@ performedBy:
   - "[[Jungheinrich easyPILOT]]"
 realizes:
   - "[[Reduce Operator Effort and Fatigue]]"
+  - "[[Pick Orders on Foot Alongside the Truck]]"
 ---
 
 # Follow Operator Automatically

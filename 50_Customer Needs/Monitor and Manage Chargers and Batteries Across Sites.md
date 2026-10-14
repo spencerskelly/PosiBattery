@@ -21,6 +21,7 @@ needOf:
   - "[[Fleet Operations Manager]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
+  - "[[Schedule Charging for the Next Shift]]"
 describedBy:
   - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---
@@ -48,6 +49,10 @@ Customer need: Monitor and Manage Chargers and Batteries Across Sites. The probl
   - [[PosiCharge PosiLink]]: The PosiLink two-page sheet (Reference Files/Posilink-2-Pager.pdf) calls it a fleet intelligence and battery management platform: plan and design with site data (including E-Meter and IC-Meter data), real-time alerts, lifecycle insights, usage tracked against recommended practices for warranty compliance, exceptions-based reporting, role-specific dashboards and asset drilldowns; energy management (facility power limits, time-of-use and scheduled charging) and integrated simulation tools are marked coming soon. Source: PosiLink sheet (read round 20) (T1), retrieved 2026-10-03. <https://posicharge.com/wp-content/uploads/2026/01/Posilink-2-Pager.pdf>
   - [[Stryten inCOMMAND]]: Stryten says M-Series chargers communicate with inCOMMAND, which monitors key battery data points in real time, and the charger adjusts its charge rate if battery temperature rises; the M-Series Li610 integrates with inCOMMAND. Source: Stryten article on X-7 chargers and Li610 release (T1/T2), retrieved 2026-10-03. <https://stryten.com/?p=173790>
 - **Gaps:** no customer-side source; each function in the list is realized by only the products that state it, so the product count is a lower bound; no Requirement is linked (the vault leaves requirements as an intentional gap).
+
+## Operational traceability
+
+- Operational Use Cases: [[Schedule Charging for the Next Shift]] (drafted 2026-10-14 as analyst hypotheses).
 
 ## Aliases
 

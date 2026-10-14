@@ -25,6 +25,8 @@ participants:
 needOf:
   - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
+arisesIn:
+  - "[[Schedule Charging for the Next Shift]]"
 ---
 
 # Return Trucks to Service Quickly After a Low Charge
@@ -52,7 +54,7 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
 
 ## Operational traceability
 
-- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Opportunity-Charge a Vehicle During a Work Break]].
+- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Opportunity-Charge a Vehicle During a Work Break]], [[Schedule Charging for the Next Shift]] (drafted 2026-10-14 as analyst hypotheses: Schedule Charging for the Next Shift).
 - Operating contexts: [[Distributed and Opportunity Charging Area]].
 
 ## Aliases
