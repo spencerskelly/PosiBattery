@@ -2589,3 +2589,13 @@ records:
         disposition: intentionally_absent
         exception: EXC-REFERENCE-LEAF
         note: "Function defined from neutral BMS sources and maker evidence; no Requirement or Use Case needs it yet."
+  "30_Product Capabilities/Product Designs/Active Cell Balancing.md":
+    classification: reference_content
+  "30_Product Capabilities/Product Designs/Master and Cell Monitor BMS Topology.md":
+    classification: reference_content
+  "30_Product Capabilities/Product Designs/Passive Cell Balancing.md":
+    classification: reference_content
+  "30_Product Capabilities/Product Designs/Standalone Battery Management System.md":
+    classification: reference_content
+  "30_Product Capabilities/Product Designs/Battery Management System Design.md":
+    classification: engineering_support
