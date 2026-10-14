@@ -21,6 +21,10 @@ madeBy:
   - "[[EnerSys]]"
 offeredWith:
   - "[[EnerSys Wi-iQ]]"
+  - "[[EnerSys BSI40]]"
+  - "[[EnerSys EZSelect Lite]]"
+  - "[[EnerSys LifeNetwork iQ]]"
+  - "[[EnerSys EnSite]]"
 ---
 
 # EnerSys IRONCLAD Battery
@@ -42,7 +46,8 @@ EnerSys flooded lead-acid forklift battery line.
 - **Design characteristics, with citations:**
   - [[Tubular Plate Construction]] (V): square tubular positive plates. <https://enersys.com/en/products/batteries/ironclad/ironclad-americas>
 - **Offered with:** [[EnerSys Wi-iQ]] (V, APAC guide: monitoring option that works with NexSys+ chargers). <https://www.enersys.com/495d9a/globalassets/documents/product-documentation/_enersys/apac/apac-en-pg-ic-0324.pdf>
-- **Options named without notes in the vault:** BSI40, EZ Select, LifeNetwork, E Connect app, EnSite software (IB-182).
+- **Options now with notes:** [[EnerSys BSI40]], [[EnerSys EZSelect Lite]] (the guide says "EZ Select"; C223), [[EnerSys LifeNetwork iQ]], [[EnerSys EnSite]].
+- **Options still without notes:** E Connect app (IB-183).
 - **Not stated:** cycle life count, watering and HydroFill options, grid alloy.
 
 ## Aliases

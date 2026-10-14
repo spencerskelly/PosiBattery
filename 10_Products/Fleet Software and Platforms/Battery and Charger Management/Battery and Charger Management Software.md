@@ -22,6 +22,10 @@ supertypeOf:
   - "[[Stryten inCOMMAND]]"
   - "[[Raymond Energy Asset Manager]]"
   - "[[Exide GNB Fleet]]"
+  - "[[EnerSys BSI40]]"
+  - "[[EnerSys EZSelect Lite]]"
+  - "[[EnerSys LifeNetwork iQ]]"
+  - "[[EnerSys EnSite]]"
 ---
 
 # Battery and Charger Management Software

@@ -16,6 +16,11 @@ describedBy:
   - "[[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]]"
   - "[[Document - EnerSys iQ Mini Flyer (GLOB-EN-FLY-IQM 0924)]]"
   - "[[Document - EnerSys The General Flooded Battery Brochure]]"
+offers:
+  - "[[EnerSys BSI40]]"
+  - "[[EnerSys EZSelect Lite]]"
+  - "[[EnerSys LifeNetwork iQ]]"
+  - "[[EnerSys EnSite]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"
