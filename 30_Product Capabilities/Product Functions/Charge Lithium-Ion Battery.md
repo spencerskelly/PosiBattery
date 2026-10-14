@@ -29,6 +29,7 @@ performedBy:
   - "[[Exide Motion+ Premium Charger]]"
   - "[[Lester Summit Series II]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Exide 2100 Li High Output Charger]]"
 realizes:
   - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
   - "[[Charge Without a Ventilated Battery Room]]"

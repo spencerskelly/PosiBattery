@@ -28,6 +28,7 @@ offeredBy:
 offeredWith:
   - "[[Raymond Energy Asset Manager]]"
   - "[[Raymond iWAREHOUSE]]"
+  - "[[Raymond Power Source Integrated]]"
 ---
 
 # Raymond Energy Essentials Lithium-Ion Battery

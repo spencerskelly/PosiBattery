@@ -30,6 +30,7 @@ performedBy:
   - "[[Crown V-Force BMID]]"
   - "[[Battery-Charger Communication Firmware]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[Exide 2100 Li High Output Charger]]"
 realizes:
   - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"

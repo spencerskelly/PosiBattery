@@ -30,6 +30,8 @@ supertypeOf:
   - "[[STILL neXXt fleet]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Yale Vision Telemetry]]"
+  - "[[Raymond Power Source Integrated]]"
+  - "[[Raymond iWAREHOUSE GATEWAY]]"
 ---
 
 # Truck Telematics Software

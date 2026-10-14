@@ -14,6 +14,7 @@ accessed: 2026-10-13
 describes:
   - "[[Flux Power GSE Pack]]"
   - "[[Flux Power GSE3]]"
+  - "[[Flux Power GSE3 Truck Adapter]]"
 ---
 
 # Document - Flux Power GSE3 Product Brochure (SA-808, 2023-12-18)

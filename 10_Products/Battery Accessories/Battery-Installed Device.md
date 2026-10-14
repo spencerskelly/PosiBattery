@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Battery Monitoring Device]]"
   - "[[Battery Watering System]]"
   - "[[Exide Retrofitting Communicator]]"
+  - "[[Flux Power GSE3 Truck Adapter]]"
 describedBy:
   - "[[Battery Installed Device Market Reference]]"
   - "[[Battery Product Landscape]]"

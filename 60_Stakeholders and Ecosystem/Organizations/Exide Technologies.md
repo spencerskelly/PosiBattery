@@ -34,6 +34,7 @@ makes:
   - "[[Exide Retrofitting Communicator]]"
   - "[[Exide Opus Display]]"
   - "[[Exide HC-LC Logger]]"
+  - "[[Exide 2100 Li High Output Charger]]"
 parentOf:
   - "[[Aker Wade Power Technologies]]"
 successorOf:

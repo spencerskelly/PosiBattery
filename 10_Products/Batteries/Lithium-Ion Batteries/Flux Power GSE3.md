@@ -19,6 +19,8 @@ describedBy:
   - "[[Document - Flux Power GSE3 Product Brochure (SA-808, 2023-12-18)]]"
 madeBy:
   - "[[Flux Power]]"
+offeredWith:
+  - "[[Flux Power GSE3 Truck Adapter]]"
 ---
 
 # Flux Power GSE3

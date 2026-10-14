@@ -30,6 +30,7 @@ offeredWith:
   - "[[Exide Retrofitting Communicator]]"
   - "[[Exide Opus Display]]"
   - "[[Exide HC-LC Logger]]"
+  - "[[Exide 2100 Li High Output Charger]]"
 ---
 
 # Exide Sonnenschein Lithium Battery
@@ -57,7 +58,7 @@ Exide Sonnenschein-branded lithium battery for material handling.
 - **Design characteristics, with citations:**
   - [[Integrated Battery Management System]] (V): BMS with internal communication bus between modules, thermal management if required, optional vehicle integration. <https://exidegroup.com/en/document/sonnenschein-lithium-brochure>
 - **Offered with:** [[Exide GNB Fleet]], [[Exide Retrofitting Communicator]], [[Exide Opus Display]], [[Exide HC-LC Logger]] (all V, one brochure each, IB-176).
-- **Not linked, and why:** [[Active Cell Balancing]] and [[Passive Cell Balancing]] (method not stated); [[Communicate Battery State over CAN]] (CAN not mentioned); a named GNB Lithium Charger and the 2100HP charger (no note yet; the organization note lists "GNB 2100" and naming is unconfirmed, IB-175).
+- **Not linked, and why:** [[Active Cell Balancing]] and [[Passive Cell Balancing]] (method not stated); [[Communicate Battery State over CAN]] (CAN not mentioned); [[Exide 2100 Li High Output Charger]] is linked (page does not name the GNB or 2100HP labels; C224); the unnamed GNB Lithium Charger and the 2100HP charger (no separate note; the organization note lists "GNB 2100" and naming is unconfirmed, IB-175).
 
 ## Aliases
 
