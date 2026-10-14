@@ -13,6 +13,10 @@ sourceUrl: "https://www.fluxpower.com/hubfs/GSE%20Battery%20Pack%20V.2%20-%20Bro
 accessed: 2026-10-13
 describes:
   - "[[Flux Power GSE Pack]]"
+  - "[[Flux Power GSE2]]"
+  - "[[Flux Power GSE3]]"
+  - "[[Flux Power GSE4]]"
+  - "[[Flux Power GSE6]]"
 ---
 
 # Document - Flux Power GSE Battery Pack V.2 Brochure (2021)

@@ -13,6 +13,7 @@ sourceUrl: "https://www.fluxpower.com/hubfs/GSE3%20Product%20Brochure.pdf"
 accessed: 2026-10-13
 describes:
   - "[[Flux Power GSE Pack]]"
+  - "[[Flux Power GSE3]]"
 ---
 
 # Document - Flux Power GSE3 Product Brochure (SA-808, 2023-12-18)

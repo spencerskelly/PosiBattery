@@ -22,6 +22,10 @@ makes:
   - "[[Flux Power LiFT Pack]]"
   - "[[Flux Power S-Series Battery]]"
   - "[[Flux Power GSE Pack]]"
+  - "[[Flux Power GSE2]]"
+  - "[[Flux Power GSE3]]"
+  - "[[Flux Power GSE4]]"
+  - "[[Flux Power GSE6]]"
   - "[[Flux SkyBMS]]"
 ---
 
