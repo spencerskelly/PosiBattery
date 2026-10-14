@@ -19,6 +19,8 @@ designOf:
   - "[[Xnergy Wireless Charging Series]]"
   - "[[Daihen D-Broad Wireless Charging System]]"
   - "[[Lindig L.inductive Charging Offer]]"
+  - "[[Resonant Link Wireless Lift Truck Charger]]"
+  - "[[Wiferion etaLINK 12000 Wireless Charging System]]"
 ---
 
 # Inductive Wireless Charging

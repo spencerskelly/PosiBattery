@@ -14,6 +14,7 @@ makes:
   - "[[Wiferion etaTRAY Battery Tray]]"
   - "[[Wiferion CW1000 Wireless Charging System]]"
   - "[[Lindig L.inductive Charging Offer]]"
+  - "[[Wiferion etaLINK 12000 Wireless Charging System]]"
 playsRole:
   - "[[Charger Maker]]"
   - "[[Battery Maker]]"

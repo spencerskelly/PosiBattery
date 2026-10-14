@@ -30,6 +30,7 @@ rolePlayedBy:
   - "[[Xnergy]]"
   - "[[Daihen]]"
   - "[[Delta Energy Systems]]"
+  - "[[Resonant Link]]"
 ---
 
 # Charger Maker
