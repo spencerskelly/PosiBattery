@@ -11,7 +11,6 @@ tags:
 realizedBy:
   - "[[Manage Chargers Remotely]]"
   - "[[Upload Battery Data to Cloud Portal]]"
-  - "[[Report Truck Telemetry]]"
   - "[[Control Charger from Remote Panel]]"
   - "[[Transmit Battery Data Wirelessly]]"
   - "[[Schedule Charging Around Vehicle Readiness]]"
@@ -34,13 +33,14 @@ Customer need: Monitor and Manage Chargers and Batteries Across Sites. The probl
 
 ## Notes
 
+- **Revised 2026-10-14 (telemetry split):** [[Report Truck Telemetry]] no longer realizes this need directly; its sources state generic fleet monitoring, not this behavior. The specific functions above carry the need (C265).
 - **Added 2026-10-14 (software coverage pass, analyst reasoning):** [[Show Battery and Charger State in Fleet Software]]: a person sees battery and charger state without walking to the charger (Fronius says Charge & Connect shows state of charge, energy use and charger status).
 - **Added 2026-10-14 (software pass, analyst reasoning):** [[Schedule Charging Around Vehicle Readiness]]: analyst reasoning: charge plans and charger status are managed from one place (WiBotic Commander shows charger availability and usage).
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** A manager with several sites, chargers and batteries needs data and alerts without walking the floor.
 - **Who has the problem:** [[Fleet Operations Manager]].
 - **Operating segments (analyst crosswalk to [[PosiCharge Market Segments and Jobs-to-Be-Done]], hypothesis):** Material-handling fleets, Airport eGSE fleets, Battery-room and centralized charging.
-- **Realized by (specific functions; products link to these):** [[Manage Chargers Remotely]], [[Upload Battery Data to Cloud Portal]], [[Report Truck Telemetry]], [[Control Charger from Remote Panel]] (added 2026-10-04).
+- **Realized by (specific functions; products link to these):** [[Manage Chargers Remotely]], [[Upload Battery Data to Cloud Portal]], [[Control Charger from Remote Panel]] (added 2026-10-04).
 - **Update 2026-10-14 (analyst links, hypothesis):** added realizing functions [[Transmit Battery Data Wirelessly]] - rationale: sending battery data to a gateway or app for remote monitoring. Product counts above predate these links and are not regenerated.
 - **Products reaching this need:** 59 by function, design or option (owner decision, round 40: design and option routes count as reached); 44 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Truck Telematics (18), Battery Accessories/Monitoring Devices (13), Chargers/Industrial Modular Chargers (5), Fleet Software and Platforms/Battery and Charger Management (4), Battery Accessories/Identification and Charge Interface Devices (2), Chargers/Light-Duty Chargers (1). The metric route (hypothesis) adds 0 more. Per-product routes in [[Product to Customer Need Map]].
 - **Vendor-stated evidence (by product):**

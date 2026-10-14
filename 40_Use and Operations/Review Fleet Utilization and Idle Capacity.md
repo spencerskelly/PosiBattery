@@ -11,6 +11,7 @@ participants:
   - "[[Fleet Operations Manager]]"
 realizedBy:
   - "[[Report Truck Telemetry]]"
+  - "[[Report Truck Hours and Usage]]"
 givesRiseTo:
   - "[[Right-Size the Fleet from Usage Data]]"
 ---

@@ -16,6 +16,9 @@ performedBy:
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Vehicle Diagnostic Data Acquisition Logic]]"
   - "[[Remote Vehicle Diagnostic Service]]"
+  - "[[Linde connect]]"
+  - "[[Heli Fleet Management System]]"
+  - "[[Oshkosh AeroTech iOPS]]"
 realizes:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
   - "[[Review Checklist Failures and Dispatch Service]]"
@@ -31,6 +34,7 @@ Let a technician or service team read a vehicle's fault and diagnostic data from
 
 ## Notes
 
+- **Update 2026-10-14 (telemetry split):** added performers [[Linde connect]] (trouble codes reported to the myLinde portal), [[Heli Fleet Management System]] (remote diagnostics) and [[Oshkosh AeroTech iOPS]] (diagnostics and monitoring options); sources are on those product notes.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - Added in round 40 (gap review 2026-10-03) because three GSE products state remote or Bluetooth diagnostics and no existing function covered it. Local-only diagnostics (a display or a PLC on the vehicle) are not linked here; see [[Display Truck Status to Operator]].

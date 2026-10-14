@@ -15,6 +15,7 @@ subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
   - "[[Report Truck Telemetry]]"
+  - "[[Diagnose Vehicle Remotely]]"
 madeBy:
   - "[[Oshkosh AeroTech]]"
 poweredBy:

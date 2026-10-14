@@ -17,6 +17,7 @@ subtypeOf:
 performs:
   - "[[Control Operator Access]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Report Truck Hours and Usage]]"
 madeBy:
   - "[[STILL]]"
 ---

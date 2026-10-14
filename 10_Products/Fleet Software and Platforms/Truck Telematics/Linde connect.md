@@ -16,6 +16,8 @@ performs:
   - "[[Control Operator Access]]"
   - "[[Detect and Record Impacts]]"
   - "[[Report Truck Telemetry]]"
+  - "[[Report Truck Hours and Usage]]"
+  - "[[Diagnose Vehicle Remotely]]"
 hasDesign:
   - "[[RFID or PIN Access Reader]]"
   - "[[Impact Sensor]]"

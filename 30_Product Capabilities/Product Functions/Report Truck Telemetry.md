@@ -9,6 +9,8 @@ tags:
   - product-function
 subtypeOf:
   - "[[Manage Fleet Use]]"
+supertypeOf:
+  - "[[Report Truck Hours and Usage]]"
 dependsOn:
   - "[[Wireless Interface Design]]"
 performedBy:
@@ -39,10 +41,7 @@ performedBy:
   - "[[CLARK SMART Telematics]]"
   - "[[Cat VISR]]"
 realizes:
-  - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
-  - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"
-  - "[[Find and Fix Vehicle Faults Without Downtime]]"
   - "[[Review Fleet Utilization and Idle Capacity]]"
   - "[[Right-Size the Fleet from Usage Data]]"
 realizedBy:
@@ -56,6 +55,15 @@ realizedBy:
 Send truck usage, status and events to a fleet portal.
 
 ## Notes
+
+
+- **What each product's source states it reports (2026-10-14, from the product notes):**
+  - Hours or usage: [[Linde connect]], [[Logisnext Lift Link]], [[STILL FleetManager]] (now on [[Report Truck Hours and Usage]]).
+  - Faults or diagnostics: [[Linde connect]] (trouble codes), [[Heli Fleet Management System]] (remote diagnostics), [[Oshkosh AeroTech iOPS]] (diagnostics) (now on [[Diagnose Vehicle Remotely]]); [[Adveez Asset and Operations Monitoring System]] (maintenance data, not linked).
+  - Location: [[Adveez Asset and Operations Monitoring System]] (live GPS); [[Toyota MyInsights Telematics]] (equipment tracking, meaning not stated); [[Powerfleet Forklift Gateway]] (GPS as an optional connected sensor).
+  - Impacts, access and checklists: carried by [[Detect and Record Impacts]], [[Control Operator Access]] and [[Enforce Pre-Shift Checklist]].
+  - Generic only (no data item stated): [[Doosan Lin-Q]], [[Hangcha FIMS]] (forklift and driver information), [[Hyster Tracker Telemetry]], [[Jungheinrich ISM Online]], [[Komatsu KOMTRAX]], [[STILL neXXt fleet]], [[STILL Smart Portal]], [[Yale Vision Telemetry]], [[Crown InfoLink]], [[Raymond iWAREHOUSE]].
+- **Revised 2026-10-14:** this function now realizes only [[Retrofit Safety and Telematics Onto Existing Trucks]], [[Right-Size the Fleet from Usage Data]] and [[Review Fleet Utilization and Idle Capacity]]; the links to three other needs were removed because the sources state only generic fleet monitoring (C265).
 
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).

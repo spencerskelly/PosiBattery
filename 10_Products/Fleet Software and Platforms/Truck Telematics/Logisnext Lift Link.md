@@ -22,6 +22,7 @@ performs:
   - "[[Detect and Record Impacts]]"
   - "[[Enforce Pre-Shift Checklist]]"
   - "[[Limit Truck Speed Automatically]]"
+  - "[[Report Truck Hours and Usage]]"
 hasDesign:
   - "[[RFID or PIN Access Reader]]"
   - "[[Impact Sensor]]"

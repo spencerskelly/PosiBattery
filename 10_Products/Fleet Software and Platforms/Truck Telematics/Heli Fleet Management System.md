@@ -16,6 +16,7 @@ subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:
   - "[[Report Truck Telemetry]]"
+  - "[[Diagnose Vehicle Remotely]]"
 madeBy:
   - "[[Anhui Heli]]"
 ---
