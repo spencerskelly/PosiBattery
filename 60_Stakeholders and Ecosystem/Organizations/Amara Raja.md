@@ -11,6 +11,8 @@ playsRole:
   - "[[Battery Maker]]"
 makes:
   - "[[Amaron Brute Hi-Life Battery]]"
+  - "[[Amaron Electrolyte Circulation System]]"
+  - "[[Amaron Aqua Filling Plug]]"
 ---
 
 # Amara Raja

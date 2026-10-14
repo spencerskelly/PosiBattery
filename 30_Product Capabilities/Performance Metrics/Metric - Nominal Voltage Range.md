@@ -43,6 +43,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[Banner Traction Bull Bloc PzF]]: 6 V and 12 V blocks
   - [[Crown V-HFM3 Charger]]: 24, 36, 48, 72, 80, 96 V
   - [[Delta-Q IC650]]: 24, 36, 48 V
+  - [[EnerSys IRONCLAD Battery]]: 12 to 96 V across the line (Americas page, unit not shown)
   - [[EnerSys Wi-iQ]]: 24-80 V and 96-120 V (nominal and operating)
   - [[EnerSys iQ Mini]]: 12-80 V (carried from seed)
   - [[Exide Motion+ EasyMonitor]]: 18-120 V

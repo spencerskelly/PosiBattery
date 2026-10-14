@@ -26,6 +26,8 @@ Watering Interval: Interval between refills for flooded batteries.
 - **Comparability rule:** Depends on charger and duty; 'working days' versus weeks differ.
 - **Direction:** longer is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Amaron Brute Hi-Life Battery]]: reduced water use claimed (patented paste; circulation option up to 60% less water); no interval stated
+  - [[Banner Traction Bull PzS]]: optional filling system replaces water automatically; interval not stated
   - [[Crown V-Force Lithium-Ion ESS]]: no watering (brochure: eliminates watering)
   - [[Deka HydraSaver Battery]]: ten weeks
   - [[Deka MaintenanceSaver Battery]]: four times a year

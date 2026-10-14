@@ -19,6 +19,9 @@ designOf:
   - "[[Midac PzS Traction Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[Amaron Brute Hi-Life Battery]]"
+  - "[[Banner Traction Bull PzS]]"
+  - "[[EnerSys IRONCLAD Battery]]"
 ---
 
 # Tubular Plate Construction

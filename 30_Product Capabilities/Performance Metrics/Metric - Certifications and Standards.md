@@ -37,6 +37,8 @@ Certifications and Standards: shared metric used for monitors, chargers, battery
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[ACT Quantum 2]]: UL/cUL/CE; CEL; RCM; earlier note: UL/cUL for 208 and 600 V AC Quantum (trade report)
   - [[ACT Quantum 3]]: UL/cUL; CE and RCM coming
+  - [[Amaron Brute Hi-Life Battery]]: IEC 60254-1 and -2, DIN and BS cells; plants ISO 9001, 14001, 45001 (not product certificates)
+  - [[Banner Traction Bull PzS]]: DIN/EN 60254-1 and 60254-2, IEC 254-1 and -2; "certified, explosion-safe" in one folder, explosion protection only an option in another (C222)
   - [[Crown V-Force Lithium-Ion ESS]]: UL Listed pack
   - [[Crown V-HFM3 Charger]]: UL, cUL, CEC-BC
   - [[Delta-Q IC650]]: California Energy Commission compliance mark on the sheet

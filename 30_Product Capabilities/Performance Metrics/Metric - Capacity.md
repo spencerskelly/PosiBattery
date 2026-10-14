@@ -24,7 +24,10 @@ Capacity: Rated capacity.
 - **Comparability rule:** Rate (5 h, 6 h) is rarely stated; Ahe means usable amp-hour equivalent in Flux literature.
 - **Direction:** higher is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Amaron Brute Hi-Life Battery]]: DIN (PzS) 120-1,550 Ah and BS (PzB) 110-1,000 Ah at C5 (brochure)
+  - [[Banner Traction Bull PzS]]: 120-1,550 Ah per cell (60-155 Ah per positive plate, C5, 30 C)
   - [[Deka MaxPowr Battery]]: up to 10% more amp-hours in the same size
+  - [[EnerSys IRONCLAD Battery]]: 110-2,790 Ah across the Americas line (C6, 1.75 V per cell, 77 F); Loadhog 110-1,960 Ah per cell (1.70 V per cell); EMEA PzQ 276-2,064 Ah (5 h) (C221)
   - [[Exide Sonnenschein Lithium Battery]]: 80-440 Ah (24 and 36 V classes), 110-552 Ah (48 V), 110-966 Ah (80 V); 2.0 to 74.2 kWh
   - [[Flux Power GSE Pack]]: 300-600 Ah modular (2016 report); 210, 315, 420 or 630 Ah (16.8 to 50.4 kWh) across GSE2, GSE3, GSE4 and GSE6 (2021 brochure); GSE3 315 Ah, 24.2 kWh (2023 sheet) (C212, C213)
   - [[Flux Power LiFT Pack]]: 250 Ahe

@@ -27,9 +27,12 @@ Chemistry and Plate Construction: Chemistry and plate type.
 - **Comparability rule:** Plate type (flat, round tubular, TPPL) changes cycle behavior; compare within chemistry.
 - **Direction:** n/a.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Amaron Brute Hi-Life Battery]]: tubular spine positive plates, 100% red lead dry filling, polyester separator; flooded supported but not stated (C95)
   - [[Banner Traction Bull Bloc PzF]]: flooded, positive tubular plates, negative grid plates, high antimony
+  - [[Banner Traction Bull PzS]]: flooded, positive tubular plates
   - [[Banner Traction Bull PzV Gel]]: gel, valve-regulated
   - [[Deka Dominator Battery]]: gel (maintenance-free); corrected from flooded (C53)
+  - [[EnerSys IRONCLAD Battery]]: flooded lead-acid, square tubular positive plates
   - [[EnerSys NexSys TPPL Battery]]: thin plate pure lead (valve-regulated)
   - [[Exide Sonnenschein Lithium Battery]]: lithium-ion, subtype not stated
   - [[Exide TENSOR xGEL Battery]]: gel (valve-regulated)

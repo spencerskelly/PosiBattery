@@ -27,6 +27,7 @@ Charge Regimes Supported: Conventional, opportunity or fast charge capability.
   - [[Crown V-Force Lithium-Ion ESS]]: one battery handles one or multiple shifts, no battery swapping; true opportunity charging
   - [[Deka D-Series Battery]]: conventional and opportunity
   - [[Deka FastCharge Battery]]: fast
+  - [[EnerSys IRONCLAD Battery]]: fast-opportunity charging up to 120% of capacity per day with high-frequency chargers (maker claim)
   - [[Exide Sonnenschein Lithium Battery]]: fast charge and opportunity charge; works with recuperation
   - [[Godrej Multi-Ion Forklift Battery]]: fast and opportunity charging (release, no rates)
   - [[Linde 6-8 t Electric Counterbalance Forklifts]]: 90 V lithium-ion removes battery changes (truck-level note)

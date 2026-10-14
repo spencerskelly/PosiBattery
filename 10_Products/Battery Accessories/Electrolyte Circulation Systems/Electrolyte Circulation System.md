@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Exide AIR Electrolyte Agitation System]]"
   - "[[HOPPECKE trak air Electrolyte Circulation]]"
   - "[[Midac EUW Electrolyte Circulation System]]"
+  - "[[Amaron Electrolyte Circulation System]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

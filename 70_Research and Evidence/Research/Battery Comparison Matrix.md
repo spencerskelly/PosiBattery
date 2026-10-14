@@ -26,6 +26,8 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 
 | Product | BM01 Chemistry and Plate Construction | BM02 Nominal Voltage | BM03 Capacity | BM04 Watering Interval | BM05 Charge Regimes Supported | BM08 BMS and Communication | BM10 Certifications | Authority |
 |---|---|---|---|---|---|---|---|---|
+| [[Amaron Brute Hi-Life Battery]] | flooded lead-acid, tubular (type inferred, C95) | n/s | 110-1,550 Ah per cell (C5) | reduced water use claimed | n/s | n/s | IEC 60254; plant ISO | [[Amaron Brute Hi-Life Battery]] |
+| [[Banner Traction Bull PzS]] | flooded, tubular positive plates | n/s | 120-1,550 Ah per cell (C5) | optional filling system | n/s | n/s | DIN/EN 60254; explosion protection option (C222) | [[Banner Traction Bull PzS]] |
 | [[Crown V-Force Lithium-Ion ESS]] | n/s | n/s | n/s | n/s | n/s | n/s | UL Listed pack | [[Crown V-Force Lithium-Ion ESS]] |
 | [[Deka D-Series Battery]] | n/s | n/s | n/s | n/s | conventional and opportunity | n/s | n/s | [[Deka D-Series Battery]] |
 | [[Deka Dominator Battery]] | gel (maintenance-free); corrected from flooded (C53) | n/s | n/s | n/s | n/s | n/s | n/s | [[Deka Dominator Battery]] |
@@ -34,6 +36,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Deka MaintenanceSaver Battery]] | n/s | n/s | n/s | four times a year | n/s | n/s | n/s | [[Deka MaintenanceSaver Battery]] |
 | [[Deka MaxPowr Battery]] | n/s | n/s | up to 10% more amp-hours in the same size | n/s | n/s | n/s | n/s | [[Deka MaxPowr Battery]] |
 | [[Deka Ready Power Lithium Battery]] | n/s | n/s | n/s | n/s | n/s | multi-module BMS over CAN | n/s | [[Deka Ready Power Lithium Battery]] |
+| [[EnerSys IRONCLAD Battery]] | flooded, square tubular | 12-96 V line | 110-2,790 Ah line (C221) | n/s | fast-opportunity (claim) | monitoring options (Wi-iQ and others) | n/s | [[EnerSys IRONCLAD Battery]] |
 | [[EnerSys NexSys TPPL Battery]] | thin plate pure lead (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[EnerSys NexSys TPPL Battery]] |
 | [[Exide GNB Lithium Battery 2.0]] | n/s | n/s | n/s | n/s | n/s | BMS; GNB Cloud option | n/s | [[Exide GNB Lithium Battery 2.0]] |
 | [[Exide MARATHON Battery]] | n/s | n/s | n/s | MARATHON Excell 16 weeks; 40 to 200 working days depending on type with GNB charging | n/s | n/s | n/s | [[Exide MARATHON Battery]] |

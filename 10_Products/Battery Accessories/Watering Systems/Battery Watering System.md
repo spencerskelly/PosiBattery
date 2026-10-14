@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Philadelphia Scientific Stealth Watering System]]"
   - "[[Philadelphia Scientific Water Injector System]]"
   - "[[PosiCharge Single-Point Automatic Battery Watering]]"
+  - "[[Amaron Aqua Filling Plug]]"
 describedBy:
   - "[[Battery Product Landscape]]"
 ---

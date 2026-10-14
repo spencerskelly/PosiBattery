@@ -38,9 +38,12 @@ Size and Mass: shared metric used for monitors, chargers, batterys.
   - [[ACT Quantum 2]]: Q4 16 x 16 x 24 in; Q6 24 x 16 x 24; Q12 24 x 16 x 36; 53-181 lb
   - [[ACT Quantum 3]]: 14.25 x 17 x 21.25 in; Q4 62 lb, Q8 124 lb
   - [[Advanced Charging Technologies BATTview]]: 5.5 x 1.75 x 1.0 in (140 x 44 x 25 mm)
+  - [[Amaron Brute Hi-Life Battery]]: DIN cells 8.5-82.4 kg; BS cells 7.9-48.9 kg, filled and charged (brochure)
+  - [[Banner Traction Bull PzS]]: cell length 47-192 mm, height 370-750 mm, 8.4-81.3 kg filled and charged
   - [[Crown V-HFM3 Charger]]: FS3 12 x 9.5 x 14.5 in, up to 37.4 lb; FS4 and FS6 12 x 18.5 x 14.5 in, up to 71.5 lb
   - [[Deka PowerForce Charger]]: 14 x 14 x 16 in
   - [[Delta-Q IC650]]: 252 x 186 x 80 mm; 2.4 kg
+  - [[EnerSys IRONCLAD Battery]]: Loadhog cells 23-255 lb with tray; PzQ cells 14.9-103.2 kg
   - [[EnerSys Wi-iQ]]: 40.07 x 19.5 x 107.97 mm
   - [[Flux Power GSE Pack]]: GSE2 44.2 x 14.0 x 22.5 in, 535 lb; GSE3 35.3 x 19.9 x 26.2 in, 875 lb; GSE4 35.3 x 26.3 x 26.2 in, 925 or 1,178 lb; GSE6 35.3 x 39.0 x 26.0 in, 1,753 lb (2021 brochure)
   - [[HOPPECKE trak collect]]: 340 g (data sheet); earlier note: base 120 x 52 x 26 mm plus satellite 82 x 50 x 32 mm; 340 g

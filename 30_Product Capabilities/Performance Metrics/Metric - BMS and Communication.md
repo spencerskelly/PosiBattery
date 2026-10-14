@@ -27,6 +27,7 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
 - **Direction:** richer is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Deka Ready Power Lithium Battery]]: multi-module BMS over CAN
+  - [[EnerSys IRONCLAD Battery]]: monitoring options BSI40, EZ Select, LifeNetwork, Wi-iQ; E Connect app (names only)
   - [[EnerSys NexSys iON Battery]]: BMS limits charge and discharge voltage; optional CAN to the truck; ISO 26262 design
   - [[Exide GNB Lithium Battery 2.0]]: BMS; GNB Cloud option
   - [[Exide Sonnenschein Lithium Battery]]: BMS monitors V, I and T, balances cells, calculates state of charge, controls the GNB Lithium Charger; optional Opus Display, HC-/LC-Logger, Retrofitting Communicator; GNB Fleet
