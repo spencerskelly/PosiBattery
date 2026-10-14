@@ -46,6 +46,7 @@ performedBy:
   - "[[Exide 2100 HP Charger]]"
   - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Cat Lithium-Ion Battery Option]]"
+  - "[[Chase Technologies Li-ion Retrofit Packs]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

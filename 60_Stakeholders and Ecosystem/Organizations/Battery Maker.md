@@ -32,6 +32,7 @@ rolePlayedBy:
   - "[[BlitzNXT]]"
   - "[[ENEROC]]"
   - "[[OneCharge]]"
+  - "[[Chase Technologies]]"
 ---
 
 # Battery Maker

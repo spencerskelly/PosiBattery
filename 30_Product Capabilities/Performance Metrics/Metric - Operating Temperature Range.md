@@ -39,6 +39,7 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[ACT Quantum 2]]: maximum 50 C (122 F) no derating
   - [[ACT Quantum 3]]: -40 to 50 C
   - [[Advanced Charging Technologies BATTview]]: -25 to 60 C
+  - [[Chase Technologies Li-ion Retrofit Packs]]: cold-store variants work down to -20 C with insulation and heater (article 2020)
   - [[EnerSys Wi-iQ]]: -20 to 60 C
   - [[Exide Motion+ EasyMonitor]]: -10 to 60 C
   - [[Exide Solition Light Traction Battery]]: charge 0 to 45 C; discharge and storage -20 to 55 C (EU data sheet)

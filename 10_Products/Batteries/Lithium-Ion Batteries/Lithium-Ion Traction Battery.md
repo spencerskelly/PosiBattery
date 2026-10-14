@@ -42,6 +42,7 @@ supertypeOf:
   - "[[Midac Li-Ion Battery]]"
   - "[[Exide Solition Material Handling Battery]]"
   - "[[Green Cubes Forklift Battery Retrofit Kit]]"
+  - "[[Chase Technologies Li-ion Retrofit Packs]]"
 ---
 
 # Lithium-Ion Traction Battery

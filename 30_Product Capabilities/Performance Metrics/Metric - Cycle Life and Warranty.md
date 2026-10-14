@@ -29,6 +29,7 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Banner Traction Bull PzS]]: 1,500 cycles per DIN/EN 60254-1 and IEC 254-1; warranty not stated
   - [[Banner Traction Bull PzV Gel]]: "high cyclical resistance" only; no number or warranty (folder)
   - [[Cat Lithium-Ion Battery Option]]: lifespan about 3 to 4 times lead-acid; optional 5-year warranty subject to annual check-ups (EAME page)
+  - [[Chase Technologies Li-ion Retrofit Packs]]: five-year warranty and maintenance-free life (article 2020)
   - [[EnerSys IRONCLAD Battery]]: 5+1 year limited warranty (Loadhog sheet, 2020); cycle life not stated
   - [[EnerSys NexSys TPPL Battery]]: cycle life and warranty not stated (page and 2 V sheet)
   - [[Exide MARATHON Classic Battery]]: FT 900 cycles (IEC 60254-1); FF 300 cycles (GNB overview 2021)

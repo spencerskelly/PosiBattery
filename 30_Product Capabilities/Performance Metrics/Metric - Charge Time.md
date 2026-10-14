@@ -25,6 +25,7 @@ Charge Time: Stated time to a given state of charge.
 - **Direction:** shorter is better.
 - **Values on file (as stated in each product note; n/s means not stated):**
   - [[Cat Lithium-Ion Battery Option]]: full charge in as little as 1 hour with the fastest chargers (EAME page)
+  - [[Chase Technologies Li-ion Retrofit Packs]]: full charge about 90 min with a 100-200 A charger; 50% in about 30 min (article 2020)
   - [[Flux Power LiFT Pack]]: fast charge in as little as one hour (M36 brochure)
   - [[Godrej Lithium-Ion Forklift Battery]]: 20 to 80 percent in 2.5 hours (maker claim)
   - [[Green Cubes SAFEFlex Battery]]: full charge in under one hour with MultiVoltage at double the output voltage (maker claim)
