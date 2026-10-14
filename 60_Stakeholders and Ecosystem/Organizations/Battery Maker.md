@@ -33,6 +33,8 @@ rolePlayedBy:
   - "[[ENEROC]]"
   - "[[OneCharge]]"
   - "[[Chase Technologies]]"
+  - "[[ROYPOW]]"
+  - "[[Lithium Battery Solutions (BSL)]]"
 ---
 
 # Battery Maker

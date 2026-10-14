@@ -14,6 +14,9 @@ supertypeOf:
   - "[[Anderson SB Connector Series]]"
   - "[[Crown Battery Cables and Connectors]]"
   - "[[Midac End Leads]]"
+  - "[[REMA Euro DIN Battery Connector]]"
+  - "[[Anderson SBE320-SBX350 Charger-Truck Side Bracket Kit]]"
+  - "[[Anderson IBC Industrial Battery Connector]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Battery Product Landscape]]"

@@ -12,6 +12,8 @@ playsRole:
   - "[[Accessory Maker]]"
 makes:
   - "[[Anderson SB Connector Series]]"
+  - "[[Anderson SBE320-SBX350 Charger-Truck Side Bracket Kit]]"
+  - "[[Anderson IBC Industrial Battery Connector]]"
 ---
 
 # Anderson Power Products

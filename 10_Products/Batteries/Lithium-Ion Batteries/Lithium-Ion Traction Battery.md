@@ -43,6 +43,8 @@ supertypeOf:
   - "[[Exide Solition Material Handling Battery]]"
   - "[[Green Cubes Forklift Battery Retrofit Kit]]"
   - "[[Chase Technologies Li-ion Retrofit Packs]]"
+  - "[[ROYPOW LiFePO4 Forklift Batteries]]"
+  - "[[BSL Lithium Forklift Battery]]"
 ---
 
 # Lithium-Ion Traction Battery

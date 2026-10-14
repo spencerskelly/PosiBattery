@@ -13,12 +13,16 @@ tags:
   - scope-aftermarket
 subtypeOf:
   - "[[Battery Connector Assembly]]"
+describedBy:
+  - "[[Document - Anderson Material Handling Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Connect Battery to Charger or Vehicle]]"
 madeBy:
   - "[[Anderson Power Products]]"
 offeredWith:
   - "[[Crown Battery Cables and Connectors]]"
+integratesWith:
+  - "[[ROYPOW LiFePO4 Forklift Batteries]]"
 ---
 
 # Anderson SB Connector Series

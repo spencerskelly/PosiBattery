@@ -15,6 +15,9 @@ performedBy:
   - "[[Crown Battery Cables and Connectors]]"
   - "[[Midac End Leads]]"
   - "[[PosiCharge Modular Charge Cables]]"
+  - "[[REMA Euro DIN Battery Connector]]"
+  - "[[Anderson SBE320-SBX350 Charger-Truck Side Bracket Kit]]"
+  - "[[Anderson IBC Industrial Battery Connector]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"
