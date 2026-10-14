@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Hangcha A Series Li-ion Brochure]]"
 performs:
   - "[[Display Truck Status to Operator]]"
   - "[[Cushion Fork Lowering]]"
@@ -20,6 +22,7 @@ hasDesign:
   - "[[Vehicle-Mounted Display]]"
   - "[[Audible Alarm]]"
   - "[[Quick-Change Battery Compartment]]"
+  - "[[Drop-In Battery Cavity]]"
 hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Operator Display Controller Circuit]]"
@@ -51,6 +54,10 @@ Hangcha A series electric forklifts (1.0 to 3.5 t) with LiFePO4 batteries and an
   - [[Quick-Change Battery Compartment]] (V): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
 
 - **Architecture realization — truck status display:** the multi-function dashboard is verified. [[Vehicle-Mounted Display Module]] captures the visible display role. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Hangcha does not publish the internal display electronics, software partition, or data transport.
+
+- **Battery integration and charging interface (2026-10-14):** battery cover opens fully; side battery change is an option; LiFePO4 pack with BMS; connector and charge port not specified; a charger is paired with each Li-ion model. Source: <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, optional side battery change with pallet truck or trolley): <https://www.hcforklift.com/upload/files/bbc143097cbd12b51ec8eb6ff9e84d96.pdf>
 
 ## Aliases
 

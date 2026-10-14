@@ -10,6 +10,11 @@ tags:
 supertypeOf:
   - "[[Quick-Change Battery Compartment]]"
   - "[[Truck Charging Port]]"
+  - "[[Drop-In Battery Cavity]]"
+  - "[[Vehicle-Integrated Battery]]"
+  - "[[Battery-Direct Charge Connection]]"
+describedBy:
+  - "[[Forklift Battery Integration and Charging Interface Register]]"
 dependencyOf:
   - "[[Adapt Truck to Battery Chemistry]]"
 ---

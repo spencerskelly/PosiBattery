@@ -10,8 +10,12 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Yale ERC080VHL Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Deliver Constant Power Through Shift]]"
+hasDesign:
+  - "[[Vehicle-Integrated Battery]]"
 madeBy:
   - "[[Hyster-Yale]]"
 offeredWith:
@@ -30,6 +34,10 @@ Yale 8,000 lb four-wheel electric cushion-tire forklift built around a fully int
 - **Functions performed, with citations:**
   - [[Deliver Constant Power Through Shift]] (V): <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>
 - Yale says the integrated lithium-ion pack provides consistent power delivery and full power until depletion. Source: Yale ERC080VHL page (T1), retrieved 2026-10-03. <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>
+
+- **Battery integration and charging interface (2026-10-14):** built-in lithium-ion pack, 80 V (table) or 83.2 V (text) with 420-630 Ah; no compartment, change method or charge inlet stated. Source: <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>
+- **Design characteristics, with citations:**
+  - [[Vehicle-Integrated Battery]] (V, "fully integrated" built-in pack): <https://www.yale.com/en-us/north-america/lithium-ion-forklifts/erc080vhl/>
 
 ## Aliases
 

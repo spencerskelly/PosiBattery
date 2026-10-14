@@ -17,6 +17,7 @@ performs:
   - "[[Control Operator Access]]"
 hasDesign:
   - "[[RFID or PIN Access Reader]]"
+  - "[[Battery Onboard Charger]]"
 madeBy:
   - "[[Raymond]]"
 offeredWith:
@@ -44,6 +45,10 @@ Raymond walkie and rider pallet trucks including a lithium-ion pallet jack.
   - [[RFID or PIN Access Reader]] (V): <https://raymondcorp.com/forklifts/pallet-trucks/8250-lithium-ion-pallet-jack>
 
 - **Update 2026-10-14:** 8210 page: 4,500 lb, 24 V, lithium-ion compatible with Delta-Q on-board charger, accessory bar, PIN code pad, large tote, extreme environment protection, cold storage conditioning, factory weigh scales, stainless pins, Lift and Go, IP65 sealing. The page was read from a Raymond development host (caution). Source: <https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck>
+
+- **Charging interface (2026-10-14):** the 8210 page lists a Delta-Q integrated on-board charger that separates the battery and charger. Source: <https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck> (development host, caution)
+- **Design characteristics, with citations:**
+  - [[Battery Onboard Charger]] (V): <https://develop-pengate.raymondcorp.com/forklifts/pallet-trucks/8210-walkie-pallet-truck>
 
 ## Aliases
 

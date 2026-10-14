@@ -10,10 +10,14 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
+describedBy:
+  - "[[Document - STILL EXH-SF 16C-20C Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Control Operator Access]]"
 hasDesign:
   - "[[RFID or PIN Access Reader]]"
+  - "[[Drop-In Battery Cavity]]"
+  - "[[Battery Onboard Charger]]"
 madeBy:
   - "[[STILL]]"
 offeredWith:
@@ -34,6 +38,11 @@ STILL EXH-SF 16C/20C stand-on low lift pallet truck with Curve Speed Control as 
   - [[Control Operator Access]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
 - **Design characteristics, with citations:**
   - [[RFID or PIN Access Reader]] (V): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+
+- **Battery integration and charging interface (2026-10-14):** 24 V Li-ion, lateral battery change, optional built-in onboard charger for charging at any power socket (supports up to 500 Ah). Source: <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, lateral battery change and swappable batteries): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
+  - [[Battery Onboard Charger]] (V, optional built-in onboard charger for any power socket): <https://www.still.co.uk/forklift-trucks/new-forklifts/low-lift-pallet-trucks/exh-sf-16c-20c.html>
 
 ## Aliases
 

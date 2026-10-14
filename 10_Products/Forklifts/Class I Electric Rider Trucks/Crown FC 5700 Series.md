@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Crown FC 5700 Brochure (APAC)]]"
 performs:
   - "[[Program Travel, Lift and Tilt Speeds]]"
   - "[[Stabilize Truck Dynamically]]"
@@ -46,6 +48,8 @@ Crown four-wheel sit-down electric counterbalance forklift handling loads up to 
   - [[Adapt Speed to Load and Lift Height]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 - **Design characteristics, with citations:**
   - [[Programmable Motor Controller]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+
+- **Battery integration (2026-10-14):** the FC 5700 brochure describes a "V-Force Integrated Lithium-Ion System" with no swapping, but gives no compartment, connector or charge port, so no design link is made (C246). Source: <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 
 ## Aliases
 

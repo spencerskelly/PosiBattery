@@ -22,6 +22,9 @@ designOf:
   - "[[Heli A3 Series Lithium Forklifts]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[Charlatte Belt Loaders]]"
+  - "[[Linde Ei Series]]"
+  - "[[STILL EXH-SF Low Lift Pallet Truck]]"
+  - "[[Raymond 8000 Series Pallet Trucks]]"
 ---
 
 # Battery Onboard Charger

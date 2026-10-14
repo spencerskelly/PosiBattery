@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Crown RC 5700 Specification Sheet (UK)]]"
 performs:
   - "[[Display Battery Status to Operator]]"
   - "[[Slow Truck in Curves]]"
@@ -32,6 +34,7 @@ hasDesign:
   - "[[Floor-Projected Warning Light]]"
   - "[[Vehicle-Mounted Display]]"
   - "[[Truck Battery Discharge Interlock]]"
+  - "[[Drop-In Battery Cavity]]"
 hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Battery Discharge Indicator Module]]"
@@ -81,6 +84,10 @@ Crown three-wheel stand-up electric counterbalance forklift, 1.5 to 1.8 t, V-For
 - **Architecture realization — operator battery display:** the Crown display and battery-discharge indicator are verified. [[Vehicle-Mounted Display Module]] and [[Battery Discharge Indicator Module]] represent those physical roles. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because Crown does not publish the internal display electronics, software partition, or battery-data transport.
 
 - **Architecture realization — deep discharge protection:** Crown explicitly publishes a battery-discharge indicator with lift interrupt and re-key. [[Truck Battery Discharge Interlock]] is therefore verified at the behavior/design level, and [[Battery Discharge Interlock Logic]] is allocated at **>=95% engineering confidence** because the internal controller/software partition is not published.
+
+- **Battery integration and charging interface (2026-10-14):** 36 V lead-acid in DIN compartments B to E with standard rollers and a 320 SBE connector; lithium-ion "ready" option. How the battery is changed and how it is charged are not stated. Source: <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, compartment sizes B-E with standard rollers): <https://www.crown.com/content/dam/crown/pdfs/en-uk/specs/forklift-rc5700-spec-GB.pdf>
 
 ## Aliases
 

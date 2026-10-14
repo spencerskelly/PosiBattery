@@ -10,12 +10,15 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Linde Ei Integrated Battery News Item]]"
 performs:
   - "[[Operate in Wet or Dusty Conditions]]"
   - "[[Program Travel, Lift and Tilt Speeds]]"
 hasDesign:
   - "[[Ingress-Protected Drive Components]]"
   - "[[AC Drive Motor]]"
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -37,6 +40,10 @@ Linde electric counterbalance forklifts available with lead-acid or lithium-ion 
 - **Design characteristics, with citations:**
   - [[Ingress-Protected Drive Components]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
   - [[AC Drive Motor]] (V): <https://expoproduction.thelogisticsworld.com/wp-content/themes/theme-summitexpo/directorio/assets/fichas/d0631ac8-a3f8-4b21-8640-bf6f41154ae8.pdf>
+
+- **Battery integration and charging interface (2026-10-14):** the Ei item contrasts the Ei with the standard Linde E, which uses a replaceable battery system. Source: <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, replaceable battery system (stated for standard Linde E in the Ei item)): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 
 ## Aliases
 

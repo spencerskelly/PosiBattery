@@ -12,6 +12,8 @@ subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:
   - "[[Document - Raymond 5500 Orderpicker Page (retrieved 2026-10-14)]]"
+hasDesign:
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Raymond]]"
 offeredWith:
@@ -37,6 +39,10 @@ Raymond order picker line in 24 V or 36 V configurations.
 - At its 2023 launch the High Capacity Orderpicker (456 in elevated height) was offered with lithium-ion batteries, the In-Aisle Detection System and Zoning and Positioning. Source: Plant Engineering product item (T2), retrieved 2026-10-03. <https://www.plantengineering.com/products/raymond-high-capacity-orderpicker>
 
 - **Update 2026-10-14:** 5500 page: 3,000 lb, 366 in, 24 V; options include In-Aisle Detection, ZaP, Intelliguide, Intellispeed, Light and Fan Package, retractable tether, auto-locking pallet clamp; safety: iWAREHOUSE Integrated Tether and ObjectSense. The earlier note above says 24 V or 36 V configurations; the 5500 page states 24 V only (other models not read). Source: <https://www.raymondcorp.com/forklifts/orderpickers/5500-orderpicker>
+
+- **Battery integration (2026-10-14):** the 5500 page says battery compartment widths are standardized across models so one battery size can serve several trucks. Source: <https://www.raymondcorp.com/forklifts/orderpickers/5500-orderpicker>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V): <https://www.raymondcorp.com/forklifts/orderpickers/5500-orderpicker>
 
 ## Aliases
 

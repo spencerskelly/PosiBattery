@@ -16,6 +16,7 @@ performs:
 hasDesign:
   - "[[Quick-Change Battery Compartment]]"
   - "[[Truck Charging Port]]"
+  - "[[Vehicle-Integrated Battery]]"
 madeBy:
   - "[[Toyota Material Handling]]"
 ---
@@ -34,6 +35,8 @@ Toyota Europe electric counterbalance forklift range in three- and four-wheel ve
 - **Design characteristics, with citations:**
   - [[Quick-Change Battery Compartment]] (V): <https://www.aviationpros.com/ground-support-worldwide/ground-handling/product/55274834/new-toyota-traigo48-electric-forklift-range>
   - [[Truck Charging Port]] (V): <https://www.aviationpros.com/ground-support-worldwide/ground-handling/product/55274834/new-toyota-traigo48-electric-forklift-range>
+
+- **Battery integration (2026-10-14):** the existing source describes the Traigo_i model with an integrated lithium-ion battery and charging port in the counterweight, so [[Vehicle-Integrated Battery]] applies to that variant and [[Truck Charging Port]] already covers it; the other Traigo48 models use [[Quick-Change Battery Compartment]]. Source: <https://www.aviationpros.com/ground-support-worldwide/ground-handling/product/55274834/new-toyota-traigo48-electric-forklift-range>
 
 ## Aliases
 

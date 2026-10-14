@@ -11,10 +11,16 @@ tags:
   - emea
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Hyster J1.5-3.5UT Page (EMEA, retrieved 2026-10-14)]]"
+  - "[[Document - Hyster J1.5-3.5UT(L) Technical Guide]]"
 performs:
   - "[[Deliver Constant Power Through Shift]]"
 hasDesign:
   - "[[Operator Touch Display]]"
+  - "[[Drop-In Battery Cavity]]"
+  - "[[Battery-Direct Charge Connection]]"
+  - "[[Truck Charging Port]]"
 madeBy:
   - "[[Hyster-Yale]]"
 ---
@@ -33,6 +39,12 @@ Hyster electric four-wheel pneumatic-tire counterbalance forklift for EMEA, 1.5 
 - **Design characteristics, with citations:**
   - [[Operator Touch Display]] (V): <https://www.hyster.com/fr-fr/emea/chariots-elevateurs-electriques-4-roues/j1.5-3.5ut>
 - Hyster's lithium-ion option lists consistent power delivery, and the truck has a 4.3 inch LCD with digital battery indicator. Source: Hyster EMEA product page (T1), retrieved 2026-10-03. <https://www.hyster.com/fr-fr/emea/chariots-elevateurs-electriques-4-roues/j1.5-3.5ut>
+
+- **Battery integration and charging interface (2026-10-14):** lead-acid batteries lift out vertically through the top without rollers; the lithium-ion pack is a bolted-in box under the seat that can be removed and replaced by lead-acid; lithium charges through a battery-side port (DIN 160/320 A, side or top fixed), with an optional side charge inlet; optional CACTi charger. Sources: <https://www.hyster.com/nl-nl/emea/elektrische-vorkheftrucks-met-4-wielen/j1.5-3.5ut>; <https://www.hyster.com/globalassets/coms/hyster/emea/documents/trucks-literature/4-wheel-electric-forklift-trucks/j1.5-3.5ut/3991097-j1.5-3.5utl-a3c4-tg-rev01-fr-online.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, vertical top extraction; lithium box bolted under the seat and replaceable with lead-acid): <https://www.hyster.com/globalassets/coms/hyster/emea/documents/trucks-literature/4-wheel-electric-forklift-trucks/j1.5-3.5ut/3991097-j1.5-3.5utl-a3c4-tg-rev01-fr-online.pdf>
+  - [[Battery-Direct Charge Connection]] (V, battery-side charging port on the lithium pack): <https://www.hyster.com/nl-nl/emea/elektrische-vorkheftrucks-met-4-wielen/j1.5-3.5ut>
+  - [[Truck Charging Port]] (V, optional side charge inlet on lithium models): <https://www.hyster.com/globalassets/coms/hyster/emea/documents/trucks-literature/4-wheel-electric-forklift-trucks/j1.5-3.5ut/3991097-j1.5-3.5utl-a3c4-tg-rev01-fr-online.pdf>
 
 ## Aliases
 

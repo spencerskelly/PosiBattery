@@ -10,9 +10,13 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - STILL RX 60 Aviation Spares Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Enforce Pre-Shift Checklist]]"
   - "[[Control Operator Access]]"
+hasDesign:
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[STILL]]"
 offeredWith:
@@ -33,6 +37,10 @@ STILL RX 60-25/35 electric counterbalance forklift with optional STILL lithium-i
 - **Functions performed, with citations:**
   - [[Enforce Pre-Shift Checklist]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
   - [[Control Operator Access]] (V): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
+
+- **Battery integration and charging interface (2026-10-14):** lateral battery change and optional STILL lithium-ion technology; charging socket not stated. Source: <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/> (T3)
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V (dealer page), lateral battery change): <https://aviationspares.com/rx-60-25-35-t-electric-forklift-truck/>
 
 ## Aliases
 

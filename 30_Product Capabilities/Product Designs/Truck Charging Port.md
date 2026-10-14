@@ -13,6 +13,7 @@ designOf:
   - "[[Cat Lithium-Ion Battery Option]]"
   - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
   - "[[Toyota Traigo48]]"
+  - "[[Hyster J1.5-3.0UT(L)]]"
 ---
 
 # Truck Charging Port
@@ -31,5 +32,6 @@ Charging hatch, socket or port on the truck, including a port in the counterweig
 
 ## Aliases
 
+- On-Vehicle Charge Inlet
 
 ## Former ids

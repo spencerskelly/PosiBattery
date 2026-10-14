@@ -9,6 +9,7 @@ tags:
   - design-characteristic
 subtypeOf:
   - "[[Vehicle Energy Interface Design]]"
+  - "[[Drop-In Battery Cavity]]"
 dependencyOf:
   - "[[Change Battery Quickly]]"
 designOf:

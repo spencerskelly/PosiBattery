@@ -10,12 +10,15 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - AllMachines Mitsubishi FBCS18N Page (retrieved 2026-10-14)]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Steer with Electric Power Assist]]"
 hasDesign:
   - "[[Operator Presence Pedal]]"
   - "[[Electric Power Steering]]"
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Mitsubishi Logisnext Americas]]"
 ---
@@ -35,6 +38,10 @@ Mitsubishi FBCS16N and FBCS18N stand-up counterbalanced forklifts with dual oper
 - **Design characteristics, with citations:**
   - [[Operator Presence Pedal]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>
   - [[Electric Power Steering]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>
+
+- **Battery integration and charging interface (2026-10-14):** 36 V 1,240 Ah lead-acid battery in a 38.5 x 21.25 x 32 in compartment with 7 in roller height; change method and connector not stated. Source: <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n> (T3)
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V (spec fields), compartment dimensions and 7 in battery roller height): <https://www.allmachines.com/forklifts/mitsubishi-fbcs18n>
 
 ## Aliases
 

@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Yale ERC050-060VGL Specification Sheet]]"
 performs:
   - "[[Display Battery Status to Operator]]"
   - "[[Alert on Abnormal Condition]]"
@@ -18,6 +20,7 @@ hasDesign:
   - "[[Operator Dashboard Abnormal Alert]]"
   - "[[Vehicle-Mounted Display]]"
   - "[[Battery Onboard Charger]]"
+  - "[[Vehicle-Integrated Battery]]"
 hasPart:
   - "[[Vehicle-Mounted Display Module]]"
   - "[[Operator Display Controller Circuit]]"
@@ -51,6 +54,10 @@ Yale four-wheel electric forklift with a fully integrated lithium-ion battery fo
 - **Architecture realization — operator battery display:** state of charge and low-charge warnings on the truck display are verified. [[Vehicle-Mounted Display Module]] captures the physical display role. [[Operator Display Controller Circuit]] and [[Operator Display HMI Firmware]] are allocated at **>=95% engineering confidence** because the source does not identify the internal controller, software architecture, or battery-data transport.
 
 - **Architecture realization — abnormal-condition alert:** Yale explicitly states that low state-of-charge and early-shutdown warnings appear on the truck display. [[Operator Dashboard Abnormal Alert]] therefore reuses the existing [[Vehicle-Mounted Display Module]] and [[Operator Display HMI Firmware]] architecture. The battery-data transport and warning-rule implementation are not published.
+
+- **Battery integration and charging interface (2026-10-14):** cushion-tire integrated lithium-ion truck, 80 V 210-420 Ah; optional onboard charger 6 kW or 1.4 kW from ordinary outlets plus approved off-board chargers; charge port location not stated. Source: <https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf>
+- **Design characteristics, with citations:**
+  - [[Vehicle-Integrated Battery]] (V, "integrated lithium-ion" truck): <https://www.yale.com/globalassets/coms/yale/north-america/documents/trucks/4-wheel-electric/1015ybc1sp002_e_en-us_erc050-060vgl-spec-sheet_view.pdf>
 
 ## Aliases
 

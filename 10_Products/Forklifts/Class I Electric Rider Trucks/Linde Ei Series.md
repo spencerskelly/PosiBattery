@@ -11,6 +11,11 @@ tags:
   - europe
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Linde Ei Integrated Battery News Item]]"
+hasDesign:
+  - "[[Vehicle-Integrated Battery]]"
+  - "[[Battery Onboard Charger]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---
@@ -25,6 +30,11 @@ Linde three- and four-wheel electric counterbalance forklifts, 1.4 to 2.0 t, wit
 
 - Linde says the Ei series (Ei14 to Ei20, part of the Linde 12XX generation) has an integrated lithium-ion battery that is maintenance-free, releases no gases during charging so no ventilated charging room is needed, and adds cabin space with 35 percent more legroom. Source: Linde MH news (2026-04-16) (T1), retrieved 2026-10-03. <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 - **Functions performed, with citations:**
+
+- **Battery integration and charging interface (2026-10-14):** permanently integrated lithium-ion battery with no traditional compartment (35% more legroom); optional onboard charger plugs into any standard outlet; charge port and capacity not stated. Source: <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
+- **Design characteristics, with citations:**
+  - [[Vehicle-Integrated Battery]] (V, permanently integrated lithium-ion battery): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
+  - [[Battery Onboard Charger]] (V, optional onboard charger plugs into a standard outlet): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 
 ## Aliases
 

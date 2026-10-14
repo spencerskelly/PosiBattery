@@ -16,6 +16,8 @@ describedBy:
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Shelter Operator from Weather]]"
+hasDesign:
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Raymond]]"
 offeredWith:
@@ -47,6 +49,10 @@ Raymond stand-up and sit-down electric counterbalanced trucks including the 4460
 
 - **Update 2026-10-14:** the 4460 page and sell sheet give 36 V or 48 V, 4460 3,000 to 4,000 lb, 4750 3,000 to 12,000 lb, lithium-ion option (LFP and NMC mentioned), optional right-hand battery rollout, cold-storage control protection, UL EE, slope sensing. **Conflict-visible (C241 below):** the older literature-page text above gives 3,000 to 3,500 lb for the sit-down 4460/4750 versions. Sources: <https://www.johnstonequipment.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond_4000_series_sit_down_sell_sheet.pdf>; <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
 - Accessories added: [[Raymond Right-Hand Battery Rollout]], [[Raymond Slope Sensing]].
+
+- **Battery integration (2026-10-14):** the 4460 page offers an optional right-hand battery rollout for faster changes and says batteries can be shared with an existing fleet. Source: <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, battery rollout option): <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
 
 ## Aliases
 
