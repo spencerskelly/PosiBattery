@@ -12,6 +12,8 @@ tags:
   - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
+performs:
+  - "[[Show Battery and Charger State in Fleet Software]]"
 madeBy:
   - "[[Fronius International]]"
 offeredWith:

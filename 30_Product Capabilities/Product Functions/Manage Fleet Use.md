@@ -19,6 +19,7 @@ supertypeOf:
   - "[[Indicate Charger Status Locally]]"
   - "[[Schedule Charging Around Vehicle Readiness]]"
   - "[[Dispatch Vehicles to Tasks]]"
+  - "[[Operate Truck Remotely]]"
 childOf:
   - "[[Manage Fleet Use and Data]]"
 describedBy:

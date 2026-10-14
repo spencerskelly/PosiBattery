@@ -14,6 +14,8 @@ subtypeOf:
   - "[[Fleet Software and Platform]]"
 describedBy:
   - "[[Document - Phantom Auto and Mitsubishi Logisnext Americas Partnership (2021-05-13)]]"
+performs:
+  - "[[Operate Truck Remotely]]"
 madeBy:
   - "[[Phantom Auto]]"
 offeredBy:

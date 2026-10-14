@@ -16,6 +16,8 @@ supertypeOf:
   - "[[Robot and AGV Fleet Management Software]]"
   - "[[Fleet Charging and Energy Management Software]]"
   - "[[Warehouse and Business Systems Software]]"
+describedBy:
+  - "[[Software Function and Need Coverage Register]]"
 ---
 
 # Fleet Software and Platform

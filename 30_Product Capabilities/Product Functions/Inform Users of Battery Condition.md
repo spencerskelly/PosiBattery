@@ -15,6 +15,7 @@ supertypeOf:
   - "[[Indicate Battery Status Locally]]"
   - "[[Track Equalization]]"
   - "[[Predict Battery Replacement Timing]]"
+  - "[[Show Battery and Charger State in Fleet Software]]"
 childOf:
   - "[[Know and Protect Battery Condition]]"
 ---

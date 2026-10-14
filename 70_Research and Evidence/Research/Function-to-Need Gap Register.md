@@ -44,6 +44,7 @@ Register of the product functions that still have no customer need linked, with 
 | [[Reduce Speed When Seat Belt Is Unfastened]] | enforces belt use; the speed need is zone-based | linked 2026-10-14 (pass 2, analyst reasoning): [[Prevent Tip-Overs and Overloads]] |
 | [[Reduce Wheel Slip]] | traction control; no problem statement | linked 2026-10-14 (pass 2, analyst reasoning): [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] |
 | [[Report Fuel Cell State to Truck]] | fuel-cell equivalent of battery state; battery-only needs | linked 2026-10-14 (pass 2, analyst reasoning): [[Know Battery State Before and During the Shift]] |
+| [[Operate Truck Remotely]] | remote driving of unmanned trucks; added 2026-10-14 | source needed (labor, hazard or access problem it removes) |
 | [[Steer with Electric Power Assist]] | reduces steering effort; no problem statement | linked 2026-10-14 (pass 2, analyst reasoning): [[Reduce Operator Effort and Fatigue]] |
 
 ### Category functions (traced through their sub-functions, not a gap)
