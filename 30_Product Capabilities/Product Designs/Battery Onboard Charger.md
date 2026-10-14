@@ -25,6 +25,7 @@ designOf:
   - "[[Linde Ei Series]]"
   - "[[STILL EXH-SF Low Lift Pallet Truck]]"
   - "[[Raymond 8000 Series Pallet Trucks]]"
+  - "[[STILL RX 20 Electric Forklift]]"
 ---
 
 # Battery Onboard Charger

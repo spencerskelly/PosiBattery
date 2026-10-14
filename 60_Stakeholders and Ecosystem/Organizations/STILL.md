@@ -24,6 +24,7 @@ makes:
   - "[[STILL neXXt fleet]]"
   - "[[STILL Safety Packages]]"
   - "[[STILL EasyBelt]]"
+  - "[[STILL RX 20 Electric Forklift]]"
 subsidiaryOf:
   - "[[KION Group]]"
 ---

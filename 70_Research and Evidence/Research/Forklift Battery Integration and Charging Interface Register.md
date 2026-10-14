@@ -22,7 +22,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 
 - **Terms (proposed 2026-10-14):** battery installation = [[Drop-In Battery Cavity]] or [[Vehicle-Integrated Battery]]; charge access = [[Truck Charging Port]] (alias On-Vehicle Charge Inlet), [[Battery-Direct Charge Connection]], or [[Battery Onboard Charger]] (charger built into the truck, mains inlet on the vehicle). A truck can offer more than one.
 - **Rule:** a value is recorded only where a page or sheet states it. Where a source is silent the cell says "not found"; no industry default is assumed. Lead-acid trucks are very likely drop-in, but that is not recorded without a source.
-- **Result (recounted 2026-10-14, counting cells that link a term):** of 45 rows, 26 have a battery-installation value and 10 have a charge-access value. Most remaining gaps need the OEM spec sheet (IB-201).
+- **Result (recounted 2026-10-14, counting cells that link a term):** of 46 rows, 28 have a battery-installation value and 11 have a charge-access value. Most remaining gaps need the OEM spec sheet (IB-201).
 
 | Truck note | Battery installation | Evidence | Charge access | Evidence | Gap |
 |---|---|---|---|---|---|
@@ -43,10 +43,11 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Heli G | G2 "universal battery system" (unclear) | - | not found | - | Heli G brochure |
 | Hyster J1.5-3.0UT(L) | [[Drop-In Battery Cavity]] (lead-acid top extraction; Li box under seat, removable) | V | [[Battery-Direct Charge Connection]] (Li battery-side port); optional side inlet [[Truck Charging Port]] | V | lead-acid charging path |
 | Komatsu FB | not found | - | not found | - | Komatsu FB brochure |
-| Linde 1293 (E20BHP/E25BHP) | not found (Li) | - | not found | - | Linde spec sheet |
+| Linde 1293 (E20BHP/E25BHP) | [[Drop-In Battery Cavity]] (vertical battery change) | V (T2 dealer-hosted catalog; line to confirm); Li stated by trade article | not found | - | Linde spec sheet |
 | Linde 6-8 t electric | not found | - | not found | - |  |
 | Linde E Series | [[Drop-In Battery Cavity]] (vertical and lateral change, 180 degree door) | V (datasheet and Ei item) | not found | - | charging |
 | Linde Ei | [[Vehicle-Integrated Battery]] (permanently integrated) | V | optional onboard charger on a standard outlet: [[Battery Onboard Charger]] | V | charge port |
+| STILL RX 20 | [[Drop-In Battery Cavity]] (lateral change) | V | [[Battery Onboard Charger]] (optional) | V | charge inlet |
 | Mitsubishi FB 3-wheel | not found | - | not found | - | 2012 item has no battery data |
 | Mitsubishi FBC | not found | - | not found | - |  |
 | Mitsubishi FBC20Q-40Q | not found ("easy battery service access") | - | not found | - | voltage |

@@ -31,6 +31,8 @@ designOf:
   - "[[Toyota 7FBCU35-55 Electric Pneumatic Forklifts]]"
   - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
   - "[[Yale ERC045-070VG Electric Forklifts]]"
+  - "[[STILL RX 20 Electric Forklift]]"
+  - "[[Linde 1293 Series (E20BHP and E25BHP)]]"
 ---
 
 # Drop-In Battery Cavity

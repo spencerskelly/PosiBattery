@@ -47,6 +47,7 @@ supertypeOf:
   - "[[Hyster J2.2-3.5XN Electric Forklifts]]"
   - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
   - "[[Yale ERC045-070VG Electric Forklifts]]"
+  - "[[STILL RX 20 Electric Forklift]]"
 ---
 
 # Class I Electric Rider Truck
