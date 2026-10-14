@@ -37,6 +37,7 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: five years or 6,000 cycles (2020 release, maker claim); not stated in 2025
   - [[Stryten M-Series AGM200 Battery]]: warranty voided by vent-cap removal, unauthorized monitoring devices or tampering; period not stated (manual SE1045)
+  - [[Stryten M-Series AGM220 Battery]]: 12-month warranty; cycle life not stated (brochure SE1043)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 1 product(s) have a value; document-based values to be added as documents are supplied.
 

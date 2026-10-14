@@ -14,6 +14,7 @@ playsRole:
   - "[[Charger Maker]]"
 makes:
   - "[[Delta-Q IC650]]"
+  - "[[Stryten AGM220 Onboard Charger]]"
 ---
 
 # Delta-Q Technologies

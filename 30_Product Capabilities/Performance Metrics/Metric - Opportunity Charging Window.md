@@ -24,7 +24,7 @@ Opportunity Charging Window: state of charge range for opportunity charging
 - **Comparability rule:** States where the maker allows partial charges; compare the range, not the label.
 - **Direction:** wider is more flexible.
 - **Values on file (as stated in each product note; n/s means not stated):**
-  - [[Stryten M-Series AGM220 Battery]]: opportunity charging advised between 30 and 70 percent state of charge
+  - [[Stryten M-Series AGM220 Battery]]: opportunity charging advised between 30 and 70 percent state of charge | update 2026-10-13: 30% to 70% depth of discharge, minimum half hour plus cool-down (brochure SE1043)
   - [[EnerSys NexSys TPPL Battery]]: 40 to 80 percent in one hour and to 98 percent in two hours (NexSys Fast); keep above 40 percent charge
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** Add other makers and lithium-ion.

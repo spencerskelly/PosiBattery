@@ -27,8 +27,10 @@ Charge Temperature Limits: degrees C
   - [[Flux Power GSE Pack]]: charge 0 to 55 C, discharge -20 to 55 C (2021 brochure); GSE3 operating -30 to 45 C (2023 sheet) (C213)
   - [[Flux Power LiFT Pack]]: charge 0 to 45 C (32 to 113 F); discharge -20 to 55 C; integrated heaters for cold
   - [[HAWKER Perfect Plus Battery]]: charging should begin only if electrolyte is below 45 C and at least 10 C (rises about 10 C during charge); rated 30 C; 55 C is the upper limit and not acceptable as an operating temperature
+  - [[Stryten M-Series F110 Battery]]: fast charge: not above 60 C, normal 15 to 52 C (SE1005)
   - [[Stryten M-Series T300 Battery]]: an average above 125 F is a condition for action (text cut off); let the battery reach room temperature before charging
-  - [[Stryten M-Series T330 Battery]]: an average above 125 F, or a rise of more than 25 F (14 C) during charge, are conditions for action (text cut off)
+  - [[Stryten M-Series T310 Battery]]: fast charge: not above 60 C, normal 15 to 52 C (SE1005)
+  - [[Stryten M-Series T330 Battery]]: an average above 125 F, or a rise of more than 25 F (14 C) during charge, are conditions for action (text cut off) | update 2026-10-13: normal charge: electrolyte not above 43 C, normal 15 to 38 C (SE1014); fast charge: not above 60 C, normal 15 to 52 C (SE1005); C225
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** Exide Industries gives 15 to 35 C for optimal life and the same 45 C start and 55 C limit (snippet); Deka states an average of no more than 115 F (46 C) for photovoltaic use (a different application).
 

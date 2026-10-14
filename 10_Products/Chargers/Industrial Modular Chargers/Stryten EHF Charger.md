@@ -10,6 +10,8 @@ tags:
   - charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
 performs:
   - "[[Charge Battery Conventionally]]"
 madeBy:

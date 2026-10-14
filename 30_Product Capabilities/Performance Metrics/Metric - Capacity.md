@@ -37,6 +37,7 @@ Capacity: Rated capacity.
   - [[Leoch PzS Traction Battery]]: 200 to 400 Ah at 5 h per 2 V cell (2PzS200 to 5PzS400)
   - [[Raymond Energy Essentials Lithium-Ion Battery]]: 1,056 Ah in an 18-inch compartment (2020 release, NMC); none stated in 2025 (C217)
   - [[Stryten M-Series AGM200 Battery]]: 45 to 105 Ah per positive at the 6-hour rate across eight models (brochure SE1047); how that maps to battery Ah is not stated
+  - [[Stryten M-Series AGM220 Battery]]: 184 Ah at C/6 (brochure SE1043; the Pow'r Pak LD page lists no Ah)
   - [[Stryten M-Series T330 Battery]]: up to 18% more capacity than conventional flooded
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** 5 product(s) have a value; document-based values to be added as documents are supplied.

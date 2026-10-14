@@ -10,6 +10,9 @@ tags:
   - battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
+  - "[[Document - Stryten M-Series AGM220 Brochure (SE1043)]]"
 madeBy:
   - "[[Stryten Energy]]"
 offeredWith:

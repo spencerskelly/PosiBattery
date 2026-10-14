@@ -10,6 +10,10 @@ tags:
   - battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
+performs:
+  - "[[Charge Battery Conventionally]]"
 hasDesign:
   - "[[Flat Plate Construction]]"
 madeBy:
@@ -30,6 +34,9 @@ Stryten economical flooded flat-plate battery family for light to medium duty.
 - **Related-product note (round 12):** the EHF charger brochure names this battery among its algorithms; other pairings are not named. The earlier 'no charger linked' statement is replaced by this link.
 - **Design characteristics, with citations:**
   - [[Flat Plate Construction]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+
+- **Functions performed, with citations (2026-10-13):**
+  - [[Charge Battery Conventionally]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 
 ## Aliases
 

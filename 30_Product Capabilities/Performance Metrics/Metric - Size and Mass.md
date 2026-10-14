@@ -59,6 +59,7 @@ Size and Mass: shared metric used for monitors, chargers, batterys.
   - [[Power Designers PowerTrac 3]]: 4.25 x 1.5 x 0.6 in (108 x 38 x 15 mm)
   - [[Power Designers PowerTrac DT3]]: 4.25 x 1.5 x 0.6 in (108 x 38 x 15 mm)
   - [[Stryten EHF Charger]]: cabinets G1 55 lb and G2 142 lb; EHY2 19.9 x 17.4 x 35.5 in
+  - [[Stryten M-Series AGM220 Battery]]: 365 lb; 26.5 x 7.5 x 26.54 (M90004S24MARG), 25.25 x 8.5 x 24.95 (MARTM), 27.3 x 7.5 x 26.54 (MARX), units not labeled (brochure SE1043)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison.
 - **Gaps and to-do:** values come from documents as they are absorbed.
 

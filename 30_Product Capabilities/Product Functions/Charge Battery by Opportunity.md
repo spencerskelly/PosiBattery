@@ -31,6 +31,11 @@ performedBy:
   - "[[Raymond Energy Essentials Lithium-Ion Battery]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
   - "[[Godrej Multi-Ion Forklift Battery]]"
+  - "[[Stryten M-Series F110 Battery]]"
+  - "[[Stryten M-Series T300 Battery]]"
+  - "[[Stryten M-Series T310 Battery]]"
+  - "[[Stryten M-Series T330 Battery]]"
+  - "[[Stryten M-Series AGM220 Battery]]"
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"

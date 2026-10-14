@@ -25,6 +25,8 @@ performedBy:
   - "[[Stryten EHY Charger]]"
   - "[[Stryten X-7 Charger]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Stryten M-Series F100 Battery]]"
+  - "[[Stryten M-Series T300 Battery]]"
 ---
 
 # Charge Battery Conventionally

@@ -30,6 +30,7 @@ Equalize Scheduling: how the charger schedules an equalizing charge
   - [[PosiCharge DVS150]]: equalization scheduling (public page)
   - [[Crown V-HFM3 Charger]]: indicators show equalizing and watering needs; schedule not stated
   - [[Stryten M-Series AGM200 Battery]]: equalizing charge before first use and every 50 to 100 operating hours, or every two weeks (manual SE1045; C219)
+  - [[Stryten M-Series T330 Battery]]: weekly; chargers can schedule it (SE1014, SE1005)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** Add Fronius, Delta-Q (equalize FAQ exists), Crown schedule details.
 

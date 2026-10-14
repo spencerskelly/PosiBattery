@@ -12,6 +12,12 @@ tags:
   - tubular
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
+  - "[[Document - Stryten F110 T310 T330 Fast Charge Manual (SE1005)]]"
+performs:
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Charge Battery Fast]]"
 hasDesign:
   - "[[Extended Watering Interval]]"
   - "[[Tubular Plate Construction]]"
@@ -36,6 +42,10 @@ Stryten tubular flooded battery family with watering cycles of up to 90 days and
   - [[Tubular Plate Construction]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
 - **Related-product note (round 12):** the EHF charger brochure names this battery among its algorithms; other pairings are not named. The earlier 'no charger linked' statement is replaced by this link.
 - Stryten's T310 manuals say the starting charge rate will be 3 times the finish rate (3 to 5 times for the T310-FP flat-plate battery), tapering to the finish rate by the time the battery is 85 percent charged, equalize once a week, do not charge intermittently (T310-FP), give a freshening charge until specific gravity shows no increase for three readings, and recommend an SCR charger for a minimum 90-day watering interval. Source: Stryten T310 and T310-FP manuals (SE1006, SE1017, search snippets) (T1), retrieved 2026-10-03. <https://www.stryten.com/wp-content/uploads/2023/03/T310-T310-FP_Installation-OperatingManual_SE1006.pdf>
+
+- **Functions performed, with citations (2026-10-13):**
+  - [[Charge Battery by Opportunity]] (V): <https://og.mhi.org/media/members/14502/133723547947804003.pdf>
+  - [[Charge Battery Fast]] (V): <https://www.stryten.com/wp-content/uploads/2023/03/F110-T310-T330_FastCharge_Manual_SE1005.pdf>
 
 ## Aliases
 

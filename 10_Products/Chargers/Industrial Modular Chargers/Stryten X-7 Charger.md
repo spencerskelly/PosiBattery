@@ -11,6 +11,8 @@ tags:
   - lithium
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
 performs:
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Charge Battery Conventionally]]"

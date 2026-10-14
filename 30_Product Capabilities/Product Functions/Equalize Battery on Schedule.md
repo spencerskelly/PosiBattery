@@ -23,6 +23,7 @@ performedBy:
   - "[[PosiCharge ProCore Edge]]"
   - "[[Power Designers REVOLUTION X]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
+  - "[[Stryten M-Series T330 Battery]]"
 ---
 
 # Equalize Battery on Schedule

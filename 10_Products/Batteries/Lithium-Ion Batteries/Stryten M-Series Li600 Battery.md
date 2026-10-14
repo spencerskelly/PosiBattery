@@ -12,6 +12,8 @@ tags:
   - hibernation
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
+describedBy:
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
 performs:
   - "[[Communicate Battery State over CAN]]"
 hasDesign:

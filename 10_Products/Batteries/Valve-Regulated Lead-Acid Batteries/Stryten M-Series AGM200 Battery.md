@@ -13,6 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Stryten M-Series AGM200 Brochure (SE1047, 5-24)]]"
   - "[[Document - Stryten M-Series AGM200 Manual (SE1045, French-Canada)]]"
+  - "[[Document - Stryten M-Series Lineup Sheet (09-2024)]]"
 performs:
   - "[[Alert on Abnormal Condition]]"
 hasDesign:

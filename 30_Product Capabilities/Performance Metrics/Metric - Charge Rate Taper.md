@@ -24,9 +24,10 @@ Charge Rate Taper: ratio of starting to finish charge rate, and when the taper e
 - **Comparability rule:** Stated as a ratio and a state of charge; chargers must follow the battery's own plate values.
 - **Direction:** not ranked.
 - **Values on file (as stated in each product note; n/s means not stated):**
+  - [[Stryten M-Series F110 Battery]]: fast charge start 30 to 40% of nameplate Ah, taper to finish by 90% state of charge (SE1005)
   - [[Stryten M-Series T300 Battery]]: starting rate 3 times the finish rate, tapering to the finish rate by 85 percent charged
-  - [[Stryten M-Series T310 Battery]]: 3 times (3 to 5 times on the T310-FP flat-plate), tapering to the finish rate by 85 percent charged
-  - [[Stryten M-Series T330 Battery]]: 3 times, taper to the finish rate (percentage cut off)
+  - [[Stryten M-Series T310 Battery]]: 3 times (3 to 5 times on the T310-FP flat-plate), tapering to the finish rate by 85 percent charged | update 2026-10-13: fast charge start 30 to 40% of nameplate Ah, taper to finish by 90% state of charge (SE1005)
+  - [[Stryten M-Series T330 Battery]]: 3 times, taper to the finish rate (percentage cut off) | update 2026-10-13: start up to 3 times finish rate, finish by 85% state of charge (manual SE1014); fast charge start 30 to 40% of nameplate Ah, finish by 90% (SE1005)
   - [[Deka D-Series Battery]]: starting rate and finish rate by cell size in the manual's tables (not extractable)
 - **Source rule:** the product note holds the source URL for each value; this note copies the value for comparison. If they differ, the product note wins and this note is fixed.
 - **Gaps and to-do:** Add finish rates in A per 100 Ah by cell size (East Penn and Stryten tables), HAWKER and HOPPECKE rates.

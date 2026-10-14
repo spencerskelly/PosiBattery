@@ -52,7 +52,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Jungheinrich Lithium-Ion Battery]] | n/s | n/s | 360 Ah cells | n/s | n/s | n/s | n/s | [[Jungheinrich Lithium-Ion Battery]] |
 | [[Raymond Energy Essentials Lithium-Ion Battery]] | NMC (2020); LFP (2025) (C217) | 24, 36, 48 V (2025) | 1,056 Ah (2020) | n/s | fast; opportunity (2025) | active cell balancing; truck-battery data exchange; Energy Asset Manager | UL Listed; UL 2580 (2025) | [[Raymond Energy Essentials Lithium-Ion Battery]] |
 | [[Stryten M-Series AGM200 Battery]] | AGM (valve-regulated) | n/s | 45-105 Ah per positive at 6 h | none (valve-regulated) | CC-CV-CC; opportunity only in approved VGA | audible discharge alarm | n/s | [[Stryten M-Series AGM200 Battery]] |
-| [[Stryten M-Series AGM220 Battery]] | n/s | 24 V (four 6 V AGM210) | n/s | n/s | n/s | n/s | n/s | [[Stryten M-Series AGM220 Battery]] |
+| [[Stryten M-Series AGM220 Battery]] | AGM (valve-regulated) | 24 V (four 6 V AGM210) | 184 Ah at C/6 | none (never add water) | CC-CV-CC (I-E-I), 2.37 V per cell; opportunity at 30-70% DoD | LED on onboard charger | n/s | [[Stryten M-Series AGM220 Battery]] |
 | [[Stryten M-Series F100 Battery]] | flooded; flat plate | n/s | n/s | n/s | conventional | n/s | n/s | [[Stryten M-Series F100 Battery]] |
 | [[Stryten M-Series F110 Battery]] | flooded; flat plate | n/s | n/s | n/s | opportunity | n/s | n/s | [[Stryten M-Series F110 Battery]] |
 | [[Stryten M-Series Li600 Battery]] | lithium iron phosphate | n/s | n/s | n/s | n/s | configurable CANbus; remote monitoring; touchscreen diagnostics | designed to meet UL2580; certification in process | [[Stryten M-Series Li600 Battery]] |
