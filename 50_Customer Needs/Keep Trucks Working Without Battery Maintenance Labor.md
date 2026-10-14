@@ -8,6 +8,8 @@ tags:
   - customer-need
   - need-hypothesis
   - vendor-stated
+describedBy:
+  - "[[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]]"
 realizedBy:
   - "[[Water Battery Cells]]"
   - "[[Alert on Low Electrolyte Level]]"
@@ -30,6 +32,7 @@ Customer need: Keep Trucks Working Without Battery Maintenance Labor. The proble
 
 ## Notes
 
+- **Customer-side evidence added 2026-10-14 (priority 6):** one first-hand customer statement: a beer distributor's warehouse manager named a dirty charging area, daily lead-acid maintenance and frequent changes as reasons to switch, and the lithium-ion supplier OneCharge was part of the story. One site, vendor-supplied case article. Source: [[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]] (T2). The need stays a hypothesis; one case is not validation.
 - **Added 2026-10-14 (analyst reasoning):** [[Circulate Electrolyte]]: Midac says its circulation system prevents electrolyte stratification and sulfation (damage that shortens battery life); Exide says its AIR system reduces energy and water consumption (less watering work). Customer work: charging lead-acid batteries and watering them. Sources: product notes [[Midac EUW Electrolyte Circulation System]] and [[Exide AIR Electrolyte Agitation System]].
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Lead-acid batteries need regular watering, cleaning and equalizing, which costs labor hours and maintenance visits.

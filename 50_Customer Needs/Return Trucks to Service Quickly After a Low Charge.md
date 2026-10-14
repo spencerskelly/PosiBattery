@@ -8,6 +8,8 @@ tags:
   - customer-need
   - need-hypothesis
   - vendor-stated
+describedBy:
+  - "[[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]]"
 realizedBy:
   - "[[Charge Battery Fast]]"
   - "[[Charge Battery by Opportunity]]"
@@ -33,6 +35,7 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
 
 ## Notes
 
+- **Customer-side evidence added 2026-10-14 (priority 6):** the distributor listed eight-hour charging and cooling, downtime during shifts for battery changes and spare trucks kept on hand as problems ([[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]], T2, one site, vendor-supplied). Still a hypothesis.
 - **Added 2026-10-14 (software pass, analyst reasoning):** [[Schedule Charging Around Vehicle Readiness]]: analyst reasoning: the vehicle is charged before its work needs it (Ampcontrol claims lower idle time; no figures).
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** A truck waiting on a charge, or a battery swap, is a truck not working during the shift.

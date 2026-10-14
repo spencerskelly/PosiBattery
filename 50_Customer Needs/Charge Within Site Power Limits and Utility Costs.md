@@ -9,6 +9,8 @@ tags:
   - need-hypothesis
   - vendor-stated
   - power-management
+describedBy:
+  - "[[Document - Charged EVs Xendee 2024 Commercial EV Charging Survey (2024-06-21)]]"
 realizedBy:
   - "[[Balance Charging Power Across Site Capacity]]"
 participants:
@@ -25,6 +27,7 @@ Customer need: Charge Within Site Power Limits and Utility Costs. The problem be
 
 ## Notes
 
+- **Survey evidence added 2026-10-14 (priority 6, IB-224):** a vendor-sponsored survey of EV-charging industry leaders found about 75 percent call grid limits a significant roadblock and 63 percent name total infrastructure cost ([[Document - Charged EVs Xendee 2024 Commercial EV Charging Survey (2024-06-21)]], T2). Supply-side respondents, road EVs, no sample size; it does not cover forklift or GSE fleets and does not mention demand charges. Still a hypothesis.
 - **Evidence status: need hypothesis.** The statements below are what makers say their products do. They come from EV-fleet software pages; no source read ties the need to forklift, GSE or industrial-truck charging, and no customer-side source confirms it.
 - **Customer work (analyst reasoning):** planning how many chargers run at once on the site supply and when they run. Candidate operational Use Case: Charge Within the Site Power Limit. The function removes the case where a person staggers chargers by hand or the site pays for a larger service.
 - **Who has the problem:** [[Fleet Operations Manager]].

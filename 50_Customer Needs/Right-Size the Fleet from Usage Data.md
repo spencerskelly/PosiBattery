@@ -8,6 +8,8 @@ tags:
   - customer-need
   - need-hypothesis
   - vendor-stated
+describedBy:
+  - "[[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]]"
 realizedBy:
   - "[[Report Truck Telemetry]]"
   - "[[Size Battery and Charger Fleet]]"
@@ -29,6 +31,7 @@ Customer need: Right-Size the Fleet from Usage Data. The problem behind it: A ma
 
 ## Notes
 
+- **Customer-side evidence added 2026-10-14 (priority 6):** the distributor cut its fleet from 17 to 12 trucks after switching to lithium-ion ([[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]], T2, one site, vendor-supplied); the page does not say the cut came from usage data, so it does not support this need directly.
 - **Added 2026-10-14 (telemetry split, analyst reasoning):** [[Report Truck Hours and Usage]] realizes this need for the three products whose sources state hours or usage; [[Report Truck Telemetry]] stays for products whose sources state only generic fleet monitoring.
 - **Added 2026-10-14 (software pass, analyst reasoning):** [[Dispatch Vehicles to Tasks]]: analyst reasoning: dispatch by availability raises utilization, which is the usage the need looks at (OTTO claims lower idle time; FleetRabbit claims 15 to 20 percent less empty travel, no method).
 - **Evidence status: need hypothesis.** The statements below are what makers, dealers and trade press say fleet managers do or want. At most one named customer source supports any need; none ranks it. Per the ruleset, source research becomes a validated need only after customer-side evidence. Full evidence is in [[Fleet Manager and Admin Digital Access Evidence]].

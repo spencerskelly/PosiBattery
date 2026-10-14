@@ -8,6 +8,9 @@ tags:
   - customer-need
   - need-hypothesis
   - vendor-stated
+describedBy:
+  - "[[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]]"
+  - "[[Document - MH&W Keeping an Eye on Batteries and Chargers (AMETEK Prestolite Power, 2018-06-12)]]"
 realizedBy:
   - "[[Charge Battery from Standard Power Outlet]]"
   - "[[Charge Lithium-Ion Battery]]"
@@ -27,6 +30,7 @@ Customer need: Charge Without a Ventilated Battery Room. The problem behind it: 
 
 ## Notes
 
+- **Customer-side evidence added 2026-10-14 (priority 6):** the same distributor described the charging area as dirty and the eight-hour charge and cooling per battery as a burden ([[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]], T2, one site, vendor-supplied). A vendor article relays OSHA and NIOSH hazards of battery handling and charging gas ([[Document - MH&W Keeping an Eye on Batteries and Chargers (AMETEK Prestolite Power, 2018-06-12)]], T3); it shows the hazard exists, not that customers rank it. Still a hypothesis.
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.
 - **Problem solved (analyst wording):** Flooded lead-acid charging releases gas and normally needs a ventilated charging room; sites want to charge where the truck is.
 - **Who has the problem:** [[Fleet Operations Manager]], [[Forklift Operator]].
