@@ -25,6 +25,7 @@ performedBy:
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[ELOKON ELOfleet]]"
   - "[[CLARK SMART Telematics]]"
+  - "[[Cat VISR]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"

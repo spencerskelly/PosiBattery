@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Toyota Cold Conditioning Package]]"
   - "[[UniCarriers Freezer Option]]"
   - "[[Raymond ThermaKit]]"
+  - "[[Mitsubishi Cold Storage Modification]]"
 ---
 
 # Cold Storage Package

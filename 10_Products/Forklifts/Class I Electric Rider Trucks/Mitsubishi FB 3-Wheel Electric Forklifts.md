@@ -10,6 +10,8 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Mitsubishi FB16PNT-FB20PNT Launch Item (2012-06-27)]]"
 performs:
   - "[[Steer with Electric Power Assist]]"
 hasDesign:
@@ -19,6 +21,7 @@ madeBy:
   - "[[Mitsubishi Logisnext Americas]]"
 offeredWith:
   - "[[Mitsubishi Integrated Presence System]]"
+  - "[[Mitsubishi Cold Storage Modification]]"
 ---
 
 # Mitsubishi FB 3-Wheel Electric Forklifts
@@ -35,6 +38,8 @@ Mitsubishi FB16PNT and FB20PNT 48 V three-wheel electric forklifts with AC drive
 - **Design characteristics, with citations:**
   - [[AC Drive Motor]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fb20pnt>
   - [[Electric Power Steering]] (V): <https://www.allmachines.com/forklifts/mitsubishi-fb20pnt>
+
+- **Update 2026-10-14 (2012 launch item):** wet disc brakes, Controlled Cornering Speed, sealed motors; options pneumatic tires, full-suspension seat, [[Mitsubishi Cold Storage Modification]], quad masts, sideshifters. The 2012 item does not mention the presence system or lithium that the newer dealer data lists. Source: <https://www.worktruckonline.com/products/fb16pnt-fb20pnt-series>
 
 ## Aliases
 

@@ -17,6 +17,7 @@ makes:
   - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
   - "[[Cat Presence Detection System]]"
   - "[[Cat Safety Lighting Options]]"
+  - "[[Cat VISR]]"
 offers:
   - "[[Cat Lithium-Ion Battery Option]]"
 subsidiaryOf:

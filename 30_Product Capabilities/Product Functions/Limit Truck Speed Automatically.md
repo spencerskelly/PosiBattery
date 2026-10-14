@@ -37,6 +37,8 @@ performedBy:
   - "[[ELOKON ELOfleet]]"
   - "[[Litum PathAware]]"
   - "[[RCT Muirhead Forklift Speed Limiter Kits]]"
+  - "[[Cat VISR]]"
+  - "[[Logisnext Lift Link]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---

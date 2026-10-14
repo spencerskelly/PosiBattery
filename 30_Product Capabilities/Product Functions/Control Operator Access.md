@@ -34,6 +34,7 @@ performedBy:
   - "[[ELOKON ELOfleet]]"
   - "[[Litum PathAware]]"
   - "[[CLARK SMART Telematics]]"
+  - "[[Cat VISR]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"

@@ -14,11 +14,14 @@ tags:
   - vehicle-accessory
 subtypeOf:
   - "[[Truck Telematics Software]]"
+describedBy:
+  - "[[Document - Logisnext Lift Link Spec Sheet (2023)]]"
 performs:
   - "[[Report Truck Telemetry]]"
   - "[[Control Operator Access]]"
   - "[[Detect and Record Impacts]]"
   - "[[Enforce Pre-Shift Checklist]]"
+  - "[[Limit Truck Speed Automatically]]"
 hasDesign:
   - "[[RFID or PIN Access Reader]]"
   - "[[Impact Sensor]]"
@@ -48,8 +51,13 @@ Mitsubishi Logisnext Americas telematics with access control, enforced pre-opera
   - [[Impact Sensor]] (V): <https://www.mhlnews.com/new-products/article/21271747/forklift-telematics-solution>
 - **Truck parts (round 31):** typical (inferred from the device type, not from a source): mounts on [[Truck Controller and CAN Bus]]; connects to [[Truck Controller and CAN Bus]]; acts on [[Truck Controller and CAN Bus]], [[Truck Controls and Display]]. See [[Truck Part Connection Register]].
 
+- **Update 2026-10-14 (spec sheet):** IP67/NEMA 6 unit, 9 to 100 VDC, any make, factory-fit or retrofit kit, Wi-Fi, GPS and geofencing, RFID/PIN access with certification tracking and speed limits by experience on select models, custom checklists with lockouts, self-learning impact thresholds, 9 analog and 2 digital inputs. This closes the earlier "sheet not opened" gap. Source: <https://www.logisnextamericas.com/-/media/logisnext/sites/public/documents/unicarriers/sales-literature/lift linkspecsheet final 72523.pdf> (T1, second-hand).
+- **Functions performed, with citations:**
+  - [[Limit Truck Speed Automatically]] (V, select models): <https://www.logisnextamericas.com/-/media/logisnext/sites/public/documents/unicarriers/sales-literature/lift linkspecsheet final 72523.pdf>
+
 ## Aliases
 
 - Lift Link
+- Lift Link Retrofit Kit
 
 ## Former ids

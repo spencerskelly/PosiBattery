@@ -26,9 +26,12 @@ makes:
   - "[[UniCarriers Freezer Option]]"
   - "[[UniCarriers Lighting Packages]]"
   - "[[UniCarriers In-Cab Accessories]]"
+  - "[[Cat Electric Lift Trucks (North America Series List)]]"
+  - "[[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]]"
 offers:
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
   - "[[Powerfleet Forklift Gateway]]"
+  - "[[Mitsubishi Cold Storage Modification]]"
 suppliedBy:
   - "[[Triathlon USA]]"
 distributorOf:

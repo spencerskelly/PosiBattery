@@ -40,6 +40,8 @@ supertypeOf:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
   - "[[Yale ERC050-060VGL]]"
   - "[[Yale ERC080VHL]]"
+  - "[[Cat Electric Lift Trucks (North America Series List)]]"
+  - "[[Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts]]"
 ---
 
 # Class I Electric Rider Truck

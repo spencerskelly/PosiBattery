@@ -20,6 +20,7 @@ designOf:
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[ELOKON ELOfleet]]"
+  - "[[Cat VISR]]"
 ---
 
 # Impact Sensor

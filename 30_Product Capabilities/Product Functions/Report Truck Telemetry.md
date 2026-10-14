@@ -37,6 +37,7 @@ performedBy:
   - "[[ELOKON ELOfleet]]"
   - "[[Litum PathAware]]"
   - "[[CLARK SMART Telematics]]"
+  - "[[Cat VISR]]"
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Control Who Operates Each Truck]]"

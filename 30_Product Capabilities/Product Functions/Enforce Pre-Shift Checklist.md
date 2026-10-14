@@ -23,6 +23,7 @@ performedBy:
   - "[[Pre-Shift Checklist Enforcement Logic]]"
   - "[[ELOKON ELOfleet]]"
   - "[[Litum PathAware]]"
+  - "[[Cat VISR]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"

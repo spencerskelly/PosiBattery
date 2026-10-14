@@ -16,6 +16,7 @@ designOf:
   - "[[Raymond 8000 Series Pallet Trucks]]"
   - "[[STILL EXH-SF Low Lift Pallet Truck]]"
   - "[[Toyota PIN Code Access Pad]]"
+  - "[[Cat VISR]]"
 ---
 
 # RFID or PIN Access Reader

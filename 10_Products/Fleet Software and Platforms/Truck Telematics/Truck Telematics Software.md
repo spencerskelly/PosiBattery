@@ -34,6 +34,7 @@ supertypeOf:
   - "[[Raymond iWAREHOUSE GATEWAY]]"
   - "[[ELOKON ELOfleet]]"
   - "[[CLARK SMART Telematics]]"
+  - "[[Cat VISR]]"
 ---
 
 # Truck Telematics Software

@@ -19,6 +19,7 @@ performedBy:
   - "[[Toyota Cold Conditioning Package]]"
   - "[[UniCarriers Freezer Option]]"
   - "[[Raymond ThermaKit]]"
+  - "[[Mitsubishi Cold Storage Modification]]"
 realizes:
   - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
