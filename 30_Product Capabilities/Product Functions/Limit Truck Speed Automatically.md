@@ -34,6 +34,8 @@ performedBy:
   - "[[Toyota Assist]]"
   - "[[Blaxtair Pedestrian Detection System]]"
   - "[[Hyster Pedestrian Awareness Camera]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[Litum PathAware]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
 ---

@@ -19,6 +19,7 @@ designOf:
   - "[[Powerfleet Forklift Gateway]]"
   - "[[Toyota MyInsights Telematics]]"
   - "[[Panacea Cam-DVR with Impact Sensors]]"
+  - "[[ELOKON ELOfleet]]"
 ---
 
 # Impact Sensor

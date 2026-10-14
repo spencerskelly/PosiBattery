@@ -39,6 +39,7 @@ supertypeOf:
   - "[[Toyota Object Detection Radar]]"
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
+  - "[[Litum PathAware]]"
 ---
 
 # Proximity and Object Detection System

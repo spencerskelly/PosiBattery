@@ -43,6 +43,7 @@ performedBy:
   - "[[Toyota SEnS Pedestrian Detection]]"
   - "[[Toyota SEnS+ Pedestrian and Object Detection]]"
   - "[[TLD Aircraft Safety Docking]]"
+  - "[[Litum PathAware]]"
 realizes:
   - "[[Warn the Operator of People and Objects Near the Truck]]"
 ---

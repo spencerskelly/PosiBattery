@@ -21,6 +21,8 @@ performedBy:
   - "[[STILL Safety Assist]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
   - "[[Pre-Shift Checklist Enforcement Logic]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[Litum PathAware]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Authenticate and Complete Pre-Shift Authorization]]"

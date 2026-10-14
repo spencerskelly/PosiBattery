@@ -23,6 +23,8 @@ performedBy:
   - "[[Panacea Cam-DVR with Impact Sensors]]"
   - "[[TLD Aircraft Safety Docking]]"
   - "[[Crown InfoLink 7-inch Touch Display]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[CLARK SMART Telematics]]"
 realizes:
   - "[[Detect and Learn from Truck Impacts]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"

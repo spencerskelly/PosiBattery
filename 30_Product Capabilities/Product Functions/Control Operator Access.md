@@ -31,6 +31,9 @@ performedBy:
   - "[[Operator Access Authorization Logic]]"
   - "[[Vehicle Enable Interlock]]"
   - "[[Raymond PIN Code Pad]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[Litum PathAware]]"
+  - "[[CLARK SMART Telematics]]"
 realizes:
   - "[[Control Who Operates Each Truck]]"
   - "[[Retrofit Safety and Telematics Onto Existing Trucks]]"

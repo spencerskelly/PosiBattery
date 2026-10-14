@@ -35,6 +35,9 @@ performedBy:
   - "[[Linde Motion Detection]]"
   - "[[Raymond iWAREHOUSE Fieldsense]]"
   - "[[UniCarriers Lighting Packages]]"
+  - "[[Litum PathAware]]"
+  - "[[Liftow Safe-Lite Pedestrian Warning Spotlight]]"
+  - "[[Liftow Big Blue Pedestrian Warning Spotlight]]"
 realizes:
   - "[[Warn Pedestrians of an Approaching Truck]]"
 ---

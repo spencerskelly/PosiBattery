@@ -24,6 +24,8 @@ supertypeOf:
   - "[[TVH Forklift Arrow Lights]]"
   - "[[Toyota Forklift Lighting Options]]"
   - "[[UniCarriers Lighting Packages]]"
+  - "[[Liftow Safe-Lite Pedestrian Warning Spotlight]]"
+  - "[[Liftow Big Blue Pedestrian Warning Spotlight]]"
 ---
 
 # Warning Light and Alert

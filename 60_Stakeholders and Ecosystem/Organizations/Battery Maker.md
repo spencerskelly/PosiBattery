@@ -31,6 +31,7 @@ rolePlayedBy:
   - "[[Triathlon USA]]"
   - "[[BlitzNXT]]"
   - "[[ENEROC]]"
+  - "[[OneCharge]]"
 ---
 
 # Battery Maker

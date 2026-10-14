@@ -21,6 +21,7 @@ makes:
   - "[[Green Cubes SAFEFlex Battery]]"
   - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[Green Cubes Forklift Battery Retrofit Kit]]"
 supplierOf:
   - "[[Doosan Bobcat]]"
 ---

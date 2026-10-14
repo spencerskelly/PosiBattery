@@ -18,6 +18,8 @@ designOf:
   - "[[STILL SafetyLight 4Plus]]"
   - "[[STILL Warning Zone Light]]"
   - "[[Toyota Forklift Lighting Options]]"
+  - "[[Liftow Safe-Lite Pedestrian Warning Spotlight]]"
+  - "[[Liftow Big Blue Pedestrian Warning Spotlight]]"
 ---
 
 # Floor-Projected Warning Light

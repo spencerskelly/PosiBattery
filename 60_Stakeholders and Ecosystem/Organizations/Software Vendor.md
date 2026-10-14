@@ -10,6 +10,9 @@ tags:
 rolePlayedBy:
   - "[[Adveez]]"
   - "[[Powerfleet]]"
+  - "[[ELOKON]]"
+  - "[[Litum]]"
+  - "[[CLARK Material Handling Company]]"
 ---
 
 # Software Vendor

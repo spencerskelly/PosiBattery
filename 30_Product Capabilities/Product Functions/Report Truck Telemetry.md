@@ -34,6 +34,9 @@ performedBy:
   - "[[Powerfleet Pedestrian Proximity Detection]]"
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[Litum PathAware]]"
+  - "[[CLARK SMART Telematics]]"
 realizes:
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
   - "[[Control Who Operates Each Truck]]"

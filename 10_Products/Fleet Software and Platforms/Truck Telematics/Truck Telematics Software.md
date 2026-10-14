@@ -32,6 +32,8 @@ supertypeOf:
   - "[[Yale Vision Telemetry]]"
   - "[[Raymond Power Source Integrated]]"
   - "[[Raymond iWAREHOUSE GATEWAY]]"
+  - "[[ELOKON ELOfleet]]"
+  - "[[CLARK SMART Telematics]]"
 ---
 
 # Truck Telematics Software

@@ -16,6 +16,9 @@ rolePlayedBy:
   - "[[Panacea Aftermarket Co.]]"
   - "[[Powerfleet]]"
   - "[[TVH]]"
+  - "[[ELOKON]]"
+  - "[[Litum]]"
+  - "[[Liftow]]"
 ---
 
 # Accessory Maker
