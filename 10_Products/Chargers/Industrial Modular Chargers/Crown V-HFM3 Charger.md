@@ -10,6 +10,9 @@ tags:
   - charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - Crown Take Control of Forklift Energy Costs Blog (retrieved 2026-10-14)]]"
+  - "[[Forklift Charger Load Management Register]]"
 performs:
   - "[[Indicate Charger Status Locally]]"
   - "[[Charge Battery Conventionally]]"
@@ -19,6 +22,7 @@ performs:
   - "[[Identify Battery by Voltage]]"
   - "[[Manage Chargers Remotely]]"
   - "[[Compensate Charge for Battery Temperature]]"
+  - "[[Balance Charging Power Across Site Capacity]]"
 hasDesign:
   - "[[Multi-Voltage Output]]"
   - "[[Modular Power Modules]]"
@@ -53,6 +57,7 @@ Crown V-Force modular charger for lead-acid and lithium-ion batteries that ident
 
 ## Notes
 
+- **Update 2026-10-14 (IB-221):** Crown's blog presents a Demand Response Management feature on the V-Force V-HFM3 connected charger (group chargers, program around spot pricing, target peak loads, infrastructure limits). Source: [[Document - Crown Take Control of Forklift Energy Costs Blog (retrieved 2026-10-14)]] (T1). Not in the 2018 brochure data above; the link to the communication path is not stated.
 - **Identity:** modular high-frequency charger series offered by [[Crown Equipment]] under the V-Force name; family [[Industrial Battery Charger]]. The brochure says 'Distributed by Crown Equipment Corporation'; who builds it is not stated (C41).
 - **Specifications (as stated in the V-HFM3 brochure, copyright 2018):**
 | Parameter | Value as stated |

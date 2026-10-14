@@ -26,6 +26,7 @@ makes:
   - "[[ACT Quantum 3]]"
   - "[[ACT Quantum Outdoor]]"
   - "[[ACT ACTview]]"
+  - "[[ACT ACTenergy]]"
 distributedBy:
   - "[[East Penn Manufacturing]]"
   - "[[Motive Energy]]"

@@ -33,6 +33,7 @@ makes:
   - "[[Linde System Control]]"
   - "[[Linde Rotating Operator Workstation]]"
   - "[[Linde MT18 Multifunction Display]]"
+  - "[[Linde connect charger]]"
 offers:
   - "[[Linde 90 V Lithium-Ion Battery]]"
   - "[[Linde Lithium-Ion Charger (9, 17 and 30 kW)]]"

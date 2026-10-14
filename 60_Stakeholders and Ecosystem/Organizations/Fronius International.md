@@ -19,6 +19,7 @@ makes:
   - "[[Fronius Selectiva 4.0]]"
   - "[[Fronius SelectION]]"
   - "[[Fronius Charge & Connect]]"
+  - "[[Fronius PV Connect]]"
 ---
 
 # Fronius International

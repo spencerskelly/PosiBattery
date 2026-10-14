@@ -30,6 +30,11 @@ supertypeOf:
   - "[[Midac Mobile App]]"
   - "[[Exide BattID]]"
   - "[[HOPPECKE trak monitor 4.0]]"
+  - "[[Linde connect charger]]"
+  - "[[Jungheinrich Active Load Management]]"
+  - "[[Toyota Peak Load Management]]"
+  - "[[Fronius PV Connect]]"
+  - "[[ACT ACTenergy]]"
 ---
 
 # Battery and Charger Management Software

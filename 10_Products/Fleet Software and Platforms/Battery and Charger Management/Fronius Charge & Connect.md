@@ -14,6 +14,8 @@ subtypeOf:
   - "[[Battery and Charger Management Software]]"
 performs:
   - "[[Show Battery and Charger State in Fleet Software]]"
+hasPart:
+  - "[[Fronius PV Connect]]"
 madeBy:
   - "[[Fronius International]]"
 offeredWith:

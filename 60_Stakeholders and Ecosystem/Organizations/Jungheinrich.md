@@ -27,6 +27,7 @@ makes:
   - "[[Jungheinrich curveCONTROL]]"
   - "[[Jungheinrich ISM Online]]"
   - "[[Jungheinrich easyPILOT]]"
+  - "[[Jungheinrich Active Load Management]]"
 offers:
   - "[[Jungheinrich Lithium-Ion Battery]]"
 distributedBy:

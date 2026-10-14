@@ -12,6 +12,8 @@ tags:
   - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
+describedBy:
+  - "[[Document - Raymond West ACT Chargers ROI Blog (2026-01-15)]]"
 performs:
   - "[[Manage Chargers Remotely]]"
 hasDesign:

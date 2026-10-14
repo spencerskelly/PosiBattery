@@ -49,7 +49,7 @@ Register of warehouse, business, robot-fleet and energy-management software that
 ### Findings
 
 - **Layers do not meet in the sources.** The EV and robot software (depotfinity, PowerFlex X, Flip Turn, Ampcontrol, WiBotic Commander, Seegrid, OTTO) states charging and power functions; the warehouse systems read (Blue Yonder, a Raymond West dealer page) state no battery or charging link. Only one vendor article (FleetRabbit, T3) says a WMS receives battery charge from forklifts.
-- **No source shows an industrial truck charger managed by an OCPP charge-management platform.** Flip Turn and Ampcontrol say they work with OCPP chargers; PowerFlex X and depotfinity name EV fleets (buses, trucks, cars). Whether MHE chargers fit is open (IB-221).
+- **No source shows an industrial truck charger managed by an OCPP charge-management platform.** Flip Turn and Ampcontrol say they work with OCPP chargers; PowerFlex X and depotfinity name EV fleets (buses, trucks, cars). Whether MHE chargers fit stayed open after IB-221 (answered 2026-10-14: no source found; truck and charger makers sell their own group load management, see [[Forklift Charger Load Management Register]]).
 - **Vendor content.** FleetRabbit, Phihong and Fabrico pages are vendor marketing (T3). Their claims (15 to 20 percent less empty travel; integration of fleet platforms with robotic stations; rankings of Samsara, Fleetio, TotalTrax, MaintainX) are recorded as claims, not facts about those products.
 - **Dealer page, not product page.** The Raymond West page names no WMS product and does not describe the iWAREHOUSE modules in its menu.
 
@@ -64,6 +64,6 @@ Register of warehouse, business, robot-fleet and energy-management software that
 
 ### Gaps
 
-- Backlog IB-215 to IB-224.
+- Backlog IB-215 to IB-228.
 
 ## Former ids
