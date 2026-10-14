@@ -12,9 +12,12 @@ subtypeOf:
 dependencyOf:
   - "[[Charge Under BMS Control]]"
   - "[[BMS-Directed Charge Control Design]]"
+  - "[[Charge Battery Fast]]"
+  - "[[Charge Battery by Opportunity]]"
 describedBy:
   - "[[Metric - BMS and Communication]]"
   - "[[BMS Product Function and Requirement Driver Map]]"
+  - "[[Document - Hyster Lithium-Ion Batteries Page (EMEA, retrieved 2026-10-14)]]"
 designOf:
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"
@@ -44,6 +47,7 @@ Battery management system built into the battery pack.
 
 ## Notes
 
+- **Charge-rate role (added 2026-10-14, IB-233):** Hyster's page says the BMS talks to the charger over CAN to adjust charge current and opens the contactor at an unsafe cell limit, so on lithium-ion batteries the BMS sets the rate a charger may deliver. Source: [[Document - Hyster Lithium-Ion Batteries Page (EMEA, retrieved 2026-10-14)]] (T1, second-hand).
 - Design characteristic found in products, not a decision by us. Links to products are made only where a source states it.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

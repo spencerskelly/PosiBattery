@@ -53,6 +53,8 @@ realizes:
 dependsOn:
   - "[[Charger Power Stage Design]]"
   - "[[Charge Profile Control Design]]"
+  - "[[Thin Plate Pure Lead Plates]]"
+  - "[[Integrated Battery Management System]]"
 ---
 
 # Charge Battery by Opportunity
@@ -63,6 +65,7 @@ Top up a battery in short sessions during breaks to keep it within a state-of-ch
 
 ## Notes
 
+- **Battery-side links added 2026-10-14 (IB-233):** alternatives, any one enough for a battery product: [[Thin Plate Pure Lead Plates]] (EnerSys: opportunity charges of 40 to 80 percent state of charge in one hour, trade report) and [[Integrated Battery Management System]] (lithium-ion). Gel batteries (Deka Dominator, Exide TENSOR xGEL), Stryten tubular and flat-plate lines are performers with no Design that sets the rate and are not linked.
 - **Solution link added 2026-10-14 (analyst reasoning; no source states the split):** depends on [[Charger Power Stage Design]] and [[Charge Profile Control Design]]; both are needed together, as the power stage delivers the current and the profile decides its shape over time. Performers include batteries as well as chargers; the battery side (a chemistry or construction that accepts the rate) has no Design yet (IB-233).
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).

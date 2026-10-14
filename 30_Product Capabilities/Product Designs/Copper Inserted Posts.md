@@ -11,6 +11,8 @@ subtypeOf:
   - "[[Lead-Acid Battery Construction Design]]"
 designOf:
   - "[[Deka FastCharge Battery]]"
+dependencyOf:
+  - "[[Charge Battery Fast]]"
 ---
 
 # Copper Inserted Posts

@@ -52,6 +52,10 @@ realizes:
 dependsOn:
   - "[[Charger Power Stage Design]]"
   - "[[Charge Profile Control Design]]"
+  - "[[Thin Plate Pure Lead Plates]]"
+  - "[[Integrated Battery Management System]]"
+  - "[[Heavy-Duty Intercell Connectors]]"
+  - "[[Copper Inserted Posts]]"
 ---
 
 # Charge Battery Fast
@@ -62,6 +66,7 @@ Charge at rates several times conventional charging, at every opportunity, usual
 
 ## Notes
 
+- **Battery-side links added 2026-10-14 (IB-233):** the battery half is a choice of technology, not a stack. Any one is enough for a battery product: [[Thin Plate Pure Lead Plates]] (EnerSys TPPL), [[Integrated Battery Management System]] (lithium-ion; the BMS sets the charge current), or Deka's fast-charge hardware ([[Heavy-Duty Intercell Connectors]], [[Copper Inserted Posts]], one product). These sit beside the two required charger-side Designs above. Flooded Stryten tubular lines, Exide TENSOR (fast-charge package of charger, air agitation and temperature probe) and Godrej and Chase packs state no Design that sets the rate and are not linked (see [[Function-to-Solution Coverage Register]]).
 - **Solution link added 2026-10-14 (analyst reasoning; no source states the split):** depends on [[Charger Power Stage Design]] and [[Charge Profile Control Design]]; both are needed together, as the power stage delivers the current and the profile decides its shape over time. Performers include batteries as well as chargers; the battery side (a chemistry or construction that accepts the rate) has no Design yet (IB-233).
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
