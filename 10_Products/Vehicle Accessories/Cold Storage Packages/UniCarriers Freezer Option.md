@@ -16,7 +16,7 @@ subtypeOf:
 performs:
   - "[[Operate in Cold Storage]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
 ---

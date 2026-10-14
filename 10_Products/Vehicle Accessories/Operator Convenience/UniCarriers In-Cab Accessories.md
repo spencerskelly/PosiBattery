@@ -14,7 +14,7 @@ tags:
 subtypeOf:
   - "[[Operator Convenience Accessory]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
 ---

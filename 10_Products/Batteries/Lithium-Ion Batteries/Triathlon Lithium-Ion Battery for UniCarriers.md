@@ -16,7 +16,7 @@ describedBy:
 madeBy:
   - "[[Triathlon USA]]"
 offeredBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers MX2 and MXL Series]]"
   - "[[Triathlon Lithium-Ion Charger for UniCarriers]]"

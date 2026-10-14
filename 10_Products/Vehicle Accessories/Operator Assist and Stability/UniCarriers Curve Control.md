@@ -16,7 +16,7 @@ subtypeOf:
 performs:
   - "[[Slow Truck in Curves]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers MX2 and MXL Series]]"
 ---

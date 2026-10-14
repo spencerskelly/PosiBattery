@@ -11,7 +11,7 @@ sourceClass: manufacturer web page
 sourceUrl: "https://www.logisnextamericas.com/en/logisnext/solutions/energy-solutions"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Document - Logisnext Americas Energy Solutions Page (retrieved 2026-10-14)

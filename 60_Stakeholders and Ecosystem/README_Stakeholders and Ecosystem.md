@@ -36,7 +36,7 @@ Keep the three layers distinct:
 Do not create direct Actor→Product or Actor→Organization structural links merely because an Actor uses, buys, services, installs, or works for that class of organization. Operational participation already captures the role without overloading the Actor note.
 
 Examples:
-- [[Triathlon Lithium-Ion Battery for UniCarriers]] is `madeBy` [[Triathlon USA]] and `offeredBy` [[Mitsubishi Logisnext Americas]].
+- [[Triathlon Lithium-Ion Battery for UniCarriers]] is `madeBy` [[Triathlon USA]] and `offeredBy` [[Logisnext Americas]].
 - [[Hyster Battery Tracker]] is `offeredBy` [[Hyster-Yale]] and `poweredBy` [[PosiCharge]]; this does not establish who physically manufactures the hardware.
 - [[Crown V-Force BMID]] is `offeredBy` [[Crown Equipment]]; do not infer a different maker without evidence.
 

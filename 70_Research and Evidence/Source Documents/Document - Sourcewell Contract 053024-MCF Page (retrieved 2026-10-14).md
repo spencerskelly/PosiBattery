@@ -11,7 +11,7 @@ sourceClass: public contract page
 sourceUrl: "https://www.sourcewell-mn.gov/cooperative-purchasing/053024-MCF"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Document - Sourcewell Contract 053024-MCF Page (retrieved 2026-10-14)

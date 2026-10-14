@@ -20,7 +20,7 @@ rolePlayedBy:
   - "[[Linde Material Handling]]"
   - "[[Logisnext Europe]]"
   - "[[Mallaghan]]"
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Oshkosh AeroTech]]"
   - "[[Raymond]]"

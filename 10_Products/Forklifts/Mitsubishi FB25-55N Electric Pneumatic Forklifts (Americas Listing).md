@@ -13,7 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - AllMachines Mitsubishi Listing (retrieved 2026-10-14)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi FB25-55N Electric Pneumatic Forklifts (Americas Listing)

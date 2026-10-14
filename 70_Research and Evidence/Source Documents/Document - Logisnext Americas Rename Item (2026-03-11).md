@@ -11,7 +11,7 @@ sourceClass: trade press news item
 sourceUrl: "https://www.mmh.com/article/mitsubishi_logisnext_americas_will_rebrand_as_logisnext_americas"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Document - Logisnext Americas Rename Item (2026-03-11)

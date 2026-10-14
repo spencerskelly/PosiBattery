@@ -11,7 +11,7 @@ sourceClass: manufacturer brochure
 sourceUrl: "https://www.logisnextamericas.com/globalassets/solutions/national-accounts/logisnext-national-accounts-program-2026.pdf"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Document - Logisnext National Accounts Program 2026

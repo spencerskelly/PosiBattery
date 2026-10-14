@@ -60,11 +60,11 @@ partnerOf:
   - "[[EnerSys]]"
 ---
 
-# Mitsubishi Logisnext Americas
+# Logisnext Americas
 
 ## Definition
 
-North, Central and South American arm of Mitsubishi Logisnext (Houston, Texas): maker or provider of Mitsubishi, Cat, UniCarriers and Rocla products and distributor of Jungheinrich, with an energy solutions business and the Promatch parts program.
+North, Central and South American arm of Mitsubishi Logisnext (Houston, Texas), named Mitsubishi Logisnext Americas until 2026-04-30: maker or provider of Mitsubishi, Cat, UniCarriers and Rocla products and distributor of Jungheinrich, with an energy solutions business and the Promatch parts program.
 
 ## Notes
 
@@ -75,12 +75,12 @@ North, Central and South American arm of Mitsubishi Logisnext (Houston, Texas): 
 - Logisnext Energy Solutions sells lithium-ion and lead-acid batteries, chargers and integrated lithium-ion forklifts; the Promatch parts program carries EnerSys and HAWKER batteries, chargers and monitors from 2025. Source: Logisnext energy solutions page and EnerSys partnership release (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/es-co/logisnext/solutions/energy-solutions>
 - The EnerSys partnership covers EnerSys NexSys TPPL, NexSys+, Express, IMPAQ and Wi-iQ and HAWKER products (see [[EnerSys]]); Triathlon USA supplies the UniCarriers lithium-ion battery and charger; PowerFleet's telematics was resold from 2021 ([[Powerfleet Forklift Gateway]]); Lift Link is its own telematics from 2023 ([[Logisnext Lift Link]]); Phantom Auto teleoperation software was announced for UniCarriers and Mitsubishi electric trucks (name only here). Source: Logisnext Americas releases and Modern Materials Handling (T1/T2), retrieved 2026-10-03. <https://www.logisnextamericas.com/en/logisnext/news/mla-enersys-expand-power-solutions-for-material-handling-operations>
 
-- **Rename (2026-10-14 finding):** announced 2026-03-11, effective 2026-04-30, the company became Logisnext Americas and the Mitsubishi Forklift Trucks line becomes Logisnext Forklifts; the vault still uses the old name for notes and `madeBy` links (C245). Source: <https://www.mmh.com/article/mitsubishi_logisnext_americas_will_rebrand_as_logisnext_americas> (T2)
+- **Rename (2026-10-14 finding):** announced 2026-03-11, effective 2026-04-30, the company became Logisnext Americas and the Mitsubishi Forklift Trucks line becomes Logisnext Forklifts; the vault note was renamed to the new name on 2026-10-14 and the old name is an alias (C245). Source: <https://www.mmh.com/article/mitsubishi_logisnext_americas_will_rebrand_as_logisnext_americas> (T2)
 - **Product inventory:** see [[Logisnext Americas Product and Accessory Inventory]].
 
 ## Aliases
 
-- Logisnext Americas
+- Mitsubishi Logisnext Americas
 - Logisnext Forklifts
 - MLA
 - Mitsubishi Caterpillar Forklift America

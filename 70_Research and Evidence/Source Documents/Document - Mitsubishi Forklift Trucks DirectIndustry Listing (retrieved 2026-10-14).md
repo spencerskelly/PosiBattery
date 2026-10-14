@@ -11,7 +11,7 @@ sourceClass: product catalog listing
 sourceUrl: "https://www.directindustry.com/prod/mitsubishi-forklift-trucks-17797.html"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Mitsubishi Warehouse Trucks (Americas Listing)]]"
 ---
 

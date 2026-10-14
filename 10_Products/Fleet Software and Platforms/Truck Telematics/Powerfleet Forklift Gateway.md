@@ -27,7 +27,7 @@ hasDesign:
 madeBy:
   - "[[Powerfleet]]"
 offeredBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 hasPart:
   - "[[Truck Telemetry Acquisition Logic]]"
   - "[[Truck Telemetry Reporting Service]]"

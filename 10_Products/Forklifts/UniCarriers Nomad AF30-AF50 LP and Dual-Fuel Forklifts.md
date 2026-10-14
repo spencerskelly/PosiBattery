@@ -14,7 +14,7 @@ subtypeOf:
 describedBy:
   - "[[Document - UniCarriers and Rocla ProMat 2023 Reveal (2023-03-22)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # UniCarriers Nomad AF30-AF50 LP and Dual-Fuel Forklifts

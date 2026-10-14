@@ -15,7 +15,7 @@ rolePlayedBy:
   - "[[KION Group]]"
   - "[[Linde Material Handling]]"
   - "[[Logisnext Europe]]"
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Raymond]]"
   - "[[STILL]]"

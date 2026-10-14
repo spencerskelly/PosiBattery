@@ -9,7 +9,7 @@ tags:
   - inventory
   - logisnext
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Logisnext Americas Product and Accessory Inventory
@@ -66,7 +66,7 @@ Inventory of the products and accessories named for Mitsubishi Logisnext America
 
 ## Traceability
 
-- Describes [[Mitsubishi Logisnext Americas]]; supporting sources are the Document notes linked in the table.
+- Describes [[Logisnext Americas]]; supporting sources are the Document notes linked in the table.
 
 ## Aliases
 

@@ -13,7 +13,7 @@ rolePlayedBy:
   - "[[ELMAS S.R.L.]]"
   - "[[Holt of California]]"
   - "[[Medley Company]]"
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Mitsubishi Logisnext]]"
   - "[[Motive Energy]]"
   - "[[Raymond Handling Consultants]]"

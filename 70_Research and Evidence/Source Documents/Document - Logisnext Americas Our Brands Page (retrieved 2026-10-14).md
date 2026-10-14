@@ -11,7 +11,7 @@ sourceClass: manufacturer web page
 sourceUrl: "https://logisnextamericas.com/es-mx/logisnext/our-brands"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Rocla]]"
 ---
 

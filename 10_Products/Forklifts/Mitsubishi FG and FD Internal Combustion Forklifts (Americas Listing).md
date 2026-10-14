@@ -14,7 +14,7 @@ subtypeOf:
 describedBy:
   - "[[Document - AllMachines Mitsubishi Listing (retrieved 2026-10-14)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi FG and FD Internal Combustion Forklifts (Americas Listing)

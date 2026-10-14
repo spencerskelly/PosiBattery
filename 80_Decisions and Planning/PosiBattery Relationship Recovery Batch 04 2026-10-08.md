@@ -38,7 +38,7 @@ Each affected product had a misplaced Organization link under `hasPart` alongsid
 | [[PosiCharge SVS200]] | [[PosiCharge]] `makes` | `madeBy` |
 | [[EnerSys NexSys iON Battery]] | [[EnerSys]] `makes` | `madeBy` |
 | [[TUG Endurance Baggage Tractor]] | [[Textron GSE]] `makes` | `madeBy` |
-| [[Powerfleet Forklift Gateway]] | [[Mitsubishi Logisnext Americas]] `offers`; actual `madeBy` remains [[Powerfleet]] | `offeredBy` |
+| [[Powerfleet Forklift Gateway]] | [[Logisnext Americas]] `offers`; actual `madeBy` remains [[Powerfleet]] | `offeredBy` |
 | [[PosiCharge SkyLink]] | [[PosiCharge]] `makes` | `madeBy` |
 
 **Change scope confirmed by GitHub compare:** Exactly 17 product Markdown notes modified, each with **one YAML line added and one removed**, no Organization note edited and no non-relationship field changed.

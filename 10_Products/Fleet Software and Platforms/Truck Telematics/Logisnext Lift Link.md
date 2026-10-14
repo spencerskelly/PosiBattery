@@ -26,7 +26,7 @@ hasDesign:
   - "[[RFID or PIN Access Reader]]"
   - "[[Impact Sensor]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers MX2 and MXL Series]]"
 ---

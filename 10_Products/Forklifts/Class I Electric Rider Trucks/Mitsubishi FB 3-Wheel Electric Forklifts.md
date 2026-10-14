@@ -18,7 +18,7 @@ hasDesign:
   - "[[AC Drive Motor]]"
   - "[[Electric Power Steering]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[Mitsubishi Integrated Presence System]]"
   - "[[Mitsubishi Cold Storage Modification]]"

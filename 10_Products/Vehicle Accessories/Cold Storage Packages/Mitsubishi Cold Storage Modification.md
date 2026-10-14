@@ -18,7 +18,7 @@ describedBy:
 performs:
   - "[[Operate in Cold Storage]]"
 offeredBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"
 ---

@@ -17,7 +17,7 @@ makes:
   - "[[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]]"
 parentOf:
   - "[[Logisnext Europe]]"
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi Logisnext
@@ -34,7 +34,7 @@ Japanese truck group, fifth in the 2024 ranking, selling Mitsubishi, Cat, UniCar
 - Cat lift trucks sold by Mitsubishi Logisnext Americas carry Caterpillar trademarks used under license (page footer). Source: Logisnext Americas Cat page (T1), retrieved 2026-10-03. <https://www.logisnextamericas.com/en-bz/cat/long-term-support/forklift-safety-training>
 - The group's Japanese company, Mitsubishi Logisnext Co., Ltd. (Tokyo Stock Exchange 7105; formerly Mitsubishi Nichiyu Forklift Co., Ltd.), has its head office in Nagaokakyo, Kyoto, makes electric and engine forklifts, transportation robots and automated warehouses, and sells under the brands Mitsubishi Forklift Trucks, UniCarriers, Nichiyu, Cat Lift Trucks, TCM and Rocla. Source: Wikipedia and GlobalData (T4/T3), retrieved 2026-10-03. <https://en.wikipedia.org/wiki/Mitsubishi_Logisnext>
 - The group formed when Mitsubishi Nichiyu and UniCarriers Corporation became Mitsubishi Logisnext Co. Ltd. (2017 integration); a financial profile gives 56 consolidated subsidiaries and 9 affiliates and bases in the Americas, Europe, Asia and China; Wikipedia names regional subsidiaries Mitsubishi Logisnext Europe, Americas, Asia Pacific and Forklift (Shanghai), and its parent as Mitsubishi Heavy Industries Forklift, Engine and Turbocharger Holdings. Source: Logisnext Europe history page, Envalith and Wikipedia (T1/T4), retrieved 2026-10-03. <https://logisnext.eu/corporate/history>
-- **Entities (round 24):** the Americas business is now [[Mitsubishi Logisnext Americas]] and the European business is [[Logisnext Europe]], each linked by subsidiaryOf; Asia Pacific and Shanghai entities are named here only (no product evidence yet).
+- **Entities (round 24):** the Americas business is now [[Logisnext Americas]] and the European business is [[Logisnext Europe]], each linked by subsidiaryOf; Asia Pacific and Shanghai entities are named here only (no product evidence yet).
 - **Region:** Japan (head office Kyoto; GlobalData, T3).
 - **Brand coverage differs by region (C92):** Americas sells Mitsubishi, Cat, UniCarriers, Rocla and Jungheinrich; Europe lists Mitsubishi, Cat, TCM and Rocla; Japan lists Mitsubishi, Nichiyu, TCM and UniCarriers.
 

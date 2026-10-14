@@ -17,7 +17,7 @@ performs:
   - "[[Illuminate Work Area]]"
   - "[[Warn Pedestrians of Approaching Truck]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]]"
   - "[[UniCarriers MX2 and MXL Series]]"

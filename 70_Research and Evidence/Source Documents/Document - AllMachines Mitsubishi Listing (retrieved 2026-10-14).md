@@ -11,7 +11,7 @@ sourceClass: dealer-data listing
 sourceUrl: "https://www.allmachines.com/forklifts/view-all?brand=mitsubishi&category=stackers&page=1&sortBy=default"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
   - "[[Mitsubishi FB25-55N Electric Pneumatic Forklifts (Americas Listing)]]"
   - "[[Mitsubishi FG and FD Internal Combustion Forklifts (Americas Listing)]]"
   - "[[Mitsubishi EDR Reach Trucks (Americas Listing)]]"

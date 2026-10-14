@@ -20,7 +20,7 @@ hasDesign:
   - "[[Electric Power Steering]]"
   - "[[Drop-In Battery Cavity]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi FBCS Stand-Up Counterbalanced Forklifts

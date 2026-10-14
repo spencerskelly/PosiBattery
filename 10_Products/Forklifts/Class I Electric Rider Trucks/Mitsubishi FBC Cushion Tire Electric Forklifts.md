@@ -13,7 +13,7 @@ subtypeOf:
 hasDesign:
   - "[[AC Drive Motor]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[Mitsubishi Integrated Presence System]]"
 ---

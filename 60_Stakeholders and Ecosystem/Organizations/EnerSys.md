@@ -44,7 +44,7 @@ makes:
 distributedBy:
   - "[[Western Materials]]"
 partnerOf:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 integratesWith:
   - "[[Hyster-Yale]]"
 ---

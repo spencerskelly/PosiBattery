@@ -16,7 +16,7 @@ subtypeOf:
 performs:
   - "[[Alert Operator of Hazards]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[Mitsubishi FBC Cushion Tire Electric Forklifts]]"
   - "[[Mitsubishi FB 3-Wheel Electric Forklifts]]"

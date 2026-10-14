@@ -13,7 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Mitsubishi FBC20Q-FBC40Q Launch Item (2026-01-06)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi FBC20Q-FBC40Q Electric Cushion Forklifts

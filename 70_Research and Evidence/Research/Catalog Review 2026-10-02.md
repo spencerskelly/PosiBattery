@@ -222,17 +222,17 @@ Review of organization and product notes for what is offered and by whom, featur
 | [[Midac End Leads]] | [[Midac]] | accessory | 1 | 1 | 0 | none |
 | [[Midac PzS Traction Battery]] | [[Midac]] | battery | 1 | 3 | 0 | none |
 | [[Cat 2EPC5000-2EP6500 Electric Pneumatic Tire Lift Trucks]] | [[Mitsubishi Logisnext]] | forklift | 3 | 0 | 0 | none |
-| [[Logisnext Lift Link]] | [[Mitsubishi Logisnext Americas]] | accessory | 6 | 1 | 0 | none |
-| [[Mitsubishi FB 3-Wheel Electric Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 3 | 1 | 0 | none |
-| [[Mitsubishi FBC Cushion Tire Electric Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 1 | 1 | 0 | none |
-| [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 4 | 0 | 0 | none |
-| [[Mitsubishi Integrated Presence System]] | [[Mitsubishi Logisnext Americas]] | accessory | 1 | 2 | 0 | none |
-| [[UniCarriers Curve Control]] | [[Mitsubishi Logisnext Americas]] | accessory | 1 | 1 | 0 | none |
-| [[UniCarriers Freezer Option]] | [[Mitsubishi Logisnext Americas]] | accessory | 1 | 1 | 0 | none |
-| [[UniCarriers In-Cab Accessories]] | [[Mitsubishi Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
-| [[UniCarriers Lighting Packages]] | [[Mitsubishi Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
-| [[UniCarriers MX2 and MXL Series]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 3 | 6 | defined |
-| [[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]] | [[Mitsubishi Logisnext Americas]] | forklift | 0 | 4 | 2 | partial |
+| [[Logisnext Lift Link]] | [[Logisnext Americas]] | accessory | 6 | 1 | 0 | none |
+| [[Mitsubishi FB 3-Wheel Electric Forklifts]] | [[Logisnext Americas]] | forklift | 3 | 1 | 0 | none |
+| [[Mitsubishi FBC Cushion Tire Electric Forklifts]] | [[Logisnext Americas]] | forklift | 1 | 1 | 0 | none |
+| [[Mitsubishi FBCS Stand-Up Counterbalanced Forklifts]] | [[Logisnext Americas]] | forklift | 4 | 0 | 0 | none |
+| [[Mitsubishi Integrated Presence System]] | [[Logisnext Americas]] | accessory | 1 | 2 | 0 | none |
+| [[UniCarriers Curve Control]] | [[Logisnext Americas]] | accessory | 1 | 1 | 0 | none |
+| [[UniCarriers Freezer Option]] | [[Logisnext Americas]] | accessory | 1 | 1 | 0 | none |
+| [[UniCarriers In-Cab Accessories]] | [[Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
+| [[UniCarriers Lighting Packages]] | [[Logisnext Americas]] | accessory | 0 | 1 | 0 | none |
+| [[UniCarriers MX2 and MXL Series]] | [[Logisnext Americas]] | forklift | 0 | 3 | 6 | defined |
+| [[UniCarriers SCX N2 Stand-Up Counterbalanced Forklifts]] | [[Logisnext Americas]] | forklift | 0 | 4 | 2 | partial |
 | [[Nuvera PowerEdge]] | [[Nuvera]] | accessory | 4 | 0 | 1 | partial |
 | [[Oshkosh AeroTech APD Engine Cowling Sensors]] | [[Oshkosh AeroTech]] | accessory | 4 | 0 | 0 | none |
 | [[Oshkosh AeroTech APD Forward Radar and Controller]] | [[Oshkosh AeroTech]] | accessory | 4 | 2 | 4 | defined |

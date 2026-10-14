@@ -13,7 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Logisnext Americas Cat Electric Lift Trucks Series Page (retrieved 2026-10-14)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Cat Electric Lift Trucks (North America Series List)

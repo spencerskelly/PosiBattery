@@ -17,7 +17,7 @@ describedBy:
 hasDesign:
   - "[[Drop-In Battery Cavity]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[Triathlon Lithium-Ion Battery for UniCarriers]]"
   - "[[UniCarriers Curve Control]]"

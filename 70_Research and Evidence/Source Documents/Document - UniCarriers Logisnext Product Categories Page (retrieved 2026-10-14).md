@@ -11,7 +11,7 @@ sourceClass: manufacturer web page
 sourceUrl: "https://www.unicarriers.com/en/logisnext"
 accessed: 2026-10-13
 describes:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Document - UniCarriers Logisnext Product Categories Page (retrieved 2026-10-14)

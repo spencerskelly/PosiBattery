@@ -14,7 +14,7 @@ describedBy:
   - "[[Document - AllMachines Mitsubishi Listing (retrieved 2026-10-14)]]"
   - "[[Document - Mitsubishi Forklift Trucks DirectIndustry Listing (retrieved 2026-10-14)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 ---
 
 # Mitsubishi Warehouse Trucks (Americas Listing)

@@ -14,7 +14,7 @@ describedBy:
   - "[[Document - UniCarriers SCX N2 Launch Item (2023-09-12)]]"
   - "[[Document - UniCarriers SCX Spec Sheet (Lectura)]]"
 madeBy:
-  - "[[Mitsubishi Logisnext Americas]]"
+  - "[[Logisnext Americas]]"
 offeredWith:
   - "[[UniCarriers Freezer Option]]"
   - "[[UniCarriers Lighting Packages]]"
