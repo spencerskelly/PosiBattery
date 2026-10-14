@@ -22,6 +22,12 @@ designOf:
   - "[[UniCarriers MX2 and MXL Series]]"
   - "[[Raymond 4000 Series Counterbalanced Trucks]]"
   - "[[Raymond Orderpickers]]"
+  - "[[Crown FC 5700 Series]]"
+  - "[[Crown RM-RMD 6000 Series]]"
+  - "[[Crown SC Series]]"
+  - "[[Crown RR-RD 5700 Series]]"
+  - "[[Toyota 3-Wheel Electric Forklift]]"
+  - "[[Jungheinrich ETV C16 and C20]]"
 ---
 
 # Drop-In Battery Cavity

@@ -11,10 +11,13 @@ tags:
   - north-america
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
+describedBy:
+  - "[[Document - Toyota 3-Wheel Electric Spec Sheet (2022)]]"
 performs:
   - "[[Indicate Maintenance Due]]"
 hasDesign:
   - "[[AC Drive Motor]]"
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Toyota Material Handling]]"
 offeredWith:
@@ -38,6 +41,10 @@ Toyota multi-use three-wheel electric counterbalance forklift with a 36/48 V sys
   - [[Indicate Maintenance Due]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
 - **Design characteristics, with citations:**
   - [[AC Drive Motor]] (V): <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
+
+- **Battery integration and charging interface (2026-10-14, gap fill):** 2022 spec sheet: roll-out or slide-out battery option, SB350 connector, lithium option, optional fast charge; charge inlet not stated. Source: <https://www.ltcenter.com/wp-content/uploads/2022/10/2022_3-Wheel-Electric_Spec-Sheet_Digital.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, optional roll-out or slide-out change): <https://www.ltcenter.com/wp-content/uploads/2022/10/2022_3-Wheel-Electric_Spec-Sheet_Digital.pdf>
 
 ## Aliases
 

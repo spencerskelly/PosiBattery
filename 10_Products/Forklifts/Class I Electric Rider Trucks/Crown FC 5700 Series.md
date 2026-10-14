@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:
   - "[[Document - Crown FC 5700 Brochure (APAC)]]"
+  - "[[Document - Crown FC 5700 Specification Sheet]]"
 performs:
   - "[[Program Travel, Lift and Tilt Speeds]]"
   - "[[Stabilize Truck Dynamically]]"
@@ -21,6 +22,7 @@ performs:
   - "[[Adapt Speed to Load and Lift Height]]"
 hasDesign:
   - "[[Programmable Motor Controller]]"
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Crown Equipment]]"
 offeredWith:
@@ -50,6 +52,10 @@ Crown four-wheel sit-down electric counterbalance forklift handling loads up to 
   - [[Programmable Motor Controller]] (V): <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
 
 - **Battery integration (2026-10-14):** the FC 5700 brochure describes a "V-Force Integrated Lithium-Ion System" with no swapping, but gives no compartment, connector or charge port, so no design link is made (C246). Source: <https://www.crown.com/content/dam/crown/pdfs/apac/brochures/forklift-truck-fc5700-brochure-GB.pdf>
+
+- **Battery integration and charging interface (2026-10-14, gap fill):** spec sheet: 36/48 V, lift-out or side removal standard, optional rollers, SB350 connector, seat-deck connector options (purpose not stated), V-Force lithium-ion optional. The brochure's "Integrated Lithium-Ion System" wording is not matched by this sheet (C246). Source: <https://www.crown.com/content/dam/crown/pdfs/en-us/specifications/fc-5700-specifications.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, standard lift-out or side removal): <https://www.crown.com/content/dam/crown/pdfs/en-us/specifications/fc-5700-specifications.pdf>
 
 ## Aliases
 

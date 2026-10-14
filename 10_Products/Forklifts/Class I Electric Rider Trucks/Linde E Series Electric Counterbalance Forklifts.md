@@ -12,6 +12,7 @@ subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:
   - "[[Document - Linde Ei Integrated Battery News Item]]"
+  - "[[Document - Linde E25-E35 Datasheet (2015)]]"
 performs:
   - "[[Operate in Wet or Dusty Conditions]]"
   - "[[Program Travel, Lift and Tilt Speeds]]"
@@ -44,6 +45,10 @@ Linde electric counterbalance forklifts available with lead-acid or lithium-ion 
 - **Battery integration and charging interface (2026-10-14):** the Ei item contrasts the Ei with the standard Linde E, which uses a replaceable battery system. Source: <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
 - **Design characteristics, with citations:**
   - [[Drop-In Battery Cavity]] (V, replaceable battery system (stated for standard Linde E in the Ei item)): <https://www.linde-mh.com/en/technical/News-Detail_5359296.html>
+
+- **Battery integration and charging interface (2026-10-14, gap fill):** E25-E35 datasheet (2015): 80 V, 180 degree battery door, vertical and lateral battery change. Confirms the Ei-item statement with the maker's own sheet. Charging not described. Source: <https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V, vertical and lateral change): <https://www.linde-mh.com/media/Datasheets/EN_ds_e25_e35_1276_00_en_d_1015.pdf>
 
 ## Aliases
 

@@ -22,7 +22,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 
 - **Terms (proposed 2026-10-14):** battery installation = [[Drop-In Battery Cavity]] or [[Vehicle-Integrated Battery]]; charge access = [[Truck Charging Port]] (alias On-Vehicle Charge Inlet), [[Battery-Direct Charge Connection]], or [[Battery Onboard Charger]] (charger built into the truck, mains inlet on the vehicle). A truck can offer more than one.
 - **Rule:** a value is recorded only where a page or sheet states it. Where a source is silent the cell says "not found"; no industry default is assumed. Lead-acid trucks are very likely drop-in, but that is not recorded without a source.
-- **Result:** of 39 electric truck and AGV rows, 19 have a battery-installation value and 11 have a charge-access value. Most gaps need the OEM spec sheet (IB-201).
+- **Result (recounted 2026-10-14, counting cells that link a term):** of 41 rows, 22 have a battery-installation value and 9 have a charge-access value. Most remaining gaps need the OEM spec sheet (IB-201).
 
 | Truck note | Battery installation | Evidence | Charge access | Evidence | Gap |
 |---|---|---|---|---|---|
@@ -30,11 +30,11 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Cat EP14-20 (Europe) | not found (lead-acid or Li option) | - | not found | - | Cat EAME brochure |
 | Cat EP25-55 80 V (Europe) | lead-acid default; Li "LIBAT" factory-fit or conversion kit | V; swap-in form inferred from the kit, not stated | charging hatch and socket standard with Li: [[Truck Charging Port]] | V | lead-acid charging not stated |
 | Cat Electric Lift Trucks (North America) | not found | - | not found | - | no battery data on the series page |
-| Crown FC 5700 | Li "Integrated Lithium-Ion System", no swapping (vendor wording) | V wording only; not linked (C246) | not found | - | FC 5700 spec sheet |
+| Crown FC 5700 | [[Drop-In Battery Cavity]] (lift-out or side removal standard; Li optional) | V (spec sheet); brochure says "Integrated Lithium-Ion System", no swapping (C246) | not found (seat-deck connector options, purpose not stated) | - | charge path |
 | Crown RC 5700 | [[Drop-In Battery Cavity]] (DIN compartments B-E, rollers standard) | V | charging not described; 320 SBE battery connector standard | V connector; charge path inferred battery-direct, not linked | how charged and changed |
-| Crown SC | not found | - | not found | - | SC spec sheet |
-| Crown RR-RD 5700 | not found (24 V RR, 36 V RD) | - | not found | - | RR/RD spec sheet |
-| Crown RM-RMD 6000 | not found | - | not found | - | RM/RMD spec sheet |
+| Crown SC | [[Drop-In Battery Cavity]] (side extraction, top access) | V | [[Truck Charging Port]] (optional QuickCharge seat-deck connectors) | V (option) | standard charge path |
+| Crown RR-RD 5700 | [[Drop-In Battery Cavity]] (RD: both-side removal, rollers) | V for RD; RR not covered | not found | - | RR sheet; charging |
+| Crown RM-RMD 6000 | [[Drop-In Battery Cavity]] (either-side removal, rollers) | V | not found | - | charging |
 | Doosan Bobcat 7-Series Plus | [[Quick-Change Battery Compartment]] (so drop-in) | V (existing) | not found | - |  |
 | Doosan Bobcat NXE | not found (Li option, "low-profile battery") | - | not found | - | NXE brochure |
 | Hangcha A | [[Drop-In Battery Cavity]] with optional side change | V | not specified; charger paired with each Li model | - | connector |
@@ -45,7 +45,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Komatsu FB | not found | - | not found | - | Komatsu FB brochure |
 | Linde 1293 (E20BHP/E25BHP) | not found (Li) | - | not found | - | Linde spec sheet |
 | Linde 6-8 t electric | not found | - | not found | - |  |
-| Linde E Series | [[Drop-In Battery Cavity]] (replaceable battery system) | V (stated in Ei item) | not found | - |  |
+| Linde E Series | [[Drop-In Battery Cavity]] (vertical and lateral change, 180 degree door) | V (datasheet and Ei item) | not found | - | charging |
 | Linde Ei | [[Vehicle-Integrated Battery]] (permanently integrated) | V | optional onboard charger on a standard outlet: [[Battery Onboard Charger]] | V | charge port |
 | Mitsubishi FB 3-wheel | not found | - | not found | - | 2012 item has no battery data |
 | Mitsubishi FBC | not found | - | not found | - |  |
@@ -58,13 +58,13 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Raymond 8000 (8210) | not found (24 V battery, Li compatible) | - | Delta-Q on-board charger: [[Battery Onboard Charger]] | V (development host, caution) | battery installation |
 | STILL RX 60 | [[Drop-In Battery Cavity]] (lateral change) | V (T3 dealer page) | not found | - |  |
 | STILL EXH-SF | [[Drop-In Battery Cavity]] (lateral change) | V | optional built-in onboard charger: [[Battery Onboard Charger]] | V | connector |
-| Toyota 3-Wheel | not found (Li-powered) | - | not found | - |  |
+| Toyota 3-Wheel | [[Drop-In Battery Cavity]] (optional roll-out or slide-out) | V (option) | not found (optional fast charge) | - | charge inlet |
 | Toyota Traigo48 | [[Quick-Change Battery Compartment]]; Traigo_i [[Vehicle-Integrated Battery]] | V (existing) | Traigo_i charging port in counterweight: [[Truck Charging Port]] | V (existing) |  |
 | UniCarriers MX2 and MXL | [[Drop-In Battery Cavity]] (separate 80 V 775 Ah battery, weights, connector cable) | V (spec fields, T3) | not found; Triathlon Li is a factory option | - | Triathlon integration |
-| UniCarriers SCX N2 | not found (Li option) | - | not found | - |  |
+| UniCarriers SCX N2 | not found (older SCX sheet: rollers and side gates) | - | not found | - | N2 sheet |
 | Yale ERC050-060VGL | [[Vehicle-Integrated Battery]] | V | optional onboard charger; off-board chargers approved: [[Battery Onboard Charger]] | V (existing) | charge port |
 | Yale ERC080VHL | [[Vehicle-Integrated Battery]] | V | not found | - | charge port |
-| Jungheinrich ETV C16/C20 | not found | - | not found | - |  |
+| Jungheinrich ETV C16/C20 | [[Drop-In Battery Cavity]] (sideways change) | V, T3 single listing | not found | - | OEM sheet; charging |
 | Mitsubishi FG/FD, UniCarriers Nomad | not applicable (internal combustion) | - | not applicable | - |  |
 | Rocla ART/AWT | not found | - | not found | - | AGV data sheets |
 

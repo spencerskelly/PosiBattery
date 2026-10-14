@@ -14,6 +14,7 @@ designOf:
   - "[[Cat EP25-55 80 V Electric Counterbalance Forklifts]]"
   - "[[Toyota Traigo48]]"
   - "[[Hyster J1.5-3.0UT(L)]]"
+  - "[[Crown SC Series]]"
 ---
 
 # Truck Charging Port

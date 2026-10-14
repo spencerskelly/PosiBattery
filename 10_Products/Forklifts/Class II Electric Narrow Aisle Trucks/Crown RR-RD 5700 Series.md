@@ -10,12 +10,16 @@ tags:
   - forklift-model
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
+describedBy:
+  - "[[Document - Crown RD 5700 Specification Sheet]]"
 performs:
   - "[[Slow Truck in Curves]]"
   - "[[Limit Truck Speed Automatically]]"
   - "[[Reduce Wheel Slip]]"
   - "[[Assist Lift Positioning]]"
   - "[[Show Camera View to Operator]]"
+hasDesign:
+  - "[[Drop-In Battery Cavity]]"
 madeBy:
   - "[[Crown Equipment]]"
 ---
@@ -37,6 +41,10 @@ Crown reach truck series.
   - [[Reduce Wheel Slip]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
   - [[Assist Lift Positioning]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
   - [[Show Camera View to Operator]] (V): <https://www.crown.com/en-au/forklifts/reach-trucks/rr-rd-rider-deep-reach-truck.html>
+
+- **Battery integration and charging interface (2026-10-14, gap fill):** RD 5700 sheet: removal from both sides with rollers, SB350 connector; RR (24 V per Crown page) not covered by this sheet. Charging not described. Source: <https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf>
+- **Design characteristics, with citations:**
+  - [[Drop-In Battery Cavity]] (V for RD, both-side removal with rollers): <https://www.crown.com/dam/crown/pdfs/en-us/specifications/rd-5700-specifications.pdf>
 
 ## Aliases
 
