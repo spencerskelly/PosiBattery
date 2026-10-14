@@ -18,6 +18,8 @@ childOf:
   - "[[Know and Protect Battery Condition]]"
 describedBy:
   - "[[BMS Function Definitions]]"
+performedBy:
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
 ---
 
 # Protect Battery from Harm

@@ -44,6 +44,7 @@ Operating Temperature Range: shared metric used for monitors, chargers, batterys
   - [[Flow-Rite Eagle Eye Essential IV]]: -40 to 185 F (-40 to 85 C)
   - [[Godrej Multi-Ion Forklift Battery]]: ambient above 45 C (maker claim)
   - [[Green Cubes GSE Lithium Battery]]: heaters; range not stated
+  - [[Green Cubes SAFEFlex PLUS Battery]]: with heater -20 to +54 C (24 V), +55 C (36 V), +50 C (48 V), +53 C (80 V); without heater 0 C to the same upper limits (2026 sources); -4 to 122 F in the 2025 datasheet (C215)
   - [[HOPPECKE trak collect]]: use -30 to 80 C (data sheet); earlier note: use -30 to 80 C; storage -30 to 80 C
   - [[Inventus Smart Battery Monitor SBM-01]]: -30 to 70 C; storage -40 to 80 C
   - [[Lester Summit Series II]]: -25 to 60 C; storage -40 to 85 C

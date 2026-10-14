@@ -27,6 +27,7 @@ designOf:
   - "[[Godrej Lithium-Ion Forklift Battery]]"
   - "[[Green Cubes GSE Lithium Battery]]"
   - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[HOPPECKE trak power Lithium Battery]]"
   - "[[Jungheinrich Lithium-Ion Battery]]"
   - "[[Stryten M-Series Li610 Battery]]"

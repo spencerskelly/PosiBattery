@@ -27,6 +27,7 @@ designOf:
   - "[[Exide Motion+ Premium Charger]]"
   - "[[Flux Power GSE Pack]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Hyster Power Cellect]]"
   - "[[Inventus Smart Battery Monitor SBM-01]]"
   - "[[PosiCharge BMID 3]]"

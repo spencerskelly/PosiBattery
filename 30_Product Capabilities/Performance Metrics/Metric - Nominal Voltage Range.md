@@ -53,7 +53,7 @@ Nominal Voltage Range: shared metric used for monitors, chargers, batterys.
   - [[GS Yuasa Traction Battery (Europe)]]: 24, 48 and 80 V (2 V cells)
   - [[Green Cubes GSE Lithium Battery]]: 80 V (FBP-1000)
   - [[Green Cubes SAFEFlex Battery]]: 48 V (FBP-1000)
-  - [[Green Cubes SAFEFlex PLUS Battery]]: 24, 36, 48, 80 V
+  - [[Green Cubes SAFEFlex PLUS Battery]]: 24, 36, 48, 80 V classes; nominal 25.6, 38.4, 51.2, 83.2 V (product page, 2026)
   - [[HOPPECKE trak collect]]: supply 17-150 VDC (data sheet); earlier note: supply 17-150 VDC
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 80 V on the XC Mid FB40Li (dealer); other voltages not stated
   - [[Heli Lithium-Ion Battery]]: 153.6 V; 80 V (dealer pages)

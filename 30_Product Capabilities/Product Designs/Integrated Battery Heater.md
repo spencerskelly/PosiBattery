@@ -15,6 +15,7 @@ designOf:
   - "[[Flux Power GSE Pack]]"
   - "[[Flux Power LiFT Pack]]"
   - "[[Green Cubes GSE Lithium Battery]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Heli G Series Lithium Forklifts]]"
   - "[[Heli Lithium-Ion Battery]]"

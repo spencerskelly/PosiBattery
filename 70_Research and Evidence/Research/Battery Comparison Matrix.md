@@ -43,7 +43,7 @@ Side-by-side stated performance of traction batteries on seven metrics, with con
 | [[Flux Power S-Series Battery]] | n/s | n/s | n/s | n/s | n/s | BMS and telemetry | UL Type EE | [[Flux Power S-Series Battery]] |
 | [[Green Cubes GSE Lithium Battery]] | lithium iron phosphate | 80 V (FBP-1000) | n/s | n/s | n/s | BMS on top; CANbus | n/s | [[Green Cubes GSE Lithium Battery]] |
 | [[Green Cubes SAFEFlex Battery]] | n/s | 48 V (FBP-1000) | n/s | n/s | n/s | n/s | n/s | [[Green Cubes SAFEFlex Battery]] |
-| [[Green Cubes SAFEFlex PLUS Battery]] | n/s | 24, 36, 48, 80 V | n/s | n/s | n/s | n/s | UL certified with EE rating | [[Green Cubes SAFEFlex PLUS Battery]] |
+| [[Green Cubes SAFEFlex PLUS Battery]] | lithium iron phosphate | 24, 36, 48, 80 V classes (25.6 to 83.2 V nominal) | 315-945 Ah across classes | n/s | n/s | modular BMS; CAN, USB, Wi-Fi | UL 2580:2020, Type EE (pending in 2025 datasheet) | [[Green Cubes SAFEFlex PLUS Battery]] |
 | [[Jungheinrich Lithium-Ion Battery]] | n/s | n/s | 360 Ah cells | n/s | n/s | n/s | n/s | [[Jungheinrich Lithium-Ion Battery]] |
 | [[Stryten M-Series AGM200 Battery]] | AGM (valve-regulated) | n/s | n/s | n/s | n/s | n/s | n/s | [[Stryten M-Series AGM200 Battery]] |
 | [[Stryten M-Series AGM220 Battery]] | n/s | 24 V (four 6 V AGM210) | n/s | n/s | n/s | n/s | n/s | [[Stryten M-Series AGM220 Battery]] |

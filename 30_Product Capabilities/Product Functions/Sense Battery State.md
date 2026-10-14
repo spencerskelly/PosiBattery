@@ -26,6 +26,7 @@ childOf:
   - "[[Know and Protect Battery Condition]]"
 performedBy:
   - "[[Flux Power GSE Pack]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
 ---
 
 # Sense Battery State

@@ -11,11 +11,12 @@ tags:
 subtypeOf:
   - "[[Protect Battery from Harm]]"
 performedBy:
-  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Batrium CellMate-K9]]"
   - "[[EnerSys NexSys iON Battery]]"
+  - "[[Green Cubes SAFEFlex Battery]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[Orion BMS 2]]"
   - "[[REC Active BMS]]"
-  - "[[Batrium CellMate-K9]]"
 describedBy:
   - "[[BMS Function Definitions]]"
 ---

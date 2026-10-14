@@ -28,6 +28,7 @@ Cycle Life and Warranty: Stated cycle life and warranty.
   - [[Flux Power GSE Pack]]: over 3,500 cycles at 80 percent depth of discharge, no end-of-life basis stated (2023 GSE3 sheet, maker claim); warranty not stated
   - [[Godrej Lithium-Ion Forklift Battery]]: 5,000 cycles (maker claim) against 1,200 for lead-acid
   - [[Godrej Multi-Ion Forklift Battery]]: up to 5,000 cycles; 7-year warranty (trade report)
+  - [[Green Cubes SAFEFlex PLUS Battery]]: 4,000 cycles (maker claim, no end-of-life basis stated); warranty not stated
   - [[Hangcha Lithium Iron Phosphate Battery Pack]]: 6 years or 12,000 hours (2024 and 2025 brochures)
   - [[Heli Lithium-Ion Battery]]: 48 months (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: up to 3,000 full cycles versus 900-1,200 for lead-acid (trade report)

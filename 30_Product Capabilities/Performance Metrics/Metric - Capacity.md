@@ -27,6 +27,7 @@ Capacity: Rated capacity.
   - [[Deka MaxPowr Battery]]: up to 10% more amp-hours in the same size
   - [[Flux Power GSE Pack]]: 300-600 Ah modular (2016 report); 210, 315, 420 or 630 Ah (16.8 to 50.4 kWh) across GSE2, GSE3, GSE4 and GSE6 (2021 brochure); GSE3 315 Ah, 24.2 kWh (2023 sheet) (C212, C213)
   - [[Flux Power LiFT Pack]]: 250 Ahe
+  - [[Green Cubes SAFEFlex PLUS Battery]]: 420-630 Ah (24 V class), 525-945 Ah (36 V), 525-840 Ah (48 V), 315-735 Ah (80 V); 11 to 61 kWh (2026 sources); 36 V 630-840 Ah in the 2025 datasheet (C215)
   - [[Heli Lithium-Ion Battery]]: 230 Ah (153.6 V), 150 Ah and 250 Ah (80 V) (dealer pages)
   - [[Jungheinrich Lithium-Ion Battery]]: 360 Ah cells
   - [[Leoch PzS Traction Battery]]: 200 to 400 Ah at 5 h per 2 V cell (2PzS200 to 5PzS400)

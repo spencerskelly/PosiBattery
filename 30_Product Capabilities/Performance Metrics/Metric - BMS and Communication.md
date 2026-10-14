@@ -34,6 +34,7 @@ BMS and Communication: Integrated BMS, display and communication interfaces.
   - [[Flux Power S-Series Battery]]: BMS and telemetry
   - [[Green Cubes GSE Lithium Battery]]: BMS on top; CANbus
   - [[Green Cubes SAFEFlex Battery]]: internal BMS balancing; CAN voltage auto-detect at the Lithium SAFEFlex charger
+  - [[Green Cubes SAFEFlex PLUS Battery]]: modular distributed BMS with cell monitoring and data logging; CAN bus (separate truck and charger buses), USB, Wi-Fi, OTA firmware; Ethernet in the 2025 datasheet (C215)
   - [[Hyster Power Cellect]]: BMS adjusts charge current with the charger over a custom CAN protocol and opens the charge contactor on an unsafe cell; only recommended chargers
   - [[Stryten M-Series Li600 Battery]]: configurable CANbus; remote monitoring; touchscreen diagnostics
   - [[Stryten M-Series Li610 Battery]]: onboard display; inCOMMAND

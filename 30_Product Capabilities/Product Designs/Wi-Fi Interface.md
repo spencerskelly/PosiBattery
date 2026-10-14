@@ -10,10 +10,11 @@ tags:
 subtypeOf:
   - "[[Wireless Interface Design]]"
 designOf:
+  - "[[ACT ACTview]]"
   - "[[Advanced Charging Technologies BATTview]]"
+  - "[[Green Cubes SAFEFlex PLUS Battery]]"
   - "[[PosiCharge High Voltage Power Station (AC)]]"
   - "[[Stryten X-3 Charger]]"
-  - "[[ACT ACTview]]"
   - "[[Wi-Fi Communication Circuit]]"
 ---
 
