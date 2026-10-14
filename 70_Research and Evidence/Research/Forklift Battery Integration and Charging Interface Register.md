@@ -53,7 +53,7 @@ Per-truck register of how the battery is installed (drop-in cavity or vehicle-in
 | Mitsubishi FBCS | [[Drop-In Battery Cavity]] (compartment dims, roller height) | V (spec fields) | not found | - | connector |
 | Mitsubishi FB25-55N (Americas) | not found | - | not found | - |  |
 | Raymond 4000 | [[Drop-In Battery Cavity]] (optional right-hand rollout) | V | not found | - | Li charging |
-| Raymond 7000 | not found | - | not found | - | 7500 page silent |
+| Raymond 7000 | not found (36 V per 7700 page) | - | not found | - | 7500 page silent |
 | Raymond Orderpickers | [[Drop-In Battery Cavity]] (standardized compartment widths) | V (5500 page) | not found | - |  |
 | Raymond 8000 (8210) | not found (24 V battery, Li compatible) | - | Delta-Q on-board charger: [[Battery Onboard Charger]] | V (development host, caution) | battery installation |
 | STILL RX 60 | [[Drop-In Battery Cavity]] (lateral change) | V (T3 dealer page) | not found | - |  |

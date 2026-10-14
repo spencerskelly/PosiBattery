@@ -13,6 +13,7 @@ subtypeOf:
 describedBy:
   - "[[Document - Raymond 4000 Series Sit-Down Sell Sheet (dealer-hosted)]]"
   - "[[Document - Raymond 4460 Sit-Down Page (retrieved 2026-10-14)]]"
+  - "[[Document - Raymond 4750 Counterbalanced Sell Sheet]]"
 performs:
   - "[[Stop Vehicle When Operator Is Out of Position]]"
   - "[[Shelter Operator from Weather]]"
@@ -53,6 +54,8 @@ Raymond stand-up and sit-down electric counterbalanced trucks including the 4460
 - **Battery integration (2026-10-14):** the 4460 page offers an optional right-hand battery rollout for faster changes and says batteries can be shared with an existing fleet. Source: <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
 - **Design characteristics, with citations:**
   - [[Drop-In Battery Cavity]] (V, battery rollout option): <https://raymondcorp.com/lift-trucks/counterbalanced-trucks/4460-sit-down-forklift>
+
+- **Update 2026-10-14 (4750 sell sheet):** 36 or 48 V; battery change method, lithium and charger not stated on this sheet (the 4460 page states the optional right-hand side rollout); Performance Stability System (active mast control and rear-axle swing lock) and attachments (multiple load handler, layer picker, carton clamps, rotating forks) named. Source: <https://www.carolinahandling.com/-/media/raymond/literature/truck-literature/counterbalanced-trucks/raymond-counterbalanced---4750-8k-10k-12k-sell-sheet.pdf> (T2)
 
 ## Aliases
 
