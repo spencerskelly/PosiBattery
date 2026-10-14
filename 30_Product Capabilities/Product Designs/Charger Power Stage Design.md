@@ -17,6 +17,10 @@ dependencyOf:
   - "[[BMS-Directed Charge Control Design]]"
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Adaptive Charge Profile Control Design]]"
+  - "[[Charge Battery Fast]]"
+  - "[[Charge Battery by Opportunity]]"
+  - "[[Charge Battery Conventionally]]"
+  - "[[Charge Lithium-Ion Battery]]"
 ---
 
 # Charger Power Stage Design

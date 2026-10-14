@@ -30,6 +30,8 @@ performedBy:
   - "[[UniCarriers MX2 and MXL Series]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
+dependsOn:
+  - "[[Steering-Angle Curve Speed Control]]"
 ---
 
 # Slow Truck in Curves
@@ -40,6 +42,7 @@ Reduce speed automatically when cornering.
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Steering-Angle Curve Speed Control]]. Only 3 of the 16 performers state what is measured; the other 13 are linked to the Function but not to the Design (C271).
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

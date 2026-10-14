@@ -15,6 +15,8 @@ subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:
   - "[[Slow Truck in Curves]]"
+hasDesign:
+  - "[[Steering-Angle Curve Speed Control]]"
 madeBy:
   - "[[STILL]]"
 offeredWith:

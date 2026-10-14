@@ -50,6 +50,9 @@ performedBy:
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"
+dependsOn:
+  - "[[Charger Power Stage Design]]"
+  - "[[Charge Profile Control Design]]"
 ---
 
 # Charge Battery by Opportunity
@@ -60,6 +63,7 @@ Top up a battery in short sessions during breaks to keep it within a state-of-ch
 
 ## Notes
 
+- **Solution link added 2026-10-14 (analyst reasoning; no source states the split):** depends on [[Charger Power Stage Design]] and [[Charge Profile Control Design]]; both are needed together, as the power stage delivers the current and the profile decides its shape over time. Performers include batteries as well as chargers; the battery side (a chemistry or construction that accepts the rate) has no Design yet (IB-233).
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

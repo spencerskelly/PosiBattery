@@ -9,6 +9,8 @@ tags:
   - lead-acid
   - desulfation
   - charge-control
+subtypeOf:
+  - "[[Charge Profile Control Design]]"
 designOf:
   - "[[Desulfation Charge Control Firmware]]"
   - "[[EnerSys Express Charger]]"

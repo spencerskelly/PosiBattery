@@ -8,6 +8,8 @@ tags:
   - charger
   - temperature
   - charge-control
+subtypeOf:
+  - "[[Charge Profile Control Design]]"
 supertypeOf:
   - "[[Direct Temperature Input Charge Compensation]]"
   - "[[Communicated Battery Temperature Charge Compensation]]"

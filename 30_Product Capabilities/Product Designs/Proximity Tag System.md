@@ -17,6 +17,8 @@ designOf:
   - "[[Jungheinrich zoneCONTROL]]"
   - "[[Linde Safety Guard Truck Unit]]"
   - "[[Linde Safety Guard]]"
+dependencyOf:
+  - "[[Limit Vehicle Motion by Location Zone]]"
 ---
 
 # Proximity Tag System

@@ -19,6 +19,8 @@ supertypeOf:
   - "[[Seat Belt Interlock]]"
   - "[[Operator Access Authorization Design]]"
   - "[[Pre-Shift Checklist Enforcement Design]]"
+  - "[[Steering-Angle Curve Speed Control]]"
+  - "[[Stability-Limit Function Intervention]]"
 ---
 
 # Vehicle Control Device Design

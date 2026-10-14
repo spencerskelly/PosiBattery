@@ -2730,3 +2730,24 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Charge Profile Control Design.md":
+    classification: engineering_support
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Steering-Angle Curve Speed Control.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Stability-Limit Function Intervention.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."

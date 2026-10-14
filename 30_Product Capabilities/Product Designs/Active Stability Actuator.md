@@ -11,6 +11,8 @@ subtypeOf:
   - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Toyota System of Active Stability]]"
+dependencyOf:
+  - "[[Stabilize Truck Dynamically]]"
 ---
 
 # Active Stability Actuator

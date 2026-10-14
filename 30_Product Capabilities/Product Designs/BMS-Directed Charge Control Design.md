@@ -9,6 +9,8 @@ tags:
   - bms
   - lithium
   - control
+subtypeOf:
+  - "[[Charge Profile Control Design]]"
 supertypeOf:
   - "[[CAN BMS-Directed Charging]]"
 designOf:

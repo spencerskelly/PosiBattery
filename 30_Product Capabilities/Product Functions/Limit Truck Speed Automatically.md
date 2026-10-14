@@ -41,6 +41,8 @@ performedBy:
   - "[[Logisnext Lift Link]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
+dependsOn:
+  - "[[Object and Proximity Sensing Design]]"
 ---
 
 # Limit Truck Speed Automatically
@@ -51,6 +53,7 @@ Reduce travel speed, acceleration or hydraulic functions automatically when a ha
 
 ## Notes
 
+- **Solution link added 2026-10-14 (from the proposed list):** depends on [[Object and Proximity Sensing Design]] for the object-in-path and person-near-truck triggers (Crown LiDAR, Toyota stereoscopic vision, Linde and Jungheinrich tags). Other triggers are separate Functions with their own Designs: load and lift height ([[Adapt Speed to Load and Lift Height]]), curves ([[Slow Truck in Curves]]) and zones ([[Limit Vehicle Motion by Location Zone]]). Speed-cap options such as RCT Muirhead kits and Raymond Travel Speed Control state no sensing and are not linked to a Design.
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

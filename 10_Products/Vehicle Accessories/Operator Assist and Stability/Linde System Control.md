@@ -16,6 +16,8 @@ subtypeOf:
 performs:
   - "[[Adapt Speed to Load and Lift Height]]"
   - "[[Slow Truck in Curves]]"
+hasDesign:
+  - "[[Steering-Angle Curve Speed Control]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---

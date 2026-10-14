@@ -36,6 +36,9 @@ performedBy:
   - "[[MIDATRON HF Charger]]"
 realizes:
   - "[[Charge Each Battery Correctly for Its Chemistry and Condition]]"
+dependsOn:
+  - "[[Charger Power Stage Design]]"
+  - "[[Charge Profile Control Design]]"
 ---
 
 # Charge Battery Conventionally
@@ -46,6 +49,7 @@ Recharge a battery over a full shift break or overnight at a tapering rate, typi
 
 ## Notes
 
+- **Solution link added 2026-10-14 (analyst reasoning; no source states the split):** depends on [[Charger Power Stage Design]] and [[Charge Profile Control Design]]; both are needed together, as the power stage delivers the current and the profile decides its shape over time. Performers include batteries as well as chargers; the battery side (a chemistry or construction that accepts the rate) has no Design yet (IB-233).
 - **Need served (analyst reasoning, 2026-10-14):** [[Charge Each Battery Correctly for Its Chemistry and Condition]]. Analyst reasoning: the tapering overnight charge is the standard profile for a one-shift lead-acid operation, so it is one profile the customer must be able to select. Customer work: recharging between shifts.
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).

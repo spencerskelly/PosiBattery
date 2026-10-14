@@ -17,6 +17,9 @@ performs:
   - "[[Stabilize Truck Dynamically]]"
   - "[[Slow Truck in Curves]]"
   - "[[Alert Operator of Hazards]]"
+hasDesign:
+  - "[[Steering-Angle Curve Speed Control]]"
+  - "[[Stability-Limit Function Intervention]]"
 madeBy:
   - "[[Hyster-Yale]]"
 ---

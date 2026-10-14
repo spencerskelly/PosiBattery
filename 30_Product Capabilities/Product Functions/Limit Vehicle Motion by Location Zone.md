@@ -22,6 +22,8 @@ performedBy:
   - "[[Linde Safety Guard Static Unit]]"
 realizes:
   - "[[Keep Trucks Slow in Hazardous Zones]]"
+dependsOn:
+  - "[[Proximity Tag System]]"
 ---
 
 # Limit Vehicle Motion by Location Zone
@@ -32,6 +34,7 @@ Reduce speed, acceleration or lift in zones defined by location, such as aisle e
 
 ## Notes
 
+- **Solution link added 2026-10-14 (from the proposed list):** depends on [[Proximity Tag System]], which 4 of 9 performers carry. The other performers (Raymond real-time location and zoning) do not state their location technology.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -48,7 +48,7 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Warn the Operator of People and Objects Near the Truck]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets; Airport eGSE fleets | 46 | 37 | 0 | 3 | V + G |
 | [[Warn Pedestrians of an Approaching Truck]] | [[Pedestrian Near Trucks]], [[Site Safety Manager]] | Material-handling fleets | 63 | 50 | 0 | 2 | V + G |
 | [[Prevent Tip-Overs and Overloads]] | [[Forklift Operator]], [[Site Safety Manager]] | Material-handling fleets | 45 | 33 | 0 | 9 | V + G |
-| [[Keep Trucks Slow in Hazardous Zones]] | [[Site Safety Manager]], [[Pedestrian Near Trucks]] | Material-handling fleets | 41 | 32 | 0 | 2 | V + G |
+| [[Keep Trucks Slow in Hazardous Zones]] | [[Site Safety Manager]], [[Pedestrian Near Trucks]] | Material-handling fleets | 42 | 32 | 0 | 2 | V + G |
 | [[Protect Aircraft and Ground Crew During Ground Operations]] | [[GSE Operator]], [[Fleet Operations Manager]] | Airport eGSE fleets | 21 | 9 | 0 | 5 | V |
 | [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 42 | 31 | 0 | 5 | V |
 | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 31 | 22 | 22 | 4 | V |
@@ -871,7 +871,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Jungheinrich zoneCONTROL]] | [[Keep Trucks Slow in Hazardous Zones]]; [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
 | [[Linde Motion Detection]] | [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
 | [[Linde Safety Guard]] | [[Keep Trucks Slow in Hazardous Zones]]; [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
-| [[Linde Safety Guard Truck Unit]] | [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
+| [[Linde Safety Guard Truck Unit]] | [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | [[Keep Trucks Slow in Hazardous Zones]] | - | - |
 | [[Linde Safety Guard Zone Marker]] | [[Keep Trucks Slow in Hazardous Zones]] | - | - | - |
 | [[Litum PathAware]] | [[Control Who Operates Each Truck]]; [[Keep Trucks Slow in Hazardous Zones]]; [[Retrofit Safety and Telematics Onto Existing Trucks]]; [[Right-Size the Fleet from Usage Data]]; [[Warn Pedestrians of an Approaching Truck]]; [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
 | [[Mallaghan Collision Avoidance System]] | [[Warn the Operator of People and Objects Near the Truck]] | - | - | - |
@@ -951,7 +951,8 @@ Generated list. A dash means no product in that route. M is carried over unchang
 ### Change history
 
 - 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269.
-- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269. Regenerated again the same day after 15 products were linked to functions (priority 5) and once more after 11 Function-to-Design links were added.
+- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269.
+- 2026-10-14 (charge-method and vehicle-behavior pass): the need map was regenerated after Function-to-Design links were added. One product, [[Linde Safety Guard Truck Unit]], gained route D to [[Keep Trucks Slow in Hazardous Zones]] through [[Proximity Tag System]]; need row count 41 to 42 products. Totals are unchanged (509 concrete, 438 reached: 410 F, 7 D, 21 O; 71 no route). See C269.
 - 2026-10-03: first generated map (round 39).
 - 2026-10-03: owner decision (Q20): design and option routes count as reached; metric route stays a hypothesis column.
 - 2026-10-03: round 40 gap review. Added routes D, O and M; linked 21 product notes to functions, designs or options from cited sources; added function [[Diagnose Vehicle Remotely]] and need [[Find and Fix Vehicle Faults Without Downtime]]; conflicts C107 to C110; backlog IB-136 to IB-140. See [[Research Change and Decision Tracker]].

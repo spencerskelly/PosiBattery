@@ -8,6 +8,8 @@ tags:
   - charger
   - adaptive-charging
   - control
+subtypeOf:
+  - "[[Charge Profile Control Design]]"
 supertypeOf:
   - "[[Ri-Based Adaptive Charging]]"
   - "[[Diagnostic-Loop Adaptive Charging]]"

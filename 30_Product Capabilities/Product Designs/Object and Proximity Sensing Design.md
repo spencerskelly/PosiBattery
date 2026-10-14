@@ -19,6 +19,7 @@ dependencyOf:
   - "[[Detect Pedestrians and Objects Near Truck]]"
   - "[[Slow and Stop Near Aircraft]]"
   - "[[Stop Truck for Detected Obstacle]]"
+  - "[[Limit Truck Speed Automatically]]"
 ---
 
 # Object and Proximity Sensing Design

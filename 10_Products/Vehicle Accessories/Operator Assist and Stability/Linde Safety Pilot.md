@@ -17,6 +17,8 @@ performs:
   - "[[Stabilize Truck Dynamically]]"
   - "[[Sense Load Weight and Lift Height]]"
   - "[[Restrict Lift When Load Exceeds Limit]]"
+hasDesign:
+  - "[[Stability-Limit Function Intervention]]"
 madeBy:
   - "[[Linde Material Handling]]"
 ---

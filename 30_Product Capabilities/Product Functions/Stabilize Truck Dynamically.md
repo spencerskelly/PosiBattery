@@ -22,6 +22,10 @@ performedBy:
   - "[[Yale Reliant Portfolio]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
+dependsOn:
+  - "[[Active Stability Actuator]]"
+  - "[[Stability-Limit Function Intervention]]"
+  - "[[Steering-Angle Curve Speed Control]]"
 ---
 
 # Stabilize Truck Dynamically
@@ -32,6 +36,7 @@ Intervene in travel or lift functions to keep the truck from becoming unstable o
 
 ## Notes
 
+- **Solution links added 2026-10-14:** two alternative Designs, [[Active Stability Actuator]] (axle lock, Toyota) and [[Stability-Limit Function Intervention]] (function limiting, Linde Safety Pilot, Hyster). Either is enough for a product; the other performers do not state their mechanism. [[Steering-Angle Curve Speed Control]] also supports this Function for Hyster Dynamic Stability System.
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
