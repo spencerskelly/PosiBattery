@@ -14,6 +14,8 @@ designOf:
   - "[[Conductix-Wampfler Enduro+ Charging Contacts]]"
   - "[[Raymond Courier AutoCharge System]]"
   - "[[Grenzebach AGV Contact Charging Station]]"
+dependencyOf:
+  - "[[Charge Battery by Automatic Contact]]"
 ---
 
 # Conductive Auto-Contact Charging

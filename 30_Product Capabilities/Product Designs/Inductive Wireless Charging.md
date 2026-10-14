@@ -21,6 +21,11 @@ designOf:
   - "[[Lindig L.inductive Charging Offer]]"
   - "[[Resonant Link Wireless Lift Truck Charger]]"
   - "[[Wiferion etaLINK 12000 Wireless Charging System]]"
+dependencyOf:
+  - "[[Charge Battery Wirelessly]]"
+  - "[[Charge Wirelessly Despite Misalignment]]"
+  - "[[Detect Foreign and Live Objects]]"
+  - "[[Exchange Charge Control Data Between Pads]]"
 ---
 
 # Inductive Wireless Charging

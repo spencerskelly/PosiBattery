@@ -15,6 +15,8 @@ performedBy:
   - "[[EnerSys NexSys AIR Wireless Charger]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
+dependsOn:
+  - "[[Inductive Wireless Charging]]"
 ---
 
 # Exchange Charge Control Data Between Pads
@@ -25,6 +27,7 @@ Pass charge control data across the wireless gap between the ground pad and the 
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Inductive Wireless Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Stated: Delta pad-to-pad link (also called Pad-to-Pad Link, PPL); NexSys AIR inductive data transfer between pads.
 - Links to products are made only where a source states the behavior. No Requirement is linked yet.
 

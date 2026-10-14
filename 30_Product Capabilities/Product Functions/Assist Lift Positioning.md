@@ -22,6 +22,8 @@ performedBy:
   - "[[Raymond Height-Tilt Indicator]]"
 realizes:
   - "[[Keep the Operator Positioned and Able to See the Work]]"
+dependsOn:
+  - "[[Fork Laser Guide]]"
 ---
 
 # Assist Lift Positioning
@@ -32,6 +34,7 @@ Help the operator position the forks or load, for example with preset heights or
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Fork Laser Guide]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -18,6 +18,8 @@ performedBy:
   - "[[Grenzebach AGV Contact Charging Station]]"
 realizes:
   - "[[Charge Without Anyone Plugging In]]"
+dependsOn:
+  - "[[Conductive Auto-Contact Charging]]"
 ---
 
 # Charge Battery by Automatic Contact
@@ -28,6 +30,7 @@ Charge through contacts that meet without a person plugging in.
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Conductive Auto-Contact Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

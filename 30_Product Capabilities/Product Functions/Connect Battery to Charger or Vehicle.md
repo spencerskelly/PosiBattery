@@ -27,6 +27,8 @@ performedBy:
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"
+dependsOn:
+  - "[[Manual Plug-In Charging]]"
 ---
 
 # Connect Battery to Charger or Vehicle
@@ -37,6 +39,7 @@ Provide the plug, cable or connector that joins a battery to a charger or vehicl
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Manual Plug-In Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Accessory behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

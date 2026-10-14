@@ -16,6 +16,8 @@ designOf:
 describedBy:
   - "[[External BMS Product Landscape]]"
   - "[[BMS Function Definitions]]"
+dependencyOf:
+  - "[[Balance Cells]]"
 ---
 
 # Active Cell Balancing

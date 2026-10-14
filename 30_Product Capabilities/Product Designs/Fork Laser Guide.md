@@ -13,6 +13,8 @@ designOf:
   - "[[Raymond Fork-Tip Laser Guide]]"
   - "[[Toyota Acu-Laser]]"
   - "[[Toyota Assist]]"
+dependencyOf:
+  - "[[Assist Lift Positioning]]"
 ---
 
 # Fork Laser Guide

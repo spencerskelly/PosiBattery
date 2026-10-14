@@ -26,6 +26,8 @@ performedBy:
   - "[[Resonant Link Wireless Lift Truck Charger]]"
 realizes:
   - "[[Charge Without Anyone Plugging In]]"
+dependsOn:
+  - "[[Inductive Wireless Charging]]"
 ---
 
 # Charge Battery Wirelessly
@@ -36,6 +38,7 @@ Transfer charge without a plug-in connector.
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Inductive Wireless Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

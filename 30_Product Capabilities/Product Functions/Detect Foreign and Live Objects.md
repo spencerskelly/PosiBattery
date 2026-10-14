@@ -15,6 +15,8 @@ performedBy:
   - "[[Resonant Link Wireless Lift Truck Charger]]"
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
+dependsOn:
+  - "[[Inductive Wireless Charging]]"
 ---
 
 # Detect Foreign and Live Objects
@@ -25,6 +27,7 @@ Detect foreign or live objects near a wireless charging pad as a safety function
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Inductive Wireless Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Found in the documents absorbed in round 11. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

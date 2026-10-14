@@ -23,6 +23,9 @@ describedBy:
   - "[[BMS Function Definitions]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+dependsOn:
+  - "[[Active Cell Balancing]]"
+  - "[[Passive Cell Balancing]]"
 ---
 
 # Balance Cells
@@ -33,6 +36,8 @@ Equalize the charge of the cells in a pack so that no cell limits the usable cap
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Passive Cell Balancing]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
+- **Solution link added 2026-10-14:** depends on [[Active Cell Balancing]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Neutral definition: equalizing cells through energy dissipation, energy shuffling or reduced charge current (passive drains high cells through resistors as heat; active moves charge between cells) ([[Document - Wikipedia Battery Management System (retrieved 2026-10-13)]], [[Document - MathWorks Battery Management System Overview (retrieved 2026-10-13)]]).
 - Evidence for products: the vault records balancing by the internal BMS for Green Cubes SAFEFlex (see [[Green Cubes SAFEFlex Battery]]); the NexSys iON manual says its power modules can balance cells during use but gives no thresholds ([[Document - EnerSys NexSys iON Operating Manual (Spanish, GLOB-ES-OM-NEX-ION 0323)]]).
 - Lead-acid equalization is a different function: see [[Equalize Battery on Schedule]].

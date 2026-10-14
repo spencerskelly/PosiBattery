@@ -18,6 +18,8 @@ performedBy:
   - "[[Resonant Link Wireless Lift Truck Charger]]"
 realizes:
   - "[[Charge Without Anyone Plugging In]]"
+dependsOn:
+  - "[[Inductive Wireless Charging]]"
 ---
 
 # Charge Wirelessly Despite Misalignment
@@ -28,6 +30,7 @@ Charge across a wireless gap while the vehicle is not parked exactly over the pa
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Inductive Wireless Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Stated tolerances: NexSys AIR +/-20 mm; CW1000 and etaTRAY +/-30 mm; MOOVair 01 up to 20 mm; MOOVair 30 +/-50 mm; Resonant Link +/-6 in (vendor claim).
 - Links to products are made only where a source states the behavior. No Requirement is linked yet.
 

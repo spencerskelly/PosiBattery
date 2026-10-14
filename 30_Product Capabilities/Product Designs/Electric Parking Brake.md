@@ -14,6 +14,8 @@ designOf:
   - "[[Doosan Bobcat 7-Series Plus Electric Forklifts]]"
   - "[[Doosan Bobcat NXE Series Electric Forklifts]]"
   - "[[TUG Endurance Baggage Tractor]]"
+dependencyOf:
+  - "[[Hold Truck on Slope]]"
 ---
 
 # Electric Parking Brake

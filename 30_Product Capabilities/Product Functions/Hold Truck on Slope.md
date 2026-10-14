@@ -19,6 +19,8 @@ performedBy:
 realizes:
   - "[[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]"
   - "[[Park or Stop on a Ramp]]"
+dependsOn:
+  - "[[Electric Parking Brake]]"
 ---
 
 # Hold Truck on Slope
@@ -29,6 +31,7 @@ Keep the truck from rolling back or away on a slope.
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Electric Parking Brake]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - **Need served (analyst reasoning, 2026-10-14):** [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]]. See the need note for the customer work and the evidence.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).

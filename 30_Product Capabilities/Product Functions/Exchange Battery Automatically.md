@@ -16,6 +16,8 @@ performedBy:
 realizes:
   - "[[Charge Without Anyone Plugging In]]"
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
+dependsOn:
+  - "[[Automated Battery Swap]]"
 ---
 
 # Exchange Battery Automatically
@@ -26,6 +28,7 @@ Remove a depleted battery and fit a charged one by machine so that no person han
 
 ## Notes
 
+- **Solution link added 2026-10-14:** depends on [[Automated Battery Swap]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

@@ -53,15 +53,15 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 42 | 31 | 0 | 5 | V |
 | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 31 | 22 | 22 | 4 | V |
 | [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
-| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 45 | 32 | 4 | 7 | V |
+| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 54 | 32 | 4 | 7 | V |
 | [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 51 | 37 | 0 | 4 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 35 | 25 | 0 | 7 | V + manual |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 44 | 25 | 0 | 7 | V + manual |
 | [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 17 | 12 | 0 | 3 | V |
 | [[Act on Fleet Data Without Information Overload]] | [[Fleet Operations Manager]], [[Fleet Software Administrator]] | not yet assigned | 35 | 28 | 0 | 3 | V |
 | [[Charge Within Site Power Limits and Utility Costs]] | [[Fleet Operations Manager]] | not yet assigned | 11 | 9 | 0 | 1 | V |
 | [[Charge Without Anyone Plugging In]] | [[Fleet Operations Manager]], [[Forklift Operator]] | not yet assigned | 19 | 19 | 0 | 5 | V |
 | [[Handle Loads Without Damaging Them]] | [[Forklift Operator]], [[Fleet Operations Manager]] | not yet assigned | 3 | 2 | 0 | 1 | analyst |
-| [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | [[Forklift Operator]], [[Site Safety Manager]] | not yet assigned | 15 | 11 | 0 | 4 | analyst |
+| [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | [[Forklift Operator]], [[Site Safety Manager]] | not yet assigned | 16 | 11 | 0 | 4 | analyst |
 | [[Plan Battery Replacement and Budget Ahead]] | [[Fleet Operations Manager]] | not yet assigned | 48 | 39 | 0 | 4 | V |
 | [[Reduce Operator Effort and Fatigue]] | [[Forklift Operator]], [[Fleet Operations Manager]] | not yet assigned | 3 | 3 | 0 | 2 | analyst |
 | [[Right-Size the Fleet from Usage Data]] | [[Fleet Operations Manager]] | not yet assigned | 44 | 30 | 0 | 4 | V |
@@ -260,7 +260,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Stryten M-Series Li610 Battery]] | [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Charge Without a Ventilated Battery Room]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Return Trucks to Service Quickly After a Low Charge]] | - |
 | [[Toyota Lithium-Ion 5-35 Battery Series]] | [[Integrate the Battery with Truck and Charger Controls]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Find and Fix Vehicle Faults Without Downtime]] | - |
 | [[Triathlon Lithium-Ion Battery for UniCarriers]] | - | - | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Tip-Overs and Overloads]] | [[Charge Without a Ventilated Battery Room]]; [[Return Trucks to Service Quickly After a Low Charge]] |
-| [[Wiferion etaTRAY Battery Tray]] | [[Charge Without Anyone Plugging In]] | - | - | - |
+| [[Wiferion etaTRAY Battery Tray]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 
 #### Batteries/Valve-Regulated Lead-Acid Batteries
 
@@ -544,16 +544,16 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
-| [[Daihen D-Broad Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Delta MOOVair Wireless Charging Series]] | [[Charge Without Anyone Plugging In]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - | - |
+| [[Daihen D-Broad Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Delta MOOVair Wireless Charging Series]] | [[Charge Without Anyone Plugging In]]; [[Integrate the Battery with Truck and Charger Controls]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 | [[EnerSys NexSys AIR Wireless Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without Anyone Plugging In]]; [[Charge Without a Ventilated Battery Room]]; [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Keep Equipment Working in Cold, Wet and Dusty Conditions]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
-| [[Lindig L.inductive Charging Offer]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Resonant Link Wireless Lift Truck Charger]] | [[Charge Without Anyone Plugging In]]; [[Connect Chargers and Batteries Safely at the Site]] | - | - | - |
-| [[WiBotic 1kW Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Wiferion CW1000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Wiferion etaLINK 12000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Wiferion etaLINK 3000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | - | - | - |
-| [[Xnergy Wireless Charging Series]] | [[Charge Without Anyone Plugging In]] | - | - | - |
+| [[Lindig L.inductive Charging Offer]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Resonant Link Wireless Lift Truck Charger]] | [[Charge Without Anyone Plugging In]]; [[Connect Chargers and Batteries Safely at the Site]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[WiBotic 1kW Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Wiferion CW1000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Wiferion etaLINK 12000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Wiferion etaLINK 3000 Wireless Charging System]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
+| [[Xnergy Wireless Charging Series]] | [[Charge Without Anyone Plugging In]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 
 #### Fleet Software and Platforms
 
@@ -718,7 +718,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Charlatte T137-V3]] | - | - | - | - |
 | [[Linde P250 Electric Baggage Tractor]] | - | - | - | - |
 | [[Oshkosh AeroTech B80E Electric Baggage Tractor]] | - | - | - | - |
-| [[TUG Endurance Baggage Tractor]] | [[Find and Fix Vehicle Faults Without Downtime]]; [[Stretch Truck Run Time per Charge]] | - | - | - |
+| [[TUG Endurance Baggage Tractor]] | [[Find and Fix Vehicle Faults Without Downtime]]; [[Stretch Truck Run Time per Charge]] | [[Keep the Truck Under Control on Slopes, Slippery Floors and in Emergencies]] | - | - |
 
 #### Ground Support Equipment/Belt Loaders
 
@@ -950,7 +950,8 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 ### Change history
 
-- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269. Regenerated again the same day after 15 products were linked to functions (priority 5).
+- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269.
+- 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269. Regenerated again the same day after 15 products were linked to functions (priority 5) and once more after 11 Function-to-Design links were added.
 - 2026-10-03: first generated map (round 39).
 - 2026-10-03: owner decision (Q20): design and option routes count as reached; metric route stays a hypothesis column.
 - 2026-10-03: round 40 gap review. Added routes D, O and M; linked 21 product notes to functions, designs or options from cited sources; added function [[Diagnose Vehicle Remotely]] and need [[Find and Fix Vehicle Faults Without Downtime]]; conflicts C107 to C110; backlog IB-136 to IB-140. See [[Research Change and Decision Tracker]].

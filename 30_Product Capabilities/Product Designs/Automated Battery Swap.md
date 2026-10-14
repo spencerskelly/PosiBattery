@@ -12,6 +12,8 @@ subtypeOf:
 designOf:
   - "[[Concentric PowerHIVE]]"
   - "[[HOPPECKE AGV Battery Exchange System]]"
+dependencyOf:
+  - "[[Exchange Battery Automatically]]"
 ---
 
 # Automated Battery Swap

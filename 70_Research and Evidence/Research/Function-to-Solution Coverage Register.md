@@ -22,9 +22,9 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 ### Counts
 
-- **Functions:** 156. **74 have a linked solution** (a Design on the Function or on an ancestor Function); **82 do not**: 20 are goal or family functions with no performer (expected) and 62 have performers but no Design.
-- **Designs:** 226. **174 are tied to a Function** (directly or through a parent Design); 52 are not, and 43 of those are carried by 108 products.
-- Only 73 Designs link to a Function directly; the rest rely on a parent Design that does.
+- **Functions:** 156. **84 have a linked solution** (a Design on the Function or on an ancestor Function); **72 do not**: 20 are goal or family functions with no performer (expected) and 52 have performers but no Design.
+- **Designs:** 226. **178 are tied to a Function** (directly or through a parent Design); 48 are not, and 39 of those are carried by 101 products.
+- Only 81 Designs link to a Function directly; the rest rely on a parent Design that does.
 
 ### Alternative solutions
 
@@ -60,6 +60,7 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 | Design | Products carrying it | Functions it supports |
 |---|---|---|
+| [[Inductive Wireless Charging]] | 11 | [[Charge Battery Wirelessly]]; [[Charge Wirelessly Despite Misalignment]]; [[Detect Foreign and Live Objects]]; [[Exchange Charge Control Data Between Pads]] |
 | [[Vehicle State Sensing Design]] | 0 | [[Adapt Speed to Load and Lift Height]]; [[Inhibit Drive Until Equipment Is Stowed]]; [[Restrict Lift When Load Exceeds Limit]]; [[Sense Load Weight and Lift Height]] |
 | [[Wireless Interface Design]] | 1 | [[Diagnose Vehicle Remotely]]; [[Report Truck Telemetry]]; [[Transmit Battery Data Wirelessly]]; [[Upload Battery Data to Cloud Portal]] |
 | [[Object and Proximity Sensing Design]] | 0 | [[Detect Pedestrians and Objects Near Truck]]; [[Slow and Stop Near Aircraft]]; [[Stop Truck for Detected Obstacle]] |
@@ -94,27 +95,24 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 - A product with many Functions and few Designs means the Designs are coarse or missing; a product with many Designs and few Functions means the Functions are not modeled.
 
-### Functions with performers but no solution (62)
+### Functions with performers but no solution (52)
 
-[[Charge Battery by Opportunity]] (34), [[Charge Battery Fast]] (33), [[Limit Truck Speed Automatically]] (26), [[Charge Lithium-Ion Battery]] (22), [[Charge Battery Conventionally]] (21), [[Slow Truck in Curves]] (16), [[Connect Battery to Charger or Vehicle]] (13), [[Equalize Battery on Schedule]] (13), [[Charge Battery Wirelessly]] (11), [[Operate in Cold Storage]] (10), [[Stabilize Truck Dynamically]] (10), [[Assist Lift Positioning]] (9), [[Balance Charging Power Across Site Capacity]] (9), [[Limit Vehicle Motion by Location Zone]] (9), [[Balance Cells]] (8), [[Charge Battery]] (8), [[Start and Stop Charge Automatically]] (8), [[Operate in Wet or Dusty Conditions]] (7), [[Schedule Charging Around Vehicle Readiness]] (6), [[Charge Battery by Automatic Contact]] (5), [[Charge Wirelessly Despite Misalignment]] (5), [[Dispatch Vehicles to Tasks]] (5), [[Hold Truck on Slope]] (5), [[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Deliver Constant Power Through Shift]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Sense Battery State]] (4), [[Guide Battery Selection and Rotation]] (3), [[Share Power Between Charging Stations]] (3), [[Shelter Operator from Weather]] (3), [[Show Battery and Charger State in Fleet Software]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Cushion Fork Lowering]] (2), [[Damp Mast Oscillation]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Detect Foreign and Live Objects]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Exchange Battery Automatically]] (2), [[Exchange Charge Control Data Between Pads]] (2), [[Exchange Vehicle and Order Data with Warehouse System]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Protect Battery from Harm]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Float Charge Battery]] (1), [[Follow Vehicle Charge Setpoints over CANopen]] (1), [[Inform Users of Battery Condition]] (1), [[Manage Temperature During Fast Charging]] (1), [[Operate Truck Remotely]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Rotate Operator Workstation]] (1), [[Scale Charge Power by Module Count]] (1), [[Segment Discharge Cycles]] (1), [[Size Battery and Charger Fleet]] (1), [[Support Operator View and Positioning]] (1).
+[[Charge Battery by Opportunity]] (34), [[Charge Battery Fast]] (33), [[Limit Truck Speed Automatically]] (26), [[Charge Lithium-Ion Battery]] (22), [[Charge Battery Conventionally]] (21), [[Slow Truck in Curves]] (16), [[Equalize Battery on Schedule]] (13), [[Operate in Cold Storage]] (10), [[Stabilize Truck Dynamically]] (10), [[Balance Charging Power Across Site Capacity]] (9), [[Limit Vehicle Motion by Location Zone]] (9), [[Charge Battery]] (8), [[Start and Stop Charge Automatically]] (8), [[Operate in Wet or Dusty Conditions]] (7), [[Schedule Charging Around Vehicle Readiness]] (6), [[Dispatch Vehicles to Tasks]] (5), [[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Deliver Constant Power Through Shift]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Sense Battery State]] (4), [[Guide Battery Selection and Rotation]] (3), [[Share Power Between Charging Stations]] (3), [[Shelter Operator from Weather]] (3), [[Show Battery and Charger State in Fleet Software]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Cushion Fork Lowering]] (2), [[Damp Mast Oscillation]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Exchange Vehicle and Order Data with Warehouse System]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Protect Battery from Harm]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Float Charge Battery]] (1), [[Follow Vehicle Charge Setpoints over CANopen]] (1), [[Inform Users of Battery Condition]] (1), [[Manage Temperature During Fast Charging]] (1), [[Operate Truck Remotely]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Rotate Operator Workstation]] (1), [[Scale Charge Power by Module Count]] (1), [[Segment Discharge Cycles]] (1), [[Size Battery and Charger Fleet]] (1), [[Support Operator View and Positioning]] (1).
 
 - **Charge-method functions** (Charge Battery Fast, by Opportunity, Conventionally, Lithium-Ion) have 21 to 34 performers and no Design: the solution is a combination of a power stage and a charge control profile, not a single Design. This needs an owner decision on how to model a combination.
 - **Software functions** (Dispatch Vehicles to Tasks, Schedule Charging Around Vehicle Readiness, Balance Charging Power Across Site Capacity, Show Battery and Charger State in Fleet Software, Exchange Vehicle and Order Data with Warehouse System, Size Battery and Charger Fleet, Operate Truck Remotely) have no Design family at all; the Design layer has no software designs. A candidate family would be fleet software designs such as scheduler, load balancer, dispatcher and data gateway.
 - **Vehicle behavior functions** (Limit Truck Speed Automatically with 26 performers, Slow Truck in Curves 16, Stabilize Truck Dynamically 10) rely on option notes, not Designs.
 
-### Proposed Function-to-Design links (not applied)
+### Applied 2026-10-14 (owner approved)
+
+Seven high-confidence Designs linked, eleven Function-to-Design pairs: Inductive Wireless Charging to four wireless-charging functions; Conductive Auto-Contact Charging, Automated Battery Swap, Manual Plug-In Charging, Electric Parking Brake and Fork Laser Guide each to one function; Active Cell Balancing and Passive Cell Balancing (alternatives) to Balance Cells. Each Function note says so.
+
+### Still proposed (not applied)
 
 Proposals come from matching Design names to Functions and from how many of a Function's performers carry the Design; performer overlap alone gave false matches (for example Drop-In Battery Cavity against Hold Truck on Slope), so only name-plausible pairs are listed. Each link is an engineering judgment that the owner should confirm.
 
 | Design | Function | Confidence | Basis |
 |---|---|---|---|
-| Inductive Wireless Charging | Charge Battery Wirelessly; Charge Wirelessly Despite Misalignment; Detect Foreign and Live Objects; Exchange Charge Control Data Between Pads | high | 11 of 11 performers have it (misalignment 5 of 5, objects 2 of 2, pad data 2 of 2) |
-| Conductive Auto-Contact Charging | Charge Battery by Automatic Contact | high | 4 of 5 performers |
-| Automated Battery Swap | Exchange Battery Automatically | high | 2 of 2 performers |
-| Manual Plug-In Charging | Connect Battery to Charger or Vehicle | high | 6 of 13 performers; alternatives are Truck Charging Port and Automated Connector Charging |
-| Active Cell Balancing; Passive Cell Balancing | Balance Cells | high | alternatives; 2 and 1 products; Integrated Battery Management System also appears on 4 of 8 performers |
-| Electric Parking Brake | Hold Truck on Slope | high | 3 of 5 performers |
-| Fork Laser Guide | Assist Lift Positioning | high | 3 of 9 performers, name matches |
 | Ingress-Protected Drive Components | Operate in Wet or Dusty Conditions | medium | 4 of 7 performers |
 | Proximity Tag System | Limit Vehicle Motion by Location Zone | medium | 4 of 9 performers |
 | Integrated Battery Heater | Operate in Cold Storage | medium | 3 of 10 performers |
