@@ -18,9 +18,11 @@ performs:
   - "[[Share Power Between Charging Stations]]"
   - "[[Avoid Arcing at the Charge Connection]]"
   - "[[Equalize Battery on Schedule]]"
+  - "[[Reduce Charge Current in Site-Set Time Windows]]"
 hasDesign:
   - "[[Charger-Group Peer Load Management]]"
   - "[[Battery-Stored Equalization Schedule]]"
+  - "[[Time-Window Charge Current Setting]]"
 madeBy:
   - "[[PosiCharge]]"
 integratesWith:
@@ -46,6 +48,7 @@ PosiCharge multi-port GSE chargers for 24 to 96 V for tow tugs, baggage tractors
   - [[Share Power Between Charging Stations]] (V): <https://posicharge.com/wp-content/uploads/2026/01/MVS-400.pdf> (power sharing that prioritizes the lowest state of charge, up to three additional power stations)
   - [[Avoid Arcing at the Charge Connection]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], sections 1.2 and 4.4 (stops the charge automatically on a hot disconnection)
   - [[Equalize Battery on Schedule]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], section 4.5 (equalization schedule stored in the BMID)
+  - [[Reduce Charge Current in Site-Set Time Windows]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], section 4.7 (reduced charging in a user-set time window)
 - **Public-evidence baseline (added from the vault's baseline note, round 19):**
 - Multi-vehicle GSE fast-charge system. Public page lists a 40 kW power server, 24–96 V battery range, 250 A dual-mode / 500 A single-mode output, RS-232, 480/600 VAC input, 0.96 power factor, 90% efficiency, NEMA 3R, BMID recognition, power sharing, and up to eight simultaneous vehicles. Source: official PosiCharge page for MVS400, as summarized in the vault's Public Evidence Register (PUB-008 and PUB-009, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/mvs400/>
 - **Baseline confidence (MVS400):** Verified public—system level. **Still needed:** Obtain topology/configuration guide; explain power-server vs. power-station rating, valid port counts, output allocation, installation architecture, connector choices, and current commercial configuration.

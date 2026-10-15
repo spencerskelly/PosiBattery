@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Lead-Acid Desulfation Charge Control Design]]"
   - "[[Voltage-Triggered Ready-State Top-Up]]"
   - "[[Battery-Stored Equalization Schedule]]"
+  - "[[Time-Window Charge Current Setting]]"
 dependencyOf:
   - "[[Charge Battery Fast]]"
   - "[[Charge Battery by Opportunity]]"

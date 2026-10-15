@@ -14,6 +14,7 @@ supertypeOf:
   - "[[Balance Charging Power Across Site Capacity]]"
   - "[[Avoid Arcing at the Charge Connection]]"
   - "[[Start and Stop Charge from an External Control]]"
+  - "[[Reduce Charge Current in Site-Set Time Windows]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---

@@ -13,6 +13,7 @@ describedBy:
   - "[[Document - Charged EVs Xendee 2024 Commercial EV Charging Survey (2024-06-21)]]"
 realizedBy:
   - "[[Balance Charging Power Across Site Capacity]]"
+  - "[[Reduce Charge Current in Site-Set Time Windows]]"
 participants:
   - "[[Fleet Operations Manager]]"
 needOf:
@@ -40,7 +41,7 @@ Customer need: Charge Within Site Power Limits and Utility Costs. The problem be
   - [[Siemens depotfinity]]: the Advanced tier offers load-managed depot operation and the Premium tier dynamic load management and day-ahead optimization to reduce costs. Source: [[Document - Siemens depotfinity Page (retrieved 2026-10-14)]] (T1). <https://www.siemens.com/en-us/products/emobility/depotfinity>
 - **Industrial-truck evidence added 2026-10-14 (IB-221, vendor-stated):** [[Linde connect charger]] (Linde says peak demand is a major cost driver and that simultaneous charging after breaks or shift end raises demand; T2), [[Jungheinrich Active Load Management]] (avoid expensive load peaks, reduce energy and infrastructure cost; T1), [[Toyota Peak Load Management]] (avoid expensive power peaks; T2), [[Crown V-HFM3 Charger]] (Demand Response Management; the blog's example is a 4 to 9 p.m. peak window; T1), [[ACT ACTenergy]] (T3) and [[Fronius PV Connect]] (T2). Register: [[Forklift Charger Load Management Register]].
 - **Gaps:** no customer-side source; the EV and robot evidence is from fleet software and the industrial-truck evidence is from truck and charger makers' own systems (no savings figures); the savings figure is one customer result reported by the vendor; whether industrial truck chargers can be managed by an OCPP or EV-fleet platform is not shown (IB-221 answered 2026-10-14: no source found); no Requirement is linked.
-- **Products reaching this need:** 11 by function, design or option (owner decision, round 40: design and option routes count as reached); 9 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Battery and Charger Management (5), Fleet Software and Platforms (3), Chargers/Industrial Modular Chargers (1). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
+- **Products reaching this need:** 13 by function, design or option (owner decision, round 40: design and option routes count as reached); 11 of those perform a realizing function. Largest families by function: Fleet Software and Platforms/Battery and Charger Management (5), Fleet Software and Platforms (3), Chargers/Industrial Modular Chargers (3). The metric route (hypothesis, carried over) adds 0 more. Per-product routes in [[Product to Customer Need Map]]. Recounted 2026-10-14.
 
 ## Operational traceability
 
