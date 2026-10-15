@@ -55,7 +55,7 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
 | [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 58 | 32 | 4 | 7 | V |
 | [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 51 | 37 | 0 | 4 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 47 | 25 | 0 | 7 | V + manual |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 49 | 27 | 0 | 9 | V + manual |
 | [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 17 | 12 | 0 | 3 | V |
 | [[Act on Fleet Data Without Information Overload]] | [[Fleet Operations Manager]], [[Fleet Software Administrator]] | not yet assigned | 35 | 28 | 0 | 3 | V |
 | [[Charge Within Site Power Limits and Utility Costs]] | [[Fleet Operations Manager]] | not yet assigned | 11 | 9 | 0 | 1 | V |
@@ -498,7 +498,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Exide Element HF Charger]] | - | - | - | - |
 | [[Exide Motion+ Lithium Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[Fronius SelectION]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
-| [[Fronius Selectiva 4.0]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
+| [[Fronius Selectiva 4.0]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Connect Chargers and Batteries Safely at the Site]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
 | [[Green Cubes SAFEFlex Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[HOPPECKE trak charger HF premium]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | - | - | - |
 | [[ITW GSE DC Charger]] | - | - | - | - |
@@ -511,7 +511,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[PosiCharge MVS400 and MVS800]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge ProCore Edge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 | [[PosiCharge ProCore Solo]] | [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
-| [[PosiCharge SVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
+| [[PosiCharge SVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge SVS200]] | [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[Power Designers REVOLUTION X]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 | [[Raymond Red Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |

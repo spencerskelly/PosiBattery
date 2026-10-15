@@ -12,6 +12,8 @@ supertypeOf:
   - "[[Detect Foreign and Live Objects]]"
   - "[[Manage Temperature During Fast Charging]]"
   - "[[Balance Charging Power Across Site Capacity]]"
+  - "[[Avoid Arcing at the Charge Connection]]"
+  - "[[Start and Stop Charge from an External Control]]"
 childOf:
   - "[[Deliver Energy to Vehicles]]"
 ---
