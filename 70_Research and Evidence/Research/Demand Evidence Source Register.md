@@ -48,6 +48,7 @@ First-hand statements from the vault owner (PosiCharge engineering). They are cu
 | Statement | Date | Bears on |
 |---|---|---|
 | The general charging use case is drive up, plug in, walk away; some sites require a start and stop button to be pushed at the beginning and end of the charge | 2026-10-14 | [[Drive Up, Plug In and Walk Away]], [[Connect Chargers and Batteries Safely at the Site]], [[Return Trucks to Service Quickly After a Low Charge]] |
+| The start and stop button is required by a small number of customers, in production warehouses; it is a leftover of old chargers that sparked on connection, and current PosiCharge chargers stop charge automatically | 2026-10-14 | [[Drive Up, Plug In and Walk Away]], [[Start and Stop Charge from an External Control]], [[Avoid Arcing at the Charge Connection]] |
 
 ### Found by search, not yet opened
 
