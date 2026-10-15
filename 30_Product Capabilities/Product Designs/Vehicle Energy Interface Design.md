@@ -18,6 +18,7 @@ supertypeOf:
   - "[[Inductive Wireless Charging]]"
   - "[[Automated Connector Charging]]"
   - "[[Automated Battery Swap]]"
+  - "[[Battery Cabinet Cooling Fan]]"
 describedBy:
   - "[[Forklift Battery Integration and Charging Interface Register]]"
   - "[[Charger-Vehicle Interface Register]]"

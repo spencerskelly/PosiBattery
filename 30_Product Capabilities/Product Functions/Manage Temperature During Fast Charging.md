@@ -14,6 +14,8 @@ performedBy:
 realizes:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Opportunity-Charge a Vehicle During a Work Break]]"
+dependsOn:
+  - "[[Battery Cabinet Cooling Fan]]"
 ---
 
 # Manage Temperature During Fast Charging
@@ -24,6 +26,7 @@ Remove heat during fast charging so the charge can continue within temperature l
 
 ## Notes
 
+- **Solution link added 2026-10-14 (owner statement, U):** depends on [[Battery Cabinet Cooling Fan]]. The owner says the box cools the battery and sits in the vehicle's battery cabinet; the public listing gives no mechanism.
 - Added 2026-10-04 from the accessory marketed-features review. Product links only where a source states the behavior; no link means unknown.
 - **Customer need (2026-10-04, analyst link, hypothesis):** realizes [[Return Trucks to Service Quickly After a Low Charge]]; chosen as the need whose problem statement the function addresses (see [[Research Change and Decision Tracker]]).
 - **Depends on:** none written: no thermal management or cooling design note exists yet; PosiCharge names only a cooling fan box; rule and basis in [[Function Design Dependencies]].

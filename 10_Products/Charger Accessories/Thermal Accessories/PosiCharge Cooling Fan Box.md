@@ -14,6 +14,8 @@ subtypeOf:
   - "[[Charger Thermal Accessory]]"
 performs:
   - "[[Manage Temperature During Fast Charging]]"
+hasDesign:
+  - "[[Battery Cabinet Cooling Fan]]"
 madeBy:
   - "[[PosiCharge]]"
 ---
@@ -26,6 +28,7 @@ PosiCharge cooling fan accessory for ProCore chargers.
 
 ## Notes
 
+- **Owner statement 2026-10-14 (U):** the fan box is for the battery and fits into the battery cabinet in the vehicle. This is why it now carries [[Battery Cabinet Cooling Fan]]. The public listing says only 'for ProCore chargers', and this note's folder and parent class ([[Charger Thermal Accessory]]) place it with chargers, which the statement does not support (C273).
 **Summary:**
 PosiCharge cooling fan accessory marketed as thermal management for battery fast charging with ProCore chargers.
 
