@@ -22,6 +22,8 @@ participants:
 needOf:
   - "[[Equipment Installer]]"
   - "[[Forklift Operator]]"
+arisesIn:
+  - "[[Drive Up, Plug In and Walk Away]]"
 ---
 
 # Connect Chargers and Batteries Safely at the Site
@@ -47,7 +49,7 @@ Customer need: Connect Chargers and Batteries Safely at the Site. The problem be
 
 ## Operational traceability
 
-- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]].
+- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Drive Up, Plug In and Walk Away]] (owner statement 2026-10-14, U).
 - Operating contexts: [[Centralized Battery Room and Charging Area]], [[Distributed and Opportunity Charging Area]].
 
 ## Aliases

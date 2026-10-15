@@ -27,6 +27,7 @@ needOf:
   - "[[Forklift Operator]]"
 arisesIn:
   - "[[Schedule Charging for the Next Shift]]"
+  - "[[Drive Up, Plug In and Walk Away]]"
 ---
 
 # Return Trucks to Service Quickly After a Low Charge
@@ -54,7 +55,7 @@ Customer need: Return Trucks to Service Quickly After a Low Charge. The problem 
 
 ## Operational traceability
 
-- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Opportunity-Charge a Vehicle During a Work Break]], [[Schedule Charging for the Next Shift]] (drafted 2026-10-14 as analyst hypotheses: Schedule Charging for the Next Shift).
+- Operational Use Cases: [[Connect a Vehicle or Battery to a Charger]], [[Opportunity-Charge a Vehicle During a Work Break]], [[Schedule Charging for the Next Shift]] (drafted 2026-10-14 as analyst hypotheses: Schedule Charging for the Next Shift), [[Drive Up, Plug In and Walk Away]] (owner statement 2026-10-14, U).
 - Operating contexts: [[Distributed and Opportunity Charging Area]].
 
 ## Aliases

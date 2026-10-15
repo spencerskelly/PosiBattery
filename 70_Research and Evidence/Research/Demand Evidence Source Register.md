@@ -41,6 +41,14 @@ Register of places where people who buy, run, service and ride industrial trucks
 | [MHI and Deloitte 2024 survey press release](https://2024.modexshow.com/press/release/7453) and the 2025 report excerpt at [MHI Solutions](https://www.mhisolutionsmag.com/index.php/tag/2025-mhi-annual-industry-report/) | survey announcement; report excerpt | 2024-03; 2025-03-06 | The release has no results. The 2025 excerpt gives a talent gap (83 percent, sentence cut off) and no forklift, battery, energy or fleet-data findings; sample size not stated. The full reports are not read. | none yet |
 | [Chicago Tribune and Crown InfoLink, Modern Materials Handling](https://www.mmh.com/article/turning_fleet_data_into_savings) | case article, customer quote, vendor-supplied | undated | A receiving team lead says InfoLink gives more control and, through impact tracking, about 30 percent fewer impacts; no battery content. Already recorded in the vault as a source document. | Right-Size the Fleet; Detect and Learn from Truck Impacts |
 
+### Owner statements (2026-10-14)
+
+First-hand statements from the vault owner (PosiCharge engineering). They are customer-side knowledge the web does not hold, but they are one person's account, are not tied to named customers, and carry no counts. Evidence label U.
+
+| Statement | Date | Bears on |
+|---|---|---|
+| The general charging use case is drive up, plug in, walk away; some sites require a start and stop button to be pushed at the beginning and end of the charge | 2026-10-14 | [[Drive Up, Plug In and Walk Away]], [[Connect Chargers and Batteries Safely at the Site]], [[Return Trucks to Service Quickly After a Low Charge]] |
+
 ### Found by search, not yet opened
 
 | Source | Type | Why it is worth opening |

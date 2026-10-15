@@ -27,6 +27,7 @@ performedBy:
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Connect a Vehicle or Battery to a Charger]]"
+  - "[[Drive Up, Plug In and Walk Away]]"
 dependsOn:
   - "[[Manual Plug-In Charging]]"
 ---
