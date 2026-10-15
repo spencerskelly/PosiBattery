@@ -21,6 +21,7 @@ dependencyOf:
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Conventionally]]"
   - "[[Charge Lithium-Ion Battery]]"
+  - "[[Voltage-Triggered Ready-State Top-Up]]"
 ---
 
 # Charger Power Stage Design

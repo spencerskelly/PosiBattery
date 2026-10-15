@@ -2758,3 +2758,10 @@ records:
         disposition: not_applicable
         exception: EXC-NOT-APPLICABLE
         note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
+  "30_Product Capabilities/Product Designs/Voltage-Triggered Ready-State Top-Up.md":
+    classification: reference_content
+    gaps:
+      evidence:
+        disposition: not_applicable
+        exception: EXC-NOT-APPLICABLE
+        note: "Reference-product provenance is preserved, but no active engineering claim requires a governed evidence relationship."
