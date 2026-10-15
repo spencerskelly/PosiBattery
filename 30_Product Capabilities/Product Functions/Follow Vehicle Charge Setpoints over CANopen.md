@@ -14,6 +14,8 @@ performedBy:
   - "[[Delta MOOVair Wireless Charging Series]]"
 realizes:
   - "[[Integrate the Battery with Truck and Charger Controls]]"
+dependsOn:
+  - "[[CAN BMS-Directed Charging]]"
 ---
 
 # Follow Vehicle Charge Setpoints over CANopen
@@ -24,6 +26,7 @@ Accept charge setpoints from the vehicle or battery over CANopen or CAN and char
 
 ## Notes
 
+- **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[CAN BMS-Directed Charging]] by definition (charge commands arrive over CAN). The one performer, Delta MOOVair, is not linked to the Design: its sheet says CANopen setpoints but not that a BMS issues them.
 - Stated: MOOVair 03, 10 and 30 take setpoints over CANopen; MOOVair 01 takes them over CAN or runs a stand-alone profile.
 - Links to products are made only where a source states the behavior. No Requirement is linked yet.
 

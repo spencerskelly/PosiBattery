@@ -11,6 +11,8 @@ subtypeOf:
   - "[[Vehicle Control Device Design]]"
 designOf:
   - "[[Linde Dynamic Mast Control]]"
+dependencyOf:
+  - "[[Damp Mast Oscillation]]"
 ---
 
 # Electric Mast Thrust Drive

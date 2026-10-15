@@ -16,6 +16,7 @@ designOf:
   - "[[Grenzebach AGV Contact Charging Station]]"
 dependencyOf:
   - "[[Charge Battery by Automatic Contact]]"
+  - "[[Start and Stop Charge Automatically]]"
 ---
 
 # Conductive Auto-Contact Charging

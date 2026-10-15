@@ -26,6 +26,7 @@ dependencyOf:
   - "[[Charge Wirelessly Despite Misalignment]]"
   - "[[Detect Foreign and Live Objects]]"
   - "[[Exchange Charge Control Data Between Pads]]"
+  - "[[Start and Stop Charge Automatically]]"
 ---
 
 # Inductive Wireless Charging

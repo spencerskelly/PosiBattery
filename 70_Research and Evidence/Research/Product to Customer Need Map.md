@@ -53,9 +53,9 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Keep the Operator Positioned and Able to See the Work]] | [[Forklift Operator]] | Material-handling fleets | 42 | 31 | 0 | 5 | V |
 | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets | 34 | 22 | 20 | 4 | V |
 | [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
-| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 54 | 32 | 4 | 7 | V |
+| [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 58 | 32 | 4 | 7 | V |
 | [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 51 | 37 | 0 | 4 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 44 | 25 | 0 | 7 | V + manual |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 47 | 25 | 0 | 7 | V + manual |
 | [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 17 | 12 | 0 | 3 | V |
 | [[Act on Fleet Data Without Information Overload]] | [[Fleet Operations Manager]], [[Fleet Software Administrator]] | not yet assigned | 35 | 28 | 0 | 3 | V |
 | [[Charge Within Site Power Limits and Utility Costs]] | [[Fleet Operations Manager]] | not yet assigned | 11 | 9 | 0 | 1 | V |
@@ -497,7 +497,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Exide 2100 Li High Output Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Integrate the Battery with Truck and Charger Controls]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[Exide Element HF Charger]] | - | - | - | - |
 | [[Exide Motion+ Lithium Charger]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
-| [[Fronius SelectION]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
+| [[Fronius SelectION]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 | [[Fronius Selectiva 4.0]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
 | [[Green Cubes SAFEFlex Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[HOPPECKE trak charger HF premium]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | - | - | - |
@@ -509,7 +509,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[PosiCharge High Voltage Power Station (AC)]] | [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 | [[PosiCharge High Voltage Power Station (DC)]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge MVS400 and MVS800]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
-| [[PosiCharge ProCore Edge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
+| [[PosiCharge ProCore Edge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 | [[PosiCharge ProCore Solo]] | [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[PosiCharge SVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge SVS200]] | [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
@@ -526,9 +526,9 @@ Generated list. A dash means no product in that route. M is carried over unchang
 
 | Product | By function (F) | By design (D) | By option (O) | By metric (M) |
 |---|---|---|---|---|
-| [[Delta-Q IC650]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
+| [[Delta-Q IC650]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 | [[Exide Motion+ Premium Charger]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
-| [[Lester Summit Series II]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] |
+| [[Lester Summit Series II]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Integrate the Battery with Truck and Charger Controls]] | - | [[Keep Equipment Working in Cold, Wet and Dusty Conditions]] |
 
 #### Chargers/On-board Chargers
 
@@ -589,8 +589,8 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Fronius Charge & Connect]] | [[Know Battery State Before and During the Shift]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
 | [[Fronius PV Connect]] | [[Charge Within Site Power Limits and Utility Costs]] | - | - | - |
 | [[HOPPECKE trak monitor 4.0]] | - | - | - | - |
-| [[Jungheinrich Active Load Management]] | [[Charge Within Site Power Limits and Utility Costs]] | - | - | - |
-| [[Linde connect charger]] | [[Charge Within Site Power Limits and Utility Costs]]; [[Know Battery State Before and During the Shift]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
+| [[Jungheinrich Active Load Management]] | [[Charge Within Site Power Limits and Utility Costs]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
+| [[Linde connect charger]] | [[Charge Within Site Power Limits and Utility Costs]]; [[Know Battery State Before and During the Shift]]; [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 | [[Midac Mobile App]] | [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
 | [[Midac Service Tool]] | [[Document Battery Care for Warranty Compliance]] | - | - | - |
 | [[Philadelphia Scientific iBOS]] | - | - | - | - |
@@ -601,7 +601,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[PosiCharge SkyLink]] | [[Monitor and Manage Chargers and Batteries Across Sites]] | - | - | - |
 | [[Raymond Energy Asset Manager]] | [[Document Battery Care for Warranty Compliance]]; [[Monitor and Manage Chargers and Batteries Across Sites]]; [[Plan Battery Replacement and Budget Ahead]] | - | - | - |
 | [[Stryten inCOMMAND]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Integrate the Battery with Truck and Charger Controls]] | - | - | - |
-| [[Toyota Peak Load Management]] | [[Charge Within Site Power Limits and Utility Costs]] | - | - | - |
+| [[Toyota Peak Load Management]] | [[Charge Within Site Power Limits and Utility Costs]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 
 #### Fleet Software and Platforms/Truck Telematics
 
@@ -953,6 +953,7 @@ Generated list. A dash means no product in that route. M is carried over unchang
 - 2026-10-14: regenerated counts, needs, roles, families, per-product and no-route tables from the vault links (rules in the Notes); route M carried over. See C269.
 - 2026-10-14 (charge-method and vehicle-behavior pass): the need map was regenerated after Function-to-Design links were added. One product, [[Linde Safety Guard Truck Unit]], gained route D to [[Keep Trucks Slow in Hazardous Zones]] through [[Proximity Tag System]]; need row count 41 to 42 products. Totals are unchanged (509 concrete, 438 reached: 410 F, 7 D, 21 O; 71 no route). See C269.
 - 2026-10-14 (IB-233 and last six proposals): regenerated again. Battery-side and cold-storage Design links added route D entries for lithium and TPPL batteries, for example Return Trucks to Service Quickly After a Low Charge now lists more battery products and Keep Equipment Working in Cold, Wet and Dusty Conditions lists 34 products (was 31). Totals are unchanged (509 concrete, 438 reached: 410 F, 7 D, 21 O; 71 no route) because those products were already reached. See C269.
+- 2026-10-14 (review of unlinked Functions): regenerated a third time. The CAN BMS-Directed Charging link raised the products reaching Integrate the Battery with Truck and Charger Controls from 54 to 58 and added route D entries for four BMS-directed chargers. Totals are unchanged (438 reached of 509). See C269.
 - 2026-10-03: first generated map (round 39).
 - 2026-10-03: owner decision (Q20): design and option routes count as reached; metric route stays a hypothesis column.
 - 2026-10-03: round 40 gap review. Added routes D, O and M; linked 21 product notes to functions, designs or options from cited sources; added function [[Diagnose Vehicle Remotely]] and need [[Find and Fix Vehicle Faults Without Downtime]]; conflicts C107 to C110; backlog IB-136 to IB-140. See [[Research Change and Decision Tracker]].

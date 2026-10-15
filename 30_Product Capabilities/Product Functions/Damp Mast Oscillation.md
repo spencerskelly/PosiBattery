@@ -15,6 +15,8 @@ performedBy:
   - "[[Linde Dynamic Mast Control]]"
 realizes:
   - "[[Prevent Tip-Overs and Overloads]]"
+dependsOn:
+  - "[[Electric Mast Thrust Drive]]"
 ---
 
 # Damp Mast Oscillation
@@ -25,6 +27,7 @@ Counter mast swing and deflection at high lift heights so loads can be handled f
 
 ## Notes
 
+- **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[Electric Mast Thrust Drive]] (Linde Dynamic Mast Control, 1 of 2 performers). Doosan Bobcat Mast Sway Control states no mechanism.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

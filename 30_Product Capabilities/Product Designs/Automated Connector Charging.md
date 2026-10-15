@@ -11,6 +11,8 @@ subtypeOf:
   - "[[Vehicle Energy Interface Design]]"
 designOf:
   - "[[Staubli QCC Quick Charging Connection]]"
+dependencyOf:
+  - "[[Start and Stop Charge Automatically]]"
 ---
 
 # Automated Connector Charging

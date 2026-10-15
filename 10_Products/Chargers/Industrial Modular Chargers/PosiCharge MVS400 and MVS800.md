@@ -14,6 +14,8 @@ subtypeOf:
 performs:
   - "[[Charge Battery Fast]]"
   - "[[Share Power Between Charging Stations]]"
+hasDesign:
+  - "[[Charger-Group Peer Load Management]]"
 madeBy:
   - "[[PosiCharge]]"
 integratesWith:

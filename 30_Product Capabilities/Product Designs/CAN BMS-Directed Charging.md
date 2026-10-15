@@ -18,6 +18,8 @@ designOf:
   - "[[Delta-Q IC650]]"
   - "[[Fronius SelectION]]"
   - "[[Lester Summit Series II]]"
+dependencyOf:
+  - "[[Follow Vehicle Charge Setpoints over CANopen]]"
 ---
 
 # CAN BMS-Directed Charging
