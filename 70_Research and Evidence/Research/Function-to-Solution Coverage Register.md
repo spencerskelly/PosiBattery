@@ -22,8 +22,8 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 ### Counts
 
-- **Functions:** 158 (two added 2026-10-14 from the owner's charging workflow). **109 have a linked solution** (a Design on the Function or on an ancestor Function); **49 do not**: 20 are goal or family functions with no performer (expected), 6 are general-level functions rolled up from their children (not expected to have their own Design) and 23 have performers but no Design. (Before the 2026-10-14 charge-method and vehicle-behavior pass: 91 and 65; after it 99 and 57; after the last six proposals were reviewed, 103 and 53; after the review of the unlinked Functions, 107 and 49; after the Cooling Fan Box Design, 108 and 48; after the ProCore Solo float Design, 109 and 47; after the two workflow Functions were added, still 109 covered of 158 and 49 not.)
-- **Designs:** 243 (three added in the charge-method and vehicle-behavior pass, two in IB-236). **206 are tied to a Function** (directly or through a parent Design); 37 are not. (The 39-of-49 products figure from the first count was not recomputed.)
+- **Functions:** 158 (two added 2026-10-14 from the owner's charging workflow). **110 have a linked solution** (a Design on the Function or on an ancestor Function); **48 do not**: 20 are goal or family functions with no performer (expected), 6 are general-level functions rolled up from their children (not expected to have their own Design) and 22 have performers but no Design. (Before the 2026-10-14 charge-method and vehicle-behavior pass: 91 and 65; after it 99 and 57; after the last six proposals were reviewed, 103 and 53; after the review of the unlinked Functions, 107 and 49; after the Cooling Fan Box Design, 108 and 48; after the ProCore Solo float Design, 109 and 47; after the two workflow Functions were added, still 109 covered of 158 and 49 not.)
+- **Designs:** 244 (three added in the charge-method and vehicle-behavior pass, two in IB-236). **207 are tied to a Function** (directly or through a parent Design); 37 are not. (The 39-of-49 products figure from the first count was not recomputed.)
 - Only 88 Designs link to a Function directly; the rest rely on a parent Design that does.
 
 ### Alternative solutions
@@ -95,9 +95,9 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 - A product with many Functions and few Designs means the Designs are coarse or missing; a product with many Designs and few Functions means the Functions are not modeled.
 
-### Functions with performers but no solution (23, reviewed <function <lambda> at 0x7f767c772700>)
+### Functions with performers but no solution (22, reviewed <function <lambda> at 0x7f767c772700>)
 
-[[Equalize Battery on Schedule]] (13), [[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Guide Battery Selection and Rotation]] (3), [[Shelter Operator from Weather]] (3), [[Cushion Fork Lowering]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Avoid Arcing at the Charge Connection]] (1), [[Start and Stop Charge from an External Control]] (1), [[Rotate Operator Workstation]] (1), [[Segment Discharge Cycles]] (1).
+[[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Guide Battery Selection and Rotation]] (3), [[Shelter Operator from Weather]] (3), [[Cushion Fork Lowering]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Avoid Arcing at the Charge Connection]] (1), [[Start and Stop Charge from an External Control]] (1), [[Rotate Operator Workstation]] (1), [[Segment Discharge Cycles]] (1).
 
 General-level Functions ([[Charge Battery]], [[Sense Battery State]], [[Protect Battery from Harm]], [[Communicate Battery and Vehicle Data]], [[Inform Users of Battery Condition]], [[Support Operator View and Positioning]]) carry the tag general-function; their solutions sit on their child Functions, so they are not counted as gaps. All six still list performers directly (for example Charge Battery has 8), which the vault's own level rule discourages.
 - **Charge-method functions** (Charge Battery Fast, by Opportunity, Conventionally, Lithium-Ion) were linked on 2026-10-14 to two required Designs, [[Charger Power Stage Design]] and the new [[Charge Profile Control Design]] (parent of the four existing profile control Designs). This is analyst reasoning: no source states that a fast or opportunity charge needs both. The battery half was linked the same day as a choice of technology (see the battery table below, IB-233); no Design explains why a battery accepts a given rate (IB-234).
@@ -161,7 +161,7 @@ All 29 were read against the Designs their performers carry. Four Functions gain
 | Damp Mast Oscillation | applied: Electric Mast Thrust Drive | definition names damping; Linde Dynamic Mast Control carries it |
 | Follow Vehicle Charge Setpoints over CANopen | applied: CAN BMS-Directed Charging | charge commands over CAN by definition; the performer is not linked to the Design |
 | Share Power Between Charging Stations | applied: Charger-Group Peer Load Management | MVS400 and MVS800 share power by lowest state of charge (T1 sheet); PosiCharge now carries that Design |
-| Equalize Battery on Schedule (13 performers) | left | the scheduling mechanism is not stated; Missed Equalization Recovery Design covers only the missed-run case (2 carriers) and Equalization Event Tracking records events, not schedules |
+| Equalize Battery on Schedule (13 performers) | applied later the same day: Battery-Stored Equalization Schedule | the PosiCharge DVS and MVS manual (rev C03) states the schedule is stored in the BMID and runs automatically; the other 11 performers still state no mechanism. Missed Equalization Recovery Design covers only the missed-run case and Equalization Event Tracking records events, not schedules |
 | Charge in Cold Storage | left | temperature compensation is not shown to be the cold profile |
 | Diagnose Battery During Charge | left | Fronius TagID and EnerSys notes name IONIC, while the Design with a loop (Diagnostic-Loop Adaptive Charging) is carried by IMPAQ; no source says they are the same method |
 | Report Fuel Cell State to Truck | left | the fuel gauge shows fuel on the unit; reporting to the truck is a different mechanism |
@@ -177,6 +177,10 @@ All 29 were read against the Designs their performers carry. Four Functions gain
 [[Float Charge Battery]] now depends on the new [[Voltage-Triggered Ready-State Top-Up]] Design, from an owner statement (U); it is a threshold restart, not a classic float (C274, IB-238). Functions with a linked solution: 109 of 156; with performers but no Design: 21. Twelve Functions remain in IB-236 (the list in the row above, less Float Charge Battery and Manage Temperature During Fast Charging).
 
 Two Functions added 2026-10-14 from the owner's plug-in workflow, [[Avoid Arcing at the Charge Connection]] (PosiCharge SVS100) and [[Start and Stop Charge from an External Control]] (Fronius Selectiva 4.0), have one performer each and no Design; no source states how either works (IB-239).
+
+### Manual evidence (2026-10-14)
+
+The PosiCharge DVS and MVS operation manual ([[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]]) gave [[Equalize Battery on Schedule]] a Design ([[Battery-Stored Equalization Schedule]]) and added the DVS300 Series and MVS400 and MVS800 as performers of it and of [[Avoid Arcing at the Charge Connection]]. Functions with a linked solution: 110 of 158; with performers but no Design: 22.
 
 ### Gaps
 

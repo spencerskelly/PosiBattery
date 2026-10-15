@@ -24,8 +24,12 @@ performedBy:
   - "[[Power Designers REVOLUTION X]]"
   - "[[EnerSys NexSys AIR Wireless Charger]]"
   - "[[Stryten M-Series T330 Battery]]"
+  - "[[PosiCharge DVS300 Series]]"
+  - "[[PosiCharge MVS400 and MVS800]]"
 realizes:
   - "[[Prevent Battery Abuse and Premature Replacement]]"
+dependsOn:
+  - "[[Battery-Stored Equalization Schedule]]"
 ---
 
 # Equalize Battery on Schedule
@@ -36,6 +40,7 @@ Run equalization charges at an interval or schedule, even when the battery moves
 
 ## Notes
 
+- **Solution link added 2026-10-14 (manual evidence):** depends on [[Battery-Stored Equalization Schedule]] for the PosiCharge DVS and MVS systems, where the schedule is stored in the BMID (DVS300 Series and MVS400 and MVS800, now also performers). The other 11 performers state no scheduling mechanism and remain without a Design.
 - Charger-side or charger-and-battery behavior found in product descriptions. Links to products are made only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
@@ -52,6 +57,8 @@ Run equalization charges at an interval or schedule, even when the battery moves
   - [[PosiCharge DVS150]] (V): <https://posicharge.com/products/dvs150/>
   - [[EnerSys IMPAQ Charger]] (V): <https://integration.enersys.com/49bcd9/globalassets/documents/product-documentation/impaq/emea/emea-en-om-impaq-1022.pdf>
   - [[PosiCharge ProCore Edge]] (V): <https://www.posicharge.com/procoreedge>
+  - [[PosiCharge DVS300 Series]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], section 4.5 (equalization schedule stored in the BMID)
+  - [[PosiCharge MVS400 and MVS800]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], section 4.5 (equalization schedule stored in the BMID)
 - **Extra (round 30):** documented for 4 of 18 charger maker groups (22 percent), delivered by devices or software (accessory and software notes); rule and caveats in [[Extra Functions Register]].
 
 ## Aliases

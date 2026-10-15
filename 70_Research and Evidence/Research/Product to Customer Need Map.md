@@ -39,7 +39,7 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Charge Without a Ventilated Battery Room]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Distributed and opportunity charging; Mixed-chemistry fleets | 59 | 30 | 0 | 2 | V |
 | [[Return Trucks to Service Quickly After a Low Charge]] | [[Fleet Operations Manager]], [[Forklift Operator]] | Material-handling fleets; Airport eGSE fleets; Distributed and opportunity charging | 95 | 64 | 4 | 8 | V |
 | [[Charge Each Battery Correctly for Its Chemistry and Condition]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Mixed-chemistry fleets; Battery-room and centralized charging | 83 | 46 | 0 | 9 | V |
-| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 85 | 70 | 5 | 15 | V |
+| [[Prevent Battery Abuse and Premature Replacement]] | [[Maintenance Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Battery-room and centralized charging; Mixed-chemistry fleets | 87 | 72 | 5 | 15 | V |
 | [[Know Battery State Before and During the Shift]] | [[Forklift Operator]], [[Maintenance Technician]] | Material-handling fleets; Airport eGSE fleets | 79 | 68 | 0 | 12 | V |
 | [[Document Battery Care for Warranty Compliance]] | [[Fleet Operations Manager]], [[Dealer Service Technician]] | Material-handling fleets; Battery-room and centralized charging | 48 | 39 | 0 | 4 | V |
 | [[Monitor and Manage Chargers and Batteries Across Sites]] | [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets; Battery-room and centralized charging | 62 | 52 | 0 | 6 | V |
@@ -55,7 +55,7 @@ Derived map from each catalog product to the customer needs it serves, and from 
 | [[Stretch Truck Run Time per Charge]] | [[Fleet Operations Manager]] | Material-handling fleets; Distributed and opportunity charging | 11 | 9 | 0 | 2 | V |
 | [[Integrate the Battery with Truck and Charger Controls]] | [[Truck OEM Integration Engineer]] | Mixed-chemistry fleets | 58 | 32 | 4 | 7 | V |
 | [[Retrofit Safety and Telematics Onto Existing Trucks]] | [[Dealer Sales Representative]], [[Dealer Service Technician]], [[Equipment Installer]] | Material-handling fleets; Mixed-chemistry fleets | 51 | 37 | 0 | 4 | V |
-| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 49 | 27 | 0 | 9 | V + manual |
+| [[Connect Chargers and Batteries Safely at the Site]] | [[Equipment Installer]], [[Forklift Operator]] | Battery-room and centralized charging; Distributed and opportunity charging; Airport eGSE fleets | 50 | 28 | 0 | 9 | V + manual |
 | [[Find and Fix Vehicle Faults Without Downtime]] | [[Maintenance Technician]], [[Dealer Service Technician]], [[Fleet Operations Manager]] | Material-handling fleets; Airport eGSE fleets | 17 | 12 | 0 | 3 | V |
 | [[Act on Fleet Data Without Information Overload]] | [[Fleet Operations Manager]], [[Fleet Software Administrator]] | not yet assigned | 35 | 28 | 0 | 3 | V |
 | [[Charge Within Site Power Limits and Utility Costs]] | [[Fleet Operations Manager]] | not yet assigned | 11 | 9 | 0 | 1 | V |
@@ -505,10 +505,10 @@ Generated list. A dash means no product in that route. M is carried over unchang
 | [[Linde Lithium-Ion Charger (9, 17 and 30 kW)]] | [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]] | - | - | - |
 | [[PosiCharge DVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge DVS150]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Document Battery Care for Warranty Compliance]]; [[Plan Battery Replacement and Budget Ahead]]; [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
-| [[PosiCharge DVS300 Series]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
+| [[PosiCharge DVS300 Series]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Connect Chargers and Batteries Safely at the Site]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge High Voltage Power Station (AC)]] | [[Return Trucks to Service Quickly After a Low Charge]] | [[Connect Chargers and Batteries Safely at the Site]] | - | - |
 | [[PosiCharge High Voltage Power Station (DC)]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
-| [[PosiCharge MVS400 and MVS800]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
+| [[PosiCharge MVS400 and MVS800]] | [[Connect Chargers and Batteries Safely at the Site]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |
 | [[PosiCharge ProCore Edge]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Charge Without a Ventilated Battery Room]]; [[Keep Trucks Working Without Battery Maintenance Labor]]; [[Know Battery State Before and During the Shift]]; [[Prevent Battery Abuse and Premature Replacement]]; [[Return Trucks to Service Quickly After a Low Charge]] | [[Integrate the Battery with Truck and Charger Controls]] | - | - |
 | [[PosiCharge ProCore Solo]] | [[Prevent Battery Abuse and Premature Replacement]] | - | - | - |
 | [[PosiCharge SVS100]] | [[Charge Each Battery Correctly for Its Chemistry and Condition]]; [[Connect Chargers and Batteries Safely at the Site]]; [[Return Trucks to Service Quickly After a Low Charge]] | - | - | - |

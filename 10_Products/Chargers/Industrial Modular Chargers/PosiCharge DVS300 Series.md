@@ -11,9 +11,13 @@ tags:
   - gse
 subtypeOf:
   - "[[Industrial Modular Charger]]"
+describedBy:
+  - "[[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]]"
 performs:
   - "[[Charge Battery Fast]]"
   - "[[Compensate Charge for Battery Temperature]]"
+  - "[[Avoid Arcing at the Charge Connection]]"
+  - "[[Equalize Battery on Schedule]]"
 madeBy:
   - "[[PosiCharge]]"
 integratesWith:
@@ -23,6 +27,7 @@ offeredWith:
 hasDesign:
   - "[[Temperature-Compensated Charge Control Design]]"
   - "[[Communicated Battery Temperature Charge Compensation]]"
+  - "[[Battery-Stored Equalization Schedule]]"
 hasPart:
   - "[[Temperature Compensation Charge Control Firmware]]"
   - "[[PosiCharge BMID]]"
@@ -41,6 +46,8 @@ PosiCharge outdoor GSE chargers (DVS300, DVS330, DVS400) for 24 to 96 V that cha
 - **Functions performed, with citations:**
   - [[Charge Battery Fast]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
   - [[Compensate Charge for Battery Temperature]] (V): <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
+  - [[Avoid Arcing at the Charge Connection]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], sections 1.2 and 4.4 (stops the charge automatically on a hot disconnection)
+  - [[Equalize Battery on Schedule]] (V): [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]], section 4.5 (equalization schedule stored in the BMID)
 - **Public-evidence baseline (added from the vault's baseline note, round 19):**
 - Outdoor fast-charge family for airport GSE. Official page lists 30/33/40 kW variants, 24–96 V battery range, 250 A dual-vehicle output or up to 500 A single-vehicle output, 480/600 VAC three-phase input, 0.96 power factor, 90% efficiency, NEMA 3R enclosure, BMID recognition, anti-arcing disconnect, thermal protection/shutdown, jet-bridge/other-device power sharing, and RS-232. Resource content includes a China GBT interface-board manual. Source: official PosiCharge page for DVS300/330/400, as summarized in the vault's Public Evidence Register (PUB-007, class P1/P2/P3 per that note) (T1), retrieved 2026-10-03. <https://posicharge.com/products/dvs300-330-400/>
 - **Baseline confidence (DVS300/330/400):** Verified public—family level. **Still needed:** Resolve 300/330/400 configuration mapping; confirm current/output limits, power-sharing conditions, GBT board scope, eGSE/OEM compatibility, connectors, certifications, current BMID generation/protocol, and geographic availability.
