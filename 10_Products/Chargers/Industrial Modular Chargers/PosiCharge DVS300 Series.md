@@ -41,6 +41,7 @@ PosiCharge outdoor GSE chargers (DVS300, DVS330, DVS400) for 24 to 96 V that cha
 
 ## Notes
 
+- **Manual evidence (2026-10-14):** [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]] (T1): charge event log of 250 charges (Gen II board) or 1,000 (Gen III), fault log of 100 messages, Energy Saving Mode, six-month check, DVS330 IP55 air filters cleaned every three to six months.
 - PosiCharge's DVS sheet says DVS300 is the stand-alone industrial charger, DVS covers 24 to 96 V across the 300, 330 and 400 models, controls battery temperature during charging, works with BMID, Battery Rx and PosiNet, and lets operators charge the same number of vehicles with a third of the power of conventional chargers. Source: PosiCharge DVS 300/330/400 sheet (T1), retrieved 2026-10-03. <https://og.mhi.org/media/members/16696/131261342052642309.pdf>
 - Airport Technology says one vehicle can be charged with up to 500 A or two vehicles simultaneously at 250 A. Source: Airport Technology (T2), retrieved 2026-10-03. <https://www.airport-technology.com/contractors/groundequipment/posicharge/>
 - **Functions performed, with citations:**

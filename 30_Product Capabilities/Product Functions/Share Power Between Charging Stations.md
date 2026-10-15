@@ -27,6 +27,7 @@ Balance or divide the energy delivered among several charging stations (or among
 
 ## Notes
 
+- **Manual evidence (2026-10-14):** [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]] (T1) describes the main/support station set-up and parallel mode (one vehicle gets both power sections). It states no priority rule. The 'lowest state of charge first' rule remains from the MVS400 sheet only. C277.
 - **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[Charger-Group Peer Load Management]]: PosiCharge MVS400 and MVS800 share power with up to three more power stations, prioritizing the lowest state of charge (MVS-400 sheet, T1). The HVPS DC variant and its communication kit are owner-stated (U) to do the same and are not linked to the Design.
 - Defined at station level. [[Balance Cells]] is cell-level balancing inside a battery and is a different function.
 - Evidence differs by product, and the mechanisms are not shown to be the same: the MVS wording says power sharing prioritizes the lowest state of charge; the DC listing is an owner statement only (communication kit that balances energy transfer with other stations). No source found yet describes the High Voltage Power Station kit.

@@ -37,6 +37,7 @@ PosiCharge multi-port GSE chargers for 24 to 96 V for tow tugs, baggage tractors
 
 ## Notes
 
+- **Manual evidence (2026-10-14):** [[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]] (T1): main station nearest the power server, support stations by default, ports entered as twice the station count, example of 5 stations as 10 ports; power server fixed 30 to 80 kW or communicated variable power. C277 compares this with the sheet's 'up to three additional power stations'.
 - PosiCharge's MVS sheets say the MVS400 and MVS800 cover 24 to 96 V, share the DVS's power quality and data capabilities, work with BMID, Battery Rx and PosiNet, charge 3 times the equipment on the same power as conventional chargers and need no battery changing. Source: PosiCharge MVS400 and MVS800 sheets (T1), retrieved 2026-10-03. <https://og.mhi.org/media/members/16696/131261342583679925.pdf>
 - Airport Technology lists the MVS400 and MVS800 as GSE chargers for tow tugs, baggage tractors and belt loaders. Source: Airport Technology (T2), retrieved 2026-10-03. <https://www.airport-technology.com/contractors/groundequipment/posicharge/>
 - **Earlier note (Q10):** the PosiCharge web pages for MVS400 and MVS800 show inconsistent numbers; these sheets give no kW or A values in the retrieved text.

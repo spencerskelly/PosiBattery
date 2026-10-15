@@ -180,6 +180,8 @@ Two Functions added 2026-10-14 from the owner's plug-in workflow, [[Avoid Arcing
 
 ### Manual evidence (2026-10-14)
 
+- Second pass (IB-240): MVS main/support set-up, BMID parameters, data logs and maintenance recorded in the manual note; no new Function or Design added and no ground-fault evidence found, so [[Detect Isolation Fault]] stays without a Design. Full and Reduced Charging time windows held back until the owner states their use (IB-241).
+
 The PosiCharge DVS and MVS operation manual ([[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]]) gave [[Equalize Battery on Schedule]] a Design ([[Battery-Stored Equalization Schedule]]) and added the DVS300 Series and MVS400 and MVS800 as performers of it and of [[Avoid Arcing at the Charge Connection]]. Functions with a linked solution: 110 of 158; with performers but no Design: 22.
 
 ### Gaps
