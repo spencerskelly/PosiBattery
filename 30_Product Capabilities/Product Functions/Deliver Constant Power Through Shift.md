@@ -16,6 +16,8 @@ performedBy:
   - "[[Plug Power GenDrive]]"
 realizes:
   - "[[Stretch Truck Run Time per Charge]]"
+dependsOn:
+  - "[[Fuel Cell Hybrid Power Stage]]"
 ---
 
 # Deliver Constant Power Through Shift
@@ -26,6 +28,7 @@ Deliver steady voltage and power for the whole shift without droop as the energy
 
 ## Notes
 
+- **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[Fuel Cell Hybrid Power Stage]] (fuel cell, buffer battery and power electronics). Nuvera PowerEdge and Plug Power GenDrive both say constant voltage; the Function's two truck performers (Hyster J1.5-3.0UT(L), Yale ERC080VHL) state no Design. [[Hydrogen Storage Tank]] was not linked: it sets refuel time and run time, not constancy.
 - Truck-side behavior found in product descriptions. Product links only where a source states the behavior; no link means unknown.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

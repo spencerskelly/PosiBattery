@@ -14,6 +14,8 @@ designOf:
   - "[[Heli A3 Series Lithium Forklifts]]"
   - "[[Komatsu FB Series Electric Forklifts]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"
+dependencyOf:
+  - "[[Operate in Wet or Dusty Conditions]]"
 ---
 
 # Ingress-Protected Drive Components

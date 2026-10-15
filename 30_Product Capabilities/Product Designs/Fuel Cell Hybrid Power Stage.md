@@ -12,6 +12,8 @@ subtypeOf:
 designOf:
   - "[[Nuvera PowerEdge]]"
   - "[[Plug Power GenDrive]]"
+dependencyOf:
+  - "[[Deliver Constant Power Through Shift]]"
 ---
 
 # Fuel Cell Hybrid Power Stage

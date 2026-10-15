@@ -19,6 +19,8 @@ designOf:
   - "[[Hangcha Lithium Iron Phosphate Battery Pack]]"
   - "[[Heli G Series Lithium Forklifts]]"
   - "[[Heli Lithium-Ion Battery]]"
+dependencyOf:
+  - "[[Operate in Cold Storage]]"
 ---
 
 # Integrated Battery Heater

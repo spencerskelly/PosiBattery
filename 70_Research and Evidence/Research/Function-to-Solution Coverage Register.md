@@ -22,8 +22,8 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 ### Counts
 
-- **Functions:** 156. **99 have a linked solution** (a Design on the Function or on an ancestor Function); **57 do not**: 20 are goal or family functions with no performer (expected) and 37 have performers but no Design. (Before the 2026-10-14 charge-method and vehicle-behavior pass: 91 and 65.)
-- **Designs:** 241 (three added in the charge-method and vehicle-behavior pass). **197 are tied to a Function** (directly or through a parent Design); 44 are not. (The 39-of-49 products figure from the first count was not recomputed.)
+- **Functions:** 156. **103 have a linked solution** (a Design on the Function or on an ancestor Function); **53 do not**: 20 are goal or family functions with no performer (expected) and 33 have performers but no Design. (Before the 2026-10-14 charge-method and vehicle-behavior pass: 91 and 65; after it 99 and 57; after the last six proposals were reviewed, 103 and 53.)
+- **Designs:** 241 (three added in the charge-method and vehicle-behavior pass). **203 are tied to a Function** (directly or through a parent Design); 38 are not. (The 39-of-49 products figure from the first count was not recomputed.)
 - Only 88 Designs link to a Function directly; the rest rely on a parent Design that does.
 
 ### Alternative solutions
@@ -95,9 +95,9 @@ Review of whether each Function in the vault has an identified solution (a Desig
 
 - A product with many Functions and few Designs means the Designs are coarse or missing; a product with many Designs and few Functions means the Functions are not modeled.
 
-### Functions with performers but no solution (37)
+### Functions with performers but no solution (33)
 
-[[Equalize Battery on Schedule]] (13), [[Operate in Cold Storage]] (10), [[Charge Battery]] (8), [[Start and Stop Charge Automatically]] (8), [[Operate in Wet or Dusty Conditions]] (7), [[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Deliver Constant Power Through Shift]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Sense Battery State]] (4), [[Guide Battery Selection and Rotation]] (3), [[Share Power Between Charging Stations]] (3), [[Shelter Operator from Weather]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Cushion Fork Lowering]] (2), [[Damp Mast Oscillation]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Protect Battery from Harm]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Float Charge Battery]] (1), [[Follow Vehicle Charge Setpoints over CANopen]] (1), [[Inform Users of Battery Condition]] (1), [[Manage Temperature During Fast Charging]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Rotate Operator Workstation]] (1), [[Scale Charge Power by Module Count]] (1), [[Segment Discharge Cycles]] (1), [[Support Operator View and Positioning]] (1).
+[[Equalize Battery on Schedule]] (13), [[Charge Battery]] (8), [[Start and Stop Charge Automatically]] (8), [[Identify Battery by Voltage]] (5), [[Illuminate Work Area]] (5), [[Charge in Cold Storage]] (4), [[Disconnect Battery on Limit Violation]] (4), [[Sense Battery State]] (4), [[Guide Battery Selection and Rotation]] (3), [[Share Power Between Charging Stations]] (3), [[Shelter Operator from Weather]] (3), [[Communicate Battery and Vehicle Data]] (2), [[Cushion Fork Lowering]] (2), [[Damp Mast Oscillation]] (2), [[Declare Estimator Accuracy Basis]] (2), [[Diagnose Battery During Charge]] (2), [[Dock Automatically at Aircraft]] (2), [[Indicate Maintenance Due]] (2), [[Manage Charging Cables]] (2), [[Protect Battery from Harm]] (2), [[Calculate Charge and Discharge Current Limits]] (1), [[Charge Several Batteries from One Unit]] (1), [[Convert Traction Battery Voltage for Onboard Systems]] (1), [[Detect Isolation Fault]] (1), [[Float Charge Battery]] (1), [[Follow Vehicle Charge Setpoints over CANopen]] (1), [[Inform Users of Battery Condition]] (1), [[Manage Temperature During Fast Charging]] (1), [[Reduce Wheel Slip]] (1), [[Report Fuel Cell State to Truck]] (1), [[Rotate Operator Workstation]] (1), [[Segment Discharge Cycles]] (1), [[Support Operator View and Positioning]] (1).
 
 - **Charge-method functions** (Charge Battery Fast, by Opportunity, Conventionally, Lithium-Ion) were linked on 2026-10-14 to two required Designs, [[Charger Power Stage Design]] and the new [[Charge Profile Control Design]] (parent of the four existing profile control Designs). This is analyst reasoning: no source states that a fast or opportunity charge needs both. The battery half was linked the same day as a choice of technology (see the battery table below, IB-233); no Design explains why a battery accepts a given rate (IB-234).
 - **Software functions** were modeled on 2026-10-14 under [[Fleet Software Design]]: charge scheduling, site power load management (four alternatives: platform control over a charger network, charger-group peer management, solar-matched charging, time-of-use shifting), task dispatch, warehouse data interface, fleet state dashboard, fleet sizing analytics and remote operation link. Report Truck Hours and Usage was already covered through its parent.
@@ -135,18 +135,20 @@ Seven further pairs came from the software Design family above (owner: model all
 
 Three new Designs ([[Charge Profile Control Design]], [[Steering-Angle Curve Speed Control]], [[Stability-Limit Function Intervention]]) and 14 Function-to-Design pairs: four charge-method Functions to two Designs each; Slow Truck in Curves; Stabilize Truck Dynamically (three: axle lock, function limiting, steering-angle speed control); Limit Vehicle Motion by Location Zone to Proximity Tag System; Limit Truck Speed Automatically to Object and Proximity Sensing Design. The last two came from the proposed list below and are now removed from it. Function-level alternative pairs are now Circulate Electrolyte, Balance Cells and Stabilize Truck Dynamically (C270).
 
-### Still proposed (not applied)
+### Reviewed 2026-10-14 (owner "y"): the last six proposals
 
-Proposals come from matching Design names to Functions and from how many of a Function's performers carry the Design; performer overlap alone gave false matches (for example Drop-In Battery Cavity against Hold Truck on Slope), so only name-plausible pairs are listed. Each link is an engineering judgment that the owner should confirm.
+Each proposal was checked against the Function's definition and the Design's definition, not only against performer overlap. Four pairs applied, four rejected.
 
-| Design | Function | Confidence | Basis |
-|---|---|---|---|
-| Ingress-Protected Drive Components | Operate in Wet or Dusty Conditions | medium | 4 of 7 performers |
-| Integrated Battery Heater | Operate in Cold Storage | medium | 3 of 10 performers |
-| Multi-Voltage Output | Identify Battery by Voltage | medium | 4 of 5 performers |
-| Modular Power Modules | Scale Charge Power by Module Count; Charge Several Batteries from One Unit | medium | 1 performer each |
-| Fuel Cell Hybrid Power Stage; Hydrogen Storage Tank | Deliver Constant Power Through Shift | medium | 2 of 4 performers |
-| Standalone Battery Management System | Disconnect Battery on Limit Violation | medium | 2 of 4 performers |
+| Proposal | Result | Reason |
+|---|---|---|
+| Ingress-Protected Drive Components to Operate in Wet or Dusty Conditions | applied | the Function's definition names sealed drive components; 4 of 7 performers |
+| Integrated Battery Heater to Operate in Cold Storage | applied, battery half only | 3 of 10 performers; truck-side cold packages have no Design |
+| Modular Power Modules to Scale Charge Power by Module Count | applied | definition matches; 1 performer |
+| Fuel Cell Hybrid Power Stage to Deliver Constant Power Through Shift | applied | Nuvera and Plug Power state constant voltage |
+| Multi-Voltage Output to Identify Battery by Voltage | rejected | the Design is a charger that covers several voltages; the Function is detecting which voltage is connected. The four overlapping performers are multi-voltage chargers, so overlap proves nothing. No Design exists for voltage detection |
+| Modular Power Modules to Charge Several Batteries from One Unit | rejected | parallel modules scale power; serving several batteries needs several outputs, which no Design describes |
+| Hydrogen Storage Tank to Deliver Constant Power Through Shift | rejected | storage sets refuel and run time, not constancy |
+| Standalone Battery Management System to Disconnect Battery on Limit Violation | rejected | the Design is a form of delivery (a BMS sold apart from a pack), not the mechanism. Sources state mechanisms: Orion BMS 2 drives contactors, Batrium WatchMonCORE has a trip relay, Hyster Power Cellect uses [[CAN-Coordinated Deep Discharge Shutdown]], EnerSys iON publishes no enforcement path. No Design exists for a contactor or relay output (IB-235) |
 
 ### Gaps
 

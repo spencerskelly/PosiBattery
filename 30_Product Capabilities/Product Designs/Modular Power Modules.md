@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Charger Power Stage Design]]"
 dependencyOf:
   - "[[Continue Charging Through Module Fault]]"
+  - "[[Scale Charge Power by Module Count]]"
 describedBy:
   - "[[Metric - Modularity]]"
 designOf:

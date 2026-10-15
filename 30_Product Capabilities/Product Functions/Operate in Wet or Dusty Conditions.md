@@ -19,6 +19,8 @@ performedBy:
   - "[[Raymond Extreme Environment Protection]]"
 realizes:
   - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
+dependsOn:
+  - "[[Ingress-Protected Drive Components]]"
 ---
 
 # Operate in Wet or Dusty Conditions
@@ -29,6 +31,7 @@ Keep a truck working in wet, dusty or corrosive conditions through sealed drive 
 
 ## Notes
 
+- **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[Ingress-Protected Drive Components]], which the Function's own definition names (sealed drive components). 4 of 7 performers carry it; Crown RC 5700, Raymond 8000 Series and Raymond Extreme Environment Protection state no Design.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

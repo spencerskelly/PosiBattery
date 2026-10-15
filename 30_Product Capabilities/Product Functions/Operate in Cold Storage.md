@@ -22,6 +22,8 @@ performedBy:
   - "[[Mitsubishi Cold Storage Modification]]"
 realizes:
   - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
+dependsOn:
+  - "[[Integrated Battery Heater]]"
 ---
 
 # Operate in Cold Storage
@@ -32,6 +34,7 @@ Keep a truck or battery working in cold storage or freezer conditions.
 
 ## Notes
 
+- **Solution link added 2026-10-14 (reviewed, owner "y"):** depends on [[Integrated Battery Heater]] for the battery half only (3 of 10 performers). The truck-side packages (Toyota Cold Conditioning Package, UniCarriers Freezer Option, Raymond ThermaKit, Mitsubishi Cold Storage Modification) state no Design, so the truck half has no solution yet.
 - Behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):
