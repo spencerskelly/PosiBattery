@@ -63,6 +63,7 @@ for typ in ("Verification","Requirement","Function","Design","Procedure","Setup"
 active_requirements={}
 for p,d in requirements.items():
     tags={str(x) for x in vals(d.get("tags"))}
+    if "regulatory-driver" in tags: continue  # external obligation, not product-scoped (owner decision 2026-10-17)
     if vals(d.get("appliesTo")) or "product-requirement" in tags:
         active_requirements[p]=d
 counts["active_requirements"]=len(active_requirements)

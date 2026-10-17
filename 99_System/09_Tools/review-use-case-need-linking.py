@@ -56,7 +56,7 @@ for p,d in sorted(usecases.items()):
     tags=set(str(x) for x in vals(d.get("tags")))
     subtype=str(d.get("subtype") or "")
     is_need=("customer-need" in tags or subtype=="why" or p.startswith("50_Customer Needs/"))
-    is_oper=("operational-use-case" in tags or subtype=="what")
+    is_oper=(("operational-use-case" in tags or subtype=="what") and "compliance-activity" not in tags)  # customer compliance work with no product Function yet (owner decision 2026-10-17)
     is_context=(not is_need and not is_oper)
     counts["customer_needs" if is_need else "operational_use_cases" if is_oper else "context_use_cases"]+=1
 

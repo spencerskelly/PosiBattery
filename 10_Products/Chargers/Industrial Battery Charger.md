@@ -44,6 +44,15 @@ describedBy:
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Temperature Compensation Source]]"
   - "[[Metric - Warranty and Price]]"
+  - "[[California Forklift Electrification Regulations Register]]"
+  - "[[Western State Clean Fuel Programs for Forklift Electricity Register]]"
+  - "[[North American Clean Fuel Programs Register]]"
+  - "[[Forklift Clean Fuel Credit Business Case]]"
+applies:
+  - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
+  - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
+  - "[[Charging Energy Reporting - Keep Meter and Energy Records for Verification]]"
+  - "[[Charging Energy Reporting - Provide Unadjusted Energy Data at the Output or Forklift Side]]"
 ---
 
 # Industrial Battery Charger

@@ -84,7 +84,7 @@ for p,d in sorted(source_docs.items()):
 
 # Active requirements are current product-scoped Requirements.
 active_req={p:d for p,d in notes.items()
-            if d.get("type")=="Requirement" and (vals(d.get("appliesTo")) or "product-requirement" in {str(x) for x in vals(d.get("tags"))})}
+            if d.get("type")=="Requirement" and "regulatory-driver" not in {str(x) for x in vals(d.get("tags"))} and (vals(d.get("appliesTo")) or "product-requirement" in {str(x) for x in vals(d.get("tags"))})}
 counts["active_requirements"]=len(active_req)
 
 # The battery-association requirement is an internally derived semantic-integrity

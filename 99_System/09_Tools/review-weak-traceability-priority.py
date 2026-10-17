@@ -85,6 +85,7 @@ legacy_expectations={
 legacy=[]
 for p,d in notes.items():
     typ=str(d.get("type") or "")
+    if typ=="Requirement" and "regulatory-driver" in {str(x) for x in vals(d.get("tags"))}: continue  # external obligation (owner decision 2026-10-17)
     relfields={f for f,_ in outgoing[p]} | {f for f,_ in incoming[p]}
     for label,alts in legacy_expectations.get(typ,[]):
         if not (relfields & alts):
@@ -94,6 +95,7 @@ for p,d in notes.items():
 # decisions rather than every market feature mapped onto PosiGuard.
 active_req={p for p,d in notes.items()
             if d.get("type")=="Requirement"
+            and "regulatory-driver" not in {str(x) for x in vals(d.get("tags"))}
             and (vals(d.get("appliesTo")) or "product-requirement" in {str(x) for x in vals(d.get("tags"))})}
 
 STEP89=ROOT/"80_Decisions and Planning"/"BMID Function Design Traceability Step 89 0.1.yaml"
