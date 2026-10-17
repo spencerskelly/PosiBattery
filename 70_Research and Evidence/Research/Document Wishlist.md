@@ -27,6 +27,11 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **helpful**<br>direct link found (R60) | Oregon DEQ forklift transition guidance (read only through a summary) | <https://www.oregon.gov/deq/ghgp/Documents/ForkliftTransitionGuidance.pdf> | <https://www.oregon.gov/deq/ghgp/cfp/Pages/fse.aspx> | Metering and registration (IB-253) | - | R60 |
+| **helpful**<br>direct link found (R60) | Washington Ecology Clean Fuel Standard rule presentation 2022-08-23 | <https://ecology.wa.gov/getattachment/d0abe650-af37-4758-95b0-5f8681186b93/424Presentation20220823.pdf> | <https://ecology.wa.gov/> | EER table; metering slides (IB-254) | - | R60 |
+| **helpful**<br>direct link found (R60) | New Mexico CTFP Roads to Revenue with Fleet Electrification | <https://www.env.nm.gov/clean-transportation-fuel-program/wp-content/uploads/sites/47/2026/07/CTFP-Roads-to-Revenue-with-Fleet-Electrification.pdf> | <https://www.env.nm.gov/clean-transportation-fuel-program/> | Forklifts as special equipment (IB-255) | - | R60 |
+| **helpful**<br>wanted (R60) | Oregon OAR 340-253, current text | no direct file found | <https://www.oregon.gov/deq/ghgp/cfp/> | Rule text (IB-253) | - | R60 |
+| **helpful**<br>wanted (R60) | New Mexico 20.2.92 NMAC text | no direct file found | <https://www.env.nm.gov/clean-transportation-fuel-program/> | Rule text (IB-255) | - | R60 |
 | **high priority**<br>direct link found (R59) | CARB LCFS Guidance 25-01 forklift fueling reporting (raw PDF) | <https://ww2.arb.ca.gov/sites/default/files/2025-10/lcfsguidance_25_01_2025.pdf> | <https://ww2.arb.ca.gov/> | Metering, 85 percent default, verification (IB-242, IB-243; the shell cannot reach CARB, 403) | - | R59 |
 | **high priority**<br>wanted (R59) | Adopted LCFS regulation order with EER table | no direct file found | <https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard> | Adopted forklift EER (C286, IB-242) | - | R59 |
 | **helpful**<br>wanted (R59) | CARB LCFS Guidance 19-04 | no direct file found | <https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard/lcfs-guidance> | Efficiency basis (C287, IB-243) | - | R59 |

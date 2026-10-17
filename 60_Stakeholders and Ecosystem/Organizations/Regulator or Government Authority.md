@@ -11,6 +11,9 @@ tags:
 rolePlayedBy:
   - "[[California Air Resources Board]]"
   - "[[United States Environmental Protection Agency]]"
+  - "[[Washington Department of Ecology]]"
+  - "[[New Mexico Environment Department]]"
+  - "[[Oregon Department of Environmental Quality]]"
 ---
 
 # Regulator or Government Authority

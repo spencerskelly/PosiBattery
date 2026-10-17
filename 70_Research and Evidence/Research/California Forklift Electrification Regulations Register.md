@@ -131,6 +131,10 @@ Owner decision 2026-10-17: regulatory content is modeled as Requirement notes, w
 - **What customers do (Use Case, subtype what; analyst hypotheses):** [[Convert a Government Forklift Fleet on the ZEF Phase-Out Schedule]]; [[Contact the Utility About New Forklift Charging Load]]; [[Report Metered Forklift Charging Energy for LCFS Credits]].
 - The Info register stays as the evidence summary; the Requirement notes carry the obligations. No customer source confirms the Use Case steps, and who inside a customer owns compliance is unidentified (IB-252).
 
+### Other states (added 2026-10-17)
+
+Oregon, Washington and New Mexico are covered in [[Western State Clean Fuel Programs for Forklift Electricity Register]]. Oregon forbids adjusting metered forklift data while California applies a charger-efficiency adjustment (C291), and Oregon accepts a charger as registered equipment (C287 update).
+
 ### What would change this picture
 
 - CARB asks EPA for authorization under section 209(e)(2)(A), or EPA says it is unnecessary; CARB then publishes a notice ([[Document - CARB ZEF Implementation Update Advisory (2025-05-29)]]).

@@ -19,6 +19,7 @@ references:
 derivedBy:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
+  - "[[Charging Energy Reporting - Provide Unadjusted Energy Data at the Output or Forklift Side]]"
 ---
 
 # California LCFS - Forklift Charging Energy Shall Be Metered

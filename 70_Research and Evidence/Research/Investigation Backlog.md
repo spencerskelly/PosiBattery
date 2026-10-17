@@ -275,11 +275,17 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-250 | [[Metric - Peak Efficiency]] lists 19 charger values but its count line says 7; reconcile | [[Metric - Peak Efficiency]] | - | count | open |
 | IB-251 | ZEF sizing: how many California forklifts are government-owned; read the ISOR and SRIA | [[California Forklift Electrification Regulations Register]] | - | market size | open |
 | IB-252 | Ask the owner or a customer who inside a California fleet owns ZEF and LCFS compliance (needed to name the actor on the new Use Cases), whether customers claim LCFS credits at all, and whether derived requirements REQ-00051 to REQ-00053 are wanted as written | [[California Forklift Electrification Regulations Register]] | - | actors; customer use | open |
+| IB-253 | Oregon: read OAR chapter 340 division 253 (current), the DEQ forklift guidance history and the alternative-metering contact; settle whether estimation ended Q3 2023 and how adjustment is treated (C291, C292) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | rule text; metering | open |
+| IB-254 | Washington: read WAC 173-424 for forklift metering and monitoring, the EER table and the electric forklift model-year-before-2023 calculation method (C293) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | rule text; EER | open |
+| IB-255 | New Mexico: read 20.2.92 NMAC for forklift provisions, credit start, fees and EER (C294) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | rule text | open |
+| IB-256 | Per-state reporting-party matrix confirmed from rule text, and credit prices and revenue per forklift for Oregon, Washington and New Mexico (C295; extends IB-248) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | business case | open |
+| IB-257 | Other jurisdictions with clean fuel programs that could cover forklift electricity (not yet searched) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | other regions | open |
 | IB-227 | Which outside interfaces (OpenADR, Modbus, OCPP, MQTT, vendor API) do Linde connect:charger, Jungheinrich Active Load Management, Toyota peak load management and Crown Demand Response Management offer to a site energy system? Read the Jungheinrich factsheet PDF, Linde's own connect:charger page (also settles C266), Toyota's own page and Crown's V-HFM3 manual | Forklift Charger Load Management Register | - | energy management interface; protocols | open |
 | IB-228 | SolarEdge commercial and industrial EV charging platform article (redirect not refetched: http://pv-magazine-usa.com/2023/06/05/solaredge-introduces-commercial-and-industrial-ev-charging-platform/), Fronius PV Connect product pages and the ROYPOW forklift charger page: do they state industrial-truck charger support? | Forklift Charger Load Management Register | - | solar charging; compatible chargers | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 - **Round 59 directions:** IB-242 to IB-252 came from the California forklift regulation pass ([[California Forklift Electrification Regulations Register]]).
+- **Round 60 directions:** IB-253 to IB-257 came from the Oregon, Washington and New Mexico clean fuel program pass ([[Western State Clean Fuel Programs for Forklift Electricity Register]]).
 
 ## Aliases
 
