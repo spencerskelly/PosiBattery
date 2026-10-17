@@ -28,5 +28,6 @@ The forklift fleet owner is the fuel reporting entity and credit generator for f
 - Second-hand reading; see [[Western State Clean Fuel Programs for Forklift Electricity Register]] and the conflict register.
 - **Status:** in the WAC text effective 2022-12-29 ([[Document - WAC 173-424-220 Cornell LII Page (retrieved 2026-10-17)]]). No metering requirement appears in that section (C293).
 - Cornell is a secondary host; check Washington's own text (IB-254).
+- **Update 2026-10-17 (first-hand read):** the official certified text ([[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]]) confirms the owner-as-reporting-entity rule and adds the annual written notice (REQ-00059) and designation contract language (REQ-00060). The Cornell copy is no longer the only source.
 
 ## Former ids

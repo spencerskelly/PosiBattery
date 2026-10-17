@@ -16,6 +16,8 @@ applies:
   - "[[California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity]]"
   - "[[California LCFS - Forklift Charging Energy Shall Be Metered]]"
   - "[[California LCFS - Third-Party Verification of Forklift Electricity Data]]"
+  - "[[California LCFS - Forklift Volumes Are Reported by Lift Capacity Class]]"
+  - "[[California LCFS - Rental Forklift Charging Locations Are Registered and Movements Recorded]]"
 givesRiseTo:
   - "[[Report Metered Forklift Charging Energy for LCFS Credits]]"
 ---

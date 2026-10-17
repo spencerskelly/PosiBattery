@@ -24,6 +24,8 @@ referencedBy:
   - "[[California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity]]"
   - "[[California LCFS - Forklift Charging Energy Shall Be Metered]]"
   - "[[California LCFS - Third-Party Verification of Forklift Electricity Data]]"
+  - "[[California LCFS - Forklift Volumes Are Reported by Lift Capacity Class]]"
+  - "[[California LCFS - Rental Forklift Charging Locations Are Registered and Movements Recorded]]"
 ---
 
 # Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10)
@@ -46,6 +48,7 @@ Added for the regulatory-driver topic; this is the primary source for how forkli
 - **Who reports:** since 2025-07-01 (Q3 2025 reporting) the owner of the facility or location is the first fuel reporting entity for electric forklifts; each rental location is registered separately; records of where forklifts charged (for example rental agreements or meter serial numbers) should be kept. Fleet-owned forklifts that charge at a customer site are not separately addressed; the guidance suggests confirming with LRTAdmin@arb.ca.gov.
 - **Dates:** quarterly reports are due 30 June (Q1), 30 September (Q2), 31 December (Q3) and 31 March (Q4); verification statements for electric and hydrogen forklifts are due 31 August (or the next business day) starting in 2027 for the 2026 data year.
 - **Conflict:** the Cornell copy of the regulation shows an estimation option with no cutoff and allows the fleet owner or its designee to report, which differs from this guidance (C283, [[Document - 17 CCR 95491 Cornell LII Page (retrieved 2026-10-17)]]).
+- **Update 2026-10-17 (first-hand read):** the owner added the raw PDF (`Downloads/CARB_lcfsguidance_25_01_2025.pdf`) and it was read in full text, replacing the earlier second-hand reading. Confirmed: effective Q3 2025 two forklift application types (under 12,000 lb and 12,000 lb and over) and the lowest-credit rule when classes cannot be told apart; estimation stops with Q1 2026 reports; meter within 5 percent accuracy; manufacturer charger efficiency or 85 percent default (footnote 4) with a worked 100 kWh x 0.85 example; the owner of the facility or location is the first reporting entity from 2025-07-01 and rental fleets register each location separately and keep location records; verification by a verification body from 2027 for the 2026 data year, statement due 31 August, with deferral up to two years for reporters under 6,000 credits (10,000 if certain other transaction types are reported) and an option to give up the credits instead. Nothing contradicts the earlier summary; the deferral and rental-record details are new ([[Forklift Clean Fuel Credit Business Case]], REQ-00061, REQ-00062).
 
 ## Provenance
 

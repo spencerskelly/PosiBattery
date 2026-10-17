@@ -18,6 +18,8 @@ describedBy:
   - "[[Document - 3Degrees Canada Clean Fuel Regulations FAQ (modified 2026-01-22)]]"
   - "[[Document - Stillwater Low Carbon Fuel Program Proliferation (2026-05-06)]]"
   - "[[Document - 7Gen CFR Credit Price in 2026 (2026-06-11)]]"
+  - "[[Document - New Mexico CTFP 101 Fact Sheet]]"
+  - "[[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]]"
 ---
 
 # North American Clean Fuel Programs Register
@@ -67,6 +69,7 @@ Register of North American low-carbon and clean fuel programs, their 2026 status
 ### Sources
 
 - [[Document - Stillwater Low Carbon Fuel Program Proliferation (2026-05-06)]]; [[Document - 3Degrees Canada Clean Fuel Regulations FAQ (modified 2026-01-22)]]; [[Document - Xpansiv British Columbia LCFS Market Page (retrieved 2026-10-17)]]; [[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]; [[Document - Trinity Consultants New Mexico Becomes Fourth State to Adopt a Clean Fuel Program (2026-02-27)]]; [[Document - 3Degrees Revenue Streams from Electric Forklifts Under Clean Fuel Standards (2025-09-25)]].
+- **Update 2026-10-17 (raw documents added by the owner):** British Columbia General Regulation 2023 ([[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]]) names use in a forklift as a prescribed purpose and sets a 15,000 kWh electricity threshold with allocation-agreement rules; the 2024 amendment, the heavy-forklift limit and the utility-bill rule were not in it (C299). New Mexico fact sheet: [[Document - New Mexico CTFP 101 Fact Sheet]]. Canada federal rules and the Mexico question remain open (IB-261, IB-257).
 
 ## Aliases
 

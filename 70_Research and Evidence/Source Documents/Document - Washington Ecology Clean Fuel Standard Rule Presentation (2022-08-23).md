@@ -20,6 +20,7 @@ describes:
   - "[[Washington Department of Ecology]]"
 referencedBy:
   - "[[Washington CFS - Fleet Owner Is the Fuel Reporting Entity for Forklift Charging Electricity]]"
+  - "[[Washington CFS - Forklift Owner Gives the Operator Annual Written Notice of Credits and Revenue]]"
 ---
 
 # Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23)
@@ -38,6 +39,7 @@ Added for the western-states clean fuel topic. Ecology presentation on the Clean
 - **Metering:** slides mention "direct metering" and "non-metered: Ecology - twice a year" under credit and deficit calculation, and "metered - electric utility, EV OEM, any other" for incremental credits. Meter specifications and accuracy are not stated.
 - **EER:** a table of energy economy ratio values for fuels in vehicles is named; the values are not in the summary.
 - **Conflict:** see C293 for the metering question.
+- **Update 2026-10-17 (first-hand read):** the raw PDF (`Downloads/WDOE_424Presentation20220823.pdf`) was read. Under 'Calculating Credits and Deficits' the slides list 'fixed guideway vehicles and electric forklifts with MY < 2023'; the 'direct metering' and 'non-metered: Ecology twice a year' items sit under residential EV charging and do not apply to forklifts. The reporting-entity slides state the forklift and eCHE owner must notify the operator. No EER values appear on the slides (C293, C303).
 
 ## Provenance
 

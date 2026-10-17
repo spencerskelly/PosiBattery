@@ -53,6 +53,7 @@ applies:
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
   - "[[Charging Energy Reporting - Keep Meter and Energy Records for Verification]]"
   - "[[Charging Energy Reporting - Provide Unadjusted Energy Data at the Output or Forklift Side]]"
+  - "[[Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year]]"
 ---
 
 # Industrial Battery Charger

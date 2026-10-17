@@ -14,8 +14,11 @@ participants:
   - "[[Fleet Software Administrator]]"
 applies:
   - "[[Washington CFS - Fleet Owner Is the Fuel Reporting Entity for Forklift Charging Electricity]]"
+  - "[[Washington CFS - Credit Designation Contracts From 2026 Use Prescribed Waiver Language]]"
+  - "[[Washington CFS - Forklift Owner Gives the Operator Annual Written Notice of Credits and Revenue]]"
 givesRiseTo:
   - "[[Report Metered Forklift Charging Energy for Oregon, Washington or New Mexico Credits]]"
+  - "[[Notify Forklift Operator of Annual Credits and Estimated Revenue]]"
 ---
 
 # Washington Site Claiming Clean Fuel Standard Forklift Credits

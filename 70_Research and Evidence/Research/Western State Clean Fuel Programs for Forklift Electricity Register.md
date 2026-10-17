@@ -28,6 +28,10 @@ describedBy:
   - "[[Document - Washington Ecology Clean Fuel Standard Report for Calendar Year 2024 (publication 26-14-043)]]"
   - "[[Document - CCarbon Oregon CFP Remains Balanced Amid Evolving Renewable Diesel Dynamics (2026-05-08)]]"
   - "[[Document - Oregon DEQ Forklift Methodology Meeting Deck (2023-05-30)]]"
+  - "[[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]]"
+  - "[[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]]"
+  - "[[Document - Oregon DEQ Clean Fuels Program First Quarter 2026 Data Summary]]"
+  - "[[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]]"
 ---
 
 # Western State Clean Fuel Programs for Forklift Electricity Register
@@ -95,6 +99,7 @@ Tracked as C291 to C295 in [[Battery Product Landscape Conflicts and Open Questi
 - Washington: [[Document - WAC 173-424-220 Cornell LII Page (retrieved 2026-10-17)]]; [[Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23)]].
 - New Mexico: [[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]; [[Document - Trinity Consultants New Mexico Becomes Fourth State to Adopt a Clean Fuel Program (2026-02-27)]].
 - Multi-state: [[Document - 3Degrees Revenue Streams from Electric Forklifts Under Clean Fuel Standards (2025-09-25)]].
+- **Update 2026-10-17 (raw documents added by the owner):** Oregon: signed estimation memo ([[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]]) confirms estimation ended with Q3 2023 and gives the 2023 formula and charger numbers; DEQ cost report ([[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]]) gives $80.51 per ton and $0.0858 per kWh for 2025; the Q1 2026 summary ([[Document - Oregon DEQ Clean Fuels Program First Quarter 2026 Data Summary]]) has no price. Washington: official certified WAC 173-424-220 ([[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]]) adds the annual owner-to-operator notice and the 2026 designation-contract sentence (REQ-00059, REQ-00060, UC-00072). New Mexico: fact sheet ([[Document - New Mexico CTFP 101 Fact Sheet]]) has no forklift content. New conflicts C300 to C303.
 
 ## Aliases
 

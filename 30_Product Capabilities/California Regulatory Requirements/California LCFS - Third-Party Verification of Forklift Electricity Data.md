@@ -32,5 +32,6 @@ Forklift electricity data reported for LCFS shall be third-party verified starti
 - Second-hand reading; see C-items in [[Battery Product Landscape Conflicts and Open Questions]] and [[California Forklift Electrification Regulations Register]].
 - **Status:** applies to parties who claim credits. Records to keep include meter serial numbers and rental agreements.
 - What a verifier needs beyond that was not found (IB-247).
+- **Update 2026-10-17 (first-hand read of Guidance 25-01):** an entity that reports forklift electricity may defer verification for up to two years if it generates under 6,000 credits (and under 6,000 deficits) in the prior year; deferred statements for all unverified reports are due by 31 August of the year verification is required. After submitting all four quarters an entity may instead remove all transactions subject to verification and lose the associated credits ([[Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10)]]). Verification cost was not found (IB-265).
 
 ## Former ids

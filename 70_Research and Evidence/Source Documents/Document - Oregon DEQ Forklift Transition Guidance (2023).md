@@ -42,6 +42,7 @@ Added for the western-states clean fuel topic. DEQ guidance on moving forklift r
 - **Attestation:** written explanations go on the generator's letterhead with a signed and dated declaration that the information is true to the best of the signer's knowledge and belief.
 - **Not stated:** charger efficiency or an energy economy ratio (EER) adjustment, metering accuracy or calibration standards, the conversion of metered energy to credits, the steps of DEQ's Call-In Process, and details of the estimation method.
 - **Conflict:** the metered-data adjustment rule differs from CARB's charger-efficiency adjustment (C291); the date metering became mandatory differs from the May 2023 discussion draft (C292).
+- **Update 2026-10-17 (first-hand read):** the raw PDF (`Downloads/ODEQ_ForkliftTransitionGuidance.pdf`) was read; it matches the earlier second-hand summary (C291, C292). See also the signed estimation memo ([[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]]).
 
 ## Provenance
 

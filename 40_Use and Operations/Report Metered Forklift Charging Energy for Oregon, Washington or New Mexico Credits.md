@@ -18,6 +18,8 @@ arisesIn:
   - "[[Oregon Site Claiming Clean Fuels Program Forklift Credits]]"
   - "[[Washington Site Claiming Clean Fuel Standard Forklift Credits]]"
   - "[[New Mexico Site Claiming Clean Transportation Fuel Program Credits]]"
+drives:
+  - "[[Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year]]"
 ---
 
 # Report Metered Forklift Charging Energy for Oregon, Washington or New Mexico Credits
