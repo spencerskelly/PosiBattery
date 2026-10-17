@@ -5,6 +5,7 @@ id: UC-00066
 uid: 20261017124004000skellyspencer
 status: Draft
 tags:
+  - compliance-activity
   - operational-use-case
   - operational-hypothesis
   - california

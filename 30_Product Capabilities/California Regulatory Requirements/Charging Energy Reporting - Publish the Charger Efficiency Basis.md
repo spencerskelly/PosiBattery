@@ -5,6 +5,7 @@ id: REQ-00051
 uid: 20261017124012000skellyspencer
 status: Draft
 tags:
+  - regulatory-driver
   - regulation
   - california
   - candidate-from-research

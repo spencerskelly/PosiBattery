@@ -5,6 +5,7 @@ id: REQ-00047
 uid: 20261017124008000skellyspencer
 status: Draft
 tags:
+  - regulatory-driver
   - regulation
   - california
   - external-obligation

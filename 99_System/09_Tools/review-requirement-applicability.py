@@ -46,7 +46,8 @@ def resolve(name):
     else: ms=bybase.get(Path(name).name,[])
     return ms[0] if len(ms)==1 else None
 
-reqs={p:d for p,d in notes.items() if d.get("type")=="Requirement"}
+# Requirements tagged regulatory-driver record an external obligation (or a candidate derived from one) and are not product-scoped; product-closure checks do not apply (owner decision 2026-10-17).
+reqs={p:d for p,d in notes.items() if d.get("type")=="Requirement" and "regulatory-driver" not in {str(x) for x in vals(d.get("tags"))}}
 counts=Counter(); findings=[]; rows=[]
 
 for p,d in sorted(reqs.items()):
