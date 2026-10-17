@@ -108,6 +108,7 @@ The "Track regulations that drive demand" row above (added 2026-10-04) was resea
 - The LCFS metering requirement is supported (metered kWh from Q1 2026 reports, claiming credits optional), but the source is CARB Guidance 25-01, not Guidance 20-03 (C284).
 - Still open: adopted forklift EER, whether charger-reported kWh qualifies, utility pathway status (C286 to C288; IB-242 to IB-244).
 - Later on 2026-10-17, raw CARB, Oregon, Washington, New Mexico and British Columbia documents added by the owner were read first-hand: proposed EER 2.4 (under 12,000 lb) and 3.8 (12,000 lb and over), benchmark 80.17 for 2026, verification deferral for small reporters. The adopted order is still unread (C296, C298, C304; IB-242). See [[Forklift Clean Fuel Credit Business Case]].
+- Site energy economics (demand charges, utility rebates) was researched on 2026-10-17; see [[Forklift Charging Site Energy Economics and Incentives Register]]. Findings: 2026 utility rebates of $2,000 to $6,000 per replacing truck and $150 to $550 per qualifying charger; the federal 30C credit ended for property placed in service after 2026-06-30; annual energy per truck is bounded at roughly 5 to 20 MWh by old and vendor sources only (C310).
 - The other rows of the 2026-10-04 list are not yet verified.
 
 ### Product classification review queue
@@ -131,3 +132,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 - 2026-10-04 — Added business and roadmap-data candidates (topic gaps and internal data to collect) to the parking lot. Existing items unchanged. Possible overlap with unmigrated `_EMS Research/` and `_Cost Driver Research/` staging folders noted for reconciliation.
 - 2026-10-17 — Added an update subsection checking the CARB ZEF and LCFS row against sources; original rows unchanged. See [[California Forklift Electrification Regulations Register]].
 - 2026-10-17 — Added a bullet to that subsection after reading the owner's downloaded raw documents; original rows unchanged.
+- 2026-10-17 — Added a bullet for the site energy economics row after researching it; original rows unchanged.

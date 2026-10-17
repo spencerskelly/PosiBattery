@@ -48,6 +48,7 @@ describedBy:
   - "[[Western State Clean Fuel Programs for Forklift Electricity Register]]"
   - "[[North American Clean Fuel Programs Register]]"
   - "[[Forklift Clean Fuel Credit Business Case]]"
+  - "[[Forklift Charging Site Energy Economics and Incentives Register]]"
 applies:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
