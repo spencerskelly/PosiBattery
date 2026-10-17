@@ -1,0 +1,68 @@
+# Requirement Upstream Rationale Review
+
+Step 12 review of every governed Requirement for why it exists and where it applies.
+
+## Summary
+
+| Metric | Count |
+|---|---:|
+| rationale_customer_need | 2 |
+| rationale_derivedFrom | 8 |
+| rationale_drivenBy | 15 |
+| rationale_formal_reference | 28 |
+| rationale_operational_use_case | 13 |
+| rationale_references | 28 |
+| rationale_requirement_hierarchy | 8 |
+| requirements | 27 |
+| requirements_with_defensible_rationale_path | 27 |
+| requirements_with_scope | 27 |
+| requirements_with_upstream_rationale | 27 |
+| scope_appliesTo | 28 |
+| findings | 0 |
+
+## Requirement rationale paths
+
+| Requirement | Upstream rationale | Scope |
+|---|---|---|
+| 30_Product Capabilities/BMID - Preserve Battery Association.md | drivenBy → Inspect Battery Condition Through a BMID (Use Case / what)<br>drivenBy → Review BMID Battery History and Exceptions (Use Case / what) | PosiCharge BMID |
+| 30_Product Capabilities/BMID - Provide Battery Identity to Compatible Charger.md | drivenBy → Charge a BMID-Equipped Battery Using Battery Information (Use Case / what)<br>drivenBy → Integrate the Battery with Truck and Charger Controls (Use Case / why) | PosiCharge BMID |
+| 30_Product Capabilities/BMID - Provide Supported Battery Condition Information to Charger.md | drivenBy → Charge a BMID-Equipped Battery Using Battery Information (Use Case / what)<br>drivenBy → Inspect Battery Condition Through a BMID (Use Case / what) | PosiCharge BMID |
+| 30_Product Capabilities/BMID - Retain Battery-Specific Usage History.md | drivenBy → Review BMID Battery History and Exceptions (Use Case / what)<br>drivenBy → Document Battery Care for Warranty Compliance (Use Case / why) | PosiCharge BMID |
+| 30_Product Capabilities/California Regulatory Requirements/California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity.md | references → Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10) (Document) | California Site Claiming LCFS Forklift Electricity Credits |
+| 30_Product Capabilities/California Regulatory Requirements/California LCFS - Forklift Charging Energy Shall Be Metered.md | references → Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10) (Document) | California Site Claiming LCFS Forklift Electricity Credits |
+| 30_Product Capabilities/California Regulatory Requirements/California LCFS - Forklift Volumes Are Reported by Lift Capacity Class.md | references → Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10) (Document)<br>references → Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12) (Document)<br>references → Document - CARB LCFS 15-Day Notice of Modified Text (2024-08-12) (Document) | California Site Claiming LCFS Forklift Electricity Credits |
+| 30_Product Capabilities/California Regulatory Requirements/California LCFS - Rental Forklift Charging Locations Are Registered and Movements Recorded.md | references → Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10) (Document) | California Site Claiming LCFS Forklift Electricity Credits |
+| 30_Product Capabilities/California Regulatory Requirements/California LCFS - Third-Party Verification of Forklift Electricity Data.md | references → Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10) (Document) | California Site Claiming LCFS Forklift Electricity Credits |
+| 30_Product Capabilities/California Regulatory Requirements/California ZEF - Government Fleets Contact the Utility and Report Annually.md | references → Document - CARB ZEF Government Fleets Overview Fact Sheet (2026-01) (Document)<br>references → Document - CARB ZEF Brochure for State and Local Government Fleets (2026-04) (Document) | California State or Local Government Forklift Fleet Site |
+| 30_Product Capabilities/California Regulatory Requirements/California ZEF - Government Fleets Replace LSI Forklifts on the Phase-Out Schedule.md | references → Document - CARB ZEF Government Fleets Overview Fact Sheet (2026-01) (Document)<br>references → Document - CARB ZEF Brochure for State and Local Government Fleets (2026-04) (Document) | California State or Local Government Forklift Fleet Site |
+| 30_Product Capabilities/California Regulatory Requirements/California ZEF - Private Fleets, Dealers, Manufacturers and Rental Agencies (Enforcement Paused).md | references → Document - CARB ZEF Implementation Update Advisory (2025-05-29) (Document)<br>references → Document - CARB ZEF Government Fleets Overview Fact Sheet (2026-01) (Document)<br>references → Document - CARB News Release Forklifts to Become Cleaner and Less Polluting (2024) (Document) | California Private Forklift Fleet Site |
+| 30_Product Capabilities/California Regulatory Requirements/Charging Energy Reporting - Keep Meter and Energy Records for Verification.md | drivenBy → Report Metered Forklift Charging Energy for LCFS Credits (Use Case / what)<br>derivedFrom → California LCFS - Third-Party Verification of Forklift Electricity Data (Requirement / standard) | Industrial Battery Charger |
+| 30_Product Capabilities/California Regulatory Requirements/Charging Energy Reporting - Provide Unadjusted Energy Data at the Output or Forklift Side.md | derivedFrom → Oregon CFP - Forklift Charging Energy Shall Be Directly Metered (Requirement / standard)<br>derivedFrom → California LCFS - Forklift Charging Energy Shall Be Metered (Requirement / standard) | Industrial Battery Charger |
+| 30_Product Capabilities/California Regulatory Requirements/Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy.md | drivenBy → Report Metered Forklift Charging Energy for LCFS Credits (Use Case / what)<br>derivedFrom → California LCFS - Forklift Charging Energy Shall Be Metered (Requirement / standard)<br>derivedFrom → California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity (Requirement / standard) | Industrial Battery Charger |
+| 30_Product Capabilities/California Regulatory Requirements/Charging Energy Reporting - Publish the Charger Efficiency Basis.md | drivenBy → Report Metered Forklift Charging Energy for LCFS Credits (Use Case / what)<br>derivedFrom → California LCFS - Forklift Charging Energy Shall Be Metered (Requirement / standard) | Industrial Battery Charger |
+| 30_Product Capabilities/California Regulatory Requirements/Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year.md | drivenBy → Report Metered Forklift Charging Energy for LCFS Credits (Use Case / what)<br>drivenBy → Report Metered Forklift Charging Energy for Oregon, Washington or New Mexico Credits (Use Case / what)<br>derivedFrom → California LCFS - Forklift Volumes Are Reported by Lift Capacity Class (Requirement / standard)<br>derivedFrom → California LCFS - Rental Forklift Charging Locations Are Registered and Movements Recorded (Requirement / standard) | Industrial Battery Charger |
+| 30_Product Capabilities/California Regulatory Requirements/New Mexico CTFP - Fleets Report Metered Electricity Dispensed to Special Equipment.md | references → Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07) (Document)<br>references → Document - Trinity Consultants New Mexico Becomes Fourth State to Adopt a Clean Fuel Program (2026-02-27) (Document) | New Mexico Site Claiming Clean Transportation Fuel Program Credits |
+| 30_Product Capabilities/California Regulatory Requirements/Oregon CFP - Credit Generator Registers the Metering Point as Fuel Supply Equipment.md | references → Document - Oregon DEQ Forklift Transition Guidance (2023) (Document) | Oregon Site Claiming Clean Fuels Program Forklift Credits |
+| 30_Product Capabilities/California Regulatory Requirements/Oregon CFP - Forklift Charging Energy Shall Be Directly Metered.md | references → Document - Oregon DEQ Forklift Transition Guidance (2023) (Document)<br>references → Document - Oregon DEQ Fuel Supply Equipment Page (retrieved 2026-10-17) (Document) | Oregon Site Claiming Clean Fuels Program Forklift Credits |
+| 30_Product Capabilities/California Regulatory Requirements/Washington CFS - Credit Designation Contracts From 2026 Use Prescribed Waiver Language.md | references → Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12) (Document) | Washington Site Claiming Clean Fuel Standard Forklift Credits |
+| 30_Product Capabilities/California Regulatory Requirements/Washington CFS - Fleet Owner Is the Fuel Reporting Entity for Forklift Charging Electricity.md | references → Document - WAC 173-424-220 Cornell LII Page (retrieved 2026-10-17) (Document)<br>references → Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23) (Document) | Washington Site Claiming Clean Fuel Standard Forklift Credits |
+| 30_Product Capabilities/California Regulatory Requirements/Washington CFS - Forklift Owner Gives the Operator Annual Written Notice of Credits and Revenue.md | references → Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12) (Document)<br>references → Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23) (Document) | Washington Site Claiming Clean Fuel Standard Forklift Credits |
+| 30_Product Capabilities/Estimate State of Charge and Health - Declare Accuracy Basis.md | references → Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025) (Document)<br>references → Document - Margal et al. Comparative Analysis of Battery State of Charge Estimation Methods (2025) (Document) | Model-Based State of Charge Estimator Firmware<br>Data-Driven State of Health Estimator Firmware |
+| 30_Product Capabilities/Estimate State of Health - Report Configured Threshold Crossings.md | references → Document - Mbagaya et al. Machine Learning Techniques for Battery State of Health Prediction (2025) (Document)<br>references → Document - Giuliano et al. Transformer-Based Transfer Learning for Battery State-of-Health Estimation (2025) (Document) | Data-Driven State of Health Estimator Firmware |
+| 30_Product Capabilities/PosiGuard - Support Lead-Acid and Lithium Battery Fleets.md | drivenBy → Integrate a BMID with Charger Vehicle and Fleet Systems (Use Case / what) | PosiCharge PosiGuard |
+| 30_Product Capabilities/PosiGuard - Support Local Service Configuration.md | drivenBy → Configure and Service a Supported BMID (Use Case / what) | PosiCharge PosiGuard |
+
+## Findings
+
+| Path | Kind | Field | Detail |
+|---|---|---|---|
+| _None_ | | | |
+
+## Interpretation
+
+- drivenBy from a Customer Need or operational Use Case is a valid rationale path for an active product Requirement.
+- appliesTo establishes explicit engineering scope but does not by itself explain why a Requirement exists.
+- derivedFrom/refinedBy/childOf are valid Requirement-hierarchy rationale paths when such hierarchy exists.
+- references to a formal Requirement or Document may provide source rationale when the relationship is semantically correct.
+- Body prose or folder placement may explain context to a human but does not replace governed upstream rationale.
+- No new upstream relationship is added unless existing model content supports the exact semantic claim.

@@ -41,6 +41,8 @@ describedBy:
   - "[[Document - BC Low Carbon Fuel Requirements Summary 2010-2025 (RLCF-007, updated 2026-06-29)]]"
   - "[[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]]"
   - "[[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]]"
+  - "[[Document - CARB LCFS Final Regulation Order OAL-Approved Unofficial Version (effective 2025-07-01)]]"
+  - "[[Document - Oregon DEQ OAR 340-253-8010 Tables 1 2 3 4 7 and 9 Standards PDF (undated)]]"
   - "[[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]]"
   - "[[Document - Fasken Hosting a Charging Station Under the Federal Clean Fuel Regulations (2022-08)]]"
   - "[[Document - Xpansiv California Finalizes LCFS Amendments Effective July 1 2025 (2025-06-30)]]"
@@ -150,7 +152,7 @@ Reportable energy = metered energy x charger efficiency ([[Document - CARB LCFS 
 
 | Program | Electric forklift EER | Which forklifts | Source |
 |---|---|---|---|
-| California | 2.4 (under 12,000 lb), 3.8 (12,000 lb and over), proposed text; adopted order unread | All sizes, two classes | [[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]], [[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]] |
+| California | 2.4 (under 12,000 lb), 3.8 (12,000 lb and over), adopted order (OAL-approved 2025-06-27, effective 2025-07-01) | All sizes, two classes | [[Document - CARB LCFS Final Regulation Order OAL-Approved Unofficial Version (effective 2025-07-01)]], [[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]], [[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]] |
 | Oregon | 3.8 (rule version effective 2025-01-09); no size split | All sizes | [[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]] |
 | British Columbia | 3.9 | Heavy only: over 6,800 kg (about 15,000 lb) or rough terrain, from the 2024 compliance period | [[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]], [[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]] |
 | Canada federal | Vehicle-class value in the Specifications, or an elected 2.5; forklifts not named in the text read | Not settled | [[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]] |
@@ -171,7 +173,7 @@ Eligibility point: BC's limit of over 6,800 kg excludes lighter counterbalance a
 ### Gaps that block a business decision
 
 - **Annual kWh per forklift** and the share of customers that claim credits: needs PosiCharge fleet data and customer interviews (IB-258, IB-252).
-- **Adopted California forklift EER** and the 2026 benchmark in force: the proposed text gives 2.4, 3.8 and 80.17; the adopted order is unread (C296, C298; IB-242).
+- **Adopted California forklift EER** and the 2026 benchmark: resolved 2026-10-17; the adopted order gives 2.4, 3.8 and 80.17 ([[Document - CARB LCFS Final Regulation Order OAL-Approved Unofficial Version (effective 2025-07-01)]]; C296, C298, IB-242). Oregon: EER 3.8, 2026 diesel standard 90.40 and average electricity CI 150.00 give an analyst value of about 0.70 tonne per MWh, about $56 at $80.51 per tonne, against California's $33 to $63 ([[Document - Oregon DEQ OAR 340-253-8010 Tables 1 2 3 4 7 and 9 Standards PDF (undated)]]; C308). The Oregon credit formula and forklift pathway code are unread (IB-264).
 - **Oregon and Washington 2026 prices and EER values** (IB-259); Oregon forklift EER and CI (IB-264).
 - **Verification cost:** verification of forklift electricity is required from the 2026 data year (statements due 31 August 2027); small reporters (under 6,000 credits) may defer up to two years or give up the credits ([[Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10)]]); cost per site not found (IB-265).
 - **Aggregator fees:** what vendors keep from each credit (IB-262).

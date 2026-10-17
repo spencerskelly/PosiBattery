@@ -36,6 +36,7 @@ describedBy:
   - "[[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]]"
   - "[[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]]"
   - "[[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]]"
+  - "[[Document - Oregon DEQ OAR 340-253-8010 Tables 1 2 3 4 7 and 9 Standards PDF (undated)]]"
 ---
 
 # Western State Clean Fuel Programs for Forklift Electricity Register

@@ -42,6 +42,7 @@ describedBy:
   - "[[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]]"
   - "[[Document - Xpansiv California Finalizes LCFS Amendments Effective July 1 2025 (2025-06-30)]]"
   - "[[Document - Tricord Consulting OAL Approves CARB LCFS Amendments Effective July 1 2025 (2025-07-09)]]"
+  - "[[Document - CARB LCFS Final Regulation Order OAL-Approved Unofficial Version (effective 2025-07-01)]]"
 ---
 
 # California Forklift Electrification Regulations Register
