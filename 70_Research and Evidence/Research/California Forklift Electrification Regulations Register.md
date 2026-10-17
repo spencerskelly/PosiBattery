@@ -121,16 +121,6 @@ Other sources agree on the 2026 metering date: [[Document - MHI Blog LCFS Fuel P
 - **H5, utilities see regulated load.** The ZEF rule makes government fleets contact their utility by location; see the update on [[Electric Utility or Grid Operator]]. No PosiCharge product interface to a utility is evidenced.
 - **H6, sizing.** California has more than 89,000 spark-ignited forklifts (CARB), but only the government share is currently forced to change; private-fleet electrification is an economic choice today (analyst reasoning).
 
-### Requirement and Use Case model (added 2026-10-17, owner decision)
-
-Owner decision 2026-10-17: regulatory content is modeled as Requirement notes, with Use Cases defining what customers do with them and where.
-
-- **External obligations (Requirement, subtype standard; bind the fleet or site owner, not a charger):** REQ-00045 [[California ZEF - Government Fleets Replace LSI Forklifts on the Phase-Out Schedule]]; REQ-00046 [[California ZEF - Government Fleets Contact the Utility and Report Annually]]; REQ-00047 [[California ZEF - Private Fleets, Dealers, Manufacturers and Rental Agencies (Enforcement Paused)]]; REQ-00048 [[California LCFS - Forklift Charging Energy Shall Be Metered]]; REQ-00049 [[California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity]]; REQ-00050 [[California LCFS - Third-Party Verification of Forklift Electricity Data]].
-- **Derived product requirements (analyst-proposed, Draft; the hypotheses H1 to H4 above):** REQ-00051 [[Charging Energy Reporting - Publish the Charger Efficiency Basis]]; REQ-00052 [[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]; REQ-00053 [[Charging Energy Reporting - Keep Meter and Energy Records for Verification]].
-- **Where (Use Case, subtype where):** [[California State or Local Government Forklift Fleet Site]]; [[California Private Forklift Fleet Site]]; [[California Site Claiming LCFS Forklift Electricity Credits]].
-- **What customers do (Use Case, subtype what; analyst hypotheses):** [[Convert a Government Forklift Fleet on the ZEF Phase-Out Schedule]]; [[Contact the Utility About New Forklift Charging Load]]; [[Report Metered Forklift Charging Energy for LCFS Credits]].
-- The Info register stays as the evidence summary; the Requirement notes carry the obligations. No customer source confirms the Use Case steps, and who inside a customer owns compliance is unidentified (IB-252).
-
 ### What would change this picture
 
 - CARB asks EPA for authorization under section 209(e)(2)(A), or EPA says it is unnecessary; CARB then publishes a notice ([[Document - CARB ZEF Implementation Update Advisory (2025-05-29)]]).

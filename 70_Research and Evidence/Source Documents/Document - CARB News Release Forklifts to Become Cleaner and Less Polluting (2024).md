@@ -20,8 +20,6 @@ describes:
   - "[[California Air Resources Board]]"
 contradictedBy:
   - "[[Document - CARB ZEF Implementation Update Advisory (2025-05-29)]]"
-referencedBy:
-  - "[[California ZEF - Private Fleets, Dealers, Manufacturers and Rental Agencies (Enforcement Paused)]]"
 ---
 
 # Document - CARB News Release Forklifts to Become Cleaner and Less Polluting (2024)

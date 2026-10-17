@@ -45,10 +45,6 @@ describedBy:
   - "[[Metric - Temperature Compensation Source]]"
   - "[[Metric - Warranty and Price]]"
   - "[[California Forklift Electrification Regulations Register]]"
-applies:
-  - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
-  - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
-  - "[[Charging Energy Reporting - Keep Meter and Energy Records for Verification]]"
 ---
 
 # Industrial Battery Charger

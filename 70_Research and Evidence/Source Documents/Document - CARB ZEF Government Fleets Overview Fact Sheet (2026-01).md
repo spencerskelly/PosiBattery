@@ -19,10 +19,6 @@ accessed: 2026-10-17
 describes:
   - "[[California Forklift Electrification Regulations Register]]"
   - "[[California Air Resources Board]]"
-referencedBy:
-  - "[[California ZEF - Private Fleets, Dealers, Manufacturers and Rental Agencies (Enforcement Paused)]]"
-  - "[[California ZEF - Government Fleets Replace LSI Forklifts on the Phase-Out Schedule]]"
-  - "[[California ZEF - Government Fleets Contact the Utility and Report Annually]]"
 ---
 
 # Document - CARB ZEF Government Fleets Overview Fact Sheet (2026-01)
