@@ -39,6 +39,7 @@ Added for the western-states clean fuel topic. Program outreach document from th
 - **Dates and money:** "Effective April 1, 2026, the CTFP is a policy that:"; revenue tables estimate 2027 revenue at $100 per credit (a projected price, not a market price).
 - **Not stated:** credit issuance timing, the kWh-to-credit conversion, carbon intensity values, fee amounts, compliance period length, and rule citations.
 - **Conflict:** see C294 (versus the Trinity article) and C295 (reporting entity).
+- **Update 2026-10-17 (first-hand read):** the raw PDF (`Downloads/NMED_CTFP-Roads-to-Revenue-with-Fleet-Electrification.pdf`) was read. Confirms special equipment includes electric forklifts; first in line to claim credits are fleets that own the chargers; the six opt-in steps (register fleet and pay a one-time fee in ARCS, register FSE units, report metered kWh each quarter and compliance period, pay annual fees, sell credits, keep revenue); aggregators can handle steps 2 to 5; a vendor that owns the charger can claim credits, or the fleet manager can negotiate a discount or ask the vendor to transfer its credit-generating role. The revenue examples are labeled conservative and use statewide grid average CI and projected 2027 prices. The earlier summary stands.
 
 ## Provenance
 

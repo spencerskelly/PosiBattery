@@ -18,6 +18,15 @@ describedBy:
   - "[[Document - 3Degrees Canada Clean Fuel Regulations FAQ (modified 2026-01-22)]]"
   - "[[Document - Stillwater Low Carbon Fuel Program Proliferation (2026-05-06)]]"
   - "[[Document - 7Gen CFR Credit Price in 2026 (2026-06-11)]]"
+  - "[[Document - New Mexico CTFP 101 Fact Sheet]]"
+  - "[[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]]"
+  - "[[Document - Canada Clean Fuel Regulations Schedules 3 and 11 Registration and Annual Report Contents (Justice Laws)]]"
+  - "[[Document - BC Low Carbon Fuel Requirements Summary 2010-2025 (RLCF-007, updated 2026-06-29)]]"
+  - "[[Document - Fasken Hosting a Charging Station Under the Federal Clean Fuel Regulations (2022-08)]]"
+  - "[[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]]"
+  - "[[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]]"
+  - "[[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]]"
+  - "[[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]]"
 ---
 
 # North American Clean Fuel Programs Register
@@ -67,6 +76,8 @@ Register of North American low-carbon and clean fuel programs, their 2026 status
 ### Sources
 
 - [[Document - Stillwater Low Carbon Fuel Program Proliferation (2026-05-06)]]; [[Document - 3Degrees Canada Clean Fuel Regulations FAQ (modified 2026-01-22)]]; [[Document - Xpansiv British Columbia LCFS Market Page (retrieved 2026-10-17)]]; [[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]; [[Document - Trinity Consultants New Mexico Becomes Fourth State to Adopt a Clean Fuel Program (2026-02-27)]]; [[Document - 3Degrees Revenue Streams from Electric Forklifts Under Clean Fuel Standards (2025-09-25)]].
+- **Update 2026-10-17 (raw documents added by the owner):** British Columbia General Regulation 2023 ([[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]]) names use in a forklift as a prescribed purpose and sets a 15,000 kWh electricity threshold with allocation-agreement rules; the 2024 amendment, the heavy-forklift limit and the utility-bill rule were not in it (C299). New Mexico fact sheet: [[Document - New Mexico CTFP 101 Fact Sheet]]. Canada federal rules and the Mexico question remain open (IB-261, IB-257).
+- **Update 2026-10-17 (LCFS web round):** British Columbia limits forklift credits to heavy forklifts over 6,800 kg with EER 3.9 ([[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]], [[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]]); Canada federal charging-site hosts earn credits on metered kWh with an efficiency ratio taken from a Specifications document not yet read ([[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]], [[Document - Canada Clean Fuel Regulations Schedules 3 and 11 Registration and Annual Report Contents (Justice Laws)]]); the June 2024 market report shows CAD 133.20 average ([[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]]). New conflicts C305 to C309; backlog IB-266 to IB-269.
 
 ## Aliases
 

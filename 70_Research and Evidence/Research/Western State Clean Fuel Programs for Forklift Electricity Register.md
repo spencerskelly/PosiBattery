@@ -28,6 +28,14 @@ describedBy:
   - "[[Document - Washington Ecology Clean Fuel Standard Report for Calendar Year 2024 (publication 26-14-043)]]"
   - "[[Document - CCarbon Oregon CFP Remains Balanced Amid Evolving Renewable Diesel Dynamics (2026-05-08)]]"
   - "[[Document - Oregon DEQ Forklift Methodology Meeting Deck (2023-05-30)]]"
+  - "[[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]]"
+  - "[[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]]"
+  - "[[Document - Oregon DEQ Clean Fuels Program First Quarter 2026 Data Summary]]"
+  - "[[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]]"
+  - "[[Document - Oregon DEQ Energy Economy Ratio Values Table (2022-05-16)]]"
+  - "[[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]]"
+  - "[[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]]"
+  - "[[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]]"
 ---
 
 # Western State Clean Fuel Programs for Forklift Electricity Register
@@ -95,6 +103,8 @@ Tracked as C291 to C295 in [[Battery Product Landscape Conflicts and Open Questi
 - Washington: [[Document - WAC 173-424-220 Cornell LII Page (retrieved 2026-10-17)]]; [[Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23)]].
 - New Mexico: [[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]; [[Document - Trinity Consultants New Mexico Becomes Fourth State to Adopt a Clean Fuel Program (2026-02-27)]].
 - Multi-state: [[Document - 3Degrees Revenue Streams from Electric Forklifts Under Clean Fuel Standards (2025-09-25)]].
+- **Update 2026-10-17 (raw documents added by the owner):** Oregon: signed estimation memo ([[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]]) confirms estimation ended with Q3 2023 and gives the 2023 formula and charger numbers; DEQ cost report ([[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]]) gives $80.51 per ton and $0.0858 per kWh for 2025; the Q1 2026 summary ([[Document - Oregon DEQ Clean Fuels Program First Quarter 2026 Data Summary]]) has no price. Washington: official certified WAC 173-424-220 ([[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]]) adds the annual owner-to-operator notice and the 2026 designation-contract sentence (REQ-00059, REQ-00060, UC-00072). New Mexico: fact sheet ([[Document - New Mexico CTFP 101 Fact Sheet]]) has no forklift content. New conflicts C300 to C303.
+- **Update 2026-10-17 (LCFS web round):** Oregon's rule tables give electric forklift EER 3.8 with no size split and pathway CIs from 0 to 150 ([[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]]); a custom EER route exists in OAR 340-253-0460 ([[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]]). The DEQ $0.0858 per kWh figure is not a forklift value (C308).
 
 ## Aliases
 

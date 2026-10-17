@@ -18,6 +18,7 @@ drives:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
   - "[[Charging Energy Reporting - Keep Meter and Energy Records for Verification]]"
+  - "[[Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year]]"
 arisesIn:
   - "[[California Site Claiming LCFS Forklift Electricity Credits]]"
 ---

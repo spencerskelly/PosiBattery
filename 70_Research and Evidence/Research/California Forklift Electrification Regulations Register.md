@@ -35,6 +35,13 @@ describedBy:
   - "[[Document - MHI Blog LCFS Fuel Producer Credits for Material Handling (2025-10-28)]]"
   - "[[Document - Smart Charging Technologies Comment Letter on Electric Forklift EER (2024-05-09)]]"
   - "[[Document - FuSE CARB's 2025 LCFS Regulation Amendments Electricity Credit Generation (2024-11-14)]]"
+  - "[[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]]"
+  - "[[Document - CARB LCFS 15-Day Notice of Modified Text (2024-08-12)]]"
+  - "[[Document - CARB LCFS 2024 Rulemaking Page (retrieved 2026-10-17)]]"
+  - "[[Document - IETA Business Brief California Low Carbon Fuel Standard (2025-09-19)]]"
+  - "[[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]]"
+  - "[[Document - Xpansiv California Finalizes LCFS Amendments Effective July 1 2025 (2025-06-30)]]"
+  - "[[Document - Tricord Consulting OAL Approves CARB LCFS Amendments Effective July 1 2025 (2025-07-09)]]"
 ---
 
 # California Forklift Electrification Regulations Register
@@ -154,6 +161,8 @@ Tracked as C286 to C289 in [[Battery Product Landscape Conflicts and Open Questi
 - Federal: [[Document - EPA 2012 Notice of Decision on California Large Spark-Ignition Engines (77 FR 20388)]].
 - Regulation text copy: [[Document - 17 CCR 95491 Cornell LII Page (retrieved 2026-10-17)]].
 - Industry and press: [[Document - WPGA Settlement Press Release on ZEF (2025-05-27)]]; [[Document - NPGA Article CARB Declares Zero-Emission Forklift Regulation Unenforceable (2025-05-29)]]; [[Document - Trinity Consultants California Commits to Repealing ACF and Locomotive Rules While Pursuing ZEF]]; [[Document - MHI Blog LCFS Fuel Producer Credits for Material Handling (2025-10-28)]]; [[Document - Food Logistics Ndustrial LCFS Updates and Fleet Electrification (2025-01-24)]]; [[Document - Trinity Consultants California LCFS Compliance in 2026 (2026-02-26)]]; [[Document - Xpansiv April 2025 CARB Regulation Update on LCFS Amendments (2025-04-09)]]; [[Document - Smart Charging Technologies Comment Letter on Electric Forklift EER (2024-05-09)]].
+- **Update 2026-10-17 (raw documents added by the owner):** the CARB 15-day notice ([[Document - CARB LCFS 15-Day Notice of Modified Text (2024-08-12)]]), the second 15-day proposed order ([[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]]) and Guidance 25-01 (raw PDF) were read first-hand. EER 2.4 / 3.8 by lift-capacity class, benchmark 80.17 for 2026, owner of the FSE as reporting entity, FSE = facility or location, metered kWh from the 2026 data year (C283, C296, C298). The adopted order is still unread (IB-242). New requirements: REQ-00061 to REQ-00063.
+- **Update 2026-10-17 (LCFS web round):** the amendments were approved by OAL on 2025-06-27 and took effect on 2025-07-01 per three secondary sources, although CARB's rulemaking page as read says otherwise (C305). The adopted order PDF is located but unreadable through the tool; owner download requested (IB-242).
 
 ## Aliases
 
