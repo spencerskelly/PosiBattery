@@ -279,13 +279,20 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-254 | Washington: read WAC 173-424 for forklift metering and monitoring, the EER table and the electric forklift model-year-before-2023 calculation method (C293) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | rule text; EER | open |
 | IB-255 | New Mexico: read 20.2.92 NMAC for forklift provisions, credit start, fees and EER (C294) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | rule text | open |
 | IB-256 | Per-state reporting-party matrix confirmed from rule text, and credit prices and revenue per forklift for Oregon, Washington and New Mexico (C295; extends IB-248) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | business case | open |
-| IB-257 | Other jurisdictions with clean fuel programs that could cover forklift electricity (not yet searched) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | other regions | open |
+| IB-257 | Other jurisdictions with clean fuel programs that could cover forklift electricity (searched 2026-10-17 through one survey page: six active programs, Hawaii enacted, seven states with 2026 bills; Mexico and bill outcomes still open) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] | - | other regions | open |
+| IB-258 | Annual kWh per forklift (E-Meter and PosiLink data) and the share of customers claiming credits; reconcile the PG&E example (C297) | [[Forklift Clean Fuel Credit Business Case]] | - | business case inputs | open |
+| IB-259 | Oregon and Washington 2026 credit prices and EER values: DEQ quarterly spreadsheet, Ecology quarterly reports | [[Forklift Clean Fuel Credit Business Case]] | - | prices | open |
+| IB-260 | British Columbia: read the Low Carbon Fuels (General) Regulation for the 2024 forklift provisions, reporting party and verification (C299) | [[North American Clean Fuel Programs Register]] | - | rule text | open |
+| IB-261 | Canada federal CFR: read the regulation and the government credit market report for forklift eligibility, price and eligible party (C299) | [[North American Clean Fuel Programs Register]] | - | rule text; prices | open |
+| IB-262 | Aggregator and credit-service fees: what 3Degrees, 7Gen and similar firms keep from each credit | [[Forklift Clean Fuel Credit Business Case]] | - | net revenue | open |
+| IB-263 | Competing and partner offers for charger-side or panel-side forklift metering (Smart Charging Technologies and others) | [[Forklift Clean Fuel Credit Business Case]] | - | competition | open |
 | IB-227 | Which outside interfaces (OpenADR, Modbus, OCPP, MQTT, vendor API) do Linde connect:charger, Jungheinrich Active Load Management, Toyota peak load management and Crown Demand Response Management offer to a site energy system? Read the Jungheinrich factsheet PDF, Linde's own connect:charger page (also settles C266), Toyota's own page and Crown's V-HFM3 manual | Forklift Charger Load Management Register | - | energy management interface; protocols | open |
 | IB-228 | SolarEdge commercial and industrial EV charging platform article (redirect not refetched: http://pv-magazine-usa.com/2023/06/05/solaredge-introduces-commercial-and-industrial-ev-charging-platform/), Fronius PV Connect product pages and the ROYPOW forklift charger page: do they state industrial-truck charger support? | Forklift Charger Load Management Register | - | solar charging; compatible chargers | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
 - **Round 8 directions:** IB-042 to IB-046 came from the catalog review.
 - **Round 59 directions:** IB-242 to IB-252 came from the California forklift regulation pass ([[California Forklift Electrification Regulations Register]]).
 - **Round 60 directions:** IB-253 to IB-257 came from the Oregon, Washington and New Mexico clean fuel program pass ([[Western State Clean Fuel Programs for Forklift Electricity Register]]).
+- **Round 61 directions:** IB-258 to IB-263 came from the North American programs survey and the forklift credit business case ([[North American Clean Fuel Programs Register]], [[Forklift Clean Fuel Credit Business Case]]).
 
 ## Aliases
 

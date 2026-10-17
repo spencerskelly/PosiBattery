@@ -25,6 +25,9 @@ describedBy:
   - "[[Document - Washington Ecology Clean Fuel Standard Rule Presentation (2022-08-23)]]"
   - "[[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]"
   - "[[Document - Smart Charging Technologies Letter to Oregon DEQ on Forklift Metering Options (2023-05-15)]]"
+  - "[[Document - Washington Ecology Clean Fuel Standard Report for Calendar Year 2024 (publication 26-14-043)]]"
+  - "[[Document - CCarbon Oregon CFP Remains Balanced Amid Evolving Renewable Diesel Dynamics (2026-05-08)]]"
+  - "[[Document - Oregon DEQ Forklift Methodology Meeting Deck (2023-05-30)]]"
 ---
 
 # Western State Clean Fuel Programs for Forklift Electricity Register

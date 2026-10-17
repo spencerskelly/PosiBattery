@@ -46,6 +46,8 @@ describedBy:
   - "[[Metric - Warranty and Price]]"
   - "[[California Forklift Electrification Regulations Register]]"
   - "[[Western State Clean Fuel Programs for Forklift Electricity Register]]"
+  - "[[North American Clean Fuel Programs Register]]"
+  - "[[Forklift Clean Fuel Credit Business Case]]"
 applies:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"

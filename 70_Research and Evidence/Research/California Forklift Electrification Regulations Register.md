@@ -34,6 +34,7 @@ describedBy:
   - "[[Document - 17 CCR 95491 Cornell LII Page (retrieved 2026-10-17)]]"
   - "[[Document - MHI Blog LCFS Fuel Producer Credits for Material Handling (2025-10-28)]]"
   - "[[Document - Smart Charging Technologies Comment Letter on Electric Forklift EER (2024-05-09)]]"
+  - "[[Document - FuSE CARB's 2025 LCFS Regulation Amendments Electricity Credit Generation (2024-11-14)]]"
 ---
 
 # California Forklift Electrification Regulations Register
