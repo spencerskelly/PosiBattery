@@ -20,6 +20,10 @@ describes:
   - "[[California Air Resources Board]]"
 contradicts:
   - "[[Document - 17 CCR 95491 Cornell LII Page (retrieved 2026-10-17)]]"
+referencedBy:
+  - "[[California LCFS - Facility Owner Registers Charging Locations and Reports as First Reporting Entity]]"
+  - "[[California LCFS - Forklift Charging Energy Shall Be Metered]]"
+  - "[[California LCFS - Third-Party Verification of Forklift Electricity Data]]"
 ---
 
 # Document - CARB LCFS Guidance 25-01 Forklift Fueling Reporting (2025-10)
