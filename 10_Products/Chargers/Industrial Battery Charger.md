@@ -44,6 +44,7 @@ describedBy:
   - "[[Metric - Size and Mass]]"
   - "[[Metric - Temperature Compensation Source]]"
   - "[[Metric - Warranty and Price]]"
+  - "[[California Forklift Electrification Regulations Register]]"
 ---
 
 # Industrial Battery Charger

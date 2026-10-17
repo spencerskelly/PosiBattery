@@ -27,6 +27,10 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>direct link found (R59) | CARB LCFS Guidance 25-01 forklift fueling reporting (raw PDF) | <https://ww2.arb.ca.gov/sites/default/files/2025-10/lcfsguidance_25_01_2025.pdf> | <https://ww2.arb.ca.gov/> | Metering, 85 percent default, verification (IB-242, IB-243; the shell cannot reach CARB, 403) | - | R59 |
+| **high priority**<br>wanted (R59) | Adopted LCFS regulation order with EER table | no direct file found | <https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard> | Adopted forklift EER (C286, IB-242) | - | R59 |
+| **helpful**<br>wanted (R59) | CARB LCFS Guidance 19-04 | no direct file found | <https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard/lcfs-guidance> | Efficiency basis (C287, IB-243) | - | R59 |
+| **helpful**<br>wanted (R59) | ZEF final regulation order, ISOR and FSOR | no direct file found | <https://ww2.arb.ca.gov/zef> | Regulation text, sizing (IB-245, IB-251) | - | R59 |
 | **high priority**<br>read only through a summary (R49) | Amaron Brute motive power brochure | <https://www.amararajaeandm.com/amaron-brute/downloads/brochure.pdf> | <https://www.amararajaeandm.com/> | Cell tables, voltages, options (IB-179, IB-181) | - | R49 |
 | **high priority**<br>read only through a summary (R49) | Banner Traction Bull PzS DIN cells folder | <https://bannerbatterien.com/energysolutions/upload/files/FolderTractionBullNassDINZellen_gb.pdf> | <https://bannerbatterien.com/> | Cell tables, options, explosion protection (C222, IB-180) | - | R49 |
 | **high priority**<br>read only through a summary (R49) | Banner Traction Bull PzS and PzB folder | <https://bannerbatterien.com/energysolutions/upload/files/FolderAGS_GB.pdf> | <https://bannerbatterien.com/> | Filling system, explosion-safe wording (C222) | - | R49 |

@@ -100,6 +100,15 @@ Topics and data that are thin or absent in the vault and would inform two-year e
 | Engineering capacity split (sustaining vs new product vs customer-specific) | Shows real capacity available for roadmap bets | KB-010 |
 | Customer economics baseline (TCO, energy and demand cost, labor saved) | Supports value-based pricing and energy-management features | `_Cost Driver Research/` staging folder |
 
+### Update 2026-10-17: CARB ZEF and LCFS row checked
+
+The "Track regulations that drive demand" row above (added 2026-10-04) was researched; see [[California Forklift Electrification Regulations Register]]. Original rows are not edited. Corrections:
+
+- The 2028 to 2038 phase-out is enforced for state and local government fleets only; for private fleets it is paused, not repealed (C279, C285).
+- The LCFS metering requirement is supported (metered kWh from Q1 2026 reports, claiming credits optional), but the source is CARB Guidance 25-01, not Guidance 20-03 (C284).
+- Still open: adopted forklift EER, whether charger-reported kWh qualifies, utility pathway status (C286 to C288; IB-242 to IB-244).
+- The other rows of the 2026-10-04 list are not yet verified.
+
 ### Product classification review queue
 
 These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
@@ -119,3 +128,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 ## Change history
 
 - 2026-10-04 — Added business and roadmap-data candidates (topic gaps and internal data to collect) to the parking lot. Existing items unchanged. Possible overlap with unmigrated `_EMS Research/` and `_Cost Driver Research/` staging folders noted for reconciliation.
+- 2026-10-17 — Added an update subsection checking the CARB ZEF and LCFS row against sources; original rows unchanged. See [[California Forklift Electrification Regulations Register]].
