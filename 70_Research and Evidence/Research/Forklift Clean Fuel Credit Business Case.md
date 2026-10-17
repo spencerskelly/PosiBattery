@@ -33,6 +33,22 @@ describedBy:
   - "[[Document - CARB LCFS 15-Day Notice of Modified Text (2024-08-12)]]"
   - "[[Document - New Mexico CTFP 101 Fact Sheet]]"
   - "[[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]]"
+  - "[[Document - Oregon DEQ Energy Economy Ratio Values Table (2022-05-16)]]"
+  - "[[Document - Canada Clean Fuel Regulations Schedules 3 and 11 Registration and Annual Report Contents (Justice Laws)]]"
+  - "[[Document - CARB LCFS 2024 Rulemaking Page (retrieved 2026-10-17)]]"
+  - "[[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]]"
+  - "[[Document - IETA Business Brief California Low Carbon Fuel Standard (2025-09-19)]]"
+  - "[[Document - BC Low Carbon Fuel Requirements Summary 2010-2025 (RLCF-007, updated 2026-06-29)]]"
+  - "[[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]]"
+  - "[[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]]"
+  - "[[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]]"
+  - "[[Document - Fasken Hosting a Charging Station Under the Federal Clean Fuel Regulations (2022-08)]]"
+  - "[[Document - Xpansiv California Finalizes LCFS Amendments Effective July 1 2025 (2025-06-30)]]"
+  - "[[Document - Tricord Consulting OAL Approves CARB LCFS Amendments Effective July 1 2025 (2025-07-09)]]"
+  - "[[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]]"
+  - "[[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]]"
+  - "[[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]]"
+  - "[[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]]"
 ---
 
 # Forklift Clean Fuel Credit Business Case
@@ -60,6 +76,9 @@ Business case note on whether clean fuel credits for forklift charging justify c
 |---|---|---|---|
 | California LCFS | $72.61 per metric ton (all non-zero transfers); $74.35 Type 1 | Weekly log to 2026-07-19 | [[Document - CARB Weekly LCFS Credit Transfer Activity Reports Page (retrieved 2026-10-17)]] |
 | California LCFS | about $64 | April 2025 monthly average | [[Document - W-Carbon Low Carbon Fuel Credits Refresh (2025-05-16)]] (T4) |
+| Canada CFR | CAD 133.20 volume-weighted average (2022 to May 2024 transfers; CAD 6.75 to 300.00 range) | 2023-06-30 to 2024-05-31 | [[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]] |
+| California LCFS | spot low $39.5 (2024-05-16), $40.25 (2025-06-10), high $196.5 (2021-03-19) | History | [[Document - IETA Business Brief California Low Carbon Fuel Standard (2025-09-19)]] (T4, interested) |
+| Oregon CFP | $125 market price (2022) | 2022 | [[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]] |
 | Oregon CFP | $80.51 per ton (price used in DEQ's cost calculation; DEQ also reports $0.0858 per kWh average electricity cost-saving at EER 3.4 and CI 3.91) | Calendar 2025 | [[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]] |
 | Oregon CFP | $47.98 | April 2025 monthly average | [[Document - W-Carbon Low Carbon Fuel Credits Refresh (2025-05-16)]] (T4) |
 | Washington CFS | $45.92 volume-weighted average; monthly $23.88 to $89.89 | Calendar 2024 | [[Document - Washington Ecology Clean Fuel Standard Report for Calendar Year 2024 (publication 26-14-043)]] |
@@ -127,6 +146,21 @@ Reportable energy = metered energy x charger efficiency ([[Document - CARB LCFS 
 | 90 percent | 0.453 | 32.90 |
 | 95 percent | 0.478 | 34.73 |
 
+### Program comparison: forklift EER and scope (added in the 2026-10-17 web round)
+
+| Program | Electric forklift EER | Which forklifts | Source |
+|---|---|---|---|
+| California | 2.4 (under 12,000 lb), 3.8 (12,000 lb and over), proposed text; adopted order unread | All sizes, two classes | [[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]], [[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]] |
+| Oregon | 3.8 (rule version effective 2025-01-09); no size split | All sizes | [[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]] |
+| British Columbia | 3.9 | Heavy only: over 6,800 kg (about 15,000 lb) or rough terrain, from the 2024 compliance period | [[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]], [[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]] |
+| Canada federal | Vehicle-class value in the Specifications, or an elected 2.5; forklifts not named in the text read | Not settled | [[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]] |
+| Washington | Not found | Owner reports; separate calculation for model year before 2023 (C303) | [[Western State Clean Fuel Programs for Forklift Electricity Register]] |
+| New Mexico | Not found | Forklifts listed as special equipment | [[North American Clean Fuel Programs Register]] |
+
+Credits earned per MWh from published program totals (analyst ratios, all users not forklifts): BC diesel-class electricity 0.764 (2024) and 0.743 (2025) credits per MWh, gasoline-class 0.948 and 0.921 ([[Document - BC Low Carbon Fuel Requirements Summary 2010-2025 (RLCF-007, updated 2026-06-29)]]); Canada federal charging-site hosts 1.16 credits per MWh in 2023 ([[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]]). These sit in the same range as the California forklift values in the table above (0.46 and 0.86). BC and Canada have no price in the sources read, so no dollar value is given.
+
+Eligibility point: BC's limit of over 6,800 kg excludes lighter counterbalance and warehouse trucks, so a BC site with a typical fleet may have no eligible trucks; California's split sits at 12,000 lb and Oregon has none.
+
 ### Market evidence found
 
 - **California:** CARB counts more than 89,000 spark-ignited forklifts statewide across all fleets (see [[California Forklift Electrification Regulations Register]]); the electric share is unknown.
@@ -147,11 +181,13 @@ Reportable energy = metered energy x charger efficiency ([[Document - CARB LCFS 
 
 - **H11:** the credit is worth tens of dollars per MWh in California at current prices. For a truck charged with 10 MWh a year (an illustrative figure, not sourced), that is a few hundred dollars a year; the actual figure depends on the real kWh. Whether this changes a purchase decision depends on fleet size and on how much customers value avoiding manual meter work. This is not a demonstrated willingness to pay.
 - **H14:** the 2026 California price gap between truck classes (about 2x per MWh) makes the lift-capacity class the largest single lever in the data layer; the guidance's lowest-class default penalizes any site that cannot tag charging by truck (REQ-00061, REQ-00063).
+- **H15:** program design changes the product requirement: California and Canada hinge on knowing the truck class and station or site, Oregon on documented metering and an optional custom EER route needing 300 hours of data per vehicle ([[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]]), BC on truck weight class. A data layer that tags truck class and weight serves all of them (REQ-00063; analyst reasoning).
 - **H12:** the most robust product value is accurate, auditable energy data (identity of the measuring point, no hidden adjustment), because it serves California, Oregon and the New Mexico metered-kWh rule at once (REQ-00058).
 - **H13:** efficiency disclosure is worth a few dollars per MWh in California; this is small compared with the data and verification effort, so it is a secondary lever.
 
 ### Sources
 
+- Web round 2026-10-17: [[Document - BC Information Bulletin RLCF-022 Prescribed Purposes Other Than Transportation (updated 2026-09-21)]], [[Document - BC Consolidated Regulation 295-2023 Point in Time 2024-01-01 (BC Publications)]], [[Document - BC Low Carbon Fuel Requirements Summary 2010-2025 (RLCF-007, updated 2026-06-29)]], [[Document - Oregon DEQ Rule Attachments OAR 340-253-8010 Tables 4 7 and 9 (effective 2025-01-09)]], [[Document - Oregon DEQ Energy Economy Ratio Values Table (2022-05-16)]], [[Document - OAR 340-253-0460 Cornell LII Page (retrieved 2026-10-17)]], [[Document - Canada Clean Fuel Regulations Section 101 Charging Site Host Credits (Justice Laws)]], [[Document - Canada Clean Fuel Regulations Schedules 3 and 11 Registration and Annual Report Contents (Justice Laws)]], [[Document - Canada Clean Fuel Regulations Credit Market Report (2024-06-26)]], [[Document - Fasken Hosting a Charging Station Under the Federal Clean Fuel Regulations (2022-08)]], [[Document - IETA Business Brief California Low Carbon Fuel Standard (2025-09-19)]], [[Document - Tricord Consulting OAL Approves CARB LCFS Amendments Effective July 1 2025 (2025-07-09)]], [[Document - Xpansiv California Finalizes LCFS Amendments Effective July 1 2025 (2025-06-30)]], [[Document - CARB LCFS 2024 Rulemaking Page (retrieved 2026-10-17)]], [[Document - CARB LCFS Initial Statement of Reasons (2023-12-19)]], [[Document - Oregon DEQ Fiscal Impact Statement for Clean Fuels Program Expansion Rulemaking (2022)]].
 - First-hand reads added 2026-10-17: [[Document - CARB LCFS 15-Day Notice of Modified Text (2024-08-12)]], [[Document - CARB LCFS Second 15-Day Changes Attachment A-1 Proposed Regulation Order (after 2024-08-12)]], [[Document - Oregon DEQ Electric Forklift Estimation Methodology Memo (2023-06-09)]], [[Document - Oregon DEQ 2025 Annual Costs and Benefits of the Clean Fuels Program]], [[Document - Oregon DEQ Clean Fuels Program First Quarter 2026 Data Summary]], [[Document - British Columbia Low Carbon Fuels General Regulation (Order in Council 699, 2023-12-11)]], [[Document - New Mexico CTFP 101 Fact Sheet]], [[Document - WAC 173-424-220 Washington Legislature Certified Copy (2025-11-12)]].
 - Prices: [[Document - CARB Weekly LCFS Credit Transfer Activity Reports Page (retrieved 2026-10-17)]]; [[Document - Washington Ecology Clean Fuel Standard Report for Calendar Year 2024 (publication 26-14-043)]]; [[Document - W-Carbon Low Carbon Fuel Credits Refresh (2025-05-16)]]; [[Document - 7Gen CFR Credit Price in 2026 (2026-06-11)]]; [[Document - New Mexico CTFP Roads to Revenue with Fleet Electrification (2026-07)]]; [[Document - CCarbon Oregon CFP Remains Balanced Amid Evolving Renewable Diesel Dynamics (2026-05-08)]].
 - Factors: [[Document - CARB 2026 California Average Grid Electricity Carbon Intensity Update]]; [[Document - 17 CCR 95484 Cornell LII Page (retrieved 2026-10-17)]]; [[Document - 17 CCR 95486.1 Cornell LII Page (retrieved 2026-10-17)]]; [[Document - FuSE CARB's 2025 LCFS Regulation Amendments Electricity Credit Generation (2024-11-14)]]; [[Document - Smart Charging Technologies Comment Letter on Electric Forklift EER (2024-05-09)]].
