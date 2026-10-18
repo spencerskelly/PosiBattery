@@ -28,6 +28,8 @@ describedBy:
   - "[[Document - Global Market Insights Ground Support Equipment Market]]"
   - "[[Document - Forklift Market Global Forecast 2025 to 2032 (ResearchAndMarkets press release, 2025-12-18)]]"
   - "[[Document - Grand View Research Forklift Market]]"
+  - "[[Document - Interact Analysis Mobile Robots to Outpace Fixed Automation (2026-01-13)]]"
+  - "[[Document - Interact Analysis Cuts Mobile Robot Growth Forecast (2025-01-16)]]"
 ---
 
 # Market Size and Volume Register
@@ -63,11 +65,14 @@ Source: [[Document - World Industrial Truck Statistics 2025 Q4 Factsheet|wi25]].
 
 Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,971; Class 32 127,012; Classes 4/5 121,646. Derived: Americas Class 1 plus Class 2 shipments are 136,911.
 
-**Cross-check.** [[Document - KION Annual Report 2025 Sectoral Conditions|kcs]] (citing WITS January to September) puts electric forklift and warehouse trucks at 78% of 2025 orders and 76% of 2024. The 2025 factsheet gives 79.4% for 2025 and 77.0% for its 2024 column (derived), which agrees. The older 2024 factsheet gives 70.7% (derived) for 2024.
+**Cross-check on volume.** [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]] cites WITS for approximately 2.4 million trucks worldwide in 2025 and approximately 435,000 in the Americas, which matches the 2025 factsheet (2,381,417 and 434,540).
+
+**Cross-check on electric share.** [[Document - KION Annual Report 2025 Sectoral Conditions|kcs]] (citing WITS January to September) puts electric forklift and warehouse trucks at 78% of 2025 orders and 76% of 2024. The 2025 factsheet gives 79.4% for 2025 and 77.0% for its 2024 column (derived), which agrees. The older 2024 factsheet gives 70.7% (derived) for 2024.
 
 ### 2. North America: ITA
 
 - [[Document - ITA Powered Industrial Trucks, a Robust Market (2023-03-08)|ita]]: classes 1 to 5, 347,677 units in 2021 (record) and 344,330 retail orders in 2022; electric (classes 1 to 3) about 72% in 2021 and 65% in 2022.
+- [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]] (citing ITA): electric about 71% of North American retail orders in 2024. Consistent with the 72% (2021) and 65% (2022) above.
 - [[Document - ITA Market Intelligence page|itm]]: US factory shipments are published by ITA as PDF tables (robots rules blocked the fetch), so no US shipment series is recorded yet.
 
 ### 3. Electrification and lithium share (Interact Analysis)
@@ -102,7 +107,12 @@ Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,97
 | Grand View Research ([[Document - Grand View Research Forklift Market|gvr]]) | forklifts | USD 81.4bn (2025) | USD 212.6bn (2033), CAGR 12.7% |
 | Global Market Insights ([[Document - Global Market Insights Ground Support Equipment Market|gmig]]) | ground support equipment, all power types | USD 6.7bn (2025) | USD 11.8bn (2035); ICE about 57% of 2025 |
 
-### 7. Conflicts and checks
+### 7. Battery cost and mobile robots
+
+- Pack price (BloombergNEF, as cited in [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]]): $1,160/kWh in 2010, $156 in 2019, $115 in 2024, $108 in 2025. The full release is already recorded in [[Industry Data Register from Downloads Articles]].
+- Mobile robots (AGV, AMR and other), [[Document - Interact Analysis Mobile Robots to Outpace Fixed Automation (2026-01-13)|ia26r]]: just under $5bn revenue in 2024, $14bn forecast for 2030 (CAGR 19%, cut 12% from the May 2025 forecast); AGVs 33% of that revenue in 2024 and 20% in 2030; forklift-type robots about 33% of 2030 revenue but 14% of shipments. [[Document - Interact Analysis Cuts Mobile Robot Growth Forecast (2025-01-16)|ia25r]]: installed base above 4.2 million units in 2030; 3% of globally shipped forklifts automated in 2030.
+
+### 8. Conflicts and checks
 
 | # | Topic | Position A | Position B | Status |
 |---|---|---|---|---|
@@ -114,11 +124,12 @@ Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,97
 | W6 | Internal consistency | Allied says lithium dominated in 2022 | IMARC says lead-acid about 77% in 2025; Interact says lithium about 32% of full-electric sales in 2024 | Open; units and value are not the same basis |
 | W7 | Revenue against volume | WITS shipments +7.7% in 2025 (factsheet 2025, derived from its two columns) | [[Hyster-Yale]] revenue -13%, [[KION Group]] revenue -1.8%, Toyota materials handling profit -32% | KION attributes lower order value to a mix of low-price warehouse trucks; the Class 31 pallet trucks grew most. Mix is the likeliest explanation but is not proven here |
 
-### 8. What the numbers say, and what they do not
+### 9. What the numbers say, and what they do not
 
 - Scale in units: about 2.4 million trucks a year, about 79% electric, so about 1.9 million electric trucks a year, of which about 0.6 million are Class 1 and Class 2 riders (the trucks with traction batteries worth monitoring and charging).
 - Scale in dollars: battery vendors give USD 5.4bn to 5.9bn and charger vendors USD 1.3bn to 2.0bn. The only company anchor is EnerSys Motive Power at USD 1.43bn.
 - Direction: volume is growing in Asia and in pedestrian trucks; Western truck makers are growing revenue slowly or losing money; lithium share is rising but the date lithium passes lead-acid has been moving out.
+- Mobile robots: about $5bn of revenue in 2024 growing about 19% a year, with vehicle-type robots a growing share of it, so automated trucks are a second battery and charger market that the forklift figures above do not include.
 - Not found: US installed base of electric forklifts, battery replacement cycle value, aftermarket against first-fit split, AGV and AMR battery volume, fuel cell forklift installed base outside Plug's figure, and ITA shipment series.
 
 ## Traceability

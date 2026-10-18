@@ -27,6 +27,7 @@ describedBy:
   - "[[Document - Anhui Heli Annual Income Statement (600761)]]"
   - "[[Document - Mitsubishi Logisnext Full Year 2025 Earnings (2025-05-11)]]"
   - "[[Document - Mitsubishi Logisnext Slashes Fiscal 2026 Earnings Outlook (2025-11-07)]]"
+  - "[[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)]]"
 ---
 
 # Public Company Financials Register
@@ -46,7 +47,7 @@ Latest-fiscal-year financial figures for listed companies in or beside the batte
 | [[EnerSys]] (NYSE: ENS) | FY to 2026-03 | $3,751.4M (+3.7%) | Operating earnings $426.4M GAAP, $540.2M adjusted; net $293.6M | Motive Power $1,431.0M (-3.6%), 38.1% of sales (derived); operating earnings $167.0M GAAP (11.7%, derived) and $199.8M adjusted (14.0%, derived), against $220.1M and $232.8M a year earlier (14.8% and 15.7%, derived) | [[Document - EnerSys FY2026 Fourth Quarter and Full Year Earnings Release (2026-05)|ens]] |
 | [[GS Yuasa]] (TSE: 6674) | FY to 2026-03 | JPY 608,995M | Operating profit JPY 60,172M (9.9%, derived); net JPY 41,863M | No industrial-battery split found | [[Document - GS Yuasa Profits Jump 37 Percent as Focus Shifts to Infrastructure (2026-05-13)|gsy]] |
 | [[Amara Raja]] (NSE) | FY to 2026-03 | INR 13,814 crore (+7.5%) | EBITDA INR 1,497.1 crore (-7.4%); PAT INR 895.8 crore | Lead-acid segment INR 13,005 crore with INR 1,270 crore profit (9.8%, derived); new energy INR 809 crore with INR 135 crore loss; no motive-power split | [[Document - Amara Raja Q4 FY26 Results (2026-05)|amr]] |
-| [[Flux Power]] (NASDAQ: FLUX) | FY to 2026-06 | $42.1M (-37%) | Operating loss $6.5M; net loss $7.4M; gross margin 30.2% | Cash $0.3M; filing lists going-concern and customer-concentration risks | [[Document - Flux Power Fiscal 2026 Fourth Quarter and Full Year Results (2026-09)|flux]] |
+| [[Flux Power]] (NASDAQ: FLUX) | FY to 2026-06 | $42.1M (-37%) | Operating loss $6.5M; net loss $7.4M; gross margin 30.2% | Cash $0.3M; filing lists going-concern risk; two customers were 71% of FY2026 revenue (three were 73% in FY2025) | [[Document - Flux Power Fiscal 2026 Fourth Quarter and Full Year Results (2026-09)|flux]], [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]] |
 | [[Plug Power]] (NASDAQ: PLUG) | FY2025 | $709.9M (+12.9%) | Net loss $1,693.7M; gross loss $242.0M | More than 74,000 GenDrive systems across 280+ material handling sites; no material handling revenue given | [[Document - Plug Power Fourth Quarter and Full Year 2025 Results (2026-03)|plug]] |
 
 ### 2. Truck makers
