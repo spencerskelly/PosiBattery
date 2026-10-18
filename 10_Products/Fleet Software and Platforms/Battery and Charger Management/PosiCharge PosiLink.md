@@ -14,6 +14,7 @@ subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:
   - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 madeBy:

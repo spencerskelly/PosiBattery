@@ -340,6 +340,13 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-315 | Operational (what) scenarios for the 11 why needs that have none, from customer or maker sources | [[Product to Customer Need Map]] | - | Use Case scenarios | open |
 | IB-316 | Owner: where are BMIDs used (battery room, opportunity charging, airport GSE)? The four BMID operational Use Cases name no operating context | [[Product to Customer Need Map]] | - | BMID context | open |
 | IB-317 | Charge method of Exide Element HF and ITW GSE DC chargers from manuals, to replace the general Charge Battery link with a specific Function | [[Product to Customer Need Map]] | - | charger method | open |
+| IB-318 | Owner: installed-base census (units by model, connected to SkyLink or PosiLink or not, modem type, site location by state or province, lead-acid or lithium) | [[Installed Base Monetization Opportunity Register]] | - | installed base | open |
+| IB-319 | Measuring point and accuracy of charger energy data in SkyLink (output-side, unadjusted, within 5 percent as CARB Guidance 25-01 asks) | [[Installed Base Monetization Opportunity Register]] | - | charger metering accuracy | open |
+| IB-320 | Customer interviews in credit states: do fleets already claim forklift or GSE credits, through whom, and would they pay for or share revenue from a reporting service | [[Installed Base Monetization Opportunity Register]] | - | credit customer interest | open |
+| IB-321 | Demand charges and time-of-use tariffs at representative PosiCharge customer sites; extends IB-272 | [[Installed Base Monetization Opportunity Register]] | - | site tariffs | open |
+| IB-322 | Power Designers PowerCharge.NET, PowerTrac 3 and energy-demand software: which load management and battery analytics already exist inside Ampure to reuse | [[Installed Base Monetization Opportunity Register]] | - | Power Designers software | open |
+| IB-323 | Whether installed PosiCharge chargers have an external enable or stop input usable for a fire alarm or ventilation interlock | [[Installed Base Monetization Opportunity Register]] | - | charger enable input | open |
+| IB-324 | Electric GSE credit eligibility and EER by program (Oregon Table 7 check, CARB, BC) and annual energy per GSE unit (C348) | [[Installed Base Monetization Opportunity Register]] | - | eGSE credits | open |
 | IB-227 | Which outside interfaces (OpenADR, Modbus, OCPP, MQTT, vendor API) do Linde connect:charger, Jungheinrich Active Load Management, Toyota peak load management and Crown Demand Response Management offer to a site energy system? Read the Jungheinrich factsheet PDF, Linde's own connect:charger page (also settles C266), Toyota's own page and Crown's V-HFM3 manual | Forklift Charger Load Management Register | - | energy management interface; protocols | open |
 | IB-228 | SolarEdge commercial and industrial EV charging platform article (redirect not refetched: http://pv-magazine-usa.com/2023/06/05/solaredge-introduces-commercial-and-industrial-ev-charging-platform/), Fronius PV Connect product pages and the ROYPOW forklift charger page: do they state industrial-truck charger support? | Forklift Charger Load Management Register | - | solar charging; compatible chargers | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
@@ -357,6 +364,7 @@ Running list of directions the searches have opened, each with the page that tri
 - **Round 69 directions:** IB-298 to IB-304 came from the EU battery passport pass ([[EU Battery Passport and Battery Regulation Register]]).
 - **Round 70 directions:** IB-305 to IB-312 came from the lead-acid traction battery life care methods pass ([[Lead-Acid Traction Battery Life Care Methods Register]]).
 - **Round 71 directions:** IB-313 to IB-317 came from the customer traceability review ([[Product to Customer Need Map]]).
+- **Round 72 directions:** IB-318 to IB-324 came from the installed-base monetization review ([[Installed Base Monetization Opportunity Register]]).
 
 ## Aliases
 

@@ -31,6 +31,8 @@ madeBy:
 offeredWith:
   - "[[PosiCharge BMID]]"
   - "[[PosiCharge PosiLink]]"
+describedBy:
+  - "[[Installed Base Monetization Opportunity Register]]"
 ---
 
 # PosiCharge ProCore Edge

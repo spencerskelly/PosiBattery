@@ -20,6 +20,8 @@ hasDesign:
   - "[[Charger-Controlled Automatic Watering]]"
 hasPart:
   - "[[Automatic Watering Control Logic]]"
+describedBy:
+  - "[[Installed Base Monetization Opportunity Register]]"
 ---
 
 # PosiCharge Single-Point Automatic Battery Watering

@@ -28,6 +28,7 @@ A credit-services firm's overview of forklift eligibility under California, Oreg
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** re-read for airport GSE: the page lists electric airport GSE as eligible in Oregon and airport eGSE in British Columbia; California LCFS and Washington CFS eligible lists do not include airport GSE; Canada CFR does not mention GSE; it says the owner is usually the credit generator; no metering rule, revenue figure or GSE EER given. Used in [[Installed Base Monetization Opportunity Register]] (C348).
 **How it was read:** through a summarizing fetch tool (second-hand), not the raw file.
 
 Added for the western-states clean fuel topic. Article by 3Degrees (a firm that sells environmental-credit services), published 2025-09-25 and last modified 2025-11-18 per page metadata.

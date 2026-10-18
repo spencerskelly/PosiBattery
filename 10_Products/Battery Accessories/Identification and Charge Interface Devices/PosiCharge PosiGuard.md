@@ -21,6 +21,7 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[PosiCharge BMID Variants]]"
   - "[[Document - PosiCharge PosiGuard Product Page]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

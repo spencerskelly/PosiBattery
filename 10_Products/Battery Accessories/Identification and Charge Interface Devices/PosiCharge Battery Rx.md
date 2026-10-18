@@ -21,6 +21,7 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
   - "[[EU Battery Passport and Battery Regulation Register]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

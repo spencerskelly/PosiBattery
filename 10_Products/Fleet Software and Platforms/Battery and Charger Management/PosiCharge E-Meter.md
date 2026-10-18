@@ -15,6 +15,7 @@ subtypeOf:
 describedBy:
   - "[[Document - PosiCharge E-Meter Page (retrieved 2026-10-14)]]"
   - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Log Battery Events and Usage]]"
   - "[[Transmit Battery Data Wirelessly]]"

@@ -52,6 +52,10 @@ Score each item qualitatively against: customer impact, strategic fit, evidence 
 | Low | Propose a business-unit relationship for the Business Relationship Vocabulary | Modeling | No link fits 'business unit of'; the EVSE note carries none, and PosiCharge uses provisional subsidiaryOf | [[Business Relationship Vocabulary|Business Relationship Vocabulary]] |
 | Low | Backfill template frontmatter (type, id, uid) on the PosiCharge framework notes, README_Research and this tracker | Vault conformance | Notes added in commit 0e0b952 have no frontmatter, which conflicts with AGENTS.md; left unchanged here to keep this commit scoped | [[Research Change and Decision Tracker]] |
 
+### Update 2026-10-17: installed-base monetization
+
+Owner request: what can be added at low cost to products already in the field. Ranked list, evidence and blocking unknowns are in [[Installed Base Monetization Opportunity Register]]. Top three: clean fuel credit reporting from charger data, site power and time-of-use control, battery health and care-compliance subscription; first business action is an installed-base census (IB-318). Original rows above are not edited.
+
 ### Intake rule
 
 Add an item when it would materially improve a decision, comparison, partner strategy, product direction, or evidence quality. Link it to the relevant scope, segment, source, and decision note.
@@ -69,6 +73,7 @@ Add an item when it would materially improve a decision, comparison, partner str
 
 ### Change history
 
+- 2026-10-17 — Added the installed-base monetization update; see [[Installed Base Monetization Opportunity Register]].
 - 2026-10-03 — Added Ampure group-alignment items, including conflicts and conformance gaps found during the change. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created PosiCharge-specific action backlog. Method: separate decision-enabling research and evidence work from confirmed product-roadmap commitments. See [[Research Change and Decision Tracker]].
 

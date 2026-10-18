@@ -13,6 +13,7 @@ subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:
   - "[[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Charge Battery Fast]]"
   - "[[Share Power Between Charging Stations]]"

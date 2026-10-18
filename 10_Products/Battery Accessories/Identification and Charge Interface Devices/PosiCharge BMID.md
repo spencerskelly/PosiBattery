@@ -33,6 +33,7 @@ describedBy:
   - "[[Document - PosiCharge BMID FAQ]]"
   - "[[Document - PosiCharge GSE BMID Page]]"
   - "[[EU Battery Passport and Battery Regulation Register]]"
+  - "[[Installed Base Monetization Opportunity Register]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Temperature]]"
