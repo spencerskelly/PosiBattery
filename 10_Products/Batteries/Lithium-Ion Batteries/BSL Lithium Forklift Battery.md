@@ -13,8 +13,8 @@ tags:
   - retrofit-kit
   - third-party-kit
   - unnamed-in-source
-chemistry: lfp
 productCategory: battery
+chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

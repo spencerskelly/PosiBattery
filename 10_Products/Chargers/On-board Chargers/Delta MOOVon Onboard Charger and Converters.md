@@ -10,6 +10,8 @@ tags:
   - charger
   - truck-device
 productCategory: charger
+powerKwMin: 0.72
+powerKwMax: 0.72
 subtypeOf:
   - "[[On-board Charger]]"
 describedBy:

@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: lfp
 voltageClassV:
   - 24
@@ -16,7 +17,6 @@ voltageClassV:
   - 80
 voltageMinV: 24
 voltageMaxV: 80
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

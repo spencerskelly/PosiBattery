@@ -10,6 +10,8 @@ tags:
   - charger
   - gse
 productCategory: charger
+powerKwMin: 60
+powerKwMax: 60
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

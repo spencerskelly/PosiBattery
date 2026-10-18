@@ -10,6 +10,8 @@ tags:
   - charger
   - gse
 productCategory: charger
+outputVoltageMinV: 24
+outputVoltageMaxV: 96
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

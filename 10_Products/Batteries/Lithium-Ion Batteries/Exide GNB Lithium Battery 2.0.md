@@ -10,8 +10,8 @@ tags:
   - battery
   - ibms
   - status-unclear
-chemistry: lithium-ion
 productCategory: battery
+chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

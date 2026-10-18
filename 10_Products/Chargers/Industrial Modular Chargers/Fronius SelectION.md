@@ -10,6 +10,8 @@ tags:
   - charger
   - lithium
 productCategory: charger
+supportedChemistries:
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

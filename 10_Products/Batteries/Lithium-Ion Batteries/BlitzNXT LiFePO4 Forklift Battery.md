@@ -10,12 +10,12 @@ tags:
   - battery
   - lithium
   - vendor-claims
+productCategory: battery
 chemistry: lfp
 voltageMinV: 24
 voltageMaxV: 80
 capacityAhMin: 230
 capacityAhMax: 920
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 performs:

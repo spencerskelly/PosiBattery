@@ -12,6 +12,7 @@ tags:
   - lithium-ion
   - third-party-kit
   - unnamed-in-source
+productCategory: battery
 chemistry: lithium-ion
 voltageClassV:
   - 24
@@ -21,7 +22,6 @@ voltageMinV: 24
 voltageMaxV: 80
 capacityAhMin: 150
 capacityAhMax: 600
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

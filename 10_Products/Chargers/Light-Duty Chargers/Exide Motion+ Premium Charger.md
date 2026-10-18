@@ -12,6 +12,9 @@ tags:
   - light-duty
   - europe
 productCategory: charger
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Light-Duty Charger]]"
 performs:

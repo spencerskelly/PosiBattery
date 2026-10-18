@@ -8,10 +8,10 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: flooded
 chargeProfile:
   - opportunity
-productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

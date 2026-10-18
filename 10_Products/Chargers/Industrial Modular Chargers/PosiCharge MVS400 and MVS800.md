@@ -10,6 +10,11 @@ tags:
   - charger
   - gse
 productCategory: charger
+powerKwMin: 40
+powerKwMax: 80
+outputVoltageMinV: 24
+outputVoltageMaxV: 96
+outputCurrentMaxA: 500
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

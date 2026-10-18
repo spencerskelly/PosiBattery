@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: agm
 voltageClassV:
   - 6
@@ -17,7 +18,6 @@ voltageMaxV: 12
 capacityAhMin: 56
 capacityAhMax: 190
 ratedCycles: 300
-productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

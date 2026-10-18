@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - lead-acid
+productCategory: battery
 chemistry: flooded
 voltageClassV:
   - 2
@@ -16,7 +17,6 @@ voltageMinV: 2
 voltageMaxV: 2
 capacityAhMin: 200
 capacityAhMax: 400
-productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

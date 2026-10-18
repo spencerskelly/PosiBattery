@@ -10,6 +10,13 @@ tags:
   - charger
   - opportunity-charge
 productCategory: charger
+powerKwMin: 6
+powerKwMax: 30
+outputVoltageMinV: 24
+outputVoltageMaxV: 96
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

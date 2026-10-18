@@ -10,6 +10,10 @@ tags:
   - charger
   - rebrand
 productCategory: charger
+powerKwMin: 3.9
+powerKwMax: 31.2
+inputPhases:
+  - 3
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

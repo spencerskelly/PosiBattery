@@ -9,6 +9,9 @@ tags:
   - charger
   - commercial-product
 productCategory: charger
+outputCurrentMaxA: 300
+supportedChemistries:
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

@@ -12,10 +12,10 @@ tags:
   - lithium-ion
   - retrofit-kit
   - hands-free
+productCategory: battery
 chemistry: lithium-ion
 voltageMinV: 24
 voltageMaxV: 48
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

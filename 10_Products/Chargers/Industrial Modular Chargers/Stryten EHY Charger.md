@@ -9,6 +9,14 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+outputVoltageMinV: 24
+outputVoltageMaxV: 80
+outputCurrentMaxA: 240
+inputPhases:
+  - 1
+  - 3
+chargeProfile:
+  - conventional
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

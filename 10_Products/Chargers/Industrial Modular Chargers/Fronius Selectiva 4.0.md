@@ -9,6 +9,10 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+powerKwMin: 2
+powerKwMax: 30
+supportedChemistries:
+  - lead-acid
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

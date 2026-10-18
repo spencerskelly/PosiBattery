@@ -10,6 +10,7 @@ tags:
   - battery
   - gse
 productClass: product-variant
+productCategory: battery
 chemistry: lfp
 voltageClassV:
   - 80
@@ -19,7 +20,6 @@ capacityAhMin: 315
 capacityAhMax: 315
 energyKwhMin: 24.2
 energyKwhMax: 24.2
-productCategory: battery
 aliases:
   - GSE3
 subtypeOf:

@@ -9,12 +9,12 @@ tags:
   - commercial-product
   - battery
   - tppl
+productCategory: battery
 chemistry: tppl
 voltageClassV:
   - 12
 voltageMinV: 12
 voltageMaxV: 12
-productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

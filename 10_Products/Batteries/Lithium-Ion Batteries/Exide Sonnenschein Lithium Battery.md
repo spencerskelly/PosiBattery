@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: lithium-ion
 voltageClassV:
   - 24
@@ -20,7 +21,6 @@ capacityAhMin: 80
 capacityAhMax: 966
 energyKwhMin: 2.0
 energyKwhMax: 74.2
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

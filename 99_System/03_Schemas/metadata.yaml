@@ -96,7 +96,60 @@ classScoped:
       value: list[enum]
       allowed: ["conventional", "opportunity", "fast"]
       required: false
-      condition: "Only when productCategory is battery. Charging duties the note states the product is designed or rated for."
+      condition: "Only when productCategory is battery or charger. Charging duties the note states the product is designed or rated for."
+    powerKwMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Lowest stated output power in kW across the models or configurations the note covers."
+    powerKwMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated output power in kW. Per-outlet or per-port basis is in the note body."
+    outputVoltageMinV:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Lowest stated DC output or battery voltage in V."
+    outputVoltageMaxV:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated DC output or battery voltage in V."
+    outputCurrentMaxA:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated DC output current in A for one charging output. Omitted where sources disagree on basis."
+    inputPhases:
+      value: list[number]
+      required: false
+      condition: "Only when productCategory is charger. AC input phase counts the note states (1, 3)."
+    supportedChemistries:
+      value: list[enum]
+      allowed: ["lead-acid", "lithium-ion"]
+      required: false
+      condition: "Only when productCategory is charger. Battery chemistries the note states the charger supports."
+    moduleCountMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Lowest stated power module count per charger."
+    moduleCountMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated power module count per charger."
+    modulePowerKw:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Power of one module in kW when the note states a single module rating."
+    airGapMmMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Lowest stated wireless air gap in mm."
+    airGapMmMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated wireless air gap in mm."
+    efficiencyPct:
+      value: number
+      required: false
+      condition: "Only when productCategory is charger. Highest stated efficiency in percent. Test point and source conflicts are in the note body."
   Info:
     measureClass:
       value: enum

@@ -9,6 +9,20 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+outputVoltageMinV: 24
+outputVoltageMaxV: 96
+outputCurrentMaxA: 600
+inputPhases:
+  - 3
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
+chargeProfile:
+  - conventional
+  - opportunity
+  - fast
+moduleCountMin: 1
+moduleCountMax: 6
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

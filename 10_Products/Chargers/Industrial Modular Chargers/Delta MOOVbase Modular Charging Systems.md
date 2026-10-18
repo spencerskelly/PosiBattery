@@ -9,6 +9,13 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+powerKwMin: 1
+powerKwMax: 32
+inputPhases:
+  - 1
+  - 3
+moduleCountMin: 1
+moduleCountMax: 10
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

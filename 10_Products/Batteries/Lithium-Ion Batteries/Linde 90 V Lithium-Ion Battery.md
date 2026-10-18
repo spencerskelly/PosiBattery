@@ -8,6 +8,7 @@ tags:
   - battery
   - lithium
   - battery-market-reference
+productCategory: battery
 chemistry: lithium-ion
 voltageClassV:
   - 90
@@ -15,7 +16,6 @@ voltageMinV: 90
 voltageMaxV: 90
 energyKwhMin: 24.1
 energyKwhMax: 118.4
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

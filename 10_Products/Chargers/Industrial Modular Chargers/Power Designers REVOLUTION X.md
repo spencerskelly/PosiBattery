@@ -9,6 +9,15 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+powerKwMin: 3.9
+powerKwMax: 31.2
+inputPhases:
+  - 3
+chargeProfile:
+  - conventional
+  - opportunity
+  - fast
+modulePowerKw: 1.3
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

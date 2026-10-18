@@ -10,8 +10,8 @@ tags:
   - battery
   - gel
   - onboard-charger
-chemistry: gel
 productCategory: battery
+chemistry: gel
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

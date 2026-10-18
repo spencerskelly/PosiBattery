@@ -12,8 +12,8 @@ tags:
   - lithium-ion
   - retrofit-kit
   - unnamed-in-source
-chemistry: lithium-ion
 productCategory: battery
+chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

@@ -10,6 +10,9 @@ tags:
   - charger
   - status-unclear
 productCategory: charger
+outputCurrentMaxA: 250
+inputPhases:
+  - 3
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

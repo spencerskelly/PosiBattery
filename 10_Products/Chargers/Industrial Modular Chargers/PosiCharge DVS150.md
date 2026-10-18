@@ -10,6 +10,8 @@ tags:
   - posicharge-baseline
   - charger
 productCategory: charger
+outputVoltageMinV: 24
+outputVoltageMaxV: 80
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

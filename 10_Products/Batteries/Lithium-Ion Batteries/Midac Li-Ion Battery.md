@@ -8,12 +8,12 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: lithium-ion
 voltageMinV: 24
 voltageMaxV: 120
 capacityAhMax: 1200
 ratedCycles: 4000
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

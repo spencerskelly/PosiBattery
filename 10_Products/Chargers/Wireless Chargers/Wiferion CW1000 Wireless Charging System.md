@@ -11,6 +11,13 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+powerKwMin: 1
+powerKwMax: 1
+outputVoltageMinV: 15
+outputVoltageMaxV: 60
+outputCurrentMaxA: 42
+airGapMmMin: 5
+airGapMmMax: 30
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

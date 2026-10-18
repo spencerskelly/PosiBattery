@@ -9,11 +9,11 @@ tags:
   - commercial-product
   - battery
   - tubular
+productCategory: battery
 chemistry: flooded
 chargeProfile:
   - opportunity
   - fast
-productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

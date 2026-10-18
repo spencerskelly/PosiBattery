@@ -30,7 +30,20 @@ classOptionalProperties:
     - {name: energyKwhMin, value: number, category: ["battery"], sparse: true, meaning: "Lowest stated energy in kWh."}
     - {name: energyKwhMax, value: number, category: ["battery"], sparse: true, meaning: "Highest stated energy in kWh. Also used for up-to values."}
     - {name: ratedCycles, value: number, category: ["battery"], sparse: true, meaning: "Highest stated rated cycle count. Depth of discharge and rate conditions are in the note body."}
-    - {name: chargeProfile, value: "list[enum]", allowed: ["conventional", "opportunity", "fast"], category: ["battery"], sparse: true, meaning: "Charging duties the note states the product is designed or rated for."}
+    - {name: chargeProfile, value: "list[enum]", allowed: ["conventional", "opportunity", "fast"], category: ["battery", "charger"], sparse: true, meaning: "Charging duties the note states the product is designed or rated for."}
+    - {name: powerKwMin, value: number, category: ["charger"], sparse: true, meaning: "Lowest stated output power in kW across the models or configurations the note covers."}
+    - {name: powerKwMax, value: number, category: ["charger"], sparse: true, meaning: "Highest stated output power in kW. Per-outlet or per-port basis is in the note body."}
+    - {name: outputVoltageMinV, value: number, category: ["charger"], sparse: true, meaning: "Lowest stated DC output or battery voltage in V."}
+    - {name: outputVoltageMaxV, value: number, category: ["charger"], sparse: true, meaning: "Highest stated DC output or battery voltage in V."}
+    - {name: outputCurrentMaxA, value: number, category: ["charger"], sparse: true, meaning: "Highest stated DC output current in A for one charging output. Omitted where sources disagree on basis."}
+    - {name: inputPhases, value: "list[number]", category: ["charger"], sparse: true, meaning: "AC input phase counts the note states (1, 3)."}
+    - {name: supportedChemistries, value: "list[enum]", allowed: ["lead-acid", "lithium-ion"], category: ["charger"], sparse: true, meaning: "Battery chemistries the note states the charger supports."}
+    - {name: moduleCountMin, value: number, category: ["charger"], sparse: true, meaning: "Lowest stated power module count per charger."}
+    - {name: moduleCountMax, value: number, category: ["charger"], sparse: true, meaning: "Highest stated power module count per charger."}
+    - {name: modulePowerKw, value: number, category: ["charger"], sparse: true, meaning: "Power of one module in kW when the note states a single module rating."}
+    - {name: airGapMmMin, value: number, category: ["charger"], sparse: true, meaning: "Lowest stated wireless air gap in mm."}
+    - {name: airGapMmMax, value: number, category: ["charger"], sparse: true, meaning: "Highest stated wireless air gap in mm."}
+    - {name: efficiencyPct, value: number, category: ["charger"], sparse: true, meaning: "Highest stated efficiency in percent. Test point and source conflicts are in the note body."}
   Info:
     - {name: measureClass, value: enum, allowed: ["metric", "property-definition", "comparison-criterion"], sparse: true}
     - {name: valueType, value: enum, allowed: ["numeric", "categorical", "boolean", "text", "compound"], sparse: true}

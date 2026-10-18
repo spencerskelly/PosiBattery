@@ -10,6 +10,12 @@ tags:
   - charger
   - lithium
 productCategory: charger
+powerKwMin: 15
+powerKwMax: 30
+outputVoltageMinV: 24
+outputVoltageMaxV: 96
+supportedChemistries:
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

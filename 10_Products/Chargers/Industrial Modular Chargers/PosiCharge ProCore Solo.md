@@ -10,6 +10,8 @@ tags:
   - charger
   - posicharge-baseline
 productCategory: charger
+inputPhases:
+  - 1
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

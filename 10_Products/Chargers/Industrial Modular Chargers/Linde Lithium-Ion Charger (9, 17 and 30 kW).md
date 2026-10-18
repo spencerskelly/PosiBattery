@@ -9,6 +9,12 @@ tags:
   - battery-market-reference
   - lithium
 productCategory: charger
+powerKwMin: 9
+powerKwMax: 30
+outputVoltageMinV: 90
+outputVoltageMaxV: 90
+supportedChemistries:
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

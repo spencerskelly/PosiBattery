@@ -8,6 +8,7 @@ tags:
   - battery
   - lithium
   - battery-market-reference
+productCategory: battery
 chemistry: lithium-ion
 voltageClassV:
   - 24
@@ -15,7 +16,6 @@ voltageClassV:
   - 48
 voltageMinV: 24
 voltageMaxV: 48
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

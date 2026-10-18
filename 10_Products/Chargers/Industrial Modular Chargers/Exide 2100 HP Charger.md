@@ -9,6 +9,10 @@ tags:
   - charger
   - commercial-product
 productCategory: charger
+outputCurrentMaxA: 600
+chargeProfile:
+  - opportunity
+  - fast
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

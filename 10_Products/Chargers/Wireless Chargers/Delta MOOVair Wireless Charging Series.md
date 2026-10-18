@@ -11,6 +11,14 @@ tags:
   - charger
   - wireless
 productCategory: charger
+powerKwMin: 1
+powerKwMax: 30
+outputVoltageMinV: 24
+outputVoltageMaxV: 80
+outputCurrentMaxA: 300
+airGapMmMin: 0
+airGapMmMax: 150
+efficiencyPct: 95
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

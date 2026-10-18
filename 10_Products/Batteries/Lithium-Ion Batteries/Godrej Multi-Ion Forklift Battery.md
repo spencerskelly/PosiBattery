@@ -9,9 +9,9 @@ tags:
   - commercial-product
   - battery
   - lithium-ion
+productCategory: battery
 chemistry: lithium-ion
 ratedCycles: 5000
-productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

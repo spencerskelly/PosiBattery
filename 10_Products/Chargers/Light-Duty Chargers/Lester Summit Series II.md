@@ -11,6 +11,14 @@ tags:
   - light-duty
   - lithium
 productCategory: charger
+powerKwMin: 0.65
+powerKwMax: 1.425
+outputVoltageMinV: 24
+outputVoltageMaxV: 48
+outputCurrentMaxA: 40
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Light-Duty Charger]]"
 describedBy:

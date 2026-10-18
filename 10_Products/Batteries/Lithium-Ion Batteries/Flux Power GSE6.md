@@ -10,12 +10,12 @@ tags:
   - battery
   - gse
 productClass: product-variant
+productCategory: battery
 chemistry: lithium-ion
 voltageClassV:
   - 80
 voltageMinV: 80
 voltageMaxV: 80
-productCategory: battery
 aliases:
   - GSE6
 subtypeOf:

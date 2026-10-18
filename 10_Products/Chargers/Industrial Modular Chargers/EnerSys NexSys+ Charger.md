@@ -9,6 +9,9 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

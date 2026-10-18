@@ -12,6 +12,14 @@ tags:
   - oem-supplier
   - lithium
 productCategory: charger
+powerKwMin: 0.65
+powerKwMax: 0.65
+outputVoltageMinV: 24
+outputVoltageMaxV: 48
+outputCurrentMaxA: 27
+supportedChemistries:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Light-Duty Charger]]"
 performs:

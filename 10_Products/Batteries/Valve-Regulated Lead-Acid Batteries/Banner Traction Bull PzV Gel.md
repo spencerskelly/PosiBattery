@@ -9,8 +9,8 @@ tags:
   - commercial-product
   - battery
   - lead-acid
-chemistry: gel
 productCategory: battery
+chemistry: gel
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

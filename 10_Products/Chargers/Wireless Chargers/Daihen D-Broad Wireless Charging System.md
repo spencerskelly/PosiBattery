@@ -11,6 +11,8 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+powerKwMax: 4
+airGapMmMax: 40
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

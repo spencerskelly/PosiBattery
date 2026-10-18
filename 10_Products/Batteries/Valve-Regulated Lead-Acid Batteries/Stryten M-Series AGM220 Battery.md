@@ -9,12 +9,12 @@ tags:
   - commercial-product
   - battery
   - onboard-charger
+productCategory: battery
 chemistry: agm
 voltageClassV:
   - 24
 voltageMinV: 24
 voltageMaxV: 24
-productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

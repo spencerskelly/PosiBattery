@@ -11,8 +11,8 @@ tags:
   - canbus
   - heater
   - gse
-chemistry: lfp
 productCategory: battery
+chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

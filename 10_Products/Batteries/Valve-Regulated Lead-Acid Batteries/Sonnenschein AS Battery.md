@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: vrla
 voltageClassV:
   - 6
@@ -20,7 +21,6 @@ ratedCycles: 450
 chargeProfile:
   - opportunity
   - fast
-productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 describedBy:

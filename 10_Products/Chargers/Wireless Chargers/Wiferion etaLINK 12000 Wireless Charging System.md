@@ -11,6 +11,9 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+powerKwMin: 12
+powerKwMax: 12
+efficiencyPct: 93
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

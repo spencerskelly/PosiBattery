@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 chemistry: flooded
 voltageClassV:
   - 24
@@ -16,7 +17,6 @@ voltageMaxV: 24
 capacityAhMin: 130
 capacityAhMax: 250
 ratedCycles: 1500
-productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

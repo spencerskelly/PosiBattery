@@ -11,6 +11,15 @@ tags:
   - wireless-charging
   - agv
 productCategory: charger
+powerKwMin: 7
+powerKwMax: 10
+outputVoltageMinV: 24
+outputVoltageMaxV: 80
+outputCurrentMaxA: 250
+inputPhases:
+  - 3
+airGapMmMin: 20
+airGapMmMax: 50
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

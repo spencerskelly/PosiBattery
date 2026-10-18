@@ -10,6 +10,9 @@ tags:
   - charger
   - fast-charge
 productCategory: charger
+powerKwMax: 20
+outputVoltageMinV: 24
+outputVoltageMaxV: 80
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:
