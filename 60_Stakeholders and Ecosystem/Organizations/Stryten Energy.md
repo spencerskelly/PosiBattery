@@ -16,6 +16,7 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[Document - Stryten Li600 Approved for Hyster Power Cellect and Yale Power Key (2025-06-18)]]"
 playsRole:
   - "[[Battery Maker]]"
   - "[[Charger Maker]]"

@@ -8,6 +8,8 @@ tags:
   - organization
   - fuel-cell-maker
   - usa
+describedBy:
+  - "[[Document - Hyster-Yale Strategic Business Realignment Release (2025-04-30)]]"
 playsRole:
   - "[[Battery Maker]]"
 makes:

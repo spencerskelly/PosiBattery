@@ -8,6 +8,10 @@ tags:
   - organization
   - truck-oem
   - brand-owner
+describedBy:
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
+  - "[[Document - Automated Warehouse Toyota and Raymond Energy Solutions Manufacturing Center of Excellence (2024-09-09)]]"
+  - "[[Document - Toyota Material Handling Europe In-House Lithium-Ion Battery Solutions Page (2018-03-13)]]"
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
@@ -49,6 +53,7 @@ Toyota-brand lift truck maker and energy-solutions seller for North America and 
 - **Role (working label):** Truck OEM, Brand Owner.
 - Toyota Material Handling offers electric forklifts with optional lithium-ion batteries, MyInsights telematics, and a new 5/35 lithium-ion battery series in 24, 36 and 48 V whose chargers talk to the battery's onboard management system. Source: Toyota forklift site and TMHNA release (T1/T2), retrieved 2026-10-03. <https://www.toyotaforklift.com/forklifts/3-wheel-electric-forklift>
 - **Not found:** who makes Toyota's lithium-ion batteries or chargers.
+- **Update 2026-10-17 (conflict with the line above, C324):** a 2018 Toyota Europe page calls its lithium-ion battery "in-house", and a 2024 trade article says Toyota and Raymond make lithium-ion and pure-lead batteries at a New York plant. Chargers are still not found. Whether the packs sold today come from that plant is not stated. See [[OEM In-House Lithium Battery and Charger Offers Register]].
 
 ## Aliases
 

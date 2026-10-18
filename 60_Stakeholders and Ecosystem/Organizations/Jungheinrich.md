@@ -15,6 +15,8 @@ describedBy:
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
   - "[[Document - Jungheinrich Marquardt Case Study (lithium, no battery exchange)]]"
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
+  - "[[Document - Jungheinrich Free 5-Year Lithium-Ion Battery Warranty Release (2017-06-01)]]"
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"

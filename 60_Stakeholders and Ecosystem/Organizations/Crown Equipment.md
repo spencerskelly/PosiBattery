@@ -13,6 +13,8 @@ describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
   - "[[Products Offered or Promoted with Industrial Batteries]]"
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
+  - "[[Document - Crown V-Force Lithium-Ion Technology Product News Page (undated)]]"
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"

@@ -12,6 +12,10 @@ tags:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+describedBy:
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
+  - "[[Document - KION Half the Price Lithium-Ion Battery Story (2025-11-27)]]"
+  - "[[Document - Machine Maker UgoWork Lithium-Ion Batteries Approved for Linde (2026-04-03)]]"
 makes:
   - "[[Linde Ei Series]]"
   - "[[Linde E Series Electric Counterbalance Forklifts]]"

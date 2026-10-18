@@ -50,6 +50,7 @@ describedBy:
   - "[[Forklift Clean Fuel Credit Business Case]]"
   - "[[Forklift Charging Site Energy Economics and Incentives Register]]"
   - "[[Lithium Forklift Charging Area Fire and Safety Code Register]]"
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
 applies:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"

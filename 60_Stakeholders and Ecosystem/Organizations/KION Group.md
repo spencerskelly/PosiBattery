@@ -12,6 +12,10 @@ tags:
 playsRole:
   - "[[Truck OEM]]"
   - "[[Brand Owner]]"
+describedBy:
+  - "[[OEM In-House Lithium Battery and Charger Offers Register]]"
+  - "[[Document - KION Karlstein Lithium-Ion Battery Plant Expansion Story (2022-04-26)]]"
+  - "[[Document - KION Half the Price Lithium-Ion Battery Story (2025-11-27)]]"
 parentOf:
   - "[[Linde Material Handling]]"
   - "[[STILL]]"

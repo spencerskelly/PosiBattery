@@ -120,6 +120,15 @@ The fire-code and AHJ row (added 2026-10-04) was researched; see [[Lithium Forkl
 - The vault's ventilated-room need conflicts with code and insurer ventilation asks (C318).
 - Still open: IFC 2024, NFPA 505-2024, NEC, OSHA current text, US insurers and real AHJ examples (IB-274 to IB-280).
 
+### Update 2026-10-17: OEM-integrated offers row checked
+
+The "Assess OEM-integrated battery and charger offers" row (added 2026-10-04) was researched; see [[OEM In-House Lithium Battery and Charger Offers Register]]. Original rows are not edited. Corrections:
+
+- The move to OEM-made lithium power is not new: Jungheinrich (2017), Toyota Europe (2018), KION (batteries since 2019) and Crown already sell their own; Hyster-Yale is the latest (C323).
+- OEMs also approve third-party power (Stryten for Hyster-Yale, 2025; UgoWork for Linde, 2026), so "positions against third-party power" is marketing contrast, not shown exclusion (C323).
+- The vault line "not found: who makes Toyota's lithium-ion batteries" is contradicted by a 2024 article (C324).
+- Still open: what OEM approval and warranty demand of a third-party charger, and PosiCharge's exposure by OEM truck (IB-289, IB-290; KB-010).
+
 ### Product classification review queue
 
 These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
@@ -143,3 +152,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 - 2026-10-17 — Added a bullet to that subsection after reading the owner's downloaded raw documents; original rows unchanged.
 - 2026-10-17 — Added a bullet for the site energy economics row after researching it; original rows unchanged.
 - 2026-10-17 — Added an update subsection checking the fire-code row against sources; original rows unchanged. See [[Lithium Forklift Charging Area Fire and Safety Code Register]].
+- 2026-10-17 — Added an update subsection checking the OEM-integrated offers row against sources; original rows unchanged. See [[OEM In-House Lithium Battery and Charger Offers Register]].
