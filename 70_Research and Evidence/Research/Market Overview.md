@@ -17,6 +17,7 @@ describedBy:
   - "[[Battery Market Bottom-Up Model]]"
   - "[[Company Financial History Register]]"
   - "[[Fleet Energy and Cost Evidence Register]]"
+  - "[[Energy Programs and Incentives Register]]"
 ---
 
 # Market Overview
@@ -95,7 +96,7 @@ Concentration: the top three firms hold 57% and the top six 81% of the listed re
 
 ### 6. Fleet, energy and cost: different points of view
 
-Detail in [[Fleet Energy and Cost Evidence Register]]. The same question gets different answers by who asks.
+Detail in [[Fleet Energy and Cost Evidence Register]]. The same question gets different answers by who asks. Regulation, rebates, credits and tax incentives that shaped demand are in [[Energy Programs and Incentives Register]].
 
 | Point of view | Headline |
 |---|---|
