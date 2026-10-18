@@ -9,6 +9,16 @@ tags:
   - commercial-product
   - battery
   - ibms
+chemistry: lfp
+voltageClassV:
+  - 25.6
+voltageMinV: 25.6
+voltageMaxV: 25.6
+capacityAhMin: 25
+capacityAhMax: 100
+energyKwhMin: 0.64
+energyKwhMax: 2.56
+ratedCycles: 4000
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

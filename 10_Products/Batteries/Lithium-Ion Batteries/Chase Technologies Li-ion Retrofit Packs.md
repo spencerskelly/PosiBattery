@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - third-party-kit
   - unnamed-in-source
+chemistry: lithium-ion
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

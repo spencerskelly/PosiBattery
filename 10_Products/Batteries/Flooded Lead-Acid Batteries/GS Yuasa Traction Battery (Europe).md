@@ -9,6 +9,13 @@ tags:
   - commercial-product
   - battery
   - lead-acid
+chemistry: flooded
+voltageClassV:
+  - 24
+  - 48
+  - 80
+voltageMinV: 24
+voltageMaxV: 80
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

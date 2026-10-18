@@ -10,6 +10,7 @@ tags:
   - battery
   - canbus
   - hibernation
+chemistry: lfp
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

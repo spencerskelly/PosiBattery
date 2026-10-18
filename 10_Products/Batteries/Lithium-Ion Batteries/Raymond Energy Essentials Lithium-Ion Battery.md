@@ -9,6 +9,7 @@ tags:
   - lithium
   - battery-market-reference
   - distributed-brand
+chemistry: lithium-ion
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - circulation
+chemistry: flooded
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

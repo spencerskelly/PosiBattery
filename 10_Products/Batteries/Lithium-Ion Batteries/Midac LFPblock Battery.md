@@ -8,6 +8,12 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: lfp
+voltageMinV: 12
+voltageMaxV: 48
+capacityAhMin: 20
+capacityAhMax: 300
+ratedCycles: 4000
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

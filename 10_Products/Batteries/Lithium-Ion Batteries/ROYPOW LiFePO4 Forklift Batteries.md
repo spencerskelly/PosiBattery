@@ -12,6 +12,11 @@ tags:
   - lithium-ion
   - retrofit-kit
   - third-party-kit
+chemistry: lfp
+voltageMinV: 24
+voltageMaxV: 96
+capacityAhMin: 100
+capacityAhMax: 1120
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

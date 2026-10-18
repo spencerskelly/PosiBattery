@@ -8,6 +8,9 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: flooded
+capacityAhMin: 110
+capacityAhMax: 1240
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

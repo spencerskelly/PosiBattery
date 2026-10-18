@@ -21,6 +21,16 @@ classOptionalProperties:
   Object:
     - {name: productClass, value: enum, allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"], sparse: true}
     - {name: productCategory, value: enum, allowed: ["battery", "battery-accessory", "charger", "charger-accessory", "industrial-truck", "gse", "vehicle-accessory", "fleet-software", "fuel-cell"], sparse: true, meaning: "Coarse product category for queries; mirrors the category folder under 10_Products and never replaces subtypeOf. Category facet properties (below) are valid only for their category."}
+    - {name: chemistry, value: enum, allowed: ["flooded", "gel", "agm", "tppl", "vrla", "lfp", "nmc", "lithium-ion"], category: ["battery"], sparse: true, meaning: "Stated cell chemistry. vrla = valve-regulated lead-acid with no gel or AGM stated; lithium-ion = lithium chemistry not stated more specifically. Never inferred from voltage."}
+    - {name: voltageClassV, value: "list[number]", category: ["battery"], sparse: true, meaning: "Voltages the note states as offered, in V, as the source gives them (class or nominal). Omitted when only a range is stated."}
+    - {name: voltageMinV, value: number, category: ["battery"], sparse: true, meaning: "Lowest stated voltage in V."}
+    - {name: voltageMaxV, value: number, category: ["battery"], sparse: true, meaning: "Highest stated voltage in V."}
+    - {name: capacityAhMin, value: number, category: ["battery"], sparse: true, meaning: "Lowest stated capacity in Ah. Rating basis (C5, C3 and so on) is in the note body."}
+    - {name: capacityAhMax, value: number, category: ["battery"], sparse: true, meaning: "Highest stated capacity in Ah. Also used for up-to values."}
+    - {name: energyKwhMin, value: number, category: ["battery"], sparse: true, meaning: "Lowest stated energy in kWh."}
+    - {name: energyKwhMax, value: number, category: ["battery"], sparse: true, meaning: "Highest stated energy in kWh. Also used for up-to values."}
+    - {name: ratedCycles, value: number, category: ["battery"], sparse: true, meaning: "Highest stated rated cycle count. Depth of discharge and rate conditions are in the note body."}
+    - {name: chargeProfile, value: "list[enum]", allowed: ["conventional", "opportunity", "fast"], category: ["battery"], sparse: true, meaning: "Charging duties the note states the product is designed or rated for."}
   Info:
     - {name: measureClass, value: enum, allowed: ["metric", "property-definition", "comparison-criterion"], sparse: true}
     - {name: valueType, value: enum, allowed: ["numeric", "categorical", "boolean", "text", "compound"], sparse: true}

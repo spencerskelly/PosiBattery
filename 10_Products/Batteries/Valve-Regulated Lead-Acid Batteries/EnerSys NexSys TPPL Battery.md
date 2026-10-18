@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - tppl
+chemistry: tppl
 productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

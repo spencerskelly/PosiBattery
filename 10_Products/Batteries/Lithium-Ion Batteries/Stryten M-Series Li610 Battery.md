@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - hibernation
+chemistry: lfp
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

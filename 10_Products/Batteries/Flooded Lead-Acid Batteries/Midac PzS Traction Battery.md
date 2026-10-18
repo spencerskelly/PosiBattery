@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - tubular
+chemistry: flooded
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

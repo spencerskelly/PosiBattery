@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: agm
 productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

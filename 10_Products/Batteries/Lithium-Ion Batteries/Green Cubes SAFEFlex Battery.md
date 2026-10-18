@@ -9,6 +9,11 @@ tags:
   - commercial-product
   - battery
   - ibms
+chemistry: lfp
+voltageClassV:
+  - 48
+voltageMinV: 48
+voltageMaxV: 48
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

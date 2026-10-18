@@ -10,6 +10,15 @@ tags:
   - battery
   - gse
 productClass: product-variant
+chemistry: lfp
+voltageClassV:
+  - 80
+voltageMinV: 80
+voltageMaxV: 80
+capacityAhMin: 315
+capacityAhMax: 315
+energyKwhMin: 24.2
+energyKwhMax: 24.2
 productCategory: battery
 aliases:
   - GSE3

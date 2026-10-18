@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - lithium-ion
+chemistry: lfp
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

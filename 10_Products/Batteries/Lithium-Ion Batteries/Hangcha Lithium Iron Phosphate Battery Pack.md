@@ -9,6 +9,13 @@ tags:
   - commercial-product
   - battery
   - lithium-ion
+chemistry: lfp
+voltageMinV: 76.8
+voltageMaxV: 80
+capacityAhMin: 228
+capacityAhMax: 608
+energyKwhMin: 18.24
+energyKwhMax: 48.32
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

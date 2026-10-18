@@ -10,6 +10,7 @@ tags:
   - battery
   - circulation
   - watering
+chemistry: flooded
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

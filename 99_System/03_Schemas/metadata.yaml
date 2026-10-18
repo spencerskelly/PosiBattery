@@ -55,6 +55,48 @@ classScoped:
       required: false
       condition: "Product Objects under 10_Products (concrete products and their abstract class notes). Coarse query category; subtypeOf remains the authority for the specific class."
 
+    chemistry:
+      value: enum
+      allowed: ["flooded", "gel", "agm", "tppl", "vrla", "lfp", "nmc", "lithium-ion"]
+      required: false
+      condition: "Only when productCategory is battery. Stated cell chemistry. vrla = valve-regulated lead-acid with no gel or AGM stated; lithium-ion = lithium chemistry not stated more specifically. Never inferred from voltage."
+    voltageClassV:
+      value: list[number]
+      required: false
+      condition: "Only when productCategory is battery. Voltages the note states as offered, in V, as the source gives them (class or nominal). Omitted when only a range is stated."
+    voltageMinV:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Lowest stated voltage in V."
+    voltageMaxV:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Highest stated voltage in V."
+    capacityAhMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Lowest stated capacity in Ah. Rating basis (C5, C3 and so on) is in the note body."
+    capacityAhMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Highest stated capacity in Ah. Also used for up-to values."
+    energyKwhMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Lowest stated energy in kWh."
+    energyKwhMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Highest stated energy in kWh. Also used for up-to values."
+    ratedCycles:
+      value: number
+      required: false
+      condition: "Only when productCategory is battery. Highest stated rated cycle count. Depth of discharge and rate conditions are in the note body."
+    chargeProfile:
+      value: list[enum]
+      allowed: ["conventional", "opportunity", "fast"]
+      required: false
+      condition: "Only when productCategory is battery. Charging duties the note states the product is designed or rated for."
   Info:
     measureClass:
       value: enum

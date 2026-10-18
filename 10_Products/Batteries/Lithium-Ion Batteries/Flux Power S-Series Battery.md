@@ -10,6 +10,16 @@ tags:
   - battery
   - ibms
   - private-label
+chemistry: lfp
+voltageClassV:
+  - 24
+voltageMinV: 24
+voltageMaxV: 24
+capacityAhMin: 105
+capacityAhMax: 105
+energyKwhMin: 2.7
+energyKwhMax: 2.7
+ratedCycles: 3000
 productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

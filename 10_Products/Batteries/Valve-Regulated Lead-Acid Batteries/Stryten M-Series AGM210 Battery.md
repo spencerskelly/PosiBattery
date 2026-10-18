@@ -8,6 +8,11 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: agm
+voltageClassV:
+  - 6
+voltageMinV: 6
+voltageMaxV: 6
 productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

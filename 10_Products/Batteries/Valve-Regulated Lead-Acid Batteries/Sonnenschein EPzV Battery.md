@@ -8,6 +8,8 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: vrla
+energyKwhMax: 15
 productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

@@ -8,6 +8,14 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+chemistry: vrla
+voltageClassV:
+  - 12
+voltageMinV: 12
+voltageMaxV: 12
+capacityAhMin: 14
+capacityAhMax: 93.5
+ratedCycles: 450
 productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

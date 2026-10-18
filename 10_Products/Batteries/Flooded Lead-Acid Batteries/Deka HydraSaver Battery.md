@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - watering
+chemistry: flooded
 productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
