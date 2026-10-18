@@ -77,3 +77,8 @@ The 30-character token used by a note `uid` and by a Local Model block ID belong
 - Facets are query aids only. Write a facet only when the note's own cited text states the value. Never remove or rewrite source text because a facet exists. Where sources disagree, leave the facet out (or write the stated value that the note's primary source gives) and record the disagreement in the body.
 - `company` (Object, `10_Products`, concrete products only) is a link to an organization note, written after `productCategory`. It exists so queries can group products by an identifiable organization. It equals the first `madeBy` link where `madeBy` exists, otherwise the brand owner or named organization. It never asserts who built the product and never replaces `madeBy`, `offers` or `subsidiaryOf`; `check-product-facets.py` enforces this.
 - Ranges are `<quantity>Min` and `<quantity>Max` with the unit fixed by the schema. Discrete offered sets are lists.
+
+## Market and financial data
+
+- Use public sources only for market sizes, volumes and company financials; never add internal PosiCharge or Ampure figures. Record each source as a Document note with its evidence tier (T1 filing or association statistic, T2 trade press quoting a research firm, T3 aggregator, T4 vendor page) and link it from a register note under `70_Research and Evidence/Research`.
+- Mark derived numbers as derived, mark assumptions as assumptions, and add a conflict row when two sources disagree. Start from [[Market Overview]].

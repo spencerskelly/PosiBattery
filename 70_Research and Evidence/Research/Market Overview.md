@@ -15,13 +15,14 @@ describedBy:
   - "[[Market Size and Volume Register]]"
   - "[[Market History and Outlook Register]]"
   - "[[Battery Market Bottom-Up Model]]"
+  - "[[Company Financial History Register]]"
 ---
 
 # Market Overview
 
 ## Definition
 
-One-page summary of the industrial truck, battery, charger and product data in the vault: timeline, shares, and breakdowns, with the gaps stated. Built 2026-10-18. Detail and sources are in [[Market History and Outlook Register]], [[Market Size and Volume Register]], [[Public Company Financials Register]] and [[Battery Market Bottom-Up Model]]. A chart version is the OnBattery dashboard "Industrial Truck Battery Market" (https://claude.ai/artifact/CMu9VNNbpHHgAYxosr49rE, private to the account; its data is a copy of these registers taken 2026-10-18).
+One-page summary of the industrial truck, battery, charger and product data in the vault: timeline, shares, and breakdowns, with the gaps stated. All data comes from public sources (filings, releases, industry statistics, trade press, vendor reports); no internal PosiCharge or Ampure data is used. Built 2026-10-18. Detail and sources are in [[Market History and Outlook Register]], [[Market Size and Volume Register]], [[Public Company Financials Register]] and [[Battery Market Bottom-Up Model]]. A chart version is the OnBattery dashboard "Industrial Truck Battery Market" (https://claude.ai/artifact/CMu9VNNbpHHgAYxosr49rE, private to the account; its data is a copy of these registers taken 2026-10-18).
 
 ## Notes
 
@@ -80,7 +81,7 @@ Concentration: the top three firms hold 57% and the top six 81% of the listed re
 | Segment | Size and shares | Basis |
 |---|---|---|
 | Traction batteries | USD 5.4 to 5.9bn (vendors); bottom-up USD 3.0 to 34.2bn with base 12.3 | [[Market Size and Volume Register]] section 4; [[Battery Market Bottom-Up Model]] |
-| Battery makers | Only [[EnerSys]] has a public series: Motive Power USD 1.43bn FY2026, 38% of its USD 3.75bn total (derived). EnerSys stated a 32% share of its motive market in 2009 and 2018. No share table exists for [[Exide Technologies]], [[East Penn Manufacturing]], [[Stryten Energy]], [[HOPPECKE]] | [[Public Company Financials Register]] |
+| Battery makers | Only [[EnerSys]] has a public series: Motive Power USD 1.43bn FY2026, 38% of its USD 3.75bn total (derived). EnerSys stated a 32% share of its motive market in 2009 and 2018 and about 22% of batteries and chargers in CY2022 (serviceable market about USD 6.8bn); named competitors are East Penn, Exide (Stryten), Hoppecke, Eternity, Midac, Sunlight, TAB and Chinese makers (conflict ES1 in [[Company Financial History Register]]). No share table exists for [[Exide Technologies]], [[East Penn Manufacturing]], [[Stryten Energy]], [[HOPPECKE]] | [[Public Company Financials Register]] |
 | Lead-acid against lithium | About 68% lead-acid and 32% lithium of full-electric sales in 2024 (derived from Interact) | [[Market Size and Volume Register]] section 3 |
 | Chargers | USD 1.28 to 2.03bn (two vendors, 59% apart); no share data | [[Market Size and Volume Register]] section 5 |
 | Trucks by class, 2025 orders | Class 1: 18%, Class 2: 6%, Class 3: 55%, Classes 4 and 5: 21% (derived) | [[Market History and Outlook Register]] section 2 |

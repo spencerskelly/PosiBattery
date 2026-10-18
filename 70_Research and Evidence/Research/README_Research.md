@@ -104,8 +104,11 @@ Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines 
 
 ### Market sizing (added 2026-10-18)
 
+**Data policy.** All market and financial data in the vault comes from public sources: company filings and releases, industry statistics (WITS, ITA), trade press and market-research vendor pages. No internal PosiCharge or Ampure data is used. Every figure carries a source note, an evidence tier (T1 filing or association statistic, T2 trade press quoting a research firm, T3 aggregator, T4 vendor page), and conflicts are kept visible in each register's conflict table. Start with [[Market Overview]]; all sources were read through a summarizing fetch tool, so check originals before quoting.
+
 - [[Public Company Financials Register]] — latest-year financials for listed truck, battery, fuel-cell and fleet-software companies.
 - [[Market Size and Volume Register]] — world and regional truck volumes, lithium share forecasts and vendor market-size ranges, with conflicts.
 - [[Market History and Outlook Register]] — 2002 to 2025 world and North America truck orders, supplier revenue, EnerSys sales, battery cost, published forecasts checked against outcomes, and labeled arithmetic to 2046 (no sourced forecast goes past about 2035).
 - [[Market Overview]] — one-page summary: timeline, regional and supplier shares, segment sizes, vault coverage, gaps.
 - [[Battery Market Bottom-Up Model]] — trucks × batteries × life × price, with inputs flagged sourced or assumed, sensitivity and reconciliation to vendor sizes.
+- [[Company Financial History Register]] — 2010 to 2025 revenue for KION, Jungheinrich, Hyster-Yale and EnerSys against world truck orders; EnerSys share and market-size statements; Hyster-Yale mix and channel; Electrovaya.

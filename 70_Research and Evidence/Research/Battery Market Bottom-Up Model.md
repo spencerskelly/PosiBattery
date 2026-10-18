@@ -91,7 +91,8 @@ Truck life, lithium price and the lithium share of Class 1/2 dominate. None of t
 | Basis | USD bn | Source |
 |---|---|---|
 | Vendor reports, forklift batteries | 5.4 to 5.9 | [[Market Size and Volume Register]] section 4 |
-| EnerSys Motive Power sales FY2026 divided by its stated 32% share (derived) | 4.5 | [[Market History and Outlook Register]] section 5; the 32% is the company's, for earlier years |
+| EnerSys Motive Power sales FY2026 divided by its 32% share stated for 2009 and 2018 (derived) | 4.5 | [[Market History and Outlook Register]] section 5 |
+| EnerSys Motive Power sales FY2026 divided by its 22% share for CY2022, batteries and chargers (derived) | 6.5 | [[Company Financial History Register]] section 2; the company's serviceable addressable market is about USD 6.8bn and includes chargers and ancillary markets |
 | Bottom-up base | 12.2 | this note |
 | Bottom-up range | 3.0 to 34.2 | this note |
 
@@ -105,6 +106,7 @@ For the vendor figure to hold, battery revenue would average about USD 2,910 per
 | BU2 | Lithium forklift price per kWh | Flux X-Series packs of 22.7 to 33.6 kWh ([[Document - Flux Power X-Series Battery Pack Brochure (Class 1)|fxx]]) at USD 6,000 to 25,000 ([[Document - Forklift Battery Replacement Cost 2026 Guide (Forkliftaction, sponsored by ROYPOW)|fka]]) give about USD 180 to 1,100 per kWh (derived) | BloombergNEF average pack price USD 108 per kWh in 2025 ([[Market History and Outlook Register]] section 6) | Open. The BNEF figure is for automotive-scale packs; the gap is not explained here and the price range is from sponsored content, not a price list |
 | BU3 | Battery life in years | Lead-acid 3 to 5 years, lithium 8 to 10+ ([[Document - Forklift Battery Replacement Cost 2026 Guide (Forkliftaction, sponsored by ROYPOW)|fka]]) | Cycle life 1,000 to 1,500 against 2,500 to 3,000 ([[Document - Flux Power Blog Why a Forklift Battery Price Isn't Its True Cost|flb]]); at one cycle a day that is about 3 to 4 years against 7 to 8, at two cycles a day about half that (derived) | Consistent in direction; the lithium years differ by usage assumption |
 | BU4 | Lithium share | Interact: 32% of full-electric sales in 2024 | Model share is of Class 1/2 stock, which lags sales | Open; stock share is lower than sales share, so the base 40% is high for stock if 32% is the sales figure |
+| BU6 | EnerSys-implied market | USD 4.5bn on the 32% share | USD 6.5bn on the 22% share, which includes chargers | Open; see ES1 and ES2 in [[Company Financial History Register]] |
 | BU5 | Energy use against battery size | EPRI: 12,960 to 25,932 kWh a year per truck ([[Document - EPRI Electric Forklifts Brochure (April 2015, ID 3002005805)|epri]]) | Flux Class 1 packs 22.7 to 33.6 kWh, so 400 to 1,100 full cycles a year (derived) | Plausible for multi-shift use |
 
 ### 7. Not done
@@ -116,7 +118,7 @@ For the vendor figure to hold, battery revenue would average about USD 2,910 per
 
 ## Traceability
 
-- Sources listed in the front matter. Related: [[Market Overview]], [[Market History and Outlook Register]], [[Market Size and Volume Register]].
+- Sources listed in the front matter. Related: [[Market Overview]], [[Market History and Outlook Register]], [[Market Size and Volume Register]], [[Company Financial History Register]].
 
 ## Aliases
 
