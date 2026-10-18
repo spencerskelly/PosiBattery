@@ -112,3 +112,4 @@ Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines 
 - [[Market Overview]] — one-page summary: timeline, regional and supplier shares, segment sizes, vault coverage, gaps.
 - [[Battery Market Bottom-Up Model]] — trucks × batteries × life × price, with inputs flagged sourced or assumed, sensitivity and reconciliation to vendor sizes.
 - [[Company Financial History Register]] — 2010 to 2025 revenue for KION, Jungheinrich, Hyster-Yale and EnerSys against world truck orders; EnerSys share and market-size statements; Hyster-Yale mix and channel; Electrovaya.
+- [[Fleet Energy and Cost Evidence Register]] — fleet size (California and US), energy per truck and per battery class, warehouse electricity and employment, total cost of ownership claims and the points of view behind them (CARB, propane, lead, lithium, DOE/NREL, utilities).

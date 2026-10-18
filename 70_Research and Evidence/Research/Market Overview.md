@@ -16,6 +16,7 @@ describedBy:
   - "[[Market History and Outlook Register]]"
   - "[[Battery Market Bottom-Up Model]]"
   - "[[Company Financial History Register]]"
+  - "[[Fleet Energy and Cost Evidence Register]]"
 ---
 
 # Market Overview
@@ -92,9 +93,25 @@ Concentration: the top three firms hold 57% and the top six 81% of the listed re
 
 569 product notes carry a category; 509 carry a company link. By category: vehicle-accessory 130; battery-accessory 108; battery 92; charger 69; fleet-software 67; industrial-truck 58; charger-accessory 21; gse 21; fuel-cell 3. Companies with most product notes: [[Raymond]] 39; [[Exide Technologies]] 28; [[PosiCharge]] 27; [[Midac]] 25; [[Crown Equipment]] 23; [[Linde Material Handling]] 23. The company link is for filtering and does not assert who built a product (see [[README_Products]]). These counts show vault coverage, not market share.
 
-### 6. Gaps
+### 6. Fleet, energy and cost: different points of view
 
-No US-only series; no share data for battery or charger makers beyond EnerSys; no installed base or truck life; vendor dollar sizes disagree by two to three times; all sources were read through a summarizing tool.
+Detail in [[Fleet Energy and Cost Evidence Register]]. The same question gets different answers by who asks.
+
+| Point of view | Headline |
+|---|---|
+| California regulator (CARB) | Typical fleet saves about USD 30,000 per forklift; statewide net savings USD 2.2 to 2.7bn to 2043; about 80,000 zero-emission forklifts (70,000 lead-acid) and 95,000 combustion forklifts |
+| Propane industry (WPGA) | Costs up to USD 27bn and 220,000 forklifts affected |
+| Lead battery industry (BCI) | Lead up to 40% cheaper than lithium; 67% of lift trucks electric |
+| Lithium and OEM vendors | Lithium costs two to three times as much, lasts two to three times the cycles, wins on multi-shift duty |
+| DOE and NREL (fuel cells) | About USD 2,000 a year advantage per high-use unit; 21,838 fuel cell units deployed through 2017 |
+| Energy sources | 12,960 to 25,932 kWh a year per electric truck (EPRI); 83 billion kWh a year used by US warehouse and storage buildings in 2012 (6.7% of commercial electricity, derived) |
+| Field data (vendor) | Battery energy 42.84 kWh (Class I), 48.0 kWh (Class II), 12.24 kWh (Class III) |
+
+There is no public US forklift stock. A rough check (assumes a 10-year truck life, not sourced) puts it at 2 to 3.5 million trucks.
+
+### 7. Gaps
+
+No US-only series; no US forklift stock; no battery price by class; no share data for battery or charger makers beyond EnerSys; no installed base or truck life; vendor dollar sizes disagree by two to three times; all sources were read through a summarizing tool.
 
 ## Traceability
 
