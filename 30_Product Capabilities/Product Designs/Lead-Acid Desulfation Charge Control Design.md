@@ -22,6 +22,8 @@ realizes:
 dependencyOf:
 dependsOn:
   - "[[Charger Power Stage Design]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Lead-Acid Desulfation Charge Control Design

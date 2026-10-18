@@ -35,6 +35,8 @@ realizes:
 dependencyOf:
 dependsOn:
   - "[[Charger Power Stage Design]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Temperature-Compensated Charge Control Design

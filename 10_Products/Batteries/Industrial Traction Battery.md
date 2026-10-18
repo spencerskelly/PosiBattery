@@ -46,6 +46,7 @@ describedBy:
   - "[[Metric - Watering Interval]]"
   - "[[Metric - Maximum Continuous Charge Current]]"
   - "[[Lithium-Ion Forklift Charge Profile Comparison]]"
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Industrial Traction Battery

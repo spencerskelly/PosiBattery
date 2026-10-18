@@ -19,6 +19,8 @@ dependencyOf:
 designOf:
   - "[[Exide Automatic Watering System and Level Sensor]]"
   - "[[Midac Aquamatic Watering System]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Battery Cell Watering Design

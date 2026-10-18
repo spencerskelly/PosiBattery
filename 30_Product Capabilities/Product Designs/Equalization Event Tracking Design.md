@@ -26,6 +26,8 @@ realizes:
   - "[[Track Equalization]]"
 dependencyOf:
   - "[[Missed Equalization Recovery Design]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Equalization Event Tracking Design

@@ -18,6 +18,8 @@ realizes:
 dependencyOf:
 dependsOn:
   - "[[Equalization Event Tracking Design]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Missed Equalization Recovery Design

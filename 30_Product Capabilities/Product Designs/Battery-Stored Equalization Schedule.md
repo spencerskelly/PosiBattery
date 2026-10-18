@@ -15,6 +15,8 @@ designOf:
   - "[[PosiCharge MVS400 and MVS800]]"
 dependencyOf:
   - "[[Equalize Battery on Schedule]]"
+describedBy:
+  - "[[Lead-Acid Traction Battery Life Care Methods Register]]"
 ---
 
 # Battery-Stored Equalization Schedule
