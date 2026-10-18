@@ -106,3 +106,4 @@ Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines 
 
 - [[Public Company Financials Register]] — latest-year financials for listed truck, battery, fuel-cell and fleet-software companies.
 - [[Market Size and Volume Register]] — world and regional truck volumes, lithium share forecasts and vendor market-size ranges, with conflicts.
+- [[Market History and Outlook Register]] — 2002 to 2025 world and North America truck orders, supplier revenue, EnerSys sales, battery cost, published forecasts checked against outcomes, and labeled arithmetic to 2046 (no sourced forecast goes past about 2035).

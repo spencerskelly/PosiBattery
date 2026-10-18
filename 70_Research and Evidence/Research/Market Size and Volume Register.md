@@ -134,7 +134,7 @@ Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,97
 
 ## Traceability
 
-- Source notes are listed in the front matter. Company figures are in [[Public Company Financials Register]].
+- Source notes are listed in the front matter. Company figures are in [[Public Company Financials Register]]. Long history and outlook: [[Market History and Outlook Register]].
 
 ## Aliases
 
