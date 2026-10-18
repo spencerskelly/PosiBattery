@@ -31,6 +31,7 @@ performedBy:
   - "[[Flux Power GSE4]]"
   - "[[Flux Power GSE6]]"
   - "[[Flux Power LiFT Pack]]"
+  - "[[REC 2Q BMS]]"
 realizes:
   - "[[Integrate a BMID with Charger Vehicle and Fleet Systems]]"
   - "[[Integrate the Battery with Truck and Charger Controls]]"

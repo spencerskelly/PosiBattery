@@ -16,6 +16,8 @@ realizedBy:
 givesRiseTo:
   - "[[Act on Fleet Data Without Information Overload]]"
   - "[[Control Who Operates Each Truck]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Manage Fleet Portal Users and Alert Thresholds

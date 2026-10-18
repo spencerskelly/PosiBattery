@@ -16,6 +16,8 @@ realizedBy:
   - "[[Diagnose Vehicle Remotely]]"
 givesRiseTo:
   - "[[Find and Fix Vehicle Faults Without Downtime]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Review Checklist Failures and Dispatch Service

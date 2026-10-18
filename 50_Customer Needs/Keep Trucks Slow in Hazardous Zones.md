@@ -17,6 +17,8 @@ participants:
 needOf:
   - "[[Site Safety Manager]]"
   - "[[Pedestrian Near Trucks]]"
+arisesIn:
+  - "[[Shared Vehicle and Pedestrian Work Area]]"
 ---
 
 # Keep Trucks Slow in Hazardous Zones

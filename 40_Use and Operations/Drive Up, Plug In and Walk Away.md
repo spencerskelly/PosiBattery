@@ -17,6 +17,10 @@ realizedBy:
 givesRiseTo:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
+arisesIn:
+  - "[[Distributed and Opportunity Charging Area]]"
+  - "[[Centralized Battery Room and Charging Area]]"
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Drive Up, Plug In and Walk Away

@@ -16,12 +16,16 @@ realizedBy:
   - "[[Sense Electrolyte Level]]"
   - "[[Charge Lithium-Ion Battery]]"
   - "[[Circulate Electrolyte]]"
+  - "[[Gel Electrolyte]]"
+  - "[[Extended Watering Interval]]"
 participants:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
 needOf:
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+satisfiedBy:
+  - "[[Sonnenschein EPzV Battery]]"
 ---
 
 # Keep Trucks Working Without Battery Maintenance Labor
@@ -32,6 +36,7 @@ Customer need: Keep Trucks Working Without Battery Maintenance Labor. The proble
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** realizedBy [[Gel Electrolyte]] (design note: gelled electrolyte, so no watering) and [[Extended Watering Interval]] (longer interval between refills; values in [[Metric - Watering Interval]]); [[Sonnenschein EPzV Battery]] satisfies this need directly (GNB overview: maintenance-free). Design and stated-benefit routes, weaker than a performed Function; see [[Product to Customer Need Map]].
 - **Customer-side evidence added 2026-10-14 (priority 6):** one first-hand customer statement: a beer distributor's warehouse manager named a dirty charging area, daily lead-acid maintenance and frequent changes as reasons to switch, and the lithium-ion supplier OneCharge was part of the story. One site, vendor-supplied case article. Source: [[Document - MMH Lithium-Ion Batteries Help Trim Fleet by a Third (Standard Distributing)]] (T2). The need stays a hypothesis; one case is not validation.
 - **Added 2026-10-14 (analyst reasoning):** [[Circulate Electrolyte]]: Midac says its circulation system prevents electrolyte stratification and sulfation (damage that shortens battery life); Exide says its AIR system reduces energy and water consumption (less watering work). Customer work: charging lead-acid batteries and watering them. Sources: product notes [[Midac EUW Electrolyte Circulation System]] and [[Exide AIR Electrolyte Agitation System]].
 - **Evidence status: need hypothesis.** The statements below are what makers and dealers say their products do for customers. No customer, user or buyer source in the vault confirms that customers hold this need or rank it. Per the ruleset, source research becomes a validated need only after customer-side evidence.

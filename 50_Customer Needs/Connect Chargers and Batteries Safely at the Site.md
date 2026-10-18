@@ -26,6 +26,7 @@ needOf:
   - "[[Forklift Operator]]"
 arisesIn:
   - "[[Drive Up, Plug In and Walk Away]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
 ---
 
 # Connect Chargers and Batteries Safely at the Site

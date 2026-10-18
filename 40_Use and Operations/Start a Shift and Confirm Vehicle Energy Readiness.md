@@ -16,6 +16,11 @@ realizedBy:
   - "[[Display Battery Status to Operator]]"
   - "[[Indicate Battery Status Locally]]"
   - "[[Alert on Abnormal Condition]]"
+givesRiseTo:
+  - "[[Know Battery State Before and During the Shift]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
+  - "[[Airport Ground-Support Operating Area]]"
 ---
 
 # Start a Shift and Confirm Vehicle Energy Readiness

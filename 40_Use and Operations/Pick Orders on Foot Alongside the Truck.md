@@ -13,6 +13,8 @@ realizedBy:
   - "[[Follow Operator Automatically]]"
 givesRiseTo:
   - "[[Reduce Operator Effort and Fatigue]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Pick Orders on Foot Alongside the Truck

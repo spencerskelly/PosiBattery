@@ -11,6 +11,8 @@ participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
   - "[[Maintenance Technician]]"
+givesRiseTo:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Wet Dusty or Outdoor Operating Environment

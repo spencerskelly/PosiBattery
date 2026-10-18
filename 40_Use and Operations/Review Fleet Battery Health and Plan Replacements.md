@@ -16,6 +16,8 @@ realizedBy:
   - "[[Upload Battery Data to Cloud Portal]]"
 givesRiseTo:
   - "[[Plan Battery Replacement and Budget Ahead]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Review Fleet Battery Health and Plan Replacements

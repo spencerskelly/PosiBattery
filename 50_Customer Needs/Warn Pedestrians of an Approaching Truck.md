@@ -17,6 +17,8 @@ participants:
 needOf:
   - "[[Pedestrian Near Trucks]]"
   - "[[Site Safety Manager]]"
+arisesIn:
+  - "[[Shared Vehicle and Pedestrian Work Area]]"
 ---
 
 # Warn Pedestrians of an Approaching Truck

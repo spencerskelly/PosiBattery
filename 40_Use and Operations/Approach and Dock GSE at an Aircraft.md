@@ -14,6 +14,11 @@ realizedBy:
   - "[[Dock Automatically at Aircraft]]"
   - "[[Indicate Aircraft Proximity to Operator]]"
   - "[[Inhibit Drive Until Equipment Is Stowed]]"
+givesRiseTo:
+  - "[[Protect Aircraft and Ground Crew During Ground Operations]]"
+arisesIn:
+  - "[[Airport Ground-Support Operating Area]]"
+  - "[[Aircraft Service Envelope]]"
 ---
 
 # Approach and Dock GSE at an Aircraft

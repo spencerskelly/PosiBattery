@@ -15,6 +15,8 @@ realizedBy:
 givesRiseTo:
   - "[[Right-Size the Fleet from Usage Data]]"
   - "[[Act on Fleet Data Without Information Overload]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Dispatch a Task to a Vehicle

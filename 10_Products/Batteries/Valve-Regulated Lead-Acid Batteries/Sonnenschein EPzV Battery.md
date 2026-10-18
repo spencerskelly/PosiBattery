@@ -14,6 +14,8 @@ describedBy:
   - "[[Document - GNB Motive Power Overview (2021-08)]]"
 madeBy:
   - "[[Exide Technologies]]"
+satisfies:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Sonnenschein EPzV Battery
@@ -24,6 +26,7 @@ Sonnenschein EPzV and EPzV-BS maintenance-free traction batteries for light and 
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** satisfies [[Keep Trucks Working Without Battery Maintenance Labor]] because the GNB overview calls the range maintenance-free (stated benefit; no Function is modeled for it).
 - Deep-discharge tolerant, for food, pharma and chemical sites. Gel or AGM not stated for this range. Source: GNB motive power overview 2021-08 (T1, second-hand; parts garbled), <https://www.exidegroup.com/eu/sites/default/files/2021-08/GNB_MP_Overview_EN_web.pdf>
 
 ## Aliases

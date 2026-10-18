@@ -28,6 +28,9 @@ needOf:
 arisesIn:
   - "[[Schedule Charging for the Next Shift]]"
   - "[[Drive Up, Plug In and Walk Away]]"
+  - "[[Opportunity-Charge a Vehicle During a Work Break]]"
+satisfiedBy:
+  - "[[PosiCharge DIY Fast Charge Kit]]"
 ---
 
 # Return Trucks to Service Quickly After a Low Charge

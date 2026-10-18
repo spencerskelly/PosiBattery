@@ -335,6 +335,11 @@ Running list of directions the searches have opened, each with the page that tri
 | IB-310 | Mechanism and parameters of charger desulfation cycles (EnerSys Express, IMPAQ, NexSys+, Power Designers REVOLUTION X) from charger manuals (C342) | [[Lead-Acid Traction Battery Life Care Methods Register]] | - | Desulfation cycle | open |
 | IB-311 | Maker rules for storing and cleaning traction batteries (state of charge, interval, float or equalize schedule, cleaning agents) (C343, C345) | [[Lead-Acid Traction Battery Life Care Methods Register]] | - | Traction storage cleaning | open |
 | IB-312 | Owner and customer input: does PosiCharge hold field data linking care compliance (equalization, depth of discharge, temperature) to battery life? | [[Lead-Acid Traction Battery Life Care Methods Register]] | - | Care compliance data | open |
+| IB-313 | Owner decision: count route S (product satisfies a need by stated benefit) and route I (inherited through generalization) as reached; decide whether to add needs for the three vehicle accessories whose benefit fits no need | [[Product to Customer Need Map]] | - | traceability rules | open |
+| IB-314 | OEM spec sheets for the 20 host vehicles known only from listings (Mitsubishi, Rocla, Cat NA list, Hyster J2.2-3.5XN, Linde 1293, Toyota 7FBCU, Crown RM-RMD, Jungheinrich ETV C, Charlatte, Linde P250, Oshkosh B80E and pushbacks); extends IB-138 | [[Product to Customer Need Map]] | - | OEM spec sheets | open |
+| IB-315 | Operational (what) scenarios for the 11 why needs that have none, from customer or maker sources | [[Product to Customer Need Map]] | - | Use Case scenarios | open |
+| IB-316 | Owner: where are BMIDs used (battery room, opportunity charging, airport GSE)? The four BMID operational Use Cases name no operating context | [[Product to Customer Need Map]] | - | BMID context | open |
+| IB-317 | Charge method of Exide Element HF and ITW GSE DC chargers from manuals, to replace the general Charge Battery link with a specific Function | [[Product to Customer Need Map]] | - | charger method | open |
 | IB-227 | Which outside interfaces (OpenADR, Modbus, OCPP, MQTT, vendor API) do Linde connect:charger, Jungheinrich Active Load Management, Toyota peak load management and Crown Demand Response Management offer to a site energy system? Read the Jungheinrich factsheet PDF, Linde's own connect:charger page (also settles C266), Toyota's own page and Crown's V-HFM3 manual | Forklift Charger Load Management Register | - | energy management interface; protocols | open |
 | IB-228 | SolarEdge commercial and industrial EV charging platform article (redirect not refetched: http://pv-magazine-usa.com/2023/06/05/solaredge-introduces-commercial-and-industrial-ev-charging-platform/), Fronius PV Connect product pages and the ROYPOW forklift charger page: do they state industrial-truck charger support? | Forklift Charger Load Management Register | - | solar charging; compatible chargers | open |
 - **Round 7 directions:** IB-030 to IB-041 came from the REVOLUTION rebrand search, the Crown Battery search and the Lester, Delta-Q search.
@@ -351,6 +356,7 @@ Running list of directions the searches have opened, each with the page that tri
 - **Round 68 directions:** IB-292 to IB-297 came from the cellular network lifetime and modem migration pass ([[Cellular Network Lifetime and IoT Modem Migration Register]]).
 - **Round 69 directions:** IB-298 to IB-304 came from the EU battery passport pass ([[EU Battery Passport and Battery Regulation Register]]).
 - **Round 70 directions:** IB-305 to IB-312 came from the lead-acid traction battery life care methods pass ([[Lead-Acid Traction Battery Life Care Methods Register]]).
+- **Round 71 directions:** IB-313 to IB-317 came from the customer traceability review ([[Product to Customer Need Map]]).
 
 ## Aliases
 

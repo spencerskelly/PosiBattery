@@ -9,6 +9,12 @@ tags:
 participants:
   - "[[Forklift Operator]]"
   - "[[Fleet Operations Manager]]"
+givesRiseTo:
+  - "[[Schedule Charging for the Next Shift]]"
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
+  - "[[Drive Up, Plug In and Walk Away]]"
+  - "[[Opportunity-Charge a Vehicle During a Work Break]]"
 ---
 
 # Distributed and Opportunity Charging Area

@@ -11,6 +11,10 @@ participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
   - "[[Equipment Installer]]"
+givesRiseTo:
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+  - "[[Connect a Vehicle or Battery to a Charger]]"
+  - "[[Drive Up, Plug In and Walk Away]]"
 ---
 
 # Centralized Battery Room and Charging Area

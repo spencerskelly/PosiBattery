@@ -13,6 +13,10 @@ participants:
 realizedBy:
   - "[[Control Operator Access]]"
   - "[[Enforce Pre-Shift Checklist]]"
+givesRiseTo:
+  - "[[Control Who Operates Each Truck]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Authenticate and Complete Pre-Shift Authorization

@@ -17,6 +17,8 @@ madeBy:
 hasDesign:
   - "[[Standalone Battery Management System]]"
   - "[[Master and Cell Monitor BMS Topology]]"
+performs:
+  - "[[Communicate Battery State over CAN]]"
 ---
 
 # REC 2Q BMS
@@ -27,6 +29,7 @@ Standalone BMS for 4 to 16 series cells with integrated CAN communication; combi
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** performs [[Communicate Battery State over CAN]] because the REC page states integrated CAN communication and compatibility with inverters; which CAN protocol and which values are sent are not stated.
 **Summary:**
 Standalone BMS for 4 to 16 series cells with integrated CAN communication; combines in a master-slave configuration for up to 240 cells.
 

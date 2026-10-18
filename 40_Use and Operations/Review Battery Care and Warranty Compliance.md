@@ -15,6 +15,10 @@ realizedBy:
   - "[[Upload Battery Data to Cloud Portal]]"
   - "[[Track Equalization]]"
   - "[[Calculate Battery Abuse Cycles]]"
+givesRiseTo:
+  - "[[Document Battery Care for Warranty Compliance]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Review Battery Care and Warranty Compliance

@@ -14,6 +14,8 @@ realizedBy:
   - "[[Report Truck Hours and Usage]]"
 givesRiseTo:
   - "[[Right-Size the Fleet from Usage Data]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Review Fleet Utilization and Idle Capacity

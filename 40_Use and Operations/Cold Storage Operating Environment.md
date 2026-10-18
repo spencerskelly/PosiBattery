@@ -10,6 +10,8 @@ participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
   - "[[Fleet Operations Manager]]"
+givesRiseTo:
+  - "[[Keep Equipment Working in Cold, Wet and Dusty Conditions]]"
 ---
 
 # Cold Storage Operating Environment

@@ -13,6 +13,10 @@ realizedBy:
   - "[[Charge Battery by Opportunity]]"
   - "[[Charge Battery Fast]]"
   - "[[Manage Temperature During Fast Charging]]"
+givesRiseTo:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
+arisesIn:
+  - "[[Distributed and Opportunity Charging Area]]"
 ---
 
 # Opportunity-Charge a Vehicle During a Work Break

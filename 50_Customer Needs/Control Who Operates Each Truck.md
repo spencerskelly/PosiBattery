@@ -23,6 +23,7 @@ needOf:
   - "[[Fleet Software Administrator]]"
 arisesIn:
   - "[[Manage Fleet Portal Users and Alert Thresholds]]"
+  - "[[Authenticate and Complete Pre-Shift Authorization]]"
 ---
 
 # Control Who Operates Each Truck

@@ -21,6 +21,7 @@ madeBy:
 offeredWith:
   - "[[Midac PzS Traction Battery]]"
   - "[[Midac MLM Battery]]"
+  - "[[Midac MLMx Battery]]"
 ---
 
 # Midac Electrolyte Level Sensor

@@ -38,6 +38,7 @@ designOf:
   - "[[Toyota Lithium-Ion 5-35 Battery Series]]"
   - "[[TUG ALPHA 1 Pushback]]"
   - "[[Exide Sonnenschein Lithium Battery]]"
+  - "[[BSL Lithium Forklift Battery]]"
 ---
 
 # Integrated Battery Management System

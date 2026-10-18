@@ -19,6 +19,8 @@ drives:
   - "[[Fire and Insurer Review - Charger Shall State the Listing Standard and Edition It Is Certified To]]"
 arisesIn:
   - "[[Forklift Charging Area Under Fire Code and Insurer Review]]"
+givesRiseTo:
+  - "[[Get Charging Areas Approved by the Fire Authority and Insurer]]"
 ---
 
 # Obtain Fire Authority and Insurer Approval for a Charging Area

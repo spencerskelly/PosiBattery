@@ -14,6 +14,8 @@ realizedBy:
 givesRiseTo:
   - "[[Return Trucks to Service Quickly After a Low Charge]]"
   - "[[Monitor and Manage Chargers and Batteries Across Sites]]"
+arisesIn:
+  - "[[Distributed and Opportunity Charging Area]]"
 ---
 
 # Schedule Charging for the Next Shift

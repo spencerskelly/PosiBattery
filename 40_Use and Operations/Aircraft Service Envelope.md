@@ -11,6 +11,8 @@ subtypeOf:
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
+givesRiseTo:
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Aircraft Service Envelope

@@ -21,6 +21,7 @@ needOf:
   - "[[Dealer Service Technician]]"
 arisesIn:
   - "[[Review BMID Battery History and Exceptions]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
 drives:
   - "[[BMID - Retain Battery-Specific Usage History]]"
 ---

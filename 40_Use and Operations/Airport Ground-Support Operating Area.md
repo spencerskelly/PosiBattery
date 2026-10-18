@@ -11,6 +11,11 @@ supertypeOf:
 participants:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
+givesRiseTo:
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
+  - "[[Charge a BMID-Equipped Battery Using Battery Information]]"
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Airport Ground-Support Operating Area

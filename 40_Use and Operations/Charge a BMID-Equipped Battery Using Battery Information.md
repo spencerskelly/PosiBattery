@@ -22,6 +22,10 @@ givesRiseTo:
 drives:
   - "[[BMID - Provide Supported Battery Condition Information to Charger]]"
   - "[[BMID - Provide Battery Identity to Compatible Charger]]"
+arisesIn:
+  - "[[Centralized Battery Room and Charging Area]]"
+  - "[[Distributed and Opportunity Charging Area]]"
+  - "[[Airport Ground-Support Operating Area]]"
 ---
 
 # Charge a BMID-Equipped Battery Using Battery Information

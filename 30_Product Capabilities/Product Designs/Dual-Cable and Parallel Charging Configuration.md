@@ -15,6 +15,8 @@ designOf:
   - "[[EnerSys NexSys+ Charger]]"
   - "[[Anderson Double Stack Manual Assist Brackets]]"
   - "[[Yale ERC045-070VG Electric Forklifts]]"
+dependencyOf:
+  - "[[Charge Battery Fast]]"
 ---
 
 # Dual-Cable and Parallel Charging Configuration
@@ -25,6 +27,7 @@ Charger configurations with two cables per battery or parallel chargers to raise
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** dependencyOf [[Charge Battery Fast]]: the configuration exists to raise charging speed (definition above).
 - Design characteristic found in products, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[EnerSys Express Charger]] (V): <https://www.enersys.com/490f6e/globalassets/documents/product-documentation/nexsys/modular-charger/amer/impaq-nexsys-plus-modular-charger-product-guide-1020.pdf> (also [[Document - EnerSys IMPAQ and NexSys+ Charger Product Guide (AMER 0125)]])

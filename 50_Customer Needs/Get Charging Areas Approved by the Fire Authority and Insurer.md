@@ -16,6 +16,8 @@ needOf:
   - "[[Fleet Operations Manager]]"
 realizedBy:
   - "[[Start and Stop Charge from an External Control]]"
+arisesIn:
+  - "[[Obtain Fire Authority and Insurer Approval for a Charging Area]]"
 ---
 
 # Get Charging Areas Approved by the Fire Authority and Insurer

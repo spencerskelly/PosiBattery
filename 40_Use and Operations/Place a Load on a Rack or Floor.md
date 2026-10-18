@@ -13,6 +13,8 @@ realizedBy:
   - "[[Cushion Fork Lowering]]"
 givesRiseTo:
   - "[[Handle Loads Without Damaging Them]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Place a Load on a Rack or Floor

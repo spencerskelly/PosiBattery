@@ -18,6 +18,8 @@ participants:
 needOf:
   - "[[Forklift Operator]]"
   - "[[Site Safety Manager]]"
+arisesIn:
+  - "[[Shared Vehicle and Pedestrian Work Area]]"
 ---
 
 # Warn the Operator of People and Objects Near the Truck

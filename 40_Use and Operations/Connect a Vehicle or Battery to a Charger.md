@@ -13,6 +13,11 @@ realizedBy:
 participants:
   - "[[Forklift Operator]]"
   - "[[GSE Operator]]"
+givesRiseTo:
+  - "[[Connect Chargers and Batteries Safely at the Site]]"
+arisesIn:
+  - "[[Centralized Battery Room and Charging Area]]"
+  - "[[Distributed and Opportunity Charging Area]]"
 ---
 
 # Connect a Vehicle or Battery to a Charger

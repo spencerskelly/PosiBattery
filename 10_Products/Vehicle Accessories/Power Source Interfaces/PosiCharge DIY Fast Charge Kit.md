@@ -14,6 +14,8 @@ subtypeOf:
   - "[[Power Source Interface]]"
 madeBy:
   - "[[PosiCharge]]"
+satisfies:
+  - "[[Return Trucks to Service Quickly After a Low Charge]]"
 ---
 
 # PosiCharge DIY Fast Charge Kit
@@ -24,6 +26,7 @@ PosiCharge kit with parts and instructions for qualified dealers to convert a tr
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** satisfies [[Return Trucks to Service Quickly After a Low Charge]]: the listing says the kit converts a truck for fast charging. Stated-benefit route (S); the kit's own function is not modeled because its contents are not stated.
 **Summary:**
 PosiCharge parts kit and instruction manual that lets qualified dealers convert a truck for fast charging.
 

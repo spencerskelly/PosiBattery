@@ -13,6 +13,11 @@ participants:
 realizedBy:
   - "[[Detect and Record Impacts]]"
   - "[[Record Images of Load Handling]]"
+givesRiseTo:
+  - "[[Detect and Learn from Truck Impacts]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
+  - "[[Airport Ground-Support Operating Area]]"
 ---
 
 # Review an Impact Event and Decide Whether to Return the Vehicle to Service

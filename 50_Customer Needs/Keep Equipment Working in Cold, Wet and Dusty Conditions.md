@@ -19,6 +19,9 @@ participants:
 needOf:
   - "[[Fleet Operations Manager]]"
   - "[[Forklift Operator]]"
+arisesIn:
+  - "[[Cold Storage Operating Environment]]"
+  - "[[Wet Dusty or Outdoor Operating Environment]]"
 ---
 
 # Keep Equipment Working in Cold, Wet and Dusty Conditions

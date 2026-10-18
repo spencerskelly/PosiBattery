@@ -17,6 +17,8 @@ designOf:
   - "[[Exide MARATHON Battery]]"
   - "[[Stryten M-Series T310 Battery]]"
   - "[[Exide MARATHON Excell Battery]]"
+realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Extended Watering Interval
@@ -27,6 +29,7 @@ Battery design that lengthens the interval between water refills.
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** realizes [[Keep Trucks Working Without Battery Maintenance Labor]]: fewer refills is less watering work; interval values are in [[Metric - Watering Interval]].
 - Design characteristic found in products, not a decision by us. Links to products are made only where a source states it.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

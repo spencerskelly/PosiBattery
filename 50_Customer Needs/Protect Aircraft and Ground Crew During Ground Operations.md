@@ -20,6 +20,8 @@ participants:
 needOf:
   - "[[GSE Operator]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Approach and Dock GSE at an Aircraft]]"
 ---
 
 # Protect Aircraft and Ground Crew During Ground Operations

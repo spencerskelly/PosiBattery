@@ -30,6 +30,7 @@ realizes:
   - "[[Drive Up, Plug In and Walk Away]]"
 dependsOn:
   - "[[Manual Plug-In Charging]]"
+  - "[[Truck Charging Port]]"
 ---
 
 # Connect Battery to Charger or Vehicle
@@ -40,6 +41,7 @@ Provide the plug, cable or connector that joins a battery to a charger or vehicl
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** dependsOn [[Truck Charging Port]]: on trucks that carry it, the charging hatch, socket or port is where the charger connector joins the battery (design definition). Analyst judgment, same basis as the [[Manual Plug-In Charging]] link.
 - **Solution link added 2026-10-14:** depends on [[Manual Plug-In Charging]] (owner-approved from the Function-to-Solution Coverage Register; analyst judgment from the design name and the performers that carry it).
 - Accessory behavior found in product descriptions. Product links only where a source states the behavior.
 - No Requirement is linked (intentional gap).

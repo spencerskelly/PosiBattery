@@ -18,6 +18,8 @@ participants:
 needOf:
   - "[[Site Safety Manager]]"
   - "[[Fleet Operations Manager]]"
+arisesIn:
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
 ---
 
 # Detect and Learn from Truck Impacts

@@ -11,6 +11,21 @@ participants:
   - "[[Forklift Operator]]"
   - "[[Maintenance Technician]]"
   - "[[Site Safety Manager]]"
+givesRiseTo:
+  - "[[Pick Orders on Foot Alongside the Truck]]"
+  - "[[Review Fleet Utilization and Idle Capacity]]"
+  - "[[Manage Fleet Portal Users and Alert Thresholds]]"
+  - "[[Park or Stop on a Ramp]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
+  - "[[Limit Site Charging Power at Peak]]"
+  - "[[Review an Impact Event and Decide Whether to Return the Vehicle to Service]]"
+  - "[[Place a Load on a Rack or Floor]]"
+  - "[[Review Checklist Failures and Dispatch Service]]"
+  - "[[Review Fleet Battery Health and Plan Replacements]]"
+  - "[[Review Battery Care and Warranty Compliance]]"
+  - "[[Authenticate and Complete Pre-Shift Authorization]]"
+  - "[[Drive Up, Plug In and Walk Away]]"
+  - "[[Dispatch a Task to a Vehicle]]"
 ---
 
 # Material-Handling Fleet Site

@@ -29,6 +29,7 @@ needOf:
   - "[[Maintenance Technician]]"
 arisesIn:
   - "[[Inspect Battery Condition Through a BMID]]"
+  - "[[Start a Shift and Confirm Vehicle Energy Readiness]]"
 ---
 
 # Know Battery State Before and During the Shift

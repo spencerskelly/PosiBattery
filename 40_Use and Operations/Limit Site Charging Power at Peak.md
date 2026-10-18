@@ -13,6 +13,8 @@ realizedBy:
   - "[[Balance Charging Power Across Site Capacity]]"
 givesRiseTo:
   - "[[Charge Within Site Power Limits and Utility Costs]]"
+arisesIn:
+  - "[[Material-Handling Fleet Site]]"
 ---
 
 # Limit Site Charging Power at Peak

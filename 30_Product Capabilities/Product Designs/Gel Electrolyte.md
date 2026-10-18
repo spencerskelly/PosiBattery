@@ -19,6 +19,8 @@ designOf:
   - "[[Exide Element VRLA Battery]]"
   - "[[Exide TENSOR xGEL Battery]]"
   - "[[Sonnenschein GF-V Battery]]"
+realizes:
+  - "[[Keep Trucks Working Without Battery Maintenance Labor]]"
 ---
 
 # Gel Electrolyte
@@ -29,6 +31,7 @@ Gelled electrolyte, so no watering.
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** realizes [[Keep Trucks Working Without Battery Maintenance Labor]]: the definition here (no watering) removes the watering task that need names.
 - Design characteristic found in products, not a decision by us. Links to products are made only where a source states it.
 - No Requirement is linked (intentional gap).
 - **Sources** (product, evidence level, web page):

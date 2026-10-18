@@ -27,6 +27,7 @@ offeredWith:
   - "[[MIDATRON HE Charger]]"
   - "[[Midac Service Tool]]"
   - "[[Midac Mobile App]]"
+  - "[[Midac MLMx Battery]]"
 ---
 
 # MIDATRON BMU

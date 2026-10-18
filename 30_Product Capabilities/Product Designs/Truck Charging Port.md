@@ -16,6 +16,8 @@ designOf:
   - "[[Hyster J1.5-3.0UT(L)]]"
   - "[[Crown SC Series]]"
   - "[[Hyster J2.5-3.0XNL Integrated Lithium-Ion Forklifts]]"
+dependencyOf:
+  - "[[Connect Battery to Charger or Vehicle]]"
 ---
 
 # Truck Charging Port
@@ -26,6 +28,7 @@ Charging hatch, socket or port on the truck, including a port in the counterweig
 
 ## Notes
 
+- **Update 2026-10-17 (customer traceability review):** dependencyOf [[Connect Battery to Charger or Vehicle]]: the port is the truck-side point where the charger connects. Gives the trucks listed here a design route (D) to [[Connect Chargers and Batteries Safely at the Site]] in [[Product to Customer Need Map]].
 - Design characteristic found in product descriptions, not a decision by us. No Requirement is linked.
 - **Sources** (product, evidence level, web page):
   - [[Cat EP25-55 80 V Electric Counterbalance Forklifts]] (V): <https://www.catlifttruck.com/blog/importance-options-forklift-specification>
