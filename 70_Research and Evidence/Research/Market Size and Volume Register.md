@@ -10,7 +10,8 @@ tags:
   - register
   - forklift
   - motive-power
-describes: []
+describes:
+  - "[[Market Overview]]"
 describedBy:
   - "[[Document - World Industrial Truck Statistics 2025 Q4 Factsheet]]"
   - "[[Document - World Industrial Truck Statistics 2024 Q4 Factsheet]]"
@@ -134,7 +135,7 @@ Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,97
 
 ## Traceability
 
-- Source notes are listed in the front matter. Company figures are in [[Public Company Financials Register]]. Long history and outlook: [[Market History and Outlook Register]].
+- Source notes are listed in the front matter. Company figures are in [[Public Company Financials Register]].
 
 ## Aliases
 

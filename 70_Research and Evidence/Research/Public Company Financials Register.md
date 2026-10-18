@@ -9,7 +9,8 @@ tags:
   - financials
   - register
   - public-companies
-describes: []
+describes:
+  - "[[Market Overview]]"
 describedBy:
   - "[[Document - EnerSys FY2026 Fourth Quarter and Full Year Earnings Release (2026-05)]]"
   - "[[Document - Hyster-Yale Fourth Quarter and Full Year 2025 Results (2026-03-03)]]"

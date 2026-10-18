@@ -10,7 +10,11 @@ tags:
   - forklift
   - motive-power
 describes: []
-describedBy: []
+describedBy:
+  - "[[Public Company Financials Register]]"
+  - "[[Market Size and Volume Register]]"
+  - "[[Market History and Outlook Register]]"
+  - "[[Battery Market Bottom-Up Model]]"
 ---
 
 # Market Overview

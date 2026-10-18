@@ -11,7 +11,8 @@ tags:
   - register
   - forklift
   - motive-power
-describes: []
+describes:
+  - "[[Market Overview]]"
 describedBy:
   - "[[Document - Forklift Battery Replacement Cost 2026 Guide (Forkliftaction, sponsored by ROYPOW)]]"
   - "[[Document - Flux Power Blog Why a Forklift Battery Price Isn't Its True Cost]]"

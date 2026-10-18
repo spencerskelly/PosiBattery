@@ -11,7 +11,8 @@ tags:
   - register
   - forklift
   - motive-power
-describes: []
+describes:
+  - "[[Market Overview]]"
 describedBy:
   - "[[Document - Hyster-Yale Industry Lift Truck Market Size Data (WITS orders basis 2002 to 2024E)]]"
   - "[[Document - Hyster-Yale Exhibit 99 Lift Truck Market Data (2015)]]"
