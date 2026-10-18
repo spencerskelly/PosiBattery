@@ -101,3 +101,8 @@ Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines 
 1. **F-07** Pick one conflict mechanism (see findings note) before adding more conflict prose.
 2. **F-08** Convert the Document Wishlist and Investigation Backlog into one-record-per-item notes or a structured file so status can be filtered.
 3. **F-12** Consolidate singleton tags.
+
+### Market sizing (added 2026-10-18)
+
+- [[Public Company Financials Register]] — latest-year financials for listed truck, battery, fuel-cell and fleet-software companies.
+- [[Market Size and Volume Register]] — world and regional truck volumes, lithium share forecasts and vendor market-size ranges, with conflicts.

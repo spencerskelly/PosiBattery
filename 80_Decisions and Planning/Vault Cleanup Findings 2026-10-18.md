@@ -239,3 +239,7 @@ Done after the review, at your direction:
 
 - Facet data review: 564 values compared with note text; 546 matched, 18 were word-form misses or class-derived chemistry. One change: chemistry removed from Midac MBS Traction Battery because the note lists VLA and VRLA.
 - `madeBy` audit: of 91 targets, several are brands or divisions (Linde, STILL, Rocla, Triathlon USA, PosiCharge, Power Designers, Textron GSE, Oshkosh AeroTech, Nuvera) and four are sellers recorded as makers (Liftow, Panacea Aftermarket, BlitzNXT, Lithium Battery Solutions). Left unchanged by decision; the new `company` property gives every concrete product an organization for filtering. See [[README_Products]].
+
+## Follow-up 2026-10-18: market sizing
+
+- Added [[Public Company Financials Register]], [[Market Size and Volume Register]] and 32 Source Document notes (DOC-00499 to DOC-00530) under `70_Research and Evidence`. Open conflicts are in each register's conflict table, most importantly the WITS 2024 base (W1) and the vendor battery market sizes against the promotional figures in [[Demand Evidence Conflict Log]] (W3).
