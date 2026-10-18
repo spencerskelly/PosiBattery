@@ -111,6 +111,15 @@ The "Track regulations that drive demand" row above (added 2026-10-04) was resea
 - Site energy economics (demand charges, utility rebates) was researched on 2026-10-17; see [[Forklift Charging Site Energy Economics and Incentives Register]]. Findings: 2026 utility rebates of $2,000 to $6,000 per replacing truck and $150 to $550 per qualifying charger; the federal 30C credit ended for property placed in service after 2026-06-30; annual energy per truck is bounded at roughly 5 to 20 MWh by old and vendor sources only (C310).
 - The other rows of the 2026-10-04 list are not yet verified.
 
+### Update 2026-10-17: fire-code row checked
+
+The fire-code and AHJ row (added 2026-10-04) was researched; see [[Lithium Forklift Charging Area Fire and Safety Code Register]]. Original rows are not edited. Corrections:
+
+- No source read ties NFPA 855 to forklift charging; the row's claim that it can block deployments is unsupported (C314, IB-273).
+- The adopted text read (2025 California Fire Code section 309) names no chemistry; the lithium-specific evidence is one insurer sheet, not a code (C318, C321).
+- The vault's ventilated-room need conflicts with code and insurer ventilation asks (C318).
+- Still open: IFC 2024, NFPA 505-2024, NEC, OSHA current text, US insurers and real AHJ examples (IB-274 to IB-280).
+
 ### Product classification review queue
 
 These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
@@ -133,3 +142,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 - 2026-10-17 — Added an update subsection checking the CARB ZEF and LCFS row against sources; original rows unchanged. See [[California Forklift Electrification Regulations Register]].
 - 2026-10-17 — Added a bullet to that subsection after reading the owner's downloaded raw documents; original rows unchanged.
 - 2026-10-17 — Added a bullet for the site energy economics row after researching it; original rows unchanged.
+- 2026-10-17 — Added an update subsection checking the fire-code row against sources; original rows unchanged. See [[Lithium Forklift Charging Area Fire and Safety Code Register]].

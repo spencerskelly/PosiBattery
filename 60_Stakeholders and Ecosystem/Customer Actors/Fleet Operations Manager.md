@@ -29,6 +29,7 @@ hasNeed:
   - "[[Reduce Operator Effort and Fatigue]]"
   - "[[Handle Loads Without Damaging Them]]"
   - "[[Charge Within Site Power Limits and Utility Costs]]"
+  - "[[Get Charging Areas Approved by the Fire Authority and Insurer]]"
 describedBy:
   - "[[Fleet Manager and Admin Digital Access Evidence]]"
 ---

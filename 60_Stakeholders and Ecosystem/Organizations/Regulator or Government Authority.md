@@ -14,6 +14,7 @@ rolePlayedBy:
   - "[[Washington Department of Ecology]]"
   - "[[New Mexico Environment Department]]"
   - "[[Oregon Department of Environmental Quality]]"
+  - "[[Occupational Safety and Health Administration]]"
 ---
 
 # Regulator or Government Authority
@@ -24,7 +25,7 @@ Business role: a government body that writes, authorizes, administers or enforce
 
 ## Notes
 
-- Added 2026-10-17 for [[California Forklift Electrification Regulations Register]]; only [[California Air Resources Board]] and [[United States Environmental Protection Agency]] are on file. Standards bodies and listing agencies (UL, NFPA, OSHA) have not been added.
+- Added 2026-10-17 for [[California Forklift Electrification Regulations Register]]; only [[California Air Resources Board]] and [[United States Environmental Protection Agency]] are on file. Standards bodies and listing agencies (UL, NFPA) have not been given this role; OSHA was added 2026-10-17 for [[Lithium Forklift Charging Area Fire and Safety Code Register]]. [[Authority Having Jurisdiction]] is itself a business role, so it is not linked as a player of this role.
 - The relationship vocabulary has no field for regulates or authorizes, so these organizations are linked to the register and documents only, not to products.
 
 ## Aliases

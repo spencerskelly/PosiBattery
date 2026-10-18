@@ -49,12 +49,16 @@ describedBy:
   - "[[North American Clean Fuel Programs Register]]"
   - "[[Forklift Clean Fuel Credit Business Case]]"
   - "[[Forklift Charging Site Energy Economics and Incentives Register]]"
+  - "[[Lithium Forklift Charging Area Fire and Safety Code Register]]"
 applies:
   - "[[Charging Energy Reporting - Publish the Charger Efficiency Basis]]"
   - "[[Charging Energy Reporting - Provide kWh by Charging Location with Declared Accuracy]]"
   - "[[Charging Energy Reporting - Keep Meter and Energy Records for Verification]]"
   - "[[Charging Energy Reporting - Provide Unadjusted Energy Data at the Output or Forklift Side]]"
   - "[[Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year]]"
+  - "[[Fire and Insurer Review - Charger Shall Accept an External Interlock and Stop Charging When It Trips]]"
+  - "[[Fire and Insurer Review - Charger Shall Take Charge Permission and Limits From the Lithium Battery BMS]]"
+  - "[[Fire and Insurer Review - Charger Shall State the Listing Standard and Edition It Is Certified To]]"
 ---
 
 # Industrial Battery Charger

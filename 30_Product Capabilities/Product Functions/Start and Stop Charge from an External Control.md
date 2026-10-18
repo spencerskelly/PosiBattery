@@ -14,6 +14,7 @@ performedBy:
 realizes:
   - "[[Connect Chargers and Batteries Safely at the Site]]"
   - "[[Drive Up, Plug In and Walk Away]]"
+  - "[[Get Charging Areas Approved by the Fire Authority and Insurer]]"
 ---
 
 # Start and Stop Charge from an External Control
