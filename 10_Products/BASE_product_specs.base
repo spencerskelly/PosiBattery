@@ -1,0 +1,134 @@
+filters:
+  and:
+    - file.inFolder("10_Products")
+    - file.ext == "md"
+    - '!file.name.startsWith("README_")'
+    - 'productCategory != null'
+views:
+  - type: table
+    name: Batteries
+    filters:
+      and:
+        - 'productCategory == "battery"'
+        - 'chemistry != null'
+    order:
+      - file.name
+      - chemistry
+      - voltageClassV
+      - voltageMinV
+      - voltageMaxV
+      - capacityAhMin
+      - capacityAhMax
+      - energyKwhMin
+      - energyKwhMax
+      - ratedCycles
+      - chargeProfile
+      - madeBy
+      - offeredBy
+    sort:
+      - property: chemistry
+        direction: ASC
+      - property: voltageMaxV
+        direction: DESC
+  - type: table
+    name: Chargers
+    filters:
+      and:
+        - 'productCategory == "charger"'
+        - 'powerKwMax != null'
+    order:
+      - file.name
+      - subtypeOf
+      - powerKwMin
+      - powerKwMax
+      - outputVoltageMinV
+      - outputVoltageMaxV
+      - outputCurrentMaxA
+      - inputPhases
+      - supportedChemistries
+      - chargeProfile
+      - moduleCountMax
+      - modulePowerKw
+      - madeBy
+      - offeredBy
+    sort:
+      - property: powerKwMax
+        direction: DESC
+  - type: table
+    name: Wireless chargers
+    filters:
+      and:
+        - 'productCategory == "charger"'
+        - 'airGapMmMax != null'
+    order:
+      - file.name
+      - powerKwMin
+      - powerKwMax
+      - outputVoltageMinV
+      - outputVoltageMaxV
+      - outputCurrentMaxA
+      - airGapMmMin
+      - airGapMmMax
+      - efficiencyPct
+      - madeBy
+      - offeredBy
+    sort:
+      - property: powerKwMax
+        direction: DESC
+  - type: table
+    name: Industrial trucks
+    filters:
+      and:
+        - 'productCategory == "industrial-truck"'
+    order:
+      - file.name
+      - subtypeOf
+      - ratedLoadKgMin
+      - ratedLoadKgMax
+      - systemVoltageV
+      - powerSource
+      - madeBy
+      - offeredBy
+    sort:
+      - property: ratedLoadKgMax
+        direction: DESC
+  - type: table
+    name: Connected products
+    filters:
+      and:
+        - 'commInterfaces != null'
+    order:
+      - file.name
+      - productCategory
+      - subtypeOf
+      - commInterfaces
+      - madeBy
+      - offeredBy
+    groupBy:
+      property: productCategory
+      direction: ASC
+  - type: table
+    name: Proximity detection range
+    filters:
+      and:
+        - 'detectionRangeM != null'
+    order:
+      - file.name
+      - detectionRangeM
+      - commInterfaces
+      - madeBy
+      - offeredBy
+    sort:
+      - property: detectionRangeM
+        direction: DESC
+  - type: table
+    name: Category overview
+    order:
+      - file.name
+      - productCategory
+      - subtypeOf
+      - madeBy
+      - offeredBy
+    groupBy:
+      property: productCategory
+      direction: ASC

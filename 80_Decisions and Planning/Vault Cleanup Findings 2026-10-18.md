@@ -223,3 +223,14 @@ Use existing properties only; Bases support table, list, cards and kanban views,
 - Obsidian Help, Bases syntax: https://obsidian.md/help/bases/syntax (`note.*` properties come from Markdown frontmatter; `file.*` properties work for all file types; formulas, summaries and `groupBy`).
 - Obsidian Forum, How do aliases in front matter work: https://forum.obsidian.md/t/how-do-aliases-in-front-matter-work/8852 (community source; frontmatter `aliases` drive link suggestions and resolution). The official aliases help page was not retrieved.
 - Vault documents cited: `99_System/10_Docs/MDSE Vault File and Folder Structure 0.8.md`, `Canonical Vault Top-Level Taxonomy 0.1.md`, `PosiBattery Runtime Handoff State.md`, `99_System/02_AI/AI_INSTRUCTIONS.md`, `99_System/03_Schemas/element-types.yaml` and `relationships.yaml`, `README.md`, `AGENTS.md`.
+
+## Follow-up 2026-10-18: productCategory and category facets
+
+Done after the review, at your direction:
+- `productCategory` is on 569 of 570 Objects in `10_Products` (the root class note *Battery-Connected Product* has none). Schema 1.19 declares 29 category facet properties; lists are now allowed for declared facets. See [[README_Products]].
+- Facets are populated on 212 Objects from figures the notes state: battery 87, charger 43, industrial-truck 40, and connectivity or range facets on 42 accessory, software and GSE notes. No body text, source, id, uid, type, subtype or relationship was changed (each write was checked against a body hash).
+- Findings partly addressed: F-05 (category now queryable; `productClass` still on 10 of 570), F-06 (product-level figures queryable; the 55 Metric notes are unchanged), F-13 (`BASE_product_specs.base` added; untested in Obsidian).
+- Left open: the 4 dual-parent products keep the first-listed parent for `productCategory`; categories with no repeated numbers (gse, fuel-cell, charger-accessory) have no numeric facets; coverage is partial by design (charger 43 of 64, vehicle-accessory 8 of 120).
+- Checks: `check-product-facets.py` and its workflow were added. A first push of the `interfaces` facet failed `check-relationships.py` because `interfaces` is a governed Port relationship field; it was renamed `commInterfaces` and the new check now rejects any facet name that collides with a relationship field.
+- Lesson recorded for later extraction: a case-insensitive match on "CAN" hit the ordinary word "can", and most "CAN bus" mentions in accessory and software notes are inferred boilerplate. Interface facets use only sentences that state the interface for the product itself.
+

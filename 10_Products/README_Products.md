@@ -114,3 +114,22 @@ Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines 
 3. **F-02** Decide where evidence tier and retrieval date live (property, tag or prose), then apply across subfolders.
 4. **F-03** and **F-04** Alias migration and Notes restructuring follow the layout decision; both are blocked on a decision (see findings note).
 5. **F-16** Class IV to VII Forklifts, Protection and Disconnect Units and Thermal Management Devices hold one note each; keep as placeholders or merge into their parent.
+
+## Product category and spec properties (2026-10-18)
+
+Every Object under this folder carries `productCategory` (9 coarse values that mirror the category folders; `subtypeOf` remains the authority for the specific class, and `type`/`subtype` are unchanged). Category facet properties hold figures the note itself states, so products can be filtered and sorted without opening each note. Source text, citations and conflict notes stay in the note body; a facet is left out where a note records a source conflict. The contract is in `99_System/03_Schemas/element-types.yaml` (schema 1.19) and is checked by `99_System/09_Tools/check-product-facets.py`.
+
+| productCategory | Objects | With facets | Facet properties |
+| --- | --- | --- | --- |
+| battery | 92 | 87 | chemistry, voltageClassV, voltageMinV/MaxV, capacityAhMin/Max, energyKwhMin/Max, ratedCycles, chargeProfile |
+| charger | 69 | 43 | powerKwMin/Max, outputVoltageMinV/MaxV, outputCurrentMaxA, inputPhases, supportedChemistries, chargeProfile, moduleCountMin/Max, modulePowerKw, airGapMmMin/Max, efficiencyPct |
+| industrial-truck | 58 | 40 | ratedLoadKgMin/Max, systemVoltageV, powerSource |
+| battery-accessory | 108 | 23 | commInterfaces |
+| vehicle-accessory | 130 | 8 | commInterfaces, detectionRangeM |
+| fleet-software | 67 | 9 | commInterfaces |
+| charger-accessory, gse, fuel-cell | 21, 21, 3 | 1, 1, 0 | commInterfaces where stated |
+
+- `BASE_product_specs.base` has views for Batteries, Chargers, Wireless chargers, Industrial trucks, Connected products, Proximity detection range and a Category overview. It was written without Obsidian available here, so open it once to confirm the views render.
+- Empty facets mean the note does not state the figure, not that the product lacks it.
+- `commInterfaces` is named to avoid the governed Port relationship field `interfaces`.
+
