@@ -14,6 +14,7 @@ subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:
   - "[[Document - PosiCharge E-Meter Page (retrieved 2026-10-14)]]"
+  - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
 performs:
   - "[[Log Battery Events and Usage]]"
   - "[[Transmit Battery Data Wirelessly]]"

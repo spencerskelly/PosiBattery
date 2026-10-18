@@ -11,6 +11,7 @@ subtypeOf:
   - "[[Wireless Interface Design]]"
 describedBy:
   - "[[Metric - Wireless Interfaces and Range]]"
+  - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
 designOf:
   - "[[PosiCharge Battery Rx]]"
   - "[[Hyster Battery Tracker]]"

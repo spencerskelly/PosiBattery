@@ -13,6 +13,8 @@ tags:
   - software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
+describedBy:
+  - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
 performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 hasDesign:

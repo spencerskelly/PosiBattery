@@ -27,6 +27,10 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
+| **high priority**<br>direct link found (R68) | PosiCharge Battery Rx and E-Meter data sheets or manuals with the cellular module, network and plan details (the Battery Rx PDF could not be fetched by the tool) | <https://www.posicharge.com/source/PDF/BatteryRx.pdf> | <https://www.posicharge.com/battery-rx/> | Cellular technology of PosiCharge devices; C329 (IB-292) | - | R68 |
+| **high priority**<br>wanted (R68) | T-Mobile network evolution / LTE support page (official source for the LTE re-farming leak) | no direct file found | <https://tmo.report/2025/10/exclusive-t-mobile-to-begin-lte-phase-out/> | Confirm or refute C331 (IB-293) | - | R68 |
+| **helpful**<br>direct link found (R68) | AT&T Business 3G FAQ (read; no LTE end date) | <https://www.business.att.com/content/dam/attbusiness/briefs/3G-faq-messaging.pdf> | - | AT&T LTE statement; C328 | - | R68 |
+| **helpful**<br>wanted (R68) | Current AT&T and Verizon IoT network notices on LTE, LTE-M and certification | no direct file found | <https://www.digi.com/blog/post/2g-3g-4g-lte-network-shutdown-updates> | C328, IB-294, IB-295 | - | R68 |
 | **high priority**<br>wanted (R67) | Hyster-Yale Q1 2026 earnings call transcript (primary text for battery shipment timing and charger statements) | no direct file found | <https://statementdog.com/analysis/HY/earnings_calls/313821> | Q3 2026 North America shipments; C325, C326 (IB-285) | - | R67 |
 | **high priority**<br>wanted (R67) | Hyster-Yale 2025 Form 10-K and Q1 2026 Form 10-Q: battery program and Nuvera Billerica description | no direct file found | <https://ir.hyster-yale.com/> | Who builds cells and chargers; C325 (IB-285) | - | R67 |
 | **high priority**<br>direct link found (R67) | Hyster-Yale Q1 2026 earnings release (8-K exhibit 99; read, no battery mention) | <https://www.sec.gov/Archives/edgar/data/0001173514/000117351426000113/hyq12026earningsreleaseex99.htm> | - | Capex range check; C326 | - | R67 |

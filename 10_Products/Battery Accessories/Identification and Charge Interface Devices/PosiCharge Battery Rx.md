@@ -19,6 +19,7 @@ subtypeOf:
   - "[[PosiCharge BMID]]"
 describedBy:
   - "[[Battery Product Landscape Conflicts and Open Questions]]"
+  - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"
