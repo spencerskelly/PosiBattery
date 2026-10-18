@@ -138,6 +138,15 @@ The "Plan cellular network-lifetime and modem migration for connected products" 
 - No source names the cellular technology of any of these devices (IB-292, internal data, KB-010).
 - Real events found: AT&T NB-IoT retirement (from Q1 2025), Rogers and Telus 3G retirements in Canada, and a leaked T-Mobile LTE re-farm plan (C331).
 
+### Update 2026-10-17: EU battery passport row checked
+
+The "Map EU Battery Regulation digital battery passport obligations" row was researched; see [[EU Battery Passport and Battery Regulation Register]]. Original rows are not edited. Corrections:
+
+- The 2027-02-18 date and the 2 kWh industrial threshold are confirmed by the Commission; no postponement of the passport was found (the postponed item is due diligence, to 2027-08-18).
+- "Affects battery-mounted ID/monitoring data and partner battery makers" is not supported: the duty is on the operator placing the finished battery on the market (C332).
+- Whether an aftermarket BMID or Battery Rx counts as a BMS or completes a battery is unresolved (C337); lead-acid scope rests on a vendor claim (C333).
+- The operative articles were not readable (IB-298).
+
 ### Product classification review queue
 
 These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
@@ -163,3 +172,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 - 2026-10-17 — Added an update subsection checking the fire-code row against sources; original rows unchanged. See [[Lithium Forklift Charging Area Fire and Safety Code Register]].
 - 2026-10-17 — Added an update subsection checking the OEM-integrated offers row against sources; original rows unchanged. See [[OEM In-House Lithium Battery and Charger Offers Register]].
 - 2026-10-17 — Added an update subsection checking the cellular network lifetime row against sources; original rows unchanged. See [[Cellular Network Lifetime and IoT Modem Migration Register]].
+- 2026-10-17 — Added an update subsection checking the EU battery passport row against sources; original rows unchanged. See [[EU Battery Passport and Battery Regulation Register]].

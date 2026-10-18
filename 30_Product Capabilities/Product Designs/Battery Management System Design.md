@@ -16,6 +16,7 @@ supertypeOf:
 describedBy:
   - "[[External BMS Product Landscape]]"
   - "[[BMS Function Definitions]]"
+  - "[[EU Battery Passport and Battery Regulation Register]]"
 ---
 
 # Battery Management System Design

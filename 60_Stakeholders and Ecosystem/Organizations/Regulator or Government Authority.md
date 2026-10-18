@@ -15,6 +15,7 @@ rolePlayedBy:
   - "[[New Mexico Environment Department]]"
   - "[[Oregon Department of Environmental Quality]]"
   - "[[Occupational Safety and Health Administration]]"
+  - "[[European Commission]]"
 ---
 
 # Regulator or Government Authority

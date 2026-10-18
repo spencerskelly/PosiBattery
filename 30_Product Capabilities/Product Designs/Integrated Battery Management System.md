@@ -18,6 +18,7 @@ describedBy:
   - "[[Metric - BMS and Communication]]"
   - "[[BMS Product Function and Requirement Driver Map]]"
   - "[[Document - Hyster Lithium-Ion Batteries Page (EMEA, retrieved 2026-10-14)]]"
+  - "[[EU Battery Passport and Battery Regulation Register]]"
 designOf:
   - "[[Crown V-Force Lithium-Ion ESS]]"
   - "[[Deka Ready Power Lithium Battery]]"
