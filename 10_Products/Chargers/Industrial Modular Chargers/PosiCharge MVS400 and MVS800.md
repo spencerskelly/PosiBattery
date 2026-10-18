@@ -14,6 +14,7 @@ subtypeOf:
 describedBy:
   - "[[Document - PosiCharge DVS and MVS GSE Operation and Maintenance Manual (5914769 rev C03)]]"
   - "[[Installed Base Monetization Opportunity Register]]"
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 performs:
   - "[[Charge Battery Fast]]"
   - "[[Share Power Between Charging Stations]]"

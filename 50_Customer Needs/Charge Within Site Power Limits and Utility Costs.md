@@ -11,6 +11,7 @@ tags:
   - power-management
 describedBy:
   - "[[Document - Charged EVs Xendee 2024 Commercial EV Charging Survey (2024-06-21)]]"
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 realizedBy:
   - "[[Balance Charging Power Across Site Capacity]]"
   - "[[Reduce Charge Current in Site-Set Time Windows]]"

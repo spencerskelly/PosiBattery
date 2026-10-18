@@ -22,6 +22,7 @@ describedBy:
   - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
   - "[[EU Battery Passport and Battery Regulation Register]]"
   - "[[Installed Base Monetization Opportunity Register]]"
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 performs:
   - "[[Measure Battery Voltage]]"
   - "[[Measure Battery Current]]"

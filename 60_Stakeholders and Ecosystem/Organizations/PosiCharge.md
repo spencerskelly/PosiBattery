@@ -22,6 +22,7 @@ describedBy:
   - "[[PosiCharge and Power Designers Evidence Gaps and Conflicts]]"
   - "[[PosiCharge and Power Designers Public Evidence Register]]"
   - "[[Industrial Battery Supply and Private-Label Relationships]]"
+  - "[[PosiCharge Roadmap and Business Plan 2027-2030]]"
 offers:
   - "[[HVPS Communications Kit]]"
 playsRole:

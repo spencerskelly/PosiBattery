@@ -24,6 +24,8 @@ arisesIn:
   - "[[Review Battery Care and Warranty Compliance]]"
 drives:
   - "[[BMID - Retain Battery-Specific Usage History]]"
+describedBy:
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 ---
 
 # Document Battery Care for Warranty Compliance

@@ -9,6 +9,8 @@ tags:
   - backlog
 describes:
   - "[[PosiCharge]]"
+describedBy:
+  - "[[PosiCharge Roadmap and Business Plan 2027-2030]]"
 ---
 
 # PosiCharge Opportunity Backlog
@@ -73,6 +75,7 @@ Add an item when it would materially improve a decision, comparison, partner str
 
 ### Change history
 
+- 2026-10-17 — Roadmap, business plan and tactical plan added; see [[PosiCharge Roadmap and Business Plan 2027-2030]] and [[Top Three Installed-Base Projects Tactical Plan]].
 - 2026-10-17 — Added the installed-base monetization update; see [[Installed Base Monetization Opportunity Register]].
 - 2026-10-03 — Added Ampure group-alignment items, including conflicts and conformance gaps found during the change. See [[Research Change and Decision Tracker]].
 - 2026-10-03 — Created PosiCharge-specific action backlog. Method: separate decision-enabling research and evidence work from confirmed product-roadmap commitments. See [[Research Change and Decision Tracker]].

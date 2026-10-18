@@ -21,6 +21,8 @@ drives:
   - "[[Charging Energy Reporting - Tag Charging Records with Forklift Identifier, Lift Capacity Class and Model Year]]"
 arisesIn:
   - "[[California Site Claiming LCFS Forklift Electricity Credits]]"
+describedBy:
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 ---
 
 # Report Metered Forklift Charging Energy for LCFS Credits

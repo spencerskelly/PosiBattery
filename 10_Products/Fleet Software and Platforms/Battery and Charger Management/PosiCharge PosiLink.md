@@ -15,6 +15,7 @@ subtypeOf:
 describedBy:
   - "[[Cellular Network Lifetime and IoT Modem Migration Register]]"
   - "[[Installed Base Monetization Opportunity Register]]"
+  - "[[Top Three Installed-Base Projects Tactical Plan]]"
 performs:
   - "[[Upload Battery Data to Cloud Portal]]"
 madeBy:
