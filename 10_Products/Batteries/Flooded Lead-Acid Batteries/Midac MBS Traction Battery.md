@@ -9,7 +9,6 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
-chemistry: flooded
 capacityAhMin: 110
 capacityAhMax: 1050
 subtypeOf:
