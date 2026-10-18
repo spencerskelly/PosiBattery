@@ -10,6 +10,7 @@ tags:
   - charger-accessory
   - commercial-product
   - scope-oem-option
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:

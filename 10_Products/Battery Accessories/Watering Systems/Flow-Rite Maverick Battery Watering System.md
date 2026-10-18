@@ -11,6 +11,7 @@ tags:
   - lead-acid
   - scope-aftermarket
   - watering
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

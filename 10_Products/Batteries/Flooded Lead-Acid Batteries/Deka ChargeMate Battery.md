@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - onboard-charger
+productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

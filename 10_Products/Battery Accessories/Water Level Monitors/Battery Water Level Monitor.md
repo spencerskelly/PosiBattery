@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - device-family
   - lead-acid
+productCategory: battery-accessory
 abstract: true
 subtypeOf:
   - "[[Battery Monitoring Device]]"

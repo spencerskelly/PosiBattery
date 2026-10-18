@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - gse
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

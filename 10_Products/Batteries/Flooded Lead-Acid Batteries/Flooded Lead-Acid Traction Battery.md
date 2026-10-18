@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - battery-family
+productCategory: battery
 abstract: true
 subtypeOf:
   - "[[Industrial Traction Battery]]"

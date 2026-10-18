@@ -10,6 +10,7 @@ tags:
   - scope-oem-option
   - software
   - vehicle-accessory
+productCategory: fleet-software
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 describedBy:

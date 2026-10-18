@@ -10,6 +10,7 @@ tags:
   - hands-free
   - battery-swap
   - unnamed-in-source
+productCategory: battery-accessory
 subtypeOf:
   - "[[Automated Battery Exchange System]]"
 describedBy:

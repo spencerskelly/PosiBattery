@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - scope-aftermarket
   - watering
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

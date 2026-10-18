@@ -11,6 +11,7 @@ tags:
   - scope-aftermarket
   - truck-device
   - vehicle-accessory
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Vehicle Camera and Recorder]]"
 performs:

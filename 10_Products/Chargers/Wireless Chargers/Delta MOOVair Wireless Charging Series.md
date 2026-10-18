@@ -10,6 +10,7 @@ tags:
   - hands-free
   - charger
   - wireless
+productCategory: charger
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

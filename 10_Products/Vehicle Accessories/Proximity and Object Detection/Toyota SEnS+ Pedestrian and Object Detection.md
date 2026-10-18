@@ -10,6 +10,7 @@ tags:
   - proximity
   - scope-oem-option
   - truck-device
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

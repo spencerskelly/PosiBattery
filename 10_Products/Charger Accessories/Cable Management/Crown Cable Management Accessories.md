@@ -11,6 +11,7 @@ tags:
   - charger-accessory
   - commercial-product
   - scope-oem-option
+productCategory: charger-accessory
 subtypeOf:
   - "[[Cable Management Accessory]]"
 performs:

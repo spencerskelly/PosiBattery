@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - forklift
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 supertypeOf:

@@ -13,6 +13,7 @@ tags:
   - vehicle-accessory
   - retrofit-kit
   - third-party-kit
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

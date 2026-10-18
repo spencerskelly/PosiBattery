@@ -10,6 +10,7 @@ tags:
   - battery
   - gse
 productClass: product-variant
+productCategory: battery
 aliases:
   - GSE4
 subtypeOf:

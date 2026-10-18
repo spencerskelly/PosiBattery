@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - category-family
+productCategory: vehicle-accessory
 abstract: true
 supertypeOf:
   - "[[Access Control Device]]"

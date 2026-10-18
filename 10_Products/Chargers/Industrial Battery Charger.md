@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-landscape
   - category
+productCategory: charger
 abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"

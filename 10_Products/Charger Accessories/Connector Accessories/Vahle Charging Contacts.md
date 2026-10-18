@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - automatic-charging
   - hands-free
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:

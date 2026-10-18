@@ -10,6 +10,7 @@ tags:
   - scope-oem-option
   - stability
   - truck-device
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

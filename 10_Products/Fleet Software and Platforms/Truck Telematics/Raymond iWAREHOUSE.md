@@ -12,6 +12,7 @@ tags:
   - truck-device
   - truck-oem-option
   - vehicle-accessory
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 hasPart:

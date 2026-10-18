@@ -11,6 +11,7 @@ tags:
   - forklift
   - scope-aftermarket
   - vehicle-mounted
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Display]]"
 performs:

@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - scope-aftermarket
   - software
+productCategory: fleet-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 madeBy:

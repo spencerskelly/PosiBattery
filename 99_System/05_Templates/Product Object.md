@@ -6,6 +6,7 @@ uid: <% tp.file.include("[[Snippet - uid]]") %>
 status: Draft
 tags: []
 productClass:
+productCategory:
 ---
 
 # <% tp.file.title %>

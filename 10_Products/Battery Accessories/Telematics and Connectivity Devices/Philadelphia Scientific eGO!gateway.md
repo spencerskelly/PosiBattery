@@ -11,6 +11,7 @@ tags:
   - gateway
   - scope-aftermarket
   - site-infrastructure
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Telematics and Connectivity Device]]"
 performs:

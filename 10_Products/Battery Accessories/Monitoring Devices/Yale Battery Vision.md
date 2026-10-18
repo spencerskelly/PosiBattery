@@ -12,6 +12,7 @@ tags:
   - oem-branded
   - powered-by-posicharge
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

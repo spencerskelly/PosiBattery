@@ -8,6 +8,7 @@ tags:
   - battery-interface
   - option-package
   - scope-oem-option
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Power Source Interface]]"
 performs:

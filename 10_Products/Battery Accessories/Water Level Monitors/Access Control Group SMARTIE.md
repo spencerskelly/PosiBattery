@@ -12,6 +12,7 @@ tags:
   - lead-acid
   - water-level
   - bluetooth
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

@@ -12,6 +12,7 @@ tags:
   - gse
   - gse-device
   - gse-option
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

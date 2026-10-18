@@ -10,6 +10,7 @@ tags:
   - posicharge-baseline
   - scope-oem-option
   - software
+productCategory: fleet-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - truck-device
+productCategory: charger
 subtypeOf:
   - "[[On-board Charger]]"
 describedBy:

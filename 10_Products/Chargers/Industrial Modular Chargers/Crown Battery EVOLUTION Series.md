@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - rebrand
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

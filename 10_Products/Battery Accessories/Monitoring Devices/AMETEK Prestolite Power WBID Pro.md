@@ -10,6 +10,7 @@ tags:
   - forklift
   - scope-aftermarket
   - telemetry
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

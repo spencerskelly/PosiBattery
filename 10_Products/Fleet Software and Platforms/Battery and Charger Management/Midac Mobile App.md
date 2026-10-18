@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - software
   - unnamed-in-source
+productCategory: fleet-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

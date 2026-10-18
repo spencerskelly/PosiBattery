@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - hibernation
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

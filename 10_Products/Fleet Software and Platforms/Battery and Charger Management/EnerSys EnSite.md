@@ -9,6 +9,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - software
+productCategory: fleet-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

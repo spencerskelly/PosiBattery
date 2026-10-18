@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - truck-device
   - fuel-cell
+productCategory: fuel-cell
 subtypeOf:
   - "[[Fuel Cell Power Unit]]"
 performs:

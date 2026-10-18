@@ -9,6 +9,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - single-source
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

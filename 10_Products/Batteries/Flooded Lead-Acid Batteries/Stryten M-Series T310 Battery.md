@@ -10,6 +10,7 @@ tags:
   - battery
   - watering
   - tubular
+productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

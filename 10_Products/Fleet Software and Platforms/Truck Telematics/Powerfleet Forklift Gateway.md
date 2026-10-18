@@ -11,6 +11,7 @@ tags:
   - software
   - telematics
   - vehicle-accessory
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

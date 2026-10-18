@@ -5,6 +5,7 @@ id: OBJ-00030
 uid: 20261002162520380skellyspencer
 status: Draft
 productClass: product-variant
+productCategory: battery-accessory
 aliases:
   - BMID 1
 tags:

@@ -10,6 +10,7 @@ tags:
   - battery
   - gel
   - status-unclear
+productCategory: battery
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"
 hasDesign:

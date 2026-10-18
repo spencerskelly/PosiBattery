@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - status-unclear
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

@@ -11,6 +11,7 @@ tags:
   - canbus
   - heater
   - gse
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

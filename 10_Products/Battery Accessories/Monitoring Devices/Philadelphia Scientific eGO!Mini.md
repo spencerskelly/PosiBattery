@@ -10,6 +10,7 @@ tags:
   - forklift
   - lead-acid
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

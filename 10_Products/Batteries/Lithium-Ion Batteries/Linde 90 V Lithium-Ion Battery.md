@@ -8,6 +8,7 @@ tags:
   - battery
   - lithium
   - battery-market-reference
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

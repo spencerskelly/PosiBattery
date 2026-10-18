@@ -9,6 +9,7 @@ tags:
   - charger
   - commercial-product
   - unnamed-in-source
+productCategory: charger
 subtypeOf:
   - "[[On-board Charger]]"
 describedBy:

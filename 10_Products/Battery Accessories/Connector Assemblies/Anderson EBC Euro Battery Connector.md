@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - connector
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

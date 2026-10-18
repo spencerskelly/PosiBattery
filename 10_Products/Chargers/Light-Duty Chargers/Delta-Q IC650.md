@@ -11,6 +11,7 @@ tags:
   - light-duty
   - oem-supplier
   - lithium
+productCategory: charger
 subtypeOf:
   - "[[Light-Duty Charger]]"
 performs:

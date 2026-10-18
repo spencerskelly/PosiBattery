@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - category-family
   - adjacent-market
+productCategory: fleet-software
 abstract: true
 subtypeOf:
   - "[[Fleet Software and Platform]]"

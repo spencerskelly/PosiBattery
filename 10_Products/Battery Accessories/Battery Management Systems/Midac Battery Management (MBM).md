@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - commercial-product
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Management System]]"
 describedBy:

@@ -11,6 +11,7 @@ tags:
   - circulation
   - commercial-product
   - scope-oem-option
+productCategory: battery-accessory
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 performs:

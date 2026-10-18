@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - level-sensing
   - scope-oem-option
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

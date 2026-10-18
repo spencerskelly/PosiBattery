@@ -9,6 +9,7 @@ tags:
   - lithium
   - battery-market-reference
   - oem-supplied
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - category-family
+productCategory: charger
 abstract: true
 subtypeOf:
   - "[[Industrial Battery Charger]]"

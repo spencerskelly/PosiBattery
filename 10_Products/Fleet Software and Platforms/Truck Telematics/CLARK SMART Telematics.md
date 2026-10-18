@@ -12,6 +12,7 @@ tags:
   - telematics
   - vehicle-accessory
   - third-party-kit
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

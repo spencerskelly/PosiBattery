@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - unnamed-in-source
   - commercial-product
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery-Installed Device]]"
 describedBy:

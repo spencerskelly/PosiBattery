@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
   - north-america
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:

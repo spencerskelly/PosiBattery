@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - battery
+productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 hasDesign:

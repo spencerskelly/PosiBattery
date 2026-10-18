@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - opportunity-charge
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

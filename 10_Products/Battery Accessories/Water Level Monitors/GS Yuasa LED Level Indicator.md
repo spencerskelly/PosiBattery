@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
   - unnamed-in-source
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

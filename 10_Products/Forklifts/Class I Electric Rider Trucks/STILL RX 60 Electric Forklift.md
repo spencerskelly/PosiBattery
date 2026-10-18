@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - forklift-model
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

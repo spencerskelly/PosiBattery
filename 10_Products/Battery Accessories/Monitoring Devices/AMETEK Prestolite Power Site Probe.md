@@ -10,6 +10,7 @@ tags:
   - diagnostic
   - forklift
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

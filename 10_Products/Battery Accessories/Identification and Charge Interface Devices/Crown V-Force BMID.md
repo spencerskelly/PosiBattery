@@ -11,6 +11,7 @@ tags:
   - forklift
   - lead-acid
   - scope-oem-option
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 performs:

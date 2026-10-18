@@ -11,6 +11,7 @@ tags:
   - lithium
   - light-duty
   - europe
+productCategory: charger
 subtypeOf:
   - "[[Light-Duty Charger]]"
 performs:

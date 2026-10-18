@@ -12,6 +12,7 @@ tags:
   - gse
   - gse-device
   - gse-option
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

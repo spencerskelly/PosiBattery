@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - third-party-kit
   - proximity
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 describedBy:

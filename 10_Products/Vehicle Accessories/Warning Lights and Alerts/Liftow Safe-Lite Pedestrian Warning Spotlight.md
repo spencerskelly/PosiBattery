@@ -12,6 +12,7 @@ tags:
   - vehicle-accessory
   - warning
   - third-party-kit
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Warning Light and Alert]]"
 describedBy:

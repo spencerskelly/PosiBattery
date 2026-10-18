@@ -10,6 +10,7 @@ tags:
   - scope-oem-option
   - truck-device
   - warning
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

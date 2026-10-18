@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
   - agv
+productCategory: industrial-truck
 subtypeOf:
   - "[[Powered Industrial Truck]]"
 describedBy:

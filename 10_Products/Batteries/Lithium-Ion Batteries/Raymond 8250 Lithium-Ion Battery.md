@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - lithium-ion
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

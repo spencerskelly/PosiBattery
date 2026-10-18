@@ -9,6 +9,7 @@ tags:
   - software
   - battery-market-reference
   - unnamed-in-source
+productCategory: fleet-software
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 describedBy:

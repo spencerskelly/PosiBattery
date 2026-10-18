@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - posicharge-baseline
   - scope-aftermarket
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Power Source Interface]]"
 madeBy:

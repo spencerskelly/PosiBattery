@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - truck-device
   - uwb
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 hasPart:

@@ -10,6 +10,7 @@ tags:
   - charger-accessory
   - commercial-product
   - gse
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Accessory]]"
 performs:

@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
   - truck-oem-option
+productCategory: charger
 subtypeOf:
   - "[[On-board Charger]]"
 performs:

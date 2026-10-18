@@ -12,6 +12,7 @@ tags:
   - truck-device
   - truck-oem-option
   - vehicle-accessory
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 partOf:

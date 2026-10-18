@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - unnamed-in-source
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Watering System]]"
 describedBy:

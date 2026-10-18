@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - category-family
   - gse
+productCategory: gse
 abstract: true
 subtypeOf:
   - "[[Ground Support Equipment]]"

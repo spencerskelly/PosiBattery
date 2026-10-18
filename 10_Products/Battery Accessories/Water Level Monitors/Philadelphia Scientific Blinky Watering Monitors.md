@@ -11,6 +11,7 @@ tags:
   - forklift
   - lead-acid
   - water-level
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

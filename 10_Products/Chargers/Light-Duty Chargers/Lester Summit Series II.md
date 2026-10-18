@@ -10,6 +10,7 @@ tags:
   - charger
   - light-duty
   - lithium
+productCategory: charger
 subtypeOf:
   - "[[Light-Duty Charger]]"
 describedBy:

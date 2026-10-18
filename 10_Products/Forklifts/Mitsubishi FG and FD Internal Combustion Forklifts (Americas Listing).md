@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
   - internal-combustion
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class V Internal Combustion Pneumatic Tire Truck]]"
 describedBy:

@@ -10,6 +10,7 @@ tags:
   - proximity
   - scope-oem-option
   - truck-device
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

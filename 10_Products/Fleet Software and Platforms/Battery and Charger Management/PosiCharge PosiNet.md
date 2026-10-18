@@ -11,6 +11,7 @@ tags:
   - gse
   - scope-oem-option
   - software
+productCategory: fleet-software
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

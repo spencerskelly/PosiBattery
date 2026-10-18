@@ -11,6 +11,7 @@ tags:
   - scope-aftermarket
   - software
   - telematics
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

@@ -12,6 +12,7 @@ tags:
   - charge-interface
 abstract: true
 productClass: product-family
+productCategory: battery-accessory
 reuseScope: product-family
 aliases:
   - BMID

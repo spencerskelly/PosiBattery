@@ -5,6 +5,7 @@ id: OBJ-00012
 uid: 20261002150858948skellyspencer
 status: Draft
 productClass: specific-offering
+productCategory: battery-accessory
 aliases:
   - PosiGuard
 tags:

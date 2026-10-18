@@ -11,6 +11,7 @@ tags:
   - truck-device
   - vehicle-accessory
   - warning
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

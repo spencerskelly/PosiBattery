@@ -8,6 +8,7 @@ tags:
   - charger
   - battery-market-reference
   - lithium
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

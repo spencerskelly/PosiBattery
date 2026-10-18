@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - accessory
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Accessory]]"
 describedBy:

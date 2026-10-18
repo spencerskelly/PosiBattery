@@ -7,6 +7,7 @@ status: Draft
 tags:
   - forklift-category
   - abstract-family
+productCategory: industrial-truck
 abstract: true
 subtypeOf:
   - "[[Powered Industrial Truck]]"

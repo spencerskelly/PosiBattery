@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - lead-acid
+productCategory: battery
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"
 describedBy:

@@ -10,6 +10,7 @@ tags:
   - scope-aftermarket
   - hands-free
   - battery-swap
+productCategory: battery-accessory
 subtypeOf:
   - "[[Automated Battery Exchange System]]"
 describedBy:

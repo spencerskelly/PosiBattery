@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - scope-aftermarket
   - adjacent-market
+productCategory: fleet-software
 subtypeOf:
   - "[[Robot and AGV Fleet Management Software]]"
 describedBy:

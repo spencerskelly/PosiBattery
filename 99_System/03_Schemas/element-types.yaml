@@ -1,5 +1,5 @@
-schemaVersion: '1.18'
-date: '2026-10-05'
+schemaVersion: '1.19'
+date: '2026-10-18'
 basis: MDSE ruleset 1.23 + PosiBattery reconciliation Steps 73-82
 commonProperties: [type, subtype, id, uid, status, tags]   # order fixed by W-97
 optionalProperties:
@@ -20,6 +20,7 @@ optionalProperties:
 classOptionalProperties:
   Object:
     - {name: productClass, value: enum, allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"], sparse: true}
+    - {name: productCategory, value: enum, allowed: ["battery", "battery-accessory", "charger", "charger-accessory", "industrial-truck", "gse", "vehicle-accessory", "fleet-software", "fuel-cell"], sparse: true, meaning: "Coarse product category for queries; mirrors the category folder under 10_Products and never replaces subtypeOf. Category facet properties (below) are valid only for their category."}
   Info:
     - {name: measureClass, value: enum, allowed: ["metric", "property-definition", "comparison-criterion"], sparse: true}
     - {name: valueType, value: enum, allowed: ["numeric", "categorical", "boolean", "text", "compound"], sparse: true}

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift
   - scope-oem-option
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

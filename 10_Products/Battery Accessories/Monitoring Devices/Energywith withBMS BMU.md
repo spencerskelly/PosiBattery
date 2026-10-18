@@ -11,6 +11,7 @@ tags:
   - lead-acid
   - scope-aftermarket
   - telemetry
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

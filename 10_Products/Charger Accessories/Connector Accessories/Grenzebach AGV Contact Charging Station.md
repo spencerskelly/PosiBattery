@@ -10,6 +10,7 @@ tags:
   - hands-free
   - accessory
   - automatic-charging
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:

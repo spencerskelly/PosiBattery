@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - forklift
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[AMETEK Prestolite Power BID]]"
 describedBy:

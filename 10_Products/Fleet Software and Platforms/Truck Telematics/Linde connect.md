@@ -10,6 +10,7 @@ tags:
   - scope-oem-option
   - telematics
   - truck-device
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

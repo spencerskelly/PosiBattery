@@ -11,6 +11,7 @@ tags:
   - forklift
   - scope-aftermarket
   - temporary-install
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

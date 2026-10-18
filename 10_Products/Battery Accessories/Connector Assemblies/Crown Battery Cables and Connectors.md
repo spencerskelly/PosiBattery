@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - connector
   - scope-oem-option
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

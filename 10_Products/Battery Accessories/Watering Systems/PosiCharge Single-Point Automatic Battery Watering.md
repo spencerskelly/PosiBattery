@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - posicharge-baseline
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

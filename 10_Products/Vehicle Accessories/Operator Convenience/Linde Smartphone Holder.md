@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - scope-oem-option
   - vehicle-accessory
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Convenience Accessory]]"
 madeBy:

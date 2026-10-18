@@ -10,6 +10,7 @@ tags:
   - posicharge-baseline
   - charger
   - gse
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

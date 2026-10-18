@@ -10,6 +10,7 @@ tags:
   - gse
   - gse-vehicle
   - lithium
+productCategory: gse
 subtypeOf:
   - "[[GSE Pushback Tractor]]"
 performs:

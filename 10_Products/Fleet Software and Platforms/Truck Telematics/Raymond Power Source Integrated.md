@@ -8,6 +8,7 @@ tags:
   - commercial-product
   - software
   - battery-market-reference
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

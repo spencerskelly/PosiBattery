@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - posicharge-baseline
   - charger
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

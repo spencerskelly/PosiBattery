@@ -10,6 +10,7 @@ tags:
   - lithium
   - bms
   - external-product
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Management System]]"
 performs:

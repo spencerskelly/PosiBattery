@@ -7,6 +7,7 @@ status: Draft
 tags:
   - forklift-category
   - abstract-family
+productCategory: industrial-truck
 abstract: true
 supertypeOf:
   - "[[Class I Electric Rider Truck]]"

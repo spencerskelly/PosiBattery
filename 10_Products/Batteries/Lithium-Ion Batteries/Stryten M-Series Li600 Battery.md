@@ -10,6 +10,7 @@ tags:
   - battery
   - canbus
   - hibernation
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

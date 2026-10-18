@@ -10,6 +10,7 @@ tags:
   - lead-acid
   - scope-aftermarket
   - water-level
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

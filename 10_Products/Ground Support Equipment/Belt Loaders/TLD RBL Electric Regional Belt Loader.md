@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - gse-vehicle
+productCategory: gse
 subtypeOf:
   - "[[GSE Belt Loader]]"
 madeBy:

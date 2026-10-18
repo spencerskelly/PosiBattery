@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
   - private-label
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - device-family
+productCategory: battery-accessory
 abstract: true
 subtypeOf:
   - "[[Battery-Installed Device]]"

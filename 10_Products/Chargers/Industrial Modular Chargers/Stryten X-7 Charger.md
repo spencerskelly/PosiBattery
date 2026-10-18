@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - lithium
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

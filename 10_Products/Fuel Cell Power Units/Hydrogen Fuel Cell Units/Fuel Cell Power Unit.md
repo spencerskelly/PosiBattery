@@ -8,6 +8,7 @@ tags:
   - forklift-category
   - abstract-family
   - fuel-cell
+productCategory: fuel-cell
 abstract: true
 supertypeOf:
   - "[[Nuvera PowerEdge]]"

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
   - emea
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

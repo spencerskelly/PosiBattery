@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
   - dealer-offer
+productCategory: charger
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

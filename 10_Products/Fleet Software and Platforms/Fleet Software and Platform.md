@@ -7,6 +7,7 @@ status: Draft
 tags:
   - battery-market-reference
   - category-family
+productCategory: fleet-software
 abstract: true
 supertypeOf:
   - "[[Battery and Charger Management Software]]"

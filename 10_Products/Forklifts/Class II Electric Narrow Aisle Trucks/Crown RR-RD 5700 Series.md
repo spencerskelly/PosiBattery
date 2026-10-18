@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - forklift-model
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:

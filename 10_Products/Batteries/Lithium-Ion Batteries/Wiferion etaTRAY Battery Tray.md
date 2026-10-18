@@ -12,6 +12,7 @@ tags:
   - lithium-ion
   - retrofit-kit
   - hands-free
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

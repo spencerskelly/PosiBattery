@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - lithium
   - scope-aftermarket
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

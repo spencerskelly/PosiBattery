@@ -11,6 +11,7 @@ tags:
   - truck-device
   - truck-oem-option
   - vehicle-accessory
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 describedBy:

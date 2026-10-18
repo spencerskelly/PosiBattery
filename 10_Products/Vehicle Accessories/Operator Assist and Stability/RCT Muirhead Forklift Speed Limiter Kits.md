@@ -12,6 +12,7 @@ tags:
   - vehicle-accessory
   - retrofit-kit
   - third-party-kit
+productCategory: vehicle-accessory
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 describedBy:

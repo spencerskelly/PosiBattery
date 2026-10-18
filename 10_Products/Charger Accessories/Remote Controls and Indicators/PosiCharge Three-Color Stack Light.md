@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - posicharge-baseline
   - scope-oem-option
+productCategory: charger-accessory
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:

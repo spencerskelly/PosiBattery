@@ -12,6 +12,7 @@ tags:
   - telematics
   - vehicle-accessory
   - retrofit-kit
+productCategory: fleet-software
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

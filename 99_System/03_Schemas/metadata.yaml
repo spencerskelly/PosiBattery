@@ -1,7 +1,7 @@
 schemaVersion: '1.0'
 date: '2026-10-05'
 basis: PosiBattery reconciliation Steps 73-82
-purpose: "Sparse metadata contract layered on live element-types.yaml 1.18. Relationship fields remain governed only by live relationships.yaml 1.36."
+purpose: "Sparse metadata contract layered on live element-types.yaml 1.19. Relationship fields remain governed only by live relationships.yaml 1.36."
 
 identity:
   uid:
@@ -14,10 +14,10 @@ identity:
     meaning: "Short human-readable class identifier. Reclassification does not by itself authorize changing an existing id."
   type:
     required: true
-    authority: "element-types.yaml 1.18"
+    authority: "element-types.yaml 1.19"
   subtype:
     requiredWhenClassDefinesValues: true
-    authority: "element-types.yaml 1.18"
+    authority: "element-types.yaml 1.19"
 
 lifecycle:
   field: status
@@ -49,6 +49,11 @@ classScoped:
       allowed: ["product-category", "product-type", "product-family", "product-variant", "specific-offering"]
       required: false
       condition: "Only for Objects representing commercial/product taxonomy identities."
+    productCategory:
+      value: enum
+      allowed: ["battery", "battery-accessory", "charger", "charger-accessory", "industrial-truck", "gse", "vehicle-accessory", "fleet-software", "fuel-cell"]
+      required: false
+      condition: "Product Objects under 10_Products (concrete products and their abstract class notes). Coarse query category; subtypeOf remains the authority for the specific class."
 
   Info:
     measureClass:

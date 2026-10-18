@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
   - ibms
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

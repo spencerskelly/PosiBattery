@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - scope-aftermarket
   - adjacent-market
+productCategory: fleet-software
 subtypeOf:
   - "[[Warehouse and Business Systems Software]]"
 describedBy:

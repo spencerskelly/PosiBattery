@@ -6,7 +6,7 @@ Before substantial work: if `99_System/10_Docs/00 - Current State.md` exists, re
 
 ## Creating a note
 
-1. **Classify first.** Choose the class, then copy the matching template from `99_System/05_Templates` (for example `Requirement.md`). Keep its properties, their order (`type`, `subtype`, `id`, `uid`, `status`, `tags`, W-97) and its headings exactly. Do not add or drop properties except governed sparse optional properties declared by `element-types.yaml` and relationship fields from `relationships.yaml`. Optional properties follow `tags` and precede relationship fields; omit a default-valued sparse property when its schema says `omitWhenDefault`. Only `tags` and the relationship fields may hold more than one value. If no class fits, ask the user.
+1. **Classify first.** Choose the class, then copy the matching template from `99_System/05_Templates` (for example `Requirement.md`). Keep its properties, their order (`type`, `subtype`, `id`, `uid`, `status`, `tags`, W-97) and its headings exactly. Do not add or drop properties except governed sparse optional properties declared by `element-types.yaml` and relationship fields from `relationships.yaml`. Optional properties follow `tags` and precede relationship fields; omit a default-valued sparse property when its schema says `omitWhenDefault`. Only `tags`, the relationship fields, and category facet properties declared as `list[...]` in `element-types.yaml` may hold more than one value. If no class fits, ask the user.
 2. **Fill in `uid`** yourself. It is 30 characters, no spaces: `yyyyMMddHHmmssSSS` followed by a 13-character author code.
    - **Time:** local time now, to the millisecond, not UTC. Use the `timezone` in the directing person's note in `99_System/04_People` if it has one; otherwise `defaultTimezone` in `authors.yaml`.
    - **Author code, if a user directed the note:** that user's `code`, from their note in `99_System/04_People`. This applies even if you wrote every word. If you do not know who the user is, ask. A person may have `previousCodes` in their note: notes carrying those codes are also theirs.
@@ -69,3 +69,10 @@ uid: 20260928101530123claudeai-----   (Claude created it on its own)
 ## Identity namespace
 
 The 30-character token used by a note `uid` and by a Local Model block ID belongs to one global identity namespace. Never allocate a token already used by any note or Local Model record. The local kind prefix is representation metadata, not a separate uniqueness namespace.
+
+## Product category and facet properties
+
+- `productCategory` (Object, `10_Products` only) is a coarse query category. It mirrors the category folder and never replaces `subtypeOf`, which stays the authority for the specific product class.
+- Category facet properties (declared under `classOptionalProperties.Object` with a `category` list) are valid only for notes whose `productCategory` is listed. They are written after `productCategory` in the order declared in `element-types.yaml`.
+- Facets are query aids only. Write a facet only when the note's own cited text states the value. Never remove or rewrite source text because a facet exists. Where sources disagree, leave the facet out (or write the stated value that the note's primary source gives) and record the disagreement in the body.
+- Ranges are `<quantity>Min` and `<quantity>Max` with the unit fixed by the schema. Discrete offered sets are lists.

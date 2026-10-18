@@ -12,6 +12,7 @@ tags:
   - lithium-ion
   - third-party-kit
   - unnamed-in-source
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 describedBy:

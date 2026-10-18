@@ -11,6 +11,7 @@ tags:
   - gse
 abstract: true
 productClass: product-family
+productCategory: battery
 reuseScope: product-family
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

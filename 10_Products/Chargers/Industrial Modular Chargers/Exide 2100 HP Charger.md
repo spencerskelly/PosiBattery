@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - charger
   - commercial-product
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

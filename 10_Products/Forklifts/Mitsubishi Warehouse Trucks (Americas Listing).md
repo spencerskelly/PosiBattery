@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
   - forklift-model
+productCategory: industrial-truck
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
 describedBy:

@@ -10,6 +10,7 @@ tags:
   - forklift
   - scope-aftermarket
   - status-unclear
+productCategory: battery-accessory
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

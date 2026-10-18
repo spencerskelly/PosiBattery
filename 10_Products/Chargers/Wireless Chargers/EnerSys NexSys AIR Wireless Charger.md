@@ -10,6 +10,7 @@ tags:
   - charger
   - wireless-charging
   - agv
+productCategory: charger
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
   - fast-charge
+productCategory: charger
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

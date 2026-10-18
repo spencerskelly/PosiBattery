@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium
   - vendor-claims
+productCategory: battery
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"
 performs:
