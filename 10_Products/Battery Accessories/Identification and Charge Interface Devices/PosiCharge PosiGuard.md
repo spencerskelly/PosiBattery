@@ -6,6 +6,11 @@ uid: 20261002150858948skellyspencer
 status: Draft
 productClass: specific-offering
 productCategory: battery-accessory
+interfaces:
+  - can-bus
+  - bluetooth
+  - wi-fi
+  - lora
 aliases:
   - PosiGuard
 tags:

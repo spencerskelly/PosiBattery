@@ -12,6 +12,9 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
+interfaces:
+  - rs-485
+  - rs-232
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

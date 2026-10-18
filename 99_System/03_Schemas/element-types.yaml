@@ -44,6 +44,12 @@ classOptionalProperties:
     - {name: airGapMmMin, value: number, category: ["charger"], sparse: true, meaning: "Lowest stated wireless air gap in mm."}
     - {name: airGapMmMax, value: number, category: ["charger"], sparse: true, meaning: "Highest stated wireless air gap in mm."}
     - {name: efficiencyPct, value: number, category: ["charger"], sparse: true, meaning: "Highest stated efficiency in percent. Test point and source conflicts are in the note body."}
+    - {name: ratedLoadKgMin, value: "number", category: ["industrial-truck"], sparse: true, meaning: "Lowest stated rated load capacity in kg across the models the note covers. lb figures are converted at 0.45359237 kg per lb and rounded to the nearest kg; t figures are x1000."}
+    - {name: ratedLoadKgMax, value: "number", category: ["industrial-truck"], sparse: true, meaning: "Highest stated rated load capacity in kg (same conversion). Also used for up-to values."}
+    - {name: systemVoltageV, value: "list[number]", category: ["industrial-truck"], sparse: true, meaning: "Truck electrical system or battery voltages in V that the note states for the models it covers."}
+    - {name: powerSource, value: "list[enum]", allowed: ["lead-acid", "lithium-ion", "lp-gas"], category: ["industrial-truck"], sparse: true, meaning: "Energy sources the note states the truck is offered with."}
+    - {name: interfaces, value: "list[enum]", allowed: ["can-bus", "bluetooth", "wi-fi", "cellular", "rfid", "lora", "ethernet", "usb", "rs-485", "rs-232"], category: ["battery-accessory", "charger-accessory", "vehicle-accessory", "fleet-software", "gse"], sparse: true, meaning: "Communication interfaces the note states for the product itself. Interfaces only inferred from device type, or stated for a compatible product, are not recorded."}
+    - {name: detectionRangeM, value: "number", category: ["vehicle-accessory"], sparse: true, meaning: "Highest stated detection distance in m (ft converted at 0.3048 and rounded to 2 decimals)."}
   Info:
     - {name: measureClass, value: enum, allowed: ["metric", "property-definition", "comparison-criterion"], sparse: true}
     - {name: valueType, value: enum, allowed: ["numeric", "categorical", "boolean", "text", "compound"], sparse: true}

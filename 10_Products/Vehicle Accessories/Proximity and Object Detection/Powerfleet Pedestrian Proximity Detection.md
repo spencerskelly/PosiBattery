@@ -12,6 +12,10 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+interfaces:
+  - bluetooth
+  - wi-fi
+  - cellular
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

@@ -11,6 +11,8 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+interfaces:
+  - wi-fi
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

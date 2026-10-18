@@ -13,6 +13,8 @@ tags:
   - water-level
   - bluetooth
 productCategory: battery-accessory
+interfaces:
+  - bluetooth
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

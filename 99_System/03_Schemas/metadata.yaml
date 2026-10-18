@@ -150,6 +150,32 @@ classScoped:
       value: number
       required: false
       condition: "Only when productCategory is charger. Highest stated efficiency in percent. Test point and source conflicts are in the note body."
+    ratedLoadKgMin:
+      value: number
+      required: false
+      condition: "Only when productCategory is industrial-truck. Lowest stated rated load capacity in kg across the models the note covers. lb figures are converted at 0.45359237 kg per lb and rounded to the nearest kg; t figures are x1000."
+    ratedLoadKgMax:
+      value: number
+      required: false
+      condition: "Only when productCategory is industrial-truck. Highest stated rated load capacity in kg (same conversion). Also used for up-to values."
+    systemVoltageV:
+      value: list[number]
+      required: false
+      condition: "Only when productCategory is industrial-truck. Truck electrical system or battery voltages in V that the note states for the models it covers."
+    powerSource:
+      value: list[enum]
+      allowed: ["lead-acid", "lithium-ion", "lp-gas"]
+      required: false
+      condition: "Only when productCategory is industrial-truck. Energy sources the note states the truck is offered with."
+    interfaces:
+      value: list[enum]
+      allowed: ["can-bus", "bluetooth", "wi-fi", "cellular", "rfid", "lora", "ethernet", "usb", "rs-485", "rs-232"]
+      required: false
+      condition: "Only when productCategory is battery-accessory, charger-accessory, vehicle-accessory, fleet-software or gse. Communication interfaces the note states for the product itself. Interfaces only inferred from device type, or stated for a compatible product, are not recorded."
+    detectionRangeM:
+      value: number
+      required: false
+      condition: "Only when productCategory is vehicle-accessory. Highest stated detection distance in m (ft converted at 0.3048 and rounded to 2 decimals)."
   Info:
     measureClass:
       value: enum

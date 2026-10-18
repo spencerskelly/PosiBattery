@@ -10,6 +10,9 @@ tags:
   - forklift-model
   - europe
 productCategory: industrial-truck
+powerSource:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:

@@ -10,6 +10,10 @@ tags:
   - forklift-model
   - internal-combustion
 productCategory: industrial-truck
+ratedLoadKgMin: 1361
+ratedLoadKgMax: 2268
+powerSource:
+  - lp-gas
 subtypeOf:
   - "[[Class V Internal Combustion Pneumatic Tire Truck]]"
 describedBy:

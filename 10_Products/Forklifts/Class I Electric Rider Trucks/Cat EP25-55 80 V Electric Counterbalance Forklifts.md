@@ -9,6 +9,13 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+ratedLoadKgMin: 2500
+ratedLoadKgMax: 5500
+systemVoltageV:
+  - 80
+powerSource:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

@@ -11,6 +11,11 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+interfaces:
+  - can-bus
+  - bluetooth
+  - wi-fi
+  - cellular
 subtypeOf:
   - "[[Battery Management System]]"
 performs:

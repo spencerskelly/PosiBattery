@@ -11,6 +11,9 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+interfaces:
+  - usb
+  - rs-485
 subtypeOf:
   - "[[Battery Management System]]"
 performs:

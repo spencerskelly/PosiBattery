@@ -13,6 +13,9 @@ tags:
   - vehicle-accessory
   - third-party-kit
 productCategory: fleet-software
+interfaces:
+  - wi-fi
+  - cellular
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

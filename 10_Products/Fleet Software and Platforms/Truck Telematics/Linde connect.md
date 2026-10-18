@@ -11,6 +11,8 @@ tags:
   - telematics
   - truck-device
 productCategory: fleet-software
+interfaces:
+  - rfid
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

@@ -10,6 +10,12 @@ tags:
   - forklift-model
   - europe
 productCategory: industrial-truck
+ratedLoadKgMin: 6000
+ratedLoadKgMax: 8000
+systemVoltageV:
+  - 90
+powerSource:
+  - lithium-ion
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:

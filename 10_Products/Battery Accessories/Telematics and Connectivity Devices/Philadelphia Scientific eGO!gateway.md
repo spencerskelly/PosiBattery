@@ -12,6 +12,9 @@ tags:
   - scope-aftermarket
   - site-infrastructure
 productCategory: battery-accessory
+interfaces:
+  - bluetooth
+  - cellular
 subtypeOf:
   - "[[Battery Telematics and Connectivity Device]]"
 performs:

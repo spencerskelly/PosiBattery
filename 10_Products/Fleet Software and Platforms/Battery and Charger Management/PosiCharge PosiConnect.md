@@ -11,6 +11,8 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+interfaces:
+  - bluetooth
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

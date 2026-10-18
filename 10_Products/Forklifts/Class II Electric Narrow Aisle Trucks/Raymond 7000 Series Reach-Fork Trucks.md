@@ -9,6 +9,10 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+ratedLoadKgMin: 1588
+ratedLoadKgMax: 2041
+systemVoltageV:
+  - 36
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:

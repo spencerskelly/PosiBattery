@@ -6,6 +6,8 @@ uid: 20261002164202400skellyspencer
 status: Draft
 productClass: specific-offering
 productCategory: battery-accessory
+interfaces:
+  - cellular
 aliases:
   - Battery Rx
   - Smart BMID

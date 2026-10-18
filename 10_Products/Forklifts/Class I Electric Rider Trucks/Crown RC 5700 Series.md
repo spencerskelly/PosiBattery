@@ -9,6 +9,8 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+ratedLoadKgMin: 1500
+ratedLoadKgMax: 1800
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

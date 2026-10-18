@@ -10,6 +10,9 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+systemVoltageV:
+  - 36
+  - 48
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

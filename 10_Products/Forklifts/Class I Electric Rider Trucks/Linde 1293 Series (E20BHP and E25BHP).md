@@ -10,6 +10,10 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+ratedLoadKgMin: 1814
+ratedLoadKgMax: 2268
+systemVoltageV:
+  - 80
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

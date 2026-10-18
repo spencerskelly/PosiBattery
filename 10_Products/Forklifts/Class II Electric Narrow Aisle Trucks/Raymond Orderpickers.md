@@ -9,6 +9,9 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+systemVoltageV:
+  - 24
+  - 36
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:

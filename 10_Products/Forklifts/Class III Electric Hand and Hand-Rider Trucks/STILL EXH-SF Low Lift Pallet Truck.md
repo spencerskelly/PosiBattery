@@ -9,6 +9,10 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+systemVoltageV:
+  - 24
+powerSource:
+  - lithium-ion
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
 describedBy:

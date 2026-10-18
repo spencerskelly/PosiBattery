@@ -13,6 +13,8 @@ tags:
   - vehicle-accessory
   - retrofit-kit
 productCategory: fleet-software
+interfaces:
+  - rfid
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

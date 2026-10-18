@@ -11,6 +11,9 @@ tags:
   - gse
   - scope-oem-option
 productCategory: battery-accessory
+interfaces:
+  - can-bus
+  - bluetooth
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

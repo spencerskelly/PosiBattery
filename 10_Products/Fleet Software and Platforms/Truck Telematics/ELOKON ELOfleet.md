@@ -14,6 +14,10 @@ tags:
   - retrofit-kit
   - third-party-kit
 productCategory: fleet-software
+interfaces:
+  - bluetooth
+  - wi-fi
+  - rfid
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

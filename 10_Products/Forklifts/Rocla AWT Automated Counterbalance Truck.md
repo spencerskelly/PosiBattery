@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - agv
 productCategory: industrial-truck
+ratedLoadKgMax: 2495
 subtypeOf:
   - "[[Powered Industrial Truck]]"
 describedBy:

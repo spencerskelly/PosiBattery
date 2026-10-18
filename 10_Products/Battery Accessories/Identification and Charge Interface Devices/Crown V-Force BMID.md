@@ -12,6 +12,8 @@ tags:
   - lead-acid
   - scope-oem-option
 productCategory: battery-accessory
+interfaces:
+  - bluetooth
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 performs:

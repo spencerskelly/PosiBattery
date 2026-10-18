@@ -12,6 +12,8 @@ tags:
   - scope-aftermarket
   - vehicle-mounted
 productCategory: vehicle-accessory
+interfaces:
+  - bluetooth
 subtypeOf:
   - "[[Operator Display]]"
 performs:

@@ -9,6 +9,8 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+powerSource:
+  - lithium-ion
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

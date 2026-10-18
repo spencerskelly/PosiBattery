@@ -9,6 +9,9 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+ratedLoadKgMax: 2041
+systemVoltageV:
+  - 24
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
 describedBy:

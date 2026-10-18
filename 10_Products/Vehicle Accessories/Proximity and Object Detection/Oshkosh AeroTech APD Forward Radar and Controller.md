@@ -13,6 +13,7 @@ tags:
   - gse-device
   - gse-option
 productCategory: vehicle-accessory
+detectionRangeM: 6
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 partOf:

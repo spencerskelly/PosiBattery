@@ -6,6 +6,9 @@ uid: 20261002162520381skellyspencer
 status: Draft
 productClass: product-variant
 productCategory: battery-accessory
+interfaces:
+  - can-bus
+  - bluetooth
 aliases:
   - BMID 3
   - BMID 3 E-meter

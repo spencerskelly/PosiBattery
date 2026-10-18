@@ -9,6 +9,8 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+systemVoltageV:
+  - 48
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

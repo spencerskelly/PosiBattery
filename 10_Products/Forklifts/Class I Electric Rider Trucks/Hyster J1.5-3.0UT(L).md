@@ -10,6 +10,11 @@ tags:
   - forklift-model
   - emea
 productCategory: industrial-truck
+ratedLoadKgMin: 1500
+ratedLoadKgMax: 3000
+powerSource:
+  - lead-acid
+  - lithium-ion
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

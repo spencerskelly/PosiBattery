@@ -13,6 +13,8 @@ tags:
   - automatic-charging
   - hands-free
 productCategory: charger-accessory
+interfaces:
+  - can-bus
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:
