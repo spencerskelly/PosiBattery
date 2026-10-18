@@ -11,7 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - can-bus
 subtypeOf:
   - "[[Battery Management System]]"

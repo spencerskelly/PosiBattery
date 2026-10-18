@@ -13,7 +13,7 @@ tags:
   - vehicle-accessory
   - third-party-kit
 productCategory: fleet-software
-interfaces:
+commInterfaces:
   - wi-fi
   - cellular
 subtypeOf:

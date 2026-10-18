@@ -13,7 +13,7 @@ tags:
   - powered-by-posicharge
   - scope-aftermarket
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - cellular
 subtypeOf:
   - "[[Battery Monitoring Device]]"

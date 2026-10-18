@@ -10,7 +10,7 @@ tags:
   - commercial-product
   - software
 productCategory: fleet-software
-interfaces:
+commInterfaces:
   - ethernet
 subtypeOf:
   - "[[Battery and Charger Management Software]]"

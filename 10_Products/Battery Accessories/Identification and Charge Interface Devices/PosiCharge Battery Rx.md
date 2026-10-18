@@ -6,7 +6,7 @@ uid: 20261002164202400skellyspencer
 status: Draft
 productClass: specific-offering
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - cellular
 aliases:
   - Battery Rx

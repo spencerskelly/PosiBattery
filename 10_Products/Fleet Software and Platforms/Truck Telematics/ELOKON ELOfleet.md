@@ -14,7 +14,7 @@ tags:
   - retrofit-kit
   - third-party-kit
 productCategory: fleet-software
-interfaces:
+commInterfaces:
   - bluetooth
   - wi-fi
   - rfid

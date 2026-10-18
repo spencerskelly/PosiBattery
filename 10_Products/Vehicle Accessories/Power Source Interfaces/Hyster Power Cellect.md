@@ -9,7 +9,7 @@ tags:
   - option-package
   - scope-oem-option
 productCategory: vehicle-accessory
-interfaces:
+commInterfaces:
   - can-bus
 subtypeOf:
   - "[[Power Source Interface]]"

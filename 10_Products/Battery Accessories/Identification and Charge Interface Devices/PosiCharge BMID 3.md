@@ -6,7 +6,7 @@ uid: 20261002162520381skellyspencer
 status: Draft
 productClass: product-variant
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - can-bus
   - bluetooth
 aliases:

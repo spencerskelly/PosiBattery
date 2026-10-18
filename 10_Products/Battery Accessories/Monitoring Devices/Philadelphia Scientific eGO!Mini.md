@@ -11,7 +11,7 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - usb
 subtypeOf:
   - "[[Battery Monitoring Device]]"

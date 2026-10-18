@@ -12,7 +12,7 @@ tags:
   - lithium
   - scope-aftermarket
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - can-bus
 subtypeOf:
   - "[[Battery Monitoring Device]]"

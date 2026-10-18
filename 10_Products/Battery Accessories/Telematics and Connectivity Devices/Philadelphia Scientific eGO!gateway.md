@@ -12,7 +12,7 @@ tags:
   - scope-aftermarket
   - site-infrastructure
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - bluetooth
   - cellular
 subtypeOf:

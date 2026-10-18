@@ -167,7 +167,7 @@ classScoped:
       allowed: ["lead-acid", "lithium-ion", "lp-gas"]
       required: false
       condition: "Only when productCategory is industrial-truck. Energy sources the note states the truck is offered with."
-    interfaces:
+    commInterfaces:
       value: list[enum]
       allowed: ["can-bus", "bluetooth", "wi-fi", "cellular", "rfid", "lora", "ethernet", "usb", "rs-485", "rs-232"]
       required: false

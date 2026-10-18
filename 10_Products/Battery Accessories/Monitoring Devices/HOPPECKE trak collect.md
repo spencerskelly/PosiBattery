@@ -12,7 +12,7 @@ tags:
   - lead-acid
   - scope-oem-option
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - can-bus
   - bluetooth
 subtypeOf:

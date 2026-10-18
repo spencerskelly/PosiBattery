@@ -12,7 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
-interfaces:
+commInterfaces:
   - bluetooth
   - wi-fi
   - cellular

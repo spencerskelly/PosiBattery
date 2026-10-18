@@ -12,7 +12,7 @@ tags:
   - scope-aftermarket
   - temporary-install
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - usb
 subtypeOf:
   - "[[Battery Monitoring Device]]"

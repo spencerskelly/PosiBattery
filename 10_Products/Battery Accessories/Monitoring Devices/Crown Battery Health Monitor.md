@@ -12,7 +12,7 @@ tags:
   - lead-acid
   - scope-oem-option
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - bluetooth
 subtypeOf:
   - "[[Battery Monitoring Device]]"

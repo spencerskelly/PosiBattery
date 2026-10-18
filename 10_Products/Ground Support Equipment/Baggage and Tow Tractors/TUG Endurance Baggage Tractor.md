@@ -11,7 +11,7 @@ tags:
   - gse-vehicle
   - lithium
 productCategory: gse
-interfaces:
+commInterfaces:
   - bluetooth
 subtypeOf:
   - "[[GSE Baggage and Tow Tractor]]"

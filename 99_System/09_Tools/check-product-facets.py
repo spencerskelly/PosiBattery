@@ -5,7 +5,8 @@ Checks, against classOptionalProperties.Object in element-types.yaml:
 - productCategory is one of the declared values;
 - a category facet appears only on notes whose productCategory is in the facet's category list;
 - facet value types (number, list[number], enum, list[enum]) and enum membership;
-- <quantity>Min is not greater than <quantity>Max.
+- <quantity>Min is not greater than <quantity>Max;
+- declared property names do not collide with relationships.yaml fields.
 
 Run from the vault root:
     python 99_System/09_Tools/check-product-facets.py
@@ -51,6 +52,24 @@ categories = props["productCategory"]["allowed"]
 facets = {n: p for n, p in props.items() if p.get("category")}
 
 findings = []
+REL = ROOT / "99_System" / "03_Schemas" / "relationships.yaml"
+rel_fields = set()
+
+
+def collect(node):
+    if isinstance(node, dict):
+        for key, val in node.items():
+            if key in ("forward", "inverse", "field") and isinstance(val, str):
+                rel_fields.add(val)
+            collect(val)
+    elif isinstance(node, list):
+        for item in node:
+            collect(item)
+
+
+collect(yaml.safe_load(REL.read_text(encoding="utf-8")))
+for name in sorted(set(props) & rel_fields):
+    findings.append(("99_System/03_Schemas/element-types.yaml", f"property {name} collides with a relationship field"))
 checked = with_facets = 0
 for path in sorted(PRODUCTS.rglob("*.md")):
     fm = frontmatter(path)

@@ -12,7 +12,7 @@ tags:
   - gse
   - scope-aftermarket
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - wi-fi
 subtypeOf:
   - "[[Battery Monitoring Device]]"

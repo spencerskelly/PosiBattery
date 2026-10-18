@@ -12,7 +12,7 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
-interfaces:
+commInterfaces:
   - rs-485
   - rs-232
 subtypeOf:
