@@ -50,3 +50,54 @@ This folder contains synthesized analysis, comparison work, modeling guidance, a
 ## Maintenance
 
 Separate evidence from interpretation. Record conflicts and unknowns in named research notes or the investigation backlog; do not silently collapse contradictory claims. Update matrices when definitions, source evidence, or comparable product data changes.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 82 / 123 |
+| Typed model notes (incl. subfolders) | 97 (Info 97) |
+| Status | Draft 97 of 97 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 33 / 37 of 97 |
+| Tags | 163 distinct, 107 used once |
+| Size | median 8,975 bytes; largest [[Battery Product Landscape Conflicts and Open Questions]] (213 KB) |
+| Untyped notes (no model `type`, excluding READMEs) | 22 |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Subfolders
+
+| Folder | Notes | Abstract | Flags |
+| --- | --- | --- | --- |
+| [[README_Business Analysis|Business Analysis]] | 14 | 0 | source-linked 3/14; 5 body-alias; 3 update-log |
+| [[README_Cost Drivers|Cost Drivers]] | 13 md, 0 other | – | untyped content |
+| [[README_EMS Research|EMS]] | 5 md, 0 other | – | untyped content |
+| Industrial Wireless Communication | 2 | 0 | source-linked 0/2; thin |
+| [[README_Power Conversion Research|Power Conversion]] | 5 md, 0 other | – | untyped content |
+| SysML v2 | 2 md, 0 other | – | untyped content |
+
+### Analysis
+
+- 97 typed Info notes in this folder and its subfolders; 82 sit directly here, mostly registers.
+- Notes over 50 KB: [[Battery Product Landscape Conflicts and Open Questions]] 213 KB, [[Product to Customer Need Map]] 141 KB, [[Investigation Backlog]] 119 KB, [[Document Wishlist]] 106 KB, [[SOC and Health Estimation Literature Review]] 103 KB, [[Generic Reference Values]] 57 KB (F-08).
+- 163 distinct tags with 107 used once (66%), the highest singleton share among the larger folders (F-12).
+- The three conflict logs are separate notes ([[Battery Product Landscape Conflicts and Open Questions]], [[Demand Evidence Conflict Log]], [[PosiCharge and Power Designers Evidence Gaps and Conflicts]]); 167 notes link to the first, and more than 270 notes use the phrase 'conflict register' while no note has that name (F-07).
+- Subfolders hold untyped files with non-descriptive names (EMS 1, EMS 2, Chat 1 to Chat 4) (F-09).
+
+### Key links
+
+- [[Landscape Evidence and Modeling Conventions]] — 176 inbound links
+- [[Truck Part Connection Register]] — 172 inbound links
+- [[Battery Product Landscape Conflicts and Open Questions]] — 167 inbound links
+- [[Extra Functions Register]] — 62 inbound links
+- [[Function and Design Levels]] — 58 inbound links
+- [[California Forklift Electrification Regulations Register]] — 54 inbound links
+
+### Improvement steps
+
+1. **F-07** Pick one conflict mechanism (see findings note) before adding more conflict prose.
+2. **F-08** Convert the Document Wishlist and Investigation Backlog into one-record-per-item notes or a structured file so status can be filtered.
+3. **F-12** Consolidate singleton tags.

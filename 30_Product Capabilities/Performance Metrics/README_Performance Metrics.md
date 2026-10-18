@@ -100,3 +100,40 @@ Do not promote vendor-stated comparison values directly into Requirement accepta
 ## Maintenance
 
 Create a metric note when a comparison dimension is reusable across more than one product or technology family. Keep metric definitions distinct from source evidence, product-specific results, and formal validation acceptance criteria.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 56 / 56 |
+| Typed model notes (incl. subfolders) | 55 (Info 55) |
+| Status | Draft 55 of 55 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 0 / 0 of 55 |
+| Tags | 6 distinct, 0 used once |
+| Size | median 2,044 bytes; largest [[Metric - Nominal Voltage Range]] (5 KB) |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Analysis
+
+- 55 Info notes, each with `describes`; only 6 distinct tags. Values per product are prose bullets under `## Notes`; unit or format and a metric code (for example CM08) are also prose.
+- None of the schema's Info measure properties (`measureClass`, `valueType`, `unit`, `measurementMethod`) is set on any of the 318 Info notes in the vault (F-06).
+- Each Metric copies values from product notes and states that the product note wins on disagreement, so edits must be made twice and can drift.
+- Because values are text, a Base cannot sort, filter or compare products on a metric; comparison means reading notes one at a time. This blocks the stated goal of comparing products solidly.
+
+### Key links
+
+- [[Metric - Peak Efficiency]] — 11 inbound links
+- [[Metric - Wireless Interfaces and Range]] — 11 inbound links
+- [[Metric - BMS and Communication]] — 10 inbound links
+- [[Metric - Temperature Sensing]] — 10 inbound links
+- [[Metric - Electrolyte Level Sensing]] — 9 inbound links
+- [[Metric - Nominal Voltage Range]] — 9 inbound links
+
+### Improvement steps
+
+1. **F-06** Set the four measure properties on all 55 Metrics now (in contract, no schema change).
+2. **F-06** Decide where per-product values live: keep in Metric notes, generate them from product notes, or give each product-metric value its own record. Present as a decision with the Base consequences.

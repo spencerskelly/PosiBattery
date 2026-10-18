@@ -37,3 +37,22 @@ Preserve distinctions among:
 - approved model requirements or architecture.
 
 Extraction into Requirements, Functions, Designs, Interfaces, Product Architecture, or planning records requires separate evidence-backed modeling work.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 5 / 5 |
+| Untyped notes (no model `type`, excluding READMEs) | 4 |
+
+### Analysis
+
+- 5 markdown files, 4 without frontmatter, including non-descriptive names 'EMS 1' and 'EMS 2' and a 'Source Links' list (F-09).
+
+### Improvement steps
+
+1. **F-09** Rename and convert, or archive the raw drafts once the synthesis note holds their content.

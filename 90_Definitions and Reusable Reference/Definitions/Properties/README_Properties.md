@@ -102,3 +102,24 @@ Do not rename, merge, broaden, or deprecate controlled properties from this navi
 - [[README_Definitions|Definitions]] — shared authoring and vocabulary guidance.
 - [[README_Definitions and Reusable Reference|Definitions and Reusable Reference]] — domain entry point.
 - [[README_Research and Evidence|Research and Evidence]] — source-specific evidence and analysis supporting reusable technical definitions.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 46 / 46 |
+| Untyped notes (no model `type`, excluding READMEs) | 45 |
+| Non-markdown files | .base 1 |
+
+### Analysis
+
+- 45 Property Definition notes (no model type, status Active).
+- Used but undefined: 36 fields, including the business-relationship fields (governed by `relationships.yaml` 1.36) and the sparse properties `productClass`, `reuseScope`, `aliases`, `sourceClass`, `sourceUrl`, `accessed`, `sourceRevision`. Defined but unused: `conflictsWith` (reserved for compatibility conflicts), `supersedes`, `tracesTo`, `refines`, `includes`, `precedes`, `optionOf` and 15 more (F-17).
+
+### Improvement steps
+
+1. **F-17** Add the missing definitions and review the unused ones with the conflict decision (F-07).

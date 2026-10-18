@@ -94,3 +94,40 @@ No formal Use Case → Requirement links are created yet because the vault curre
 - [[README_Product Capabilities|Product Capabilities]] — product-controlled behavior.
 - [[README_Stakeholders and Ecosystem|Stakeholders and Ecosystem]] — actors and organizations participating in use.
 - [[README_Products|Products]] — offerings used in operational contexts.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 45 / 45 |
+| Typed model notes (incl. subfolders) | 44 (Use Case 44) |
+| Status | Draft 44 of 44 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 1 / 11 of 44 |
+| Tags | 20 distinct, 5 used once |
+| Size | median 1,456 bytes; largest [[Drive Up, Plug In and Walk Away]] (4 KB) |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Analysis
+
+- 44 Use Case notes: 29 subtype `what`, 15 `where`. `participants` is set on all 44; `realizedBy` on 23.
+- Only 1 of 44 has `describedBy`; 11 link any Source Document. Notes often say 'derived from' an Info note (for example [[PosiCharge Market Segments and Jobs-to-Be-Done]]), so the chain stops at an analyst note rather than a source (F-02).
+- Schema subtypes `when` and `who` are unused anywhere in the vault.
+- [[Material-Handling Fleet Site]] is the main hub (22 inbound).
+
+### Key links
+
+- [[Material-Handling Fleet Site]] — 22 inbound links
+- [[Charge a BMID-Equipped Battery Using Battery Information]] — 14 inbound links
+- [[Distributed and Opportunity Charging Area]] — 14 inbound links
+- [[Forklift Charging Area Under Fire Code and Insurer Review]] — 14 inbound links
+- [[Start a Shift and Confirm Vehicle Energy Readiness]] — 13 inbound links
+- [[Review BMID Battery History and Exceptions]] — 12 inbound links
+
+### Improvement steps
+
+1. **F-02** Link each Use Case to the Source Document or research note it derives from through `describedBy`.
+2. **F-13** Base: Use Cases with no `realizedBy`, grouped by subtype.

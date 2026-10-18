@@ -68,3 +68,30 @@ A definition does not require an evidence link when it is itself a controlled in
 ## Maintenance
 
 Update this index when a new authoring convention or property family is added. Define reusable terminology and relationship semantics here rather than creating inconsistent local variants.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 4 / 50 |
+| Untyped notes (no model `type`, excluding READMEs) | 48 |
+| Non-markdown files | .base 1 |
+
+### Subfolders
+
+| Folder | Notes | Abstract | Flags |
+| --- | --- | --- | --- |
+| [[README_Properties|Properties]] | 46 md, 1 other | – | untyped content |
+
+### Analysis
+
+- 4 notes: [[Note Layout]], [[EA Source Section]] and [[Changing Your Author Code]] plus the Properties folder. Two of the three describe the EA translator, which the vault README says is not part of this engineering vault.
+- [[Note Layout]] defines `## Notes` as an empty user section and the body as note text without a `## Definition` heading; the templates and 99% of notes do the opposite (F-04).
+
+### Improvement steps
+
+1. **F-04** Resolve the conflict between Note Layout and the templates (decision in findings note).

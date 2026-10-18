@@ -48,3 +48,31 @@ The existing `Definitions` and `Definitions/Properties` folders remain migration
 - [[README_Product Architecture|Product Architecture]] — reusable realization concepts when architecture is their primary role.
 - [[README_Product Capabilities|Product Capabilities]] — reusable Functions, requirements, metrics, and behavior.
 - [[README_Research and Evidence|Research and Evidence]] — evidence supporting reusable-reference claims.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 1 / 51 |
+| Untyped notes (no model `type`, excluding READMEs) | 48 |
+| Non-markdown files | .base 3, .canvas 1 |
+
+### Subfolders
+
+| Folder | Notes | Abstract | Flags |
+| --- | --- | --- | --- |
+| [[README_Definitions|Definitions]] | 50 md, 1 other | – | untyped content |
+
+### Analysis
+
+- 51 markdown notes: 45 Property Definition notes, 3 methodology notes, and 3 READMEs. No note defines an industry concept, protocol, unit or abbreviation, although the taxonomy lists those as the purpose of this domain; LoRa research was kept under 70 as research only.
+- 36 fields used by notes have no Property Definition note and are not mentioned in any definition; 14 inverse fields are only mentioned inside other definitions; 22 defined properties are used by no note (F-17).
+
+### Improvement steps
+
+1. **F-17** Add definitions for the 36 undefined fields (most used first: `sourceClass`, `sourceUrl`, `accessed`, `madeBy`, `offeredWith`) and review the 22 unused ones.
+2. **F-15** Decide whether CAN, SOC/SOH and similar concept notes belong here or stay as research.

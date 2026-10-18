@@ -59,3 +59,58 @@ These remain directly linkable from product notes and product research; their pl
 ## Maintenance
 
 Add a product record at the most specific supported category level. Preserve manufacturer evidence and link the record to its organization, source documents, relevant functions/designs, and applicable metrics.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 2 / 571 |
+| Typed model notes (incl. subfolders) | 570 (Object 570) |
+| Status | Draft 570 of 570 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 321 / 291 of 570 |
+| Tags | 106 distinct, 27 used once |
+| Size | median 1,987 bytes; largest [[EnerSys Wi-iQ]] (27 KB) |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Subfolders
+
+| Folder | Notes | Abstract | Flags |
+| --- | --- | --- | --- |
+| [[README_Batteries|Batteries]] | 92 | 5 | source-linked 86/87; 79 body-alias; 51 update-log |
+| [[README_Battery Accessories|Battery Accessories]] | 107 | 14 | source-linked 52/93; 73 body-alias; 20 update-log; 11 off-schema subtype |
+| [[README_Charger Accessories|Charger Accessories]] | 21 | 6 | source-linked 6/15; 9 body-alias; 2 update-log |
+| [[README_Chargers|Chargers]] | 69 | 5 | source-linked 43/64; 61 body-alias; 13 update-log |
+| [[README_Fleet Software and Platforms|Fleet Software and Platforms]] | 68 | 6 | source-linked 46/62; 39 body-alias; 7 update-log; 3 off-schema subtype |
+| [[README_Forklifts|Forklifts]] | 58 | 8 | source-linked 43/50; 46 body-alias; 26 update-log |
+| [[README_Ground Support Equipment|Ground Support Equipment]] | 21 | 5 | source-linked 0/16; 16 body-alias |
+| [[README_Vehicle Accessories|Vehicle Accessories]] | 130 | 10 | source-linked 22/120; 83 body-alias; 7 update-log |
+
+### Analysis
+
+- All 570 model notes are `type: Object`. Category, family, variant and offering are told apart only by folder, `subtypeOf` chains and the 59 notes marked `abstract: true`; `productClass` (schema 1.18) is set on 10 of 570 (F-05).
+- Every concrete offering has a maker link; the 59 notes without `madeBy` or `offeredBy` are all abstract category/family notes.
+- Per-claim evidence sits inside `## Notes` as `Source … (T1), retrieved <date>, <URL>` bullets. Only 321 of 570 notes carry a `describedBy` link (F-02).
+- Product notes are the stored source for the 55 Metric notes: each Metric copies product values and says the product note wins on disagreement, so every value exists twice (F-06).
+- Existing Bases (`BASE_all_Products`, `BASE_offerings`) show file name, `subtypeOf`, `madeBy`, `offeredBy`, status and either folder or `offeredWith`. They do not show `abstract`, `productClass`, `describedBy`, tags or counts of performed Functions and Designs (F-13).
+- The largest and most-linked notes are battery monitoring products ([[EnerSys Wi-iQ]], [[HOPPECKE trak collect]], [[PosiCharge PosiGuard]]); they hold the longest evidence logs.
+
+### Key links
+
+- [[EnerSys Wi-iQ]] — 110 inbound links
+- [[HOPPECKE trak collect]] — 87 inbound links
+- [[PosiCharge PosiGuard]] — 81 inbound links
+- [[PosiCharge BMID]] (abstract) — 68 inbound links
+- [[Power Designers PowerTrac 3]] — 63 inbound links
+- [[Crown V-HFM3 Charger]] — 60 inbound links
+
+### Improvement steps
+
+1. **F-05** Backfill `productClass` across 560 Objects. Start with the 59 abstract notes, then use folder depth for the rest. This is what lets a Base group category, family, variant and offering.
+2. **F-13** Add the Base views listed in the findings note (coverage audit, by maker, by class) before any content rework, so progress is measurable.
+3. **F-02** Decide where evidence tier and retrieval date live (property, tag or prose), then apply across subfolders.
+4. **F-03** and **F-04** Alias migration and Notes restructuring follow the layout decision; both are blocked on a decision (see findings note).
+5. **F-16** Class IV to VII Forklifts, Protection and Disconnect Units and Thermal Management Devices hold one note each; keep as placeholders or merge into their parent.

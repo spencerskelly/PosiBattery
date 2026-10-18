@@ -130,3 +130,43 @@ Avoid global role tags for contextual relationships because supplier, partner, c
 ## Maintenance
 
 Add a new organization note when evidence supports a durable entity record. Record uncertain, conflicting, or provisional relationships explicitly in the relevant ledger or research note; do not silently resolve or remove conflicts.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 148 / 148 |
+| Typed model notes (incl. subfolders) | 147 (Info 147) |
+| Status | Draft 147 of 147 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 58 / 52 of 147 |
+| Tags | 68 distinct, 35 used once |
+| Size | median 1,085 bytes; largest [[Business Relationship Ledger]] (105 KB) |
+| Non-markdown files | .base 3, .canvas 1 |
+
+### Analysis
+
+- 147 `Info` notes tagged `organization`; zero notes use the `Organization` class even though the schema defines it and `relationships.yaml` marks the Info endpoints as legacy (F-10).
+- `playsRole` on 121; `makes` on 91; `offers` on 21; `describedBy` on 58, so 89 organization notes have no `describedBy` link.
+- [[Business Relationship Ledger]] is 105 KB and [[Offerings by Organization]] 20 KB: databases stored as note prose (F-08).
+- Business relationship fields used in notes (for example `distributedBy`, `subsidiaryOf`, `partnerOf`, `rebrandOf`) are governed by `relationships.yaml` 1.36, flagged `legacyInfoOrganizationEndpoint`, and have no Property Definition note (F-17).
+- `BASE_offerings` lists products by maker; there is no Base showing organizations by role, region or evidence.
+
+### Key links
+
+- [[PosiCharge]] — 55 inbound links
+- [[Raymond]] — 54 inbound links
+- [[Logisnext Americas]] — 48 inbound links
+- [[Exide Technologies]] — 42 inbound links
+- [[Crown Equipment]] — 38 inbound links
+- [[EnerSys]] — 38 inbound links
+
+### Improvement steps
+
+1. **F-10** Decide Info versus Organization class, then migrate in a controlled batch.
+2. **F-08** Decide whether the Ledger becomes per-relationship records or stays a register.
+3. **F-02** Add `describedBy` on the 89 organizations that have none.
+4. **F-13** Base: organizations by role with product count and source count.

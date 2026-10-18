@@ -132,3 +132,39 @@ Use a Design note for a reusable implementation pattern, not for a single produc
 - [[Temperature-Compensated Charge Control Design]]
 - [[BMS-Directed Charge Control Design]]
 - [[Adaptive Charge Profile Control Design]]
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 247 / 247 |
+| Typed model notes (incl. subfolders) | 246 (Design 245, Info 1) |
+| Status | Draft 245 of 246; other 1 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 62 / 32 of 246 |
+| Tags | 108 distinct, 55 used once |
+| Size | median 1,130 bytes; largest [[Integrated Battery Management System]] (4 KB) |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Analysis
+
+- 246 notes (245 Design, 1 Info). `designOf` on 220; `realizes` on 49; `describedBy` on 62; `supportedBy` on 14.
+- Designs are analyst-defined reusable solutions; many Definitions are short and several say 'candidate' or 'no product is allocated until evidence' (for example [[Algorithmic Cell Failure Diagnosis]]), which is a useful honesty marker but is prose only (F-02).
+- 108 distinct tags, 55 used once (F-12).
+
+### Key links
+
+- [[Integrated Battery Management System]] — 41 inbound links
+- [[CAN Interface]] — 30 inbound links
+- [[Local LED Indicator]] — 29 inbound links
+- [[Drop-In Battery Cavity]] — 27 inbound links
+- [[Temperature-Compensated Charge Control Design]] — 27 inbound links
+- [[Battery Onboard Charger]] — 26 inbound links
+
+### Improvement steps
+
+1. **F-02** Make the 'candidate, not yet allocated' state queryable (tag now; property if a schema change is approved).
+2. **F-13** Base: Designs with no `designOf`, no `realizes`, or no source.

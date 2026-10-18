@@ -24,3 +24,22 @@ The parent [[README_Research|Research]] recursive view already includes this fol
 ## Maintenance
 
 Preserve the reasoning, but do not promote it directly into Product Architecture, Designs, Requirements, Interfaces, or product commitments. Later engineering work should reconcile these hypotheses against actual charger voltage range, power level, isolation, safety, bidirectionality, thermal, regulatory, and charge-profile constraints.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 5 / 5 |
+| Untyped notes (no model `type`, excluding READMEs) | 4 |
+
+### Analysis
+
+- 5 markdown files, 4 without frontmatter: files named 'Chat 1' to 'Chat 4' (5 to 6 KB each) hold power-conversion research text (loss mechanisms and efficiency) under names that say nothing about their content (F-09).
+
+### Improvement steps
+
+1. **F-09** Rename to descriptive titles and convert to typed Info notes, or fold the content into one typed note and retire the originals (never delete; retire).

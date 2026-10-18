@@ -38,3 +38,22 @@ The parent [[README_Research|Research]] views already include this folder recurs
 ## Maintenance
 
 Separate evidence from interpretation. Do not promote research conclusions into Customer Needs, Functions, Designs, Requirements, Product Architecture, or planning records without evidence-backed modeling work.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 13 / 13 |
+| Untyped notes (no model `type`, excluding READMEs) | 12 |
+
+### Analysis
+
+- 13 markdown files, 12 without frontmatter: ten numbered Cost Driver notes (22 to 47 KB each) and two summary notes. They are research text, not model notes (F-09).
+
+### Improvement steps
+
+1. **F-09** Decide per file: convert to Info with `describes`/`describedBy`, or keep as raw research and add one typed summary note.

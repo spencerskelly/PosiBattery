@@ -46,3 +46,44 @@ Examples:
 - [[README_Use and Operations|Use and Operations]] — scenarios and workflows involving Actors and Organizations.
 - [[README_Products|Products]] — offerings made, sold, integrated, operated, or supported by Organizations.
 - [[README_Research and Evidence|Research and Evidence]] — evidence supporting ecosystem claims.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 1 / 162 |
+| Typed model notes (incl. subfolders) | 159 (Info 147, Actor 12) |
+| Status | Draft 159 of 159 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 60 / 52 of 159 |
+| Tags | 73 distinct, 36 used once |
+| Size | median 1,143 bytes; largest [[Business Relationship Ledger]] (105 KB) |
+| Non-markdown files | .base 7, .canvas 3 |
+
+### Subfolders
+
+| Folder | Notes | Abstract | Flags |
+| --- | --- | --- | --- |
+| [[README_Customer Actors|Customer Actors]] | 12 | 0 | source-linked 2/12; 1 body-alias |
+| [[README_Organizations|Organizations]] | 147 | 0 | source-linked 58/147; 81 body-alias; 7 update-log |
+
+### Analysis
+
+- The domain root holds only the README; content is in Customer Actors (12 Actor notes) and Organizations (147 Info notes).
+- Organizations are `Info` notes tagged `organization`; the schema's `Organization` class has no notes (F-10).
+
+### Key links
+
+- [[Fleet Operations Manager]] — 60 inbound links
+- [[PosiCharge]] — 55 inbound links
+- [[Raymond]] — 54 inbound links
+- [[Logisnext Americas]] — 48 inbound links
+- [[Exide Technologies]] — 42 inbound links
+- [[Crown Equipment]] — 38 inbound links
+
+### Improvement steps
+
+1. **F-10** Decide the Organization migration path (see findings note).

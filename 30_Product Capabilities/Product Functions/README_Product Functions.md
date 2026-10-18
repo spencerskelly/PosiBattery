@@ -33,3 +33,39 @@ The complete 129-function goal → general family → specific function tree is 
 ## Maintenance
 
 Describe the intended capability rather than a particular technology. Add links to designs that realize the function, products that provide it, and metrics that determine whether it is successful.
+
+## Folder review (2026-10-18)
+
+Part of the vault-cleanup review: [[Vault Cleanup Findings 2026-10-18]] defines the finding IDs (F-xx) used below. Numbers come from a read-only audit of this folder on 2026-10-18.
+
+### Snapshot
+
+| Measure | Value |
+| --- | --- |
+| Markdown notes (this folder / incl. subfolders) | 160 / 160 |
+| Typed model notes (incl. subfolders) | 159 (Function 159) |
+| Status | Draft 159 of 159 |
+| Notes with a `describedBy` link / notes linking a Document note anywhere | 32 / 27 of 159 |
+| Tags | 18 distinct, 2 used once |
+| Size | median 1,880 bytes; largest [[Measure Battery Temperature]] (11 KB) |
+| Non-markdown files | .base 2, .canvas 1 |
+
+### Analysis
+
+- 159 Function notes. `performedBy` on 139; `realizes` (need) on 131; `realizedBy` on 47; `describedBy` on 32.
+- Several notes append dated 'Solution link added' bullets to `## Notes` (F-04).
+- Function hierarchy uses `subtypeOf` on 130 of 159.
+
+### Key links
+
+- [[Log Battery Events and Usage]] — 64 inbound links
+- [[Measure Battery Temperature]] — 58 inbound links
+- [[Alert on Abnormal Condition]] — 55 inbound links
+- [[Sense Electrolyte Level]] — 54 inbound links
+- [[Charge Battery Fast]] — 50 inbound links
+- [[Transmit Battery Data Wirelessly]] — 49 inbound links
+
+### Improvement steps
+
+1. **F-13** Base: Functions with no performer, no need, or no Design; grouped by parent Function.
+2. **F-04** Replace appended 'Solution link added' bullets with the governed `dependsOn`/`realizedBy` fields they describe, keeping the owner-approval note.
