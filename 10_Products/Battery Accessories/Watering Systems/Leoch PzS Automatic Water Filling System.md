@@ -10,6 +10,7 @@ tags:
   - accessory
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[Leoch]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 describedBy:

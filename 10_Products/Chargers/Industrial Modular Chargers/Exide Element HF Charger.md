@@ -10,6 +10,7 @@ tags:
   - charger
   - status-unclear
 productCategory: charger
+company: "[[Exide Technologies]]"
 outputCurrentMaxA: 250
 inputPhases:
   - 3

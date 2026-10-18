@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Operator Convenience Accessory]]"
 madeBy:

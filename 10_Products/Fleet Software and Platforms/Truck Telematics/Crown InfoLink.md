@@ -9,6 +9,7 @@ tags:
   - software
   - telematics
 productCategory: fleet-software
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

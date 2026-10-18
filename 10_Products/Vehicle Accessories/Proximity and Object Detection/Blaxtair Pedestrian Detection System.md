@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Blaxtair]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

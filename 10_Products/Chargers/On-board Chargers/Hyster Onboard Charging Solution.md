@@ -11,6 +11,7 @@ tags:
   - accessory
   - truck-oem-option
 productCategory: charger
+company: "[[Hyster-Yale]]"
 subtypeOf:
   - "[[On-board Charger]]"
 describedBy:

@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - site-infrastructure
 productCategory: battery-accessory
+company: "[[Philadelphia Scientific]]"
 commInterfaces:
   - bluetooth
   - cellular

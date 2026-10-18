@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - adjacent-market
 productCategory: fleet-software
+company: "[[Ampcontrol]]"
 subtypeOf:
   - "[[Fleet Charging and Energy Management Software]]"
 describedBy:

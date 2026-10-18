@@ -10,6 +10,7 @@ tags:
   - battery
   - lead-acid
 productCategory: battery
+company: "[[EnerSys]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

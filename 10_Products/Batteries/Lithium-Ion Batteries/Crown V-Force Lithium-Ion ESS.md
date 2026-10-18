@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
 productCategory: battery
+company: "[[Crown Equipment]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

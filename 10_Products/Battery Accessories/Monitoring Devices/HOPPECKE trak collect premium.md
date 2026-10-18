@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
 productCategory: battery-accessory
+company: "[[HOPPECKE]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

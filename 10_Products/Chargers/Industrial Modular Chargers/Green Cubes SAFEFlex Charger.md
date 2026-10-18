@@ -10,6 +10,7 @@ tags:
   - charger
   - lithium
 productCategory: charger
+company: "[[Green Cubes Technology]]"
 powerKwMin: 15
 powerKwMax: 30
 outputVoltageMinV: 24

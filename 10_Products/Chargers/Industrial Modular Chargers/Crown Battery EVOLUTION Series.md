@@ -10,6 +10,7 @@ tags:
   - charger
   - rebrand
 productCategory: charger
+company: "[[Power Designers]]"
 powerKwMin: 3.9
 powerKwMax: 31.2
 inputPhases:

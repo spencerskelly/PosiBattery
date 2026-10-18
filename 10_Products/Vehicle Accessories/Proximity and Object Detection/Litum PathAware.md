@@ -14,6 +14,7 @@ tags:
   - third-party-kit
   - proximity
 productCategory: vehicle-accessory
+company: "[[Litum]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 describedBy:

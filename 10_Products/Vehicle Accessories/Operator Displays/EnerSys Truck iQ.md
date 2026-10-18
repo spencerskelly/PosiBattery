@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - vehicle-mounted
 productCategory: vehicle-accessory
+company: "[[EnerSys]]"
 commInterfaces:
   - bluetooth
 subtypeOf:

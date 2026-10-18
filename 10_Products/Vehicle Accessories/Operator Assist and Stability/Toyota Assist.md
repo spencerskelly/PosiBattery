@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Toyota Material Handling]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 hasPart:

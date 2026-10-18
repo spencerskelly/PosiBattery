@@ -10,6 +10,7 @@ tags:
   - battery
   - circulation
 productCategory: battery
+company: "[[HOPPECKE]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

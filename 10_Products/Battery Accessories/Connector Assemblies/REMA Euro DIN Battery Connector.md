@@ -12,6 +12,7 @@ tags:
   - connector
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[REMA Lipprandt]]"
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

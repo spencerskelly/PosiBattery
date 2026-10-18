@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - water-level
 productCategory: battery-accessory
+company: "[[Philadelphia Scientific]]"
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

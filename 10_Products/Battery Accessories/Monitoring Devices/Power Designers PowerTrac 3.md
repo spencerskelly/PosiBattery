@@ -12,6 +12,7 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Power Designers]]"
 commInterfaces:
   - usb
 subtypeOf:

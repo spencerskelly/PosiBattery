@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Midac]]"
 chemistry: flooded
 voltageClassV:
   - 6

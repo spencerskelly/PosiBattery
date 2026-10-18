@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Logisnext Americas]]"
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

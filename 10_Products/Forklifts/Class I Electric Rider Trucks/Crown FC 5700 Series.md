@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Crown Equipment]]"
 ratedLoadKgMax: 2948
 systemVoltageV:
   - 36

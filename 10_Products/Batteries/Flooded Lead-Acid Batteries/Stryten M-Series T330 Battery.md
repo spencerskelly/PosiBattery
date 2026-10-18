@@ -10,6 +10,7 @@ tags:
   - battery
   - tubular
 productCategory: battery
+company: "[[Stryten Energy]]"
 chemistry: flooded
 chargeProfile:
   - opportunity

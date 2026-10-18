@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Midac]]"
 chemistry: lithium-ion
 voltageMinV: 24
 voltageMaxV: 120

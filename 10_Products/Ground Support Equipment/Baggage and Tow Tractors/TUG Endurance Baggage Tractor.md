@@ -11,6 +11,7 @@ tags:
   - gse-vehicle
   - lithium
 productCategory: gse
+company: "[[Textron GSE]]"
 commInterfaces:
   - bluetooth
 subtypeOf:

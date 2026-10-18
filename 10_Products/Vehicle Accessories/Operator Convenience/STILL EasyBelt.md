@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[STILL]]"
 subtypeOf:
   - "[[Operator Convenience Accessory]]"
 performs:

@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - adjacent-market
 productCategory: fleet-software
+company: "[[WiBotic]]"
 subtypeOf:
   - "[[Fleet Charging and Energy Management Software]]"
 describedBy:

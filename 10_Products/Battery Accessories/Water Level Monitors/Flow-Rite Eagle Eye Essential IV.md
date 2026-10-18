@@ -11,6 +11,7 @@ tags:
   - scope-aftermarket
   - water-level
 productCategory: battery-accessory
+company: "[[Flow-Rite]]"
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

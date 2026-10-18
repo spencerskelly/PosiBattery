@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

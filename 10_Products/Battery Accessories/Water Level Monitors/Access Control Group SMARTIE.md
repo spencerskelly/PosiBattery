@@ -13,6 +13,7 @@ tags:
   - water-level
   - bluetooth
 productCategory: battery-accessory
+company: "[[Access Control Group]]"
 commInterfaces:
   - bluetooth
 subtypeOf:

@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Purkeys]]"
 subtypeOf:
   - "[[Power Source Interface]]"
 describedBy:
@@ -20,6 +21,8 @@ offeredBy:
   - "[[Raymond]]"
 offeredWith:
   - "[[Raymond 8250 Lithium-Ion Battery]]"
+madeBy:
+  - "[[Purkeys]]"
 ---
 
 # Purkeys Trailer Auxiliary Power System

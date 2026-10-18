@@ -8,6 +8,7 @@ tags:
   - battery-market-reference
   - commercial-product
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery Management System]]"
 describedBy:

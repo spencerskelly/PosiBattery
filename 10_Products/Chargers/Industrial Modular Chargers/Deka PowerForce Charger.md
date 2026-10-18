@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[East Penn Manufacturing]]"
 supportedChemistries:
   - lead-acid
   - lithium-ion

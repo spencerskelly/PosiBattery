@@ -13,6 +13,7 @@ tags:
   - automatic-charging
   - hands-free
 productCategory: charger-accessory
+company: "[[Staubli Electrical Connectors]]"
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:

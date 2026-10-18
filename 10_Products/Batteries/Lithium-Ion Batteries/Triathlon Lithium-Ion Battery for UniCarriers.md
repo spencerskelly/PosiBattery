@@ -10,6 +10,7 @@ tags:
   - battery-market-reference
   - oem-supplied
 productCategory: battery
+company: "[[Triathlon USA]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

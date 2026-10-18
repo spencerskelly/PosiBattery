@@ -12,6 +12,7 @@ tags:
   - lead-acid
   - water-level
 productCategory: battery-accessory
+company: "[[Philadelphia Scientific]]"
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

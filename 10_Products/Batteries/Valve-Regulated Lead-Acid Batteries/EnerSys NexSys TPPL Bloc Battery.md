@@ -10,6 +10,7 @@ tags:
   - battery
   - tppl
 productCategory: battery
+company: "[[EnerSys]]"
 chemistry: tppl
 voltageClassV:
   - 12

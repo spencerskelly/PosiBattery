@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - third-party-kit
 productCategory: vehicle-accessory
+company: "[[RCT]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 describedBy:

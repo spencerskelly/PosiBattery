@@ -10,6 +10,7 @@ tags:
   - accessory
   - software
 productCategory: fleet-software
+company: "[[HOPPECKE]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

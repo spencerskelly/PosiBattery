@@ -11,6 +11,7 @@ tags:
   - charger
   - gse
 productCategory: charger
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

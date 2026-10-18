@@ -10,6 +10,7 @@ tags:
   - charger
   - rebrand
 productCategory: charger
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Xnergy]]"
 powerKwMin: 1.5
 powerKwMax: 9
 subtypeOf:

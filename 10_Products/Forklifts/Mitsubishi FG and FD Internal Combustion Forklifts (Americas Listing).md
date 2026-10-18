@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - internal-combustion
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 subtypeOf:
   - "[[Class V Internal Combustion Pneumatic Tire Truck]]"
 describedBy:

@@ -12,6 +12,7 @@ tags:
   - hands-free
   - dealer-offer
 productCategory: charger
+company: "[[Wiferion]]"
 subtypeOf:
   - "[[Wireless Charger]]"
 describedBy:

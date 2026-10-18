@@ -9,6 +9,7 @@ tags:
   - battery-market-reference
   - lithium
 productCategory: charger
+company: "[[Linde Material Handling]]"
 powerKwMin: 9
 powerKwMax: 30
 outputVoltageMinV: 90

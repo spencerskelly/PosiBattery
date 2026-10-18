@@ -11,6 +11,7 @@ tags:
   - software
   - vehicle-accessory
 productCategory: fleet-software
+company: "[[Phantom Auto]]"
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 describedBy:

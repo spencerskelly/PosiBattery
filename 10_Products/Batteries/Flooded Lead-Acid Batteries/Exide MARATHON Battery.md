@@ -11,6 +11,7 @@ tags:
   - circulation
   - watering
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

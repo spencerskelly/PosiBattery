@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

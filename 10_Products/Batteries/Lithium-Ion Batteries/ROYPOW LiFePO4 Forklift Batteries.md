@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - third-party-kit
 productCategory: battery
+company: "[[ROYPOW]]"
 chemistry: lfp
 voltageMinV: 24
 voltageMaxV: 96

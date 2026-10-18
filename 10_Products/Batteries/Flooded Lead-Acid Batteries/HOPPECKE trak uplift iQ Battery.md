@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[HOPPECKE]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

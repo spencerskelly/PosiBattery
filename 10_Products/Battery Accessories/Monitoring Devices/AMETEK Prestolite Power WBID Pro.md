@@ -11,6 +11,7 @@ tags:
   - scope-aftermarket
   - telemetry
 productCategory: battery-accessory
+company: "[[AMETEK Prestolite Power]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

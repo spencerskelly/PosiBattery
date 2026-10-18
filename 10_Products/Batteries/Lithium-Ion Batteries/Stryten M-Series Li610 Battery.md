@@ -10,6 +10,7 @@ tags:
   - battery
   - hibernation
 productCategory: battery
+company: "[[Stryten Energy]]"
 chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

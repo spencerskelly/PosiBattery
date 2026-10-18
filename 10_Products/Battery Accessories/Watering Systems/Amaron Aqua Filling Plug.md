@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - single-source
 productCategory: battery-accessory
+company: "[[Amara Raja]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 describedBy:

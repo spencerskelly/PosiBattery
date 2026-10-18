@@ -13,6 +13,7 @@ tags:
   - automatic-charging
   - hands-free
 productCategory: charger-accessory
+company: "[[Conductix-Wampfler]]"
 commInterfaces:
   - can-bus
 subtypeOf:

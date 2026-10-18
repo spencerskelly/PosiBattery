@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Midac]]"
 chemistry: flooded
 capacityAhMin: 100
 capacityAhMax: 1550

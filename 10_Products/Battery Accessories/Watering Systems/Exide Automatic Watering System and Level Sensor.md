@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - watering
 productCategory: battery-accessory
+company: "[[Exide Technologies]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

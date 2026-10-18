@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: vrla
 energyKwhMax: 15
 subtypeOf:

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[STILL]]"
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

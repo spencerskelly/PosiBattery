@@ -10,6 +10,7 @@ tags:
   - battery
   - onboard-charger
 productCategory: battery
+company: "[[East Penn Manufacturing]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

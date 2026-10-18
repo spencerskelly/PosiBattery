@@ -10,6 +10,7 @@ tags:
   - charger
   - gse
 productCategory: charger
+company: "[[ITW GSE]]"
 powerKwMin: 60
 powerKwMax: 60
 subtypeOf:

@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - watering
 productCategory: battery-accessory
+company: "[[Philadelphia Scientific]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

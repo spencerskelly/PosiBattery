@@ -12,6 +12,7 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Fronius International]]"
 subtypeOf:
   - "[[Battery Identification and Charge Interface Device]]"
 performs:

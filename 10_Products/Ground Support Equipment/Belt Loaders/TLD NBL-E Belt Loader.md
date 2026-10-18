@@ -10,6 +10,7 @@ tags:
   - gse
   - gse-vehicle
 productCategory: gse
+company: "[[TLD Group]]"
 subtypeOf:
   - "[[GSE Belt Loader]]"
 madeBy:

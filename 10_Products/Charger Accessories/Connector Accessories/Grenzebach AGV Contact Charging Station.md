@@ -11,6 +11,7 @@ tags:
   - accessory
   - automatic-charging
 productCategory: charger-accessory
+company: "[[Grenzebach]]"
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:

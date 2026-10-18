@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Hyster-Yale]]"
 ratedLoadKgMin: 3629
 ratedLoadKgMax: 3629
 subtypeOf:

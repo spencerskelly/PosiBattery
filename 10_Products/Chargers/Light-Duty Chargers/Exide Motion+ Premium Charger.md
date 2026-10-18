@@ -12,6 +12,7 @@ tags:
   - light-duty
   - europe
 productCategory: charger
+company: "[[Exide Technologies]]"
 supportedChemistries:
   - lead-acid
   - lithium-ion

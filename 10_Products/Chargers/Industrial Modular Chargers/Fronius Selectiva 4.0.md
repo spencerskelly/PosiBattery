@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Fronius International]]"
 powerKwMin: 2
 powerKwMax: 30
 supportedChemistries:

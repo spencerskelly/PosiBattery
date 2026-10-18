@@ -10,6 +10,7 @@ tags:
   - battery
   - gel
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: gel
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

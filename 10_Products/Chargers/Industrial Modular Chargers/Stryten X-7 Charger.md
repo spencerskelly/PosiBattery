@@ -10,6 +10,7 @@ tags:
   - charger
   - lithium
 productCategory: charger
+company: "[[Stryten Energy]]"
 powerKwMin: 5
 powerKwMax: 30
 outputVoltageMinV: 24

@@ -12,6 +12,7 @@ tags:
   - vehicle-accessory
   - warning
 productCategory: vehicle-accessory
+company: "[[TVH]]"
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

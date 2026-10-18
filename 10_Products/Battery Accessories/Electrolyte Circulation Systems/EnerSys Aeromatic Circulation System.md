@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
 productCategory: battery-accessory
+company: "[[EnerSys]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 describedBy:

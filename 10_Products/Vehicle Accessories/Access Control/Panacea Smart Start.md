@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Panacea Aftermarket Co.]]"
 subtypeOf:
   - "[[Access Control Device]]"
 performs:

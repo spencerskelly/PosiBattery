@@ -9,6 +9,7 @@ tags:
   - software
   - battery-market-reference
 productCategory: fleet-software
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

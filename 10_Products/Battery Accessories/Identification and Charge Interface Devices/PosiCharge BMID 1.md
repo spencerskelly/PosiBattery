@@ -6,6 +6,7 @@ uid: 20261002162520380skellyspencer
 status: Draft
 productClass: product-variant
 productCategory: battery-accessory
+company: "[[PosiCharge]]"
 aliases:
   - BMID 1
 tags:

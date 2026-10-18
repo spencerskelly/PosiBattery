@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Logisnext Europe]]"
 ratedLoadKgMin: 1400
 ratedLoadKgMax: 2000
 systemVoltageV:

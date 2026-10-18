@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Jungheinrich]]"
 subtypeOf:
   - "[[Operator Convenience Accessory]]"
 performs:

@@ -11,6 +11,7 @@ tags:
   - gel
   - onboard-charger
 productCategory: battery
+company: "[[East Penn Manufacturing]]"
 chemistry: gel
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

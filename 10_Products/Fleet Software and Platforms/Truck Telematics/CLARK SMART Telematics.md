@@ -13,6 +13,7 @@ tags:
   - vehicle-accessory
   - third-party-kit
 productCategory: fleet-software
+company: "[[CLARK Material Handling Company]]"
 commInterfaces:
   - wi-fi
   - cellular

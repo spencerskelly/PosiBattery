@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
 productCategory: battery
+company: "[[Jungheinrich]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

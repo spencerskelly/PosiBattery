@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Godrej Enterprises Group]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

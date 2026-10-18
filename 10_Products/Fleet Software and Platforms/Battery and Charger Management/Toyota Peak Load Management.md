@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+company: "[[Toyota Material Handling]]"
 commInterfaces:
   - bluetooth
 subtypeOf:

@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

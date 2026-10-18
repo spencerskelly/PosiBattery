@@ -11,6 +11,7 @@ tags:
   - stability
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Toyota Material Handling]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

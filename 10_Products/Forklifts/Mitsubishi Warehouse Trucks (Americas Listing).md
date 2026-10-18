@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 subtypeOf:
   - "[[Class III Electric Hand or Hand-Rider Truck]]"
 describedBy:

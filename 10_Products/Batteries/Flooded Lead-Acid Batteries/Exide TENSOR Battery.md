@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: flooded
 chargeProfile:
   - fast

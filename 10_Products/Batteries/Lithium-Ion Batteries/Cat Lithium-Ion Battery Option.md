@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Mitsubishi Logisnext]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

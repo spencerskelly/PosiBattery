@@ -11,6 +11,7 @@ tags:
   - telematics
   - truck-device
 productCategory: fleet-software
+company: "[[Linde Material Handling]]"
 commInterfaces:
   - rfid
 subtypeOf:

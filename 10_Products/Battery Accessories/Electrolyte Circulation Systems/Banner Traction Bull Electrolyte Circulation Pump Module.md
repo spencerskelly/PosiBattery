@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[Banner]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 describedBy:

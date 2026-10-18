@@ -10,6 +10,7 @@ tags:
   - battery
   - lead-acid
 productCategory: battery
+company: "[[Banner]]"
 chemistry: flooded
 voltageClassV:
   - 6

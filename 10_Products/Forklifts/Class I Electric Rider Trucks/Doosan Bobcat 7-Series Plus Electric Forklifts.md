@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Doosan Bobcat]]"
 systemVoltageV:
   - 80
 subtypeOf:

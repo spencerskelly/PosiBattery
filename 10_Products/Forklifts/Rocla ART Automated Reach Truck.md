@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - agv
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 subtypeOf:
   - "[[Powered Industrial Truck]]"
 describedBy:

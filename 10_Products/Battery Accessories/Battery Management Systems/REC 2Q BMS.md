@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[REC (BMS maker)]]"
 commInterfaces:
   - can-bus
 subtypeOf:

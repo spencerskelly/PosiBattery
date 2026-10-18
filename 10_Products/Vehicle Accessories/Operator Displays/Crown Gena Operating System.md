@@ -13,6 +13,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Operator Display]]"
 performs:

@@ -12,6 +12,7 @@ tags:
   - connector
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

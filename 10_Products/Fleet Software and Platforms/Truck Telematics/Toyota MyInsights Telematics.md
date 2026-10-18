@@ -9,6 +9,7 @@ tags:
   - software
   - telematics
 productCategory: fleet-software
+company: "[[Toyota Material Handling]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

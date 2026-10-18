@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Anhui Heli]]"
 ratedLoadKgMin: 1800
 ratedLoadKgMax: 3500
 systemVoltageV:

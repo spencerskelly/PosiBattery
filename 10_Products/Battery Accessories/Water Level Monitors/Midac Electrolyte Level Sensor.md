@@ -10,6 +10,7 @@ tags:
   - accessory
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 describedBy:

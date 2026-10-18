@@ -10,6 +10,7 @@ tags:
   - truck-device
   - fuel-cell
 productCategory: fuel-cell
+company: "[[Nuvera]]"
 subtypeOf:
   - "[[Fuel Cell Power Unit]]"
 performs:

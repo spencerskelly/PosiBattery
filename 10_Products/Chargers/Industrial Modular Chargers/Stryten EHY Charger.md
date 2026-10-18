@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Stryten Energy]]"
 outputVoltageMinV: 24
 outputVoltageMaxV: 80
 outputCurrentMaxA: 240

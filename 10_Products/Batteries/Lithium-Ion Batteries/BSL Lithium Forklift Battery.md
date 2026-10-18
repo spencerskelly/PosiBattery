@@ -14,6 +14,7 @@ tags:
   - third-party-kit
   - unnamed-in-source
 productCategory: battery
+company: "[[Lithium Battery Solutions (BSL)]]"
 chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

@@ -12,6 +12,7 @@ tags:
   - truck-device
   - uwb
 productCategory: vehicle-accessory
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 hasPart:

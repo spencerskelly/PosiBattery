@@ -10,6 +10,7 @@ tags:
   - battery
   - tubular
 productCategory: battery
+company: "[[Midac]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

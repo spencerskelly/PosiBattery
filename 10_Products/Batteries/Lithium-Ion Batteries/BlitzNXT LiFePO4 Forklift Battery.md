@@ -11,6 +11,7 @@ tags:
   - lithium
   - vendor-claims
 productCategory: battery
+company: "[[BlitzNXT]]"
 chemistry: lfp
 voltageMinV: 24
 voltageMaxV: 80

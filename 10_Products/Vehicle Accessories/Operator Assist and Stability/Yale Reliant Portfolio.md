@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Hyster-Yale]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

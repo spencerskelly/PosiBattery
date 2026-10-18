@@ -11,6 +11,7 @@ tags:
   - light-duty
   - lithium
 productCategory: charger
+company: "[[Lester Electrical]]"
 powerKwMin: 0.65
 powerKwMax: 1.425
 outputVoltageMinV: 24

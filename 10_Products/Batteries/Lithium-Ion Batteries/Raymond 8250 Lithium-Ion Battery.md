@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Raymond]]"
 chemistry: lithium-ion
 voltageClassV:
   - 24

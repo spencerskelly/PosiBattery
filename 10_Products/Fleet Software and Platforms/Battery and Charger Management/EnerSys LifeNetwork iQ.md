@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - software
 productCategory: fleet-software
+company: "[[EnerSys]]"
 commInterfaces:
   - ethernet
 subtypeOf:

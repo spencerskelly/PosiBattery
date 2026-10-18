@@ -6,6 +6,7 @@ uid: 20261002150858948skellyspencer
 status: Draft
 productClass: specific-offering
 productCategory: battery-accessory
+company: "[[PosiCharge]]"
 commInterfaces:
   - can-bus
   - bluetooth

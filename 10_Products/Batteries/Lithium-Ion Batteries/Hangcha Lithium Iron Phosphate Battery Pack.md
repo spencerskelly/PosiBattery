@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Hangcha Group]]"
 chemistry: lfp
 voltageMinV: 76.8
 voltageMaxV: 80

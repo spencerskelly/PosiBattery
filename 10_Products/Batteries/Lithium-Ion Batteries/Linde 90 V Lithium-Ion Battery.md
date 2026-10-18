@@ -9,6 +9,7 @@ tags:
   - lithium
   - battery-market-reference
 productCategory: battery
+company: "[[Linde Material Handling]]"
 chemistry: lithium-ion
 voltageClassV:
   - 90

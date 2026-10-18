@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - software
 productCategory: fleet-software
+company: "[[Philadelphia Scientific]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 madeBy:

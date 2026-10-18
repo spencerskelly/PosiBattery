@@ -12,6 +12,7 @@ tags:
   - lead-acid
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[HOPPECKE]]"
 commInterfaces:
   - can-bus
   - bluetooth

@@ -11,6 +11,7 @@ tags:
   - hands-free
   - battery-swap
 productCategory: battery-accessory
+company: "[[Concentric]]"
 subtypeOf:
   - "[[Automated Battery Exchange System]]"
 describedBy:

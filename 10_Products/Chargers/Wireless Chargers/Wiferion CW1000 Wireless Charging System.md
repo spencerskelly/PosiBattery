@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Wiferion]]"
 powerKwMin: 1
 powerKwMax: 1
 outputVoltageMinV: 15

@@ -10,6 +10,7 @@ tags:
   - battery-market-reference
   - unnamed-in-source
 productCategory: fleet-software
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Fleet Software and Platform]]"
 describedBy:

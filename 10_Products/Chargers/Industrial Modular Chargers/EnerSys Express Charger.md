@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[EnerSys]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - adjacent-market
 productCategory: fleet-software
+company: "[[FleetRabbit AI]]"
 subtypeOf:
   - "[[Warehouse and Business Systems Software]]"
 describedBy:

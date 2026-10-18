@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Wiferion]]"
 powerKwMin: 3
 powerKwMax: 6
 subtypeOf:

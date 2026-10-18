@@ -10,6 +10,7 @@ tags:
   - charger
   - gse
 productCategory: charger
+company: "[[PosiCharge]]"
 powerKwMin: 40
 powerKwMax: 80
 outputVoltageMinV: 24

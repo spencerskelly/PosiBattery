@@ -10,6 +10,7 @@ tags:
   - charger
   - truck-device
 productCategory: charger
+company: "[[Delta Energy Systems]]"
 powerKwMin: 0.72
 powerKwMax: 0.72
 subtypeOf:

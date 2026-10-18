@@ -11,6 +11,7 @@ tags:
   - forklift
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[AMETEK Prestolite Power]]"
 subtypeOf:
   - "[[AMETEK Prestolite Power BID]]"
 describedBy:

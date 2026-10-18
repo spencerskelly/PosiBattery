@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Advanced Charging Technologies]]"
 powerKwMin: 2
 powerKwMax: 24
 outputVoltageMinV: 24

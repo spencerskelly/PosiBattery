@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - temporary-install
 productCategory: battery-accessory
+company: "[[Power Designers]]"
 commInterfaces:
   - usb
 subtypeOf:

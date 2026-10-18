@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - unnamed-in-source
 productCategory: battery
+company: "[[Green Cubes Technology]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

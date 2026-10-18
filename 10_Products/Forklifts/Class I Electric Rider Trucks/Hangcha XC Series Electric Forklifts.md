@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Hangcha Group]]"
 powerSource:
   - lithium-ion
 subtypeOf:

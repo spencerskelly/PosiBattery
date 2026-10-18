@@ -10,6 +10,7 @@ tags:
   - posicharge-baseline
   - charger
 productCategory: charger
+company: "[[PosiCharge]]"
 outputVoltageMinV: 24
 outputVoltageMaxV: 80
 subtypeOf:

@@ -11,6 +11,7 @@ tags:
   - gse-vehicle
   - lithium
 productCategory: gse
+company: "[[Mallaghan]]"
 subtypeOf:
   - "[[GSE Belt Loader]]"
 performs:

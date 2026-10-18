@@ -12,6 +12,7 @@ tags:
   - software
   - telematics
 productCategory: fleet-software
+company: "[[Adveez]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

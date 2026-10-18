@@ -13,6 +13,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: fleet-software
+company: "[[Logisnext Americas]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

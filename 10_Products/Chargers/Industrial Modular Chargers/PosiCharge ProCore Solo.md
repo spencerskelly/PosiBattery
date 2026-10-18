@@ -10,6 +10,7 @@ tags:
   - charger
   - posicharge-baseline
 productCategory: charger
+company: "[[PosiCharge]]"
 inputPhases:
   - 1
 subtypeOf:

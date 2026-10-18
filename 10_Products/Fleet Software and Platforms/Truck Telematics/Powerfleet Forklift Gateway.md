@@ -12,6 +12,7 @@ tags:
   - telematics
   - vehicle-accessory
 productCategory: fleet-software
+company: "[[Powerfleet]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 describedBy:

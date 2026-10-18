@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - adjacent-market
 productCategory: fleet-software
+company: "[[Seegrid]]"
 subtypeOf:
   - "[[Robot and AGV Fleet Management Software]]"
 describedBy:

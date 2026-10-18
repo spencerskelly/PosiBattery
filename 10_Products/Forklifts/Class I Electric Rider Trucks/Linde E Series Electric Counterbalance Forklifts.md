@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Linde Material Handling]]"
 systemVoltageV:
   - 36
   - 80

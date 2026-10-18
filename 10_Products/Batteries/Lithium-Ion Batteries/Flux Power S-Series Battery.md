@@ -11,6 +11,7 @@ tags:
   - ibms
   - private-label
 productCategory: battery
+company: "[[Flux Power]]"
 chemistry: lfp
 voltageClassV:
   - 24

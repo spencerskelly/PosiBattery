@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Flux Power]]"
 chemistry: lfp
 voltageClassV:
   - 24

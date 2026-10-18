@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[Ewert Energy Systems]]"
 commInterfaces:
   - can-bus
 subtypeOf:

@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+company: "[[Fronius International]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 performs:

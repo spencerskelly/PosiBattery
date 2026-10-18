@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Crown Equipment]]"
 ratedLoadKgMin: 1500
 ratedLoadKgMax: 1800
 subtypeOf:

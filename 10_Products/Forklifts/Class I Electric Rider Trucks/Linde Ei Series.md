@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - europe
 productCategory: industrial-truck
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 describedBy:

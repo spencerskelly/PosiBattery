@@ -13,6 +13,7 @@ tags:
   - retrofit-kit
   - hands-free
 productCategory: battery
+company: "[[Wiferion]]"
 chemistry: lithium-ion
 voltageMinV: 24
 voltageMaxV: 48

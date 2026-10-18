@@ -10,6 +10,7 @@ tags:
   - posicharge-baseline
   - charger
 productCategory: charger
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 describedBy:

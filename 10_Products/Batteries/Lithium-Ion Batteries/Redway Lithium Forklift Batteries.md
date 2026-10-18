@@ -13,6 +13,7 @@ tags:
   - third-party-kit
   - unnamed-in-source
 productCategory: battery
+company: "[[Redway Power]]"
 chemistry: lithium-ion
 voltageClassV:
   - 24

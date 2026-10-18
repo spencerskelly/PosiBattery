@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[REC (BMS maker)]]"
 subtypeOf:
   - "[[Battery Management System]]"
 performs:

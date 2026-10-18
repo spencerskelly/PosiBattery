@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
 productCategory: battery-accessory
+company: "[[GS Yuasa]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 describedBy:

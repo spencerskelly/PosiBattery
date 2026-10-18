@@ -10,6 +10,7 @@ tags:
   - charger
   - lithium
 productCategory: charger
+company: "[[Exide Technologies]]"
 supportedChemistries:
   - lithium-ion
 subtypeOf:

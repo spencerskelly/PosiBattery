@@ -9,6 +9,7 @@ tags:
   - charger
   - commercial-product
 productCategory: charger
+company: "[[Exide Technologies]]"
 outputCurrentMaxA: 300
 supportedChemistries:
   - lithium-ion

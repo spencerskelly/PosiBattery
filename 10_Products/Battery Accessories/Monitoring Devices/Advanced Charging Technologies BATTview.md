@@ -12,6 +12,7 @@ tags:
   - gse
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Advanced Charging Technologies]]"
 commInterfaces:
   - wi-fi
 subtypeOf:

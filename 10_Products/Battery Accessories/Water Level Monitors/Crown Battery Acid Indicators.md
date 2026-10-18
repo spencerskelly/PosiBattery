@@ -12,6 +12,7 @@ tags:
   - level-sensing
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Battery Water Level Monitor]]"
 performs:

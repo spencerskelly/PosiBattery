@@ -6,6 +6,7 @@ uid: 20261002164202400skellyspencer
 status: Draft
 productClass: specific-offering
 productCategory: battery-accessory
+company: "[[PosiCharge]]"
 commInterfaces:
   - cellular
 aliases:

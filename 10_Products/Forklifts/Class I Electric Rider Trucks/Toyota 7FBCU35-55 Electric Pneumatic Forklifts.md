@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+company: "[[Toyota Material Handling]]"
 ratedLoadKgMin: 3629
 ratedLoadKgMax: 5443
 systemVoltageV:

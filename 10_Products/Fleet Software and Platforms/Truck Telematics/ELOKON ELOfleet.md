@@ -14,6 +14,7 @@ tags:
   - retrofit-kit
   - third-party-kit
 productCategory: fleet-software
+company: "[[ELOKON]]"
 commInterfaces:
   - bluetooth
   - wi-fi

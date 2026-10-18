@@ -10,6 +10,7 @@ tags:
   - gse
   - gse-vehicle
 productCategory: gse
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[GSE Baggage and Tow Tractor]]"
 madeBy:

@@ -11,6 +11,7 @@ tags:
   - gse
 productClass: product-variant
 productCategory: battery
+company: "[[Flux Power]]"
 chemistry: lfp
 voltageClassV:
   - 80

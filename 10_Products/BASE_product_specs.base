@@ -126,6 +126,7 @@ views:
     order:
       - file.name
       - productCategory
+      - company
       - subtypeOf
       - madeBy
       - offeredBy

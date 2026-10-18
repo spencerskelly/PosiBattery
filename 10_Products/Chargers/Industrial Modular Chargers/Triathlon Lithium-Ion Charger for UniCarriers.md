@@ -10,6 +10,7 @@ tags:
   - lithium
   - oem-supplied
 productCategory: charger
+company: "[[Triathlon USA]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

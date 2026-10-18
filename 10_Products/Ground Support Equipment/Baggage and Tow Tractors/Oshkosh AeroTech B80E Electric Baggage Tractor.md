@@ -10,6 +10,7 @@ tags:
   - gse
   - gse-vehicle
 productCategory: gse
+company: "[[Oshkosh AeroTech]]"
 subtypeOf:
   - "[[GSE Baggage and Tow Tractor]]"
 madeBy:

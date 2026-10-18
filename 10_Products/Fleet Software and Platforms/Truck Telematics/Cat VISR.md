@@ -13,6 +13,7 @@ tags:
   - vehicle-accessory
   - retrofit-kit
 productCategory: fleet-software
+company: "[[Logisnext Europe]]"
 commInterfaces:
   - rfid
 subtypeOf:

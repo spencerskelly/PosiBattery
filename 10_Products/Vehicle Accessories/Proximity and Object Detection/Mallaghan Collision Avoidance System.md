@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Mallaghan]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 performs:

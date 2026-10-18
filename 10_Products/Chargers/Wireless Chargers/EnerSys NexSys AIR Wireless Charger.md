@@ -11,6 +11,7 @@ tags:
   - wireless-charging
   - agv
 productCategory: charger
+company: "[[EnerSys]]"
 powerKwMin: 7
 powerKwMax: 10
 outputVoltageMinV: 24

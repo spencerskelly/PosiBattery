@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Delta Energy Systems]]"
 powerKwMin: 1
 powerKwMax: 32
 inputPhases:

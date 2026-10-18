@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - watering
 productCategory: battery-accessory
+company: "[[Flow-Rite]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

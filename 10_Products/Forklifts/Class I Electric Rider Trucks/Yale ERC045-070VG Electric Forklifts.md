@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Hyster-Yale]]"
 ratedLoadKgMin: 2041
 ratedLoadKgMax: 3175
 systemVoltageV:

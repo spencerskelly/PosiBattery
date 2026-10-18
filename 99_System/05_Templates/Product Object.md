@@ -7,6 +7,7 @@ status: Draft
 tags: []
 productClass:
 productCategory:
+company:
 ---
 
 # <% tp.file.title %>

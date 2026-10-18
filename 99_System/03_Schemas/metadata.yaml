@@ -55,6 +55,11 @@ classScoped:
       required: false
       condition: "Product Objects under 10_Products (concrete products and their abstract class notes). Coarse query category; subtypeOf remains the authority for the specific class."
 
+    company:
+      value: wikilink
+      required: false
+      condition: "Product Objects under 10_Products, concrete products only (abstract class notes carry none). Identifiable organization for filtering and grouping; equals the first madeBy link where madeBy exists, otherwise the brand owner or named organization. Does not assert who built the product."
+
     chemistry:
       value: enum
       allowed: ["flooded", "gel", "agm", "tppl", "vrla", "lfp", "nmc", "lithium-ion"]

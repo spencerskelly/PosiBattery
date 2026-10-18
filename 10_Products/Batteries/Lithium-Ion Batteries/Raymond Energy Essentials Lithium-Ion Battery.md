@@ -10,6 +10,7 @@ tags:
   - battery-market-reference
   - distributed-brand
 productCategory: battery
+company: "[[Raymond]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+company: "[[Linde Material Handling]]"
 ratedLoadKgMin: 1814
 ratedLoadKgMax: 2268
 systemVoltageV:

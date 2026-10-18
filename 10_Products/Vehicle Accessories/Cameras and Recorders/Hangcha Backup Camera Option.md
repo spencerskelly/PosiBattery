@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Hangcha Group]]"
 subtypeOf:
   - "[[Vehicle Camera and Recorder]]"
 performs:

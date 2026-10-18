@@ -11,6 +11,7 @@ tags:
   - posicharge-baseline
   - scope-oem-option
 productCategory: charger-accessory
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Charger Thermal Accessory]]"
 performs:

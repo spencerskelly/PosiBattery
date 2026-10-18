@@ -13,6 +13,7 @@ tags:
   - powered-by-posicharge
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Hyster-Yale]]"
 commInterfaces:
   - cellular
 subtypeOf:

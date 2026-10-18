@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Daihen]]"
 powerKwMax: 4
 airGapMmMax: 40
 subtypeOf:

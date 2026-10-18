@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - internal-combustion
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 ratedLoadKgMin: 1361
 ratedLoadKgMax: 2268
 powerSource:

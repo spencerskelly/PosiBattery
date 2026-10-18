@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Wiferion]]"
 powerKwMin: 12
 powerKwMax: 12
 efficiencyPct: 93

@@ -9,6 +9,7 @@ tags:
   - option-package
   - scope-oem-option
 productCategory: vehicle-accessory
+company: "[[Hyster-Yale]]"
 commInterfaces:
   - can-bus
 subtypeOf:

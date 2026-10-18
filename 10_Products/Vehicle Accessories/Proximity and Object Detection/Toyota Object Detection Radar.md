@@ -13,6 +13,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Toyota Material Handling]]"
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
 partOf:

@@ -14,6 +14,7 @@ tags:
   - third-party-kit
   - unnamed-in-source
 productCategory: battery
+company: "[[Chase Technologies]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - watering
 productCategory: battery-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

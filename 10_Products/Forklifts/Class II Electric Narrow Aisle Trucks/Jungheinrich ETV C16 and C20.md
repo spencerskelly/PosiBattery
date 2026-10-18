@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+company: "[[Jungheinrich]]"
 ratedLoadKgMax: 1996
 systemVoltageV:
   - 48

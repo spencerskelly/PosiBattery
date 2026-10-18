@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - software
 productCategory: fleet-software
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

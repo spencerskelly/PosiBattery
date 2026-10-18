@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[EnerSys]]"
 supportedChemistries:
   - lead-acid
   - lithium-ion

@@ -11,6 +11,7 @@ tags:
   - posicharge-baseline
   - scope-aftermarket
 productCategory: vehicle-accessory
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Power Source Interface]]"
 madeBy:

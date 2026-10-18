@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Toyota Material Handling]]"
 subtypeOf:
   - "[[Vehicle Camera and Recorder]]"
 partOf:

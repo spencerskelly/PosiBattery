@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Raymond]]"
 ratedLoadKgMin: 1588
 ratedLoadKgMax: 2041
 systemVoltageV:

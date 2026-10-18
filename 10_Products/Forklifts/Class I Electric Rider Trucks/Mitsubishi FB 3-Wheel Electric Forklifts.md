@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 systemVoltageV:
   - 48
 subtypeOf:

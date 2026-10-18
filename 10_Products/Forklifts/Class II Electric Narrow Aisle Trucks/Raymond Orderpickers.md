@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Raymond]]"
 systemVoltageV:
   - 24
   - 36

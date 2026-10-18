@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[AMETEK Prestolite Power]]"
 subtypeOf:
   - "[[Industrial Modular Charger]]"
 performs:

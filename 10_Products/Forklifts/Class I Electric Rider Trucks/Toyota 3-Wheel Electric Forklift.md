@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - north-america
 productCategory: industrial-truck
+company: "[[Toyota Material Handling]]"
 systemVoltageV:
   - 36
   - 48

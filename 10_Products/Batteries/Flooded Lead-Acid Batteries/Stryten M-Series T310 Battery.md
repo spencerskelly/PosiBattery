@@ -11,6 +11,7 @@ tags:
   - watering
   - tubular
 productCategory: battery
+company: "[[Stryten Energy]]"
 chemistry: flooded
 subtypeOf:
   - "[[Flooded Lead-Acid Traction Battery]]"

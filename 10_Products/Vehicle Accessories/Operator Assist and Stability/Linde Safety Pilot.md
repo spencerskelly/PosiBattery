@@ -12,6 +12,7 @@ tags:
   - stability
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

@@ -234,3 +234,8 @@ Done after the review, at your direction:
 - Checks: `check-product-facets.py` and its workflow were added. A first push of the `interfaces` facet failed `check-relationships.py` because `interfaces` is a governed Port relationship field; it was renamed `commInterfaces` and the new check now rejects any facet name that collides with a relationship field.
 - Lesson recorded for later extraction: a case-insensitive match on "CAN" hit the ordinary word "can", and most "CAN bus" mentions in accessory and software notes are inferred boilerplate. Interface facets use only sentences that state the interface for the product itself.
 
+
+## Follow-up 2026-10-18: company property
+
+- Facet data review: 564 values compared with note text; 546 matched, 18 were word-form misses or class-derived chemistry. One change: chemistry removed from Midac MBS Traction Battery because the note lists VLA and VRLA.
+- `madeBy` audit: of 91 targets, several are brands or divisions (Linde, STILL, Rocla, Triathlon USA, PosiCharge, Power Designers, Textron GSE, Oshkosh AeroTech, Nuvera) and four are sellers recorded as makers (Liftow, Panacea Aftermarket, BlitzNXT, Lithium Battery Solutions). Left unchanged by decision; the new `company` property gives every concrete product an organization for filtering. See [[README_Products]].

@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Powerfleet]]"
 commInterfaces:
   - bluetooth
   - wi-fi

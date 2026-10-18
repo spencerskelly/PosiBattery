@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - software
 productCategory: fleet-software
+company: "[[EnerSys]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

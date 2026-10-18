@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: lfp
 voltageClassV:
   - 25.6

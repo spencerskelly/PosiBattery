@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - gse
 productCategory: charger-accessory
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Charger Accessory]]"
 performs:

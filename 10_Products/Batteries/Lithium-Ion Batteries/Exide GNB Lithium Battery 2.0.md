@@ -11,6 +11,7 @@ tags:
   - ibms
   - status-unclear
 productCategory: battery
+company: "[[Exide Technologies]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

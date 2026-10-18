@@ -12,6 +12,7 @@ tags:
   - lithium
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Inventus Power]]"
 commInterfaces:
   - can-bus
 subtypeOf:

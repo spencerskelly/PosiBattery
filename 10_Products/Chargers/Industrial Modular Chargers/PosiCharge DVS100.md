@@ -10,6 +10,7 @@ tags:
   - charger
   - fast-charge
 productCategory: charger
+company: "[[PosiCharge]]"
 powerKwMax: 20
 outputVoltageMinV: 24
 outputVoltageMaxV: 80

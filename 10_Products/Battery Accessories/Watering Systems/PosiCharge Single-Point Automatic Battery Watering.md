@@ -11,6 +11,7 @@ tags:
   - posicharge-baseline
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[PosiCharge]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

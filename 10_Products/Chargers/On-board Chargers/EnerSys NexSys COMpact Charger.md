@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[EnerSys]]"
 subtypeOf:
   - "[[On-board Charger]]"
 performs:

@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - single-source
 productCategory: battery-accessory
+company: "[[Exide Technologies]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Panacea Aftermarket Co.]]"
 subtypeOf:
   - "[[Vehicle Camera and Recorder]]"
 performs:

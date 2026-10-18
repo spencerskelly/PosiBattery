@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[HOPPECKE]]"
 supportedChemistries:
   - lead-acid
 subtypeOf:

@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[Flux Power]]"
 commInterfaces:
   - can-bus
   - bluetooth

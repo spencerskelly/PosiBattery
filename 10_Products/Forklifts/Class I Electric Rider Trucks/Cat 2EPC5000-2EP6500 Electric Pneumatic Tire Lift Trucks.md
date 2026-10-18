@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Mitsubishi Logisnext]]"
 systemVoltageV:
   - 80
 subtypeOf:

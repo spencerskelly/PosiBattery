@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - adjacent-market
 productCategory: fleet-software
+company: "[[Blue Yonder]]"
 subtypeOf:
   - "[[Warehouse and Business Systems Software]]"
 describedBy:

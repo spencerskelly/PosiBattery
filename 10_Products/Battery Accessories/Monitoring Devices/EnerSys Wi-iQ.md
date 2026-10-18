@@ -11,6 +11,7 @@ tags:
   - gse
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[EnerSys]]"
 commInterfaces:
   - can-bus
   - bluetooth

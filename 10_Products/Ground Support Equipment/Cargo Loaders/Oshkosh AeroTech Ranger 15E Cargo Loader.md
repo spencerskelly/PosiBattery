@@ -11,6 +11,7 @@ tags:
   - gse-vehicle
   - lithium
 productCategory: gse
+company: "[[Oshkosh AeroTech]]"
 subtypeOf:
   - "[[GSE Cargo Loader]]"
 madeBy:

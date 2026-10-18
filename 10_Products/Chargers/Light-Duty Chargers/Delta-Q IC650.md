@@ -12,6 +12,7 @@ tags:
   - oem-supplier
   - lithium
 productCategory: charger
+company: "[[Delta-Q Technologies]]"
 powerKwMin: 0.65
 powerKwMax: 0.65
 outputVoltageMinV: 24

@@ -11,6 +11,7 @@ tags:
   - accessory
   - automatic-charging
 productCategory: charger-accessory
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Charger Connector Accessory]]"
 describedBy:

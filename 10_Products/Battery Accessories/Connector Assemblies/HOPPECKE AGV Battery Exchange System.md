@@ -11,6 +11,7 @@ tags:
   - battery-swap
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[HOPPECKE]]"
 subtypeOf:
   - "[[Automated Battery Exchange System]]"
 describedBy:

@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+company: "[[Advanced Charging Technologies]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:

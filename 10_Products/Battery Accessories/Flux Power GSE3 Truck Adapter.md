@@ -9,6 +9,7 @@ tags:
   - unnamed-in-source
   - commercial-product
 productCategory: battery-accessory
+company: "[[Flux Power]]"
 subtypeOf:
   - "[[Battery-Installed Device]]"
 describedBy:

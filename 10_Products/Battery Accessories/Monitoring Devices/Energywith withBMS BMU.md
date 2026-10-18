@@ -12,6 +12,7 @@ tags:
   - scope-aftermarket
   - telemetry
 productCategory: battery-accessory
+company: "[[Energywith]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

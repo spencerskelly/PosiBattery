@@ -11,6 +11,7 @@ tags:
   - wireless
   - hands-free
 productCategory: charger
+company: "[[Resonant Link]]"
 powerKwMin: 19.2
 powerKwMax: 19.2
 outputCurrentMaxA: 400

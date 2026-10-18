@@ -9,6 +9,7 @@ tags:
   - software
   - telematics
 productCategory: fleet-software
+company: "[[Hyster-Yale]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

@@ -6,6 +6,7 @@ Checks, against classOptionalProperties.Object in element-types.yaml:
 - a category facet appears only on notes whose productCategory is in the facet's category list;
 - facet value types (number, list[number], enum, list[enum]) and enum membership;
 - <quantity>Min is not greater than <quantity>Max;
+- company is a link to a note tagged organization, and equals the first madeBy link where madeBy exists;
 - declared property names do not collide with relationships.yaml fields.
 
 Run from the vault root:
@@ -70,7 +71,18 @@ def collect(node):
 collect(yaml.safe_load(REL.read_text(encoding="utf-8")))
 for name in sorted(set(props) & rel_fields):
     findings.append(("99_System/03_Schemas/element-types.yaml", f"property {name} collides with a relationship field"))
-checked = with_facets = 0
+ORGS = set()
+for _p in ROOT.rglob("*.md"):
+    if ".obsidian" in _p.parts:
+        continue
+    _fm = frontmatter(_p)
+    if _fm and "organization" in (_fm.get("tags") or []):
+        ORGS.add(_p.stem)
+checked = with_facets = with_company = 0
+import re as _re
+def _target(v):
+    m = _re.fullmatch(r"\[\[([^\]|#]+)(?:[|#][^\]]*)?\]\]", v) if isinstance(v, str) else None
+    return m.group(1).strip() if m else None
 for path in sorted(PRODUCTS.rglob("*.md")):
     fm = frontmatter(path)
     if not fm or fm.get("type") != "Object":
@@ -80,6 +92,15 @@ for path in sorted(PRODUCTS.rglob("*.md")):
     cat = fm.get("productCategory")
     if cat is not None and cat not in categories:
         findings.append((rel, f"productCategory {cat!r} not declared"))
+    if "company" in fm:
+        with_company += 1
+        tgt = _target(fm["company"])
+        if tgt is None or tgt not in ORGS:
+            findings.append((rel, f"company {fm['company']!r} is not a link to an organization note"))
+        elif fm.get("madeBy"):
+            first = _target(fm["madeBy"][0])
+            if first != tgt:
+                findings.append((rel, f"company {tgt!r} differs from first madeBy {first!r}"))
     present = [k for k in facets if k in fm]
     if present:
         with_facets += 1
@@ -106,6 +127,7 @@ for path in sorted(PRODUCTS.rglob("*.md")):
 
 print(f"  product Objects checked: {checked}")
 print(f"  with facet properties: {with_facets}")
+print(f"  with company: {with_company}")
 print(f"  declared categories: {len(categories)}; declared facets: {len(facets)}")
 print(f"  findings: {len(findings)}")
 for rel, msg in findings[:50]:

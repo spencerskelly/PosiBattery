@@ -10,6 +10,7 @@ tags:
   - battery
   - lead-acid
 productCategory: battery
+company: "[[GS Yuasa]]"
 chemistry: flooded
 voltageClassV:
   - 24

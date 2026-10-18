@@ -133,3 +133,12 @@ Every Object under this folder carries `productCategory` (9 coarse values that m
 - Empty facets mean the note does not state the figure, not that the product lacks it.
 - `commInterfaces` is named to avoid the governed Port relationship field `interfaces`.
 
+
+## Company property (2026-10-18)
+
+- `company` is a link to an organization note, on every concrete product Object (509 notes), so any Base can group or filter products by an identifiable organization without opening notes.
+- It is a separation aid, not a claim about who built the product. Where `madeBy` exists, `company` equals its first link (446 notes). Where it does not, `company` is the brand owner or the organization named in the note: 25 by product brand prefix (Crown to Crown Equipment, Deka to East Penn Manufacturing, Cat to Mitsubishi Logisnext, and so on), 33 by an organization-name prefix, 3 set by hand.
+- `madeBy`, `offers` and `subsidiaryOf` are unchanged. Brand-versus-legal-entity questions stay open there: Linde, STILL and Rocla are described as brands, PosiCharge and Power Designers as parts of Ampure, and no source in the vault names a separate legal manufacturer for them.
+- New organization notes: [[Purkeys]] and [[SEEN Safety]], each with the product's `madeBy` link added.
+- Not given a company: abstract class notes, the generic classes Class IV Internal Combustion Cushion Tire Truck, Class VI Tractor and Class VII Rough Terrain Forklift, and Battery Thermal Management Device (several vendors named, no single owner).
+- Judgement call: Crown Battery EVOLUTION Series is set to Power Designers because the note says it repeats the REVOLUTION specification and names the PowerTrac; the "Crown Battery" name is not matched to any organization note (C33).

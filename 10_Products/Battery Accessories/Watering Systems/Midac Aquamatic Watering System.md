@@ -12,6 +12,7 @@ tags:
   - scope-oem-option
   - watering
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery Watering System]]"
 performs:

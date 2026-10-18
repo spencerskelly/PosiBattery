@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Class II Electric Narrow Aisle Truck]]"
 describedBy:

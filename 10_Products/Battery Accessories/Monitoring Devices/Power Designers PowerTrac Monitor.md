@@ -11,6 +11,7 @@ tags:
   - lead-acid
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Power Designers]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

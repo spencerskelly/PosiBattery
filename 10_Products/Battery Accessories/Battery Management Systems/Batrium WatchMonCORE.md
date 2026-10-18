@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[Batrium]]"
 commInterfaces:
   - usb
   - rs-485

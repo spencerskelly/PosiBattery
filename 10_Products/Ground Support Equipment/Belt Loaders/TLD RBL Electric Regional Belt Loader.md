@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - gse-vehicle
 productCategory: gse
+company: "[[TLD Group]]"
 subtypeOf:
   - "[[GSE Belt Loader]]"
 madeBy:

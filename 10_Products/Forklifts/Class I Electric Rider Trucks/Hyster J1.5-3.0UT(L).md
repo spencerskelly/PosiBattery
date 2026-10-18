@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - emea
 productCategory: industrial-truck
+company: "[[Hyster-Yale]]"
 ratedLoadKgMin: 1500
 ratedLoadKgMax: 3000
 powerSource:

@@ -12,6 +12,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Operator Assist and Stability System]]"
 performs:

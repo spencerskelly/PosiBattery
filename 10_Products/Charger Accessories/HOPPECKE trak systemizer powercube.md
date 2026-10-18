@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
 productCategory: charger-accessory
+company: "[[HOPPECKE]]"
 subtypeOf:
   - "[[Charger Accessory]]"
 describedBy:

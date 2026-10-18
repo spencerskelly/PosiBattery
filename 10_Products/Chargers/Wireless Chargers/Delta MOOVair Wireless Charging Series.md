@@ -11,6 +11,7 @@ tags:
   - charger
   - wireless
 productCategory: charger
+company: "[[Delta Energy Systems]]"
 powerKwMin: 1
 powerKwMax: 30
 outputVoltageMinV: 24

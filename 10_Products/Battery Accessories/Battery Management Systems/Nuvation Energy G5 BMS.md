@@ -11,6 +11,7 @@ tags:
   - bms
   - external-product
 productCategory: battery-accessory
+company: "[[Nuvation Energy]]"
 subtypeOf:
   - "[[Battery Management System]]"
 madeBy:

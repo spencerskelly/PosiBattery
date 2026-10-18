@@ -11,6 +11,7 @@ tags:
   - scope-aftermarket
   - status-unclear
 productCategory: battery-accessory
+company: "[[Access Control Group]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 performs:

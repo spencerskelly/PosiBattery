@@ -10,6 +10,7 @@ tags:
   - battery
   - lithium-ion
 productCategory: battery
+company: "[[Anhui Heli]]"
 chemistry: lithium-ion
 voltageClassV:
   - 80

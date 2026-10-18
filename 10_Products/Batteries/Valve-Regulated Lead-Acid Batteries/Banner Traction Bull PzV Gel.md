@@ -10,6 +10,7 @@ tags:
   - battery
   - lead-acid
 productCategory: battery
+company: "[[Banner]]"
 chemistry: gel
 subtypeOf:
   - "[[Valve-Regulated Lead-Acid Traction Battery]]"

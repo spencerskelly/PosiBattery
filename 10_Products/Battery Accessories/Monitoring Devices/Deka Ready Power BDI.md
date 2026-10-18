@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[East Penn Manufacturing]]"
 subtypeOf:
   - "[[Battery-Installed Device]]"
 describedBy:

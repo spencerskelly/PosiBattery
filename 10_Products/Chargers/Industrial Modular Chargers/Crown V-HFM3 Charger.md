@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Crown Equipment]]"
 outputVoltageMinV: 24
 outputVoltageMaxV: 96
 outputCurrentMaxA: 600

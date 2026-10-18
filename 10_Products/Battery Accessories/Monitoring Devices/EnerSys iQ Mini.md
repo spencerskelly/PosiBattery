@@ -10,6 +10,7 @@ tags:
   - forklift
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[EnerSys]]"
 subtypeOf:
   - "[[Battery Monitoring Device]]"
 describedBy:

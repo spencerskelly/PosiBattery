@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - truck-device
 productCategory: vehicle-accessory
+company: "[[Toyota Material Handling]]"
 detectionRangeM: 9.75
 subtypeOf:
   - "[[Proximity and Object Detection System]]"

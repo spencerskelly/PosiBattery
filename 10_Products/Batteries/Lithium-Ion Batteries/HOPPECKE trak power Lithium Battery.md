@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
 productCategory: battery
+company: "[[HOPPECKE]]"
 chemistry: lithium-ion
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

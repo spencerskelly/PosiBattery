@@ -13,6 +13,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: fleet-software
+company: "[[Komatsu]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 performs:

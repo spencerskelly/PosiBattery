@@ -8,6 +8,7 @@ tags:
   - battery-landscape
   - category
 productCategory: battery-accessory
+company: "[[PosiCharge]]"
 abstract: true
 subtypeOf:
   - "[[Battery-Connected Product]]"

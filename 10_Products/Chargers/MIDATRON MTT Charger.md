@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Midac]]"
 subtypeOf:
   - "[[Industrial Battery Charger]]"
 describedBy:

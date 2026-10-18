@@ -13,6 +13,7 @@ tags:
   - warning
   - third-party-kit
 productCategory: vehicle-accessory
+company: "[[Liftow]]"
 subtypeOf:
   - "[[Warning Light and Alert]]"
 describedBy:

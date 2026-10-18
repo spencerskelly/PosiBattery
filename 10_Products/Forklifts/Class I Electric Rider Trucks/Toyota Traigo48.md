@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - europe
 productCategory: industrial-truck
+company: "[[Toyota Material Handling]]"
 powerSource:
   - lead-acid
   - lithium-ion

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Midac]]"
 chemistry: lfp
 voltageMinV: 12
 voltageMaxV: 48

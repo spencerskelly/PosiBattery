@@ -10,6 +10,7 @@ tags:
   - battery
   - onboard-charger
 productCategory: battery
+company: "[[Stryten Energy]]"
 chemistry: agm
 voltageClassV:
   - 24

@@ -13,6 +13,7 @@ tags:
   - gse-device
   - gse-option
 productCategory: vehicle-accessory
+company: "[[Oshkosh AeroTech]]"
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

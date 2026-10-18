@@ -12,6 +12,7 @@ tags:
   - connector
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

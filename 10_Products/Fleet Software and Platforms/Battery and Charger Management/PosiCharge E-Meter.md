@@ -11,6 +11,7 @@ tags:
   - scope-oem-option
   - software
 productCategory: fleet-software
+company: "[[PosiCharge]]"
 commInterfaces:
   - cellular
 subtypeOf:

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Midac]]"
 capacityAhMin: 110
 capacityAhMax: 1050
 subtypeOf:

@@ -11,6 +11,7 @@ tags:
   - commercial-product
   - scope-oem-option
 productCategory: charger-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Charger Remote Control and Indicator]]"
 performs:

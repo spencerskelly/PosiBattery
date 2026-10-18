@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[East Penn Manufacturing]]"
 chemistry: flooded
 chargeProfile:
   - conventional

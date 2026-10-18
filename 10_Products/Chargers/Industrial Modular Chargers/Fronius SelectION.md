@@ -10,6 +10,7 @@ tags:
   - charger
   - lithium
 productCategory: charger
+company: "[[Fronius International]]"
 supportedChemistries:
   - lithium-ion
 subtypeOf:

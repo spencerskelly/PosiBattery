@@ -12,6 +12,7 @@ tags:
   - commercial-product
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[Exide Technologies]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 performs:

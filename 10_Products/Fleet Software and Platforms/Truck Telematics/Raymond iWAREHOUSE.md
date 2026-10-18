@@ -13,6 +13,7 @@ tags:
   - truck-oem-option
   - vehicle-accessory
 productCategory: fleet-software
+company: "[[Raymond]]"
 subtypeOf:
   - "[[Truck Telematics Software]]"
 hasPart:

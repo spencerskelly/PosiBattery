@@ -11,6 +11,7 @@ tags:
   - connector
   - scope-aftermarket
 productCategory: battery-accessory
+company: "[[Anderson Power Products]]"
 subtypeOf:
   - "[[Battery Connector Assembly]]"
 performs:

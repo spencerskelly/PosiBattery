@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Logisnext Americas]]"
 ratedLoadKgMin: 1814
 ratedLoadKgMax: 3629
 subtypeOf:

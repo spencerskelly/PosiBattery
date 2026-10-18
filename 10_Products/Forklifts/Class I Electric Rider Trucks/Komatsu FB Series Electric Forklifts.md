@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Komatsu]]"
 subtypeOf:
   - "[[Class I Electric Rider Truck]]"
 performs:

@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - unnamed-in-source
 productCategory: battery-accessory
+company: "[[Amara Raja]]"
 subtypeOf:
   - "[[Battery-Installed Device]]"
 describedBy:

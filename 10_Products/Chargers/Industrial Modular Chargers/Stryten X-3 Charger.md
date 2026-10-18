@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - charger
 productCategory: charger
+company: "[[Stryten Energy]]"
 powerKwMin: 3
 powerKwMax: 30
 outputVoltageMinV: 24

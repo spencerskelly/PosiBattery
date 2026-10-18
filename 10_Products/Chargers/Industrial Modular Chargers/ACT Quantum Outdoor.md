@@ -10,6 +10,7 @@ tags:
   - charger
   - gse
 productCategory: charger
+company: "[[Advanced Charging Technologies]]"
 outputVoltageMinV: 24
 outputVoltageMaxV: 96
 subtypeOf:

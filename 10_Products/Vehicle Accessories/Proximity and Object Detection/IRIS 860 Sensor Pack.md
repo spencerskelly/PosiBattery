@@ -12,6 +12,7 @@ tags:
   - truck-device
   - vehicle-accessory
 productCategory: vehicle-accessory
+company: "[[SEEN Safety]]"
 detectionRangeM: 8
 subtypeOf:
   - "[[Proximity and Object Detection System]]"
@@ -21,6 +22,8 @@ performs:
   - "[[Warn Pedestrians of Approaching Truck]]"
 offeredBy:
   - "[[Holt of California]]"
+madeBy:
+  - "[[SEEN Safety]]"
 ---
 
 # IRIS 860 Sensor Pack

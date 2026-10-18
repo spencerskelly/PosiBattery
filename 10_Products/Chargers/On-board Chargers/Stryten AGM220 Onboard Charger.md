@@ -10,6 +10,7 @@ tags:
   - commercial-product
   - unnamed-in-source
 productCategory: charger
+company: "[[Delta-Q Technologies]]"
 subtypeOf:
   - "[[On-board Charger]]"
 describedBy:

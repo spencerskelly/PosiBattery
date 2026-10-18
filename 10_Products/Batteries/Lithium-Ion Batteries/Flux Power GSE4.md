@@ -11,6 +11,7 @@ tags:
   - gse
 productClass: product-variant
 productCategory: battery
+company: "[[Flux Power]]"
 chemistry: lithium-ion
 voltageClassV:
   - 80

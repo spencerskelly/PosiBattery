@@ -11,6 +11,7 @@ tags:
   - truck-device
   - warning
 productCategory: vehicle-accessory
+company: "[[Linde Material Handling]]"
 subtypeOf:
   - "[[Warning Light and Alert]]"
 performs:

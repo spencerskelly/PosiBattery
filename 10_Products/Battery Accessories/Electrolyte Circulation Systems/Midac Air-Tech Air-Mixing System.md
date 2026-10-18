@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - accessory
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 describedBy:

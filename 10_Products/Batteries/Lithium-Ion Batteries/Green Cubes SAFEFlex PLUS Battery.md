@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Green Cubes Technology]]"
 chemistry: lfp
 voltageClassV:
   - 24

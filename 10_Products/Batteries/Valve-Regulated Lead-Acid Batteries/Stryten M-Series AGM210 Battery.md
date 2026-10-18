@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - battery
 productCategory: battery
+company: "[[Stryten Energy]]"
 chemistry: agm
 voltageClassV:
   - 6

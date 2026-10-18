@@ -9,6 +9,7 @@ tags:
   - commercial-product
   - forklift-model
 productCategory: industrial-truck
+company: "[[Hyster-Yale]]"
 systemVoltageV:
   - 80
 powerSource:

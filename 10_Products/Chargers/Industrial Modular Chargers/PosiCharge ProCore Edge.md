@@ -10,6 +10,7 @@ tags:
   - charger
   - opportunity-charge
 productCategory: charger
+company: "[[PosiCharge]]"
 powerKwMin: 6
 powerKwMax: 30
 outputVoltageMinV: 24

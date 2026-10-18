@@ -10,6 +10,7 @@ tags:
   - battery
   - ibms
 productCategory: battery
+company: "[[Green Cubes Technology]]"
 chemistry: lfp
 voltageClassV:
   - 48

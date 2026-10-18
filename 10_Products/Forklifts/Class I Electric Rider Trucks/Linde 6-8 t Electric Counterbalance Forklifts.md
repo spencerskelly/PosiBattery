@@ -10,6 +10,7 @@ tags:
   - forklift-model
   - europe
 productCategory: industrial-truck
+company: "[[Linde Material Handling]]"
 ratedLoadKgMin: 6000
 ratedLoadKgMax: 8000
 systemVoltageV:

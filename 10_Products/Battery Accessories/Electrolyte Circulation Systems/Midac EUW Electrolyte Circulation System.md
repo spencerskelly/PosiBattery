@@ -12,6 +12,7 @@ tags:
   - commercial-product
   - scope-oem-option
 productCategory: battery-accessory
+company: "[[Midac]]"
 subtypeOf:
   - "[[Electrolyte Circulation System]]"
 performs:

@@ -10,6 +10,7 @@ tags:
   - battery
   - lead-acid
 productCategory: battery
+company: "[[Leoch]]"
 chemistry: flooded
 voltageClassV:
   - 2

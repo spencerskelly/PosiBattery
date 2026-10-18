@@ -19,6 +19,8 @@ rolePlayedBy:
   - "[[ELOKON]]"
   - "[[Litum]]"
   - "[[Liftow]]"
+  - "[[Purkeys]]"
+  - "[[SEEN Safety]]"
   - "[[RCT]]"
   - "[[Vahle]]"
   - "[[Conductix-Wampfler]]"

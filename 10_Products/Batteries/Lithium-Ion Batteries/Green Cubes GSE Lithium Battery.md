@@ -12,6 +12,7 @@ tags:
   - heater
   - gse
 productCategory: battery
+company: "[[Green Cubes Technology]]"
 chemistry: lfp
 subtypeOf:
   - "[[Lithium-Ion Traction Battery]]"

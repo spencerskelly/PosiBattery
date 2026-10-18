@@ -12,6 +12,7 @@ tags:
   - commercial-product
   - scope-oem-option
 productCategory: charger-accessory
+company: "[[Crown Equipment]]"
 subtypeOf:
   - "[[Cable Management Accessory]]"
 performs:

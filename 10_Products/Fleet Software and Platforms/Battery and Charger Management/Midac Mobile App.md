@@ -11,6 +11,7 @@ tags:
   - software
   - unnamed-in-source
 productCategory: fleet-software
+company: "[[Midac]]"
 subtypeOf:
   - "[[Battery and Charger Management Software]]"
 describedBy:
