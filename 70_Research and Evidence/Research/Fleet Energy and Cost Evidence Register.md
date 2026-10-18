@@ -32,6 +32,9 @@ describedBy:
   - "[[Document - EIA CBECS 2018 Table B21 Energy end uses, number of buildings]]"
   - "[[Document - BLS Industries at a Glance Warehousing and Storage (NAICS 493)]]"
   - "[[Document - ITA Economic Impact Study (Oxford Economics), reported by Material Handling & Logistics (2017)]]"
+  - "[[Document - Prologis Form 10-K for Fiscal 2025 (Business section)]]"
+  - "[[Document - JLL U.S. Industrial Market Dynamics, Q2 2026 (published 2026-07-21)]]"
+  - "[[Document - Walmart Places USD 7.3M Order for Electrovaya Forklift Battery Systems (Plant)]]"
 ---
 
 # Fleet Energy and Cost Evidence Register
@@ -72,6 +75,8 @@ The same question (what does electrification cost and who pays) gets different a
 | US installed base | **not found** | none |
 
 Order-of-magnitude check only (assumption: 10-year truck life, not sourced): US sales of 200,000 to 350,000 a year imply a stock of roughly 2 to 3.5 million trucks (derived); California's 175,000 (80,000 + 95,000, derived) would then be 5 to 9% of it. This is arithmetic on an assumption, not an estimate.
+
+**Customer-side anchors.** Prologis's consolidated portfolio holds more than 4,000 customers in 649 million sq ft, and 6,500 customers in 1.3 billion sq ft in the owned and managed portfolio ([[Document - Prologis Form 10-K for Fiscal 2025 (Business section)|pld]]); US industrial vacancy was 6.8% in Q2 2026 with 276 million sq ft under construction ([[Document - JLL U.S. Industrial Market Dynamics, Q2 2026 (published 2026-07-21)|jll]]). A single large retailer order shows scale: USD 7.3 million to convert all forklifts at two Walmart Canada distribution centres, with no unit counts given ([[Document - Walmart Places USD 7.3M Order for Electrovaya Forklift Battery Systems (Plant)|wmc]]). Fleets of one site run to about 107 trucks ([[Document - Smart Charging Technologies comment letter to Oregon DEQ (2023-06-05)|sct]]); the average California fleet is 8.6 trucks (derived).
 
 ### 3. Energy: trucks, batteries and buildings
 
