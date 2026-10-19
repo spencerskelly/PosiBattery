@@ -32,8 +32,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 6 | `60_Stakeholders and Ecosystem` | Reviewed; recorded | Main README, Customer Actors and Organizations READMEs, Fleet Operations Manager, PosiCharge, Business Relationship Ledger |
 | 7 | `70_Research and Evidence` | Reviewed; recorded | Root README, Research README, Source Documents README and dated audit |
 | 8 | `80_Decisions and Planning` | Reviewed; recorded | Main README, Knowledge Base Backlog, Architecture Improvement Plan, Semantic Linking Completion Plan, ChatReview |
-| 9 | `90_Definitions and Reusable Reference` | NEXT — not reviewed | |
-| 10 | `99_System` | Pending | |
+| 9 | `90_Definitions and Reusable Reference` | Reviewed; recorded | Main README, Definitions README, Properties README |
+| 10 | `99_System` | NEXT — not reviewed | |
 
 ## Step 1 — 10_Products (reviewed 2026-10-18)
 **Scope:** Commercial product catalog for industrial batteries, battery accessories, chargers, charger accessories, fleet software/platforms, forklifts, GSE, vehicle accessories and fuel-cell power units. A product record links to maker, technical Functions and Designs and supporting sources.
@@ -213,6 +213,28 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Decisions and Planning README](../80_Decisions%20and%20Planning/README_Decisions%20and%20Planning.md).
 
+## Step 9 — 90_Definitions and Reusable Reference (reviewed 2026-10-19)
+**Scope:** Shared definitions, model relationship and metadata/property semantics, and future reusable cross-product engineering reference knowledge. Runtime schemas and tools under `99_System` remain authoritative for enforcement; these notes explain meaning.
+
+**Evidence examined:** `90_Definitions and Reusable Reference/README_Definitions and Reusable Reference.md`, `Definitions/README_Definitions.md`, `Definitions/Properties/README_Properties.md` and their 2026-10-18 audits. Existing links to a Property Dictionary are documented, but its content was not independently inspected here.
+
+**Inventory:** 51 Markdown files including 45 Property Definition notes, 3 methodology/authoring notes and 3 READMEs; 48 non-README files are untyped as model notes. The root audit identifies no dedicated industry technology, protocol, units or abbreviation notes yet. Includes 3 Base files and 1 Canvas in the domain.
+
+**Strengths:** Explicit direction that runtime `element-types.yaml` and `relationships.yaml` govern semantic contracts, while property notes are explanatory. The guide distinguishes specialization vs composition, port interaction vs exposure, realization vs requirement satisfaction, causation vs impact, and evidence/trace. Controlled rules prevent casual renaming, merging or deprecation of relationships. Definition-vs-research boundary is sound.
+
+**Important findings:**
+1. **HIGH — Reference library is mostly modeling documentation (F-15).** The folder currently lacks reusable domain concepts even though its purpose calls out technologies, protocols, units and abbreviations. Carefully select a modest set of cross-product concepts (CAN, SOC/SOH vocabulary, charge regimes, etc.) for true independent definitions; do not move architecture Designs or raw research into reference solely to populate folders.
+2. **HIGH — Property dictionary incomplete (F-17).** 36 used fields have no dedicated Property Definition, including `sourceClass`, `sourceUrl`, `accessed`, `madeBy`, `productClass`, `reuseScope`, `aliases`, and several business relationships. Fourteen inverses appear only within other definitions; 22 defined properties unused. Prioritize high-usage and safety-relevant semantics, checking against controlled schema.
+3. **HIGH — Note layout authority conflict (F-04).** `Note Layout` disagrees with templates and the majority of notes over the `## Definition` and `## Notes` sections. Set canonical contract in alignment with runtime/templates before changing existing documents.
+4. **MEDIUM — Methodology/reference boundary.** `EA Source Section`, `Changing Your Author Code`, and note-authoring guidance partially overlap `99_System` administration. Decide their authority, then migrate or cross-reference in a controlled way rather than silently duplicating.
+5. **MEDIUM — Untyped notes and navigation.** Most reference notes lack the ordinary model type; confirm whether this is intentional non-model documentation or should adopt controlled semantic classes only after requirements are known.
+
+**Priority recommendations:** (1) Resolve template-vs-Note Layout guidance; (2) document the 36 high-use fields from active schema and check inverse definitions; (3) clarify methodology vs reference ownership; (4) seed a small genuinely reusable technical reference library; (5) add a property coverage/usage view.
+
+**Engineering opportunity:** Common technical vocabulary for system-of-systems analysis, shared consistently across BMID, charger, forklift, and GSE implementations without conflating generic concepts with product-specific Designs or source evidence.
+
+**Source:** [Definitions and Reusable Reference README](../90_Definitions%20and%20Reusable%20Reference/README_Definitions%20and%20Reusable%20Reference.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -220,4 +242,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–8 completed and documented. **Next:** review `90_Definitions and Reusable Reference/README_Definitions and Reusable Reference.md`, reusable terminology, property definitions, semantic ownership, and references. Update this file and commit before requesting 'y' for folder 10.
+**Current checkpoint:** Steps 1–9 completed and documented. **Next:** review `99_System/README_System.md`, runtime configuration, schemas, templates, tools, validation, release/bootstrap and AI authoring rules. Update this file and commit before requesting 'y' for consolidation after folder 10.
