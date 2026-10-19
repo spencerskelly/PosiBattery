@@ -27,8 +27,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 1 | `10_Products` | Reviewed; recorded | `10_Products/README_Products.md` and README audits for Batteries, Battery Accessories, Chargers, Forklifts, Vehicle Accessories |
 | 2 | `20_Product Architecture` | Reviewed; recorded | `20_Product Architecture/README_Product Architecture.md` |
 | 3 | `30_Product Capabilities` | Reviewed; recorded | Main README plus Product Functions, Product Designs, Performance Metrics, California Regulatory Requirements, Fire and Safety Code Requirements READMEs |
-| 4 | `40_Use and Operations` | NEXT — not reviewed | |
-| 5 | `50_Customer Needs` | Pending | |
+| 4 | `40_Use and Operations` | Reviewed; recorded | Main README, Start a Shift and Confirm Vehicle Energy Readiness, Charge a BMID-Equipped Battery Using Battery Information, Material-Handling Fleet Site |
+| 5 | `50_Customer Needs` | NEXT — not reviewed | |
 | 6 | `60_Stakeholders and Ecosystem` | Pending | |
 | 7 | `70_Research and Evidence` | Pending | |
 | 8 | `80_Decisions and Planning` | Pending | |
@@ -98,6 +98,28 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Product Capabilities README](../30_Product%20Capabilities/README_Product%20Capabilities.md).
 
+## Step 4 — 40_Use and Operations (reviewed 2026-10-18)
+**Scope:** Actor-controlled operations, workflows, use contexts, operating environments and maintenance/service scenarios, distinct from product-controlled Functions and desired-outcome Customer Needs. No subfolders; the folder includes 2 Base views and 1 Canvas.
+
+**Evidence examined:** `40_Use and Operations/README_Use and Operations.md` (2026-10-18 audit); individual records `Start a Shift and Confirm Vehicle Energy Readiness.md`, `Charge a BMID-Equipped Battery Using Battery Information.md`, and `Material-Handling Fleet Site.md`. The counts below are recorded audit metrics, not a fresh enumeration of all notes.
+
+**Inventory:** 45 Markdown notes, 44 typed Use Case notes (all Draft), comprising 29 `subtype: what` and 15 `subtype: where`. All 44 have `participants`; 23 have `realizedBy`; 11 link a Document anywhere; only 1 has `describedBy`. `when` and `who` subtype categories are not used. Major context hub `Material-Handling Fleet Site` has 22 inbound links.
+
+**Strengths:** The README clearly distinguishes operational Use Cases (external actor goals), product Functions (controlled behavior), contextual conditions and technical Designs. Both forklift and airport GSE contexts are modeled. Sampled operational records express actors, conditions and outcomes; Start a Shift links to several energy-status Functions and needs. The BMID charging scenario correctly limits BMID responsibility to battery identity/condition information, rather than claiming the BMID controls charger power. The root establishes a controlled policy for synchronized `realizedBy`/inverse links.
+
+**Important findings:**
+1. **HIGH — Unclear primary-evidence chain (F-02).** Only 1/44 records uses `describedBy` and 11 link a Document. Several contexts reference analyst research (e.g. `PosiCharge Market Segments and Jobs-to-Be-Done`) rather than curated source documents; separate observed workflows from analyst hypotheses and reconnect authoritative provenance without inventing it.
+2. **HIGH — Formal Function support is partial (F-13).** 23/44 use `realizedBy`; 15 context/`where` notes do not necessarily need direct realization, so analyze the 29 `what` scenarios independently and preserve legitimate intentionally-unmapped cases. Do not bulk-link.
+3. **MEDIUM — Actor vs system participant roles.** Sample `Charge a BMID-Equipped Battery Using Battery Information` lists operators, a technician, and `PosiCharge BMID` in `participants`. Confirm intended semantics for actor and participating technical system in modeling rules and Workbench; avoid forced retyping.
+4. **MEDIUM — Operational workflow detail.** Sampled Use Cases include trigger, completion, related needs and contexts, but not consistent ordered steps, alternate branches, faults, exceptions and recovery. Add only where workflows are explicitly evidenced or approved; do not infer product behavior as fact.
+5. **MEDIUM — Coverage/navigation.** Actor, location, scenario subtype, realization and confidence facets should appear together in a Base, revealing unmapped scenarios without treating context notes as deficient.
+
+**Recommended order:** (1) Evidence/assumption status per scenario; (2) scenario-only Function realization gap view; (3) distinguish actor vs system participation; (4) priority workflow step/exception models; (5) actor/environment/Function traceability views.
+
+**Engineering opportunity:** Scenario-driven validation: actor intent → operating context → supporting Function → Design / Product → requirement / verification case, with documented triggers, alternate paths and success conditions.
+
+**Source:** [Use and Operations README](../40_Use%20and%20Operations/README_Use%20and%20Operations.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -105,4 +127,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–3 completed and documented. **Next:** read `40_Use and Operations/README_Use and Operations.md` and relevant subfolder/operational Use Case notes. Review actor behavior, workflows, scenarios, ownership and links to needs/functions/products. Update this file and commit before reporting step 4 and requesting 'y'.
+**Current checkpoint:** Steps 1–4 completed and documented. **Next:** read `50_Customer Needs/README_Customer Needs.md` and sample needs, inspect expressed outcomes, actors, operational traceability, Function realization, and provenance. Update this file and commit before reporting step 5 and requesting 'y'.
