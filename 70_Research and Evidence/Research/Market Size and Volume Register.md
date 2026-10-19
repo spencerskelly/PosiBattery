@@ -66,6 +66,8 @@ Source: [[Document - World Industrial Truck Statistics 2025 Q4 Factsheet|wi25]].
 
 Americas 2025 shipments by class: Class 1 79,647; Class 2 57,264; Class 31 48,971; Class 32 127,012; Classes 4/5 121,646. Derived: Americas Class 1 plus Class 2 shipments are 136,911.
 
+Regional class tables for 2023, 2024 and 2025 (shipments by Europe, Americas, Asia, Africa, Oceania) are in [[Regional Market Size Model]]. Year labels are assigned by position; the 2023 and 2025 tables match the world totals in the two factsheet notes, the 2024 table is the 2025 factsheet's column in conflict W1.
+
 **Cross-check on volume.** [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]] cites WITS for approximately 2.4 million trucks worldwide in 2025 and approximately 435,000 in the Americas, which matches the 2025 factsheet (2,381,417 and 434,540).
 
 **Cross-check on electric share.** [[Document - KION Annual Report 2025 Sectoral Conditions|kcs]] (citing WITS January to September) puts electric forklift and warehouse trucks at 78% of 2025 orders and 76% of 2024. The 2025 factsheet gives 79.4% for 2025 and 77.0% for its 2024 column (derived), which agrees. The older 2024 factsheet gives 70.7% (derived) for 2024.

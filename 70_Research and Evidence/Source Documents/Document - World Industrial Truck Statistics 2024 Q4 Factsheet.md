@@ -13,6 +13,7 @@ sourceUrl: "https://fem-eur.com/wp-content/uploads/2025/07/2024-Q4_WITS-Factshee
 accessed: 2026-10-18
 describes:
   - "[[Market Size and Volume Register]]"
+  - "[[Regional Market Size Model]]"
 ---
 
 # Document - World Industrial Truck Statistics 2024 Q4 Factsheet

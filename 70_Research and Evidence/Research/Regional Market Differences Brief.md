@@ -12,6 +12,7 @@ tags:
 describes:
   - "[[Battery-Connected Product]]"
 describedBy:
+  - "[[Regional Market Size Model]]"
   - "[[Document - PSR Show Report Movimat 2024 Brazil (2024-11)]]"
   - "[[Document - Thomson Reuters Mexico Approves Tariff Hikes on Imports from China and Other Non-Treaty Countries (2025-12-15)]]"
   - "[[Document - China Forklift Market 2024 Sales per CCMA via machinery.yieh.com (2025)]]"
@@ -41,10 +42,11 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | 1 | US and Canada | Deep: clean fuel programs, fire code, CARB and EPRI primary texts | OSHA numbers (IB-333); measured fleet data (IB-258) |
 | 1 | Mexico | Thin: one tariff summary [S]; no forklift market, battery or charger rule data | IB-334 |
 | 2 | South America (Brazil) | Thin: one trade-show recap, claims only [V] | IB-335 |
-| 3 | Asia | WITS regional totals; China 2024 sales via trade press; no India, Japan or Southeast Asia detail | IB-336 |
+| 3 | Asia | WITS regional class tables 2023 to 2025; China 2024 sales via trade press; no India, Japan or Southeast Asia detail | IB-336 |
 | 4 | Europe | Battery regulation text read [P]; ZVEI/DIN ventilation [P]; no market, incentive or chemistry-mix data | IB-332 |
 | 5 | Rest of world | WITS totals only (Africa 29,486; Oceania 33,440 in 2025) | IB-337 |
 
+- **Sizing:** see [[Regional Market Size Model]]: Asia 50.8% of 2025 shipments, Europe 28.3%, Americas 18.2%; the Americas row mixes North and South America (IB-339).
 - **Challenge to the order:** WITS 2025 shipments put Asia at 1,210,288 of 2,381,417 (51%), Europe 673,663 (28%), Americas 434,540 (18%). Volume does not rank the regions this way; the order holds only if it reflects where PosiCharge sells or can sell. Asia's volume is dominated by Chinese domestic makers (CCMA: 805,000 domestic sales of 1,285,500 in 2024), so addressable share is a separate question (IB-336).
 - **Regions covered:** California, Oregon, Washington, New Mexico, British Columbia, Canada (federal), the EU with Germany as the only country-level evidence, and US federal. Thinly researched: Mexico, Brazil, China. Not researched: other US states with clean fuel bills, UK, India, Japan, Southeast Asia, Africa, Oceania.
 - **Open dependency:** no vault note says which regions PosiCharge sells into (IB-281). The brief therefore covers every region with evidence and says which decisions each one informs.
@@ -102,7 +104,8 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | Price gap, 5,001 to 6,000 lb truck (2021 dollars) | propane $47,292; lead-acid electric $64,844; lithium electric $78,326 | California | CARB impact assessment [P] |
 | Electricity price | statewide weighted $0.18 per kWh (2021 dollars); large fleet $0.16; small fleet $0.22 | California | CARB impact assessment [P] |
 | Europe lead-acid versus lithium split, energy per truck, prices | not in the vault | Europe | [?] (IB-332) |
-| China forklift sales 2024 | 1,285,500 (domestic 805,000; exports 480,500); electric 946,300 (73.61%); lithium share not stated | China | [[Document - China Forklift Market 2024 Sales per CCMA via machinery.yieh.com (2025)]] [S], trade press (C355) |
+| China forklift sales 2024 | 1,285,500 (domestic 805,000; exports 480,500); electric 946,300 (73.61%); lithium share not stated; exceeds the WITS total for all Asia (1,059,429) | China | [[Document - China Forklift Market 2024 Sales per CCMA via machinery.yieh.com (2025)]] [S], trade press (C355) |
+| Class 1+2 shipments 2025 and change since 2023 | Asia 275,888 (+22.1%); Europe 171,241 (-6.0%); Americas 136,911 (+16.0%) | World regions | [[Regional Market Size Model]] (WITS) [S] |
 | Regional lithium penetration targets | Europe 50% by 2025; US not before 2032; China above 73% by 2034 | World regions | Interact via [[Market Size and Volume Register]] [V] |
 | Brazil electric share | Heli claims two of three machines it sells are electric; no market-wide figure | Brazil | [[Document - PSR Show Report Movimat 2024 Brazil (2024-11)]] [V] |
 | Mexico import tariffs on non-treaty countries | up to 35% on most goods, machinery 25-35%, from 2026-01-01; trucks and batteries unconfirmed | Mexico | [[Document - Thomson Reuters Mexico Approves Tariff Hikes on Imports from China and Other Non-Treaty Countries (2025-12-15)]] [S] |

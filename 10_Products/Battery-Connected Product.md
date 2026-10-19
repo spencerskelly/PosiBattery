@@ -49,6 +49,7 @@ describedBy:
   - "[[Function-to-Solution Coverage Register]]"
   - "[[Reviewed Documents Register]]"
   - "[[Regional Market Differences Brief]]"
+  - "[[Regional Market Size Model]]"
 ---
 
 # Battery-Connected Product
