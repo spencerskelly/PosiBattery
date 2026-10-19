@@ -53,6 +53,7 @@ describedBy:
   - "[[Charger and Monitor Public Price Register]]"
   - "[[Non-Public Content Audit Register]]"
   - "[[Market Definition and Scope]]"
+  - "[[US Installed Base Model]]"
 ---
 
 # Battery-Connected Product

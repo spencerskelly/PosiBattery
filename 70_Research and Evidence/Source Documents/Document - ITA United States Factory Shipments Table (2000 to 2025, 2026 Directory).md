@@ -14,6 +14,7 @@ accessed: 2026-10-18
 describes:
   - "[[Regional Market Size Model]]"
   - "[[Market Definition and Scope]]"
+  - "[[US Installed Base Model]]"
 ---
 
 # Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)
