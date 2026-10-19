@@ -445,6 +445,19 @@ Run at one exact current `main` SHA with Python 3.12/Node 22 on Ubuntu 24.04 whe
 
 **Disposition:** Runtime/workflow *definition coverage* verified for two principal gates. Whether current `main` passes remains unverified. Future steps should target obtaining a real Actions run or clean checkout test result rather than repeating unchanged connector searches. No scripts/schema/model or issue states were modified.
 
+## Process stabilization — direct validation tool and runbook (2026-10-19)
+
+**Reason:** Four R02 review cycles accumulated documentation without a definitive CI result because the connector exposes issue/file operations but not full push-triggered GitHub Actions conclusions, while the container has no GitHub network DNS. Continuing the same checks is not productive.
+
+**Implemented on `main`:**
+1. [`99_System/09_Tools/check-ci-baseline.py`](../99_System/09_Tools/check-ci-baseline.py) (commit `3506b7601184c9856ec9a234e6eada7d785870d1`): read-only, single command under authenticated `gh`. Fetches exact `main` SHA, inspects latest 100 Actions runs for MDSE Vault Audit and Semantic Linking Completion Gate on that SHA, prints conclusions and run URLs and issue #2/#3/#5 states; exits 0 verified core CI green, 1 failed/incomplete, 2 unavailable. No note, schema or workflow edits.
+2. [`R02 Validation Runbook.md`](R02%20Validation%20Runbook.md) (commit `485efe0b9ba5e0ee591cbd6bafaa662a9f7e926d`): one-command instructions; separately distinguishes CI from local model and clean-vault UI acceptance; documents manual `workflow_dispatch` fallback and actionable interpretation of absent/pending/failed checks.
+3. **Process rule:** Do not commit repeated 'unable to retrieve Actions' notes; require a new actual test result, confirmed changed repository state or distinct remediation for future R02 updates. Preserve and prioritize R01 public-source confidentiality audit independently.
+
+**Required independent verification:** The new Python helper was not run in an environment with authenticated `gh`, so its behavior and live results must be tested on the user's GitHub-connected machine. No claim of passing model validation, green Actions, or successful clean-vault startup is made here. Follow the runbook and paste the one-command output or commit real CI evidence before closing R02.
+
+**Next priority:** Obtain one real, exact-SHA report via the script (or GitHub Actions interface); fix only demonstrated failures. In parallel, begin the urgent R01 public-document rights review with owner decisions. The goal is actionable checkpoints instead of indefinite yes/continue review loops.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -452,4 +465,4 @@ Run at one exact current `main` SHA with Python 3.12/Node 22 on Ubuntu 24.04 whe
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap and R02 passes 1–4 documented. Pass 4 directly inspected the two principal workflows and confirmed all three issue #5 gates are wired into Semantic Linking Completion Gate. No passing current-head Actions or runtime evidence available. **Next (requires 'y'):** pursue a real exact-SHA validation run/evidence via network-connected runner or owner-terminal output, or begin owner-controlled R01 public-PDF assessment. No bulk model/schema/history edits approved.
+**Current checkpoint (2026-10-19):** All ten folder reviews and roadmap done; R02 workflow sources checked; a one-command CI validator and runbook were committed. **Next:** run `python3 99_System/09_Tools/check-ci-baseline.py` on an authenticated GitHub-connected machine, capture exact-SHA results and address real failures. Do not continue read-only attempts in this blocked environment without new capabilities/evidence. R01 PDF confidentiality/licensing review remains urgent and independent. No unapproved model/schema/history modifications.
