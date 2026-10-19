@@ -405,6 +405,46 @@ for i in 2 3 5; do gh issue view "$i" -R "$REPO" --json number,title,state,close
 - **Next:** obtain terminal command results from an authorized networked GitHub runtime or user-provided execution output, reconcile exact SHA/workflows/issues and commit the complete golden-baseline evidence. Alternatively switch to R01 owner-controlled exposure audit if remote CI remains blocked.
 - **Change policy:** no model or schema changes, workflow reruns, issue closure or Git history rewrite during this pass.
 
+## R02 baseline pass 4 — Workflow configuration reconciliation (2026-10-19)
+
+**Status:** Read-only workflow source verification COMPLETE; execution/result verification NOT DONE.
+
+**Exact files inspected on default branch:** `.github/workflows/mdse-vault-audit.yml` (blob `498758dec3aa08d70d4ef81ad1cc4ceed88135b2`) and `.github/workflows/semantic-linking-completion-gate.yml` (blob `abfc58d52453f7460b74cbfe802245a10885a5c7`). Live files were obtained through connected GitHub; no local test or Actions run was triggered.
+
+### Concrete execution contract
+- **MDSE Vault Audit:** Ubuntu 24.04, checkout v5, Python 3.12, PyYAML; seven named checks: `99_System/09_Tools/check-identities.py`, `check-relationships.py`, `audit-vault.py`, `report-provenance.py`, `report-traceability.py`, `99_System/check-names.py`, `99_System/check-dependencies.py --strict`. Always-run steps and `mdse-vault-audit` report artifact.
+- **Semantic Linking Completion Gate:** Ubuntu 24.04, checkout v5, Python 3.12 + PyYAML, Node 22; 17 named validations/reviews: identities, relationships, audit, provenance, traceability, completion metrics, strict dependencies, true-orphan, weak traceability priority, end-to-end product chains, curated sources, high-value evidence, Local Model, Port/Item Flow, Workbench JS syntax, Workbench model review, and names. Always-run steps and `semantic-linking-completion-gate` artifact.
+- Both workflows trigger on pushes touching Markdown/YAML/Base/Canvas and certain system paths, as well as `workflow_dispatch`. Thus **ChatReview.md changes match the push path filters**, but triggering eligibility is not proof of a run or conclusion. To check any particular SHA, retrieve completed runs filtered by exact `headSha`.
+- **Key reconciliation for issue #5:** The three additional gates named in issue #5 **already appear in the main Semantic Linking Completion Gate workflow** (`review-weak-traceability-priority.py`, `review-end-to-end-product-chains.py`, `review-high-value-evidence.py`). The issue cannot be classified as 'missing CI wiring' based on current files; instead establish green conclusions and step-level findings for the same current model SHA. The issue may still be open for unresolved semantic or provenance findings.
+- Historical handoff calls out Node 24 workflow upgrades in October 12 recovery, while the actual current Semantic Linking Completion Gate declares **Node 22**. Do not repeat the old Node 24 environment assumption for this workflow; investigate consistency separately if needed.
+
+### Needed evidence and reproducible commands
+```bash
+git rev-parse HEAD
+python3 -m pip install PyYAML
+python3 99_System/09_Tools/check-identities.py
+python3 99_System/09_Tools/check-relationships.py
+python3 99_System/09_Tools/audit-vault.py
+python3 99_System/09_Tools/report-provenance.py
+python3 99_System/09_Tools/report-traceability.py
+python3 99_System/09_Tools/check-semantic-linking-completion.py
+python3 99_System/check-dependencies.py --strict
+python3 99_System/09_Tools/review-true-orphans.py
+python3 99_System/09_Tools/review-weak-traceability-priority.py
+python3 99_System/09_Tools/review-end-to-end-product-chains.py
+python3 99_System/09_Tools/review-curated-source-documents.py
+python3 99_System/09_Tools/review-high-value-evidence.py
+python3 99_System/09_Tools/review-local-model-linking.py
+python3 99_System/09_Tools/review-port-item-flow-linking.py
+node --check .obsidian/plugins/mdse-workbench/main.js
+python3 99_System/09_Tools/check-workbench-model.py
+python3 99_System/check-names.py
+```
+
+Run at one exact current `main` SHA with Python 3.12/Node 22 on Ubuntu 24.04 where feasible. Review report-only warnings separately from failing exit codes. The commands above are the observed Semantic Linking Completion Gate commands (with `python3` substituted for workflow `python`); not evidence of execution.
+
+**Disposition:** Runtime/workflow *definition coverage* verified for two principal gates. Whether current `main` passes remains unverified. Future steps should target obtaining a real Actions run or clean checkout test result rather than repeating unchanged connector searches. No scripts/schema/model or issue states were modified.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -412,4 +452,4 @@ for i in 2 3 5; do gh issue view "$i" -R "$REPO" --json number,title,state,close
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap, and R02 passes 1–3 recorded. Issue searches include #2/#3/#5 in open results; commit-search latest at Pass 3 was b5ba9f9d0253186592e2efa4bcc625173e047d81. API/browser/direct Git access blocked; current main ref/Actions conclusions and same-SHA model validation remain unverified. **Next (requires 'y'):** acquire read-only GitHub terminal command output listed in R02 Pass 3, or address urgent R01 file rights review with owner authorization. Do not bulk-modify model/schema/history.
+**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap and R02 passes 1–4 documented. Pass 4 directly inspected the two principal workflows and confirmed all three issue #5 gates are wired into Semantic Linking Completion Gate. No passing current-head Actions or runtime evidence available. **Next (requires 'y'):** pursue a real exact-SHA validation run/evidence via network-connected runner or owner-terminal output, or begin owner-controlled R01 public-PDF assessment. No bulk model/schema/history edits approved.
