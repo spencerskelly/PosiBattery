@@ -30,8 +30,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 4 | `40_Use and Operations` | Reviewed; recorded | Main README, Start a Shift and Confirm Vehicle Energy Readiness, Charge a BMID-Equipped Battery Using Battery Information, Material-Handling Fleet Site |
 | 5 | `50_Customer Needs` | Reviewed; recorded | Folder README plus Prevent Battery Abuse, Know Battery State, Charge Each Battery Correctly |
 | 6 | `60_Stakeholders and Ecosystem` | Reviewed; recorded | Main README, Customer Actors and Organizations READMEs, Fleet Operations Manager, PosiCharge, Business Relationship Ledger |
-| 7 | `70_Research and Evidence` | NEXT — not reviewed | |
-| 8 | `80_Decisions and Planning` | Pending | |
+| 7 | `70_Research and Evidence` | Reviewed; recorded | Root README, Research README, Source Documents README and dated audit |
+| 8 | `80_Decisions and Planning` | NEXT — not reviewed | |
 | 9 | `90_Definitions and Reusable Reference` | Pending | |
 | 10 | `99_System` | Pending | |
 
@@ -165,6 +165,31 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Stakeholders and Ecosystem README](../60_Stakeholders%20and%20Ecosystem/README_Stakeholders%20and%20Ecosystem.md).
 
+## Step 7 — 70_Research and Evidence (reviewed 2026-10-19)
+**Scope:** Three-stage evidence chain: acquired/raw artifact → curated Source Document note → research or model claim. Research contains market synthesis, designs, BOM and capability comparisons, financial and market size data, regulatory analysis, technical literature, ledgers and open investigations. Raw artifact storage also includes root-level `Downloads` and `Reference Files` outside this numbered domain.
+
+**Evidence examined:** `70_Research and Evidence/README_Research and Evidence.md`, `Research/README_Research.md`, `Source Documents/README_Source Documents.md`, their 2026-10-18 folder audits, and previously inspected `Reference Files/README_Reference Files.md` and runtime handoff. Counts are recorded audit snapshots rather than an independent fresh count.
+
+**Inventory:** 627 Markdown notes in the domain; 599 typed (488 Document, 111 Info), all Draft; 22 untyped research files (~500 KB) noted in root audit. Domain has 6 Bases and 3 Canvases. Research subarea: 97 typed Info notes and 22 untyped; Source Documents subarea: 488 typed Document and 14 Info. Source Documents have `sourceClass` and `sourceUrl` populated for all 488, `accessed` on 471, `sourceRevision` on 60. Every Document has `describes` and at least one inbound link. Historical runtime handoff summary about eight uncured source docs is superseded by this observed audit.
+
+**Strengths:** Evidence/provenance separated explicitly from analytical interpretation and file bytes. Strong curated Document coverage and usable document metadata; significant BMS, charger, industrial truck, SOC/SOH, EMS, power conversion, cost-driver, regulation and market sizing research. New October 18 market-size work labels public sources versus assumptions and exposes conflicts, though it warns originals should be checked before quotations. Research issues explicitly preserve disagreements rather than silently flattening them.
+
+**Important findings:**
+1. **CRITICAL — Public repository content governance.** Earlier runtime handoff reports third-party and marked-confidential PDFs under Downloads; `Reference Files` records 109 PDFs, some inaccessible externally, in a public repository. Verify file-level confidentiality and redistribution rights promptly, preserving evidence metadata; removing from the tip alone may not remove historical copies. No files removed by this review.
+2. **HIGH — Oversized mutable registers (F-07/F-08).** `Battery Product Landscape Conflicts and Open Questions` ~213 KB, `Product to Customer Need Map` ~141 KB, `Investigation Backlog` ~119 KB, `Document Wishlist` ~106 KB, `SOC and Health Estimation Literature Review` ~103 KB; multiple large sources of duplicate/stale statuses, difficult to filter and govern. Decide source-of-truth per item and generated presentation views before splitting.
+3. **HIGH — Source tier is inconsistently encoded (F-02/F-12).** All Document notes carry prose evidence tier; 386/488 have tier tags, split across `tier-T#` (~356) and `tier-#` (~30); 102 missing tags. The existing audit reports no numeric mismatches where checked. Choose one controlled property/tag contract and normalize.
+4. **MEDIUM — Intake identity and naming.** 153/488 Document note names include a retrieval date although `accessed` property already exists; this makes repeat retrieval seem a new document. Source revision/identity should be stable and distinct from access events. A live verification of 944 cited URLs was noted in the runtime handoff as outstanding.
+5. **MEDIUM — 22 untyped raw research files (F-09).** Cost Drivers, EMS, Power Conversion, SysML v2 include non-descriptive names such as `Chat 1` / `EMS 1`; decide which are raw material versus durable Info model notes.
+6. **MEDIUM — Planning records in Research (F-11).** Document Wishlist, Investigation Backlog, conflicts and triage registers overlap with `80_Decisions and Planning` authority. Agree lifecycle ownership before migrating.
+7. **MEDIUM — Ambiguous conflict registers (F-07).** Three named conflict logs coexist, more than 270 notes refer to generic 'conflict register'; agree one governable finding/decision mechanism and avoid losing historical evidence.
+8. **MEDIUM — Tags and source verification (F-12/F-14).** Research subarea contains 163 tags, 107 single-use; check currency/availability of web source URLs, especially for market-size figures.
+
+**Recommendations (order):** (1) audit public PDFs for confidentiality/licensing; (2) define one evidence-tier and source-version contract; (3) decide structured per-item authority for big ledgers, leaving synthesized views derived; (4) distinguish raw research imports from typed findings; (5) assign conflict/backlog work control to the correct canonical domain; (6) verify external URLs and source freshness with machine access to internet.
+
+**Engineering opportunity:** A reliable and queryable evidence graph: every product/function/design/requirement claim identifies its source, extraction, confidence, conflict, and review date, while market comparisons and technical trade studies recompute from controlled records instead of manually synchronized reports.
+
+**Source:** [Research and Evidence README](../70_Research%20and%20Evidence/README_Research%20and%20Evidence.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -172,4 +197,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–6 completed and documented. **Next:** review `70_Research and Evidence/README_Research and Evidence.md`, Source Documents, research areas, evidence provenance, and attached document governance. Update this file and commit before requesting 'y' for folder 8.
+**Current checkpoint:** Steps 1–7 completed and documented. **Next:** review `80_Decisions and Planning/README_Decisions and Planning.md`, decisions, work control, active backlog, quality findings, and ChatReview governance. Update this file and commit before requesting 'y' for folder 9.
