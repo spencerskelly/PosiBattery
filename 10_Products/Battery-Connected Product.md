@@ -51,6 +51,7 @@ describedBy:
   - "[[Regional Market Differences Brief]]"
   - "[[Regional Market Size Model]]"
   - "[[Charger and Monitor Public Price Register]]"
+  - "[[Non-Public Content Audit Register]]"
 ---
 
 # Battery-Connected Product
