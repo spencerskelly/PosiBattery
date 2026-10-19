@@ -966,7 +966,7 @@
   "views": {
     "page": {
       "trail": {
-        "enabled": true,
+        "enabled": false,
         "field_group_labels": [
           "ups"
         ],
@@ -983,7 +983,7 @@
         }
       },
       "prev_next": {
-        "enabled": true,
+        "enabled": false,
         "field_group_labels": {
           "prev": [
             "prevs"
