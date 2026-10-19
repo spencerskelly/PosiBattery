@@ -26,8 +26,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | --- | --- | --- | --- |
 | 1 | `10_Products` | Reviewed; recorded | `10_Products/README_Products.md` and README audits for Batteries, Battery Accessories, Chargers, Forklifts, Vehicle Accessories |
 | 2 | `20_Product Architecture` | Reviewed; recorded | `20_Product Architecture/README_Product Architecture.md` |
-| 3 | `30_Product Capabilities` | NEXT — not reviewed | |
-| 4 | `40_Use and Operations` | Pending | |
+| 3 | `30_Product Capabilities` | Reviewed; recorded | Main README plus Product Functions, Product Designs, Performance Metrics, California Regulatory Requirements, Fire and Safety Code Requirements READMEs |
+| 4 | `40_Use and Operations` | NEXT — not reviewed | |
 | 5 | `50_Customer Needs` | Pending | |
 | 6 | `60_Stakeholders and Ecosystem` | Pending | |
 | 7 | `70_Research and Evidence` | Pending | |
@@ -75,6 +75,29 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Product Architecture README](../20_Product%20Architecture/README_Product%20Architecture.md).
 
+## Step 3 — 30_Product Capabilities (reviewed 2026-10-18)
+**Scope:** Reusable product behavior, solution concepts, comparison metrics, and external/derived requirements. Intended traceability: Customer Need / Use Case → Function → Design → Product → Metric/evidence; Verification is related, with some records currently situated under Product Architecture.
+
+**Evidence reviewed:** `30_Product Capabilities/README_Product Capabilities.md`; `Product Functions/README_Product Functions.md`; `Product Designs/README_Product Designs.md`; `Performance Metrics/README_Performance Metrics.md`; `California Regulatory Requirements/README_California Regulatory Requirements.md`; `Fire and Safety Code Requirements/README_Fire and Safety Code Requirements.md`. Metrics cited below are from their existing 2026-10-18 audits, not a fresh exhaustive recount.
+
+**Recorded inventory:** 506 recursive Markdown files; 502 typed notes: Design 245, Function 159, Info 56, Requirement 42. 501 Draft; one other status. Approximately 94/502 `describedBy` links and 95/502 linked to any Document. Subfolders: Product Designs (245 Design + 1 Info), Product Functions (159 Function), Performance Metrics (55 Info), California Regulatory Requirements (19 Requirement), Fire and Safety Code Requirements (15 Requirement), plus root records. Parent README reports 8 direct typed root notes. Four canvases and eight Base files across domain.
+
+**Strengths:** Six goal branches for behavioral navigation: Deliver Energy to Vehicles, Keep Equipment Working in Its Environment, Know and Protect Battery Condition, Manage Fleet Use and Data, Protect People and Equipment Near Vehicles, Support the Operator. Functions distinguish intended capability from technology. Designs represent reusable options, often correctly flagged as candidate or inferred. Regulatory records sometimes explicitly distinguish external obligations from derived product requirements. 139/159 Functions have performers, 131/159 realize a need, 47/159 carry `realizedBy`, 32/159 have `describedBy`. The README documents explicit bidirectional relationship conventions.
+
+**Important findings and priority:**
+1. **HIGH — Metrics are not queryable as measurements (F-06).** 55 Metric Info notes hold per-product values as prose, without populated `measureClass`, `valueType`, `unit`, `measurementMethod`; product values are duplicated between product notes and metric notes. Avoid declaring broad compound comparison dimensions atomic measurable properties.
+2. **HIGH — Satisfaction/verification coverage needs review (F-13).** All 42 Requirements have `appliesTo`, but only 6 notes in this domain use `satisfies`; inspect actual satisfiers and corresponding Verification records before interpreting gaps. Regulatory source evidence is often body-only (fire/safety: 0 `describedBy`, 13/15 with Document links; state/regional: 0 `describedBy`, 16/19 with Document links).
+3. **HIGH — Design hypothesis vs confirmed realization (F-02).** 220/246 notes in Product Designs have `designOf`, 49 `realizes`, 62 `describedBy`, 14 `supportedBy`. Candidate/no-product-allocation qualifiers are prose, not queryable. Distinguish alternative solution options from validated implementations; do not invent dependency/realization links to improve percentages.
+4. **MEDIUM — Function navigation gaps (F-13).** 28/159 Functions have no `realizes` need; 20 have no performer. Report missing paths by goal/family, recognizing legitimate abstract functions. Some `Solution link added` append logs should be reconciled against governed properties before body cleanup.
+5. **MEDIUM — Regulatory placement/name (F-11).** California folder's 19 notes include California LCFS 5, ZEF 3, Charging Energy Reporting 5, Washington CFS 3, Oregon CFP 2, New Mexico CTFP 1. Propose jurisdiction-neutral rename/migration only with inventory, links check, approval.
+6. **MEDIUM — Tag sprawl (F-12).** 161 distinct tags in the domain, 68 used once; Product Designs accounts for 108 distinct tags, 55 used once.
+
+**Recommendations in order:** (1) Populate measurement semantics and select single authoritative per-product value model (product note vs generated comparison vs dedicated product-metric record); (2) build Requirement satisfier/verification coverage view; (3) make Design candidate vs product-confirmed realization queryable within governed schema; (4) add Function gap views by hierarchy; (5) controlled regulatory folder resolution and tag cleanup.
+
+**Engineering opportunity:** Query a Function (such as Measure Battery Temperature), compare technical implementations, supported products and operating constraints with source confidence and quantifiable performance. The Metric value model is the principal immediate obstacle.
+
+**Source:** [Product Capabilities README](../30_Product%20Capabilities/README_Product%20Capabilities.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -82,4 +105,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1 and 2 completed and documented. **Next:** read `30_Product Capabilities/README_Product Capabilities.md` and relevant child category READMEs, inspect Functions, Designs, Requirements, Metrics, States, and Verification, document findings here, then report results and request 'y'. Do not skip documentation before moving to folder 4.
+**Current checkpoint:** Steps 1–3 completed and documented. **Next:** read `40_Use and Operations/README_Use and Operations.md` and relevant subfolder/operational Use Case notes. Review actor behavior, workflows, scenarios, ownership and links to needs/functions/products. Update this file and commit before reporting step 4 and requesting 'y'.
