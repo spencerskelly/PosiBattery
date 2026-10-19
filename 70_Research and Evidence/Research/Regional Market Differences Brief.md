@@ -46,7 +46,7 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | 4 | Europe | Battery regulation text read [P]; ZVEI/DIN ventilation [P]; no market, incentive or chemistry-mix data | IB-332 |
 | 5 | Rest of world | WITS totals only (Africa 29,486; Oceania 33,440 in 2025) | IB-337 |
 
-- **Sizing:** see [[Regional Market Size Model]]: Asia 50.8% of 2025 shipments, Europe 28.3%, Americas 18.2%; the Americas row mixes North and South America (IB-339).
+- **Sizing:** see [[Market Definition and Scope]] for what each statistic counts, and [[Regional Market Size Model]]: Asia 50.8% of 2025 shipments, Europe 28.3%, Americas 18.2%; the Americas row mixes North and South America (IB-339).
 - **Challenge to the order:** WITS 2025 shipments put Asia at 1,210,288 of 2,381,417 (51%), Europe 673,663 (28%), Americas 434,540 (18%). Volume does not rank the regions this way; the order holds only if it reflects where PosiCharge sells or can sell. Asia's volume is dominated by Chinese domestic makers (CCMA: 805,000 domestic sales of 1,285,500 in 2024), so addressable share is a separate question (IB-336).
 - **Regions covered:** California, Oregon, Washington, New Mexico, British Columbia, Canada (federal), the EU with Germany as the only country-level evidence, and US federal. Thinly researched: Mexico, Brazil, China. Not researched: other US states with clean fuel bills, UK, India, Japan, Southeast Asia, Africa, Oceania.
 - **Open dependency:** no vault note says which regions PosiCharge sells into (IB-281). The brief therefore covers every region with evidence and says which decisions each one informs.
