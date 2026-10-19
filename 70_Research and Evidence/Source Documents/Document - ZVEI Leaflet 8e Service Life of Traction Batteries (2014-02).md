@@ -42,6 +42,8 @@ ZVEI leaflet 8e on what determines the service life of traction batteries and ho
 - **Access date:** 2026-10-17. **Revision:** edition February 2014.
 - **Evidence tier:** Industrial association leaflet; vault precedent labels ZVEI leaflets T2 with a note (not a maker sheet).
 
+**Cross-reference 2026-10-18:** the vocabulary for design life, endurance and service life is defined in [[Document - ZVEI Leaflet 23e Definition of Different Life Time Terms for Batteries (2013-08)]].
+
 ## Traceability
 
 - Register: [[Lead-Acid Traction Battery Life Care Methods Register]].

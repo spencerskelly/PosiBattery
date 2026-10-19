@@ -46,6 +46,8 @@ Added in the 2026-10-17 web research round. Ministry summary of fuel supply, cre
 - **Access date:** 2026-10-17. **Revision:** updated 2026-06-29 per the file name
 - **Evidence tier:** not covered by T1 to T5 in [[Landscape Evidence and Modeling Conventions]] (government publication: the authority for what the rule or the agency says, not evidence of product capability; values second-hand through the fetch tool's summary, not the raw file).
 
+**Update 2026-10-18: file now in the repo and read first-hand** (Downloads/rlcf007-summary_2010-20252026_06_29.pdf, 16 pages, revised June 2026): the bulletin says that since 2024 the requirements also cover fuel used for ground support equipment, cargo handling equipment and forklifts, "although these volumes remain relatively small". It gives no forklift-specific volume. Cumulative avoided emissions 2010 to 2025 are over 32.7 million tonnes. The tables give electricity supply totals but their units were not confirmed in the text read, so none is recorded here.
+
 ## Traceability
 
 - `describes` links the document to the registers it supports; disagreements are logged in [[Battery Product Landscape Conflicts and Open Questions]].

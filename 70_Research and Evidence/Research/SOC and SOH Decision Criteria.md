@@ -97,6 +97,10 @@ Nine of the R73 papers are now in the repo and read ([[SOC and SOH Methods Refer
 - **Standards criterion:** Regulation (EU) 2023/1542 now has legal definitions of state of charge and state of health and a list of state-of-health parameters (Annex VII); no required accuracy was found. See [[SOC and SOH Specifications and Standards]] and C351.
 - **Output the product may have to supply (EU market, owner has not confirmed any EU sales, IB-281):** passport use data for industrial batteries include periodically recorded state of charge, so a SOC estimate would feed a legal record if a battery maker chooses the device as its source. This is a hypothesis; the text puts the duty on the battery's market operator ([[EU Battery Passport and Battery Regulation Register]]).
 
+### Update 2026-10-18 (voltage by truck class)
+
+EPRI (2015) lists Class 1 trucks mostly at 36, 48 or 80 V, Class 2 at 24, 36 or 48 V and Class 3 at 12 or 24 V ([[Document - EPRI Electric Forklifts Brochure (April 2015, ID 3002005805)]], first-hand). This is consistent with the owner's statement that 80 V is a reasonable maximum for most packs, with 96 V the highest commonly seen. It gives no shares of the installed base and does not mention 96 V; the 'majority' statement still rests on the owner and one brochure.
+
 ## Sources
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].

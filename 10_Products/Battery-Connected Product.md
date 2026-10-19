@@ -48,6 +48,7 @@ describedBy:
   - "[[Unlinked Product Triage Register]]"
   - "[[Function-to-Solution Coverage Register]]"
   - "[[Reviewed Documents Register]]"
+  - "[[Regional Market Differences Brief]]"
 ---
 
 # Battery-Connected Product

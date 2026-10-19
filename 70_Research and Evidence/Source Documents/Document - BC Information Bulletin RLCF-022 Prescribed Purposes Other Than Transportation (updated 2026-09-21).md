@@ -46,6 +46,8 @@ Added in the 2026-10-17 web research round. Ministry bulletin on fuel use in pre
 - **Access date:** 2026-10-17. **Revision:** last updated 2026-09-21
 - **Evidence tier:** not covered by T1 to T5 in [[Landscape Evidence and Modeling Conventions]] (government publication: the authority for what the rule or the agency says, not evidence of product capability; values second-hand through the fetch tool's summary, not the raw file).
 
+**Update 2026-10-18: file now in the repo and read first-hand** (Downloads/rlcf-022_prescribed_purposes_other_than_transportation.pdf, 2 pages; the file is the version issued May 2024, not the 2026-09-21 web update): forklifts with lifting capacity over 6,800 kg and rough terrain forklifts only; electricity EER 3.9 against 0.9 for other fuels, with diesel as the comparison fuel category; cargo handling and ground support equipment electricity EER 2.5; electric yard trucks use the battery truck EER 3.2. The web version of 2026-09-21 was not compared with the May 2024 file.
+
 ## Traceability
 
 - `describes` links the document to the registers it supports; disagreements are logged in [[Battery Product Landscape Conflicts and Open Questions]].

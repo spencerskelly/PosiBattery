@@ -44,6 +44,7 @@ Register of what a forklift charging site pays for energy and what outside money
 | [[Document - ANL ESD 08-3 Full Fuel-Cycle Comparison of Forklift Propulsion Systems]] | Same source: average 1.5 shifts x 5 days x 52 weeks x about 6 hours | about 17.6 MWh (analyst) |
 | [[Document - Apache Electric Vehicles How Much Electricity Does a Forklift Use in a Year (blog)]] (T4, interested) | By shift pattern, 250 days | 6.5 to 8 MWh (one shift); 13 to 16 (two); 19 to 25+ (three); headline 10 to 20 MWh |
 | [[Document - Wu et al Energy Consumption Analysis of High-Voltage Lithium Electric Forklifts (Applied Sciences 2025)]] | 1.11 kWh per hour measured, 3-ton lithium prototype, battery side | not annualized; about 1.1 to 2.2 MWh at 1,000 to 2,000 hours (analyst) |
+| [[Document - CARB Standardized Regulatory Impact Assessment, Appendix B-2 (zero-emission forklifts)]] (added 2026-10-18) | 7.5 kWh per operating hour x 1,848 hours a year, both regulator assumptions from CARB's LSI Inventory Model | 13.86 MWh (analyst product; an assumption, not a measurement) |
 
 Working range used for illustrations (analyst reasoning): 5 to 20 MWh per truck per year, central 10 MWh. Sources disagree by a factor of 2 to 7 on hourly energy because they measure different things (wall versus battery, old versus new trucks, class and duty) (C310). **No measurement from PosiCharge or customer data is on file** (IB-258).
 
