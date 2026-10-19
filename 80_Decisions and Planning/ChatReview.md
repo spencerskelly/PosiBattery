@@ -33,7 +33,7 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 7 | `70_Research and Evidence` | Reviewed; recorded | Root README, Research README, Source Documents README and dated audit |
 | 8 | `80_Decisions and Planning` | Reviewed; recorded | Main README, Knowledge Base Backlog, Architecture Improvement Plan, Semantic Linking Completion Plan, ChatReview |
 | 9 | `90_Definitions and Reusable Reference` | Reviewed; recorded | Main README, Definitions README, Properties README |
-| 10 | `99_System` | NEXT — not reviewed | |
+| 10 | `99_System` | Reviewed; recorded | System README, Runtime Handoff, AI_INSTRUCTIONS, active element-types and relationships schemas |
 
 ## Step 1 — 10_Products (reviewed 2026-10-18)
 **Scope:** Commercial product catalog for industrial batteries, battery accessories, chargers, charger accessories, fleet software/platforms, forklifts, GSE, vehicle accessories and fuel-cell power units. A product record links to maker, technical Functions and Designs and supporting sources.
@@ -235,6 +235,30 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Definitions and Reusable Reference README](../90_Definitions%20and%20Reusable%20Reference/README_Definitions%20and%20Reusable%20Reference.md).
 
+## Step 10 — 99_System (reviewed 2026-10-19)
+**Scope:** Controlled runtime and authoring infrastructure: AI guidance, element/relationship/Local Model schemas, authors, templates, generated Fileclasses, scripts and validation tools, release/bootstrap, methodology documentation and runtime handoff. Infrastructure is separate from engineering model domains.
+
+**Evidence examined:** `99_System/README_System.md`; `10_Docs/PosiBattery Runtime Handoff State.md`; `02_AI/AI_INSTRUCTIONS.md`; `03_Schemas/element-types.yaml` (head); `03_Schemas/relationships.yaml` (head). Current execution of full audits, plugin bootstrap and CI was **not** performed by this review. README for Tools was not found at the presumed path, so avoid asserting it exists.
+
+**Inventory/structure:** System areas `01_Admin`, `02_AI`, `03_Schemas`, `04_People`, `05_Templates`, `06_Fileclasses`, `08_Scripts`, `09_Tools`, `10_Docs`. No model-style Bases/Canvas required for this infrastructure. Handoff identifies MDSE 0.8.1, Modeling Ruleset 1.23, Workbench 0.1.17, Bootstrap 0.3.1, relationships 1.36, Local Model 0.2. **Critical version clarification:** The 2026-10-12 handoff still lists element-types 1.18, but the actual active `element-types.yaml` inspected here declares **1.19** dated 2026-10-18, with product category/spec facet fields and company; handoff must be updated after compatibility confirmation.
+
+**Strengths:** `AI_INSTRUCTIONS` gives strict identity, author-code/time zone, template, status, approved relationships, inverse synchronization, non-deletion and generated-file controls. `relationships.yaml` declares direction/endpoint/inverse rules, including legacy Info organization endpoints and provisional relationships. `element-types.yaml` 1.19 has category-specific product specification fields. Local Model 0.2 and reusable-vs-occurrence separation are documented. On 2026-10-12 a local full audit and GitHub validation were reported passing: zero missing inverses, incompatible endpoints, broken/ambiguous wikilinks and vault audit blockers, with 8,452 relationship assertions; these are **historical dated validation**, not independently verified current status. Seven repair batches and consolidation to main are documented.
+
+**Important findings:**
+1. **HIGH — Runtime handoff drift.** Handoff is stale for element-types schema version (1.18 listed versus 1.19 in live file), earlier source-provenance counts (8 uncured vs October 18 audit: 488/488 with sourceClass/sourceUrl), and many numerical baselines. Need a generated dated current-state record with independent file checks and GitHub CI verification, not just manual prose.
+2. **HIGH — Validation must be confirmed on current head.** 2026-10-12 CI/local pass is a valuable baseline but does not prove today's model is green. Review commits since, run current vault integrity and relevant tools, then record results/CI links and any exceptions.
+3. **HIGH — Schema-documentation divergence.** Folder reviews found missing Property Definitions for numerous governed/used fields and conflicts with Note Layout. Changes to schema/runtime must be governed at `99_System`, then explained through `90_Definitions` and tested against existing notes/templates.
+4. **MEDIUM — Known Workbench start-view limitation.** Info-owned BMID Local Model cannot open Internal view from the owner because Workbench Internal starts from Object. Keep as a tracked nonblocking UX defect until addressed.
+5. **MEDIUM — Nonblocking repair queues remain.** Malformed decision YAML Step 44, external cited-link checking (~944 URLs in October 12 report), high-volume source-link curation, and intentionally unresolved BMID Function-to-Design choices. These should be prioritized, not bulk-filled to satisfy percentage targets.
+6. **HIGH — Public PDF rights risk spans system governance and evidence.** Prior handoff warns of third-party/marked-confidential files in public repository; prioritize file-level permissions and history exposure audit with owner approval. No files altered in these reviews.
+7. **MEDIUM — Bootstrap/runtime reproducibility should be demonstrated.** Confirm controlled release of schemas, templates, generated Fileclasses, plugin lock, bootstrap and Workbench on a clean vault; available notes describe controls but this review did not run those tests.
+
+**Recommendations:** (1) Audit/reconcile live schema and documentation versions, especially element-types 1.19; (2) rerun and record CI/validation on current main; (3) perform public-file risk review; (4) lock one release-to-template-to-validation consistency test path; (5) document and prioritize Workbench, YAML and evidence exceptions; (6) retain the historical 2026-10-12 handoff as dated evidence rather than treating it as fully current.
+
+**Engineering opportunity:** A reproducible engineering vault release with one authoritative modeling contract, generated templates/plugin configuration, passing tests, queryable evidence, and a clear audited current-state checkpoint.
+
+**Sources:** [System README](../99_System/README_System.md), [Runtime Handoff](../99_System/10_Docs/PosiBattery%20Runtime%20Handoff%20State.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -242,4 +266,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–9 completed and documented. **Next:** review `99_System/README_System.md`, runtime configuration, schemas, templates, tools, validation, release/bootstrap and AI authoring rules. Update this file and commit before requesting 'y' for consolidation after folder 10.
+**Current checkpoint:** All 10 numbered main folders reviewed and documented. **Next task (requires separate 'y'):** consolidate cross-folder findings into a prioritized improvement roadmap, reconcile overlap with Knowledge Base Backlog/GitHub issues, mark decision gates and validation criteria. Do not enact bulk model/schema migrations before explicit approval. Re-run live validation first where feasible; October 12 results are historical.
