@@ -34,7 +34,7 @@ Entry point for everything the vault holds on state of charge (SOC) and state of
 
 - Conflicts C190-C195 are in [[Battery Product Landscape Conflicts and Open Questions]]: rest-time definitions, non-comparable accuracy claims, SOH thresholds, gauge limits versus 80 V packs, impedance versus capacity, LFP OCV flatness.
 - Documents still wanted (standards, data sheets, patent, reviews, truck CAN specifications) are rows added in round R41 of [[Document Wishlist]]. Add new wanted documents there.
-- Owner questions that feed the matrix are listed in [[SOC and SOH Decision Criteria]]: chemistries and voltage range, SOC accuracy target, SOH purpose, estimator location.
+- Owner questions that feed the matrix are listed in [[SOC and SOH Decision Criteria]]: chemistries and voltage range, SOC accuracy target, SOH purpose, estimator location. Question 1 was answered in part on 2026-10-18 (all chemistries, up to 96 VDC; nominal versus maximum not stated); see the update at the end of that note. White paper rows are in round R73 of [[Document Wishlist]].
 
 ### Related vault items
 

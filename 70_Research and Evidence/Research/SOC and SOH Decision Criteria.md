@@ -59,6 +59,19 @@ Criteria and candidate approach families for an engineer building the SOC and SO
 3. Is SOH needed for replacement planning (a threshold such as 80%), for warranty evidence, or for charger control?
 4. Is the estimator on the battery-side device (such as the BMID), in the charger, or in the cloud?
 
+### Update 2026-10-18: owner answer to question 1 and white paper direction
+
+The questions above are not edited. Recorded from the owner on 2026-10-18:
+
+- **Scope:** all chemistries, up to 96 VDC.
+- **Direction:** white papers on this topic are wanted for review and for discussing solutions; the owner will check the [[Document Wishlist]] for obtainable ones. Twelve rows were added there in round R73.
+- **Not yet stated:** whether 96 VDC is the nominal pack voltage or the highest voltage the estimator must measure. This changes the input range. Derived from the C193 basis: 48 lead-acid cells at 2.30 to 2.35 V per cell give about 110 to 113 V at charge, and 30 LFP cells at 3.65 V give about 110 V, so a 96 V nominal scope needs inputs rated above 96 V. Open; see IB-327.
+- **Not yet a list:** "all chemistries" has no named members. Chemistries with SOC or SOH sources in the vault are lead-acid (flooded, VRLA) and LFP; nickel-based and sodium-ion have none (IB-326).
+- **Evidence gap found in the R73 search:** the papers located are mostly automotive lithium-ion reviews. One covers flooded lead-acid SOC (Khan et al. 2024, test voltages not stated in the page read) and one lead-acid SOH on stationary UPS batteries (Lazzarin and Barbi); none targets traction duty at 24 to 96 V (IB-325). Evidence for the lead-acid 80 percent rule is in conflict (C349).
+- **Effect on C193:** the owner's range raises the gauge-limit conflict from 80 V packs to 96 V packs; the TI gauge range of 3 V to 65 V through external translation is unchanged.
+
+Questions 2 to 4 are still open.
+
 ## Sources
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].
