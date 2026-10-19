@@ -11,6 +11,9 @@ tags:
 describes:
   - "[[Battery-Connected Product]]"
 describedBy:
+  - "[[Document - Hyster-Yale 2023 Annual Report Narrative (installed base statement)]]"
+  - "[[Document - NIST PerMIS 2009 Forklift Safety White Paper]]"
+  - "[[Document - Hyster-Yale Form 10-K for Fiscal 2017 (installed base, aftermarket and rental statements)]]"
   - "[[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]"
   - "[[Document - ITA North American Slides, Alliance of Industrial Truck Organizations Presidents Forum (2023-10-27)]]"
   - "[[Document - IMARC Mexico Forklift Trucks Market Page 2025]]"
@@ -69,10 +72,23 @@ Each layer lies downstream of the one above it. Truck shipments are the only lay
 ### 4. What is still not defined
 
 1. **Canada and Mexico units.** The ITA US factory shipments table and the North American retail-orders slide are now read (2026-10-18, files supplied from the public ITA site); they give the US and a combined North America, not Canada or Mexico separately. FEM, CITA, JIVA and the WITS sheet PDFs are still wanted (R78).
-2. **Installed base anywhere.** No stock of trucks by region or class was found. OSHA gives operators (1.5 million), not trucks; a March 2019 trade article says OSHA asked for a fleet census, but the article gives no numbers ([[Document - OSHA Directive CPL 18-07 Powered Industrial Truck Enforcement Region IV (2017)]] covers the operator count only).
+2. **Installed base by region, class and age.** Section 5 lists what exists: one US figure from 2009, one manufacturer's own base, and a derived range. A March 2019 trade article says OSHA asked for a fleet census but gave no numbers. Nothing was found for Europe, Asia, Mexico or Brazil.
 3. **A unit definition shared across regions.** WITS, ITA and CCMA counts differ, so regional unit totals from different sources should not be added.
-4. **Rental and used trucks.** Rental fleets buy batteries and chargers differently from owners; no regional data was found beyond Brazilian dealer remarks.
+4. **Rental and used trucks.** About 12% of North American retail shipments went to rental in 2017 (one manufacturer's 10-K); nothing found for other regions beyond Brazilian dealer remarks, and no used-truck data.
 5. **Addressable subset for chargers.** Which trucks use opportunity or fast charging, and at what voltage and power, is not defined by any public statistic ([[Regional Market Size Model]] uses Class 1 plus 2 as a proxy).
+
+### 5. Installed base: what public sources say (added 2026-10-18)
+
+| Statement | Scope | Year | Source (tier) |
+|---|---|---|---|
+| Over one million lift trucks in operation, in more than 900 industries | Hyster-Yale's own trucks, worldwide | end of 2023 | [[Document - Hyster-Yale 2023 Annual Report Narrative (installed base statement)]] (T1) |
+| Over 1 million forklifts in operation in the US; about 2 million operators | US, all makers | 2009 | [[Document - NIST PerMIS 2009 Forklift Safety White Paper]] (T3, citing a 2009 SBIR report) |
+| About 1.5 million workers operate powered industrial trucks | US operators | 2017 | [[Document - OSHA Directive CPL 18-07 Powered Industrial Truck Enforcement Region IV (2017)]] (T1) |
+| Stock of roughly 2 to 3.5 million trucks | US; derived from sales times a 10-year life assumed, not sourced | n/a | [[Fleet Energy and Cost Evidence Register]] [A] |
+| About 12% of North American retail shipments went to rental | North America | 2017 | [[Document - Hyster-Yale Form 10-K for Fiscal 2017 (installed base, aftermarket and rental statements)]] (T1) |
+| Aftermarket parts about 13% of Hyster-Yale revenue | One manufacturer | 2015 to 2017 | same |
+
+**Reading these together (C359).** The only sourced US stock figure is about 1 million (2009, secondary), against 2 to 3.5 million from sales times an assumed life. The 2009 figure may count only trucks in regular use, or may be wrong; the derived range rests on an unsourced life. ITA US factory shipments of 222,449 to 298,059 a year in 2019 to 2025 ([[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]) fit the 2 to 3.5 million range only if the truck life is about 10 years. Hyster-Yale's own installed base of over one million is a share of the market, not the market. None of these gives stock by class, age or region.
 
 ## Traceability
 
