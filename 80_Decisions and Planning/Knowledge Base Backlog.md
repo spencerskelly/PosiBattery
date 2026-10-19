@@ -147,7 +147,17 @@ The "Map EU Battery Regulation digital battery passport obligations" row was res
 - Whether an aftermarket BMID or Battery Rx counts as a BMS or completes a battery is unresolved (C337); lead-acid scope rests on a vendor claim (C333).
 - The operative articles were not readable (IB-298).
 
-### Product classification review queue
+### Update 2026-10-18: owner direction to rank investigations by customer-need economics
+
+Direction: look at customer needs, and estimate the economic or financial impact of solving each one, as a market total or as a cost per asset. This is a candidate, not a commitment; tracked as IB-328 and IB-329 in [[Investigation Backlog]]. Dependencies found:
+
+- All needs are vendor-stated hypotheses as of 2026-10-14 ([[Function-to-Need Gap Register]]), so an impact figure measures a hypothesis until customer evidence exists.
+- A market total needs the US forklift installed base and truck life, which the vault does not have (gap 7 in [[Market Overview]]; IB-329).
+- Overlapping needs can share the same dollars (battery state, abuse prevention, maintenance labor), so totals summed across needs would double count unless each shared cost line is counted once.
+- A cost per asset needs the asset named per need (truck, battery or charger).
+- Sources must be public (owner rule 2026-10-18); internal PosiCharge cost data stays out of this public repository.
+
+## Product classification review queue
 
 These items preserve unresolved product identity or abstraction questions found during Steps 36–41.
 
@@ -173,3 +183,4 @@ Queue rules: folder location and name similarity do not resolve identity; do not
 - 2026-10-17 — Added an update subsection checking the OEM-integrated offers row against sources; original rows unchanged. See [[OEM In-House Lithium Battery and Charger Offers Register]].
 - 2026-10-17 — Added an update subsection checking the cellular network lifetime row against sources; original rows unchanged. See [[Cellular Network Lifetime and IoT Modem Migration Register]].
 - 2026-10-17 — Added an update subsection checking the EU battery passport row against sources; original rows unchanged. See [[EU Battery Passport and Battery Regulation Register]].
+- 2026-10-18 — Added an update subsection recording the owner's direction to rank investigations by the economic impact of customer needs, with its dependencies; existing items unchanged. See IB-328 and IB-329 in [[Investigation Backlog]].
