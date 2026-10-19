@@ -72,6 +72,15 @@ The questions above are not edited. Recorded from the owner on 2026-10-18:
 
 Questions 2 to 4 are still open.
 
+### Update 2026-10-18 (later): nominal versus maximum voltage answered
+
+The text above is not edited, including the line that said the nominal-versus-maximum question was not yet stated. Recorded from the owner:
+
+- **96 V is a nominal voltage**, the highest commonly seen. **80 V is a reasonable maximum for the majority** of packs.
+- Derived from the C193 basis (2.30 to 2.35 V per cell for lead-acid at charge, 3.65 V per cell for LFP): an 80 V nominal pack is 40 lead-acid cells, about 92 to 94 V at charge, or 25 LFP cells, about 91 V. A 96 V nominal pack is 48 lead-acid cells, about 110 to 113 V at charge, or 30 LFP cells, about 110 V. Cell counts for other lithium chemistries were not worked out.
+- Measurement inputs therefore have two sizing points: about 94 V at charge for the majority case and about 113 V at charge for the 96 V case. The 96 V case is the stretch case that exceeds the TI gauge range in C193 by a wider margin. Which of the two the first design must meet is a decision not yet taken; see IB-327.
+- No source in the vault gives the share of the installed base at 96 V or at 80 V, so "majority" and "commonly seen" rest on the owner's statement only.
+
 ## Sources
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].
