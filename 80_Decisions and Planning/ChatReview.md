@@ -347,6 +347,34 @@ All ten numbered folders have a recorded content, quality, risk and engineering-
 - **Unverified:** current branch head SHA, current Actions conclusions, current-model zero-error audit, all-workflow reproducibility, clean local status, issue closure states.
 - **Next atomic unit:** get a trustworthy current main SHA and current workflow conclusions, then record exact results. If tools cannot provide those, use a fresh clone and `gh run list`/`gh run view` or repository CI through an authorized execution path and preserve outputs; never substitute historical green results.
 
+## R02 baseline pass 2 — Remote commit and issue reconciliation (2026-10-19)
+
+**Status:** PARTIAL. GitHub commit history and an issue search with explicit open/closed qualifiers were retrieved. Current Actions *workflow run conclusions* still could not be authenticated through the available repository connector; external GitHub Actions/API pages were not accessible in this execution environment. No local model validation scripts were executed.
+
+### Verified repository state
+- Repository commit search (`repository_full_name=spencerskelly/PosiBattery`, empty query, most-recent first) returned latest commit **`0841b58fe4c897dd3ae017d43b2a039466d9245c`**, titled `docs: checkpoint R02 partial remote baseline, schemas and CI verification gaps`, timestamp **2026-10-19 22:25:07 UTC**. This was the latest commit *returned by search at the start of this pass*, prior to writing this document. Search results do not bind to a branch explicitly; repository metadata identifies `main` as default, while exact ref resolution should be independently checked for a final golden SHA.
+- Earlier exact reviewed SHA `7f4005ae7f74e2ec75ebb2455b0673fdfff134af` precedes the R02 Pass 1 documentation commit. All six most recent returned commits were documentation edits; this fact alone does not establish that the model remained unchanged before those commits.
+- The branch-search interface previously returned `main` only on the first page, with a cursor; do not assert other branches are absent.
+- Live schema samples remain element-types **1.19** (2026-10-18) and relationships **1.36** (2026-10-05).
+
+### Issue reconciliation (explicit query filters)
+- A query for `repo:spencerskelly/PosiBattery is:issue is:open` returned [#5 Restore additional semantic-linking PR gates](https://github.com/spencerskelly/PosiBattery/issues/5) and [#3 Inventory and close function-by-function realization review coverage](https://github.com/spencerskelly/PosiBattery/issues/3), among results. This **supports that #5 and #3 matched the open-issue search** at retrieval time, even though result payloads individually reported a null state field.
+- The query for `is:issue is:closed` returned an empty list. **Do not claim no closed issues exist:** the search interface or permissions could affect coverage. Issue #2 was previously fetched directly and its extensive recovery narrative verified, but its current state was not independently confirmed by a reliable issue-state field in this pass.
+- Issue #5 acceptance explicitly requires green Weak Traceability Priority Review, End-to-End Product Chain Audit and High-Value Evidence Review **on one commit**; the earlier October 12 six-workflow handoff is not sufficient proof of those extra gates.
+- Issue #3 requires a complete per-Function realization/disposition register with source confidence and hardware/software alternatives; retain R06 linkage, no automatically filled relationships.
+
+### Workflow conclusions: still unresolved
+The legacy `get_commit_combined_status` lookup previously returned an empty status list, and the available `fetch_commit_workflow_runs` method is documented as restricted to pull-request-triggered runs. These cannot certify the normal push-branch Actions. Attempted public GitHub Actions/REST pages were inaccessible through the browsing environment. No workflow success or failure is claimed for the latest returned commit.
+
+### Exact next validation protocol
+1. Independently resolve `main` SHA (`git ls-remote origin refs/heads/main` or `gh api repos/spencerskelly/PosiBattery/branches/main --jq .commit.sha`).
+2. Fetch current workflow conclusions at that SHA (`gh run list -R spencerskelly/PosiBattery -b main --limit 30 --json databaseId,name,headSha,status,conclusion,createdAt`), including all six primary audits and the three issue #5 gates.
+3. On a clean local checkout, execute the relevant workflow commands from `.github/workflows`; report exact environment, exit codes and any failure categories.
+4. For #2/#3/#5, verify `gh issue view 2`, `gh issue view 3`, `gh issue view 5` with `--json number,title,state,closedAt,updatedAt`. Reconcile acceptance evidence, not merely issue titles.
+5. Preserve output or summary in this file, update the authoritative runtime handoff *only after* passing runtime evidence, and avoid model changes prior to classification.
+
+**Disposition:** R02 is still **in progress**. Current remote commit listing and #3/#5 open-query matches verified; the golden same-SHA Actions+local runtime baseline remains **unverified**.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -354,4 +382,4 @@ All ten numbered folders have a recorded content, quality, risk and engineering-
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint (2026-10-19):** Ten folder reviews and consolidated roadmap complete; R02 baseline pass 1 recorded as PARTIAL. **Next task (requires 'y'):** resolve exact latest main SHA and actual Actions conclusions (not legacy statuses), inspect current issue states, then execute current-head vault validators where supported. R01 public-document rights remains a separate owner-controlled urgent review. No bulk model/schema/history alterations approved.
+**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap, and R02 remote passes 1 and 2 documented. Latest returned repository commit before this edit: 0841b58fe4c897dd3ae017d43b2a039466d9245c; current Actions conclusions and same-SHA runtime validation remain unverified. **Next (requires 'y'):** obtain authoritative main ref/Actions/issue JSON and clean-run evidence using available execution path; R01 public-document rights stays an urgent separate owner-controlled review. Do not modify model/schema/history without approval.
