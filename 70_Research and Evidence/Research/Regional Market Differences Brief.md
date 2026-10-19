@@ -12,6 +12,10 @@ tags:
 describes:
   - "[[Battery-Connected Product]]"
 describedBy:
+  - "[[Document - PSR Show Report Movimat 2024 Brazil (2024-11)]]"
+  - "[[Document - Thomson Reuters Mexico Approves Tariff Hikes on Imports from China and Other Non-Treaty Countries (2025-12-15)]]"
+  - "[[Document - China Forklift Market 2024 Sales per CCMA via machinery.yieh.com (2025)]]"
+  - "[[Document - EU Ecodesign Regulation 2019-1782 External Power Supplies Scope and Exclusions]]"
   - "[[Document - Canada Clean Fuel Regulations SOR-2022-140 Full Text (consolidated to 2026-09-30)]]"
   - "[[Document - ZVEI Leaflet 14 Ventilation of Battery Charging Rooms for Lead Traction Batteries (2020-05)]]"
   - "[[Document - ZVEI Leaflet 11e Charger Assignments for Traction Batteries in Vented (PzS) and Valve Regulated (PzV) Design (2004-04)]]"
@@ -29,7 +33,20 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 ### How to read this
 
 - **Confidence tags:** **[P]** the primary text was read from a file in the repo; **[S]** second-hand through a summarizing fetch tool (government or association page); **[V]** vendor, consultancy or other interested party; **[A]** analyst reasoning, no source says it; **[?]** not researched, which is not the same as "does not exist".
-- **Regions covered:** California, Oregon, Washington, New Mexico, British Columbia, Canada (federal), the EU with Germany as the only country-level evidence, and US federal. Not researched: other US states with clean fuel bills, Mexico, UK, Asia-Pacific, Latin America.
+- **Owner's market priority (2026-10-18):** North America, then South America, Asia, Europe, rest of world.
+- **Evidence depth by region against that priority:**
+
+| Priority | Region | Depth in the vault | Main gap |
+|---|---|---|---|
+| 1 | US and Canada | Deep: clean fuel programs, fire code, CARB and EPRI primary texts | OSHA numbers (IB-333); measured fleet data (IB-258) |
+| 1 | Mexico | Thin: one tariff summary [S]; no forklift market, battery or charger rule data | IB-334 |
+| 2 | South America (Brazil) | Thin: one trade-show recap, claims only [V] | IB-335 |
+| 3 | Asia | WITS regional totals; China 2024 sales via trade press; no India, Japan or Southeast Asia detail | IB-336 |
+| 4 | Europe | Battery regulation text read [P]; ZVEI/DIN ventilation [P]; no market, incentive or chemistry-mix data | IB-332 |
+| 5 | Rest of world | WITS totals only (Africa 29,486; Oceania 33,440 in 2025) | IB-337 |
+
+- **Challenge to the order:** WITS 2025 shipments put Asia at 1,210,288 of 2,381,417 (51%), Europe 673,663 (28%), Americas 434,540 (18%). Volume does not rank the regions this way; the order holds only if it reflects where PosiCharge sells or can sell. Asia's volume is dominated by Chinese domestic makers (CCMA: 805,000 domestic sales of 1,285,500 in 2024), so addressable share is a separate question (IB-336).
+- **Regions covered:** California, Oregon, Washington, New Mexico, British Columbia, Canada (federal), the EU with Germany as the only country-level evidence, and US federal. Thinly researched: Mexico, Brazil, China. Not researched: other US states with clean fuel bills, UK, India, Japan, Southeast Asia, Africa, Oceania.
 - **Open dependency:** no vault note says which regions PosiCharge sells into (IB-281). The brief therefore covers every region with evidence and says which decisions each one informs.
 
 ### Bottom line
@@ -64,7 +81,7 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | Charging-room ventilation, lead batteries | California Fire Code 309: approved chargers, 3 ft clear of combustible storage, no charging in areas open to the public, ventilation against flammable gas, extinguisher within 20 ft; no formula in the text read [S]. OSHA 29 CFR 1910.178(g) text unread (C319) | DIN EN 62485-3 via ZVEI leaflet 14 (May 2020): Q = 0.055 m3/Ah x cells x Igas; Igas from the charger maker or at least 40 percent of maximum charge current; natural ventilation needs room volume at least 2.5 times Q and 0.1 m/s through openings of 28 cm2 h/m3 x Q; forced ventilation must be proven effective before charging; 0.5 m ignition-free distance from cell openings [P] | The EU method needs a charger-declared gassing current and a verified ventilation signal; the US wording as read does not [A] |
 | Charging-room rules, lithium | Fire code text read is chemistry-agnostic; no lithium-specific OSHA standard per a 2026 secondary article (C319); CARB staff say they know of no extra fire or life-safety rules for lithium charging [P] (C353) | Not in the vault [?]; the one insurer sheet (10 m separation or EI60, detection, charger cut-off on alarm or ventilation failure, truck BMS talking to the charger) has unknown jurisdiction in the vault [S] (C353) | Regulator and insurer disagree in tone, and no region has a read lithium-specific code (C314, C318) |
 | Charger characteristics notation | Not read for the US [?] | W, U, I characteristics with a and 0 suffixes; DIN 41772/41773/41774; tolerances plus or minus 2 percent current, 1 percent voltage (I), 0.05 V per cell (W); reference end-of-charge 2.65 V per cell; charging factor 1.2 [P] | EU buyers and battery makers speak this notation; a US-first charger spec sheet may need the translation [A] ([[Traction Battery Charging Characteristics (DIN Notation)]]) |
-| Charger efficiency | Federal standard for chargers made on or after 2018-06-13; California Title 20 for large chargers above 2 kW [S]; utility rebates require 89 to 90 percent efficiency and network or demand-response capability [S] | not researched [?] | Efficiency and connectivity gates are a US utility-rebate feature; EU equivalent unknown |
+| Charger efficiency | Federal standard for chargers made on or after 2018-06-13; California Title 20 for large chargers above 2 kW [S]; utility rebates require 89 to 90 percent efficiency and network or demand-response capability [S] | Ecodesign Regulation 2019/1782 covers external power supplies up to 250 W and excludes battery chargers without power supply function; traction chargers not mentioned, so no EU forklift-charger efficiency duty found [S] ([[Document - EU Ecodesign Regulation 2019-1782 External Power Supplies Scope and Exclusions]]); absence not proven | Efficiency and connectivity gates are a US utility-rebate feature; EU equivalent unknown |
 | Battery regulation | none comparable found [?] | Regulation (EU) 2023/1542: performance document from 2024-08-18 (capacity fade, power fade, internal resistance increase, lifetime in cycles and years, with test conditions); passport and QR code from 2027-02-18; Art. 14 state-of-health data in the BMS for stationary, LMT and EV batteries only; passport use data include cycles, events, temperature and state of charge [P] | EU creates a data duty on the battery's market operator; whether a battery-mounted monitor is its source is open (C337, C351) |
 | Lifetime and health vocabulary | 80 percent capacity as end of life appears in many second-hand statements (C192, C349) | ZVEI 23e: design life, endurance, service life, each with its own conditions; regulation: "expected lifetime in cycles and calendar years under reference conditions" [P] | The words differ; marketing a state-of-health number across regions needs a stated definition ([[SOC and SOH Specifications and Standards]]) |
 | Cold storage | not read | ZVEI leaflet 21e: capacity falls about 0.6 percent per degree below 30 C; charge voltage coefficient -0.004 V per cell per K; regulated IUI chargers with temperature control [S] | Same physics everywhere; the leaflet is the only quantified source in the vault ([[Cold Storage Charging Rules for Traction Batteries (ZVEI)]]) |
@@ -85,6 +102,10 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | Price gap, 5,001 to 6,000 lb truck (2021 dollars) | propane $47,292; lead-acid electric $64,844; lithium electric $78,326 | California | CARB impact assessment [P] |
 | Electricity price | statewide weighted $0.18 per kWh (2021 dollars); large fleet $0.16; small fleet $0.22 | California | CARB impact assessment [P] |
 | Europe lead-acid versus lithium split, energy per truck, prices | not in the vault | Europe | [?] (IB-332) |
+| China forklift sales 2024 | 1,285,500 (domestic 805,000; exports 480,500); electric 946,300 (73.61%); lithium share not stated | China | [[Document - China Forklift Market 2024 Sales per CCMA via machinery.yieh.com (2025)]] [S], trade press (C355) |
+| Regional lithium penetration targets | Europe 50% by 2025; US not before 2032; China above 73% by 2034 | World regions | Interact via [[Market Size and Volume Register]] [V] |
+| Brazil electric share | Heli claims two of three machines it sells are electric; no market-wide figure | Brazil | [[Document - PSR Show Report Movimat 2024 Brazil (2024-11)]] [V] |
+| Mexico import tariffs on non-treaty countries | up to 35% on most goods, machinery 25-35%, from 2026-01-01; trucks and batteries unconfirmed | Mexico | [[Document - Thomson Reuters Mexico Approves Tariff Hikes on Imports from China and Other Non-Treaty Countries (2025-12-15)]] [S] |
 
 ### Matrix 4: connectivity lifetime
 
@@ -136,7 +157,7 @@ Each row is analyst reasoning ([A]) built on the evidence cited above; none is a
 
 ### What a product leader would still ask for
 
-- **Which regions are our markets?** Without it, every row above is context, not a requirement (IB-281).
+- **Which regions are our markets?** The owner gave an order (North America, South America, Asia, Europe, rest of world) but not whether PosiCharge sells in each (IB-281).
 - **Truck-level data.** Measured kWh per truck, hours, voltage and lift class from PosiLink or E-Meter, per region, would replace the regulators' assumptions (IB-258).
 - **A rule-by-rule check of the strictest case.** Oregon's metering rule and the EU ventilation interlock are the two most demanding items read; whether current PosiCharge products meet them is internal knowledge.
 - **EU market facts.** Incentives, charger efficiency rules, chemistry mix and the legal basis of the ventilation standard are missing (IB-332).
