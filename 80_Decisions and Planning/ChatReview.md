@@ -28,8 +28,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 2 | `20_Product Architecture` | Reviewed; recorded | `20_Product Architecture/README_Product Architecture.md` |
 | 3 | `30_Product Capabilities` | Reviewed; recorded | Main README plus Product Functions, Product Designs, Performance Metrics, California Regulatory Requirements, Fire and Safety Code Requirements READMEs |
 | 4 | `40_Use and Operations` | Reviewed; recorded | Main README, Start a Shift and Confirm Vehicle Energy Readiness, Charge a BMID-Equipped Battery Using Battery Information, Material-Handling Fleet Site |
-| 5 | `50_Customer Needs` | NEXT — not reviewed | |
-| 6 | `60_Stakeholders and Ecosystem` | Pending | |
+| 5 | `50_Customer Needs` | Reviewed; recorded | Folder README plus Prevent Battery Abuse, Know Battery State, Charge Each Battery Correctly |
+| 6 | `60_Stakeholders and Ecosystem` | NEXT — not reviewed | |
 | 7 | `70_Research and Evidence` | Pending | |
 | 8 | `80_Decisions and Planning` | Pending | |
 | 9 | `90_Definitions and Reusable Reference` | Pending | |
@@ -120,6 +120,28 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Use and Operations README](../40_Use%20and%20Operations/README_Use%20and%20Operations.md).
 
+## Step 5 — 50_Customer Needs (reviewed 2026-10-18)
+**Scope:** Customer problems, outcomes, constraints and demand signals. All are modeled as Use Case subtype `why`, distinct from operational actor-goal `what` and contextual `where` notes.
+
+**Sources examined:** `50_Customer Needs/README_Customer Needs.md` (2026-10-18 read-only audit), `Prevent Battery Abuse and Premature Replacement.md`, `Know Battery State Before and During the Shift.md`, `Charge Each Battery Correctly for Its Chemistry and Condition.md`. Counts originate from folder audit rather than independent enumeration.
+
+**Inventory:** 32 Markdown files, 31 typed Use Case notes, all subtype `why`, all Draft; all 31 use `participants` and `realizedBy`; 8/31 use `describedBy`, 10/31 link a Document anywhere, 27/31 mention evidence tier in prose, 13 notes hold dated updates. Two Base views and one Canvas.
+
+**Strengths:** Clear needs-vs-operations-vs-Functions distinction. Well-articulated customer problem and roles. Specific Functions are attached to all needs, with navigation to products and operational scenarios. Sample notes explicitly identify analyst reasoning, vendor-stated evidence, and the need-hypothesis status, avoiding false assertion of customer confirmation.
+
+**Important findings:**
+1. **CRITICAL — Customer validation missing.** The root README and sample records explicitly state none of the 31 needs has customer-side confirmation. Marketing evidence that features are offered does not prove priority, buying criteria, prevalence, or willingness to pay. Treat all market-priority conclusions as hypotheses.
+2. **HIGH — Source evidence queryability (F-02).** `describedBy` on 8/31, Document references anywhere on 10/31. Evidence tier is prose-only in 27 records; use controlled state categories (need hypothesis, vendor-supported, customer-confirmed) without inventing validation.
+3. **MEDIUM — Stale derived counts.** Sample need notes contain 2026-10-14 calculated product-reach figures and explicit warnings that earlier counts predate Function link changes. Regenerate counts from current graph, not by manual note edits.
+4. **MEDIUM — Need-to-operation link semantics.** Operational traceability uses body wikilinks intentionally, since no approved dedicated relation exists and `tracesTo` is provisional. Decide supported model behavior before trying to automate queries; avoid custom or incompatible links.
+5. **LOW — Append-log readability (F-04).** 13 notes have dated history; preserve provenance while separating current understanding from audit trail.
+
+**Recommendations:** (1) Define customer evidence/validation rubric and source intake; (2) model evidence confidence in controlled machine-readable metadata; (3) curate evidence links with provenance; (4) derive product/function coverage dynamically; (5) resolve approved navigable operational traceability; (6) consolidate dated append history without erasing rationale.
+
+**Engineering opportunity:** Rank capability investments through verified customer problem severity, frequency, economic impact, and evidence confidence—not simply through how many existing products advertise a feature.
+
+**Source:** [Customer Needs README](../50_Customer%20Needs/README_Customer%20Needs.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -127,4 +149,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–4 completed and documented. **Next:** read `50_Customer Needs/README_Customer Needs.md` and sample needs, inspect expressed outcomes, actors, operational traceability, Function realization, and provenance. Update this file and commit before reporting step 5 and requesting 'y'.
+**Current checkpoint:** Steps 1–5 completed and documented. **Next:** review `60_Stakeholders and Ecosystem` README, its actor/organization subfolders and representative records, including maker/provider roles, participation in needs/operations, provenance and network quality. Update this file and commit before requesting 'y' for folder 7.
