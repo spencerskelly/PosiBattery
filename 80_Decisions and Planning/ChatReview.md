@@ -259,6 +259,69 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Sources:** [System README](../99_System/README_System.md), [Runtime Handoff](../99_System/10_Docs/PosiBattery%20Runtime%20Handoff%20State.md).
 
+## Consolidated 10-folder improvement roadmap — 2026-10-19
+
+**Status:** Proposed review plan, not approval to implement schema changes, migrate model notes, alter Git history, publish confidential material or bulk-edit research. All ten numbered folders were reviewed in steps 1–10 above. Current observations rely substantially on dated 2026-10-18 README audits; revalidate before comparing progress. This roadmap is a prioritization overlay on the canonical [[Knowledge Base Backlog]], not a competing issue tracker.
+
+### Overall assessment
+- **Preserve:** numbered taxonomy, model IDs/UIDs, explicit relationship rules and inverses, reusable definition/context distinction, product catalog, Function/Design trees, primary source Document records, Git history and prior roadmap completion evidence.
+- **Repair:** provenance confidence, structured technical comparison, missing schema documentation, active work visibility, and verified clean current runtime.
+- **Avoid:** blanket new links to increase coverage statistics, wholesale taxonomy changes, duplicate ledgers, unsupported claims of customer validation, and mass schema/organization conversion without approval.
+- **Immediate owner-led risk:** publicly accessible PDFs reported as third-party and marked-confidential. This is a warning based on runtime handoff; individual files and rights were not assessed in this review.
+
+### Cross-folder work packages (not new canonical backlog IDs)
+
+| Order | Package | Priority | Affected areas | Existing work / finding correspondence | Decision or dependency | Acceptance / validation gate |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | R01 Public source-file rights and confidentiality audit | P0 | 70, 99, repository root Downloads/Reference Files | KB-007; F-15; runtime handoff | Owner-led rights classification; Git history rewriting/removal requires separate decision | File-by-file rights/confidentiality inventory, exposure scope, disposition decision; verify any remediation across current tree/history, preserve safe source metadata |
+| 2 | R02 Current-main runtime and integrity baseline | P0 | 99 plus all domains | KB-003/004/009; F-04/F-05/F-14 | Rely on active file versions; tool execution/CI access required | Record actual active schema versions, `main` SHA, CI status, identity/name/path/link/inverse/endpoint/test results, exceptions and reproducible commands |
+| 3 | R03 Decision and backlog status reconciliation | P1 | 80, 70 | KB-001–010; F-08/F-09/F-11 | R02 for current counts; distinguish historical completions from new gaps | One current work queue with each KB item dispositioned: completed with evidence, active, proposed, blocked or deferred; map existing GitHub issues to work rather than assume issue state |
+| 4 | R04 Source provenance and evidence confidence contract | P1 | 10–70, 90, 99 | KB-007; F-02/F-12/F-14 | Agree source tier, customer confirmation, candidate/inferred/confirmed implementation semantics; schema change only if approved | Defined authoritative source identity/version/access timestamps, evidence tier representation, claim confidence states and migration tests; sample source-to-claim graph verified |
+| 5 | R05 Property/class and authoring schema alignment | P1 | 10, 20, 60, 90, 99 | KB-003/004; F-03/F-04/F-05/F-10/F-17 | Controlled schema 1.19 vs old 1.18 audit; decide Info→Organization, Object subtypes, Port proxy/full, `productClass`, template layout | Schema/property documentation/templates/generated Fileclasses agree; invalid subtype lists dispositioned; aliases/layout migrated only after reader/tool compatibility |
+| 6 | R06 Product and capability coverage views | P1 | 10, 20, 30, 40, 50 | KB-008/009; F-13 | R02 baseline and agreed expected gap/exception categories | Bases/reports show Function→Design candidates, products with verified implementations, unmet requirements, Use Case/function gaps, actor needs, intentional exceptions; no fabricated links |
+| 7 | R07 Metric authority and machine-readable comparisons | P1 | 10, 30, 70, 90 | KB-008; F-06 | Decide product-specific measurement store versus generated cross-product views; distinguish compound dimensions from atomic measures | 55 Metric note definitions characterized; controlled unit/value/method facets for appropriate measures; sample battery/charger comparisons trace to source with no conflicting duplicate authority |
+| 8 | R08 Need and operational scenario validation | P1 | 40, 50, 60 | KB-007/008/010; F-02/F-13 | Customer-side data availability; no need marked confirmed without actual customer evidence | All 31 current needs retain visible hypothesis/validation status; priority scenarios have actor, trigger, outcome, alternatives, evidence class, function support and verification route; derived product counts generated |
+| 9 | R09 Structured findings, decisions and relationship-claim views | P2 | 60, 70, 80 | KB-004/007/009; F-07/F-08/F-09/F-11/F-17 | Decide YAML-with-index vs Markdown decision records; ledger-as-source vs generated views; approval before moves | Searchable decision and conflict index; parseable 107 YAML records or explicit exceptions; large ledgers retain all provenance/conflicts; each active issue has stable authority and status |
+| 10 | R10 Technical reference/library and product-family modeling | P2 | 20, 30, 90 | KB-008/010; F-15/F-16 | Build only from real engineering use and sourced concepts, not folder-size goals | Reusable cross-product terms and implementations have correct definition/usage boundaries, bidirectional navigation and source evidence; pilot second family using BMID end-to-end path |
+| 11 | R11 Reproducible Base Vault/Workbench release acceptance | P1 after R02/R05 | 99 and all domains | KB-003/009; Workbench limitation | Requires an actual clean startup environment and controlled release decision | Fresh vault opens with correct plugin/config/schema state; tests pass; Workbench views operate for representative Object and Info-owned context or limitation expressly accepted |
+| 12 | R12 Final acceptance and continuous governance | P2 | Entire vault | KB-009, ChatReview | Prior packages independently dispositioned | Named owner, verification evidence and commit/issue links per package; refreshed handoff and dated next-review baseline; outstanding findings explicitly accepted or scheduled |
+
+### Dependencies and delivery sequence
+- **Phase A — Safety and baseline:** R01 and R02 may proceed independently, with R01 urgent owner-controlled; R03 reconciles work status once evidence is available.
+- **Phase B — Semantic and evidence contract:** R04 and R05 need explicit decisions before mass migration; R07 depends on their metric/value outcome.
+- **Phase C — Useful engineering views:** R06 and R08 use R02 and approved semantics to make traceability and needs inspectable; R10 follows pilot proof, not blanket reorganization.
+- **Phase D — Durable operations:** R09 rationalizes work-control artifacts and overgrown ledgers; R11 proves clean-vault reproducibility; R12 closes the loop.
+
+### Decision gates requiring owner approval
+1. **Rights/public history:** Which source copies may stay public, be restricted, or be removed, and whether Git history remediation is necessary (R01).
+2. **Schema/semantics:** Organization Info migration; `component`/`assembly` subtype handling; Port proxy/full; source/claim/evidence state fields; property/template contract (R04/R05).
+3. **Data authority:** Where a product-metric value lives, whether comparison views are generated, whether business relationship ledgers/decision YAML are source or derived presentation (R07/R09).
+4. **Migration:** Any structural file moves (Verification records, regulatory requirements, work-control registers, methodology notes), preserving identities, backlinks, links, and validation (R05/R09).
+5. **Exceptions:** Which missing links/implementation choices are valid unresolved hypotheses and which block product development; customer-side evidence acceptance (R06/R08/R10).
+
+### Existing backlog crosswalk and reconciliation rules
+
+| Existing ID | Original focus | Proposed disposition for current reconciliation (not a status change) |
+| --- | --- | --- |
+| KB-001 | Canonical folder taxonomy | Candidate already fulfilled historically: verify dated completion and update stale `Active` only with evidence |
+| KB-002 | Content inventory/mapping | Partially evidenced by folder and navigation inventories; check completeness and unresolved exceptions |
+| KB-003 | Common metadata | Existing schemas and templates present; reconcile current version and gaps through R02/R05 |
+| KB-004 | Relationship vocabulary | Governed `relationships.yaml` exists; ensure semantic docs and live tests agree through R02/R05 |
+| KB-005 | Navigation views | Ten domain READMEs/Bases exist; close historic scope if proven, retain focused missing coverage in R06 |
+| KB-006 | Controlled content migration | Historical 100-step completion shows extensive migration; review residual placement findings, don't label all work Proposed |
+| KB-007 | Evidence ingestion | Substantial Source Document metadata exists; missing provenance links and rights review remain R01/R04 |
+| KB-008 | Traceability views | Function/Design/Use Case graph exists; targeted missing coverage views and metric comparisons remain R06/R07/R08 |
+| KB-009 | Integrity reporting | Earlier full validation passed 2026-10-12; must verify on current `main` through R02/R11/R12 |
+| KB-010 | Internal-data comparison | Still a deliberate planning/permission boundary; no confidential internal data in public vault; handle through R08/R10 only after authorized source policy |
+
+**GitHub issue reconciliation:** Existing references to issues (including issue #2) appear in README/handoff. This session has not freshly enumerated issue state, labels, current CI runs or repository-wide file contents; before assigning issue numbers or claiming closure, inspect live issues and workflows. Do not duplicate or close issues based solely on historical mentions.
+
+### Initial acceptance checkpoint
+Proceed first with a **read-only current-state verification** of repository head, schema 1.19, CI/workflows and validation tools, while separately initiating an owner-led public-PDF rights check. Record results in this file and relevant authoritative backlog records before changing the model. Keeping the older October 12 validation and October 18 audits explicitly dated avoids representing them as today’s verified results.
+
+### Review completion statement
+All ten numbered folders have a recorded content, quality, risk and engineering-opportunity review in this document. **Review complete is not remediation complete.** The roadmap above is a set of proposed packages, not 12 completed tasks, and no bulk model edits were authorized by this chat.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -266,4 +329,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** All 10 numbered main folders reviewed and documented. **Next task (requires separate 'y'):** consolidate cross-folder findings into a prioritized improvement roadmap, reconcile overlap with Knowledge Base Backlog/GitHub issues, mark decision gates and validation criteria. Do not enact bulk model/schema migrations before explicit approval. Re-run live validation first where feasible; October 12 results are historical.
+**Current checkpoint (2026-10-19):** All ten folder reviews and consolidated 12-package proposed roadmap are recorded. **Next task (requires separate 'y'):** begin R02 read-only current-state baseline and live GitHub workflow/issues checks; separately scope R01 public-document exposure with the owner. Reconcile results into the canonical Knowledge Base Backlog after review; do not bulk-edit model/schema notes, change Git history, or assert October 12 validation is current.
