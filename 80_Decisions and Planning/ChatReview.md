@@ -322,6 +322,31 @@ Proceed first with a **read-only current-state verification** of repository head
 ### Review completion statement
 All ten numbered folders have a recorded content, quality, risk and engineering-opportunity review in this document. **Review complete is not remediation complete.** The roadmap above is a set of proposed packages, not 12 completed tasks, and no bulk model edits were authorized by this chat.
 
+## R02 baseline pass 1 — GitHub remote read-only inspection (2026-10-19)
+
+**Status:** PARTIAL / not yet a passing runtime validation. This pass inspected live GitHub repository metadata and sampled authoritative schemas/issues, but did **not** execute the validation scripts, independently enumerate full workflow-run statuses, inspect a local working tree, or examine files in the owner workstation. Its findings must not replace a fully tested current-main baseline.
+
+### Live facts confirmed
+- Repository: `spencerskelly/PosiBattery`; visibility **public**, not archived; default branch `main`; connected identity has admin/push permissions. GitHub branch search returned **main** as the sole branch (the response supplies a cursor, so this is a first-page result, not necessarily an exhaustive all-pages branch audit).
+- Latest review document before this pass: previous documentation commit `7f4005ae7f74e2ec75ebb2455b0673fdfff134af`, with `ChatReview.md` blob SHA `9a5357bd90294e5f46710282be6325dd1e479a26`. This is a confirmed documentation anchor, **not** an independently resolved current remote HEAD SHA; GitHub contents reads were from the default branch.
+- Live `99_System/03_Schemas/element-types.yaml`: `schemaVersion: '1.19'`, dated 2026-10-18. Live `relationships.yaml`: `schemaVersion: '1.36'`, dated 2026-10-05. Earlier 2026-10-12 handoff lists element-types 1.18 and is **stale**.
+- Existing read-only 2026-10-12 runtime handoff reports successful local 28-workflow run and zero missing inverses/endpoint incompatibilities, 8,452 relationships, 0 blocking audit findings and 0 broken/ambiguous links at model SHA `e1ba6642`. **Historical**, not reverified now.
+- GitHub issue search returned issue references including [#5](https://github.com/spencerskelly/PosiBattery/issues/5) (additional semantic-linking PR gates) and [#3](https://github.com/spencerskelly/PosiBattery/issues/3) (Function realization review coverage). Direct fetch of [#2](https://github.com/spencerskelly/PosiBattery/issues/2) confirms the earlier relationship-restoration issue and its recovery narrative. The search result's state field is null, so this pass **cannot claim open or closed status** for those issues.
+- GitHub combined *legacy commit status* for the previous documentation SHA returned an empty `statuses` array; the available commit-associated workflow lookup returned an empty `workflow_runs` list and is documented as filtering for pull-request-triggered runs. **Neither empty response means workflows passed, failed or did not run.** Live Actions chronology/status was not independently retrieved.
+
+### Outstanding checks / acceptance blockers
+1. Resolve current `main` commit SHA from branch/commit metadata or Git CLI; verify all checks against that exact SHA (not against documentation SHA or 2026-10-12 SHA).
+2. Fetch actual GitHub Actions run conclusions for MDSE Vault Audit, Semantic Linking Completion Gate, Workbench review, Local Model review, Port/Item Flow, True Orphan, and additional issue #5 PR gates on a common model SHA. Empty legacy statuses are not proof.
+3. Execute repository-native scripts and all applicable workflow command sequences against a clean clone/current `main`; record exact runner versions, commands, errors and artifacts. Read-only inspection does not establish working copy cleanliness or a reproducible vault startup.
+4. Examine the unresolved issue states and acceptance evidence for #2, #3, #5 with current issue/Actions UI or an issue API exposing reliable state. Do not silently close or duplicate any of them.
+5. Compare schema 1.19 optional/facet fields with Property Definition coverage, templates, generated fileclasses and plugin runtime; check whether 2026-10-18 source record audit supersedes stale 2026-10-12 claims.
+6. Separately implement an **owner-controlled** R01 public-file confidentiality/licensing review; no file bytes/history were changed or publicly reproduced in this pass.
+
+### R02 disposition
+- **Confirmed:** repository metadata/visibility/default branch, sampled schema version headers, existing issue identity and historical report references.
+- **Unverified:** current branch head SHA, current Actions conclusions, current-model zero-error audit, all-workflow reproducibility, clean local status, issue closure states.
+- **Next atomic unit:** get a trustworthy current main SHA and current workflow conclusions, then record exact results. If tools cannot provide those, use a fresh clone and `gh run list`/`gh run view` or repository CI through an authorized execution path and preserve outputs; never substitute historical green results.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -329,4 +354,4 @@ All ten numbered folders have a recorded content, quality, risk and engineering-
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint (2026-10-19):** All ten folder reviews and consolidated 12-package proposed roadmap are recorded. **Next task (requires separate 'y'):** begin R02 read-only current-state baseline and live GitHub workflow/issues checks; separately scope R01 public-document exposure with the owner. Reconcile results into the canonical Knowledge Base Backlog after review; do not bulk-edit model/schema notes, change Git history, or assert October 12 validation is current.
+**Current checkpoint (2026-10-19):** Ten folder reviews and consolidated roadmap complete; R02 baseline pass 1 recorded as PARTIAL. **Next task (requires 'y'):** resolve exact latest main SHA and actual Actions conclusions (not legacy statuses), inspect current issue states, then execute current-head vault validators where supported. R01 public-document rights remains a separate owner-controlled urgent review. No bulk model/schema/history alterations approved.
