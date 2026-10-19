@@ -34,7 +34,7 @@ Entry point for everything the vault holds on state of charge (SOC) and state of
 
 - Conflicts C190-C195 are in [[Battery Product Landscape Conflicts and Open Questions]]: rest-time definitions, non-comparable accuracy claims, SOH thresholds, gauge limits versus 80 V packs, impedance versus capacity, LFP OCV flatness.
 - Documents still wanted (standards, data sheets, patent, reviews, truck CAN specifications) are rows added in round R41 of [[Document Wishlist]]. Add new wanted documents there.
-- Owner questions that feed the matrix are listed in [[SOC and SOH Decision Criteria]]: chemistries and voltage range, SOC accuracy target, SOH purpose, estimator location. Question 1 was answered in part on 2026-10-18 (all chemistries, up to 96 VDC; nominal versus maximum not stated); see the update at the end of that note. White paper rows are in round R73 of [[Document Wishlist]].
+- Owner questions that feed the matrix are listed in [[SOC and SOH Decision Criteria]]: chemistries and voltage range, SOC accuracy target, SOH purpose, estimator location. Question 1 was answered in part on 2026-10-18 (all chemistries, up to 96 VDC; nominal versus maximum not stated); see the update at the end of that note. White paper rows are in round R73 of [[Document Wishlist]]; nine of those papers were added to the repo and absorbed on 2026-10-18 (source keys S25 to S33).
 
 ### Related vault items
 
@@ -42,7 +42,7 @@ Entry point for everything the vault holds on state of charge (SOC) and state of
 - Products: [[PosiCharge BMID]], [[AMETEK Prestolite Power WBID Pro]], [[Power Designers PowerTrac DT3]], [[Philadelphia Scientific eGO!pro]], [[Raymond iBattery]], [[EnerSys Wi-iQ]], [[EnerSys NexSys iON Battery]], [[Flux Power LiFT Pack]], [[EnerSys Truck iQ]].
 - Earlier literature note: [[SOC and Health Estimation Literature Review]].
 
-### Source documents (24)
+### Source documents (33)
 
 - [[Document - ADI Considerations for Fuel Gauging Lithium Iron Phosphate Batteries]]
 - [[Document - ADI MAX17320 Product Page (retrieved 2026-10-13)]]
@@ -68,6 +68,15 @@ Entry point for everything the vault holds on state of charge (SOC) and state of
 - [[Document - TWAICE State of Health Encyclopedia Entry (retrieved 2026-10-13)]]
 - [[Document - Victron BMV-712 Smart Manual Battery Capacity and Peukert Exponent (retrieved 2026-10-13)]]
 - [[Document - Victron SmartShunt Product Page (retrieved 2026-10-13)]]
+- [[Document - Khan et al. Flooded Lead Acid SOC Estimation Using Adaptive Unscented Kalman Filter (Energies 2024)]]
+- [[Document - Lazzarin and Barbi A System for State-of-Health Diagnosis of Lead-Acid Batteries Integrated with a Battery Charger (2011-2012)]]
+- [[Document - Tinnemeyer (Cadex) Multiple Model Impedance Spectroscopy Techniques for Testing Electrochemical Systems (BATTCON 2004)]]
+- [[Document - Chang The State of Charge Estimating Methods for Battery A Review (ISRN Applied Mathematics 2013)]]
+- [[Document - Xiong et al. Critical Review on the Battery State of Charge Estimation Methods for Electric Vehicles (IEEE Access 2017)]]
+- [[Document - Zhang et al. A Critical Review of the State Estimation Methods of Power Batteries for Electric Vehicles (Energies 2025)]]
+- [[Document - Li et al. Data-driven health estimation and lifetime prediction of lithium-ion batteries A review (RSER 2019)]]
+- [[Document - Noura et al. A Review of Battery State of Health Estimation Methods Hybrid Electric Vehicle Challenges (WEVJ 2020)]]
+- [[Document - Gao and Onori Advancing SOC Estimation in LiFePO4 Batteries Enhanced dQ-dV Curve and Short-Pulse Methods (eTransportation 2025)]]
 
 ### Search tips
 

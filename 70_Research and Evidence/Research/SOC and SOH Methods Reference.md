@@ -25,6 +25,15 @@ describedBy:
   - "[[Document - Bilfinger et al. Why We Need a Standardized State of Health Definition for EV Battery Packs (2025)]]"
   - "[[Document - Paizulamu et al. LiFePO4 SOC Estimation under OCV-SOC Curve Error (arXiv 2024)]]"
   - "[[Document - Berecibar et al. Critical Review of State of Health Estimation Methods of Li-ion Batteries for Real Applications (2016)]]"
+  - "[[Document - Xiong et al. Critical Review on the Battery State of Charge Estimation Methods for Electric Vehicles (IEEE Access 2017)]]"
+  - "[[Document - Khan et al. Flooded Lead Acid SOC Estimation Using Adaptive Unscented Kalman Filter (Energies 2024)]]"
+  - "[[Document - Li et al. Data-driven health estimation and lifetime prediction of lithium-ion batteries A review (RSER 2019)]]"
+  - "[[Document - Lazzarin and Barbi A System for State-of-Health Diagnosis of Lead-Acid Batteries Integrated with a Battery Charger (2011-2012)]]"
+  - "[[Document - Zhang et al. A Critical Review of the State Estimation Methods of Power Batteries for Electric Vehicles (Energies 2025)]]"
+  - "[[Document - Noura et al. A Review of Battery State of Health Estimation Methods Hybrid Electric Vehicle Challenges (WEVJ 2020)]]"
+  - "[[Document - Chang The State of Charge Estimating Methods for Battery A Review (ISRN Applied Mathematics 2013)]]"
+  - "[[Document - Gao and Onori Advancing SOC Estimation in LiFePO4 Batteries Enhanced dQ-dV Curve and Short-Pulse Methods (eTransportation 2025)]]"
+  - "[[Document - Tinnemeyer (Cadex) Multiple Model Impedance Spectroscopy Techniques for Testing Electrochemical Systems (BATTCON 2004)]]"
 ---
 
 # SOC and SOH Methods Reference
@@ -35,7 +44,7 @@ Engineer-facing reference of the methods used to find battery state of charge (S
 
 ## Notes
 
-**Reading rule.** Source keys (S1 to S24) are listed at the bottom. Vendor-authored sources (tier T4, or T1 manufacturer claims) are marked as claims. Numbers are as stated by the source; none was reproduced here. Where this note derives a number the word *derived* appears. Disagreements are in [[Battery Product Landscape Conflicts and Open Questions]] (C190 to C195).
+**Reading rule.** Source keys (S1 to S33) are listed at the bottom. Vendor-authored sources (tier T4, or T1 manufacturer claims) are marked as claims. Numbers are as stated by the source; none was reproduced here. Where this note derives a number the word *derived* appears. Disagreements are in [[Battery Product Landscape Conflicts and Open Questions]] (C190 to C195).
 
 ### SOC methods
 
@@ -62,8 +71,20 @@ Engineer-facing reference of the methods used to find battery state of charge (S
 | H5 | Resistance trend from the gauge | Ra learned by Impedance Track | lead-acid, lithium | TI StateOfHealth register is 0 to 100%, full-charge capacity at 25 C and a set load (default -400 mA) over design capacity | S3 |
 | H6 | Differential voltage, learned models, remaining useful life | high-resolution V and Ah, history | lithium | See [[SOC and Health Estimation Literature Review]] (sources 11 to 15); S22 is a 2016 review of SOH methods 'for real applications' (abstract only read here) | [[SOC and Health Estimation Literature Review]], S22 |
 
+### Added 2026-10-18 from nine papers now in the repo (S25 to S33)
+
+These rows add to the tables above; nothing above is edited. Tier for all nine: not covered by T1 to T5.
+
+- **M1c OCV on lead-acid, hysteresis (S25):** one 90 Ah, 12 V sealed flooded lead-acid battery at 25 C; the paper says hysteresis is very prominent in lead-acid and small in most lithium-ion, and OCV was recorded after 3 min and 3 h rest. Conflicts with S28 (OCV approximately linear in SOC for lead-acid) and adds a fourth rest definition to C190; see C350.
+- **M7a Adaptive unscented Kalman filter on lead-acid (S25):** about 2 percent SOC error against about 5 percent for a conventional filter, on one battery and random charge/discharge profiles; error definition not extracted.
+- **M7b dQ/dV from short current pulses on LFP (S33):** one 2.5 Ah 26650 LFP cell at 25 C; 0.2C to 0.5C pulses gave RMSE below 0.08, 0.5C gave 0.0256; no convergence at 1C and 2C or in mid-to-high SOC. A candidate for the LFP flat-curve problem (C195), cell level only.
+- **H3a Charger-integrated impedance SOH (S26):** 4 A, 60 Hz injected into a 16 x 12 V series string (192 V link, above the 96 V scope), per-battery reference averaged over at least twenty new-state measurements, flag at 130 percent of reference; three months of preliminary data only.
+- **H4a Multi-frequency testing, vendor view (S27):** 20 to 2000 Hz, 10 mV per cell, plus or minus 250 micro-ohm, testable under charge or discharge; says single-frequency testers at 83 to 90 Hz are precise only at 0 to 75 percent capacity (C349).
+- **Reviews (S28 to S32):** Chang 2013 (SOC methods, all chemistries named, Li-ion modelled), Xiong 2017 (EV SOC, pack inconsistency), Zhang 2025 (EV multi-state), Li 2019 (data-driven SOH, Li-ion), Noura 2020 (hybrid-vehicle SOH). None addresses traction duty, 24 to 96 V packs, or nickel-based or sodium-ion chemistries; IB-325 and IB-326 stay open.
+
 ### What the sources do not give
 
+- After the nine papers of 2026-10-18 this is unchanged: S25 to S33 test cells or a 12 V battery, and S26 is a 192 V stationary string.
 - No source here compares methods on a forklift duty cycle (partial discharge, opportunity charging, high pulses) or on an 80 V pack.
 - Lead-acid SOC and SOH evidence is mostly educational or vendor material; the academic evidence in [[SOC and Health Estimation Literature Review]] is mostly lithium.
 - No source states a required accuracy for a forklift battery gauge. The requirement is a product decision (see [[SOC and SOH Decision Criteria]]).
@@ -85,6 +106,15 @@ Engineer-facing reference of the methods used to find battery state of charge (S
 - **S17** [[Document - Cadex Spectro Technology Page (retrieved 2026-10-13)]] <https://www.cadex.com/technology/our-technologies/spectro>
 - **S21** [[Document - Paizulamu et al. LiFePO4 SOC Estimation under OCV-SOC Curve Error (arXiv 2024)]] <https://arxiv.org/abs/2410.23646>
 - **S22** [[Document - Berecibar et al. Critical Review of State of Health Estimation Methods of Li-ion Batteries for Real Applications (2016)]] <https://ideas.repec.org/a/eee/rensus/v56y2016icp572-587.html>
+- **S25** [[Document - Khan et al. Flooded Lead Acid SOC Estimation Using Adaptive Unscented Kalman Filter (Energies 2024)]]
+- **S26** [[Document - Lazzarin and Barbi A System for State-of-Health Diagnosis of Lead-Acid Batteries Integrated with a Battery Charger (2011-2012)]]
+- **S27** [[Document - Tinnemeyer (Cadex) Multiple Model Impedance Spectroscopy Techniques for Testing Electrochemical Systems (BATTCON 2004)]]
+- **S28** [[Document - Chang The State of Charge Estimating Methods for Battery A Review (ISRN Applied Mathematics 2013)]]
+- **S29** [[Document - Xiong et al. Critical Review on the Battery State of Charge Estimation Methods for Electric Vehicles (IEEE Access 2017)]]
+- **S30** [[Document - Zhang et al. A Critical Review of the State Estimation Methods of Power Batteries for Electric Vehicles (Energies 2025)]]
+- **S31** [[Document - Li et al. Data-driven health estimation and lifetime prediction of lithium-ion batteries A review (RSER 2019)]]
+- **S32** [[Document - Noura et al. A Review of Battery State of Health Estimation Methods Hybrid Electric Vehicle Challenges (WEVJ 2020)]]
+- **S33** [[Document - Gao and Onori Advancing SOC Estimation in LiFePO4 Batteries Enhanced dQ-dV Curve and Short-Pulse Methods (eTransportation 2025)]]
 
 ## Aliases
 

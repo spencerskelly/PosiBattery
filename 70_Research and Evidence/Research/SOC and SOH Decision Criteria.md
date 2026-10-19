@@ -81,6 +81,17 @@ The text above is not edited, including the line that said the nominal-versus-ma
 - Measurement inputs therefore have two sizing points: about 94 V at charge for the majority case and about 113 V at charge for the 96 V case. The 96 V case is the stretch case that exceeds the TI gauge range in C193 by a wider margin. Which of the two the first design must meet is a decision not yet taken; see IB-327.
 - No source in the vault gives the share of the installed base at 96 V or at 80 V, so "majority" and "commonly seen" rest on the owner's statement only.
 
+### Update 2026-10-18 (nine papers absorbed)
+
+Nine of the R73 papers are now in the repo and read ([[SOC and SOH Methods Reference]], source keys S25 to S33). Effects on the criteria, with no scoring:
+
+- **Chemistry coverage:** lead-acid has two new papers (S25 SOC, S26 SOH); LFP has one (S33). Nickel-based and sodium-ion still have none (IB-326). Seven of the nine are lithium-ion, EV or cell-level.
+- **Voltage range:** nothing tested exceeds a 12 V battery (S25), a 2.5 Ah cell (S33) or a 192 V stationary string measured per 12 V battery (S26). No source validates an estimator at the 94 V or 113 V sizing points.
+- **Compute location (question 4):** S26 is a worked example of an SOH measurement integrated in the charger; it is stationary UPS duty, three months of data, 16 batteries.
+- **SOH threshold:** more second-hand statements of an 80 percent rule were found (C349); none is the standard.
+- **Rest and relearn:** a fourth rest definition and a linear-versus-hysteresis disagreement on lead-acid OCV (C350).
+- **Still true:** no source covers traction duty at 24 to 96 V (IB-325); the maker white-paper row remains wanted.
+
 ## Sources
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].
