@@ -11,6 +11,8 @@ tags:
 describes:
   - "[[Battery-Connected Product]]"
 describedBy:
+  - "[[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]"
+  - "[[Document - ITA North American Slides, Alliance of Industrial Truck Organizations Presidents Forum (2023-10-27)]]"
   - "[[Document - IMARC Mexico Forklift Trucks Market Page 2025]]"
   - "[[Document - Logweb Issue 206 Brazil Intralogistics Market Review (Dec 2019 to Jan 2020)]]"
   - "[[Document - OSHA Directive CPL 18-07 Powered Industrial Truck Enforcement Region IV (2017)]]"
@@ -43,7 +45,7 @@ Each layer lies downstream of the one above it. Truck shipments are the only lay
 | Source | Population counted | Classes | Regions | Notes |
 |---|---|---|---|---|
 | WITS (FEM, ITA, JIVA, CITA and others) | Industrial trucks reported by participating manufacturers | 1, 2, 31, 32, 4/5 | Europe, Americas, Asia, Africa, Oceania; no country table | Used throughout the vault. Americas = North plus South America |
-| ITA factory shipments | US factory shipments of ITA members since 1983 | Electric rider (1+2 combined), motorized hand (3), internal combustion (4+5 combined) | United States | ITA represents 85% of forklift manufacturers in the US and Canada; the page warns annual figures are not comparable because membership changes ([[Document - ITA Market Intelligence page]]). Table is a linked PDF not yet read (R78) |
+| ITA factory shipments | US factory shipments of ITA members since 1983 | Electric rider (1+2 combined), motorized hand (3), internal combustion (4+5 combined) | United States | ITA represents 85% of forklift manufacturers in the US and Canada; the page warns annual figures are not comparable because membership changes ([[Document - ITA Market Intelligence page]]). Table read first-hand 2026-10-18 (2000 to 2025; see [[Regional Market Size Model]] Table E) |
 | ITA retail orders | North American retail orders | 1 to 5 | North America | 344,330 in 2022; electric about 65% in 2022 ([[Market Size and Volume Register]]) |
 | OSHA / ASME B56.1 | Definition of a powered industrial truck for US rules | all | United States | Mobile, power-propelled trucks used to carry, push, pull, lift, stack or tier material; about 1.5 million operators ([[Document - OSHA Directive CPL 18-07 Powered Industrial Truck Enforcement Region IV (2017)]]) |
 | NAICS 333924 | US establishments making industrial trucks, tractors, trailers and stackers | n/a | United States | Industry code, not a product count; vendor TAM of about USD 38bn has no stated geography ([[Document - Grata NAICS 333924 Industrial Truck Tractor Trailer Stacker Machinery Manufacturing Market Overview]]) |
@@ -66,7 +68,7 @@ Each layer lies downstream of the one above it. Truck shipments are the only lay
 
 ### 4. What is still not defined
 
-1. **US, Canada, Mexico units.** The ITA tables (US shipments since 1983; North American slides) are public but the site blocks automated reading; they are on the wishlist as R78.
+1. **Canada and Mexico units.** The ITA US factory shipments table and the North American retail-orders slide are now read (2026-10-18, files supplied from the public ITA site); they give the US and a combined North America, not Canada or Mexico separately. FEM, CITA, JIVA and the WITS sheet PDFs are still wanted (R78).
 2. **Installed base anywhere.** No stock of trucks by region or class was found. OSHA gives operators (1.5 million), not trucks; a March 2019 trade article says OSHA asked for a fleet census, but the article gives no numbers ([[Document - OSHA Directive CPL 18-07 Powered Industrial Truck Enforcement Region IV (2017)]] covers the operator count only).
 3. **A unit definition shared across regions.** WITS, ITA and CCMA counts differ, so regional unit totals from different sources should not be added.
 4. **Rental and used trucks.** Rental fleets buy batteries and chargers differently from owners; no regional data was found beyond Brazilian dealer remarks.

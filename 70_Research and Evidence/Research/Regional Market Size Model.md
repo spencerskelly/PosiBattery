@@ -12,6 +12,8 @@ describes:
   - "[[Battery-Connected Product]]"
   - "[[Regional Market Differences Brief]]"
 describedBy:
+  - "[[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]"
+  - "[[Document - ITA North American Slides, Alliance of Industrial Truck Organizations Presidents Forum (2023-10-27)]]"
   - "[[Document - World Industrial Truck Statistics 2025 Q4 Factsheet]]"
   - "[[Document - World Industrial Truck Statistics 2024 Q4 Factsheet]]"
   - "[[Document - GMI Forklift Battery Market Page 2024]]"
@@ -31,7 +33,7 @@ How large each world region's forklift and battery market is, whether or not Pos
 1. **Asia is half the world market and still growing fastest.** 50.8% of 2025 shipments and 45.8% of Class 1 plus Class 2 (the rider trucks with large traction batteries). Class 1 plus 2 shipments rose 22.1% from 2023 to 2025 (derived).
 2. **Europe is the most electrified region and its rider-truck volume is falling.** 92.8% of 2025 shipments are electric, but Class 1 plus 2 shipments fell 6.0% from 2023 to 2025; growth was in pallet trucks (Class 31 up 60% from 110,765 to 177,787). Europe's battery demand is therefore replacement and chemistry change, not new trucks (derived; installed base not in the vault).
 3. **The Americas are the smallest of the three large regions but the only one with headroom and growth in riders.** Class 1 plus 2 up 16.0% since 2023; 72.0% electric, so 28% of shipments (121,646 combustion trucks in 2025) are still convertible, which is the pool the California zero-emission rule and the clean fuel programs target ([[Regional Market Differences Brief]]).
-4. **"Americas" in WITS is North plus South America.** The vault cannot yet split US, Canada, Mexico and Brazil; the owner's first two priorities are inside one row (IB-339).
+4. **"Americas" in WITS is North plus South America.** US factory shipments are now in the vault (Table E) and are 53% of WITS Americas in 2025, down from 69% in 2023; Canada, Mexico and South America are still inside one row, and the two sources disagree on direction (C358, IB-339).
 5. **No vendor gives a usable regional dollar split.** IMARC (USD 5.4bn, 2025) says Asia Pacific is largest without numbers; GMI (USD 5.5bn, 2024) gives only "US above USD 800 million by 2034". The regional values below are therefore derived from unit data, not sourced.
 6. **Shipments are flow, not stock.** A battery or charger market follows the installed base and its replacement cycle. The vault has no installed base by region (IB-341); the base case in the bottom-up model assumes steady state at 2025 shipments.
 
@@ -85,6 +87,22 @@ Method: the base case of the [[Battery Market Bottom-Up Model]] gives USD 9.7bn 
 
 **Limits of Table C.** It uses one price, one battery life and one lithium share for every region, so it shows the split of volume, not of dollars. Regional differences likely to matter [A, no source read]: truck and battery price levels, chemistry mix, replacement habits, and (US) clean fuel credit economics. The base case itself is 2.1 to 2.3 times the vendor totals (USD 5.4 to 5.9bn). Use Table C for ranking, not for revenue planning.
 
+### Table E: US factory shipments against WITS Americas (added 2026-10-18)
+
+ITA United States factory shipments ([[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]) [P], compared with WITS Americas shipments from Table A.
+
+| Year | ITA US total | WITS Americas total | US as share | ITA electric rider (1+2) | WITS Americas Class 1+2 | ITA motorized hand (3) | WITS Americas Class 31+32 | ITA IC (4+5) | WITS Americas Class 4/5 |
+|---|---|---|---|---|---|---|---|---|---|
+| 2023 | 298,059 | 430,817 | 69.2% | 96,652 | 118,030 | 87,815 | 157,958 | 113,592 | 154,829 |
+| 2024 | 254,359 | 426,061 | 59.7% | 97,050 | 128,144 | 75,049 | 158,692 | 82,260 | 139,225 |
+| 2025 | 231,397 | 434,540 | 53.3% | 88,461 | 136,911 | 79,081 | 175,983 | 63,855 | 121,646 |
+
+- **The two series move in opposite directions.** US factory shipments fell 22.4% from 2023 to 2025 (derived) while WITS Americas rose 0.9%. Class 1+2 fell 8.9% from 2024 to 2025 in the ITA table but rose 6.8% in WITS Americas (C358).
+- **US factory shipments are not the US market.** The ITA file does not say whether exports are counted or whether the series covers members only; WITS Americas also covers Canada, Mexico and South America and, if it counts units by where they were shipped from, would include imports into the region. Whether the gap is imports, other countries, or reporting coverage is not known.
+- **US electric share of factory shipments** rose from 61.9% (2023) to 72.4% (2025), against 64.1% to 72.0% for the Americas in Table B (derived).
+- **North American retail orders** (US, Canada, Mexico and government, [[Document - ITA North American Slides, Alliance of Industrial Truck Organizations Presidents Forum (2023-10-27)]] [P]) were 348,000 in 2021, 344,000 in 2022 and 188,000 for January to September 2023; electric share of retail orders 69% in 2020 and 67% for 2023 to September.
+- **Not yet in the vault:** a US-only, Canada-only or Mexico-only unit count from an independent source; Canada and Mexico cannot be separated from these ITA files.
+
 ### Table D: vendor evidence on regional value (what exists)
 
 | Source | Global figure | Regional content |
@@ -101,7 +119,7 @@ Method: the base case of the [[Battery Market Bottom-Up Model]] gives USD 9.7bn 
 
 ### Gaps, in order of value
 
-1. Americas split into US, Canada, Mexico, Brazil and the rest (IB-339).
+1. Americas split into Canada, Mexico, Brazil and the rest: the US factory table is in (Table E) but Canada, Mexico and South America remain inside the WITS row (IB-339).
 2. Regional lithium and lead-acid mix and prices; Chinese price levels (IB-340).
 3. Installed base by region and age (IB-341).
 4. Regional charger market and who supplies it (IB-342).

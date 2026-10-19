@@ -30,8 +30,6 @@ Running list of documents identified as useful, what each would fill, and whethe
 
 | Status | Document | URL (direct file only) | Where to look (page, not a file) | Fills | Repo path | Added |
 |---|---|---|---|---|---|---|
-| **high priority**<br>wanted (R78); automated fetch blocked by robots rules | ITA United States Factory Shipments table (1983 to 2025) - US units by electric rider, motorized hand and internal combustion | https://www.indtrk.org/wp-content/uploads/2026/02/Factory-Shipments-Table-2026-Directory.pdf | <https://www.indtrk.org/market-intelligence> | US unit series; Americas split (IB-339, IB-347) | - | R78 |
-| **high priority**<br>wanted (R78); automated fetch blocked by robots rules | ITA North American slides, 2023 Presidents Forum - North American market outlook | https://www.indtrk.org/wp-content/uploads/2023/11/2023-ITA-Presidents-Forum.pdf | <https://www.indtrk.org/market-intelligence> | North American shipments, electric and lithium share (IB-339, IB-347) | - | R78 |
 | **helpful**<br>wanted (R78); automated fetch blocked by robots rules | FEM Europe slides, 2023 Presidents Forum | https://www.indtrk.org/wp-content/uploads/2023/11/2023-FEM-Presidents-Forum.pdf | <https://www.indtrk.org/market-intelligence> | Europe market facts (IB-332) | - | R78 |
 | **helpful**<br>wanted (R78); automated fetch blocked by robots rules | CITA China slides, 2023 Presidents Forum | https://www.indtrk.org/wp-content/uploads/2023/11/2023-CITA-Presidents-Forum.pdf | <https://www.indtrk.org/market-intelligence> | China market; C355 (IB-336) | - | R78 |
 | **helpful**<br>wanted (R78); automated fetch blocked by robots rules | JIVA Japan slides, 2023 | https://www.indtrk.org/wp-content/uploads/2023/11/JIVA-Presentation-2023.pdf | <https://www.indtrk.org/market-intelligence> | Japan market (IB-336) | - | R78 |
@@ -387,7 +385,7 @@ Order: high priority, helpful (medium before low), then issue rows (bad links an
 - **Round 76 2026-10-18:** the EU Regulation 2023/1542 full text was read and its row moved to [[Reviewed Documents Register]] (now 48 rows; this table 308 rows). New backlog rows IB-330, IB-331; new conflict C351.
 
 - **Round 77 2026-10-18:** 8 in-repo files read first-hand (ZVEI leaflets 14 and 23e, CARB impact assessment and final statement of reasons, EPRI 2015, BC bulletins RLCF-022 and RLCF-007, Canada Clean Fuel Regulations full text) and their rows moved to [[Reviewed Documents Register]] (now 56 rows; this table 300 rows). Four new Document notes (ZVEI 14, ZVEI 11e, ZVEI 23e, Canada full text); five existing Document notes updated. Used in [[Regional Market Differences Brief]]. New conflicts C352 to C354; new backlog rows IB-332, IB-333.
-- **Round 78 2026-10-18:** six public ITA and WITS PDFs (US factory shipments table, North American, Europe, China and Japan slides, WITS information sheet 2024-Q4) added at the top of section 1; the site's robots rules block automated reads, so they need downloading by hand. Linked from [[Market Definition and Scope]] (IB-347, IB-349).
+- **Round 78 2026-10-18:** six public ITA and WITS PDFs (US factory shipments table, North American, Europe, China and Japan slides, WITS information sheet 2024-Q4) added at the top of section 1; the site's robots rules block automated reads, so they need downloading by hand. The factory shipments table and the North American slides arrived the same day and were read first-hand (rows moved to [[Reviewed Documents Register]]); four remain wanted. Linked from [[Market Definition and Scope]] (IB-347, IB-349).
 
 ## Aliases
 

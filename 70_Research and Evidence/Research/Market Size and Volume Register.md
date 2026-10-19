@@ -76,7 +76,7 @@ Regional class tables for 2023, 2024 and 2025 (shipments by Europe, Americas, As
 
 - [[Document - ITA Powered Industrial Trucks, a Robust Market (2023-03-08)|ita]]: classes 1 to 5, 347,677 units in 2021 (record) and 344,330 retail orders in 2022; electric (classes 1 to 3) about 72% in 2021 and 65% in 2022.
 - [[Document - Flux Power Form 10-K for Fiscal 2026 (2026-09)|fx10]] (citing ITA): electric about 71% of North American retail orders in 2024. Consistent with the 72% (2021) and 65% (2022) above.
-- [[Document - ITA Market Intelligence page|itm]]: US factory shipments are published by ITA as PDF tables (robots rules blocked the fetch), so no US shipment series is recorded yet.
+- [[Document - ITA Market Intelligence page|itm]]: US factory shipments are published by ITA as PDF tables. Read first-hand 2026-10-18 ([[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]]): electric rider 88,461, motorized hand 79,081, internal combustion 63,855 in 2025 (total 231,397; 298,059 in 2023). The series conflicts with WITS Americas in direction (C358). North American retail orders 2005 to 2023 are in [[Document - ITA North American Slides, Alliance of Industrial Truck Organizations Presidents Forum (2023-10-27)]].
 
 ### 3. Electrification and lithium share (Interact Analysis)
 

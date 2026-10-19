@@ -96,6 +96,7 @@ Product-team brief that puts the regional evidence in the vault side by side: wh
 | Shipments 2025 by region | Asia 1,210,288; Europe 673,663; Americas 434,540; Africa 29,486; Oceania 33,440 | World regions | same |
 | Americas Class 1 plus Class 2 shipments 2025 | 136,911 (derived) | Americas | same |
 | Electric share of North American retail orders | about 71 percent in 2024 | North America | ITA via Flux Power 10-K [S] |
+| US factory shipments (ITA) | 231,397 in 2025, down 22.4 percent from 2023; electric 72.4 percent of the total | United States | [[Document - ITA United States Factory Shipments Table (2000 to 2025, 2026 Directory)]] [P] (C358) |
 | Affected forklifts in California | about 95,000 LSI forklifts in about 11,000 fleets by 2026; about 70,000 lead-acid forklifts in operation | California | CARB impact assessment [P] |
 | Lithium share of new industrial batteries | 7 to 10 percent (c. 2022); modeled 35 percent of new battery-electric forklifts in 2026, 61 percent in 2030 | California | CARB impact assessment [P], assumption (C354) |
 | Lithium share of full-electric sales | about 32 percent in 2024; expected above 70 percent by 2034 | World | [[Market Size and Volume Register]] (Interact) [V] |
