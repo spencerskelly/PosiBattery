@@ -375,6 +375,36 @@ The legacy `get_commit_combined_status` lookup previously returned an empty stat
 
 **Disposition:** R02 is still **in progress**. Current remote commit listing and #3/#5 open-query matches verified; the golden same-SHA Actions+local runtime baseline remains **unverified**.
 
+## R02 baseline pass 3 — current GitHub access verification (2026-10-19)
+
+**Status:** PARTIAL — improved issue and latest-commit evidence; no certified GitHub Actions or model validation.
+
+### Observed facts and method
+- Live GitHub repository commit search with empty query restricted to `spencerskelly/PosiBattery` returned most recent **`b5ba9f9d0253186592e2efa4bcc625173e047d81`** (2026-10-19 22:27:53 UTC), followed by `0841b58fe4c897dd3ae017d43b2a039466d9245c` and `7f4005ae7f74e2ec75ebb2455b0673fdfff134af`. These are all ChatReview documentation commits. This verifies *the most recently returned commit in repository search*, not a direct read of `refs/heads/main`; commit search is not an authoritative branch-ref endpoint.
+- Live GitHub issue search filtered by `repo:spencerskelly/PosiBattery is:issue is:open` returned **#2, #3 and #5**. Unlike Pass 2, #2 now also appears in the **open-filtered search**, a stronger indication of its state. The connector result's individual state field is not reliable, so confirm with direct GitHub issue JSON when an API-capable environment is available. No issues were modified.
+- Attempts to retrieve `https://api.github.com/repos/spencerskelly/PosiBattery/branches/main`, the Actions runs endpoint, and issue #2 through direct web access returned **URL inaccessible**. A local shell `git ls-remote https://github.com/spencerskelly/PosiBattery.git refs/heads/main` failed with **Could not resolve host: github.com**. This independently establishes that the execution environment cannot perform a remote Git/Actions interrogation through that route.
+- The GitHub connector does allow repository file writes and searches, but its available per-commit workflow lookup covers pull-request-triggered runs only, and legacy combined statuses were empty in Pass 1. **No success or failure conclusion can be inferred from those empty results.**
+- Prior observed schemas: element-types 1.19 and relationships 1.36. No new schema execution or template/release check was performed here.
+
+### Required owner-workstation verification commands
+Run from a GitHub-connected terminal with `git`, `gh`, and read permission to the public repository. These commands only read remote state:
+
+```bash
+REPO=spencerskelly/PosiBattery
+git ls-remote https://github.com/$REPO.git refs/heads/main
+gh api "repos/$REPO/branches/main" --jq '.commit.sha'
+gh run list -R "$REPO" --branch main --limit 100 --json databaseId,name,headSha,status,conclusion,createdAt
+for i in 2 3 5; do gh issue view "$i" -R "$REPO" --json number,title,state,closedAt,updatedAt; done
+```
+
+**Validation gate:** choose **one non-documentation model SHA**, confirm all required workflow conclusions for that same SHA (including issue #5's three additional gates), then run the repository's current workflow validation commands on a clean checkout of that SHA. Preserve exact run IDs, check names, environment versions, exit codes and anomaly disposition. Do not label R02 green based only on older October 12 checks.
+
+### Disposition and next atomic unit
+- **Confirmed:** all three tracked issues #2/#3/#5 appear under open-filtered search; latest commit-list result was `b5ba9f9d...`; external GitHub API and remote Git are blocked from this execution environment.
+- **Still unknown:** authoritative current `main` ref SHA, live Actions conclusions, clean local checkout and full validator results.
+- **Next:** obtain terminal command results from an authorized networked GitHub runtime or user-provided execution output, reconcile exact SHA/workflows/issues and commit the complete golden-baseline evidence. Alternatively switch to R01 owner-controlled exposure audit if remote CI remains blocked.
+- **Change policy:** no model or schema changes, workflow reruns, issue closure or Git history rewrite during this pass.
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -382,4 +412,4 @@ The legacy `get_commit_combined_status` lookup previously returned an empty stat
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap, and R02 remote passes 1 and 2 documented. Latest returned repository commit before this edit: 0841b58fe4c897dd3ae017d43b2a039466d9245c; current Actions conclusions and same-SHA runtime validation remain unverified. **Next (requires 'y'):** obtain authoritative main ref/Actions/issue JSON and clean-run evidence using available execution path; R01 public-document rights stays an urgent separate owner-controlled review. Do not modify model/schema/history without approval.
+**Current checkpoint (2026-10-19):** Ten folder reviews, consolidated roadmap, and R02 passes 1–3 recorded. Issue searches include #2/#3/#5 in open results; commit-search latest at Pass 3 was b5ba9f9d0253186592e2efa4bcc625173e047d81. API/browser/direct Git access blocked; current main ref/Actions conclusions and same-SHA model validation remain unverified. **Next (requires 'y'):** acquire read-only GitHub terminal command output listed in R02 Pass 3, or address urgent R01 file rights review with owner authorization. Do not bulk-modify model/schema/history.
