@@ -17,6 +17,7 @@ describedBy:
   - "[[Document - Bilfinger et al. Why We Need a Standardized State of Health Definition for EV Battery Packs (2025)]]"
   - "[[Document - ISO 12405-4:2018 Standard Page (retrieved 2026-10-13)]]"
   - "[[Document - SIST EN IEC 62485-6:2021 Catalog Page (retrieved 2026-10-13)]]"
+  - "[[Document - EUR-Lex Regulation 2023-1542 Full Text as Published 2023-07-28 (Articles 3, 10, 13, 14, 77, 78 and Annexes IV, VII, XIII read)]]"
 ---
 
 # SOC and SOH Specifications and Standards
@@ -70,6 +71,7 @@ Status 'read' means the catalogue page was read on 2026-10-13, never the standar
 | EN IEC 62485-6:2021 | safe operation of lithium-ion batteries in traction applications: electric off-road vehicles including industrial trucks; also installation, use, inspection, maintenance, disposal; defines a BMS as an electronic system that controls current for overcharge, overcurrent, overdischarge and overheating and monitors the battery's state; has BMS (10.1) and inspection and monitoring (14) clauses | CENELEC approval 2021-02-09 | the BMS and monitoring clauses may set what state monitoring a lithium truck battery must provide; text not seen | catalogue page | S24 |
 | ISO 12405-4:2018 | test procedures for performance, reliability and electrical functionality of lithium-ion traction packs in electrically propelled road vehicles | edition 1, 2018-07; stage 90.60 | road vehicles; the page does not mention capacity or SOH tests; useful only as a model for test procedure; cell level is IEC 62660 | catalogue page | S23 |
 | IEEE 1188 (and IEEE 450) | maintenance, testing and replacement of stationary VRLA (1188) and vented (450) lead-acid batteries; a test vendor's blog cites periodic discharge intervals and says the 80% replacement point comes from manufacturers, not IEEE | not read | stationary batteries; a template for capacity-test and ohmic-trend schedules, not a traction standard | blog only | S16 |
+| Regulation (EU) 2023/1542 (EU law, not a standard) | legal definitions of state of charge (available energy as a percentage of manufacturer-declared rated capacity) and state of health (condition and ability to deliver specified performance compared with initial condition); Annex VII state-of-health parameters (remaining capacity, power, round trip efficiency, self-discharge, ohmic resistance; SOCE for EV); Annex XIII passport use data include periodically recorded state of charge | full text read 2026-10-18 | EU market only; Art. 14 names stationary, LMT and EV batteries, not forklift traction batteries (C351); no accuracy requirement for SOC or SOH was found in the text | primary text in repo | [[Document - EUR-Lex Regulation 2023-1542 Full Text as Published 2023-07-28 (Articles 3, 10, 13, 14, 77, 78 and Annexes IV, VII, XIII read)]] |
 | EN 1175-1 and similar truck electrical standards | safety of industrial trucks, electrical requirements (title from search results) | not read | may constrain truck-side display and battery interface | not read | none |
 
 No document was found that defines required SOC accuracy for forklift batteries.

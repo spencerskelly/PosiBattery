@@ -92,6 +92,11 @@ Nine of the R73 papers are now in the repo and read ([[SOC and SOH Methods Refer
 - **Rest and relearn:** a fourth rest definition and a linear-versus-hysteresis disagreement on lead-acid OCV (C350).
 - **Still true:** no source covers traction duty at 24 to 96 V (IB-325); the maker white-paper row remains wanted.
 
+### Update 2026-10-18 (EU regulation text read)
+
+- **Standards criterion:** Regulation (EU) 2023/1542 now has legal definitions of state of charge and state of health and a list of state-of-health parameters (Annex VII); no required accuracy was found. See [[SOC and SOH Specifications and Standards]] and C351.
+- **Output the product may have to supply (EU market, owner has not confirmed any EU sales, IB-281):** passport use data for industrial batteries include periodically recorded state of charge, so a SOC estimate would feed a legal record if a battery maker chooses the device as its source. This is a hypothesis; the text puts the duty on the battery's market operator ([[EU Battery Passport and Battery Regulation Register]]).
+
 ## Sources
 
 See the source keys in [[SOC and SOH Methods Reference]], [[SOC and SOH Product Landscape]] and [[SOC and SOH Specifications and Standards]].

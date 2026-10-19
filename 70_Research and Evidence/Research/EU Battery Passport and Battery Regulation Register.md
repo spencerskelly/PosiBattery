@@ -20,6 +20,7 @@ describedBy:
   - "[[Document - European Commission Batteries Page (retrieved 2026-10-17)]]"
   - "[[Document - European Commission Batteries Passport FAQ (retrieved 2026-10-17)]]"
   - "[[Document - EUR-Lex Regulation 2023-1542 Batteries and Waste Batteries Recitals and Definitions (retrieved 2026-10-17)]]"
+  - "[[Document - EUR-Lex Regulation 2023-1542 Full Text as Published 2023-07-28 (Articles 3, 10, 13, 14, 77, 78 and Annexes IV, VII, XIII read)]]"
   - "[[Document - BatteryMBA EU Battery Regulation Passport Dates Page (2026-07-26)]]"
   - "[[Document - Cattwyk Omnibus Package IV Amendments to the Battery Ordinance (2025)]]"
   - "[[Document - Arianee Battery Passport for Material Handling Page (retrieved 2026-10-17)]]"
@@ -36,6 +37,17 @@ Register of what is documented about the digital battery passport under Regulati
 
 - **Reading rule:** every source was read through a summarizing fetch tool (second-hand). Regulator pages ([[European Commission]]) are not covered by the T1 to T5 tiers; vendor and trade pages are T4. The operative articles of the regulation (Art. 77 passport, Art. 14 state of health and BMS, Art. 13 labelling, Annex XIII) were **not** read: only recitals and Articles 1 to 3 loaded (IB-298). Status is as of 2026-10-17.
 - **Scope:** EU market only. No vault note says PosiCharge sells into the EU (IB-281 is still open).
+
+### Update 2026-10-18: operative text read (IB-298)
+
+The full 2023-07-28 text is now in the repo ([[Document - EUR-Lex Regulation 2023-1542 Full Text as Published 2023-07-28 (Articles 3, 10, 13, 14, 77, 78 and Annexes IV, VII, XIII read)]]). The reading rule above is unchanged for the other sources; the paragraphs below are first-hand from the file. The text above is not edited; where it disagrees with the primary text the difference is logged in C333, C337 and C351.
+
+- **Scope of the passport (Art. 77):** each industrial battery above 2 kWh from 2027-02-18, defined by category and size, not chemistry; text search found no lead-acid exclusion (supports the vendor claim in C333). Forklifts are not named; the off-road machinery wording sits in a recital (analyst reasoning links it to forklifts).
+- **State of health duty (Art. 14) is narrower than the Commission FAQ summary above.** Art. 14(1) names only stationary storage systems, LMT batteries and electric vehicle batteries. A forklift traction battery is none of the three on the reading above, so the Annex VII state-of-health data in the BMS is not required of it by this article. Annex XIII point 4(b) still lists "information on the state of health ... pursuant to Article 14" for every passport (C351).
+- **What a forklift battery passport does require from use data (Annex XIII point 4(d)):** cycle counts, negative events, and periodically recorded temperature and state of charge. These are the kind of data a battery-mounted logger could supply (hypothesis, not stated by the text). The responsible party is the operator placing the battery on the market (Art. 77(4)).
+- **Performance document (Art. 10, from 2024-08-18):** applies to industrial batteries above 2 kWh. Capacity fade, power fade and internal resistance increase must be declared with their test conditions (Annex IV). Minimum values from 2027-08-18 or 18 months after a delegated act due 2026-02-18; adoption not checked (IB-330).
+- **BMS definition (Art. 3(25)) is functional:** controls or manages electric and thermal functions, stores Annex VII data, and communicates with the vehicle or charging infrastructure. Whether a monitor that only measures and reports meets it is not answered by the text (C337).
+- **Not read or not in the file:** amendments after 2023-07-28 (IB-331), the Art. 77(9) access-rights act (deadline in the text 2026-08-18; the register above records a draft expected October or November 2026), the data carrier standards.
 
 ### Bottom line (analyst summary)
 
@@ -68,7 +80,7 @@ Does PosiCharge sell chargers or BMID/Battery Rx devices to the EU, and are BMID
 
 ## Open questions
 
-- What do Art. 77, Art. 14 and Annex XIII say about industrial batteries, lead-acid and BMS data (IB-298)?
+- What do Art. 77, Art. 14 and Annex XIII say about industrial batteries, lead-acid and BMS data (IB-298)? Answered in the 2026-10-18 update above; remaining question is C351.
 - Which data points are mandatory for industrial batteries (IB-299)?
 - Access-rights act: who may read usage data, and does it reach monitor data (IB-300)?
 - What did Omnibus IV adopt (IB-301)?
@@ -77,7 +89,7 @@ Does PosiCharge sell chargers or BMID/Battery Rx devices to the EU, and are BMID
 
 ## Sources
 
-Listed in `describedBy`. Not readable here: the Commission data-points PDF and the operative regulation text.
+Listed in `describedBy`. Not readable here: the Commission data-points PDF. The operative text is read as of 2026-10-18 for the articles listed in the update above.
 
 ## Aliases
 
