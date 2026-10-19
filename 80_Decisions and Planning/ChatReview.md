@@ -31,8 +31,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 5 | `50_Customer Needs` | Reviewed; recorded | Folder README plus Prevent Battery Abuse, Know Battery State, Charge Each Battery Correctly |
 | 6 | `60_Stakeholders and Ecosystem` | Reviewed; recorded | Main README, Customer Actors and Organizations READMEs, Fleet Operations Manager, PosiCharge, Business Relationship Ledger |
 | 7 | `70_Research and Evidence` | Reviewed; recorded | Root README, Research README, Source Documents README and dated audit |
-| 8 | `80_Decisions and Planning` | NEXT — not reviewed | |
-| 9 | `90_Definitions and Reusable Reference` | Pending | |
+| 8 | `80_Decisions and Planning` | Reviewed; recorded | Main README, Knowledge Base Backlog, Architecture Improvement Plan, Semantic Linking Completion Plan, ChatReview |
+| 9 | `90_Definitions and Reusable Reference` | NEXT — not reviewed | |
 | 10 | `99_System` | Pending | |
 
 ## Step 1 — 10_Products (reviewed 2026-10-18)
@@ -190,6 +190,29 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Research and Evidence README](../70_Research%20and%20Evidence/README_Research%20and%20Evidence.md).
 
+## Step 8 — 80_Decisions and Planning (reviewed 2026-10-19)
+**Scope:** Canonical decision history, active work control, assumptions, conflicts, findings, migrations, audits and implementation plans; not the underlying research evidence or governed model semantics.
+
+**Sources examined:** `80_Decisions and Planning/README_Decisions and Planning.md`, `Knowledge Base Backlog.md`, `PosiBattery Architecture Improvement Plan.md`, `PosiBattery Semantic Linking Completion Plan.md`, and this `ChatReview.md`. Inventory statistics come from the 2026-10-18 folder audit and predate creation of this review file.
+
+**Inventory at audit:** 19 Markdown files, 107 YAML records, two Base files and one Canvas. Audit classified 18 Markdown files as untyped (15 lacking any frontmatter); current `ChatReview.md` was created afterward with frontmatter. Architecture plan is ~265 KB; semantic-linking plan ~63 KB. One existing YAML decision record fails parsing: `Reusable Definition vs Contextual Architecture Review Step 44 0.1.yaml`.
+
+**Strengths:** Historical 100-step and 28-step roadmaps preserve reasoning, completion evidence, identity and Git recovery rules. Semantic linking completion criteria distinguish active engineering chains from legitimately sparse reference leaves and forbid invented links. Knowledge Base Backlog defines priority (P0–P3), status, dependencies, and definition-of-done categories. README correctly separates decision/work control from source evidence and canonical model meaning.
+
+**Important findings:**
+1. **HIGH — Decision accessibility (F-09).** 107 YAML decision files do not appear in the default Obsidian explorer because `showUnsupportedFiles` is false; standard Bases cannot reveal their record fields. Decide between indexed YAML with generated human-readable views and controlled migration to typed Markdown decision notes; preserve identity and history.
+2. **HIGH — Current work queue stale/fragmented.** Sampled `Knowledge Base Backlog` still marks canonical taxonomy work KB-001 Active and foundational inventory/metadata work Proposed despite completed architectural initiatives. Treat it as needing reconciliation rather than relying on its statuses. Align remaining work with GitHub issues, later plans and new ChatReview findings.
+3. **HIGH — Work-control authority crosses folder boundaries (F-11).** Document Wishlist, Investigation Backlog and conflict logs are still in 70 Research. Decide whether to move work items or generate central views with stable source identities; do not break evidence links.
+4. **MEDIUM — Oversized historical plans (F-08).** Keep entire completion evidence for audit, but generate concise current-state/step-level navigation so readers need not traverse 265 KB historical plan for current tasks.
+5. **MEDIUM — YAML validity.** Repair malformed Step 44 YAML and validate the complete record set; current runtime handoff documents it as nonblocking, not correct.
+6. **MEDIUM — Review capture integration.** ChatReview is intentionally a findings log, not yet approved implementation work. Reconcile its prioritized findings into the authoritative backlog after the main-folder review completes.
+
+**Recommendations:** (1) Decide canonical active backlog/status authority; (2) build accessible decisions index or a governed typed-decision migration; (3) centralize or federate findings/work-control views without duplicating source authorities; (4) generate historical plan summaries; (5) add YAML parsing/record consistency check; (6) consolidate all ten ChatReview folder reviews into a prioritized next-phase roadmap only after Step 10.
+
+**Engineering opportunity:** A coherent engineering knowledge quality control plane: every issue links to affected vault element(s), evidence, decision, owner, priority, gate/validation, implementation commit and closure proof.
+
+**Source:** [Decisions and Planning README](../80_Decisions%20and%20Planning/README_Decisions%20and%20Planning.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -197,4 +220,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–7 completed and documented. **Next:** review `80_Decisions and Planning/README_Decisions and Planning.md`, decisions, work control, active backlog, quality findings, and ChatReview governance. Update this file and commit before requesting 'y' for folder 9.
+**Current checkpoint:** Steps 1–8 completed and documented. **Next:** review `90_Definitions and Reusable Reference/README_Definitions and Reusable Reference.md`, reusable terminology, property definitions, semantic ownership, and references. Update this file and commit before requesting 'y' for folder 10.
