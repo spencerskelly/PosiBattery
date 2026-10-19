@@ -29,8 +29,8 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 | 3 | `30_Product Capabilities` | Reviewed; recorded | Main README plus Product Functions, Product Designs, Performance Metrics, California Regulatory Requirements, Fire and Safety Code Requirements READMEs |
 | 4 | `40_Use and Operations` | Reviewed; recorded | Main README, Start a Shift and Confirm Vehicle Energy Readiness, Charge a BMID-Equipped Battery Using Battery Information, Material-Handling Fleet Site |
 | 5 | `50_Customer Needs` | Reviewed; recorded | Folder README plus Prevent Battery Abuse, Know Battery State, Charge Each Battery Correctly |
-| 6 | `60_Stakeholders and Ecosystem` | NEXT — not reviewed | |
-| 7 | `70_Research and Evidence` | Pending | |
+| 6 | `60_Stakeholders and Ecosystem` | Reviewed; recorded | Main README, Customer Actors and Organizations READMEs, Fleet Operations Manager, PosiCharge, Business Relationship Ledger |
+| 7 | `70_Research and Evidence` | NEXT — not reviewed | |
 | 8 | `80_Decisions and Planning` | Pending | |
 | 9 | `90_Definitions and Reusable Reference` | Pending | |
 | 10 | `99_System` | Pending | |
@@ -142,6 +142,29 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 
 **Source:** [Customer Needs README](../50_Customer%20Needs/README_Customer%20Needs.md).
 
+## Step 6 — 60_Stakeholders and Ecosystem (reviewed 2026-10-19)
+**Scope:** Actor role definitions, organizations, organization-role concepts, business relationships, products and offerings, channels, suppliers, competitors, and source-supported market context.
+
+**Evidence examined:** `60_Stakeholders and Ecosystem/README_Stakeholders and Ecosystem.md`; `Customer Actors/README_Customer Actors.md`; `Organizations/README_Organizations.md`; individual records `Customer Actors/Fleet Operations Manager.md`, `Organizations/PosiCharge.md`, `Organizations/Business Relationship Ledger.md`. Counts from 2026-10-18 README audits.
+
+**Inventory:** 162 recursive Markdown files, 159 model notes (147 Info organization notes, 12 Actor notes), all Draft. Actor records: 2/12 `describedBy`; Organization records: 58/147 `describedBy`, 52/147 link any Document. Domain uses 7 Bases and 3 Canvases. Major hubs: Fleet Operations Manager 60 inbound, PosiCharge 55, Raymond 54, Logisnext Americas 48, Exide Technologies 42 and Crown Equipment 38.
+
+**Strengths:** Actor role distinct from enduring business organization and Product. Relationships discriminate `makes/madeBy`, `offers/offeredBy`, `distributedBy/distributorOf`, `supplierOf/suppliedBy`, `partnerOf`, `integratesWith`, `subsidiaryOf`, `poweredBy`; contextual competition deliberately cannot be inferred merely from overlapping portfolios. Sample PosiCharge record distinguishes internal Ampure portfolio relationships, offerings, manufacturing and technology-powered devices, and explicitly preserves unresolved OEM/licensor ambiguity. Actor note `Fleet Operations Manager` labels inferred buyer/budget-holder role as hypothesis.
+
+**Important findings:**
+1. **HIGH — Organization type transition (F-10).** All 147 Organization entities/role notes are legacy Info records even though a dedicated Organization type is defined; current relationships schema intentionally supports legacy Info endpoints. Choose retain-versus-migrate through controlled schema/Workbench review; do not bulk retype without endpoint, inverse and provenance migration tests.
+2. **HIGH — Ledger vs structured relation authority (F-08).** Business Relationship Ledger (~105 KB) plus Offerings by Organization (~20 KB) duplicate governed links and source statements. Decide if ledger is authoritative evidence/claims while links are derived, or if structured evidence records are authoritative and table is generated. Keep inferred/conflicting claims and source details, not just current links.
+3. **HIGH — Evidence curation (F-02).** 58/147 Organizations have `describedBy`, leaving 89 without; 2/12 Actors have `describedBy`. Prioritize concrete manufacturing, distribution, partnership, private-label and technology origin claims, not abstract roles without a reason for source attribution.
+4. **MEDIUM — Relationship discoverability (F-17).** Several organization relationship names governed by `relationships.yaml` lack Property Definition notes. Resolve documentation/Workbench navigation without inventing custom semantics.
+5. **MEDIUM — Stakeholder validation.** Fleet Operations Manager buyer/budget-holder designation is explicitly analyst-inferred; no assumption about company employment or purchasing authority should be inferred from role participation alone.
+6. **MEDIUM — Navigation (F-13).** Add queries for organization role, product count, region and source coverage, plus Actors lacking linked needs/operational Use Cases; differentiate market-level competitor by offer context.
+
+**Priority recommendations:** (1) Class decision on Organization vs legacy Info with transition tests; (2) settle business relationship claims/provenance authority and generate views; (3) targeted source curation on high-impact relationships; (4) controlled relationship definitions and navigational views; (5) actor and purchaser evidence review.
+
+**Engineering/strategy opportunity:** An evidence-qualified product ecosystem graph showing manufacturer, seller/distributor, licensed technology, group affiliation, integration, private-label provenance and supply concentration. It could expose technical dependencies and partnership/competition opportunities without false global competitor labels.
+
+**Source:** [Stakeholders and Ecosystem README](../60_Stakeholders%20and%20Ecosystem/README_Stakeholders%20and%20Ecosystem.md).
+
 ## Consolidated findings and decisions
 - **Review process decision (2026-10-18):** one main folder per interaction; preserve this file as the running review and resume point.
 - **No engineering changes approved yet.** Findings are review recommendations, not authorized bulk fixes.
@@ -149,4 +172,4 @@ Running record of the sequential review of the PosiBattery main folders, conduct
 - **Potential high-priority repository risk, outside the current two folder reviews:** runtime handoff reports third-party and marked-confidential PDFs in a public repository; handle separately with an owner-controlled redistribution review.
 
 ## Resume instructions
-**Current checkpoint:** Steps 1–5 completed and documented. **Next:** review `60_Stakeholders and Ecosystem` README, its actor/organization subfolders and representative records, including maker/provider roles, participation in needs/operations, provenance and network quality. Update this file and commit before requesting 'y' for folder 7.
+**Current checkpoint:** Steps 1–6 completed and documented. **Next:** review `70_Research and Evidence/README_Research and Evidence.md`, Source Documents, research areas, evidence provenance, and attached document governance. Update this file and commit before requesting 'y' for folder 8.
