@@ -1,6 +1,4 @@
 ---
-type: Info
-subtype: review
 status: Draft
 tags:
   - vault-review
