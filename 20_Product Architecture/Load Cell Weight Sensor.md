@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: component
+subtype: electrical
 id: OBJ-90099
 uid: 20261006171500008skellyspencer
 status: Draft
