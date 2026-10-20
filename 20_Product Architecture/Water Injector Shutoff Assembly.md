@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: assembly
+subtype: mechanical
 id: OBJ-90119
 uid: 20261006191500008skellyspencer
 status: Draft
