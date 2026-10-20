@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: component
+subtype: firmware
 id: OBJ-90123
 uid: 20261006203800007skellyspencer
 status: Draft
