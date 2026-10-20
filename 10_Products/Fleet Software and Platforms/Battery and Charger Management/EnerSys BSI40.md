@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: hardware
+subtype: electrical
 id: OBJ-00439
 uid: 20261013211853498skellyspencer
 status: Draft

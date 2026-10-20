@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: assembly
+subtype: electrical
 id: OBJ-90142
 uid: 20261006223500002skellyspencer
 status: Draft

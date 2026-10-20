@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: unknown
+subtype: electrical
 id: OBJ-00476
 uid: 20261013213455130skellyspencer
 status: Draft

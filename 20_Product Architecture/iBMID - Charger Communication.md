@@ -1,6 +1,6 @@
 ---
 type: Port
-subtype:
+subtype: proxy
 id: PORT-90002
 uid: 20261005130510002skellyspencer
 status: Draft

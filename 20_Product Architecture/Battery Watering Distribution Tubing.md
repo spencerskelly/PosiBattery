@@ -1,6 +1,6 @@
 ---
 type: Object
-subtype: component
+subtype: mechanical
 id: OBJ-90118
 uid: 20261006191500007skellyspencer
 status: Draft
