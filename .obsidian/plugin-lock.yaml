@@ -15,7 +15,7 @@ plugins:
       styles.css: dd7ba34452810f9d39ea03395fae66469decb386de83e6ab66d7a345e42ca645
   mdse-workbench:
     version: "0.1.17"
-    source: "spencerskelly/MDSE_Workbench (built candidate)"
+    source: "MDSE Workbench V1 0.1.17 (built candidate; former spencerskelly/MDSE_Workbench repo, superseded by spencerskelly/MDSE_v2 tools/workbench)"
     settings: default
     sha256:
       main.js: 64ba35f32c4f1d8f540e92dcb9d9160aa2bde41305de12c0acdc6251c7dce3e7
